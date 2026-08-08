@@ -171,9 +171,7 @@ export const ContentHub: React.FC<ContentHubProps> = ({
 
             {/* 3D Glassmorphism Quick Badges */}
             <div 
-              onClick={onOpenSubscribeModal}
-              className="hidden sm:flex items-center gap-3 shrink-0 cursor-pointer hover:scale-105 transition-all"
-              title="Click to Subscribe to YouTube & Telegram Channels"
+              className="hidden sm:flex items-center gap-3 shrink-0"
             >
               <Glass3dIcon type="telegram" size="lg" />
               <Glass3dIcon type="youtube" size="lg" />
@@ -194,25 +192,6 @@ export const ContentHub: React.FC<ContentHubProps> = ({
             </div>
           </div>
         </div>
-      </div>
-
-      {/* Subscribe Callout Banner */}
-      <div className="bg-gradient-to-r from-rose-500/10 via-amber-500/5 to-sky-500/10 border border-rose-200 dark:border-rose-900/50 rounded-2xl p-3.5 sm:p-4 flex flex-col sm:flex-row items-center justify-between gap-3 shadow-xs">
-        <div className="flex items-center gap-3 text-slate-800 dark:text-slate-100">
-          <div className="p-2 bg-rose-500/10 rounded-xl shrink-0">
-            <Youtube className="w-5 h-5 text-rose-600 dark:text-rose-400" />
-          </div>
-          <p className="text-xs sm:text-sm font-bold leading-tight">
-            If you find this website beneficial, please <span className="text-rose-600 dark:text-rose-400 font-extrabold">subscribe to our YouTube channel</span> &amp; <span className="text-sky-600 dark:text-sky-400 font-extrabold">join Telegram</span> for daily free PDF notes &amp; video lectures!
-          </p>
-        </div>
-        <button
-          onClick={onOpenSubscribeModal}
-          className="w-full sm:w-auto shrink-0 bg-gradient-to-r from-rose-600 to-red-600 hover:from-rose-500 hover:to-red-500 text-white font-extrabold text-xs px-4 py-2.5 rounded-xl shadow-xs transition-all cursor-pointer flex items-center justify-center gap-1.5"
-        >
-          <Youtube className="w-4 h-4 fill-white" />
-          <span>Subscribe Channels</span>
-        </button>
       </div>
 
       {/* Minimalist 2-Column Tabs on Mobile */}

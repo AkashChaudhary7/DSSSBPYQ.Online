@@ -111,7 +111,18 @@ export const PromoBanners: React.FC<PromoBannersProps> = ({
       if (banner.isExternal) {
         window.open(banner.link, '_blank', 'noopener,noreferrer');
       } else {
-        window.location.href = banner.link;
+        // Internal navigation without full-page browser refresh
+        if (onNavigateToView) {
+          const target = banner.link.replace(/^\//, '');
+          if (target.includes('tgt-cs') || target.includes('computer-science')) onNavigateToView('tgt-cs-view');
+          else if (target.includes('content')) onNavigateToView('content');
+          else if (target.includes('syllabus')) onNavigateToView('syllabus');
+          else if (target.includes('common-dsssb') || target.includes('general-ability')) onNavigateToView('common-dsssb-view');
+          else onNavigateToView('dashboard');
+        } else {
+          window.history.pushState({}, '', banner.link);
+          window.dispatchEvent(new Event('popstate'));
+        }
       }
     }
   };

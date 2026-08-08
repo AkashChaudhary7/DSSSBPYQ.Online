@@ -697,9 +697,10 @@ export default function SyllabusTracker({
           </div>
         ) : (
           filteredSections.map(section => {
+            if (!section || !section.id) return null;
             const isCollapsed = !!collapsedSections[section.id];
-            const secCompleted = section.items.filter(i => !!checkedIds[i.id]).length;
-            const secTotal = section.items.length;
+            const secCompleted = (section.items || []).filter(i => i && i.id && !!checkedIds[i.id]).length;
+            const secTotal = (section.items || []).length;
             const isSecDone = secCompleted === secTotal;
             const secPercent = secTotal > 0 ? Math.round((secCompleted / secTotal) * 100) : 0;
 

@@ -111,6 +111,7 @@ export const VirtualizedTopicGrid: React.FC<VirtualizedTopicGridProps> = memo(({
               }}
             >
               {rowItems.map(({ item, idx }) => {
+                if (!item || !item.id) return null;
                 const isChecked = !!checkedIds[item.id];
                 const topicNum = idx + 1;
                 const shortTitle = item.title.replace(/^\d+\.\s*/, '');

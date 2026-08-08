@@ -148,6 +148,7 @@ export default function Leaderboard({ attempts, onReattempt, onClearHistory }: L
         ) : (
           <div className="space-y-3 md:space-y-4 max-h-[420px] md:max-h-[550px] overflow-y-auto pr-1">
             {attempts.map((attempt) => {
+              if (!attempt || !attempt.id) return null;
               const isSelected = selectedCompareIds.includes(attempt.id);
 
               return (

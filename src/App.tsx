@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { motion } from 'motion/react';
 import { 
   Trophy, BookOpen, Star, AlertCircle, RefreshCw, Zap, Heart, Search, Github, 
@@ -101,6 +101,8 @@ export default function App() {
   const [selectedExamSlug, setSelectedExamSlug] = useState<string | null>(getExamSlugFromUrl);
   const [selectedQuiz, setSelectedQuiz] = useState<Quiz | null>(null);
 
+  const prevActiveViewRef = useRef(activeView);
+
   // Synchronize browser URL bar, back/forward navigation state, and SEO metadata
   useEffect(() => {
     if (typeof window === 'undefined') return;
@@ -147,6 +149,10 @@ export default function App() {
       targetPath = '/common-dsssb';
       pageTitle = 'Common DSSSB Exam Practice Hub - 100 Marks Part A | DSSSB PYQ Online';
       pageDesc = 'Practice Part A General Ability (100 Marks) common for all DSSSB exams: TGT, PGT, PRT, Nursery, LDC, Steno, and Special Educator.';
+    } else if (activeView === 'teaching-methodology-view') {
+      targetPath = '/teaching-methodology';
+      pageTitle = 'DSSSB Teaching Methodology & Pedagogy Mock Tests | DSSSB PYQ Online';
+      pageDesc = 'Practice Teaching Methodology, Pedagogy, and Child Development questions for DSSSB exams.';
     } else if (activeView === 'part-a-view') {
       targetPath = '/part-a';
       pageTitle = 'DSSSB Part A PYQs & Practice Tests - General Awareness, Reasoning, Quants, English, Hindi | DSSSB PYQ Online';
@@ -189,9 +195,9 @@ export default function App() {
       pageTitle = selectedQuiz ? `${selectedQuiz.title} - Live Practice Test | DSSSB PYQ Online` : 'Live Practice Test - DSSSB PYQ Online';
     }
 
-    const currentFullPath = window.location.pathname + (activeView === 'quiz' ? window.location.search : '') + (activeView === 'content' ? (contentSubTab === 'youtube' ? '#youtube' : '#telegram') : '');
+    const currentFullPath = window.location.pathname + window.location.search + window.location.hash;
     if (currentFullPath !== targetPath) {
-      window.history.pushState({ activeView, contentSubTab }, '', targetPath);
+      window.history.pushState({ activeView, contentSubTab, selectedExamSlug }, '', targetPath);
     }
 
     // Update Document Title
@@ -215,9 +221,12 @@ export default function App() {
     }
     canonicalLink.setAttribute('href', `https://dsssbpyq.online${targetPath}`);
 
-    // Scroll to top when view changes
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }, [activeView, selectedQuiz, contentSubTab]);
+    // Scroll to top ONLY when activeView changes
+    if (prevActiveViewRef.current !== activeView) {
+      prevActiveViewRef.current = activeView;
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }, [activeView, selectedQuiz, contentSubTab, selectedExamSlug]);
 
 
   // Dynamically load AdSense script on desktop / web view only (screen width >= 768px)
@@ -246,8 +255,12 @@ export default function App() {
 
   useEffect(() => {
     const handlePopState = () => {
-      setActiveView(getViewFromUrl());
-      setContentSubTab(getContentSubTabFromUrl());
+      const v = getViewFromUrl();
+      const c = getContentSubTabFromUrl();
+      const s = getExamSlugFromUrl();
+      setActiveView(v);
+      setContentSubTab(c);
+      if (s) setSelectedExamSlug(s);
     };
     window.addEventListener('popstate', handlePopState);
     window.addEventListener('hashchange', handlePopState);
@@ -1312,10 +1325,10 @@ export default function App() {
       return;
     }
     let updated: Bookmark[] = [];
-    const exists = savedBookmarks.some(b => b.quizId === quizId && b.question.id === q.id);
+    const exists = savedBookmarks.some(b => b && b.question && b.quizId === quizId && b.question.id === q.id);
     
     if (exists) {
-      updated = savedBookmarks.filter(b => !(b.quizId === quizId && b.question.id === q.id));
+      updated = savedBookmarks.filter(b => b && b.question && !(b.quizId === quizId && b.question.id === q.id));
     } else {
       updated = [...savedBookmarks, { quizId, quizTitle, question: q }];
     }
@@ -1324,14 +1337,15 @@ export default function App() {
     localStorage.setItem('dsssb_bookmarks', safeStringify(updated));
 
     // Save list of bookmarked question IDs
-    const bookmarkedIds = updated.map(b => `${b.quizId}_q_${b.question.id}`);
+    const bookmarkedIds = updated.filter(b => b && b.question).map(b => `${b.quizId}_q_${b.question.id}`);
     localStorage.setItem('dsssb_bookmarked_question_ids', safeStringify(bookmarkedIds));
   };
 
   // Question Report & Admin Handlers
   const handleReportQuestion = (reportRecord: ReportedQuestionRecord) => {
+    if (!reportRecord || !reportRecord.question) return;
     setReportedQuestions(prev => {
-      const updated = [reportRecord, ...prev.filter(r => r.id !== reportRecord.id)];
+      const updated = [reportRecord, ...prev.filter(r => r && r.id !== reportRecord.id)];
       try {
         localStorage.setItem('dsssb_reported_questions', safeStringify(updated));
       } catch (_) {}
@@ -1353,7 +1367,7 @@ export default function App() {
 
     // Automatically add question to missedQuestions (Wrong / Reported questions)
     setMissedQuestions(prev => {
-      if (prev.some(m => m.id === reportRecord.question.id)) return prev;
+      if (prev.some(m => m && m.id === reportRecord.question.id)) return prev;
       const updated = [...prev, reportRecord.question];
       try {
         localStorage.setItem('dsssb_missed_questions', safeStringify(updated));
@@ -1414,11 +1428,13 @@ export default function App() {
   };
 
   const handleUpdateQuestion = (updatedQ: Question, quizId: string) => {
+    if (!updatedQ) return;
     setStaticQuizzes(prev => prev.map(quiz => {
-      if (quiz.testId === quizId || (quiz.questions || []).some(q => q.id === updatedQ.id)) {
+      if (!quiz) return quiz;
+      if (quiz.testId === quizId || (quiz.questions || []).some(q => q && q.id === updatedQ.id)) {
         return {
           ...quiz,
-          questions: (quiz.questions || []).map(q => q.id === updatedQ.id ? updatedQ : q)
+          questions: (quiz.questions || []).map(q => q && q.id === updatedQ.id ? updatedQ : q)
         };
       }
       return quiz;
@@ -1427,20 +1443,21 @@ export default function App() {
 
   // Helper: Save missed questions to Mistake Vault
   const recordMissedQuestions = (questions: Question[], answers: Record<number, number>) => {
-    const newMissed = [...missedQuestions];
-    questions.forEach(q => {
+    const newMissed = [...missedQuestions].filter(Boolean);
+    (questions || []).forEach(q => {
+      if (!q || q.id === undefined) return;
       const userAns = answers[q.id];
       const isIncorrect = userAns !== undefined && userAns !== q.answer;
       
       if (isIncorrect) {
         // Prevent duplicate questions in mistake vault
-        const exists = newMissed.some(m => m.id === q.id && m.question === q.question);
+        const exists = newMissed.some(m => m && m.id === q.id && m.question === q.question);
         if (!exists) {
           newMissed.push(q);
         }
       } else if (userAns === q.answer) {
         // If they get it correct later, remove it from mistake vault
-        const idx = newMissed.findIndex(m => m.id === q.id && m.question === q.question);
+        const idx = newMissed.findIndex(m => m && m.id === q.id && m.question === q.question);
         if (idx !== -1) {
           newMissed.splice(idx, 1);
         }
@@ -1451,7 +1468,7 @@ export default function App() {
     localStorage.setItem('dsssb_missed_questions', safeStringify(newMissed));
 
     // Save incorrect question IDs explicitly
-    const incorrectKeys = newMissed.map(mq => mq.id);
+    const incorrectKeys = newMissed.map(mq => mq?.id).filter(Boolean);
     localStorage.setItem('dsssb_incorrect_question_ids', safeStringify(incorrectKeys));
   };
 
@@ -2170,7 +2187,6 @@ export default function App() {
             initialTab={contentSubTab}
             onNavigateToTab={(tab) => {
               setContentSubTab(tab);
-              window.location.hash = `/content#${tab}`;
             }}
             onOpenSubscribeModal={() => setShowSubscribeModal(true)}
           />
@@ -3674,82 +3690,135 @@ export default function App() {
       {!['quiz', 'result', 'solution-review'].includes(activeView) && (
         <nav
           aria-label="Mobile Bottom Navigation"
-          className="fixed bottom-0 left-0 right-0 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-t border-slate-200/90 dark:border-slate-800/90 shadow-[0_-4px_20px_rgba(0,0,0,0.07)] px-2 py-2 flex items-center justify-around z-40 md:hidden pb-[calc(0.5rem+env(safe-area-inset-bottom,0px))]"
+          className="fixed bottom-0 left-0 right-0 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-t border-slate-200/90 dark:border-slate-800/90 shadow-[0_-4px_20px_rgba(0,0,0,0.07)] px-2 py-1.5 flex items-center justify-around z-40 md:hidden pb-[calc(0.5rem+env(safe-area-inset-bottom,0px))]"
         >
-          <button
-            type="button"
-            onClick={() => {
-              triggerHaptic(12);
-              setActiveView('dashboard');
-            }}
-            onTouchStart={() => triggerHaptic(8)}
-            className={`flex flex-col items-center justify-center py-1.5 px-2.5 transition-all duration-200 cursor-pointer rounded-2xl active:scale-95 ${
-              ['dashboard', 'part-a-view', 'part-b-view', 'full-mock-view'].includes(activeView)
-                ? 'text-blue-600 dark:text-blue-400 bg-blue-50/80 dark:bg-blue-950/40 font-extrabold scale-105'
-                : 'text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-slate-200 font-semibold'
-            }`}
-          >
-            <Trophy className={`w-5 h-5 ${['dashboard', 'part-a-view', 'part-b-view', 'full-mock-view'].includes(activeView) ? 'fill-blue-100 dark:fill-blue-950/30 text-blue-600 dark:text-blue-400' : ''}`} />
-            <span className="text-[10px] font-bold mt-0.5 whitespace-nowrap">BytePrep : CS</span>
-          </button>
-
-          <button
-            type="button"
-            onClick={() => {
-              triggerHaptic(12);
-              setActiveView('syllabus');
-            }}
-            onTouchStart={() => triggerHaptic(8)}
-            className={`flex items-center justify-center p-3 transition-all duration-200 cursor-pointer rounded-2xl active:scale-95 ${
-              activeView === 'syllabus'
-                ? 'text-amber-600 dark:text-amber-400 bg-amber-50/80 dark:bg-amber-950/40 font-extrabold scale-105'
-                : 'text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-slate-200 font-semibold'
-            }`}
-          >
-            <ListTodo className={`w-5 h-5 ${activeView === 'syllabus' ? 'text-amber-600 dark:text-amber-400' : ''}`} />
-            <span className="sr-only">Syllabus</span>
-          </button>
-
-          <button
-            type="button"
-            onClick={() => {
-              triggerHaptic(12);
-              setActiveView('adaptive-path');
-            }}
-            onTouchStart={() => triggerHaptic(8)}
-            className={`flex items-center justify-center p-3 transition-all duration-200 cursor-pointer rounded-2xl active:scale-95 ${
-              activeView === 'adaptive-path'
-                ? 'text-indigo-600 dark:text-indigo-400 bg-indigo-50/80 dark:bg-indigo-950/40 font-extrabold scale-105'
-                : 'text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-slate-200 font-semibold'
-            }`}
-          >
-            <Sparkles className={`w-5 h-5 ${activeView === 'adaptive-path' ? 'fill-indigo-100 dark:fill-indigo-950/30 text-indigo-600 dark:text-indigo-400' : ''}`} />
-            <span className="sr-only">AI Analysis</span>
-          </button>
-
-          <button
-            type="button"
-            onClick={() => {
-              triggerHaptic(12);
-              setActiveView('bookmarks');
-            }}
-            onTouchStart={() => triggerHaptic(8)}
-            className={`flex items-center justify-center p-3 transition-all duration-200 cursor-pointer rounded-2xl active:scale-95 ${
-              activeView === 'bookmarks'
-                ? 'text-blue-600 dark:text-blue-400 bg-blue-50/80 dark:bg-blue-950/40 font-extrabold scale-105'
-                : 'text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-slate-200 font-semibold'
-            }`}
-          >
-            <div className="relative">
-              <Star className={`w-5 h-5 ${activeView === 'bookmarks' ? 'fill-blue-100 dark:fill-blue-950/30 text-blue-600 dark:text-blue-400' : ''}`} />
-              {savedBookmarks.length > 0 && (
-                <span className="absolute -top-1.5 -right-2 bg-blue-600 dark:bg-blue-500 text-white font-extrabold text-[8px] px-1 rounded-full min-w-4 h-4 flex items-center justify-center shadow-xs">
-                  {savedBookmarks.length}
+          {[
+            {
+              id: 'home',
+              label: 'BytePrep : CS',
+              icon: Trophy,
+              isActive: ['dashboard', 'part-a-view', 'part-b-view', 'full-mock-view', 'tgt-cs-view', 'common-dsssb-view', 'teaching-methodology-view'].includes(activeView),
+              onClick: () => {
+                triggerHaptic(12);
+                if (['dashboard', 'part-a-view', 'part-b-view', 'full-mock-view', 'tgt-cs-view', 'common-dsssb-view', 'teaching-methodology-view'].includes(activeView)) {
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                } else {
+                  setActiveView('dashboard');
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+              },
+              activeColor: 'text-blue-600 dark:text-blue-400',
+              activeBg: 'bg-blue-50/90 dark:bg-blue-950/50 border-blue-200/60 dark:border-blue-800/60',
+            },
+            {
+              id: 'syllabus',
+              label: 'Syllabus',
+              icon: ListTodo,
+              isActive: activeView === 'syllabus',
+              onClick: () => {
+                triggerHaptic(12);
+                if (activeView === 'syllabus') {
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                } else {
+                  setActiveView('syllabus');
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+              },
+              activeColor: 'text-amber-600 dark:text-amber-400',
+              activeBg: 'bg-amber-50/90 dark:bg-amber-950/50 border-amber-200/60 dark:border-amber-800/60',
+            },
+            {
+              id: 'booster',
+              label: 'AI Booster',
+              icon: Sparkles,
+              isActive: activeView === 'adaptive-path',
+              onClick: () => {
+                triggerHaptic(12);
+                if (activeView === 'adaptive-path') {
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                } else {
+                  setActiveView('adaptive-path');
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+              },
+              activeColor: 'text-indigo-600 dark:text-indigo-400',
+              activeBg: 'bg-indigo-50/90 dark:bg-indigo-950/50 border-indigo-200/60 dark:border-indigo-800/60',
+            },
+            {
+              id: 'community',
+              label: 'Community',
+              icon: Send,
+              isActive: activeView === 'content',
+              onClick: () => {
+                triggerHaptic(12);
+                if (activeView === 'content') {
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                } else {
+                  setActiveView('content');
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+              },
+              activeColor: 'text-sky-600 dark:text-sky-400',
+              activeBg: 'bg-sky-50/90 dark:bg-sky-950/50 border-sky-200/60 dark:border-sky-800/60',
+            },
+            {
+              id: 'bookmarks',
+              label: 'Saved',
+              badge: savedBookmarks.length,
+              icon: Star,
+              isActive: activeView === 'bookmarks',
+              onClick: () => {
+                triggerHaptic(12);
+                if (activeView === 'bookmarks') {
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                } else {
+                  setActiveView('bookmarks');
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+              },
+              activeColor: 'text-purple-600 dark:text-purple-400',
+              activeBg: 'bg-purple-50/90 dark:bg-purple-950/50 border-purple-200/60 dark:border-purple-800/60',
+            },
+          ].map((item) => {
+            const IconComponent = item.icon;
+            return (
+              <motion.button
+                key={item.id}
+                type="button"
+                whileTap={{ scale: 0.92 }}
+                onClick={item.onClick}
+                onTouchStart={() => triggerHaptic(8)}
+                className={`relative flex flex-col items-center justify-center py-1.5 px-2 transition-colors cursor-pointer rounded-2xl min-w-[58px] ${
+                  item.isActive
+                    ? `${item.activeColor} font-extrabold`
+                    : 'text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-slate-200 font-semibold'
+                }`}
+              >
+                {item.isActive && (
+                  <motion.div
+                    layoutId="mobileNavPill"
+                    className={`absolute inset-0 rounded-2xl border shadow-2xs ${item.activeBg}`}
+                    transition={{ type: "spring", stiffness: 450, damping: 35 }}
+                  />
+                )}
+                <motion.div
+                  animate={item.isActive ? { scale: [1, 1.2, 1], y: [0, -2, 0] } : { scale: 1, y: 0 }}
+                  transition={{ duration: 0.28 }}
+                  className="relative z-10"
+                >
+                  <IconComponent className={`w-5 h-5 ${item.isActive ? 'fill-current opacity-90' : ''}`} />
+                  {item.badge !== undefined && item.badge > 0 && (
+                    <span className="absolute -top-1.5 -right-2.5 bg-blue-600 dark:bg-blue-500 text-white font-extrabold text-[8px] px-1 rounded-full min-w-4 h-4 flex items-center justify-center shadow-xs">
+                      {item.badge}
+                    </span>
+                  )}
+                </motion.div>
+                <span className="relative z-10 text-[10px] font-bold mt-0.5 whitespace-nowrap tracking-tight">
+                  {item.label}
                 </span>
-              )}
-            </div>
-            <span className="sr-only">Bookmarks</span>
-          </button>
+              </motion.button>
+            );
+          })}
         </nav>
       )}
 

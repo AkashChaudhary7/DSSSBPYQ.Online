@@ -315,7 +315,8 @@ export function importUserDataPackage(pkg: UserProgressBackupPackage, mergeMode:
       const bmSet = new Set<string>();
       const combined: Bookmark[] = [];
       [...existing, ...finalBookmarks].forEach(bm => {
-        const key = `${bm.quizId}_${bm.question?.id}`;
+        if (!bm || !bm.question) return;
+        const key = `${bm.quizId}_${bm.question?.id || bm.question?.question}`;
         if (!bmSet.has(key)) {
           bmSet.add(key);
           combined.push(bm);
@@ -332,7 +333,8 @@ export function importUserDataPackage(pkg: UserProgressBackupPackage, mergeMode:
       const qSet = new Set<string>();
       const combined: Question[] = [];
       [...existing, ...finalMissed].forEach(q => {
-        const key = `${q.id}_${q.question}`;
+        if (!q) return;
+        const key = `${q.id || ''}_${q.question || ''}`;
         if (!qSet.has(key)) {
           qSet.add(key);
           combined.push(q);

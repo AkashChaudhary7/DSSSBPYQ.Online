@@ -153,7 +153,7 @@ export default function QuizInterface({
   useEffect(() => {
     const bMap: Record<number, boolean> = { ...(initialSessionState?.localBookmarks || {}) };
     savedBookmarks.forEach(b => {
-      if (b.quizId === quiz.testId) {
+      if (b && b.question && b.question.id !== undefined && b.quizId === quiz.testId) {
         bMap[b.question.id] = true;
       }
     });
@@ -242,9 +242,13 @@ export default function QuizInterface({
     }
   };
 
-  const isCurrentBookmarked = !!localBookmarks[currentQuestion.id] || savedBookmarks.some(b => 
-    (b.quizId === quiz.testId && b.question.id === currentQuestion.id) ||
-    (b.question && b.question.question === currentQuestion.question)
+  const isCurrentBookmarked = !!currentQuestion && (
+    !!localBookmarks[currentQuestion.id] || savedBookmarks.some(b => 
+      b && b.question && (
+        (b.quizId === quiz.testId && b.question.id === currentQuestion.id) ||
+        (b.question.question === currentQuestion.question)
+      )
+    )
   );
 
   const toggleBookmark = () => {
