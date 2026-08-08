@@ -30,10 +30,10 @@ export interface PromoBannerConfig {
 export const DEFAULT_PROMO_BANNERS: PromoBannerConfig[] = [
   {
     id: 'telegram-promo',
-    title: 'GET PROMOS & FREE PDFs IN TELEGRAM',
+    title: 'GET PROMOS ON TELEGRAM',
     subtitle: 'Daily PDF Notes, PYQs & Official Updates',
     badge: 'Telegram Channel',
-    buttonText: 'Join Now →',
+    buttonText: 'Join Now',
     link: 'https://t.me/+k4QlJ1RnZl9lNWY9',
     isExternal: true,
     gradient: 'from-sky-500 via-blue-600 to-indigo-600',
@@ -42,10 +42,10 @@ export const DEFAULT_PROMO_BANNERS: PromoBannerConfig[] = [
   },
   {
     id: 'youtube-promo',
-    title: 'FREE YOUTUBE LECTURES & PYQ SOLUTIONS',
+    title: 'FREE YOUTUBE LECTURES',
     subtitle: 'DSSSB TGT CS Complete Subject Playlists',
     badge: 'YouTube Channel',
-    buttonText: 'Subscribe →',
+    buttonText: 'Subscribe',
     link: 'https://www.youtube.com/@dsssbpyqonline',
     isExternal: true,
     gradient: 'from-rose-500 via-red-600 to-amber-600',
@@ -54,10 +54,10 @@ export const DEFAULT_PROMO_BANNERS: PromoBannerConfig[] = [
   },
   {
     id: 'tgt-cs-promo',
-    title: 'DSSSB TGT CS 2026 MOCK TEST SERIES',
-    subtitle: 'Computer Science + General Ability CBT Practice',
-    badge: 'Updated CBT Pattern',
-    buttonText: 'Start Tests →',
+    title: 'TGT CS MOCK TESTS',
+    subtitle: 'Computer Science + General Ability Practice',
+    badge: 'CBT Pattern',
+    buttonText: 'Start Tests',
     actionType: 'tgt_cs',
     gradient: 'from-amber-500 via-orange-500 to-yellow-600',
     badgeBg: 'bg-slate-900/30 text-amber-100',
@@ -66,10 +66,10 @@ export const DEFAULT_PROMO_BANNERS: PromoBannerConfig[] = [
   },
   {
     id: 'syllabus-promo',
-    title: 'NEW UPDATES ON WEBSITE & SYLLABUS',
-    subtitle: 'Part A & Part B Syllabus Tracker with Notes',
+    title: 'SYLLABUS TRACKER',
+    subtitle: 'Part A & Part B Syllabus Notes',
     badge: 'Live Tracker',
-    buttonText: 'Explore More →',
+    buttonText: 'Explore',
     actionType: 'syllabus',
     gradient: 'from-indigo-600 via-purple-600 to-sky-600',
     badgeBg: 'bg-white/20 text-white',
@@ -139,7 +139,7 @@ export const PromoBanners: React.FC<PromoBannersProps> = ({
           <div
             key={banner.id}
             onClick={() => handleBannerClick(banner)}
-            className={`group relative overflow-hidden rounded-xl sm:rounded-3xl p-2.5 sm:p-5 bg-gradient-to-br ${banner.gradient} text-white shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 cursor-pointer flex-col justify-between min-h-[105px] sm:min-h-[160px] border border-white/10 ${
+            className={`group relative overflow-hidden rounded-xl sm:rounded-3xl p-2 sm:p-5 bg-gradient-to-br ${banner.gradient} text-white shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 cursor-pointer flex-col justify-between min-h-[78px] sm:min-h-[160px] border border-white/10 ${
               banner.hideOnMobile ? 'hidden sm:flex' : 'flex'
             }`}
           >
@@ -170,25 +170,25 @@ export const PromoBanners: React.FC<PromoBannersProps> = ({
             </div>
 
             {/* Middle Content: Title & Subtitle */}
-            <div className="space-y-0.5 my-1 sm:my-2 relative z-10">
-              <h4 className="text-[11px] sm:text-base font-black leading-tight tracking-tight drop-shadow-xs group-hover:text-amber-200 transition-colors line-clamp-2">
+            <div className="space-y-0.5 my-0.5 sm:my-2 relative z-10">
+              <h4 className="text-[10px] sm:text-base font-black leading-tight tracking-tight drop-shadow-xs group-hover:text-amber-200 transition-colors line-clamp-2">
                 {banner.title}
               </h4>
               {banner.subtitle && (
-                <p className="text-[9px] sm:text-xs text-white/90 font-medium line-clamp-1 sm:line-clamp-2 leading-tight">
+                <p className="hidden sm:block text-xs text-white/90 font-medium line-clamp-2 leading-tight">
                   {banner.subtitle}
                 </p>
               )}
             </div>
 
             {/* Bottom Row: Call to Action Pill Button */}
-            <div className="pt-1 sm:pt-2 relative z-10 flex items-center justify-between">
-              <span className="inline-flex items-center gap-1 bg-white text-slate-900 font-extrabold text-[9px] sm:text-[11px] px-2.5 sm:px-3.5 py-1 sm:py-1.5 rounded-full shadow-md group-hover:bg-amber-300 group-hover:text-slate-950 transition-all">
+            <div className="pt-0.5 sm:pt-2 relative z-10 flex items-center justify-between">
+              <span className="inline-flex items-center gap-0.5 sm:gap-1 bg-white text-slate-900 font-extrabold text-[8px] sm:text-[11px] px-2 sm:px-3.5 py-0.5 sm:py-1.5 rounded-full shadow-md group-hover:bg-amber-300 group-hover:text-slate-950 transition-all">
                 <span>{banner.buttonText}</span>
                 {banner.isExternal ? (
-                  <ExternalLink className="w-2.5 h-2.5 sm:w-3 sm:h-3 opacity-80" />
+                  <ExternalLink className="w-2 h-2 sm:w-3 sm:h-3 opacity-80" />
                 ) : (
-                  <ChevronRight className="w-3 h-3 sm:w-3.5 sm:h-3.5 group-hover:translate-x-0.5 transition-transform" />
+                  <ChevronRight className="w-2.5 h-2.5 sm:w-3.5 sm:h-3.5 group-hover:translate-x-0.5 transition-transform" />
                 )}
               </span>
             </div>
