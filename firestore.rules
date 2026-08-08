@@ -1,0 +1,19 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Global Safety Net
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Secure path for analytics
+    match /analytics/global {
+      allow read, write: if true;
+    }
+
+    // Secure path for custom uploaded quizzes
+    match /custom_quizzes/{quizId} {
+      allow read, write: if true;
+    }
+  }
+}
