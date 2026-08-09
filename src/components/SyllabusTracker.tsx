@@ -630,54 +630,6 @@ export default function SyllabusTracker({
         </div>
       </div>
 
-      {/* 32 DOE Computer Science Modules Circular Progress Grid */}
-      {currentExam.sections.some(s => s.id === 'part_b_doe_cs') && (
-        <div className="bg-gradient-to-br from-slate-900 via-slate-950 to-indigo-950 border-2 border-indigo-500/40 rounded-3xl p-5 md:p-6 text-white shadow-lg space-y-4">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-indigo-800/50 pb-3">
-            <div className="space-y-0.5">
-              <div className="flex items-center gap-2">
-                <span className="bg-amber-400 text-slate-950 text-[10px] font-black px-2 py-0.5 rounded uppercase">
-                  DOE 2026 Prescribed
-                </span>
-                <span className="text-xs text-indigo-200 font-bold">32 Modules Progress Dashboard</span>
-              </div>
-              <h2 className="text-base md:text-lg font-black tracking-tight text-white flex items-center gap-2">
-                <Cpu className="w-5 h-5 text-amber-400" />
-                <span>32 Computer Science Modules Progress Rings</span>
-              </h2>
-            </div>
-
-            <div className="flex items-center gap-3 bg-indigo-900/60 border border-indigo-700/60 px-3 py-1.5 rounded-2xl shrink-0">
-              <CircularProgressRing 
-                percentage={
-                  Math.round(
-                    (currentExam.sections.find(s => s.id === 'part_b_doe_cs')?.items.filter(i => !!checkedIds[i.id]).length || 0) / 32 * 100
-                  )
-                } 
-                size={36} 
-                strokeWidth={3.5} 
-              />
-              <div className="text-left">
-                <p className="text-[10px] text-indigo-300 font-bold uppercase">CS Coverage</p>
-                <p className="text-xs font-black text-amber-300">
-                  {currentExam.sections.find(s => s.id === 'part_b_doe_cs')?.items.filter(i => !!checkedIds[i.id]).length || 0} / 32 Done
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <p className="text-xs text-slate-300">
-            Interactive virtualized progress rings for each of the 32 Computer Science syllabus modules. Tap any module ring to toggle completion or jump to details.
-          </p>
-
-          <VirtualizedTopicGrid 
-            items={currentExam.sections.find(s => s.id === 'part_b_doe_cs')?.items || []}
-            checkedIds={checkedIds}
-            onToggle={toggleItem}
-          />
-        </div>
-      )}
-
       {/* Accordion Sections & Checklists */}
       <div className="space-y-6">
         {filteredSections.length === 0 ? (

@@ -38,7 +38,7 @@ export default function FooterWithCompliance({ onOpenSubscribeModal }: FooterWit
             <h4 className="text-[10px] md:text-xs font-black text-slate-400 uppercase tracking-widest flex items-center gap-1.5">
               <span>Connect With Us</span>
             </h4>
-            <div className="flex items-center gap-3 pt-1">
+            <div className="flex items-center gap-1.5 sm:gap-3 pt-1 flex-nowrap overflow-x-auto">
               <button 
                 onClick={() => {
                   if (onOpenSubscribeModal) {
@@ -47,11 +47,11 @@ export default function FooterWithCompliance({ onOpenSubscribeModal }: FooterWit
                     window.open('https://t.me/+k4QlJ1RnZl9lNWY9', '_blank');
                   }
                 }}
-                className="flex items-center gap-2 bg-slate-800/80 hover:bg-slate-800 border border-slate-700/80 hover:border-sky-500/50 px-3 py-2 rounded-2xl transition-all shadow-[0_3px_0_0_#0f172a] active:translate-y-0.5 cursor-pointer"
+                className="flex items-center gap-1.5 bg-slate-800/80 hover:bg-slate-800 border border-slate-700/80 hover:border-sky-500/50 px-2.5 py-1.5 sm:px-3 sm:py-2 rounded-xl transition-all shadow-[0_3px_0_0_#0f172a] active:translate-y-0.5 cursor-pointer shrink-0"
                 title="Join Official Telegram"
               >
-                <Glass3dIcon type="telegram" size="sm" />
-                <span className="text-xs font-bold text-sky-400">Telegram</span>
+                <Glass3dIcon type="telegram" size="xs" />
+                <span className="text-[11px] sm:text-xs font-bold text-sky-400">Telegram</span>
               </button>
 
               <button 
@@ -62,21 +62,21 @@ export default function FooterWithCompliance({ onOpenSubscribeModal }: FooterWit
                     window.open('https://www.youtube.com/@dsssbpyqonline', '_blank');
                   }
                 }}
-                className="flex items-center gap-2 bg-slate-800/80 hover:bg-slate-800 border border-slate-700/80 hover:border-rose-500/50 px-3 py-2 rounded-2xl transition-all shadow-[0_3px_0_0_#0f172a] active:translate-y-0.5 cursor-pointer"
+                className="flex items-center gap-1.5 bg-slate-800/80 hover:bg-slate-800 border border-slate-700/80 hover:border-rose-500/50 px-2.5 py-1.5 sm:px-3 sm:py-2 rounded-xl transition-all shadow-[0_3px_0_0_#0f172a] active:translate-y-0.5 cursor-pointer shrink-0"
                 title="YouTube Channel"
               >
-                <Glass3dIcon type="youtube" size="sm" />
-                <span className="text-xs font-bold text-rose-400">YouTube</span>
+                <Glass3dIcon type="youtube" size="xs" />
+                <span className="text-[11px] sm:text-xs font-bold text-rose-400">YouTube</span>
               </button>
 
               <a 
                 href="https://dsssbpyq.online" 
                 target="_blank" 
                 rel="noreferrer" 
-                className="p-2 bg-slate-800/80 hover:bg-slate-800 border border-slate-700/80 hover:border-blue-500/50 rounded-2xl transition-all shadow-[0_3px_0_0_#0f172a] active:translate-y-0.5 cursor-pointer flex items-center justify-center"
+                className="p-1.5 sm:p-2 bg-slate-800/80 hover:bg-slate-800 border border-slate-700/80 hover:border-blue-500/50 rounded-xl transition-all shadow-[0_3px_0_0_#0f172a] active:translate-y-0.5 cursor-pointer flex items-center justify-center shrink-0"
                 title="Official Website"
               >
-                <Globe className="w-5 h-5 text-blue-400" />
+                <Globe className="w-4 h-4 sm:w-5 sm:h-5 text-blue-400" />
               </a>
             </div>
           </div>

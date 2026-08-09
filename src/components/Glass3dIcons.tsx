@@ -2,7 +2,7 @@ import React from 'react';
 
 interface Glass3dIconProps {
   type: 'telegram' | 'youtube' | 'calculator' | 'points' | 'bell' | 'target' | 'calendar' | 'lock' | 'wallet' | 'books' | 'trophy' | 'search' | 'shield' | 'flame' | 'fire' | 'star' | 'brain' | 'sparkles' | 'rocket' | 'code' | 'computer' | 'lightning';
-  size?: 'sm' | 'md' | 'lg' | 'xl' | number;
+  size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl' | number;
   className?: string;
 }
 
@@ -11,6 +11,7 @@ interface Glass3dIconProps {
  */
 export const Glass3dIcon: React.FC<Glass3dIconProps> = ({ type, size = 'md', className = '' }) => {
   const sizeClasses: Record<string, string> = {
+    xs: 'w-6 h-6 text-xs rounded-lg',
     sm: 'w-8 h-8 text-base rounded-xl',
     md: 'w-12 h-12 text-2xl rounded-2xl',
     lg: 'w-16 h-16 text-3xl rounded-2xl',

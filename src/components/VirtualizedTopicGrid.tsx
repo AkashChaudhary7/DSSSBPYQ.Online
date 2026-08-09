@@ -167,107 +167,17 @@ export const VirtualizedTopicList: React.FC<VirtualizedTopicListProps> = memo(({
   onToggle,
   onNavigateToView
 }) => {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [scrollTop, setScrollTop] = useState(0);
-  const [containerHeight, setContainerHeight] = useState(400);
-
-  // If item count is small (<= 8), render directly without virtualization container overhead
-  const isSmallList = items.length <= 8;
-
-  useEffect(() => {
-    if (isSmallList) return;
-    const container = containerRef.current;
-    if (!container) return;
-
-    const updateHeight = () => {
-      setContainerHeight(container.clientHeight || 400);
-    };
-
-    updateHeight();
-
-    const resizeObserver = new ResizeObserver(() => {
-      updateHeight();
-    });
-
-    resizeObserver.observe(container);
-
-    return () => {
-      resizeObserver.disconnect();
-    };
-  }, [isSmallList]);
-
-  const handleScroll = (e: React.UIEvent<HTMLDivElement>) => {
-    if (isSmallList) return;
-    const target = e.currentTarget;
-    requestAnimationFrame(() => {
-      setScrollTop(target.scrollTop);
-    });
-  };
-
-  const itemHeight = 82; // Estimated height for topic card
-  const totalHeight = items.length * itemHeight;
-
-  const overscan = 3;
-  const startIndex = isSmallList ? 0 : Math.max(0, Math.floor(scrollTop / itemHeight) - overscan);
-  const endIndex = isSmallList ? items.length - 1 : Math.min(items.length - 1, Math.ceil((scrollTop + containerHeight) / itemHeight) + overscan);
-
-  const visibleItems = useMemo(() => {
-    const list = [];
-    for (let i = startIndex; i <= endIndex; i++) {
-      if (items[i]) {
-        list.push({ item: items[i], index: i });
-      }
-    }
-    return list;
-  }, [items, startIndex, endIndex]);
-
-  if (isSmallList) {
-    return (
-      <div className="divide-y divide-slate-100 p-2 sm:p-3">
-        {items.map((item) => (
-          <TopicListItem 
-            key={item.id}
-            item={item}
-            isChecked={!!checkedIds[item.id]}
-            onToggle={onToggle}
-            onNavigateToView={onNavigateToView}
-          />
-        ))}
-      </div>
-    );
-  }
-
   return (
-    <div
-      ref={containerRef}
-      onScroll={handleScroll}
-      className="max-h-[480px] overflow-y-auto pr-1 scrollbar-thin relative p-2 sm:p-3"
-      style={{ willChange: 'transform' }}
-    >
-      <div style={{ height: `${totalHeight}px`, position: 'relative', width: '100%' }}>
-        {visibleItems.map(({ item, index }) => {
-          const top = index * itemHeight;
-          return (
-            <div
-              key={item.id}
-              style={{
-                position: 'absolute',
-                top: `${top}px`,
-                left: 0,
-                right: 0,
-                height: `${itemHeight - 6}px`
-              }}
-            >
-              <TopicListItem 
-                item={item}
-                isChecked={!!checkedIds[item.id]}
-                onToggle={onToggle}
-                onNavigateToView={onNavigateToView}
-              />
-            </div>
-          );
-        })}
-      </div>
+    <div className="divide-y divide-slate-100 p-2 sm:p-3 flex flex-col gap-1.5">
+      {items.map((item) => (
+        <TopicListItem 
+          key={item.id}
+          item={item}
+          isChecked={!!checkedIds[item.id]}
+          onToggle={onToggle}
+          onNavigateToView={onNavigateToView}
+        />
+      ))}
     </div>
   );
 });
@@ -290,10 +200,10 @@ const TopicListItem: React.FC<TopicListItemProps> = memo(({
   return (
     <div 
       onClick={() => onToggle(item.id)}
-      className={`p-3.5 rounded-xl transition-all flex items-start justify-between gap-3 cursor-pointer group select-none h-full ${
+      className={`p-3.5 rounded-xl transition-all flex items-start justify-between gap-3 cursor-pointer group select-none h-auto border ${
         isChecked 
-          ? 'bg-emerald-50/40 hover:bg-emerald-50/70 border border-emerald-200/50' 
-          : 'hover:bg-slate-50 border border-transparent'
+          ? 'bg-emerald-50/40 hover:bg-emerald-50/70 border-emerald-200/50' 
+          : 'hover:bg-slate-50 border-transparent'
       }`}
     >
       <div className="flex items-start gap-3 min-w-0 flex-1">
@@ -330,7 +240,7 @@ const TopicListItem: React.FC<TopicListItemProps> = memo(({
                 {item.code}
               </span>
             )}
-            <h4 className={`text-xs sm:text-sm font-bold transition-colors line-clamp-1 ${
+            <h4 className={`text-xs sm:text-sm font-bold transition-colors line-clamp-3 ${
               isChecked ? 'text-slate-500 line-through' : 'text-slate-900'
             }`}>
               {item.title}
@@ -350,7 +260,7 @@ const TopicListItem: React.FC<TopicListItemProps> = memo(({
           </div>
 
           {item.description && (
-            <p className={`text-xs leading-relaxed line-clamp-1 ${
+            <p className={`text-xs leading-relaxed line-clamp-3 ${
               isChecked ? 'text-slate-500' : 'text-slate-600'
             }`}>
               {item.description}

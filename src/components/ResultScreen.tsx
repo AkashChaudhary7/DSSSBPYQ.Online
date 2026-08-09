@@ -251,40 +251,40 @@ export default function ResultScreen({
             <h2 className="text-xl md:text-2xl font-extrabold text-slate-800 tracking-tight leading-tight display-font">
               {quiz.title}
             </h2>
-            <p className="text-xs text-slate-500 font-semibold flex items-center gap-1">
+            <div className="text-xs text-slate-500 font-semibold flex flex-wrap items-center gap-x-2 gap-y-1">
               <span>Time Taken: {minutes}m {seconds}s</span>
-              <span>•</span>
+              <span className="hidden sm:inline text-slate-300">•</span>
               <span>Marking Rules Applied (+1.00 for Correct, -0.25 for Incorrect)</span>
-            </p>
+            </div>
           </div>
 
-          <div className="flex items-center gap-3 shrink-0 flex-wrap" data-no-export="true">
+          <div className="grid grid-cols-3 gap-1.5 md:flex md:items-center md:gap-3 shrink-0 w-full md:w-auto" data-no-export="true">
             <button
               onClick={handleShareScore}
               disabled={shareScoreGenerating}
-              className="bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-bold py-2.5 px-4 rounded-xl text-xs transition-all flex items-center gap-1.5 cursor-pointer hover:shadow-sm disabled:opacity-50"
+              className="bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-extrabold py-2 px-1 sm:py-2.5 sm:px-4 rounded-xl text-[10px] sm:text-xs transition-all flex items-center justify-center gap-1 sm:gap-1.5 cursor-pointer hover:shadow-sm disabled:opacity-50 w-full"
               title="Share Score Image"
             >
-              <Share2 className="w-4 h-4" />
-              {shareScoreGenerating ? 'Generating...' : 'Share Score'}
+              <Share2 className="w-3.5 h-3.5 sm:w-4 sm:h-4 shrink-0" />
+              <span className="truncate">{shareScoreGenerating ? 'Wait...' : 'Share Score'}</span>
             </button>
 
             <button
               onClick={handleShareChallenge}
               disabled={shareChallengeGenerating}
-              className="bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 text-white font-bold py-2.5 px-4 rounded-xl text-xs transition-all flex items-center gap-1.5 cursor-pointer hover:shadow-sm disabled:opacity-50"
+              className="bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 text-white font-extrabold py-2 px-1 sm:py-2.5 sm:px-4 rounded-xl text-[10px] sm:text-xs transition-all flex items-center justify-center gap-1 sm:gap-1.5 cursor-pointer hover:shadow-sm disabled:opacity-50 w-full"
               title="Share Challenge Image"
             >
-              <Share2 className="w-4 h-4" />
-              {shareChallengeGenerating ? 'Generating...' : 'Share Challenge'}
+              <Share2 className="w-3.5 h-3.5 sm:w-4 sm:h-4 shrink-0" />
+              <span className="truncate">{shareChallengeGenerating ? 'Wait...' : 'Share Chal.'}</span>
             </button>
 
             <button
               onClick={handleTelegramShare}
-              className="bg-sky-50 hover:bg-sky-100 text-sky-700 font-bold py-2.5 px-4 rounded-xl text-xs transition-all flex items-center gap-1.5 cursor-pointer hover:shadow-sm"
+              className="bg-sky-50 hover:bg-sky-100 text-sky-700 font-extrabold py-2 px-1 sm:py-2.5 sm:px-4 rounded-xl text-[10px] sm:text-xs transition-all flex items-center justify-center gap-1 sm:gap-1.5 cursor-pointer hover:shadow-sm w-full"
             >
-              <Send className="w-4 h-4" />
-              Telegram
+              <Send className="w-3.5 h-3.5 sm:w-4 sm:h-4 shrink-0" />
+              <span className="truncate">Telegram</span>
             </button>
           </div>
         </div>
