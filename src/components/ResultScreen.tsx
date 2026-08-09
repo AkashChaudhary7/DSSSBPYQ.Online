@@ -51,15 +51,29 @@ export default function ResultScreen({
           });
           const styleElements = clonedDoc.querySelectorAll('style');
           styleElements.forEach((style) => {
-            if (style.textContent && style.textContent.includes('oklch')) {
-              style.textContent = style.textContent.replace(/oklch\([^)]+\)/gi, '#2563eb');
+            if (style.textContent) {
+              if (style.textContent.includes('oklch')) {
+                style.textContent = style.textContent.replace(/oklch\([^)]+\)/gi, '#2563eb');
+              }
+              if (style.textContent.includes('oklab')) {
+                style.textContent = style.textContent.replace(/oklab\([^)]+\)/gi, '#2563eb');
+              }
             }
           });
           const allElements = clonedDoc.querySelectorAll('*');
           allElements.forEach((el) => {
             const inlineStyle = el.getAttribute('style');
-            if (inlineStyle && inlineStyle.includes('oklch')) {
-              el.setAttribute('style', inlineStyle.replace(/oklch\([^)]+\)/gi, '#2563eb'));
+            if (inlineStyle) {
+              let updatedStyle = inlineStyle;
+              if (inlineStyle.includes('oklch')) {
+                updatedStyle = updatedStyle.replace(/oklch\([^)]+\)/gi, '#2563eb');
+              }
+              if (inlineStyle.includes('oklab')) {
+                updatedStyle = updatedStyle.replace(/oklab\([^)]+\)/gi, '#2563eb');
+              }
+              if (updatedStyle !== inlineStyle) {
+                el.setAttribute('style', updatedStyle);
+              }
             }
           });
         },
@@ -114,15 +128,29 @@ export default function ResultScreen({
           });
           const styleElements = clonedDoc.querySelectorAll('style');
           styleElements.forEach((style) => {
-            if (style.textContent && style.textContent.includes('oklch')) {
-              style.textContent = style.textContent.replace(/oklch\([^)]+\)/gi, '#2563eb');
+            if (style.textContent) {
+              if (style.textContent.includes('oklch')) {
+                style.textContent = style.textContent.replace(/oklch\([^)]+\)/gi, '#2563eb');
+              }
+              if (style.textContent.includes('oklab')) {
+                style.textContent = style.textContent.replace(/oklab\([^)]+\)/gi, '#2563eb');
+              }
             }
           });
           const allElements = clonedDoc.querySelectorAll('*');
           allElements.forEach((el) => {
             const inlineStyle = el.getAttribute('style');
-            if (inlineStyle && inlineStyle.includes('oklch')) {
-              el.setAttribute('style', inlineStyle.replace(/oklch\([^)]+\)/gi, '#2563eb'));
+            if (inlineStyle) {
+              let updatedStyle = inlineStyle;
+              if (inlineStyle.includes('oklch')) {
+                updatedStyle = updatedStyle.replace(/oklch\([^)]+\)/gi, '#2563eb');
+              }
+              if (inlineStyle.includes('oklab')) {
+                updatedStyle = updatedStyle.replace(/oklab\([^)]+\)/gi, '#2563eb');
+              }
+              if (updatedStyle !== inlineStyle) {
+                el.setAttribute('style', updatedStyle);
+              }
             }
           });
         },

@@ -269,12 +269,21 @@ export async function generateQuizPdf(quiz: Quiz, metadata: PdfMetadata): Promis
             }
           });
 
-          // Sanitize inline styles just in case oklch color leaked anywhere
+          // Sanitize inline styles just in case oklch or oklab color leaked anywhere
           const allElements = clonedDoc.querySelectorAll('*');
           allElements.forEach((el) => {
             const inlineStyle = el.getAttribute('style');
-            if (inlineStyle && inlineStyle.includes('oklch')) {
-              el.setAttribute('style', inlineStyle.replace(/oklch\([^)]+\)/gi, '#2563eb'));
+            if (inlineStyle) {
+              let updatedStyle = inlineStyle;
+              if (inlineStyle.includes('oklch')) {
+                updatedStyle = updatedStyle.replace(/oklch\([^)]+\)/gi, '#2563eb');
+              }
+              if (inlineStyle.includes('oklab')) {
+                updatedStyle = updatedStyle.replace(/oklab\([^)]+\)/gi, '#2563eb');
+              }
+              if (updatedStyle !== inlineStyle) {
+                el.setAttribute('style', updatedStyle);
+              }
             }
           });
         }
