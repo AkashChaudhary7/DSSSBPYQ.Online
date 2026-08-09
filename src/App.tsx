@@ -36,6 +36,7 @@ import DataManager from './components/DataManager';
 import ContentHub from './components/ContentHub';
 import SeoPreviewHub from './components/SeoPreviewHub';
 import DailyStreakTracker from './components/DailyStreakTracker';
+import { PartAMockSpecialBanner } from './components/PartAMockSpecialBanner';
 import { Glass3dIcon } from './components/Glass3dIcons';
 
 const LazyViewFallback = () => (
@@ -2377,6 +2378,20 @@ export default function App() {
                 </button>
               )}
             </div>
+
+            {/* Part A Mock Sunday Special Banner */}
+            <PartAMockSpecialBanner
+              onClick={() => {
+                const partAFullMocks = allCombinedQuizzes.filter(q => 
+                  q.subject === 'Part A Full Mock' || 
+                  (q.category === 'full' && (q.title.toLowerCase().includes('part a') || q.title.toLowerCase().includes('part-a') || q.isPartA === true))
+                );
+                const selectedPartAMockQuiz = partAFullMocks[0] || allCombinedQuizzes.find(q => q.category === 'full') || allCombinedQuizzes[0];
+                if (selectedPartAMockQuiz) {
+                  handleStartTestAttempt(selectedPartAMockQuiz);
+                }
+              }}
+            />
 
             {/* Daily Challenge Streak Tracker & Daily Booster Quiz - BELOW SEARCH */}
             <DailyStreakTracker 
