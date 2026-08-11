@@ -1,0 +1,326 @@
+{
+  "test_title": "General intelligence and Reasoning Ability Mock Test 47",
+  "total_questions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "87 people are standing in a row facing north. Mae is 16th from the left end while Fae is 36th from the right end. How many people are there between Mae and Fae?",
+      "question_image": null,
+      "options": [
+        "37",
+        "35",
+        "33",
+        "39"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (35) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 2,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Below are given two sets of numbers. In each set of numbers, a certain mathematical operation on the first number results in the second number. Similarly, certain mathematical operation on the second number results in the third number and so on. Which of the given options follows the same set of operations as in the question?(Note: A two-/three-digit number cannot be broken into individual digits for operations e.g., if 37 is followed by 10, the operation cannot be 3 + 7 as a two-digit number cannot be broken into individual digits.) 10 - 15 - 25 - 10042 - 47 - 57 - 228",
+      "question_image": null,
+      "options": [
+        "31 - 36 - 43 - 172",
+        "26 - 32 - 37 - 148",
+        "23 - 27 - 34 - 170",
+        "18 - 23 - 33 - 132"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (18 - 23 - 33 - 132) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 3,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Select the triad that follows the same pattern as that followed by the two triads given below. Both triads follow the same pattern. LJ-NK-PROM-QN-SU",
+      "question_image": null,
+      "options": [
+        "QP-RO-UX",
+        "QO-SP-UW",
+        "QO-RP-UX",
+        "QP-SO-VX"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (QO-SP-UW) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 4,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "What will come in the place of the question mark (?) in the following equation, if ‘+’ and ‘−’ are interchanged, and ‘×’ and ‘÷’ are interchanged?9 ÷ 4 + 45 × 5 − 14 = ?",
+      "question_image": null,
+      "options": [
+        "42",
+        "41",
+        "43",
+        "40"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (41) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 5,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "This question is based on the five, three-digit numbers given below.(Left)       672       159       764       237       784       (Right)(Example: 697 – First digit = 6, second digit = 9 and third digit = 7)(Note: All operations to be done from left to right.)If all the numbers are arranged in ascending order, the position(s) of how many numbers will remain unchanged?",
+      "question_image": null,
+      "options": [
+        "Two",
+        "Four",
+        "Three",
+        "One"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (One) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 6,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Each of Q, W, E, R, T, Y and U has an exam on a different day of a week, starting from Monday and ending on Sunday of the same week. No one has an exam after Q. Only three people have exams between W and U. Only one person has an exam between Q and W. R has an exam immediately before Y. T has an exam immediately before W. How many people have exams between E and R?",
+      "question_image": null,
+      "options": [
+        "Three",
+        "Four",
+        "One",
+        "Two"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Three) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 7,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "In a certain code language, ‘GROW’ is coded as ‘3967’ and ‘WORM’ is coded as ‘3957’. What is the code for ‘M’ in the given code language?",
+      "question_image": null,
+      "options": [
+        "9",
+        "7",
+        "5",
+        "3"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (5) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 8,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? KIT  HFQ  ECN  BZK  ?",
+      "question_image": null,
+      "options": [
+        "YHE",
+        "YHW",
+        "YWH",
+        "YWE"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (YWH) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 9,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "This question is based on the five, three-digit numbers given below.(Left)      237      561      154      873      276      (Right)(Example: 697 – First digit = 6, second digit = 9 and third digit = 7)(Note: All operations to be done from left to right.)What will be the resultant if the second digit of the highest number is added to the third digit of the lowest number?",
+      "question_image": null,
+      "options": [
+        "11",
+        "14",
+        "13",
+        "12"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (11) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 10,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "In a certain code language,'A + B' means 'A is the mother of B','A – B' means 'A is the brother of B','A × B' means 'A is the wife of B','A % B' means 'A is the father of B', and'A # B' means 'A is the daughter of B'.How is L related to Q if 'L # P × G % V – N + Q'?",
+      "question_image": null,
+      "options": [
+        "Son’s daughter",
+        "Sister",
+        "Mother’s mother",
+        "Mother’s sister"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Mother’s sister) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 11,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "If + means –, – means ×, × means ÷, and ÷ means +, then what will come in place of the question mark (?) in the following equation?10 – 143 × 11 + 140 ÷ 22 = ?",
+      "question_image": null,
+      "options": [
+        "12",
+        "8",
+        "13",
+        "10"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (12) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 12,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Four branches of a school, S1, S2, S3 and S4, are located in a city. S1 is to the west of S2, and S4 is to the east of S3, which is to the south of S2. S4 is in which direction of S1?",
+      "question_image": null,
+      "options": [
+        "Southeast",
+        "Northeast",
+        "Northwest",
+        "Southwest"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Southeast) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 13,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion(s) logically follow(s) from the statements.Statement:In a recent survey on colours, 41% people preferred purple, 27% preferred yellow, 19% preferred orange, while 13% were neutral.Conclusions:I. The total number of people who prefer yellow and orange is more than the number of people who prefer purple.II. Purple colour is better than yellow colour.",
+      "question_image": null,
+      "options": [
+        "Neither conclusion I nor II follows.",
+        "Both conclusions I and II follow.",
+        "Only conclusion II follows.",
+        "Only conclusion I follows."
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Only conclusion I follows.) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 14,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements:No hammers are screwdrivers.All screwdrivers are wrenches.Some wrenches are pliers.Conclusions:I: Some hammers are wrenches.II: Some screwdrivers are pliers.",
+      "question_image": null,
+      "options": [
+        "Both conclusions (I) and (II) follow",
+        "Only conclusion (I) follows",
+        "Only conclusion (II) follows",
+        "Neither conclusion (I) nor (II) follows"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Neither conclusion (I) nor (II) follows) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 15,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? SWE  NRZ  IMU  DHP  ?",
+      "question_image": null,
+      "options": [
+        "YCK",
+        "YKI",
+        "YVG",
+        "YHV"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (YCK) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 16,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "What should come in place of the question mark (?) in the given series?7   20   33   46   59   ?",
+      "question_image": null,
+      "options": [
+        "70",
+        "71",
+        "73",
+        "72"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (72) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 17,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Select the set in which the numbers are related in the same way as are the numbers of the following sets. (Note: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g., 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)  19 - 3 -118 - 4 - 6",
+      "question_image": null,
+      "options": [
+        "12 - 3 - 8",
+        "3 - 5 - 2",
+        "12 - 8 - 10",
+        "3 - 8 - 7"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (12 - 8 - 10) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 18,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "What should come in place of the question mark (?) in the given series?\n\n1151, 1152, 1155, 1160, 1167, ?",
+      "question_image": null,
+      "options": [
+        "1183",
+        "1180",
+        "1179",
+        "1176"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (1176) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 19,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number result(s) in the second number. Similarly, certain mathematical operation(s) on the second number result(s) in the third number and so on. Which of the given options follows the same set of operations as in the given sets? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)6-2-8-0; 9-3-12-4",
+      "question_image": null,
+      "options": [
+        "11-4-16-8",
+        "10-4-16-8",
+        "12-4-16-8",
+        "12-4-16-6"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (12-4-16-8) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 20,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number result(s) in the second number. Similarly, certain mathematical operation(s) on the second number result(s) in the third number and so on. Which of the given options follows the same set of operations as in the given sets? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)10 – 100 – 200 – 218, 9 – 81 – 162 – 180",
+      "question_image": null,
+      "options": [
+        "4 – 16 – 64 – 82",
+        "5 – 25 – 50 – 68",
+        "7 – 49 – 98 – 118",
+        "12 – 144 – 288 – 290"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (5 – 25 – 50 – 68) है।",
+      "explanation_image": null
+    }
+  ]
+}

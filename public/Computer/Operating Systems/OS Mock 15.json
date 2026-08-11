@@ -1,0 +1,656 @@
+{
+  "test_title": "OS Mock 15",
+  "total_questions": 50,
+  "questions": [
+    {
+      "id": 1,
+      "section": "Operating System",
+      "question": "Which type of unemployment is mostly found in rural India?",
+      "options": [
+        "A) Structural unemployment",
+        "B) Open unemployment",
+        "C) Disguised unemployment",
+        "D) Technological unemployment"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 2,
+      "section": "Operating System",
+      "question": "Which sector is responsible for services like healthcare and education in India?",
+      "options": [
+        "A) Industrial sector",
+        "B) Private sector only",
+        "C) Public sector only",
+        "D) Both public and private sectors"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 3,
+      "section": "Operating System",
+      "question": "What does the term “economic development” refer to?",
+      "options": [
+        "A) Increase in national income and improvement in living standards",
+        "B) Growth of industries only",
+        "C) Increase in exports only",
+        "D) Expansion of agriculture"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 4,
+      "section": "Operating System",
+      "question": "What is the key difference between the public and private sectors?",
+      "options": [
+        "A) The private sector is controlled by the government",
+        "B) The public sector focuses on profit-making",
+        "C) The private sector is owned by individuals, while the public sector is government-controlled",
+        "D) The public sector only operates in rural areas"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 5,
+      "section": "Operating System",
+      "question": "What is the primary function of money?",
+      "options": [
+        "A) Unit of account",
+        "B) Store of value",
+        "C) Medium of exchange",
+        "D) All of the mentioned"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 6,
+      "section": "Operating System",
+      "question": "Who issues currency notes in India?",
+      "options": [
+        "A) Ministry of Finance",
+        "B) Commercial Banks",
+        "C) Reserve Bank of India",
+        "D) State Bank of India"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 7,
+      "section": "Operating System",
+      "question": "Why is money called a medium of exchange?",
+      "options": [
+        "A) It increases the population",
+        "B) It eliminates the need for double coincidence of wants",
+        "C) It helps in growing crops",
+        "D) It facilitates barter transactions"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 8,
+      "section": "Operating System",
+      "question": "What is the purpose of Self-Help Groups (SHGs)?",
+      "options": [
+        "A) To promote international trade",
+        "B) To provide employment to the rich",
+        "C) To encourage informal lending",
+        "D) To help the poor access loans collectively"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 9,
+      "section": "Operating System",
+      "question": "How does credit help businesses grow?",
+      "options": [
+        "A) It helps finance production and expansion",
+        "B) It increases taxation",
+        "C) It eliminates the need for investment",
+        "D) It reduces employment"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 10,
+      "section": "Operating System",
+      "question": "Why do small farmers often struggle with credit repayment?",
+      "options": [
+        "A) Too much reliance on technology",
+        "B) Government restrictions on farming",
+        "C) High interest rates and unpredictable crop yields",
+        "D) Lack of work ethic"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 11,
+      "section": "Operating System",
+      "question": "What is financial inclusion?",
+      "options": [
+        "A) Ensuring everyone can access financial services",
+        "B) Giving loans only to rich people",
+        "C) Providing business loans only in cities",
+        "D) Limiting banking services to private banks"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 12,
+      "section": "Operating System",
+      "question": "Why is money considered a better medium of exchange than the barter system?",
+      "options": [
+        "A) It increases farming production",
+        "B) It requires no effort",
+        "C) It is based on supply and demand",
+        "D) It is accepted everywhere"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 13,
+      "section": "Operating System",
+      "question": "Which of the following is NOT an advantage of digital transactions?",
+      "options": [
+        "A) They are quick and convenient",
+        "B) You don’t need to carry cash",
+        "C) There is no risk of fraud or hacking",
+        "D) They help keep a record of transactions"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 14,
+      "section": "Operating System",
+      "question": "Why are demand deposits considered money?",
+      "options": [
+        "A) They can be withdrawn anytime",
+        "B) They have a fixed maturity period",
+        "C) They are used only for big purchases",
+        "D) They are issued by the government"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 15,
+      "section": "Operating System",
+      "question": "Why does everyone prefer to receive payments in money?",
+      "options": [
+        "A) Because it has its own value",
+        "B) Because it can be used to buy anything",
+        "C) Because it can’t be stolen",
+        "D) Because it is backed by gold"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 16,
+      "section": "Operating System",
+      "question": "What is the main goal of liberalisation?",
+      "options": [
+        "A) To limit foreign trade",
+        "B) To promote traditional industries",
+        "C) To increase import taxes",
+        "D) To reduce government control over businesses"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 17,
+      "section": "Operating System",
+      "question": "What role do MNCs play in globalisation?",
+      "options": [
+        "A) They stop international trade",
+        "B) They only support local products",
+        "C) They expand businesses across many countries",
+        "D) They reduce foreign investments"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 18,
+      "section": "Operating System",
+      "question": "What is foreign investment?",
+      "options": [
+        "A) When local companies invest in their own country",
+        "B) When MNCs invest in another country",
+        "C) When businesses invest only in stocks",
+        "D) When investments do not involve businesses"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 19,
+      "section": "Operating System",
+      "question": "What does the World Trade Organization (WTO) do?",
+      "options": [
+        "A) Controls trade within one country",
+        "B) Stops international trade",
+        "C) Helps countries trade freely and fairly",
+        "D) Supports only rich nations"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 20,
+      "section": "Operating System",
+      "question": "Why do MNCs invest in developing countries?",
+      "options": [
+        "A) Because labor is cheap and there are large markets",
+        "B) Because trade rules are very strict",
+        "C) Because they discourage foreign investments",
+        "D) Because production costs are high"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 21,
+      "section": "Operating System",
+      "question": "What is outsourcing?",
+      "options": [
+        "A) Banning foreign investments",
+        "B) Stopping foreign trade",
+        "C) Increasing trade barriers",
+        "D) Hiring other companies to provide services"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 22,
+      "section": "Operating System",
+      "question": "How has globalisation affected Indian workers?",
+      "options": [
+        "A) Increased unemployment everywhere",
+        "B) More demand for skilled workers in IT and services",
+        "C) Decreased wages in all jobs",
+        "D) Shut down all local industries"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 23,
+      "section": "Operating System",
+      "question": "What is the main advantage of interlinking production across countries?",
+      "options": [
+        "A) Higher production costs",
+        "B) Less international trade",
+        "C) More efficiency and profit",
+        "D) Fewer product choices"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 24,
+      "section": "Operating System",
+      "question": "How do international supply chains affect production?",
+      "options": [
+        "A) They allow different parts to be made in different countries",
+        "B) They slow down manufacturing",
+        "C) They reduce product variety",
+        "D) They encourage only local production"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 25,
+      "section": "Operating System",
+      "question": "What is the primary objective of consumer rights?",
+      "options": [
+        "A) Promoting monopolies",
+        "B) Increasing product prices",
+        "C) Protecting businesses from losses",
+        "D) Ensuring fair treatment and protection for consumers"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 26,
+      "section": "Operating System",
+      "question": "Which of the following is NOT a consumer right?",
+      "options": [
+        "A) Right to monopoly",
+        "B) Right to safety",
+        "C) Right to be informed",
+        "D) Right to choose"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 27,
+      "section": "Operating System",
+      "question": "Which of these is an unfair trade practice?",
+      "options": [
+        "A) Giving customers choices",
+        "B) Providing correct product details",
+        "C) Selling goods at a discount",
+        "D) Misleading advertisements"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 28,
+      "section": "Operating System",
+      "question": "Which of these is a consumer grievance?",
+      "options": [
+        "A) Purchasing a product at a discounted price",
+        "B) Getting free after-sale service",
+        "C) Receiving a damaged product",
+        "D) Getting a product of choice"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 29,
+      "section": "Operating System",
+      "question": "What is the main purpose of the Consumer Protection Act?",
+      "options": [
+        "A) To provide relief and protection to consumers from exploitation",
+        "B) To restrict consumer rights",
+        "C) To regulate government policies",
+        "D) To help consumers pay higher prices"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 30,
+      "section": "Operating System",
+      "question": "Which of these rights ensures that consumers receive correct information about products?",
+      "options": [
+        "A) Right to Choice",
+        "B) Right to Information",
+        "C) Right to Representation",
+        "D) Right to Safety"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 31,
+      "section": "Operating System",
+      "question": "What is the role of the Consumer Disputes Redressal Commission?",
+      "options": [
+        "A) To promote the sale of imported goods",
+        "B) To regulate industrial production",
+        "C) To settle disputes between consumers and sellers",
+        "D) To protect businesses from financial losses"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 32,
+      "section": "Operating System",
+      "question": "What is a consumer’s primary responsibility before purchasing a product?",
+      "options": [
+        "A) Trust all advertisements",
+        "B) Avoid comparing products",
+        "C) Buy only the cheapest product",
+        "D) Demand a bill or receipt"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 33,
+      "section": "Operating System",
+      "question": "How do advertisements sometimes mislead consumers?",
+      "options": [
+        "A) By using false claims and exaggerated benefits",
+        "B) By showing both advantages and disadvantages of a product",
+        "C) By informing consumers about their rights",
+        "D) By providing complete product details"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 34,
+      "section": "Operating System",
+      "question": "What does the Right to Consumer Education ensure?",
+      "options": [
+        "A) Consumers remain unaware of their rights",
+        "B) Consumers are educated about their rights and responsibilities",
+        "C) Consumers are forced to file complaints",
+        "D) Consumers can only buy from government-approved sellers"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 35,
+      "section": "Operating System",
+      "question": "Which of the following is a key feature of globalisation?",
+      "options": [
+        "A) Increased isolation",
+        "B) Reduction in foreign investments",
+        "C) Free movement of capital, goods, and services",
+        "D) Protectionism"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 36,
+      "section": "Operating System",
+      "question": "What is an operating system?",
+      "options": [
+        "A) interface between the hardware and application programs",
+        "B) collection of programs that manages hardware resources",
+        "C) system service provider to the application programs",
+        "D) all of the mentioned"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 37,
+      "section": "Operating System",
+      "question": "What is the main function of the command interpreter?",
+      "options": [
+        "A) to provide the interface between the API and application program",
+        "B) to handle the files in the operating system",
+        "C) to get and execute the next user-specified command",
+        "D) none of the mentioned"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 38,
+      "section": "Operating System",
+      "question": "In Operating Systems, which of the following is/are CPU scheduling algorithms?",
+      "options": [
+        "A) Priority",
+        "B) Round Robin",
+        "C) Shortest Job First",
+        "D) All of the mentioned"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 39,
+      "section": "Operating System",
+      "question": "To access the services of the operating system, the interface is provided by the ___________",
+      "options": [
+        "A) Library",
+        "B) System calls",
+        "C) Assembly instructions",
+        "D) API"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 40,
+      "section": "Operating System",
+      "question": "CPU scheduling is the basis of ___________",
+      "options": [
+        "A) multiprogramming operating systems",
+        "B) larger memory sized systems",
+        "C) multiprocessor systems",
+        "D) none of the mentioned"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 41,
+      "section": "Operating System",
+      "question": "Which one of the following is not true?",
+      "options": [
+        "A) kernel remains in the memory during the entire computer session",
+        "B) kernel is made of various modules which can not be loaded in running operating system",
+        "C) kernel is the first part of the operating system to load into memory during booting",
+        "D) kernel is the program that constitutes the central core of the operating system"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 42,
+      "section": "Operating System",
+      "question": "Which one of the following errors will be handle by the operating system?",
+      "options": [
+        "A) lack of paper in printer",
+        "B) connection failure in the network",
+        "C) power failure",
+        "D) all of the mentioned"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 43,
+      "section": "Operating System",
+      "question": "Where is the operating system placed in the memory?",
+      "options": [
+        "A) either low or high memory (depending on the location of interrupt vector)",
+        "B) in the low memory",
+        "C) in the high memory",
+        "D) none of the mentioned"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 44,
+      "section": "Operating System",
+      "question": "If a process fails, most operating system write the error information to a ______",
+      "options": [
+        "A) new file",
+        "B) another running process",
+        "C) log file",
+        "D) none of the mentioned"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 45,
+      "section": "Operating System",
+      "question": "Which one of the following is not a real time operating system?",
+      "options": [
+        "A) RTLinux",
+        "B) Palm OS",
+        "C) QNX",
+        "D) VxWorks"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 46,
+      "section": "Operating System",
+      "question": "What does OS X has?",
+      "options": [
+        "A) monolithic kernel with modules",
+        "B) microkernel",
+        "C) monolithic kernel",
+        "D) hybrid kernel"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 47,
+      "section": "Operating System",
+      "question": "In operating system, each process has its own __________",
+      "options": [
+        "A) open files",
+        "B) pending alarms, signals, and signal handlers",
+        "C) address space and global variables",
+        "D) all of the mentioned"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 48,
+      "section": "Operating System",
+      "question": "In a timeshare operating system, when the time slot assigned to a process is completed, the process switches from the current state to?",
+      "options": [
+        "A) Suspended state",
+        "B) Terminated state",
+        "C) Ready state",
+        "D) Blocked state"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 49,
+      "section": "Operating System",
+      "question": "Cascading termination refers to the termination of all child processes if the parent process terminates ______",
+      "options": [
+        "A) Normally or abnormally",
+        "B) Abnormally",
+        "C) Normally",
+        "D) None of the mentioned"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 50,
+      "section": "Operating System",
+      "question": "When a process is in a “Blocked” state waiting for some I/O service. When the service is completed, it goes to the __________",
+      "options": [
+        "A) Terminated state",
+        "B) Suspended state",
+        "C) Running state",
+        "D) Ready state"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    }
+  ]
+}

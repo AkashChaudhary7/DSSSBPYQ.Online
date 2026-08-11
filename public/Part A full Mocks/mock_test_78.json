@@ -1,0 +1,1606 @@
+{
+  "test_title": "Mock Test 78",
+  "total_questions": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "In a certain code language,A + B means ‘A is the mother of B’,A – B means ‘A is the brother of B’,A x B means ‘A is the wife of B’,A % B means ‘A is the father of B’ andA # B means ‘A is the daughter of B’.How is Z related to R if ‘R # Q + K – L # Z’?",
+      "question_image": null,
+      "options": [
+        "Daughter",
+        "Father",
+        "Mother",
+        "Son"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Father) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 2,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "If ‘A’ stands for ‘÷’, ‘B’ stands for ‘×’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘−’, then what will come in place of question mark (?) in the following equation?28 B 9 A 9 D 32 C 29 = ?",
+      "question_image": null,
+      "options": [
+        "24",
+        "25",
+        "26",
+        "28"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (25) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 3,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Select the pair that follows the same pattern as the one followed by the two pairs given below. Both pairs follow the same pattern.ILM : EPOUBE : QFG",
+      "question_image": null,
+      "options": [
+        "PCD : TFH",
+        "OSI : KWK",
+        "QRN : UVQ",
+        "JLN : MPR"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (OSI : KWK) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 4,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "In a certain code language,‘A ÷ B’ means ‘A is the sister of B’,‘A # B’ means ‘A is the brother of B’,‘A + B’ means ‘A is the wife of B’ and‘A % B’ means ‘A is the father of B’.How is A related to K if ‘A + B % G ÷ H # K’?",
+      "question_image": null,
+      "options": [
+        "Mother",
+        "Daughter",
+        "Wife",
+        "Sister"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Mother) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 5,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "This question is based on the five, three-digit numbers given below.(Left)   801   773   997   835   934   (Right)(Example: 697 – First digit = 6, second digit = 9 and third digit = 7)(NOTE: All operations to be done from left to right.)If 4 is subtracted from the first digit of every number, in how many numbers will the third digit be exactly divisible by the first digit?",
+      "question_image": null,
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (1) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 6,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "In a certain code language, ‘BETH’ is coded as ‘7463’ and ‘ECHT’ is coded as ‘6741’. What is the code for ‘C’ in the given code language?",
+      "question_image": null,
+      "options": [
+        "1",
+        "4",
+        "7",
+        "6"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (1) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 7,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Select the pair which follows the same pattern as that followed by the two pairs given below. Both pairs follow the same pattern.SPL : TTITKP : UOM",
+      "question_image": null,
+      "options": [
+        "QOK : RSH",
+        "DJP : ENL",
+        "XBL : YEI",
+        "VEV : WIR"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (QOK : RSH) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 8,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "In a certain code language, ‘TYRE’ is coded as ‘1673’ and ‘RITE’ is coded as ‘5637’. What is the code for ‘I’ in the given code language?762",
+      "question_image": null,
+      "options": [
+        "7",
+        "3",
+        "6",
+        "5"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (5) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 9,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "If + means –, – means ×, × means ÷, and ÷ means +, then what will come in place of the question mark (?) in the following equation?32 ÷ 198 × 18 + 5 – 7 = ?",
+      "question_image": null,
+      "options": [
+        "7",
+        "8",
+        "4",
+        "6"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (8) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 10,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "What will come in place of the question mark (?) in the given series?\n\n5, ?, 96, 131, 159, 1802492",
+      "question_image": null,
+      "options": [
+        "45",
+        "60",
+        "68",
+        "54"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (54) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 11,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "If '+' means '−', '−' means '×', '×' means '÷' and '÷' means '+', then what will come in place of the question mark (?) in the following equation?36 ÷ 320 × 5 + 12 – 6 = ?",
+      "question_image": null,
+      "options": [
+        "26",
+        "28",
+        "27",
+        "24"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (28) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 12,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which is the letter-cluster pair that DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+      "question_image": null,
+      "options": [
+        "TP  -  OK",
+        "OK  -  JF",
+        "NJ  -  IE",
+        "UQ  -  PK"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (UQ  -  PK) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 13,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Shubham ranked 17th from the top and 44th from the bottom in his class. How many students are there in his class?",
+      "question_image": null,
+      "options": [
+        "61",
+        "62",
+        "60",
+        "59"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (60) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 14,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "यह प्रश्न निम्नलिखित अक्षर-समूहों पर आधारित है।\n\nIOP    NUO    VEO    AIP\n\nप्रत्येक अक्षर-समूह में, प्रत्येक स्वर को अंग्रेजी वर्णमाला क्रम में उसके ठीक बाद वाले अक्षर से बदल दिया जाता है और प्रत्येक व्यंजन को अंग्रेजी वर्णमाला क्रम में उसके ठीक पहले वाले अक्षर से बदल दिया जाता है। इस प्रकार बने कितने अक्षर-समूहों में कोई स्वर नहीं दिखाई देगा?2478",
+      "question_image": null,
+      "options": [
+        "एक",
+        "एक भी नहीं",
+        "तीन",
+        "चार"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (एक) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 15,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Manik starts from Point A and drives 14 km towards East. He then takes a left turn, drives 32 km, turns left and drives 45 km. He then takes a left turn and drives 46 km. He takes a final left turn, drives 31 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again? (All turns are 90-degree turns only unless specified.)",
+      "question_image": null,
+      "options": [
+        "15 km to the North",
+        "17 km to the South",
+        "14 km to the North",
+        "16 km to the South"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (14 km to the North) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 16,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "If ‘P’ stands for ‘÷’, ‘Q’ stands for ‘×’, ‘A’ stands for ‘+’ and ‘D’ stands for ‘−’, then what will come in place of the question mark (?) in the following equation?92 D 682 P 22 A 7 Q 14 = ?617",
+      "question_image": null,
+      "options": [
+        "92",
+        "104",
+        "136",
+        "159"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (159) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 17,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Seven friends, H, E, L, P, I, N and G, are sitting around a circular table, facing the centre. Only N sits between E and L. L sits third to the left of H. I sits to the immediate left of H. P is not an immediate neighbour of L. Who sits to the immediate left of G?834",
+      "question_image": null,
+      "options": [
+        "I",
+        "P",
+        "E",
+        "L"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (L) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 18,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "In a certain code language,‘A # B’ means ‘A is the mother of B’,‘A > B’ means ‘A is the father of B’,‘A ! B’ means ‘A is the sister of B’,‘A * B’ means ‘A is the husband of B’,‘A % B’ means ‘A is the wife of B’, and‘A $ B’ means ‘A is the brother of B’.Which of the following means that P is T’s mother?",
+      "question_image": null,
+      "options": [
+        "P % Q > R ! T",
+        "P % Q > R # T",
+        "P % Q >  R * T",
+        "P ! Q #  R $ T"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (P % Q > R ! T) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 19,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "A, B, C, D, E and F live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it, number 2 and so on till the topmost floor is numbered 6. The product of floors on which E and B live is 15. D lives immediately above A .The sum of floors on which F and B live is 7. What is the sum of the floors on which D and F live?7376",
+      "question_image": null,
+      "options": [
+        "6",
+        "7",
+        "9",
+        "8"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (6) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 20,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "​​​Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which letter-cluster pair DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+      "question_image": null,
+      "options": [
+        "KM-OW",
+        "IK-MU",
+        "TV-XF",
+        "EG-IO"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (EG-IO) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 21,
+      "section": "General Awareness",
+      "question": "Which of the following is a survey conducted by the National Statistics Office (NSO) under the Ministry of Statistics and Programme Implementation (MoSPI) to estimate key employment and unemployment indicators in India?",
+      "question_image": null,
+      "options": [
+        "Central Survey of Employment Assessment",
+        "RBI data survey of the Indian Economy",
+        "Periodic Labour Force Survey",
+        "India Brand Equity Foundation Survey"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Periodic Labour Force Survey) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 22,
+      "section": "General Awareness",
+      "question": "Who among the following is the ex-officio chairperson of the Business Advisory Committee in the Parliament?",
+      "question_image": null,
+      "options": [
+        "Secretary General",
+        "Speaker",
+        "Leader of Opposition",
+        "Deputy Speaker"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Speaker) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 23,
+      "section": "General Awareness",
+      "question": "Who, along with Rishabh Yadav of India, broke the mixed team world record at the 2025 Archery World Cup in Madrid?",
+      "question_image": null,
+      "options": [
+        "Jyothi Surekha Vennam",
+        "Atanu Das",
+        "Abhishek Verma",
+        "Deepika Kumari"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Jyothi Surekha Vennam) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 24,
+      "section": "General Awareness",
+      "question": "How are net exports calculated in terms of expenditure method?",
+      "question_image": null,
+      "options": [
+        "Sales − Taxes",
+        "Exports − Imports",
+        "Consumption − Taxes",
+        "Closing Stock − Opening Stock"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Exports − Imports) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 25,
+      "section": "General Awareness",
+      "question": "When did Vallabhbhai Patel spearhead the farmers' protest against the rise in land revenue in Bardoli, a taluka in Gujarat?",
+      "question_image": null,
+      "options": [
+        "1932",
+        "1921",
+        "1928",
+        "1924"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (1928) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 26,
+      "section": "General Awareness",
+      "question": "Where is the National Council for Promotion of Urdu language located?",
+      "question_image": null,
+      "options": [
+        "Mumbai",
+        "Lucknow",
+        "Hyderabad",
+        "Delhi"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Delhi) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 27,
+      "section": "General Awareness",
+      "question": "How many seats are reserved for Scheduled Tribes (STs) members in the Lok Sabha?",
+      "question_image": null,
+      "options": [
+        "84",
+        "56",
+        "47",
+        "32"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (47) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 28,
+      "section": "General Awareness",
+      "question": "Which leader is described in the following statements?1. He was often known as Rashtraguru and was an Indian nationalist leader during the British Rule.2. He founded a nationalist organisation called the Indian National Association to bring Hindus and Muslims together for political action.3. He was one of the founding fathers of the national movement and became the first Indian to go to jail in performance of his duty as a journalist.",
+      "question_image": null,
+      "options": [
+        "Sisir Kumar Ghosh",
+        "Bal Gangadar Tilak",
+        "Surendranath Banerjee",
+        "G Subramania Aiyar"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Surendranath Banerjee) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 29,
+      "section": "General Awareness",
+      "question": "Vaishali pillar inscription of Ashoka is presently located in which of the following states of India?",
+      "question_image": null,
+      "options": [
+        "Odisha",
+        "Uttar Pradesh",
+        "Bihar",
+        "Madhya Pradesh"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Bihar) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 30,
+      "section": "General Awareness",
+      "question": "How many banks were nationalised in 1969?",
+      "question_image": null,
+      "options": [
+        "14",
+        "13",
+        "12",
+        "15"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (14) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 31,
+      "section": "General Awareness",
+      "question": "The Montagu-Chelmsford Reforms (Government of India Act, 1919) were introduced in response to growing Indian political aspirations. Which feature best represents its attempt to accommodate Indian demands?",
+      "question_image": null,
+      "options": [
+        "Introduction of dyarchy, which gave Indians some measure of control over certain provincial subjects",
+        "Empowering the Viceroy to legislate without any Indian input",
+        "Abolition of the British Cabinet’s role in Indian affairs",
+        "Complete self-rule for Indian provinces"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Introduction of dyarchy, which gave Indians some measure of control over certain provincial subjects) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 32,
+      "section": "General Awareness",
+      "question": "In India, the total amount of winter rainfall locally known as ‘mahawat’ is small, but they are of immense importance for the cultivation of ________ crops.",
+      "question_image": null,
+      "options": [
+        "kharif",
+        "plantation",
+        "zaid",
+        "rabi"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (rabi) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 33,
+      "section": "General Awareness",
+      "question": "In which year was the slogan of ‘Purna Swaraj’ as the goal adopted in the annual session of Congress?",
+      "question_image": null,
+      "options": [
+        "1928",
+        "1931",
+        "1930",
+        "1929"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (1929) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 34,
+      "section": "General Awareness",
+      "question": "As per the National Import-Export Record for Yearly Analysis of Trade (NIRYAT April 2024 -March 2025), which country is the largest importer of Indian textiles?",
+      "question_image": null,
+      "options": [
+        "Japan",
+        "Bangladesh",
+        "United State of America",
+        "Germany"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (United State of America) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 35,
+      "section": "General Awareness",
+      "question": "Which of the following works is considered the first Indian novel written in English?",
+      "question_image": null,
+      "options": [
+        "'Gitanjali' by Rabindranath Tagore",
+        "'The Guide' by RK Narayan",
+        "'Raj Mohan’s Wife' by Bankim Chandra Chattopadhyay",
+        "'Untouchable' by Mulk Raj Anand"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' ('Raj Mohan’s Wife' by Bankim Chandra Chattopadhyay) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 36,
+      "section": "General Awareness",
+      "question": "Which health technology event was held at Pragati Maidan, New Delhi, from February 20 to 22, 2025?",
+      "question_image": null,
+      "options": [
+        "HealthTech India 2025",
+        "Elets Healthcare Innovation Summit  2025",
+        "India Health Exhibition 2025",
+        "Healthcare Summit 2025"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (HealthTech India 2025) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 37,
+      "section": "General Awareness",
+      "question": "The President of India can promulgate ordinances during Parliament recess under which Article of the Constitution?",
+      "question_image": null,
+      "options": [
+        "Article 132",
+        "Article 121",
+        "Article 123",
+        "Article 129"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Article 123) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 38,
+      "section": "General Awareness",
+      "question": "निम्नलिखित में से कौन-सा, भाषण और अभिव्यक्ति की स्वतंत्रता के अधिकार पर युक्तियुक्त प्रतिबंध है?",
+      "question_image": null,
+      "options": [
+        "किसी कानून के विरुद्ध शांतिपूर्ण तरीके से विरोध प्रदर्शन",
+        "सरकारी नीतियों की आलोचना करना",
+        "हिंसा भड़काने वाली सामग्री प्रकाशित करना",
+        "धार्मिक विश्वासों को अभिव्यक्त करना"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (हिंसा भड़काने वाली सामग्री प्रकाशित करना) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 39,
+      "section": "General Awareness",
+      "question": "Which of the following statements are correct?1. The Prime Minister is appointed by the President.2. The executive power of the Union is vested in the Prime Minister.3. The Prime Minister is the head of the Council of Ministers.4. The Prime Minister, at the time of his appointment, need not be a member of either House of the Parliament.",
+      "question_image": null,
+      "options": [
+        "Only 1 and 2",
+        "Only 1, 2 and 4",
+        "Only 3 and 4",
+        "Only 1, 3 and 4"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Only 1, 3 and 4) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 40,
+      "section": "General Awareness",
+      "question": "Narasimham Committee-1998 is related to _______.",
+      "question_image": null,
+      "options": [
+        "banking sector reform",
+        "educational reform",
+        "agricultural reform",
+        "police reform"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (banking sector reform) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 41,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Which of the following is divisible by 7 and 12?",
+      "question_image": null,
+      "options": [
+        "6735",
+        "6728",
+        "6720",
+        "6712"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (6720) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 42,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Amit's income in 2019 was ₹25,600. He gets an increment of 20% every year. What was his income (in ₹) in 2021?",
+      "question_image": null,
+      "options": [
+        "38,684",
+        "30,720",
+        "35,840",
+        "36,864"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (36,864) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 43,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A shopkeeper offers two successive discounts of 20% and 18% on an article. For the upcoming festive season, he gives an additional 18% discount. If the marked price of the article is ₹6,250, find the final price (in ₹) the customer has to pay.",
+      "question_image": null,
+      "options": [
+        "3,258",
+        "3,362",
+        "3,491",
+        "3,422"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (3,362) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 44,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The base and the corresponding height of a parallelogram are 78 cm and 61 cm, respectively. The area of the parallelogram (in cm2) is:",
+      "question_image": null,
+      "options": [
+        "4783",
+        "4758",
+        "4787",
+        "4729"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (4758) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 45,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Two students appeared in an examination. One of them secured 14 marks more than the other and his marks were 60% of the sum of their marks. The sum of the marks obtained by them was:",
+      "question_image": null,
+      "options": [
+        "84",
+        "71",
+        "70",
+        "56"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (70) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 46,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Three pipes, A, B and C, can fill a tank in 30 hours, 40 hours and 120 hours, respectively. However, Pipe A is operating at only 90% efficiency, while Pipe B has a leakage that causes a 20% reduction in its flow rate. Pipe C remains unaffected. If all three pipes are opened simultaneously, how long will it take to fill the tank?",
+      "question_image": null,
+      "options": [
+        "Approximately 16 hours and 6 minutes",
+        "Approximately 17 hours and 9 minutes",
+        "Approximately 16 hours and 9 minutes",
+        "Approximately 17 hours and 6 minutes"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Approximately 17 hours and 9 minutes) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 47,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "P and Q together can fill a cistern with water in 9 hours. If P alone can fill the same amount of water in 12 hours, then in how many hours will Q alone fill the same amount of water?",
+      "question_image": null,
+      "options": [
+        "37",
+        "38",
+        "36",
+        "35"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (36) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 48,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A trader marks his goods 44% above the cost price and allows a discount of 9% on the marked price. He gains x%. The value of x is:",
+      "question_image": null,
+      "options": [
+        "32.04",
+        "31.04",
+        "30.04",
+        "33.04"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (31.04) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 49,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The product of two numbers is 416 and their L.C.M. is 104. Find their H.C.F.",
+      "question_image": null,
+      "options": [
+        "2",
+        "6",
+        "4",
+        "3"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (4) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 50,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A bus is moving at a speed of 73 km/h. If its speed is reduced by 20%, then the new speed of the bus (in km/h) will be:",
+      "question_image": null,
+      "options": [
+        "58.4",
+        "62.17",
+        "55.66",
+        "61.02"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (58.4) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 51,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Amit's income in 2019 was ₹24,200. He gets an increment of 10% every year. What was his income (in ₹) in 2021?1306",
+      "question_image": null,
+      "options": [
+        "29,282",
+        "24,200",
+        "29,040",
+        "26,620"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (29,282) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 52,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The average price of three items of furniture is ₹17,805. If their prices are in the ratio 3 : 5 : 7, the price of the cheapest item (in ₹) is:",
+      "question_image": null,
+      "options": [
+        "3,561",
+        "5,935",
+        "8,309",
+        "10,683"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (10,683) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 53,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A notebook is listed at ₹208 with a discount of 25%. What additional percentage discount must be offered to the customer to bring the net price to ₹117?",
+      "question_image": null,
+      "options": [
+        "23%",
+        "25%",
+        "27%",
+        "30%"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (25%) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 54,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Evaluate: 60% of 200 + 25% of 80 − 30% of 150",
+      "question_image": null,
+      "options": [
+        "65",
+        "75",
+        "55",
+        "95"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (95) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 55,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A dealer buys a steam iron for₹725 and spends ₹35 on its repairs. If he sells the same for ₹988, find his profit percentage.",
+      "question_image": null,
+      "options": [
+        "24%",
+        "32.25%",
+        "18.6%",
+        "30%"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (30%) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 56,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The LCM of 55, 42, 165 and 231 is:",
+      "question_image": null,
+      "options": [
+        "2310",
+        "2335",
+        "2211",
+        "2259"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (2310) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 57,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The curved surface area of a cylinder having radius 13 cm and height 43 cm is:",
+      "question_image": null,
+      "options": [
+        "1044 π cm2",
+        "1118 π cm2",
+        "1045 π cm2",
+        "1188 π cm2"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (1118 π cm2) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 58,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The average of 11 numbers is 61. If the average of the first 6 numbers is 65 and that of the last 6 is 61, find the 6th number.3807",
+      "question_image": null,
+      "options": [
+        "86",
+        "87",
+        "85",
+        "84"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (85) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 59,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A chemist mixes two types of medicine in the ratio 7 : 9 in a can. When 8 liters of the mixture is taken out and the can is filled with the second type of medicine the ratio becomes 2 : 7. How many litres of the first type was present initially? (Correct to two decimal places.)",
+      "question_image": null,
+      "options": [
+        "7.11",
+        "16.25",
+        "3.53",
+        "12.56"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (7.11) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 60,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The original price of a music set is ₹8,500. The price is discounted by 12% and then raised by 15%. What is its new price (in ₹)?",
+      "question_image": null,
+      "options": [
+        "7,902",
+        "9,102",
+        "8,102",
+        "8,602"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (8,602) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 61,
+      "section": "English Language and Comprehension",
+      "question": "Select the option that can be used as a one-word substitute for the underlined segment in the given sentence.The professor criticized the student’s essay for being too concerned with minor details, especially in a way that misses the larger point",
+      "question_image": null,
+      "options": [
+        "scholarly",
+        "didactic",
+        "meticulous",
+        "pedantic"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (pedantic) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 62,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank.Sustaining motivation during long-term projects often requires a mix of discipline and external support. While initial enthusiasm may be high, it tends to (1) ______ as challenges accumulate. Teams that regularly review their goals can (2) ______ their focus and prevent frustration from taking hold. Leaders play a crucial role by offering constructive feedback that does not (3) ______ individuals but instead, encourages steady improvement. Additionally, breaking tasks into smaller milestones can help participants (4) ______ progress more clearly. Ultimately, motivation is not simply a matter of willpower; it must be (5) ______ through consistent strategies and a supportive environment.Select the most appropriate option to fill in blank number (4).",
+      "question_image": null,
+      "options": [
+        "hide",
+        "perceive",
+        "misinterpret",
+        "overlook"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (perceive) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 63,
+      "section": "English Language and Comprehension",
+      "question": "Select the option that can be used as a one-word substitute for the given phrase.A person who speaks many languages",
+      "question_image": null,
+      "options": [
+        "Pseudonym",
+        "Pedant",
+        "Polyglot",
+        "Philanthropist"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Polyglot) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 64,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage and answer the questions that follow.Isis, Egyptian Aset or Eset, is one of the most important goddesses of ancient Egypt. Her name is the Greek form of an Egyptian word for “throne.” Though initially obscure, she rose in prominence and was later worshipped across the Roman Empire, from England to Afghanistan. She is still revered by some pagans today.Isis has been associated with being a magical healer because she cured the sick and brought the deceased to life. She was also a model mother and a key figure in funeral rites.According to myth, she was married to Osiris, king of Egypt. His jealous brother Seth trapped him in a wooden chest and threw it into the Nile. Isis found Osiris in Byblos and brought him back to Egypt. After Seth hacked Osiris into pieces, Isis, aided by her sister Nephthys, transformed into a bird, found all the parts, and magically reassembled him. Osiris lived on as a mummy.Isis is often depicted as a beautiful woman wearing a sheath dress and a throne-shaped crown or solar disk with cow’s horns. She is also represented as a bird, symbolizing her magical transformation during the search for Osiris.Isis has been represented as a bird because she:",
+      "question_image": null,
+      "options": [
+        "had magical powers, which she used to find her missing husband Osiris",
+        "wears a sheath dress and a cow’s horns on her head.",
+        "transformed into a bird and collected the fragmented body parts of her husband",
+        "became one of the most important deities of ancient Egypt"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (transformed into a bird and collected the fragmented body parts of her husband) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 65,
+      "section": "English Language and Comprehension",
+      "question": "Select the option that can be used as a one-word substitute for the given group of words.Rough and harsh",
+      "question_image": null,
+      "options": [
+        "Hoarse",
+        "Hobble",
+        "Hoary",
+        "Hoax"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Hoarse) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 66,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate option to fill in the blank.Dr. Bachchan is ________ me in service.",
+      "question_image": null,
+      "options": [
+        "senior than",
+        "elder than",
+        "elder to",
+        "senior to"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (senior to) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 67,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate option to fill in the blank.The scientist presented a _____ methodology that left no room for error.",
+      "question_image": null,
+      "options": [
+        "rigorous",
+        "confusing",
+        "brief",
+        "outdated"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (rigorous) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 68,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage carefully and answer the questions that follow. In the labyrinthine streets of the ancient city, the fragrant scent of jasmine drifted through the air, blending with the soft chimes ringing from distant temples. Shadows moved across the worn cobblestone paths, weaving a scene rich with mystery and intrigue. Amid the lively hum of the bustling market, a hooded figure slipped through the crowd, moving with deliberate purpose and remaining entirely unnoticed. The figure’s destination was shrouded in myth—a hidden library, spoken of only in hushed voices, rumored to house ancient secrets of immense power. Swiftly and cautiously, the figure arrived at an inconspicuous door, nearly invisible among the weathered stone walls. As it creaked open, a cool, musty air enveloped the figure, revealing rows upon rows of towering shelves filled with ancient tomes, each blanketed in dust. Inside, the library seemed to hold its breath, as if guarding the powerful knowledge within, waiting for the worthy to uncover its secrets.698How does the passage describe the entrance to the hidden library?\n 703",
+      "question_image": null,
+      "options": [
+        "An ancient wooden door",
+        "A trapdoor in the ground",
+        "A heavy iron gate",
+        "A narrow passageway"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (An ancient wooden door) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 69,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate ANTONYM of the underlined word in the given sentence.The rambunctious children ran through the park, laughing and shouting, their energy uncontainable despite the efforts of the babysitter.",
+      "question_image": null,
+      "options": [
+        "compliant",
+        "reverberating",
+        "uncontrollable",
+        "rackety"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (compliant) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 70,
+      "section": "English Language and Comprehension",
+      "question": "Which of the following idioms mean 'to have a medical operation or surgery'?",
+      "question_image": null,
+      "options": [
+        "In stitches",
+        "Green around the grills",
+        "Joined at the hip",
+        "Go under the knife"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Go under the knife) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 71,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate proverb to substitute the underlined segment in the given sentence.Riya already has her whole life mapped out, including who she’ll marry and how many kids she’ll have, but I told her to not make plans based on events that haven't even happened.",
+      "question_image": null,
+      "options": [
+        "not fix it if it’s not broken",
+        "not have her cake and eat it too",
+        "not count her chickens before they hatch",
+        "not judge a book by its cover"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (not count her chickens before they hatch) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 72,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage and answer the questions that follow. India’s traffic problem has become one of the most pressing urban challenges in the 21st century. With rapid urbanisation, rising disposable incomes and increased automobile ownership, the country’s metropolitan and even tier-2 cities are witnessing chronic traffic congestion. According to the TomTom Traffic Index, cities like Bengaluru, Mumbai and Delhi consistently rank among the most congested cities globally. The situation is exacerbated by inadequate public transportation, poorly maintained roads and outdated traffic management systems.Another significant contributor to the problem is the lack of urban planning that prioritises pedestrian mobility, non-motorised transport and intelligent traffic systems. In many areas, encroachments, unregulated parking and insufficient road signage further complicate traffic flow. As a result, commuting times have surged, air quality has deteriorated and productivity levels have dropped due to stress and lost man-hours.The government has initiated multiple schemes such as Smart Cities Mission and Urban Mobility Plans to mitigate these concerns. Metro rail projects, dedicated bicycle lanes and traffic-signal synchronisation are some of the measures being adopted. Additionally, emerging technologies like AI-based traffic cameras, GPS-enabled traffic flow analytics and electric vehicle infrastructure are being piloted in select regions.However, experts argue that unless behavioural changes accompany infrastructural reforms—like adherence to traffic rules, reduced reliance on private vehicles and promotion of carpooling—no lasting change can occur. Public awareness, stringent implementation of laws and coordinated urban development are essential for sustainable mobility.The challenge of managing traffic in India is not merely logistical but social and environmental. Addressing it requires a multi-stakeholder approach that balances economic growth with environmental sustainability and urban livability.What is the structure of the passage?",
+      "question_image": null,
+      "options": [
+        "Definition followed by listing of unrelated examples",
+        "Problem-cause-effect-solution structure",
+        "Chronological development of traffic history in India",
+        "Personal anecdote followed by analysis"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Problem-cause-effect-solution structure) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 73,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage and answer the questions that follow. One potential cause of human extinction is global warming, but even without human-induced climate change, the sun's increasing radiation will eventually bring about our demise. A 2014 article in Science presents two models for this countdown, one more pessimistic than the other. Researchers from Pennsylvania State University, led by Ravi Kopparapu, predicted that with a 6% increase in solar radiation, in 150 million years, only underwater life and some resilient microbes will remain. According to this model, our species could be extinct within this timeframe.Alternatively, if Earth's temperatures rise more gradually, we might have 600 to 700 million years left, based on the \"Kopparapu model.\"Wolf and Toon argue that we have 1.5 billion years left. Eventually, habitable territory would shrink to a strip around the poles. The ultimate end will come much later, in about four billion years, when the sun goes out. As the sun becomes a \"red giant,\" it could strip away Earth's atmosphere, leaving a magma-covered surface with metal oxide icebergs floating on it.These projections underscore the finite nature of our existence on this planet, emphasizing the importance of understanding and preparing for these eventualities.What does the passage imply about the survival of life on Earth?",
+      "question_image": null,
+      "options": [
+        "No life will survive the next century",
+        "Only microbial life will survive eventually",
+        "Atmospheric changes will prevent any form of life",
+        "Life will continue indefinitely"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Atmospheric changes will prevent any form of life) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 74,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage and answer the questions that follow. American literature has undergone a profound transformation from its early colonial roots to its present-day complexity. The initial literary works, often theological in nature, reflected the Puritan settlers’ rigid worldview, emphasising moral rectitude and divine providence. Writers such as Jonathan Edwards and Anne Bradstreet used their prose and poetry to navigate religious devotion and personal introspection. However, as the colonies moved towards independence, literature took on a more political tone, with figures like Thomas Paine and Benjamin Franklin using rhetorical finesse to galvanise revolutionary sentiment.The 19th century marked a period of literary expansion, as American authors sought to carve a distinct identity apart from European influences. Romanticism flourished with writers like Nathaniel Hawthorne and Edgar Allan Poe, whose works explored psychological depth, human fallibility and gothic sensibilities. Simultaneously, transcendentalists such as Ralph Waldo Emerson and Henry David Thoreau championed individualism and nature’s spiritual significance. By the latter half of the century, realism emerged as a counterpoint to romantic idealism, with Mark Twain and Henry James depicting life’s intricacies through meticulous detail and social critique.The 20th century saw American literature fracture into numerous stylistic and thematic branches. Modernist writers like TS Eliot and William Faulkner experimented with fragmented narratives and stream-of-consciousness techniques, reflecting the disillusionment of a rapidly changing world. The Harlem Renaissance brought forth voices such as Langston Hughes, who redefined African American identity in literature. In the postmodern era, figures like Thomas Pynchon and Don DeLillo interrogated the nature of truth, media and technological encroachment on human experience.American literature continues to evolve, encapsulating diverse perspectives and experimental forms. It serves not only as a reflection of historical and cultural shifts but also as an ever-adapting narrative of the American consciousness.According to the passage, which of the following factors influenced American literature’s shift towards a political tone?",
+      "question_image": null,
+      "options": [
+        "The influence of transcendentalists such as Ralph Waldo Emerson",
+        "The development of Harlem Renaissance",
+        "The movement towards American independence",
+        "The expansion of literary realism and European influences"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (The movement towards American independence) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 75,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage carefully and answer the questions that follow. The scientist’s latest experiment was a meticulous undertaking, involving a complex series of chemical reactions carefully documented in her well-worn lab journal. Each step demanded unwavering precision, from exact measurements to finely-tuned timing, all essential for achieving the desired outcome. Despite facing countless setbacks and repeated failures, her determination remained steadfast, her passion for discovery fueling every attempt. Now, on the edge of a long-awaited breakthrough, she identified an unexpected variable—a factor she hadn’t considered—that had the potential to alter the entire direction of her research. The discovery sent a spark of excitement through the lab, filling the air with an almost tangible sense of anticipation. Her colleagues paused, watching as she prepared her apparatus and recalibrated her instruments, ready to test her new hypothesis. This moment held the weight of years of hard work, as the scientist approached the experiment with both caution and hope, eager to see where this new path would lead.What was the atmosphere in the lab as the scientist prepared to test her hypothesis?\n 696",
+      "question_image": null,
+      "options": [
+        "Excited",
+        "Nervous",
+        "Calm",
+        "Tense"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Excited) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 76,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate option to fill in the blank.The performance of the band was a/an _______________ blend of lyrics, melody, and rhythm as everyone praised it.",
+      "question_image": null,
+      "options": [
+        "disorganised",
+        "harmonious",
+        "chaotic",
+        "uneven"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (harmonious) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 77,
+      "section": "English Language and Comprehension",
+      "question": "Select the option that can be used as a one-word substitute for the given group of words.A person who studies handwriting",
+      "question_image": null,
+      "options": [
+        "Otologist",
+        "Serologist",
+        "Neurologist",
+        "Graphologist"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Graphologist) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 78,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate meaning of the given idiom.Beat around the bush",
+      "question_image": null,
+      "options": [
+        "To finish quickly",
+        "To take a risk",
+        "To avoid the main topic",
+        "To speak directly"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (To avoid the main topic) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 79,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate adjective to fill in the blank.As the scholarly student asked a ____________________ question, the teacher took a moment to reply.",
+      "question_image": null,
+      "options": [
+        "melodic",
+        "sturdy",
+        "gleaming",
+        "profound"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (profound) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 80,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage and answer the questions that follow.The old lighthouse stood tall on the rugged cliffs, its beacon piercing through the misty evening air. Far below, the waves crashed against the rocks, a constant reminder of the sea's power. Tom, a seasoned sailor, gazed out at the horizon, his weathered face reflecting years of seafaring adventures.As dusk descended, Tom recalled his most daring voyage, navigating through treacherous waters to save a stranded ship. His courage and skill had earned him respect among sailors worldwide. Yet, despite his accomplishments, Tom remained humble, always ready to lend a hand to those in need.The lighthouse keeper, an elderly man named James, joined Tom on the cliffside. Together, they watched as the stars emerged in the darkening sky, a silent tribute to the vastness of the ocean and the courage of those who sailed its waters.Where is the old lighthouse located?",
+      "question_image": null,
+      "options": [
+        "In the middle of a forest",
+        "On a deserted island",
+        "On rugged cliffs",
+        "In a bustling city"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (On rugged cliffs) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 81,
+      "section": "Hindi Language and Comprehension",
+      "question": "अंजलि ....... किताब पढ़ी है । वाक्य के रिक्त स्थान को कर्ता कारक से पूर्ण करें।",
+      "question_image": null,
+      "options": [
+        "ने",
+        "को",
+        "से",
+        "के लिए"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (ने) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 82,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:निम्न गद्यांश  के आधार पर उत्तर दीजिए। अरस्तु  प्राचीन ग्रीस के महान दार्शनिक, वैज्ञानिक और शिक्षक थे। वे प्लेटो के शिष्य और सिकंदर महान के गुरु थे। उनकी रचनाएँ तर्क, राजनीति, काव्य, नीतिशास्त्र, भौतिकी और जीव विज्ञान सहित कई विषयों पर आधारित थी।राजनीति में उन्होंने \"राजनीति\" नामक ग्रंथ लिखा, जिसमें उन्होंने राज्य को एक जैविक संरचना माना। उन्होंने शासन प्रणालियों का वर्गीकरण करते हुए राजतंत्र, अभिजात्य तंत्र और लोकतंत्र का विश्लेषण किया। उन्होंने कहा कि सर्वश्रेष्ठ शासन प्रणाली वह है जो जनकल्याण को प्राथमिकता देती है।काव्यशास्त्र में अरस्तु  ने \"पोएटिक्स\" नामक ग्रंथ लिखा, जिसमें उन्होंने त्रासदी और महाकाव्य की विशेषताओं का उल्लेख किया। उनका \"अनुकरण सिद्धांत” साहित्य और कला की समझ में महत्वपूर्ण योगदान देता है।अरस्तु  के मुताबिक, त्रासदी में नायक न तो पूरी तरह से अच्छा होता है और न ही पूरी तरह से बुरा।  वह दोनों का मिश्रण होता है।  अरस्तु  ने त्रासदी को भाषा और तमाशे के जरिए वीरतापूर्ण कार्य का प्रतिनिधित्व करने वाला माना है।  अरस्तु  ने कथानक को त्रासदी की आत्मा माना है।  अरस्तु  के मुताबिक, त्रासदी का लक्ष्य पीड़ा नहीं बल्कि उससे निकलने वाला ज्ञान है।  अरस्तु  ने त्रासदी के विभिन्न घटकों का वैज्ञानिक विश्लेषण किया है।  अरस्तु  ने त्रासदी के जरिए दर्शकों के मन में दया और भय की भावनाओं को जगाया और उनका विवेचन किया है।  अरस्तु  ने कला और काव्य को प्रशंसनीय सिद्ध किया है।  अरस्तु  ने कला और काव्य की महत्ता को पुनः प्रतिष्ठित करने का सफल प्रयास किया।  अरस्तु  का योगदान विज्ञान और तर्कशास्त्र में भी महत्वपूर्ण है। भौतिकी और जीव विज्ञान में भी उन्होंने मौलिक कार्य किए। उनके विचारों ने पश्चिमी दर्शन को गहराई से प्रभावित किया और वे आज भी प्रासंगिक है। उनके सिद्धांत शिक्षा, राजनीति, कला और विज्ञान में प्रेरणा के स्रोत बने हुए है। निम्न विकल्पों में उपर्युक्त  गद्यांश का  सही निष्कर्ष पहचानें ।",
+      "question_image": null,
+      "options": [
+        "अरस्तु एक बहुमुखी प्रतिभा के गायक  थे।",
+        "अरस्तु एक बहुमुखी प्रतिभा के धर्मशास्त्री थे।",
+        "अरस्तु एक बहुमुखी प्रतिभा के कवि  थे।",
+        "अरस्तु एक बहुमुखी प्रतिभा के दार्शनिक थे।"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (अरस्तु एक बहुमुखी प्रतिभा के दार्शनिक थे।) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 83,
+      "section": "Hindi Language and Comprehension",
+      "question": "'चट मंगनी पट ब्याह' लोकोक्ति का सही अर्थ क्या है ?",
+      "question_image": null,
+      "options": [
+        "कार्य में बाधा",
+        "कार्य नष्ट होना",
+        "तत्काल कार्य होना",
+        "कार्य में विलम्ब"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (तत्काल कार्य होना) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 84,
+      "section": "Hindi Language and Comprehension",
+      "question": "उपयुक्त विकल्प का चयन कर नीचे दिए गये वाक्य को पूर्ण करें.'कमाकर लौटने ......... बेटा अपनी माँ को रूपये देता है।'",
+      "question_image": null,
+      "options": [
+        "बिना",
+        "पर",
+        "ने",
+        "से"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (पर) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 85,
+      "section": "Hindi Language and Comprehension",
+      "question": "दिए गए विकल्पों में से वाक्य का उचित क्रम चुनिए-(अ) आबादी का दबाव (ब) गंगा के किनारे नगरों में (स) बढ़ता जा रहा है(द) पर्याप्त सीमा तक",
+      "question_image": null,
+      "options": [
+        "अ, द, स, ब",
+        "स, अ, द, ब",
+        "ब, द, अ, स",
+        "ब, अ, द, स"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (ब, अ, द, स) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 86,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्नलिखित वाक्य को क्रम में लिखें।1. कहा है, इसलिए कल2. मेरी टीचर ने मुझे चिड़ियाघर3. मैं चिड़ियाघर जाऊंगा4. पर एक निबंध लिखने को",
+      "question_image": null,
+      "options": [
+        "1423",
+        "2413",
+        "4132",
+        "3124"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (2413) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 87,
+      "section": "Hindi Language and Comprehension",
+      "question": "दिए गए वाक्य को पूर्ण करें - सही विकल्प का चयन करें - मोहन               पुत्र ने बैंक परीक्षा पास की ।",
+      "question_image": null,
+      "options": [
+        "के लिए",
+        "ने",
+        "के",
+        "द्वारा"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (के) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 88,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:निम्नलिखित गद्यांश के आधार पर प्रश्नों के उत्तर दीजिए-गंध का हमारे जीवन की घटनाओं से कितना गहरा नाता है, यह बात हमारे पूर्वज बहुत गहराई से जानते थे। ज़रा सोचिए-यदि ‘गंध’ इतनी शक्तिशाली न होती तो भीष्म पितामह का चरित्र कैसे विकसित होता? हज़ारों वर्षों से लोकप्रिय ‘महाभारत ‘की कथा का क्या स्वरूप होता? मैं तो यहाँ तक समझती हूंँ कि यदि ‘गंध ‘में इतनी शक्ति न होती तो संभवतः पांडव और कौरवों का जन्म ही न हुआ होता। आप हैरान हो रहे होंगे कि आख़िर गंध से भीष्म और ‘महाभारत’ का क्या सम्बन्ध? तो लीजिए सुनिए-महाराज शांतनु जो प्रौढ़ावस्था को प्राप्त हो चुके थे, देवव्रत जैसे प्रतापी, युवा पुत्र के पिता थे, वे सत्यवती पर मोहित हो उससे विवाह के लिए अधीर न हुए होते तो क्या देवव्रत ‘भीष्म’ बनते? महाराज शांतनु तो सत्यवती के तन से निकली ‘मत्स्यगंध’ के कारण ही कामपीड़ित हो, उससे विवाह करने को विवश हो गए थे न! सत्यवती के यौवन से भरपूर शरीर से जो गंध निकलती थी वह एक योजन की दूरी से भी अनुभव की जा सकती थी। उसका नाम ‘मत्स्यगंधा’ और ‘योजनगंधा’ प्रचलित था। इस गंध के जादू ने ही शांतनु को इतना उन्मत्त और कामान्ध बना दिया कि वे वह हर शर्त मानने को विवश हो गए जो विवाह के लिए रखी गई, तभी तो देवव्रत ‘भीष्म प्रतिज्ञा’ कर बैठे।Q96. गंध के महत्व को समझाने के लिए लेखिका किस पात्र का उदाहरण देती हैं?",
+      "question_image": null,
+      "options": [
+        "अर्जुन",
+        "कृष्ण",
+        "युधिष्ठिर",
+        "भीष्म पितामह"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (भीष्म पितामह) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 89,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्नलिखित वाक्यांश हेतु सार्थक शब्द का चुनाव करें।जिसका दमन न किया जा सके____",
+      "question_image": null,
+      "options": [
+        "वीर",
+        "आदि",
+        "ईमानदार",
+        "अदम्य"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (अदम्य) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 90,
+      "section": "Hindi Language and Comprehension",
+      "question": "नीचे दिए गए चार विकल्पों में से कोई एक सही विकल्प का चुनाव कर संज्ञा युक्त बेमेल वाक्य पहचानें",
+      "question_image": null,
+      "options": [
+        "धन का अहंकार सेठ धीरज को ले डूबा",
+        "विनिय अपना देश छोड़कर परदेस चला गया।",
+        "दीपक न जाने किस  उलझन  में पड़ गया है",
+        "दिसम्बर की सर्द हवाएँ भीतर तक कंपा देती है"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (विनिय अपना देश छोड़कर परदेस चला गया।) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 91,
+      "section": "Hindi Language and Comprehension",
+      "question": "“जिसकी आशा न की गयी हो”- वाक्यांश के लिए एक शब्द होगा-",
+      "question_image": null,
+      "options": [
+        "दुर्भेद्य",
+        "ऐच्छिक",
+        "अप्रत्याशित",
+        "आशुतोष"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (अप्रत्याशित) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 92,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्नलिखित वाक्य में चिन्हित शब्द का उचित विलोम शब्द लिखें।मेरे घर के निर्माण का कार्य प्रारम्भ हो गया है।",
+      "question_image": null,
+      "options": [
+        "अमति",
+        "अवसान",
+        "अलभ्य",
+        "अरस"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (अवसान) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 93,
+      "section": "Hindi Language and Comprehension",
+      "question": "रिक्त स्थानों की पूर्ति कारक चिह्न से करें -कुएँ ________ पानी कौन भर रहा है?",
+      "question_image": null,
+      "options": [
+        "के लिए",
+        "पर",
+        "से",
+        "में"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (से) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 94,
+      "section": "Hindi Language and Comprehension",
+      "question": "उपयुक्त विकल्प का चयन कर वाक्य को पूर्ण करें.'रंजना मिठाई खायी थी'",
+      "question_image": null,
+      "options": [
+        "ने",
+        "से",
+        "को",
+        "द्वारा"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (ने) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 95,
+      "section": "Hindi Language and Comprehension",
+      "question": "रिक्त स्थान के लिए सही विकल्प का चयन करें।दरवाजे .....  मैं खड़ा हूँ ।",
+      "question_image": null,
+      "options": [
+        "ने",
+        "से",
+        "पर",
+        "को"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (पर) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 96,
+      "section": "Hindi Language and Comprehension",
+      "question": "_______कपड़े से मेरी कमीज बन जाएगी। प्रस्तुत रिक्त स्थान की पूर्ति निश्चित परिमाणवाचक विशेषण से कीजिए -",
+      "question_image": null,
+      "options": [
+        "कुछ",
+        "दो मीटर",
+        "थोड़े",
+        "अनेक"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (दो मीटर) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 97,
+      "section": "Hindi Language and Comprehension",
+      "question": "आप ..............गए थे ?उपरोक्त दिए गए वाक्य में रिक्त स्थान की पूर्ति के लिए उचित क्रिया-विशेषण शब्द का चयन करें –",
+      "question_image": null,
+      "options": [
+        "थोड़ा",
+        "पटना",
+        "सच",
+        "कहाँ"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (कहाँ) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 98,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्न मुहावरे का सही अर्थ अंकित कीजिए।कलेजे पर पत्थर रखना -",
+      "question_image": null,
+      "options": [
+        "चुपचाप देखना",
+        "चुपचाप सहन करना",
+        "चुपचाप काम करना",
+        "चुपचाप रहना"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (चुपचाप सहन करना) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 99,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:दिए गए गद्यांश के आधार पर निम्नलिखित प्रश्नों का उत्तर दीजिए।आधुनिक साहित्य में वस्तु-स्थिति-चित्रण की प्रवृत्ति इतनी बढ़ रही है कि आज की कहानी यथासम्भव प्रत्यक्ष अनुभवों की सीमा से बाहर नहीं जाती। हमें केवल इतना सोचने से ही संतोष नहीं होता कि मनोविज्ञान की दृष्टि से ये सभी पात्र मनुष्यों से मिले-जुलते हैं, बल्कि हम यह इत्मीनान चाहते हैं कि वे सचमुच मनुष्य हैं और लेखक ने यथासम्भव उनका जीवन-चरित्र ही लिखा है, क्योंकि कल्पना के गढ़े हुए आदमियों में हमारा विश्वास नहीं है, उनके कार्यो और विचारों से हम प्रभावित नहीं होते। हमें इसका निश्चय हो जाना चाहिए कि लेखक ने जो सृष्टि की है, वह प्रत्यक्ष अनुभवों के आधार पर की गई है और अपने पात्रों की ज़बान से वह खुद बोल रहा है। इसीलिए साहित्य को कुछ समालोचकों ने लेखक का मनोवैज्ञानिक जीवन-चरित्र कहा है।‘मनोविज्ञान’ शब्द का क्या अर्थ है?",
+      "question_image": null,
+      "options": [
+        "आत्मा का विज्ञान",
+        "मन का विज्ञान",
+        "मानवीय विज्ञान",
+        "मानव का विज्ञान"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (मन का विज्ञान) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 100,
+      "section": "Hindi Language and Comprehension",
+      "question": "यह दुष्ट ऐसे ही अवसर पर अपना बाण चलाते हैं ।उपरोक्त दिए गए रेखांकित शब्द का पर्यायवाची होगा –",
+      "question_image": null,
+      "options": [
+        "अभद्र",
+        "दुःशील",
+        "दुर्जन",
+        "सफ़ीर"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (दुर्जन) है।",
+      "explanation_image": null
+    }
+  ]
+}

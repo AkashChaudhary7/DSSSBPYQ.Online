@@ -10,6 +10,7 @@ import { Quiz, Question, Attempt, Bookmark, ActiveQuizSession, ReportedQuestionR
 import { UserProfile, getOrCreateUserProfile, saveUserProfile, getStreakCount, getSyllabusCompletionStats } from './lib/userProfile';
 import UserProfileModal from './components/UserProfileModal';
 import AchievementCardModal from './components/AchievementCardModal';
+import { ReportedQuestionsTrackerModal } from './components/ReportedQuestionsTrackerModal';
 import { SubscribeBannerModal } from './components/SubscribeBannerModal';
 import { PromoBanners } from './components/PromoBanners';
 import { DSSSB_EXAMS } from './data/dsssbExams';
@@ -1404,6 +1405,15 @@ export default function App() {
     });
   };
 
+  const handleClearAllReported = () => {
+    setReportedQuestions([]);
+    setReportedQuestionIds([]);
+    try {
+      localStorage.removeItem('dsssb_reported_questions');
+      localStorage.removeItem('dsssb_reported_question_ids');
+    } catch (_) {}
+  };
+
   const handleRestoreQuestion = (questionId: string | number, testId?: string) => {
     const keyToRestore = (typeof questionId === 'string' && questionId.includes('_q_'))
       ? questionId
@@ -2713,68 +2723,6 @@ export default function App() {
                     </motion.div>
                   </div>
 
-                  {/* Featured Banner: Content & Study Resources Hub */}
-                  <motion.div 
-                    initial={{ opacity: 0, y: 15 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    whileHover={{ scale: 1.005 }}
-                    className="glass-box rounded-2xl md:rounded-3xl p-4 md:p-6 border border-sky-300/60 dark:border-sky-800/60 shadow-lg group relative overflow-hidden bg-gradient-to-r from-sky-500/10 via-indigo-500/5 to-purple-500/10 hover:border-sky-400 transition-all"
-                  >
-                    <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-                      <div className="flex items-center gap-3.5 md:gap-5">
-                        <div 
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            setShowSubscribeModal(true);
-                          }}
-                          className="flex items-center -space-x-3 shrink-0 cursor-pointer group/icon"
-                          title="Click to Subscribe to YouTube & Telegram"
-                        >
-                          <Glass3dIcon type="telegram" size="md" className="shadow-md group-hover/icon:scale-115 transition-transform z-10" />
-                          <Glass3dIcon type="youtube" size="md" className="shadow-md group-hover/icon:scale-115 transition-transform z-0" />
-                        </div>
-                        <div className="space-y-1 cursor-pointer" onClick={() => setActiveView('content')}>
-                          <div className="flex items-center gap-2 flex-wrap">
-                            <span className="bg-sky-600 text-white text-[10px] font-black px-2.5 py-0.5 rounded-full uppercase tracking-wider">
-                              Official Content Hub
-                            </span>
-                            <span className="text-xs font-semibold text-slate-500 dark:text-slate-400 flex items-center gap-1">
-                              <Sparkles className="w-3.5 h-3.5 text-amber-500" /> Free PDF Notes &amp; Video Playlists
-                            </span>
-                          </div>
-                          <h3 className="font-black text-base md:text-xl text-slate-900 dark:text-white group-hover:text-sky-600 dark:group-hover:text-sky-400 transition-colors">
-                            Telegram Study Groups &amp; YouTube Video Lectures
-                          </h3>
-                          <p className="text-xs md:text-sm text-slate-600 dark:text-slate-300">
-                            Join verified DSSSB TGT CS Telegram channels for daily PDFs and watch subject-wise YouTube playlist lectures.
-                          </p>
-                        </div>
-                      </div>
-
-                      <div className="flex items-center gap-2 shrink-0 self-end md:self-auto">
-                        <button 
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            setShowSubscribeModal(true);
-                          }}
-                          className="bg-gradient-to-r from-rose-600 to-red-600 hover:from-rose-500 hover:to-red-500 active:scale-95 text-white text-xs font-black px-4 py-3 rounded-2xl shadow-md transition-all flex items-center gap-1.5 cursor-pointer"
-                          title="Subscribe to YouTube & Telegram"
-                        >
-                          <Youtube className="w-4 h-4 fill-white" />
-                          <span>Subscribe</span>
-                        </button>
-
-                        <button 
-                          onClick={() => setActiveView('content')}
-                          className="bg-slate-900 hover:bg-sky-600 text-white dark:bg-white dark:text-slate-900 dark:hover:bg-sky-400 dark:hover:text-slate-950 text-xs font-black px-4 py-3 rounded-2xl shadow-md transition-all flex items-center gap-1.5 cursor-pointer"
-                        >
-                          <span>Explore Hub</span>
-                          <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                        </button>
-                      </div>
-                    </div>
-                  </motion.div>
-
                   {/* AdSense/AdMob Responsive Banner Slot 2 */}
                   <React.Suspense fallback={null}>
                     <AdBanner location="dashboard_bottom" />
@@ -3839,7 +3787,10 @@ export default function App() {
 
       {/* AdSense-Compliant Footer with traffic counters, live users and legal links */}
       {!['quiz', 'result', 'solution-review'].includes(activeView) && (
-        <FooterWithCompliance onOpenSubscribeModal={() => setShowSubscribeModal(true)} />
+        <FooterWithCompliance 
+          onOpenSubscribeModal={() => setShowSubscribeModal(true)} 
+          onOpenAdmin={() => setIsAdminOpen(true)}
+        />
       )}
 
 
@@ -4187,7 +4138,15 @@ export default function App() {
       <SubscribeBannerModal
         isOpen={showSubscribeModal}
         onClose={() => setShowSubscribeModal(false)}
-        onExploreContentHub={() => setActiveView('content')}
+      />
+
+      {/* Admin Reported Questions Audit Tracker Modal */}
+      <ReportedQuestionsTrackerModal
+        isOpen={isAdminOpen}
+        onClose={() => setIsAdminOpen(false)}
+        reportedQuestions={reportedQuestions}
+        onDismissReport={handleDismissReport}
+        onClearAllReports={handleClearAllReported}
       />
     </div>
   );

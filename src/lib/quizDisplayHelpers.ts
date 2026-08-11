@@ -120,7 +120,7 @@ export function getSubjectBadge(quiz: Quiz): string {
  */
 export function countMocksByTopic(quizzes: Quiz[], topicName: string): number {
   if (!quizzes || quizzes.length === 0) return 0;
-  if (topicName === 'All Topics' || topicName === 'All Subjects') return quizzes.length;
+  if (topicName === 'All Topics' || topicName === 'All Subjects' || topicName === 'All') return quizzes.length;
 
   const topicLower = topicName.toLowerCase();
 
@@ -152,7 +152,25 @@ export function countMocksByTopic(quizzes: Quiz[], topicName: string): number {
       return true;
     }
 
-    // Teaching Methodology alias
+    // C / C++ / Data Structures alias
+    if ((topicLower.includes('programming') || topicLower.includes('data structure') || topicLower.includes('c++')) &&
+        (qTopic.includes('programming') || qTopic.includes('data structure') || qTopic.includes('c++') || qTitle.includes('c++') || qTitle.includes('ds') || qFile.includes('ds'))) {
+      return true;
+    }
+
+    // Software Engineering alias
+    if (topicLower.includes('software') && 
+        (qTopic.includes('software') || qSub.includes('software') || qTitle.includes('software') || qFile.includes('software'))) {
+      return true;
+    }
+
+    // Digital Electronics / Architecture alias
+    if ((topicLower.includes('digital') || topicLower.includes('architecture') || topicLower.includes('coa')) &&
+        (qTopic.includes('digital') || qTopic.includes('architecture') || qTopic.includes('coa') || qTitle.includes('digital') || qTitle.includes('coa'))) {
+      return true;
+    }
+
+    // Teaching Methodology / Pedagogy alias
     if ((topicLower.includes('teaching') || topicLower.includes('pedagogy')) && 
         (qTopic.includes('teaching') || qTopic.includes('pedagogy') || qSub.includes('methodology') || qFile.includes('teaching'))) {
       return true;

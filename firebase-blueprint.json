@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "AnalyticsGlobal": {
+      "title": "AnalyticsGlobal",
+      "description": "Global website metrics and visitor counters",
+      "type": "object",
+      "properties": {
+        "total_visitors": {
+          "type": "integer",
+          "description": "The accumulated global visitor count since deployment"
+        },
+        "last_updated": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp of the last increment"
+        }
+      },
+      "required": ["total_visitors"]
+    },
+    "CustomQuiz": {
+      "title": "CustomQuiz",
+      "description": "A user-uploaded or administrator-defined custom mock test",
+      "type": "object",
+      "properties": {
+        "testId": {
+          "type": "string",
+          "description": "The unique identifier of the mock test"
+        },
+        "title": {
+          "type": "string",
+          "description": "The title of the mock test"
+        },
+        "totalTimeMinutes": {
+          "type": "integer",
+          "description": "Allowed duration in minutes"
+        },
+        "category": {
+          "type": "string",
+          "description": "Subject category group (part_a, part_b, full)"
+        },
+        "subject": {
+          "type": "string",
+          "description": "Subject name"
+        },
+        "topic": {
+          "type": "string",
+          "description": "Specific syllabus topic name"
+        },
+        "questions": {
+          "type": "array",
+          "description": "The list of standard question structures"
+        }
+      },
+      "required": ["testId", "title", "questions"]
+    }
+  },
+  "firestore": {
+    "/analytics/global": {
+      "schema": "AnalyticsGlobal",
+      "description": "Path to the singleton global analytics metrics document"
+    },
+    "/custom_quizzes/{quizId}": {
+      "schema": "CustomQuiz",
+      "description": "Collection of all custom/uploaded mock tests available globally"
+    }
+  }
+}

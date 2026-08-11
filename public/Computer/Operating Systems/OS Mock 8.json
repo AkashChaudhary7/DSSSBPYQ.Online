@@ -1,0 +1,656 @@
+{
+  "test_title": "OS Mock 8",
+  "total_questions": 50,
+  "questions": [
+    {
+      "id": 1,
+      "section": "Operating System",
+      "question": "What is the primary source of energy for plants?",
+      "options": [
+        "A) Air",
+        "B) Water",
+        "C) Sunlight",
+        "D) Soil"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 2,
+      "section": "Operating System",
+      "question": "What happens to the particles of matter when it is heated?",
+      "options": [
+        "A) They move faster",
+        "B) They remain in the same position",
+        "C) They move slower",
+        "D) They change into a different substance"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 3,
+      "section": "Operating System",
+      "question": "Which of the following is a chemical property of matter?",
+      "options": [
+        "A) Melting point",
+        "B) Hardness",
+        "C) Density",
+        "D) Reactivity with oxygen"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 4,
+      "section": "Operating System",
+      "question": "Which of the following substances can exist in all three states of matter?",
+      "options": [
+        "A) Nitrogen",
+        "B) Oxygen",
+        "C) Water",
+        "D) Carbon dioxide"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 5,
+      "section": "Operating System",
+      "question": "What is a pure substance?",
+      "options": [
+        "A) A substance with only one type of molecule",
+        "B) A substance with a mixture of different molecules",
+        "C) A substance that can be separated into two or more components",
+        "D) A substance that is impure"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 6,
+      "section": "Operating System",
+      "question": "What type of mixture is sugar dissolved in water?",
+      "options": [
+        "A) Suspension",
+        "B) Colloid",
+        "C) Homogeneous mixture",
+        "D) Heterogeneous mixture"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 7,
+      "section": "Operating System",
+      "question": "What is the primary difference between a compound and a mixture?",
+      "options": [
+        "A) Mixtures have a fixed composition",
+        "B) Compounds are chemically bonded",
+        "C) Mixtures are always pure substances",
+        "D) Compounds can be separated by physical methods"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 8,
+      "section": "Operating System",
+      "question": "What is the smallest particle of an element?",
+      "options": [
+        "A) Proton",
+        "B) Molecule",
+        "C) Ion",
+        "D) Atom"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 9,
+      "section": "Operating System",
+      "question": "Which of the following elements has an atomic number of 6?",
+      "options": [
+        "A) Hydrogen",
+        "B) Carbon",
+        "C) Nitrogen",
+        "D) Oxygen"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 10,
+      "section": "Operating System",
+      "question": "Which of the following is an example of a covalent bond?",
+      "options": [
+        "A) Sodium chloride (NaCl)",
+        "B) Magnesium oxide (MgO)",
+        "C) Calcium chloride (CaCl2)",
+        "D) Hydrogen (H2)"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 11,
+      "section": "Operating System",
+      "question": "What is the atomic number of an element with 6 protons and 6 electrons?",
+      "options": [
+        "A) 12",
+        "B) 6",
+        "C) 4",
+        "D) 8"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 12,
+      "section": "Operating System",
+      "question": "What is the mass of an electron?",
+      "options": [
+        "A) 1 amu",
+        "B) 1836 amu",
+        "C) 1/1836 amu",
+        "D) 0 amu"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 13,
+      "section": "Operating System",
+      "question": "Which part of the atom contains the protons and neutrons?",
+      "options": [
+        "A) Nucleus",
+        "B) Electron cloud",
+        "C) Shells",
+        "D) Orbitals"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 14,
+      "section": "Operating System",
+      "question": "The discovery of the neutron was made by?",
+      "options": [
+        "A) Niels Bohr",
+        "B) James Chadwick",
+        "C) Ernest Rutherford",
+        "D) J.J. Thomson"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 15,
+      "section": "Operating System",
+      "question": "Which model of the atom is known as the “plum pudding model”?",
+      "options": [
+        "A) Dalton’s model",
+        "B) Rutherford’s model",
+        "C) Bohr’s model",
+        "D) Thomson’s model"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 16,
+      "section": "Operating System",
+      "question": "Which gas is responsible for the greenhouse effect?",
+      "options": [
+        "A) Hydrogen",
+        "B) Carbon dioxide",
+        "C) Oxygen",
+        "D) Nitrogen"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 17,
+      "section": "Operating System",
+      "question": "Which of the following is a property of acids?",
+      "options": [
+        "A) Does not change color of litmus paper",
+        "B) Slippery feel",
+        "C) Sour taste",
+        "D) Bitter taste"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 18,
+      "section": "Operating System",
+      "question": "What is the SI unit of acceleration?",
+      "options": [
+        "A) m/s2",
+        "B) m/s",
+        "C) km/h",
+        "D) s/m"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 19,
+      "section": "Operating System",
+      "question": "An object travels 10 m east and then 10 m west. What is its displacement?",
+      "options": [
+        "A) 20 m",
+        "B) 10 m",
+        "C) 0 m",
+        "D) 5 m"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 20,
+      "section": "Operating System",
+      "question": "What is the term for motion along a straight line?",
+      "options": [
+        "A) Circular motion",
+        "B) Rectilinear motion",
+        "C) Vibrational motion",
+        "D) Rotational motion"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 21,
+      "section": "Operating System",
+      "question": "Which of the following describes an object in motion?",
+      "options": [
+        "A) It is moving with constant velocity",
+        "B) It is at rest",
+        "C) It is changing position over time",
+        "D) It is moving in a straight line"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 22,
+      "section": "Operating System",
+      "question": "Which law explains the relationship between force and motion?",
+      "options": [
+        "A) Newton’s First Law",
+        "B) Law of Universal Gravitation",
+        "C) Newton’s Third Law",
+        "D) Newton’s Second Law"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 23,
+      "section": "Operating System",
+      "question": "Which law explains why a person feels pushed back when a car suddenly accelerates?",
+      "options": [
+        "A) Newton’s Third Law",
+        "B) Newton’s First Law",
+        "C) Newton’s Second Law",
+        "D) Law of Universal Gravitation"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 24,
+      "section": "Operating System",
+      "question": "Which of the following is an example of an action and reaction pair according to Newton’s Third Law of Motion?",
+      "options": [
+        "A) A person pushing a wall",
+        "B) A ball falling to the ground",
+        "C) A car accelerating",
+        "D) A rocket lifting off"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 25,
+      "section": "Operating System",
+      "question": "What is the value of acceleration due to gravity on Earth?",
+      "options": [
+        "A) 10 m/s2",
+        "B) 9.8 m/s",
+        "C) 9.8 m/s2",
+        "D) 9.8 N/kg"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 26,
+      "section": "Operating System",
+      "question": "Which of the following is true about gravitational force?",
+      "options": [
+        "A) It is always attractive",
+        "B) It is a contact force",
+        "C) It depends on the color of the object",
+        "D) It is a non-contact force"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 27,
+      "section": "Operating System",
+      "question": "What is the relationship between weight and mass?",
+      "options": [
+        "A) Weight is independent of mass",
+        "B) Weight is inversely proportional to mass",
+        "C) Weight is proportional to mass",
+        "D) Weight is proportional to volume"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 28,
+      "section": "Operating System",
+      "question": "Which of the following objects experiences gravitational force?",
+      "options": [
+        "A) Only the Moon",
+        "B) Any object with mass",
+        "C) Only objects near the Earth’s surface",
+        "D) Only Earth"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 29,
+      "section": "Operating System",
+      "question": "If the displacement is zero, what is the work done by the force?",
+      "options": [
+        "A) Infinite",
+        "B) Negative",
+        "C) Zero",
+        "D) Positive"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 30,
+      "section": "Operating System",
+      "question": "What is the energy possessed by an object due to its position or configuration called?",
+      "options": [
+        "A) Thermal energy",
+        "B) Potential energy",
+        "C) Radiant energy",
+        "D) Kinetic energy"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 31,
+      "section": "Operating System",
+      "question": "What is the power consumed by a 60-watt bulb in 2 hours?",
+      "options": [
+        "A) 120 J",
+        "B) 60 J",
+        "C) 120 W",
+        "D) 720 W"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 32,
+      "section": "Operating System",
+      "question": "Which of the following best represents energy conservation within a system through continuous transformation?",
+      "options": [
+        "A) A battery being charged",
+        "B) A pendulum swinging back and forth",
+        "C) Water freezing into ice",
+        "D) A car accelerating on a highway"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 33,
+      "section": "Operating System",
+      "question": "Sound waves are examples of what type of waves?",
+      "options": [
+        "A) Electromagnetic waves",
+        "B) Surface waves",
+        "C) Longitudinal waves",
+        "D) Transverse waves"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 34,
+      "section": "Operating System",
+      "question": "What is the speed of sound in water?",
+      "options": [
+        "A) 1200 m/s",
+        "B) 343 m/s",
+        "C) 5000 m/s",
+        "D) 1500 m/s"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 35,
+      "section": "Operating System",
+      "question": "What is the function of the plasma membrane?",
+      "options": [
+        "A) Produces energy",
+        "B) Stores genetic material",
+        "C) Regulates entry and exit of substances",
+        "D) Provides shape to the cell"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 36,
+      "section": "Operating System",
+      "question": "What is an example of a prokaryotic cell?",
+      "options": [
+        "A) Fungi",
+        "B) Bacteria",
+        "C) Plant cell",
+        "D) Protozoa"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 37,
+      "section": "Operating System",
+      "question": "Which organelle is present in animal cells but absent in most plant cells?",
+      "options": [
+        "A) Lysosome",
+        "B) Chloroplast",
+        "C) Cell wall",
+        "D) Vacuole"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 38,
+      "section": "Operating System",
+      "question": "Which of the following statements about mitochondria is true?",
+      "options": [
+        "A) Mitochondria produce energy in the form of ATP",
+        "B) Mitochondria are not membrane-bound",
+        "C) Mitochondria lack their own DNA",
+        "D) Mitochondria are found only in animal cells"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 39,
+      "section": "Operating System",
+      "question": "What type of meristem is found at the tips of roots and shoots?",
+      "options": [
+        "A) Permanent meristem",
+        "B) Apical meristem",
+        "C) Lateral meristem",
+        "D) Intercalary meristem"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 40,
+      "section": "Operating System",
+      "question": "Which vascular tissue conducts water in plants?",
+      "options": [
+        "A) Phloem",
+        "B) Collenchyma",
+        "C) Xylem",
+        "D) Parenchyma"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 41,
+      "section": "Operating System",
+      "question": "Which tissue is responsible for movement in the body?",
+      "options": [
+        "A) Muscular tissue",
+        "B) Epithelial tissue",
+        "C) Connective tissue",
+        "D) Nervous tissue"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 42,
+      "section": "Operating System",
+      "question": "Which tissue transmits electrical impulses in the body?",
+      "options": [
+        "A) Connective tissue",
+        "B) Epithelial tissue",
+        "C) Muscular tissue",
+        "D) Nervous tissue"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 43,
+      "section": "Operating System",
+      "question": "Which crop is classified as a Kharif crop?",
+      "options": [
+        "A) Barley",
+        "B) Maize",
+        "C) Mustard",
+        "D) Wheat"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 44,
+      "section": "Operating System",
+      "question": "Which cropping pattern involves growing crops in a specific sequence?",
+      "options": [
+        "A) Crop rotation",
+        "B) Intercropping",
+        "C) Monocropping",
+        "D) Relay cropping"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 45,
+      "section": "Operating System",
+      "question": "Which factor is important in organic farming?",
+      "options": [
+        "A) Use of synthetic fertilizers",
+        "B) Monocropping",
+        "C) Heavy use of pesticides",
+        "D) Use of organic manures and biofertilizers"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 46,
+      "section": "Operating System",
+      "question": "Which irrigation system involves the rotation of water supply through canals?",
+      "options": [
+        "A) Canal irrigation",
+        "B) Drip irrigation",
+        "C) Basin irrigation",
+        "D) Sprinkler irrigation"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 47,
+      "section": "Operating System",
+      "question": "Why is democracy considered a better form of government?",
+      "options": [
+        "A) It ensures that one leader controls the government",
+        "B) It allows people to elect leaders and have a say in decision-making",
+        "C) It limits the power of the military",
+        "D) It is the fastest way to make decisions"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 48,
+      "section": "Operating System",
+      "question": "What does a democratic government protect?",
+      "options": [
+        "A) The rich",
+        "B) The interests of the ruling party",
+        "C) The rights of its citizens",
+        "D) The military"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 49,
+      "section": "Operating System",
+      "question": "Which of the following is NOT a feature of democracy?",
+      "options": [
+        "A) Free and fair elections",
+        "B) One-party rule",
+        "C) Fundamental rights",
+        "D) Equality for all"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 50,
+      "section": "Operating System",
+      "question": "Which of the following is NOT a characteristic of democracy?",
+      "options": [
+        "A) Freedom of expression",
+        "B) Equality before the law",
+        "C) Unequal distribution of resources",
+        "D) Regular elections"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    }
+  ]
+}

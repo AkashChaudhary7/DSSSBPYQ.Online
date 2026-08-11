@@ -1,0 +1,1462 @@
+{
+  "test_title": "Mock Test 40",
+  "total_questions": 91,
+  "questions": [
+    {
+      "id": 1,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete?KHJ192, QNP165, WTV138, CZB111, ?3016",
+      "question_image": null,
+      "options": [
+        "IFH81",
+        "IFH84",
+        "JFH84",
+        "IFH83"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (IFH84) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 2,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "‘A ¥ B’ means ‘A is the father of B’,‘A x B’ means ‘A is the brother of B’, ‘A % B’ means ‘A is the son of B’ and‘A + B’ means ‘A is the wife of B’.Which of the following means that O is the brother's wife's brother of S?",
+      "question_image": null,
+      "options": [
+        "O ¥ M x I % T + S",
+        "O + M x I ¥ T % S",
+        "O x M + I % T ¥ S",
+        "O x M + I ¥ T % S"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (O x M + I % T ¥ S) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 3,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "This question is based on the given words.VIE          WAG        CON             WEBIn each of the words, each vowel is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. In how many letter-clusters thus formed, will no vowel appear? 2614",
+      "question_image": null,
+      "options": [
+        "Zero",
+        "Three",
+        "Two",
+        "One"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Two) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 4,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "In a certain code language, ‘CLAN’ is coded as ‘6135’ and ‘LEAN’ is coded as ‘6451’. What is the code for ‘E’ in the given code language?",
+      "question_image": null,
+      "options": [
+        "1",
+        "4",
+        "6",
+        "5"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (4) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 5,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "If ‘A’ stands for ‘÷’, ‘B’ stands for ‘×’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘−’, then what will come in place of the question mark (?) in the following equation?32 B 4 C 130 A 26 D 11 = ?",
+      "question_image": null,
+      "options": [
+        "120",
+        "129",
+        "122",
+        "116"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (122) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 6,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Select the option that is related to the fifth number in the same way as the second number is related to the first number and the fourth number is related to the third number.(Note: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)84 : 56 : : 36 : 24 : : 144 : ?",
+      "question_image": null,
+      "options": [
+        "63",
+        "96",
+        "67",
+        "45"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (96) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 7,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "This question is based on the following words.(Left) THY          SAD           RIM            MEN (Right)    In each of the words, each vowel is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. In how many letter-clusters thus formed, will no vowel appear? 2605",
+      "question_image": null,
+      "options": [
+        "Four",
+        "One",
+        "Two",
+        "Three"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Four) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 8,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "If ‘+’ means ‘−’, ‘−’ means ‘×’, ‘×’ means ‘÷’, ‘÷’ means ‘+’, then what will come in place of the question mark (?) in the following equation?24 − 3 ÷ 8 + 32 × 4 = ?5851",
+      "question_image": null,
+      "options": [
+        "70",
+        "71",
+        "89",
+        "72"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (72) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 9,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Each of C, D, E, F, W, X and Z has an exam on a different day of a week, starting from Monday and ending on Sunday of the same week. Only one person has an exam before X. Only two people have an exam between X and F. Only four people have exams between Z and X. C has an exam immediately after W. D does not have an exam on Monday. How many people have exams between D and E?",
+      "question_image": null,
+      "options": [
+        "Four",
+        "Three",
+        "One",
+        "Two"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Four) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 10,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? MSP, NTQ, OUR, PVS, ?",
+      "question_image": null,
+      "options": [
+        "QTW",
+        "QWT",
+        "TQW",
+        "TWQ"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (QWT) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 11,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "If ‘+’ means ‘–’, ‘–’ means ‘×’, ‘×’ means ‘÷’, ‘÷’ means ‘+’, then what will come in place of the question mark (?) in the following equation?49 × 7 – 12 ÷ 92 + 14 = ?",
+      "question_image": null,
+      "options": [
+        "181",
+        "179",
+        "162",
+        "153"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (162) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 12,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "This question is based on the five, three-digit numbers given below.(Left)   378          845          427          253          276   (Right)(Example- 697 – First digit = 6, second digit = 9 and third digit = 7)NOTE - All operations to be done from left to right.What will be the resultant if the third digit of the highest number is added to the second digit of the lowest number? 117",
+      "question_image": null,
+      "options": [
+        "13",
+        "12",
+        "10",
+        "11"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (10) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 13,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "What should come in place of the question mark (?) in the given series?29  38  49  62  77  ?",
+      "question_image": null,
+      "options": [
+        "94",
+        "91",
+        "96",
+        "86"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (94) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 14,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Mr. Q starts from Point D and drives 2 km towards the west. He then takes a right turn, drives 4 km, turns right and drives 7 km. He then takes a right turn and drives 9 km. He then takes a right turn, drives 4 km. He then right turn, drives 3 km. He then takes a final left turn drives 1 km and stops at Point E. How far (shortest distance) and towards which direction should he drive in order to reach Point D again? (All turns are 90 degrees turns only, unless specified.)",
+      "question_image": null,
+      "options": [
+        "2 km towards the north",
+        "1 km towards the east",
+        "2 km towards the west",
+        "3 km towards the south"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (2 km towards the north) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 15,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Ramit starts from Point A and drives 13 km towards south. He then takes a left turn, drives 11 km, turns left and drives 15 km. He then takes a left turn and drives 14 km. He takes a final left turn, drives 2 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again?(All turns are 90-degree turns only unless specified.)",
+      "question_image": null,
+      "options": [
+        "3 km to the east",
+        "3 km to the west",
+        "4 km to the east",
+        "4 km to the west"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (3 km to the east) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 16,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete?CHR59, SXH95, INX131, YDN167, ?",
+      "question_image": null,
+      "options": [
+        "OUD203",
+        "OTD203",
+        "OTO203",
+        "PTD203"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (OTD203) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 17,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "43 is related to 26 following a certain logic. Following the same logic, 87 is related to 70. To which of the given options is 91 related, following the same logic? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "question_image": null,
+      "options": [
+        "74",
+        "78",
+        "86",
+        "73"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (74) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 18,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "In the following series, only one letter-cluster is incorrect. Select the INCORRECT letter-cluster.CIL     FLK     PLI     LRI     OUH     RXG",
+      "question_image": null,
+      "options": [
+        "LRI",
+        "RXG",
+        "PLI",
+        "OUH"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (PLI) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 19,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "In a certain code language, ‘EACH’ is coded as ‘9456’ and ‘CASH’ is coded as ‘5934’. What is the code for ‘S’ in the given code language?",
+      "question_image": null,
+      "options": [
+        "3",
+        "5",
+        "4",
+        "9"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (3) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 20,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group?(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)3040",
+      "question_image": null,
+      "options": [
+        "TWZ",
+        "JMP",
+        "VHG",
+        "LOR"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (VHG) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 21,
+      "section": "General Awareness",
+      "question": "The _______ kings assumed the title of ‘Devaputra’ (son of God).",
+      "question_image": null,
+      "options": [
+        "Shaka",
+        "Sunga",
+        "Kushana",
+        "Parthian"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Kushana) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 22,
+      "section": "General Awareness",
+      "question": "As per Census 2011, what was the sex ratio of Kerala?",
+      "question_image": null,
+      "options": [
+        "1045",
+        "1084",
+        "1002",
+        "985"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (1084) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 23,
+      "section": "General Awareness",
+      "question": "Sarai Nahar Rai, a Mesolithic site, is located in _____.",
+      "question_image": null,
+      "options": [
+        "Bihar",
+        "Madhya Pradesh",
+        "Punjab",
+        "Uttar Pradesh"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Uttar Pradesh) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 24,
+      "section": "General Awareness",
+      "question": "According to Article 371-C, the President is authorised to provide for the creation of a committee of the Manipur Legislative Assembly consisting of members elected from the _______________.",
+      "question_image": null,
+      "options": [
+        "valley areas",
+        "plain areas",
+        "urban areas",
+        "hill areas"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (hill areas) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 25,
+      "section": "General Awareness",
+      "question": "Which of the following pair of instrument – type is correct?I. Veena – Tata VadyaII. Flute – Sushira Vadya",
+      "question_image": null,
+      "options": [
+        "Neither I nor II",
+        "Both I and II",
+        "Only II",
+        "Only I"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Both I and II) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 26,
+      "section": "General Awareness",
+      "question": "​The Indian Government aims to achieve 500 GW non-fossil based electricity generation capacity by the end of which of the following years?",
+      "question_image": null,
+      "options": [
+        "2035",
+        "2030",
+        "2040",
+        "2025"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (2030) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 27,
+      "section": "General Awareness",
+      "question": "At the ICC T20 Cricket World Cup 2024, who was awarded the Player of the Tournament?",
+      "question_image": null,
+      "options": [
+        "Suryakumar Yadav",
+        "Virat Kohli",
+        "Jasprit Bumrah",
+        "Rohit Sharma"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Jasprit Bumrah) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 28,
+      "section": "General Awareness",
+      "question": "As per the 2011 Census, which of the following is the percentage of Hindu population in India?",
+      "question_image": null,
+      "options": [
+        "79.8%",
+        "92.3%",
+        "52.7%",
+        "61.3%"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (79.8%) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 29,
+      "section": "General Awareness",
+      "question": "1991 के आर्थिक सुधारों के संदर्भ में, निम्नलिखित में से किस कथन में 'निजीकरण' का सर्वोत्तम वर्णन किया गया है?",
+      "question_image": null,
+      "options": [
+        "बैंकों का राष्ट्रीयकरण",
+        "उद्योगों में सरकारी स्वामित्व में वृद्धि",
+        "निजी क्षेत्र की भागीदारी पर प्रतिबंध",
+        "सार्वजनिक क्षेत्र के उद्यमों का स्वामित्व निजी कंपनियों को स्थानांतरित करना"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (सार्वजनिक क्षेत्र के उद्यमों का स्वामित्व निजी कंपनियों को स्थानांतरित करना) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 30,
+      "section": "General Awareness",
+      "question": "According to the Supreme Court even a private body or any agency working as an instrument of the state falls within the meaning of the State under Article ____________.",
+      "question_image": null,
+      "options": [
+        "4",
+        "3",
+        "13",
+        "12"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (12) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 31,
+      "section": "General Awareness",
+      "question": "Which of the following diseases can be treated using gene therapy?",
+      "question_image": null,
+      "options": [
+        "Minor cuts and bruises",
+        "Hereditary diseases",
+        "Seasonal allergies",
+        "Common cold"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Hereditary diseases) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 32,
+      "section": "General Awareness",
+      "question": "Armando Colaco, who was honoured with the Dronacharya Award (Lifetime category) in January 2025, is associated with which sport?",
+      "question_image": null,
+      "options": [
+        "Hockey",
+        "Athletics",
+        "Football",
+        "Badminton"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Football) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 33,
+      "section": "General Awareness",
+      "question": "How many total medals did India secure at the Asian Under-19 & Under-22 Boxing Championships 2025?",
+      "question_image": null,
+      "options": [
+        "20",
+        "25",
+        "27",
+        "23"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (27) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 34,
+      "section": "General Awareness",
+      "question": "दिए गए शब्दों में शुद्ध वर्तनी का चयन कीजिए।",
+      "question_image": null,
+      "options": [
+        "रसायनिक",
+        "रासायनिक",
+        "रासाय्निक",
+        "रसायनीक"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (रासायनिक) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 35,
+      "section": "General Awareness",
+      "question": "स्थानीय सरकारों पर द्वितीय प्रशासनिक सुधार आयोग की रिपोर्ट का शीर्षक _____ है।",
+      "question_image": null,
+      "options": [
+        "स्थानीय शासन",
+        "ग्रामीण और शहरी शासन",
+        "क्षेत्रीय प्रशासन",
+        "स्वशासन और स्थानीय संस्थाएँ"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (स्थानीय शासन) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 36,
+      "section": "General Awareness",
+      "question": "Which Indian-origin US scientist was awarded the prestigious Shaw Prize in Astronomy for 2024?",
+      "question_image": null,
+      "options": [
+        "Subrahmanyan Chandrasekhar",
+        "Shrinivas R Kulkarni",
+        "Raj Reddy",
+        "Venkatraman Ramakrishnan"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Shrinivas R Kulkarni) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 37,
+      "section": "General Awareness",
+      "question": "Which of the following matches is INCORRECT with reference to Alauddin Khalji’s campaign?",
+      "question_image": null,
+      "options": [
+        "Gujarat — 1299",
+        "Warangal — 1307",
+        "Chittorgarh — 1303",
+        "Ranthambore — 1301"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Warangal — 1307) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 38,
+      "section": "General Awareness",
+      "question": "Which famous musician is known for popularising the tabla globally?",
+      "question_image": null,
+      "options": [
+        "Allauddin Khan",
+        "Ustad Amjad Ali Khan",
+        "Ustad Zakir Hussain",
+        "MS Subbulakshmi"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Ustad Zakir Hussain) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 39,
+      "section": "General Awareness",
+      "question": "The Kendriya Hindi Sansthan was established in the year _________ under the Ministry of Human Resources Development (Ministry of Education).",
+      "question_image": null,
+      "options": [
+        "1954",
+        "1961",
+        "1965",
+        "1951"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (1961) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 40,
+      "section": "General Awareness",
+      "question": "When was the Treaty of Purandar signed between the Mughal commander Raja Jai Singh and Chhatrapati Shivaji?",
+      "question_image": null,
+      "options": [
+        "1670",
+        "1674",
+        "1676",
+        "1665"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (1665) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 41,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A number, when divided by a divisor, leaves a remainder of 75. When twice the original number is divided by the same divisor, the remainder is 60. Which of the following options gives the maximum value of the divisor?",
+      "question_image": null,
+      "options": [
+        "90",
+        "100",
+        "95",
+        "85"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (90) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 42,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A person saves 10% of his monthly income. If his monthly income increases by 20%, then he saves 10% more than the previous savings. The percentage increase (rounded off to two decimal places) in his expenditure is ____%.2189",
+      "question_image": null,
+      "options": [
+        "21.11",
+        "25.33",
+        "23.22",
+        "19.23"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (21.11) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 43,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The value of x in the proportion equation 43 : 86 :: 32 : x is:",
+      "question_image": null,
+      "options": [
+        "61",
+        "67",
+        "64",
+        "55"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (64) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 44,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "एक व्यक्ति को प्रतिमाह ₹9,598 वेतन मिलता है। वह प्रतिमाह अपने वेतन का 50% बचाता है। उसका मासिक खर्च (₹ में) ज्ञात कीजिए।",
+      "question_image": null,
+      "options": [
+        "4,879",
+        "4,821",
+        "4,761",
+        "4,799"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (4,799) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 45,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A trader offers a discount of 17% on the marked price of an article. How much percentage above the cost price should he mark the article to make a profit of 17%?(Give your answer rounded off to 2 decimal places.)",
+      "question_image": null,
+      "options": [
+        "38.47%",
+        "36.71%",
+        "41.56%",
+        "40.96%"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (40.96%) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 46,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "One-third of a journey is covered at a speed of 12 km/hr, the next one-third of the journey is covered at a speed of 59 km/hr and the remaining journey is covered at a speed of 61 km/hr. The average speed (in km/hr, rounded off to one decimal place) for the entire journey is:",
+      "question_image": null,
+      "options": [
+        "24.2",
+        "25.7",
+        "29.7",
+        "23.1"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (25.7) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 47,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The average age of three persons is 70 years and their ages are in proportion 1 : 5 : 9. What is the age (in years) of the youngest person?",
+      "question_image": null,
+      "options": [
+        "13",
+        "16",
+        "14",
+        "15"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (14) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 48,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The population of a town increases every year by 8%. If its present population is 78,125, then after 3 years it will be:",
+      "question_image": null,
+      "options": [
+        "87,880",
+        "69,120",
+        "98,415",
+        "60,835"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (98,415) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 49,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A man buys a second-hand car for ₹9,11,000 and spends ₹97,000 on its repairs. What should be its selling price (in ₹) if he wants to earn a 13% profit?",
+      "question_image": null,
+      "options": [
+        "₹11,49,000",
+        "₹11,39,040",
+        "₹11,42,600",
+        "₹11,29,600"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (₹11,39,040) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 50,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A train goes from A to B at a speed of 12 km/h and returns from B to A by the same route at 36 km/h. The average speed (in km/h) of the train during the two-way journey is:",
+      "question_image": null,
+      "options": [
+        "18",
+        "17",
+        "16",
+        "15"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (18) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 51,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Akhilesh and Balram invest in a business in the ratio 3 : 2. If 15% of the total profit goes to charity and Akhilesh's share is ₹1,27,500, the total profit (in ₹) is:",
+      "question_image": null,
+      "options": [
+        "2,50,000",
+        "1,90,000",
+        "2,30,000",
+        "2,75,000"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (2,50,000) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 52,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage and answer the questions that follow.Just as the oceans opened up a new world for clipper ships and Yankee traders, space holds enormous potential for commerce today. The International Space Station (ISS) took 10 years and more than 30 missions to assemble. It is the result of unprecedented scientific and engineering collaboration among five space agencies representing 15 countries. The space station is approximately the size of a football field: a 460-ton, permanently crewed platform orbiting 250 miles above Earth. It is about four times as large as the Russian space station Mir and five times as large as the U.S. Skylab. The idea of a space station was once science fiction, existing only in the imagination until it became clear in the 1940s that construction of such a structure might be attainable by our nation. As the Space Age began in the 1950s, designs of 'space planes' and stations dominated popular media. The first rudimentary station was created in 1969 by the linking of two Russian Soyuz vehicles in space, followed by other stations and developments in space technology until construction began on the ISS in 1998, aided by the first reusable spacecraft ever developed: the American shuttles. Until recently, U.S. research space onboard the ISS had been reserved for mostly government initiatives, but new opportunities for commercial and academic use of the ISS are now available, facilitated by the ISS National Lab.Identify the most suitable title for the passage.159",
+      "question_image": null,
+      "options": [
+        "ISS – A Past History of International Space Initiatives",
+        "ISS – A Solid Foundation for New Space Tourism",
+        "ISS – A Stunning Truth about New Space Research",
+        "ISS – A New Avenue for Commerce and Research"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (ISS – A New Avenue for Commerce and Research) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 53,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage and answer the questions that follow.Just as the oceans opened up a new world for clipper ships and Yankee traders, space holds enormous potential for commerce today. The International Space Station (ISS) took 10 years and more than 30 missions to assemble. It is the result of unprecedented scientific and engineering collaboration among five space agencies representing 15 countries. The space station is approximately the size of a football field: a 460-ton, permanently crewed platform orbiting 250 miles above Earth. It is about four times as large as the Russian space station Mir and five times as large as the U.S. Skylab. The idea of a space station was once science fiction, existing only in the imagination until it became clear in the 1940s that construction of such a structure might be attainable by our nation. As the Space Age began in the 1950s, designs of 'space planes' and stations dominated popular media. The first rudimentary station was created in 1969 by the linking of two Russian Soyuz vehicles in space, followed by other stations and developments in space technology until construction began on the ISS in 1998, aided by the first reusable spacecraft ever developed: the American shuttles. Until recently, U.S. research space onboard the ISS had been reserved for mostly government initiatives, but new opportunities for commercial and academic use of the ISS are now available, facilitated by the ISS National Lab.Identify the correct inference that can be drawn from the passage.161",
+      "question_image": null,
+      "options": [
+        "The International Space Station is an exclusive project.",
+        "The International Space Station is a privately funded project.",
+        "The International Space Station is a cooperative project.",
+        "The International Space Station is a totally defunct project."
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (The International Space Station is a cooperative project.) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 54,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate meaning of the given proverb.After victory, tighten your helmet cord",
+      "question_image": null,
+      "options": [
+        "Always be cautious, even after achieving success",
+        "Celebrate your victory with a sense of pride",
+        "It is important to relax after a victory",
+        "You should always remain humble in victory"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Always be cautious, even after achieving success) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 55,
+      "section": "English Language and Comprehension",
+      "question": "Select the INCORRECTLY spelt word in the given sentence.The exigetical profundity of his treatise revealed an intricate tapestry of metaphysical concepts, challenging conventional paradigms with its arcane insights.1044",
+      "question_image": null,
+      "options": [
+        "profundity",
+        "exigetical",
+        "arcane",
+        "treatise"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (exigetical) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 56,
+      "section": "English Language and Comprehension",
+      "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the right order to form a meaningful and coherent paragraph.1. These missions aim to search for signs of life, study the planet's geology and climate and pave the way for potential human exploration in the future.2. As technology advances, the possibilities for space exploration are expanding, opening up new frontiers for scientific discovery and potential human settlement beyond Earth.3. Private companies like SpaceX and Blue Origin are also playing a significant role in the development of space tourism and commercial space travel.4. Meanwhile, agencies like NASA and ESA are planning ambitious missions to the Moon and Mars.5. In recent years, there has been a renewed interest in space exploration, driven by a desire to understand our place in the universe and explore the potential for life beyond Earth.",
+      "question_image": null,
+      "options": [
+        "15423",
+        "12345",
+        "25134",
+        "52413"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (52413) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 57,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage carefully and answer the questions that follow.The rise of digital technology has transformed the way people communicate, work, and access information. With the advent of the internet, social media platforms, and smartphones, the world has become more connected than ever before. This connectivity offers numerous benefits, such as easier access to knowledge, faster communication, and new opportunities for collaboration across distances. People can now attend virtual conferences, engage in global discussions, and share ideas instantly across time zones. However, the digital age also presents challenges. Excessive screen time can negatively affect mental health, causing issues like anxiety and reduced attention span. Children and adolescents are especially vulnerable to these effects, as their social and cognitive development can be influenced by prolonged digital exposure. Moreover, the spread of misinformation and online privacy concerns are growing problems that require careful attention. Cyberbullying, identity theft, and data breaches further complicate the online experience, raising questions about digital ethics and regulation. Balancing the advantages of digital tools with their potential drawbacks is essential for individuals and societies. In real life, these technological changes impact education, business, and social interactions. For instance, remote work and online learning have become widespread, reshaping traditional methods. These shifts offer flexibility but also demand strong self-discipline and time management skills. As people adapt to these changes, it is crucial to develop digital literacy and responsible online behavior to fully benefit from technology while minimizing its risks. In conclusion, digital technology has revolutionized modern life, but it demands awareness and thoughtful use to ensure positive outcomes.Identify the structure of the passage.",
+      "question_image": null,
+      "options": [
+        "Cause and effect",
+        "Chronological order",
+        "Problem and solution",
+        "Comparison and contrast"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Cause and effect) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 58,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate synonym of the underlined word in the given sentence.We were astounded at the fulsome praise heaped upon the opposition party.",
+      "question_image": null,
+      "options": [
+        "Restrained",
+        "Appropriate",
+        "Measured",
+        "Excessive"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Excessive) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 59,
+      "section": "English Language and Comprehension",
+      "question": "Parts of a sentence are given below. While the first part (S1) is in the correct place, the remaining parts (labelled A, B, C, D and E) are jumbled up. Arrange the parts in the correct order to form a meaningful and coherent sentence.S1. I haveA. never come acrossB. any fragrancesC. that are more aromatic, beautifulD. smell sense.E. and pleasant to the111",
+      "question_image": null,
+      "options": [
+        "ABDEC",
+        "ABCED",
+        "ABCDE",
+        "DABCE"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (ABCED) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 60,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate option to fill in the blanks.He was awarded ___ prize for ___ best research paper.",
+      "question_image": null,
+      "options": [
+        "a, the",
+        "a, a",
+        "the, no article",
+        "the, a"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (a, the) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 61,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate option to fill in the blank.We seldom forget an appointment, _______?",
+      "question_image": null,
+      "options": [
+        "ever we",
+        "will we",
+        "can we",
+        "do we"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (do we) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 62,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage carefully and answer the questions that follow.Once lived in Greece a wonderful musician named Orpheus. When he played his lyre, the trees were so charmed by his music that they followed him as he went along; and the lifeless rocks became living and trembled at the beauty of his song, and he could so much charm people that they would forget all their bad thoughts and become for a while as lovely as the sounds they heard.Orpheus had a fair young wife, Eurydice; and though he loved his music, she was still more dear to him. She was as beautiful as the dewy morning; she had never had a thought that was not pure and lovely. One day, Eurydice was walking in the fields with some young girls, gathering flowers as she went along, when suddenly from under a cluster of leaves, a serpent darted out with a loud \"hiss,\" and before Eurydice could step aside, the snake had bitten her in the foot.Eurydice’s beauty was compared to _______.",
+      "question_image": null,
+      "options": [
+        "a cloudy evening",
+        "a dewy morning",
+        "a sunny morning",
+        "a snowy night"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (a dewy morning) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 63,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage and answer the questions that follow.Just as the oceans opened up a new world for clipper ships and Yankee traders, space holds enormous potential for commerce today. The International Space Station (ISS) took 10 years and more than 30 missions to assemble. It is the result of unprecedented scientific and engineering collaboration among five space agencies representing 15 countries. The space station is approximately the size of a football field: a 460-ton, permanently crewed platform orbiting 250 miles above Earth. It is about four times as large as the Russian space station Mir and five times as large as the U.S. Skylab. The idea of a space station was once science fiction, existing only in the imagination until it became clear in the 1940s that construction of such a structure might be attainable by our nation. As the Space Age began in the 1950s, designs of 'space planes' and stations dominated popular media. The first rudimentary station was created in 1969 by the linking of two Russian Soyuz vehicles in space, followed by other stations and developments in space technology until construction began on the ISS in 1998, aided by the first reusable spacecraft ever developed: the American shuttles. Until recently, U.S. research space onboard the ISS had been reserved for mostly government initiatives, but new opportunities for commercial and academic use of the ISS are now available, facilitated by the ISS National Lab.Identify the tone of the passage.162",
+      "question_image": null,
+      "options": [
+        "Objective",
+        "Speculative",
+        "Calculative",
+        "Subjective"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Objective) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 64,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate option to fill in the blanks. If no article is required, select the option with ‘No article required’.I heard ____ news of the cancellation of _____ exams on television.",
+      "question_image": null,
+      "options": [
+        "the; the",
+        "the; no article required",
+        "a; the",
+        "no article required; the"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (the; the) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 65,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage and answer the questions that follow. American literature has undergone a profound transformation from its early colonial roots to its present-day complexity. The initial literary works, often theological in nature, reflected the Puritan settlers’ rigid worldview, emphasising moral rectitude and divine providence. Writers such as Jonathan Edwards and Anne Bradstreet used their prose and poetry to navigate religious devotion and personal introspection. However, as the colonies moved towards independence, literature took on a more political tone, with figures like Thomas Paine and Benjamin Franklin using rhetorical finesse to galvanise revolutionary sentiment.The 19th century marked a period of literary expansion, as American authors sought to carve a distinct identity apart from European influences. Romanticism flourished with writers like Nathaniel Hawthorne and Edgar Allan Poe, whose works explored psychological depth, human fallibility and gothic sensibilities. Simultaneously, transcendentalists such as Ralph Waldo Emerson and Henry David Thoreau championed individualism and nature’s spiritual significance. By the latter half of the century, realism emerged as a counterpoint to romantic idealism, with Mark Twain and Henry James depicting life’s intricacies through meticulous detail and social critique.The 20th century saw American literature fracture into numerous stylistic and thematic branches. Modernist writers like TS Eliot and William Faulkner experimented with fragmented narratives and stream-of-consciousness techniques, reflecting the disillusionment of a rapidly changing world. The Harlem Renaissance brought forth voices such as Langston Hughes, who redefined African American identity in literature. In the postmodern era, figures like Thomas Pynchon and Don DeLillo interrogated the nature of truth, media and technological encroachment on human experience.American literature continues to evolve, encapsulating diverse perspectives and experimental forms. It serves not only as a reflection of historical and cultural shifts but also as an ever-adapting narrative of the American consciousness.Which of the following literary movements is identified in the passage as a reaction against Romanticism?",
+      "question_image": null,
+      "options": [
+        "Gothic Fiction",
+        "Modernism",
+        "Transcendentalism",
+        "Realism"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Realism) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 66,
+      "section": "English Language and Comprehension",
+      "question": "Read the following conversation and select the most appropriate synonym of the underlined word.Ishita: Despite facing continuous criticism, she remained unflappable and handled the press with remarkable grace.Vivek: I know! It’s rare to see someone stay so composed under pressure.",
+      "question_image": null,
+      "options": [
+        "Traditional",
+        "Transparent",
+        "Disconcerted",
+        "Nonchalant"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Nonchalant) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 67,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate question tag to fill in the blank.Let’s go out for dinner tonight, _________________?",
+      "question_image": null,
+      "options": [
+        "shall we",
+        "can we",
+        "shouldn't we",
+        "can't we"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (shall we) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 68,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate option to complete the sentence.The boy was very ........... dressed and looked unclean.2876",
+      "question_image": null,
+      "options": [
+        "neatly",
+        "tidily",
+        "shabbily",
+        "uniformly"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (shabbily) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 69,
+      "section": "English Language and Comprehension",
+      "question": "Select the option that can be used as a one-word substitute for the underlined group of words in the given sentence.Goneril poisoned her sister, thereby committing the murder of her sister in the play King Lear.",
+      "question_image": null,
+      "options": [
+        "mariticide",
+        "sororicide",
+        "homicide",
+        "uxoricide"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (sororicide) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 70,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage and answer the questions that follow.In a year most remembered for Christopher Columbus’s discovery of the New World, the Spanish monarchs were also making history at home. In March 1492, Ferdinand V and Isabella I of Spain issued the Alhambra Decree, which ordered the expulsion of all Jewish men and women from the newly united kingdom. Also known as the Edict of Expulsion, this decree gave the Jews four months to depart and forbade their return to Spain. Those who did not comply with the decree would be stripped of all belongings and put to death. Traditional accounts of the expulsion contend that as many as 400,000 Jews fled to North Africa and Turkey in response to this decree. Recent scholarship has challenged this account and has reduced the number of refugees to a total of 30,000–40,000, with only 10,000 fleeing to Turkey from the western provinces. The remaining refugees from Spain fled overland to neighbouring Portugal, where tensions were already growing between the native Christian and Jewish populations. The addition of 20,000 Jewish refugees led to increased persecution, and just four years after the Alhambra Decree was issued in Spain, King Manuel of Portugal followed suit by ordering the expulsion of all Jews residing within the borders of his kingdom.This sweeping expulsion severely disrupted Jewish life on the Iberian Peninsula. Many Jews remained converted to Christianity, either by force or necessity, while secretly maintaining their religious identity. These 'crypto-Jews' lived under constant fear of persecution by the Inquisition. The expulsions not only shattered centuries of Jewish heritage in Spain and Portugal but also reshaped Jewish diasporic communities throughout the Mediterranean and beyond.Select the most appropriate ANTONYM of the word 'expulsion' as used in the passage.",
+      "question_image": null,
+      "options": [
+        "Admission",
+        "Evasion",
+        "Confinement",
+        "Opposition"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Admission) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 71,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate adjective to fill in the blank.Manjusha remained _______ to her husband, Mr. Moorthy, despite the rumours.",
+      "question_image": null,
+      "options": [
+        "low",
+        "lazy",
+        "​loyal",
+        "mysterious"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (​loyal) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 72,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:गद्यांश के आधार पर प्रश्न का उत्तर दें।हमारे देश के अन्दर कुछ ऐसे राज्य हैं- (उत्तर प्रदेश, मध्य प्रदेश, बिहार, राजस्थान, छत्तीसगढ़, उत्तरांचल, झारखण्ड, दिल्ली और हरियाणा) जिनकी राजभाषा और राज्यभाषा हिन्दी ही है। इन राज्यों के परस्पर सम्पर्क में हिन्दी का प्रयोग होता है, परन्तु कुछ ऐसे भी राज्य हैं, जैसे बंगाल, उड़ीसा, कर्नाटक, तमिलनाडु और केरल जिनकी राज्य भाषाएं बंगला, उड़िया, कन्नड़, तेलगू, मलियाली आदि हैं। ये राज्य सरकारें जब देश के अन्य राज्यों से प्रशासनिक सम्पर्क करती हैं तो अपनी राज्यभाषा के अतिरिक्त अंग्रेजी और हिन्दी का भी प्रयोग करती हैं। अधिकांश राज्य सरकारें सामान्यतः अपनी राज्यभाषाओं का ही प्रयोग करती हैं। परन्तु केन्द्र सरकार के साथ राज्य के प्रशासनिक व्यवहार में राजभाषा का ही प्रयोग होता है।निम्न में से हिन्दी भाषा का क्षेत्र है -",
+      "question_image": null,
+      "options": [
+        "छतीसगढ़ – हैदराबाद",
+        "दिल्ली – मध्यप्रदेश",
+        "उत्तरप्रदेश – उड़ीसा",
+        "राजस्थान – कर्नाटक"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (दिल्ली – मध्यप्रदेश) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 73,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्नलिखित वाक्यांश हेतु सार्थक शब्द का चुनाव करें।आगे का विचार न कर सकने वाला",
+      "question_image": null,
+      "options": [
+        "अध्यूढ़ा",
+        "अद्यतन",
+        "अन्योढ़ा",
+        "अदूरदर्शी"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (अदूरदर्शी) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 74,
+      "section": "Hindi Language and Comprehension",
+      "question": "वर्तनी शुद्ध करते हुए वाक्य शुद्ध करें और उत्तर के रूप में सही विकल्प चुनें।पतनी घर की लक्ष्मी होती है।",
+      "question_image": null,
+      "options": [
+        "पतनई घर की लक्ष्मी होती है।",
+        "पतनि घर की लक्ष्मी होती है।",
+        "पत्नी घर की लक्ष्मी होती है।",
+        "पत्नि घर की लक्ष्मी होती है।"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (पत्नी घर की लक्ष्मी होती है।) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 75,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्नलिखित वाक्य में रेखांकित शब्द का पर्यायवाची लिखें।'यह खुशखबरी सुनकर लोकेश आह्लाद में डूबा हुआ है। '",
+      "question_image": null,
+      "options": [
+        "विरह",
+        "प्रमोद",
+        "शोक",
+        "मग्न"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (प्रमोद) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 76,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्नलिखित में से ‘पर्व’ के पर्याय का किस एक वाक्य में उचित प्रयोग हुआ है?",
+      "question_image": null,
+      "options": [
+        "किरन ने इस वर्ष स्नातक में प्रवेश लिया है।",
+        "क्या आपको जलेबी पसंद है?",
+        "हमने उसे कितना समझाया,पर वह नहीं माना।",
+        "उसे एक समारोह में सम्मान देने की घोषणा की गई है।"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (उसे एक समारोह में सम्मान देने की घोषणा की गई है।) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 77,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्नलिखित विकल्पों में से ‘उँगली पकड़कर पहुँचा पकड़ना’ मुहावरे का उपयुक्त अर्थ है-",
+      "question_image": null,
+      "options": [
+        "मामूली-सा अंतर होना",
+        "किसी से कोई संबंध ना रखना",
+        "थोड़ा-थोड़ा लेकर पूरा हथियाने  की कोशिश करना",
+        "अंदर का रहस्य जानने की कोशिश करना"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (थोड़ा-थोड़ा लेकर पूरा हथियाने  की कोशिश करना) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 78,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:निम्नलिखित गद्यांश को ध्यानपूर्वक पढ़कर पूछे गए प्रश्नों के लिए सही विकल्प विकल्प चुनिए:हर बड़ा साहित्यकार साहित्य और विशेषकर शब्द की गरिमा और मर्यादा पर लड़ने-मरने को तैयार रहता है। बच्चन जी के साथ भी कुछ ऐसा ही है। बच्चन जी ने जितना आदर अपने साहित्य का किया, उतना ही भारत तथा विदेशों के साहित्य का भी किया। इसलिए समय-समय पर अनुवाद संबंधी नीति बनाते हुए उन्होंने भाषा की गरिमा बनाए रखने पर बहुत बल दिया। उनका कहना था कि अंग्रेज़ी का अनुवाद बाजारू स्तर की हिंदी में माँगना हिंदी के साथ अन्याय करना है। जब-जब हिंदी अंग्रेज़ी के स्तर तक उठने की कोशिश करती है, तो उस पर तुरंत दोष लगाया जाता है कि वह कठिन और क्लिष्ट है तथा जब वह उससे घबराकर अति सरलता की ओर जाती है, तो उसे अपरिपक्व कह दिया जाता है। बच्चन जी ने अपने गद्य और पद्य दोनों में ही एक सुंदर, सुगठित और सरल हिंदी का प्रयोग करके यह सिद्ध कर दिया कि आवश्यकता के अनुसार संस्कृत की ओर झुकती हिंदी भी लोकप्रिय और लोकरंजक हो सकती है। हरिवंश राय बच्चन प्रखर बुद्धि के कवि थे। उनकी भाषा शुद्ध साहित्यिक खड़ी बोली है। इन्होंने संस्कृत की तत्सम शब्दावली का अधिकता से प्रयोग किया है। इसके साथ-साथ तद्भव शब्दावली, उर्दू, फ़ारसी, अंग्रेज़ी आदि भाषाओं के शब्दों का भी प्रयोग हुआ है। कवि ने प्रांजल शैली का प्रयोग किया है, जिसके कारण इनका साहित्य लोकप्रिय हुआ है। इन्होंने लोकगीतों और मुक्तक छंदों की रचना भी की है। अपनी गेयता, सरलता, सरसता और खुलेपन के कारण इनके गीत बहुत ही पसंद किए जाते हैं।गद्यांश के अनुसार बच्चन जी के विषय में कौन-सा कथन सत्य है?",
+      "question_image": null,
+      "options": [
+        "वे केवल अपने साहित्य का ही आदर करते थे",
+        "वे केवल विदेशी साहित्य का ही आदर करते थे",
+        "वे केवल अपना आदर  करते थे",
+        "वे जितना आदर अपने साहित्य का करते थे, उतना ही आदर भारत तथा विदेशों के साहित्य का भी करते थे"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (वे जितना आदर अपने साहित्य का करते थे, उतना ही आदर भारत तथा विदेशों के साहित्य का भी करते थे) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 79,
+      "section": "Hindi Language and Comprehension",
+      "question": "‘एक आवे के बर्तन’ लोकोक्ति का सही अर्थ है –",
+      "question_image": null,
+      "options": [
+        "अभी तुम बच्चे हो, अनजान हो",
+        "बेसहारे का सहारा",
+        "अपनी इज्जत अपने हाथ",
+        "सब एक जैसे"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (सब एक जैसे) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 80,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:गद्यांश पर आधारित निम्नलिखित प्रश्नों के उत्तर दीजिए हमारी संस्कृति में धार्मिक कृत्यों में एकांत साधना पर अधिक बल दिया गया है, यद्यपि सामूहिक प्रार्थना का अभाव नहीं है। मुसलमानी और अंग्रेजी सभ्यता में सामूहिक प्रार्थना को अधिक आश्रय दिया गया है, यद्यपि एकांत साधना का वहाँ भी अभाव नहीं है। हमारे कीर्तन आदि और महात्मा गांधी द्वारा परिचालित प्रार्थना सभाएं धर्म में एकत्व की सामाजिक भावना को उत्पन्न करती आई हैं। हमारे यहाँ सामाजिकता की अपेक्षा पारिवारिकता को महत्व दिया गया है। पारिवारिकता को खोकर सामाजिकता को ग्रहण करना तो मूर्खता होगी किंतु पारिवारिकता के साथ - साथ सामाजिकता बढ़ाना श्रेयस्कर होगा। हमें अपनी सम्मिलित परिवार की प्रथा को इतना ना बढ़ा देना चाहिए कि व्यक्ति का व्यक्तित्व ही ना रह जाए और ना ही व्यक्तित्व को इतना महत्व देना चाहिए कि गुरुजनों का आदर भाव भी ना रहे और पारिवारिक एकता पर कुठाराघात हो। अंग्रेजी सभ्यता चीनी और काँच के बर्तनों की सभ्यता है। हमारी सभ्यता मिट्टी और पीतल के बर्तनों की है।  हमारी सभ्यता स्वास्थ्य विज्ञान के अधिक अनुकूल है। यदि हम कुल्हड़ों के कूड़े का अच्छा बंदोबस्त कर सकें तो उससे अच्छी कोई चीज़ नहीं है। आलस्य को वैज्ञानिकता पर विजय ना पाना चाहिए। अंग्रेजी संस्कृति से भी सफ़ाई और समय की पाबंदी की बहुत से बातें सीखी जा सकती हैं, किंतु अपनी संस्कृति के मूल अंगों पर ध्यान रखते हुए समन्वय बुद्धि से काम लेना चाहिए। समन्वय द्वारा ही संस्कृति क्रमशः उन्नति करती रही है और आज भी हमें उसे समन्वयशील बनाना है। काँच के बर्तनों वाली सभ्यता किसकी है ?",
+      "question_image": null,
+      "options": [
+        "चीनियों की",
+        "अंग्रेज़ों की",
+        "भारतीयों की",
+        "अफ्रीकियों की"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (अंग्रेज़ों की) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 81,
+      "section": "Hindi Language and Comprehension",
+      "question": "दिए गए वाक्य में रिक्त स्थान की पूर्ति के लिए उचित क्रिया शब्द का चयन करें –आप यह सूचना …………… ।",
+      "question_image": null,
+      "options": [
+        "प्राप्त किया",
+        "हुआ",
+        "देखा",
+        "पहुँचा दें"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (पहुँचा दें) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 82,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्न वाक्यांश के लिए सार्थक शब्द का चयन करें - 'किसी बात के मर्म को जानने वाला'",
+      "question_image": null,
+      "options": [
+        "मर्माहत",
+        "गोपनीय",
+        "मर्मज्ञ",
+        "रहस्यवादी"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (मर्मज्ञ) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 83,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:सृष्टि-चक्र में वनों के महत्व से कौन अपरिचित है? उनके द्वारा प्राण-वायु का उत्सर्जन और कार्बन डाइऑक्साइड का आत्मसातीकरण किया जाता है। वे प्रकाश-संश्लेषण के जरिए ऑक्सीजन की आपूर्ति करते हैं और कार्बन डाइऑक्साइड से भोजन बनाते हैं, उन्हें नष्ट किया जा रहा है; जबकि जो कारखाने ईंधन की अधिक मात्रा में खपत करके अधिक कार्बन डाइऑक्साइड उगलते हैं उन्हें बढ़ाया जा रहा है। इधर जंगलों में आग लगने की घटनाएँ बढ़ रही हैं, इससे वनों के द्वारा प्राप्त प्राण-वायु भी दुर्लभ होती जा रही है और दूसरी ओर कार्बन डाइऑक्साइड का उत्सर्जन बढ़ रहा है। वनों से आकर्षित वर्षा की मात्रा में भी कमी आयी है। इस तरह आदमी द्वारा चलाए गए कुचक्र से लगातार बढ़ती कार्बन डाइऑक्साइड ग्लोबल वार्मिंग का प्रमुख कारण है। इसके अलावा सड़ी गली चीजों, मल-जल आदि से पैदा होने वाली मीथेन गैस; तेल, कोयला आदि के जलने, उर्वरकों के प्रयोग से नाइट्रस ऑक्साइड आदि के वायुमंडल में अधिकाधिक निवेश से वे पृथ्वी के आसपास के 400 किलोमीटर के गैसीय आवरण के भीतर इकट्ठा हो जाती हैं। ये सभी गैसें जिन्हें ग्रीन हाउस गैस कहा जाता है, ताप को सोख कर उसका घनत्व बढ़ाती हैं; इसके अलावा क्लोरोफ्लोरो जैसी गैस पृथ्वी से 35-40 किलोमीटर से 55 किलोमीटर तक व्याप्त ओजोन की परत पतली करती है।दिए गए विकल्पों में से गद्यांश हेतु उपयुक्त शीर्षक का चुनाव करें।",
+      "question_image": null,
+      "options": [
+        "प्राणवायु का महत्व",
+        "पर्यावरण में वनों का महत्व",
+        "पर्यावरण प्रदूषण और ग्लोबल वार्मिंग",
+        "पर्यावरण एवं पारिस्थितिकीय असंतुलन"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (पर्यावरण प्रदूषण और ग्लोबल वार्मिंग) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 84,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्नलिखित मुहावरे का उचित अर्थ लिखें।अंधे के आगे रोना",
+      "question_image": null,
+      "options": [
+        "अंधे से सहायता लेना",
+        "अंधे की मदद करना",
+        "निष्ठुर के आगे अपना दुखड़ा रोना",
+        "अपने मन का हाल कहना"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (निष्ठुर के आगे अपना दुखड़ा रोना) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 85,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्नलिखित वाक्य में त्रुटि की पहचान कर शुद्ध वाक्य का चयन करें।जो सबसे कहा करता है उसकी अपनी हानि की बात साख जाती रहती है।",
+      "question_image": null,
+      "options": [
+        "हानि की बात जो अपनी सबसे कहा करता साख है उसकी जाती रहती है।",
+        "जो अपनी सबसे कहा करता है उसकी हानि की बात साख जाती रहती है।",
+        "जो अपनी हानि की बात सबसे कहा करता है उसकी साख जाती रहती है।",
+        "जो अपनी हानि की उसकी साख बात सबसे कहा करता है जाती रहती है।"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (जो अपनी हानि की बात सबसे कहा करता है उसकी साख जाती रहती है।) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 86,
+      "section": "Hindi Language and Comprehension",
+      "question": "दिए गए विकल्पों में से शुद्ध वाक्य का चयन कीजिए",
+      "question_image": null,
+      "options": [
+        "शिवम कोई काम मन से नहीं करता वह बहुत निरुत्साही व्यक्ति हैं |",
+        "शिवम कोई काम मन से नही करत वह बहुत निरुत्साही व्यक्ति है|",
+        "शिवम कोई कम मन से नही करता वह बहुत निरुत्साही व्यक्ति है|",
+        "शिवम कोई काम मन से नहीं करता वह बहुत निरुत्साही व्यक्ति है|"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (शिवम कोई काम मन से नहीं करता वह बहुत निरुत्साही व्यक्ति है|) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 87,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्नलिखित मुहावरे का अर्थ बताएं- 'अंतर के पट खोलना'",
+      "question_image": null,
+      "options": [
+        "हृदय की बात कह देना",
+        "छिपाकर रखना",
+        "द्वार खोलना",
+        "कोठरी का दरवाजा खोलना"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (हृदय की बात कह देना) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 88,
+      "section": "Hindi Language and Comprehension",
+      "question": "‘लोहा मानना’ मुहावरे का सही अर्थ है –4776",
+      "question_image": null,
+      "options": [
+        "जानकार से बात छिपाना",
+        "अचानक मर जाना",
+        "श्रेष्ठता स्वीकार करना",
+        "क्रोध रोक लेना"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (श्रेष्ठता स्वीकार करना) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 89,
+      "section": "Hindi Language and Comprehension",
+      "question": "वर्तनी की दृष्टि से दिए गए वाक्य के किस अंश में त्रुटि है, पहचानें-- भारत के गॉव स्वर्ग हैं और उनमें भारत की आत्मा निवास करती है।1151",
+      "question_image": null,
+      "options": [
+        "भारत के गॉव",
+        "स्वर्ग हैं और उनमें",
+        "निवास करती है।",
+        "भारत की आत्मा"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (भारत के गॉव) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 90,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:दिए गये गद्यांश को पढ़ें और नीचे दिए गये प्रश्नो का उत्तर देंदक्षिण अफ्रीका में गांधीजी जिस मुकदमे के सिलसिले में गए थे, उसे उन्होंने समझौते द्वारा निपटवा दिया। किन्तु वहां जाकर उनके जीवन की दिशा ही मुड़ गई। दक्षिण अफ्रीका में बहुत बडी संख्या में भारतीय रहते थे। ये भारतीय किसी समय मजदूरी करने के लिए एक ऐग्रीमेंट की शर्तों के अनुसार यहां लाए गए थे; इसीलिए इन्हें 'गिरमिटिया' कहा जाता था। गोरे लोग इन भारतीयों के साथ पशुओं से भी बुरा बर्ताव करते थे और वे भारतीय उस सारे अपमान और लांछना को सिर झुकाकर सह लेते थे। गांधीजी ने ऐसे दुर्व्यवहार के सामने सिर झुकाना स्वीकार न किया। एक बार अदालत में उनसे पगड़ी उतारने को कहा गया। गांधीजी ने अदालत से निकल जाना मंजूर किया पर पगड़ी उतारना नहीं। इस प्रकार अन्याय के विरुद्ध विद्रोह करके उन्होंने भारतीयों मे एक नई चेतना जगाई। वैसे गांधीजी शायद जल्दी ही भारत वापस लौट आते, किन्तु भारतीयों की दुर्दशा को देखकर उन्होंने अफ्रीका में ही रहने का निश्चय कर लिया।गद्यांश में प्रयुक्त ‘गिरमिटिया’ शब्द का अर्थ बताएं-",
+      "question_image": null,
+      "options": [
+        "बंधुआ मज़दूर",
+        "विशेष जाति",
+        "बीमारी",
+        "जानवर"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (बंधुआ मज़दूर) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 91,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:गद्यांश के आधार पर प्रश्नों के उत्तर देंपरिचय - हमारा ध्वज तीन पट्टियों का बना हुआ है। ये सभी पट्टियाँ समान हैं। सबसे ऊपर की पट्टी केसरिया रंग की है। बीच की पट्टी सफेद है। सबसे नीचे की पट्टी हरी है। तीन रंगों की पट्टियों से बने होने के कारण यह तिरंगा कहा जाता है। बीच में चक्र बना है जो सम्राट अशोक के धर्मचक्र का प्रतीक है।झण्डे में सबसे ऊपर जो केसरिया रंग है वह त्याग और बलिदान का प्रतीक है। राजपूत जब देख लेते थे कि अब शत्रु पर विजय पाना कठिन है तब वे सब प्रकार की मोह-ममता का त्याग कर केसरिया पहनकर और जान को हथेली पर रखकर युद्धभूमि में कूद पड़ते थे और विजय प्राप्त करते थे।सफेद रंग सादगी, सच्चाई, ईमानदारी और सहनशीलता का प्रतीक है। हरा रंग देश की हरियाली अर्थात् खुशहाली का प्रतीक है। ये तीनों रंग मिलकर देशवासियों को बताते हैं कि देश की स्वतंत्रता, उसकी रक्षा और उज्ज्वल भविष्य के लिए देशवासियों को त्याग, बलिदान, ईमानदारी, सादगी और सहनशीलता के गुण अपनाने चाहिए। इन्हीं गुणों के रहने पर देश का भविष्य उज्ज्वल होगा।उत्तर के रूप में सही विकल्प चुनें।\nकेसरिया रंग कस चीज का प्रतीक है ?",
+      "question_image": null,
+      "options": [
+        "केसरिया रंग त्याग और बलिदान का प्रतीक है।",
+        "केसरिया उड़ान भरनेे का प्रतीक है।",
+        "केसरिया रंग वीरता का प्रतीक है।",
+        "केसरिया रंग साहस का प्रतीक है।"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (केसरिया रंग त्याग और बलिदान का प्रतीक है।) है।",
+      "explanation_image": null
+    }
+  ]
+}

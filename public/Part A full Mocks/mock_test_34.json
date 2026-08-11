@@ -1,0 +1,1606 @@
+{
+  "test_title": "Mock Test 34",
+  "total_questions": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Mr. Lee starts from Point A and drives 26 km towards the South. He then takes a right turn, drives 21 km, turns right and drives 31 km. He then takes a right turn and drives 25 km, turns right drives 2 km. He then takes a left turn drives 4 km. He takes a final right turn, drives 3 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again? (All turns are 90 degree turns only unless specified.)",
+      "question_image": null,
+      "options": [
+        "7 km to the East",
+        "3 km to the West",
+        "9 km to the East",
+        "8 km to the West"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (8 km to the West) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 2,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "If ‘A’ stands for ‘÷’, ‘B’ stands for ‘×’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘−’, then what will come in place of question mark (?) in the following equation? 33   B   3   C   18   A   9     D   78 = ?",
+      "question_image": null,
+      "options": [
+        "13",
+        "36",
+        "23",
+        "26"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (23) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 3,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "If ‘A’ stands for ‘÷’, ‘B’ stands for ‘×’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘−’, what will come in place of the question mark (?) in the following equation?30 C 12 B 26 A 26 D 13 = ?",
+      "question_image": null,
+      "options": [
+        "28",
+        "29",
+        "26",
+        "27"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (29) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 4,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group?(Note: The odd one out is not based on the number of consonants/vowels or their positions in the letter-cluster.)",
+      "question_image": null,
+      "options": [
+        "SUP",
+        "LNK",
+        "MOL",
+        "EGD"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (SUP) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 5,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Refer to the following letter series and answer the question that follows. Counting to be done from left to right only.(Left)   J P K Y C H X E W B J M H U S I Q   (Right)How many such consonants are there, each of which is immediately preceded by a consonant and also immediately followed by a vowel?",
+      "question_image": null,
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (2) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 6,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "In a certain code language,‘A ! B’ means ‘A is the daughter of B’,‘A % B’ means ‘A is married to B’,‘A @ B’ means ‘A is the son of B’,‘A & B’ means ‘A is the brother of B’, and‘A + B’ means ‘A is the mother of B’,How is G related to T if ‘U & T ! R @ G + U’?3061",
+      "question_image": null,
+      "options": [
+        "Mother",
+        "Mother’s mother",
+        "Father's mother",
+        "Father's sister"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Father's mother) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 7,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "This question is based on the five, three-digit numbers given below.(Left)  426  753  351  276  631  (Right)(Example- 697 – First digit = 6, second digit = 9 and third digit = 7)NOTE - All operations to be done from left to right.If 2 is added to the first digit of every number, in how many numbers will the first digit be exactly divisible by the second digit?",
+      "question_image": null,
+      "options": [
+        "One",
+        "Three",
+        "None",
+        "Two"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Two) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 8,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Select the pair which follows the same pattern as that followed by the two set of pairs given below. Both pairs follow the same pattern.    VRM : RNI    DBT : ZXP 647",
+      "question_image": null,
+      "options": [
+        "MKI : OMK",
+        "VUX : SRU",
+        "OPQ : PQR",
+        "ACN : WYJ"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (ACN : WYJ) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 9,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "15 is related to 31 following a certain logic. Following the same logic, 25 is related to 51. To which of the given options is 26 related, following the same logic?(Note: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "question_image": null,
+      "options": [
+        "54",
+        "53",
+        "52",
+        "55"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (53) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 10,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Each of P, Q, R, S, T, U and V has an exam on a different day of a week starting from Monday and ending on Sunday of the same week. V has an exam on Tuesday. Exactly 3 people have exams between V and T. S has an exam immediately before R, and Q has an exam immediately after R. Only 1 person has an exam between S and P. Who has an exam on Monday?",
+      "question_image": null,
+      "options": [
+        "R",
+        "P",
+        "S",
+        "U"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (P) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 11,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Each of P, Q, R, S, T, U and V has an exam on a different day of a week starting from Monday and ending on Sunday of the same week. No one has exam before U. Only three people have exam between U and V. Only one person has exam between V and P. T has exam on Wednesday. Q has exam on one of the days after S but on one of the days before R. How many people have an exam between R and T?",
+      "question_image": null,
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Two) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 12,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Radhika ranked 10th from the top and 17th from the bottom in her class. How many students are there in the class?761",
+      "question_image": null,
+      "options": [
+        "26",
+        "35",
+        "27",
+        "30"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (26) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 13,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "7 is related to 7.7 following a certain logic. Following the same logic, 12 is related to 13.2. To which of the given options is 14 related, following the same logic?(Note: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g., 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "question_image": null,
+      "options": [
+        "15.7",
+        "14.2",
+        "15.4",
+        "14.14"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (15.4) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 14,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "What will come in place of the question mark (?) in the following equation if ‘+’ and ‘−’ are interchanged and ‘×’ and ‘÷’ are interchanged?3015 × 15 − 151 + 26 ÷ 5 = ?606",
+      "question_image": null,
+      "options": [
+        "101",
+        "222",
+        "202",
+        "333"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (222) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 15,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "In a certain code language,\n\n‘sun moves galaxy’ is coded as ‘lo pi da’,\n‘galaxy has star’ is coded as ‘ki na lo’ and\n‘sun medium star’ is coded as ‘pi sh na’.\n\nWhat does the code ‘na’ stand for? 1968",
+      "question_image": null,
+      "options": [
+        "sun",
+        "medium",
+        "star",
+        "galaxy"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (star) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 16,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Select the option that is related to the third term in the same way as the second term is related to the first term and the sixth term is related to the fifth term.11 : 110 :: 21 : ? :: 31 : 310530",
+      "question_image": null,
+      "options": [
+        "210",
+        "220",
+        "240",
+        "300"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (210) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 17,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "What should come in place of the question mark (?) in the given series?\n\n903 908 913 918 ?",
+      "question_image": null,
+      "options": [
+        "922",
+        "921",
+        "923",
+        "924"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (923) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 18,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "In a certain code language,'A ! B' means ‘A is the wife of B’,'A @ B' means ‘A is the father of B’,'A = B' means ‘A is the son of B’ and 'A + B' means ‘A is the brother of B’. Which of the following means that B is the son's wife's father of Z?4423",
+      "question_image": null,
+      "options": [
+        "B @ D = K ! O + Z",
+        "B + D = K @ O ! Z",
+        "B @ D + K ! O = Z",
+        "B + D ! K = O @ Z"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (B @ D + K ! O = Z) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 19,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Select the triad that follows the same pattern as that followed by the two triads given below. Both triads follow the same pattern.FB-IE-LOHD-KG-NQ",
+      "question_image": null,
+      "options": [
+        "JF-MI-PS",
+        "JF-MI-PR",
+        "KF-MI-PR",
+        "KF-NI-PR"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (JF-MI-PS) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 20,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "What should come in place of the question mark (?) in the given series?8   19   30   41   52   ?",
+      "question_image": null,
+      "options": [
+        "61",
+        "64",
+        "63",
+        "62"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (63) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 21,
+      "section": "General Awareness",
+      "question": "Which of the following statements regarding the Chhath festival is/are correct?I. Chhath is dedicated to the Sun God.II. It is celebrated in the Kartik month.",
+      "question_image": null,
+      "options": [
+        "Neither I nor II",
+        "Only II",
+        "Both I and II",
+        "Only I"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Both I and II) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 22,
+      "section": "General Awareness",
+      "question": "The human brain is divided into _____ parts.",
+      "question_image": null,
+      "options": [
+        "3",
+        "4",
+        "6",
+        "5"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (3) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 23,
+      "section": "General Awareness",
+      "question": "Mehrunnisa was married to _____ in 1611.",
+      "question_image": null,
+      "options": [
+        "Jahangir",
+        "Akbar",
+        "Babur",
+        "Bahadur Shah Zafar"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Jahangir) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 24,
+      "section": "General Awareness",
+      "question": "Drain Theory of poverty in India is related to whom among the following?",
+      "question_image": null,
+      "options": [
+        "M Visvesvaraya",
+        "VKRV Rao",
+        "Dadabhai Naoroji",
+        "Amartya Sen"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Dadabhai Naoroji) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 25,
+      "section": "General Awareness",
+      "question": "Where was Asia’s largest and the world’s highest imaging Cherenkov Observatory inaugurated in October 2024?",
+      "question_image": null,
+      "options": [
+        "Ujjain",
+        "Jammu and Kashmir",
+        "Mathura",
+        "Ladakh"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Ladakh) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 26,
+      "section": "General Awareness",
+      "question": "Who among the following is the Chairman of the 16th Finance Commission of India?",
+      "question_image": null,
+      "options": [
+        "Arvind Panagariya",
+        "Annie George Mathew",
+        "Soumya Kanti Ghosh",
+        "Nirmala Sitharaman"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Arvind Panagariya) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 27,
+      "section": "General Awareness",
+      "question": "An economy where all transactions are performed by electronic means of money is known as:",
+      "question_image": null,
+      "options": [
+        "physical cash economy",
+        "advance economy",
+        "barter economy",
+        "cashless economy"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (cashless economy) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 28,
+      "section": "General Awareness",
+      "question": "In August 2024, Prime Minister Narendra Modi unveiled how many high-yielding, climate-resilient and biofortified seed varieties, including Bt cotton suitable for rain-fed areas, to boost agricultural productivity and farmers' income?",
+      "question_image": null,
+      "options": [
+        "101",
+        "118",
+        "109",
+        "112"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (109) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 29,
+      "section": "General Awareness",
+      "question": "Population Enumeration, the second phase of Census 2011, was conducted in which month of 2011?",
+      "question_image": null,
+      "options": [
+        "December",
+        "October",
+        "February",
+        "November"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (February) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 30,
+      "section": "General Awareness",
+      "question": "Who among the following broke the record of scoring most runs by an India Captain in an ICC Test match in July 2025?",
+      "question_image": null,
+      "options": [
+        "Virat Kohli",
+        "Shubman Gill",
+        "Yashasvi Jaiswal",
+        "Rohit Sharma"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Shubman Gill) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 31,
+      "section": "General Awareness",
+      "question": "Comprehension:निम्नलिखित गद्यांश को ध्यानपूर्वक पढ़ें और दिए गए प्रश्न के उत्तर दें।रंगों का त्योहार होली, चार बड़े पर्वों में से एक पर्व है। यह पर्व फाल्गुनी पूर्णिमा को होलिका दहन के पश्चात् चैत्र कृष्ण प्रतिपदा में मनाया जाता है। वसन्त ऋतु को ऋतुराज के नाम से भी जाना जाता है। इसी प्रकार फाल्गुन का महीना भी अपने मादक सौन्दर्य तथा वासन्ती पवन से लोगों को हर्षित करता है। इन दिनों रबी की फसल पकने की तैयारी में होती हैI होली का त्योहार पूरे भारत में हर्ष तथा उल्लास के साथ-साथ नेपाल, बांग्लादेश, अमेरिका, ऑस्ट्रेलिया, कनाडा जैसे कई देशों में भी मनाया जाता है। भारत में होली का उत्सव अलग-अलग प्रदेशों में अलग अलग तरीके से मनाया जाता है। आज भी ब्रज की लठमार होली सबसे प्रसिद्ध है, जो कि बरसाने में मनाई जाती है। महाराष्ट्र में कुछ जगहों पर होली को शिगमा तथा गोवा में शिगमोत्सव कहा जाता है व मणिपुर में होली को छः दिन तक मनाई जाती है। बंगाल में रंग बनाने के लिए सिंगार के फूल को पूरे साल रखा जाता है व इस पर्व का विशेष धार्मिक, पौराणिक व सामाजिक महत्व है। होली का पावन पर्व यह संदेश लाता है कि मनुष्य अपने ईर्ष्या, द्‌वेष तथा परस्पर वैमनस्य को भुलाकर समानता व प्रेम का दृष्टिकोण अपनाएँ। मौज-मस्ती व मनोरंजन के इस पर्व में हँसी-खुशी सम्मिलित हों तथा दूसरों को भी सम्मिलित होने हेतु प्रेरित करें। यह पर्व हमारी संस्कृतिक विरासत है। हम सभी का यह कर्तव्य है कि हम मूल भावना बनाए रखें जिससे आने वाली पीढ़ियाँ गौरवान्वित हो सकें।महराष्ट्र में होली को क्या कहा जाता है?",
+      "question_image": null,
+      "options": [
+        "द्वेष",
+        "शुग्म",
+        "शिगमा",
+        "शिग्म"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (शिगमा) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 32,
+      "section": "General Awareness",
+      "question": "Which city hosted the 32nd National Men and Women Circle Kabaddi Championship?",
+      "question_image": null,
+      "options": [
+        "Dehradun",
+        "Jaipur",
+        "Mumbai",
+        "Chandigarh"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Chandigarh) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 33,
+      "section": "General Awareness",
+      "question": "Which of the following records is NOT related to Sachin Tendulkar?",
+      "question_image": null,
+      "options": [
+        "Highest runs in a T20 match",
+        "Most 100s in test matches",
+        "Most runs in one-day international cricket",
+        "Most 100s in one-day international cricket"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Highest runs in a T20 match) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 34,
+      "section": "General Awareness",
+      "question": "Which of the following technological approaches helps governments monitor stolen/illegal mobile devices to protect consumers?",
+      "question_image": null,
+      "options": [
+        "Morse code registry",
+        "National Equipment Identity Register",
+        "Central Equipment Identity Register",
+        "Manual paper logs only"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Central Equipment Identity Register) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 35,
+      "section": "General Awareness",
+      "question": "2011 की जनगणना के अनुसार, भारत का सबसे कम साक्षर जिला कौन-सा है?",
+      "question_image": null,
+      "options": [
+        "भोपाल",
+        "किशनगंज",
+        "कोरापुट",
+        "अलीराजपुर"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (अलीराजपुर) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 36,
+      "section": "General Awareness",
+      "question": "Which of the following statements about Census of India 2011 are correct?A. Population growth rate was recorded as 17.64% in India.B. Population density was recorded as 382 persons per km2 in India.C. Literacy rate was recorded as 74.04% in India.",
+      "question_image": null,
+      "options": [
+        "All A, B and C",
+        "A and B only",
+        "A and C only",
+        "B and C only"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (All A, B and C) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 37,
+      "section": "General Awareness",
+      "question": "Which one Article of the Indian Constitution deals with the appointment of the Governor?",
+      "question_image": null,
+      "options": [
+        "Article 156",
+        "Article 163",
+        "Article 155",
+        "Article 162"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Article 155) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 38,
+      "section": "General Awareness",
+      "question": "Which mountain range runs from northwest to southeast and forms a natural boundary between the Kashmir valley and the outer plains?",
+      "question_image": null,
+      "options": [
+        "Karakoram Range",
+        "Ladakh Range",
+        "Dhauladhar Range",
+        "Pir Panjal Range"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Pir Panjal Range) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 39,
+      "section": "General Awareness",
+      "question": "Which of the following is NOT an objective of the Central Institution of Indian Languages?",
+      "question_image": null,
+      "options": [
+        "Advising governments on language matters",
+        "Creating content and corpus for Indian languages",
+        "Documenting minor, minority and tribal languages",
+        "Promoting linguistic harmony by teaching foreign languages"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Promoting linguistic harmony by teaching foreign languages) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 40,
+      "section": "General Awareness",
+      "question": "In which Indian state is the Bundi Utsav celebrated, known for its cultural events and traditional art forms?",
+      "question_image": null,
+      "options": [
+        "Rajasthan",
+        "Uttar Pradesh",
+        "Madhya Pradesh",
+        "Gujarat"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Rajasthan) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 41,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "यदि किसी संख्या के 20% को 360 जोड़ने पर वही संख्या प्राप्त होती है, तो उस संख्या का 70% ज्ञात कीजिए।",
+      "question_image": null,
+      "options": [
+        "472.5",
+        "675",
+        "315",
+        "335"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (315) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 42,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A person borrows ₹46,300 at the rate of 10% compound interest per year, compounded annually. At the end of every year, he pays ₹1,900 as part payment. How much does he still owe after two such instalments?",
+      "question_image": null,
+      "options": [
+        "₹52,102",
+        "₹52,131",
+        "₹52,033",
+        "₹52,083"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (₹52,033) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 43,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A, B, and C, when each is working alone, can do a piece of work in 11, 77, and 70 days, respectively. They all started the work together, but A left after 2 days. In how many days was the remaining work completed?",
+      "question_image": null,
+      "options": [
+        "28",
+        "29",
+        "30",
+        "27"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (28) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 44,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The diagonals of a rhombus are 88 cm and 78 cm, respectively. The area of the rhombus (in cm2) is:",
+      "question_image": null,
+      "options": [
+        "3432",
+        "3424",
+        "3416",
+        "3468"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (3432) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 45,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A mobile phone’s value decreased from ₹64,000 to ₹27,000 over a period of 3 years. Determine the annual rate of depreciation, if it is compounded yearly.",
+      "question_image": null,
+      "options": [
+        "25%",
+        "13%",
+        "18%",
+        "26%"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (25%) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 46,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The base and the corresponding height of a parallelogram are 23 cm and 92 cm, respectively. The area of the parallelogram (in cm2) is:",
+      "question_image": null,
+      "options": [
+        "2116",
+        "2066",
+        "2113",
+        "2096"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (2116) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 47,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The volume (in m3) of a cuboidal tank, whose dimensions are 27 m × 24 m × 5 m, is:",
+      "question_image": null,
+      "options": [
+        "3224",
+        "3262",
+        "3284",
+        "3240"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (3240) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 48,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "एक व्यापारी 15% लाभ पर मसाला बेचने का दावा करता है, लेकिन बेईमानी से उस पर अंकित वज़न से 21% कम वज़न का उपयोग करता है। व्यापारी द्वारा अर्जित लाभ का कुल प्रतिशत ज्ञात कीजिए। (उत्तर को निकटतम पूर्ण संख्या तक पूर्णांकित कीजिए।)",
+      "question_image": null,
+      "options": [
+        "44%",
+        "46%",
+        "41%",
+        "42%"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (46%) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 49,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "यदि किसी संख्या का 35%, उसके 25% से 36 अधिक है तो वह संख्या ज्ञात कीजिए।",
+      "question_image": null,
+      "options": [
+        "340",
+        "380",
+        "400",
+        "360"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (360) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 50,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The average of 7 numbers is 23. If each number is decreased by 4, what will be the new average?1587",
+      "question_image": null,
+      "options": [
+        "7",
+        "15",
+        "23",
+        "19"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (19) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 51,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A car travels 163 km in the first hour and 117 km in the second hour. What is the average speed (in km/h) of the car for the whole journey?3522",
+      "question_image": null,
+      "options": [
+        "150",
+        "131",
+        "140",
+        "144"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (140) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 52,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "If a seller makes a 40% profit by selling a bike for $840, what was the cost price of the bike?",
+      "question_image": null,
+      "options": [
+        "$600",
+        "$650",
+        "$800",
+        "$700"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' ($600) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 53,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Pipe A can fill a tank in 6 hours, pipe B can fill the same tank in 18 hours and pipe C can fill the same tank in 9 hours. The time taken (in hours) by them to fill the same tank if they operate together is:",
+      "question_image": null,
+      "options": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (3) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 54,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "1000 identical small spheres are cast from a sphere of radius 50 cm, with the total volume of the small spheres being equal to the volume of the larger sphere. The diameter (in cm) of each of the small spheres is:1848",
+      "question_image": null,
+      "options": [
+        "14",
+        "10",
+        "6",
+        "8"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (10) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 55,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The number of prime numbers lying between 376 and 382 is:",
+      "question_image": null,
+      "options": [
+        "3",
+        "5",
+        "1",
+        "2"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (1) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 56,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Jagatt, Sathvika and Ujwal enter into a business partnership by investing Rs.5,000 , Rs. 4000 and Rs. 6000 respectively. Find their respective shares in the total profit of Rs.4200 earned at the end of the year.",
+      "question_image": null,
+      "options": [
+        "Rs1,200, Rs1,000, Rs2,000",
+        "Rs1,300, Rs1,100, Rs1,800",
+        "Rs1,350, Rs1,170, Rs1,680",
+        "Rs1,400, Rs1,120, Rs1,680"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Rs1,400, Rs1,120, Rs1,680) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 57,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The diagonals of a rhombus are 80 cm and 30 cm, respectively. The area of the rhombus (in cm2) is:",
+      "question_image": null,
+      "options": [
+        "1214",
+        "1200",
+        "1204",
+        "1180"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (1200) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 58,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A man receives ₹4,690 per month as salary. He saves 20% of his salary every month. His expenditure (in ₹) per month is:",
+      "question_image": null,
+      "options": [
+        "3,661",
+        "3,742",
+        "3,752",
+        "3,708"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (3,752) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 59,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "If 64% of the first number is equal to 41% of the second number, what is the ratio of the first number to the second number?",
+      "question_image": null,
+      "options": [
+        "44 : 67",
+        "39 : 66",
+        "43 : 66",
+        "41 : 64"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (41 : 64) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 60,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A bus is moving at a speed of 38 km/hr. If its speed is reduced by 70%, the new speed of the bus (in km/hr) will be:",
+      "question_image": null,
+      "options": [
+        "16.56",
+        "16.82",
+        "16.64",
+        "11.4"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (11.4) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 61,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage and answer the questions that follow.The forces that generate conditions conducive to crime and riots are stronger in urban communities than in rural areas. Urban living is more anonymous living. It often releases the individual from community restraints more common in tradition-oriented societies. But more freedom from constraints and controls also provides greater freedom to deviate. And living in the more impersonalised, formally controlled urban society means that regulatory orders of conduct are often directed by distant bureaucrats. The police are strangers executing these perceptions on an anonymous set of subjects. Minor offences in small town or village are often handled without resort to official police action. As disputable as such action may seem to be, it results in fewer recorded violations of the law compared to big cities. Although perhaps causing some decision-difficulties for the police in small town, formal and objective law enforcement is not always acceptable to villagers. Urban areas with mass population, greater wealth, more commercial establishments and more products of our technology also provide more frequent opportunities for theft. Victims are impersonalised, property is insured, consumer goods in more abundance are vividly displayed and are more portable. The crime rate increases despite formal moral education given in schools.Which of the following is a characteristic of an urban setting?",
+      "question_image": null,
+      "options": [
+        "Less forceful social control",
+        "Deviation from freedom",
+        "Unreported minor crimes",
+        "Fewer recorded violations of the law"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Less forceful social control) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 62,
+      "section": "English Language and Comprehension",
+      "question": "Choose the one word that replaces the highlighted expression accurately.The CEO addressed the issue in a very direct and blunt manner.",
+      "question_image": null,
+      "options": [
+        "Curtly",
+        "Frankly",
+        "Abruptly",
+        "Candidly"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Curtly) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 63,
+      "section": "English Language and Comprehension",
+      "question": "Read the sentence carefully and replace the highlighted expression with the most appropriate word.The professor dismissed the argument as lacking seriousness and careful thought, unworthy of scholarly debate.",
+      "question_image": null,
+      "options": [
+        "Specious",
+        "Frivolous",
+        "Pedantic",
+        "Derivative"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Frivolous) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 64,
+      "section": "English Language and Comprehension",
+      "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. The California Gold Rush began in 1848 when gold was discovered at Sutter's Mill. B. People from all over the world travelled to California in search of fortune. C. The gold rush significantly boosted the US economy and accelerated westward expansion. D. News of the discovery spread quickly, leading to a massive influx of prospectors.  E. San Francisco grew rapidly from a small settlement to a bustling city.",
+      "question_image": null,
+      "options": [
+        "BDECA",
+        "ADBCE",
+        "CEDAB",
+        "AEDCB"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (ADBCE) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 65,
+      "section": "English Language and Comprehension",
+      "question": "\"There is a calm that does not waver, even when the world spins faster than it should. It is the quiet within, where emotion is felt but not allowed to reign. In moments of triumph, it does not boast; in times of loss, it does not collapse. This inner steadiness listens before it speaks, pauses before it acts. It is not passivity—it is resolve, tempered by reflection. When anger surges or fear beckons, it steps back, not away, and chooses stillness over storm. It is the strength to remain grounded while everything else shifts.\"Question: What quality allows a person to remain grounded and composed while everything around them shifts?",
+      "question_image": null,
+      "options": [
+        "Nihilism",
+        "Equanimity",
+        "Vanity",
+        "Temerity"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Equanimity) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 66,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate idiom/phrase that can substitute the underlined part of the given sentence.This news channel is trying to revive interest in an outdated issue for cheap popularity.",
+      "question_image": null,
+      "options": [
+        "bark up the wrong tree",
+        "flog a dead horse",
+        "make a mountain out of a molehill",
+        "beat around the bush"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (flog a dead horse) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 67,
+      "section": "English Language and Comprehension",
+      "question": "Complete the sentence with correct option.His arguments are founded ___ logic and evidence, not speculation.2541",
+      "question_image": null,
+      "options": [
+        "on",
+        "upon",
+        "about",
+        "in"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (on) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 68,
+      "section": "English Language and Comprehension",
+      "question": "Select the literary context in which the given proverb would serve as a compelling thematic device.Dead men tell no tales",
+      "question_image": null,
+      "options": [
+        "A travelogue documenting rural cultures and forgotten languages",
+        "A utopian novel exploring eternal peace after death",
+        "A coming-of-age story about a boy learning to fish",
+        "A political thriller where witnesses are mysteriously disappearing"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (A political thriller where witnesses are mysteriously disappearing) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 69,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the passage and answer the given questions.Since the world has become industrialised, the number of animal species that have either become extinct or are nearing extinction has increased. The Bengal tiger, for instance, which once roamed the jungle in vast numbers, now has a population of only 2,300. By the year 2025, this number is projected to drop to zero. What is particularly alarming about the case of the Bengal tiger is that its extinction will have been caused almost entirely by poachers who, according to some sources, are motivated not by material gain but by personal gratification. This reflects a disturbing level of callousness that contributes significantly to the problem of extinction. Animals like the Bengal tiger, along with other endangered species, are vital components of the world’s ecosystem. International laws protecting these animals must be enacted and enforced to ensure their survival and, ultimately, the survival of our planet.Countries around the world have begun to address the problem in various ways. Some nations, in an effort to circumvent the issue, have allocated large areas of land for animal reserves. They charge admission to help defray the costs of maintaining these parks and often rely on support from international organisations as well. With the funds they receive, they can invest in equipment and patrols to protect the animals. Another solution aimed at stemming the tide of animal extinction is an international boycott of products made from endangered species. This measure appears to be fairly effective, but it will not, on its own, prevent animals from being hunted and killed.Which of the following real-life situations best connects with the issues discussed in the passage?",
+      "question_image": null,
+      "options": [
+        "People switching to plant-based diets for personal health benefits",
+        "The banning of ivory trade to protect elephants from extinction",
+        "Forest fires destroying large areas of natural habitat",
+        "Urban migration reducing the number of farmers in villages"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (The banning of ivory trade to protect elephants from extinction) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 70,
+      "section": "English Language and Comprehension",
+      "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. Their problems have so far not received adequate attention in the process of development.B. Nutrition requirements of adolescents are higher than those of a normal child or adult.C. Poor nutrition can lead to deficiency and stunted growth. D. A large number of adolescent girls suffer from anaemia.E. But in India, the diet available to adolescents is inadequate in all nutrients.",
+      "question_image": null,
+      "options": [
+        "BCEDA",
+        "ABCDE",
+        "EABDC",
+        "CDEAB"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (BCEDA) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 71,
+      "section": "English Language and Comprehension",
+      "question": "Select the correct HOMONYM of the underlined word.The country was forced to cede part of its territory.",
+      "question_image": null,
+      "options": [
+        "ceed",
+        "seed",
+        "sede",
+        "secede"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (seed) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 72,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate positive question tag to fill in the blank. Meera wasn’t taking a nap, ________?",
+      "question_image": null,
+      "options": [
+        "will she",
+        "would she",
+        "was she",
+        "could she"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (was she) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 73,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate option to fill in the blank.The _____ novel kept me up all night.",
+      "question_image": null,
+      "options": [
+        "intriguing",
+        "weary",
+        "confounding",
+        "rancorous"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (intriguing) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 74,
+      "section": "English Language and Comprehension",
+      "question": "Rectify the paragraph by selecting the correct spelling of the incorrectly spelt word. Technical education refers to specialized training in applied sciences such as engineering, agriculture, textile technology, and mechanical operations like weaving and spinning. It stands in contrast to liberal education, which seeks to cultivate a broad-based understanding of the humanities and sciences. In the contemporary era, technical education occupies a pivotal role in national advancement. A nation’s economic vitality and global competitiveness are increasingly contingent upon its degree of industrialization. The greater a nation’s proficiency in technological innovation and production, the more robust its prosperity. Indeed, technical acumen forms the cornerstone of industrial advancement, which, in turn, serves as a catalyst for economic resillience employment generation, and infrastructural growth. Thus, technical education is not merely utilitarian—it is indispensable for sustainable national development.",
+      "question_image": null,
+      "options": [
+        "rezilience",
+        "resiliance",
+        "resilience",
+        "resilense"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (resilience) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 75,
+      "section": "English Language and Comprehension",
+      "question": "Select the option that can be used as a one-word substitute for the given group of words.It is a festival that unfortunately showcases the most loudmouthed, flag-waving, and obnoxiously patriotic fervour, often degenerating into a crass and distasteful display of nationalistic zeal, while simultaneously celebrating the beauty of multinationalism, multiculturalism, and human diversity in all its vibrant and harmonious forms.742",
+      "question_image": null,
+      "options": [
+        "Hedonism",
+        "Narcissism",
+        "Kakistocracy",
+        "Jingoism"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Jingoism) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 76,
+      "section": "English Language and Comprehension",
+      "question": "Identify the error in the following sentence and choose the option that best corrects the error.Neither of the boys have finished their homework.",
+      "question_image": null,
+      "options": [
+        "Neither of the boys has finished their homework.",
+        "Neither of the boys have been finishing their homework.",
+        "Neither of the boys are finishing their homework.",
+        "Neither of the boys were finishing their homework."
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Neither of the boys has finished their homework.) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 77,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate synonym of the underlined word.Student 1: You okay? You ran out of the classroom so fast.Student 2: Ugh, I’m so mortified. I accidentally called the teacher “mom” in front of everyone.Student 1: [laughs] Oh no! That’s classic. Don’t worry—it happens to the best of us.Student 2: Easy for you to say. I don’t think I can ever show my face in that class again!",
+      "question_image": null,
+      "options": [
+        "Surprised",
+        "Irritated",
+        "Shocked",
+        "Humiliated"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Humiliated) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 78,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate ANTONYM of the underlined word to fill in the blank.Dr. Singh: \"Your proposal is quite rudimentary, and I’m afraid it lacks the depth required for doctoral research.\"Ms. Patel: \"I understand, but I was hoping to refine it further so it becomes more __________ before submission.\"",
+      "question_image": null,
+      "options": [
+        "elementary",
+        "tentative",
+        "preliminary",
+        "sophisticated"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (sophisticated) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 79,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the passage and answer the following question: Precipitation in the Mediterranean region is characterised by its uneven distribution throughout the year, with a strong deficit during the warm season. The region is also known for its high spatial and temporal variability in precipitation levels. The substantial year-to-year fluctuations in precipitation are of particular concern due to their significant implications for water resources, a vital asset in the region.The Mediterranean region is subject to the influences of both subtropical circulation and the prevailing sub-polar-frontal low-pressure systems, which exhibit substantial variation in position and intensity over annual and decadal time scales. Anthropogenic forcing is thought to have the potential to disrupt these circulation mechanisms, primarily due to the expansion of the Hadley circulation cell and a northwards shift of the subtropical high-pressure belts. The ultimate consequence could be the prevalence of anticyclonic conditions, accompanied by a reduction in the occurrence of the extratropical storms that typically impact the Mediterranean region. The most conspicuous outcome of these changes could be a decline in precipitation and the increased frequency and severity of meteorological droughts.Indeed, a substantial body of climate change projections anticipates a predominant decrease in precipitation across the Mediterranean region through the twenty-first century. Should this trend be confirmed, it would carry significant implications for both Mediterranean ecosystems and various human activities reliant on water resources. The ramifications include reduced streamflow and water availability, heightened severity of hydrological droughts, elevated forest fire risks, increased plant mortality rates, and decreased crop yields. Considering the conflicting findings presented by some studies on historical precipitation trends in the Mediterranean region, it is crucial to undertake a thorough assessment of long-term precipitation dynamics.Q80. What is the tone of the passage?",
+      "question_image": null,
+      "options": [
+        "Confident and assertive",
+        "Concerned and cautionary",
+        "Neutral and factual",
+        "Optimistic and hopeful"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Concerned and cautionary) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 80,
+      "section": "English Language and Comprehension",
+      "question": "Rearrange the following sentences to form a meaningful paragraph.P. This is where scientists explore space.Q. It orbits the Earth at about 400 kilometers altitude.R. The International Space Station is a marvel of engineering.S. It is a joint project by multiple countries.",
+      "question_image": null,
+      "options": [
+        "QRSP",
+        "PRSQ",
+        "RQPS",
+        "RQSP"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (RQSP) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 81,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:दिए गए गद्यांश को पढ़कर नीचे लिखे प्रश्नों के उत्तर दीजिए ।भारत का संविधान भारतीय गणराज्य का सर्वोच्च कानून है। यह देश की राजनीतिक व्यवस्था के लिए रूपरेखा तैयार करता है, सरकार की संस्थाओं की शक्तियों एवं उत्तरदायित्वों को परिभाषित करता है। संविधान के द्वारा मौलिक अधिकारों की रक्षा के साथ-साथ शासन के सिद्धांतों को भी रेखांकित किया जाता है। संविधान में देश के प्रशासन का मार्गदर्शन करने वाले नियमों और विनियमों का एक समूह होता है। भारतीय संविधान राष्ट्र के लोकतांत्रिक आदर्शों और  आकांक्षाओं का प्रमाण है। इसका निर्माण सावधानीपूर्वक किया गया है, जो ऐतिहासिक संघर्षों और दूरदर्शी सिद्धांतों पर आधारित है, और यह भारत को एक अधिक न्यायपूर्ण, समावेशी और समृद्ध समाज की ओर ले जाने का मार्गदर्शन प्रदान करता है। भारतीय संविधान अपने मूल्यों को बनाए रखने, विविधता के बीच एकता को बढ़ावा देने और प्रत्येक नागरिक के अधिकारों और स्वतंत्रताओं की रक्षा करने के लिए महत्त्वपूर्ण है, इस प्रकार यह आने वाली पीढ़ियों के लिए एक उज्ज्वल भविष्य सुनिश्चित करता है।उपर्युक्‍त गद्यांश का उपयुक्त शीर्षक क्‍या होगा-",
+      "question_image": null,
+      "options": [
+        "भारतीय संविधान के अधिनियम",
+        "भारतीय संविधान के अनुच्छेद",
+        "भारतीय संविधान की बुनियादी विशेषताएँ",
+        "भारतीय संविधान की प्रस्तावना"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (भारतीय संविधान की बुनियादी विशेषताएँ) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 82,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्नलिखित वाक्य में चिन्हित शब्द का पर्यायवाची शब्द पहचानें।आतिश तो आस्तीन का साँप निकला।  1129",
+      "question_image": null,
+      "options": [
+        "भुजंग",
+        "कृतघ्न",
+        "निर्दय",
+        "खलबली"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (भुजंग) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 83,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:दिए गए गद्यांश के आधार पर पूछे गए प्रश्नों का उत्तर दीजिए।मानव जीवन में कुछ महान कर पाने की अदम्य लालसा ही महत्वाकांक्षा है। इस लालसा की पूर्ति का मार्ग परस्पर होड़ से जन्म लेता है। किसी अन्य से आगे बढ़ पाने की आकांक्षा बिना 'अन्य' के प्रति कठोर हुए नहीं पूर्ण की जा सकती। मनुष्य में आगे बढ़ने की जो भी स्वाभाविक इच्छा जन्म लेती है, उसके साथ अप्रत्यक्ष रूप से अन्य मानवों को पीछे छोड़ने की अदृश्य इच्छा भी जुड़ी रहती है। यदि सहृदय होकर इस पर विचार किया जाए तो इस प्रकार की समस्त प्रतिद्वंद्विता निष्ठुरता है, दूसरे के प्रति निर्ममता है, किंतु महानता को पाने के लिए यह निर्ममता या निष्ठुरता एक अनिवार्य दुर्गुण है। इसके अभाव में उस निष्ठा, संकल्प या दृढ़ता की कल्पना नहीं की जा सकती, जो मनुष्य को आगे बढ़कर अनछुई ऊँचाइयों को छूने के लिए प्रेरित करती है। हम सभी लोग अपने जीवन में न कुछ पाने का सपना देखते हैं। उसे हमारे जीवन का लक्ष्य कहा जा सकता है। महत्वाकांक्षा वह प्रेरणा शक्ति है जो हमें अपने लक्ष्यों को प्राप्त करने के लिए प्रेरित करती है। जीवन में महत्वाकांक्षी होना आवश्यक है ताकि हमारे जीने के पीछे एक मकसद हो। मकसद के बिना, जीवन एक बोझ की तरह है। हर किसी के जीवन में एक महत्वाकांक्षा होनी चाहिए। बिना उद्देश्य के जीवन निरर्थक है। जीवन में कुछ करने या बनने का उद्देश्य हमें उसी को पूरा करने के लिए सकारात्मकता और साहस के साथ आगे बढ़ाता है। यदि किसी के जीवन में कोई महत्वाकांक्षा नहीं रह जाती तो उसका जीवन निष्प्राण हो जाता है। महत्वाकांक्षा वह प्रेरक शक्ति है जो मनुष्य को गतिशील एवं प्राणवान बनाती है और कर्म करते रहने की प्रेरणा देती है।प्रस्तुत गद्यांश में ‘कर्म' का विलोम क्या है?",
+      "question_image": null,
+      "options": [
+        "सक्रिय",
+        "क्रिया",
+        "अकर्म",
+        "सरोकार"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (अकर्म) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 84,
+      "section": "Hindi Language and Comprehension",
+      "question": "नीचे दिए गये वाक्य के किस भाग में त्रुटी है ?'ऐसी स्थिती में कुछ काम नहीं हो सकता'114",
+      "question_image": null,
+      "options": [
+        "सकता",
+        "कुछ",
+        "स्थिती",
+        "ऐसी"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (स्थिती) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 85,
+      "section": "Hindi Language and Comprehension",
+      "question": "वाक्य विन्यास की दृष्टि से निम्न में से शुद्ध वाक्य का चयन करें— 709",
+      "question_image": null,
+      "options": [
+        "हिंदी प्रचार में नागरी प्रचारिणी सभा ने बड़ी महत्त्वपूर्ण भूमिका की है अदा।",
+        "नागरी प्रचारिणी सभा ने बड़ी महत्त्वपूर्ण भूमिका अदा की है हिंदी प्रचार में।",
+        "नागरी प्रचारिणी सभा ने हिंदी प्रचार में बड़ी महत्त्वपूर्ण भूमिका अदा की है।",
+        "नागरी प्रचारिणी सभा ने हिंदी प्रचार में अदा की है बड़ी महत्त्वपूर्ण भूमिका।"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (नागरी प्रचारिणी सभा ने हिंदी प्रचार में बड़ी महत्त्वपूर्ण भूमिका अदा की है।) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 86,
+      "section": "Hindi Language and Comprehension",
+      "question": "सही क्रिया रूप का प्रयोग कर निम्नलिखित वाक्य पूर्ण करेंजीवन में उतार – चढ़ाव ______",
+      "question_image": null,
+      "options": [
+        "आते रहते हैं",
+        "विस्तार है",
+        "संकुचित थे",
+        "अंग हैं"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (आते रहते हैं) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 87,
+      "section": "Hindi Language and Comprehension",
+      "question": "प्रिया सार्थक की दुहिता है ।वाक्य का रेखांकित शब्द किसका पर्यायवाची है ?",
+      "question_image": null,
+      "options": [
+        "प्रेयसी",
+        "बहन",
+        "पुत्री",
+        "पत्नी"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (पुत्री) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 88,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:गद्यांश के आधार पर निम्नलिखित प्रश्नों के उत्तर दीजिये- 'ऐतिहासिक उपवास' से गांधीजी को मोटी, ऊँची दीवार तोड़कर समाज सुधार के विशाल उपेक्षित क्षेत्र में प्रवेश करने का अवसर मिला। उनके अनेक मित्रों को दुःख हुआ, क्योंकि वह अपना मार्ग छोड़कर हरिजनों तथा किसानों के कल्याण-कार्य में पड़ गये। राजनैतिक लोग चाहते थे कि वह राजनैतिक बने रहें, परन्तु गांधीजी ग्रामीणों के लिए पोषक-तत्त्वों को सर्वश्रेष्ठ राजनीति तथा हरिजनों के सुख को स्वतंत्रता का राजमार्ग समझते थे। समाज-सुधार  सदा से उनका प्रिय कार्य रहा था।  25 जनवरी 1942 के हरिजन में उन्होंने घोषणा की थी- \"मैंने हमेशा यह माना है कि हर समय पार्लामेंटरी  कार्यक्रम किसी राष्ट्र की सबसे छोटी प्रवृत्ति है। सबसे महत्त्वपूर्ण तथा स्थायी कार्य बाहर किया जाता है।\"  वह चाहते थे कि व्यक्ति अधिक करे ताकि राज्य कम करे। नीचे जितना अधिक काम  होगा, ऊपर से उतनी कम आज्ञा आरोपित होगी। वास्तव में सरकार के विरुद्ध गांधी जी की प्रतिक्रिया इतनी तीव्र थी कि 27 अप्रैल 1940 के हरिजन में उन्होंने प्रतिज्ञा की कि स्वतंत्र भारत की सरकार में वह सम्मिलित नहीं होंगे। उन्होंने कहा कि वह सरकारी जगत के  बाहर अपना हिस्सा अदा करेंगे। वह इतने धार्मिक थे कि किसी सरकार के साथ अपने आपको अभिन्न नहीं बना सकते थे। चूँकि गांधीजी  का दर्शन यह था, इसलिए अपने समाज-सुधार कार्य के लिए वह अनेक क्रियाशील सदस्यों वाले विशिष्ट स्वेच्छाधीन संगठनों पर निर्भर रहते थे।20Q97. दिये गए गद्यांश का मुख्य भाव यह  है कि-22",
+      "question_image": null,
+      "options": [
+        "गांधीजी आन्दोलन को महत्त्व देते थे",
+        "गांधीजी समाज-सुधार को महत्त्व देते थे",
+        "गांधीजी जातिवाद को महत्त्व देते थे",
+        "गांधीजी पद को महत्त्व देते थे"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (गांधीजी समाज-सुधार को महत्त्व देते थे) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 89,
+      "section": "Hindi Language and Comprehension",
+      "question": "अतिरिक्त वाक्य का चयन करेंवाक्य क: प्राचीन काल में जनक महाराज विदेह में राज्य करते थेवाक्य ख: बाबा आमटे ने समाज द्वारा तिरस्कृत कुस्त रोगियों की सेवा में अपना समस्त जीवन समर्पित कर दियावाक्य ग: मिथिला विदेह की राजधानी थीवाक्य घ: कहा जाता है कि महाराज जनक ज्ञानी थे",
+      "question_image": null,
+      "options": [
+        "वाक्य घ",
+        "वाक्य ख",
+        "वाक्य ग",
+        "वाक्य क"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (वाक्य ख) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 90,
+      "section": "Hindi Language and Comprehension",
+      "question": "‘न बहुत ठंडा न बहुत गर्म’ वाक्यांश के लिए एक सार्थक शब्द होगा  –",
+      "question_image": null,
+      "options": [
+        "समागम",
+        "समशीतोष्ण",
+        "समवत्त",
+        "समवाय"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (समशीतोष्ण) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 91,
+      "section": "Hindi Language and Comprehension",
+      "question": "उपयुक्त 'क्रिया' का चयन कर दिए गए वाक्य को पूर्ण कीजिए -‘आशा गाना ...................... है। ’",
+      "question_image": null,
+      "options": [
+        "खाती",
+        "नाचती",
+        "गाती",
+        "पीती"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (गाती) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 92,
+      "section": "Hindi Language and Comprehension",
+      "question": "उचित शब्द का प्रयोग कर वाक्य को पूर्ण करें-मोहन              आया है।",
+      "question_image": null,
+      "options": [
+        "एक-दूसरे",
+        "सभी",
+        "कभी-कभी",
+        "अभी-अभी"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (अभी-अभी) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 93,
+      "section": "Hindi Language and Comprehension",
+      "question": "'जो मोक्ष चाहता है'   वाक्यांश के लिए सार्थक शब्द कौन सा है ?",
+      "question_image": null,
+      "options": [
+        "संत",
+        "बुभुक्षु",
+        "योगी",
+        "मुमुक्षु"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (मुमुक्षु) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 94,
+      "section": "Hindi Language and Comprehension",
+      "question": "पढ़ने या पढ़ाने के योग्य सामग्री का बहुत सोच- विचार कर चयन करना चाहिए। ‘पढ़ने या पढ़ाने के योग्य’ वाक्यांश के लिए सर्वाधिक उपयुक्त शब्द है-",
+      "question_image": null,
+      "options": [
+        "पाठिका",
+        "स्मारिका",
+        "पत्रिका",
+        "पाठ्य"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (पाठ्य) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 95,
+      "section": "Hindi Language and Comprehension",
+      "question": "' ऊपर की ओर जाने वाला ' वाक्यांश के लिए सार्थक शब्द है  -784",
+      "question_image": null,
+      "options": [
+        "ऊर्ध्वगामी",
+        "उत्पाद",
+        "उपकृत",
+        "उर्वरा"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (ऊर्ध्वगामी) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 96,
+      "section": "Hindi Language and Comprehension",
+      "question": "महाभारत में द्रौपदी के  चीर हरण का प्रसंग प्रचलित है ।वाक्य का रेखांकित शब्द किसका पर्यायवाची है ?",
+      "question_image": null,
+      "options": [
+        "अभिमान",
+        "केश",
+        "वस्त्र",
+        "इज्जत"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (वस्त्र) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 97,
+      "section": "Hindi Language and Comprehension",
+      "question": "वर्तनी की दृष्टि से दिए गए वाक्य के किस अंश में त्रुटि है?प्रेस की स्वतंत्रता को  लेकर प्रारम्भ से ही  अंगेज़ों और भारतवासियों  में टकराहट रही।",
+      "question_image": null,
+      "options": [
+        "में टकराहट रही।",
+        "अंगेज़ों और भारतवासियों",
+        "लेकर प्रारम्भ से ही",
+        "प्रेस की स्वतंत्रता को"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (अंगेज़ों और भारतवासियों) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 98,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:गद्यांश के आधार पर प्रश्न का उत्तर दें।​​​​​​​भूषण शिवाजी के समकालीन थे और उन्होंने शिवाजी तथा छत्रसाल दोनों का आश्रय ग्रहण किया। शिवराज भूषण, शिवा बावनी और छत्रसाल दशक इनके प्रसिद्ध ग्रंथ हैं। रीतिकाल की सर्वाधिक लोकप्रिय काव्य- प्रवृत्ति – श्रृंगारिकता की उपेक्षा करते हुए इन्होंने अपने प्रसिद्ध अलंकार-निरुपक ग्रंथ ‘शिवराज भूषण’ में वीर प्रशस्तिपरक उदाहरणों की रचना की है। इनके दो मुक्तक ग्रंथ ‘शिवा बावनी’ और ‘छत्रसाल दशक’ में इनका कवि रूप अधिक उभर सका है। वीर रस के साथ-साथ अद्भुत, भयानक, वीभत्स और रौद्र भी इसमें व्यंजित हुए हैं। भूषण की सभी रचनाएँ मुक्तक हैं। इनकी साहित्यिक भाषा ब्रज है। ‘भूषण’ वास्तव में इनका नाम नहीं बल्कि उपाधि है जो इन्हें चित्रकूट के नरेश सोलंकी हृदयराम के पुत्र रूद्र ने प्रदान की थी। भूषण की कविता में ओज है। वह वीर रस के कवि थे। ओज ने उनकी कविता में आवेग को भरा। यह आवेग उन्हें सामाजिक जीवन से मिला था। सामाजिक जीवन की परिस्थिति की माँग युद्ध और आक्रमण था। युद्ध और आक्रमण की कविता के लिए जिस प्रकार से भाव का संगठन काव्य में होना चाहिए उसी प्रकार का भाव भूषण की कविता में मिलता है। भूषण की कविता में आवेग और अनुभूति की एकता है।194भूषण के आश्रयदाता राजा थे--195",
+      "question_image": null,
+      "options": [
+        "शिवाजी तथा पृथ्वीराज चौहान",
+        "छत्रसाल तथा जयसिंह",
+        "शिवाजी तथा जयसिंह",
+        "शिवाजी तथा छत्रसाल"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (शिवाजी तथा छत्रसाल) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 99,
+      "section": "Hindi Language and Comprehension",
+      "question": "'अवश्य छात्र सफल होते हैं परिश्रम करने वाले' वाक्य का सही क्रम है-",
+      "question_image": null,
+      "options": [
+        "अवश्य परिश्रम करने वाले सफल होते हैं छात्र",
+        "छात्र अवश्य सफल होते हैं परिश्रम करने वाले",
+        "छात्र सफल होते हैं परिश्रम करने वाले अवश्य",
+        "परिश्रम करने वाले छात्र अवश्य सफल होते हैं"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (परिश्रम करने वाले छात्र अवश्य सफल होते हैं) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 100,
+      "section": "Hindi Language and Comprehension",
+      "question": "'अन्धे की लकड़ी' मुहावरे का अर्थ क्या है?",
+      "question_image": null,
+      "options": [
+        "चाल चलना",
+        "एकमात्र सहारा होना",
+        "लकड़ियों का ढ़ेर",
+        "बेकार पड़े रहना"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (एकमात्र सहारा होना) है।",
+      "explanation_image": null
+    }
+  ]
+}

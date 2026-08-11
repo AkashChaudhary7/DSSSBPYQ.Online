@@ -200,35 +200,44 @@ export const TgtCsHub: React.FC<TgtCsHubProps> = ({
                 }}
                 className="bg-white border border-indigo-200 text-indigo-950 font-bold text-xs rounded-xl px-2.5 py-1.5 focus:outline-none focus:ring-2 focus:ring-indigo-500 shadow-2xs cursor-pointer max-w-[220px] sm:max-w-[280px]"
               >
-                <option value="All Topics">All 32 Computer Science Modules</option>
-                <option value="Computer Networks">🌐 Computer Networks ({countMocksByTopic(quizzes.filter(q => q.category === 'part_b' && q.testType !== 'pyp'), 'Computer Networks')})</option>
-                <option value="Operating System">💻 Operating Systems ({countMocksByTopic(quizzes.filter(q => q.category === 'part_b' && q.testType !== 'pyp'), 'Operating System')})</option>
-                <option value="DBMS">🗄️ Database Management System (DBMS)</option>
-                <option value="Programming in C, C++ & Data Structures">⚡ Programming in C/C++ & Data Structures</option>
-                <option value="Software Engineering">📐 Software Engineering</option>
-                <option value="Digital Electronics">🔌 Digital Electronics</option>
-                <option value="Computer Architecture">🏛️ Computer Architecture</option>
-                <option value="Design and Analysis of Algorithms (DAA)">🧮 Design & Analysis of Algorithms (DAA)</option>
-                <option value="Fundamentals of Information Technology">🖥️ Fundamentals of IT</option>
-                <option value="Computer Network Security">🔒 Computer Network Security</option>
-                <option value="Java Programming and Website Design">☕ Java & Web Design</option>
-                <option value="Front End Designed Tools">🎨 Front End Design Tools</option>
-                <option value="Mathematics - I, II, III, IV">📐 Mathematics - I, II, III, IV</option>
-                <option value="Linux Environment">🐧 Linux Environment</option>
-                <option value="E-Commerce">🛒 E-Commerce</option>
-                <option value="Mobile Computing">📱 Mobile Computing</option>
-                <option value="Computer Graphics & Multimedia Applications">🖼️ Computer Graphics & Multimedia</option>
-                <option value="Internet Programming">🌐 Internet Programming</option>
-                <option value=".NET Programming">⚙️ .NET Programming</option>
-                <option value="Management Information System (MIS)">📊 Management Information System (MIS)</option>
-                <option value="Business Economics">📈 Business Economics</option>
-                <option value="Business Communication, Organization & Management">💼 Business Communication</option>
-                <option value="Basis of Physics">⚡ Basis of Physics</option>
-                <option value="Financial Accounting">🧾 Financial Accounting</option>
-                <option value="Foundation Course in English">📚 English Foundation</option>
-                <option value="Statistical Techniques">📉 Statistical Techniques</option>
-                <option value="TCP / Protocols">📡 TCP / Protocols</option>
-                <option value="Interpolation">🔢 Interpolation</option>
+                <option value="All Topics">All 32 Computer Science Modules ({quizzes.filter(q => q.category === 'part_b' && q.testType !== 'pyp').length})</option>
+                {[
+                  { val: 'Computer Networks', label: '🌐 Computer Networks' },
+                  { val: 'Operating System', label: '💻 Operating Systems' },
+                  { val: 'DBMS', label: '🗄️ Database Management System (DBMS)' },
+                  { val: 'Programming in C, C++ & Data Structures', label: '⚡ Programming in C/C++ & Data Structures' },
+                  { val: 'Software Engineering', label: '📐 Software Engineering' },
+                  { val: 'Digital Electronics', label: '🔌 Digital Electronics' },
+                  { val: 'Computer Architecture', label: '🏛️ Computer Architecture' },
+                  { val: 'Design and Analysis of Algorithms (DAA)', label: '🧮 Design & Analysis of Algorithms (DAA)' },
+                  { val: 'Fundamentals of Information Technology', label: '🖥️ Fundamentals of IT' },
+                  { val: 'Computer Network Security', label: '🔒 Computer Network Security' },
+                  { val: 'Java Programming and Website Design', label: '☕ Java & Web Design' },
+                  { val: 'Front End Designed Tools', label: '🎨 Front End Design Tools' },
+                  { val: 'Mathematics - I, II, III, IV', label: '📐 Mathematics - I, II, III, IV' },
+                  { val: 'Linux Environment', label: '🐧 Linux Environment' },
+                  { val: 'E-Commerce', label: '🛒 E-Commerce' },
+                  { val: 'Mobile Computing', label: '📱 Mobile Computing' },
+                  { val: 'Computer Graphics & Multimedia Applications', label: '🖼️ Computer Graphics & Multimedia' },
+                  { val: 'Internet Programming', label: '🌐 Internet Programming' },
+                  { val: '.NET Programming', label: '⚙️ .NET Programming' },
+                  { val: 'Management Information System (MIS)', label: '📊 Management Information System (MIS)' },
+                  { val: 'Business Economics', label: '📈 Business Economics' },
+                  { val: 'Business Communication, Organization & Management', label: '💼 Business Communication' },
+                  { val: 'Basis of Physics', label: '⚡ Basis of Physics' },
+                  { val: 'Financial Accounting', label: '🧾 Financial Accounting' },
+                  { val: 'Foundation Course in English', label: '📚 English Foundation' },
+                  { val: 'Statistical Techniques', label: '📉 Statistical Techniques' },
+                  { val: 'TCP / Protocols', label: '📡 TCP / Protocols' },
+                  { val: 'Interpolation', label: '🔢 Interpolation' },
+                ].map(item => {
+                  const cnt = countMocksByTopic(quizzes.filter(q => q.category === 'part_b' && q.testType !== 'pyp'), item.val);
+                  return (
+                    <option key={item.val} value={item.val}>
+                      {item.label} ({cnt})
+                    </option>
+                  );
+                })}
               </select>
             </div>
           </div>

@@ -1,15 +1,32 @@
 import React, { useState } from 'react';
 import { 
-  Shield, FileText, Info, Mail, AlertCircle, Users, Send, Youtube, Globe, BookOpen
+  Shield, FileText, Info, Mail, AlertCircle, Users, Send, Youtube, Globe, BookOpen, Lock, KeyRound, Eye, EyeOff
 } from 'lucide-react';
 import { Glass3dIcon } from './Glass3dIcons';
 
 interface FooterWithComplianceProps {
   onOpenSubscribeModal?: () => void;
+  onOpenAdmin?: () => void;
 }
 
-export default function FooterWithCompliance({ onOpenSubscribeModal }: FooterWithComplianceProps = {}) {
+export default function FooterWithCompliance({ onOpenSubscribeModal, onOpenAdmin }: FooterWithComplianceProps = {}) {
   const [activePolicy, setActivePolicy] = useState<'about' | 'contact' | 'privacy' | 'terms' | 'disclaimer' | null>(null);
+  const [showPasswordModal, setShowPasswordModal] = useState<boolean>(false);
+  const [passwordInput, setPasswordInput] = useState<string>('');
+  const [passwordError, setPasswordError] = useState<boolean>(false);
+  const [showPasswordText, setShowPasswordText] = useState<boolean>(false);
+
+  const handleVerifyPassword = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (passwordInput.trim() === 'admin' || passwordInput.trim() === 'admin123' || passwordInput.trim() === 'byteprep') {
+      setPasswordError(false);
+      setShowPasswordModal(false);
+      setPasswordInput('');
+      if (onOpenAdmin) onOpenAdmin();
+    } else {
+      setPasswordError(true);
+    }
+  };
 
   return (
     <footer className="bg-slate-900 text-slate-200 pt-8 pb-[calc(5.5rem+env(safe-area-inset-bottom,0px))] md:pb-10 px-4 md:px-6 border-t border-slate-800" id="adsense-footer">
@@ -97,6 +114,19 @@ export default function FooterWithCompliance({ onOpenSubscribeModal }: FooterWit
             <a id="privacy-policy-link" href="/privacypolicy" className="hover:text-sky-400 transition-colors">Privacy Policy</a>
             <a id="terms-conditions-link" href="/terms" className="hover:text-sky-400 transition-colors">Terms &amp; Conditions</a>
             <button id="disclaimer-link" onClick={() => setActivePolicy('disclaimer')} className="hover:text-sky-400 transition-colors cursor-pointer bg-transparent border-0">Disclaimer</button>
+            <button 
+              id="admin-tracker-link" 
+              onClick={() => {
+                setPasswordError(false);
+                setPasswordInput('');
+                setShowPasswordModal(true);
+              }} 
+              className="text-slate-600 hover:text-amber-400 transition-colors cursor-pointer bg-transparent border-0 flex items-center gap-1 text-[10px] uppercase font-mono tracking-wider ml-2"
+              title="Admin Access - Password Protected"
+            >
+              <Lock className="w-3 h-3 text-slate-500" />
+              <span>Admin</span>
+            </button>
           </div>
         </div>
       </div>
@@ -263,6 +293,72 @@ export default function FooterWithCompliance({ onOpenSubscribeModal }: FooterWit
                 Accept and Close
               </button>
             </div>
+          </div>
+        </div>
+      )}
+
+      {/* ADMIN PASSWORD VERIFICATION MODAL */}
+      {showPasswordModal && (
+        <div className="fixed inset-0 bg-slate-950/80 backdrop-blur-md z-[110] flex items-center justify-center p-4 animate-fadeIn">
+          <div className="bg-white text-slate-800 border border-slate-200 rounded-3xl max-w-sm w-full p-6 shadow-2xl relative space-y-5 animate-scaleUp">
+            <div className="flex items-center gap-3 text-amber-600 border-b border-slate-100 pb-3">
+              <div className="p-2.5 bg-amber-50 rounded-2xl border border-amber-200 shrink-0">
+                <KeyRound className="w-5 h-5 text-amber-600" />
+              </div>
+              <div>
+                <h3 className="font-extrabold text-slate-900 text-sm md:text-base">Admin Portal Access</h3>
+                <p className="text-[11px] text-slate-500">Reported Question Tracker</p>
+              </div>
+            </div>
+
+            <form onSubmit={handleVerifyPassword} className="space-y-4">
+              <div className="space-y-1.5">
+                <label className="block text-xs font-bold text-slate-700">
+                  Enter Password:
+                </label>
+                <div className="relative">
+                  <input
+                    type={showPasswordText ? 'text' : 'password'}
+                    value={passwordInput}
+                    onChange={(e) => {
+                      setPasswordInput(e.target.value);
+                      setPasswordError(false);
+                    }}
+                    placeholder="Enter admin password..."
+                    autoFocus
+                    className="w-full bg-slate-50 border border-slate-300 rounded-xl px-3.5 py-2.5 text-xs text-slate-900 font-medium focus:outline-hidden focus:ring-2 focus:ring-amber-500 focus:border-amber-500 pr-10"
+                  />
+                  <button
+                    type="button"
+                    onClick={() => setShowPasswordText(!showPasswordText)}
+                    className="absolute right-3 top-2.5 text-slate-400 hover:text-slate-600 cursor-pointer"
+                  >
+                    {showPasswordText ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                  </button>
+                </div>
+                {passwordError && (
+                  <p className="text-[11px] text-rose-600 font-bold animate-shake">
+                    Incorrect password. Please try again.
+                  </p>
+                )}
+              </div>
+
+              <div className="flex items-center justify-end gap-2 pt-2">
+                <button
+                  type="button"
+                  onClick={() => setShowPasswordModal(false)}
+                  className="bg-slate-100 hover:bg-slate-200 text-slate-600 font-bold px-4 py-2 rounded-xl text-xs transition-all cursor-pointer"
+                >
+                  Cancel
+                </button>
+                <button
+                  type="submit"
+                  className="bg-amber-600 hover:bg-amber-700 text-white font-black px-5 py-2 rounded-xl text-xs transition-all cursor-pointer shadow-md shadow-amber-200 flex items-center gap-1.5"
+                >
+                  <Lock className="w-3.5 h-3.5" /> Unlock Tracker
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       )}

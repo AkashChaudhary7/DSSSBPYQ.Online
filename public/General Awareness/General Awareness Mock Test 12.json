@@ -1,0 +1,326 @@
+{
+  "test_title": "General Awareness Mock Test 12",
+  "total_questions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "section": "General Awareness",
+      "question": "Which country has become the first in the world to receive the World Health Organization (WHO) verification for eliminating leprosy, a significant public health milestone?",
+      "question_image": null,
+      "options": [
+        "Philippines",
+        "Japan",
+        "Jordan",
+        "India"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Jordan) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 2,
+      "section": "General Awareness",
+      "question": "The Nepal Himalayas is demarcated by the ________ and Teesta rivers.",
+      "question_image": null,
+      "options": [
+        "Gandak",
+        "Kosi",
+        "Beas",
+        "Kali"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Kali) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 3,
+      "section": "General Awareness",
+      "question": "In 1927, the British Government in England decided to send a Commission under the chairmanship of _________ to decide the political future of India.",
+      "question_image": null,
+      "options": [
+        "Sir John Simon",
+        "Sir Charles Hardinge",
+        "Sir Louis Mountbatten",
+        "Sir George Curzon"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Sir John Simon) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 4,
+      "section": "General Awareness",
+      "question": "_____ contrasting characters were carried out by Mendel in garden pea.",
+      "question_image": null,
+      "options": [
+        "Nine",
+        "Two",
+        "Four",
+        "Seven"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Seven) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 5,
+      "section": "General Awareness",
+      "question": "Ranjit Sagar Dam is located in which of the following states?",
+      "question_image": null,
+      "options": [
+        "Rajasthan",
+        "Maharashtra",
+        "Punjab",
+        "Bihar"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Punjab) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 6,
+      "section": "General Awareness",
+      "question": "Who became the first Indian woman to record two consecutive ODI hundreds during the second ODI against South Africa at the M Chinnaswamy Stadium in Bengaluru in June 2024?",
+      "question_image": null,
+      "options": [
+        "Deepti Sharma",
+        "Smriti Mandhana",
+        "Harmanpreet Kaur",
+        "Shafali Sharma"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Smriti Mandhana) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 7,
+      "section": "General Awareness",
+      "question": "The imposition of restrictions on imports by the government in the form of taxes is called _______.",
+      "question_image": null,
+      "options": [
+        "restricted revenue",
+        "tariff",
+        "excise duty",
+        "tariff barrier"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (tariff) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 8,
+      "section": "General Awareness",
+      "question": "As of March 2025, who is the Union Minister of External Affairs for India?",
+      "question_image": null,
+      "options": [
+        "Shivraj Singh Chouhan",
+        "Dharmendra Pradhan",
+        "Dr. Subrahmanyam Jaishankar",
+        "Piyush Goyal"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Dr. Subrahmanyam Jaishankar) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 9,
+      "section": "General Awareness",
+      "question": "When was the Verma Committee on Fundamental Duties of Citizens set up by the Indian Government to look into the practical aspects of Fundamental Duties and suggest actions that can inform and educate people about the need of abiding by them?",
+      "question_image": null,
+      "options": [
+        "1999",
+        "1993",
+        "1991",
+        "2001"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (1999) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 10,
+      "section": "General Awareness",
+      "question": "Which hybridisation of carbon is more acidic?",
+      "question_image": null,
+      "options": [
+        "sp3",
+        "sp2d",
+        "sp",
+        "sp2"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (sp) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 11,
+      "section": "General Awareness",
+      "question": "Which of the following authors describes the life of a little boy in the quaint Indian town of Malgudi?",
+      "question_image": null,
+      "options": [
+        "RK Narayan",
+        "Sudha Murti",
+        "Mulk Raj Anand",
+        "Khushwant Singh"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (RK Narayan) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 12,
+      "section": "General Awareness",
+      "question": "As per Article 317 of the Indian Constitution, the Chairman or any other member of the State Public Service Commission (SPSC) can be removed by the ________.",
+      "question_image": null,
+      "options": [
+        "President of India",
+        "Chief Minister of state",
+        "Prime Minister of India",
+        "Governor of state"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (President of India) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 13,
+      "section": "General Awareness",
+      "question": "Which Union Territory was established in 2019 without a legislature?",
+      "question_image": null,
+      "options": [
+        "Daman and Diu",
+        "Puducherry",
+        "Chandigarh",
+        "Ladakh"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Ladakh) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 14,
+      "section": "General Awareness",
+      "question": "Which of the following statements is INCORRECT about hypersonic missile trial in India?",
+      "question_image": null,
+      "options": [
+        "This hypersonic missile is designed to carry various payloads for ranges greater than 1500 km for the Armed Forces.",
+        "This missile has been indigenously developed by the laboratories of Dr. APJ Abdul Kalam Missile complex, Hyderabad, along with various other DRDO laboratories and Industry Partners.",
+        "Indian Space Research Organisation (ISRO) conducted a successful flight-trial of India’s first long-range hypersonic missile in November 2024.",
+        "This breakthrough puts India among an elite group of nations like the US, Russia and China."
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Indian Space Research Organisation (ISRO) conducted a successful flight-trial of India’s first long-range hypersonic missile in November 2024.) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 15,
+      "section": "General Awareness",
+      "question": "The part of the shadow where all the light coming from the source is blocked by the object being shadowed is called:",
+      "question_image": null,
+      "options": [
+        "penumbra",
+        "antumbra",
+        "umbra",
+        "dynumbra"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (umbra) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 16,
+      "section": "General Awareness",
+      "question": "When did brothers Sidhu and Kanhu Murmu start the Santhal Rebellion, a major armed rebellion against the British East India Company and the Zamindari system?",
+      "question_image": null,
+      "options": [
+        "1858",
+        "1859",
+        "1861",
+        "1855"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (1855) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 17,
+      "section": "General Awareness",
+      "question": "Which of the following rivers flows in Rajasthan and Gujarat?",
+      "question_image": null,
+      "options": [
+        "Luni and Tapi",
+        "Tapi and Betwa",
+        "Luni and Sabarmati",
+        "Tapi and Narmada"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Luni and Sabarmati) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 18,
+      "section": "General Awareness",
+      "question": "The Khajuraho Monuments were built in the 10th and 11th centuries in the Nagara Style by the _______ dynasty.",
+      "question_image": null,
+      "options": [
+        "Solanki",
+        "Holkar",
+        "Chandela",
+        "Satavahana"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Chandela) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 19,
+      "section": "General Awareness",
+      "question": "Which of the following acids is often added to canned food and beverages to keep them fresh for a longer period?",
+      "question_image": null,
+      "options": [
+        "Tannic acid",
+        "Hydroiodic acid",
+        "Citric acid",
+        "Ascorbic acid"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Citric acid) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 20,
+      "section": "General Awareness",
+      "question": "Which of the following has been merged into the Receipts Budget from 2016-17 onwards in India?",
+      "question_image": null,
+      "options": [
+        "Statement of Revenue Foregone",
+        "Statement of Capital Receipts",
+        "Statement of Assets",
+        "Statement of External Assistance"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Statement of Revenue Foregone) है।",
+      "explanation_image": null
+    }
+  ]
+}
