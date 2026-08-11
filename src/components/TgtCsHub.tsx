@@ -294,24 +294,24 @@ export const TgtCsHub: React.FC<TgtCsHubProps> = ({
                 const diffTag = getDifficultyTag(index);
                 return (
                   <div className="space-y-2">
-                    <div className="flex flex-wrap items-center gap-2">
-                      <span className="bg-indigo-600 text-white text-[10px] font-black px-2.5 py-0.5 rounded-md uppercase tracking-wider shadow-2xs">
+                    <div className="flex items-center gap-1.5 flex-nowrap overflow-x-auto scrollbar-none pb-0.5">
+                      <span className="bg-indigo-600 text-white text-[10px] font-black px-2.5 py-0.5 rounded-md uppercase tracking-wider shrink-0 shadow-2xs">
                         {mockLabel}
                       </span>
-                      <span className="bg-purple-100 text-purple-900 border border-purple-200 text-[10px] font-bold px-2 py-0.5 rounded-md">
+                      <span className="bg-purple-100 text-purple-900 border border-purple-200 text-[10px] font-bold px-2 py-0.5 rounded-md shrink-0 whitespace-nowrap">
                         📌 {topicBadge}
                       </span>
-                      <span className={`px-2 py-0.5 rounded-md text-[10px] font-black flex items-center gap-1 border ${diffTag.bg} ${diffTag.text} ${diffTag.border}`}>
+                      <span className={`px-2 py-0.5 rounded-md text-[10px] font-black flex items-center gap-1 border shrink-0 whitespace-nowrap ${diffTag.bg} ${diffTag.text} ${diffTag.border}`}>
                         <span>{diffTag.icon}</span> {diffTag.label}
                       </span>
                       {isAttempted && (
-                        <span className="bg-emerald-100 text-emerald-800 border border-emerald-300 text-[9px] font-black px-2 py-0.5 rounded-md uppercase">
+                        <span className="bg-emerald-100 text-emerald-800 border border-emerald-300 text-[9px] font-black px-2 py-0.5 rounded-md uppercase shrink-0 whitespace-nowrap">
                           ✅ Attempted ({quizAttempts.length}x)
                         </span>
                       )}
                     </div>
 
-                    <h3 className="font-bold text-sm text-slate-900 leading-snug">{quiz.title}</h3>
+                    <h3 className="font-black text-sm text-slate-900 leading-snug text-center py-2 border-y border-slate-100/80 my-1">{quiz.title}</h3>
                   </div>
                 );
               })()}

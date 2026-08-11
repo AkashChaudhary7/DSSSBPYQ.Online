@@ -2832,7 +2832,7 @@ export default function App() {
 
         {/* Common DSSSB Exam Hub sub-view - Full dedicated page */}
         {activeView === 'common-dsssb-view' && (
-          <div className="w-full max-w-[1600px] mx-auto px-2 sm:px-4 lg:px-6 py-6 md:py-8 space-y-6 md:space-y-8 animate-fadeIn">
+          <div className="w-full max-w-[1600px] mx-auto px-2 sm:px-4 lg:px-6 py-2 sm:py-3 space-y-3 sm:space-y-4 animate-fadeIn">
             <div className="flex items-center justify-between border-b border-slate-200 pb-4">
               <button 
                 onClick={() => setActiveView('dashboard')}
@@ -2977,23 +2977,23 @@ export default function App() {
                       return (
                         <div key={quiz.testId} className="bg-white border-2 border-slate-200/90 hover:border-amber-500 rounded-2xl p-4 md:p-5 flex flex-col justify-between gap-4 transition-all hover:shadow-md group relative">
                           <div className="space-y-2">
-                            <div className="flex flex-wrap items-center gap-2">
-                              <span className="bg-amber-600 text-white text-[10px] font-black px-2.5 py-0.5 rounded-md uppercase tracking-wider shadow-2xs">
+                            <div className="flex items-center gap-1.5 flex-nowrap overflow-x-auto scrollbar-none pb-0.5">
+                              <span className="bg-amber-600 text-white text-[10px] font-black px-2.5 py-0.5 rounded-md uppercase tracking-wider shrink-0 shadow-2xs">
                                 {mockLabel}
                               </span>
-                              <span className="bg-amber-100 text-amber-900 border border-amber-200 text-[10px] font-bold px-2 py-0.5 rounded-md">
+                              <span className="bg-amber-100 text-amber-900 border border-amber-200 text-[10px] font-bold px-2 py-0.5 rounded-md shrink-0 whitespace-nowrap">
                                 📌 {topicBadge}
                               </span>
-                              <span className={`px-2 py-0.5 rounded-md text-[10px] font-black flex items-center gap-1 border ${diffTag.bg} ${diffTag.text} ${diffTag.border}`}>
+                              <span className={`px-2 py-0.5 rounded-md text-[10px] font-black flex items-center gap-1 border shrink-0 whitespace-nowrap ${diffTag.bg} ${diffTag.text} ${diffTag.border}`}>
                                 <span>{diffTag.icon}</span> {diffTag.label}
                               </span>
                               {isAttempted && (
-                                <span className="bg-emerald-100 text-emerald-800 border border-emerald-300 text-[9px] font-black px-2.5 py-0.5 rounded-md uppercase tracking-wider flex items-center gap-1 shadow-2xs">
+                                <span className="bg-emerald-100 text-emerald-800 border border-emerald-300 text-[9px] font-black px-2.5 py-0.5 rounded-md uppercase tracking-wider flex items-center gap-1 shrink-0 whitespace-nowrap shadow-2xs">
                                   ✅ Attempted ({quizAttempts.length}x)
                                 </span>
                               )}
                             </div>
-                            <h4 className="font-bold text-sm text-slate-800 leading-snug">{quiz.title}</h4>
+                            <h4 className="font-bold text-sm text-slate-800 leading-snug text-center py-2 border-y border-slate-100 my-1">{quiz.title}</h4>
                           </div>
                           <div className="pt-3 border-t border-slate-100 flex items-center gap-2 w-full shrink-0">
                             <button
@@ -3152,23 +3152,23 @@ export default function App() {
                     return (
                       <div key={quiz.testId} className="bg-white border-2 border-slate-200/90 hover:border-indigo-500 rounded-2xl p-4 md:p-5 flex flex-col justify-between gap-4 transition-all hover:shadow-md group relative">
                         <div className="space-y-2">
-                          <div className="flex flex-wrap items-center gap-2">
-                            <span className="bg-indigo-600 text-white text-[10px] font-black px-2.5 py-0.5 rounded-md uppercase tracking-wider shadow-2xs">
+                          <div className="flex items-center gap-1.5 flex-nowrap overflow-x-auto scrollbar-none pb-0.5">
+                            <span className="bg-indigo-600 text-white text-[10px] font-black px-2.5 py-0.5 rounded-md uppercase tracking-wider shrink-0 shadow-2xs">
                               {mockLabel}
                             </span>
-                            <span className="bg-purple-100 text-purple-900 border border-purple-200 text-[10px] font-bold px-2 py-0.5 rounded-md">
+                            <span className="bg-purple-100 text-purple-900 border border-purple-200 text-[10px] font-bold px-2 py-0.5 rounded-md shrink-0 whitespace-nowrap">
                               📌 {topicBadge}
                             </span>
-                            <span className={`px-2 py-0.5 rounded-md text-[10px] font-black flex items-center gap-1 border ${diffTag.bg} ${diffTag.text} ${diffTag.border}`}>
+                            <span className={`px-2 py-0.5 rounded-md text-[10px] font-black flex items-center gap-1 border shrink-0 whitespace-nowrap ${diffTag.bg} ${diffTag.text} ${diffTag.border}`}>
                               <span>{diffTag.icon}</span> {diffTag.label}
                             </span>
                             {isAttempted && (
-                              <span className="bg-emerald-100 text-emerald-800 border border-emerald-300 text-[9px] font-black px-2.5 py-0.5 rounded-md uppercase tracking-wider flex items-center gap-1 shadow-2xs">
+                              <span className="bg-emerald-100 text-emerald-800 border border-emerald-300 text-[9px] font-black px-2.5 py-0.5 rounded-md uppercase tracking-wider flex items-center gap-1 shrink-0 whitespace-nowrap shadow-2xs">
                                 ✅ Attempted ({quizAttempts.length}x)
                               </span>
                             )}
                           </div>
-                          <h4 className="font-bold text-sm text-slate-800 leading-snug">{quiz.title}</h4>
+                          <h4 className="font-bold text-sm text-slate-800 leading-snug text-center py-2 border-y border-slate-100 my-1">{quiz.title}</h4>
                         </div>
                         <div className="flex items-center gap-2 w-full sm:w-auto">
                           <button

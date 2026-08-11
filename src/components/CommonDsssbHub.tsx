@@ -78,12 +78,12 @@ export const CommonDsssbHub: React.FC<CommonDsssbHubProps> = ({
   const partAAttemptedCount = partAQuizzes.filter(q => pastAttempts.some(a => a.testId === q.testId)).length;
 
   return (
-    <div className="bg-white border-2 border-amber-100 rounded-3xl p-5 md:p-8 shadow-sm space-y-6 relative overflow-hidden">
+    <div className="bg-white border-2 border-amber-100 rounded-3xl p-3.5 sm:p-5 md:p-6 shadow-sm space-y-4 md:space-y-5 relative overflow-hidden">
       {/* Decorative Gradient Top Accent */}
       <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600" />
 
       {/* Header Info */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-3">
         <div className="space-y-1.5">
           <div className="flex items-center gap-2.5 flex-wrap">
             <span className="bg-amber-100 text-amber-900 border border-amber-200 text-[10px] font-extrabold px-3 py-0.5 rounded-full uppercase tracking-wider flex items-center gap-1 shadow-2xs">
@@ -121,21 +121,6 @@ export const CommonDsssbHub: React.FC<CommonDsssbHubProps> = ({
             <span className="text-[8px] sm:text-[9px] font-extrabold text-amber-800 uppercase block">Unattempted</span>
             <span className="text-sm sm:text-base font-black text-amber-950">{Math.max(0, partAQuizzes.length - partAAttemptedCount)}</span>
           </div>
-        </div>
-      </div>
-
-      {/* Common Banner Note - hidden subtext on mobile */}
-      <div className="bg-amber-500/10 border-2 border-amber-300/80 rounded-2xl p-3 md:p-5 flex flex-col sm:flex-row items-start sm:items-center gap-3 md:gap-4 text-amber-950">
-        <div className="w-8 h-8 md:w-10 md:h-10 rounded-xl bg-amber-500 text-white flex items-center justify-center font-black shrink-0 shadow-xs text-base md:text-lg">
-          💡
-        </div>
-        <div className="space-y-1 text-xs">
-          <h3 className="font-extrabold text-amber-900 text-xs md:text-sm">
-            Part A is 100% Common in ALL DSSSB Exams
-          </h3>
-          <p className="text-amber-800/90 font-medium leading-relaxed hidden sm:block">
-            Whether you are preparing for <span className="font-bold">TGT CS 41/26, PGT, PRT, Nursery Teacher, LDC, Steno, or Special Educator</span>, the Part A pattern remains identical: 5 subjects × 20 questions = 100 Marks (+1, -0.25 marking scheme).
-          </p>
         </div>
       </div>
 
@@ -267,25 +252,25 @@ export const CommonDsssbHub: React.FC<CommonDsssbHubProps> = ({
                   key={quiz.testId} 
                   className="bg-white border-2 border-slate-200/90 hover:border-amber-500 rounded-2xl p-4 md:p-5 flex flex-col justify-between gap-4 transition-all hover:shadow-md group relative"
                 >
-                  <div className="space-y-2.5">
-                    <div className="flex flex-wrap items-center gap-1.5">
-                      <span className="bg-amber-600 text-white text-[10px] font-black px-2.5 py-0.5 rounded-md uppercase tracking-wider shadow-xs">
+                  <div className="space-y-2">
+                    <div className="flex items-center gap-1.5 flex-nowrap overflow-x-auto scrollbar-none pb-0.5">
+                      <span className="bg-amber-600 text-white text-[10px] font-black px-2.5 py-0.5 rounded-md uppercase tracking-wider shrink-0 shadow-2xs">
                         {mockLabel}
                       </span>
-                      <span className="bg-amber-100 text-amber-900 border border-amber-200 text-[10px] font-bold px-2 py-0.5 rounded-md">
+                      <span className="bg-amber-100 text-amber-900 border border-amber-200 text-[10px] font-bold px-2 py-0.5 rounded-md shrink-0 whitespace-nowrap">
                         📌 {topicBadge}
                       </span>
-                      <span className={`px-2 py-0.5 rounded-md text-[10px] font-black flex items-center gap-1 border ${diffTag.bg} ${diffTag.text} ${diffTag.border}`}>
+                      <span className={`px-2 py-0.5 rounded-md text-[10px] font-black flex items-center gap-1 border shrink-0 whitespace-nowrap ${diffTag.bg} ${diffTag.text} ${diffTag.border}`}>
                         <span>{diffTag.icon}</span> {diffTag.label}
                       </span>
                       {isAttempted && (
-                        <span className="bg-emerald-100 text-emerald-800 border border-emerald-300 text-[9px] font-black px-2 py-0.5 rounded-md uppercase">
+                        <span className="bg-emerald-100 text-emerald-800 border border-emerald-300 text-[9px] font-black px-2 py-0.5 rounded-md uppercase shrink-0 whitespace-nowrap">
                           ✅ Attempted ({quizAttempts.length}x)
                         </span>
                       )}
                     </div>
 
-                    <h3 className="font-black text-sm text-slate-900 leading-snug group-hover:text-amber-700 transition-colors">
+                    <h3 className="font-black text-sm text-slate-900 leading-snug group-hover:text-amber-700 transition-colors text-center py-2 border-y border-slate-100/80 my-1">
                       {quiz.title}
                     </h3>
                   </div>
@@ -349,25 +334,25 @@ export const CommonDsssbHub: React.FC<CommonDsssbHubProps> = ({
                   key={quiz.testId} 
                   className="bg-white border-2 border-slate-200/90 hover:border-amber-500 rounded-2xl p-4 md:p-5 flex flex-col justify-between gap-4 transition-all hover:shadow-md group relative"
                 >
-                  <div className="space-y-2.5">
-                    <div className="flex flex-wrap items-center gap-1.5">
-                      <span className="bg-amber-700 text-white text-[10px] font-black px-2.5 py-0.5 rounded-md uppercase tracking-wider shadow-xs">
+                  <div className="space-y-2">
+                    <div className="flex items-center gap-1.5 flex-nowrap overflow-x-auto scrollbar-none pb-0.5">
+                      <span className="bg-amber-700 text-white text-[10px] font-black px-2.5 py-0.5 rounded-md uppercase tracking-wider shrink-0 shadow-2xs">
                         {mockLabel}
                       </span>
-                      <span className="bg-amber-100 text-amber-900 border border-amber-200 text-[10px] font-bold px-2 py-0.5 rounded-md">
+                      <span className="bg-amber-100 text-amber-900 border border-amber-200 text-[10px] font-bold px-2 py-0.5 rounded-md shrink-0 whitespace-nowrap">
                         🏆 Part A 100 Marks Full Mock
                       </span>
-                      <span className={`px-2 py-0.5 rounded-md text-[10px] font-black flex items-center gap-1 border ${diffTag.bg} ${diffTag.text} ${diffTag.border}`}>
+                      <span className={`px-2 py-0.5 rounded-md text-[10px] font-black flex items-center gap-1 border shrink-0 whitespace-nowrap ${diffTag.bg} ${diffTag.text} ${diffTag.border}`}>
                         <span>{diffTag.icon}</span> {diffTag.label}
                       </span>
                       {isAttempted && (
-                        <span className="bg-emerald-100 text-emerald-800 border border-emerald-300 text-[9px] font-black px-2 py-0.5 rounded-md uppercase">
+                        <span className="bg-emerald-100 text-emerald-800 border border-emerald-300 text-[9px] font-black px-2 py-0.5 rounded-md uppercase shrink-0 whitespace-nowrap">
                           ✅ Attempted ({quizAttempts.length}x)
                         </span>
                       )}
                     </div>
 
-                    <h3 className="font-black text-sm text-slate-900 leading-snug group-hover:text-amber-700 transition-colors">
+                    <h3 className="font-black text-sm text-slate-900 leading-snug group-hover:text-amber-700 transition-colors text-center py-2 border-y border-slate-100/80 my-1">
                       {quiz.title}
                     </h3>
                   </div>

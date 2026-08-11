@@ -570,20 +570,6 @@ export default function QuizInterface({
               <h3 className="text-sm md:text-base font-black text-[#003366] tracking-tight">
                 Question No. {isSectionBasedMode ? activeSectionIndices.indexOf(currentIdx) + 1 : currentIdx + 1}
               </h3>
-              <button
-                type="button"
-                onClick={toggleBookmark}
-                className={`flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs font-bold transition-all border cursor-pointer ${
-                  isCurrentBookmarked
-                    ? 'bg-amber-50 text-amber-900 border-amber-300 shadow-xs'
-                    : 'bg-white text-slate-700 hover:text-amber-700 border-slate-300 hover:border-amber-300'
-                }`}
-                title={isCurrentBookmarked ? "Remove Bookmark" : "Bookmark this Question"}
-                aria-label={isCurrentBookmarked ? "Remove Bookmark" : "Bookmark this Question"}
-              >
-                <Star className={`w-3.5 h-3.5 ${isCurrentBookmarked ? 'fill-amber-400 text-amber-500' : 'text-slate-400'}`} />
-                <span>{isCurrentBookmarked ? 'Bookmarked' : 'Bookmark Question'}</span>
-              </button>
             </div>
 
             {/* Question Text Body */}
@@ -1027,11 +1013,6 @@ export default function QuizInterface({
                     );
                   })}
                 </div>
-              </div>
-
-              {/* Mini rules footer */}
-              <div className="p-3 bg-slate-100 text-[9px] text-slate-500 font-bold leading-tight">
-                Once section submitted, you cannot edit your responses.
               </div>
             </div>
           </div>

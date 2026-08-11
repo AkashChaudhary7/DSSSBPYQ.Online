@@ -410,37 +410,8 @@ export default function ResultScreen({
         </button>
       </div>
 
-      {/* Performance Insights layout directly (with Tab bar and redundant Question Reviews removed) */}
+      {/* Performance Insights layout directly */}
       <div className="space-y-6">
-        {/* Performance analysis & feedback cards */}
-        <div className="bg-white border border-slate-200/80 rounded-2xl p-6 shadow-sm space-y-4">
-          <h4 className="font-bold text-sm text-slate-800 uppercase tracking-wider flex items-center gap-2">
-            <Trophy className="w-4 h-4 text-amber-500" /> Pedagogical Assessment
-          </h4>
-          
-          <div className="flex items-start gap-3 bg-slate-50 rounded-xl p-4 border border-slate-100">
-            <div className="bg-blue-100 text-blue-600 p-2 rounded-lg shrink-0">
-              <AlertCircle className="w-5 h-5" />
-            </div>
-            <div className="space-y-1">
-              <div className="font-bold text-xs text-slate-800">
-                {score >= (totalQuestions * 0.7) 
-                  ? "Excellent Progress! Ready for DSSSB Exam" 
-                  : score >= (totalQuestions * 0.4) 
-                    ? "Average Marks. Targeted Study Needed" 
-                    : "Action Required: Focus on Core Concepts"}
-              </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                {score >= (totalQuestions * 0.7)
-                  ? "Fantastic! Your total score indicates high competency. Ensure you practice the Mistake Vault periodically to maintain your streak and eliminate marginal errors prior to real exam day."
-                  : score >= (totalQuestions * 0.4)
-                    ? "Good attempt. Your score suggests some strength, but also clear gaps. Use the topic-wise Practice Mode to drill down on Operating Systems, DBMS and networks to build confidence."
-                    : "We recommend reviewing your bookmarks and starting the subject tests in Practice Mode first. Immediate study of detailed solutions will trigger stronger cognitive associations."}
-              </p>
-            </div>
-          </div>
-        </div>
-
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
           <button
             onClick={onRestart}
