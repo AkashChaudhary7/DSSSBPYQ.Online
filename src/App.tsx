@@ -48,7 +48,7 @@ import {
   isAttemptUnlocked, 
   unlockAttemptForMock, 
   consumeAttemptUnlock, 
-  incrementMockAttemptCount 
+  recordMockAccess 
 } from './lib/attemptRules';
 import VignetteAdModal from './components/VignetteAdModal';
 import { presentPostQuizInterstitial } from './lib/interstitialRules';
@@ -1623,20 +1623,21 @@ export default function App() {
 
     const testId = fullQuiz.testId;
 
-    // Check V5 Attempt Rules:
-    // Attempt 1 (count 0) & Attempt 2 (count 1) -> FREE
-    // Attempt 3 (count 2) & Reattempt (count 3+) -> REWARDED AD REQUIRED
+    // V5 Distinct Mocks Monetization Rules:
+    // First 2 DISTINCT Mocks -> FREE
+    // 3rd DISTINCT Mock onward -> REWARDED AD REQUIRED
+    // Reattempts (already accessed before) -> REWARDED AD REQUIRED
     const isFree = isAttemptFree(testId);
     const isUnlocked = isAttemptUnlocked(testId);
 
     if (isFree || isUnlocked || bypassLock) {
       consumeAttemptUnlock(testId);
-      incrementMockAttemptCount(testId);
+      recordMockAccess(testId);
       proceedWithQuizLaunch(fullQuiz);
       return;
     }
 
-    // Requires Rewarded Ad for Attempt 3 or Reattempt
+    // Requires Rewarded Ad
     isAdProcessingRef.current = true;
 
     if (Capacitor.isNativePlatform()) {
@@ -1649,11 +1650,11 @@ export default function App() {
         if (success && rewardEarned) {
           unlockAttemptForMock(testId);
           consumeAttemptUnlock(testId);
-          incrementMockAttemptCount(testId);
+          recordMockAccess(testId);
           proceedWithQuizLaunch(fullQuiz);
         } else {
           setCacheToast({
-            message: "Ad watch must be completed to unlock Attempt 3 or Reattempt.",
+            message: "Ad watch must be completed to unlock test.",
             type: 'info'
           });
           setTimeout(() => setCacheToast(null), 4000);
@@ -1683,7 +1684,7 @@ export default function App() {
       const targetQuiz = adModalState.quizToStart;
       unlockAttemptForMock(targetQuiz.testId);
       consumeAttemptUnlock(targetQuiz.testId);
-      incrementMockAttemptCount(targetQuiz.testId);
+      recordMockAccess(targetQuiz.testId);
       setAdModalState({ isOpen: false, quizToStart: null });
       proceedWithQuizLaunch(targetQuiz);
     } else {
