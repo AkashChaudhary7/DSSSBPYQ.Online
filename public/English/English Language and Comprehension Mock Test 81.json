@@ -6,321 +6,281 @@
       "id": 1,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.The guests hadn’t already left the venue before the storm started, _______?",
-      "question_image": null,
       "options": [
         "were they",
         "didn’t they",
         "had they",
         "hadn’t they"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (had they) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (had they) है।"
     },
     {
       "id": 2,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate adjective to fill in the blank.Despite her _______ demeanour, the critic offered a scathing review of the novel.",
-      "question_image": null,
       "options": [
         "indifferent",
         "volatile",
         "abrasive",
         "cordial"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (cordial) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (cordial) है।"
     },
     {
       "id": 3,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. The adoption of green technologies is crucial for the well-being of our planet.B. Governments and industries have started investing in clean energy to reduce carbon emissions.C. As a result, we see a significant decrease in air pollution levels.D. With the increasing effects of climate change, immediate action is required.E. Renewable energy sources such as solar and wind are key contributors to this change.",
-      "question_image": null,
       "options": [
         "DABCE",
         "ECABD",
         "DEABC",
         "EABCD"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (DABCE) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (DABCE) है।"
     },
     {
       "id": 4,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate phrase that can substitute the underlined proverb in the given sentence.The government which introduced a new policy to protect local businesses proved that the road to hell was paved with good intentions.",
-      "question_image": null,
       "options": [
         "acts, not good intentions, were needed for achievement",
         "the ends justified the means",
         "actions spoke louder than words",
         "no good deed went unpunished"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (the ends justified the means) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (the ends justified the means) है।"
     },
     {
       "id": 5,
       "section": "English Language and Comprehension",
       "question": "Select the option that best replaces the underlined part of the sentence to convey the intended meaning.In our office, those who complain the most usually get what they want, because they’re always the first to be noticed.",
-      "question_image": null,
       "options": [
         "because they like to make the most noise",
         "since the loudest bird catches the worm",
         "as the squeaky wheel gets the grease",
         "because the apple does not fall far from the tree"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (as the squeaky wheel gets the grease) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (as the squeaky wheel gets the grease) है।"
     },
     {
       "id": 6,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.The software update was __________ deployed across all user platforms, leading to system instability.",
-      "question_image": null,
       "options": [
         "unanimously",
         "prematurely",
         "simultaneously",
         "intuitively"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (prematurely) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (prematurely) है।"
     },
     {
       "id": 7,
       "section": "English Language and Comprehension",
       "question": "Read the following conversation and identify the most appropriate ANTONYM of the underlined word. Leela: The atmosphere in the courtroom was solemn, as everyone awaited the verdict.Dev: You could feel the tension in the air.",
-      "question_image": null,
       "options": [
         "Balanced",
         "Lucid",
         "Lively",
         "Pensive"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Lively) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Lively) है।"
     },
     {
       "id": 8,
       "section": "English Language and Comprehension",
       "question": "Read the following conversation and identify the most appropriate ANTONYM of the underlined word. Nisha: Although the proposal was initially plausible, further analysis revealed significant inconsistencies.Arun: Yes, the logic unraveled once the data was re-evaluated.",
-      "question_image": null,
       "options": [
         "Probable",
         "Irrational",
         "Confident",
         "Brave"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Irrational) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Irrational) है।"
     },
     {
       "id": 9,
       "section": "English Language and Comprehension",
       "question": "Read the following conversation and identify the most appropriate synonym of the underlined word. Ananya: The city was in a state of turmoil after the sudden resignation of the mayor.Raghav: It triggered protests and confusion across districts.",
-      "question_image": null,
       "options": [
         "Commencement",
         "Composure",
         "Disturbance",
         "Honesty"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Disturbance) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Disturbance) है।"
     },
     {
       "id": 10,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.Reading refines the mind, much as exercise strengthens the body. It adds depth to one’s understanding, shaping character through disciplined engagement with thought. Some books are to be tasted, others to be swallowed and a few to be digested fully. This means that not all reading requires the same intensity; some texts serve for amusement, others for knowledge and a rare few for shaping wisdom. The study of books should be balanced by conversation and experience. Reading alone makes a person contemplative but applying that knowledge to life demands interaction and practice. Different studies nurture different faculties. History makes men wise, poetry makes them imaginative, mathematics sharpens the intellect and logic teaches precision in argument. Yet reading without critical thinking can lead to pedantry. Bacon insists that learning must serve practical ends—moulding judgment, enhancing discourse and improving moral conduct.However, one should also beware of using knowledge merely to show off. Some people use learned words only to impress, but true wisdom lies in applying knowledge humbly. Study serves best when it supports action. In all, Bacon suggests that reading, like any tool, must be directed wisely—neither avoided nor worshipped, but put to proper use.Which of the following is stated as a fact in the passage?",
-      "question_image": null,
       "options": [
         "Poetry makes men wise.",
         "Logic is more useful than conversation.",
         "Mathematics weakens the imagination",
         "History makes men wise."
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (History makes men wise.) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (History makes men wise.) है।"
     },
     {
       "id": 11,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.Reading refines the mind, much as exercise strengthens the body. It adds depth to one’s understanding, shaping character through disciplined engagement with thought. Some books are to be tasted, others to be swallowed and a few to be digested fully. This means that not all reading requires the same intensity; some texts serve for amusement, others for knowledge and a rare few for shaping wisdom. The study of books should be balanced by conversation and experience. Reading alone makes a person contemplative but applying that knowledge to life demands interaction and practice. Different studies nurture different faculties. History makes men wise, poetry makes them imaginative, mathematics sharpens the intellect and logic teaches precision in argument. Yet reading without critical thinking can lead to pedantry. Bacon insists that learning must serve practical ends—moulding judgment, enhancing discourse and improving moral conduct.However, one should also beware of using knowledge merely to show off. Some people use learned words only to impress, but true wisdom lies in applying knowledge humbly. Study serves best when it supports action. In all, Bacon suggests that reading, like any tool, must be directed wisely—neither avoided nor worshipped, but put to proper use.What can be inferred from the passage?",
-      "question_image": null,
       "options": [
         "Knowledge should be applied in life, not just admired.",
         "Reading is better than conversation.",
         "Studying too much leads to bad morals.",
         "All books should be memorised word for word."
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Knowledge should be applied in life, not just admired.) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Knowledge should be applied in life, not just admired.) है।"
     },
     {
       "id": 12,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.Reading refines the mind, much as exercise strengthens the body. It adds depth to one’s understanding, shaping character through disciplined engagement with thought. Some books are to be tasted, others to be swallowed and a few to be digested fully. This means that not all reading requires the same intensity; some texts serve for amusement, others for knowledge and a rare few for shaping wisdom. The study of books should be balanced by conversation and experience. Reading alone makes a person contemplative but applying that knowledge to life demands interaction and practice. Different studies nurture different faculties. History makes men wise, poetry makes them imaginative, mathematics sharpens the intellect and logic teaches precision in argument. Yet reading without critical thinking can lead to pedantry. Bacon insists that learning must serve practical ends—moulding judgment, enhancing discourse and improving moral conduct.However, one should also beware of using knowledge merely to show off. Some people use learned words only to impress, but true wisdom lies in applying knowledge humbly. Study serves best when it supports action. In all, Bacon suggests that reading, like any tool, must be directed wisely—neither avoided nor worshipped, but put to proper use.What is the central theme of the passage?",
-      "question_image": null,
       "options": [
         "Reading must be supported by experience.",
         "All knowledge comes from books.",
         "Books are only for entertainment.",
         "Reading leads to arrogance."
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Reading must be supported by experience.) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Reading must be supported by experience.) है।"
     },
     {
       "id": 13,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.Reading refines the mind, much as exercise strengthens the body. It adds depth to one’s understanding, shaping character through disciplined engagement with thought. Some books are to be tasted, others to be swallowed and a few to be digested fully. This means that not all reading requires the same intensity; some texts serve for amusement, others for knowledge and a rare few for shaping wisdom. The study of books should be balanced by conversation and experience. Reading alone makes a person contemplative but applying that knowledge to life demands interaction and practice. Different studies nurture different faculties. History makes men wise, poetry makes them imaginative, mathematics sharpens the intellect and logic teaches precision in argument. Yet reading without critical thinking can lead to pedantry. Bacon insists that learning must serve practical ends—moulding judgment, enhancing discourse and improving moral conduct.However, one should also beware of using knowledge merely to show off. Some people use learned words only to impress, but true wisdom lies in applying knowledge humbly. Study serves best when it supports action. In all, Bacon suggests that reading, like any tool, must be directed wisely—neither avoided nor worshipped, but put to proper use.What is the tone of the passage?",
-      "question_image": null,
       "options": [
         "Melancholic",
         "Sarcastic",
         "Critical",
         "Instructive"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Instructive) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Instructive) है।"
     },
     {
       "id": 14,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.Reading refines the mind, much as exercise strengthens the body. It adds depth to one’s understanding, shaping character through disciplined engagement with thought. Some books are to be tasted, others to be swallowed and a few to be digested fully. This means that not all reading requires the same intensity; some texts serve for amusement, others for knowledge and a rare few for shaping wisdom. The study of books should be balanced by conversation and experience. Reading alone makes a person contemplative but applying that knowledge to life demands interaction and practice. Different studies nurture different faculties. History makes men wise, poetry makes them imaginative, mathematics sharpens the intellect and logic teaches precision in argument. Yet reading without critical thinking can lead to pedantry. Bacon insists that learning must serve practical ends—moulding judgment, enhancing discourse and improving moral conduct.However, one should also beware of using knowledge merely to show off. Some people use learned words only to impress, but true wisdom lies in applying knowledge humbly. Study serves best when it supports action. In all, Bacon suggests that reading, like any tool, must be directed wisely—neither avoided nor worshipped, but put to proper use.What is the most suitable title for this passage?",
-      "question_image": null,
       "options": [
         "The Value of Reading and Study",
         "Knowledge versus Ignorance",
         "The Decay of Reading Habits",
         "A Critique of Modern Education"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (The Value of Reading and Study) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (The Value of Reading and Study) है।"
     },
     {
       "id": 15,
       "section": "English Language and Comprehension",
       "question": "Substitute the underlined segment with an appropriate idiom. After working late nights and getting up early for meetings, Sarah realized she had been overworking herself, exhausting both her physical and mental energy. 911",
-      "question_image": null,
       "options": [
         "a red herring",
         "burning the candle at both ends",
         "a storm in a teacup",
         "hitting the nail on the head"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (burning the candle at both ends) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (burning the candle at both ends) है।"
     },
     {
       "id": 16,
       "section": "English Language and Comprehension",
       "question": "Replace the underlined word segment with the correct idiom.They were trying to negotiate a deal, but adding more demands at the last minute created more problems than necessary.​​​​​",
-      "question_image": null,
       "options": [
         "took the bull by the horns",
         "made a mountain out of a molehill",
         "threw in the towel",
         "moved the goalposts"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (moved the goalposts) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (moved the goalposts) है।"
     },
     {
       "id": 17,
       "section": "English Language and Comprehension",
       "question": "Arrange the given sentences in order:A. Many species are on the verge of extinction.B. Biodiversity loss threatens ecosystem stability.C. Deforestation and pollution are major contributors.D. Without intervention, ecological collapse is possible.E. Governments must enforce conservation policies strictly.",
-      "question_image": null,
       "options": [
         "CBDAE",
         "BACDE",
         "BCADE",
         "CADBE"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (BACDE) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (BACDE) है।"
     },
     {
       "id": 18,
       "section": "English Language and Comprehension",
       "question": "Select the option that can be used as a substitute for the given phrase.One who is unimaginative or who unduly emphasizes minutiae in the presentation or use of knowledge",
-      "question_image": null,
       "options": [
         "Paradigmatic",
         "Pedant",
         "Pragmatist",
         "Revisionist"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Pedant) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Pedant) है।"
     },
     {
       "id": 19,
       "section": "English Language and Comprehension",
       "question": "Select the option that can be used as a substitute for the given phrase.A person who studies the origin and development of words",
-      "question_image": null,
       "options": [
         "Grammarian",
         "Lexicographer",
         "Philologist",
         "Etymologist"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Etymologist) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Etymologist) है।"
     },
     {
       "id": 20,
       "section": "English Language and Comprehension",
       "question": "Choose the correct option to fill in the blank. We are not going for the movie, ___, it already has bad reviews.",
-      "question_image": null,
       "options": [
         "finally",
         "namely",
         "besides",
         "lately"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (besides) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (besides) है।"
     }
   ]
 }

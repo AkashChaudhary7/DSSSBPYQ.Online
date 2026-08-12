@@ -1,5 +1,7 @@
 import React, { useEffect, useRef } from 'react';
+import { Capacitor } from '@capacitor/core';
 import { trackAdImpression } from '../lib/analytics';
+import { showBannerAd } from '../lib/admob';
 
 interface AdBannerProps {
   format?: 'leaderboard' | 'medium_rectangle' | 'inline_banner' | 'responsive' | 'native_card';
@@ -20,6 +22,12 @@ export default function AdBanner({
   const pushedRef = useRef<boolean>(false);
 
   useEffect(() => {
+    if (Capacitor.isNativePlatform()) {
+      showBannerAd().catch((err) => console.warn('[AdMob] Banner init error:', err));
+      trackAdImpression(format, location);
+      return;
+    }
+
     // Only initialize AdSense on desktop screens (width >= 768px)
     if (typeof window !== 'undefined' && window.innerWidth < 768) {
       return;

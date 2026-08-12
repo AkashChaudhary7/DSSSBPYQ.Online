@@ -6,321 +6,281 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘Q’ stands for ‘÷’, ‘P’ stands for ‘+’, ‘S’ stands for ‘×’ and ‘T’ stands for ‘−’, then what will come in place of the question mark (?) in the following equation?26 Q 13 T 42 P 17 S 15 = ?",
-      "question_image": null,
       "options": [
         "175",
         "235",
         "215",
         "205"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (215) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (215) है।"
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following series, only one letter-cluster is incorrect. Select the INCORRECT letter-cluster.\n\nPLI QMJ RNO SOL TPM UQN",
-      "question_image": null,
       "options": [
         "SOL",
         "RNO",
         "UQN",
         "TPM"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (RNO) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (RNO) है।"
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of P, Q, R, S, T, X and Y has an exam on a different day of the week, starting from Monday and ending on Sunday of the same week. Only one person has an exam before P. Only two people have an exam between T and P. Y has an exam immediately after S. X has an exam immediately after Q. Only one person has an exam between Q and R. Who has an exam on Thursday?3293",
-      "question_image": null,
       "options": [
         "Y",
         "R",
         "S",
         "X"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (X) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (X) है।"
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "80 is related to 5 following a certain logic. Following the same logic, 48 is related to 3. To which of the given options is 128 related, following the same logic? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.",
-      "question_image": null,
       "options": [
         "8",
         "7",
         "11",
         "15"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (8) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (8) है।"
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the following words.(Left) IFS          KOP           MIX            OFT (Right) In each of the words, each vowel is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. In how many letter-clusters thus formed, will no vowel appear? 2603",
-      "question_image": null,
       "options": [
         "Two",
         "One",
         "Three",
         "Zero"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (One) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (One) है।"
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following number-pairs, the second number is obtained by applying certain mathematical operation(s) to the first number. Which numbers should replace X and Y, so that the pattern followed by the two numbers on the left side of :: is the same as that on the right side of ::?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)X : 63 :: 6 : Y570",
-      "question_image": null,
       "options": [
         "X = 4, Y = 215",
         "X = 5, Y = 217",
         "X = 4, Y = 217",
         "X = 5, Y = 216"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (X = 4, Y = 215) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (X = 4, Y = 215) है।"
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "A, B, C, D, E, F, G and H are sitting around a square table, facing the centre of the table (but not necessarily in the same order). Some of them are sitting at the corners, while some are sitting at the exact centre of the sides. B sits second to the right of H. H does not sit at any of the corners. Only three people sit between B and D. G does not sit at any of the corners. F is neither an immediate neighbour of H nor D. Only three people sit between F and C. A is not an immediate neighbour of B. How many people sit between E and F when counted from the right of E?3199",
-      "question_image": null,
       "options": [
         "Two",
         "Three",
         "Four",
         "One"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (One) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (One) है।"
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "P, Q, R, S, E and F live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it is numbered 2 and so on, till the topmost floor, which is numbered 6. P lives on the topmost floor. Only three people live between P and E. R lives on a floor below E. F lives on an even-numbered floor. Q lives on an odd-numbered floor but not on floor number 5.How many people live between S and E?3149",
-      "question_image": null,
       "options": [
         "Three",
         "One",
         "Four",
         "Two"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Two) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Two) है।"
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code,'look after are small' is coded as 'op ed sd ws','we are not the' is coded as 'qw sd cf gb','not the one to' is coded as 'cf gb hu ik', and'not to thing after' is coded as 'cf ik xc ed'.(All the codes are two-letter coded only.)What is the possible code for ‘small’?",
-      "question_image": null,
       "options": [
         "Either 'ws' or 'op'",
         "Either 'ws' or 'sd'",
         "Either 'ed' or 'ws'",
         "Either 'sd' or 'ed'"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Either 'ws' or 'op') है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Either 'ws' or 'op') है।"
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the following words.(Left) PEW      REV      LUV      IMP (Right) In each of the words, each vowel is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. In how many letter-clusters thus formed, will no vowel appear?",
-      "question_image": null,
       "options": [
         "Three",
         "Zero",
         "One",
         "Two"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Zero) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Zero) है।"
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements: All coats are suits. All suits are jackets. Some jackets are loafers.Conclusion (I): Some suits are loafers.Conclusion (II): Some coats are loafers.3175",
-      "question_image": null,
       "options": [
         "Only conclusion I follows.",
         "Both conclusions I and II follow.",
         "Only conclusion II follows.",
         "Neither conclusion I nor II follows."
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Neither conclusion I nor II follows.) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Neither conclusion I nor II follows.) है।"
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "Navin starts from point A and drives 4 km towards the north. He then takes a left turn, drives 2 km and stops at point B. Manoj starts from point X, which is 8 km east of point B, and drives 4 km towards the south. He then takes a left turn and drives 2 km to reach point Y. What is the shortest distance between point A and point Y? (All turns are 90-degree turns only.)3203",
-      "question_image": null,
       "options": [
         "6 km",
         "8 km",
         "4 km",
         "2 km"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (8 km) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (8 km) है।"
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the following series?26 , 64 , 39 , 55 , 52 , 46 , 65 , 37 ?542",
-      "question_image": null,
       "options": [
         "91",
         "86",
         "78",
         "82"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (78) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (78) है।"
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following series, only one letter-cluster is incorrect. Select the INCORRECT letter-cluster.EKQ  JPV  OUA  TZF  YEK  DIP",
-      "question_image": null,
       "options": [
         "OUA",
         "DIP",
         "TZF",
         "YEK"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (DIP) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (DIP) है।"
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "Given below is a statement followed by two possible reasons numbered I and II. Read the statement carefully and decide which of the two reasons explain(s) the event/observation/information given in the statement.Statement: Although Manoj had prepared very thoroughly for the exams, he was unable to score good marks.Reasons:I) Manoj has reached an hour late for the exam.II) Manoj is very interested in playing cricket. 668",
-      "question_image": null,
       "options": [
         "Neither I nor II is a possible reason.",
         "Both I and II are possible reasons.",
         "Only I is a possible reason.",
         "Only II is a possible reason."
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Only I is a possible reason.) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Only I is a possible reason.) है।"
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number result(s) in the second number. Similarly, certain mathematical operation(s) on the second number result(s) in the third number and so on. Which of the given options follows the same set of operations as in the given sets?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.12 – 52 – 72 – 8215 – 55 – 75 – 85 627",
-      "question_image": null,
       "options": [
         "9 – 49 -  59 – 69",
         "10 – 40 – 60 – 70",
         "10 – 50 – 70 – 80",
         "9 – 49 – 69 – 89"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (10 – 50 – 70 – 80) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (10 – 50 – 70 – 80) है।"
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "What will come in place of the question mark (?) in the following equation if ‘+’ and ‘−’ are interchanged and ‘×’ and ‘÷’ are interchanged?3015 × 15 − 151 + 26 ÷ 5 = ?606",
-      "question_image": null,
       "options": [
         "101",
         "222",
         "202",
         "333"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (222) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (222) है।"
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,‘A + B’ means ‘A is the father of B’,‘A – B’ means ‘A is the mother of B’,‘A $ B’ means ‘A is the wife of B’,‘A % B’ means ‘A is the sister of B’, and‘A # B’ means ‘A is the husband of B’.Which of the following means that P is the father of Z's father? 3070",
-      "question_image": null,
       "options": [
         "P # R – S + Z",
         "P + Q % D $ Z",
         "P % S – V # Z",
         "P $ D + Q % Z"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (P # R – S + Z) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (P # R – S + Z) है।"
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the given letter-clusters should replace # and % so that the pattern and relationship followed between the letter-cluster pair on the left side of :: is the same as that on the right side of ::?# : MCX :: WSX : %3273",
-      "question_image": null,
       "options": [
         "# = QAZ, % = SUV",
         "# = QCL, % = SUZ",
         "# = TCW, % = XVH",
         "# = TAW, % = XUB"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (# = QAZ, % = SUV) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (# = QAZ, % = SUV) है।"
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following series, only one letter-cluster is incorrect. Select the INCORRECT letter-cluster.\n\nXFN, CKS, HPX, MUP, RZH, WEM2927",
-      "question_image": null,
       "options": [
         "CKS",
         "MUP",
         "HPX",
         "WEM"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (MUP) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (MUP) है।"
     }
   ]
 }

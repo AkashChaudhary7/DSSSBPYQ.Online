@@ -6,321 +6,281 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements:No trouser is a jean.No jean is a frog.No jean is an hen.Conclusions:(I): No trouser is a frog.(II): Some hens are frogs.",
-      "question_image": null,
       "options": [
         "Neither conclusion (I) nor (II) follows.",
         "Both conclusions (I) and (II) follow.",
         "Only conclusion (I) follows.",
         "Only conclusion (II) follows."
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Neither conclusion (I) nor (II) follows.) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Neither conclusion (I) nor (II) follows.) है।"
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,‘A ! B’ means ‘A is the father of B’,‘A # B’ means ‘A is the brother of B’,  ‘A + B’ means ‘A is the sister of B’ and‘A % B’ means ‘A is the wife of B’.How is W related to E if ‘W % A ! S # T + E’?",
-      "question_image": null,
       "options": [
         "Mother",
         "Mother's father",
         "Mother's mother",
         "Mother's sister"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Mother) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Mother) है।"
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "AFHK is related to HMOR in a certain way based on the English alphabetical order. In the same way, GLPO is related to NSWV. To which of the given options is HMQD related, following the same logic?734",
-      "question_image": null,
       "options": [
         "OTXK",
         "OLPE",
         "NTWL",
         "ONRE"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (OTXK) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (OTXK) है।"
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order?CHR  MRB  WBL  GLV  ?1355",
-      "question_image": null,
       "options": [
         "VQF",
         "VFQ",
         "QVF",
         "QFV"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (QVF) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (QVF) है।"
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "63 is related to 122 following a certain logic. Following the same logic, 53 is related to 112. To which of the given options is 41 related, following the same logic?\n\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
-      "question_image": null,
       "options": [
         "88",
         "100",
         "123",
         "78"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (100) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (100) है।"
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes A, B, C, D, K, L and M are kept one over the other but not necessarily in the same order.Only four boxes are kept between A and D.  Only C is kept above A.  Only two boxes are kept between L and K. B is kept immediately above M. K is not kept immediately above B.Which box is kept fourth from the top?",
-      "question_image": null,
       "options": [
         "M",
         "B",
         "D",
         "L"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (B) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (B) है।"
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "Goat ranked 56th from the top and 71st from the bottom in his class. How many students are there in his class?",
-      "question_image": null,
       "options": [
         "121",
         "101",
         "94",
         "126"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (126) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (126) है।"
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,'A # B' means ‘A is the daughter of B’,'A % B' means ‘A is the brother of B’,'A ÷ B' means ‘A is the wife of B’ and'A & B' means ‘A is the father of B’.Based on the above, how is A related to M if ‘A & D ÷ G % K # M’?",
-      "question_image": null,
       "options": [
         "Son's wife's brother",
         "Son's wife's father",
         "Wife's father",
         "Wife's brother"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Son's wife's father) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Son's wife's father) है।"
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?27, 31, 39, 51, 67, ?",
-      "question_image": null,
       "options": [
         "81",
         "87",
         "85",
         "83"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (87) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (87) है।"
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "A, B, C, D, E, F and G are sitting around a circular table facing the centre. C sits to the immediate left of D. A sits to the immediate left of F. F sits second to the left of B. E sits third to the left of D. How many people sit between F and D when counted from the left of F?",
-      "question_image": null,
       "options": [
         "3",
         "2",
         "4",
         "1"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (1) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (1) है।"
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements: All pots are juicers.Some juicers are cameras.No camera is a bat.Conclusions:(I) No pot is a bat.(II) Some cameras are pots.",
-      "question_image": null,
       "options": [
         "Only conclusion (I) follows.",
         "Neither conclusion (I) nor (II) follows.",
         "Only conclusion (II) follows.",
         "Both conclusions (I) and (II) follow."
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Neither conclusion (I) nor (II) follows.) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Neither conclusion (I) nor (II) follows.) है।"
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below. (Left)   696          324           786            687            432         (Right)(Example: 697 – First digit = 6, second digit = 9 and third digit = 7)(NOTE: All operations to be done from left to right.)What will be the resultant if the third digit of the lowest number is added to the second digit of the highest number?",
-      "question_image": null,
       "options": [
         "11",
         "13",
         "12",
         "14"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (12) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (12) है।"
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘A’ stands for ‘÷’ , ‘B’ stands for ‘×’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘−‘ , what will come in place of the question mark (?) in the given equation?38 B 19 D 132 A 11 C 642 = ?2977",
-      "question_image": null,
       "options": [
         "1352",
         "1325",
         "1364",
         "1339"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (1352) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (1352) है।"
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "Gaurav starts from Point A and drives 8 km towards east. He then takes a right turn, drives 5 km, turns right and drives 11 km. He then takes a right turn and drives 13 km. He takes a final right turn, drives 3 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again?(All turns are 90-degree turns only unless specified.)",
-      "question_image": null,
       "options": [
         "8 km to the north",
         "8 km to the south",
         "7 km to the south",
         "7 km to the north"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (8 km to the south) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (8 km to the south) है।"
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below. (Left)   541          698           514            689            598         (Right) (Example- 697 – First digit = 6, second digit = 9 and third digit = 7)(NOTE: All operations to be done from left to right.) What will be the resultant if the second digit of the highest number is added to the first digit of the lowest number?",
-      "question_image": null,
       "options": [
         "16",
         "14",
         "12",
         "9"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (14) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (14) है।"
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "If + means –, – means ×, × means ÷, and ÷ means +, then what will come in place of the question mark (?) in the following equation?10 – 180 × 12 + 167 ÷ 30 =?",
-      "question_image": null,
       "options": [
         "15",
         "13",
         "17",
         "16"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (13) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (13) है।"
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "​​​Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which letter-cluster pair DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
-      "question_image": null,
       "options": [
         "KM-OW",
         "IK-MU",
         "TV-XF",
         "EG-IO"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (EG-IO) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (EG-IO) है।"
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "SMUP is related to RLTO in a certain way based on the English alphabetical order. In the same way, PJRM is related to OIQL. To which of the given options is LFNI related, following the same logic?",
-      "question_image": null,
       "options": [
         "EKMH",
         "EKHM",
         "KEHM",
         "KEMH"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (KEMH) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (KEMH) है।"
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the set in which the numbers are related in the same way as are the numbers of the following sets.(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)(23,  345,  15)(28,  448,  16)5872",
-      "question_image": null,
       "options": [
         "(14,  129,  9)",
         "(20,  20,  1)",
         "(12,  255,  21)",
         "(28,  703,  25)"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' ((20,  20,  1)) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' ((20,  20,  1)) है।"
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series, based on the English alphabetical order?PRK    NPI    LNG    JLE    ?",
-      "question_image": null,
       "options": [
         "HIC",
         "HID",
         "HJC",
         "HJD"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (HJC) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (HJC) है।"
     }
   ]
 }

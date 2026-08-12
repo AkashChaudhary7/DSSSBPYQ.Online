@@ -13,6 +13,7 @@
         "D) Remote Machine Invocation"
       ],
       "answer": 2,
+      "correct_answer": "C",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -26,6 +27,7 @@
         "D) none of the mentioned"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -39,6 +41,7 @@
         "D) process queue"
       ],
       "answer": 1,
+      "correct_answer": "B",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -52,6 +55,7 @@
         "D) throughput"
       ],
       "answer": 1,
+      "correct_answer": "B",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -65,6 +69,7 @@
         "D) none of the mentioned"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -78,6 +83,7 @@
         "D) None of the mentioned"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -91,6 +97,7 @@
         "D) init process"
       ],
       "answer": 1,
+      "correct_answer": "B",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -104,6 +111,7 @@
         "D) multilevel queue scheduling algorithm"
       ],
       "answer": 1,
+      "correct_answer": "B",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -117,6 +125,7 @@
         "D) multilevel queue scheduling algorithm"
       ],
       "answer": 3,
+      "correct_answer": "D",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -130,6 +139,7 @@
         "D) none of the mentioned"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -143,6 +153,7 @@
         "D) none of the mentioned"
       ],
       "answer": 1,
+      "correct_answer": "B",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -156,6 +167,7 @@
         "D) None of the mentioned"
       ],
       "answer": 2,
+      "correct_answer": "C",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -169,6 +181,7 @@
         "D) none of the mentioned"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -182,6 +195,7 @@
         "D) the buffer size is bounded"
       ],
       "answer": 1,
+      "correct_answer": "B",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -195,6 +209,7 @@
         "D) none of the mentioned"
       ],
       "answer": 1,
+      "correct_answer": "B",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -208,6 +223,7 @@
         "D) 6 philosophers and 5 chopsticks"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -221,6 +237,7 @@
         "D) none of the mentioned"
       ],
       "answer": 1,
+      "correct_answer": "B",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -234,6 +251,7 @@
         "D) none of the mentioned"
       ],
       "answer": 2,
+      "correct_answer": "C",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -247,6 +265,7 @@
         "D) all of the mentioned"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -260,6 +279,7 @@
         "D) monitor, monitor"
       ],
       "answer": 3,
+      "correct_answer": "D",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -273,6 +293,7 @@
         "D) all of the mentioned"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -286,6 +307,7 @@
         "D) continue & signal"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -299,6 +321,7 @@
         "D) none of the mentioned"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -312,6 +335,7 @@
         "D) the output is unpredictable"
       ],
       "answer": 2,
+      "correct_answer": "C",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -325,6 +349,7 @@
         "D) all of the mentioned"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -338,6 +363,7 @@
         "D) none of the mentioned"
       ],
       "answer": 2,
+      "correct_answer": "C",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -351,6 +377,7 @@
         "D) revert – back"
       ],
       "answer": 2,
+      "correct_answer": "C",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -364,6 +391,7 @@
         "D) all of the mentioned"
       ],
       "answer": 3,
+      "correct_answer": "D",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -377,6 +405,7 @@
         "D) a log record"
       ],
       "answer": 3,
+      "correct_answer": "D",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -390,6 +419,7 @@
         "D) all of the mentioned"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -403,6 +433,7 @@
         "D) all of the mentioned"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -416,6 +447,7 @@
         "D) all of the mentioned"
       ],
       "answer": 3,
+      "correct_answer": "D",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -429,6 +461,7 @@
         "D) All of the mentioned"
       ],
       "answer": 2,
+      "correct_answer": "C",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -442,6 +475,7 @@
         "D) none of the mentioned"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -455,6 +489,7 @@
         "D) none of the mentioned"
       ],
       "answer": 2,
+      "correct_answer": "C",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -468,6 +503,7 @@
         "D) destruction & creation phase"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -481,6 +517,7 @@
         "D) A transaction may release locks, and does obtain new locks"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -494,6 +531,7 @@
         "D) A transaction may release locks, and does obtain new locks"
       ],
       "answer": 2,
+      "correct_answer": "C",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -507,6 +545,7 @@
         "D) Neither I nor II"
       ],
       "answer": 1,
+      "correct_answer": "B",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -520,6 +559,7 @@
         "D) none of the mentioned"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -533,6 +573,7 @@
         "D) all of the mentioned"
       ],
       "answer": 3,
+      "correct_answer": "D",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -546,6 +587,7 @@
         "D) none of the mentioned"
       ],
       "answer": 2,
+      "correct_answer": "C",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -559,6 +601,7 @@
         "D) all of the mentioned"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -572,6 +615,7 @@
         "D) karn’s algorithm"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -585,6 +629,7 @@
         "D) all of the mentioned"
       ],
       "answer": 3,
+      "correct_answer": "D",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -598,6 +643,7 @@
         "D) none of the mentioned"
       ],
       "answer": 2,
+      "correct_answer": "C",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -611,6 +657,7 @@
         "D) aging"
       ],
       "answer": 1,
+      "correct_answer": "B",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -624,6 +671,7 @@
         "D) none of the mentioned"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -637,6 +685,7 @@
         "D) inversion technique can be used"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -650,6 +699,7 @@
         "D) constant"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     }
   ]

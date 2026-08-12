@@ -6,321 +6,281 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "What will come in the place of the question mark (?) in the following equation, if ‘+’ and ‘−’ are interchanged and ‘×’ and ‘÷’ are interchanged?34 − 20 ÷ 8 × 2 + 16 = ?",
-      "question_image": null,
       "options": [
         "95",
         "96",
         "98",
         "93"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (98) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (98) है।"
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "D is the sister of E. F is the mother of G. H is the daughter of G. E is the mother of H. How is D related to F?625",
-      "question_image": null,
       "options": [
         "Sister",
         "Mother",
         "Son's wife's sister",
         "Son's wife's mother"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Son's wife's sister) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Son's wife's sister) है।"
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the following words.(Left) REAL, FAIR, LIKE, PITY (Right)In each of the words, each vowel is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. In how many letter-clusters thus formed, will no vowel appear?378",
-      "question_image": null,
       "options": [
         "Three",
         "Four",
         "One",
         "Two"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Two) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Two) है।"
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the given letter-number clusters will replace the question mark (?) in the following series to make it logically complete?DWP 6, HAT 15, LEX 24, PIB 33, TMF 42, ?1556",
-      "question_image": null,
       "options": [
         "XQJ 51",
         "XQI 51",
         "YQJ 51",
         "XAJ 51"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (XQJ 51) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (XQJ 51) है।"
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the triad which follows the same pattern as that followed by the triads given below. EACH - HEAC - CHEAHACK - KHAC - CKHA726",
-      "question_image": null,
       "options": [
         "SACK - ASKC - SKAC",
         "LACE - ELAC - CELA",
         "PACK - PKAC - PCKA",
         "OAKS - AKSO - KSOA"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (LACE - ELAC - CELA) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (LACE - ELAC - CELA) है।"
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "206 is related to 135 following a certain logic. Following the same logic, 178 is related to 107. To which of the given options is 194 related, following the same logic?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
-      "question_image": null,
       "options": [
         "127",
         "117",
         "123",
         "133"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (123) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (123) है।"
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete?QIM 1      PLK 3      ?      NRG 27      MUE 81",
-      "question_image": null,
       "options": [
         "OOI 9",
         "MOI 6",
         "OIN 7",
         "NOM 5"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (OOI 9) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (OOI 9) है।"
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "In this question, a statement is given, followed by two assumptions numbered I and II. You have to assume everything in the statement to be true and decide which of the assumptions is implicit in the statement.Statement: Roads of City B are congested due to high vehicle movement.Assumptions:I. Metro rail of City B also gets delayed due to congestion.II. Influx of people to City B is higher than that to other cities of the country.",
-      "question_image": null,
       "options": [
         "Neither assumption I nor II is implicit.",
         "Only assumption II is implicit.",
         "Only assumption I is implicit.",
         "Both assumptions I and II are implicit."
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Neither assumption I nor II is implicit.) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Neither assumption I nor II is implicit.) है।"
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the following four words.(Left) RAT  ANT  FAN  TON (Right)In each of the given words, each vowel is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. In how many letter-clusters thus formed will no vowel appear?401",
-      "question_image": null,
       "options": [
         "Three",
         "One",
         "Four",
         "Two"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Three) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Three) है।"
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements:All stones are rocks.All rocks are pebbles.Some stones are hills.Conclusions:(I) All rocks are hills.(II) All pebbles are hills.101",
-      "question_image": null,
       "options": [
         "Only conclusion (II) follows.",
         "Only conclusion (I) follows.",
         "Both conclusions (I) and (II) follow.",
         "Neither conclusion (I) nor (II) follows."
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Neither conclusion (I) nor (II) follows.) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Neither conclusion (I) nor (II) follows.) है।"
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?231     224     214     207     197     190     ?",
-      "question_image": null,
       "options": [
         "180",
         "173",
         "183",
         "170"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (180) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (180) है।"
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes, P, Q, R, S, T, Y and Z, are kept one over the other but not necessarily in the same order. T is kept second from the top. Only three boxes are kept between P and T. Y is kept at one of the positions below P. Only Q is kept between T and R. S is kept at one of the positions above T. How many boxes are kept between R and Y?826",
-      "question_image": null,
       "options": [
         "Four",
         "Two",
         "Three",
         "One"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Two) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Two) है।"
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "Mr. E starts from Point A and drives 12 km towards the North. He then takes a right turn, drives 6 km, turns right and drives 9 km. He then takes a left turn, drives 12 km, turns right and drives 6 km. He then takes a right turn and drives 21 km. He takes a final right turn, drives 3 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again? (All turns are 90 degrees turns only unless specified)",
-      "question_image": null,
       "options": [
         "6 km to the south",
         "4 km to the north",
         "5 km to the west",
         "3 km to the east"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (3 km to the east) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (3 km to the east) है।"
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "Below are given two sets of numbers. In each set of numbers, a certain mathematical operation on the first number results in the second number. Similarly, certain mathematical operation on the second number results in the third number and so on. Which of the given options follows the same set of operations as in question?(NOTE – A two/three-digit number cannot be broken into individual digits for operations e.g. if 37 is followed by 10, the operation cannot be 3+7 as a two-digit number cannot be broken into individual digits)3 – 27 – 37 – 32 ; 8 – 72 – 82 – 77",
-      "question_image": null,
       "options": [
         "12 – 108 – 118 – 113",
         "11 – 121 – 132 – 162",
         "4 – 36 – 52 – 62",
         "6 – 54 – 84 – 42"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (12 – 108 – 118 – 113) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (12 – 108 – 118 – 113) है।"
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "Reena ranked 7th from the top and 28th from the bottom in her class. How many students are there in the class?8",
-      "question_image": null,
       "options": [
         "36",
         "34",
         "33",
         "35"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (34) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (34) है।"
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion(s) logically follow(s) from the statements.\n\nStatements:\nSome mirrors are eggs.\nNo tickets are eggs.\nAll tickets are figs.\n\nConclusions:\n(I) Some mirrors are not tickets.\n(II) Some figs are not eggs.10923.",
-      "question_image": null,
       "options": [
         "Both conclusions (I) and (II) follow.",
         "Neither conclusion (I) nor (II) follows.",
         "Only conclusion (I) follows.",
         "Only conclusion (II) follows."
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Both conclusions (I) and (II) follow.) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Both conclusions (I) and (II) follow.) है।"
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? ZDT  DHX  HLB  LPF  ?",
-      "question_image": null,
       "options": [
         "PTJ",
         "PJT",
         "PPL",
         "PJU"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (PTJ) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (PTJ) है।"
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "Given below is a statement followed by two possible reasons numbered I and II. Read the statement carefully and decide which of the two reasons explains the event/observation/information given in the statement. Statement:Despite a substantial rise in the public health campaign budget, smoking-related illnesses in Country U remain unchanged.Reasons:I: Although the campaigns mainly targeted adults, there has been a rise in young smokers.II: There has been a rise in a black market for cigarettes, offering them at very low prices, within the country.",
-      "question_image": null,
       "options": [
         "Neither I nor II is a possible reason.",
         "Only I is a possible reason.",
         "Only II is a possible reason.",
         "Both I and II are possible reasons."
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Both I and II are possible reasons.) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Both I and II are possible reasons.) है।"
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left)        657        127        937        492        376        (Right)(Example: 697 – First digit = 6, second digit = 9 and third digit = 7)(Note: All operations to be done from left to right.)What will be the resultant if the third digit of the second highest number is multiplied with the first digit of the lowest number?",
-      "question_image": null,
       "options": [
         "7",
         "8",
         "5",
         "6"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (7) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (7) है।"
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "​​​Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which is the letter-cluster pair that DOES NOT belong to that group?(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
-      "question_image": null,
       "options": [
         "KO-MQ",
         "PT-RV",
         "DH-FI",
         "JN-LP"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (DH-FI) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (DH-FI) है।"
     }
   ]
 }

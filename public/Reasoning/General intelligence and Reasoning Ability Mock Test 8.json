@@ -6,321 +6,281 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes A, B, C, D, E, F and G are kept one over the other, but not necessarily in the same order. Only B is kept above C. Only G is kept between C and E. Only F is kept below D. How many boxes are kept above E?",
-      "question_image": null,
       "options": [
         "4",
         "3",
         "1",
         "2"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (3) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (3) है।"
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "If 'A' stands for '+', 'B' stands for '−', 'C' stands for '÷' and 'D' stands for '×', what will come in place of the question mark (?) in the following equation? 1 D 2 A 28 B 56 C 28 = ?",
-      "question_image": null,
       "options": [
         "53",
         "48",
         "28",
         "−7"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (28) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (28) है।"
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? NRM, OSN, PTO, QUP, ?",
-      "question_image": null,
       "options": [
         "VQR",
         "VRQ",
         "RVQ",
         "RQV"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (RVQ) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (RVQ) है।"
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the given letter-clusters.PIB          ACE           PUR            SEN     In each of the letter-clusters, each vowel is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. In how many letter-clusters thus formed will no vowel appear?",
-      "question_image": null,
       "options": [
         "Two",
         "One",
         "Four",
         "Three"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Two) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Two) है।"
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven people A, B, E, F, P, Q, and S are sitting around a circular table facing the centre. F sits to the immediate right of P. Only three people sit between F and A when counted from the left of F. Only three people sit between P and S. E sits to the immediate right of B. How many people sit between Q and B when counted from the left of B?",
-      "question_image": null,
       "options": [
         "Three",
         "Two",
         "One",
         "Four"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Two) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Two) है।"
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?31, 33, 37, 43, 51, ?",
-      "question_image": null,
       "options": [
         "64",
         "61",
         "58",
         "60"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (61) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (61) है।"
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? MSP, NTQ, OUR, PVS, ?",
-      "question_image": null,
       "options": [
         "QTW",
         "QWT",
         "TQW",
         "TWQ"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (QWT) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (QWT) है।"
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left)         157          526          567            652            564         (Right) (Example: 697 – First digit = 6, second digit = 9 and third digit = 7)(NOTE: All operations to be done from left to right.)What will be the resultant if the third digit of the lowest number is added to the second digit of the highest number?",
-      "question_image": null,
       "options": [
         "14",
         "12",
         "11",
         "13"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (12) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (12) है।"
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements:Some mountains are stars.No star is a plant. Some plants are beaches.Conclusions:(I) Some beaches are plants.(II) Some beaches are mountains.",
-      "question_image": null,
       "options": [
         "Only conclusion II follows",
         "Neither conclusion I nor II follows",
         "Only conclusion I follows",
         "Both conclusions I and II follow"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Only conclusion I follows) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Only conclusion I follows) है।"
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the pair that follows the same pattern as the one followed by the two pairs given below. Both pairs follow the same pattern.KTR : IYOJGS : HLP",
-      "question_image": null,
       "options": [
         "WPN : TVL",
         "KPT : HMQ",
         "LSU : IOR",
         "RUI : PZF"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (RUI : PZF) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (RUI : PZF) है।"
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group?\n(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
-      "question_image": null,
       "options": [
         "SYE",
         "DJP",
         "ZFI",
         "XDJ"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (ZFI) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (ZFI) है।"
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of E, F, G, H, K, L and M has an exam on a different day of the week, starting from Monday and ending on Sunday of the same week. M has an exam on Tuesday. Only one person has an exam between M and L. Only four people have an exam between G and M. H has an exam on one of the days after M. E has an exam on the day immediately before F. How many people have an exam between F and H?",
-      "question_image": null,
       "options": [
         "Three",
         "One",
         "Two",
         "Four"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Two) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Two) है।"
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "Town D is to the north of Town A. Town C is to the south of Town A. Town B is to the east of Town A. What is the position of Town B with respect to Town D?",
-      "question_image": null,
       "options": [
         "North",
         "North-West",
         "South",
         "South-East"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (South-East) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (South-East) है।"
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "What will come in place of the question mark (?) in the following equation, if ‘+’ and ‘−’ are interchanged and ‘×’ and ‘÷’ are interchanged?12 − 15 ÷ 7 × 5 + 9 = ?",
-      "question_image": null,
       "options": [
         "21",
         "24",
         "22",
         "23"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (24) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (24) है।"
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘+’ means ‘–’, ‘–’ means ‘×’, ‘×’ means ‘÷’, ‘÷’ means ‘+’, then what will come in place of the question mark (?) in the following equation?7 – 196 × 14 ÷ 67 + 28 = ?",
-      "question_image": null,
       "options": [
         "145",
         "121",
         "137",
         "129"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (137) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (137) है।"
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "In this question two statements I and II have been given. These statements may be independent causes or effects of independent causes or a common cause. One of the statements may be the effect of the other statement. Read both the statements and select the correct option.Statements:I) This year, a substantial amount of grains was wasted in District X.II) The number of warehouses to store grains is one-tenth of the necessary number in District X.",
-      "question_image": null,
       "options": [
         "Both statements I and II are effects of independent causes.",
         "Both the statements I and II are independent causes.",
         "Statement I is the cause and statement II is its possible effect.",
         "Statement II is the cause and statement I is its possible effect."
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Statement II is the cause and statement I is its possible effect.) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Statement II is the cause and statement I is its possible effect.) है।"
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements:All crows are birds.No birds are eagles.Some eagles are hawks.Conclusions:(I) No crows are eagles.(II) No hawks are birds.",
-      "question_image": null,
       "options": [
         "Neither conclusion (I) nor (II) follows.",
         "Only conclusion (I) follows.",
         "Only conclusion (II) follows.",
         "Both conclusions (I) and (II) follow."
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Only conclusion (I) follows.) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Only conclusion (I) follows.) है।"
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left) 375 468 496 157 746 (Right)(Example: 697 – first digit = 6, second digit = 9 and third digit = 7)(NOTE: All operations to be done from left to right.)What will be the resultant if the second digit of the highest number is added to the third digit of the lowest number?",
-      "question_image": null,
       "options": [
         "13",
         "12",
         "10",
         "11"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (11) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (11) है।"
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘HUTS’ is coded as ‘8416’ and ‘PUSH’ is coded as ‘7814’. What is the code for ‘P’ in that language?",
-      "question_image": null,
       "options": [
         "1",
         "7",
         "4",
         "8"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (7) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (7) है।"
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? HKL, CFG, XAB, SVW, ?",
-      "question_image": null,
       "options": [
         "RNP",
         "RNQ",
         "QNR",
         "NQR"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (NQR) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (NQR) है।"
     }
   ]
 }

@@ -6,321 +6,281 @@
       "id": 1,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below. While the first and the last sentences (S1 and S6) are in the correct order, the sentences in between are jumbled up. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.S1. Yes, a mirage can be photographed.P. That is hallucination.Q. Anything reflected by the lens of the human eye will naturally be picked up be photographic lens.R. Sometimes, however, a person imagines he is seeing something but actually he is not.S. The image, of course, will be hazy and simmering because of refraction of light.    S6. That kind of mirage obviously cannot be photographed.",
-      "question_image": null,
       "options": [
         "PSQR",
         "QRPS",
         "SPRQ",
         "QSRP"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (QSRP) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (QSRP) है।"
     },
     {
       "id": 2,
       "section": "English Language and Comprehension",
       "question": "Identify the INCORRECTLY spelt word in the given sentence and select the option that rectifies it.Many metals that react to the vaccuum which electron-beam requires for the generation of intense heat cannot be welded properly.",
-      "question_image": null,
       "options": [
         "electron-beem",
         "wellded",
         "intence",
         "vacuum"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (vacuum) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (vacuum) है।"
     },
     {
       "id": 3,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blanks.______ sudden change in weather caused ______ unexpected delay in the flight.",
-      "question_image": null,
       "options": [
         "A; a",
         "An; a",
         "An; an",
         "A; an"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (A; an) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (A; an) है।"
     },
     {
       "id": 4,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. It is known for its elaborate, traditional dancing.B. Bali is the capital of Indonesia.C. The dancing is inspired by its Hindi beliefs.D. To watch this dancing is a breathtaking experience.110",
-      "question_image": null,
       "options": [
         "DCBA",
         "ABCD",
         "BACD",
         "BADC"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (BACD) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (BACD) है।"
     },
     {
       "id": 5,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate synonym of the given word.Draconian(A) Lenient(B) Clement(C) Benignant(D) Vicious79",
-      "question_image": null,
       "options": [
         "A",
         "B",
         "C",
         "D"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (D) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (D) है।"
     },
     {
       "id": 6,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate one-word substitute for the group of words given in the brackets to fill in the blank.Sita has a high knowledge of music, which she has acquired from her grandmother who was a renowned musician. So, her father calls her a/an _______ (a person with a good knowledge of music).",
-      "question_image": null,
       "options": [
         "maestro",
         "incompetent",
         "amateur",
         "beginner"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (maestro) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (maestro) है।"
     },
     {
       "id": 7,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.In the age of algorithmic decision-making, predictive governance has emerged as a dominant paradigm for public administration. Governments are increasingly deploying data-driven models to pre-empt criminal activity, optimise urban planning, and forecast economic volatility. While ostensibly rational, this model introduces a paradox: the more predictive power a system accumulates, the more it flattens human agency into statistical probabilities. The future becomes not an open horizon but a quantifiable extension of past behaviours. This techno-bureaucratic reliance risks marginalising outliers — those whose experiences fall outside normative data sets — and institutionalising bias under the guise of objectivity. Moreover, the ethical oversight of such systems lags far behind their deployment, creating a governance vacuum wherein accountability is outsourced to opaque algorithms. In prioritising efficiency and foresight, predictive governance often bypasses deliberative democracy, weakening participatory channels in favour of streamlined outcomes.Citizens are recast as data points, their individual complexities reduced to patterns in a machine-readable format. This mechanistic interpretation of society may inadvertently erode trust in institutions that no longer appear responsive but merely anticipatory. Therefore, the question is not only whether predictive systems function but also for whom they function — and who is excluded by their logic. A governance structure that projects authority through prediction must be tempered by transparent frameworks, ethical scrutiny, and above all, a reaffirmation of the human condition as more than a predictable variable.What best summarises the passage?",
-      "question_image": null,
       "options": [
         "Predictive governance enhances citizen engagement through efficient data systems.",
         "Algorithms have no place in governance due to their inherent inaccuracies.",
         "While predictive governance improves foresight, it risks diminishing human agency and democratic processes.",
         "Predictive models have revolutionised public administration with minimal drawbacks."
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (While predictive governance improves foresight, it risks diminishing human agency and democratic processes.) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (While predictive governance improves foresight, it risks diminishing human agency and democratic processes.) है।"
     },
     {
       "id": 8,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.In the age of algorithmic decision-making, predictive governance has emerged as a dominant paradigm for public administration. Governments are increasingly deploying data-driven models to pre-empt criminal activity, optimise urban planning, and forecast economic volatility. While ostensibly rational, this model introduces a paradox: the more predictive power a system accumulates, the more it flattens human agency into statistical probabilities. The future becomes not an open horizon but a quantifiable extension of past behaviours. This techno-bureaucratic reliance risks marginalising outliers — those whose experiences fall outside normative data sets — and institutionalising bias under the guise of objectivity. Moreover, the ethical oversight of such systems lags far behind their deployment, creating a governance vacuum wherein accountability is outsourced to opaque algorithms. In prioritising efficiency and foresight, predictive governance often bypasses deliberative democracy, weakening participatory channels in favour of streamlined outcomes.Citizens are recast as data points, their individual complexities reduced to patterns in a machine-readable format. This mechanistic interpretation of society may inadvertently erode trust in institutions that no longer appear responsive but merely anticipatory. Therefore, the question is not only whether predictive systems function but also for whom they function — and who is excluded by their logic. A governance structure that projects authority through prediction must be tempered by transparent frameworks, ethical scrutiny, and above all, a reaffirmation of the human condition as more than a predictable variable.What is the central theme of the passage?",
-      "question_image": null,
       "options": [
         "The superiority of algorithmic decision-making in policy",
         "The ethical and democratic implications of data-driven governance",
         "The future of AI in economics",
         "The technical limitations of predictive models"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (The ethical and democratic implications of data-driven governance) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (The ethical and democratic implications of data-driven governance) है।"
     },
     {
       "id": 9,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.In the age of algorithmic decision-making, predictive governance has emerged as a dominant paradigm for public administration. Governments are increasingly deploying data-driven models to pre-empt criminal activity, optimise urban planning, and forecast economic volatility. While ostensibly rational, this model introduces a paradox: the more predictive power a system accumulates, the more it flattens human agency into statistical probabilities. The future becomes not an open horizon but a quantifiable extension of past behaviours. This techno-bureaucratic reliance risks marginalising outliers — those whose experiences fall outside normative data sets — and institutionalising bias under the guise of objectivity. Moreover, the ethical oversight of such systems lags far behind their deployment, creating a governance vacuum wherein accountability is outsourced to opaque algorithms. In prioritising efficiency and foresight, predictive governance often bypasses deliberative democracy, weakening participatory channels in favour of streamlined outcomes.Citizens are recast as data points, their individual complexities reduced to patterns in a machine-readable format. This mechanistic interpretation of society may inadvertently erode trust in institutions that no longer appear responsive but merely anticipatory. Therefore, the question is not only whether predictive systems function but also for whom they function — and who is excluded by their logic. A governance structure that projects authority through prediction must be tempered by transparent frameworks, ethical scrutiny, and above all, a reaffirmation of the human condition as more than a predictable variable.What best describes the structure of the passage?",
-      "question_image": null,
       "options": [
         "Case Study → Rebuttal → Policy Proposal",
         "Anecdote → Research Findings → Political Critique",
         "Concept Introduction → Benefits → Risks → Philosophical Reflection",
         "Problem → Historical Context → Solution"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Concept Introduction → Benefits → Risks → Philosophical Reflection) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Concept Introduction → Benefits → Risks → Philosophical Reflection) है।"
     },
     {
       "id": 10,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.In the age of algorithmic decision-making, predictive governance has emerged as a dominant paradigm for public administration. Governments are increasingly deploying data-driven models to pre-empt criminal activity, optimise urban planning, and forecast economic volatility. While ostensibly rational, this model introduces a paradox: the more predictive power a system accumulates, the more it flattens human agency into statistical probabilities. The future becomes not an open horizon but a quantifiable extension of past behaviours. This techno-bureaucratic reliance risks marginalising outliers — those whose experiences fall outside normative data sets — and institutionalising bias under the guise of objectivity. Moreover, the ethical oversight of such systems lags far behind their deployment, creating a governance vacuum wherein accountability is outsourced to opaque algorithms. In prioritising efficiency and foresight, predictive governance often bypasses deliberative democracy, weakening participatory channels in favour of streamlined outcomes.Citizens are recast as data points, their individual complexities reduced to patterns in a machine-readable format. This mechanistic interpretation of society may inadvertently erode trust in institutions that no longer appear responsive but merely anticipatory. Therefore, the question is not only whether predictive systems function but also for whom they function — and who is excluded by their logic. A governance structure that projects authority through prediction must be tempered by transparent frameworks, ethical scrutiny, and above all, a reaffirmation of the human condition as more than a predictable variable.Which real-world issue best parallels the concerns raised in the passage?",
-      "question_image": null,
       "options": [
         "The automation of social welfare decisions via predictive analytics",
         "Judicial delays in underfunded rural courts",
         "International trade agreements excluding local voices",
         "The privatisation of education in developing countries"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (The automation of social welfare decisions via predictive analytics) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (The automation of social welfare decisions via predictive analytics) है।"
     },
     {
       "id": 11,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.In the age of algorithmic decision-making, predictive governance has emerged as a dominant paradigm for public administration. Governments are increasingly deploying data-driven models to pre-empt criminal activity, optimise urban planning, and forecast economic volatility. While ostensibly rational, this model introduces a paradox: the more predictive power a system accumulates, the more it flattens human agency into statistical probabilities. The future becomes not an open horizon but a quantifiable extension of past behaviours. This techno-bureaucratic reliance risks marginalising outliers — those whose experiences fall outside normative data sets — and institutionalising bias under the guise of objectivity. Moreover, the ethical oversight of such systems lags far behind their deployment, creating a governance vacuum wherein accountability is outsourced to opaque algorithms. In prioritising efficiency and foresight, predictive governance often bypasses deliberative democracy, weakening participatory channels in favour of streamlined outcomes.Citizens are recast as data points, their individual complexities reduced to patterns in a machine-readable format. This mechanistic interpretation of society may inadvertently erode trust in institutions that no longer appear responsive but merely anticipatory. Therefore, the question is not only whether predictive systems function but also for whom they function — and who is excluded by their logic. A governance structure that projects authority through prediction must be tempered by transparent frameworks, ethical scrutiny, and above all, a reaffirmation of the human condition as more than a predictable variable.Select the most appropriate ANTONYM of the word 'marginalising' as used in the given segment.\n\nThis techno-bureaucratic reliance risks marginalising outliers — those whose experiences fall outside normative data sets",
-      "question_image": null,
       "options": [
         "Integrating",
         "Ignoring",
         "Isolating",
         "Suppressing"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Integrating) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Integrating) है।"
     },
     {
       "id": 12,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blanks.They discussed ______ changes needed in ______ organization.",
-      "question_image": null,
       "options": [
         "the, a",
         "no article, a",
         "a, the",
         "the, the"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (the, the) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (the, the) है।"
     },
     {
       "id": 13,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate meaning of the given idiom.At one’s wits' end",
-      "question_image": null,
       "options": [
         "At a loss to know how to proceed",
         "Being calm and relaxed",
         "Having too many options",
         "Being completely overjoyed"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (At a loss to know how to proceed) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (At a loss to know how to proceed) है।"
     },
     {
       "id": 14,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate ANTONYM of the highlighted word in the given sentence.I was dubious about his ability to help.",
-      "question_image": null,
       "options": [
         "Interested",
         "Skeptical",
         "Certain",
         "Indifferent"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Certain) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Certain) है।"
     },
     {
       "id": 15,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blanks. If no article is required, select the option with ‘No article required’._______ wheat of Haryana is exported all over___ country.",
-      "question_image": null,
       "options": [
         "No article required ; the",
         "The ; No article required",
         "A ; the",
         "The ; the"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (The ; the) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (The ; the) है।"
     },
     {
       "id": 16,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate ANTONYM of the highlighted word in the given sentence.Ever since she was a child, she has had a predilection for spicy food.",
-      "question_image": null,
       "options": [
         "Penchant",
         "Remorse",
         "Competence",
         "Aversion"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Aversion) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Aversion) है।"
     },
     {
       "id": 17,
       "section": "English Language and Comprehension",
       "question": "Select the option that can be used as a one-word substitute for the given phrase.A scientist who studies the relationships between organisms and their environment",
-      "question_image": null,
       "options": [
         "Meteorologist",
         "Geologist",
         "Ecologist",
         "Astronomer"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Ecologist) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Ecologist) है।"
     },
     {
       "id": 18,
       "section": "English Language and Comprehension",
       "question": "Identify the INCORRECTLY spelt word in the given sentence.The minister talked about the determinants of health equity and strategies in the fields of epidemology, biostatistics and health system management.",
-      "question_image": null,
       "options": [
         "determinants",
         "equity",
         "biostatistics",
         "epidemology"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (epidemology) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (epidemology) है।"
     },
     {
       "id": 19,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.P) This not only improves efficiency but also reduces operational costs.Q) Automation has become an integral part of modern industries.R) It helps in streamlining complex processes and minimising human intervention.S) Companies worldwide are investing heavily in robotic systems to enhance productivity.",
-      "question_image": null,
       "options": [
         "S-Q-P-R",
         "Q-S-R-P",
         "R-S-P-Q",
         "R-Q-S-P"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Q-S-R-P) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Q-S-R-P) है।"
     },
     {
       "id": 20,
       "section": "English Language and Comprehension",
       "question": "In the sentence \"Vikram gave an ____ speech,\" which adjective correctly completes the sentence?",
-      "question_image": null,
       "options": [
         "inspiring",
         "inspiration",
         "inspirated",
         "inspire"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (inspiring) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (inspiring) है।"
     }
   ]
 }

@@ -6,321 +6,281 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "Rohit starts from Point A and walks 20 m towards the north. He takes a left turn, walks 35 m and then takes a left turn, walks 10 m, then takes a left turn, walks 40 m, reaches Point B and stops. Mohan starts from Point Z which is 40 m towards the north of Point A. He walks 30 m towards the east, takes a right turn, walks 40 m, and stops at Point X. What is the shortest distance between Point X and Point A? (All turns are 90-degree turns only.)2526",
-      "question_image": null,
       "options": [
         "50 m",
         "40 m",
         "70 m",
         "30 m"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (30 m) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (30 m) है।"
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which is the letter-cluster that DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)2538",
-      "question_image": null,
       "options": [
         "YMA",
         "DRE",
         "UIW",
         "FTH"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (DRE) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (DRE) है।"
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following series, only one letter-cluster is incorrect. Select the INCORRECT letter-cluster. SVO  QTM  ORK  MPJ  KNG  ILE2530",
-      "question_image": null,
       "options": [
         "ORK",
         "MPJ",
         "SVO",
         "QTM"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (MPJ) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (MPJ) है।"
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the number from among the given options that can replace the question mark (?) in the following series.13  ?   22   31   43   58259",
-      "question_image": null,
       "options": [
         "17",
         "14",
         "16",
         "15"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (16) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (16) है।"
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,A ? B means ‘A is the son of B’, A x B means ‘A is the wife of B’,A % B means ‘A is the father of B’ andA : B means ‘A is the mother of B’. Which of the following means that F is the wife's mother of X?2473",
-      "question_image": null,
       "options": [
         "F : K ? O % R x X",
         "F x K ? O % R : X",
         "F x K : O % R ? X",
         "F x K % O ? R : X"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (F : K ? O % R x X) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (F : K ? O % R x X) है।"
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "E, F, M, N, X and Y live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it is numbered 2 and so on, till the topmost floor, which is numbered 6.Only two people live between E and Y. Only two people live between N and F. Only one person lives between M and F. M lives on floor number 1. E lives above F. How many people live above X?2806",
-      "question_image": null,
       "options": [
         "Three",
         "One",
         "Two",
         "Zero"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Two) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Two) है।"
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "A certain number of people are sitting in a row, facing north. No one is sitting to the left of A. A is sitting to the immediate left of B. Only 6 people are sitting between B and J. M is sitting third to the right of J. K is sitting to the immediate right of M. Only 6 people are sitting between K and T.  If T is sitting third from the right end, what is the total number of people seated?1903",
-      "question_image": null,
       "options": [
         "20",
         "25",
         "18",
         "22"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (22) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (22) है।"
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left)   678          485          217          153          572          (Right)(Example: 697 – First digit = 6, second digit = 9 and third digit = 7)(NOTE: All operations to be done from left to right.)What will be the resultant if the second digit of the highest number is added to the third digit of the lowest number?",
-      "question_image": null,
       "options": [
         "10",
         "12",
         "11",
         "9"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (10) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (10) है।"
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements: All stoves are ovens.All ovens are forks.No fork is a spoon.Conclusions:I. No stove is a spoon.II. No oven is a spoon.2847",
-      "question_image": null,
       "options": [
         "Both conclusions I and II follow.",
         "Only conclusion II follows.",
         "Neither conclusion I nor II follows.",
         "Only conclusion I follows."
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Both conclusions I and II follow.) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Both conclusions I and II follow.) है।"
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,'I have pen paper' is coded as 'op ui ty er','pen paper scissor cover ' is coded as 'ty er qw mn','for this have year' is coded as 'kn lo ui jk' and'pen cover garden this' is coded as 'ty mn pd lo'.(All the codes are two-letter codes only).What is the possible code for ‘for’?2810",
-      "question_image": null,
       "options": [
         "Either 'jk' or 'ui'",
         "Either 'lo' or 'jk'",
         "Either 'ui' or 'lo'",
         "Either 'jk' or 'kn'"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Either 'jk' or 'kn') है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Either 'jk' or 'kn') है।"
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the following words.EAR  COP  ICH  GELIn each of the words, each vowel is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. In how many letter-clusters thus formed, will no vowel appear?2476",
-      "question_image": null,
       "options": [
         "Three",
         "One",
         "Two",
         "Four"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Three) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Three) है।"
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "There are two statements given,1and 2. These statements may be either independent causes or may be possible effects of independent causes or a common cause. One of these statements may be the possible effect of the other statement. Read both the statements and decide which of the following answer choices correctly depicts the relationship between these two statements.\nStatements:\n1 Number of suicides among youngsters has been increasing for the last few years.\n2 Educational Institutions have created an environment of competition of do or fail among youngsters for the past few years.",
-      "question_image": null,
       "options": [
         "Both the statements 1 and 2 are independent causes.",
         "Both the statements 1 and 2 are possible effects which cannot have a common cause.",
         "Statement 1 is the cause and statement 2 is its possible effect.",
         "Statement 2 is the cause and statement 1 is its possible effect."
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Statement 2 is the cause and statement 1 is its possible effect.) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Statement 2 is the cause and statement 1 is its possible effect.) है।"
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘A’ stands for ‘÷’ , ‘B’ stands for ‘x’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘-‘ , what will be come in place of question mark ‘?’ in the following equation?7   B   3   D   8   A   2   C   5 = ?    D  53366",
-      "question_image": null,
       "options": [
         "27",
         "22",
         "24",
         "29"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (27) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (27) है।"
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "Vishal starts from point A and drives 6km towards East. He then takes a right turn and drives 14km. He takes a final left turn and drives 8km and stops at point B. Arman starts from point P, which is 15km East of Point A, and drives 14km towards East. He then takes a right turn and drives 14km. He takes a final left turn and drives 2km and stops at point Q. What is the shortest distance between point Q and point B? (All turns are 90 degree turns only)",
-      "question_image": null,
       "options": [
         "17km",
         "15km",
         "18km",
         "16km"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (17km) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (17km) है।"
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "यह प्रश्न निम्नलिखित शब्दों पर आधारित है।\nTUG RUT ITS PIG\nदाईं ओर से पहले शब्द के दूसरे अक्षर और बाईं ओर से दूसरे शब्द के तीसरे अक्षर के बीच वर्णमाला क्रम में कितने अक्षर आते हैं?",
-      "question_image": null,
       "options": [
         "7",
         "9",
         "10",
         "8"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (10) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (10) है।"
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "A, B, C, D, E, F and G are sitting around a circular table facing the centre. F sits third to the right of A. G sits second to the right of F. C is the immediate neighbour of E and F. B sits second to the right of C. How many people sit between G and E when counted from the left of G ?  1860",
-      "question_image": null,
       "options": [
         "Two",
         "Three",
         "One",
         "Four"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Three) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Three) है।"
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "Given below is a statement (Cause) followed by possible effects numbered I and II. Read the ‘Cause’ carefully and decide which of them can be possible effect/s.Cause: Due to a severe drought, River F, one of Country L's major rivers, has significantly dried up over the past two years.Effect I: This year, Country L has recorded an all-time high of power generated from renewable sources.Effect II: Over the past year, Country L has achieved its highest-ever harvest of water-intensive crop R since the past decade.",
-      "question_image": null,
       "options": [
         "Both I and II are possible effects",
         "Only II is a possible effect",
         "Only I is a possible effect",
         "Neither I nor II are possible effects"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Neither I nor II are possible effects) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Neither I nor II are possible effects) है।"
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘+’ means ‘−’, ‘−’ means ‘×’, ‘×’ means ‘÷’, ‘÷’ means ‘+’, then what will come in place of the question mark (?) in the following equation?22 − 4 ÷ 14 + 36 × 3 = ? 5845",
-      "question_image": null,
       "options": [
         "85",
         "89",
         "88",
         "90"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (90) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (90) है।"
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,A # B means ‘A is the father of B’,A $ B means ‘A is the mother of B’,A ! B means ‘A is the sister of B’,A * B means ‘A is the wife of B’,A > B means ‘A is the husband of B’,A % B means ‘A is the daughter of B’.Based on the above, which of the given options will make the following statement true?‘T is the wife of P's son’.456",
-      "question_image": null,
       "options": [
         "P # Q ! R ! S $ T",
         "P # Q $ R # S % T",
         "P # Q ! R # S % T",
         "P # Q ! R # S $ T"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (P # Q ! R # S % T) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (P # Q ! R # S % T) है।"
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the following series?77  77 80 400  407 ?2136",
-      "question_image": null,
       "options": [
         "3779",
         "3663",
         "3550",
         "3881"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (3663) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (3663) है।"
     }
   ]
 }

@@ -6,321 +6,281 @@
       "id": 1,
       "section": "General Awareness",
       "question": "Which of the following statements is correct regarding the process of photosynthesis that occurs in plants?",
-      "question_image": null,
       "options": [
         "It converts light energy into chemical energy.",
         "It involves the breakdown of glucose to produce energy.",
         "It primarily takes place during the night to conserve water.",
         "It occurs in the mitochondria of plant cells."
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (It converts light energy into chemical energy.) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (It converts light energy into chemical energy.) है।"
     },
     {
       "id": 2,
       "section": "General Awareness",
       "question": "Which one Article of the Indian Constitution deals with the appointment of the Governor?",
-      "question_image": null,
       "options": [
         "Article 156",
         "Article 163",
         "Article 155",
         "Article 162"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Article 155) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Article 155) है।"
     },
     {
       "id": 3,
       "section": "General Awareness",
       "question": "What was the unemployment rate in India according to the PLFS 2021-22 report?",
-      "question_image": null,
       "options": [
         "6.4%",
         "7.1%",
         "5.6%",
         "4.1%"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (4.1%) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (4.1%) है।"
     },
     {
       "id": 4,
       "section": "General Awareness",
       "question": "Which dynasty overthrew the Mauryan Empire?",
-      "question_image": null,
       "options": [
         "Shaka",
         "Gupta",
         "Shunga",
         "Pala"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Shunga) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Shunga) है।"
     },
     {
       "id": 5,
       "section": "General Awareness",
       "question": "Which state in India has the highest percentage of women in the labour force, according to the Periodic Labour Force Survey (PLFS), 2019-20?",
-      "question_image": null,
       "options": [
         "Himachal Pradesh",
         "Maharashtra",
         "Kerala",
         "Tamil Nadu"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Himachal Pradesh) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Himachal Pradesh) है।"
     },
     {
       "id": 6,
       "section": "General Awareness",
       "question": "The original core of the Gupta territory lay in which part of India?",
-      "question_image": null,
       "options": [
         "Eastern Kerala",
         "Eastern Uttar Pradesh",
         "Bengal",
         "Odisha"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Eastern Uttar Pradesh) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Eastern Uttar Pradesh) है।"
     },
     {
       "id": 7,
       "section": "General Awareness",
       "question": "What is the term employed by Sikhs to denote the practice of the continuous, non-stop recitation of teachings from the holy Guru Granth Sahib for as long as 48 hours during the celebration of the birth of their Sikh Gurus in Gurudwaras?",
-      "question_image": null,
       "options": [
         "Hola Mohalla",
         "Paryushana",
         "Akhand Path",
         "Kirtan"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Akhand Path) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Akhand Path) है।"
     },
     {
       "id": 8,
       "section": "General Awareness",
       "question": "What is the primary function of money in an economy?",
-      "question_image": null,
       "options": [
         "Medium of exchange",
         "Means of entertainment",
         "Tax collection",
         "Decoration"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Medium of exchange) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Medium of exchange) है।"
     },
     {
       "id": 9,
       "section": "General Awareness",
       "question": "Which of the following is NOT a festival celebrated by Muslims?",
-      "question_image": null,
       "options": [
         "Milad-un-Nabi",
         "Eid-ul-Zuha",
         "Eid-ul-Fitr",
         "Muhharam"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Muhharam) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Muhharam) है।"
     },
     {
       "id": 10,
       "section": "General Awareness",
       "question": "How are the drainage basins in India categorised based on the size of their watershed?",
-      "question_image": null,
       "options": [
         "Major river basins, medium river basins, and minor river basins",
         "Himalayan river basins, peninsular river basins, and coastal river basins",
         "Large river basins, small river basins, and insignificant river basins",
         "Perennial river basins, seasonal river basins, and dry river basins"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Major river basins, medium river basins, and minor river basins) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Major river basins, medium river basins, and minor river basins) है।"
     },
     {
       "id": 11,
       "section": "General Awareness",
       "question": "Which of the following historic milestones is ISRO aiming to achieve with the Mangalyaan-2 mission?",
-      "question_image": null,
       "options": [
         "Land a rover and helicopter on Mars",
         "India's first space station",
         "First Indian mission to Jupiter",
         "First Indian rover on the Moon"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Land a rover and helicopter on Mars) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Land a rover and helicopter on Mars) है।"
     },
     {
       "id": 12,
       "section": "General Awareness",
       "question": "Who is India’s first civilian space tourist to have explored space as part of the New Shephard-25 mission by the space company Blue Origin?",
-      "question_image": null,
       "options": [
         "Jayhan Bhagvati",
         "Gopichand Thotakura",
         "Anmol Yadav",
         "Gaurav Taneja"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Gopichand Thotakura) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Gopichand Thotakura) है।"
     },
     {
       "id": 13,
       "section": "General Awareness",
       "question": "Which of the following is NOT a commercial bank?",
-      "question_image": null,
       "options": [
         "Reserve Bank of India",
         "Bank of Baroda",
         "Axis Bank",
         "State Bank of India"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Reserve Bank of India) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Reserve Bank of India) है।"
     },
     {
       "id": 14,
       "section": "General Awareness",
       "question": "Who proved the 'one gene - one enzyme' hypothesis in 1941?",
-      "question_image": null,
       "options": [
         "François Jacob and Jacques Monod",
         "Dan Nathans and Hamilton Smith",
         "Alfred Hershey and Martha Chase",
         "George Beadle and Edward Tatum"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (George Beadle and Edward Tatum) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (George Beadle and Edward Tatum) है।"
     },
     {
       "id": 15,
       "section": "General Awareness",
       "question": "The Luni River, the only river which reaches the Arabian sea through the marshes of the Rann of Kachchh, flows through which plains of India?",
-      "question_image": null,
       "options": [
         "The Ganga plains",
         "The Brahmaputra plain",
         "The plains of Haryana",
         "The plains of Rajasthan"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (The plains of Rajasthan) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (The plains of Rajasthan) है।"
     },
     {
       "id": 16,
       "section": "General Awareness",
       "question": "In which of the following years did the Central Institute of Classical Tamil (CICT) start functioning?",
-      "question_image": null,
       "options": [
         "2007",
         "2010",
         "2009",
         "2008"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (2008) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (2008) है।"
     },
     {
       "id": 17,
       "section": "General Awareness",
       "question": "The term 'Mesolithic' is derived from two Greek words: 'meso' meaning __________ and 'lithic' meaning stone.",
-      "question_image": null,
       "options": [
         "ancient",
         "large",
         "new",
         "middle"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (middle) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (middle) है।"
     },
     {
       "id": 18,
       "section": "General Awareness",
       "question": "Match the following articles with their descriptions. \t\t\t\t\t\tArticle\t\t\tDescription\t\t\t\t\t\t\t1. Article 84\t\t\ta. Qualification for membership of Parliament\t\t\t\t\t\t\t2. Article 85\t\t\tb. Sessions of Parliament, prorogation and dissolution\t\t\t\t\t\t\t3. Article 86\t\t\tc. Right of President to address and send messages to Houses\t\t\t\t\t\t\t4. Article 87\t\t\td. Special address by the President",
-      "question_image": null,
       "options": [
         "1-b, 2-c, 3-a, 4-d",
         "1-a, 2-b, 3-d, 4-c",
         "1-b, 2-a, 3-c, 4-d",
         "1-a, 2-b, 3-c, 4-d"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (1-a, 2-b, 3-c, 4-d) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (1-a, 2-b, 3-c, 4-d) है।"
     },
     {
       "id": 19,
       "section": "General Awareness",
       "question": "Which of the following statements about Article 31C is true?",
-      "question_image": null,
       "options": [
         "Deals with special provisions with respect to Delhi",
         "Deals with equal pay for equal work for both men and women",
         "Deals with the appointment of judges in High Courts",
         "Deals with saving of laws giving effect to certain Directive Principle"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Deals with saving of laws giving effect to certain Directive Principle) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Deals with saving of laws giving effect to certain Directive Principle) है।"
     },
     {
       "id": 20,
       "section": "General Awareness",
       "question": "The _______ kings assumed the title of ‘Devaputra’ (son of God).",
-      "question_image": null,
       "options": [
         "Shaka",
         "Sunga",
         "Kushana",
         "Parthian"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Kushana) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Kushana) है।"
     }
   ]
 }

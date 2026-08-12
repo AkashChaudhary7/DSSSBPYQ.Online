@@ -1,5 +1,8 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { motion } from 'motion/react';
+import { Capacitor } from '@capacitor/core';
+import { App as CapApp } from '@capacitor/app';
+import { StatusBar, Style } from '@capacitor/status-bar';
 import { 
   Trophy, BookOpen, Star, AlertCircle, RefreshCw, Zap, Heart, Search, Github, 
   Settings, ChevronRight, Download, Eye, Play, Sparkles, BookMarked, Layers, HelpCircle, ArrowLeft, Volume2, Share2, ClipboardList, XCircle, Send,
@@ -39,6 +42,16 @@ import SeoPreviewHub from './components/SeoPreviewHub';
 import DailyStreakTracker from './components/DailyStreakTracker';
 import { PartAMockSpecialBanner } from './components/PartAMockSpecialBanner';
 import { Glass3dIcon } from './components/Glass3dIcons';
+import { showRewardedAd } from './lib/admob';
+import { 
+  isAttemptFree, 
+  isAttemptUnlocked, 
+  unlockAttemptForMock, 
+  consumeAttemptUnlock, 
+  incrementMockAttemptCount 
+} from './lib/attemptRules';
+import VignetteAdModal from './components/VignetteAdModal';
+import { presentPostQuizInterstitial } from './lib/interstitialRules';
 
 const LazyViewFallback = () => (
   <div className="py-20 flex flex-col items-center justify-center space-y-3">
@@ -604,6 +617,97 @@ export default function App() {
   const [showDiscardConfirmModal, setShowDiscardConfirmModal] = useState<boolean>(false);
   const [pendingStartQuiz, setPendingStartQuiz] = useState<Quiz | null>(null);
   const [showClearHistoryModal, setShowClearHistoryModal] = useState<boolean>(false);
+  const [adModalState, setAdModalState] = useState<{
+    isOpen: boolean;
+    quizToStart: Quiz | null;
+  }>({
+    isOpen: false,
+    quizToStart: null,
+  });
+  const isAdProcessingRef = useRef<boolean>(false);
+
+  // Native Android Back Button & StatusBar Handler
+  useEffect(() => {
+    if (!Capacitor.isNativePlatform()) return;
+
+    let isMounted = true;
+    let backListener: any = null;
+
+    const setupCapacitorListeners = async () => {
+      // Set Status Bar appearance to dark slate theme
+      try {
+        await StatusBar.setStyle({ style: Style.Dark });
+        await StatusBar.setBackgroundColor({ color: '#1e293b' });
+      } catch (_) {}
+
+      // Register Android hardware back button handler
+      backListener = await CapApp.addListener('backButton', () => {
+        if (!isMounted) return;
+
+        // 1. Open modals take priority: close open modal
+        if (showProfileModal) {
+          setShowProfileModal(false);
+          return;
+        }
+        if (showAchievementModal) {
+          setShowAchievementModal(false);
+          return;
+        }
+        if (showUsernameModal) {
+          setShowUsernameModal(false);
+          return;
+        }
+        if (showSubscribeModal) {
+          setShowSubscribeModal(false);
+          return;
+        }
+        if (lockedQuizModal) {
+          setLockedQuizModal(null);
+          return;
+        }
+        if (isAdminOpen) {
+          setIsAdminOpen(false);
+          return;
+        }
+        if (showDiscardConfirmModal) {
+          setShowDiscardConfirmModal(false);
+          return;
+        }
+        if (showClearHistoryModal) {
+          setShowClearHistoryModal(false);
+          return;
+        }
+
+        // 2. Internal View Navigation: if inside sub-view, return to dashboard
+        if (activeView !== 'dashboard') {
+          setActiveView('dashboard');
+          return;
+        }
+
+        // 3. Root Dashboard: minimize app
+        CapApp.minimizeApp();
+      });
+    };
+
+    setupCapacitorListeners();
+
+    return () => {
+      isMounted = false;
+      if (backListener && typeof backListener.remove === 'function') {
+        backListener.remove();
+      }
+    };
+  }, [
+    activeView,
+    showProfileModal,
+    showAchievementModal,
+    showUsernameModal,
+    showSubscribeModal,
+    lockedQuizModal,
+    isAdminOpen,
+    showDiscardConfirmModal,
+    showClearHistoryModal,
+  ]);
 
   // Haptic feedback trigger for tactile touch interaction
   const triggerHaptic = (pattern: number | number[] = 12) => {
@@ -1498,20 +1602,10 @@ export default function App() {
     setShowClearHistoryModal(false);
   };
 
-  // Start test flow - checks if unlock schedule applies
+  // Start test flow - checks V5 attempt & advertisement rules
   const handleStartTestAttempt = async (quiz: Quiz, testIndex?: number, bypassLock = false) => {
-    // Determine test position index in list
-    let resolvedIndex = testIndex;
-    if (resolvedIndex === undefined) {
-      const numMatch = quiz.title?.match(/(?:mock|test|paper|cbt|part)\s*#?\s*(\d+)/i) || quiz.title?.match(/(\d+)/);
-      if (numMatch && numMatch[1]) {
-        resolvedIndex = Math.max(0, parseInt(numMatch[1], 10) - 1);
-      } else {
-        resolvedIndex = 0;
-      }
-    }
-
-    const isDailyOrBooster = quiz.testId?.startsWith('daily_quiz_') || quiz.testId?.startsWith('booster_') || quiz.subject === 'Daily Quiz' || quiz.topic === 'Daily Challenge';
+    // Prevent rapid repeated clicks
+    if (isAdProcessingRef.current) return;
 
     if (activeQuizSession && activeQuizSession.quiz.testId !== quiz.testId) {
       setPendingStartQuiz(quiz);
@@ -1527,7 +1621,74 @@ export default function App() {
       }
     }
 
-    proceedWithQuizLaunch(fullQuiz);
+    const testId = fullQuiz.testId;
+
+    // Check V5 Attempt Rules:
+    // Attempt 1 (count 0) & Attempt 2 (count 1) -> FREE
+    // Attempt 3 (count 2) & Reattempt (count 3+) -> REWARDED AD REQUIRED
+    const isFree = isAttemptFree(testId);
+    const isUnlocked = isAttemptUnlocked(testId);
+
+    if (isFree || isUnlocked || bypassLock) {
+      consumeAttemptUnlock(testId);
+      incrementMockAttemptCount(testId);
+      proceedWithQuizLaunch(fullQuiz);
+      return;
+    }
+
+    // Requires Rewarded Ad for Attempt 3 or Reattempt
+    isAdProcessingRef.current = true;
+
+    if (Capacitor.isNativePlatform()) {
+      try {
+        let rewardEarned = false;
+        const success = await showRewardedAd((reward) => {
+          rewardEarned = true;
+        });
+
+        if (success && rewardEarned) {
+          unlockAttemptForMock(testId);
+          consumeAttemptUnlock(testId);
+          incrementMockAttemptCount(testId);
+          proceedWithQuizLaunch(fullQuiz);
+        } else {
+          setCacheToast({
+            message: "Ad watch must be completed to unlock Attempt 3 or Reattempt.",
+            type: 'info'
+          });
+          setTimeout(() => setCacheToast(null), 4000);
+        }
+      } catch (err) {
+        console.warn('[App] AdMob Rewarded Ad failed:', err);
+        setCacheToast({
+          message: "Ad could not be loaded. Please check your network connection.",
+          type: 'info'
+        });
+        setTimeout(() => setCacheToast(null), 4000);
+      } finally {
+        isAdProcessingRef.current = false;
+      }
+    } else {
+      // Web browser dev mode: open VignetteAdModal
+      setAdModalState({
+        isOpen: true,
+        quizToStart: fullQuiz,
+      });
+      isAdProcessingRef.current = false;
+    }
+  };
+
+  const handleAdModalSuccess = () => {
+    if (adModalState.quizToStart) {
+      const targetQuiz = adModalState.quizToStart;
+      unlockAttemptForMock(targetQuiz.testId);
+      consumeAttemptUnlock(targetQuiz.testId);
+      incrementMockAttemptCount(targetQuiz.testId);
+      setAdModalState({ isOpen: false, quizToStart: null });
+      proceedWithQuizLaunch(targetQuiz);
+    } else {
+      setAdModalState({ isOpen: false, quizToStart: null });
+    }
   };
 
   const proceedWithQuizLaunch = (quiz: Quiz) => {
@@ -1647,7 +1808,14 @@ export default function App() {
             localStorage.setItem(`dsssb_daily_quiz_attempted_${getTodayDateString()}`, 'true');
           }
 
-          setActiveView('result');
+          // Trigger post-quiz Interstitial ad layer if frequency condition matches
+          presentPostQuizInterstitial()
+            .catch((err) => {
+              console.warn('[App] Post-quiz interstitial error:', err);
+            })
+            .finally(() => {
+              setActiveView('result');
+            });
           return 100;
         }
         return prev + 10;
@@ -4148,6 +4316,16 @@ export default function App() {
         onDismissReport={handleDismissReport}
         onClearAllReports={handleClearAllReported}
       />
+
+      {/* Rewarded Ad Modal Trigger for Web / Non-native testing */}
+      {adModalState.isOpen && (
+        <VignetteAdModal
+          isOpen={adModalState.isOpen}
+          rewardType="unlock_test"
+          onClose={() => setAdModalState({ isOpen: false, quizToStart: null })}
+          onSuccess={handleAdModalSuccess}
+        />
+      )}
     </div>
   );
 }

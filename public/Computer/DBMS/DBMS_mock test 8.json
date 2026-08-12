@@ -1,550 +1,702 @@
-[
-  {
-    "question": "The basic data type char(n) is a _____ length character string and varchar(n) is _____ length character.",
-    "options": [
-      "A) Fixed, equal",
-      "B) Equal, variable",
-      "C) Fixed, variable",
-      "D) Variable, equal"
-    ],
-    "correct_answer": "C",
-    "explanation": "Varchar changes its length accordingly whereas char has a specific length which has to be filled by either letters or spaces."
-  },
-  {
-    "question": "An attribute A of datatype varchar(20) has the value “Avi”. The attribute B of datatype char(20) has value  ”Reed”. Here attribute A has  ____ spaces and attribute B has ____ spaces.",
-    "options": [
-      "A) 3, 20",
-      "B) 20, 4",
-      "C) 20, 20",
-      "D) 3, 4"
-    ],
-    "correct_answer": "A",
-    "explanation": "Varchar changes its length accordingly whereas char has a specific length which has to be filled by either letters or spaces."
-  },
-  {
-    "question": "To remove a relation from an SQL database, we use the ______ command.",
-    "options": [
-      "A) Delete",
-      "B) Purge",
-      "C) Remove",
-      "D) Drop table"
-    ],
-    "correct_answer": "D",
-    "explanation": "Drop table deletes the whole structure of the relation .purge removes the table which cannot be obtained again."
-  },
-  {
-    "question": "Updates that violate __________ are disallowed.",
-    "options": [
-      "A) Integrity constraints",
-      "B) Transaction control",
-      "C) Authorization",
-      "D) DDL constraints"
-    ],
-    "correct_answer": "A",
-    "explanation": "Integrity constraint has to be maintained in the entries of the relation."
-  },
-  {
-    "question": "The ______ clause allows us to select only those rows in the result relation of the ____ clause that satisfy a specified predicate.",
-    "options": [
-      "A) Where, from",
-      "B) From, select",
-      "C) Select, from",
-      "D) From, where"
-    ],
-    "correct_answer": "A",
-    "explanation": "Where selects the rows on a particular condition. From gives the relation which involves the operation."
-  },
-  {
-    "question": "The ________ clause is used to list the attributes desired in the result of a query.",
-    "options": [
-      "A) Where",
-      "B) Select",
-      "C) From",
-      "D) Distinct"
-    ],
-    "correct_answer": "B",
-    "explanation": "None"
-  },
-  {
-    "question": "Which of the following statements contains an error?",
-    "options": [
-      "A) Select * from emp where empid = 10003;",
-      "B) Select empid from emp where empid = 10006;",
-      "C) Select empid from emp;",
-      "D) Select empid where empid = 1009 and lastname = ‘GELLER’;"
-    ],
-    "correct_answer": "D",
-    "explanation": "This query do not have from clause which specifies the relation from which the values has to be selected."
-  },
-  {
-    "question": "’_ _ _ ’ matches any string of ______ three characters. ’_ _ _ %’ matches any string of at ______ three characters.",
-    "options": [
-      "A) Atleast, Exactly",
-      "B) Exactly, Atleast",
-      "C) Atleast, All",
-      "D) All, Exactly"
-    ],
-    "correct_answer": "B",
-    "explanation": "None."
-  },
-  {
-    "question": "In SQL the spaces at the end of the string are removed by _______ function.",
-    "options": [
-      "A) Upper",
-      "B) String",
-      "C) Trim",
-      "D) Lower"
-    ],
-    "correct_answer": "C",
-    "explanation": "The syntax of trim is Trim(s); where s-string."
-  },
-  {
-    "question": "_____ operator is used for appending two strings.",
-    "options": [
-      "A) &",
-      "B) %",
-      "C) ||",
-      "D) _"
-    ],
-    "correct_answer": "C",
-    "explanation": "|| is the concatenation operator."
-  },
-  {
-    "question": "The union operation is represented by",
-    "options": [
-      "A) ∩",
-      "B) U",
-      "C) –",
-      "D) *"
-    ],
-    "correct_answer": "B",
-    "explanation": "Union operator combines the relations."
-  },
-  {
-    "question": "The intersection operator is used to get the _____ tuples.",
-    "options": [
-      "A) Different",
-      "B) Common",
-      "C) All",
-      "D) Repeating"
-    ],
-    "correct_answer": "B",
-    "explanation": "Intersection operator ignores unique tuples and takes only common ones."
-  },
-  {
-    "question": "The union operation automatically __________ unlike the select clause.",
-    "options": [
-      "A) Adds tuples",
-      "B) Eliminates unique tuples",
-      "C) Adds common tuples",
-      "D) Eliminates duplicate"
-    ],
-    "correct_answer": "D",
-    "explanation": "None."
-  },
-  {
-    "question": "If we want to retain all duplicates, we must write ________ in place of union.",
-    "options": [
-      "A) Union all",
-      "B) Union some",
-      "C) Intersect all",
-      "D) Intersect some"
-    ],
-    "correct_answer": "A",
-    "explanation": "Union all will combine all the tuples including duplicates."
-  },
-  {
-    "question": "The number of attributes in relation is called as its",
-    "options": [
-      "A) Cardinality",
-      "B) Degree",
-      "C) Tuples",
-      "D) Entity"
-    ],
-    "correct_answer": "B",
-    "explanation": "None."
-  },
-  {
-    "question": "_____ clause is an additional filter that is applied to the result.",
-    "options": [
-      "A) Select",
-      "B) Group-by",
-      "C) Having",
-      "D) Order by"
-    ],
-    "correct_answer": "C",
-    "explanation": "Having is used to provide additional aggregate filtration to the query."
-  },
-  {
-    "question": "_________ joins are SQL server default",
-    "options": [
-      "A) Outer",
-      "B) Inner",
-      "C) Equi",
-      "D) None of the mentioned"
-    ],
-    "correct_answer": "B",
-    "explanation": "It is optional to give the inner keyword with the join as it is default."
-  },
-  {
-    "question": "The _____________ is essentially used to search for patterns in target string.",
-    "options": [
-      "A) Like Predicate",
-      "B) Null Predicate",
-      "C) In Predicate",
-      "D) Out Predicate"
-    ],
-    "correct_answer": "A",
-    "explanation": "Like predicate matches the string in the given pattern."
-  },
-  {
-    "question": "A _____ indicates an absent value that may exist but be unknown or that may not exist at all.",
-    "options": [
-      "A) Empty tuple",
-      "B) New value",
-      "C) Null value",
-      "D) Old value"
-    ],
-    "correct_answer": "C",
-    "explanation": "None."
-  },
-  {
-    "question": "If the attribute phone number is included in the relation all the values need not be entered into the phone number column. This type of entry is given as",
-    "options": [
-      "A) 0",
-      "B) –",
-      "C) Null",
-      "D) Empty space"
-    ],
-    "correct_answer": "C",
-    "explanation": "Null is used to represent the absence of a value."
-  },
-  {
-    "question": "The predicate in a where clause can involve Boolean operations such as and. The result of true and unknown is_______ false and unknown is _____ while unknown and unknown is _____",
-    "options": [
-      "A) Unknown, unknown, false",
-      "B) True, false, unknown",
-      "C) True, unknown, unknown",
-      "D) Unknown, false, unknown"
-    ],
-    "correct_answer": "D",
-    "explanation": "None."
-  },
-  {
-    "question": "In an employee table to include the attributes whose value always have some value which of the following constraint must be used?",
-    "options": [
-      "A) Null",
-      "B) Not null",
-      "C) Unique",
-      "D) Distinct"
-    ],
-    "correct_answer": "B",
-    "explanation": "Not null constraint removes the tuples of null values."
-  },
-  {
-    "question": "Using the ______ clause retains only one copy of such identical tuples.",
-    "options": [
-      "A) Null",
-      "B) Unique",
-      "C) Not null",
-      "D) Distinct"
-    ],
-    "correct_answer": "D",
-    "explanation": "Unique is a constraint."
-  },
-  {
-    "question": "The primary key must be",
-    "options": [
-      "A) Unique",
-      "B) Not null",
-      "C) Both Unique and Not null",
-      "D) Either Unique or Not null"
-    ],
-    "correct_answer": "C",
-    "explanation": "Primary key must satisfy unique and not null condition for sure."
-  },
-  {
-    "question": "The result of _____unknown is unknown.",
-    "options": [
-      "A) Xor",
-      "B) Or",
-      "C) And",
-      "D) Not"
-    ],
-    "correct_answer": "D",
-    "explanation": "Since unknown does not hold any value the value cannot have a reverse value."
-  },
-  {
-    "question": "Aggregate functions are functions that take a ___________   as input and return a single value.",
-    "options": [
-      "A) Collection of values",
-      "B) Single value",
-      "C) Aggregate value",
-      "D) Both Collection of values & Single value"
-    ],
-    "correct_answer": "A",
-    "explanation": "None."
-  },
-  {
-    "question": "All aggregate functions except _____ ignore null values in their input collection.",
-    "options": [
-      "A) Count(attribute)",
-      "B) Count(*)",
-      "C) Avg",
-      "D) Sum"
-    ],
-    "correct_answer": "B",
-    "explanation": "* is used to select all values including null."
-  },
-  {
-    "question": "A Boolean data type that can take values true, false, and________",
-    "options": [
-      "A) 1",
-      "B) 0",
-      "C) Null",
-      "D) Unknown"
-    ],
-    "correct_answer": "D",
-    "explanation": "Unknown values do not take null value but it is not known."
-  },
-  {
-    "question": "The ____ connective tests for set membership, where the set is a collection of values produced by a select clause. The ____ connective tests for the absence of set membership.",
-    "options": [
-      "A) Or, in",
-      "B) Not in, in",
-      "C) In, not in",
-      "D) In, or"
-    ],
-    "correct_answer": "C",
-    "explanation": "In checks, if the query has the value but not in checks if it does not have the value."
-  },
-  {
-    "question": "The phrase “greater than at least one” is represented in SQL by _____",
-    "options": [
-      "A) < all",
-      "B) < some",
-      "C) > all",
-      "D) > some"
-    ],
-    "correct_answer": "D",
-    "explanation": ">some takes atlest one value above it ."
-  },
-  {
-    "question": "We can test for the nonexistence of tuples in a subquery by using the _____ construct.",
-    "options": [
-      "A) Not exist",
-      "B) Not exists",
-      "C) Exists",
-      "D) Exist"
-    ],
-    "correct_answer": "B",
-    "explanation": "Exists is used to check for the existence of tuples."
-  },
-  {
-    "question": "Dates must be specified in the format",
-    "options": [
-      "A) mm/dd/yy",
-      "B) yyyy/mm/dd",
-      "C) dd/mm/yy",
-      "D) yy/dd/mm"
-    ],
-    "correct_answer": "B",
-    "explanation": "yyyy/mm/dd is the default format in sql."
-  },
-  {
-    "question": "A ________ on an attribute of a relation is a data structure that allows the database system to find those tuples in the relation that have a specified value for that attribute efficiently, without scanning through all the tuples of the relation.",
-    "options": [
-      "A) Index",
-      "B) Reference",
-      "C) Assertion",
-      "D) Timestamp"
-    ],
-    "correct_answer": "A",
-    "explanation": "Index is the reference to the tuples in a relation."
-  },
-  {
-    "question": "Which of the following is used to store movie and image files?",
-    "options": [
-      "A) Clob",
-      "B) Blob",
-      "C) Binary",
-      "D) Image"
-    ],
-    "correct_answer": "B",
-    "explanation": "SQL therefore provides large-object data types for character data (clob) and binary data (blob). The letters “lob” in these data types stand for “Large OBject”."
-  },
-  {
-    "question": "The user defined data type can be created using",
-    "options": [
-      "A) Create datatype",
-      "B) Create data",
-      "C) Create definetype",
-      "D) Create type"
-    ],
-    "correct_answer": "D",
-    "explanation": "The create type clause can be used to define new types.Syntax : create type Dollars as numeric(12,2) final; ."
-  },
-  {
-    "question": "Values of one type can be converted to another domain using which of the following?",
-    "options": [
-      "A) Cast",
-      "B) Drop type",
-      "C) Alter type",
-      "D) Convert"
-    ],
-    "correct_answer": "A",
-    "explanation": "Example of cast :cast (department.budget to numeric(12,2)). SQL provides drop type and alter type clauses to drop or modify types that have been created earlier."
-  },
-  {
-    "question": "Which of the following closely resembles Create view?",
-    "options": [
-      "A) Create table . . .like",
-      "B) Create table . . . as",
-      "C) With data",
-      "D) Create view as"
-    ],
-    "correct_answer": "B",
-    "explanation": "The ‘create table . . . as’ statement closely resembles the create view statement and both are defined by using queries. The main difference is that the contents of the table are set when the table is created, whereas the contents of a view always reflect the current query result."
-  },
-  {
-    "question": "In contemporary databases, the top level of the hierarchy consists of ______ each of which can contain _____",
-    "options": [
-      "A) Catalogs, schemas",
-      "B) Schemas, catalogs",
-      "C) Environment, schemas",
-      "D) Schemas, Environment"
-    ],
-    "correct_answer": "A",
-    "explanation": "None."
-  },
-  {
-    "question": "Which of the following statements creates a new table temp instructor that has the same schema as an instructor.",
-    "options": [
-      "A) create table temp_instructor;",
-      "B) Create table temp_instructor like instructor;",
-      "C) Create Table as temp_instructor;",
-      "D) Create table like temp_instructor;"
-    ],
-    "correct_answer": "B",
-    "explanation": "None."
-  },
-  {
-    "question": "Which of the following is used to access the database server at the time of executing the program and get the data from the server accordingly?",
-    "options": [
-      "A) Embedded SQL",
-      "B) Dynamic SQL",
-      "C) SQL declarations",
-      "D) SQL data analysis"
-    ],
-    "correct_answer": "B",
-    "explanation": "Embedded SQL, the SQL statements are identified at compile time using a preprocessor. The preprocessor submits the SQL statements to the database system for precompilation and optimization; then it replaces the SQL statements in the application program with appropriate code and function calls before invoking the programming-language compiler."
-  },
-  {
-    "question": "Which of the following header must be included in java program to establish database connectivity using JDBC ?",
-    "options": [
-      "A) Import java.sql.*;",
-      "B) Import java.sql.odbc.jdbc.*;",
-      "C) Import java.jdbc.*;",
-      "D) Import java.sql.jdbc.*;"
-    ],
-    "correct_answer": "A",
-    "explanation": "The Java program must import java.sql.*, which contains the interface definitions for the functionality provided by JDBC."
-  },
-  {
-    "question": "DriverManager.getConnection(_______ , ______ , ______)",
-    "options": [
-      "A) URL or machine name where server runs, Password, User ID",
-      "B) URL or machine name where server runs, User ID,  Password",
-      "C) User ID, Password, URL or machine name where server runs",
-      "D) Password, URL or machine name where server runs, User ID"
-    ],
-    "correct_answer": "B",
-    "explanation": "The database must be opened first in order to perform any operations for which this get connection method is used."
-  },
-  {
-    "question": "Which of the following invokes functions in sql?",
-    "options": [
-      "A) Prepared Statements",
-      "B) Connection statement",
-      "C) Callable statements",
-      "D) All of the mentioned"
-    ],
-    "correct_answer": "C",
-    "explanation": "JDBC provides a Callable Statement interface that allows invocation of SQL stored procedures and functions."
-  },
-  {
-    "question": "Which of the following function is used to find the column count of the particular resultset?",
-    "options": [
-      "A) getMetaData()",
-      "B) Metadata()",
-      "C) getColumn()",
-      "D) get Count()"
-    ],
-    "correct_answer": "A",
-    "explanation": "The interface ResultSet\nhas a method, getMetaData(), that returns a ResultSetMetaData object that contains metadata about the result set. ResultSetMetaData, in turn, has methods to find metadata information, such as the number of columns in the result, the name of a specified column, or the type of a specified column."
-  },
-  {
-    "question": "Which of the following is a following statement is a prepared statements?",
-    "options": [
-      "A) Insert into department values(?,?,?)",
-      "B) Insert into department values(x,x,x)",
-      "C) SQLSetConnectOption(conn, SQL AUTOCOMMIT, 0)",
-      "D) SQLTransact(conn, SQL ROLLBACK)"
-    ],
-    "correct_answer": "A",
-    "explanation": "? is used as a placeholder whose value can be provided later."
-  },
-  {
-    "question": "Which of the following is used as the embedded SQL in COBOL?",
-    "options": [
-      "A) EXEC SQL <embedded SQL statement >;",
-      "B) EXEC SQL <embedded SQL statement >   END-EXEC",
-      "C) EXEC SQL <embedded SQL statement >",
-      "D) EXEC SQL <embedded SQL statement > END EXEC;"
-    ],
-    "correct_answer": "B",
-    "explanation": "EXEC SQL <embedded SQL statement >; is normally in C."
-  },
-  {
-    "question": "Which of the following is used to distinguish the variables in SQL from the host language variables?",
-    "options": [
-      "A) .",
-      "B) –",
-      "C) :",
-      "D) ,"
-    ],
-    "correct_answer": "C",
-    "explanation": "EXEC SQL\nDECLARE c cursor FOR\nSELECT ID, name\nFROM student\nWHERE tot cred > :credit amount;\n\n\n."
-  },
-  {
-    "question": "The update statement can be executed in host language using",
-    "options": [
-      "A) EXEC SQL update c;",
-      "B) EXEC SQL update c into :si, :sn;"
-    ],
-    "correct_answer": "C",
-    "explanation": "The SQL can be terminated by ; to terminate the sentence."
-  },
-  {
-    "question": "Which of the following is used to access large objects from a database ?",
-    "options": [
-      "A) setBlob()",
-      "B) getBlob()",
-      "C) getClob()",
-      "D) all of the mentioned"
-    ],
-    "correct_answer": "D",
-    "explanation": "None."
-  },
-  {
-    "question": "Which of the following is used to input the entry and give the result in a variable in a procedure?",
-    "options": [
-      "A) Put and get",
-      "B) Get and put",
-      "C) Out and In",
-      "D) In and out"
-    ],
-    "correct_answer": "D",
-    "explanation": "Create procedure dept count proc(in dept name varchar(20), out d count integer). Here in and out refers to input and result of procedure."
-  }
-]
+{
+  "questions": [
+    {
+      "id": 1,
+      "section": "Computer Networks",
+      "question": "The basic data type char(n) is a _____ length character string and varchar(n) is _____ length character.",
+      "options": [
+        "A) Fixed, equal",
+        "B) Equal, variable",
+        "C) Fixed, variable",
+        "D) Variable, equal"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "Varchar changes its length accordingly whereas char has a specific length which has to be filled by either letters or spaces."
+    },
+    {
+      "id": 2,
+      "section": "Computer Networks",
+      "question": "An attribute A of datatype varchar(20) has the value “Avi”. The attribute B of datatype char(20) has value  ”Reed”. Here attribute A has  ____ spaces and attribute B has ____ spaces.",
+      "options": [
+        "A) 3, 20",
+        "B) 20, 4",
+        "C) 20, 20",
+        "D) 3, 4"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Varchar changes its length accordingly whereas char has a specific length which has to be filled by either letters or spaces."
+    },
+    {
+      "id": 3,
+      "section": "Computer Networks",
+      "question": "To remove a relation from an SQL database, we use the ______ command.",
+      "options": [
+        "A) Delete",
+        "B) Purge",
+        "C) Remove",
+        "D) Drop table"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "Drop table deletes the whole structure of the relation .purge removes the table which cannot be obtained again."
+    },
+    {
+      "id": 4,
+      "section": "Computer Networks",
+      "question": "Updates that violate __________ are disallowed.",
+      "options": [
+        "A) Integrity constraints",
+        "B) Transaction control",
+        "C) Authorization",
+        "D) DDL constraints"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Integrity constraint has to be maintained in the entries of the relation."
+    },
+    {
+      "id": 5,
+      "section": "Computer Networks",
+      "question": "The ______ clause allows us to select only those rows in the result relation of the ____ clause that satisfy a specified predicate.",
+      "options": [
+        "A) Where, from",
+        "B) From, select",
+        "C) Select, from",
+        "D) From, where"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Where selects the rows on a particular condition. From gives the relation which involves the operation."
+    },
+    {
+      "id": 6,
+      "section": "Computer Networks",
+      "question": "The ________ clause is used to list the attributes desired in the result of a query.",
+      "options": [
+        "A) Where",
+        "B) Select",
+        "C) From",
+        "D) Distinct"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "None"
+    },
+    {
+      "id": 7,
+      "section": "Computer Networks",
+      "question": "Which of the following statements contains an error?",
+      "options": [
+        "A) Select * from emp where empid = 10003;",
+        "B) Select empid from emp where empid = 10006;",
+        "C) Select empid from emp;",
+        "D) Select empid where empid = 1009 and lastname = ‘GELLER’;"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "This query do not have from clause which specifies the relation from which the values has to be selected."
+    },
+    {
+      "id": 8,
+      "section": "Computer Networks",
+      "question": "’_ _ _ ’ matches any string of ______ three characters. ’_ _ _ %’ matches any string of at ______ three characters.",
+      "options": [
+        "A) Atleast, Exactly",
+        "B) Exactly, Atleast",
+        "C) Atleast, All",
+        "D) All, Exactly"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "None."
+    },
+    {
+      "id": 9,
+      "section": "Computer Networks",
+      "question": "In SQL the spaces at the end of the string are removed by _______ function.",
+      "options": [
+        "A) Upper",
+        "B) String",
+        "C) Trim",
+        "D) Lower"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "The syntax of trim is Trim(s); where s-string."
+    },
+    {
+      "id": 10,
+      "section": "Computer Networks",
+      "question": "_____ operator is used for appending two strings.",
+      "options": [
+        "A) &",
+        "B) %",
+        "C) ||",
+        "D) _"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "|| is the concatenation operator."
+    },
+    {
+      "id": 11,
+      "section": "Computer Networks",
+      "question": "The union operation is represented by",
+      "options": [
+        "A) ∩",
+        "B) U",
+        "C) –",
+        "D) *"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Union operator combines the relations."
+    },
+    {
+      "id": 12,
+      "section": "Computer Networks",
+      "question": "The intersection operator is used to get the _____ tuples.",
+      "options": [
+        "A) Different",
+        "B) Common",
+        "C) All",
+        "D) Repeating"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Intersection operator ignores unique tuples and takes only common ones."
+    },
+    {
+      "id": 13,
+      "section": "Computer Networks",
+      "question": "The union operation automatically __________ unlike the select clause.",
+      "options": [
+        "A) Adds tuples",
+        "B) Eliminates unique tuples",
+        "C) Adds common tuples",
+        "D) Eliminates duplicate"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "None."
+    },
+    {
+      "id": 14,
+      "section": "Computer Networks",
+      "question": "If we want to retain all duplicates, we must write ________ in place of union.",
+      "options": [
+        "A) Union all",
+        "B) Union some",
+        "C) Intersect all",
+        "D) Intersect some"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Union all will combine all the tuples including duplicates."
+    },
+    {
+      "id": 15,
+      "section": "Computer Networks",
+      "question": "The number of attributes in relation is called as its",
+      "options": [
+        "A) Cardinality",
+        "B) Degree",
+        "C) Tuples",
+        "D) Entity"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "None."
+    },
+    {
+      "id": 16,
+      "section": "Computer Networks",
+      "question": "_____ clause is an additional filter that is applied to the result.",
+      "options": [
+        "A) Select",
+        "B) Group-by",
+        "C) Having",
+        "D) Order by"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "Having is used to provide additional aggregate filtration to the query."
+    },
+    {
+      "id": 17,
+      "section": "Computer Networks",
+      "question": "_________ joins are SQL server default",
+      "options": [
+        "A) Outer",
+        "B) Inner",
+        "C) Equi",
+        "D) None of the mentioned"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "It is optional to give the inner keyword with the join as it is default."
+    },
+    {
+      "id": 18,
+      "section": "Computer Networks",
+      "question": "The _____________ is essentially used to search for patterns in target string.",
+      "options": [
+        "A) Like Predicate",
+        "B) Null Predicate",
+        "C) In Predicate",
+        "D) Out Predicate"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Like predicate matches the string in the given pattern."
+    },
+    {
+      "id": 19,
+      "section": "Computer Networks",
+      "question": "A _____ indicates an absent value that may exist but be unknown or that may not exist at all.",
+      "options": [
+        "A) Empty tuple",
+        "B) New value",
+        "C) Null value",
+        "D) Old value"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "None."
+    },
+    {
+      "id": 20,
+      "section": "Computer Networks",
+      "question": "If the attribute phone number is included in the relation all the values need not be entered into the phone number column. This type of entry is given as",
+      "options": [
+        "A) 0",
+        "B) –",
+        "C) Null",
+        "D) Empty space"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "Null is used to represent the absence of a value."
+    },
+    {
+      "id": 21,
+      "section": "Computer Networks",
+      "question": "The predicate in a where clause can involve Boolean operations such as and. The result of true and unknown is_______ false and unknown is _____ while unknown and unknown is _____",
+      "options": [
+        "A) Unknown, unknown, false",
+        "B) True, false, unknown",
+        "C) True, unknown, unknown",
+        "D) Unknown, false, unknown"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "None."
+    },
+    {
+      "id": 22,
+      "section": "Computer Networks",
+      "question": "In an employee table to include the attributes whose value always have some value which of the following constraint must be used?",
+      "options": [
+        "A) Null",
+        "B) Not null",
+        "C) Unique",
+        "D) Distinct"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Not null constraint removes the tuples of null values."
+    },
+    {
+      "id": 23,
+      "section": "Computer Networks",
+      "question": "Using the ______ clause retains only one copy of such identical tuples.",
+      "options": [
+        "A) Null",
+        "B) Unique",
+        "C) Not null",
+        "D) Distinct"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "Unique is a constraint."
+    },
+    {
+      "id": 24,
+      "section": "Computer Networks",
+      "question": "The primary key must be",
+      "options": [
+        "A) Unique",
+        "B) Not null",
+        "C) Both Unique and Not null",
+        "D) Either Unique or Not null"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "Primary key must satisfy unique and not null condition for sure."
+    },
+    {
+      "id": 25,
+      "section": "Computer Networks",
+      "question": "The result of _____unknown is unknown.",
+      "options": [
+        "A) Xor",
+        "B) Or",
+        "C) And",
+        "D) Not"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "Since unknown does not hold any value the value cannot have a reverse value."
+    },
+    {
+      "id": 26,
+      "section": "Computer Networks",
+      "question": "Aggregate functions are functions that take a ___________   as input and return a single value.",
+      "options": [
+        "A) Collection of values",
+        "B) Single value",
+        "C) Aggregate value",
+        "D) Both Collection of values & Single value"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "None."
+    },
+    {
+      "id": 27,
+      "section": "Computer Networks",
+      "question": "All aggregate functions except _____ ignore null values in their input collection.",
+      "options": [
+        "A) Count(attribute)",
+        "B) Count(*)",
+        "C) Avg",
+        "D) Sum"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "* is used to select all values including null."
+    },
+    {
+      "id": 28,
+      "section": "Computer Networks",
+      "question": "A Boolean data type that can take values true, false, and________",
+      "options": [
+        "A) 1",
+        "B) 0",
+        "C) Null",
+        "D) Unknown"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "Unknown values do not take null value but it is not known."
+    },
+    {
+      "id": 29,
+      "section": "Computer Networks",
+      "question": "The ____ connective tests for set membership, where the set is a collection of values produced by a select clause. The ____ connective tests for the absence of set membership.",
+      "options": [
+        "A) Or, in",
+        "B) Not in, in",
+        "C) In, not in",
+        "D) In, or"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "In checks, if the query has the value but not in checks if it does not have the value."
+    },
+    {
+      "id": 30,
+      "section": "Computer Networks",
+      "question": "The phrase “greater than at least one” is represented in SQL by _____",
+      "options": [
+        "A) < all",
+        "B) < some",
+        "C) > all",
+        "D) > some"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ">some takes atlest one value above it ."
+    },
+    {
+      "id": 31,
+      "section": "Computer Networks",
+      "question": "We can test for the nonexistence of tuples in a subquery by using the _____ construct.",
+      "options": [
+        "A) Not exist",
+        "B) Not exists",
+        "C) Exists",
+        "D) Exist"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Exists is used to check for the existence of tuples."
+    },
+    {
+      "id": 32,
+      "section": "Computer Networks",
+      "question": "Dates must be specified in the format",
+      "options": [
+        "A) mm/dd/yy",
+        "B) yyyy/mm/dd",
+        "C) dd/mm/yy",
+        "D) yy/dd/mm"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "yyyy/mm/dd is the default format in sql."
+    },
+    {
+      "id": 33,
+      "section": "Computer Networks",
+      "question": "A ________ on an attribute of a relation is a data structure that allows the database system to find those tuples in the relation that have a specified value for that attribute efficiently, without scanning through all the tuples of the relation.",
+      "options": [
+        "A) Index",
+        "B) Reference",
+        "C) Assertion",
+        "D) Timestamp"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Index is the reference to the tuples in a relation."
+    },
+    {
+      "id": 34,
+      "section": "Computer Networks",
+      "question": "Which of the following is used to store movie and image files?",
+      "options": [
+        "A) Clob",
+        "B) Blob",
+        "C) Binary",
+        "D) Image"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "SQL therefore provides large-object data types for character data (clob) and binary data (blob). The letters “lob” in these data types stand for “Large OBject”."
+    },
+    {
+      "id": 35,
+      "section": "Computer Networks",
+      "question": "The user defined data type can be created using",
+      "options": [
+        "A) Create datatype",
+        "B) Create data",
+        "C) Create definetype",
+        "D) Create type"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "The create type clause can be used to define new types.Syntax : create type Dollars as numeric(12,2) final; ."
+    },
+    {
+      "id": 36,
+      "section": "Computer Networks",
+      "question": "Values of one type can be converted to another domain using which of the following?",
+      "options": [
+        "A) Cast",
+        "B) Drop type",
+        "C) Alter type",
+        "D) Convert"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Example of cast :cast (department.budget to numeric(12,2)). SQL provides drop type and alter type clauses to drop or modify types that have been created earlier."
+    },
+    {
+      "id": 37,
+      "section": "Computer Networks",
+      "question": "Which of the following closely resembles Create view?",
+      "options": [
+        "A) Create table . . .like",
+        "B) Create table . . . as",
+        "C) With data",
+        "D) Create view as"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The ‘create table . . . as’ statement closely resembles the create view statement and both are defined by using queries. The main difference is that the contents of the table are set when the table is created, whereas the contents of a view always reflect the current query result."
+    },
+    {
+      "id": 38,
+      "section": "Computer Networks",
+      "question": "In contemporary databases, the top level of the hierarchy consists of ______ each of which can contain _____",
+      "options": [
+        "A) Catalogs, schemas",
+        "B) Schemas, catalogs",
+        "C) Environment, schemas",
+        "D) Schemas, Environment"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "None."
+    },
+    {
+      "id": 39,
+      "section": "Computer Networks",
+      "question": "Which of the following statements creates a new table temp instructor that has the same schema as an instructor.",
+      "options": [
+        "A) create table temp_instructor;",
+        "B) Create table temp_instructor like instructor;",
+        "C) Create Table as temp_instructor;",
+        "D) Create table like temp_instructor;"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "None."
+    },
+    {
+      "id": 40,
+      "section": "Computer Networks",
+      "question": "Which of the following is used to access the database server at the time of executing the program and get the data from the server accordingly?",
+      "options": [
+        "A) Embedded SQL",
+        "B) Dynamic SQL",
+        "C) SQL declarations",
+        "D) SQL data analysis"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Embedded SQL, the SQL statements are identified at compile time using a preprocessor. The preprocessor submits the SQL statements to the database system for precompilation and optimization; then it replaces the SQL statements in the application program with appropriate code and function calls before invoking the programming-language compiler."
+    },
+    {
+      "id": 41,
+      "section": "Computer Networks",
+      "question": "Which of the following header must be included in java program to establish database connectivity using JDBC ?",
+      "options": [
+        "A) Import java.sql.*;",
+        "B) Import java.sql.odbc.jdbc.*;",
+        "C) Import java.jdbc.*;",
+        "D) Import java.sql.jdbc.*;"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The Java program must import java.sql.*, which contains the interface definitions for the functionality provided by JDBC."
+    },
+    {
+      "id": 42,
+      "section": "Computer Networks",
+      "question": "DriverManager.getConnection(_______ , ______ , ______)",
+      "options": [
+        "A) URL or machine name where server runs, Password, User ID",
+        "B) URL or machine name where server runs, User ID,  Password",
+        "C) User ID, Password, URL or machine name where server runs",
+        "D) Password, URL or machine name where server runs, User ID"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The database must be opened first in order to perform any operations for which this get connection method is used."
+    },
+    {
+      "id": 43,
+      "section": "Computer Networks",
+      "question": "Which of the following invokes functions in sql?",
+      "options": [
+        "A) Prepared Statements",
+        "B) Connection statement",
+        "C) Callable statements",
+        "D) All of the mentioned"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "JDBC provides a Callable Statement interface that allows invocation of SQL stored procedures and functions."
+    },
+    {
+      "id": 44,
+      "section": "Computer Networks",
+      "question": "Which of the following function is used to find the column count of the particular resultset?",
+      "options": [
+        "A) getMetaData()",
+        "B) Metadata()",
+        "C) getColumn()",
+        "D) get Count()"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The interface ResultSet\nhas a method, getMetaData(), that returns a ResultSetMetaData object that contains metadata about the result set. ResultSetMetaData, in turn, has methods to find metadata information, such as the number of columns in the result, the name of a specified column, or the type of a specified column."
+    },
+    {
+      "id": 45,
+      "section": "Computer Networks",
+      "question": "Which of the following is a following statement is a prepared statements?",
+      "options": [
+        "A) Insert into department values(?,?,?)",
+        "B) Insert into department values(x,x,x)",
+        "C) SQLSetConnectOption(conn, SQL AUTOCOMMIT, 0)",
+        "D) SQLTransact(conn, SQL ROLLBACK)"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "? is used as a placeholder whose value can be provided later."
+    },
+    {
+      "id": 46,
+      "section": "Computer Networks",
+      "question": "Which of the following is used as the embedded SQL in COBOL?",
+      "options": [
+        "A) EXEC SQL <embedded SQL statement >;",
+        "B) EXEC SQL <embedded SQL statement >   END-EXEC",
+        "C) EXEC SQL <embedded SQL statement >",
+        "D) EXEC SQL <embedded SQL statement > END EXEC;"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "EXEC SQL <embedded SQL statement >; is normally in C."
+    },
+    {
+      "id": 47,
+      "section": "Computer Networks",
+      "question": "Which of the following is used to distinguish the variables in SQL from the host language variables?",
+      "options": [
+        "A) .",
+        "B) –",
+        "C) :",
+        "D) ,"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "EXEC SQL\nDECLARE c cursor FOR\nSELECT ID, name\nFROM student\nWHERE tot cred > :credit amount;\n\n\n."
+    },
+    {
+      "id": 48,
+      "section": "Computer Networks",
+      "question": "The update statement can be executed in host language using",
+      "options": [
+        "A) EXEC SQL update c;",
+        "B) EXEC SQL update c into :si, :sn;"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The SQL can be terminated by ; to terminate the sentence."
+    },
+    {
+      "id": 49,
+      "section": "Computer Networks",
+      "question": "Which of the following is used to access large objects from a database ?",
+      "options": [
+        "A) setBlob()",
+        "B) getBlob()",
+        "C) getClob()",
+        "D) all of the mentioned"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "None."
+    },
+    {
+      "id": 50,
+      "section": "Computer Networks",
+      "question": "Which of the following is used to input the entry and give the result in a variable in a procedure?",
+      "options": [
+        "A) Put and get",
+        "B) Get and put",
+        "C) Out and In",
+        "D) In and out"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "Create procedure dept count proc(in dept name varchar(20), out d count integer). Here in and out refers to input and result of procedure."
+    }
+  ]
+}

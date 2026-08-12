@@ -6,1601 +6,1401 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "Navin starts from point A and drives 4 km towards the north. He then takes a left turn, drives 2 km and stops at point B. Manoj starts from point X, which is 8 km east of point B, and drives 4 km towards the south. He then takes a left turn and drives 2 km to reach point Y. What is the shortest distance between point A and point Y? (All turns are 90-degree turns only.)3203",
-      "question_image": null,
       "options": [
         "6 km",
         "8 km",
         "4 km",
         "2 km"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (8 km) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (8 km) है।"
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "एक निश्चित कूट भाषा में,\n‘A ÷ B’ का अर्थ है कि ‘A, B की बहन है’,\n‘A # B’ का अर्थ है कि ‘A, B का भाई है’,\n‘A + B’ का अर्थ है कि ‘A, B की पत्‍नी है’ और\n‘A % B’ का अर्थ है कि ‘A, B का पिता है’।\n\nयदि ‘A # B + G % H ÷ K’ है तो A का K से क्‍या संबन्‍ध है?",
-      "question_image": null,
       "options": [
         "माता का भाई",
         "पिता",
         "पुत्र",
         "भाई"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (माता का भाई) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (माता का भाई) है।"
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "A statement is followed by two assumptions numbered I and II. An assumption is something supposed or taken for granted. You have to consider the statement and the following assumptions and decide which of the assumptions is implicit/valid in the statement.Statement: ‘If it is that easy to become a teacher, I don’t want to pursue it as a career’.Assumption:I. One wants to pursue a thing which is difficult to earn.II. One must try to pursue a good career.",
-      "question_image": null,
       "options": [
         "Both Assumptions I and II are valid.",
         "Neither Assumption I nor II is valid.",
         "Only Assumption II is valid.",
         "Only Assumption I is valid."
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Only Assumption I is valid.) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Only Assumption I is valid.) है।"
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘A’ stands for ‘+’, ‘B’ stands for ‘−’, ‘C’ stands for ‘×’ and ‘D’ stands for ‘÷’, then what will come in place of the question mark (?) in the following equation?35 D 7 B 5 A 2 C 3 = ?",
-      "question_image": null,
       "options": [
         "5",
         "7",
         "6",
         "8"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (6) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (6) है।"
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "E, F, G, H, Q, R, S and T are sitting around a square table facing the center of the table. Some of them are sitting at the corners while some are sitting at the exact center of the sides. G sits second to the right of E. E does not sit at any of the corners. Only three people sit between G and T when counted from the right of G. S does not sit at any of the corners. H is not an immediate neighbour of E or T. Only three people sit between H and Q. R is not an immediate neighbour of G. Who sits third to the left of F?",
-      "question_image": null,
       "options": [
         "S",
         "T",
         "H",
         "R"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (T) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (T) है।"
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of P, Q, R, S, T, U and V attends a seminar on a different day of a week starting from Monday and ending on Sunday of the same week.  A attends on Wednesday. Only one person attends between A and C. D attends immediately before C but not on Monday. There are exactly two people between D and F. G’s seminar is before E’s but after B’s. B attends the seminar on Monday.On which day does G attend the seminar?",
-      "question_image": null,
       "options": [
         "Saturday",
         "Friday",
         "Tuesday",
         "Thursday"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Tuesday) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Tuesday) है।"
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the given options can replace the question mark (?) in the following series to make it logically complete?ELK 12, HON 17, KRQ 22, NUT 27, ?3090",
-      "question_image": null,
       "options": [
         "QSU 32",
         "QXW 32",
         "RUY 33",
         "RXU 33"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (QXW 32) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (QXW 32) है।"
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "Eight people are sitting in two parallel rows containing 4 people each in such a way that there is equal distance between adjacent persons.In row 1, H, J, K and L are seated and all of them are facing the south.In row 2, X, V, T and P are seated and all of them are facing the north.Thus, each person faces another person from the other row. K sits second to the left of H and faces V. X sits second to the right of T. P sits on one of the ends and faces H. J does not sit to the immediate next of H. Who among the following faces T? 631",
-      "question_image": null,
       "options": [
         "L",
         "J",
         "K",
         "H"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (L) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (L) है।"
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "JKM starts from Point A and drives 21 km towards the east. He then takes a left turn, drives 19 km, turns left and drives 26 km. He then takes a left turn and drives 24 km. He takes a final left turn, drives 5 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again? (All turns are 90° turns only, unless specified.) 325",
-      "question_image": null,
       "options": [
         "11 km to the north",
         "11 km to the south",
         "5 km to the south",
         "5 km to the north"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (5 km to the north) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (5 km to the north) है।"
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "Six friends, L, M, N, O, P and S, are sitting around a circular table, but not necessarily in the same order, and are facing the centre of the table. S is an immediate neighbour of both N and O. N sits third to the right of M. L sits second to the right of M. Who sits to the immediate left of P?",
-      "question_image": null,
       "options": [
         "N",
         "L",
         "M",
         "O"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (M) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (M) है।"
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "In this question two statements I and II have been given. These statements may be independent causes or effects of independent causes or a common cause. One of the statements may be the effect of the other statement. Read both the statements and select the correct option.Statements:I) Many people prefer online shopping nowadays to the local offline market.II) Online platforms offer huge discounts as compared to the local offline market.",
-      "question_image": null,
       "options": [
         "Both the statements I and II are independent causes.",
         "Both statements I and II are effects of independent causes.",
         "Statement II is the cause and statement I is its possible effect.",
         "Statement I is the cause and statement II is its possible effect."
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Statement II is the cause and statement I is its possible effect.) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Statement II is the cause and statement I is its possible effect.) है।"
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "​Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group?(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
-      "question_image": null,
       "options": [
         "DHE",
         "NRP",
         "MQN",
         "HLI"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (NRP) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (NRP) है।"
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a row of 83 students facing north, EFG is 38th from the right end. If KLM is 18th to the left of EFG, what is KLM's position from the left end of the line?",
-      "question_image": null,
       "options": [
         "30th",
         "28th",
         "26th",
         "24th"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (28th) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (28th) है।"
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "एक निश्चित कूट भाषा में,\n\n‘A + B’ का अर्थ है कि ‘A, B की माता है’,\n‘A – B’ का अर्थ है कि ‘A, B का पिता है’,\n‘A $ B’ का अर्थ है कि ‘A, B का पुत्र है’ और\n‘A % B’ का अर्थ है कि ‘A, B की बहन है’।\n\nनिम्नलिखित में से किसका अर्थ है कि P, R के पिता की माता हैं?\n\n(I) P + Q – T % S $ R\n(II) P + Q – R % T $ S\n(III) P + S – T % R $ Q\n(IV) Q + R – T % P $ S",
-      "question_image": null,
       "options": [
         "केवल (III)",
         "केवल (II)",
         "केवल (III) और (IV)",
         "केवल (II) और (III)"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (केवल (II) और (III)) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (केवल (II) और (III)) है।"
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?21   30   39   48   57    ?",
-      "question_image": null,
       "options": [
         "66",
         "63",
         "65",
         "62"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (66) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (66) है।"
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "Eight persons are sitting in two parallel rows, containing 4 persons each, in such a way that there is equal distance between adjacent persons.In row 1, E, F, G and H are seated and all of them are facing south.In row 2, Q, R, S and T are seated and all of them are facing north.Thus, each person faces another person from the other row. F sits second to the left of H. R sits second to the right of T. Only two people sit between T and Q. E faces S. Which of the following options represents people sitting at extreme ends of the line?3169",
-      "question_image": null,
       "options": [
         "G,T",
         "R,F",
         "S,R",
         "H,E"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (G,T) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (G,T) है।"
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following series, only one letter-cluster is incorrect. Select the INCORRECT letter-cluster.NKR  OLS  PMT  QNU  ROV  SPX",
-      "question_image": null,
       "options": [
         "​PMT",
         "SPX",
         "QNU",
         "ROV"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (SPX) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (SPX) है।"
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following triads, each group of letters is related to the subsequent one following a certain logic. Select from the given options, the one which follows the same logic.EDIT - DIET - TIDESOLD - OLSD - DLOS",
-      "question_image": null,
       "options": [
         "QUIT - UQIT - TUIQ",
         "KING - INKG - INGK",
         "ROAD - RAOD - DAOR",
         "MAKE - AKME - EKAM"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (MAKE - AKME - EKAM) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (MAKE - AKME - EKAM) है।"
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three−digit numbers given below:(Left) 905  684  328  472  258 (Right)<!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}-->(Example- 697 – First digit = 6, second digit = 9 and third digit = 7)NOTE - All operations to be done from left to right.What will be the resultant if the first digit of the second highest number is subtracted from the third digit of the lowest number?8304",
-      "question_image": null,
       "options": [
         "5",
         "4",
         "3",
         "2"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (2) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (2) है।"
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,‘A + B’ means ‘A is the mother of B’,‘A – B’ means ‘A is the brother of B’,‘A × B’ means ‘A is the wife of B’,‘A % B’ means ‘A is the father of B’ and‘A # B’ means ‘A is the daughter of B’.How is D related to K if ‘K – L × E % J – D + N’?",
-      "question_image": null,
       "options": [
         "Brother’s wife",
         "Sister’s daughter",
         "Mother’s brother",
         "Sister’s son"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Sister’s daughter) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Sister’s daughter) है।"
     },
     {
       "id": 21,
       "section": "General Awareness",
       "question": "What does Article 8 of the Indian Constitution clarify, regarding Indian citizenship?",
-      "question_image": null,
       "options": [
         "Rights of citizenship of certain migrants to Pakistan",
         "Parliament to regulate the right of citizenship by law",
         "Continuance of the rights of citizenship",
         "Rights of citizenship of certain persons of Indian origin residing outside India"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Rights of citizenship of certain persons of Indian origin residing outside India) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Rights of citizenship of certain persons of Indian origin residing outside India) है।"
     },
     {
       "id": 22,
       "section": "General Awareness",
       "question": "The Parwan Major Multipurpose Project is being constructed in which state?",
-      "question_image": null,
       "options": [
         "Gujarat",
         "Rajasthan",
         "Haryana",
         "Punjab"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Rajasthan) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Rajasthan) है।"
     },
     {
       "id": 23,
       "section": "General Awareness",
       "question": "According to Nirvana Kanda, which of the following states of India is known to be the Jain Tirtha where 20 of the 24 Tirthankaras, along with many other monks, had attained Moksha?",
-      "question_image": null,
       "options": [
         "Uttarakhand",
         "Bihar",
         "Jharkhand",
         "Uttar Pradesh"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Jharkhand) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Jharkhand) है।"
     },
     {
       "id": 24,
       "section": "General Awareness",
       "question": "'Bodo' belongs to which of the following language families?",
-      "question_image": null,
       "options": [
         "Indo-European",
         "Austroasiatic",
         "Dravidian",
         "Sino-Tibetan"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Sino-Tibetan) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Sino-Tibetan) है।"
     },
     {
       "id": 25,
       "section": "General Awareness",
       "question": "Which type of forests are present in the Western Ghats?",
-      "question_image": null,
       "options": [
         "Alpine",
         "Mangrove",
         "Tropical evergreen",
         "Tropical deciduous"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Tropical evergreen) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Tropical evergreen) है।"
     },
     {
       "id": 26,
       "section": "General Awareness",
       "question": "Which among the following states have launched Rajiv Yuva Vikasam Scheme in March 2025 to empower youth from SC, ST, BC and minority communities?",
-      "question_image": null,
       "options": [
         "Andhra Pradesh",
         "Telangana",
         "Karnataka",
         "Tamil Nadu"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Telangana) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Telangana) है।"
     },
     {
       "id": 27,
       "section": "General Awareness",
       "question": "According to the Annual Report of the Periodic Labour Force Survey (January to December 2024) released in April 2025, the unemployment rate in rural areas has declined to what percentage?",
-      "question_image": null,
       "options": [
         "4.2%",
         "0.05%",
         "35%",
         "29.75%"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (4.2%) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (4.2%) है।"
     },
     {
       "id": 28,
       "section": "General Awareness",
       "question": "Which agricultural system involves farmers pooling their land, livestock, and labor to work collectively, while retaining small plots for personal use?",
-      "question_image": null,
       "options": [
         "Shifting cultivation",
         "Subsistence farming",
         "Collective farming",
         "Plantation farming"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Collective farming) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Collective farming) है।"
     },
     {
       "id": 29,
       "section": "General Awareness",
       "question": "In which of the following regions is ‘Valre’ or ‘Waltre’ practiced?",
-      "question_image": null,
       "options": [
         "South-eastern Gujarat",
         "South-eastern Jharkhand",
         "South-eastern Meghalaya",
         "South-eastern Rajasthan"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (South-eastern Rajasthan) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (South-eastern Rajasthan) है।"
     },
     {
       "id": 30,
       "section": "General Awareness",
       "question": "निम्नलिखित में से कौन-सा, बौद्ध धर्म में वर्णित ‘चार आर्य सत्यों (Four Noble Truths)’ का भाग नहीं है?",
-      "question_image": null,
       "options": [
         "दुख निरोध का अंत (मंजिल)",
         "दुख (दुक्खा)",
         "दुख की उत्पत्ति (समुदाय)",
         "दुख निरोध (निरोध)"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (दुख निरोध का अंत (मंजिल)) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (दुख निरोध का अंत (मंजिल)) है।"
     },
     {
       "id": 31,
       "section": "General Awareness",
       "question": "The formation of deep gorges and V-shaped valleys by major Himalayan rivers is a result of which geological process?",
-      "question_image": null,
       "options": [
         "Rapid lateral erosion caused by meandering in the middle course of the rivers",
         "Simultaneous uplift of the Himalayas and intense fluvial erosion by fast-flowing rivers",
         "Volcanic activity followed by sediment compaction in the river basins",
         "Gradual deposition of sediments and subsidence of the surrounding plains"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Simultaneous uplift of the Himalayas and intense fluvial erosion by fast-flowing rivers) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Simultaneous uplift of the Himalayas and intense fluvial erosion by fast-flowing rivers) है।"
     },
     {
       "id": 32,
       "section": "General Awareness",
       "question": "In 2024, the Supreme Court of India reaffirmed which legal principle while striking down an ex parte injunction against Bloomberg in a defamation case?",
-      "question_image": null,
       "options": [
         "Reynolds defence",
         "Hicklin test",
         "Sullivan principle",
         "Bonnard standard"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Bonnard standard) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Bonnard standard) है।"
     },
     {
       "id": 33,
       "section": "General Awareness",
       "question": "Ministry of Agriculture along with _________ launched Project VISTAAR to modernise India’s agricultural extension system in 2024.",
-      "question_image": null,
       "options": [
         "IIM Ahmedabad",
         "Ministry of Ayush",
         "IIT Madras",
         "Indian Space Research Organisation"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (IIT Madras) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (IIT Madras) है।"
     },
     {
       "id": 34,
       "section": "General Awareness",
       "question": "Archelogists found Palaeolithic tools at the sites along the river Luni in ______________.",
-      "question_image": null,
       "options": [
         "Rajasthan",
         "Manipur",
         "Kashmir",
         "West Bengal"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Rajasthan) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Rajasthan) है।"
     },
     {
       "id": 35,
       "section": "General Awareness",
       "question": "CAC is an international organisation that has contributed to the improvement of food safety, quality and security, promoting research and facilitating trade. The full form of CAC is _______.",
-      "question_image": null,
       "options": [
         "Centralised Accreditation Committee",
         "Consumer Advisory Council",
         "Codex Alimentarius Commission",
         "Certified Allergen Control"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Codex Alimentarius Commission) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Codex Alimentarius Commission) है।"
     },
     {
       "id": 36,
       "section": "General Awareness",
       "question": "Which year recorded the highest number of child adoptions in India in the last 12 years?",
-      "question_image": null,
       "options": [
         "2023-24",
         "2021-22",
         "2024-25",
         "2020-21"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (2024-25) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (2024-25) है।"
     },
     {
       "id": 37,
       "section": "General Awareness",
       "question": "In which year was Sanskrit declared a Classical Language?",
-      "question_image": null,
       "options": [
         "2004",
         "2008",
         "2010",
         "2005"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (2005) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (2005) है।"
     },
     {
       "id": 38,
       "section": "General Awareness",
       "question": "The chromosome in which, one or more than one form of gene is found, is called ______________.",
-      "question_image": null,
       "options": [
         "genetic code",
         "DNA",
         "allele",
         "RNA"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (allele) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (allele) है।"
     },
     {
       "id": 39,
       "section": "General Awareness",
       "question": "Which of the following pair of article – contents of Indian constitution is correct?I. Article 18 – Abolition of titlesII. Article 53 – Executive power of union",
-      "question_image": null,
       "options": [
         "Only II",
         "Neither I nor II",
         "Only I",
         "Both I and II"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Both I and II) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Both I and II) है।"
     },
     {
       "id": 40,
       "section": "General Awareness",
       "question": "Which of the following is NOT a function of money in an economy?",
-      "question_image": null,
       "options": [
         "Standard of deferred payment",
         "Unit of labour",
         "Medium of exchange",
         "Store of value"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Unit of labour) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Unit of labour) है।"
     },
     {
       "id": 41,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average of the first 13 multiples of 5 is:3838",
-      "question_image": null,
       "options": [
         "35",
         "32.5",
         "13",
         "5"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (35) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (35) है।"
     },
     {
       "id": 42,
       "section": "Arithmetical and Numerical Ability",
       "question": "The percentage of profit earned by selling an article for ₹1,600 is equal to the percentage of loss incurred by selling the same article for ₹1,400. In order to get 20% profit, at what price should the article be sold?",
-      "question_image": null,
       "options": [
         "₹2,400",
         "₹1,800",
         "₹2,200",
         "₹2,000"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (₹1,800) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (₹1,800) है।"
     },
     {
       "id": 43,
       "section": "Arithmetical and Numerical Ability",
       "question": "A trader gains 79% after selling an item at 12% discount on the printed price. What is the ratio of the cost price and the printed price of the item?",
-      "question_image": null,
       "options": [
         "89:186",
         "88:179",
         "90:182",
         "86:180"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (88:179) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (88:179) है।"
     },
     {
       "id": 44,
       "section": "Arithmetical and Numerical Ability",
       "question": "Find the surface area (in cm2) of a sphere with a radius of 20 cm. (Take π = 3.14)",
-      "question_image": null,
       "options": [
         "5042",
         "5324",
         "5024",
         "5420"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (5024) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (5024) है।"
     },
     {
       "id": 45,
       "section": "Arithmetical and Numerical Ability",
       "question": "Chetan’s sales went up by 4% in the first year, and by 25% in the second year, to reach the present sale of ₹2,13,200. What were his sales (in ₹) two years ago?",
-      "question_image": null,
       "options": [
         "2,05,000",
         "1,64,000",
         "1,44,000",
         "1,70,560"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (1,64,000) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (1,64,000) है।"
     },
     {
       "id": 46,
       "section": "Arithmetical and Numerical Ability",
       "question": "A person borrows ₹18400 at 15% compound interest per year, compounded annually. At the end of every year, he pays ₹1000 as part payment. How much does he still owe after two such instalments?4457",
-      "question_image": null,
       "options": [
         "₹22360",
         "₹22161",
         "₹22184",
         "₹22071"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (₹22184) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (₹22184) है।"
     },
     {
       "id": 47,
       "section": "Arithmetical and Numerical Ability",
       "question": "An article is sold at a profit of 49%. If the cost price is increased by ₹40 and the selling price is reduced by ₹55, then the profit would be 47.5%. What is the original cost price (in ₹) of the article?",
-      "question_image": null,
       "options": [
         "7,500",
         "7,800",
         "7,400",
         "7,600"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (7,600) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (7,600) है।"
     },
     {
       "id": 48,
       "section": "Arithmetical and Numerical Ability",
       "question": "Three numbers are in the ratio 13 : 5 : 16, and their LCM is 2080. Their HCF is:1127",
-      "question_image": null,
       "options": [
         "2",
         "27",
         "8",
         "23"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (2) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (2) है।"
     },
     {
       "id": 49,
       "section": "Arithmetical and Numerical Ability",
       "question": "Sapna invested ₹22,300 on simple interest, partly at 6% per annum and partly at 4% per annum. If she earns equal interests from the two investments after 4 years, then find the sum invested at 6% per annum (in ₹).",
-      "question_image": null,
       "options": [
         "8,923",
         "8,920",
         "8,921",
         "8,919"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (8,920) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (8,920) है।"
     },
     {
       "id": 50,
       "section": "Arithmetical and Numerical Ability",
       "question": "If 3584y8 is a six-digit number that is divisible by 6, what is the smallest possible value of y?",
-      "question_image": null,
       "options": [
         "3",
         "5",
         "4",
         "2"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (2) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (2) है।"
     },
     {
       "id": 51,
       "section": "Arithmetical and Numerical Ability",
       "question": "After decreasing 68% in the actual cost price, the reduced cost price of an article is ₹1,044. The actual cost price of the article (in ₹) is:4841",
-      "question_image": null,
       "options": [
         "3,262.50",
         "3,232.50",
         "3,202.50",
         "3,242.50"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (3,262.50) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (3,262.50) है।"
     },
     {
       "id": 52,
       "section": "Arithmetical and Numerical Ability",
       "question": "A, B, and C invest in a business\tA invests ₹24,000 for 6 months\tB invests ₹30,000 for 8 months\tC invests ₹18,000 for the entire year After 1 year, the total profit of the business is ₹1,50,000 How much profit does B receive? 481",
-      "question_image": null,
       "options": [
         "₹54,000",
         "₹48,000",
         "₹60,000",
         "₹50,000"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (₹60,000) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (₹60,000) है।"
     },
     {
       "id": 53,
       "section": "Arithmetical and Numerical Ability",
       "question": "The HCF of two numbers is 12 and they are in the ratio of 5 : 7. Their LCM is:",
-      "question_image": null,
       "options": [
         "210",
         "420",
         "315",
         "12"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (420) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (420) है।"
     },
     {
       "id": 54,
       "section": "Arithmetical and Numerical Ability",
       "question": "A vendor sold 28 chocolates for a rupee, thereby gaining 50%. How many chocolates did he buy for a rupee?",
-      "question_image": null,
       "options": [
         "46",
         "44",
         "48",
         "42"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (42) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (42) है।"
     },
     {
       "id": 55,
       "section": "Arithmetical and Numerical Ability",
       "question": "At what rate (in percentage) per year will a sum of money double itself in 10 years on simple interest?",
-      "question_image": null,
       "options": [
         "8%",
         "20%",
         "12%",
         "10%"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (10%) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (10%) है।"
     },
     {
       "id": 56,
       "section": "Arithmetical and Numerical Ability",
       "question": "The table shows the production of different types of cars by a company (in thousands) in 4 years. Study the table and answer the given question.\t\t\t\t\t\tCar \\\t\t\tYear\t\t\tP\t\t\tQ\t\t\tR\t\t\tS\t\t\t\t\t\t\t2020\t\t\t42\t\t\t47\t\t\t68\t\t\t72\t\t\t\t\t\t\t2021\t\t\t88\t\t\t53\t\t\t52\t\t\t64\t\t\t\t\t\t\t2022\t\t\t50\t\t\t42\t\t\t70\t\t\t38\t\t\t\t\t\t\t2023\t\t\t73\t\t\t35\t\t\t55\t\t\t41\t\t\tThe total production of type R cars in the four years is what percent more than the total production of types P, Q and S in 2022? (Rounded off to two decimal places)",
-      "question_image": null,
       "options": [
         "97.50%",
         "81.23%",
         "93.25%",
         "88.46%"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (88.46%) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (88.46%) है।"
     },
     {
       "id": 57,
       "section": "Arithmetical and Numerical Ability",
       "question": "A and B can do a piece of work in 4 days and 43 days, respectively. The number of days (rounded off to one decimal place) required to complete the work if both A and B work together is:",
-      "question_image": null,
       "options": [
         "2.5",
         "4.2",
         "3.7",
         "5.2"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (3.7) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (3.7) है।"
     },
     {
       "id": 58,
       "section": "Arithmetical and Numerical Ability",
       "question": "A trader purchases bananas at ₹48 per hundred. He spends 25% of the total amount on the transportation. What should be the selling price per hundred (in ₹) to earn a profit of 45%?1957",
-      "question_image": null,
       "options": [
         "88",
         "86",
         "87",
         "85"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (87) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (87) है।"
     },
     {
       "id": 59,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average of the squares of the first 8 natural numbers is:1592",
-      "question_image": null,
       "options": [
         "24.5",
         "25.5",
         "27.5",
         "26.5"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (25.5) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (25.5) है।"
     },
     {
       "id": 60,
       "section": "Arithmetical and Numerical Ability",
       "question": "Sapna invested ₹21,400 on simple interest, partly at 9% per annum and partly at 6% per annum. If she earns equal interests from the two investments after 6 years, then find the sum invested at 9% per annum (in ₹).",
-      "question_image": null,
       "options": [
         "8,560",
         "8,563",
         "8,559",
         "8,557"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (8,560) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (8,560) है।"
     },
     {
       "id": 61,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate ANTONYM of the underlined word in the given sentence.The movie's ending was ambiguous, leaving viewers puzzled.",
-      "question_image": null,
       "options": [
         "Comical",
         "Romantic",
         "Unequivocal",
         "Tragical"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Unequivocal) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Unequivocal) है।"
     },
     {
       "id": 62,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below. While the first sentence (A) is in the correct order, the sentences below it are jumbled up. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. My uncle just liked the idea of planting trees and watching them grow.B. The soil was desert soil.C. It was on account of the soil.D. Only they wouldn’t grow.",
-      "question_image": null,
       "options": [
         "ACBD",
         "ADCB",
         "ADBC",
         "ABCD"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (ADCB) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (ADCB) है।"
     },
     {
       "id": 63,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blanks.___ Supreme Court's long summer vacations continue, but 20 benches this year cleared ___ case list with the counsels' consent.",
-      "question_image": null,
       "options": [
         "The ; a",
         "A ; a",
         "A ; the",
         "The ; the"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (The ; the) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (The ; the) है।"
     },
     {
       "id": 64,
       "section": "English Language and Comprehension",
       "question": "The given sentences, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a letter. Choose the most logical order of the sentences from among the given choices to construct a coherent paragraph.A. However, this progress also amplifies ethical concerns surrounding data privacy, surveillance, and autonomy.B. Artificial intelligence is rapidly transforming industries, from healthcare to logistics.C. The challenge lies in ensuring that innovation is guided by transparent, inclusive, and accountable frameworks.D. While its benefits are undeniable, unchecked technological growth risks reinforcing systemic inequalities.",
-      "question_image": null,
       "options": [
         "D B C A",
         "B A D C",
         "C B D A",
         "A B D C"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (B A D C) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (B A D C) है।"
     },
     {
       "id": 65,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option that can substitute the underlined words in the given sentence.The criminal was given an official pardon by the President.",
-      "question_image": null,
       "options": [
         "Amnesty",
         "Clemency",
         "Reprieve",
         "Absolution"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Reprieve) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Reprieve) है।"
     },
     {
       "id": 66,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the question that follows.Microfinance, the provision of financial services to low-income individuals and small businesses, plays a crucial role in economic development. By offering small loans, savings accounts and other financial products, microfinance institutions (MFIs) aim to empower people who lack access to traditional banking services. These financial services enable individuals to start or expand small businesses, invest in education and improve their living conditions, contributing to broader economic growth and poverty reduction.One of the key benefits of microfinance is its ability to promote entrepreneurship. Small loans, often referred to as microloans, provide the initial capital that individuals need to start or grow their businesses. This entrepreneurial activity not only generates income for borrowers but also creates jobs and stimulates local economies. By fostering a culture of entrepreneurship, microfinance can drive sustainable economic development.Microfinance also plays a vital role in improving access to education. Families with limited financial resources can use microloans to pay for school fees, books and other educational expenses. Investments in education can have long-term benefits, as they equip individuals with the skills and knowledge needed to secure better-paying jobs and break the cycle of poverty.Based on your reading, select the synonym of 'equip'.",
-      "question_image": null,
       "options": [
         "Practice",
         "Furnish",
         "Affect",
         "Influence"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Furnish) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Furnish) है।"
     },
     {
       "id": 67,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate preposition to fill in the blank.The book is lying _____ the table.",
-      "question_image": null,
       "options": [
         "under",
         "beside",
         "on",
         "in"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (on) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (on) है।"
     },
     {
       "id": 68,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate question tag to fill in the blank.Few workers demanded the management to withdraw its new service rules, ______________?",
-      "question_image": null,
       "options": [
         "didn't they",
         "do they",
         "did they",
         "don't they"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (did they) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (did they) है।"
     },
     {
       "id": 69,
       "section": "English Language and Comprehension",
       "question": "Read the prose passage below carefully. An underlined phrase appears in the passage. Choose the most appropriate one-word substitute for this underlined phrase from the options provided.The underground pamphlet circulated swiftly among disenfranchised youth, urging the dismantling of inherited institutions. Its anonymous author emerged as one who supports extreme or revolutionary political views, rejecting incremental reform in favour of systemic upheaval.",
-      "question_image": null,
       "options": [
         "Conservative",
         "Radical",
         "Moderate",
         "Pacifist"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Radical) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Radical) है।"
     },
     {
       "id": 70,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.The room in which the boys were fed was a large stone hall, with a copper at one end, out of which the master ladled the gruel at mealtimes. Of this festive composition, each boy had one porringer, and no more—except on occasions of great public rejoicing, when he had two ounces and a quarter of bread besides. The bowls never wanted washing. The boys polished them with their spoons till they shone again; and when they had performed this operation (which never took long, the spoons being nearly as large as the bowls), they would sit staring at the copper with such eager eyes, as if they could have devoured the very bricks of which it was composed.  Oliver Twist and his companions suffered the tortures of slow starvation for three months. At last, they got so voracious and wild with hunger that one boy, taller than the rest, hinted darkly to his comrades that unless he had another basin of gruel, he might eat the weak boy next to him. A council was held; lots were cast to determine who should walk up to the master after supper to ask for more. The lot fell to Oliver.  Evening arrived; the boys took their places. The master, in his cook’s uniform, stationed himself at the copper. Oliver rose, trembling, and advancing to the master, said: “Please, sir, I want some more.” The master was a fat, healthy man, but he turned very pale. Staring in stupefied astonishment, he clung for support to the copper. The assistants were paralysed with wonder; the boys with fear. “What!” said the master at length, in a faint voice. “More?” The master then aimed a blow at Oliver's head with the ladle, pinioned him in his arms and shrieked aloud for the beadle.What is the main theme highlighted in the given passage?",
-      "question_image": null,
       "options": [
         "Brutality and inhumanity of the institutional systems",
         "Description of the meals given to the poor and helpless boys",
         "Details of the workhouse utensils",
         "Description of the workhouse building where Oliver and the other boys stayed"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Brutality and inhumanity of the institutional systems) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Brutality and inhumanity of the institutional systems) है।"
     },
     {
       "id": 71,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the right order to form a meaningful and coherent paragraph.A. In a mere fraction of a second, I suffered a devastating impact that resulted in a severely broken nose and multiple, complex skull fractures that would require extensive medical attention.B. However, due to the shock and trauma of the incident, I was completely oblivious to the gravity of my injuries and the potentially long-term consequences they might entail.C. Unfortunately, my memory of the precise moment of impact is completely obliterated, leaving me with no recollection of the traumatic event that had just transpired.D. As my classmate, in a moment of carelessness, took a full swing with the bat, it suddenly and unexpectedly slipped out of his grasp, sending the bat flying uncontrollably towards me with immense force.E. On the final day of my sophomore year of high school, in a freak and terrifying accident, I was violently struck in the face with a baseball bat, an incident that would have a profound impact on my life.750",
-      "question_image": null,
       "options": [
         "DCBAE",
         "BCADE",
         "EBDCA",
         "EDACB"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (EDACB) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (EDACB) है।"
     },
     {
       "id": 72,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A) Literature often serves as a mirror to society, reflecting its values and concerns.B) Through these narratives, readers gain insight into the cultural and historical context of the time.C) Many authors have used their works to comment on social issues, offering both critique and commentary.D) As a result, literature not only entertains but also educates, making it a powerful tool for social change.",
-      "question_image": null,
       "options": [
         "ABCD",
         "ACBD",
         "BCAD",
         "ABDC"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (ACBD) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (ACBD) है।"
     },
     {
       "id": 73,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blanks. If no article is required, select the option with ‘No article required’. They discussed ___ relevance of ___ democracy in modern times.",
-      "question_image": null,
       "options": [
         "a ; a",
         "the ; No article required",
         "No article required ; a",
         "a ; the"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (the ; No article required) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (the ; No article required) है।"
     },
     {
       "id": 74,
       "section": "English Language and Comprehension",
       "question": "Substitute the following word segment with suitable proverb.If you keep asking your child what she is doing every hour of the day, it is not helping her in any way. As they say instead of checking something constantly, you should just give it time to get done.",
-      "question_image": null,
       "options": [
         "beauty is in the eye of the beholder",
         "better late than never",
         "beggars can't be choosers",
         "a watched pot never boils"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (a watched pot never boils) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (a watched pot never boils) है।"
     },
     {
       "id": 75,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.In the age of algorithmic decision-making, predictive governance has emerged as a dominant paradigm for public administration. Governments are increasingly deploying data-driven models to pre-empt criminal activity, optimise urban planning, and forecast economic volatility. While ostensibly rational, this model introduces a paradox: the more predictive power a system accumulates, the more it flattens human agency into statistical probabilities. The future becomes not an open horizon but a quantifiable extension of past behaviours. This techno-bureaucratic reliance risks marginalising outliers — those whose experiences fall outside normative data sets — and institutionalising bias under the guise of objectivity. Moreover, the ethical oversight of such systems lags far behind their deployment, creating a governance vacuum wherein accountability is outsourced to opaque algorithms. In prioritising efficiency and foresight, predictive governance often bypasses deliberative democracy, weakening participatory channels in favour of streamlined outcomes.Citizens are recast as data points, their individual complexities reduced to patterns in a machine-readable format. This mechanistic interpretation of society may inadvertently erode trust in institutions that no longer appear responsive but merely anticipatory. Therefore, the question is not only whether predictive systems function but also for whom they function — and who is excluded by their logic. A governance structure that projects authority through prediction must be tempered by transparent frameworks, ethical scrutiny, and above all, a reaffirmation of the human condition as more than a predictable variable.What best describes the structure of the passage?",
-      "question_image": null,
       "options": [
         "Case Study → Rebuttal → Policy Proposal",
         "Anecdote → Research Findings → Political Critique",
         "Concept Introduction → Benefits → Risks → Philosophical Reflection",
         "Problem → Historical Context → Solution"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Concept Introduction → Benefits → Risks → Philosophical Reflection) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Concept Introduction → Benefits → Risks → Philosophical Reflection) है।"
     },
     {
       "id": 76,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the question that follows.Microfinance, the provision of financial services to low-income individuals and small businesses, plays a crucial role in economic development. By offering small loans, savings accounts and other financial products, microfinance institutions (MFIs) aim to empower people who lack access to traditional banking services. These financial services enable individuals to start or expand small businesses, invest in education and improve their living conditions, contributing to broader economic growth and poverty reduction.One of the key benefits of microfinance is its ability to promote entrepreneurship. Small loans, often referred to as microloans, provide the initial capital that individuals need to start or grow their businesses. This entrepreneurial activity not only generates income for borrowers but also creates jobs and stimulates local economies. By fostering a culture of entrepreneurship, microfinance can drive sustainable economic development.Microfinance also plays a vital role in improving access to education. Families with limited financial resources can use microloans to pay for school fees, books and other educational expenses. Investments in education can have long-term benefits, as they equip individuals with the skills and knowledge needed to secure better-paying jobs and break the cycle of poverty.Select the most appropriate title for the passage.",
-      "question_image": null,
       "options": [
         "Microfinance and Economic Development",
         "Microfinance and Its Liability",
         "Microfinance and Its Importance",
         "Microfinance and People"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Microfinance and Economic Development) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Microfinance and Economic Development) है।"
     },
     {
       "id": 77,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the passage and answer the following question: Precipitation in the Mediterranean region is characterised by its uneven distribution throughout the year, with a strong deficit during the warm season. The region is also known for its high spatial and temporal variability in precipitation levels. The substantial year-to-year fluctuations in precipitation are of particular concern due to their significant implications for water resources, a vital asset in the region.The Mediterranean region is subject to the influences of both subtropical circulation and the prevailing sub-polar-frontal low-pressure systems, which exhibit substantial variation in position and intensity over annual and decadal time scales. Anthropogenic forcing is thought to have the potential to disrupt these circulation mechanisms, primarily due to the expansion of the Hadley circulation cell and a northwards shift of the subtropical high-pressure belts. The ultimate consequence could be the prevalence of anticyclonic conditions, accompanied by a reduction in the occurrence of the extratropical storms that typically impact the Mediterranean region. The most conspicuous outcome of these changes could be a decline in precipitation and the increased frequency and severity of meteorological droughts.Indeed, a substantial body of climate change projections anticipates a predominant decrease in precipitation across the Mediterranean region through the twenty-first century. Should this trend be confirmed, it would carry significant implications for both Mediterranean ecosystems and various human activities reliant on water resources. The ramifications include reduced streamflow and water availability, heightened severity of hydrological droughts, elevated forest fire risks, increased plant mortality rates, and decreased crop yields. Considering the conflicting findings presented by some studies on historical precipitation trends in the Mediterranean region, it is crucial to undertake a thorough assessment of long-term precipitation dynamics.Q77. Select the most appropriate ANTONYM of the underlined word in the given sentence.\n\nShould this trend be confirmed, it would carry significant implications for both Mediterranean ecosystems and various human activities reliant on water resources.",
-      "question_image": null,
       "options": [
         "Ineffability",
         "Peregrination",
         "Defenestration",
         "Consideration"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Consideration) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Consideration) है।"
     },
     {
       "id": 78,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.You won’t improve your skills ____________________ you practice consistently.",
-      "question_image": null,
       "options": [
         "beside",
         "during",
         "unless",
         "rather"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (unless) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (unless) है।"
     },
     {
       "id": 79,
       "section": "English Language and Comprehension",
       "question": "Select the option that correctly rectifies the spelling error in the given sentence.The consolidation of the various departments into one streamlined unit improved efficiancy and communication.",
-      "question_image": null,
       "options": [
         "communicetion",
         "consalidation",
         "efficiency",
         "departiments"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (efficiency) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (efficiency) है।"
     },
     {
       "id": 80,
       "section": "English Language and Comprehension",
       "question": "What does the proverb 'Make yourself all honey and the flies will devour you' mean?",
-      "question_image": null,
       "options": [
         "Sweetness always leads to success and admiration",
         "Being too sweet and servile invites exploitation",
         "Attracting attention is always beneficial",
         "If you are successful, you will attract others"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Being too sweet and servile invites exploitation) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Being too sweet and servile invites exploitation) है।"
     },
     {
       "id": 81,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:दिए गए गद्यांश के आधार पर निम्नलिखित प्रश्नों के उत्तर दीजिए।भारतवर्ष में मुद्रण–यंत्र स्थापित करने का श्रेय पुर्तगालियों को है। सन् 1550 में उन्होंने दो मुद्रण-यंत्र मंगवाकर धार्मिक पुस्तकें छापनी आरम्भ कीं। सन् 1674 में ईस्ट इंडिया कम्पनी द्वारा बम्बई में मुद्रण-कार्य आरम्भ किया गया। अंग्रेज़ों और मिशनरियों ने समाचारपत्र निकाले, किंतु अपने देश के संदर्भ में पत्र निकालने की पहल राजा राम मोहन राय ने की। सन् 1821 में उनके सहयोग से संवाद-कौमुदी नामक साप्ताहिक बंगला-पत्र का प्रकाशन आरम्भ हुआ। इसमें सामाजिक समस्याओं के सम्बंध में लेख रहते थे। राजा राममोहन राय ने सती-प्रथा के विरुद्ध लिखना आरम्भ किया जिससे परम्परावादी हिंदु-समाज उनके विरुद्ध हो गया और इस पत्र को भी क्षति पहुँची। हिंदी का पहला पत्र ‘उदंत मार्तण्ड’ सन् 1826 में प्रकाशित हुआ। हिंदी का दैनिक पत्र ‘समाचार सुधावर्षण’ ( 1854) श्यामसुंदर सेन के सम्पादकत्व में कलकत्ता से ही निकला। उन्नीसवीं शताब्दी के उत्तरार्ध में पत्र-पत्रिकाओं का प्रकाशन और भी अधिक संख्या में होने लगा। इससे नये विचारों के आदान-प्रदान में सुविधा हुई। विगलित सामाजिक-नैतिक रूढ़ियों के विरोध में पत्रों का अच्छा उपयोग किया गया। इनके माध्यम से अंग्रेज़ी हुकूमत की उन कार्यवाहियों का भी विरोध शुरू हुआ जो देश-हित के विरुद्ध पड़ती थीं। इनसे वैज्ञानिक दृष्टिकोण और राष्ट्रीयता के प्रचार-प्रसार में भी पर्याप्त सहयोग मिला। भारतेंदु के समय में शायद ही कोई ऐसा साहित्यकार रहा हो जिसका सम्बंध किसी-न-किसी पत्र-पत्रिका से न रहा हो।गद्यांश के लिए उपयुक्त शीर्षक का चयन कीजिए।",
-      "question_image": null,
       "options": [
         "भारत में मुद्रण का विकास",
         "दूरदर्शन",
         "समाचार पत्र",
         "हिंदी पत्रकारिता"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (समाचार पत्र) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (समाचार पत्र) है।"
     },
     {
       "id": 82,
       "section": "Hindi Language and Comprehension",
       "question": "दिये गए वाक्य खंडों को क्रम में लिखिए।(a) क्रोध करके हम दूसरों को(b) सकते हैं, अपनी पशुता की(c) स्वीकृति उससे कराना चाहते हैं(d) अपनी गलती नहीं समझा",
-      "question_image": null,
       "options": [
         "c,d,a,b",
         "a,d,b,c",
         "b,d,c,a",
         "b,a,d,c"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (a,d,b,c) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (a,d,b,c) है।"
     },
     {
       "id": 83,
       "section": "Hindi Language and Comprehension",
       "question": "दिए गये वाक्य में वर्तनी की अशुद्धि को पहचान कर निम्नांकित विकल्पों से शुद्ध शब्द का चयन करें-क्रोध की सर्वोत्तम औषधी विलम्ब है।",
-      "question_image": null,
       "options": [
         "औषधि",
         "औशधी",
         "औसधी",
         "औशधि"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (औषधि) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (औषधि) है।"
     },
     {
       "id": 84,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:दिए गए गद्यांंश के आधार पर निम्नांकित प्रश्नों के उत्तर दीजिए-- वह मेज पर सिर रखे सो रहा था। एक लिखा हुआ कागज मेज पर खुला पड़ा था। व्यापारी ने वह कागज उठाया, लिखा था \"कल 12 बजे मैं आज़ाद हो जाऊंगा। लेकिन अब मुझे आज़ादी नहीं चाहिए, ज़िंदगी नहीं चाहिए, वह सब कुछ जिन्हें तुम अच्छी चीजें कहते हो, मुझे नहीं चाहिए। पन्द्रह साल तक मैंने इस धरती की ज़िंदगी को देखा परखा है।  किताबों में मैंने मदिरा पी, गीत गाये, जंगलों में घूमा, शिकार किये, सुन्दर औरतों से प्यार किया। पहाड़ों की ऊंचाई छुई, आंधी तूफान देखे, शहर, दरिया, झीलें और समुद्र देखे। चरवाहों का मधुर संगीत सुना। शैतान और भगवान से बातें की। मैं अन्तहीन अंधेरे गड्‌ढों में गया, चमत्कार किये, हत्याएं की, शहर जलाए, नये धर्मों का प्रचार किया, प्रदेश जीते और राज्य स्थापित किये। सारे युगों का विचार तत्व मेरे मस्तिष्क में समाहित है। मैं तुम सबसे अधिक जानता हूँ। तुम सब कल नहीं रहोगे। रहने लायक, पाने लायक कुछ है ही नहीं। कल समय से पहले ही मैं यहां से निकल जाऊंगा। मैं तुम्हें शर्त से आज़ाद करता हूँ।\" व्यापारी ने उस कागज को चुपचाप मेज पर रख दिया और बाहर चला आया।निम्नलिखित में से कौनसा विकल्प आज़ाद शब्द का पर्यायवाची शब्द नहीं है?",
-      "question_image": null,
       "options": [
         "कारामुक्त",
         "मोक्ष",
         "पराधीन",
         "स्वतंत्र"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (पराधीन) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (पराधीन) है।"
     },
     {
       "id": 85,
       "section": "Hindi Language and Comprehension",
       "question": "दिए गये विकल्पों में से \" नज़्र करना \" मुहावरे के लिए उपयुक्त अर्थ का चयन करें-",
-      "question_image": null,
       "options": [
         "भेंट करना",
         "दिखाई देना",
         "पेशगी",
         "देखना"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (भेंट करना) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (भेंट करना) है।"
     },
     {
       "id": 86,
       "section": "Hindi Language and Comprehension",
       "question": "सर्वोचित कारक चिह्न से दिए गए वाक्य का रिक्त स्थान पूर्ण करें—एब्सर्ड नाटककार परंपरागत भाषा ...... महत्त्व नहीं देते।",
-      "question_image": null,
       "options": [
         "का",
         "को",
         "पर",
         "से"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (को) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (को) है।"
     },
     {
       "id": 87,
       "section": "Hindi Language and Comprehension",
       "question": "सम्बन्ध कारक की दृष्टि से वाक्य को पूर्ण बनाने के लिए सही विकल्प का चयन करें- भारतीय परंपरा त्याग ___ परंपरा है।",
-      "question_image": null,
       "options": [
         "ने",
         "में",
         "की",
         "से"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (की) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (की) है।"
     },
     {
       "id": 88,
       "section": "Hindi Language and Comprehension",
       "question": "उपयुक्त 'कारक चिह्न' का प्रयोग कर वाक्य को पूर्ण कीजिए।​​​​​​​ 'कृष्ण .........................कंस को मारा।'",
-      "question_image": null,
       "options": [
         "से",
         "के लिए",
         "ने",
         "को"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (ने) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (ने) है।"
     },
     {
       "id": 89,
       "section": "Hindi Language and Comprehension",
       "question": "'अभिसरण' शब्द के उपयुक्त विलोम का चयन करें",
-      "question_image": null,
       "options": [
         "अनभ्यस्त",
         "अभिहित",
         "अपसरण",
         "अहर्ता"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (अपसरण) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (अपसरण) है।"
     },
     {
       "id": 90,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:दिए गए गद्यांंश के आधार पर निम्नांकित प्रश्नों के उत्तर दीजिए-- वह मेज पर सिर रखे सो रहा था। एक लिखा हुआ कागज मेज पर खुला पड़ा था। व्यापारी ने वह कागज उठाया, लिखा था \"कल 12 बजे मैं आज़ाद हो जाऊंगा। लेकिन अब मुझे आज़ादी नहीं चाहिए, ज़िंदगी नहीं चाहिए, वह सब कुछ जिन्हें तुम अच्छी चीजें कहते हो, मुझे नहीं चाहिए। पन्द्रह साल तक मैंने इस धरती की ज़िंदगी को देखा परखा है।  किताबों में मैंने मदिरा पी, गीत गाये, जंगलों में घूमा, शिकार किये, सुन्दर औरतों से प्यार किया। पहाड़ों की ऊंचाई छुई, आंधी तूफान देखे, शहर, दरिया, झीलें और समुद्र देखे। चरवाहों का मधुर संगीत सुना। शैतान और भगवान से बातें की। मैं अन्तहीन अंधेरे गड्‌ढों में गया, चमत्कार किये, हत्याएं की, शहर जलाए, नये धर्मों का प्रचार किया, प्रदेश जीते और राज्य स्थापित किये। सारे युगों का विचार तत्व मेरे मस्तिष्क में समाहित है। मैं तुम सबसे अधिक जानता हूँ। तुम सब कल नहीं रहोगे। रहने लायक, पाने लायक कुछ है ही नहीं। कल समय से पहले ही मैं यहां से निकल जाऊंगा। मैं तुम्हें शर्त से आज़ाद करता हूँ।\" व्यापारी ने उस कागज को चुपचाप मेज पर रख दिया और बाहर चला आया।उपरोक्त गद्यांश के आधार पर उत्तर दें।\n\nव्यक्ति ने संसार का अनुभव कैसे किया?",
-      "question_image": null,
       "options": [
         "पुस्तकें पढ़ कर",
         "फिल्में देख कर",
         "व्यावहारिक अनुभव द्वारा",
         "खबरें पढ़ कर"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (पुस्तकें पढ़ कर) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (पुस्तकें पढ़ कर) है।"
     },
     {
       "id": 91,
       "section": "Hindi Language and Comprehension",
       "question": "रिक्त स्थानों की पूर्ति कारक चिह्न से करें :राजा _______ गरीबों _______ धन दिया।",
-      "question_image": null,
       "options": [
         "ने, में",
         "को, ने",
         "से, ने",
         "ने, को"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (ने, को) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (ने, को) है।"
     },
     {
       "id": 92,
       "section": "Hindi Language and Comprehension",
       "question": "'जिसकी ग्रीवा सुंदर हो' वाक्यांश के लिए सार्थक  शब्द होगा -81",
-      "question_image": null,
       "options": [
         "सुराही",
         "सुकंठ",
         "सुबाहु",
         "सुग्रीव"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (सुग्रीव) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (सुग्रीव) है।"
     },
     {
       "id": 93,
       "section": "Hindi Language and Comprehension",
       "question": "विशेषण  के आधार पर वाक्य पूर्ण कीजिए।बुजुर्गों को _____ और सुखी जीवन जीना चाहिए।",
-      "question_image": null,
       "options": [
         "स्वस्थ",
         "बलवान",
         "आकर्षक",
         "चंचल"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (स्वस्थ) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (स्वस्थ) है।"
     },
     {
       "id": 94,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित वाक्यों को ध्यान से पढ़कर दिए गए विकल्पों में से उचित क्रम चुनिए –1.भगत सिंह देश के बड़े क्रांतिकारी थे2.हँसते-हँसते वे फाँसी के फंदे पर झूल गए3.राष्ट्रभक्ति से उनका मन कभी विचलित नहीं हुआ4.राष्ट्र ही उनके लिए सर्वोपरि था 4885",
-      "question_image": null,
       "options": [
         "3, 1, 2, 4",
         "2, 3, 4, 1",
         "1, 3, 4, 2",
         "4, 2, 1, 3"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (1, 3, 4, 2) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (1, 3, 4, 2) है।"
     },
     {
       "id": 95,
       "section": "Hindi Language and Comprehension",
       "question": "'काम आना' मुहावरे का सही अर्थ है -94",
-      "question_image": null,
       "options": [
         "किसी की सहायता करना",
         "वीरगति  प्राप्त होना",
         "काम पर जाना",
         "काम के समय गायब हो जाना"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (वीरगति  प्राप्त होना) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (वीरगति  प्राप्त होना) है।"
     },
     {
       "id": 96,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:गद्यांश के आधार पर प्रश्न का उत्तर दें।तुर्कों के द्वारा भारत में शासन क़ायम करने से लेकर शाहजहाँ तक के राजनीतिक इतिहास में सबसे महत्त्वपूर्ण तथ्य केंद्रीकृत शासन व्यवस्था है। तुर्कों ने शासन-व्यवस्था को सुचारू रूप से चलाने के लिए केंद्रीय प्रशासन और स्थानीय प्रशासन की व्यवस्था की। आय और व्यय का हिसाब रखने के लिए अधिकारियों की नियुक्तियाँ की गईं। साम्राज्य को विभिन्न सूबों में बाँटा गया और फिर सूबों को भी विभाजित किया गया, जिसे उस समय शिक कहा जाता था। शिक के नीचे परगने होते थे। गाँव में खुत, मुकद्दम, पटवारी के माध्यम से भू-राजस्व की वसूली की जाती थी। तुर्कों के आने के बाद दूसरा महत्त्वपूर्ण परिवर्तन शहरों का उदय है। दिल्ली, आगरा, बनारस, इलाहाबाद, पटना आदि कई शहरों का उदय हुआ। तुर्कों के साथ नई तकनीक भारत आई। इनमें चरखा, धुनकी, रहट, काग़ज़, चुम्बकीय कुतुबनुमा, घुड़सवार सेना प्रमुख हैं। चरखे के आने से वस्त्र उद्योग में काफी बढ़ोत्तरी हुई। कारीगर की क्षमता बढ़ जाने से वस्त्र उद्योग भारत का सबसे बड़ा उद्योग हो गया। इस काल में शुरू होने वाला नया उद्योग काग़ज़ निर्माण का था।110तुर्कों के साथ आने वाली नवीन तकनीक निम्न में से नहीं है-113",
-      "question_image": null,
       "options": [
         "धुनकी",
         "चरखा",
         "चुम्बकीय कुतुबनुमा",
         "जल सेना"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (जल सेना) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (जल सेना) है।"
     },
     {
       "id": 97,
       "section": "Hindi Language and Comprehension",
       "question": "रिक्त स्थान के लिए उपयुक्त क्रिया-विशेषण का चयन दिए गए विकल्पों में से करें।विद्यार्थियों ने अध्यापक के आदेशों का..........पालन किया।",
-      "question_image": null,
       "options": [
         "अचानक",
         "श्रेष्ठ",
         "अत्यंत",
         "तुरन्त"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (तुरन्त) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (तुरन्त) है।"
     },
     {
       "id": 98,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित वाक्य की पूर्ति उचित कारक शब्द से करें।क्या तुम इसी घर ___ रहते हो?",
-      "question_image": null,
       "options": [
         "में",
         "ने",
         "का",
         "से"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (में) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (में) है।"
     },
     {
       "id": 99,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:गद्यांश के आधार पर प्रश्न का उत्तर दें।हमारे देश के अन्दर कुछ ऐसे राज्य हैं- (उत्तर प्रदेश, मध्य प्रदेश, बिहार, राजस्थान, छत्तीसगढ़, उत्तरांचल, झारखण्ड, दिल्ली और हरियाणा) जिनकी राजभाषा और राज्यभाषा हिन्दी ही है। इन राज्यों के परस्पर सम्पर्क में हिन्दी का प्रयोग होता है, परन्तु कुछ ऐसे भी राज्य हैं, जैसे बंगाल, उड़ीसा, कर्नाटक, तमिलनाडु और केरल जिनकी राज्य भाषाएं बंगला, उड़िया, कन्नड़, तेलगू, मलियाली आदि हैं। ये राज्य सरकारें जब देश के अन्य राज्यों से प्रशासनिक सम्पर्क करती हैं तो अपनी राज्यभाषा के अतिरिक्त अंग्रेजी और हिन्दी का भी प्रयोग करती हैं। अधिकांश राज्य सरकारें सामान्यतः अपनी राज्यभाषाओं का ही प्रयोग करती हैं। परन्तु केन्द्र सरकार के साथ राज्य के प्रशासनिक व्यवहार में राजभाषा का ही प्रयोग होता है।हिन्दी को किस रूप में मान्यता प्राप्त है -",
-      "question_image": null,
       "options": [
         "क्षेत्रीय भाषा",
         "विदेशी भाषा",
         "राजभाषा",
         "राष्ट्रीय भाषा"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (राजभाषा) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (राजभाषा) है।"
     },
     {
       "id": 100,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:दिए गए गद्यांश के आधार पर पूछे गए प्रश्नों का उत्तर दीजिए।         संस्मरण में लेखक अपने जीवन की उस घटना का चित्रण करता है, जिसे वह नहीं भूल पाता। इस तरह इसमें वैयक्तिकता होती है इसमें लेखक का अपना जीवन भी आ जाता है। महादेवी वर्मा कहती हैं,- इन स्मृतियों में मेरा जीवन भी आ गया है। यह स्वाभाविक भी था।‘ (अतीत के चलचित्र) संस्मरण में किसी घटना या व्यक्ति के जीवन के किसी स्वत:स्फूर्त और महत्वपूर्ण खंड का चित्रण होता है। इस तरह इसमें जहाँ व्यक्ति विशेष का वैशिष्ट्य साकार हो उठता है, वहीं वे परिस्थितियाँ भी स्पष्ट हो जाती हैं, जिनमें वह जीता है। संस्मरण एक कथात्मक साहित्य रूप लगता है, पर इसकी कथा वास्तविक होती है। इसमें जीवन के कटु और मधुर सभी पक्षों का चित्रण होता है।उपर्युक्त गद्यांश में ‘मधुर’ के लिए किस वाक्य में उचित शब्द का प्रयोग हुआ है?",
-      "question_image": null,
       "options": [
         "मैं आगरा का रहने वाला हूँ।",
         "रोहित स्वाभाव से उग्र है।",
         "नरेश सबका प्रिय है।",
         "नीरज किस्मत का धनी है।"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (नरेश सबका प्रिय है।) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (नरेश सबका प्रिय है।) है।"
     }
   ]
 }

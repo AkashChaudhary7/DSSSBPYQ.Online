@@ -6,321 +6,281 @@
       "id": 1,
       "section": "English Language and Comprehension",
       "question": "Choose the correct proverb to replace the highlighted segment of the sentence given below.Even though she didn't have much experience, she took the job and succeeded. She really proved that being brave and taking risks can lead to success. 1883",
-      "question_image": null,
       "options": [
         "a picture is worth a thousand words",
         "you can’t make an omelette without breaking eggs",
         "a penny saved is a penny earned",
         "fortune favours the bold"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (fortune favours the bold) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (fortune favours the bold) है।"
     },
     {
       "id": 2,
       "section": "English Language and Comprehension",
       "question": "Choose the correct spelling of the underlined word in the paragraph given below.The committee raised concerns about the plagarism detected in several postgraduate theses. It was a wake-up call against the advent of artificial intelligence being used in research.",
-      "question_image": null,
       "options": [
         "plagiarism",
         "plagourism",
         "plagirism",
         "plagerism"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (plagiarism) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (plagiarism) है।"
     },
     {
       "id": 3,
       "section": "English Language and Comprehension",
       "question": "Choose the option that can be used to substitute the part given in the bracket.At the family reunion, the atmosphere was filled with _______ (filled with pleasure or delight) laughter and engaging conversations. Everyone appreciated the jovial host who made sure that the event was enjoyable for all. The cousins played games and shared old stories.6959",
-      "question_image": null,
       "options": [
         "thoughtful",
         "joyful",
         "serious",
         "sombre"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (joyful) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (joyful) है।"
     },
     {
       "id": 4,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option that can substitute the underlined words in the given sentence.The wise man said, fortune favors those who take timely opportunities.1969",
-      "question_image": null,
       "options": [
         "Every cloud has a silver lining",
         "The early bird catches the worm",
         "Where there’s smoke, there’s fire",
         "Actions speak louder than words"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (The early bird catches the worm) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (The early bird catches the worm) है।"
     },
     {
       "id": 5,
       "section": "English Language and Comprehension",
       "question": "Choose the correct positive question tag that completes the sentence.She doesn’t intend to submit her thesis before December, ______?",
-      "question_image": null,
       "options": [
         "has she",
         "did she",
         "is she",
         "does she"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (does she) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (does she) है।"
     },
     {
       "id": 6,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate question tag to complete the given sentence.Had the data been interpreted more cautiously, especially given the small sample size, the peer reviewers might not have issued such severe criticisms, _______ ?",
-      "question_image": null,
       "options": [
         "had they?",
         "might they?",
         "did they?",
         "would they?"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (would they?) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (would they?) है।"
     },
     {
       "id": 7,
       "section": "English Language and Comprehension",
       "question": "Select an appropriate antonym of the underlined word to complete the following conversation.Speaker A: Her tone during the hearing was noticeably inflammatory, bordering on hostile.Speaker B: That surprises me — she’s usually quite _______ in tense discussions.",
-      "question_image": null,
       "options": [
         "rhetorical",
         "diplomatic",
         "assertive",
         "reluctant"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (diplomatic) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (diplomatic) है।"
     },
     {
       "id": 8,
       "section": "English Language and Comprehension",
       "question": "Complete the sentence with suitable adverb.She is going for registration right now. But she is _ prepared to stay back in Mumbai if required.3448",
-      "question_image": null,
       "options": [
         "much",
         "full",
         "slowly",
         "fully"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (fully) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (fully) है।"
     },
     {
       "id": 9,
       "section": "English Language and Comprehension",
       "question": "The given sentences, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a letter. Choose the most logical order of the sentences from among the given choices to construct a coherent paragraph.A. However, this progress also amplifies ethical concerns surrounding data privacy, surveillance, and autonomy.B. Artificial intelligence is rapidly transforming industries, from healthcare to logistics.C. The challenge lies in ensuring that innovation is guided by transparent, inclusive, and accountable frameworks.D. While its benefits are undeniable, unchecked technological growth risks reinforcing systemic inequalities.",
-      "question_image": null,
       "options": [
         "D B C A",
         "B A D C",
         "C B D A",
         "A B D C"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (B A D C) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (B A D C) है।"
     },
     {
       "id": 10,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the passage and choose the correct answer to the questions based on it.The Lion King, while ostensibly a children's animated film, offers a rich tapestry for postgraduate scholarly inquiry across various disciplines, including film studies, cultural studies, political science, and even postcolonial theory. Its enduring appeal extends beyond its technical brilliance and captivating soundtrack, residing in its sophisticated engagement with archetypal narratives and complex themes. From a structuralist perspective, the film powerfully reworks Hamlet, exploring themes of regicide, usurpation, guilt, and the rightful heir's journey of self-discovery and responsibility.Cultural theorists might analyze its depiction of the \"circle of life\" as a quasi-spiritual ecological philosophy, questioning its implications for human-animal relations or its potentially hierarchical undertones. The character dynamics, particularly the contrasting leadership styles of Mufasa and Scar, invite political scientists to explore models of benevolent authoritarianism versus tyrannical rule, and the consequences for social order within a closed system. Furthermore, the film's global reception and its profound influence on popular culture, including its Broadway adaptation, can be examined through the lens of media transnationalism and Disney's soft power. Postcolonial readings might even deconstruct its African setting, considering how it employs or subverts orientalist tropes, or if it romanticizes a \"natural\" hierarchy in a way that echoes colonial narratives. Thus, The Lion King is not merely a cinematic achievement but a complex cultural artifact, ripe for deconstruction and critical re-evaluation, revealing layers of meaning pertinent to contemporary academic discourse on power, morality, and environmental stewardship.Which of the following facts about The Lion King is explicitly mentioned in the passage?",
-      "question_image": null,
       "options": [
         "It has a Broadway adaptation.",
         "It was released in the year 1994.",
         "It features a character named Simba.",
         "It was the highest-grossing animated film of its time."
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (It has a Broadway adaptation.) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (It has a Broadway adaptation.) है।"
     },
     {
       "id": 11,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the passage and choose the correct answer to the questions based on it.The Lion King, while ostensibly a children's animated film, offers a rich tapestry for postgraduate scholarly inquiry across various disciplines, including film studies, cultural studies, political science, and even postcolonial theory. Its enduring appeal extends beyond its technical brilliance and captivating soundtrack, residing in its sophisticated engagement with archetypal narratives and complex themes. From a structuralist perspective, the film powerfully reworks Hamlet, exploring themes of regicide, usurpation, guilt, and the rightful heir's journey of self-discovery and responsibility.Cultural theorists might analyze its depiction of the \"circle of life\" as a quasi-spiritual ecological philosophy, questioning its implications for human-animal relations or its potentially hierarchical undertones. The character dynamics, particularly the contrasting leadership styles of Mufasa and Scar, invite political scientists to explore models of benevolent authoritarianism versus tyrannical rule, and the consequences for social order within a closed system. Furthermore, the film's global reception and its profound influence on popular culture, including its Broadway adaptation, can be examined through the lens of media transnationalism and Disney's soft power. Postcolonial readings might even deconstruct its African setting, considering how it employs or subverts orientalist tropes, or if it romanticizes a \"natural\" hierarchy in a way that echoes colonial narratives. Thus, The Lion King is not merely a cinematic achievement but a complex cultural artifact, ripe for deconstruction and critical re-evaluation, revealing layers of meaning pertinent to contemporary academic discourse on power, morality, and environmental stewardship.What is the predominant tone of the passage when discussing The Lion King for postgraduate study?",
-      "question_image": null,
       "options": [
         "Biographical and historical",
         "Skeptical and dismissive of its depth",
         "Enthusiastic and uncritical",
         "Analytical and scholarly"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Analytical and scholarly) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Analytical and scholarly) है।"
     },
     {
       "id": 12,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the passage and choose the correct answer to the questions based on it.The Lion King, while ostensibly a children's animated film, offers a rich tapestry for postgraduate scholarly inquiry across various disciplines, including film studies, cultural studies, political science, and even postcolonial theory. Its enduring appeal extends beyond its technical brilliance and captivating soundtrack, residing in its sophisticated engagement with archetypal narratives and complex themes. From a structuralist perspective, the film powerfully reworks Hamlet, exploring themes of regicide, usurpation, guilt, and the rightful heir's journey of self-discovery and responsibility.Cultural theorists might analyze its depiction of the \"circle of life\" as a quasi-spiritual ecological philosophy, questioning its implications for human-animal relations or its potentially hierarchical undertones. The character dynamics, particularly the contrasting leadership styles of Mufasa and Scar, invite political scientists to explore models of benevolent authoritarianism versus tyrannical rule, and the consequences for social order within a closed system. Furthermore, the film's global reception and its profound influence on popular culture, including its Broadway adaptation, can be examined through the lens of media transnationalism and Disney's soft power. Postcolonial readings might even deconstruct its African setting, considering how it employs or subverts orientalist tropes, or if it romanticizes a \"natural\" hierarchy in a way that echoes colonial narratives. Thus, The Lion King is not merely a cinematic achievement but a complex cultural artifact, ripe for deconstruction and critical re-evaluation, revealing layers of meaning pertinent to contemporary academic discourse on power, morality, and environmental stewardship.Which of the following titles best reflects the academic approach taken in the passage?",
-      "question_image": null,
       "options": [
         "The History and Production of Disney Animation",
         "Comparing The Lion King to Shakespeare's Hamlet",
         "The Lion King: A Multidisciplinary Analysis of Its Archetypal and Thematic Depths",
         "The Global Impact of Disney's Animated Films"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (The Lion King: A Multidisciplinary Analysis of Its Archetypal and Thematic Depths) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (The Lion King: A Multidisciplinary Analysis of Its Archetypal and Thematic Depths) है।"
     },
     {
       "id": 13,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the passage and choose the correct answer to the questions based on it.The Lion King, while ostensibly a children's animated film, offers a rich tapestry for postgraduate scholarly inquiry across various disciplines, including film studies, cultural studies, political science, and even postcolonial theory. Its enduring appeal extends beyond its technical brilliance and captivating soundtrack, residing in its sophisticated engagement with archetypal narratives and complex themes. From a structuralist perspective, the film powerfully reworks Hamlet, exploring themes of regicide, usurpation, guilt, and the rightful heir's journey of self-discovery and responsibility.Cultural theorists might analyze its depiction of the \"circle of life\" as a quasi-spiritual ecological philosophy, questioning its implications for human-animal relations or its potentially hierarchical undertones. The character dynamics, particularly the contrasting leadership styles of Mufasa and Scar, invite political scientists to explore models of benevolent authoritarianism versus tyrannical rule, and the consequences for social order within a closed system. Furthermore, the film's global reception and its profound influence on popular culture, including its Broadway adaptation, can be examined through the lens of media transnationalism and Disney's soft power. Postcolonial readings might even deconstruct its African setting, considering how it employs or subverts orientalist tropes, or if it romanticizes a \"natural\" hierarchy in a way that echoes colonial narratives. Thus, The Lion King is not merely a cinematic achievement but a complex cultural artifact, ripe for deconstruction and critical re-evaluation, revealing layers of meaning pertinent to contemporary academic discourse on power, morality, and environmental stewardship.Based on the passage, what can be inferred about the film's complexity from a scholarly perspective?",
-      "question_image": null,
       "options": [
         "Its seemingly straightforward narrative hides deep, multifaceted themes amenable to various academic interpretations.",
         "Its simplicity makes it primarily suitable for elementary analysis.",
         "It is only complex when compared to other children's films, but not serious literature.",
         "Its complexity is solely a result of its musical score."
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Its seemingly straightforward narrative hides deep, multifaceted themes amenable to various academic interpretations.) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Its seemingly straightforward narrative hides deep, multifaceted themes amenable to various academic interpretations.) है।"
     },
     {
       "id": 14,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the passage and choose the correct answer to the questions based on it.The Lion King, while ostensibly a children's animated film, offers a rich tapestry for postgraduate scholarly inquiry across various disciplines, including film studies, cultural studies, political science, and even postcolonial theory. Its enduring appeal extends beyond its technical brilliance and captivating soundtrack, residing in its sophisticated engagement with archetypal narratives and complex themes. From a structuralist perspective, the film powerfully reworks Hamlet, exploring themes of regicide, usurpation, guilt, and the rightful heir's journey of self-discovery and responsibility.Cultural theorists might analyze its depiction of the \"circle of life\" as a quasi-spiritual ecological philosophy, questioning its implications for human-animal relations or its potentially hierarchical undertones. The character dynamics, particularly the contrasting leadership styles of Mufasa and Scar, invite political scientists to explore models of benevolent authoritarianism versus tyrannical rule, and the consequences for social order within a closed system. Furthermore, the film's global reception and its profound influence on popular culture, including its Broadway adaptation, can be examined through the lens of media transnationalism and Disney's soft power. Postcolonial readings might even deconstruct its African setting, considering how it employs or subverts orientalist tropes, or if it romanticizes a \"natural\" hierarchy in a way that echoes colonial narratives. Thus, The Lion King is not merely a cinematic achievement but a complex cultural artifact, ripe for deconstruction and critical re-evaluation, revealing layers of meaning pertinent to contemporary academic discourse on power, morality, and environmental stewardship.Choose the word from the passage that is an antonym for \"simplistic.\"",
-      "question_image": null,
       "options": [
         "Sophisticated",
         "Transnational",
         "Benevolent",
         "Archetypal"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Archetypal) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Archetypal) है।"
     },
     {
       "id": 15,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank. You completed the entire project single-handedly despite all the challenges, ________?",
-      "question_image": null,
       "options": [
         "won't you",
         "don’t you",
         "didn't you",
         "hadn't you"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (didn't you) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (didn't you) है।"
     },
     {
       "id": 16,
       "section": "English Language and Comprehension",
       "question": "Read the following conversation and select the most appropriate synonym of the underlined word.Ishita: Despite facing continuous criticism, she remained unflappable and handled the press with remarkable grace.Vivek: I know! It’s rare to see someone stay so composed under pressure.",
-      "question_image": null,
       "options": [
         "Traditional",
         "Transparent",
         "Disconcerted",
         "Nonchalant"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Nonchalant) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Nonchalant) है।"
     },
     {
       "id": 17,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.The project was successful, ______ it was extremely challenging to execute. 2008",
-      "question_image": null,
       "options": [
         "because",
         "so",
         "although",
         "unless"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (although) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (although) है।"
     },
     {
       "id": 18,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A) The central government is in charge of national issues like defense, foreign policy and money, while state governments handle local matters such as education, healthcare and law enforcement. B) This system helps countries with many different regions or cultures, as it allows local governments to create policies that fit their needs. C) However, problems can arise when both the central and state governments want control over the same issue.D) The federal system of government divides power between a central government and state or regional governments.E) Despite these challenges, federalism also allows states to try new ideas, and it encourages people to be more involved in politics, as they can vote for leaders who make decisions close to their communities.",
-      "question_image": null,
       "options": [
         "DCAEB",
         "DABCE",
         "DEABC",
         "DBCEA"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (DABCE) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (DABCE) है।"
     },
     {
       "id": 19,
       "section": "English Language and Comprehension",
       "question": "Identify the INCORRECTLY spelt word in the given sentence and select the option that rectifies it.The university’s revised curriculum aims to promote interdisciplinery learning, foster creativity, and reduce the reliance on rote learning, which has long been criticized as ineffective in real-world problem solving.",
-      "question_image": null,
       "options": [
         "createvity",
         "interdisciplinary",
         "ineffactive",
         "curricullum"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (interdisciplinary) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (interdisciplinary) है।"
     },
     {
       "id": 20,
       "section": "English Language and Comprehension",
       "question": "Select the option that can be used as a one-word substitute for the given phrase.A person who brings a lawsuit against someone in a court of law",
-      "question_image": null,
       "options": [
         "Prosecutor​",
         "Plaintiff",
         "Defendant",
         "Arbitrator"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Prosecutor​) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Prosecutor​) है।"
     }
   ]
 }

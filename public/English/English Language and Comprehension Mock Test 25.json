@@ -6,321 +6,281 @@
       "id": 1,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate article to fill in the blank. If no article is needed, select 'No article required'.Hiking across _____ Himalayas is going to be difficult.",
-      "question_image": null,
       "options": [
         "No article required",
         "a",
         "an",
         "the"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (the) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (the) है।"
     },
     {
       "id": 2,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate one-word substitute for the underlined segment in the given sentence.He is someone who’s fond of fighting, eagerly seeking out any opportunity to test his skills and prove his mettle.",
-      "question_image": null,
       "options": [
         "utopian",
         "obstinate",
         "belligerent",
         "hedonistic"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (belligerent) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (belligerent) है।"
     },
     {
       "id": 3,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate adjectives to fill in the blanks.Despite the __________ weather and the __________ terrain, the team remained __________ throughout the journey.",
-      "question_image": null,
       "options": [
         "unpredictable ; luxurious ; lazy",
         "pleasant ; smooth ; indifferent",
         "harsh ; rugged ; resilient",
         "mild ; urban ; careless"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (harsh ; rugged ; resilient) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (harsh ; rugged ; resilient) है।"
     },
     {
       "id": 4,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blanks.The __________ scientist presented a/an __________ analysis of the data, offering a/an __________ perspective on the experiment's outcomes.",
-      "question_image": null,
       "options": [
         "casual ; vague ; traditional",
         "apathetic ; incomplete ; irrelevant",
         "diligent ; thorough ; novel",
         "indifferent ; basic ; outdated"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (diligent ; thorough ; novel) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (diligent ; thorough ; novel) है।"
     },
     {
       "id": 5,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank. If there is no article required, select 'No article required'.The conference focused on _____ challenges the United Nations is facing in the 21st century.",
-      "question_image": null,
       "options": [
         "the",
         "No article required",
         "a",
         "an"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (the) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (the) है।"
     },
     {
       "id": 6,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate meaning of the given idiom.Spill the beans",
-      "question_image": null,
       "options": [
         "To clean up",
         "To celebrate success",
         "To work hard",
         "To reveal confidential information"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (To reveal confidential information) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (To reveal confidential information) है।"
     },
     {
       "id": 7,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the right order to form a meaningful and coherent paragraph.A.  You’re left chasing the same outcome because you never change the system behind it.B.  You treated a symptom without addressing the cause.C.  But if you maintain the same sloppy pack rat habits that led to a messy room in the first place, soon you’ll be looking at a new pile of clutter.D.  Imagine you have a messy room and you set a goal to clean it.E.  If you summon the energy to tidy up, then you will have a clean room for now.",
-      "question_image": null,
       "options": [
         "DCEAB",
         "CABDE",
         "ABDCE",
         "DECAB"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (DECAB) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (DECAB) है।"
     },
     {
       "id": 8,
       "section": "English Language and Comprehension",
       "question": "Select the INCORRECTLY spelt word in the sentence given below.The professor ellucidated quantum mechanics, leaving the students both fascinated and bewildered by the profundity of the subject matter.",
-      "question_image": null,
       "options": [
         "professor",
         "fascinated",
         "ellucidated",
         "profundity"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (ellucidated) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (ellucidated) है।"
     },
     {
       "id": 9,
       "section": "English Language and Comprehension",
       "question": "Select the option that can be used as a one-word substitute for the underlined group of words in the given sentence.The doctor told him that his child has an extreme fear of balloons because students popped many balloons close to him that hurt his ears during the school function.",
-      "question_image": null,
       "options": [
         "ablutophobia",
         "chiroptophobia",
         "porphyrophobia",
         "globophobia"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (globophobia) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (globophobia) है।"
     },
     {
       "id": 10,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. These students are sent to grammar schools, which are elite institutions that generate students who are most likely to pursue higher education.B. The academically inclined students, who demonstrated a high level of academic ability are selected through the 11-Plus examinations under this system.C. England earlier used to follow a tripartite system of education.D. Although, it claimed to provide equal opportunities, this system created a system of educational and academic hierarchy.E. Those who could not qualify for the 11-Plus examinations are sent to secondary modern schools or technical schools to give vocational and professional training.",
-      "question_image": null,
       "options": [
         "CBAED",
         "DECAB",
         "ACEDB",
         "BEDAC"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (CBAED) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (CBAED) है।"
     },
     {
       "id": 11,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate ANTONYM of the underlined word in the given sentence.I will not consider even a speck of an argument.",
-      "question_image": null,
       "options": [
         "Clipping",
         "Paring",
         "Profusion",
         "Shard"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Profusion) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Profusion) है।"
     },
     {
       "id": 12,
       "section": "English Language and Comprehension",
       "question": "Identify the sentence that has an ANTONYM of the word 'appeased'.",
-      "question_image": null,
       "options": [
         "We welcomed our new colleague in a grand manner.",
         "The incomplete homework infuriated my class teacher.",
         "He caused a lot of inconvenience due to his devil-may-care attitude.",
         "I was impressed by the humility of the mayor when I met him."
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (The incomplete homework infuriated my class teacher.) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (The incomplete homework infuriated my class teacher.) है।"
     },
     {
       "id": 13,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.The old mansion had a/an ___ charm, making visitors feel like they’d stepped into another century.",
-      "question_image": null,
       "options": [
         "timeless",
         "temporary",
         "futuristic",
         "unpleasant"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (timeless) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (timeless) है।"
     },
     {
       "id": 14,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.In the heart of a bustling metropolis, nestled amidst towering skyscrapers and ceaseless traffic, existed an unassuming bookstore. Its shelves were laden with volumes of every genre imaginable, from classic literature to contemporary bestsellers. The scent of aged paper and leather-bound tomes permeated the air, creating an ambiance of tranquillity and intellectual pursuit.The bookstore's proprietor, an elderly gentleman with a perpetually warm smile and twinkling eyes, was a veritable encyclopaedia of literary knowledge. He possessed an uncanny ability to recommend the perfect book for any patron, regardless of their age or interests. His passion for literature was contagious, inspiring countless individuals to rediscover the joy of reading.One day, a young woman named Emily wandered into the bookstore, seeking solace from the relentless pace of city life. She was immediately captivated by the store's charm and the proprietor's welcoming demeanour. As she browsed the shelves, she stumbled upon a worn copy of a novel she had long forgotten. Intrigued, she purchased the book and retreated to a quiet corner to begin reading.As Emily delved into the story, she felt a sense of connection to the characters and their struggles. The book transported her to a different world, one where her worries and anxieties seemed to fade away. She was so engrossed in the narrative that she lost track of time, emerging from the bookstore hours later with a renewed sense of purpose and a newfound appreciation for the power of literature.What was the bookstore proprietor's special ability?1095",
-      "question_image": null,
       "options": [
         "Speaking multiple languages",
         "Recommending the perfect book",
         "Writing his own novels",
         "Predicting the future"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Recommending the perfect book) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Recommending the perfect book) है।"
     },
     {
       "id": 15,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.In the heart of a bustling metropolis, nestled amidst towering skyscrapers and ceaseless traffic, existed an unassuming bookstore. Its shelves were laden with volumes of every genre imaginable, from classic literature to contemporary bestsellers. The scent of aged paper and leather-bound tomes permeated the air, creating an ambiance of tranquillity and intellectual pursuit.The bookstore's proprietor, an elderly gentleman with a perpetually warm smile and twinkling eyes, was a veritable encyclopaedia of literary knowledge. He possessed an uncanny ability to recommend the perfect book for any patron, regardless of their age or interests. His passion for literature was contagious, inspiring countless individuals to rediscover the joy of reading.One day, a young woman named Emily wandered into the bookstore, seeking solace from the relentless pace of city life. She was immediately captivated by the store's charm and the proprietor's welcoming demeanour. As she browsed the shelves, she stumbled upon a worn copy of a novel she had long forgotten. Intrigued, she purchased the book and retreated to a quiet corner to begin reading.As Emily delved into the story, she felt a sense of connection to the characters and their struggles. The book transported her to a different world, one where her worries and anxieties seemed to fade away. She was so engrossed in the narrative that she lost track of time, emerging from the bookstore hours later with a renewed sense of purpose and a newfound appreciation for the power of literature.Identify the central theme of the passage.1096",
-      "question_image": null,
       "options": [
         "The importance of independent bookstores",
         "The transformative power of reading",
         "The value of human connection",
         "The challenges of city life"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (The transformative power of reading) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (The transformative power of reading) है।"
     },
     {
       "id": 16,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.In the heart of a bustling metropolis, nestled amidst towering skyscrapers and ceaseless traffic, existed an unassuming bookstore. Its shelves were laden with volumes of every genre imaginable, from classic literature to contemporary bestsellers. The scent of aged paper and leather-bound tomes permeated the air, creating an ambiance of tranquillity and intellectual pursuit.The bookstore's proprietor, an elderly gentleman with a perpetually warm smile and twinkling eyes, was a veritable encyclopaedia of literary knowledge. He possessed an uncanny ability to recommend the perfect book for any patron, regardless of their age or interests. His passion for literature was contagious, inspiring countless individuals to rediscover the joy of reading.One day, a young woman named Emily wandered into the bookstore, seeking solace from the relentless pace of city life. She was immediately captivated by the store's charm and the proprietor's welcoming demeanour. As she browsed the shelves, she stumbled upon a worn copy of a novel she had long forgotten. Intrigued, she purchased the book and retreated to a quiet corner to begin reading.As Emily delved into the story, she felt a sense of connection to the characters and their struggles. The book transported her to a different world, one where her worries and anxieties seemed to fade away. She was so engrossed in the narrative that she lost track of time, emerging from the bookstore hours later with a renewed sense of purpose and a newfound appreciation for the power of literature.Select the correct summary for the passage.1097",
-      "question_image": null,
       "options": [
         "A bookstore owner helps a customer find the perfect book",
         "The importance of taking time for oneself is highlighted",
         "A young woman discovers a love for reading in a charming bookstore",
         "The challenges of living in a busy city are explored"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (A young woman discovers a love for reading in a charming bookstore) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (A young woman discovers a love for reading in a charming bookstore) है।"
     },
     {
       "id": 17,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.In the heart of a bustling metropolis, nestled amidst towering skyscrapers and ceaseless traffic, existed an unassuming bookstore. Its shelves were laden with volumes of every genre imaginable, from classic literature to contemporary bestsellers. The scent of aged paper and leather-bound tomes permeated the air, creating an ambiance of tranquillity and intellectual pursuit.The bookstore's proprietor, an elderly gentleman with a perpetually warm smile and twinkling eyes, was a veritable encyclopaedia of literary knowledge. He possessed an uncanny ability to recommend the perfect book for any patron, regardless of their age or interests. His passion for literature was contagious, inspiring countless individuals to rediscover the joy of reading.One day, a young woman named Emily wandered into the bookstore, seeking solace from the relentless pace of city life. She was immediately captivated by the store's charm and the proprietor's welcoming demeanour. As she browsed the shelves, she stumbled upon a worn copy of a novel she had long forgotten. Intrigued, she purchased the book and retreated to a quiet corner to begin reading.As Emily delved into the story, she felt a sense of connection to the characters and their struggles. The book transported her to a different world, one where her worries and anxieties seemed to fade away. She was so engrossed in the narrative that she lost track of time, emerging from the bookstore hours later with a renewed sense of purpose and a newfound appreciation for the power of literature.Why did Emily enter the bookstore?1098",
-      "question_image": null,
       "options": [
         "To meet a friend",
         "To attend a book signing",
         "To escape the city's noise and pace",
         "To sell her old books"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (To escape the city's noise and pace) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (To escape the city's noise and pace) है।"
     },
     {
       "id": 18,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.In the heart of a bustling metropolis, nestled amidst towering skyscrapers and ceaseless traffic, existed an unassuming bookstore. Its shelves were laden with volumes of every genre imaginable, from classic literature to contemporary bestsellers. The scent of aged paper and leather-bound tomes permeated the air, creating an ambiance of tranquillity and intellectual pursuit.The bookstore's proprietor, an elderly gentleman with a perpetually warm smile and twinkling eyes, was a veritable encyclopaedia of literary knowledge. He possessed an uncanny ability to recommend the perfect book for any patron, regardless of their age or interests. His passion for literature was contagious, inspiring countless individuals to rediscover the joy of reading.One day, a young woman named Emily wandered into the bookstore, seeking solace from the relentless pace of city life. She was immediately captivated by the store's charm and the proprietor's welcoming demeanour. As she browsed the shelves, she stumbled upon a worn copy of a novel she had long forgotten. Intrigued, she purchased the book and retreated to a quiet corner to begin reading.As Emily delved into the story, she felt a sense of connection to the characters and their struggles. The book transported her to a different world, one where her worries and anxieties seemed to fade away. She was so engrossed in the narrative that she lost track of time, emerging from the bookstore hours later with a renewed sense of purpose and a newfound appreciation for the power of literature.How did reading the book affect Emily?1099",
-      "question_image": null,
       "options": [
         "It made her feel anxious and stressed.",
         "It bored her and she couldn't finish it.",
         "It made her want to become a writer.",
         "It transported her to a different world and gave her a sense of purpose."
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (It transported her to a different world and gave her a sense of purpose.) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (It transported her to a different world and gave her a sense of purpose.) है।"
     },
     {
       "id": 19,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A- On the day of the exam, she woke up with a mixture of nerves and excitement, feeling the weight of her dreams on her shoulders.B- As she entered the exam hall, she took a deep breath and focused on the task ahead, determined to give it her best shot. C- Naina had been preparing for the IAS exam for three long years, pouring over countless books and attending gruelling coaching sessions.D- The questions were challenging, but she stayed calm and used her knowledge and reasoning skills to tackle each one.E- Months later, she received the news that she had passed with flying colors, her hard work and perseverance paying off as she embarked on a new journey to serve her country. F- When she finally put down her pen, a sense of relief washed over her, knowing she had done everything she could.  798",
-      "question_image": null,
       "options": [
         "EACDBF",
         "BDFCEA",
         "FDEABC",
         "CABDFE"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (CABDFE) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (CABDFE) है।"
     },
     {
       "id": 20,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.Among the four finalists, she is the ___________________.",
-      "question_image": null,
       "options": [
         "more deserving",
         "much deserving",
         "deserving",
         "most deserving"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (most deserving) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (most deserving) है।"
     }
   ]
 }

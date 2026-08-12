@@ -6,321 +6,281 @@
       "id": 1,
       "section": "General Awareness",
       "question": "Which of the following is the first nuclear power plant in India?",
-      "question_image": null,
       "options": [
         "Kaiga Generating Station",
         "Kakrapar Atomic Power Plant",
         "Tarapur Atomic Power Plant",
         "Rajasthan Atomic Power Plant"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Tarapur Atomic Power Plant) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Tarapur Atomic Power Plant) है।"
     },
     {
       "id": 2,
       "section": "General Awareness",
       "question": "भारत सरकार में प्रधानमंत्री की औपचारिक नियुक्ति निम्नलिखित में से कौन करता है?",
-      "question_image": null,
       "options": [
         "भारत का मुख्य न्यायाधीश",
         "लोकसभा अध्यक्ष",
         "भारत का राष्ट्रपति",
         "राज्यसभा अध्यक्ष"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (भारत का राष्ट्रपति) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (भारत का राष्ट्रपति) है।"
     },
     {
       "id": 3,
       "section": "General Awareness",
       "question": "निम्नलिखित में से कौन-सी, भारतीय संविधान की संघीय विशेषता नहीं है?",
-      "question_image": null,
       "options": [
         "स्वतंत्र न्यायपालिका",
         "केंद्र और राज्यों के बीच शक्तियों का वितरण",
         "पूर्णतः लिखित संविधान",
         "एकल नागरिकता"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (एकल नागरिकता) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (एकल नागरिकता) है।"
     },
     {
       "id": 4,
       "section": "General Awareness",
       "question": "पुरापाषाण काल का आविष्कार निम्नलिखित में से कौन-सा नहीं है?",
-      "question_image": null,
       "options": [
         "अग्नि (Fire)",
         "पत्थर के औजार (Stone tools)",
         "मिट्टी के बर्तन (Pottery)",
         "गुफा चित्रकारी (Cave paintings)"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (मिट्टी के बर्तन (Pottery)) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (मिट्टी के बर्तन (Pottery)) है।"
     },
     {
       "id": 5,
       "section": "General Awareness",
       "question": "Malayalam is the official language of which of the following Indian states?",
-      "question_image": null,
       "options": [
         "Karnataka",
         "Kerala",
         "Andhra Pradesh",
         "Tamil Nadu"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Kerala) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Kerala) है।"
     },
     {
       "id": 6,
       "section": "General Awareness",
       "question": "निम्नलिखित में से कौन-सा ग्रंथ, व्याकरण के नियमों के लिए प्रसिद्ध है और समाज, अर्थव्यवस्था और संस्कृति पर भी प्रकाश डालता है?",
-      "question_image": null,
       "options": [
         "कौषीतकि उपनिषद (Kaushitaki Upanishad)",
         "तैत्तिरीय संहिता (Taittiriya Samhita)",
         "अष्टाध्यायी (Ashtadhyayi)",
         "पैप्पलाद संहिता (Paippalada Samhita)"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (अष्टाध्यायी (Ashtadhyayi)) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (अष्टाध्यायी (Ashtadhyayi)) है।"
     },
     {
       "id": 7,
       "section": "General Awareness",
       "question": "Which of the following organelles is primarily responsible for producing energy in the form of ATP through cellular respiration?",
-      "question_image": null,
       "options": [
         "Mitochondrion",
         "Golgi apparatus",
         "Nucleus",
         "Endoplasmic reticulum"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Mitochondrion) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Mitochondrion) है।"
     },
     {
       "id": 8,
       "section": "General Awareness",
       "question": "भारत का विशालतम स्थलीय पशु कौन-सा है?",
-      "question_image": null,
       "options": [
         "हाथी",
         "मृग",
         "नीलगाय",
         "कृष्णमृग"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (हाथी) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (हाथी) है।"
     },
     {
       "id": 9,
       "section": "General Awareness",
       "question": "Which of the following methods of calculating GDP focuses on summing expenditures on final goods and services produced within an economy?",
-      "question_image": null,
       "options": [
         "Income approach",
         "Expenditure approach",
         "Value-added approach",
         "Production approach"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Expenditure approach) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Expenditure approach) है।"
     },
     {
       "id": 10,
       "section": "General Awareness",
       "question": "NISAR के संबंध में दिए गए कथनों में से कौन-से कथन सही हैं?\n1. NASA और ISRO, NISAR उपग्रह पर सहयोग कर रहे हैं।\n2. यह एक संचार उपग्रह है।\n3. यह भूकंप की भविष्यवाणी करेगा।",
-      "question_image": null,
       "options": [
         "केवल 1 और 2",
         "केवल 1",
         "केवल 1 और 3",
         "1, 2 और 3"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (केवल 1) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (केवल 1) है।"
     },
     {
       "id": 11,
       "section": "General Awareness",
       "question": "चोल साम्राज्य में, __________ केवल ब्रह्मदेय गाँव के ब्राह्मणों की असेंबली थी।",
-      "question_image": null,
       "options": [
         "सभा",
         "ग्राम",
         "पंचायत",
         "उर"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (सभा) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (सभा) है।"
     },
     {
       "id": 12,
       "section": "General Awareness",
       "question": "मानव शरीर का कौन-सा अंग ध्वनि उत्पादन के लिए उत्तरदायी है?",
-      "question_image": null,
       "options": [
         "श्वसनी (Bronchi)",
         "श्वासनली (Trachea)",
         "स्वरयंत्र (Larynx)",
         "कंठद्वार (Glottis)"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (स्वरयंत्र (Larynx)) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (स्वरयंत्र (Larynx)) है।"
     },
     {
       "id": 13,
       "section": "General Awareness",
       "question": "The capital of Magadha during the reign of Bimbisara and Ajatashatru was _________.",
-      "question_image": null,
       "options": [
         "Ujjayini",
         "Vaishali",
         "Pataliputra",
         "Rajagaha"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Rajagaha) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Rajagaha) है।"
     },
     {
       "id": 14,
       "section": "General Awareness",
       "question": "The Central Institute of Indian Languages has one of its Regional Centres at __________ in Odisha.",
-      "question_image": null,
       "options": [
         "Cuttack",
         "Rourkela",
         "Sambalpur",
         "Bhubaneshwar"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Bhubaneshwar) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Bhubaneshwar) है।"
     },
     {
       "id": 15,
       "section": "General Awareness",
       "question": "According to Article 78 of the Indian Constitution, which duty does the Prime Minister have regarding communication to the President?",
-      "question_image": null,
       "options": [
         "To report on district-level development and infrastructure",
         "To provide details of state government welfare programmes",
         "To communicate matters of Union administration and legislation",
         "To submit proposals for judicial appointments to the President"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (To communicate matters of Union administration and legislation) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (To communicate matters of Union administration and legislation) है।"
     },
     {
       "id": 16,
       "section": "General Awareness",
       "question": "The Women's Premier League 2025 season won by which of the following teams?",
-      "question_image": null,
       "options": [
         "Mumbai Indians",
         "Royal Challengers Banglore",
         "Gujarat Titans",
         "Sunrisers Hyderabad"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Mumbai Indians) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Mumbai Indians) है।"
     },
     {
       "id": 17,
       "section": "General Awareness",
       "question": "The Environment Ministry of Government of India has recognised how many innovative and sustainable solutions from a nationwide pool of 1384 entries under its ‘Ideas4LiFE’ initiative in 2025?",
-      "question_image": null,
       "options": [
         "12",
         "45",
         "36",
         "21"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (21) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (21) है।"
     },
     {
       "id": 18,
       "section": "General Awareness",
       "question": "ग्रामीण अर्थव्यवस्था की वृद्धि में निम्नलिखित में से कौन-से कारक अधिक महत्वपूर्ण भूमिका निभाते हैं?",
-      "question_image": null,
       "options": [
         "ग्रामीण जनसंख्या",
         "ग्रामीण ऋण",
         "ग्रामीण अवसंरचना",
         "ग्रामीण निर्भरता"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (ग्रामीण अवसंरचना) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (ग्रामीण अवसंरचना) है।"
     },
     {
       "id": 19,
       "section": "General Awareness",
       "question": "The Ranakpur Jain Temple is located in which of the following states?",
-      "question_image": null,
       "options": [
         "Bihar",
         "Madhya Pradesh",
         "Rajasthan",
         "Maharashtra"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Rajasthan) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Rajasthan) है।"
     },
     {
       "id": 20,
       "section": "General Awareness",
       "question": "Which of the following rivers is NOT a part of the peninsular drainage system of India?",
-      "question_image": null,
       "options": [
         "Gandak",
         "Mahanadi",
         "Kaveri",
         "Tungbhadra"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Gandak) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Gandak) है।"
     }
   ]
 }

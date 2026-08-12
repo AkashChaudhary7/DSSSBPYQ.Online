@@ -6,321 +6,281 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘A’ stands for ‘÷’ , ‘B’ stands for ‘×’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘−’, what will come in place of question mark (?) in the following equation?74 C 62 D 36 B 4 A 2 = ?",
-      "question_image": null,
       "options": [
         "66",
         "67",
         "64",
         "65"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (64) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (64) है।"
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left)   547   569   584   586   521   (Right)(Example: 697 – First digit = 6, second digit = 9 and third digit = 7)(NOTE: All operations to be done from left to right.)What will be the resultant if the second digit of the highest number is added to the second digit of the lowest number?",
-      "question_image": null,
       "options": [
         "10",
         "9",
         "6",
         "7"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (10) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (10) है।"
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?17   31   65   127   257   ?",
-      "question_image": null,
       "options": [
         "511",
         "513",
         "514",
         "512"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (511) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (511) है।"
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "Below are given two sets of numbers. In each set of numbers, a certain mathematical operation on the first number results in the second number. Similarly, a certain mathematical operation on the second number results in the third number and so on. Which of the given options follows the same set of operations as in the question?(NOTE – A two/three-digit number cannot be broken into individual digits for operations, e.g. if 37 is followed by 10, the operation cannot be 3+7 as a two-digit number cannot be broken into individual digits.)17 – 18 – 14 – 23;    19 – 20 – 16 – 25",
-      "question_image": null,
       "options": [
         "11 – 12 – 16 – 18",
         "22 – 23 – 27 – 36",
         "34 – 35 – 31 – 40",
         "25 – 26 – 20 – 29"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (34 – 35 – 31 – 40) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (34 – 35 – 31 – 40) है।"
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "A, B, E, F, R and S live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it is numbered 2 and so on, till the topmost floor, which is numbered 6.Only A lives above F. B lives immediately below F. Only E lives below R.How many people live above S?",
-      "question_image": null,
       "options": [
         "Three",
         "Two",
         "Four",
         "One"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Three) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Three) है।"
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "Eight people are sitting in two parallel rows containing 4 people each in such a way that there is equal distance between adjacent persons.In row 1, J, K, L and M are seated and all of them are facing south.In row 2, W, X, Y and Z are seated and all of them are facing north.Thus, each person faces another person from the other row.No one sits to the left of X. No one sits to the left of J. Only one person sits between Z and X. The one facing Y sits second to the right of J. K sits second to the right of M.Which of the following represents both people sitting at the extreme ends of the line?",
-      "question_image": null,
       "options": [
         "K and Y",
         "J and X",
         "L and Z",
         "W and M"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (J and X) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (J and X) है।"
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "If + means ÷, − means +, × means − and ÷ means ×, then what will come in place of the question mark (?) in the following equation?32 − 25 + 5 × 3 ÷ 4 = ?",
-      "question_image": null,
       "options": [
         "32",
         "25",
         "35",
         "23"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (25) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (25) है।"
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion logically follow(s) from the statements.Statements:No napkins are tissues.All tissues are handkerchiefs.Some handkerchiefs are wipes.Conclusions:(I) Some napkins are handkerchiefs.(II) Some tissues are wipes.",
-      "question_image": null,
       "options": [
         "Neither conclusion (I) nor (II) follows.",
         "Only conclusion (II) follows.",
         "Both conclusions (I) and (II) follow.",
         "Only conclusion (I) follows."
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Neither conclusion (I) nor (II) follows.) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Neither conclusion (I) nor (II) follows.) है।"
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,‘A > B’ means ‘A is the sister of B’, ‘A @ B’ means ‘A is the daughter of B’,‘A \\ B’ means ‘A is the father of B’ and‘A $ B’ means ‘A is the son of B’.Which of the following means that I is T's sister's son?",
-      "question_image": null,
       "options": [
         "I > K \\ N @ Q @ T",
         "I > K \\ N $ Q @ T",
         "I \\ K @ N > Q $ T",
         "I $ K \\ N @ Q > T"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (I $ K \\ N @ Q > T) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (I $ K \\ N @ Q > T) है।"
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left)  368  524  628  232  183 (Right)(Example- 697 – First digit = 6, second digit = 9 and third digit = 7)NOTE - All operations to be done from left to right.If 2 is added to first digit of every number, in how many numbers will the first digit be exactly divisible by the second digit?",
-      "question_image": null,
       "options": [
         "Three",
         "None",
         "One",
         "Two"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (One) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (One) है।"
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "​​​Based on the English alphabetical order, three of the following letter-clusters are alike in a certain way and thus form a group. Which is the letter-cluster that does not belong to that group?(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
-      "question_image": null,
       "options": [
         "ILH",
         "EHD",
         "GJF",
         "KNI"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (KNI) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (KNI) है।"
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following series, only one letter cluster is wrong. Find out the wrong letter cluster.RUX   PSV   NQS   LOR   JMP   HKN",
-      "question_image": null,
       "options": [
         "NQS",
         "HKN",
         "LOR",
         "JMP"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (NQS) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (NQS) है।"
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "A certain number of people sit in a row facing south direction. Only some people’s arrangements are known.G and K sit at the extreme ends. Only one person sits between I and H. J sits immediately to the right of H. I sits 2nd to the right of G. H sits 2nd left from one of the extreme ends.Who sits 4th to the right of G?",
-      "question_image": null,
       "options": [
         "H",
         "K",
         "I",
         "J"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (H) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (H) है।"
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘SURE’ is coded as ‘2674’ and ‘REST’ is coded as ‘7926’. What is the code for ‘T’ in that language?",
-      "question_image": null,
       "options": [
         "9",
         "6",
         "2",
         "7"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (9) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (9) है।"
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each vowel in the word CONQUER is changed to the letter following it in the English alphabetical order, and each consonant is changed to the letter preceding it in the English alphabetical order. Which of the following letters will be first from the left in the new group of letters thus formed?",
-      "question_image": null,
       "options": [
         "C",
         "D",
         "B",
         "A"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (B) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (B) है।"
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven people, M, N, O, P, X, Y, and Z are sitting in a row, facing north.Only two people sit to the right of N. Only two people sit between N and Z. Only two people sit between O and Y. Y sits to the immediate left of N. P sits to the immediate right of X.Who sits at the third position from the left end of the line?",
-      "question_image": null,
       "options": [
         "M",
         "O",
         "Y",
         "X"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (M) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (M) है।"
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete? PIN 129,  LNR 118,  HSV 107,  DXZ 96,  ZCD 85,  ?   1106",
-      "question_image": null,
       "options": [
         "UFF 72",
         "WGH 74",
         "VHH 74",
         "UHG 72"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (VHH 74) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (VHH 74) है।"
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "The position(s) of how many letters will remain unchanged if each of the letter in the word RAINBOWS is arranged in the English alphabetical order?",
-      "question_image": null,
       "options": [
         "Three",
         "Four",
         "One",
         "Two"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Two) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Two) है।"
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of C, D, E, F, W, X, and Y has an exam on a different day of the week starting from Monday and ending on Sunday of the same week.C has an exam on Thursday. D has an exam on one of the days after E and on one of the days before W. Y has an exam on one of the days after X but on one of the days before F. X has an exam on one of the days after C.How many people have an exam between Y and D?",
-      "question_image": null,
       "options": [
         "One",
         "Three",
         "Four",
         "Two"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Three) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Three) है।"
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "Gyansh starts from Point A and drives 18 km towards the east. He then takes a right turn, drives 21 km, turns right and drives 21 km. He then takes a right turn and drives 22 km. He takes a final right turn, drives 3 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again? (All turns are 90-degree turns only unless specified.)",
-      "question_image": null,
       "options": [
         "2 km to the South",
         "1 km to the South",
         "3 km to the South",
         "4 km to the South"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (1 km to the South) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (1 km to the South) है।"
     }
   ]
 }

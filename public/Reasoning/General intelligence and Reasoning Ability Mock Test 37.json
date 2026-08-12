@@ -6,321 +6,281 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the triad that follows the same pattern as that followed by the two triads given below. Both triads follow the same pattern. NS-PM-TVJO-LI-PR",
-      "question_image": null,
       "options": [
         "GL-ID-KM",
         "FK-HD-LM",
         "FK-HE-LN",
         "GK-ID-LM"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (FK-HE-LN) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (FK-HE-LN) है।"
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "Six students Abram, Belle, Wendy, Xavier, Yami and Zara are sitting around a circular table facing the centre. Yami is an immediate neighbour of both Xavier and Zara. Belle is sitting third to the right of Zara. Abram is sitting second to the left of Xavier. Wendy is an immediate neighbour of both Abram and Zara. The position(s) of how many persons will remain unchanged if all persons are arranged in the English alphabetical order, in clockwise direction, starting from Wendy (including Wendy)?",
-      "question_image": null,
       "options": [
         "Three",
         "Two",
         "One",
         "Four"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (One) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (One) है।"
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left)       674       621       435       376       215       (Right)(Example: 697 – First digit = 6, second digit = 9 and third digit = 7)(Note: All operations to be done from left to right.)If 3 is added to the first digit of every number, in how many numbers will the first digit be exactly divisible by the second digit?",
-      "question_image": null,
       "options": [
         "One",
         "Two",
         "Three",
         "Four"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (One) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (One) है।"
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "Below are given two sets of numbers. In each set of numbers, a certain mathematical operation on the first number results in the second number. Similarly, certain mathematical operation on the second number results in the third number and so on. Which of the given options follows the same set of operations as in the question?(Note: A two-/three-digit number cannot be broken into individual digits for operations e.g., if 37 is followed by 10, the operation cannot be 3 + 7 as a two-digit number cannot be broken into individual digits.) 12 - 17 - 15 - 2241 - 46 - 44 - 51",
-      "question_image": null,
       "options": [
         "21 - 29 - 25 - 32",
         "31 - 37 - 35 - 43",
         "3 - 8 - 6 - 13",
         "23 - 32 - 30 - 37"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (3 - 8 - 6 - 13) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (3 - 8 - 6 - 13) है।"
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "If + means –, – means ×, × means ÷, and ÷ means +, then what will come in place of the question mark (?) in the following equation?51 ÷ 133 × 7 – 3 + 102 = ?",
-      "question_image": null,
       "options": [
         "6",
         "1",
         "8",
         "4"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (6) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (6) है।"
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘GONE’ is coded as ‘7103’ and ‘ONES’ is coded as ‘0123’. What is the code for ‘S’ in the given code language?",
-      "question_image": null,
       "options": [
         "1",
         "2",
         "3",
         "0"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (2) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (2) है।"
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes, C, D, E, I, J, K and N, are kept one over the other but not necessarily in the same order. Only C is kept above I. Only E is kept below K. Only J is kept between D and K. How many boxes are kept between N and E?",
-      "question_image": null,
       "options": [
         "One",
         "Three",
         "Two",
         "Four"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Three) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Three) है।"
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,'A + B' means ‘A is the mother of B’,'A – B' means ‘A is the brother of B’,'A × B' means ‘A is the wife of B’,'A % B' means ‘A is the father of B’, and'A # B' means ‘A is the daughter of B’.How is Q related to G if ‘T – K # Q × N % P + L # G’?",
-      "question_image": null,
       "options": [
         "Brother’s wife",
         "Mother’s sister",
         "Wife’s sister",
         "Wife’s mother"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Wife’s mother) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Wife’s mother) है।"
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? VED  AJI  FON  KTS  ?",
-      "question_image": null,
       "options": [
         "RXY",
         "RXD",
         "REX",
         "PYX"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (PYX) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (PYX) है।"
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which is the letter-cluster that does NOT belong to that group?(Note: The odd one out is not based on the number of consonants/vowels or their positions in the letter-cluster.)",
-      "question_image": null,
       "options": [
         "JOQ",
         "DIL",
         "PUW",
         "LQS"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (DIL) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (DIL) है।"
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements:No Hydrogens are Oxygens.Some Oxygens are Nitrogens.All Nitrogens are Carbons.Conclusions:I: No Hydrogens are Nitrogens.II: Some Oxygens are Carbons.",
-      "question_image": null,
       "options": [
         "Neither conclusion (I) nor (II) follows",
         "Both conclusions (I) and (II) follow",
         "Only conclusion (II) follows",
         "Only conclusion (I) follows"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Only conclusion (II) follows) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Only conclusion (II) follows) है।"
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the set in which the numbers are related in the same way as are the numbers of the following sets.(Note: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)6 - 4 - 59 - 3 - 6",
-      "question_image": null,
       "options": [
         "7 - 7 - 6",
         "8 - 4 - 6",
         "40 - 15 - 3",
         "9 - 5 - 8"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (8 - 4 - 6) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (8 - 4 - 6) है।"
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left)      853      716      567      349      527      (Right)(Example: 697 – First digit = 6, second digit = 9 and third digit = 7)(Note: All operations to be done from left to right.)What will be the resultant if the third digit of the second highest number is multiplied with the second digit of the lowest number?",
-      "question_image": null,
       "options": [
         "24",
         "22",
         "25",
         "23"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (24) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (24) है।"
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "Given below is a statement followed by two possible reasons numbered I and II. Read the statement carefully and decide which of the two reasons explains the event/observation/information given in the statement. Statement:Even though the newly set-up Internet service provider, company A, is offering high-speed internet, it is facing difficulties in increasing its customer base.Reasons:I. Most of the internet plans offered by company A are priced higher as compared to its well-established competitors.II. Customers are never interested in using high speed Wi-Fi internet.",
-      "question_image": null,
       "options": [
         "Both I and II are possible reasons.",
         "Neither I nor II is a possible reason.",
         "Only II is a possible reason.",
         "Only I is a possible reason."
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Only I is a possible reason.) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Only I is a possible reason.) है।"
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "What will come in the place of the question mark (?) in the following equation, if ‘+’ and ‘−’ are interchanged, and ‘×’ and ‘÷’ are interchanged?15 ÷ 3 + 7 × 45 − 5 = ?",
-      "question_image": null,
       "options": [
         "3",
         "2",
         "1",
         "4"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (3) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (3) है।"
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?111   96   81   66   51    ?",
-      "question_image": null,
       "options": [
         "38",
         "34",
         "35",
         "36"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (36) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (36) है।"
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? XDE  TZA  PVW  LRS  ?",
-      "question_image": null,
       "options": [
         "HNY",
         "HNO",
         "HNT",
         "HON"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (HNO) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (HNO) है।"
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "Bharat starts from Point Y and drives 31 km towards north. He then takes a left turn, drives 31 km, turns left and drives 43 km. He then takes a right turn and drives 17 km. He takes a right turn and drives 51 km. He then turns right, drives 23 km, turns right and drives 39 km to stop at Point Z. How far (shortest distance) and towards which direction should he drive in order to reach Point Y again? (All turns are 90-degree turns only, unless specified.)",
-      "question_image": null,
       "options": [
         "27 km towards west",
         "21 km towards west",
         "19 km towards east",
         "25 km towards east"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (25 km towards east) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (25 km towards east) है।"
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "Arnav starts from Point A and drives 12 km towards East. He then takes a left turn, drives 9 km, turns left and drives 15 km. He then takes a left turn and drives 11 km. He takes a final left turn, drives 3 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again?\n(All turns are 90-degree turns only unless specified.)",
-      "question_image": null,
       "options": [
         "3 km to the North",
         "2 km to the South",
         "3 km to the South",
         "2 km to the North"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (2 km to the North) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (2 km to the North) है।"
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the triad which follows the same pattern as that followed by the two triads given below. Both triads follow the same pattern.GL – IF – MOLQ – NK – RT",
-      "question_image": null,
       "options": [
         "PT – SN – VW",
         "OT – RN – VW",
         "OT – QN – UW",
         "PU – SN – VX"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (OT – QN – UW) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (OT – QN – UW) है।"
     }
   ]
 }

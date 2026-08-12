@@ -6,321 +6,281 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘he should ask’ is coded as ‘md bt gp’ and ‘should we leave’ is coded as ‘nb hv md’. How is ‘should’ coded in the given language?",
-      "question_image": null,
       "options": [
         "nb",
         "bt",
         "md",
         "hv"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (md) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (md) है।"
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘W’ means ‘−’, ‘X’ means ‘+’, ‘Y’ means ‘÷’ and ‘Z’ means ‘×’, then what will come in place of the question mark (?) in the following equation?13 W 3 X 5 Z 2 W 14 Y 7 = ?",
-      "question_image": null,
       "options": [
         "12",
         "24",
         "30",
         "18"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (18) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (18) है।"
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes, P, Q, R, S, T, U and V, are kept one over the other, but not necessarily in the same order. U is kept second from the bottom. Only three boxes are kept between Q and V. P is kept immediately below V. R is kept in one of the positions above Q. S is kept immediately above T.Which box is second from the top?",
-      "question_image": null,
       "options": [
         "R",
         "T",
         "V",
         "S"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (T) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (T) है।"
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "In this question, a statement is given followed by two conclusions numbered I and II. You have to assume everything in the statement to be true and decide which of them logically follow(s) beyond a reasonable doubt from the information given in the statement.Statement:Price of onions has increased sharply due to shortages caused by damage to onion crops across the country.Conclusions:I) Large scale hoarding has also led to the increase in onion prices.II) Prices of commodities tend to rise when demand is greater than supply.",
-      "question_image": null,
       "options": [
         "Both conclusions I and II follow.",
         "Only conclusion II follows.",
         "Neither conclusion I nor II follows.",
         "Only conclusion I follows."
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Only conclusion II follows.) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Only conclusion II follows.) है।"
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, A+ B means ‘A is the mother of B’,A – B means ‘A is the brother of B’,A x B means ‘A is the wife of B’ andA ÷ B means ‘ A is the father of B’. How is F related to H if ‘E – F + G × H ÷ I’?",
-      "question_image": null,
       "options": [
         "Mother’s sister",
         "Father’s mother",
         "Wife’s mother",
         "Mother"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Wife’s mother) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Wife’s mother) है।"
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order?BFC EIF HLI KOL ?",
-      "question_image": null,
       "options": [
         "MNO",
         "NRO",
         "MOK",
         "NTO"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (NRO) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (NRO) है।"
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order?CDG EFI GHK IJM ?",
-      "question_image": null,
       "options": [
         "KLO",
         "KOR",
         "JMK",
         "JML"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (KLO) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (KLO) है।"
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "Priya ranked 13th from the top and 20th from the bottom in a class in an examination. How many students are there in the class?",
-      "question_image": null,
       "options": [
         "32",
         "34",
         "33",
         "30"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (32) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (32) है।"
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the triad which follows the same pattern as that followed by the two triads given below. Both triads follow the same pattern.JP-LR-MOLR-NT-OQ",
-      "question_image": null,
       "options": [
         "MT-PU-QR",
         "NT-PV-QS",
         "MT-PV-QR",
         "NT-PV-QR"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (NT-PV-QS) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (NT-PV-QS) है।"
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "If in each of the following letter clusters, each letter is changed to the immediate next letter in the English alphabetical order, how many letter clusters thus formed will have no vowel?LEG    NIB    DOT    HAY",
-      "question_image": null,
       "options": [
         "Three",
         "Four",
         "One",
         "Two"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (One) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (One) है।"
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?59, 65, 71, 77, 83, ?",
-      "question_image": null,
       "options": [
         "87",
         "90",
         "89",
         "88"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (89) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (89) है।"
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "If in each of the following letter clusters, each letter is changed to the immediate next letter in the English alphabetical order, how many letter clusters thus formed will have no vowel?ONE    BAD    WHY    KIP",
-      "question_image": null,
       "options": [
         "Two",
         "Three",
         "Four",
         "One"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (One) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (One) है।"
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group?\n\n(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
-      "question_image": null,
       "options": [
         "SDO",
         "ALW",
         "HSD",
         "BMZ"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (BMZ) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (BMZ) है।"
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code,'now one thought that' is coded as 'qw sd cv gf','thought that in can' is coded as 'cv gf tr yu','do this one much' is coded as 'hj mn sd rt' and'thought can wonder this' is coded as 'cv yu vv mn'.(All the codes are two letter-codes only.)What is the possible code for ‘do’?",
-      "question_image": null,
       "options": [
         "Either 'rt' or 'sd'",
         "Either 'mn' or 'rt'",
         "Either 'rt' or 'hj'",
         "Either 'sd' or 'mn'"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Either 'rt' or 'hj') है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Either 'rt' or 'hj') है।"
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the given letter-clusters should replace # and % so that the pattern and relationship followed between the letter-cluster pair on the left side of :: is the same as that on the right side of ::? # : GCH :: LHM : %",
-      "question_image": null,
       "options": [
         "# = IEJ, % = JFL",
         "# = IEJ, % = JFK",
         "# = IEL, % = JFK",
         "# = IEJ, % = JGK"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (# = IEJ, % = JFK) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (# = IEJ, % = JFK) है।"
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Which numbers should replace X and Y, so that the pattern followed by the two numbers on the left side of :: is same as that on the right side of ::?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)X : 900 ::  4 : Y",
-      "question_image": null,
       "options": [
         "X = 3, Y = 250",
         "X = 5, Y = 400",
         "X = 1, Y = 150",
         "X = 2, Y = 100"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (X = 5, Y = 400) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (X = 5, Y = 400) है।"
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following series, only one letter-cluster is incorrect. Select the INCORRECT letter-cluster.BXT IEA PLH WSO DZW KGC",
-      "question_image": null,
       "options": [
         "KGC",
         "DZW",
         "WSO",
         "PLH"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (DZW) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (DZW) है।"
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "In this question, two statements I and II have been given. These statements maybe independent causes or effects of independent causes or a common cause. One of the statements maybe the effect of the other statement. Read both the statements and select the correct answer.I. The State Government has decided to impose a heavy penalty on all apartments that are not segregating wet and dry waste.II. Apartment X distributed green and blue coloured bins to all its residents yesterday to segregate wet and dry waste.",
-      "question_image": null,
       "options": [
         "I is the cause and II is its possible effect.",
         "Both I and II are independent causes.",
         "Both I and II are effects of independent causes.",
         "II is the cause and I is its possible effect."
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (I is the cause and II is its possible effect.) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (I is the cause and II is its possible effect.) है।"
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "Mr. Fin starts from point A and drives 16 km towards the south. He then takes a right turn and drives 5 km, takes a left turn and drives 13 km. He takes a final left turn and drives 7 km and stops at point B. Mr. Han starts from point P, which is 23 km east of point A, and drives 18 km towards the east. He then takes a right turn and drives 29 km. He takes a final right turn and drives 12 km and stops at point Q. What is the shortest distance between point Q and point B? (All turns are 90-degree turns only unless specified.)",
-      "question_image": null,
       "options": [
         "37 km",
         "29 km",
         "32 km",
         "27 km"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (27 km) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (27 km) है।"
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the following words.BARD    DAME     MAID     SENDIn each of the words, each letter is changed to the letter immediately following it in the English alphabetical order. How many letter-clusters thus formed have no vowel?",
-      "question_image": null,
       "options": [
         "One",
         "Three",
         "None",
         "Two"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (None) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (None) है।"
     }
   ]
 }

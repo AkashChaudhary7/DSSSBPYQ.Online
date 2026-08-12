@@ -6,321 +6,281 @@
       "id": 1,
       "section": "Arithmetical and Numerical Ability",
       "question": "A sum of money is invested for two years at 20% rate of interest per annum, compounded annually. If the same sum was invested for the same time period at the same rate of interest per annum, but with interest being compounded half-yearly, the interest accrued in those two years would have been ₹482 more. What was the initial sum invested?",
-      "question_image": null,
       "options": [
         "₹19,500",
         "₹20,000",
         "₹18,000",
         "₹22,000"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (₹20,000) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (₹20,000) है।"
     },
     {
       "id": 2,
       "section": "Arithmetical and Numerical Ability",
       "question": "P and Q started from a point A at the same time to go to a point B that was at a distance of 80 km from A. The speed of P was 4 km/hr slower than that of Q. If Q reached B, turned back immediately, and, on her way back to A, met P at a distance of 20 km from B, what was the speed of P?",
-      "question_image": null,
       "options": [
         "5 km/hr",
         "6 km/hr",
         "10 km/hr",
         "8 km/hr"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (6 km/hr) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (6 km/hr) है।"
     },
     {
       "id": 3,
       "section": "Arithmetical and Numerical Ability",
       "question": "There are two sections A and B of a class, consisting of 22 and 44 students, respectively. If the average weight of section A is 40 kg and that of section B is 33 kg, find the average weight of the whole class (in kg).(correct to two decimal places)",
-      "question_image": null,
       "options": [
         "35.83",
         "36.33",
         "34.83",
         "35.33"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (35.33) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (35.33) है।"
     },
     {
       "id": 4,
       "section": "Arithmetical and Numerical Ability",
       "question": "Ravi invests a certain sum of money for 18 months at 4% per annum rate of interest, compounded half-yearly. Ramesh invests the same sum as Ravi, but at 4% per annum rate of interest, compounded annually, for one year, and then invests the entire amount accrued after one year at 4% simple interest per annum for the next 6 months. If Ravi got ₹20.40 more as interest than Ramesh after the 18-month period was over, find the sum of money initially invested by each of them.",
-      "question_image": null,
       "options": [
         "₹60,000",
         "₹50,000",
         "₹45,000",
         "₹55,000"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (₹50,000) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (₹50,000) है।"
     },
     {
       "id": 5,
       "section": "Arithmetical and Numerical Ability",
       "question": "A student in an examination needs 33% marks to pass the exam. If the student scored 325 marks which was 77.5 marks more than the pass marks, then the maximum marks for which the examination was conducted, were:",
-      "question_image": null,
       "options": [
         "800",
         "750",
         "700",
         "850"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (750) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (750) है।"
     },
     {
       "id": 6,
       "section": "Arithmetical and Numerical Ability",
       "question": "At what rate (in percentage) per annum on simple interest will a sum of money be 2 times of itself in 20 years?",
-      "question_image": null,
       "options": [
         "10",
         "4",
         "5",
         "9"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (5) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (5) है।"
     },
     {
       "id": 7,
       "section": "Arithmetical and Numerical Ability",
       "question": "A shopkeeper buys 12 bananas for ₹40 and sells them at ₹5 per banana. His transportation cost is ₹100 per 50 dozen. What is his percentage profit or loss? [Give your answer round off to one decimal place.]",
-      "question_image": null,
       "options": [
         "Profit of 42.9%",
         "Loss of 35.7%",
         "Profit of 28.4%",
         "Profit of 37.5%"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Profit of 42.9%) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Profit of 42.9%) है।"
     },
     {
       "id": 8,
       "section": "Arithmetical and Numerical Ability",
       "question": "The length of the longest rod that can be placed in a room of dimensions 3 m × 4 m × 12 m is:",
-      "question_image": null,
       "options": [
         "15 m",
         "16 m",
         "13 m",
         "21 m"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (13 m) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (13 m) है।"
     },
     {
       "id": 9,
       "section": "Arithmetical and Numerical Ability",
       "question": "Three partners shared the profit in a business in the ratio 3 : 4 : 5. They had partnered for 12 months, 8 months and 4 months respectively. What was the ratio of their investments?",
-      "question_image": null,
       "options": [
         "4:2:5",
         "3:2:5",
         "5:4:3",
         "1:2:5"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (1:2:5) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (1:2:5) है।"
     },
     {
       "id": 10,
       "section": "Arithmetical and Numerical Ability",
       "question": "The ratio of the number of men and women in a room is 5 : 4. The average weight of all men and all women in a room is 65 kg and 52 kg, respectively. Find the average weight  (rounded off to two decimal places) of the entire group in the room.",
-      "question_image": null,
       "options": [
         "59.22 kg",
         "60.50 kg",
         "57.33 kg",
         "58.11 kg"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (59.22 kg) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (59.22 kg) है।"
     },
     {
       "id": 11,
       "section": "Arithmetical and Numerical Ability",
       "question": "After allowing a discount of 25% on the marked price of an article, it is sold for ₹60. Find its marked price.",
-      "question_image": null,
       "options": [
         "₹50",
         "₹30",
         "₹40",
         "₹80"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (₹80) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (₹80) है।"
     },
     {
       "id": 12,
       "section": "Arithmetical and Numerical Ability",
       "question": "The perimeter of the base of a closed right prism is 24 cm, and its height is 8 cm. The total surface area of this prism is 218 cm2. What is the total area (in cm2) of the base and the top of the prism?",
-      "question_image": null,
       "options": [
         "24",
         "22",
         "26",
         "20"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (26) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (26) है।"
     },
     {
       "id": 13,
       "section": "Arithmetical and Numerical Ability",
       "question": "A sum of ₹10000 amounts to ₹13689 in 2 years at a certain rate of interest per annum, compounded annually. The rate of interest per annum is:4449",
-      "question_image": null,
       "options": [
         "16%",
         "17%",
         "20%",
         "18%"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (17%) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (17%) है।"
     },
     {
       "id": 14,
       "section": "Arithmetical and Numerical Ability",
       "question": "Nikhil sold a machine to Sonia at a profit of 33%. Sonia sold this machine to Aruna at a loss of 15%. If Nikhil paid ₹5200 for this machine, then find the cost price of the machine for Aruna.",
-      "question_image": null,
       "options": [
         "₹5887.60",
         "₹5878.60",
         "₹5578.60",
         "₹5758.60"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (₹5878.60) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (₹5878.60) है।"
     },
     {
       "id": 15,
       "section": "Arithmetical and Numerical Ability",
       "question": "A trader purchases blueberries at ₹190 per hundred. He spends another 50% of the purchase cost on transportation. What should be the selling price (in ₹) per hundred blueberries to earn a profit of 20%?",
-      "question_image": null,
       "options": [
         "343",
         "344",
         "340",
         "342"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (342) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (342) है।"
     },
     {
       "id": 16,
       "section": "Arithmetical and Numerical Ability",
       "question": "In how many years will ₹4,500 fetch an interest of ₹900 at 5% per year simple interest?",
-      "question_image": null,
       "options": [
         "7",
         "4",
         "5",
         "6"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (4) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (4) है।"
     },
     {
       "id": 17,
       "section": "Arithmetical and Numerical Ability",
       "question": "The given table shows the production of different types of scooters (in thousands) in a company. Study the table and answer the question.\t\t\t\t\t\tYear\t\t\tType A\t\t\tType B\t\t\tType C\t\t\t\t\t\t\t1992\t\t\t180\t\t\t65\t\t\t84\t\t\t\t\t\t\t1993\t\t\t210\t\t\t90\t\t\t32\t\t\t\t\t\t\t1994\t\t\t135\t\t\t60\t\t\t44\t\t\t\t\t\t\t1995\t\t\t190\t\t\t85\t\t\t50\t\t\t\t\t\t\t1996\t\t\t260\t\t\t95\t\t\t120\t\t\tIn which of the given years was the production of type B scooters within 10% of its average production over the given years?75",
-      "question_image": null,
       "options": [
         "1995",
         "1996",
         "1993",
         "1992"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (1995) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (1995) है।"
     },
     {
       "id": 18,
       "section": "Arithmetical and Numerical Ability",
       "question": "The area of a square plot is five times the area of a rectangular plot with dimensions 125 m x 64 m. What will be the cost (in ₹) of building a fence around the square plot, if the cost per m of building the fence is ₹58?",
-      "question_image": null,
       "options": [
         "56400",
         "46400",
         "42400",
         "52400"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (46400) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (46400) है।"
     },
     {
       "id": 19,
       "section": "Arithmetical and Numerical Ability",
       "question": "Kalpana and Sudha got 405 and 705 marks, respectively, in the same examination. If Kalpana scored 27% marks, then what was the percentage of marks scored by Sudha?",
-      "question_image": null,
       "options": [
         "48%",
         "50%",
         "45%",
         "47%"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (47%) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (47%) है।"
     },
     {
       "id": 20,
       "section": "Arithmetical and Numerical Ability",
       "question": "Find the mean proportional of 144 and 4.",
-      "question_image": null,
       "options": [
         "27",
         "26",
         "23",
         "24"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (24) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (24) है।"
     }
   ]
 }

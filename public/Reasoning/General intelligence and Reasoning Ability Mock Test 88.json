@@ -6,321 +6,281 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "In this question, a statement is given followed by two courses of action, numbered I and II. You must assume everything in the statement to be true, and on the basis of the information given in the statement, decide which of the given courses of action logically follow(s) for pursuing.Statement: A recent study by a famous child psychologist reveals that children below the age of seven years must be kept away from virtual entertainment via electronic devices.Courses of Action:I. The government must promote awareness programmes for all the citizens stating the harms caused to the children by electronic devices.II. Parents must enrol their children to nearby schools. 691",
-      "question_image": null,
       "options": [
         "Only II follows.",
         "Neither I nor II follows.",
         "Both I and II follow.",
         "Only I follows."
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Only I follows.) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Only I follows.) है।"
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the given words.QOU          RAG           BUN            PERIn each of the words, each vowel is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. In how many letter-clusters thus formed will no vowel appear? 2616",
-      "question_image": null,
       "options": [
         "Three",
         "Zero",
         "Two",
         "One"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Two) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Two) है।"
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the given letter-clusters should replace # and % so that the pattern and relationship followed between the letter-cluster pair on the left side of :: is the same as that on the right side of ::?# : JED :: VSP : %3281",
-      "question_image": null,
       "options": [
         "# = PRT, % = SWY",
         "# = DFG, % = JUY",
         "# = POJ, % = ZFU",
         "# = DKX, % = BMV"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (# = DKX, % = BMV) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (# = DKX, % = BMV) है।"
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,'the one thing I' is coded as 'qw as df er','thing I don’t like' is coded as 'df er tg yh','is to one listen' is coded as 'uj ik as ol' and'thing like others to' is coded as 'df yh po ik'. (All the codes are two-letter codes only.)What is the possible code for ‘listen’?",
-      "question_image": null,
       "options": [
         "Either 'ik' or 'ol'",
         "Either 'ol' or 'as'",
         "Either 'ol' or 'uj'",
         "Either 'as' or 'ik'"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Either 'ol' or 'uj') है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Either 'ol' or 'uj') है।"
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Which numbers should replace X and Y, so that the pattern followed by the two numbers on the left side of :: is the same as that on the right side of ::?\n\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13, can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)\n\nX : 68 :: 12 : Y",
-      "question_image": null,
       "options": [
         "X = 12, Y = 140",
         "X = 13, Y = 169",
         "X = 8, Y = 148",
         "X = 15, Y = 222"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (X = 8, Y = 148) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (X = 8, Y = 148) है।"
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "15 is related to 52 following a certain logic. Following the same logic, 9 is related to 28. To which of the following is 12 related, following the same logic?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13, can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
-      "question_image": null,
       "options": [
         "36",
         "48",
         "44",
         "40"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (40) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (40) है।"
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "A certain number of people are sitting in a row, facing north. W sits to the immediate right of A. R sits third to the left of S. Only two people sit between W and R. If no other person is sitting in the row, what is the total number of persons seated?",
-      "question_image": null,
       "options": [
         "6",
         "8",
         "5",
         "7"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (8) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (8) है।"
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "What will come in the place of the question mark (?) in the following equation, if ‘÷’ and ‘+’ are interchanged and ‘−’ and ‘×’ are interchanged?44 ÷ 4 × 3 − 27 + 9 = ?",
-      "question_image": null,
       "options": [
         "37",
         "43",
         "39",
         "41"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (39) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (39) है।"
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘A’ stands for ‘−’, ‘B’ stands for ‘+’, ‘C’ stands for ‘×’, and ‘D’ stands for ‘÷’, then the resultant of which of the following would be 12?",
-      "question_image": null,
       "options": [
         "8 A 2 B 4 C 3 D 2",
         "8 B 2 D 4 A 2 C 3",
         "8 C 2 A 4 D 3 B 2",
         "8 D 2 C 4 A 3 B 2"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (8 A 2 B 4 C 3 D 2) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (8 A 2 B 4 C 3 D 2) है।"
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left)     155     438     482     895     908     (Right)(Example- 697 – First digit = 6, second digit = 9 and third digit = 7)(NOTE: All operations to be done from left to right.)If 1 is subtracted from the third digit of every number, in how many numbers will the third digit be exactly divisible by the first digit?",
-      "question_image": null,
       "options": [
         "1",
         "5",
         "3",
         "2"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (1) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (1) है।"
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "Rohan starts from Point A and walks 21 m towards the north. He takes a left turn, walks 14 m and then takes a left turn. He then walks 33 m, reaches Point B and stops. Vera starts from Point Z, which is 18 m towards the east of Point B. She walks 20 m towards the east, takes a left turn, walks 38 m, turns left, walks 24 m and stops at Point Y. What is the shortest distance between Point A and Point Y? (All turns are 90° turns only)  2787",
-      "question_image": null,
       "options": [
         "22 m",
         "29 m",
         "24 m",
         "26 m"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (26 m) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (26 m) है।"
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,‘P # Q’ means ‘A is the father of B’,‘P $ Q’ means ‘A is the mother of B’,‘P ! Q’ means ‘A is the sister of B’,‘P @ Q’ means ‘A is the brother of B’, and‘P > Q’ means ‘A is the husband of B’.Which of the given options will make the following statement true?‘D is the wife of A’s brother’.",
-      "question_image": null,
       "options": [
         "A @ B $ C # D",
         "A ! B > C $ D",
         "A @ B ! C > D",
         "A @ B ! C # D"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (A @ B ! C > D) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (A @ B ! C > D) है।"
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following series, only one letter-cluster is incorrect. Identify the INCORRECT letter-cluster.JMP EHK ZCF UXA PSV KMQ",
-      "question_image": null,
       "options": [
         "ZCF",
         "PSV",
         "KMQ",
         "UXA"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (KMQ) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (KMQ) है।"
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below. (Left)   456          564          568           657            698         (Right) (Example- 697 – First digit = 6, second digit = 9 and third digit = 7)What will be the resultant if the third digit of the lowest number is added to the second digit of the highest number?7876",
-      "question_image": null,
       "options": [
         "12",
         "11",
         "14",
         "15"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (15) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (15) है।"
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "इस प्रश्न में, एक कथन के बाद दो कार्रवाई I और II दी गई हैं। आपको कथन में दी गई सभी कथनों को सत्य मानना है और कथन में दी गई जानकारी के आधार पर तय करना है कि कौन-सी कार्रवाई तार्किक रूप से सही हैं।\n\nकथन:\nटमाटर की वर्तमान ऊँची कीमतों का कारण अप्रैल-मई में टमाटर की अचानक गिरावट से लगाया जा सकता है, जिसके कारण कई उत्पादकों ने अपनी फसलें बोनी बंद कर दी थीं। मार्च और अप्रैल की असामान्य गर्मी के कारण पीड़कों का भी प्रकोप हुआ, जिससे उत्पादन पर असर पड़ा।\n\nकार्रवाई:\nI. उपभोक्ताओं को टमाटर का उपयोग कम से कम करना होगा।\nII. सरकार को ऐसी परिस्थितियों का पहले से अनुमान लगाना चाहिए ताकि वह टमाटर की कीमतों को स्थिर रखने के लिए आवश्यक कदम उठा सके।",
-      "question_image": null,
       "options": [
         "न तो I और न ही II अनुसरण करता है",
         "केवल I अनुसरण करता है",
         "I और II दोनों अनुसरण करते हैं",
         "केवल II अनुसरण करता है"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (I और II दोनों अनुसरण करते हैं) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (I और II दोनों अनुसरण करते हैं) है।"
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "Identify the letter-cluster that does NOT belong to the following series.BDH   CEJ   DFK   EGL   FHM   GIN",
-      "question_image": null,
       "options": [
         "DFK",
         "BDH",
         "CEJ",
         "EGL"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (BDH) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (BDH) है।"
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code,'I have the most' is coded as 'qa ws ed rf','the most powerful mantra' is coded as 'ed rf tg yh','for a have happy' is coded as 'uj ik ws ol' and'the mantra life a' is coded as 'ed yh mm ik'.(All the codes are two-letter codes only.)What is the possible code for ‘happy’?",
-      "question_image": null,
       "options": [
         "Either 'ol' or 'ws'",
         "Either 'ik' or 'ol'",
         "Either 'ws' or 'ik'",
         "Either 'ol' or 'uj'"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Either 'ol' or 'uj') है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Either 'ol' or 'uj') है।"
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "E, F, M, N, S and T live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it is numbered 2 and so on, till the topmost floor is numbered 6. Only two people live between N and E. Only F lives above M. T lives on an even-numbered floor. N lives on the lowermost floor. How many people live between S and F?",
-      "question_image": null,
       "options": [
         "Four",
         "Three",
         "One",
         "Two"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Two) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Two) है।"
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?78        91        108        129        154        ?",
-      "question_image": null,
       "options": [
         "187",
         "183",
         "191",
         "176"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (183) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (183) है।"
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "A, B, C, D, P, Q, R and S are sitting around a square table facing the centre of the table. Some of them are sitting at the corners while some are sitting at the exact centre of the sides. Only three people sit between R and A. R sits at the centre of one of the sides. B sits second to the left of A. Q sits second to the right of P. C sits at one of the corners. Neither C nor Q is an immediate neighbour of A. Only three people sit between Q and S. C is not an immediate neighbour of D.Who sits fourth to the left of D?",
-      "question_image": null,
       "options": [
         "R",
         "Q",
         "P",
         "B"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (B) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (B) है।"
     }
   ]
 }

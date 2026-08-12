@@ -6,321 +6,281 @@
       "id": 1,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank. Maria sings __________ contestant in the competition.",
-      "question_image": null,
       "options": [
         "most beautiful than any",
         "more beautifully than any other",
         "beautifully than any other",
         "much more beautifully than any"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (more beautifully than any other) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (more beautifully than any other) है।"
     },
     {
       "id": 2,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. Human beings rely heavily on the environment for food, water, and shelter.B. With climate change and environmental degradation, the future of humanity is at risk.C. Thus, it becomes essential to conserve and protect natural resources for future generationsD. Deforestation, pollution, and over-exploitation of resources have created several ecological problems.E. Protecting the environment has become an urgent need for the survival of all species on Earth.",
-      "question_image": null,
       "options": [
         "EBDCA",
         "ABCDE",
         "CABDE",
         "ABDEC"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (ABDEC) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (ABDEC) है।"
     },
     {
       "id": 3,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blanks.They went for ______ walk on _______ Juhu beach in Mumbai.",
-      "question_image": null,
       "options": [
         "a, a",
         "no article, the",
         "the, no article",
         "a, the"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (a, the) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (a, the) है।"
     },
     {
       "id": 4,
       "section": "English Language and Comprehension",
       "question": "Identify the INCORRECTLY spelt word in the given sentence.The systemic changes in the company are necessary for a comprehensive reevaluation of institutional framework and padagogical methodologies.",
-      "question_image": null,
       "options": [
         "comprehensive",
         "reevaluation",
         "padagogical",
         "systemic"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (padagogical) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (padagogical) है।"
     },
     {
       "id": 5,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.The evolution of communication technology has dramatically transformed how humans interact and share information. From the early days of written letters and telegraphs to today's instant messaging and video calls, the ways in which we communicate have undergone significant changes. In the 19th century, the invention of the telegraph revolutionised long-distance communication, allowing messages to be transmitted over wires in minutes rather than days. This breakthrough was followed by the telephone, invented by Alexander Graham Bell in 1876, which enabled real-time voice communication over long distances. The 20th century saw the advent of radio and television, which brought news, entertainment and educational content to a wide audience. These technologies played a crucial role in shaping public opinion and culture. The development of the internet in the late 20th century marked another significant milestone. The internet enabled instant access to vast amounts of information and facilitated new forms of communication such as email, forums and social media.In the 21st century, mobile technology and smartphones have taken communication to new heights. Smartphones combine multiple functions, including voice calls, text messaging, internet access and multimedia capabilities, in a single device. Social media platforms like Facebook, Twitter and Instagram have created virtual communities where people can connect, share experiences and express themselves. The impact of these advancements is profound. They have made communication faster, more efficient and more accessible. People can now communicate with others around the world instantly, fostering global connections and collaborations. However, these advancements also come with challenges. Issues such as digital privacy, misinformation and the digital divide have emerged as significant concerns. Ensuring that everyone has equal access to communication technology and addressing the ethical implications of its use are critical as we continue to advance. In conclusion, the evolution of communication technology has greatly enhanced our ability to connect and share information. As we move forward, it is essential to navigate the challenges and maximise the benefits of these innovations.Who invented the telephone?",
-      "question_image": null,
       "options": [
         "None of the options",
         "Graham Bell",
         "Thomas Bell",
         "Thomas Edison"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Graham Bell) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Graham Bell) है।"
     },
     {
       "id": 6,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.The evolution of communication technology has dramatically transformed how humans interact and share information. From the early days of written letters and telegraphs to today's instant messaging and video calls, the ways in which we communicate have undergone significant changes. In the 19th century, the invention of the telegraph revolutionised long-distance communication, allowing messages to be transmitted over wires in minutes rather than days. This breakthrough was followed by the telephone, invented by Alexander Graham Bell in 1876, which enabled real-time voice communication over long distances. The 20th century saw the advent of radio and television, which brought news, entertainment and educational content to a wide audience. These technologies played a crucial role in shaping public opinion and culture. The development of the internet in the late 20th century marked another significant milestone. The internet enabled instant access to vast amounts of information and facilitated new forms of communication such as email, forums and social media.In the 21st century, mobile technology and smartphones have taken communication to new heights. Smartphones combine multiple functions, including voice calls, text messaging, internet access and multimedia capabilities, in a single device. Social media platforms like Facebook, Twitter and Instagram have created virtual communities where people can connect, share experiences and express themselves. The impact of these advancements is profound. They have made communication faster, more efficient and more accessible. People can now communicate with others around the world instantly, fostering global connections and collaborations. However, these advancements also come with challenges. Issues such as digital privacy, misinformation and the digital divide have emerged as significant concerns. Ensuring that everyone has equal access to communication technology and addressing the ethical implications of its use are critical as we continue to advance. In conclusion, the evolution of communication technology has greatly enhanced our ability to connect and share information. As we move forward, it is essential to navigate the challenges and maximise the benefits of these innovations.What did the invention of the telegraph revolutionise?",
-      "question_image": null,
       "options": [
         "The internet revolution",
         "Real time video calls",
         "Long distance written communication",
         "Radio signal broadcasting"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Long distance written communication) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Long distance written communication) है।"
     },
     {
       "id": 7,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.The evolution of communication technology has dramatically transformed how humans interact and share information. From the early days of written letters and telegraphs to today's instant messaging and video calls, the ways in which we communicate have undergone significant changes. In the 19th century, the invention of the telegraph revolutionised long-distance communication, allowing messages to be transmitted over wires in minutes rather than days. This breakthrough was followed by the telephone, invented by Alexander Graham Bell in 1876, which enabled real-time voice communication over long distances. The 20th century saw the advent of radio and television, which brought news, entertainment and educational content to a wide audience. These technologies played a crucial role in shaping public opinion and culture. The development of the internet in the late 20th century marked another significant milestone. The internet enabled instant access to vast amounts of information and facilitated new forms of communication such as email, forums and social media.In the 21st century, mobile technology and smartphones have taken communication to new heights. Smartphones combine multiple functions, including voice calls, text messaging, internet access and multimedia capabilities, in a single device. Social media platforms like Facebook, Twitter and Instagram have created virtual communities where people can connect, share experiences and express themselves. The impact of these advancements is profound. They have made communication faster, more efficient and more accessible. People can now communicate with others around the world instantly, fostering global connections and collaborations. However, these advancements also come with challenges. Issues such as digital privacy, misinformation and the digital divide have emerged as significant concerns. Ensuring that everyone has equal access to communication technology and addressing the ethical implications of its use are critical as we continue to advance. In conclusion, the evolution of communication technology has greatly enhanced our ability to connect and share information. As we move forward, it is essential to navigate the challenges and maximise the benefits of these innovations.Which technology enabled instant access to vast amounts of information?",
-      "question_image": null,
       "options": [
         "Telegraph",
         "Internet",
         "Radio",
         "Television"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Internet) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Internet) है।"
     },
     {
       "id": 8,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.The evolution of communication technology has dramatically transformed how humans interact and share information. From the early days of written letters and telegraphs to today's instant messaging and video calls, the ways in which we communicate have undergone significant changes. In the 19th century, the invention of the telegraph revolutionised long-distance communication, allowing messages to be transmitted over wires in minutes rather than days. This breakthrough was followed by the telephone, invented by Alexander Graham Bell in 1876, which enabled real-time voice communication over long distances. The 20th century saw the advent of radio and television, which brought news, entertainment and educational content to a wide audience. These technologies played a crucial role in shaping public opinion and culture. The development of the internet in the late 20th century marked another significant milestone. The internet enabled instant access to vast amounts of information and facilitated new forms of communication such as email, forums and social media.In the 21st century, mobile technology and smartphones have taken communication to new heights. Smartphones combine multiple functions, including voice calls, text messaging, internet access and multimedia capabilities, in a single device. Social media platforms like Facebook, Twitter and Instagram have created virtual communities where people can connect, share experiences and express themselves. The impact of these advancements is profound. They have made communication faster, more efficient and more accessible. People can now communicate with others around the world instantly, fostering global connections and collaborations. However, these advancements also come with challenges. Issues such as digital privacy, misinformation and the digital divide have emerged as significant concerns. Ensuring that everyone has equal access to communication technology and addressing the ethical implications of its use are critical as we continue to advance. In conclusion, the evolution of communication technology has greatly enhanced our ability to connect and share information. As we move forward, it is essential to navigate the challenges and maximise the benefits of these innovations.What is one challenge associated with advancements in communication technology?",
-      "question_image": null,
       "options": [
         "Global communication",
         "Data privacy",
         "Voice calling",
         "Internet speed"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Data privacy) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Data privacy) है।"
     },
     {
       "id": 9,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.The evolution of communication technology has dramatically transformed how humans interact and share information. From the early days of written letters and telegraphs to today's instant messaging and video calls, the ways in which we communicate have undergone significant changes. In the 19th century, the invention of the telegraph revolutionised long-distance communication, allowing messages to be transmitted over wires in minutes rather than days. This breakthrough was followed by the telephone, invented by Alexander Graham Bell in 1876, which enabled real-time voice communication over long distances. The 20th century saw the advent of radio and television, which brought news, entertainment and educational content to a wide audience. These technologies played a crucial role in shaping public opinion and culture. The development of the internet in the late 20th century marked another significant milestone. The internet enabled instant access to vast amounts of information and facilitated new forms of communication such as email, forums and social media.In the 21st century, mobile technology and smartphones have taken communication to new heights. Smartphones combine multiple functions, including voice calls, text messaging, internet access and multimedia capabilities, in a single device. Social media platforms like Facebook, Twitter and Instagram have created virtual communities where people can connect, share experiences and express themselves. The impact of these advancements is profound. They have made communication faster, more efficient and more accessible. People can now communicate with others around the world instantly, fostering global connections and collaborations. However, these advancements also come with challenges. Issues such as digital privacy, misinformation and the digital divide have emerged as significant concerns. Ensuring that everyone has equal access to communication technology and addressing the ethical implications of its use are critical as we continue to advance. In conclusion, the evolution of communication technology has greatly enhanced our ability to connect and share information. As we move forward, it is essential to navigate the challenges and maximise the benefits of these innovations.Based on your reading of the passage, select the most appropriate synonym of the word 'implications'.",
-      "question_image": null,
       "options": [
         "Elements",
         "Compounds",
         "Theories",
         "Inferences"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Inferences) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Inferences) है।"
     },
     {
       "id": 10,
       "section": "English Language and Comprehension",
       "question": "Select the INCORRECTLY spelt word from the given sentence.Behavioural psychology delves into the realm of cognitive biases and decision making heruistics and the psychology of risk and reward.",
-      "question_image": null,
       "options": [
         "biases",
         "heruistics",
         "realm",
         "psychology"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (heruistics) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (heruistics) है।"
     },
     {
       "id": 11,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate adjective to fill in the blank.Vighnesh is always ___________ while talking to his elders.",
-      "question_image": null,
       "options": [
         "plumpy",
         "dilapidated",
         "affable",
         "petite"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (affable) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (affable) है।"
     },
     {
       "id": 12,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate adjective to fill in the blank.Amit’s wedding was ____________ and cost a lot of money.",
-      "question_image": null,
       "options": [
         "considerate",
         "alluring",
         "extravagant",
         "desirable"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (extravagant) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (extravagant) है।"
     },
     {
       "id": 13,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate homonym to fill in the blank.Saraswathi relied on census data to analyse population trends in her research. Census here means ___________________.12",
-      "question_image": null,
       "options": [
         "very critical",
         "an official count of  a population",
         "criticize strongly",
         "in or near the centre"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (an official count of  a population) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (an official count of  a population) है।"
     },
     {
       "id": 14,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate meaning of the given idiom.Make all the difference",
-      "question_image": null,
       "options": [
         "Have a well-mannered approach",
         "Influence someone or something in a positive way",
         "Influence someone or something in a negative way",
         "Have a brief and concise summary"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Influence someone or something in a positive way) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Influence someone or something in a positive way) है।"
     },
     {
       "id": 15,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate adjective to fill in the blank.Simrin and Kannan had a ____________ bond that nothing could break.",
-      "question_image": null,
       "options": [
         "grave",
         "grumpy",
         "kindred",
         "frail"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (kindred) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (kindred) है।"
     },
     {
       "id": 16,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blanks.She has a degree in ______ commerce and teaches at ______ local degree college.",
-      "question_image": null,
       "options": [
         "No article, a",
         "the, a",
         "a, No article",
         "the, the"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (No article, a) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (No article, a) है।"
     },
     {
       "id": 17,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option that can substitute the underlined words in the given sentence.Sarita's fear of confined spaces made it difficult for her to take the elevator.",
-      "question_image": null,
       "options": [
         "Acrophobia",
         "Agoraphobia",
         "Claustrophobia",
         "Xenophobia"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Claustrophobia) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Claustrophobia) है।"
     },
     {
       "id": 18,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate homonym to fill in the blank.Vishnu checked his watch to see if he was late to the school. Watch here means ___________________.14",
-      "question_image": null,
       "options": [
         "be careful about",
         "a small timepiece usually worn on the wrist",
         "an act of watching",
         "look at attentively"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (a small timepiece usually worn on the wrist) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (a small timepiece usually worn on the wrist) है।"
     },
     {
       "id": 19,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blanks.She made ______ delicious cake for _______ eighteenth birthday of her daughter.",
-      "question_image": null,
       "options": [
         "a, an",
         "a, the",
         "the, No article",
         "No article, a"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (a, the) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (a, the) है।"
     },
     {
       "id": 20,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option that can substitute the underlined words in the given sentence.The author's new book was a collection of short stories.",
-      "question_image": null,
       "options": [
         "Series",
         "Novel",
         "Anthology",
         "Magazine"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Anthology) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Anthology) है।"
     }
   ]
 }

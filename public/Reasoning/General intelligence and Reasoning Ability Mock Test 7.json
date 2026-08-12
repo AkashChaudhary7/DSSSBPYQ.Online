@@ -6,321 +6,281 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements: No duck is a deer.All deer are goats.All goats are crabs.Conclusions:(I) All deer are crabs.(II) No goat is a duck.",
-      "question_image": null,
       "options": [
         "Only conclusion I follows.",
         "Only conclusion II follows.",
         "Both conclusions I and II follow.",
         "Neither conclusion I nor II follows."
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Only conclusion I follows.) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Only conclusion I follows.) है।"
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes A, B, C, D, E, F and G are kept one over the other but not necessarily in the same order. Only three boxes are kept below A. Only two boxes are kept between A and B. Only C is kept above G. D is kept at some place below F and at some place above E. How many boxes are kept below D?",
-      "question_image": null,
       "options": [
         "3",
         "2",
         "1",
         "4"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (2) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (2) है।"
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘B’ stands for ‘÷’, ‘C’ stands for ‘×’, ‘A’ stands for ‘+’ and ‘D’ stands for ‘−’, then what will come in place of the question mark (?) in the following equation?37 A 27 B 3 D 2 C 7 = ?",
-      "question_image": null,
       "options": [
         "46",
         "28",
         "12",
         "32"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (32) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (32) है।"
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the following letter-clusters.FEM          PEN           GAK           HUB      In each of the letter-clusters, each vowel is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. In how many new letter-clusters thus formed will no vowel appear?",
-      "question_image": null,
       "options": [
         "Zero",
         "Two",
         "One",
         "Three"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (One) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (One) है।"
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order?VRU, SOR, PLO, MIL, ?",
-      "question_image": null,
       "options": [
         "JFI",
         "JIF",
         "IFJ",
         "IJF"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (JFI) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (JFI) है।"
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below. (Left)   869         859           196            189            889         (Right) (Example- 697 – First digit = 6, second digit = 9 and third digit = 7)(NOTE - All operations to be done from left to right.)What will be the resultant if the first digit of the highest number is added to the third digit of the lowest number?",
-      "question_image": null,
       "options": [
         "15",
         "16",
         "18",
         "17"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (17) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (17) है।"
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven people, C, D, I, J, M, N and X, are sitting around a circular table facing the centre. Only four people sit between J and I when counted from the right of J. J sits third to the left of D. M sits third to the left of N. C is an immediate neighbour of both I and D. How many people sit between X and C when counted from the right of X?",
-      "question_image": null,
       "options": [
         "Three",
         "One",
         "Four",
         "Two"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Two) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Two) है।"
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "45 is related to 180 following a certain logic. Following the same logic, 36 is related to 144. To which of the given options is 22 related, following the same logic?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
-      "question_image": null,
       "options": [
         "101",
         "93",
         "88",
         "110"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (88) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (88) है।"
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,A + B means ‘A is the mother of B’,A – B means ‘A is the brother of B’,A x B means ‘A is the wife of B’,A % B means ‘A is the father of B’ andA # B means ‘A is the daughter of B’.How is Z related to R if ‘R # Q + K – L # Z’?",
-      "question_image": null,
       "options": [
         "Daughter",
         "Father",
         "Mother",
         "Son"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Father) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Father) है।"
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘THEM’ is coded as ‘2573’ and ‘WHET’ is coded as ‘3274’. What is the code for ‘W’ in the given code language?",
-      "question_image": null,
       "options": [
         "7",
         "2",
         "4",
         "3"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (4) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (4) है।"
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number results in the second number. Similarly, certain mathematical operation(s) on the second number results in the third number and so on. Which of the given options follows the same set of operations as in the given sets?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)11 - 22 - 44 - 88; 12 - 24 - 48 - 96",
-      "question_image": null,
       "options": [
         "15 - 45 - 90 - 180",
         "7 - 14 - 56 - 112",
         "10 - 20 - 60 - 120",
         "15 - 30 - 60 - 120"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (15 - 30 - 60 - 120) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (15 - 30 - 60 - 120) है।"
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes, A, B, C, D, R, S and T, are kept one over the other but not necessarily in the same order. No box is kept above S. Only three boxes are kept between S and B. Only one box is kept between D and A. A is kept immediately above B. Only four boxes are kept between D and T. C is kept at some place above R. Which of the following boxes is kept second below C?",
-      "question_image": null,
       "options": [
         "T",
         "A",
         "D",
         "B"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (B) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (B) है।"
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘D’ stands for ‘÷’, ‘C’ stands for ‘×’, ‘B’ stands for ‘+’ and ‘A’ stands for ‘−’, then what will come in place of the question mark (?) in the following equation?\n\n72 D 8 A 4 C 5 B 13 = ?",
-      "question_image": null,
       "options": [
         "2",
         "8",
         "12",
         "4"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (2) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (2) है।"
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes A, B, C, D, E, F and G are kept one over the other, but not necessarily in the same order. Only B is kept above E. Only two boxes are kept between E and G. Only D is kept below C. F is not kept immediately above G. How many boxes are kept above F?",
-      "question_image": null,
       "options": [
         "2",
         "4",
         "1",
         "3"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (2) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (2) है।"
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "Rohit starts from point A and walks 6 km towards east. He then takes a right turn and walks 5 km. He again turns right and walks 3 km. He takes another right turn and walks 3 km. In the end, he turns left and walks 3 km to reach point B. How far (shortest distance) and towards which direction should he walk in order to reach Point A again? (All turns are 90-degree turns only unless specified.)",
-      "question_image": null,
       "options": [
         "3 km towards east",
         "3 km towards south",
         "2 km towards north",
         "2 km towards west"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (2 km towards north) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (2 km towards north) है।"
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "5 is related to 22 following a certain logic. Following the same logic, 9 is related to 78. To which of the following is 11 related, following the same logic?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
-      "question_image": null,
       "options": [
         "112",
         "118",
         "121",
         "106"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (118) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (118) है।"
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘HERO’ is coded as ‘8513’ and ‘HOTE’ is coded as ‘1863’. What is the code for ‘T’ in that language?",
-      "question_image": null,
       "options": [
         "3",
         "8",
         "6",
         "1"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (6) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (6) है।"
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "102 is related to 34 following a certain logic. Following the same logic, 204 is related to 68. To which of the given options is 405 related, following the same logic?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
-      "question_image": null,
       "options": [
         "133",
         "125",
         "135",
         "123"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (135) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (135) है।"
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "In this question, a statement is given followed by two courses of action, numbered I and II. You must assume everything in the statement to be true, and on the basis of the information given in the statement, decide which of the given courses of action logically follow(s) for pursuing.Statement: The infection rate of pandemic viral disease X is increasing in Country Y.Courses of Action:I. Civic bodies in Country Y should raise awareness about the spread of disease X and methods to avoid infection.II. Hospitals in Country Y should enhance their capacity to accommodate the growing number of incoming patients infected with disease X.",
-      "question_image": null,
       "options": [
         "Only II follows",
         "Both I and II follow",
         "Only I follows",
         "Neither I nor II follows"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Both I and II follow) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Both I and II follow) है।"
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,A + B means ‘A is the mother of B’,A – B means ‘A is the brother of B’,A x B means ‘A is the wife of B’,A % B means ‘A is the father of B’ andA # B means ‘A is the daughter of B’.How is Q related to G if ‘G + L – Z # P % Q + N’?",
-      "question_image": null,
       "options": [
         "Sister",
         "Mother",
         "Daughter",
         "Son"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Daughter) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Daughter) है।"
     }
   ]
 }
