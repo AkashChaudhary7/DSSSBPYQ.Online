@@ -1,4 +1,4 @@
-package online.dsssbpyq.app;
+package online.dsssbpyq.twa;
 
 import com.getcapacitor.BridgeActivity;
 

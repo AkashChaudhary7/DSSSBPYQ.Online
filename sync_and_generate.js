@@ -13,6 +13,9 @@ function findJsonFiles(dir, fileList = []) {
     'metadata.json',
     'firebase-applet-config.json',
     'firebase-blueprint.json',
+    'wrangler.json',
+    'wrangler.jsonc',
+    'wrangler.toml',
     'bun.lock'
   ]);
   for (const file of files) {

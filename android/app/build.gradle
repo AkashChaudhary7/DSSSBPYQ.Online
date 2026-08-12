@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace = "online.dsssbpyq.app"
+    namespace = "online.dsssbpyq.twa"
     compileSdk = rootProject.ext.compileSdkVersion
 
     defaultConfig {
-        applicationId "online.dsssbpyq.app"
+        applicationId "online.dsssbpyq.twa"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

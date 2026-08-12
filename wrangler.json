@@ -1,0 +1,7 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "dsssbpyq-online",
+  "assets": {
+    "directory": "./dist"
+  }
+}
