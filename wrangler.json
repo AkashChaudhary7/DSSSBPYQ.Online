@@ -1,6 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "dsssbpyq-online",
+  "name": "dsssbpyqonline",
+  "compatibility_date": "2026-08-12",
   "assets": {
     "directory": "./dist"
   }
