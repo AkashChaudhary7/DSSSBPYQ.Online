@@ -6,321 +6,281 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "A, B, C, D, E, F and G are sitting around a circular table facing the centre.Only one person sits between A and C, when counted from the left of C. G sits third to the right of E. D sits third to the left of B. G sits to the immediate right of D. F is not an immediate neighbour of D. How many people sit between A and G, when counted from the right of A?",
-      "question_image": null,
       "options": [
         "1",
         "3",
         "2",
         "4"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (3) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (3) है।"
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘EXAM’ is coded as ‘2379’ and ‘MADE’ is coded as ‘9278’. What is the code for ‘D’ in the given code language?",
-      "question_image": null,
       "options": [
         "7",
         "9",
         "8",
         "2"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (8) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (8) है।"
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "Sourav starts from Point A and drives 15 km towards south. He then takes a right turn, drives 7 km, turns right and drives 17 km. He then takes a right turn and drives 11 km. He takes a final right turn, drives 2 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again?(All turns are 90-degree turns only unless specified.)",
-      "question_image": null,
       "options": [
         "5 km to the west",
         "4 km to the east",
         "5 km to the east",
         "4 km to the west"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (4 km to the west) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (4 km to the west) है।"
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left)   596          569           581            518            576         (Right)(Example: 697 – First digit = 6, second digit = 9 and third digit = 7)(NOTE: All operations to be done from left to right.)What will be the resultant if the second digit of the lowest number is added to the third digit of the highest number?",
-      "question_image": null,
       "options": [
         "6",
         "7",
         "9",
         "4"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (7) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (7) है।"
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a row of 83 students facing north, EFG is 38th from the right end. If KLM is 18th to the left of EFG, what is KLM's position from the left end of the line?",
-      "question_image": null,
       "options": [
         "30th",
         "28th",
         "26th",
         "24th"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (28th) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (28th) है।"
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "यह प्रश्न दिए गए शब्दों पर आधारित है।\n\nRAT SIN OAK ARM\n\nदाएं से दूसरे शब्द के दूसरे अक्षर और बाएं से दूसरे शब्द के तीसरे अक्षर के बीच अंग्रेजी वर्णमाला क्रम में कितने अक्षर हैं?",
-      "question_image": null,
       "options": [
         "11",
         "10",
         "12",
         "13"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (12) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (12) है।"
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order?OHM    QJO    SLQ    UNS    ?",
-      "question_image": null,
       "options": [
         "WOV",
         "WOU",
         "WPU",
         "WPV"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (WPU) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (WPU) है।"
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left) 843  863  810  809  821 (Right)(Example: 697 – First digit = 6, second digit = 9 and third digit = 7)(NOTE: All operations to be done from left to right.)What will be the result if second digit of the highest number is added to the third digit of lowest number?",
-      "question_image": null,
       "options": [
         "13",
         "15",
         "16",
         "11"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (15) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (15) है।"
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number result(s) in the second number. Similarly, certain mathematical operation(s) on the second number result(s) in the third number and so on. Which of the given options follows the same set of operations as in the given sets?(NOTE:  A two/three digit number cannot be broken into individual digits for operations e.g., if 37 is followed by 10, the operation cannot be 3 + 7 as a two digit number cannot be broken into individual digits.)10 - 17 - 102 - 9338 - 45 - 270 - 2611755",
-      "question_image": null,
       "options": [
         "42 - 48 - 240 - 231",
         "41 - 49 - 294 - 286",
         "22 - 29 - 232 - 224",
         "45 - 52 - 312 - 303"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (45 - 52 - 312 - 303) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (45 - 52 - 312 - 303) है।"
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of G, H, I, J, M, N and O has an exam on a different day of a week starting from Monday and ending on Sunday of the same week. Only three people have the exam between I and O. Only three people have the exam between M and N. J has the exam on some day before O and on some day after H. Only G has the exam before N. How many people have the exam before J?",
-      "question_image": null,
       "options": [
         "One",
         "Four",
         "Three",
         "Two"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Four) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Four) है।"
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a row of 31 students facing north, Suman is 13th from the left end. If David is 9th to the right of Suman, what is David's position from the right end of the line?",
-      "question_image": null,
       "options": [
         "10th",
         "7th",
         "8th",
         "6th"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (10th) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (10th) है।"
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order?PIM    RKO   TMQ   VOS   ?",
-      "question_image": null,
       "options": [
         "XRV",
         "XQV",
         "XRU",
         "XQU"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (XQU) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (XQU) है।"
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘P’ stands for ‘−’ , ‘Q’ stands for ‘×’, ‘C’ stands for ‘ ÷’ and ‘D’ stands for ‘+‘ , what will come in place of the question mark (?) in the given equation?27 D 16 C 8 Q 17 P 31 = ? 957",
-      "question_image": null,
       "options": [
         "20",
         "40",
         "30",
         "50"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (30) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (30) है।"
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given information carefully and answer the question that follows. You must assume everything in the information to be true.The incidence of waterborne diseases in Village E has risen sharply over the past year. A public health investigation linked this rise to the contamination of the village's main water source by sewage. Health officials recommend the immediate repair and upgrading of the village’s sewage system to prevent further contamination.Which of the following can be concluded from the given information?I. Contamination of the water source by sewage contributes to waterborne diseases in Village E.II. Residents of Village E will be soon evacuating the village.",
-      "question_image": null,
       "options": [
         "Both I and II follow.",
         "Neither I nor II follows.",
         "Only I follows.",
         "Only II follows."
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Only I follows.) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Only I follows.) है।"
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number result(s) in the second number. Similarly, certain mathematical operation(s) on the second number result(s) in the third number and so on. Which of the given options follows the same set of operations as in the given sets?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)2 - 4 - 8 -16; 3 - 6 - 12 - 245019",
-      "question_image": null,
       "options": [
         "7 - 14 - 35 - 42",
         "5 - 10 - 20 - 40",
         "4 - 8 - 20 - 40",
         "6 - 12 - 18 - 24"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (5 - 10 - 20 - 40) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (5 - 10 - 20 - 40) है।"
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,'A + B' means ‘A is the son of B’,'A − B' means ‘A is the brother of B’,'A × B' means ‘A is the wife of B’ and'A ÷ B' means ‘A is the father of B’.Based on the above, how is D related to J if ‘D + F ÷ G − H × J’?",
-      "question_image": null,
       "options": [
         "Wife's father",
         "Wife's brother",
         "Brother",
         "Father"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Wife's brother) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Wife's brother) है।"
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘+’ means ‘−’, ‘−’ means ‘×’, ‘×’ means ‘÷’, ‘÷’ means ‘+’, then what will come in place of the question mark (?) in the following equation?170 × 5 ÷ 18 – 2 + 37 = ?",
-      "question_image": null,
       "options": [
         "39",
         "43",
         "33",
         "37"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (33) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (33) है।"
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘DINE’ is coded as ‘4619’ and ‘EDIT’ is coded as ‘6412’. What is the code for ‘T’ in the given code language?",
-      "question_image": null,
       "options": [
         "4",
         "2",
         "6",
         "1"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (2) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (2) है।"
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?20, 34, 62, 104, 160, ?",
-      "question_image": null,
       "options": [
         "231",
         "230",
         "233",
         "232"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (230) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (230) है।"
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "A, B, C, D, E and F are sitting around a circular table facing the centre. C sits second to the left of B. A is an immediate neighbour of B. D sits to the immediate right of B. E sits second to the left of C. F sits to the immediate right of E. What is the position of A with respect to F?",
-      "question_image": null,
       "options": [
         "Immediate right",
         "Second to the left",
         "Third to the left",
         "Second to the right"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Second to the right) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Second to the right) है।"
     }
   ]
 }

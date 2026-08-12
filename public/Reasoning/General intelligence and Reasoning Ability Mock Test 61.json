@@ -6,321 +6,281 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘end of season’ is coded as ‘ub kc sp’, and ‘time to end’ is coded as ‘kc ty hb’. How is ‘end’ coded in the given language?",
-      "question_image": null,
       "options": [
         "kc",
         "ub",
         "ty",
         "sp"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (kc) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (kc) है।"
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "In this question, a statement is given followed by two conclusions numbered I and II. You have to assume everything in the statement to be true and decide which of them logically follow(s) beyond a reasonable doubt from the information given in the statement.Statement:Restaurant Z sold 30% more milkshakes in May, as compared to April this year.Conclusions:I) People drink more milkshakes as the temperature increases in summer.II) More people drank milkshakes as compared to hot coffee in May this year.",
-      "question_image": null,
       "options": [
         "Only conclusion II follows.",
         "Only conclusion I follows.",
         "Both conclusions I and II follow.",
         "Neither conclusion I nor II follows."
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Neither conclusion I nor II follows.) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Neither conclusion I nor II follows.) है।"
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "Given below are two sets of numbers. In each set of numbers, a certain mathematical operation on the first number results in the second number. Similarly, a certain mathematical operation on the second number results in the third number and so on. Which of the given options follows the same set of operations as in the given sets?(NOTE: A two/three-digit number cannot be broken down into individual digits for operations. E.g. if 37 is followed by 10, the operation cannot be 3 + 7, as a two-digit number cannot be broken down into individual digits.)6 – 18 – 36 – 46; 8 – 24 – 48 – 58",
-      "question_image": null,
       "options": [
         "5 – 15 – 30 – 40",
         "9 – 27 – 54 – 74",
         "7 – 14 – 42 – 52",
         "4 – 12 – 22 – 32"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (5 – 15 – 30 – 40) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (5 – 15 – 30 – 40) है।"
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?911  913  ?  917  919  921",
-      "question_image": null,
       "options": [
         "916",
         "919",
         "914",
         "915"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (915) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (915) है।"
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "L, M, N, P, Q, R and S are sitting around a circular table facing the centre. Only Q sits between P and L. L sits third to the left of R. S sits to the immediate left of R. N is not an immediate neighbour of L. Who sits third to the left of M?",
-      "question_image": null,
       "options": [
         "P",
         "N",
         "L",
         "Q"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (P) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (P) है।"
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the triad which follows the same pattern as that followed by the two triads given below. Both triads follow the same pattern.DJ-EK-FHHN-IO-JL",
-      "question_image": null,
       "options": [
         "KQ-LR-MP",
         "KQ-LS-MP",
         "KQ-LR-MO",
         "KS-LR-NP"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (KQ-LR-MO) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (KQ-LR-MO) है।"
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion(s) logically follow(s) from the statements.Statements:All legs are garlics.Some garlics are bins.No bin is a fur.Conclusions:(I) No leg is a fur.(II) Some bins are legs.",
-      "question_image": null,
       "options": [
         "Both conclusions (I) and (II) follow.",
         "Neither conclusion (I) nor (II) follows.",
         "Only conclusion (II) follows.",
         "Only conclusion (I) follows."
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Neither conclusion (I) nor (II) follows.) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Neither conclusion (I) nor (II) follows.) है।"
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,A + B means ‘A is the mother of B’,A – B means ‘A is the brother of B’,A = B means ‘A is the wife of B’ andA ÷ B means ‘ A is the father of B’.How is H related to L if ‘H + O = N – S ÷ L’?",
-      "question_image": null,
       "options": [
         "Father's brother's wife",
         "Brother's wife's mother",
         "Father's brother's  mother",
         "Father's brother's wife's mother"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Father's brother's wife's mother) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Father's brother's wife's mother) है।"
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Select the set in which the numbers are related in the same way as are the numbers of the following sets.(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)5 - 1213 - 20",
-      "question_image": null,
       "options": [
         "23 - 30",
         "45 - 68",
         "90 - 98",
         "14 - 24"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (23 - 30) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (23 - 30) है।"
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the given letter-number clusters will replace the question mark (?) in the following series to make it logically complete?HJD -8  IME -21  JPF -34  ?  LVH -60",
-      "question_image": null,
       "options": [
         "LTH -47",
         "KTG -45",
         "LTG -45",
         "KSG -47"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (KSG -47) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (KSG -47) है।"
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of A, B, C, D, P, Q and R has an exam on a different day of a week, starting from Monday and ending on Sunday of the same week.Only two people have their exams before B. Only one person has the exam after P. Only three people have their exams between B and R. Only one person has the exam between A and C. D has the exam immediately before A.Who has the exam on Friday?",
-      "question_image": null,
       "options": [
         "Q",
         "B",
         "C",
         "D"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Q) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Q) है।"
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of P, Q, R, S, T, U and V has an exam on a different day of a week starting from Monday and ending on Sunday of the same week. P has an exam on Wednesday. Only one person has an exam between P and Q. U has an exam on the day immediately after Q, but not on a Tuesday. Only two people have exams between V and T. V’s exam is on one of the days before S, but on one of the days after T. R has an exam on the day immediately after T. On which day does V have the exam?",
-      "question_image": null,
       "options": [
         "Thursday",
         "Friday",
         "Saturday",
         "Tuesday"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Thursday) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Thursday) है।"
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘A’ means ‘+’, ‘B’ means ‘−’, ‘P’ means ‘÷’ and ‘Q’ means ‘×’, then what will come in place of the question mark (?) in the following equation?17 B 4 A 15 P 3 B 4 Q 3 = ?",
-      "question_image": null,
       "options": [
         "0",
         "10",
         "4",
         "6"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (6) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (6) है।"
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘A’ stands for ‘÷’, ‘B’ stands for ‘×’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘−’, then what will come in place of question mark (?) in the following equation? 33   B   3   C   18   A   9     D   78 = ?",
-      "question_image": null,
       "options": [
         "13",
         "36",
         "23",
         "26"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (23) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (23) है।"
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order?CHL DIM EJN FKO ?",
-      "question_image": null,
       "options": [
         "GPQ",
         "GKM",
         "GLP",
         "GNT"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (GLP) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (GLP) है।"
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "If in each of the following letter clusters, each letter is changed to the immediate next letter in the English alphabetical order, how many letter clusters thus formed will have no vowel?RED     FIN     THY     ZAG543",
-      "question_image": null,
       "options": [
         "One",
         "Two",
         "Zero",
         "Three"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Zero) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Zero) है।"
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "Mr. Jaun starts from Point A and drives 21 km towards the North. He then takes a left turn, drives 1 km, turns left and drives 41 km. He then takes a left turn and drives 16 km. He takes a final left turn, drives 20 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again? (All turns are 90 degree turns only unless specified.)",
-      "question_image": null,
       "options": [
         "21 km to the West",
         "15 km to the West",
         "17 km to the North",
         "19 km to the South"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (15 km to the West) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (15 km to the West) है।"
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "यह प्रश्न नीचे दी गई तीन अंक वाली पाँच संख्याओं पर आधारित है।\n\n(बाएँ)  160  865  406  311  787  (दाएँ)\n(उदाहरण- 697 - पहला अंक = 6, दूसरा अंक = 9 और तीसरा अंक = 7)\nनोट - सभी संक्रियाएँ बाएँ से दाएँ की जानी चाहिए।\n\nकितनी संख्याओं में उनके क्रमशः पहले अंक और दूसरे अंक के योगफल का परिणाम सम संख्या है?",
-      "question_image": null,
       "options": [
         "दो",
         "तीन",
         "एक में भी नहीं",
         "एक"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (तीन) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (तीन) है।"
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statement(s) and conclusions carefully. Assuming that the information given in the statement(s) is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion(s) logically follow(s) from the statement(s).\n\nStatements:\nAll shirts are jackets.\nAll jackets are coats.\nNo jacket is a jumper.\n\nConclusions:\n(I) No coat is a jumper.\n(II) No shirt is a jumper.2709",
-      "question_image": null,
       "options": [
         "Only conclusion II follows.",
         "Neither conclusion I nor II follows.",
         "Only conclusion I follows.",
         "Both conclusions I and II follow."
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Only conclusion II follows.) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Only conclusion II follows.) है।"
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Which numbers should replace X and Y so that the pattern followed by the two numbers on the left side of :: is the same as that on the right side of ::?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)X : 46.5 :: 54 : Y429",
-      "question_image": null,
       "options": [
         "X = 27, Y = 81.5",
         "X = 32.5, Y = 89",
         "X = 31, Y = 81",
         "X = 27, Y = 89"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (X = 31, Y = 81) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (X = 31, Y = 81) है।"
     }
   ]
 }

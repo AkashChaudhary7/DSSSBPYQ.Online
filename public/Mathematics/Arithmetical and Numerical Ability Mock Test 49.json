@@ -6,321 +6,281 @@
       "id": 1,
       "section": "Arithmetical and Numerical Ability",
       "question": "A person borrows ₹44,800 at 25% compound interest per year, compounded annually. At the end of every year, he pays ₹2,000 as part payment. How much does he still owe after two such instalments?",
-      "question_image": null,
       "options": [
         "₹65,394",
         "₹65,500",
         "₹65,340",
         "₹65,687"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (₹65,500) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (₹65,500) है।"
     },
     {
       "id": 2,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average of 7 numbers is 49. If each number is decreased by 3, what will the new average be?",
-      "question_image": null,
       "options": [
         "49",
         "7",
         "46",
         "43"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (46) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (46) है।"
     },
     {
       "id": 3,
       "section": "Arithmetical and Numerical Ability",
       "question": "A and B can do a job together in 18 days. A is twice as efficient as B. If A works alone for 6 days and then both A and B work together to complete the remaining work, how long will it take to finish the job?",
-      "question_image": null,
       "options": [
         "8 days",
         "12 days",
         "20 days",
         "14 days"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (20 days) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (20 days) है।"
     },
     {
       "id": 4,
       "section": "Arithmetical and Numerical Ability",
       "question": "A shopkeeper marks an article at ₹x and offers a discount of 36% on it. He sells it for ₹456 after charging VAT of 25% on the discounted price. What is the value of x?",
-      "question_image": null,
       "options": [
         "800",
         "570",
         "700",
         "500"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (570) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (570) है।"
     },
     {
       "id": 5,
       "section": "Arithmetical and Numerical Ability",
       "question": "Rishi travels 468 km at 52 km/hr, the next 623 km at 89 km/hr and the next 290 km at 58 km/hr. What is his average speed (in km/hr) for the whole journey?(Correct to two decimal places)",
-      "question_image": null,
       "options": [
         "65.76",
         "70.96",
         "68.87",
         "62.14"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (65.76) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (65.76) है।"
     },
     {
       "id": 6,
       "section": "Arithmetical and Numerical Ability",
       "question": "Amit can do a piece of work in 14 hours and Gopal can do it in 21 hours. With the assistance of Akshay, they completed the work in 7 hours. In how many hours can Akshay alone do the work?1196",
-      "question_image": null,
       "options": [
         "41",
         "42",
         "44",
         "43"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (42) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (42) है।"
     },
     {
       "id": 7,
       "section": "Arithmetical and Numerical Ability",
       "question": "Three numbers are in the ratio 13 : 5 : 16, and their LCM is 2080. Their HCF is:1127",
-      "question_image": null,
       "options": [
         "2",
         "27",
         "8",
         "23"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (2) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (2) है।"
     },
     {
       "id": 8,
       "section": "Arithmetical and Numerical Ability",
       "question": "The cost of a washing machine is 50% less than the cost of a TV. If the cost of the washing machine increases by 80% and that of the TV decreases by 37%, then what is the percentage change in the total cost of 9 washing machines and 3 TVs?195",
-      "question_image": null,
       "options": [
         "Decrease by 27%",
         "Decrease by 32%",
         "Increase by 36%",
         "Increase by 33.2%"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Increase by 33.2%) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Increase by 33.2%) है।"
     },
     {
       "id": 9,
       "section": "Arithmetical and Numerical Ability",
       "question": "A sum of ₹5,20,000 is invested at compound interest for 2 years, interest compounded annually. The rate of interest is 7.5% per annum for the first year and 8.4% per annum for the second year. The amount after 2 years will be:",
-      "question_image": null,
       "options": [
         "₹6,07,880",
         "₹6,05,956",
         "₹6,04,695",
         "₹6,02,680"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (₹6,05,956) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (₹6,05,956) है।"
     },
     {
       "id": 10,
       "section": "Arithmetical and Numerical Ability",
       "question": "The number of prime numbers between 434 and 440 is:1114",
-      "question_image": null,
       "options": [
         "4",
         "1",
         "6",
         "2"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (1) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (1) है।"
     },
     {
       "id": 11,
       "section": "Arithmetical and Numerical Ability",
       "question": "If third proportional of 54 and 72 be x, then what is the value of x?453",
-      "question_image": null,
       "options": [
         "96",
         "98",
         "99",
         "97"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (96) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (96) है।"
     },
     {
       "id": 12,
       "section": "Arithmetical and Numerical Ability",
       "question": "Sachin and Dhoni move towards town B starting from town A, at a speed of 40 km/hr and 45 km/hr, respectively. If Dhoni reaches town B 40 minutes earlier than Sachin, what is the distance between towns A and B?356",
-      "question_image": null,
       "options": [
         "242 km",
         "240 km",
         "243 km",
         "238 km"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (240 km) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (240 km) है।"
     },
     {
       "id": 13,
       "section": "Arithmetical and Numerical Ability",
       "question": "Sapna invested ₹21,500 on simple interest, partly at 13% per annum and partly at 7% per annum. If she earns equal interests from the two investments after 6 years, then find the sum invested at 13% per annum (in ₹).524",
-      "question_image": null,
       "options": [
         "7,526",
         "7,525",
         "7,524",
         "7,527"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (7,525) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (7,525) है।"
     },
     {
       "id": 14,
       "section": "Arithmetical and Numerical Ability",
       "question": "A trader gives 8% discount on the marked price of an article and gives 3 articles free for buying 25 articles. He gains 15% in the entire transaction. Assuming a customer pays for 25 articles, the marked price of the article is what percentage more than its cost price?182",
-      "question_image": null,
       "options": [
         "40%",
         "38%",
         "25%",
         "50%"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (40%) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (40%) है।"
     },
     {
       "id": 15,
       "section": "Arithmetical and Numerical Ability",
       "question": "The ratio of income and expenditure of my friend is 5 : 2. His savings are ₹15,000. His expenditure breakdown is as follows: (x + 7.5)% on food, (x + 2)% on entertainment, (x + 5.5)% on rent and the remaining on children’s education. If he spends ₹4,000 on children’s education, find the value of x.859",
-      "question_image": null,
       "options": [
         "1.5",
         "15",
         "5.5",
         "7.5"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (15) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (15) है।"
     },
     {
       "id": 16,
       "section": "Arithmetical and Numerical Ability",
       "question": "A man buys 12 identical articles for a total of ₹18. If he sells each of them for ₹2.7, then his profit percentage will be ______.",
-      "question_image": null,
       "options": [
         "45.44%",
         "81%",
         "80%",
         "44.44%"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (80%) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (80%) है।"
     },
     {
       "id": 17,
       "section": "Arithmetical and Numerical Ability",
       "question": "Anita travels from place A to place B at a speed of 30 km/h, from place B to place C at 40 km/h, and from place C to place D at 120 km/h. If the distances between these places are equal, what is Anita’s average speed (in km/h) during the entire journey?",
-      "question_image": null,
       "options": [
         "45",
         "44",
         "42",
         "40"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (45) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (45) है।"
     },
     {
       "id": 18,
       "section": "Arithmetical and Numerical Ability",
       "question": "The ratio of the heights of a right circular cone and a right circular cylinder is 7 : 9 and the ratio of the radii of their bases is 6 : 7. If the volume of the cylinder is 882 cm3, then the volume (in cm3) of the cone is:1037",
-      "question_image": null,
       "options": [
         "162",
         "176",
         "161",
         "168"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (168) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (168) है।"
     },
     {
       "id": 19,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average of 8 numbers is 55. If each number is increased by 4, what will the new average be?4568",
-      "question_image": null,
       "options": [
         "59",
         "8",
         "63",
         "55"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (59) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (59) है।"
     },
     {
       "id": 20,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average of 9 numbers is 19. The average of 6 of these numbers is 15. The average of the remaining 3 numbers is:",
-      "question_image": null,
       "options": [
         "29",
         "28",
         "26",
         "27"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (27) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (27) है।"
     }
   ]
 }

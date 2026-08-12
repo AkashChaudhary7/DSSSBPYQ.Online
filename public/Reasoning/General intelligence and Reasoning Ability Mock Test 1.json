@@ -6,321 +6,281 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘GRIP’ is coded as ‘8931’ and ‘RIPE’ is coded as ‘7813’. What is the code for ‘E’ in that language?",
-      "question_image": null,
       "options": [
         "3",
         "7",
         "9",
         "1"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (7) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (7) है।"
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "MILO is related to WSVY in a certain way based on the English alphabetical order. In the same way, AWZC is related to KGJM. To which of the following options is EADG related to, following the same logic?",
-      "question_image": null,
       "options": [
         "OKNQ",
         "OKCD",
         "OKNG",
         "OKIL"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (OKNQ) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (OKNQ) है।"
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which is the one that does not belong to that group?(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
-      "question_image": null,
       "options": [
         "QT-MS",
         "IL-FK",
         "DG-AF",
         "MP-JO"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (QT-MS) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (QT-MS) है।"
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘FOND’ is coded as ‘7452’ and ‘NEST’ is coded as ‘9536’.     What is the code for ‘N’ in the given code language?",
-      "question_image": null,
       "options": [
         "4",
         "6",
         "9",
         "5"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (5) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (5) है।"
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "What will come in the place of '?' in the following equation, if '+' and '-' are interchanged and '2' and '8' are interchanged?10 + 4 - 8 x 2 + 6 - 3 = ?",
-      "question_image": null,
       "options": [
         "15",
         "18",
         "19",
         "9"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (19) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (19) है।"
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "Refer to the following letter series and answer the question. (Counting has to be done from left to right.)(Left) C O M S R G I H J Y R A T O V E Z X C (Right)How many such vowels are there, each of which is immediately preceded by a consonant and also immediately followed by a consonant?",
-      "question_image": null,
       "options": [
         "6",
         "7",
         "5",
         "4"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (5) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (5) है।"
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of ? in the given series based on the English alphabetical order?IXBU APTM SHLE KZDW ?",
-      "question_image": null,
       "options": [
         "CRTY",
         "COVR",
         "CVOR",
         "CRVO"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (CRVO) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (CRVO) है।"
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the set in which the numbers are related in the same way as are the numbers of the following sets.(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)(6, 15, 3381);(28, 11, 1359).",
-      "question_image": null,
       "options": [
         "(23, 13, 2196)",
         "(25, 16, 4096)",
         "(16, 14, 2760)",
         "(27, 12, 1741)"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' ((16, 14, 2760)) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' ((16, 14, 2760)) है।"
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of ‘?’ in the series.6000, ?, 4271, 3759, 3416, 3200, 3075.",
-      "question_image": null,
       "options": [
         "4729",
         "4929",
         "4629",
         "5000"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (5000) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (5000) है।"
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of ? in the given series based on the English alphabetical order?ZTO    WQL   TNI   QKF   ?",
-      "question_image": null,
       "options": [
         "NGC",
         "NHC",
         "NGD",
         "NHD"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (NHC) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (NHC) है।"
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Select the number-pair in which the numbers are related in the same way as are the numbers of the following number-pairs.(NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed)45, 13672, 217",
-      "question_image": null,
       "options": [
         "27, 85",
         "91, 274",
         "68, 206",
         "55, 139"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (91, 274) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (91, 274) है।"
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes, S, H, O, U, L, D and R, are kept one over the other, but not necessarily in the same order. Only S is kept above O. Only H is kept between O and U. Only R is kept below L.How many boxes are kept between D and R?",
-      "question_image": null,
       "options": [
         "Three",
         "Two",
         "One",
         "Four"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (One) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (One) है।"
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "Refer to the following letter, number and symbol series and answer the question that follows (all numbers are single-digit numbers only ).(Left) P 4 % Q * 9 L @ K 2 # N $ R 7 & M ^ F 3 @ Y 6 ! T $ Z 8 # W (Right)If all the numbers are dropped, which of the following will be seventh from the right?7251",
-      "question_image": null,
       "options": [
         "@",
         "Y",
         "T",
         "!"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Y) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Y) है।"
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven people A, B, G, K, Q, S and X are sitting in a row, facing north.Only 3 people sit to the right of Q. Only 4 people sit between K and X neither of whom sits on the left end. A sits immediately to the left of G. Only 3 people sit between B and X.Who sits immediately to the right of A?",
-      "question_image": null,
       "options": [
         "X",
         "B",
         "Q",
         "G"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (G) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (G) है।"
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "Refer to the following letter series and answer the question that follows. Counting to be done from left to right only.(Left) S  S  A  S  M  L  Y  V  X  E  X  H  C  C  C  F  Y  Y  G  Y  N  (Right)How many such consonants are there that are immediately preceded by a vowel and also immediately followed by a consonant?3308",
-      "question_image": null,
       "options": [
         "None",
         "Three",
         "Two",
         "One"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Two) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Two) है।"
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "Refer to the following letter series and answer the question that follows. Counting to be done from left to right only.(Left) A A K X S I N O I P G U R G Z B L D I (Right)How many such vowels are there, each of which is immediately preceded by a vowel and also immediately followed by a consonant?",
-      "question_image": null,
       "options": [
         "Two",
         "Three",
         "One",
         "Four"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Two) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Two) है।"
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the pair which follows the same pattern as that followed by the two set of pairs given below. Both pairs follow the same pattern. QJV : NGS DOQ : ALN8113",
-      "question_image": null,
       "options": [
         "CHG : AEC",
         "SUW : PRT",
         "SEL : OAI",
         "EHL : CFI"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (SUW : PRT) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (SUW : PRT) है।"
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "What will come in the place of ‘?’ in the following equation, if ‘÷’ and ‘–‘ are interchanged and ‘x’ and ‘+’ are interchanged?250 + 5 - 2 ÷ 2 × 15 - 5 ÷ 5 + 3 × 12 = ?3902",
-      "question_image": null,
       "options": [
         "601",
         "619",
         "623",
         "641"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (623) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (623) है।"
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘PANT’ is coded as ‘4371’ and ‘TAPS’ is coded as ‘8417’. What is the code for ‘S’ in the given code language?111",
-      "question_image": null,
       "options": [
         "4",
         "7",
         "8",
         "1"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (8) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (8) है।"
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "Town G is to the north of Town L. Town V is to the south of Town L. Town Q is to the east of Town S. Town Q is to the east of Town L. Town G is to the north-east of Town S. What is the position of Town S with respect to Town V?",
-      "question_image": null,
       "options": [
         "South-west",
         "South",
         "North-west",
         "South-east"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (North-west) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (North-west) है।"
     }
   ]
 }

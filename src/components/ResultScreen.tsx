@@ -3,6 +3,7 @@ import { Quiz, Question, Bookmark } from '../types';
 import { Trophy, RefreshCw, Star, CheckCircle, XCircle, Share2, Download, AlertCircle, ArrowLeft, Heart, Check, BookOpen, Send } from 'lucide-react';
 import { generateQuizPdf } from '../lib/pdfGenerator';
 import { trackQuizComplete, trackPageView, trackPdfDownload } from '../lib/analytics';
+import AdBanner from './AdBanner';
 
 interface ResultScreenProps {
   quiz: Quiz;
@@ -409,6 +410,9 @@ export default function ResultScreen({
           )}
         </button>
       </div>
+
+      {/* Result Screen Bottom Ad Banner */}
+      <AdBanner location="result_screen_bottom" />
 
       {/* Performance Insights layout directly */}
       <div className="space-y-6">

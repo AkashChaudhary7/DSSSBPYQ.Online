@@ -6,321 +6,281 @@
       "id": 1,
       "section": "General Awareness",
       "question": "Which of the following best explains the phenomenon of 'October heat'?",
-      "question_image": null,
       "options": [
         "Onset of winter rains in Peninsular India",
         "Hot days and oppressive humidity despite clear skies",
         "Sharp fall in temperatures and humidity",
         "Sudden cyclonic storms due to retreating monsoon"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Sudden cyclonic storms due to retreating monsoon) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Sudden cyclonic storms due to retreating monsoon) है।"
     },
     {
       "id": 2,
       "section": "General Awareness",
       "question": "In the context of the 73rd Amendment of the Indian Constitution, which of the following is NOT a compulsory provision for states?",
-      "question_image": null,
       "options": [
         "Direct elections to all Panchayat levels",
         "Establishment of State Finance Commission",
         "Reservation of seats for Backward Classes",
         "Organisation of Gram Sabha"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Reservation of seats for Backward Classes) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Reservation of seats for Backward Classes) है।"
     },
     {
       "id": 3,
       "section": "General Awareness",
       "question": "Which of the following works is considered the first Indian novel written in English?",
-      "question_image": null,
       "options": [
         "'Gitanjali' by Rabindranath Tagore",
         "'The Guide' by RK Narayan",
         "'Raj Mohan’s Wife' by Bankim Chandra Chattopadhyay",
         "'Untouchable' by Mulk Raj Anand"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' ('Raj Mohan’s Wife' by Bankim Chandra Chattopadhyay) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' ('Raj Mohan’s Wife' by Bankim Chandra Chattopadhyay) है।"
     },
     {
       "id": 4,
       "section": "General Awareness",
       "question": "Which institution is responsible for issuing currency in India (except one-rupee notes and coins)?",
-      "question_image": null,
       "options": [
         "Reserve Bank of India",
         "State Bank of India",
         "SEBI",
         "Ministry of Finance"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Reserve Bank of India) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Reserve Bank of India) है।"
     },
     {
       "id": 5,
       "section": "General Awareness",
       "question": "Which of the following High Courts does NOT enjoy original civil jurisdiction?",
-      "question_image": null,
       "options": [
         "Bombay High Court",
         "Allahabad High Court",
         "Delhi High Court",
         "Madras High Court"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Allahabad High Court) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Allahabad High Court) है।"
     },
     {
       "id": 6,
       "section": "General Awareness",
       "question": "Which of the following states is well known for practising intensive farming due to limited cultivable land?",
-      "question_image": null,
       "options": [
         "Madhya Pradesh",
         "Gujarat",
         "Rajasthan",
         "Andhra Pradesh"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Andhra Pradesh) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Andhra Pradesh) है।"
     },
     {
       "id": 7,
       "section": "General Awareness",
       "question": "When was Antar Drishti Dark Room inaugurated?",
-      "question_image": null,
       "options": [
         "April 2025",
         "February 2025",
         "March 2025",
         "January 2025"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (April 2025) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (April 2025) है।"
     },
     {
       "id": 8,
       "section": "General Awareness",
       "question": "Why was the Battle of Wandiwash (1760) significant?",
-      "question_image": null,
       "options": [
         "It led to the establishment of French supremacy in India.",
         "It marked the end of Dutch power in India.",
         "It ended the Anglo-French struggle in India with British victory.",
         "It was the first battle fought using modern artillery."
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (It ended the Anglo-French struggle in India with British victory.) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (It ended the Anglo-French struggle in India with British victory.) है।"
     },
     {
       "id": 9,
       "section": "General Awareness",
       "question": "Under which Mughal emperor was the Mansabdari system most elaborately developed?",
-      "question_image": null,
       "options": [
         "Akbar",
         "Shah Jahan",
         "Babur",
         "Aurangzeb"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Akbar) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Akbar) है।"
     },
     {
       "id": 10,
       "section": "General Awareness",
       "question": "Which year recorded the highest number of child adoptions in India in the last 12 years?",
-      "question_image": null,
       "options": [
         "2023-24",
         "2021-22",
         "2024-25",
         "2020-21"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (2024-25) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (2024-25) है।"
     },
     {
       "id": 11,
       "section": "General Awareness",
       "question": "Which of the following islands is uninhabited, and located in Tamil Nadu?",
-      "question_image": null,
       "options": [
         "Appa Island",
         "Kodiyampalayam Island",
         "Sonankuppam Island",
         "Pamban Island"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Appa Island) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Appa Island) है।"
     },
     {
       "id": 12,
       "section": "General Awareness",
       "question": "Which of the following national parks is famous for one-horned rhinoceroses in India?",
-      "question_image": null,
       "options": [
         "Valmiki National Park",
         "Jim Corbett National Park",
         "Ranthambore National Park",
         "Kaziranga National Park"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Kaziranga National Park) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Kaziranga National Park) है।"
     },
     {
       "id": 13,
       "section": "General Awareness",
       "question": "Which of the following Articles of the Indian Constitution provides that the President can seek the aid and advice of the Council of Ministers?",
-      "question_image": null,
       "options": [
         "Article 35",
         "Article 74",
         "Article 99",
         "Article 61"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Article 74) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Article 74) है।"
     },
     {
       "id": 14,
       "section": "General Awareness",
       "question": "What impact did the COVID-19 pandemic have on employment in India?",
-      "question_image": null,
       "options": [
         "Widespread job losses and economic disruptions",
         "Surge in entrepreneurship and self-employment",
         "Reduction in unemployment rates due to government interventions",
         "Significant increase in formal employment opportunities"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Widespread job losses and economic disruptions) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Widespread job losses and economic disruptions) है।"
     },
     {
       "id": 15,
       "section": "General Awareness",
       "question": "In which of the following years was the All India Kisan Sabha, an important peasant movement led by Sahajanand Saraswati to address the exploitation of peasants under the colonial system and oppressive landlords, founded?",
-      "question_image": null,
       "options": [
         "1937",
         "1936",
         "1935",
         "1938"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (1936) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (1936) है।"
     },
     {
       "id": 16,
       "section": "General Awareness",
       "question": "Which of the following Articles of the Constitution of India gives extensive original jurisdiction to the Supreme Court with regard to the enforcement of Fundamental Rights?",
-      "question_image": null,
       "options": [
         "Article 36",
         "Article 32",
         "Article 30",
         "Article 39"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Article 32) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Article 32) है।"
     },
     {
       "id": 17,
       "section": "General Awareness",
       "question": "In which State is the Ranipur Tiger Reserve located?",
-      "question_image": null,
       "options": [
         "Madhya Pradesh",
         "Uttar Pradesh",
         "Rajasthan",
         "West Bengal"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Uttar Pradesh) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Uttar Pradesh) है।"
     },
     {
       "id": 18,
       "section": "General Awareness",
       "question": "Which of the following is a story set in a small South Indian fictional town located on the banks of river Sarayu?",
-      "question_image": null,
       "options": [
         "Ek Tha Rusty",
         "Junoon",
         "Malgudi Days",
         "Pachatantra"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Malgudi Days) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Malgudi Days) है।"
     },
     {
       "id": 19,
       "section": "General Awareness",
       "question": "Consider the following statements.1. She is a three-time Olympian and has won gold medals at the Commonwealth Games, Asian Games, and Asian Championships.2. At the Paris 2024 Olympics, she was disqualified from the final due to a weigh-in issue.3. She is an Indian politician and former wrestler, currently serving as a member of the Legislative Assembly (MLA) in Haryana.The given statements describe which one of the following personalities?",
-      "question_image": null,
       "options": [
         "Sakshi Malik",
         "Babita Kumari",
         "Vinesh Phogat",
         "Geeta Phogat"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Vinesh Phogat) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Vinesh Phogat) है।"
     },
     {
       "id": 20,
       "section": "General Awareness",
       "question": "In March 2025, the GST Council established a Group of Ministers (GoM) to propose strategies for revenue mobilisation during natural calamities. Who among the following was the convenor of this GoM?",
-      "question_image": null,
       "options": [
         "Premchandra Aggarwal",
         "Ajanta Neog",
         "Om Prakash Choudhary",
         "Suresh Khanna"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Suresh Khanna) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Suresh Khanna) है।"
     }
   ]
 }

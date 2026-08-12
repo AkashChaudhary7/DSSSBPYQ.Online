@@ -6,321 +6,281 @@
       "id": 1,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. Almost all countries of the world will have more than one religious group living in them.B. This tyranny of the majority could result in the discrimination, coercion and at times even the killing of religious minorities.C. Within these religious groups, there will most likely be one group that is in a majority.D. If this majority religious group has access to State power, then it could quite easily use this power and financial resources to discriminate against and persecute persons of other religions.",
-      "question_image": null,
       "options": [
         "CBAD",
         "ABCD",
         "DACB",
         "ACDB"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (ACDB) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (ACDB) है।"
     },
     {
       "id": 2,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. These farms use sophisticated systems to control temperature, humidity and light.B. Urban farming involves growing food in densely populated city areas.C. This method helps reduce the need for space and increases the efficiency of production.D. Vertical farming is one advanced form of urban agriculture.E. It allows for year-round farming, independent of external weather conditions.",
-      "question_image": null,
       "options": [
         "ADCEB",
         "DBACE",
         "BDAEC",
         "EDCAB"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (BDAEC) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (BDAEC) है।"
     },
     {
       "id": 3,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option that can substitute the underlined segment in the given sentence.The completion of assignments and research work is the only option left to impress the boss.",
-      "question_image": null,
       "options": [
         "last step",
         "last point",
         "last resort",
         "last stage"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (last resort) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (last resort) है।"
     },
     {
       "id": 4,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate question tag to fill in the blank.Hardly anyone knows the truth, _______?",
-      "question_image": null,
       "options": [
         "does he",
         "don’t they",
         "do they",
         "doesn’t he"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (do they) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (do they) है।"
     },
     {
       "id": 5,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate ANTONYM of the underlined word.Isabella: His tumultuous career was full of controversies and unexpected changes.Daniel: Yes, there was never a moment of peace or stability.",
-      "question_image": null,
       "options": [
         "Mild",
         "Riotous",
         "Boisterous",
         "Raucous"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Mild) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Mild) है।"
     },
     {
       "id": 6,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the following passage carefully and answer the questions that follow.Electric vehicles (EVs) are increasingly perceived as a panacea for climate change, yet their environmental benefits are more nuanced than commonly portrayed. While EVs emit zero tailpipe emissions, their overall ecological footprint hinges on factors like battery production, mining of rare earth metals, and electricity generation sources. Manufacturing EV batteries is energy-intensive and often depends on lithium, cobalt, and nickel—resources predominantly extracted under ethically questionable conditions. Moreover, the carbon impact of EVs varies geographically; in regions reliant on coal-fired power plants, EVs may contribute to indirect emissions. Nonetheless, technological advances in battery recycling and the global shift towards renewable energy offer a promising outlook. Despite these complexities, EV adoption is accelerating due to policy incentives, reduced operating costs, and growing consumer awareness. The challenge lies in striking a balance between innovation and sustainability to truly harness the green potential of electric mobility.Which three metals are primarily involved in EV battery production?",
-      "question_image": null,
       "options": [
         "Gold, Silver, and Platinum",
         "Lithium, Cobalt, and Nickel",
         "Aluminium, Copper, and Zinc",
         "Iron, Lead, and Graphite"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Lithium, Cobalt, and Nickel) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Lithium, Cobalt, and Nickel) है।"
     },
     {
       "id": 7,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the following passage carefully and answer the questions that follow.Electric vehicles (EVs) are increasingly perceived as a panacea for climate change, yet their environmental benefits are more nuanced than commonly portrayed. While EVs emit zero tailpipe emissions, their overall ecological footprint hinges on factors like battery production, mining of rare earth metals, and electricity generation sources. Manufacturing EV batteries is energy-intensive and often depends on lithium, cobalt, and nickel—resources predominantly extracted under ethically questionable conditions. Moreover, the carbon impact of EVs varies geographically; in regions reliant on coal-fired power plants, EVs may contribute to indirect emissions. Nonetheless, technological advances in battery recycling and the global shift towards renewable energy offer a promising outlook. Despite these complexities, EV adoption is accelerating due to policy incentives, reduced operating costs, and growing consumer awareness. The challenge lies in striking a balance between innovation and sustainability to truly harness the green potential of electric mobility.Based on the passage, what can be inferred about regions using renewable energy?",
-      "question_image": null,
       "options": [
         "Battery production is cleaner in these areas.",
         "EVs are less effective in such areas.",
         "EVs have a lower overall environmental impact in these regions.",
         "EV adoption is banned in these regions."
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (EVs have a lower overall environmental impact in these regions.) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (EVs have a lower overall environmental impact in these regions.) है।"
     },
     {
       "id": 8,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the following passage carefully and answer the questions that follow.Electric vehicles (EVs) are increasingly perceived as a panacea for climate change, yet their environmental benefits are more nuanced than commonly portrayed. While EVs emit zero tailpipe emissions, their overall ecological footprint hinges on factors like battery production, mining of rare earth metals, and electricity generation sources. Manufacturing EV batteries is energy-intensive and often depends on lithium, cobalt, and nickel—resources predominantly extracted under ethically questionable conditions. Moreover, the carbon impact of EVs varies geographically; in regions reliant on coal-fired power plants, EVs may contribute to indirect emissions. Nonetheless, technological advances in battery recycling and the global shift towards renewable energy offer a promising outlook. Despite these complexities, EV adoption is accelerating due to policy incentives, reduced operating costs, and growing consumer awareness. The challenge lies in striking a balance between innovation and sustainability to truly harness the green potential of electric mobility.Why might battery recycling be considered crucial for EV sustainability?",
-      "question_image": null,
       "options": [
         "It reduces reliance on freshly mined metals.",
         "It enhances EV performance.",
         "It increases the price of EVs.",
         "It eliminates the need for electricity."
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (It reduces reliance on freshly mined metals.) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (It reduces reliance on freshly mined metals.) है।"
     },
     {
       "id": 9,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the following passage carefully and answer the questions that follow.Electric vehicles (EVs) are increasingly perceived as a panacea for climate change, yet their environmental benefits are more nuanced than commonly portrayed. While EVs emit zero tailpipe emissions, their overall ecological footprint hinges on factors like battery production, mining of rare earth metals, and electricity generation sources. Manufacturing EV batteries is energy-intensive and often depends on lithium, cobalt, and nickel—resources predominantly extracted under ethically questionable conditions. Moreover, the carbon impact of EVs varies geographically; in regions reliant on coal-fired power plants, EVs may contribute to indirect emissions. Nonetheless, technological advances in battery recycling and the global shift towards renewable energy offer a promising outlook. Despite these complexities, EV adoption is accelerating due to policy incentives, reduced operating costs, and growing consumer awareness. The challenge lies in striking a balance between innovation and sustainability to truly harness the green potential of electric mobility.Select the most appropriate ANTONYM of the given word in the passage.\n\nAccelerating",
-      "question_image": null,
       "options": [
         "Promoting",
         "Sustaining",
         "Observing",
         "Dwindling"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Dwindling) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Dwindling) है।"
     },
     {
       "id": 10,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the following passage carefully and answer the questions that follow.Electric vehicles (EVs) are increasingly perceived as a panacea for climate change, yet their environmental benefits are more nuanced than commonly portrayed. While EVs emit zero tailpipe emissions, their overall ecological footprint hinges on factors like battery production, mining of rare earth metals, and electricity generation sources. Manufacturing EV batteries is energy-intensive and often depends on lithium, cobalt, and nickel—resources predominantly extracted under ethically questionable conditions. Moreover, the carbon impact of EVs varies geographically; in regions reliant on coal-fired power plants, EVs may contribute to indirect emissions. Nonetheless, technological advances in battery recycling and the global shift towards renewable energy offer a promising outlook. Despite these complexities, EV adoption is accelerating due to policy incentives, reduced operating costs, and growing consumer awareness. The challenge lies in striking a balance between innovation and sustainability to truly harness the green potential of electric mobility.What major factor influences the carbon impact of EVs across regions?",
-      "question_image": null,
       "options": [
         "The cost of EVs",
         "The colour of the vehicle",
         "The number of charging stations",
         "The source of electricity generation"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (The source of electricity generation) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (The source of electricity generation) है।"
     },
     {
       "id": 11,
       "section": "English Language and Comprehension",
       "question": "Choose the correct option that best explains the sentence in single wordWhat term describes \"a person who is skilled in or has a deep understanding of a particular area or field\"?",
-      "question_image": null,
       "options": [
         "Virtuoso",
         "Amateur",
         "Ignoramus",
         "Rookie"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Virtuoso) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Virtuoso) है।"
     },
     {
       "id": 12,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate question tag to fill in the blank.Bindu never acts so kindly, _________?",
-      "question_image": null,
       "options": [
         "do she",
         "did she",
         "is she",
         "does she"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (does she) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (does she) है।"
     },
     {
       "id": 13,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate meaning of the given proverb.One man’s junk is another man’s treasure.",
-      "question_image": null,
       "options": [
         "When conditions become difficult, strong people take action.",
         "Focus on what you have and not on what you do not.",
         "What is invaluable to one may  be valuable to another.",
         "Sometimes you may face disappointments in your pursuits or your wishes may not be fulfilled."
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (What is invaluable to one may  be valuable to another.) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (What is invaluable to one may  be valuable to another.) है।"
     },
     {
       "id": 14,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph. A. If it were, what explains the numerous multi-billion-dollar industries that rely heavily on users willfully submitting to manipulation?B. We’re uncomfortable when we sense someone is trying to make us do something we wouldn’t do otherwise, like when at a car dealership or a timeshare presentation, or when an app asks us to share our contacts.C. Manipulation is a designed experience crafted to change behaviour — we all know what it feels like.D. Yet, manipulation can’t be all bad.",
-      "question_image": null,
       "options": [
         "CADB",
         "DBAC",
         "CBDA",
         "DBCA"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (CBDA) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (CBDA) है।"
     },
     {
       "id": 15,
       "section": "English Language and Comprehension",
       "question": "Identify the INCORRECTLY spelt word(s) in the given paragraph and select the option that rectifies it.The markets (and Fed officials) have largely shragged off this jawboning and name-calling. Trump hasn’t swayed the central bank’s policy in any appreciable way, and Powell—again, a Trump nominee—has proved a deft leader of the central bank. But interest rates are climbing and growth is falling, giving Trump trillions of reasons to get rid of the Fed chair. A pending court case might grant the president the capacity to remove him without cause in contravention of current law.",
-      "question_image": null,
       "options": [
         "shrugged",
         "shrugged, contravantion",
         "shrugged, contrevention",
         "contravantion"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (shrugged) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (shrugged) है।"
     },
     {
       "id": 16,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate ANTONYM of the underlined word in the given sentence.“They are going to put up a street protest this weekend,” said Unnat to his manager. “But you said that you didn’t expect them to be confrontational,” quipped the manager.",
-      "question_image": null,
       "options": [
         "Calculative",
         "Compromising",
         "Caring",
         "Cunning"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Compromising) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Compromising) है।"
     },
     {
       "id": 17,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.Amitabh possesses ___________ five apartments across Mumbai.",
-      "question_image": null,
       "options": [
         "not few than",
         "no less than",
         "not lesser than",
         "no fewer than"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (no fewer than) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (no fewer than) है।"
     },
     {
       "id": 18,
       "section": "English Language and Comprehension",
       "question": "Choose the correct option that best explains the sentence in single wordWhat is the term for \"a person who is excessively fond of acquiring knowledge\"?",
-      "question_image": null,
       "options": [
         "Erudite",
         "ignorant",
         "Uncultured",
         "common"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Erudite) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Erudite) है।"
     },
     {
       "id": 19,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.Her car is ______ better than mine.",
-      "question_image": null,
       "options": [
         "much",
         "more",
         "too",
         "very"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (much) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (much) है।"
     },
     {
       "id": 20,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph. A. These dramatic events have left their mark on the landscape in the form of ancient faults – breaks in the Earth’s crust which serve as reminders of the planet’s dynamic past.B. Exploring the Earth’s geological history reveals stories of collision, upheaval and transformation.C. If we were able to travel millions of years back in time, we would witness continents crashing into each other and mountains rising from the depths of the Earth.D. These faults, formed through the intense pressure and movement of tectonic plates, hold within them a wealth of information about the Earth’s geological evolution.",
-      "question_image": null,
       "options": [
         "BCAD",
         "ABDC",
         "BDAC",
         "CDAB"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (BDAC) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (BDAC) है।"
     }
   ]
 }

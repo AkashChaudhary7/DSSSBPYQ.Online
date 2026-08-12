@@ -6,321 +6,281 @@
       "id": 1,
       "section": "Hindi Language and Comprehension",
       "question": "निम्न विकल्पों में से शुद्ध विकल्प का चयन करें -",
-      "question_image": null,
       "options": [
         "हिन्दी भाषा का शब्द कोश बहुत व्यापक है ।",
         "हिन्दी भाषा का सबद कोश बहुत व्यापक है ।",
         "हिन्दी भाषा का शब्द कोश बहुत व्यापाक है ।",
         "हिन्दी भाषा का शब्द कोष बहुत व्यपक है ।"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (हिन्दी भाषा का शब्द कोश बहुत व्यापक है ।) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (हिन्दी भाषा का शब्द कोश बहुत व्यापक है ।) है।"
     },
     {
       "id": 2,
       "section": "Hindi Language and Comprehension",
       "question": "दिए गए अपूर्ण वाक्य को पूर्ण करें - सही कारक चिह्न का प्रयोग करें - 'तुम               इससे कुछ अलग सोचा ।'",
-      "question_image": null,
       "options": [
         "की",
         "ने",
         "के लिए",
         "से"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (ने) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (ने) है।"
     },
     {
       "id": 3,
       "section": "Hindi Language and Comprehension",
       "question": "निम्न वाक्य में त्रुटि पहचानें तथा शुद्ध शब्द का चयन करें - 'आज विद्यालय के नीरीक्षक आए हैं ।'",
-      "question_image": null,
       "options": [
         "निरक्षक",
         "निरिक्षक",
         "नीरीक्षक",
         "निरीक्षक"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (निरीक्षक) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (निरीक्षक) है।"
     },
     {
       "id": 4,
       "section": "Hindi Language and Comprehension",
       "question": "वाक्य के निम्न खंडों को क्रम में लिखें -A मेरे पास B जो मैं तुम्हें दे सकूँ C उपहार नहीं D ऐसा कोई",
-      "question_image": null,
       "options": [
         "A,D,C,B",
         "A,D,B,C",
         "C,D,A,B",
         "B,C,D,A"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (A,D,C,B) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (A,D,C,B) है।"
     },
     {
       "id": 5,
       "section": "Hindi Language and Comprehension",
       "question": "निम्न वाक्य के रिक्त स्थान में उचित कारक चिह्न का प्रयोग कर वाक्य को पूर्ण करें - सही विकल्प को चिह्नित करें - '              मैं पास हो जाऊ ।'",
-      "question_image": null,
       "options": [
         "काश !",
         "पर",
         "ने",
         "से"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (काश !) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (काश !) है।"
     },
     {
       "id": 6,
       "section": "Hindi Language and Comprehension",
       "question": "'अतिथि की सेवा करने वाला'उक्त वाक्यांश के लिए सार्थक शब्द का चयन करें -",
-      "question_image": null,
       "options": [
         "आतिथेयी",
         "स्वागत",
         "मेहमान",
         "अतिथि"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (आतिथेयी) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (आतिथेयी) है।"
     },
     {
       "id": 7,
       "section": "Hindi Language and Comprehension",
       "question": "निम्न वाक्य के रिक्त स्थान में उचित कारक चिह्न का प्रयोग करें - सही विकल्प का चयन करें -फल               खूब पका होना चाहिए ।",
-      "question_image": null,
       "options": [
         "में",
         "पर",
         "को",
         "के लिए"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (को) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (को) है।"
     },
     {
       "id": 8,
       "section": "Hindi Language and Comprehension",
       "question": "निम्न वाक्य के रिक्त स्थान में उचित कारक चिह्न का प्रयोग कर वाक्य पूर्ण करें - चूहा बिल्ली              बहुत डरता है ।",
-      "question_image": null,
       "options": [
         "में",
         "से",
         "पर",
         "के लिए"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (से) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (से) है।"
     },
     {
       "id": 9,
       "section": "Hindi Language and Comprehension",
       "question": "निम्न वाक्य के रिक्त स्थान में उचित कारक चिह्न का प्रयोग करें - 'भालू                 सभी को नाच दिखाया ।'",
-      "question_image": null,
       "options": [
         "में",
         "पर",
         "से",
         "ने"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (ने) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (ने) है।"
     },
     {
       "id": 10,
       "section": "Hindi Language and Comprehension",
       "question": "निम्न वाक्य को क्रम में लिखें -A अमीर होनेB वहC पर भीD सुखी नहीं है ।",
-      "question_image": null,
       "options": [
         "C,D,A,B",
         "B,C,D,A",
         "A,C,B,D",
         "A,D,C,B"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (A,C,B,D) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (A,C,B,D) है।"
     },
     {
       "id": 11,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित वाक्य  कारक के आधार पर पूर्ण कीजिए। सम्पूर्ण  भारत ________ शासक चक्रवर्ती सम्राट कहलाता था।",
-      "question_image": null,
       "options": [
         "का",
         "से",
         "में",
         "पर"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (का) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (का) है।"
     },
     {
       "id": 12,
       "section": "Hindi Language and Comprehension",
       "question": "दिए गए वाक्यांश के लिए निम्न में से एक शब्द होगा—'जिसे समाज या जाति से बाहर निकाल दिया गया हो'",
-      "question_image": null,
       "options": [
         "बहिष्कार",
         "बहिष्प्राण",
         "बहिष्कृत",
         "बहिष्क"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (बहिष्कृत) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (बहिष्कृत) है।"
     },
     {
       "id": 13,
       "section": "Hindi Language and Comprehension",
       "question": "भूषण बिनु न विराजई  कविता, वनिता , मित्त।पंक्ति का रेखांकित शब्द किसका पर्याय है ?6",
-      "question_image": null,
       "options": [
         "स्त्री",
         "पत्नी",
         "देवी",
         "अप्सरा"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (स्त्री) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (स्त्री) है।"
     },
     {
       "id": 14,
       "section": "Hindi Language and Comprehension",
       "question": "रेखांकित शब्द का सही पर्याय अंकित कीजिए। प्रदूषण के कारण आज हर तीसरा आदमी उच्च रक्तचाप और मानसिक तनाव का कष्ट झेल रहा है। 82",
-      "question_image": null,
       "options": [
         "रक्त संबंधित",
         "चर्म संबंधित",
         "नाड़ी सम्बन्धित",
         "मनोवैज्ञानिक"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (मनोवैज्ञानिक) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (मनोवैज्ञानिक) है।"
     },
     {
       "id": 15,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित वाक्य कारक के आधार पर पूर्ण कीजिए। प्राकृतिक सौंदर्य ________ दृष्टि ________ मेरा भारत अनुपम है।",
-      "question_image": null,
       "options": [
         "के, पर",
         "की, से",
         "से, से",
         "में, से"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (की, से) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (की, से) है।"
     },
     {
       "id": 16,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित वाक्य  कारक के आधार पर पूर्ण कीजिए। सुनंदा के घर का खर्च दूसरों के द्वारा दी जाने वाली आर्थिक सहायता ________ चलता है।",
-      "question_image": null,
       "options": [
         "में",
         "के लिए",
         "से",
         "पर"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (से) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (से) है।"
     },
     {
       "id": 17,
       "section": "Hindi Language and Comprehension",
       "question": "नीचे दिए गये गये वाक्य का सही क्रम है-'प्रत्येक देश उस देश के मनुष्यों के आदर्श  का रूप है साहित्य ह्रदय का'73",
-      "question_image": null,
       "options": [
         "देश का साहित्य प्रत्येक मनुष्यों के आदर्श रूप  है ह्रदय का उस देश के",
         "आदर्श रूप है प्रत्येक साहित्य देश का मनुष्यों के उस देश के ह्रदय का",
         "है रूप आदर्श का ह्रदय के मनुष्यों के देश उस साहित्य का देश प्रत्येक",
         "प्रत्येक देश का साहित्य उस देश के मनुष्यों के ह्रदय का आदर्श रूप है"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (प्रत्येक देश का साहित्य उस देश के मनुष्यों के ह्रदय का आदर्श रूप है) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (प्रत्येक देश का साहित्य उस देश के मनुष्यों के ह्रदय का आदर्श रूप है) है।"
     },
     {
       "id": 18,
       "section": "Hindi Language and Comprehension",
       "question": "'छूमंतर होना' मुहावरे का सही अर्थ कौन सा है ?",
-      "question_image": null,
       "options": [
         "प्रसन्न होना",
         "गायब हो जाना",
         "प्रकट होना",
         "दुखी होना"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (गायब हो जाना) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (गायब हो जाना) है।"
     },
     {
       "id": 19,
       "section": "Hindi Language and Comprehension",
       "question": "इसका संबंध ग्रहमंत्रालय से है ।उपरोक्त दिए गए वाक्य के किस भाग में वर्तनी संबंधी अशुद्धि है –264",
-      "question_image": null,
       "options": [
         "इसका",
         "ग्रहमंत्रालय",
         "से है",
         "संबंध"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (ग्रहमंत्रालय) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (ग्रहमंत्रालय) है।"
     },
     {
       "id": 20,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित वाक्य  कारक के आधार पर पूर्ण कीजिए। छात्रों ________ छात्रवृत्ति हेतु आवेदन पत्र आमंत्रित किए गए।",
-      "question_image": null,
       "options": [
         "से",
         "ने",
         "में",
         "के लिए"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (के लिए) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (के लिए) है।"
     }
   ]
 }

@@ -6,321 +6,281 @@
       "id": 1,
       "section": "Arithmetical and Numerical Ability",
       "question": "Kajal and Shrishti run a race of 1 km, and Kajal wins by 50 seconds. Kajal and Sujata run the same race, and Kajal wins by 550 metres. When Shrishti and Sujata run the same distance, Shrishti wins by 60 seconds. What is the time (in seconds) taken by Kajal to run the distance of 1 km?5579",
-      "question_image": null,
       "options": [
         "200",
         "80",
         "90",
         "140"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (90) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (90) है।"
     },
     {
       "id": 2,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average of 12 numbers is 43. If the first five numbers are 32, 39, 41, 85 and 109, then what will be the average of the remaining numbers?",
-      "question_image": null,
       "options": [
         "22",
         "30",
         "32",
         "27"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (30) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (30) है।"
     },
     {
       "id": 3,
       "section": "Arithmetical and Numerical Ability",
       "question": "In covering a distance of 88 km, Anirudh takes 3 hours more than Burhan. If Anirudh doubles his speed, then he would take 8 hour less than Burhan. Anirudh's original speed is:10733",
-      "question_image": null,
       "options": [
         "4 km/hr",
         "6 km/hr",
         "13 km/hr",
         "3 km/hr"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (4 km/hr) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (4 km/hr) है।"
     },
     {
       "id": 4,
       "section": "Arithmetical and Numerical Ability",
       "question": "The ratio of the cost prices of articles X and Y is 6 : 7. A man earns a profit of 19% by selling X and loses 7% by selling Y. What is his gain/loss percentage in the entire transaction?",
-      "question_image": null,
       "options": [
         "Loss, 5%",
         "Gain, 5%",
         "Gain, 4.5%",
         "Loss, 6.5%"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Gain, 5%) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Gain, 5%) है।"
     },
     {
       "id": 5,
       "section": "Arithmetical and Numerical Ability",
       "question": "If an item marked at ₹883 is sold for ₹463, what is the discount percentage? (Round off your answer to two decimal places.)",
-      "question_image": null,
       "options": [
         "49.97%",
         "47.57%",
         "43.45%",
         "45.61%"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (47.57%) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (47.57%) है।"
     },
     {
       "id": 6,
       "section": "Arithmetical and Numerical Ability",
       "question": "If the 6-digit number N49M44 is divisible by 11, then which of the following options can give a possible correct relation between M and N?",
-      "question_image": null,
       "options": [
         "M − N = 1",
         "M = N",
         "M − N = 5",
         "M + N = 7"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (M − N = 5) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (M − N = 5) है।"
     },
     {
       "id": 7,
       "section": "Arithmetical and Numerical Ability",
       "question": "The simple interest (in ₹) on ₹2,800 at the rate of 10% per annum in 4 years is:",
-      "question_image": null,
       "options": [
         "1,170",
         "1,070",
         "1,220",
         "1,120"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (1,120) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (1,120) है।"
     },
     {
       "id": 8,
       "section": "Arithmetical and Numerical Ability",
       "question": "The population of a village 2 years ago was 2,51,200. Due to migration to cities, it decreases at the rate of 15% every year. What is the decrease in its population in two years?",
-      "question_image": null,
       "options": [
         "68,709",
         "68,907",
         "69,708",
         "69,807"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (69,708) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (69,708) है।"
     },
     {
       "id": 9,
       "section": "Arithmetical and Numerical Ability",
       "question": "During a sale, 50% of the goods are sold at 37% profit, 20% of the remaining goods are sold at 28% profit and the still remaining goods are sold at a loss of 32%. If there is an overall profit of x%, then what is the value of x?",
-      "question_image": null,
       "options": [
         "10",
         "8.5",
         "9",
         "7"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (8.5) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (8.5) है।"
     },
     {
       "id": 10,
       "section": "Arithmetical and Numerical Ability",
       "question": "The surface area of a sphere is S. If the radius is doubled, then find its surface area.3298",
-      "question_image": null,
       "options": [
         "6S",
         "2S",
         "8S",
         "4S"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (4S) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (4S) है।"
     },
     {
       "id": 11,
       "section": "Arithmetical and Numerical Ability",
       "question": "The volume (in m3) of a cuboidal tank, whose dimensions are given as 43 m × 5 m × 6 m, is:",
-      "question_image": null,
       "options": [
         "1278",
         "1290",
         "1282",
         "1248"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (1290) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (1290) है।"
     },
     {
       "id": 12,
       "section": "Arithmetical and Numerical Ability",
       "question": "A grocer has 41 kg rice, a part of which he sells at 23% profit and the remaining at 64% profit. He gains 46% on the whole. What is the quantity of rice sold at 64% profit?7564",
-      "question_image": null,
       "options": [
         "20 kg",
         "22 kg",
         "25 kg",
         "23 kg"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (23 kg) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (23 kg) है।"
     },
     {
       "id": 13,
       "section": "Arithmetical and Numerical Ability",
       "question": "Two plumbers, X and Y, are paid a total of ₹440 per day by their employer. If X is paid 120% of the sum paid to Y, then how much is Y paid (in ₹) per day?",
-      "question_image": null,
       "options": [
         "150",
         "200",
         "250",
         "100"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (200) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (200) है।"
     },
     {
       "id": 14,
       "section": "Arithmetical and Numerical Ability",
       "question": "In what ratio must a grocer mix two varieties of rice costing ₹224 and ₹105 per kg, respectively, to get a mixture of rice worth ₹214 per kg?3349",
-      "question_image": null,
       "options": [
         "12 : 110",
         "109 : 10",
         "20 : 114",
         "8 : 218"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (109 : 10) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (109 : 10) है।"
     },
     {
       "id": 15,
       "section": "Arithmetical and Numerical Ability",
       "question": "Ajay has borrowed an amount of ₹3,00,000 from a bank to start a business. How much simple interest (in ₹) will he pay at a rate of 4% per annum after 2 years?",
-      "question_image": null,
       "options": [
         "25,000",
         "23,000",
         "3,24,000",
         "24,000"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (24,000) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (24,000) है।"
     },
     {
       "id": 16,
       "section": "Arithmetical and Numerical Ability",
       "question": "If 25 people, working for 10 hours a day, can complete 2 units of work in 4 days, then how many days will be required by 17 people to complete 17 units of work, if each person works for 10 hours a day?",
-      "question_image": null,
       "options": [
         "35",
         "50",
         "45",
         "60"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (50) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (50) है।"
     },
     {
       "id": 17,
       "section": "Arithmetical and Numerical Ability",
       "question": "Two passenger trains, 463-m and 512-m long, are moving in the same direction on parallel tracks. They cross each other in 75 seconds. If the speed of one train is one-third the speed of the other, what is the speed (in m/s) of the slower train?",
-      "question_image": null,
       "options": [
         "6.5",
         "8",
         "7.5",
         "7"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (6.5) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (6.5) है।"
     },
     {
       "id": 18,
       "section": "Arithmetical and Numerical Ability",
       "question": "The total wages of 5 workers for 2 days of work are ₹1,710. What is the daily wage (in ₹) of one worker?3756",
-      "question_image": null,
       "options": [
         "343",
         "171",
         "342",
         "172"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (171) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (171) है।"
     },
     {
       "id": 19,
       "section": "Arithmetical and Numerical Ability",
       "question": "Manoj bought an article for ₹262 and sold it to Shivi at a loss of 26%. With this amount, Manoj bought another article and sold it at a gain of 70%. What is Manoj's overall gain percentage?",
-      "question_image": null,
       "options": [
         "24.4%",
         "25.8%",
         "24.1%",
         "28.2%"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (25.8%) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (25.8%) है।"
     },
     {
       "id": 20,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average of 11 numbers is 62. If the average of the first 6 numbers is 58 and that of the last 6 is 61, find the 6th number.3802",
-      "question_image": null,
       "options": [
         "34",
         "33",
         "31",
         "32"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (32) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (32) है।"
     }
   ]
 }

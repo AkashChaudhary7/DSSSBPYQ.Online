@@ -6,321 +6,281 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "P starts from Point C and drives 2 km towards west. He then takes a left turn, drives 5 km, turns left and drives 7 km. He then takes a left turn and drives 7 km. He takes a final left turn, drives 5 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point C again? (All the turns are 90-degree turns only unless specified.)",
-      "question_image": null,
       "options": [
         "2 km towards east",
         "2 km towards west",
         "2 km towards north",
         "2 km towards south"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (2 km towards south) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (2 km towards south) है।"
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes G, H, I, J, M, N and O are kept one over the other but not necessarily in the same order.H is kept second from the bottom. Only three boxes are kept between I and J. O is kept immediately below J. N is kept on one of the positions above I. M is kept immediately above G.Which box is second from the top?",
-      "question_image": null,
       "options": [
         "J",
         "M",
         "G",
         "N"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (G) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (G) है।"
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the set in which the numbers are related in the same way as are the numbers of the following sets. (Note: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g., 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)(35, 116, 3)(49, 164, 5)",
-      "question_image": null,
       "options": [
         "(39,  182,  21)",
         "(32,  168,  25)",
         "(11,  42,  4)",
         "(23,  99,  11)"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' ((39,  182,  21)) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' ((39,  182,  21)) है।"
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,‘A ÷ B’ means ‘A is the sister of B’,‘A # B’ means ‘A is the brother of B’,‘A + B’ means ‘A is the wife of B’ and‘A % B’ means ‘A is the father of B’.How is A related to K if ‘A % B # G ÷ H + K’?",
-      "question_image": null,
       "options": [
         "Wife's father",
         "Brother",
         "Wife's Brother",
         "Father"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Wife's father) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Wife's father) है।"
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "Susheela, Ujwal, Yamini, Reena, Pawan, Pari, Kirti, and Neeta are sitting around a circular table, facing the centre.Ujwal sits third to the right of Kirti, Pawan sits second to the left of Neeta, who sits second to the left of Kirti. Yamini is an immediate neighbour of Kirti and Pari. Reena does not sit with Pawan.Who sits third to the left of Pawan?",
-      "question_image": null,
       "options": [
         "Reena",
         "Yamini",
         "Kirti",
         "Pari"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Yamini) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Yamini) है।"
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the pair that follows the same pattern as that followed by the two pairs given below. Both pairs follow the same pattern. NHF : MDBQKF : PGB",
-      "question_image": null,
       "options": [
         "TED : SAA",
         "ORL : NOH",
         "JSK : IOG",
         "INS : HKP"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (JSK : IOG) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (JSK : IOG) है।"
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "Manju, Anita, Arjun, Kanak, Sadhna, Parul, Ravi, and Prince are sitting around a circular table, facing the centre.Anita sits second to the right of Arjun. Manju sits third to the left of Ravi, who is an immediate neighbour of Arjun. Kanak sits third to the left of Parul, who does not sit with Ravi. Sadhna is an immediate neighbour of Manju and Anita.Who sits third to the right of Parul?",
-      "question_image": null,
       "options": [
         "Prince",
         "Ravi",
         "Manju",
         "Kanak"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Manju) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Manju) है।"
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "SAWE is related to AIEM in a certain way based on the English alphabetical order. In the same way, YGCK is related to GOKS. To which of the given options is WEAI related, following the same logic?",
-      "question_image": null,
       "options": [
         "EMIQ",
         "WMNH",
         "EMQW",
         "EWIO"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (EMIQ) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (EMIQ) है।"
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion(s) logically follow(s) from the statements.Statements: All sweaters are jackets.All sweaters are trousers.Some trousers are cargoes.Conclusions:(I) Some cargoes are sweaters.(II) Some trousers are jackets.",
-      "question_image": null,
       "options": [
         "Neither conclusion (I) nor (II) follows.",
         "Only conclusion (II) follows.",
         "Both conclusions (I) and (II) follow.",
         "Only conclusion (I) follows."
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Only conclusion (II) follows.) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Only conclusion (II) follows.) है।"
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "2 is related to 9 following a certain logic. Following the same logic, 7 is related to 64. To which of the given options is 11 related, following the same logic?(Note: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g., 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
-      "question_image": null,
       "options": [
         "100",
         "121",
         "169",
         "144"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (144) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (144) है।"
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "12 is related to 105 following a certain logic. Following the same logic, 17 is related to 150. To which of the given options is 16 related, following the same logic?\n(NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
-      "question_image": null,
       "options": [
         "141",
         "152",
         "144",
         "160"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (141) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (141) है।"
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "MIOK is related to NJPL in a certain way based on the English alphabetical order. In the same way, HDJF is related to IEKG. To which of the given options is OKQM related, following the same logic?",
-      "question_image": null,
       "options": [
         "PLNR",
         "PLRN",
         "LPNR",
         "LPRN"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (PLRN) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (PLRN) है।"
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the number from among the given options that can replace the question mark (?) in the following series.23   24   28   37   53   ?",
-      "question_image": null,
       "options": [
         "74",
         "78",
         "76",
         "72"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (78) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (78) है।"
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘A’ stands for ‘÷’, ‘B’ stands for ‘×’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘-’, what will come in place of the question mark (?) in the following equation?16 A 2 C 3 B 8 D 9 = ?",
-      "question_image": null,
       "options": [
         "21",
         "22",
         "23",
         "20"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (23) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (23) है।"
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "Six boxes A, B, C, D, E and F are kept one over the other but not necessarily in the same order. Box F is kept second from the top. There are exactly two boxes kept between E and B. Box B is kept somewhere above box E. Only two boxes are kept between A and C. Box C is kept immediately below box D. Which box is kept at the bottom-most position?9",
-      "question_image": null,
       "options": [
         "D",
         "C",
         "B",
         "A"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (C) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (C) है।"
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "What will come in place of the question mark (?) in the following equation, if ‘+’ and ‘−’ are interchanged and ‘÷’ and ‘×’ are interchanged?126 × 6 + 14 ÷ 1− 7 = ?",
-      "question_image": null,
       "options": [
         "12",
         "14",
         "18",
         "16"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (14) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (14) है।"
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete?CHR59, SXH95, INX131, YDN167, ?",
-      "question_image": null,
       "options": [
         "OUD203",
         "OTD203",
         "OTO203",
         "PTD203"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (OTD203) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (OTD203) है।"
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left)   801   773   997   835   934   (Right)(Example: 697 – First digit = 6, second digit = 9 and third digit = 7)(NOTE: All operations to be done from left to right.)If 4 is subtracted from the first digit of every number, in how many numbers will the third digit be exactly divisible by the first digit?",
-      "question_image": null,
       "options": [
         "0",
         "1",
         "2",
         "3"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (1) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (1) है।"
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘A’ stands for ‘÷’ , ‘B’ stands for ‘×’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘-’ , what will be come in place of question mark ‘?’ in the following equation?350  A  7  C  90  D  6  B  15  =  ?",
-      "question_image": null,
       "options": [
         "54",
         "50",
         "59",
         "52"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (50) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (50) है।"
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which is the letter-cluster that DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
-      "question_image": null,
       "options": [
         "ILL",
         "JLM",
         "ACD",
         "DFG"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (ILL) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (ILL) है।"
     }
   ]
 }

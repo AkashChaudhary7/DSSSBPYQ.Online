@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import { Capacitor } from '@capacitor/core';
+import { showRewardedAd, showInterstitialAd } from '../lib/admob';
 
 interface VignetteAdModalProps {
   isOpen: boolean;
@@ -13,8 +15,20 @@ export default function VignetteAdModal({
   onSuccess,
 }: VignetteAdModalProps) {
   useEffect(() => {
-    if (isOpen && onSuccess) {
-      onSuccess();
+    if (!isOpen) return;
+
+    if (Capacitor.isNativePlatform()) {
+      showRewardedAd(() => {
+        onSuccess();
+      }).catch(async () => {
+        // Fallback to interstitial if rewarded fails
+        await showInterstitialAd().catch(() => {});
+        onSuccess();
+      });
+    } else {
+      if (onSuccess) {
+        onSuccess();
+      }
     }
   }, [isOpen, onSuccess]);
 

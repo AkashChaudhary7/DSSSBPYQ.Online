@@ -6,321 +6,281 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven people C, D, M, N, Q, R and V are sitting around a circular table facing the centre. Only one person sits between Q and M when counted from the left of M. C sits third to the right of V. N sits third to the left of R. C sits to the immediate right of N. D is not an immediate neighbour of N. How many people sit between D and M when counted from the right of D?",
-      "question_image": null,
       "options": [
         "One",
         "Two",
         "Four",
         "Three"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Three) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Three) है।"
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes D, E, F, G, H, I and X are kept one over the other but not necessarily in the same order. Only two boxes are kept between E and H. Only G is kept above I. No box is kept below H. D is kept at some place below X but at some place above F. How many boxes are kept between X and H?",
-      "question_image": null,
       "options": [
         "Three",
         "Zero",
         "Two",
         "One"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Three) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Three) है।"
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?30 32 36 42 50 ?",
-      "question_image": null,
       "options": [
         "58",
         "62",
         "60",
         "65"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (60) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (60) है।"
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "Manoj starts from Point Y and drives 16 km towards the north. He then takes a right turn and drives 4 km. He again turns right and drives 22 km. He then takes one more right turn and drives 10 km. He takes a final right turn, drives 6 km and stops at Point Z. How far (the shortest distance) and in which direction should he drive now in order to reach Point Y again? (All turns are 90-degree turns only, unless specified.)",
-      "question_image": null,
       "options": [
         "6 km towards the north",
         "6 km towards the east",
         "4 km towards the east",
         "4 km towards the north"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (6 km towards the east) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (6 km towards the east) है।"
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left)         153          796           786            135            869         (Right) (Example: 697 – First digit = 6, second digit = 9 and third digit = 7)(NOTE: All operations to be done from left to right.)What will be the resultant if the second digit of the lowest number is added to the third digit of the highest number?",
-      "question_image": null,
       "options": [
         "12",
         "13",
         "8",
         "11"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (12) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (12) है।"
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?24 19 15 12 10 ?",
-      "question_image": null,
       "options": [
         "7",
         "6",
         "9",
         "5"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (9) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (9) है।"
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘BETH’ is coded as ‘7463’ and ‘ECHT’ is coded as ‘6741’. What is the code for ‘C’ in the given code language?",
-      "question_image": null,
       "options": [
         "1",
         "4",
         "7",
         "6"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (1) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (1) है।"
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "AD 9 is related to GA 4 in a certain way. In the same way, HK 22 is related to NH 17. To which of the following is DO 3 related, following the same logic?",
-      "question_image": null,
       "options": [
         "JL 2",
         "KM −2",
         "JL −2",
         "KM −1"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (JL −2) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (JL −2) है।"
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,'A + B' means ‘A is the mother of B’,'A – B' means ‘A is the brother of B’,'A × B' means ‘A is the wife of B’ and 'A ÷ B' means ‘A is the father of B’.How is E related to N if ‘Q + U –  E + V × F ÷ N’?",
-      "question_image": null,
       "options": [
         "Wife's mother",
         "Mother's mother",
         "Husband's mother",
         "Father's mother"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Mother's mother) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Mother's mother) है।"
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the given words.GOD  TEN  WAS  CUPIn each of the words, each vowel is changed to the second letter following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. In how many letter-clusters thus formed, will no vowel appear?",
-      "question_image": null,
       "options": [
         "Three",
         "One",
         "Four",
         "Two"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Three) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Three) है।"
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the option that is related to the fifth number in the same way as the second number is related to the first number and the fourth number is related to the third number.(Note: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)84 : 56 : : 36 : 24 : : 144 : ?",
-      "question_image": null,
       "options": [
         "63",
         "96",
         "67",
         "45"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (96) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (96) है।"
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes, C, D, E, F, G, H and Y, are kept one over the other but not necessarily in the same order. Only H is kept above Y. Only D is kept between Y and C. Only E is kept below F. How many boxes are kept between G and H?",
-      "question_image": null,
       "options": [
         "One",
         "Zero",
         "Two",
         "Three"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Three) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Three) है।"
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘A’ stands for ‘÷’, ‘B’ stands for ‘×’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘−’, then what will come in place of the question mark (?) in the following equation?64 C 4 D 12 B 3 A 4 = ?",
-      "question_image": null,
       "options": [
         "49",
         "59",
         "20",
         "52"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (59) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (59) है।"
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? JMN, FIJ, BEF, XAB, ?",
-      "question_image": null,
       "options": [
         "TWX",
         "XTW",
         "WXT",
         "WTX"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (TWX) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (TWX) है।"
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements:Some kings are princes.Some princes are ministers.All ministers are generals.Conclusions:(I) Some princes are generals.(II) Some kings are generals.",
-      "question_image": null,
       "options": [
         "Both conclusions (I) and (II) follow",
         "Neither conclusion (I) nor (II) follows",
         "Only conclusion (II) follows",
         "Only conclusion (I) follows"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (Only conclusion (I) follows) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Only conclusion (I) follows) है।"
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the following words.ZIP          CUP        HAT             HYP       In each of the words, each vowel is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. In how many letter-clusters thus formed, will no vowel appear?",
-      "question_image": null,
       "options": [
         "Two",
         "One",
         "Three",
         "Zero"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (One) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (One) है।"
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘B’ stands for ‘÷’, ‘C’ stands for ‘×’, ‘A’ stands for ‘+’ and ‘D’ stands for ‘−’, then what will come in place of the question mark (?) in the following equation?77 A 36 B 6 D 5 C 9 = ?",
-      "question_image": null,
       "options": [
         "22",
         "41",
         "38",
         "49"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (38) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (38) है।"
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "Six friends, Amar, Bindu, Carol, Don, Esha and Fazal, are sitting around a circular table, facing the centre. Bindu sits third to the right of Amar. Fazal sits to the immediate left of Bindu. Carol is an immediate neighbour of both Don and Bindu. Who among them sits to the immediate left of Esha?",
-      "question_image": null,
       "options": [
         "Carol",
         "Amar",
         "Don",
         "Bindu"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Amar) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Amar) है।"
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of E, F, G, H, K, L and M has an exam on a different day of the week, starting from Monday and ending on Sunday of the same week. No one has an exam after L. Only two people have an exam between E and H. Only two people have an exam between G and K. Only two people have an exam between L and K. F has an exam on one of the days before M. H has an exam immediately after M. Who has an exam on Tuesday?",
-      "question_image": null,
       "options": [
         "H",
         "F",
         "E",
         "M"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (F) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (F) है।"
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "Rocky starts from Point A and walks 5 km towards east. He then takes a left turn, walks 3 km and turns left again and walks 8 km. He again takes a left turn and walks 3 km to reach Point M. How far (shortest distance) and towards which direction should he walk in order to reach Point A again? (All turns are 90-degree turns only unless specified.)",
-      "question_image": null,
       "options": [
         "4 km towards east",
         "3 km towards north",
         "3 km towards east",
         "4 km towards west"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (3 km towards east) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (3 km towards east) है।"
     }
   ]
 }

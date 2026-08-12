@@ -13,6 +13,7 @@
         "D) All of the mentioned"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -26,6 +27,7 @@
         "D) none of the mentioned"
       ],
       "answer": 1,
+      "correct_answer": "B",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -39,6 +41,7 @@
         "D) none of the mentioned"
       ],
       "answer": 1,
+      "correct_answer": "B",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -52,6 +55,7 @@
         "D) protection bit with each page"
       ],
       "answer": 3,
+      "correct_answer": "D",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -65,6 +69,7 @@
         "D) is the system’s physical address space"
       ],
       "answer": 2,
+      "correct_answer": "C",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -78,6 +83,7 @@
         "D) access"
       ],
       "answer": 2,
+      "correct_answer": "C",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -91,6 +97,7 @@
         "D) all of the mentioned"
       ],
       "answer": 1,
+      "correct_answer": "B",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -104,6 +111,7 @@
         "D) 78.5 ns"
       ],
       "answer": 2,
+      "correct_answer": "C",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -117,6 +125,7 @@
         "D) user programs can implement dynamic loading without any special support from hardware or operating system"
       ],
       "answer": 3,
+      "correct_answer": "D",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -130,6 +139,7 @@
         "D) none of the mentioned"
       ],
       "answer": 1,
+      "correct_answer": "B",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -143,6 +153,7 @@
         "D) none of the mentioned"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -156,6 +167,7 @@
         "D) none of the mentioned"
       ],
       "answer": 1,
+      "correct_answer": "B",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -169,6 +181,7 @@
         "D) none of the mentioned"
       ],
       "answer": 1,
+      "correct_answer": "B",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -182,6 +195,7 @@
         "D) none of the mentioned"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -195,6 +209,7 @@
         "D) the server waits until one becomes free"
       ],
       "answer": 3,
+      "correct_answer": "D",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -208,6 +223,7 @@
         "D) none of the mentioned"
       ],
       "answer": 2,
+      "correct_answer": "C",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -221,6 +237,7 @@
         "D) none of the mentioned"
       ],
       "answer": 0,
+      "correct_answer": "A",
       "explanation": "No detailed explanation provided."
     },
     {
@@ -234,6 +251,7 @@
         "D) all of the mentioned"
       ],
       "answer": 3,
+      "correct_answer": "D",
       "explanation": "No detailed explanation provided."
     }
   ]

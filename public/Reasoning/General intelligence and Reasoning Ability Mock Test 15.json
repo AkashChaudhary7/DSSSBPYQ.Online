@@ -6,321 +6,281 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.\n\n(Left) 785 854 863 954 921 (Right)\n(Example- 697 – First digit = 6, second digit = 9 and third digit = 7)\n\nWhat will be the resultant if the third digit of the second highest number is added to the third digit of the second lowest number?11853",
-      "question_image": null,
       "options": [
         "6",
         "7",
         "9",
         "5"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (5) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (5) है।"
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "What will come in the place of the question mark (?) in the following equation, if ‘+’ and ‘−’ are interchanged and ‘×’ and ‘÷’ are interchanged?221 ÷ 9 − 1525 × 5 + 949 = ?",
-      "question_image": null,
       "options": [
         "1345",
         "1435",
         "1234",
         "1542"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (1345) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (1345) है।"
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number result(s) in the second number. Similarly, certain mathematical operation(s) on the second number result(s) in the third number and so on. Which of the given options follows the same set of operations as in the given sets?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting /multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) 17 - 119 - 131 - 1264 - 28 - 40 - 35",
-      "question_image": null,
       "options": [
         "47 - 339 - 345 - 340",
         "41 - 330 - 342 - 337",
         "12 - 84 - 96 - 91",
         "5 - 35 - 44 - 41"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (12 - 84 - 96 - 91) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (12 - 84 - 96 - 91) है।"
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Select the set in which the numbers are related in the same way as are the numbers of the following sets.(NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performingmathematical operations on 1 and 3 is not allowed.)12, 7215, 964465",
-      "question_image": null,
       "options": [
         "8, 40",
         "9, 50",
         "14, 99",
         "16, 114"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (8, 40) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (8, 40) है।"
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements: Some mugs are elephants.All turtles are flowers.No elephants are turtles.Conclusions: (I) : Some flowers are not elephants.(II) : No mugs are turtles.",
-      "question_image": null,
       "options": [
         "Neither conclusion (I) nor (II) follows",
         "Only conclusion (II) follows",
         "Only conclusion (I) follows",
         "Both conclusions (I) and (II) follow"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Only conclusion (I) follows) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Only conclusion (I) follows) है।"
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?21   30   39   48   57    ?",
-      "question_image": null,
       "options": [
         "66",
         "63",
         "65",
         "62"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (66) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (66) है।"
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "In this question, two statements 1 and 2 have been given. These statements maybe independent causes or effects of independent causes or a common cause. One of the statements maybe the effect of the other statement. Read both the statements and select the correct option.Statement 1: OTT platforms have given space to more creative cinema and have reached to more audience.Statement 2: On OTT platforms, there is no such censorship board that exists to filter out content as per norms.",
-      "question_image": null,
       "options": [
         "Both the statements 1 and 2 are effects of independent causes.",
         "Statement 2 is the cause and statement 1 is its effect.",
         "Statement 1 is the cause and statement 2 is its effect.",
         "Both the statements 1 and 2 are independent causes."
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (Statement 2 is the cause and statement 1 is its effect.) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Statement 2 is the cause and statement 1 is its effect.) है।"
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes G, H, I, J, P, Q and R are kept one over the other but not necessarily in the same order. Q is kept immediately above G. J is kept immediately above I. Only R is kept above H. Only two boxes are kept above Q. J is not kept at third position from the bottom. How many boxes are kept between P and R?5486",
-      "question_image": null,
       "options": [
         "Three",
         "One",
         "Two",
         "Four"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Three) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Three) है।"
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order?AXG  EBK  IFO  MJS  ?",
-      "question_image": null,
       "options": [
         "QWN",
         "QWR",
         "QNW",
         "QWE"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (QNW) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (QNW) है।"
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "MTLS is related to KRJQ in a certain way based on the English alphabetical order. In the same way, PWOV is related to NUMT. To which of the given options is JQIP related, following the same logic?2254",
-      "question_image": null,
       "options": [
         "HONG",
         "HOGN",
         "OHNG",
         "OHGN"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (HOGN) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (HOGN) है।"
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left)   124          734           541            261            342         (Right)(Example- 697 – First digit = 6, second digit = 9 and third digit = 7)If 2 is added to the first digit of every number, in how many numbers will the first digit be exactly divisible by the second digit? 12063",
-      "question_image": null,
       "options": [
         "Three",
         "Two",
         "Zero",
         "One"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (One) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (One) है।"
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes, A, B, C, D, E, F and G, are kept one over the other but not necessarily in the same order. A is kept second from the bottom. Only three boxes are kept between A and D. G is kept at one of the positions below A. Only E is kept between D and B. C is kept at one of the positions above D. How many boxes are kept above E?557",
-      "question_image": null,
       "options": [
         "One",
         "Four",
         "Two",
         "Three"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Two) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Two) है।"
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "JKM starts from Point A and drives 21 km towards the east. He then takes a left turn, drives 19 km, turns left and drives 26 km. He then takes a left turn and drives 24 km. He takes a final left turn, drives 5 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again? (All turns are 90° turns only, unless specified.) 325",
-      "question_image": null,
       "options": [
         "11 km to the north",
         "11 km to the south",
         "5 km to the south",
         "5 km to the north"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (5 km to the north) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (5 km to the north) है।"
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘PA%T’ is coded as ‘8123’ and ‘AR%T’ is coded as ‘4321’. What is the code for ‘R’ in that language?",
-      "question_image": null,
       "options": [
         "4",
         "3",
         "1",
         "2"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (4) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (4) है।"
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,‘A + B’ means ‘A is the son of B’,‘A − B’ means ‘A is the brother of B’,‘A × B’ means ‘A is the wife of B’ and‘A ÷ B’ means ‘A is the father of B’.How is D related to J if ‘D − F + G ÷ H × J’?7611",
-      "question_image": null,
       "options": [
         "Wife's brother",
         "Wife's father",
         "Brother",
         "Father"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (Wife's brother) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Wife's brother) है।"
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order?GER  DBO  AYL  XVI  ?",
-      "question_image": null,
       "options": [
         "IUI",
         "USF",
         "UFS",
         "USD"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (USF) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (USF) है।"
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘P’ stands for ‘÷’, ‘Q’ stands for ‘+’, ‘R’ stands for ‘×’ and ‘S’ stands for ‘−’, then what will come in place of the question mark (?) in the following equation?7 R 11 Q 12 P 6 S 18 = ?",
-      "question_image": null,
       "options": [
         "71",
         "56",
         "61",
         "66"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (61) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (61) है।"
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "A, B, C, D, E, F and G are sitting around a circular table facing the centre. B sits to the immediate left of A. E sits to the immediate left of F. F sits second to the left of G. D sits third to the left of A. How many people sit between C and D when counted from the left of C?7583",
-      "question_image": null,
       "options": [
         "Four",
         "One",
         "Three",
         "Two"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (Three) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Three) है।"
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "Bharat starts from Point Y and drives 31 km towards North. He then takes a left turn, drives 31 km, turns left and drives 43 km. He then takes a right turn and drives 17 km. He takes a right turn, drives 51 km. He then turns right, drives 23 km, turns right and drives 39 km to stop at Point Z. How far (shortest distance) and towards which direction should he drive in order to reach Point Y again?\n(All turns are 90-degree turns only unless specified.)",
-      "question_image": null,
       "options": [
         "25 km towards east",
         "27 km towards west",
         "21 km towards west",
         "19 km towards east"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (25 km towards east) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (25 km towards east) है।"
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the set in which the numbers are related in the same way as are the numbers of the following sets.(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)(5, 14, 29)(9, 6, 33)",
-      "question_image": null,
       "options": [
         "(15, 19, 62)",
         "(11, 12, 45)",
         "(12, 8, 59)",
         "(21, 7, 76)"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' ((11, 12, 45)) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' ((11, 12, 45)) है।"
     }
   ]
 }

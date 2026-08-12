@@ -6,321 +6,281 @@
       "id": 1,
       "section": "Arithmetical and Numerical Ability",
       "question": "If 20% of a number is added to 480, then the result is the same number. 20% of the same number is:",
-      "question_image": null,
       "options": [
         "140",
         "180",
         "600",
         "120"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (120) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (120) है।"
     },
     {
       "id": 2,
       "section": "Arithmetical and Numerical Ability",
       "question": "₹7,426 is divided among A, B, C and D in such a way that the shares of A and B, B and C, and C and D are in the ratios of 2 : 3, 4 : 5, and 10 : 3, respectively. The share of A (in ₹) is:",
-      "question_image": null,
       "options": [
         "₹1,504",
         "₹1,414",
         "₹1,574",
         "₹1,624"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (₹1,504) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (₹1,504) है।"
     },
     {
       "id": 3,
       "section": "Arithmetical and Numerical Ability",
       "question": "If 25 people, working for 10 hours a day, can complete 2 units of work in 5 days, then how many days will be required for 10 people to complete 18 units of work, if each person works for 9 hours a day?",
-      "question_image": null,
       "options": [
         "125",
         "120",
         "110",
         "135"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (125) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (125) है।"
     },
     {
       "id": 4,
       "section": "Arithmetical and Numerical Ability",
       "question": "Sachin deposited a sum of ₹68,750 at 20% rate of interest per annum, compounded annually. The total amount (in ₹) received by Sachin after 4 years is:",
-      "question_image": null,
       "options": [
         "1,42,626",
         "1,42,560",
         "1,42,451",
         "1,42,244"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (1,42,560) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (1,42,560) है।"
     },
     {
       "id": 5,
       "section": "Arithmetical and Numerical Ability",
       "question": "A truck is moving at a speed of 90 km/h. If its speed is reduced by 67%, the new speed of the truck (in km/h) will be:",
-      "question_image": null,
       "options": [
         "31.73",
         "26.5",
         "29.7",
         "31.75"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (29.7) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (29.7) है।"
     },
     {
       "id": 6,
       "section": "Arithmetical and Numerical Ability",
       "question": "The volume (in m3) of a cuboidal tank, whose dimensions are given as 8 m × 25 m × 5 m, is:",
-      "question_image": null,
       "options": [
         "990",
         "989",
         "1000",
         "1041"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (1000) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (1000) है।"
     },
     {
       "id": 7,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average of the first 13 multiples of 4 is:",
-      "question_image": null,
       "options": [
         "26",
         "28",
         "13",
         "4"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (28) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (28) है।"
     },
     {
       "id": 8,
       "section": "Arithmetical and Numerical Ability",
       "question": "The areas of three adjacent faces of a solid cuboid are 75 cm2, 125 cm2 and 240 cm2. What is the volume (in cm3) of the cuboid?",
-      "question_image": null,
       "options": [
         "1299",
         "1241",
         "1372",
         "1500"
       ],
-      "option_images": [],
       "answer": 3,
-      "explanation": "सही उत्तर विकल्प 'D' (1500) है।",
-      "explanation_image": null
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (1500) है।"
     },
     {
       "id": 9,
       "section": "Arithmetical and Numerical Ability",
       "question": "A goods train and a superfast train started running from station A and station B, respectively, at the same time towards each other on parallel tracks. If distance between station A and station B is 231 km, and the trains are running with speeds of 31 km/hr and 46 km/hr, respectively, then at what distance (in km) from station B will the trains meet?",
-      "question_image": null,
       "options": [
         "150",
         "141",
         "138",
         "157"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (138) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (138) है।"
     },
     {
       "id": 10,
       "section": "Arithmetical and Numerical Ability",
       "question": "A notebook is listed at ₹200 with a discount of 25%. What additional percentage discount must be offered to the customer to bring the net price to ₹117?",
-      "question_image": null,
       "options": [
         "27%",
         "24%",
         "22%",
         "20%"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (22%) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (22%) है।"
     },
     {
       "id": 11,
       "section": "Arithmetical and Numerical Ability",
       "question": "The list price of an article is ₹2,300 and a discount of 72% is offered on the list price. What additional discount percent on the already discounted price must be offered to a customer to bring the net selling price to ₹515.20?",
-      "question_image": null,
       "options": [
         "20%",
         "25%",
         "21%",
         "18%"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (20%) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (20%) है।"
     },
     {
       "id": 12,
       "section": "Arithmetical and Numerical Ability",
       "question": "Evaluate the following.38 − 9 ÷ 3 × 4",
-      "question_image": null,
       "options": [
         "26",
         "29",
         "24",
         "25"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (26) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (26) है।"
     },
     {
       "id": 13,
       "section": "Arithmetical and Numerical Ability",
       "question": "In what ratio should sugar costing ₹33 per kg be mixed with sugar costing ₹87 per kg so that by selling the mixture at ₹90.2 per kg, there is a profit of 10%?",
-      "question_image": null,
       "options": [
         "5 : 49",
         "50 : 3",
         "48 : 7",
         "51 : 3"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (5 : 49) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (5 : 49) है।"
     },
     {
       "id": 14,
       "section": "Arithmetical and Numerical Ability",
       "question": "If 30, 85, 66, and y are in proportion, then the value of y is:",
-      "question_image": null,
       "options": [
         "187",
         "182",
         "179",
         "186"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (187) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (187) है।"
     },
     {
       "id": 15,
       "section": "Arithmetical and Numerical Ability",
       "question": "The population of a village was 1,10,000. It increased by 15% in the first year and increased by 25% in the second year. Its population after two years is _______.",
-      "question_image": null,
       "options": [
         "1,37,500",
         "1,58,125",
         "1,26,500",
         "1,54,000"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (1,58,125) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (1,58,125) है।"
     },
     {
       "id": 16,
       "section": "Arithmetical and Numerical Ability",
       "question": "A shop that sells towels has offers going on, wherein customers can buy 3 towels and get 2 free. What is the percentage discount that the customer gets?",
-      "question_image": null,
       "options": [
         "40%",
         "50%",
         "45%",
         "35%"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (40%) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (40%) है।"
     },
     {
       "id": 17,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average of 13 numbers is 14. If each number is multiplied by 3, then what will the new average be?",
-      "question_image": null,
       "options": [
         "13",
         "3",
         "42",
         "14"
       ],
-      "option_images": [],
       "answer": 2,
-      "explanation": "सही उत्तर विकल्प 'C' (42) है।",
-      "explanation_image": null
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (42) है।"
     },
     {
       "id": 18,
       "section": "Arithmetical and Numerical Ability",
       "question": "A, B and C, when each is working alone, can do a piece of work in, respectively, 11, 88 and 11 days. They all started the work together, but A left after 2 days. In how many days, was the remaining work completed?",
-      "question_image": null,
       "options": [
         "5",
         "6",
         "7",
         "8"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (6) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (6) है।"
     },
     {
       "id": 19,
       "section": "Arithmetical and Numerical Ability",
       "question": "Naresh deposited a sum of ₹31,250 at 4% rate of interest per annum, compounded annually. The total amount (in ₹) received by Naresh after 3 years is:\\",
-      "question_image": null,
       "options": [
         "35,365",
         "35,152",
         "34,737",
         "35,329"
       ],
-      "option_images": [],
       "answer": 1,
-      "explanation": "सही उत्तर विकल्प 'B' (35,152) है।",
-      "explanation_image": null
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (35,152) है।"
     },
     {
       "id": 20,
       "section": "Arithmetical and Numerical Ability",
       "question": "By how much is 30% of 75 greater than 30% of 35?",
-      "question_image": null,
       "options": [
         "12",
         "7",
         "14",
         "9"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "सही उत्तर विकल्प 'A' (12) है।",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (12) है।"
     }
   ]
 }

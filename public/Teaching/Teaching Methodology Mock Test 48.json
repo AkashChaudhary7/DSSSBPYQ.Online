@@ -10,321 +10,281 @@
       "id": 1,
       "section": "Teaching Methodology",
       "question": "[Test 48 - Q1] The Maria Montessori educational method is heavily characterized by:",
-      "question_image": null,
       "options": [
         "Child-centered self-directed activity, hands-on learning, and collaborative play in prepared environments",
         "Teacher-dominated lectures and strict penal punishments",
         "Standardized paper-and-pencil exams conducted on a weekly basis",
         "Pre-designed digital animations with no physical tactile materials"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "Montessori classrooms feature prepared environments, multi-sensory materials, and self-directed learning tasks where teachers guide rather than lecture. (Question source: DSSSB Teaching Methodology Paper Series 48).",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "Montessori classrooms feature prepared environments, multi-sensory materials, and self-directed learning tasks where teachers guide rather than lecture. (Question source: DSSSB Teaching Methodology Paper Series 48)."
     },
     {
       "id": 2,
       "section": "Teaching Methodology",
       "question": "[Test 48 - Q2] John Dewey, a pioneer of progressive education, argued that classrooms should prioritize:",
-      "question_image": null,
       "options": [
         "Learning by doing and democratic cooperative inquiry",
         "Passive listening and direct instructional lecturing",
         "Abstract memorization of ancient classical texts",
         "Strict separation of high IQ and low IQ students"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "Dewey believed education is life itself, advocating experiential 'learning by doing' and training students to participate in a democratic society. (Question source: DSSSB Teaching Methodology Paper Series 48).",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "Dewey believed education is life itself, advocating experiential 'learning by doing' and training students to participate in a democratic society. (Question source: DSSSB Teaching Methodology Paper Series 48)."
     },
     {
       "id": 3,
       "section": "Teaching Methodology",
       "question": "[Test 48 - Q3] In Benjamin Bloom's Mastery Learning model, what is the core assumption regarding student achievement?",
-      "question_image": null,
       "options": [
         "Almost all students can master the material if provided with sufficient time and appropriate instruction",
         "Intelligence is entirely fixed at birth and cannot be modified by pedagogical interventions",
         "Only the top 10% of students are capable of high-order critical analysis",
         "Written examinations should be designed to fail a high percentage of low-income pupils"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "Mastery learning asserts that learning challenges are a function of instruction and time, rather than lack of student cognitive capacity. (Question source: DSSSB Teaching Methodology Paper Series 48).",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "Mastery learning asserts that learning challenges are a function of instruction and time, rather than lack of student cognitive capacity. (Question source: DSSSB Teaching Methodology Paper Series 48)."
     },
     {
       "id": 4,
       "section": "Teaching Methodology",
       "question": "[Test 48 - Q4] A student who struggles to write legibly, showing poor spatial planning on paper and difficulty with fine motor coordination, most likely suffers from:",
-      "question_image": null,
       "options": [
         "Dysgraphia",
         "Dyslexia",
         "Dyscalculia",
         "Aphasia"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "Dysgraphia is a specific learning disability that affects writing abilities, including handwriting, spelling, and organizing ideas on paper. (Question source: DSSSB Teaching Methodology Paper Series 48).",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "Dysgraphia is a specific learning disability that affects writing abilities, including handwriting, spelling, and organizing ideas on paper. (Question source: DSSSB Teaching Methodology Paper Series 48)."
     },
     {
       "id": 5,
       "section": "Teaching Methodology",
       "question": "[Test 48 - Q5] Dyslexia is a specific learning disorder that primarily manifests as difficulty in:",
-      "question_image": null,
       "options": [
         "Reading, decoding words, and phonological processing",
         "Performing basic arithmetic and algebraic calculations",
         "Coordinating gross motor movements in outdoor sports",
         "Expressing verbal emotions in social gatherings"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "Dyslexia impairs a person's ability to read and comprehend text by affecting phonological awareness, spelling, and word recognition. (Question source: DSSSB Teaching Methodology Paper Series 48).",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "Dyslexia impairs a person's ability to read and comprehend text by affecting phonological awareness, spelling, and word recognition. (Question source: DSSSB Teaching Methodology Paper Series 48)."
     },
     {
       "id": 6,
       "section": "Teaching Methodology",
       "question": "[Test 48 - Q6] Which assessment type is designed to evaluate student learning, acquisition, and academic achievement at the conclusion of an instructional period?",
-      "question_image": null,
       "options": [
         "Summative Assessment",
         "Formative Assessment",
         "Diagnostic Assessment",
         "Prognostic Assessment"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "Summative assessment is 'Assessment OF Learning', occurring at the end of a unit or term (e.g., final boards, term exams) to certify achievement. (Question source: DSSSB Teaching Methodology Paper Series 48).",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "Summative assessment is 'Assessment OF Learning', occurring at the end of a unit or term (e.g., final boards, term exams) to certify achievement. (Question source: DSSSB Teaching Methodology Paper Series 48)."
     },
     {
       "id": 7,
       "section": "Teaching Methodology",
       "question": "[Test 48 - Q7] In Abraham Maslow's Hierarchy of Needs, which level represents the ultimate realization of personal potential, self-fulfillment, and peak experiences?",
-      "question_image": null,
       "options": [
         "Self-Actualization Needs",
         "Esteem Needs",
         "Love and Belongingness Needs",
         "Safety and Security Needs"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "Self-actualization is the highest level of Maslow's pyramid, representing the drive to become everything that one is capable of becoming. (Question source: DSSSB Teaching Methodology Paper Series 48).",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "Self-actualization is the highest level of Maslow's pyramid, representing the drive to become everything that one is capable of becoming. (Question source: DSSSB Teaching Methodology Paper Series 48)."
     },
     {
       "id": 8,
       "section": "Teaching Methodology",
       "question": "[Test 48 - Q8] Which educational theorist is credited with establishing 'Field Theory' in learning and pioneered Action Research in social psychology?",
-      "question_image": null,
       "options": [
         "Kurt Lewin",
         "B.F. Skinner",
         "Jerome Bruner",
         "Jean Piaget"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "Kurt Lewin introduced Field Theory, conceptualizing behavior as a function of the person and their psychological environment: B = f(P, E). (Question source: DSSSB Teaching Methodology Paper Series 48).",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "Kurt Lewin introduced Field Theory, conceptualizing behavior as a function of the person and their psychological environment: B = f(P, E). (Question source: DSSSB Teaching Methodology Paper Series 48)."
     },
     {
       "id": 9,
       "section": "Teaching Methodology",
       "question": "[Test 48 - Q9] Jerome Bruner's concept of the 'Spiral Curriculum' advises that:",
-      "question_image": null,
       "options": [
         "Complex ideas should be taught at a simplified level first, then revisited at increasing levels of difficulty",
         "Students must study only in circular seating arrangements to improve social learning",
         "Every topic must be completed within a single class session and never repeated",
         "Science and mathematics must be completely separated from arts and languages"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "A spiral curriculum revisits topics periodically with increasing depth and complexity, allowing learners to build upon their existing foundation. (Question source: DSSSB Teaching Methodology Paper Series 48).",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "A spiral curriculum revisits topics periodically with increasing depth and complexity, allowing learners to build upon their existing foundation. (Question source: DSSSB Teaching Methodology Paper Series 48)."
     },
     {
       "id": 10,
       "section": "Teaching Methodology",
       "question": "[Test 48 - Q10] Noam Chomsky's theory of Language Acquisition proposes that children are born with an innate psychological mechanism known as the:",
-      "question_image": null,
       "options": [
         "Language Acquisition Device (LAD)",
         "Operant Conditioning Box",
         "Tabula Rasa (Blank Slate)",
         "Socio-Cultural Scaffolding Zone"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "Chomsky's LAD is a hypothetical biological module of the brain containing universal grammar rules that allows children to rapidly acquire any natural language. (Question source: DSSSB Teaching Methodology Paper Series 48).",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "Chomsky's LAD is a hypothetical biological module of the brain containing universal grammar rules that allows children to rapidly acquire any natural language. (Question source: DSSSB Teaching Methodology Paper Series 48)."
     },
     {
       "id": 11,
       "section": "Teaching Methodology",
       "question": "[Test 48 - Q11] According to Robert Gagne's Conditions of Learning, how many hierarchical levels of learning are there, and what is the highest level?",
-      "question_image": null,
       "options": [
         "8 levels; Problem Solving",
         "5 levels; Rule Learning",
         "10 levels; Concept Association",
         "6 levels; Verbal Chain Learning"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "Gagne proposed 8 hierarchical levels of learning. The lowest is signal learning, and the highest, most complex level is problem-solving. (Question source: DSSSB Teaching Methodology Paper Series 48).",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "Gagne proposed 8 hierarchical levels of learning. The lowest is signal learning, and the highest, most complex level is problem-solving. (Question source: DSSSB Teaching Methodology Paper Series 48)."
     },
     {
       "id": 12,
       "section": "Teaching Methodology",
       "question": "[Test 48 - Q12] The 'Project Method' of teaching, which focuses on solving real-world, purposeful problems in a social environment, was developed by:",
-      "question_image": null,
       "options": [
         "William Heard Kilpatrick",
         "H. E. Armstrong",
         "B. F. Skinner",
         "Maria Montessori"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "Kilpatrick formulated the Project Method based on pragmatism and the educational philosophies of his mentor, John Dewey. (Question source: DSSSB Teaching Methodology Paper Series 48).",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "Kilpatrick formulated the Project Method based on pragmatism and the educational philosophies of his mentor, John Dewey. (Question source: DSSSB Teaching Methodology Paper Series 48)."
     },
     {
       "id": 13,
       "section": "Teaching Methodology",
       "question": "[Test 48 - Q13] The 'Heuristic Method' of teaching, which places the student in the role of an active discoverer or researcher, was pioneered by:",
-      "question_image": null,
       "options": [
         "Henry Edward Armstrong",
         "Benjamin Bloom",
         "John Dewey",
         "Lev Vygotsky"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "H. E. Armstrong developed the Heuristic Method (from the Greek 'heuriskein' meaning 'to discover') to foster scientific enquiry and self-learning. (Question source: DSSSB Teaching Methodology Paper Series 48).",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "H. E. Armstrong developed the Heuristic Method (from the Greek 'heuriskein' meaning 'to discover') to foster scientific enquiry and self-learning. (Question source: DSSSB Teaching Methodology Paper Series 48)."
     },
     {
       "id": 14,
       "section": "Teaching Methodology",
       "question": "[Test 48 - Q14] Who developed the linear model of 'Programmed Instruction', which breaks down learning material into small steps called 'frames' with immediate feedback?",
-      "question_image": null,
       "options": [
         "B. F. Skinner",
         "Norman Crowder",
         "Edward Thorndike",
         "Jerome Bruner"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "B. F. Skinner developed linear programmed instruction based on operant conditioning, whereas Norman Crowder developed branching programmed instruction. (Question source: DSSSB Teaching Methodology Paper Series 48).",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "B. F. Skinner developed linear programmed instruction based on operant conditioning, whereas Norman Crowder developed branching programmed instruction. (Question source: DSSSB Teaching Methodology Paper Series 48)."
     },
     {
       "id": 15,
       "section": "Teaching Methodology",
       "question": "[Test 48 - Q15] Which quantitative method, developed by Jacob L. Moreno, is used to measure and map social relations, attractions, and repulsions within a classroom or group?",
-      "question_image": null,
       "options": [
         "Sociometry",
         "Psychometry",
         "Case Study Method",
         "Anecdotal Recording"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "Sociometry is a tool used to visually map and analyze social structures, peer acceptance, and interpersonal relationships within a classroom. (Question source: DSSSB Teaching Methodology Paper Series 48).",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "Sociometry is a tool used to visually map and analyze social structures, peer acceptance, and interpersonal relationships within a classroom. (Question source: DSSSB Teaching Methodology Paper Series 48)."
     },
     {
       "id": 16,
       "section": "Teaching Methodology",
       "question": "[Test 48 - Q16] The classic formula for calculating the Intelligence Quotient (IQ), (Mental Age / Chronological Age) * 100, was first formulated by:",
-      "question_image": null,
       "options": [
         "William Stern",
         "Lewis Terman",
         "Alfred Binet",
         "Francis Galton"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "William Stern of Germany first proposed the concept of IQ and its formula in 1912, which was subsequently adapted and popularized by Lewis Terman in the Stanford-Binet intelligence scale. (Question source: DSSSB Teaching Methodology Paper Series 48).",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "William Stern of Germany first proposed the concept of IQ and its formula in 1912, which was subsequently adapted and popularized by Lewis Terman in the Stanford-Binet intelligence scale. (Question source: DSSSB Teaching Methodology Paper Series 48)."
     },
     {
       "id": 17,
       "section": "Teaching Methodology",
       "question": "[Test 48 - Q17] According to National Education Policy (NEP) 2020, what is the new pedagogical and curricular structure replacing the existing 10+2 structure in Indian school education?",
-      "question_image": null,
       "options": [
         "5 + 3 + 3 + 4",
         "5 + 3 + 4 + 3",
         "3 + 5 + 3 + 4",
         "4 + 3 + 3 + 5"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "NEP 2020 replaces the traditional 10+2 system with a 5+3+3+4 structure corresponding to Foundational (5 yrs), Preparatory (3 yrs), Middle (3 yrs), and Secondary (4 yrs) stages. (Question source: DSSSB Teaching Methodology Paper Series 48).",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "NEP 2020 replaces the traditional 10+2 system with a 5+3+3+4 structure corresponding to Foundational (5 yrs), Preparatory (3 yrs), Middle (3 yrs), and Secondary (4 yrs) stages. (Question source: DSSSB Teaching Methodology Paper Series 48)."
     },
     {
       "id": 18,
       "section": "Teaching Methodology",
       "question": "[Test 48 - Q18] Which of the following principles best characterizes Jean Piaget's theory of cognitive development regarding the process of Schema Adaptation?",
-      "question_image": null,
       "options": [
         "Assimilation and Accommodation",
         "Classical and Operant Conditioning",
         "Zone of Proximal Development",
         "Scaffolding and Fading"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "Piaget defined adaptation as the balance achieved through assimilation (incorporating new info into existing schemas) and accommodation (modifying existing schemas to fit new info). (Question source: DSSSB Teaching Methodology Paper Series 48).",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "Piaget defined adaptation as the balance achieved through assimilation (incorporating new info into existing schemas) and accommodation (modifying existing schemas to fit new info). (Question source: DSSSB Teaching Methodology Paper Series 48)."
     },
     {
       "id": 19,
       "section": "Teaching Methodology",
       "question": "[Test 48 - Q19] In Lev Vygotsky's Socio-Cultural Theory, the term 'Scaffolding' refers to:",
-      "question_image": null,
       "options": [
         "Temporary support given by a More Knowledgeable Other (MKO) during the learning process",
         "Permanent structural changes in cognitive architecture",
         "Rote memorization techniques for complex concepts",
         "Standardized testing procedures in formative assessment"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "Scaffolding is a supportive framework provided by a teacher or peer (MKO) within the Zone of Proximal Development (ZPD) that is gradually removed as the learner gains independence. (Question source: DSSSB Teaching Methodology Paper Series 48).",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "Scaffolding is a supportive framework provided by a teacher or peer (MKO) within the Zone of Proximal Development (ZPD) that is gradually removed as the learner gains independence. (Question source: DSSSB Teaching Methodology Paper Series 48)."
     },
     {
       "id": 20,
       "section": "Teaching Methodology",
       "question": "[Test 48 - Q20] Under the Right to Free and Compulsory Education (RTE) Act 2009, what is the mandatory Pupil-Teacher Ratio (PTR) prescribed for primary schools (Classes I to V)?",
-      "question_image": null,
       "options": [
         "30:1",
         "35:1",
         "25:1",
         "40:1"
       ],
-      "option_images": [],
       "answer": 0,
-      "explanation": "As per the RTE Act 2009, the Pupil-Teacher Ratio (PTR) for primary schools (Classes 1-5) is mandated at 30:1 for enrollment up to 200 students. (Question source: DSSSB Teaching Methodology Paper Series 48).",
-      "explanation_image": null
+      "correct_answer": "A",
+      "explanation": "As per the RTE Act 2009, the Pupil-Teacher Ratio (PTR) for primary schools (Classes 1-5) is mandated at 30:1 for enrollment up to 200 students. (Question source: DSSSB Teaching Methodology Paper Series 48)."
     }
   ]
 }
