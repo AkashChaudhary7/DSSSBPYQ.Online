@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the given words.VIE          WAG        CON             WEBIn each of the words, each vowel is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. In how many letter-clusters thus formed, will no vowel appear? 2614",
+      "question_image": null,
       "options": [
         "Zero",
         "Three",
         "Two",
         "One"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Two) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Two) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,‘A ! B’ means ‘A is the daughter of B’,‘A % B’ means ‘A is married to B’,‘A @ B’ means ‘A is the son of B’,‘A & B’ means ‘A is the brother of B’, and‘A + B’ means ‘A is the mother of B’,How is G related to T if ‘U & T ! R @ G + U’?3061",
+      "question_image": null,
       "options": [
         "Mother",
         "Mother’s mother",
         "Father's mother",
         "Father's sister"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Father's mother) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Father's mother) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number result(s) in the second number. Similarly, certain mathematical operation(s) on the second number result(s) in the third number and so on. Which of the given options follows the same set of operations as in the given sets?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)26 – 33 – 11 – 16; 14 – 21 – 7 – 12435",
+      "question_image": null,
       "options": [
         "50 – 45 – 15 – 20",
         "20 – 27 – 9 – 14",
         "12 – 9 – 3 – 8",
         "15 – 12 – 4 – 9"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (20 – 27 – 9 – 14) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (20 – 27 – 9 – 14) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following series, only one letter-cluster is incorrect. Select the INCORRECT letter-cluster.  TYD WBG ZEJ CHM FIP INS2930",
+      "question_image": null,
       "options": [
         "ZEJ",
         "CHM",
         "INS",
         "FIP"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (FIP) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (FIP) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the given words.DRY           AGE           FIB            ETAIn each of the words, each vowel is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. In how many letter-clusters thus formed, will no vowel appear? 2612",
+      "question_image": null,
       "options": [
         "Two",
         "One",
         "Zero",
         "More than two"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (More than two) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (More than two) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following series, only one letter-cluster is incorrect. Select the INCORRECT letter-cluster.LIG  KHE  JGD  IFC  HEB  GDA",
+      "question_image": null,
       "options": [
         "IFC",
         "KHE",
         "JGD",
         "LIG"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (LIG) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (LIG) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?348, 276, 214, 162, 120, ?547",
+      "question_image": null,
       "options": [
         "77",
         "88",
         "99",
         "66"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (88) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (88) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "Govind starts from Point A and walks 18 m towards east. He takes a right turn, walks 14 m and then takes a right turn, walks 11 m and stops at Point B. Pihu starts from Point Y which is 37 m towards the south of Point A. She walks 21 m towards east, takes a left turn, walks 45 m, turns left and walks 14 m and stops at Point Z. What is the shortest distance between Point B and Point Z? (All turns are 90-degree turns only unless specified.)",
+      "question_image": null,
       "options": [
         "22 m",
         "32 m",
         "19 m",
         "29 m"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (22 m) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (22 m) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "A certain number of people are sitting in a row, facing north. D sits third from the right end. Only three people sit between A and D. Only two people sit between A and E. E sits second from the left end. If no other person is sitting in the row, how many people, in total, are sitting in the row?3082",
+      "question_image": null,
       "options": [
         "13",
         "12",
         "14",
         "11"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (11) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (11) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion(s) logically follow(s) from the statements.Statements:All coats are jackets.All jackets are suits.No jacket is a pant.Conclusions:(I) No suit is a pant.(II) No coat is a pant.3192",
+      "question_image": null,
       "options": [
         "Only conclusion I follows",
         "Neither conclusion I nor II follows",
         "Both conclusions I and II follow",
         "Only conclusion II follows"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Only conclusion II follows) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Only conclusion II follows) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of P, Q, R, S, T, U and V has exam on a different day of a week, starting from Monday and ending on Sunday of the same week. U has exam on Friday. R has exam immediately after V. Q has exam on Monday. Only two people have exam between R and Q. S has exam on one of the days before P, but on one of the days after R. How many people have exam between P and V?3302",
+      "question_image": null,
       "options": [
         "Four",
         "One",
         "Three",
         "Two"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Three) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Three) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the given letter-clusters should replace $ and % so that the pattern and relationship followed between the letter-cluster pair on the left side of :: is the same as that on the right side of ::?$ : ENP :: DKS : %3276",
+      "question_image": null,
       "options": [
         "$ = AJL, % = HOW",
         "$ = CJM, % = KOX",
         "$ = AJK, % = EOX",
         "$ = CLD, % = DOW"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' ($ = AJL, % = HOW) है।"
+      "explanation": "सही उत्तर विकल्प 'A' ($ = AJL, % = HOW) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,'his name is not' is coded as 'er sd fg vc', 'have in name my' is coded as 'yu ik sd ol', 'is I task in' is coded as 'fg hj po ik' and'is not what I' is coded as 'fg vc bn hj'. (All the codes are two-letter codes only.)What is the possible code for ‘my’?",
+      "question_image": null,
       "options": [
         "Either 'sd' or 'ik'",
         "Either 'ol' or 'yu'",
         "Either 'ol' or 'sd'",
         "Either 'ik' or 'ol'"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Either 'ol' or 'yu') है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Either 'ol' or 'yu') है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "In this question two statements I and II are given. These statements may be independent causes, or effects of independent causes, or effects of a common cause. One of the statements may be the effect of the other statement. Read both the statements and select the correct option.I. The roadwork to replace the underground water pipes in city X is scheduled for tomorrow morning.II. There will be no water supply tomorrow morning to an entire area in city X from 6:00 a.m. to 12 noon.",
+      "question_image": null,
       "options": [
         "I is the cause and II is its possible effect.",
         "II is the cause and I is its possible effect.",
         "Both I and II are independent causes.",
         "Both I and II are effects of independent causes."
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (I is the cause and II is its possible effect.) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (I is the cause and II is its possible effect.) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number result(s) in the second number. Similarly, certain mathematical operation(s) on the second number result(s) in the third number and so on. Which of the given options follows the same set of operations as in the given sets?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)100 – 20 – 5 – 10;    60 – 12 – 3 – 8",
+      "question_image": null,
       "options": [
         "120 – 24 – 6 – 11",
         "66 – 12 – 4 – 8",
         "40 – 8 – 2 –10",
         "205 – 44 – 11 – 18"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (120 – 24 – 6 – 11) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (120 – 24 – 6 – 11) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "Below are given two sets of numbers. In each set of numbers, a certain mathematical operation on first number results in the second number. Similarly, certain mathematical operation on second number results in the third number and so on. Which of the given options follows the same set of operations as in question?\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13, can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)\n11 – 6 – 20 – 12\n17 – 12 – 38 – 301096",
+      "question_image": null,
       "options": [
         "17 – 11 – 35 – 43",
         "9 – 4 – 10 – 2",
         "15 – 10 – 32 – 24",
         "14 – 19 – 59 – 51"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (15 – 10 – 32 – 24) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (15 – 10 – 32 – 24) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "P, Q, R, S, T and U live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it, number 2 and so on till the topmost floor is numbered 6. T lives on an odd numbered floor but not 5. The sum of floors on which T and U live is 5. Only 3 people live between U and P. Q lives immediately above S. How many people live below U?",
+      "question_image": null,
       "options": [
         "4",
         "1",
         "3",
         "2"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (1) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (1) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "Eight people are sitting in two parallel rows containing 4 people each in such a way that there is equal distance between adjacent persons.In row 1 – A, B, C and D are seated and all of them are facing south.In row 2 – P, Q, R and S are seated and all of them are facing north.Thus each person faces another person from the other row.Only three people sit to the right of Q. A faces the person who is the immediate neighbour of R and P. B faces the person sitting second to the right of R. C does not face Q. Who amongst the following faces R?",
+      "question_image": null,
       "options": [
         "C",
         "B",
         "A",
         "D"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (C) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (C) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements:All shoes are rubbers.All rubbers are plastics.No plastic is a jar.Conclusions:I. Some plastics are shoes.II. Some rubbers are jars.",
+      "question_image": null,
       "options": [
         "Neither conclusion I nor II follows.",
         "Only conclusion I follows.",
         "Only conclusion II follows.",
         "Both conclusions I and II follow."
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Only conclusion I follows.) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Only conclusion I follows.) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, A ? B means ‘A is the father of B’,A > B means ‘A is the wife of B’,A * B means ‘A is the daughter of B’ and A ~ B means ‘A is the brother of B’.Based on the above, how is M related to C if 'M ~ A * G > I ? C’?895",
+      "question_image": null,
       "options": [
         "Brother",
         "Mother",
         "Sister",
         "Father"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Brother) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Brother) है।",
+      "explanation_image": null
     }
   ]
 }

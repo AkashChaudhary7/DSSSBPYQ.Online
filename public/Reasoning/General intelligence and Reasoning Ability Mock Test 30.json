@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes G, H, I, J, P, Q and R are kept one over the other but not necessarily in the same order. Only four boxes are kept between Q and I. Only H is kept above Q. Only two boxes are kept between J and P. R is kept immediately above G. P is not kept immediately above R. Which box is kept fourth from the top?5489",
+      "question_image": null,
       "options": [
         "R",
         "G",
         "P",
         "I"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (R) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (R) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘+’ means ‘subtraction’, ‘−’ means ‘multiplication’, ‘×’ means ‘division’ and ‘÷’ means ‘addition’, then what will come in place of the question mark (?) in the following equation?3 − 9 ÷ 32 + 16 × 4 = ?",
+      "question_image": null,
       "options": [
         "52",
         "51",
         "54",
         "55"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (55) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (55) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number results in the second number. Similarly, certain mathematical operation(s) on the second number results in the third number and so on. Which of the given options follows the same set of operations as in the given sets?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting /multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)15 - 60 - 64 - 68; 16 - 64 - 68 - 725017",
+      "question_image": null,
       "options": [
         "18 - 72 - 76 - 80",
         "17 - 34 - 68 -72",
         "12 - 36 - 40 - 44",
         "8 - 24 - 32 - 64"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (18 - 72 - 76 - 80) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (18 - 72 - 76 - 80) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements:All sticks are eagles.Some eagles are grapes.All roses are sticks.Conclusions:(I) : All roses are eagles.(II) : Some sticks are grapes.",
+      "question_image": null,
       "options": [
         "Both conclusions (I) and (II) follow",
         "Only conclusion (I) follows",
         "Neither conclusion (I) nor (II) follows",
         "Only conclusion (II) follows"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Only conclusion (I) follows) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Only conclusion (I) follows) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order?SWE  PTB  MQY  JNV  ?",
+      "question_image": null,
       "options": [
         "GSE",
         "GKS",
         "GIO",
         "GSK"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (GKS) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (GKS) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes, G, H, I, J, P, Q and R, are kept one over the other but not necessarily in the same order. Only three boxes are kept above H. Only one box is kept between G and H. Only three boxes are kept between G and I. I is kept at some place above H. Q is kept immediately below I. R is kept at one of the places above P. J is not kept immediately above or below G. Which box is kept at the lowermost position?5491",
+      "question_image": null,
       "options": [
         "P",
         "G",
         "I",
         "Q"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (P) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (P) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘NO#E’ is coded as ‘9751’ and ‘O%NE’ is coded as ‘1749’. What is the code for ‘%’ in that language?",
+      "question_image": null,
       "options": [
         "7",
         "1",
         "9",
         "4"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (4) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (4) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group?(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.",
+      "question_image": null,
       "options": [
         "TSR",
         "UUS",
         "GFE",
         "IHG"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (UUS) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (UUS) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "BARD is related to FFXK in a certain way based on the English alphabetical order. In the same way, JKDR is related to NPJY. To which of the given options is RUPF related, following the same logic?2151",
+      "question_image": null,
       "options": [
         "VZVM",
         "UYWM",
         "WAVN",
         "WYUL"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (VZVM) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (VZVM) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which is the letter-cluster pair that DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+      "question_image": null,
       "options": [
         "TP  -  OK",
         "OK  -  JF",
         "NJ  -  IE",
         "UQ  -  PK"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (UQ  -  PK) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (UQ  -  PK) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘P’ stands for ‘÷’, ‘Q’ stands for ‘+’, ‘R’ stands for ‘×’ and ‘S’ stands for ‘−’, then what will come in place of the question mark (?) in the following equation?25 R 3 Q 100 P 50 S 25 = ?",
+      "question_image": null,
       "options": [
         "47",
         "62",
         "57",
         "52"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (52) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (52) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order?LET  PIX  TMB  XQF  ?",
+      "question_image": null,
       "options": [
         "BUJ",
         "BUI",
         "BJI",
         "BJU"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (BUJ) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (BUJ) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "Refer to the following number series and answer the question that follows. Counting to be done from left to right only. (All numbers are single-digit numbers only.)(Left)   8 5 6 4 1 2 4 5 7 5 9 6 3 2 1 5 8 4 5 6 7 5   (Right)How many such even digits are there which are immediately preceded by an odd digit and also immediately followed by an even digit?",
+      "question_image": null,
       "options": [
         "One",
         "Three",
         "Four",
         "Two"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Three) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Three) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘A’ stands for ‘÷’, ‘B’ stands for ‘×’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘−’, then the resultant of which of the following would be 33?",
+      "question_image": null,
       "options": [
         "9 A 4 C 72 B 9 D 5",
         "9 C 4 A 72 D 9 B 5",
         "9 B 4 D 72 A 9 C 5",
         "9 D 4 A 72 C 9 B 5"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (9 B 4 D 72 A 9 C 5) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (9 B 4 D 72 A 9 C 5) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘A’ stands for ‘÷’, ‘B’ stands for ‘×’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘−’, what will be come in place of the question mark ‘?’ in the following equation?3 B 24 A 36 D 39 C 31 = ?",
+      "question_image": null,
       "options": [
         "−4",
         "−8",
         "−6",
         "−7"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (−6) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (−6) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘land road car’ is coded as ‘op cx xs’, ‘plane car bus’ is coded as ‘xd gh op’, and ‘truck bus jet’ is coded as ‘gh bq sw’. (All the codes are two-letter codes only.). How is 'car' coded in the given code language?",
+      "question_image": null,
       "options": [
         "xd",
         "cx",
         "op",
         "gh"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (op) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (op) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "The position(s) of how many letters will remain unchanged if each of the letters in the word FACTION is arranged in the English alphabetical order?",
+      "question_image": null,
       "options": [
         "Three",
         "Two",
         "None",
         "One"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (One) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (One) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "Karan ranked 25th from the top and 58th from the bottom in his class. How many students are there in his class?",
+      "question_image": null,
       "options": [
         "84",
         "82",
         "81",
         "83"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (82) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (82) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following series, only one letter-cluster is incorrect. Select the INCORRECT letter-cluster. PRK  NPI  LNG  JLE  HJC  FHB",
+      "question_image": null,
       "options": [
         "FHB",
         "​LNG",
         "JLE",
         "HJC"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (FHB) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (FHB) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "A certain number of people are sitting in a row, facing north. N sits to the immediate right of R. T sits second to the right of U. J sits third to the left of H. Only two people sit between R and H. Only two people sit between N and U. If no other person is sitting in the row, what is the total number of persons seated?4394",
+      "question_image": null,
       "options": [
         "15",
         "13",
         "14",
         "12"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (13) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (13) है।",
+      "explanation_image": null
     }
   ]
 }

@@ -1,13 +1,9 @@
 import { Quiz, Question } from '../types';
 import { processRawQuizData } from './quizParser';
-import { Capacitor } from '@capacitor/core';
 
-export const QUIZ_CACHE_NAME = 'dsssb-quiz-cache-v3';
-export const REMOTE_CONTENT_BASE = (import.meta.env.VITE_REMOTE_CONTENT_URL as string) || 'https://dsssbpyq.online';
+export const QUIZ_CACHE_NAME = 'dsssb-quiz-cache-v2';
 export const QUIZZES_METADATA_URL = '/content/quizzes-metadata.json';
-export const REMOTE_METADATA_URL = `${REMOTE_CONTENT_BASE}/content/quizzes-metadata.json`;
 export const METADATA_OVERRIDE_KEY = 'dsssb_quizzes_metadata_override';
-export const LOCAL_REMOTE_METADATA_CACHE = 'dsssb_remote_quizzes_metadata_v5';
 export const MOCK_DATA_PREFIX = 'dsssb_mock_data_';
 
 /**
@@ -89,10 +85,10 @@ export function resolveQuizPath(testId: string, customFile?: string): string[] {
 
 /**
  * Dynamically imports/fetches only the data for the active mock quiz on-demand.
- * Checks localStorage (for cached/remote downloads), Cache API, Remote Server, and local assets.
+ * Checks localStorage (for custom/admin uploads), Cache API, and network static files.
  */
 export async function loadActiveQuizQuestions(quiz: Quiz): Promise<Quiz> {
-  // If questions are already loaded in memory for this active quiz, return it directly
+  // If questions are already loaded into memory for this active quiz, return it directly
   if (quiz.questions && quiz.questions.length > 0) {
     return quiz;
   }
@@ -102,7 +98,7 @@ export async function loadActiveQuizQuestions(quiz: Quiz): Promise<Quiz> {
 
   let rawData: any = null;
 
-  // 1. Check localStorage for admin bulk-uploaded or downloaded/cached test question data
+  // 1. Check localStorage for admin bulk-uploaded or custom test question data
   try {
     const localStoredData = localStorage.getItem(`${MOCK_DATA_PREFIX}${testId}`);
     if (localStoredData) {
@@ -112,7 +108,7 @@ export async function loadActiveQuizQuestions(quiz: Quiz): Promise<Quiz> {
     console.warn(`[QuizLoader] LocalStorage lookup failed for ${testId}:`, err);
   }
 
-  // Candidate relative paths to try
+  // Candidate paths to try
   const resolvedPaths = resolveQuizPath(testId, (quiz as any).file);
   const candidatePaths: string[] = [];
   
@@ -150,56 +146,34 @@ export async function loadActiveQuizQuestions(quiz: Quiz): Promise<Quiz> {
     }
   }
 
-  // 3. Dynamic Network fetch: try Remote Production Server first, then local relative assets
+  // 3. Dynamic network fetch if not in local storage or Cache API
   if (!rawData) {
     const cacheBuster = `?t=${Date.now()}`;
-    
-    // Construct prioritized URL attempts (Remote server first, then local relative path)
-    const urlAttempts: string[] = [];
-    for (const p of candidatePaths) {
-      // Remote absolute URL (e.g. https://dsssbpyq.online/Computer/...)
-      urlAttempts.push(`${REMOTE_CONTENT_BASE}${p}${p.includes('?') ? '&' : '?'}${cacheBuster}`);
-      // Local relative path (e.g. /Computer/...)
-      urlAttempts.push(`${p}${p.includes('?') ? '&' : '?'}${cacheBuster}`);
-    }
-
-    for (const fetchUrl of urlAttempts) {
+    for (const pathAttempt of candidatePaths) {
       try {
-        const controller = new AbortController();
-        const timeoutId = setTimeout(() => controller.abort(), 8000); // 8s timeout
-
-        const response = await fetch(fetchUrl, { signal: controller.signal }).catch(() => null);
-        clearTimeout(timeoutId);
+        const fetchUrl = pathAttempt.includes('?') ? pathAttempt : `${pathAttempt}${cacheBuster}`;
+        const response = await fetch(fetchUrl).catch(() => null);
 
         if (response && response.ok) {
-          rawData = await response.json().catch(() => null);
+          rawData = await response.json();
 
-          if (rawData && (Array.isArray(rawData) || rawData.questions)) {
-            // Cache locally in localStorage for instant offline reuse
+          // Save in Cache API for subsequent instant offline access
+          if (cache && rawData) {
             try {
-              localStorage.setItem(`${MOCK_DATA_PREFIX}${testId}`, JSON.stringify(rawData));
-            } catch (lsErr) {
-              console.warn(`[QuizLoader] LocalStorage save failed for ${testId}:`, lsErr);
+              const responseToCache = new Response(JSON.stringify(rawData), {
+                status: 200,
+                headers: { 'Content-Type': 'application/json; charset=utf-8' }
+              });
+              await cache.put(pathAttempt, responseToCache);
+            } catch (putErr) {
+              console.warn(`[QuizLoader] Cache API put failed for ${pathAttempt}:`, putErr);
             }
-
-            // Save in Cache API for offline access
-            if (cache) {
-              try {
-                const responseToCache = new Response(JSON.stringify(rawData), {
-                  status: 200,
-                  headers: { 'Content-Type': 'application/json; charset=utf-8' }
-                });
-                await cache.put(fetchUrl, responseToCache);
-              } catch (putErr) {
-                console.warn(`[QuizLoader] Cache API put failed for ${fetchUrl}:`, putErr);
-              }
-            }
-
-            break;
           }
+
+          if (rawData) break;
         }
       } catch (fetchErr) {
-        console.warn(`[QuizLoader] Fetch failed for ${fetchUrl}:`, fetchErr);
+        console.warn(`[QuizLoader] Fetch failed for ${pathAttempt}:`, fetchErr);
       }
     }
   }
@@ -237,13 +211,14 @@ export async function loadActiveQuizQuestions(quiz: Quiz): Promise<Quiz> {
 }
 
 /**
- * Synchronizes and loads the quizzes metadata catalog from Remote Server, Cache API, or local bundle
+ * Loads the quizzes metadata list from Cache API or Network
  */
 export async function fetchQuizzesMetadata(): Promise<Quiz[]> {
+  const metadataUrl = QUIZZES_METADATA_URL;
   let metadataList: any[] | null = null;
   let cache: Cache | null = null;
 
-  // 1. Check localStorage override first (set by Admin Bulk Upload tool)
+  // Check localStorage override first (set by Admin Bulk Upload tool)
   try {
     const localOverride = localStorage.getItem(METADATA_OVERRIDE_KEY);
     if (localOverride) {
@@ -254,80 +229,45 @@ export async function fetchQuizzesMetadata(): Promise<Quiz[]> {
     }
   } catch (_) {}
 
-  // 2. Check local remote metadata cache (stored from previous successful remote sync)
-  let localRemoteCache: any[] | null = null;
-  try {
-    const cachedStr = localStorage.getItem(LOCAL_REMOTE_METADATA_CACHE);
-    if (cachedStr) {
-      localRemoteCache = JSON.parse(cachedStr);
-    }
-  } catch (_) {}
-
   if (typeof window !== 'undefined' && 'caches' in window) {
     try {
       cache = await caches.open(QUIZ_CACHE_NAME);
     } catch (_) {}
   }
 
-  // 3. Network Fetch: Try remote website catalog (dsssbpyq.online) then relative catalog
-  const catalogUrlsToTry = [
-    `${REMOTE_METADATA_URL}?t=${Date.now()}`,
-    `${QUIZZES_METADATA_URL}?t=${Date.now()}`
-  ];
-
-  for (const catalogUrl of catalogUrlsToTry) {
-    try {
-      const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 6000); // 6s timeout
-
-      const res = await fetch(catalogUrl, { signal: controller.signal }).catch(() => null);
-      clearTimeout(timeoutId);
-
-      if (res && res.ok) {
-        const fetchedList = await res.json().catch(() => null);
-        if (fetchedList && Array.isArray(fetchedList) && fetchedList.length > 0) {
-          metadataList = fetchedList;
-
-          // Save remotely fetched metadata in localStorage for offline persistence
-          try {
-            localStorage.setItem(LOCAL_REMOTE_METADATA_CACHE, JSON.stringify(metadataList));
-          } catch (_) {}
-
-          // Save in Cache API
-          if (cache) {
-            try {
-              const responseToCache = new Response(JSON.stringify(metadataList), {
-                status: 200,
-                headers: { 'Content-Type': 'application/json; charset=utf-8' }
-              });
-              await cache.put(QUIZZES_METADATA_URL, responseToCache);
-            } catch (_) {}
-          }
-
-          break; // Successfully fetched latest remote catalog!
-        }
+  // 1. Try to fetch latest metadata from network
+  try {
+    const cacheBuster = `?t=${Date.now()}`;
+    const res = await fetch(`${metadataUrl}${cacheBuster}`).catch(() => null);
+    if (res && res.ok) {
+      metadataList = await res.json().catch(() => null);
+      if (metadataList && cache) {
+        try {
+          const responseToCache = new Response(JSON.stringify(metadataList), {
+            status: 200,
+            headers: { 'Content-Type': 'application/json; charset=utf-8' }
+          });
+          await cache.put(metadataUrl, responseToCache);
+        } catch (_) {}
       }
-    } catch (netErr) {
-      console.warn(`[QuizLoader] Network fetch of metadata failed for ${catalogUrl}:`, netErr);
     }
+  } catch (netErr) {
+    console.warn("[QuizLoader] Network fetch of metadata failed, using cache fallback", netErr);
   }
 
-  // 4. Offline Fallback: If network fetch failed, use local remote cache or Cache API
-  if (!metadataList || metadataList.length === 0) {
-    if (localRemoteCache && Array.isArray(localRemoteCache) && localRemoteCache.length > 0) {
-      metadataList = localRemoteCache;
-      console.log(`[QuizLoader] Network unavailable. Using local remote metadata cache (${metadataList.length} quizzes).`);
-    } else if (cache) {
-      try {
-        const cachedRes = await cache.match(QUIZZES_METADATA_URL);
-        if (cachedRes && cachedRes.ok) {
-          metadataList = await cachedRes.json();
-        }
-      } catch (_) {}
-    }
+  // 2. Cache API fallback if network failed
+  if (!metadataList && cache) {
+    try {
+      const cachedRes = await cache.match(metadataUrl);
+      if (cachedRes && cachedRes.ok) {
+        metadataList = await cachedRes.json();
+      }
+    } catch (_) {}
   }
 
-  // 5. Static Bundle Fallback & Merge: Safeguard to guarantee no missing quizzes
+  // Safeguard: if fetched metadata is missing or has fewer quizzes than statically-compiled metadata,
+  // merge them or fallback to the compiled static bundle to avoid any missing quizzes.
+  // Load static bundle dynamically to avoid blocking initial render with large bundle
   let GENERATED_QUIZZES_METADATA: any[] = [];
   try {
     const staticBundle = await import('../data/generatedQuizzesMetadata');
@@ -335,7 +275,7 @@ export async function fetchQuizzesMetadata(): Promise<Quiz[]> {
       GENERATED_QUIZZES_METADATA = staticBundle.GENERATED_QUIZZES_METADATA;
     }
   } catch (err) {
-    console.warn("[QuizLoader] Failed to load static metadata bundle", err);
+    console.warn("[QuizLoader] Failed to dynamically load static metadata bundle", err);
   }
   
   let BUILTIN_QUIZZES: any[] = [];
@@ -345,27 +285,41 @@ export async function fetchQuizzesMetadata(): Promise<Quiz[]> {
       BUILTIN_QUIZZES = contentIndex.BUILTIN_QUIZZES;
     }
   } catch (err) {}
-
-  // Merge metadata list with static bundle by testId map
-  const mergedMap = new Map<string, any>();
   
-  // Static bundle first
+  // Merge builtin and generated
+  const combinedMap1 = new Map<string, any>();
   GENERATED_QUIZZES_METADATA.forEach(q => {
-    if (q && q.testId) mergedMap.set(q.testId, q);
+    if (q && q.testId) combinedMap1.set(q.testId, q);
   });
   BUILTIN_QUIZZES.forEach(q => {
-    if (q && q.testId) mergedMap.set(q.testId, q);
+    if (q && q.testId) combinedMap1.set(q.testId, q);
   });
+  GENERATED_QUIZZES_METADATA = Array.from(combinedMap1.values());
 
-  // Remote catalog second (overrides/augments static bundle with newly published remote mocks!)
-  if (metadataList && Array.isArray(metadataList)) {
-    metadataList.forEach(q => {
-      if (q && q.testId) mergedMap.set(q.testId, q);
-    });
+
+  const staticCount = (GENERATED_QUIZZES_METADATA && Array.isArray(GENERATED_QUIZZES_METADATA)) ? GENERATED_QUIZZES_METADATA.length : 0;
+  if (!metadataList || !Array.isArray(metadataList) || metadataList.length < staticCount) {
+    console.warn(`[QuizLoader] Fetched/cached metadata has ${metadataList ? (metadataList.length || 0) : 0} items, which is less than static bundle ${staticCount}. Merging with static bundle.`);
+    
+    const mergedMap = new Map<string, any>();
+    if (GENERATED_QUIZZES_METADATA && Array.isArray(GENERATED_QUIZZES_METADATA)) {
+      GENERATED_QUIZZES_METADATA.forEach(q => {
+        if (q && q.testId) {
+          mergedMap.set(q.testId, q);
+        }
+      });
+    }
+    if (metadataList && Array.isArray(metadataList)) {
+      metadataList.forEach(q => {
+        if (q && q.testId) {
+          mergedMap.set(q.testId, q);
+        }
+      });
+    }
+    metadataList = Array.from(mergedMap.values());
   }
 
-  const finalCatalog = Array.from(mergedMap.values());
-  return formatMetadataToLightweightQuizzes(finalCatalog);
+  return formatMetadataToLightweightQuizzes(metadataList);
 }
 
 /**

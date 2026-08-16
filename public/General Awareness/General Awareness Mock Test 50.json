@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General Awareness",
       "question": "What is the main role of ribosomes within a cell?",
+      "question_image": null,
       "options": [
         "Protein synthesis",
         "ATP production",
         "DNA replication",
         "Lipid storage"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Protein synthesis) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Protein synthesis) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General Awareness",
       "question": "Where is Angkor Wat located, which has been recognised as the most photogenic UNESCO World Heritage site in Asia by Times Travel on 15 September 2024?",
+      "question_image": null,
       "options": [
         "Vietnam",
         "Malaysia",
         "Cambodia",
         "Singapore"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Cambodia) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Cambodia) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General Awareness",
       "question": "Which of the following is the role of wages in the Classical Theory of Unemployment in the pursuit of full employment?",
+      "question_image": null,
       "options": [
         "Wages are set by the government to maintain full employment.",
         "Wages are irrelevant in determining employment levels.",
         "Wages are flexible and adjust to achieve full employment.",
         "Wages are fixed and do not impact employment levels."
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Wages are flexible and adjust to achieve full employment.) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Wages are flexible and adjust to achieve full employment.) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General Awareness",
       "question": "The bioindicator of SO2 pollutant in environment is ______.",
+      "question_image": null,
       "options": [
         "bacteria",
         "algae",
         "fungi",
         "lichen"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (lichen) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (lichen) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General Awareness",
       "question": "According to the Arrhenius concept, an acid is:",
+      "question_image": null,
       "options": [
         "proton donor",
         "oxide acceptor",
         "H+ liberator in water",
         "electron-pair acceptor"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (H+ liberator in water) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (H+ liberator in water) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General Awareness",
       "question": "Which of the following Indian nationalists formed the Swaraj Party within the Congress in 1923 along with Motilal Nehru and Hakim Ajmal Khan?",
+      "question_image": null,
       "options": [
         "Chittaranjan Das",
         "Bal Gangadhar Tilak",
         "Mahadev Desai",
         "Govind Ballabh Pant"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Chittaranjan Das) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Chittaranjan Das) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General Awareness",
       "question": "Which of the following Articles of the Indian constitution says that there shall be equality of opportunity for all citizens in matters relating to employment or appointment to any office under the State?",
+      "question_image": null,
       "options": [
         "Article 12",
         "Article 14",
         "Article 16",
         "Article 18"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Article 16) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Article 16) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General Awareness",
       "question": "Which of the following ancient monuments in India is a UNESCO World Heritage Site and has numerous ruined temples dated back to the Vijayanagara period?",
+      "question_image": null,
       "options": [
         "Hampi Ruins",
         "Konark Sun Temple",
         "Ajanta Caves",
         "Ellora Caves"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Hampi Ruins) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Hampi Ruins) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General Awareness",
       "question": "In which of the following years was the Food Corporation of India (FCI) established?",
+      "question_image": null,
       "options": [
         "1967",
         "1965",
         "1963",
         "1961"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (1965) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (1965) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General Awareness",
       "question": "Which of the following launch vehicles was used in Earth Observation Satellite (EOS)-08, launched by ISRO?",
+      "question_image": null,
       "options": [
         "Small Satellite Launch Vehicle (SSLV)-D1",
         "Small Satellite Launch Vehicle (SSLV)-D2",
         "Small Satellite Launch Vehicle (SSLV)-D4",
         "Small Satellite Launch Vehicle (SSLV)-D3"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Small Satellite Launch Vehicle (SSLV)-D3) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Small Satellite Launch Vehicle (SSLV)-D3) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General Awareness",
       "question": "A change of state directly from solid to gas without any change to the liquid state is called _______.",
+      "question_image": null,
       "options": [
         "condensation",
         "vapourisation",
         "fusion",
         "sublimation"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (sublimation) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (sublimation) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General Awareness",
       "question": "Karsandas Mulji, a social reformer in 19th century India, is most associated with advocating for which of the following?",
+      "question_image": null,
       "options": [
         "Widow remarriage",
         "Improved sanitation systems in Bombay",
         "Abolition of child labour",
         "Universal primary education"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Widow remarriage) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Widow remarriage) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General Awareness",
       "question": "Which of the following states has an agricultural marketing channel known as Rythu Bazars?",
+      "question_image": null,
       "options": [
         "Pune",
         "Rajasthan",
         "Andhra Pradesh",
         "Tamil Nadu"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Andhra Pradesh) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Andhra Pradesh) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General Awareness",
       "question": "As per the United Nations Children’s Fund report, Ending Child Marriage: A profile of progress in India 2023, over half of the girls and women in India, who got married in their childhood, live in five states of India. Which of the following options has two of those five states?",
+      "question_image": null,
       "options": [
         "Uttar Pradesh and Haryana",
         "Bihar and Chhattisgarh",
         "Maharashtra and Madhya Pradesh",
         "West Bengal and Mizoram"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Maharashtra and Madhya Pradesh) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Maharashtra and Madhya Pradesh) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General Awareness",
       "question": "In 1965, which language was given the status of an 'associate additional official language' of the Union of India and of inter-provincial communication?",
+      "question_image": null,
       "options": [
         "Urdu",
         "Hindi",
         "English",
         "Sanskrit"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (English) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (English) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General Awareness",
       "question": "Who among the following shall be the ex officio Chairman of the Council of the States as per the Constitution of India?",
+      "question_image": null,
       "options": [
         "Lok Sabha Speaker",
         "Prime Minister",
         "President",
         "Vice President"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Vice President) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Vice President) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General Awareness",
       "question": "Gautamiputra Satakarni is considered the greatest of the _____ rulers.",
+      "question_image": null,
       "options": [
         "Kakatiya",
         "Satavahana",
         "Pallava",
         "Chola"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Satavahana) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Satavahana) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General Awareness",
       "question": "Dantidurga, the founder of the Rashtrakuta dynasty was succeeded by his uncle ________ in 756 CE.",
+      "question_image": null,
       "options": [
         "Amoghavarsha I",
         "Krishna I",
         "Govinda II",
         "Amoghavarsha III"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Krishna I) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Krishna I) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General Awareness",
       "question": "The factor which influences the speed of a wave is the _______.",
+      "question_image": null,
       "options": [
         "energy of wave",
         "amplitude of wave",
         "propagation medium",
         "frequency of wave"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (propagation medium) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (propagation medium) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General Awareness",
       "question": "No ordinance shall be promulgated by the administrator of a Union territory, except after obtaining instructions from the __________________.",
+      "question_image": null,
       "options": [
         "President",
         "Governor",
         "Chief Minister",
         "Armed Forces General"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (President) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (President) है।",
+      "explanation_image": null
     }
   ]
 }

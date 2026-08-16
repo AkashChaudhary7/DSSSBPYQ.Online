@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General Awareness",
       "question": "Which of the following languages is a primary language spoken in the state of Jharkhand?",
+      "question_image": null,
       "options": [
         "Santali",
         "Bengali",
         "Urdu",
         "Hindi"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Hindi) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Hindi) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General Awareness",
       "question": "Which of the following is a Constitutional Body?",
+      "question_image": null,
       "options": [
         "Attorney General of India",
         "National Human Rights Commission (NHRC)",
         "National Green Tribunal",
         "National Commission for Women (NCW)"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Attorney General of India) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Attorney General of India) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General Awareness",
       "question": "As per the Economic Survey 2024-25, how many ropeway projects are in progress to boost last-mile religious and tourist connectivity in India?",
+      "question_image": null,
       "options": [
         "25",
         "15",
         "45",
         "35"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (15) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (15) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General Awareness",
       "question": "In which year did the Government of India launch the Mission Amrit Sarovar?",
+      "question_image": null,
       "options": [
         "2019",
         "2021",
         "2022",
         "2018"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (2022) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (2022) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General Awareness",
       "question": "On which of the following occasions did Prime Minister Narendra Modi launch the 'Mera Yuva Bharat (MY Bharat)’ platform for the youth of the country?",
+      "question_image": null,
       "options": [
         "National Unity Day",
         "National Technology Day",
         "National Science Day",
         "Good Governance Day"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (National Unity Day) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (National Unity Day) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General Awareness",
       "question": "Which of the following genetic disorders is caused by the absence of an enzyme that helps break down fatty substances?",
+      "question_image": null,
       "options": [
         "Tay-Sachs disease",
         "Von Willebrand disease",
         "Huntington's disease",
         "Charcot-Marie-Tooth disease"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Tay-Sachs disease) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Tay-Sachs disease) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General Awareness",
       "question": "When the input level in production is less than the output change, the returns to scale are ________.",
+      "question_image": null,
       "options": [
         "constant",
         "decreasing",
         "increasing",
         "zero"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (increasing) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (increasing) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General Awareness",
       "question": "Article 11 of the Indian Constitution gives power to the Parliament to make laws with regard to which of the following?",
+      "question_image": null,
       "options": [
         "Fundamental Duties",
         "Citizenship",
         "Union territories",
         "Fundamental Rights"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Citizenship) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Citizenship) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General Awareness",
       "question": "In 2025, a rare 15th century dual-faced lamp symbolising the fusion of Shaiva and Vaishnava traditions was discovered at:",
+      "question_image": null,
       "options": [
         "Perdoor Anantapadmanabha Temple in Udupi district of Karnataka",
         "Chennakesava Temple in Belur district of Karnataka",
         "Jagannath Temple in Puri district of Odisha",
         "Thirunageswaram Temple in Thanjavur district of Tamil Nadu"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Perdoor Anantapadmanabha Temple in Udupi district of Karnataka) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Perdoor Anantapadmanabha Temple in Udupi district of Karnataka) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General Awareness",
       "question": "Which Union Territory of India has separate administrative regions located on both the western and eastern coasts?",
+      "question_image": null,
       "options": [
         "Puducherry with its units at Puducherry, Karaikal, Mahe, and Yanam",
         "Lakshadweep with its coral islands dispersed in the Arabian Sea",
         "Dadra and Nagar Haveli, and Daman and Diu situated near Gujarat coast",
         "Andaman and Nicobar Islands positioned south of the Bay of Bengal"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Puducherry with its units at Puducherry, Karaikal, Mahe, and Yanam) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Puducherry with its units at Puducherry, Karaikal, Mahe, and Yanam) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General Awareness",
       "question": "As per the Vital Statistics of India based on Civil Registration System (CRS) 2023, which state recorded the highest Sex Ratio at Birth (SRB) in the country?",
+      "question_image": null,
       "options": [
         "Goa",
         "Kerala",
         "Nagaland",
         "Arunachal Pradesh"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Arunachal Pradesh) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Arunachal Pradesh) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General Awareness",
       "question": "According to the Jains, 'Time' is eternal and formless. It is understood as a wheel with _______ spokes (ara).",
+      "question_image": null,
       "options": [
         "16",
         "14",
         "12",
         "10"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (12) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (12) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General Awareness",
       "question": "Who among the following was the ruler of Delhi Sultanate when Timur Lung attacked India?",
+      "question_image": null,
       "options": [
         "Nasir ud din Muhammad Shah III",
         "Sultan Nasir-ud-Din Mahmud Shah Tughluq",
         "Khizr Khan",
         "Nusrat Shah"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Sultan Nasir-ud-Din Mahmud Shah Tughluq) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Sultan Nasir-ud-Din Mahmud Shah Tughluq) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General Awareness",
       "question": "Xylems are plant vascular tissue that convey water and dissolved minerals. It conducts water and minerals from the:",
+      "question_image": null,
       "options": [
         "leaves to the roots",
         "roots to the leaves",
         "fibres to the tracheids",
         "tracheids to the vessels"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (roots to the leaves) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (roots to the leaves) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General Awareness",
       "question": "During the winter months, which region’s pressure distribution mainly influences the weather conditions over northwestern India?",
+      "question_image": null,
       "options": [
         "Central and Western Asia",
         "Bay of Bengal",
         "Indian Ocean",
         "Arabian Peninsula"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Central and Western Asia) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Central and Western Asia) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General Awareness",
       "question": "The immediate factor that prompted the launch of the Home Rule League Movement in India in 1916 was:",
+      "question_image": null,
       "options": [
         "India’s participation in World War I and influence of the Irish Home Rule League",
         "the introduction of separate electorates under the Government of India Act of 1909",
         "the failure of the Swadeshi and Boycott movements to sustain national mobilisation",
         "the growing pressure of Indian revolutionaries operating from foreign territories"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (India’s participation in World War I and influence of the Irish Home Rule League) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (India’s participation in World War I and influence of the Irish Home Rule League) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General Awareness",
       "question": "What is the name of the Buddhist scripture containing the teachings of Buddha?",
+      "question_image": null,
       "options": [
         "Chathurika",
         "Vedas",
         "Tripitaka",
         "Upanishads"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Tripitaka) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Tripitaka) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General Awareness",
       "question": "Which of the following teams won the Ranji Trophy, 2024-25?",
+      "question_image": null,
       "options": [
         "Mumbai",
         "Kerala",
         "Tamil Nadu",
         "Vidarbha"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Vidarbha) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Vidarbha) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General Awareness",
       "question": "Which of the following statements are correct?1. The Prime Minister is appointed by the President.2. The executive power of the Union is vested in the Prime Minister.3. The Prime Minister is the head of the Council of Ministers.4. The Prime Minister, at the time of his appointment, need not be a member of either House of the Parliament.",
+      "question_image": null,
       "options": [
         "Only 1 and 2",
         "Only 1, 2 and 4",
         "Only 3 and 4",
         "Only 1, 3 and 4"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Only 1, 3 and 4) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Only 1, 3 and 4) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General Awareness",
       "question": "Which initiative has been launched by the Government of Andhra Pradesh to build a 5-km-wide protective green barrier along its coastline by 2030 to mitigate the impact of cyclones and environmental degradation?",
+      "question_image": null,
       "options": [
         "Great Green Wall of Andhra Pradesh",
         "Mission Coastal Resilience Andhra",
         "Green Coast Initiative 2030",
         "Andhra Pradesh Climate Shield Project"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Great Green Wall of Andhra Pradesh) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Great Green Wall of Andhra Pradesh) है।",
+      "explanation_image": null
     }
   ]
 }

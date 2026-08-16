@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the following letter-clusters will replace the question mark (?) in the given series to make it logically complete?SHP, XMU, CRZ, HWE, ?1503",
+      "question_image": null,
       "options": [
         "MRW",
         "MBN",
         "NBN",
         "MBJ"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (MBJ) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (MBJ) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘hotel night soup’ is coded as 'ds bv ha' and ‘night book city’ is coded as ‘ub zj bv’. How is ‘night’ coded in the given language?63",
+      "question_image": null,
       "options": [
         "ds",
         "ha",
         "bv",
         "ub"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (bv) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (bv) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of J, K, L, M, N, O and P has an exam on a different day of the week starting on Monday and ending on Sunday of the same week.Only two people have exams between J and M. L has an exam on the day immediately after J. M has an exam on Saturday. P has an exam on the day immediately after M. O has an exam on the day immediately after K but not on Friday.On which day does O have the exam?1374",
+      "question_image": null,
       "options": [
         "Friday",
         "Monday",
         "Wednesday",
         "Tuesday"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Tuesday) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Tuesday) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven people, D, E, S, T, R, O and Y, are sitting around a circular table facing the centre. R sits second to the right of S and E sits second to the left of T. S sits immediately to the right of E. Only one person sits between R and Y. D sits immediately to the left of E. Who sits immediately to the right of O?836",
+      "question_image": null,
       "options": [
         "D",
         "R",
         "Y",
         "E"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Y) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Y) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "Abhinav starts from Point A and drives 7 km towards north. He then takes a left turn, drives 3 km, turns left and drives 15 km. He then takes a left turn and drives 12 km. He takes a final left turn, drives 8 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again?(All turns are 90 degree turns only unless specified.)1864",
+      "question_image": null,
       "options": [
         "7 km to the west",
         "9 km to the west",
         "9 km to the east",
         "7 km to the east"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (9 km to the west) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (9 km to the west) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the following words.SET  GUT  BIN  CANIn each of the words, each vowel is changed to the letter immediately preceding it in the English alphabetical order and each consonant is changed to the letter immediately following it in the English alphabetical order. In how many letter-clusters thus formed, will no vowel appear?",
+      "question_image": null,
       "options": [
         "Zero",
         "Two",
         "Three",
         "One"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Zero) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Zero) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the option that is related to the third term in the same way as the second term is related to the first term and the sixth term is related to the fifth term.8 : 70 :: 19 : ? \t:: 14 : 118",
+      "question_image": null,
       "options": [
         "152",
         "154",
         "158",
         "156"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (158) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (158) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "In this question, a statement is given followed by two courses of action, numbered I and II. You must assume everything in the statement to be true, and on the basis of the information given in the statement, decide which of the given courses of action logically follow(s) for pursuing.Statement:Country X has been experiencing energy crisis since 2019.Courses of Action:I. The government should announce closure of all markets and restaurants by 5:00 P.M.II. The government should work on a plan for using renewable energy sources.",
+      "question_image": null,
       "options": [
         "Neither I nor II follows.",
         "Only II follows.",
         "Only I follows.",
         "Both I and II follow."
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Only II follows.) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Only II follows.) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "F is the brother of D. D is the father of E. E is the brother of A. A is the sister of B. How is F related to B?1456",
+      "question_image": null,
       "options": [
         "Father",
         "Brother",
         "Father's father",
         "Father's brother"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Father's brother) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Father's brother) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "A, B, C, D, K, L and M are sitting around a circular table facing the centre of the table. Only two people sit between K and C when counted from the left of C. D sits third to the left of B. M sits to the immediate right of B and second to the left of K. L is not an immediate neighbour of D. Who sits third to the right of A?",
+      "question_image": null,
       "options": [
         "D",
         "M",
         "B",
         "L"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (M) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (M) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes F, G, H, I, J, K and V are kept one over the other but not necessarily in the same order. Only three boxes are kept below V. Only two boxes are kept between V and J. Only I is kept above H. G is kept at some place below K and at some place above F. How many boxes are kept between K and J?",
+      "question_image": null,
       "options": [
         "Three",
         "One",
         "Zero",
         "Two"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Three) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Three) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,A + B means ‘A is the mother of B’,A # B means ‘A is the brother of B’,A ÷ B means ‘A is the wife of B’ andA @ B means ‘A is the father of B’.How is P related to K if ‘P +Q # G ÷ H @ K’?",
+      "question_image": null,
       "options": [
         "Mother's sister",
         "Sister",
         "Mother",
         "Mother's mother"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Mother's mother) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Mother's mother) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order?MEA     RCC     WAE      BYG    ?",
+      "question_image": null,
       "options": [
         "HVH",
         "GWI",
         "FXK",
         "HUJ"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (GWI) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (GWI) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?29, 32, 38, 47, 59, ?",
+      "question_image": null,
       "options": [
         "70",
         "72",
         "74",
         "76"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (74) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (74) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below. (Left)   986          869           968            563           569         (Right) (Example- 697 – First digit = 6, second digit = 9 and third digit = 7)(NOTE - All operations to be done from left to right.)What will be the resultant if the second digit of the highest number is added to the first digit of the lowest number?",
+      "question_image": null,
       "options": [
         "11",
         "12",
         "13",
         "15"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (13) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (13) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of P, Q, R, S, T, U and V has an exam on a different day of the week starting from Monday and ending on Sunday of the same week. P has an exam on Tuesday. Exactly 3 people have an exam between P and R. Q has an exam immediately before U and V has an exam immediately after U. Only 1 person has an exam between Q and S. How many people have an exam between T and V?",
+      "question_image": null,
       "options": [
         "3",
         "1",
         "4",
         "2"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (1) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (1) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order?DVN    HZR    LDV    PHZ    ?",
+      "question_image": null,
       "options": [
         "TDL",
         "DFT",
         "TLD",
         "DTF"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (TLD) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (TLD) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the following letter-clusters.IMP          ANR           HUP            KYE      In each of the letter-clusters, each vowel is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. In how many letter-clusters thus formed, will no vowel appear?",
+      "question_image": null,
       "options": [
         "Zero",
         "Three",
         "One",
         "Two"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Two) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Two) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements: Some desks are benches.All benches are chairs.No chair is a table.Conclusions:(I) Some chairs are benches.(II) Some tables are benches.",
+      "question_image": null,
       "options": [
         "Both conclusion (I) and (II) follows.",
         "Neither conclusion (I) nor (II) follows.",
         "Only conclusion (I) follows.",
         "Only conclusion (II) follows."
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Only conclusion (I) follows.) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Only conclusion (I) follows.) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the set in which the numbers are related in the same way as are the numbers of the given sets.(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)(12, 96, 4)(17, 102, 3)",
+      "question_image": null,
       "options": [
         "(12, 144, 7)",
         "(24, 216, 3)",
         "(13, 78, 6)",
         "(22, 220, 5)"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' ((22, 220, 5)) है।"
+      "explanation": "सही उत्तर विकल्प 'D' ((22, 220, 5)) है।",
+      "explanation_image": null
     }
   ]
 }

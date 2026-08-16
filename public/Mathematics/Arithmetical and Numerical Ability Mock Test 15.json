@@ -6,281 +6,321 @@
       "id": 1,
       "section": "Arithmetical and Numerical Ability",
       "question": "A number, when decreased by 1%, gives 3960. The number is:",
+      "question_image": null,
       "options": [
         "4000",
         "2000",
         "8000",
         "12000"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (4000) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (4000) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "Arithmetical and Numerical Ability",
       "question": "The arithmetic mean of the observations 12, 46, 83, 43, 97, 34, 31, 33 and 26 is:6334",
+      "question_image": null,
       "options": [
         "43",
         "50",
         "45",
         "51"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (45) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (45) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "Arithmetical and Numerical Ability",
       "question": "In what time (in years) will ₹5,000 fetch an interest of ₹900 at 9% per year simple interest?",
+      "question_image": null,
       "options": [
         "5",
         "3",
         "2",
         "4"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (2) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (2) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "Arithmetical and Numerical Ability",
       "question": "Income of Amit in 2019 was ₹25,600. He gets an increment of 10% every year. What was his income (in ₹) in 2021?",
+      "question_image": null,
       "options": [
         "30,976",
         "28,160",
         "25,600",
         "30,720"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (30,976) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (30,976) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "Arithmetical and Numerical Ability",
       "question": "The volume (in m3) of a cuboidal tank, whose dimensions are given as 23 m × 23 m × 9 m, is:",
+      "question_image": null,
       "options": [
         "4761",
         "4788",
         "4798",
         "4737"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (4761) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (4761) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "Arithmetical and Numerical Ability",
       "question": "How many seconds will a boy take to run one complete round around a square field of side 30 metres, if he runs at a speed of 3 km/hr?",
+      "question_image": null,
       "options": [
         "154",
         "124",
         "134",
         "144"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (144) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (144) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "Arithmetical and Numerical Ability",
       "question": "तीन साझेदार A, B और C आपस में ₹3,83,160 बाँटते हैं। यदि A, B और C के हिस्सों से क्रमशः ₹3,700, ₹4,800 और ₹5,300 घटा दिए जाएँ और शेष राशि का अनुपात 13 : 17 : 27 हो, तो A को कितनी राशि (₹ में) मिलेगी?",
+      "question_image": null,
       "options": [
         "₹82,542",
         "₹84,240",
         "₹85,600",
         "₹87,940"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (₹87,940) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (₹87,940) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "Arithmetical and Numerical Ability",
       "question": "An article is sold at a profit of 49%. If the cost price is increased by ₹40 and the selling price is reduced by ₹55, then the profit would be 47.5%. What is the original cost price (in ₹) of the article?",
+      "question_image": null,
       "options": [
         "7,500",
         "7,800",
         "7,400",
         "7,600"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (7,600) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (7,600) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average age of 22 students of a class is 11 years. If the age of the teacher is also included, the average age of the whole group becomes 12 years. The age (in years) of the teacher is:6126",
+      "question_image": null,
       "options": [
         "37",
         "34",
         "35",
         "38"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (34) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (34) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "Arithmetical and Numerical Ability",
       "question": "If an item marked at ₹8,100 is sold for ₹810, what is the discount percentage?",
+      "question_image": null,
       "options": [
         "92%",
         "91%",
         "88%",
         "90%"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (90%) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (90%) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "Arithmetical and Numerical Ability",
       "question": "A conical tent has to accommodate 75 persons. Each person must have 10 m2 of space on the ground and 95 m3 of air to breathe. Find the approximate height (in m) of the tent.289",
+      "question_image": null,
       "options": [
         "22.2",
         "25.5",
         "34.3",
         "28.5"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (28.5) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (28.5) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "Arithmetical and Numerical Ability",
       "question": "A train overtakes two persons walking along a railway track. The first one walks at 9 km/hr. The other one walks at 10.8 km/hr. The train needs 10 and 12.5 seconds, respectively, to overtake them. What is the speed of the train if both the persons are walking in the same direction as the train?11067",
+      "question_image": null,
       "options": [
         "18 km/hr",
         "22 km/hr",
         "14 km/hr",
         "26 km/hr"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (18 km/hr) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (18 km/hr) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "Arithmetical and Numerical Ability",
       "question": "The population of a village increases by 5% every year. At the end of 2022, the population of the village was 11,02,500. Find the population of the village at the beginning of 2020, assuming that 1,025 people had migrated from the village in that year.",
+      "question_image": null,
       "options": [
         "10,30,025",
         "9,01,725",
         "11,00,025",
         "10,01,025"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (10,01,025) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (10,01,025) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "Arithmetical and Numerical Ability",
       "question": "Jitesh and Kamal can complete a certain piece of work in 9 and 12 days, respectively, They started to work together, and after 5 days, Kamal left. In how many days will Jitesh complete the remaining work?",
+      "question_image": null,
       "options": [
         "0.25",
         "1.5",
         "1",
         "0.75"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (0.25) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (0.25) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "Arithmetical and Numerical Ability",
       "question": "5090.4 × 438.7 × 0.2131 is equal in value to:",
+      "question_image": null,
       "options": [
         "509.04 × 438.7 × 213.1",
         "50.904 × 4387 × 2.131",
         "5.0904 × 4.387 × 213.1",
         "5.0904 × 43.87 × 21.31"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (50.904 × 4387 × 2.131) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (50.904 × 4387 × 2.131) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "Arithmetical and Numerical Ability",
       "question": "A grocer has 72 kg rice, a part of which he sells at 9% profit and the remaining at 85% profit. He gains 28% on the whole. What is the quantity of rice sold at 85% profit?7563",
+      "question_image": null,
       "options": [
         "19 kg",
         "18 kg",
         "15 kg",
         "20 kg"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (18 kg) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (18 kg) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "Arithmetical and Numerical Ability",
       "question": "A train running at a speed of 90 km/hr crosses a 500 metre long platform in 45 seconds. The length of the train (in metres) is:",
+      "question_image": null,
       "options": [
         "625",
         "500",
         "635",
         "580"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (625) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (625) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "Arithmetical and Numerical Ability",
       "question": "If ₹234 is divided among A, B, and C in the ratio of 3 : 7 : 8, the share of B exceeds that of A by:",
+      "question_image": null,
       "options": [
         "₹52",
         "₹93",
         "₹13",
         "₹58"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (₹52) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (₹52) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "Arithmetical and Numerical Ability",
       "question": "By selling an article for ₹21.5, a dealer makes a profit of 10%. By how much should he increase his selling price (in ₹, rounded to the nearest paise) so as to make a profit of 50%?",
+      "question_image": null,
       "options": [
         "7.82",
         "9.82",
         "8.82",
         "10.82"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (7.82) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (7.82) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "Arithmetical and Numerical Ability",
       "question": "A and B can complete a piece of work in 24 days and 36 days, respectively. They completed the work in 12 days with the help of C. How long (in days) will C take to complete it alone?",
+      "question_image": null,
       "options": [
         "63",
         "72",
         "48",
         "54"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (72) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (72) है।",
+      "explanation_image": null
     }
   ]
 }

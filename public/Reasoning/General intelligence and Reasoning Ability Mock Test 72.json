@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the triad which follows the same pattern as that followed by the two triads given below. Both triads follow the same pattern.FC-JG-NPIF-MJ-QS3127",
+      "question_image": null,
       "options": [
         "MJ-RN-UV",
         "MJ-QN-UW",
         "NI-RM-TV",
         "NJ-RM-UV"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (MJ-QN-UW) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (MJ-QN-UW) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "एक निश्चित कूट भाषा में,\n\n‘A + B’ का अर्थ है कि ‘A, B की माता है’,\n‘A – B’ का अर्थ है कि ‘A, B का पिता है’,\n‘A $ B’ का अर्थ है कि ‘A, B का पुत्र है’ और\n‘A % B’ का अर्थ है कि ‘A, B की बहन है’।\n\nनिम्नलिखित में से किसका अर्थ है कि P, R के पिता की माता हैं?\n\n(I) P + Q – T % S $ R\n(II) P + Q – R % T $ S\n(III) P + S – T % R $ Q\n(IV) Q + R – T % P $ S",
+      "question_image": null,
       "options": [
         "केवल (III)",
         "केवल (II)",
         "केवल (III) और (IV)",
         "केवल (II) और (III)"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (केवल (II) और (III)) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (केवल (II) और (III)) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "Harshu starts from point A and drives 3 km towards east. He then takes a right turn and drives 5 km to reach a point B. Gaurav starts from point X, which is 2 km west of point B, and drives 4 km towards south. He then takes a right turn and drives 1 km to reach a point Y. What is the shortest distance between point A and point Y? (All turns are 90° turns only.)3202",
+      "question_image": null,
       "options": [
         "7 km",
         "8 km",
         "9 km",
         "5 km"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (9 km) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (9 km) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group?(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)3156",
+      "question_image": null,
       "options": [
         "XFLS",
         "GNUB",
         "CJQX",
         "TAHO"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (XFLS) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (XFLS) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "42 is related to 6 following a certain logic. Following the same logic, 63 is related to 9. To which of the given options is 35 related, following the same logic? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "question_image": null,
       "options": [
         "9",
         "5",
         "3",
         "7"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (5) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (5) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.\n\n(Left) 286 153 393 209 306 (Right)\n\n(Example- 697 – First digit = 6, second digit = 9 and third digit = 7)\nNote: All operations to be done from left to right.\n\nWhat will be the resultant if the third digit of the highest number is added to the first digit of the lowest number?",
+      "question_image": null,
       "options": [
         "4",
         "3",
         "1",
         "2"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (4) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (4) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements: Some Mercuries are Venuses.No Venus is Earth.All Earths are Marses.Conclusions:I: Some Earths are Venuses.II: Some Venuses are Marses.",
+      "question_image": null,
       "options": [
         "Only conclusion (II) follows.",
         "Neither conclusion (I) nor (II) follows.",
         "Both conclusions (I) and (II) follow.",
         "Only conclusion (I) follows."
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Neither conclusion (I) nor (II) follows.) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Neither conclusion (I) nor (II) follows.) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,‘black blue red' is coded as ‘dy ph st’,‘green red pink’ is coded as ‘ph ty ko’ and‘grey pink black’ is coded as ‘st ko ev’.(All the codes are two-letter codes only.)What is 'grey' coded as?",
+      "question_image": null,
       "options": [
         "ev",
         "ty",
         "ko",
         "st"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (ev) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (ev) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?15, 21, 33, 51, 75, ?",
+      "question_image": null,
       "options": [
         "107",
         "105",
         "101",
         "103"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (105) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (105) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "P, Q, R, S, T and U live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it, number 2 and so on, till the topmost floor is numbered 6. Q lives on an even numbered floor but not 4. The sum of the floors on which Q and S live is 9. Only three people live between T and R. The sum of the floors on which P and R live is 3. What is the product of the floors on which R and S live?",
+      "question_image": null,
       "options": [
         "3",
         "6",
         "4",
         "8"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (3) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (3) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the following letter-clusters will replace the question mark (?) in the given series to make it logically complete?GECA   RPNL    ?   MKIG    SQOM",
+      "question_image": null,
       "options": [
         "AWER",
         "AYWU",
         "AYUI",
         "AYRE"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (AYWU) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (AYWU) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the set in which the numbers are related in the same way as are the numbers of the following sets.(Note: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (2, 8, 13)(5, 17, 22)",
+      "question_image": null,
       "options": [
         "(14, 44, 39)",
         "(7, 23, 44)",
         "(9, 25, 30)",
         "(11, 35, 40)"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' ((11, 35, 40)) है।"
+      "explanation": "सही उत्तर विकल्प 'D' ((11, 35, 40)) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "एक निश्चित कूट भाषा में,\n‘A $ B’ का अर्थ है कि ‘A, B का पुत्र है’,\n‘A + B’ का अर्थ है कि ‘A, B का भाई है’,\n‘A @ B’ का अर्थ है कि ‘A, B की पत्नी है’ और\n‘A ÷ B’ का अर्थ है कि ‘A, B का पिता है’।\n\nनिम्नलिखित में से किस विकल्प का अर्थ यह है कि E, N के पुत्र की पत्नी का पिता है?",
+      "question_image": null,
       "options": [
         "E ÷ F @ G + M $ N",
         "E + F ÷ G $ M @ N",
         "E + F @ G $ M ÷ N",
         "E @ F + G $ M ÷ N"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (E ÷ F @ G + M $ N) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (E ÷ F @ G + M $ N) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "H, I, J, K, M, N, O and P are sitting around a square table facing the centre of the table. Some of them are sitting at the corners while some are sitting at the exact centre of the sides.Only three people sit between J and O. J does not sit at any of the corners. I sits third to the left of O. H sits second to the left of J. Only N sits between O and H. M is an immediate neighbour of J. P sits second to the left of O.How many people sit between K and H when counted from the left of K?",
+      "question_image": null,
       "options": [
         "Four",
         "Two",
         "Three",
         "One"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Four) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Four) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left)        489        874        707         389        257        (Right)(Example- 697 – First digit = 6, second digit = 9 and third digit = 7)Note: All operations to be done from left to right.What will be the resultant if the first digit of the highest number is added to the third digit of the lowest number?",
+      "question_image": null,
       "options": [
         "12",
         "14",
         "15",
         "13"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (15) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (15) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the following letter-clusters should replace # and % so that the pattern and relationship followed between the letter-cluster pair on the left side of :: is the same as that on the right side of ::?# : BDG :: IKN : %",
+      "question_image": null,
       "options": [
         "# = UWZ, % = PQV",
         "# = UYB, % = PRU",
         "# = UWZ, % = PRU",
         "# = UWY, % = OQT"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (# = UWZ, % = PRU) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (# = UWZ, % = PRU) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "Six friends J, K, P, Q, R and S live on six different floors of the same building. No one lives above J. Only two people live between K and S. K lives immediately below J. Only two people live between J and R. Only one person lives between Q and R. How many people live below P?",
+      "question_image": null,
       "options": [
         "Two",
         "None",
         "One",
         "Three"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Three) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Three) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "Anik starts from Point A and walks 20 m towards west. He takes a left turn, walks 35 m and then takes a right turn, walks 10 m, then takes a right turn, walks 25 m, reaches Point B and stops. Moinag starts from Point Z which is 30 m towards the south of Point A. He walks 30 m towards west, and stops at Point X. What is the shortest distance between Point X and Point B? (All turns are 90 degree-turns only.)",
+      "question_image": null,
       "options": [
         "40 m",
         "70 m",
         "50 m",
         "20 m"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (20 m) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (20 m) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘S’ stands for ‘−’, ‘T’ stands for ‘×’, ‘U’ stands for ‘÷’ and ‘V’ stands for ‘+’, then what will come in place of question mark (?) in the following equation?16 U 1 V 31 S 24 T 2 = ?",
+      "question_image": null,
       "options": [
         "−1",
         "−8",
         "6",
         "13"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (−1) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (−1) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "5 is related to 28 following a certain logic. Following the same logic, 8 is related to 37. To which of the given options is 13 related, following the same logic?(Note: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "question_image": null,
       "options": [
         "52",
         "60",
         "26",
         "57"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (52) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (52) है।",
+      "explanation_image": null
     }
   ]
 }

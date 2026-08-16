@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?176, 145, 114, 83, 52, ?",
+      "question_image": null,
       "options": [
         "20",
         "22",
         "21",
         "19"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (21) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (21) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,A ÷ B means ‘A is the son of B’A # B means ‘A is the sister of B’A + B means ‘A is the wife of B’A % B means ‘A is the father of B’Based on the above, how is P related to K if ‘P + Q ÷ G % H # K’?",
+      "question_image": null,
       "options": [
         "Sister",
         "Wife's brother",
         "Brother's wife",
         "Mother's sister"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Brother's wife) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Brother's wife) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following series, only one letter-cluster is incorrect. Select the INCORRECT letter-cluster. BZK   XUG   TPC   QLY   LFU   HAQ",
+      "question_image": null,
       "options": [
         "TPC",
         "XUG",
         "HAQ",
         "QLY"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (QLY) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (QLY) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion(s) logically follow(s) from the statements.Statements:All cabbages are monks.All monks are nuts.No nut is a rabbit.Conclusions:(I) No cabbage is a rabbit.(II) Some nuts are cabbages.",
+      "question_image": null,
       "options": [
         "Only conclusion (I) follows.",
         "Neither conclusion (I) nor (II) follows.",
         "Both conclusions (I) and (II) follow.",
         "Only conclusion (II) follows."
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Both conclusions (I) and (II) follow.) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Both conclusions (I) and (II) follow.) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘DISC’ is coded as ‘5103’ and ‘SAID’ is coded as ‘3210’. What is the code for ‘A’ in the given code language?",
+      "question_image": null,
       "options": [
         "0",
         "1",
         "2",
         "3"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (2) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (2) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "Piya, Kian, Sapna, Arjun, Tiya, Siya, Kanak and Riya are sitting around a circular table, facing the centre. Sapna sits third to the left of Riya. Arjun sits second to the left of Sapna. Kanak sits third to the left of Kian, who is an immediate neighbour of Riya. Tiya is an immediate neighbour of Riya and Piya. Who sits third to the left of Tiya?",
+      "question_image": null,
       "options": [
         "Siya",
         "Kanak",
         "Sapna",
         "Arjun"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Siya) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Siya) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "4 is related to 36 following a certain logic. Following the same logic, 5 is related to 45. To which of the given options is 12 related, following the same logic?(NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding /subtracting /multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "question_image": null,
       "options": [
         "111",
         "112",
         "108",
         "109"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (108) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (108) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "Mr. Q starts from Point D and drives 2 km towards the west. He then takes a right turn, drives 4 km, turns right and drives 7 km. He then takes a right turn and drives 9 km. He then takes a right turn, drives 4 km. He then right turn, drives 3 km. He then takes a final left turn drives 1 km and stops at Point E. How far (shortest distance) and towards which direction should he drive in order to reach Point D again? (All turns are 90 degrees turns only, unless specified.)",
+      "question_image": null,
       "options": [
         "2 km towards the north",
         "1 km towards the east",
         "2 km towards the west",
         "3 km towards the south"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (2 km towards the north) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (2 km towards the north) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes A, B, C, D, E, F and G are kept one over the other but not necessarily in the same order. Only three boxes are kept below B. Only two boxes are kept between B and G. Only F is kept immediately above C. A is kept at some place below D and at some place above E. How many boxes are kept below E?",
+      "question_image": null,
       "options": [
         "2",
         "4",
         "3",
         "1"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (1) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (1) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? YVG  TQB  OLW  JGR  ?",
+      "question_image": null,
       "options": [
         "EDR",
         "EMJ",
         "EBM",
         "EBH"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (EBM) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (EBM) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "What will come in the place of the question mark (?) in the following equation, if ‘+’ and ‘−’ are interchanged and ‘×’ and ‘÷’ are interchanged?26 ÷ 8 - 2 × 2 + 42 = ?",
+      "question_image": null,
       "options": [
         "165",
         "168",
         "167",
         "169"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (167) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (167) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes A, B, C, D, I, J and K are kept one over the other but not necessarily in the same order. B is kept fifth from the bottom. Only one box is kept between B and D. Only three boxes are kept between I and K. I is kept on one of the positions above B. A is kept immediately above J. How many boxes are kept between C and J?",
+      "question_image": null,
       "options": [
         "One",
         "Four",
         "Three",
         "Two"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (One) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (One) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "How many meaningful four-letter English words can be formed with the letters D, M, L and O, using each letter only once in each word?",
+      "question_image": null,
       "options": [
         "Three",
         "One",
         "Two",
         "Four"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (One) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (One) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "Kavita, Geeta, Heena, Jai, Farheen, Ira, Deep and Kuldeep are sitting around a circular table, facing the centre.Kavita sits third to the left of Heena. Deep sits second to the right of Farheen, who sits second to the right of Heena. Jai is an immediate neighbour of Ira and Kavita. Geeta is an immediate neighbour of Deep.Who sits third to the right of Geeta?",
+      "question_image": null,
       "options": [
         "Kuldeep",
         "Kavita",
         "Jai",
         "Deep"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Jai) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Jai) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "What will come in place of the question mark (?) in the following equation, if ‘+’ and ‘÷’ are interchanged and ‘−’ and ‘×’ are interchanged?26 ÷ 14 + 2 × 6 – 4 = ?",
+      "question_image": null,
       "options": [
         "57",
         "18",
         "23",
         "9"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (9) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (9) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "What will come in place of the question mark (?) in the following equation, if ‘+’ and ‘−’ are interchanged and ‘×’ and ‘÷’ are interchanged?48 × 48 + 1 ÷ 35 − 4 = ?",
+      "question_image": null,
       "options": [
         "−38",
         "−35",
         "−30",
         "−29"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (−30) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (−30) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the following words.URN  POT  YAK  GUYHow many letters are there between the second letter of the second word from the right and the second letter of the first word from the left?",
+      "question_image": null,
       "options": [
         "17",
         "14",
         "15",
         "16"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (16) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (16) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "एक निश्चित कूट भाषा में,\n‘A ÷ B’ का अर्थ है कि ‘A, B की बहन है’,\n‘A # B’ का अर्थ है कि ‘A, B का भाई है’,\n‘A + B’ का अर्थ है कि ‘A, B की पत्‍नी है’ और\n‘A % B’ का अर्थ है कि ‘A, B का पिता है’।\n\nयदि ‘A # B + G % H ÷ K’ है तो A का K से क्‍या संबन्‍ध है?",
+      "question_image": null,
       "options": [
         "माता का भाई",
         "पिता",
         "पुत्र",
         "भाई"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (माता का भाई) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (माता का भाई) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Select the pair in which the numbers are related in the same way as are the numbers of the following pairs. (Note: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g., 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) 11, 5613, 66",
+      "question_image": null,
       "options": [
         "15, 81",
         "16, 81",
         "16, 80",
         "15, 80"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (16, 81) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (16, 81) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code,'brush daily teeth' is coded as 'qo lu fc','brush bath water ' is coded as 'mb xy qo' and'in daily water' is coded as 'lu mj xy'.(All the codes are two letter codes only.)What is the code for daily?",
+      "question_image": null,
       "options": [
         "lu",
         "mj",
         "co",
         "fc"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (lu) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (lu) है।",
+      "explanation_image": null
     }
   ]
 }

@@ -6,281 +6,321 @@
       "id": 1,
       "section": "English Language and Comprehension",
       "question": "Select the option that rectifies the underlined incorrectly spelt word in the given sentence. The theory has been widely critikued in recent philosophical debates, particularly in post-structuralist circles.",
+      "question_image": null,
       "options": [
         "critiqued",
         "cretiqued",
         "criticed",
         "critiqueed"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (critiqued) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (critiqued) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.The _____________ conduct of the minister helped in the de-escalation of a very tense situation at the border. 1503",
+      "question_image": null,
       "options": [
         "abrasive",
         "belligerent",
         "diplomatic",
         "tactless"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (diplomatic) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (diplomatic) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate article to fill in the blanks. If no article is needed, select 'No article required'.I have dedicated my life to ___ service of ___ humanity.",
+      "question_image": null,
       "options": [
         "a ; the",
         "the ; No article required",
         "No article required ; the",
         "the ; a"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (the ; No article required) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (the ; No article required) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.The scientist's __________ to detail ensured the accuracy of the experiment.984",
+      "question_image": null,
       "options": [
         "concentration",
         "observation",
         "focus",
         "attention"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (attention) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (attention) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate meaning of the underlined segment in the given sentence.Mamtha told me, \"Finishing the entire project by Saturday is a tall order, but we'll do our best to meet the deadline.\"48",
+      "question_image": null,
       "options": [
         "task for a common cause",
         "hidden advantage",
         "difficult task",
         "top priority"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (difficult task) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (difficult task) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blanks.They needed _____ peaceful place to hold _____ meeting.",
+      "question_image": null,
       "options": [
         "a; no article required",
         "a; the",
         "the; a",
         "no article required; the"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (a; the) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (a; the) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.P. Without regular maintenance and monitoring, even advanced AI systems can yield biased or flawed outcomes.Q. Artificial Intelligence is transforming industries by automating processes and enhancing decision-making.R. Despite its potential, AI is not immune to errors and ethical challenges.S. Hence, responsible deployment and transparency in AI algorithms are crucial.",
+      "question_image": null,
       "options": [
         "P Q R S",
         "Q P R S",
         "Q R P S",
         "R Q S P"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Q R P S) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Q R P S) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.This is an ______ book.",
+      "question_image": null,
       "options": [
         "interesting",
         "interest",
         "interested",
         "interests"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (interesting) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (interesting) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate homonym to fill in the blank.Macaw birds have many colours in _______ feathers.",
+      "question_image": null,
       "options": [
         "thier",
         "there",
         "they’re",
         "their"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (their) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (their) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate ANTONYM of the highlighted word in the given sentence. The politician's speech was inflammatory, causing uproar among the audience.827",
+      "question_image": null,
       "options": [
         "Predictable",
         "Calming",
         "Boring",
         "Lengthy"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Calming) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Calming) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.P. Many believe that technology is the solution to most global challenges.Q. However, there are those who argue that technology may create more problems than it solves.R. It is said that while technology can solve some issues, it may also exacerbate others.S. This debate over technology’s role in society is a long-standing one.",
+      "question_image": null,
       "options": [
         "P Q R S",
         "S P Q R",
         "S R P Q",
         "P S R Q"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (P Q R S) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (P Q R S) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "English Language and Comprehension",
       "question": "Select the option that rectifies the incorrectly spelt words in the given paragraph.The essay offers a compelling account of hermeneutic instability, though its phenomenalogical framing feels overstated. While the writer's style is consciencious, it suffers from an overreliance on jargon. The argument frequently leans on epistomological assumptions that remain unexplored. Still, its ambition to bridge theory and praxis is commendible.",
+      "question_image": null,
       "options": [
         "phenomenological, conscientious, epistemological, frequiently",
         "hermenetic, conscientious, epistemological, commendable",
         "phenomenological, jargoan, epistemological, commendable",
         "phenomenological, conscientious, epistemological, commendable"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (phenomenological, conscientious, epistemological, commendable) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (phenomenological, conscientious, epistemological, commendable) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.Just as the oceans opened up a new world for clipper ships and Yankee traders, space holds enormous potential for commerce today. The International Space Station (ISS) took 10 years and more than 30 missions to assemble. It is the result of unprecedented scientific and engineering collaboration among five space agencies representing 15 countries. The space station is approximately the size of a football field: a 460-ton, permanently crewed platform orbiting 250 miles above Earth. It is about four times as large as the Russian space station Mir and five times as large as the U.S. Skylab. The idea of a space station was once science fiction, existing only in the imagination until it became clear in the 1940s that construction of such a structure might be attainable by our nation. As the Space Age began in the 1950s, designs of 'space planes' and stations dominated popular media. The first rudimentary station was created in 1969 by the linking of two Russian Soyuz vehicles in space, followed by other stations and developments in space technology until construction began on the ISS in 1998, aided by the first reusable spacecraft ever developed: the American shuttles. Until recently, U.S. research space onboard the ISS had been reserved for mostly government initiatives, but new opportunities for commercial and academic use of the ISS are now available, facilitated by the ISS National Lab.Identify the most suitable title for the passage.159",
+      "question_image": null,
       "options": [
         "ISS – A Past History of International Space Initiatives",
         "ISS – A Solid Foundation for New Space Tourism",
         "ISS – A Stunning Truth about New Space Research",
         "ISS – A New Avenue for Commerce and Research"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (ISS – A New Avenue for Commerce and Research) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (ISS – A New Avenue for Commerce and Research) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.Just as the oceans opened up a new world for clipper ships and Yankee traders, space holds enormous potential for commerce today. The International Space Station (ISS) took 10 years and more than 30 missions to assemble. It is the result of unprecedented scientific and engineering collaboration among five space agencies representing 15 countries. The space station is approximately the size of a football field: a 460-ton, permanently crewed platform orbiting 250 miles above Earth. It is about four times as large as the Russian space station Mir and five times as large as the U.S. Skylab. The idea of a space station was once science fiction, existing only in the imagination until it became clear in the 1940s that construction of such a structure might be attainable by our nation. As the Space Age began in the 1950s, designs of 'space planes' and stations dominated popular media. The first rudimentary station was created in 1969 by the linking of two Russian Soyuz vehicles in space, followed by other stations and developments in space technology until construction began on the ISS in 1998, aided by the first reusable spacecraft ever developed: the American shuttles. Until recently, U.S. research space onboard the ISS had been reserved for mostly government initiatives, but new opportunities for commercial and academic use of the ISS are now available, facilitated by the ISS National Lab.According to the passage, which of the following options is NOT a fact?160",
+      "question_image": null,
       "options": [
         "The first station was created by inking two Russian Soyuz vehicles.",
         "The ISS is five times the size of the Russian space station Mir.",
         "The ISS took 10 years and more than 30 missions to assemble.",
         "The space station is approximately the size of a football field."
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (The ISS is five times the size of the Russian space station Mir.) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (The ISS is five times the size of the Russian space station Mir.) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.Just as the oceans opened up a new world for clipper ships and Yankee traders, space holds enormous potential for commerce today. The International Space Station (ISS) took 10 years and more than 30 missions to assemble. It is the result of unprecedented scientific and engineering collaboration among five space agencies representing 15 countries. The space station is approximately the size of a football field: a 460-ton, permanently crewed platform orbiting 250 miles above Earth. It is about four times as large as the Russian space station Mir and five times as large as the U.S. Skylab. The idea of a space station was once science fiction, existing only in the imagination until it became clear in the 1940s that construction of such a structure might be attainable by our nation. As the Space Age began in the 1950s, designs of 'space planes' and stations dominated popular media. The first rudimentary station was created in 1969 by the linking of two Russian Soyuz vehicles in space, followed by other stations and developments in space technology until construction began on the ISS in 1998, aided by the first reusable spacecraft ever developed: the American shuttles. Until recently, U.S. research space onboard the ISS had been reserved for mostly government initiatives, but new opportunities for commercial and academic use of the ISS are now available, facilitated by the ISS National Lab.Identify the correct inference that can be drawn from the passage.161",
+      "question_image": null,
       "options": [
         "The International Space Station is an exclusive project.",
         "The International Space Station is a privately funded project.",
         "The International Space Station is a cooperative project.",
         "The International Space Station is a totally defunct project."
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (The International Space Station is a cooperative project.) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (The International Space Station is a cooperative project.) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.Just as the oceans opened up a new world for clipper ships and Yankee traders, space holds enormous potential for commerce today. The International Space Station (ISS) took 10 years and more than 30 missions to assemble. It is the result of unprecedented scientific and engineering collaboration among five space agencies representing 15 countries. The space station is approximately the size of a football field: a 460-ton, permanently crewed platform orbiting 250 miles above Earth. It is about four times as large as the Russian space station Mir and five times as large as the U.S. Skylab. The idea of a space station was once science fiction, existing only in the imagination until it became clear in the 1940s that construction of such a structure might be attainable by our nation. As the Space Age began in the 1950s, designs of 'space planes' and stations dominated popular media. The first rudimentary station was created in 1969 by the linking of two Russian Soyuz vehicles in space, followed by other stations and developments in space technology until construction began on the ISS in 1998, aided by the first reusable spacecraft ever developed: the American shuttles. Until recently, U.S. research space onboard the ISS had been reserved for mostly government initiatives, but new opportunities for commercial and academic use of the ISS are now available, facilitated by the ISS National Lab.Identify the tone of the passage.162",
+      "question_image": null,
       "options": [
         "Objective",
         "Speculative",
         "Calculative",
         "Subjective"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Objective) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Objective) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.Just as the oceans opened up a new world for clipper ships and Yankee traders, space holds enormous potential for commerce today. The International Space Station (ISS) took 10 years and more than 30 missions to assemble. It is the result of unprecedented scientific and engineering collaboration among five space agencies representing 15 countries. The space station is approximately the size of a football field: a 460-ton, permanently crewed platform orbiting 250 miles above Earth. It is about four times as large as the Russian space station Mir and five times as large as the U.S. Skylab. The idea of a space station was once science fiction, existing only in the imagination until it became clear in the 1940s that construction of such a structure might be attainable by our nation. As the Space Age began in the 1950s, designs of 'space planes' and stations dominated popular media. The first rudimentary station was created in 1969 by the linking of two Russian Soyuz vehicles in space, followed by other stations and developments in space technology until construction began on the ISS in 1998, aided by the first reusable spacecraft ever developed: the American shuttles. Until recently, U.S. research space onboard the ISS had been reserved for mostly government initiatives, but new opportunities for commercial and academic use of the ISS are now available, facilitated by the ISS National Lab.Find the ANTONYM of the word ‘rudimentary’.163",
+      "question_image": null,
       "options": [
         "Advanced",
         "Basic",
         "Simple",
         "Elementary"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Advanced) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Advanced) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate meaning of the given idiom.Make like a tree and leave",
+      "question_image": null,
       "options": [
         "To be at ease",
         "To prepare immediately",
         "To leave quickly",
         "To run fast"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (To leave quickly) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (To leave quickly) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate adjective to fill in the blank.Kishore made a/an  _________________ discovery about a medicinal plant.",
+      "question_image": null,
       "options": [
         "scruffy",
         "grumpy",
         "elegant",
         "astonishing"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (astonishing) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (astonishing) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blanks.He was ready to put his _____ vast knowledge of plastic surgery to _______ test.",
+      "question_image": null,
       "options": [
         "the, the",
         "the, No article",
         "No article, the",
         "a, No article"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (No article, the) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (No article, the) है।",
+      "explanation_image": null
     }
   ]
 }

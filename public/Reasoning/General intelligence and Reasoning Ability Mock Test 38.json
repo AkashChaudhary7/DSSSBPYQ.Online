@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series in order to make it logically complete?25YB   20TG   15OL   ?",
+      "question_image": null,
       "options": [
         "10QJ",
         "J10Q",
         "15JQ",
         "10JQ"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (10JQ) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (10JQ) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of Z, X, C, V, B, N and M has an exam on a different day of a week, starting from Monday and ending on Sunday of the same week. Only B has an exam before Z. Z has an exam immediately before X. No one has an exam after V.  N has an exam on one of the days after M and on one of the days before C. How many people have exams after M?",
+      "question_image": null,
       "options": [
         "Three",
         "One",
         "Four",
         "Two"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Three) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Three) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "22 is related to 57 following a certain logic. Following the same logic, 24 is related to 61. To which of the following is 26 related, following the same logic?(NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "question_image": null,
       "options": [
         "67",
         "63",
         "35",
         "65"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (65) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (65) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below. (Left)        569          695           821           858            836         (Right)(Example: 697 – First digit = 6, second digit = 9 and third digit = 7)NOTE: All operations to be done from left to right.What will be the resultant if the second digit of the highest number is added to the first digit of the lowest number?",
+      "question_image": null,
       "options": [
         "10",
         "9",
         "8",
         "7"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (10) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (10) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘RUST’ is coded as ‘9256’ and ‘TARS’ is coded as ‘6975’. What is the code for ‘A’ in the given code language?",
+      "question_image": null,
       "options": [
         "9",
         "6",
         "7",
         "5"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (7) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (7) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "A, B, C, D, E, F and G are sitting around a circular table facing the centre. Only two people sit between D and B, when counted from the right of D. Only two people sit between B and G, when counted from the right of B. Only three people sit between D and E, when counted from the right of D. F sits to the immediate left of C. How many people sit between C and G when counted from the left of G?",
+      "question_image": null,
       "options": [
         "4",
         "2",
         "1",
         "3"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (3) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (3) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes, A, C, D, F, G, I and L, are kept one over the other but not necessarily in the same order. Only one box is kept below F. Only one box is kept above I. G is kept at one of the positions below F. Only C is kept immediately between F and A. Only one box is kept between C and L. How many boxes are kept between D and F?",
+      "question_image": null,
       "options": [
         "One",
         "Two",
         "Five",
         "Four"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Four) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Four) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number result(s) in the second number. Similarly, certain mathematical operation(s) on the second number result(s) in the third number and so on. Which of the given options follows the same set of operations as in the given sets?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)85-120-155-190         ;       72-107-142-177",
+      "question_image": null,
       "options": [
         "91-126-161-196",
         "68-103-138-163",
         "55-90-125-165",
         "76-111-146-191"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (91-126-161-196) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (91-126-161-196) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements: All hens are bins.No bin is a candy.No bin is a rack.Conclusions:(I) No hen is a candy.(II) Some racks are candies.",
+      "question_image": null,
       "options": [
         "Only conclusion (II) follows.",
         "Neither conclusion (I) nor (II) follows.",
         "Both conclusions (I) and (II) follow.",
         "Only conclusion (I) follows."
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Only conclusion (I) follows.) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Only conclusion (I) follows.) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘A’ stands for ‘÷’, ‘B’ stands for ‘×’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘−’, then what will come in place of the question mark (?) in the following equation?25   A   5   D   4   B   4   C   16 = ?2436",
+      "question_image": null,
       "options": [
         "5",
         "4",
         "7",
         "6"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (5) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (5) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?26, 32, 44, 62, 86, ?",
+      "question_image": null,
       "options": [
         "106",
         "110",
         "116",
         "112"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (116) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (116) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,'A # B' means ‘A is the sister of B’,'A % B' means ‘A is the brother of B’,'A ÷ B' means ‘A is the wife of B’ and'A & B' means ‘A is the father of B’.Based on the above, how is A related to M if ‘A # D & G % K ÷ M’?",
+      "question_image": null,
       "options": [
         "Wife's brother",
         "Wife's father's mother",
         "Wife's father's sister",
         "Wife's father"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Wife's father's sister) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Wife's father's sister) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "​​​Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which is the letter-cluster pair that DOES NOT belong to that group?(Note: The odd man out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+      "question_image": null,
       "options": [
         "MO-QY",
         "OQ-SA",
         "KM-OP",
         "NP-RZ"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (KM-OP) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (KM-OP) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left)   259          275           295            257            256    (Right) (Example- 697 – First digit = 6, second digit = 9 and third digit = 7)NOTE: All operations to be done from left to right.)What will be the resultant if the third digit of the highest number is added to the second digit of the lowest number?",
+      "question_image": null,
       "options": [
         "12",
         "11",
         "8",
         "10"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (10) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (10) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order?RUO    QTN   PSM   ORL  ?",
+      "question_image": null,
       "options": [
         "NQK",
         "NRL",
         "NQL",
         "NRK"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (NQK) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (NQK) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘+’ means ‘−’, ‘−’ means ‘×’, ‘×’ means ‘÷’, ‘÷’ means ‘+’, then what will come in place of the question mark (?) in the following equation?88 ÷ 240 × 12 + 14 – 6 = ?",
+      "question_image": null,
       "options": [
         "22",
         "24",
         "20",
         "23"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (24) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (24) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "In this question, two statements I and II have been given. These statements may be independent causes or effects of independent causes or a common cause. One of the statements maybe the effect of the other statement. Read both the statements and select the correct option.Statements:I. Deepti had been working extra shifts as a nurse in the hospital since last year and was very efficient with her work.II. Deepti is promoted as a head nurse in the hospital by the hospital manager last week.",
+      "question_image": null,
       "options": [
         "Statement II is the cause and statement I is its possible effect.",
         "Statement I is the cause and statement II is its possible effect.",
         "Both statements I and II are effects of a common cause.",
         "Both statements I and II are independent causes."
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Statement I is the cause and statement II is its possible effect.) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Statement I is the cause and statement II is its possible effect.) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "अंग्रेजी वर्णमाला क्रम पर आधारित, निम्नलिखित चार अक्षर-समूह युग्मों में से तीन निश्चित तरीके से एकसमान हैं और इस प्रकार एक ग्रुप बनाते हैं। कौन-सा अक्षर-समूह युग्म उस ग्रुप से संबंधित नहीं है?\n\n(नोट: असंगत अक्षर-समूह युग्म, व्यंजनों/स्वरों की संख्या या अक्षर-समूह में उनकी स्थिति पर आधारित नहीं है।)",
+      "question_image": null,
       "options": [
         "SL–OQ",
         "QJ–MO",
         "UN–QS",
         "OH–KN"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (OH–KN) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (OH–KN) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?22, 34, 58, 94, 142, ?",
+      "question_image": null,
       "options": [
         "202",
         "204",
         "201",
         "203"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (202) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (202) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "इस प्रश्न में, एक कथन के बाद I और II से क्रमांकित दो कार्यवाहियां दी गई हैं। आपको कथन में दी गई सभी बातों को सत्य मानना होगा, तथा कथन में दी गई जानकारी के आधार पर यह तय करना होगा कि दी गई कार्यवाहियों में से कौन-सी कार्यवाही, कथन का तार्किक रूप से अनुसरण करती है।\n\nकथन:\nकुछ प्रमुख शहरों में क्रिसमस के दौरान लगभग 100 वर्षों में सबसे अधिक तापमान देखा जा सकता है, जबकि अन्य शहरों में क्रिसमस के लिए एक बिल्कुल नए रिकॉर्ड बुक की आवश्यकता हो सकती है। विशेषज्ञों के अनुसार, यह कुछ हद तक ग्लोबल वार्मिंग से संबंधित है।\n\nकार्यवाहियां:\nI. नागरिकों को ग्लोबल वार्मिंग से निपटने के उपायों का पालन करने की सलाह दी जानी चाहिए।\nII. सौर ऊर्जा का उपयोग ऊर्जा के नवीकरणीय स्रोत के रूप में किया जाना चाहिए।",
+      "question_image": null,
       "options": [
         "केवल कार्यवाही II अनुसरण करती है।",
         "न तो कार्यवाही I और न ही कार्यवाही II अनुसरण करती है।",
         "केवल कार्यवाही I अनुसरण करती है।",
         "कार्यवाही I और II दोनों अनुसरण करती हैं।"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (कार्यवाही I और II दोनों अनुसरण करती हैं।) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (कार्यवाही I और II दोनों अनुसरण करती हैं।) है।",
+      "explanation_image": null
     }
   ]
 }

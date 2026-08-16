@@ -6,281 +6,321 @@
       "id": 1,
       "section": "English Language and Comprehension",
       "question": "Identify the INCORRECTLY spelt word in the given paragraph.The astrophysicist meticulously analysed the miniscuel variations in the gravitational field, believing these subtle shifts could offer crucial insights into dark matter's elusive properties. This precise observation required highly advanced instrumentation capable of detecting the most minute anomalies.",
+      "question_image": null,
       "options": [
         "instrumentation",
         "miniscuel",
         "meticulously",
         "gravitational"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (miniscuel) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (miniscuel) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate one-word substitute for the given phrase.A sociologist who studies election trends",
+      "question_image": null,
       "options": [
         "Pedagogue",
         "Entomologist",
         "Demographer",
         "Psephologist"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Psephologist) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Psephologist) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.Among the three books, the one by Thompson is the _______ in terms of depth and insight.",
+      "question_image": null,
       "options": [
         "most detailed",
         "much detailed",
         "very detailed",
         "more detailed"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (most detailed) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (most detailed) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. Moreover, predictive analytics could foresee the long-term impacts of rate fixation on healthcare innovation, helping policymakers adjust regulations to encourage innovation and accessibility.B. In today’s big data era, health care policy decisions should increasingly rely on data-driven insights.C. Balancing access, innovation and affordability in health care is delicate but imperative.D. Data analytics can shed light on patient outcomes, treatment efficacy and cost efficiency, informing more nuanced rate-setting frameworks.",
+      "question_image": null,
       "options": [
         "CABD",
         "BDAC",
         "DCBA",
         "CBAD"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (BDAC) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (BDAC) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate meaning of the underlined idiom.Finally, Suman was able to hit the nail on the head.",
+      "question_image": null,
       "options": [
         "Aim imperfectly.",
         "Hit the nail’s head.",
         "Say the right thing.",
         "Run fast."
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Say the right thing.) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Say the right thing.) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate positive question tag to fill in the blank.The ten-year-old kid doesn’t play soccer, _______?",
+      "question_image": null,
       "options": [
         "does he",
         "could he",
         "would he",
         "will he"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (does he) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (does he) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "English Language and Comprehension",
       "question": "Identify the INCORRECTLY spelt word in the given paragraph.The irresistable allure of quantum computing continues to captivate researchers globally, promising breakthroughs in fields ranging from cryptography to material science. However, significant theoretical and engineering hurdles remain before widespread practical applications can be fully realised.",
+      "question_image": null,
       "options": [
         "irresistable",
         "cryptography",
         "captivate",
         "theoretical"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (irresistable) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (irresistable) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.Of all the researchers, she provided the ______ compelling evidence to support her thesis.",
+      "question_image": null,
       "options": [
         "most",
         "more",
         "few",
         "much"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (most) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (most) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.The results of the survey were _______ surprising than what we had expected.",
+      "question_image": null,
       "options": [
         "less",
         "quite",
         "somewhat",
         "very"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (less) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (less) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the following passages and answer the questions that follow.In today's global business environment, communication is often conducted in English, but cultural expectations can vary significantly. Misunderstanding cultural norms can lead to poor judgment and communication breakdowns. Three important areas where business etiquette differs across cultures include how people are addressed, the role of smiling, and expectations around eye contact.When addressing someone, different cultures have distinct preferences. For instance, a German professional may expect to be called 'Doctor' if they hold a PhD, valuing the title as recognition of effort and achievement. In contrast, a British person might find this overly formal or even pretentious. Continental Europeans and Latin Americans often prefer formal titles and surnames, while Americans and some British professionals lean towards using first names. The safest approach is to observe how others address you and ask if unsure.Smiling also carries different meanings. In Russia, it can be seen as insincere, while in countries like the United States, Britain, and Australia, it signals friendliness and respect. Research shows that smiling individuals are seen as more intelligent in some cultures such as Germany and China, but as less intelligent or even dishonest in places like Japan, Iran, and India.Eye contact is another area of divergence. In Western countries, it reflects attentiveness and honesty. However, in cultures such as Japan and Korea, it may be viewed as disrespectful. In parts of South America, Africa, and the Middle East, prolonged or cross-gender eye contact can be inappropriate or confrontational.Understanding these cultural nuances is important, but it is equally vital to avoid overgeneralising. Individuals are shaped by many factors beyond nationality, such as region, age, profession, and personal experience. Awareness without stereotyping is key to successful cross cultural communication.What is the synonym of the word 'nuances' as used in the passage?",
+      "question_image": null,
       "options": [
         "Expectations",
         "Origins",
         "Variations",
         "Rules"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Variations) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Variations) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the following passages and answer the questions that follow.In today's global business environment, communication is often conducted in English, but cultural expectations can vary significantly. Misunderstanding cultural norms can lead to poor judgment and communication breakdowns. Three important areas where business etiquette differs across cultures include how people are addressed, the role of smiling, and expectations around eye contact.When addressing someone, different cultures have distinct preferences. For instance, a German professional may expect to be called 'Doctor' if they hold a PhD, valuing the title as recognition of effort and achievement. In contrast, a British person might find this overly formal or even pretentious. Continental Europeans and Latin Americans often prefer formal titles and surnames, while Americans and some British professionals lean towards using first names. The safest approach is to observe how others address you and ask if unsure.Smiling also carries different meanings. In Russia, it can be seen as insincere, while in countries like the United States, Britain, and Australia, it signals friendliness and respect. Research shows that smiling individuals are seen as more intelligent in some cultures such as Germany and China, but as less intelligent or even dishonest in places like Japan, Iran, and India.Eye contact is another area of divergence. In Western countries, it reflects attentiveness and honesty. However, in cultures such as Japan and Korea, it may be viewed as disrespectful. In parts of South America, Africa, and the Middle East, prolonged or cross-gender eye contact can be inappropriate or confrontational.Understanding these cultural nuances is important, but it is equally vital to avoid overgeneralising. Individuals are shaped by many factors beyond nationality, such as region, age, profession, and personal experience. Awareness without stereotyping is key to successful cross cultural communication.How is the passage structured to present its ideas?",
+      "question_image": null,
       "options": [
         "It outlines a problem and offers several possible solutions.",
         "It introduces a general topic followed by three specific examples.",
         "It narrates a story and concludes with a moral lesson.",
         "It presents a theory and then discredits it using statistics."
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (It introduces a general topic followed by three specific examples.) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (It introduces a general topic followed by three specific examples.) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the following passages and answer the questions that follow.In today's global business environment, communication is often conducted in English, but cultural expectations can vary significantly. Misunderstanding cultural norms can lead to poor judgment and communication breakdowns. Three important areas where business etiquette differs across cultures include how people are addressed, the role of smiling, and expectations around eye contact.When addressing someone, different cultures have distinct preferences. For instance, a German professional may expect to be called 'Doctor' if they hold a PhD, valuing the title as recognition of effort and achievement. In contrast, a British person might find this overly formal or even pretentious. Continental Europeans and Latin Americans often prefer formal titles and surnames, while Americans and some British professionals lean towards using first names. The safest approach is to observe how others address you and ask if unsure.Smiling also carries different meanings. In Russia, it can be seen as insincere, while in countries like the United States, Britain, and Australia, it signals friendliness and respect. Research shows that smiling individuals are seen as more intelligent in some cultures such as Germany and China, but as less intelligent or even dishonest in places like Japan, Iran, and India.Eye contact is another area of divergence. In Western countries, it reflects attentiveness and honesty. However, in cultures such as Japan and Korea, it may be viewed as disrespectful. In parts of South America, Africa, and the Middle East, prolonged or cross-gender eye contact can be inappropriate or confrontational.Understanding these cultural nuances is important, but it is equally vital to avoid overgeneralising. Individuals are shaped by many factors beyond nationality, such as region, age, profession, and personal experience. Awareness without stereotyping is key to successful cross cultural communication.Which of the following would be the most suitable title for the passage?",
+      "question_image": null,
       "options": [
         "Cultural Norms and Communication in Global Business",
         "The Psychology Behind Smiles and Eye Contact",
         "Understanding English as a Global Language",
         "Avoiding Miscommunication in Virtual Meetings"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Cultural Norms and Communication in Global Business) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Cultural Norms and Communication in Global Business) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the following passages and answer the questions that follow.In today's global business environment, communication is often conducted in English, but cultural expectations can vary significantly. Misunderstanding cultural norms can lead to poor judgment and communication breakdowns. Three important areas where business etiquette differs across cultures include how people are addressed, the role of smiling, and expectations around eye contact.When addressing someone, different cultures have distinct preferences. For instance, a German professional may expect to be called 'Doctor' if they hold a PhD, valuing the title as recognition of effort and achievement. In contrast, a British person might find this overly formal or even pretentious. Continental Europeans and Latin Americans often prefer formal titles and surnames, while Americans and some British professionals lean towards using first names. The safest approach is to observe how others address you and ask if unsure.Smiling also carries different meanings. In Russia, it can be seen as insincere, while in countries like the United States, Britain, and Australia, it signals friendliness and respect. Research shows that smiling individuals are seen as more intelligent in some cultures such as Germany and China, but as less intelligent or even dishonest in places like Japan, Iran, and India.Eye contact is another area of divergence. In Western countries, it reflects attentiveness and honesty. However, in cultures such as Japan and Korea, it may be viewed as disrespectful. In parts of South America, Africa, and the Middle East, prolonged or cross-gender eye contact can be inappropriate or confrontational.Understanding these cultural nuances is important, but it is equally vital to avoid overgeneralising. Individuals are shaped by many factors beyond nationality, such as region, age, profession, and personal experience. Awareness without stereotyping is key to successful cross cultural communication.What is the central idea conveyed throughout the passage?",
+      "question_image": null,
       "options": [
         "Business etiquette is the same across most countries.",
         "Smiling can improve cross-cultural understanding.",
         "Cultural sensitivity enhances international business communication.",
         "English is the standard language for global business."
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Cultural sensitivity enhances international business communication.) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Cultural sensitivity enhances international business communication.) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the following passages and answer the questions that follow.In today's global business environment, communication is often conducted in English, but cultural expectations can vary significantly. Misunderstanding cultural norms can lead to poor judgment and communication breakdowns. Three important areas where business etiquette differs across cultures include how people are addressed, the role of smiling, and expectations around eye contact.When addressing someone, different cultures have distinct preferences. For instance, a German professional may expect to be called 'Doctor' if they hold a PhD, valuing the title as recognition of effort and achievement. In contrast, a British person might find this overly formal or even pretentious. Continental Europeans and Latin Americans often prefer formal titles and surnames, while Americans and some British professionals lean towards using first names. The safest approach is to observe how others address you and ask if unsure.Smiling also carries different meanings. In Russia, it can be seen as insincere, while in countries like the United States, Britain, and Australia, it signals friendliness and respect. Research shows that smiling individuals are seen as more intelligent in some cultures such as Germany and China, but as less intelligent or even dishonest in places like Japan, Iran, and India.Eye contact is another area of divergence. In Western countries, it reflects attentiveness and honesty. However, in cultures such as Japan and Korea, it may be viewed as disrespectful. In parts of South America, Africa, and the Middle East, prolonged or cross-gender eye contact can be inappropriate or confrontational.Understanding these cultural nuances is important, but it is equally vital to avoid overgeneralising. Individuals are shaped by many factors beyond nationality, such as region, age, profession, and personal experience. Awareness without stereotyping is key to successful cross cultural communication.According to the passage, how is smiling generally perceived in Russia?",
+      "question_image": null,
       "options": [
         "As insincere and viewed with suspicion",
         "As a gesture of respect and honesty",
         "As a polite way to start conversations",
         "As a sign of intelligence and warmth"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (As insincere and viewed with suspicion) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (As insincere and viewed with suspicion) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate form of the verb to fill in the blank.She _________ her grandparents next year.2598",
+      "question_image": null,
       "options": [
         "will visit",
         "visited",
         "visit",
         "visiting"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (will visit) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (will visit) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "English Language and Comprehension",
       "question": "Identify the word that serves as the most appropriate substitute for the entire paragraph.A situation characterised by a lack of government or control, often leading to disorder and chaos. This state of affairs can arise due to political instability, social unrest, or a breakdown of law and order.4795",
+      "question_image": null,
       "options": [
         "Anarchy",
         "Mutiny",
         "Insurgency",
         "Rebellion"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Anarchy) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Anarchy) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "English Language and Comprehension",
       "question": "Identify the INCORRECTLY spelt word in the given paragraph and select the option that rectifies it.Rosamond's preternatural grace in drawing-room soirees masked a perfidious manipulation of Middlemarch's haute bourgoisie . Her sycophantic deference to Lord Miedlicote's hegemony was but a gambit to secure entry into aristocratic circles. Yet beneath this perspicacious social calculus lay an anachronistic yearning for a station immutable to the vulgar exigencies of trade.",
+      "question_image": null,
       "options": [
         "soiris",
         "perfidous",
         "perspicatious",
         "bourgeoisie"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (bourgeoisie) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (bourgeoisie) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option that can substitute the underlined words in the given sentence.Despite his colleagues warning him, Mr. Sen believed things would improve. His habit of always seeing the positive side of situations was both admirable and risky.",
+      "question_image": null,
       "options": [
         "Optimism",
         "Altruism",
         "Fatalism",
         "Realism"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Optimism) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Optimism) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "English Language and Comprehension",
       "question": "Select the proverb that best fits the given situation.Instead of working hard every day, he only studies the day before the exam. Naturally, he fails.",
+      "question_image": null,
       "options": [
         "Practice makes perfect.",
         "Haste makes waste.",
         "Look before you leap.",
         "A stitch in time saves nine."
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Haste makes waste.) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Haste makes waste.) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate question tag to fill in the blank.You had better cite all your sources, ______?",
+      "question_image": null,
       "options": [
         "don’t you",
         "haven’t you",
         "hadn’t you",
         "didn’t you"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (hadn’t you) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (hadn’t you) है।",
+      "explanation_image": null
     }
   ]
 }

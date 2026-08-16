@@ -6,281 +6,321 @@
       "id": 1,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.Amit made a ____ decision.",
+      "question_image": null,
       "options": [
         "wisely",
         "wise",
         "wisdom",
         "wiseness"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (wise) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (wise) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "English Language and Comprehension",
       "question": "Select the correct HOMONYM of the underlined word.His distinctive gait made him easy to recognise from a distance.",
+      "question_image": null,
       "options": [
         "get",
         "gate",
         "gaite",
         "gite"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (gate) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (gate) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.Rina has a _________ smile.",
+      "question_image": null,
       "options": [
         "charm",
         "charmed",
         "charming",
         "charms"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (charming) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (charming) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate adjective to fill in the blank.His ___________ skills in negotiation helped secure a favorable deal for the company during the challenging economic climate.",
+      "question_image": null,
       "options": [
         "clip",
         "miniature",
         "landscape",
         "adept"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (adept) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (adept) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blanks. I prefer drinking ___ coffee to ___ tea.",
+      "question_image": null,
       "options": [
         "no article, a",
         "the, a",
         "no article, no article",
         "a, a"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (no article, no article) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (no article, no article) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "English Language and Comprehension",
       "question": "Select the INCORRECTLY spelt word in the given sentence.Her arguments on cultural relativism were intellectually robust, yet marred by frequent embarassments in terminology.",
+      "question_image": null,
       "options": [
         "arguments",
         "intellectually",
         "relativism",
         "embarassments"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (embarassments) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (embarassments) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "English Language and Comprehension",
       "question": "Select the correct HOMONYM of the underlined word.The country was forced to cede part of its territory.",
+      "question_image": null,
       "options": [
         "ceed",
         "seed",
         "sede",
         "secede"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (seed) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (seed) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. Like animals, one stands still, powerless to move a step in fright or to lift a hand in defence of our lives.B. Sometimes, fear numbs our senses.C. If a person suddenly encounters any terrible danger, the change of nature one undergoes is equally great. D. And sometimes one is seized with panic, and again, act more like the inferior animals than rational beings.",
+      "question_image": null,
       "options": [
         "CBAD",
         "DACB",
         "ABCD",
         "BCDA"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (CBAD) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (CBAD) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "English Language and Comprehension",
       "question": "Select the INCORRECTLY spelt word in the given sentence.Despite his idiosyncratic behaviour and eccentricities, the philosopher maintained a meticulous routine that astonished even the most consceintious scholars.",
+      "question_image": null,
       "options": [
         "Consceintious",
         "Eccentricities",
         "Meticulous",
         "Idiosyncratic"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Consceintious) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Consceintious) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.P. Books, however, offer a depth of understanding and reflection that short-form content often lacks.Q. In the age of digital media, people are constantly exposed to bite-sized information through social platforms.R. This shift in consumption habits has raised concerns about declining attention spans and superficial knowledge.S. While digital content provides quick access to facts, it cannot replace the immersive learning experience of reading.",
+      "question_image": null,
       "options": [
         "Q S R P",
         "Q R S P",
         "R Q P S",
         "P Q R S"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Q R S P) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Q R S P) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blanks.She reads ___ book before going to ___ bed.",
+      "question_image": null,
       "options": [
         "the, a",
         "no article, the",
         "a, a",
         "a, no article"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (a, no article) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (a, no article) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate meaning of the given idiom.Have a chip on your shoulder",
+      "question_image": null,
       "options": [
         "To be easily offended or always ready for a fight",
         "To take credit for someone else's achievements or ideas",
         "To have an extroverted personality",
         "To carry something heavy"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (To be easily offended or always ready for a fight) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (To be easily offended or always ready for a fight) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.Public libraries have long been cornerstones of communities, offering a wealth of knowledge and resources for free. Beyond just books, libraries provide access to computers, Wi-Fi, meeting spaces, and a variety of programmes for all ages. This accessibility makes libraries crucial for individuals seeking to bridge the digital divide, gain new skills, or simply enjoy a quiet space to read or work.The rise of e-readers and online resources might seem like a threat to traditional libraries. However, libraries are adapting to the changing landscape. Many now offer digital collections of e-books and audiobooks, allowing patrons to access materials anytime, anywhere. Libraries also host workshops on digital literacy, helping individuals navigate the online world with confidence.Furthermore, libraries are increasingly becoming hubs for social interaction and community engagement. They host book clubs, author talks, and cultural events, fostering a sense of connection and belonging. Libraries also play a vital role in early childhood education, providing story times, educational resources, and a nurturing environment for young minds to explore and learn.In conclusion, libraries remain essential institutions in the 21st century. By offering a blend of traditional and modern resources, fostering social connections, and supporting education, libraries continue to empower individuals and communities to thrive.638Select an appropriate title for the passage.",
+      "question_image": null,
       "options": [
         "The Benefits of E-readers and Online Resources",
         "The Importance of Public Libraries in the Digital Age",
         "The Decline of Traditional Books",
         "Modern Challenges Faced by Libraries"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (The Importance of Public Libraries in the Digital Age) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (The Importance of Public Libraries in the Digital Age) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.Public libraries have long been cornerstones of communities, offering a wealth of knowledge and resources for free. Beyond just books, libraries provide access to computers, Wi-Fi, meeting spaces, and a variety of programmes for all ages. This accessibility makes libraries crucial for individuals seeking to bridge the digital divide, gain new skills, or simply enjoy a quiet space to read or work.The rise of e-readers and online resources might seem like a threat to traditional libraries. However, libraries are adapting to the changing landscape. Many now offer digital collections of e-books and audiobooks, allowing patrons to access materials anytime, anywhere. Libraries also host workshops on digital literacy, helping individuals navigate the online world with confidence.Furthermore, libraries are increasingly becoming hubs for social interaction and community engagement. They host book clubs, author talks, and cultural events, fostering a sense of connection and belonging. Libraries also play a vital role in early childhood education, providing story times, educational resources, and a nurturing environment for young minds to explore and learn.In conclusion, libraries remain essential institutions in the 21st century. By offering a blend of traditional and modern resources, fostering social connections, and supporting education, libraries continue to empower individuals and communities to thrive.638Identify the central theme of the passage.",
+      "question_image": null,
       "options": [
         "How libraries are adapting to the digital age",
         "The decline of physical libraries in favour of online resources",
         "The advantages of e-books over traditional books",
         "The financial struggles faced by public libraries"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (How libraries are adapting to the digital age) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (How libraries are adapting to the digital age) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.Public libraries have long been cornerstones of communities, offering a wealth of knowledge and resources for free. Beyond just books, libraries provide access to computers, Wi-Fi, meeting spaces, and a variety of programmes for all ages. This accessibility makes libraries crucial for individuals seeking to bridge the digital divide, gain new skills, or simply enjoy a quiet space to read or work.The rise of e-readers and online resources might seem like a threat to traditional libraries. However, libraries are adapting to the changing landscape. Many now offer digital collections of e-books and audiobooks, allowing patrons to access materials anytime, anywhere. Libraries also host workshops on digital literacy, helping individuals navigate the online world with confidence.Furthermore, libraries are increasingly becoming hubs for social interaction and community engagement. They host book clubs, author talks, and cultural events, fostering a sense of connection and belonging. Libraries also play a vital role in early childhood education, providing story times, educational resources, and a nurturing environment for young minds to explore and learn.In conclusion, libraries remain essential institutions in the 21st century. By offering a blend of traditional and modern resources, fostering social connections, and supporting education, libraries continue to empower individuals and communities to thrive.638Which of the following is a fact mentioned in the passage?",
+      "question_image": null,
       "options": [
         "Libraries no longer provide a space for quiet reading.",
         "Public libraries charge fees for access to Wi-Fi.",
         "E-readers have made traditional libraries obsolete.",
         "Libraries offer workshops on digital literacy."
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Libraries offer workshops on digital literacy.) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Libraries offer workshops on digital literacy.) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.Public libraries have long been cornerstones of communities, offering a wealth of knowledge and resources for free. Beyond just books, libraries provide access to computers, Wi-Fi, meeting spaces, and a variety of programmes for all ages. This accessibility makes libraries crucial for individuals seeking to bridge the digital divide, gain new skills, or simply enjoy a quiet space to read or work.The rise of e-readers and online resources might seem like a threat to traditional libraries. However, libraries are adapting to the changing landscape. Many now offer digital collections of e-books and audiobooks, allowing patrons to access materials anytime, anywhere. Libraries also host workshops on digital literacy, helping individuals navigate the online world with confidence.Furthermore, libraries are increasingly becoming hubs for social interaction and community engagement. They host book clubs, author talks, and cultural events, fostering a sense of connection and belonging. Libraries also play a vital role in early childhood education, providing story times, educational resources, and a nurturing environment for young minds to explore and learn.In conclusion, libraries remain essential institutions in the 21st century. By offering a blend of traditional and modern resources, fostering social connections, and supporting education, libraries continue to empower individuals and communities to thrive.638Identify the structure of the passage.",
+      "question_image": null,
       "options": [
         "Chronological Order",
         "Problem-Solution-Evaluation",
         "Cause-Effect",
         "Compare-Contrast"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Problem-Solution-Evaluation) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Problem-Solution-Evaluation) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.Public libraries have long been cornerstones of communities, offering a wealth of knowledge and resources for free. Beyond just books, libraries provide access to computers, Wi-Fi, meeting spaces, and a variety of programmes for all ages. This accessibility makes libraries crucial for individuals seeking to bridge the digital divide, gain new skills, or simply enjoy a quiet space to read or work.The rise of e-readers and online resources might seem like a threat to traditional libraries. However, libraries are adapting to the changing landscape. Many now offer digital collections of e-books and audiobooks, allowing patrons to access materials anytime, anywhere. Libraries also host workshops on digital literacy, helping individuals navigate the online world with confidence.Furthermore, libraries are increasingly becoming hubs for social interaction and community engagement. They host book clubs, author talks, and cultural events, fostering a sense of connection and belonging. Libraries also play a vital role in early childhood education, providing story times, educational resources, and a nurturing environment for young minds to explore and learn.In conclusion, libraries remain essential institutions in the 21st century. By offering a blend of traditional and modern resources, fostering social connections, and supporting education, libraries continue to empower individuals and communities to thrive.638Identify the ANTONYM of \"nurturing\" as used in the passage.",
+      "question_image": null,
       "options": [
         "Neglecting",
         "Stimulating",
         "Supportive",
         "Encouraging"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Neglecting) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Neglecting) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate meaning of the given idiom.Forty winks",
+      "question_image": null,
       "options": [
         "A brief description",
         "A brief nap or short sleep",
         "A brief study",
         "A brief history"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (A brief nap or short sleep) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (A brief nap or short sleep) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.Raj is an ______ student.",
+      "question_image": null,
       "options": [
         "intelligent",
         "intelligible",
         "intelligently",
         "intelligence"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (intelligent) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (intelligent) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate adjective to fill in the blank.Life in Delhi is ______ than other cities.",
+      "question_image": null,
       "options": [
         "fastest",
         "fast",
         "more fast",
         "faster"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (faster) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (faster) है।",
+      "explanation_image": null
     }
   ]
 }

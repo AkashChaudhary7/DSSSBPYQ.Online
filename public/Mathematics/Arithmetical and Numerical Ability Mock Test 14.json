@@ -6,281 +6,321 @@
       "id": 1,
       "section": "Arithmetical and Numerical Ability",
       "question": "Rakesh spends 60% of his income. If he saves ₹72,000, then his income (in ₹) is:",
+      "question_image": null,
       "options": [
         "1,80,000",
         "43,200",
         "1,81,000",
         "1,79,000"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (1,80,000) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (1,80,000) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "Arithmetical and Numerical Ability",
       "question": "In a test, B got 52 marks while A got 80 marks, out of 80 maximum marks. What approximate percentage of A's marks were B's marks?",
+      "question_image": null,
       "options": [
         "65%",
         "80%",
         "153.85%",
         "100%"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (65%) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (65%) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average price of three items of furniture is ₹17,790. If their prices are in the ratio 3 : 5 : 7, the price of the cheapest item (in ₹) is:",
+      "question_image": null,
       "options": [
         "8,302",
         "3,558",
         "5,930",
         "10,674"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (10,674) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (10,674) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "Arithmetical and Numerical Ability",
       "question": "Find the value of x satisfying (7x) × (4913) × (3432) = (240112).",
+      "question_image": null,
       "options": [
         "26",
         "15",
         "16",
         "7"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (16) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (16) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "Arithmetical and Numerical Ability",
       "question": "Arrange the following ratios in descending order.25 : 19, 12 : 18, 26 : 3, 13 : 55237",
+      "question_image": null,
       "options": [
         "25 : 19, 13 : 5, 26 : 3, 12 : 18",
         "26 : 3, 13 : 5, 25 : 19, 12 : 18",
         "25 : 19, 12 : 18, 26 : 3, 13 : 5",
         "12 : 18, 26 : 3, 13 : 5, 25 : 19"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (26 : 3, 13 : 5, 25 : 19, 12 : 18) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (26 : 3, 13 : 5, 25 : 19, 12 : 18) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "Arithmetical and Numerical Ability",
       "question": "The profit earned by selling an article for ₹2,076 is equal to the loss incurred by selling the same article for ₹1,524. To gain 25%, the same article should be sold (in ₹) for:",
+      "question_image": null,
       "options": [
         "2,310",
         "2,130",
         "2,250",
         "2,520"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (2,250) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (2,250) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average age of 43 students of a class is 16 years. If the age of the teacher is also included, the average age of the whole group becomes 17 years. The age (in years) of the teacher is:6125",
+      "question_image": null,
       "options": [
         "61",
         "62",
         "60",
         "66"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (60) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (60) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "Arithmetical and Numerical Ability",
       "question": "Jitesh and Kamal can complete a certain piece of work in 19 and 6 days, respectively. They started to work together, and after 3 days, Kamal left. In how many days will Jitesh complete the remaining work?",
+      "question_image": null,
       "options": [
         "6",
         "6.5",
         "7.5",
         "7"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (6.5) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (6.5) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "Arithmetical and Numerical Ability",
       "question": "Find the number of bricks, each measuring 18 cm × 12 cm × 10 cm, required to construct a wall 48 m long, 23 m high and 0.5 m thick, while the sand and cement mixture occupies 10% of the total volume of wall.",
+      "question_image": null,
       "options": [
         "229900",
         "229800",
         "230000",
         "229700"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (230000) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (230000) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "Arithmetical and Numerical Ability",
       "question": "A and B start a business. A invests ₹5,000 more than B and keeps his capital invested for 4 months, while B invests his capital for 5 months. The total profit at the end of the business is ₹55,000, and A’s share of the profit is ₹5,000 more than B’s share. Find the amount of capital contributed by A.",
+      "question_image": null,
       "options": [
         "₹15,000",
         "₹13,000",
         "₹14,000",
         "₹12,000"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (₹15,000) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (₹15,000) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "Arithmetical and Numerical Ability",
       "question": "In a test, B got 50 marks while A got 75 marks, out of 80 maximum marks. What approximate percentage of A's marks were B's marks?",
+      "question_image": null,
       "options": [
         "150%",
         "66.67%",
         "80%",
         "93.75%"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (66.67%) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (66.67%) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "Arithmetical and Numerical Ability",
       "question": "The ratio of the cost prices of articles X and Y is 2 : 9. A man earns a profit of 11% by selling X and loses 33% by selling Y. What is his gain/loss percentage in the entire transaction?",
+      "question_image": null,
       "options": [
         "Gain, 26.5%",
         "Loss, 25%",
         "Loss, 24.5%",
         "Gain, 25%"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Loss, 25%) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Loss, 25%) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "Arithmetical and Numerical Ability",
       "question": "The product of two numbers is 475 and their L.C.M. is 95. Find their H.C.F.",
+      "question_image": null,
       "options": [
         "11",
         "5",
         "12",
         "6"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (5) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (5) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "Arithmetical and Numerical Ability",
       "question": "A dealer allows a 25% discount on an article and still manages to make a 53% profit. Find the ratio of the cost price to the listed price.",
+      "question_image": null,
       "options": [
         "25 : 51",
         "28 : 54",
         "25 : 56",
         "24 : 58"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (25 : 51) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (25 : 51) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "Arithmetical and Numerical Ability",
       "question": "A gardener increased the area of his rectangular garden by increasing its length by 25% and decreasing its width by 10%. Find the percentage increase in the area of the new garden.",
+      "question_image": null,
       "options": [
         "12.5%",
         "25%",
         "15%",
         "10.25%"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (12.5%) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (12.5%) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "Arithmetical and Numerical Ability",
       "question": "Kushal and Brijesh together invested ₹59,800 in a business. At the end of the year, out of a total profit of ₹18,400, Brijesh's share was ₹6,000. What was the difference of their investment?5982",
+      "question_image": null,
       "options": [
         "₹21,547",
         "₹20,498",
         "₹20,800",
         "₹22,163"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (₹20,800) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (₹20,800) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average of 13 numbers is 7. If each number is multiplied by 3, then what will be the new average?",
+      "question_image": null,
       "options": [
         "7",
         "13",
         "3",
         "21"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (21) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (21) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "Arithmetical and Numerical Ability",
       "question": "A vendor sold 29 chocolates for a rupee, thereby gaining 100%. How many chocolates did he buy for a rupee?",
+      "question_image": null,
       "options": [
         "60",
         "58",
         "64",
         "62"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (58) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (58) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "Arithmetical and Numerical Ability",
       "question": "Ravi invested ₹26,000 in a business. After a few months, Reeta also invested ₹78,000. If at the end of the year Ravi and Reeta earned the same profit, then after how many months did Reeta join the business?",
+      "question_image": null,
       "options": [
         "6",
         "8",
         "7",
         "5"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (8) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (8) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "Arithmetical and Numerical Ability",
       "question": "The HCF of (x2 – 2x – 8) and (x2 – px – 28) is (x – 4). Find the value of p.",
+      "question_image": null,
       "options": [
         "3",
         "−2",
         "−3",
         "2"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (−3) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (−3) है।",
+      "explanation_image": null
     }
   ]
 }

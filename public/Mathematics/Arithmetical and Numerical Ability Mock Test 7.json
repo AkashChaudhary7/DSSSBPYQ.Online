@@ -6,281 +6,321 @@
       "id": 1,
       "section": "Arithmetical and Numerical Ability",
       "question": "If 180 : y :: y : 45, then find the positive value of y.",
+      "question_image": null,
       "options": [
         "87",
         "90",
         "82",
         "89"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (90) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (90) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "Arithmetical and Numerical Ability",
       "question": "The speed of a bus is 5 metres/second. The distance (in kilometres) travelled by the bus in 8 hours and 40 minutes is:",
+      "question_image": null,
       "options": [
         "156",
         "155",
         "158",
         "161"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (156) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (156) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "Arithmetical and Numerical Ability",
       "question": "A notebook is listed at ₹208 with a discount of 25%. What additional percentage discount must be offered to the customer to bring the net price to ₹117?",
+      "question_image": null,
       "options": [
         "23%",
         "25%",
         "27%",
         "30%"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (25%) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (25%) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "Arithmetical and Numerical Ability",
       "question": "Shivam has borrowed an amount of ₹3,00,000 from a bank to start a business. How much simple interest (in ₹) will he pay at a rate of 6% per annum after 3 years?",
+      "question_image": null,
       "options": [
         "54,000",
         "3,54,000",
         "55,000",
         "53,000"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (54,000) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (54,000) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average of 11 numbers is 61. If the average of the first 6 numbers is 65 and that of the last 6 is 61, find the 6th number.",
+      "question_image": null,
       "options": [
         "85",
         "84",
         "86",
         "87"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (85) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (85) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "Arithmetical and Numerical Ability",
       "question": "₹4,869 is divided among A, B, C, and D in such a way that the shares of A and B, B and C, and C and D are in the ratios of 4 : 5, 4 : 5, and 6 : 7, respectively. The share of A (in ₹) is:",
+      "question_image": null,
       "options": [
         "₹864",
         "₹796",
         "₹820",
         "₹900"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (₹864) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (₹864) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "Arithmetical and Numerical Ability",
       "question": "Nirmal’s sale went up by 4% in the first year, and by 25% in the second year, to reach the present sale of ₹2,02,800. What was his sale (in ₹) two years ago?",
+      "question_image": null,
       "options": [
         "1,95,000",
         "1,56,000",
         "1,62,240",
         "1,36,000"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (1,56,000) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (1,56,000) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "Arithmetical and Numerical Ability",
       "question": "P and Q together can fill a cistern with water in 6 hours. If P alone can fill the same amount of water in 18 hours, then in how many hours will Q alone fill the same amount of water?",
+      "question_image": null,
       "options": [
         "10",
         "9",
         "11",
         "8"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (9) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (9) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "Arithmetical and Numerical Ability",
       "question": "The list price of an article is ₹5,700 and a discount of 6% is offered on the list price. What additional discount percent on the already discounted price must be offered to a customer to bring the net selling price to ₹1,875.30?",
+      "question_image": null,
       "options": [
         "63%",
         "67%",
         "66%",
         "65%"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (65%) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (65%) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "Arithmetical and Numerical Ability",
       "question": "A class of 30 students appeared in a test. The average score of 12 students is 70, and that of the rest is 66. What is the average score of the class?",
+      "question_image": null,
       "options": [
         "66.6",
         "67.6",
         "65.6",
         "68.6"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (67.6) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (67.6) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "Arithmetical and Numerical Ability",
       "question": "A man purchased two varieties of apples at the rate of ₹2 for 3 apples and ₹6 per apple, respectively. If he purchased an equal number of apples of each variety and then sold all his apples at ₹6 per apple, what was his profit percentage?",
+      "question_image": null,
       "options": [
         "80%",
         "78%",
         "77%",
         "75%"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (80%) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (80%) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "Arithmetical and Numerical Ability",
       "question": "A, B and C, when each is working alone, can do a piece of work in, respectively, 11, 88 and 24 days. They all started the work together, but A left after 4 days. In how many days, was the remaining work completed?",
+      "question_image": null,
       "options": [
         "9",
         "8",
         "7",
         "10"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (8) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (8) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "Arithmetical and Numerical Ability",
       "question": "4% of a number is approximately what percentage of 12% of the same number?",
+      "question_image": null,
       "options": [
         "25%",
         "33.33%",
         "300%",
         "12.5%"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (33.33%) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (33.33%) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "Arithmetical and Numerical Ability",
       "question": "Jaspreet deposited a sum of ₹18,725 at 20% rate of interest per annum, compounded annually. The total amount (in ₹) received by Jaspreet after 2 years is:",
+      "question_image": null,
       "options": [
         "26,768",
         "26,964",
         "26,717",
         "27,366"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (26,964) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (26,964) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "Arithmetical and Numerical Ability",
       "question": "A man is walking at a speed of 6 km/hr. After every kilometre he takes rest for 3 minutes. How much time will he take to cover a distance of 18 km?",
+      "question_image": null,
       "options": [
         "3 hours 51 minutes",
         "3 hours 61 minutes",
         "2 hours 56 minutes",
         "4 hours 51 minutes"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (3 hours 51 minutes) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (3 hours 51 minutes) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "Arithmetical and Numerical Ability",
       "question": "The areas of three adjacent faces of a solid cuboid are 150 cm2, 99 cm2 and 66 cm2. What is the volume (in cm3) of the cuboid?",
+      "question_image": null,
       "options": [
         "990",
         "1229",
         "913",
         "767"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (990) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (990) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "Arithmetical and Numerical Ability",
       "question": "Which of the following is divisible by 7 and 12?",
+      "question_image": null,
       "options": [
         "6735",
         "6728",
         "6720",
         "6712"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (6720) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (6720) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "Arithmetical and Numerical Ability",
       "question": "A car travels 163 km in the first hour and 117 km in the second hour. What is the average speed (in km/h) of the car for the whole journey?3522",
+      "question_image": null,
       "options": [
         "150",
         "131",
         "140",
         "144"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (140) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (140) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "Arithmetical and Numerical Ability",
       "question": "The prices of three types of rice, P, Q, and R, are ₹280, ₹180, and ₹100 per kg, respectively. Subrata buys rice of each type in the ratio 3 : 4 : 3. If he spends a total of ₹6045, how many kilograms of type Q rice did he purchase?",
+      "question_image": null,
       "options": [
         "19",
         "10",
         "13",
         "21"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (13) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (13) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "Arithmetical and Numerical Ability",
       "question": "A man buys a second-hand car for ₹1,05,000 and spends ₹43,000 on its repairs. What should be its selling price if he wants to earn an 11% profit?1962",
+      "question_image": null,
       "options": [
         "₹1,69,800",
         "₹1,68,600",
         "₹1,62,600",
         "₹1,64,280"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (₹1,64,280) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (₹1,64,280) है।",
+      "explanation_image": null
     }
   ]
 }

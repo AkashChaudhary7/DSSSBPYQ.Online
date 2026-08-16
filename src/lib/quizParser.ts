@@ -1,4 +1,5 @@
 import { Quiz, Question } from '../types';
+import { normalizeStringArtifacts, standardizeQuestionString, cleanOptionText } from './formatText';
 
 export const mapSectionToMetadata = (sectionName: string): { category: 'part_a' | 'part_b' | 'full'; subject: string; topic: string } => {
   const name = sectionName.trim().toLowerCase();
@@ -222,9 +223,10 @@ export const processRawQuizData = (data: any, relativePath: string, fileName: st
 
   const normalizedQuestions: Question[] = questions.map((q: any, idx: number) => {
     const qId = typeof q.id === 'number' ? q.id : (idx + 1);
-    const questionText = q.question || q.text || q.q_text || '';
+    const rawQuestionText = q.question || q.text || q.q_text || '';
+    const questionText = standardizeQuestionString(String(rawQuestionText));
     const rawOptions = q.options || q.choices || q.answers || [];
-    const formattedOptions = rawOptions.map((o: any) => String(o ?? '').trim());
+    const formattedOptions = rawOptions.map((o: any) => cleanOptionText(o));
     
     // Resolve raw answer from any property (answer, correct_answer, correctAnswer, ans, correct)
     let rawAns = q.answer;
@@ -237,7 +239,7 @@ export const processRawQuizData = (data: any, relativePath: string, fileName: st
     if (typeof rawAns === 'number') {
       answerIdx = rawAns;
     } else if (typeof rawAns === 'string') {
-      const trimmed = rawAns.trim();
+      const trimmed = normalizeStringArtifacts(rawAns).trim();
       const upper = trimmed.toUpperCase();
       if (upper === 'A' || upper === '1' || upper.startsWith('A)') || upper.startsWith('OPTION A')) answerIdx = 0;
       else if (upper === 'B' || upper === '2' || upper.startsWith('B)') || upper.startsWith('OPTION B')) answerIdx = 1;
@@ -263,13 +265,18 @@ export const processRawQuizData = (data: any, relativePath: string, fileName: st
       answerIdx = 0;
     }
 
+    const rawSection = q.section ? normalizeStringArtifacts(String(q.section)) : '';
+    const sectionName = rawSection || (category === 'part_a' ? `Part A - ${subject}` : `Part B - ${topic}`);
+    const rawExp = q.explanation || q.desc || q.explanation_text || 'No detailed explanation provided.';
+    const explanationText = standardizeQuestionString(String(rawExp));
+
     return {
       id: qId,
-      section: q.section || (category === 'part_a' ? `Part A - ${subject}` : `Part B - ${topic}`),
+      section: sectionName,
       question: questionText,
       options: formattedOptions,
       answer: answerIdx,
-      explanation: q.explanation || q.desc || q.explanation_text || 'No detailed explanation provided.'
+      explanation: explanationText
     };
   });
 

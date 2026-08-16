@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General Awareness",
       "question": "The human brain is divided into _____ parts.",
+      "question_image": null,
       "options": [
         "3",
         "4",
         "6",
         "5"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (3) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (3) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General Awareness",
       "question": "In India, for the estimation of GVA, the data pertaining to the value of agricultural crops is obtained from ________.",
+      "question_image": null,
       "options": [
         "Directorate of Economic and Statistics",
         "NABARD",
         "NSSO",
         "Indian Council for Agricultural Research"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Directorate of Economic and Statistics) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Directorate of Economic and Statistics) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General Awareness",
       "question": "As per Census of India 2011, which of the following statements is/are correct?A: The sex ratio recorded in Kerala was 1084 females/1000 males.B: The sex ratio recorded in Puducherry was 1037 females/1000 males.",
+      "question_image": null,
       "options": [
         "A is incorrect and B is correct.",
         "Both A and B are incorrect.",
         "Both A and B are correct.",
         "A is correct and B is incorrect."
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Both A and B are correct.) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Both A and B are correct.) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General Awareness",
       "question": "In 1979, who chaired the taskforce constituted by the Planning Commission in India for the purpose of poverty estimation and constructed a poverty line for rural and urban areas on the basis of nutritional requirements?",
+      "question_image": null,
       "options": [
         "Suresh Tendulkar",
         "VM Dandekar",
         "YK Alagh",
         "N Rath"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (YK Alagh) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (YK Alagh) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General Awareness",
       "question": "According to the Rangarajan Committee Report (2014), what is the estimated monthly per capita poverty line in urban areas?",
+      "question_image": null,
       "options": [
         "₹1,000",
         "₹1,407",
         "₹972",
         "₹1,150"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (₹1,407) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (₹1,407) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General Awareness",
       "question": "What is the significance of 15th August in Indian history?",
+      "question_image": null,
       "options": [
         "It celebrates the first session of India’s Parliament.",
         "It marks India’s independence from British rule in 1947.",
         "It commemorates Mahatma Gandhi’s birth anniversary.",
         "It marks the adoption of the Constitution of India."
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (It marks India’s independence from British rule in 1947.) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (It marks India’s independence from British rule in 1947.) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General Awareness",
       "question": "Who authored the famous novel 'Untouchable', which deals with the issue of caste discrimination in India?",
+      "question_image": null,
       "options": [
         "Kamala Das",
         "RK Narayan",
         "Mulk Raj Anand",
         "Ismat Chughtai"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Mulk Raj Anand) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Mulk Raj Anand) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General Awareness",
       "question": "Which scheme was announced by the Department of Pharmaceuticals, Ministry of Chemicals and Fertilisers, to help enhance technological capabilities of the pharmaceutical industry in March 2024?",
+      "question_image": null,
       "options": [
         "Revived Pharmaceuticals Manufacturing and Technological Enhancement Scheme",
         "Pharmaceuticals Export and Technological Promotion Scheme",
         "Pharmaceuticals Technological Innovation Support Scheme",
         "Revamped Pharmaceuticals Technology Upgradation Assistance Scheme"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Revamped Pharmaceuticals Technology Upgradation Assistance Scheme) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Revamped Pharmaceuticals Technology Upgradation Assistance Scheme) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General Awareness",
       "question": "Who among the following started a night school for agriculturists and labourers in India before Independence?",
+      "question_image": null,
       "options": [
         "Bal Gangadhar Tilak",
         "BR Ambedkar",
         "Jyotirao Phule",
         "Ayyankali"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Jyotirao Phule) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Jyotirao Phule) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General Awareness",
       "question": "Karikala, credited with constructing a dam on River Kaveri, belonged to the _______ dynasty.",
+      "question_image": null,
       "options": [
         "Andhra",
         "Chera",
         "Chola",
         "Pandya"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Chola) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Chola) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General Awareness",
       "question": "Which of the following is NOT a power of the President of India?",
+      "question_image": null,
       "options": [
         "Power to dissolve the Lok Sabha",
         "Promulgating ordinance when Parliament is in session",
         "Nominate twelve members of Rajya Sabha",
         "Power to summon both houses of Parliament"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Promulgating ordinance when Parliament is in session) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Promulgating ordinance when Parliament is in session) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General Awareness",
       "question": "Which of the following states will host the MotoGP race at the Buddh International Circuit in 2025, as a result of signing an agreement with Dorna sports?",
+      "question_image": null,
       "options": [
         "Karnataka",
         "Maharashtra",
         "Uttar Pradesh",
         "Tamilnadu"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Uttar Pradesh) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Uttar Pradesh) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General Awareness",
       "question": "As of June 2025, which ministry is leading India's initiative to achieve 500 GW of non-fossil fuel capacity by 2030?",
+      "question_image": null,
       "options": [
         "Ministry of New and Renewable Energy",
         "Ministry of Power",
         "Ministry of Petroleum and Natural Gas",
         "Ministry of Environment, Forest, and Climate Change"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Ministry of New and Renewable Energy) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Ministry of New and Renewable Energy) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General Awareness",
       "question": "According to the Citizenship Amendment Act of 2019, from which countries must individuals belong to in order to be eligible for the special provision of Indian citizenship?",
+      "question_image": null,
       "options": [
         "Afghanistan and Myanmar",
         "Nepal and Bhutan",
         "Pakistan and Afghanistan",
         "Sri Lanka and Bangladesh"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Pakistan and Afghanistan) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Pakistan and Afghanistan) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General Awareness",
       "question": "As per Article 279A (1) of the amended Constitution, the GST Council has to be constituted within how many days of the commencement of Article 279A?",
+      "question_image": null,
       "options": [
         "45 days",
         "90 days",
         "60 days",
         "30 days"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (60 days) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (60 days) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General Awareness",
       "question": "Which of the following languages is most widely spoken in the Indian state of Andhra Pradesh?",
+      "question_image": null,
       "options": [
         "Tamil",
         "Malayalam",
         "Telugu",
         "Kannada"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Telugu) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Telugu) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General Awareness",
       "question": "As of November 2024, how many biosphere reserves have been established in India to protect its flora and fauna?",
+      "question_image": null,
       "options": [
         "20",
         "18",
         "22",
         "24"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (18) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (18) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General Awareness",
       "question": "As per the National Multidimensional Poverty Index Progress Review, 2023, which of the following Union Territories has the highest percentage of the multidimensionally poor?",
+      "question_image": null,
       "options": [
         "Delhi",
         "Puducherry",
         "Lakshadweep",
         "Chandigarh"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Puducherry) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Puducherry) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General Awareness",
       "question": "What is a congenital disease?",
+      "question_image": null,
       "options": [
         "A disease caused due to vitamin deficiency",
         "A disease caused by bacteria",
         "A disease that occurs in old age",
         "A disease present from birth"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (A disease present from birth) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (A disease present from birth) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General Awareness",
       "question": "Which of the following events marked the end of the Non-Cooperation Movement?",
+      "question_image": null,
       "options": [
         "The Jallianwala Bagh massacre",
         "The Chauri Chaura incident",
         "The second Round Table Conference",
         "The Salt march"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (The Chauri Chaura incident) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (The Chauri Chaura incident) है।",
+      "explanation_image": null
     }
   ]
 }

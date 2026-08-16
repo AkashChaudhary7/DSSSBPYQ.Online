@@ -1,704 +1,552 @@
-{
-  "questions": [
-    {
-      "id": 1,
-      "section": "Computer Networks",
-      "question": "The format for compound statement is",
-      "options": [
-        "A) Begin ……. end",
-        "B) Begin atomic……. end",
-        "C) Begin ……. repeat",
-        "D) Both Begin ……. end and Begin atomic……. end"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "A compound statement is of the form begin . . . end, and it may contain multiple SQL statements between the begin and the end.A compound statement of the form begin atomic . . . end ensures that all the statements contained within it are executed as a single transaction."
-    },
-    {
-      "id": 2,
-      "section": "Computer Networks",
-      "question": "A stored procedure in SQL is a___________",
-      "options": [
-        "A) Block of functions",
-        "B) Group of Transact-SQL statements compiled into a single execution plan.",
-        "C) Group of distinct SQL statements.",
-        "D) None of the mentioned"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "If it an atomic statement then the statements are in single transaction."
-    },
-    {
-      "id": 3,
-      "section": "Computer Networks",
-      "question": "Temporary stored procedures are stored in _________ database.",
-      "options": [
-        "A) Master",
-        "B) Model",
-        "C) User specific",
-        "D) Tempdb"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "None."
-    },
-    {
-      "id": 4,
-      "section": "Computer Networks",
-      "question": "Any recursive view must be defined as the union of two subqueries: a _______ query that is nonrecursive and a __________ query.",
-      "options": [
-        "A) Base, recursive",
-        "B) Recursive, Base",
-        "C) Base, Redundant",
-        "D) View, Base"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "First compute the base query and add all the resultant tuples to the recursively defined view relation."
-    },
-    {
-      "id": 5,
-      "section": "Computer Networks",
-      "question": "Ranking of queries is done by which of the following?",
-      "options": [
-        "A) Group by",
-        "B) Order by",
-        "C) Having",
-        "D) Both Group by and Order by"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "Order by clause arranges the values in ascending or descending order where a default is ascending order."
-    },
-    {
-      "id": 6,
-      "section": "Computer Networks",
-      "question": "In rank() function if one value is shared by two tuples then",
-      "options": [
-        "A) The rank order continues as counting numbers",
-        "B) The rank order continues by leaving one rank in the middle",
-        "C) The user specifies the order",
-        "D) The order does not change"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "Example. rank() over (order by (GPA) desc)."
-    },
-    {
-      "id": 7,
-      "section": "Computer Networks",
-      "question": "The  __________ function that does not create gaps in the ordering.",
-      "options": [
-        "A) Intense_rank()",
-        "B) Continue_rank()",
-        "C) Default_rank()",
-        "D) Dense_rank()"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "For dense_rank() the tuples with the second highest value all get rank 2, and tuples with the third highest value get rank 3, and so on."
-    },
-    {
-      "id": 8,
-      "section": "Computer Networks",
-      "question": "If there are n tuples in the partition and the rank of the tuple is r, then its ________ is defined as (r −1)/(n−1).",
-      "options": [
-        "A) Ntil()",
-        "B) Cum_rank",
-        "C) Percent_rank",
-        "D) rank()"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "Percent rank of a tuple gives the rank of the tuple as a fraction."
-    },
-    {
-      "id": 9,
-      "section": "Computer Networks",
-      "question": "Inorder to simplify the null value confusion in the rank function we can specify",
-      "options": [
-        "A) Not Null",
-        "B) Nulls last",
-        "C) Nulls first",
-        "D) Either Nulls last or first"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "select ID, rank () over (order by GPA desc nulls last) as s rank from student grades;."
-    },
-    {
-      "id": 10,
-      "section": "Computer Networks",
-      "question": "The functions which construct histograms and use buckets for ranking is",
-      "options": [
-        "A) Rank()",
-        "B) Newtil()",
-        "C) Ntil()",
-        "D) None of the mentioned"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "For each tuple, ntile(n) then gives the number of the bucket in which it is placed, with bucket numbers starting with 1."
-    },
-    {
-      "id": 11,
-      "section": "Computer Networks",
-      "question": "The command ________________ such tables are available only within the transaction executing the query and are dropped when the transaction finishes.",
-      "options": [
-        "A) Create table",
-        "B) Create temporary table",
-        "C) Create view",
-        "D) Create label view"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "None."
-    },
-    {
-      "id": 12,
-      "section": "Computer Networks",
-      "question": "OLAP stands for",
-      "options": [
-        "A) Online analytical processing",
-        "B) Online analysis processing",
-        "C) Online transaction processing",
-        "D) Online aggregate processing"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "OLAP is the manipulation of information to support decision making."
-    },
-    {
-      "id": 13,
-      "section": "Computer Networks",
-      "question": "Data that can be modeled as dimension attributes and measure attributes are called _______ data.",
-      "options": [
-        "A) Multidimensional",
-        "B) Singledimensional",
-        "C) Measured",
-        "D) Dimensional"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Given a relation used for data analysis, we can identify some of its attributes as measure attributes, since they measure some value, and can be aggregated upon.Dimension attribute define the dimensions on which measure attributes, and summaries of measure attributes, are viewed."
-    },
-    {
-      "id": 14,
-      "section": "Computer Networks",
-      "question": "The generalization of cross-tab which is represented visually is ____________ which is also called as data cube.",
-      "options": [
-        "A) Two dimensional cube",
-        "B) Multidimensional cube",
-        "C) N-dimensional cube",
-        "D) Cuboid"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Each cell in the cube is identified for the values for the three dimensional attributes."
-    },
-    {
-      "id": 15,
-      "section": "Computer Networks",
-      "question": "The process of viewing the cross-tab (Single dimensional) with a fixed value of one attribute is",
-      "options": [
-        "A) Slicing",
-        "B) Dicing",
-        "C) Pivoting",
-        "D) Both Slicing and Dicing"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "The slice operation selects one particular dimension from a given cube and provides a new sub-cube. Dice selects two or more dimensions from a given cube and provides a new sub-cube."
-    },
-    {
-      "id": 16,
-      "section": "Computer Networks",
-      "question": "The operation of moving from finer-granularity data to a coarser granularity (by means of aggregation) is called a ________",
-      "options": [
-        "A) Rollup",
-        "B) Drill down",
-        "C) Dicing",
-        "D) Pivoting"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "The opposite operation—that of moving fromcoarser-granularity data to finer-granularity data—is called a drill down."
-    },
-    {
-      "id": 17,
-      "section": "Computer Networks",
-      "question": "In SQL the cross-tabs are created using",
-      "options": [
-        "A) Slice",
-        "B) Dice",
-        "C) Pivot",
-        "D) All of the mentioned"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Pivot (sum(quantity) for color in (’dark’,’pastel’,’white’))."
-    },
-    {
-      "id": 18,
-      "section": "Computer Networks",
-      "question": "What do data warehouses support?",
-      "options": [
-        "A) OLAP",
-        "B) OLTP",
-        "C) OLAP and OLTP",
-        "D) Operational databases"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "None."
-    },
-    {
-      "id": 19,
-      "section": "Computer Networks",
-      "question": "Which one of the following is the right syntax for DECODE?",
-      "options": [
-        "A) DECODE (search, expression, result [, search, result]… [, default])",
-        "B) DECODE (expression, result [, search, result]… [, default],  search)",
-        "C) DECODE (search, result [, search, result]… [, default], expression)",
-        "D) DECODE (expression, search, result [, search, result]… [, default])"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "None."
-    },
-    {
-      "id": 20,
-      "section": "Computer Networks",
-      "question": "Find the ID, name, dept name, salary for instructors whose salary is greater than $80,000 .",
-      "options": [
-        "A) {t | t ε instructor ∧ t[salary] > 80000}",
-        "B) Э t ∈ r (Q(t))",
-        "C) {t | Э s ε instructor (t[ID] = s[ID]∧ s[salary] > 80000)}",
-        "D) None of the mentioned"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "This expression is in tuple relational format."
-    },
-    {
-      "id": 21,
-      "section": "Computer Networks",
-      "question": "A query in the tuple relational calculus is expressed as:",
-      "options": [
-        "A) {t | P() | t}",
-        "B) {P(t) | t }",
-        "C) {t | P(t)}",
-        "D) All of the mentioned"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "The tuple relational calculus, is a nonprocedural query language. It describes the desired information without giving a specific procedure for obtaining that information."
-    },
-    {
-      "id": 22,
-      "section": "Computer Networks",
-      "question": "Which of the following symbol is used in the place of except?",
-      "options": [
-        "A) ^",
-        "B) V",
-        "C) ¬",
-        "D) ~"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "The query ¬P negates the value of P."
-    },
-    {
-      "id": 23,
-      "section": "Computer Networks",
-      "question": "“Find all students who have taken all courses offered in the Biology department.” The expressions that matches this sentence is :",
-      "options": [
-        "A) Э t ε r (Q(t))",
-        "B) ∀ t ε r (Q(t))",
-        "C) ¬ t ε r (Q(t))",
-        "D) ~ t ε r (Q(t))"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "∀ is used denote “for all” in SQL."
-    },
-    {
-      "id": 24,
-      "section": "Computer Networks",
-      "question": "Which of the following is the comparison operator in tuple relational calculus",
-      "options": [
-        "A) ⇒",
-        "B) =",
-        "C) ε",
-        "D) All of the mentioned"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "The comparison operators are (<, ≤, =,  =, >, ≥)."
-    },
-    {
-      "id": 25,
-      "section": "Computer Networks",
-      "question": "An expression in the domain relational calculus is of the form",
-      "options": [
-        "A) {P(x1, x2, . . . , xn) | < x1, x2, . . . , xn >  }",
-        "B) {x1, x2, . . . , xn |  < x1, x2, . . . , xn >  }",
-        "C) { x1, x2, . . . , xn  | x1, x2, . . . , xn}",
-        "D) {< x1, x2, . . . , xn > | P(x1, x2, . . . , xn)}"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "Here x1, x2, . . . , xn represent domain variables. P represents a formula composed of atoms, as was the case in the tuple relational calculus."
-    },
-    {
-      "id": 26,
-      "section": "Computer Networks",
-      "question": "In domain relaional calculus “there exist” can be expressed as",
-      "options": [
-        "A) (P1(x))",
-        "B) (P1(x)) Э x",
-        "C) V x (P1(x))",
-        "D) Э x (P1(x))"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "Э is used to denote “some” values in relational calculus."
-    },
-    {
-      "id": 27,
-      "section": "Computer Networks",
-      "question": "A set of possible data values is called",
-      "options": [
-        "A) Attribute",
-        "B) Degree",
-        "C) Tuple",
-        "D) Domain"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "None."
-    },
-    {
-      "id": 28,
-      "section": "Computer Networks",
-      "question": "_____________ express the number of entities to which another entity can be associated via a relationship set.",
-      "options": [
-        "A) Mapping Cardinality",
-        "B) Relational Cardinality",
-        "C) Participation Constraints",
-        "D) None of the mentioned"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Mapping cardinality is also called as cardinality ratio."
-    },
-    {
-      "id": 29,
-      "section": "Computer Networks",
-      "question": "An entity in A is associated with at most one entity in B, and an entity in B is associated with at most one entity in A.This is called as",
-      "options": [
-        "A) One-to-many",
-        "B) One-to-one",
-        "C) Many-to-many",
-        "D) Many-to-one"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "Here one entity in one set is related to one one entity in other set."
-    },
-    {
-      "id": 30,
-      "section": "Computer Networks",
-      "question": "An entity in A is associated with at most one entity in B. An entity in B, however, can be associated with any number (zero or more) of entities in A.",
-      "options": [
-        "A) One-to-many",
-        "B) One-to-one",
-        "C) Many-to-many",
-        "D) Many-to-one"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "Here more than one entity in one set is related to one one entity in other set."
-    },
-    {
-      "id": 31,
-      "section": "Computer Networks",
-      "question": "Data integrity constraints are used to:",
-      "options": [
-        "A) Control who is allowed access to the data",
-        "B) Ensure that duplicate records are not entered into the table",
-        "C) Improve the quality of data entered for a specific property",
-        "D) Prevent users from changing the values stored in the table"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "The data entered will be in a particular cell (i.e., table column)."
-    },
-    {
-      "id": 32,
-      "section": "Computer Networks",
-      "question": "Establishing limits on allowable property values, and specifying a set of acceptable, predefined options that can be assigned to a property are examples of:",
-      "options": [
-        "A) Attributes",
-        "B) Data integrity constraints",
-        "C) Method constraints",
-        "D) Referential integrity constraints"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "Only particular value satisfying the constraints are entered in the column."
-    },
-    {
-      "id": 33,
-      "section": "Computer Networks",
-      "question": "Which of the following can be addressed by enforcing a referential integrity constraint?",
-      "options": [
-        "A) All phone numbers must include the area code",
-        "B) Certain fields are required (such as the email address, or phone number) before the record is accepted",
-        "C) Information on the customer must be known before anything can be sold to that customer",
-        "D) Then entering an order quantity, the user must input a number and not some text (i.e., 12 rather than ‘a dozen’)"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "None."
-    },
-    {
-      "id": 34,
-      "section": "Computer Networks",
-      "question": "______ is a special type of integrity constraint that relates two relations & maintains consistency across the relations.",
-      "options": [
-        "A) Entity Integrity Constraints",
-        "B) Referential Integrity Constraints",
-        "C) Domain Integrity Constraints",
-        "D) Domain Constraints"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "None."
-    },
-    {
-      "id": 35,
-      "section": "Computer Networks",
-      "question": "Which one of the following uniquely identifies the elements in the relation?",
-      "options": [
-        "A) Secondary Key",
-        "B) Primary key",
-        "C) Foreign key",
-        "D) Composite key"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "Primary key checks for not null and uniqueness constraint."
-    },
-    {
-      "id": 36,
-      "section": "Computer Networks",
-      "question": "Drop Table cannot be used to drop a table referenced by a _________ constraint.",
-      "options": [
-        "A) Local Key",
-        "B) Primary Key",
-        "C) Composite Key",
-        "D) Foreign Key"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "Foreign key is used when primary key of one relation is used in another relation."
-    },
-    {
-      "id": 37,
-      "section": "Computer Networks",
-      "question": "____________ is preferred method for enforcing data integrity",
-      "options": [
-        "A) Constraints",
-        "B) Stored Procedure",
-        "C) Triggers",
-        "D) Cursors"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Constraints are specified to restrict entries in the relation."
-    },
-    {
-      "id": 38,
-      "section": "Computer Networks",
-      "question": "Which of the following gives a logical structure of the database graphically?",
-      "options": [
-        "A) Entity-relationship diagram",
-        "B) Entity diagram",
-        "C) Database diagram",
-        "D) Architectural representation"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "E-R diagrams are simple and clear—qualities that may well account in large part for the widespread use of the E-R model."
-    },
-    {
-      "id": 39,
-      "section": "Computer Networks",
-      "question": "The entity relationship set is represented in E-R diagram as",
-      "options": [
-        "A) Double diamonds",
-        "B) Undivided rectangles",
-        "C) Dashed lines",
-        "D) Diamond"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "Dashed lines link attributes of a relationship set to the relationship set."
-    },
-    {
-      "id": 40,
-      "section": "Computer Networks",
-      "question": "The Rectangles divided into two parts represents",
-      "options": [
-        "A) Entity set",
-        "B) Relationship set",
-        "C) Attributes of a relationship set",
-        "D) Primary key"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "The first part of the rectangle, contains the name of the entity set. The second part contains the names of all the attributes of the entity set."
-    },
-    {
-      "id": 41,
-      "section": "Computer Networks",
-      "question": "Consider a directed line(->) from the relationship set advisor to both entity sets instructor and student. This indicates _________ cardinality",
-      "options": [
-        "A) One to many",
-        "B) One to one",
-        "C) Many to many",
-        "D) Many to one"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "This indicates that an instructor may advise at most one student, and a student may have at most one advisor."
-    },
-    {
-      "id": 42,
-      "section": "Computer Networks",
-      "question": "We indicate roles in E-R diagrams by labeling the lines that connect ___________ to __________",
-      "options": [
-        "A) Diamond , diamond",
-        "B) Rectangle, diamond",
-        "C) Rectangle, rectangle",
-        "D) Diamond, rectangle"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "Diamond represents a relationship set and rectangle represents a entity set."
-    },
-    {
-      "id": 43,
-      "section": "Computer Networks",
-      "question": "An entity set that does not have sufficient attributes to form a primary key is termed a __________",
-      "options": [
-        "A) Strong entity set",
-        "B) Variant set",
-        "C) Weak entity set",
-        "D) Variable set"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "An entity set that has a primary key is termed a strong entity set."
-    },
-    {
-      "id": 44,
-      "section": "Computer Networks",
-      "question": "For a weak entity set to be meaningful, it must be associated with another entity set, called the",
-      "options": [
-        "A) Identifying set",
-        "B) Owner set",
-        "C) Neighbour set",
-        "D) Strong entity set"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Every weak entity must be associated with an identifying entity; that is, the weak entity set is said to be existence dependent on the identifying entity set. The identifying entity set is said to own the weak entity set that it identifies. It is also called as owner entity set."
-    },
-    {
-      "id": 45,
-      "section": "Computer Networks",
-      "question": "Weak entity set is represented as",
-      "options": [
-        "A) Underline",
-        "B) Double line",
-        "C) Double diamond",
-        "D) Double rectangle"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "Weak entity set is represented as a double rectangle in entity relationship diagram."
-    },
-    {
-      "id": 46,
-      "section": "Computer Networks",
-      "question": "If you were collecting and storing information about your music collection, an album would be considered a(n) _____",
-      "options": [
-        "A) Relation",
-        "B) Entity",
-        "C) Instance",
-        "D) Attribute"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "An entity set is a logical container for instances of an entity type and instances of any type derived from that entity type."
-    },
-    {
-      "id": 47,
-      "section": "Computer Networks",
-      "question": "What term is used to refer to a specific record in your music database; for instance; information stored about a specific album?",
-      "options": [
-        "A) Relation",
-        "B) Instance",
-        "C) Table",
-        "D) Column"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "The environment of database is said to be an instance. A database instance or an ‘instance’ is made up of the background processes needed by the database."
-    },
-    {
-      "id": 48,
-      "section": "Computer Networks",
-      "question": "Which of the following command is used to display the departments of the instructor relation?",
-      "options": [
-        "A) Select * from instructor where Dept_name = Finance;",
-        "B) Select * from instructor ;",
-        "C) Select dept_name from instructor;",
-        "D) Select dept_name for instructor where Name=Jackson;"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "Only one field is necessary for the query and where clause is not needed for the selection."
-    },
-    {
-      "id": 49,
-      "section": "Computer Networks",
-      "question": "How can we select the elements which have common Dept_name in both the relation ?",
-      "options": [
-        "A) Select * from instructor i , course c where i.Dept_name=c.Dept_name;",
-        "B) Select Dept name from instructor ,Course ;",
-        "C) Select * from instructor i , course c ;",
-        "D) Select Dept_name from instructor where Dept_name = NULL;"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Here only the common elements are displayed ."
-    },
-    {
-      "id": 50,
-      "section": "Computer Networks",
-      "question": "Select distinct Dept_name from instructor ;",
-      "options": [
-        "A) 4",
-        "B) 3",
-        "C) 5",
-        "D) Error"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Distinct keyword eliminates the the common Dept_name  ."
-    }
-  ]
-}
+[
+  {
+    "question": "The format for compound statement is",
+    "options": [
+      "A) Begin ……. end",
+      "B) Begin atomic……. end",
+      "C) Begin ……. repeat",
+      "D) Both Begin ……. end and Begin atomic……. end"
+    ],
+    "correct_answer": "D",
+    "explanation": "A compound statement is of the form begin . . . end, and it may contain multiple SQL statements between the begin and the end.A compound statement of the form begin atomic . . . end ensures that all the statements contained within it are executed as a single transaction."
+  },
+  {
+    "question": "A stored procedure in SQL is a___________",
+    "options": [
+      "A) Block of functions",
+      "B) Group of Transact-SQL statements compiled into a single execution plan.",
+      "C) Group of distinct SQL statements.",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "If it an atomic statement then the statements are in single transaction."
+  },
+  {
+    "question": "Temporary stored procedures are stored in _________ database.",
+    "options": [
+      "A) Master",
+      "B) Model",
+      "C) User specific",
+      "D) Tempdb"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "Any recursive view must be defined as the union of two subqueries: a _______ query that is nonrecursive and a __________ query.",
+    "options": [
+      "A) Base, recursive",
+      "B) Recursive, Base",
+      "C) Base, Redundant",
+      "D) View, Base"
+    ],
+    "correct_answer": "A",
+    "explanation": "First compute the base query and add all the resultant tuples to the recursively defined view relation."
+  },
+  {
+    "question": "Ranking of queries is done by which of the following?",
+    "options": [
+      "A) Group by",
+      "B) Order by",
+      "C) Having",
+      "D) Both Group by and Order by"
+    ],
+    "correct_answer": "B",
+    "explanation": "Order by clause arranges the values in ascending or descending order where a default is ascending order."
+  },
+  {
+    "question": "In rank() function if one value is shared by two tuples then",
+    "options": [
+      "A) The rank order continues as counting numbers",
+      "B) The rank order continues by leaving one rank in the middle",
+      "C) The user specifies the order",
+      "D) The order does not change"
+    ],
+    "correct_answer": "B",
+    "explanation": "Example. rank() over (order by (GPA) desc)."
+  },
+  {
+    "question": "The  __________ function that does not create gaps in the ordering.",
+    "options": [
+      "A) Intense_rank()",
+      "B) Continue_rank()",
+      "C) Default_rank()",
+      "D) Dense_rank()"
+    ],
+    "correct_answer": "D",
+    "explanation": "For dense_rank() the tuples with the second highest value all get rank 2, and tuples with the third highest value get rank 3, and so on."
+  },
+  {
+    "question": "If there are n tuples in the partition and the rank of the tuple is r, then its ________ is defined as (r −1)/(n−1).",
+    "options": [
+      "A) Ntil()",
+      "B) Cum_rank",
+      "C) Percent_rank",
+      "D) rank()"
+    ],
+    "correct_answer": "C",
+    "explanation": "Percent rank of a tuple gives the rank of the tuple as a fraction."
+  },
+  {
+    "question": "Inorder to simplify the null value confusion in the rank function we can specify",
+    "options": [
+      "A) Not Null",
+      "B) Nulls last",
+      "C) Nulls first",
+      "D) Either Nulls last or first"
+    ],
+    "correct_answer": "D",
+    "explanation": "select ID, rank () over (order by GPA desc nulls last) as s rank from student grades;."
+  },
+  {
+    "question": "The functions which construct histograms and use buckets for ranking is",
+    "options": [
+      "A) Rank()",
+      "B) Newtil()",
+      "C) Ntil()",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "For each tuple, ntile(n) then gives the number of the bucket in which it is placed, with bucket numbers starting with 1."
+  },
+  {
+    "question": "The command ________________ such tables are available only within the transaction executing the query and are dropped when the transaction finishes.",
+    "options": [
+      "A) Create table",
+      "B) Create temporary table",
+      "C) Create view",
+      "D) Create label view"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "OLAP stands for",
+    "options": [
+      "A) Online analytical processing",
+      "B) Online analysis processing",
+      "C) Online transaction processing",
+      "D) Online aggregate processing"
+    ],
+    "correct_answer": "A",
+    "explanation": "OLAP is the manipulation of information to support decision making."
+  },
+  {
+    "question": "Data that can be modeled as dimension attributes and measure attributes are called _______ data.",
+    "options": [
+      "A) Multidimensional",
+      "B) Singledimensional",
+      "C) Measured",
+      "D) Dimensional"
+    ],
+    "correct_answer": "A",
+    "explanation": "Given a relation used for data analysis, we can identify some of its attributes as measure attributes, since they measure some value, and can be aggregated upon.Dimension attribute define the dimensions on which measure attributes, and summaries of measure attributes, are viewed."
+  },
+  {
+    "question": "The generalization of cross-tab which is represented visually is ____________ which is also called as data cube.",
+    "options": [
+      "A) Two dimensional cube",
+      "B) Multidimensional cube",
+      "C) N-dimensional cube",
+      "D) Cuboid"
+    ],
+    "correct_answer": "A",
+    "explanation": "Each cell in the cube is identified for the values for the three dimensional attributes."
+  },
+  {
+    "question": "The process of viewing the cross-tab (Single dimensional) with a fixed value of one attribute is",
+    "options": [
+      "A) Slicing",
+      "B) Dicing",
+      "C) Pivoting",
+      "D) Both Slicing and Dicing"
+    ],
+    "correct_answer": "A",
+    "explanation": "The slice operation selects one particular dimension from a given cube and provides a new sub-cube. Dice selects two or more dimensions from a given cube and provides a new sub-cube."
+  },
+  {
+    "question": "The operation of moving from finer-granularity data to a coarser granularity (by means of aggregation) is called a ________",
+    "options": [
+      "A) Rollup",
+      "B) Drill down",
+      "C) Dicing",
+      "D) Pivoting"
+    ],
+    "correct_answer": "A",
+    "explanation": "The opposite operation—that of moving fromcoarser-granularity data to finer-granularity data—is called a drill down."
+  },
+  {
+    "question": "In SQL the cross-tabs are created using",
+    "options": [
+      "A) Slice",
+      "B) Dice",
+      "C) Pivot",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Pivot (sum(quantity) for color in (’dark’,’pastel’,’white’))."
+  },
+  {
+    "question": "What do data warehouses support?",
+    "options": [
+      "A) OLAP",
+      "B) OLTP",
+      "C) OLAP and OLTP",
+      "D) Operational databases"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "Which one of the following is the right syntax for DECODE?",
+    "options": [
+      "A) DECODE (search, expression, result [, search, result]… [, default])",
+      "B) DECODE (expression, result [, search, result]… [, default],  search)",
+      "C) DECODE (search, result [, search, result]… [, default], expression)",
+      "D) DECODE (expression, search, result [, search, result]… [, default])"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "Find the ID, name, dept name, salary for instructors whose salary is greater than $80,000 .",
+    "options": [
+      "A) {t | t ε instructor ∧ t[salary] > 80000}",
+      "B) Э t ∈ r (Q(t))",
+      "C) {t | Э s ε instructor (t[ID] = s[ID]∧ s[salary] > 80000)}",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "This expression is in tuple relational format."
+  },
+  {
+    "question": "A query in the tuple relational calculus is expressed as:",
+    "options": [
+      "A) {t | P() | t}",
+      "B) {P(t) | t }",
+      "C) {t | P(t)}",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "The tuple relational calculus, is a nonprocedural query language. It describes the desired information without giving a specific procedure for obtaining that information."
+  },
+  {
+    "question": "Which of the following symbol is used in the place of except?",
+    "options": [
+      "A) ^",
+      "B) V",
+      "C) ¬",
+      "D) ~"
+    ],
+    "correct_answer": "C",
+    "explanation": "The query ¬P negates the value of P."
+  },
+  {
+    "question": "“Find all students who have taken all courses offered in the Biology department.” The expressions that matches this sentence is :",
+    "options": [
+      "A) Э t ε r (Q(t))",
+      "B) ∀ t ε r (Q(t))",
+      "C) ¬ t ε r (Q(t))",
+      "D) ~ t ε r (Q(t))"
+    ],
+    "correct_answer": "B",
+    "explanation": "∀ is used denote “for all” in SQL."
+  },
+  {
+    "question": "Which of the following is the comparison operator in tuple relational calculus",
+    "options": [
+      "A) ⇒",
+      "B) =",
+      "C) ε",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "The comparison operators are (<, ≤, =,  =, >, ≥)."
+  },
+  {
+    "question": "An expression in the domain relational calculus is of the form",
+    "options": [
+      "A) {P(x1, x2, . . . , xn) | < x1, x2, . . . , xn >  }",
+      "B) {x1, x2, . . . , xn |  < x1, x2, . . . , xn >  }",
+      "C) { x1, x2, . . . , xn  | x1, x2, . . . , xn}",
+      "D) {< x1, x2, . . . , xn > | P(x1, x2, . . . , xn)}"
+    ],
+    "correct_answer": "D",
+    "explanation": "Here x1, x2, . . . , xn represent domain variables. P represents a formula composed of atoms, as was the case in the tuple relational calculus."
+  },
+  {
+    "question": "In domain relaional calculus “there exist” can be expressed as",
+    "options": [
+      "A) (P1(x))",
+      "B) (P1(x)) Э x",
+      "C) V x (P1(x))",
+      "D) Э x (P1(x))"
+    ],
+    "correct_answer": "D",
+    "explanation": "Э is used to denote “some” values in relational calculus."
+  },
+  {
+    "question": "A set of possible data values is called",
+    "options": [
+      "A) Attribute",
+      "B) Degree",
+      "C) Tuple",
+      "D) Domain"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "_____________ express the number of entities to which another entity can be associated via a relationship set.",
+    "options": [
+      "A) Mapping Cardinality",
+      "B) Relational Cardinality",
+      "C) Participation Constraints",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Mapping cardinality is also called as cardinality ratio."
+  },
+  {
+    "question": "An entity in A is associated with at most one entity in B, and an entity in B is associated with at most one entity in A.This is called as",
+    "options": [
+      "A) One-to-many",
+      "B) One-to-one",
+      "C) Many-to-many",
+      "D) Many-to-one"
+    ],
+    "correct_answer": "B",
+    "explanation": "Here one entity in one set is related to one one entity in other set."
+  },
+  {
+    "question": "An entity in A is associated with at most one entity in B. An entity in B, however, can be associated with any number (zero or more) of entities in A.",
+    "options": [
+      "A) One-to-many",
+      "B) One-to-one",
+      "C) Many-to-many",
+      "D) Many-to-one"
+    ],
+    "correct_answer": "D",
+    "explanation": "Here more than one entity in one set is related to one one entity in other set."
+  },
+  {
+    "question": "Data integrity constraints are used to:",
+    "options": [
+      "A) Control who is allowed access to the data",
+      "B) Ensure that duplicate records are not entered into the table",
+      "C) Improve the quality of data entered for a specific property",
+      "D) Prevent users from changing the values stored in the table"
+    ],
+    "correct_answer": "C",
+    "explanation": "The data entered will be in a particular cell (i.e., table column)."
+  },
+  {
+    "question": "Establishing limits on allowable property values, and specifying a set of acceptable, predefined options that can be assigned to a property are examples of:",
+    "options": [
+      "A) Attributes",
+      "B) Data integrity constraints",
+      "C) Method constraints",
+      "D) Referential integrity constraints"
+    ],
+    "correct_answer": "B",
+    "explanation": "Only particular value satisfying the constraints are entered in the column."
+  },
+  {
+    "question": "Which of the following can be addressed by enforcing a referential integrity constraint?",
+    "options": [
+      "A) All phone numbers must include the area code",
+      "B) Certain fields are required (such as the email address, or phone number) before the record is accepted",
+      "C) Information on the customer must be known before anything can be sold to that customer",
+      "D) Then entering an order quantity, the user must input a number and not some text (i.e., 12 rather than ‘a dozen’)"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "______ is a special type of integrity constraint that relates two relations & maintains consistency across the relations.",
+    "options": [
+      "A) Entity Integrity Constraints",
+      "B) Referential Integrity Constraints",
+      "C) Domain Integrity Constraints",
+      "D) Domain Constraints"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "Which one of the following uniquely identifies the elements in the relation?",
+    "options": [
+      "A) Secondary Key",
+      "B) Primary key",
+      "C) Foreign key",
+      "D) Composite key"
+    ],
+    "correct_answer": "B",
+    "explanation": "Primary key checks for not null and uniqueness constraint."
+  },
+  {
+    "question": "Drop Table cannot be used to drop a table referenced by a _________ constraint.",
+    "options": [
+      "A) Local Key",
+      "B) Primary Key",
+      "C) Composite Key",
+      "D) Foreign Key"
+    ],
+    "correct_answer": "D",
+    "explanation": "Foreign key is used when primary key of one relation is used in another relation."
+  },
+  {
+    "question": "____________ is preferred method for enforcing data integrity",
+    "options": [
+      "A) Constraints",
+      "B) Stored Procedure",
+      "C) Triggers",
+      "D) Cursors"
+    ],
+    "correct_answer": "A",
+    "explanation": "Constraints are specified to restrict entries in the relation."
+  },
+  {
+    "question": "Which of the following gives a logical structure of the database graphically?",
+    "options": [
+      "A) Entity-relationship diagram",
+      "B) Entity diagram",
+      "C) Database diagram",
+      "D) Architectural representation"
+    ],
+    "correct_answer": "A",
+    "explanation": "E-R diagrams are simple and clear—qualities that may well account in large part for the widespread use of the E-R model."
+  },
+  {
+    "question": "The entity relationship set is represented in E-R diagram as",
+    "options": [
+      "A) Double diamonds",
+      "B) Undivided rectangles",
+      "C) Dashed lines",
+      "D) Diamond"
+    ],
+    "correct_answer": "D",
+    "explanation": "Dashed lines link attributes of a relationship set to the relationship set."
+  },
+  {
+    "question": "The Rectangles divided into two parts represents",
+    "options": [
+      "A) Entity set",
+      "B) Relationship set",
+      "C) Attributes of a relationship set",
+      "D) Primary key"
+    ],
+    "correct_answer": "A",
+    "explanation": "The first part of the rectangle, contains the name of the entity set. The second part contains the names of all the attributes of the entity set."
+  },
+  {
+    "question": "Consider a directed line(->) from the relationship set advisor to both entity sets instructor and student. This indicates _________ cardinality",
+    "options": [
+      "A) One to many",
+      "B) One to one",
+      "C) Many to many",
+      "D) Many to one"
+    ],
+    "correct_answer": "B",
+    "explanation": "This indicates that an instructor may advise at most one student, and a student may have at most one advisor."
+  },
+  {
+    "question": "We indicate roles in E-R diagrams by labeling the lines that connect ___________ to __________",
+    "options": [
+      "A) Diamond , diamond",
+      "B) Rectangle, diamond",
+      "C) Rectangle, rectangle",
+      "D) Diamond, rectangle"
+    ],
+    "correct_answer": "D",
+    "explanation": "Diamond represents a relationship set and rectangle represents a entity set."
+  },
+  {
+    "question": "An entity set that does not have sufficient attributes to form a primary key is termed a __________",
+    "options": [
+      "A) Strong entity set",
+      "B) Variant set",
+      "C) Weak entity set",
+      "D) Variable set"
+    ],
+    "correct_answer": "C",
+    "explanation": "An entity set that has a primary key is termed a strong entity set."
+  },
+  {
+    "question": "For a weak entity set to be meaningful, it must be associated with another entity set, called the",
+    "options": [
+      "A) Identifying set",
+      "B) Owner set",
+      "C) Neighbour set",
+      "D) Strong entity set"
+    ],
+    "correct_answer": "A",
+    "explanation": "Every weak entity must be associated with an identifying entity; that is, the weak entity set is said to be existence dependent on the identifying entity set. The identifying entity set is said to own the weak entity set that it identifies. It is also called as owner entity set."
+  },
+  {
+    "question": "Weak entity set is represented as",
+    "options": [
+      "A) Underline",
+      "B) Double line",
+      "C) Double diamond",
+      "D) Double rectangle"
+    ],
+    "correct_answer": "D",
+    "explanation": "Weak entity set is represented as a double rectangle in entity relationship diagram."
+  },
+  {
+    "question": "If you were collecting and storing information about your music collection, an album would be considered a(n) _____",
+    "options": [
+      "A) Relation",
+      "B) Entity",
+      "C) Instance",
+      "D) Attribute"
+    ],
+    "correct_answer": "B",
+    "explanation": "An entity set is a logical container for instances of an entity type and instances of any type derived from that entity type."
+  },
+  {
+    "question": "What term is used to refer to a specific record in your music database; for instance; information stored about a specific album?",
+    "options": [
+      "A) Relation",
+      "B) Instance",
+      "C) Table",
+      "D) Column"
+    ],
+    "correct_answer": "B",
+    "explanation": "The environment of database is said to be an instance. A database instance or an ‘instance’ is made up of the background processes needed by the database."
+  },
+  {
+    "question": "Which of the following command is used to display the departments of the instructor relation?",
+    "options": [
+      "A) Select * from instructor where Dept_name = Finance;",
+      "B) Select * from instructor ;",
+      "C) Select dept_name from instructor;",
+      "D) Select dept_name for instructor where Name=Jackson;"
+    ],
+    "correct_answer": "C",
+    "explanation": "Only one field is necessary for the query and where clause is not needed for the selection."
+  },
+  {
+    "question": "How can we select the elements which have common Dept_name in both the relation ?",
+    "options": [
+      "A) Select * from instructor i , course c where i.Dept_name=c.Dept_name;",
+      "B) Select Dept name from instructor ,Course ;",
+      "C) Select * from instructor i , course c ;",
+      "D) Select Dept_name from instructor where Dept_name = NULL;"
+    ],
+    "correct_answer": "A",
+    "explanation": "Here only the common elements are displayed ."
+  },
+  {
+    "question": "Select distinct Dept_name from instructor ;",
+    "options": [
+      "A) 4",
+      "B) 3",
+      "C) 5",
+      "D) Error"
+    ],
+    "correct_answer": "A",
+    "explanation": "Distinct keyword eliminates the the common Dept_name  ."
+  }
+]

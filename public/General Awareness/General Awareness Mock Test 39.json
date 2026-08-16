@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General Awareness",
       "question": "When income rises from ₹1,000 to ₹1,100, then what will be the change in savings, if the Marginal Propensity to Save is 0.7?",
+      "question_image": null,
       "options": [
         "70",
         "30",
         "100",
         "50"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (70) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (70) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General Awareness",
       "question": "What is the mass ratio of carbon to oxygen in CO2?",
+      "question_image": null,
       "options": [
         "3 : 8",
         "8 : 3",
         "1 : 2",
         "2 : 1"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (3 : 8) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (3 : 8) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General Awareness",
       "question": "In which sports did Kapil Parmar win the bronze medal at the Paris Paralympics 2024?",
+      "question_image": null,
       "options": [
         "High Jump",
         "Judo",
         "Shooting",
         "Long Jump"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Judo) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Judo) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General Awareness",
       "question": "What is the target year for India to achieve net-zero emissions according to the Panchamrit action plan?",
+      "question_image": null,
       "options": [
         "2030",
         "2047",
         "2050",
         "2070"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (2070) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (2070) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General Awareness",
       "question": "The salaries, allowances and pensions of Supreme Court Judges and CAG come from which of the following?",
+      "question_image": null,
       "options": [
         "Reserve Bank of India",
         "Public Accounts",
         "Consolidated Fund of India",
         "Contingency Fund of India"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Consolidated Fund of India) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Consolidated Fund of India) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General Awareness",
       "question": "Which of the following is a primary objective of restructuring financial institutions?",
+      "question_image": null,
       "options": [
         "Ignoring regulatory compliance",
         "Enhancing operational efficiency",
         "Maximising shareholder dividends",
         "Minimising customer base"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Enhancing operational efficiency) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Enhancing operational efficiency) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General Awareness",
       "question": "Select the correct statement about religions in India as per Census 2011.",
+      "question_image": null,
       "options": [
         "The growth rate of the population of the Hindu community was 26.8%.",
         "The growth rate of the population in the decade 2001-2011 was 27.7%.",
         "The growth rate of the population of the Jain community was 9.4%.",
         "The growth rate of the population of the Muslim community was 24.6%."
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (The growth rate of the population of the Muslim community was 24.6%.) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (The growth rate of the population of the Muslim community was 24.6%.) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General Awareness",
       "question": "Which state’s Chief Minister conferred a cash prize of ₹1 crore each to hockey players for winning a bronze medal at the Paris Olympics in 2024?",
+      "question_image": null,
       "options": [
         "Maharashtra",
         "Punjab",
         "Haryana",
         "Uttar Pradesh"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Punjab) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Punjab) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General Awareness",
       "question": "As on March 2024, the Preamble of the Indian Constitution has been amended __________ time(s).",
+      "question_image": null,
       "options": [
         "one",
         "two",
         "three",
         "four"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (one) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (one) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General Awareness",
       "question": "Who among the following was the first Vice President of India?",
+      "question_image": null,
       "options": [
         "Dr. Zakir Hussain",
         "Dr. Rajendra Prasad",
         "VV Giri",
         "Dr. Sarvepalli Radhakrishnan"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Dr. Sarvepalli Radhakrishnan) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Dr. Sarvepalli Radhakrishnan) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General Awareness",
       "question": "As of July 2024, the proposed and announced South Coastal Railway Zone's headquarters is located in the state of _________________.",
+      "question_image": null,
       "options": [
         "Andhra Pradesh",
         "Tamilnadu",
         "Telangana",
         "Karnataka"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Andhra Pradesh) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Andhra Pradesh) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General Awareness",
       "question": "Where is the National Council for Promotion of Urdu language located?",
+      "question_image": null,
       "options": [
         "Mumbai",
         "Lucknow",
         "Hyderabad",
         "Delhi"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Delhi) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Delhi) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General Awareness",
       "question": "What was the profession of Aziz Khummar who was appointed to a high administrative post by Muhammad Tughluq?",
+      "question_image": null,
       "options": [
         "Barber",
         "Gardener",
         "Cook",
         "Wine distiller"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Wine distiller) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Wine distiller) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General Awareness",
       "question": "It shall be the duty of the ____________ to promote the spread of the Hindi language.",
+      "question_image": null,
       "options": [
         "Union",
         "Lok Sabha",
         "Rajya Sabha",
         "State"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Union) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Union) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General Awareness",
       "question": "Which of the following is the total cost per unit of output?",
+      "question_image": null,
       "options": [
         "Marginal Cost",
         "Average Variable Cost",
         "Average Cost",
         "Average Fixed Cost"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Average Cost) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Average Cost) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General Awareness",
       "question": "Which of the following economic theories emphasises the role of institutions in perpetuating poverty?",
+      "question_image": null,
       "options": [
         "Modernisation theory",
         "Dependency theory",
         "Human capital theory",
         "Structural adjustment theory"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Dependency theory) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Dependency theory) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General Awareness",
       "question": "Which state emerged as the overall champion at the 2025 National Kickboxing Championship held in Raipur?",
+      "question_image": null,
       "options": [
         "West Bengal",
         "Andhra Pradesh",
         "Punjab",
         "Maharashtra"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Punjab) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Punjab) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General Awareness",
       "question": "What is the official language of Odisha?",
+      "question_image": null,
       "options": [
         "Odia",
         "Sanskrit",
         "Hindi",
         "English"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Odia) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Odia) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General Awareness",
       "question": "What was Neeraj Chopra's best throw distance that earned him the silver medal in the men's javelin throw at the Paris Olympics 2024?",
+      "question_image": null,
       "options": [
         "90.58 metres",
         "88.77 metres",
         "89.45 metres",
         "86.47 metres"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (89.45 metres) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (89.45 metres) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General Awareness",
       "question": "In which of the following years was the Central Hindi Directorate (CHD) established?",
+      "question_image": null,
       "options": [
         "1953",
         "1954",
         "1960",
         "1959"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (1960) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (1960) है।",
+      "explanation_image": null
     }
   ]
 }

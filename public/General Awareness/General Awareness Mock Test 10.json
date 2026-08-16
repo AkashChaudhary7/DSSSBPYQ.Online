@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General Awareness",
       "question": "Which of the following is NOT included in the Blue Economy 2.0 scheme?",
+      "question_image": null,
       "options": [
         "Deep-sea mining",
         "Climate-resilient activities",
         "Mariculture",
         "Coastal aquaculture"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Climate-resilient activities) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Climate-resilient activities) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General Awareness",
       "question": "Which team won the 3rd edition of Women’s Premier League in 2025?",
+      "question_image": null,
       "options": [
         "Delhi Capitals",
         "Gujarat Giants",
         "Mumbai Indians",
         "Royal Challengers Bengaluru"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Mumbai Indians) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Mumbai Indians) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General Awareness",
       "question": "The famous valleys of Kashmir, Kangra and Kullu are located in which of the following ranges of the Himalayas?",
+      "question_image": null,
       "options": [
         "Inner Himalayas",
         "Shivaliks",
         "Himadri",
         "Himachal"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Himachal) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Himachal) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General Awareness",
       "question": "Which was the first State to release the Semiconductor Policy 2022-27?",
+      "question_image": null,
       "options": [
         "Gujarat",
         "Maharashtra",
         "Assam",
         "Karnataka"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Gujarat) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Gujarat) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General Awareness",
       "question": "Which of the following innovations could help conserve freshwater by improving agricultural efficiency and reducing wastage?",
+      "question_image": null,
       "options": [
         "IoT- and data-driven precision farming",
         "Unregulated flood irrigation only",
         "Burning crop residues more frequently",
         "Removing irrigation altogether"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (IoT- and data-driven precision farming) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (IoT- and data-driven precision farming) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General Awareness",
       "question": "In the expenditure method of computing the national income, which of the following items will NOT be included?",
+      "question_image": null,
       "options": [
         "Personal consumption",
         "The private domestic investment",
         "Government purchases of goods and services",
         "Expenditure on purchase second hand goods"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Expenditure on purchase second hand goods) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Expenditure on purchase second hand goods) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General Awareness",
       "question": "भारतीय संविधान के अनुसार, भारत के प्रत्येक नागरिक का, जो माता-पिता या संरक्षक है, यह कर्तव्य होगा कि वह छह से _____ वर्ष की आयु के बीच के अपने बच्चे या प्रतिपाल्य, जैसा भी मामला हो, को शिक्षा के अवसर प्रदान करे।",
+      "question_image": null,
       "options": [
         "सोलह",
         "बारह",
         "चौदह",
         "दस"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (चौदह) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (चौदह) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General Awareness",
       "question": "निम्नलिखित में से किस इतिवृत्त में उल्लेख है कि चंद्रगुप्त मौर्य क्षत्रिय वंश से संबंधित थे जिसे मोरिया के नाम से जाना जाता था?",
+      "question_image": null,
       "options": [
         "इंडिका",
         "अर्थशास्त्र",
         "अंगुत्तर निकाय",
         "महावंश"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (महावंश) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (महावंश) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General Awareness",
       "question": "Kerala film industry, that produces films in Malayalam, is nick-named _________.",
+      "question_image": null,
       "options": [
         "tollywood",
         "mollywood",
         "kollywood",
         "sandalwood"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (mollywood) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (mollywood) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General Awareness",
       "question": "In the year 2023, the movie 'The Elephant Whisperers' got the Oscar Award in the category of ________________.",
+      "question_image": null,
       "options": [
         "Best Foreign Language Film",
         "Best Documentary (Short Film)",
         "Best Picture",
         "Best Documentary (Feature Film)"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Best Documentary (Short Film)) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Best Documentary (Short Film)) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General Awareness",
       "question": "जिला परिषद के कार्यों के संबंध में निम्नलिखित में से कौन-सा कथन गलत है?",
+      "question_image": null,
       "options": [
         "यह विभिन्न पंचायत समितियों के कार्यों का समन्वय करता है।",
         "यह राज्य द्वारा आवंटित धन को सीधे ग्राम पंचायतों को वितरित करता है।",
         "यह जिले में विकास गतिविधियों के संबंध में राज्य सरकार को सलाह देता है।",
         "यह पंचायत समितियों के बजट की जांच और अनुमोदन करता है।"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (यह राज्य द्वारा आवंटित धन को सीधे ग्राम पंचायतों को वितरित करता है।) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (यह राज्य द्वारा आवंटित धन को सीधे ग्राम पंचायतों को वितरित करता है।) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General Awareness",
       "question": "The Law of Diminishing Marginal Product states that:",
+      "question_image": null,
       "options": [
         "the marginal product increases as total product decreases",
         "the total product increases as marginal product decreases",
         "the marginal product decreases as the quantity of variable input increases",
         "the total product decreases as the quantity of fixed input increases"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (the marginal product decreases as the quantity of variable input increases) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (the marginal product decreases as the quantity of variable input increases) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General Awareness",
       "question": "Which of the following committees are associated with Panchayati Raj in India?I. Balwant Rai MehtaII. GVK RaoIII. Ashok MehtaIV. Gadgil",
+      "question_image": null,
       "options": [
         "Only I, II and IV",
         "Only I and III",
         "I, II, III and IV",
         "Only II and IV"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (I, II, III and IV) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (I, II, III and IV) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General Awareness",
       "question": "Which state/union territory of India has the highest percentage of Sikh population as per the 2011 census?",
+      "question_image": null,
       "options": [
         "Delhi",
         "Haryana",
         "Chandigarh",
         "Punjab"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Punjab) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Punjab) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General Awareness",
       "question": "The inscription on the Vaishali Pillar of Ashoka is presently located in which of the following states of India?",
+      "question_image": null,
       "options": [
         "Uttar Pradesh",
         "Odisha",
         "Bihar",
         "Madhya Pradesh"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Bihar) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Bihar) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General Awareness",
       "question": "Which team won the Khelo Creators League 2025 trophy?",
+      "question_image": null,
       "options": [
         "Judges Lions",
         "Shekhawati Strikers",
         "Pink City Paltan",
         "Admin Warriors"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Shekhawati Strikers) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Shekhawati Strikers) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General Awareness",
       "question": "In which state of India was the 12th Divya Kala Mela organised from 29 December 2023 to 7 January 2024?",
+      "question_image": null,
       "options": [
         "Madhya Pradesh",
         "Himachal Pradesh",
         "Gujarat",
         "Uttar Pradesh"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Gujarat) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Gujarat) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General Awareness",
       "question": "With which of the following institutes did the Indian Register of Shipping (IRS) Mumbai sign an MOU on advancing maritime safety through the development of a ship trajectory prediction tool in July 2024?",
+      "question_image": null,
       "options": [
         "IIT Guwahati",
         "IIT Madras",
         "IIT Roorkee",
         "IIT Bombay"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (IIT Bombay) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (IIT Bombay) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General Awareness",
       "question": "What is the primary function of the ozone layer in the Earth’s atmosphere?",
+      "question_image": null,
       "options": [
         "To absorb harmful ultraviolet (UV) radiation from the Sun",
         "To produce and supply oxygen essential for all living organisms",
         "To trap carbon dioxide and help in regulating the temperature",
         "To reflect sunlight effectively and assist in causing rainfall"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (To absorb harmful ultraviolet (UV) radiation from the Sun) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (To absorb harmful ultraviolet (UV) radiation from the Sun) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General Awareness",
       "question": "__________ was the Minister of Youth Affairs and Sports of India in 2021.",
+      "question_image": null,
       "options": [
         "Anurag Thakur",
         "Kiren Rijiju",
         "Vijay Goel",
         "Rajyavardhan Singh Rathore"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Anurag Thakur) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Anurag Thakur) है।",
+      "explanation_image": null
     }
   ]
 }

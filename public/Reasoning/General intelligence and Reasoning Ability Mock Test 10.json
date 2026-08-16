@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘+’ means ‘–’, ‘–’ means ‘×’, ‘×’ means ‘÷’, ‘÷’ means ‘+’, then what will come in place of the question mark (?) in the following equation?26 – 5 ÷ 216 × 6 + 14 = ?",
+      "question_image": null,
       "options": [
         "171",
         "143",
         "165",
         "152"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (152) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (152) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘EACH’ is coded as ‘9456’ and ‘CASH’ is coded as ‘5934’. What is the code for ‘S’ in the given code language?",
+      "question_image": null,
       "options": [
         "3",
         "5",
         "4",
         "9"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (3) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (3) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "Town P is to the south of town Q. Town Q is to the west of town R. Town S is to the south of town R. Town T is to the west of town S. Town P is to the north-west of town S. Town T is to the south of town Q. What is the position of town P with respect to town T?",
+      "question_image": null,
       "options": [
         "West",
         "East",
         "North",
         "South"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (North) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (North) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series in order to make it logically complete?CZL 11,   DYN 13,   EXP 15,   FWR 17,   ?",
+      "question_image": null,
       "options": [
         "GVU 19",
         "GVT 21",
         "GVT 19",
         "HUT 21"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (GVT 19) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (GVT 19) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a row of 45 students facing the North, Yashvi is 32nd from the right end. If Suman is 12th to the left of Yashvi, what is Suman's position from the left end of the line?",
+      "question_image": null,
       "options": [
         "1st",
         "2nd",
         "4th",
         "3rd"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (2nd) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (2nd) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the following words.LAP  SIT  CAN  DENIn each of the words, each vowel is changed to the second letter preceding it in the English alphabetical order and each consonant is changed to the letter immediately following it in the English alphabetical order. In how many letter-clusters, thus formed, will no vowel appear?",
+      "question_image": null,
       "options": [
         "Four",
         "One",
         "Two",
         "Three"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (One) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (One) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number result(s) in the second number. Similarly, certain mathematical operation(s) on the second number result(s) in the third number and so on. Which of the given options follows the same set of operations as in the given sets?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)37 - 61 - 85 - 10954 - 78 - 102 - 126",
+      "question_image": null,
       "options": [
         "22 - 46 - 60 - 94",
         "31 - 45 - 69 - 83",
         "49 - 73 - 87 - 121",
         "62 - 86 - 110 - 134"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (62 - 86 - 110 - 134) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (62 - 86 - 110 - 134) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?\n\n903 908 913 918 ?",
+      "question_image": null,
       "options": [
         "922",
         "921",
         "923",
         "924"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (923) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (923) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘TYRE’ is coded as ‘3846’ and ‘TERM’ is coded as ‘2386’. What is the code for ‘M’ in the given code language?760",
+      "question_image": null,
       "options": [
         "3",
         "2",
         "6",
         "8"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (2) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (2) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the set in which the numbers are related in the same way as are the numbers of the following sets. (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)(11, 6, 66)(15, 8, 120)",
+      "question_image": null,
       "options": [
         "(23, 11, 263)",
         "(25, 6, 175)",
         "(21, 9, 189)",
         "(18, 9, 172)"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' ((21, 9, 189)) है।"
+      "explanation": "सही उत्तर विकल्प 'C' ((21, 9, 189)) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "D is the brother of E. F is the father of G. H is the daughter of G. E is the mother of H. How is D related to F?624",
+      "question_image": null,
       "options": [
         "Father",
         "Wife's brother",
         "Son's wife's father",
         "Son's wife's brother"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Son's wife's brother) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Son's wife's brother) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of P, Q, R, S, T, U and V has an exam on a different day of a week, starting from Monday and ending on Sunday of the same week. Only six people have exams before Q. Only four people have exams between T and S. V has the exam on Wednesday. P has the exam immediately after R but before T. How many people have exams between U and R?  859",
+      "question_image": null,
       "options": [
         "Four",
         "Two",
         "One",
         "Three"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (One) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (One) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Select the set in which the numbers are related in the same way as are the numbers of the following sets.(Note: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)12 - 603 - 15",
+      "question_image": null,
       "options": [
         "11 - 55",
         "5 - 89",
         "14 - 48",
         "4 - 16"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (11 - 55) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (11 - 55) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "Rajeev starts from Point A and drives 8 km towards the north. He then takes a left turn, drives 9 km, turns left and drives 10 km. He then takes a left turn and drives 11 km. He takes a final left turn, drives 2 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again? (All turns are 90 degrees turns only, unless specified.)",
+      "question_image": null,
       "options": [
         "3 km to the east",
         "4 km to the north",
         "2 km to the west",
         "2 km to the south"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (2 km to the west) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (2 km to the west) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left) 471  483  589  679  189 (Right)(Example: 697 – First digit = 6, second digit = 9 and third digit = 7)(NOTE: All operations to be done from left to right.)What will be the resultant if the second digit of the highest number is added to the third digit of the lowest number?41",
+      "question_image": null,
       "options": [
         "11",
         "14",
         "12",
         "16"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (16) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (16) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes, E, F, G, H, P, Q and R, are kept one over the other but not necessarily in the same order. Only two boxes are kept below F. Only one box is kept above P. Only one box is kept between P and Q. H is kept immediately above E. R is kept at some place below G. How many boxes are kept below R?825",
+      "question_image": null,
       "options": [
         "Four",
         "Three",
         "One",
         "Two"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Four) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Four) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+      "question_image": null,
       "options": [
         "SWYE",
         "VZBH",
         "AEGM",
         "KOPW"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (KOPW) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (KOPW) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? JGH, FIE, BKB, XMY, TOV, ?2017",
+      "question_image": null,
       "options": [
         "NRT",
         "MQT",
         "NPS",
         "PQS"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (PQS) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (PQS) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "In this question, a statement is given followed by two courses of action, numbered I and II. You must assume everything in the statement to be true, and on the basis of the information given in the statement, decide which of the given courses of action logically follow(s) for pursuing.Statement:A significant rise in respiratory illnesses has been observed in City Y over the past three years, primarily due to the increasing levels of air pollution caused by industrial emissions.Courses of actions:I. The city administration should promote the use of public transportation and carpooling.II. Strict emission norms should be enforced on the nearby industries with immediate effect.",
+      "question_image": null,
       "options": [
         "Only II follows",
         "Both I and II follow",
         "Only I follows",
         "Neither I nor II follows"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Only II follows) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Only II follows) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete?MJN 51      PMQ 45      SPT 39      VSW 33       ?",
+      "question_image": null,
       "options": [
         "YVZ 27",
         "YWY 27",
         "YGP 26",
         "YUY 26"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (YVZ 27) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (YVZ 27) है।",
+      "explanation_image": null
     }
   ]
 }

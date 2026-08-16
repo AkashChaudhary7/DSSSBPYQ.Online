@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the pair that follows the same pattern as that followed by the two pairs given below. Both pairs follow the same pattern. RUI : OSMFCV : CAZ",
+      "question_image": null,
       "options": [
         "HHK : EJO",
         "WXD : TWH",
         "KKJ : HMN",
         "MOQ : JMU"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (MOQ : JMU) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (MOQ : JMU) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "Refer to the following letter series and answer the question that follows. Counting to be done from left to right only.(Left)   V D A O T G U K E Z B Q Y C S F H J I W M   (Right)How many such vowels are there each of which is immediately preceded by a consonant and also immediately followed by a consonant?",
+      "question_image": null,
       "options": [
         "Three",
         "Four",
         "Two",
         "One"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Three) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Three) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the pair that follows the same pattern as that followed by the two pairs given below. Both pairs follow the same pattern. PTL : LYQFNP : BSU",
+      "question_image": null,
       "options": [
         "MRV : IVL",
         "STS : OYX",
         "UQI : RVN",
         "ONE : KRJ"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (STS : OYX) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (STS : OYX) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "Refer to the following number series and answer the question that follows. Counting to be done from left to right only. (All numbers are single-digit numbers only.)(Left)      6   8   5   7   3   7   4    1    3    6   2   1    9   7   8   9    7   1    5    7   9   4   3   1   5    2    5   (Right)How many such odd digits are there which are immediately preceded by an even digit and also immediately followed by an even digit?",
+      "question_image": null,
       "options": [
         "None",
         "Three",
         "Four",
         "Two"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (None) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (None) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "Shubham ranked 17th from the top and 44th from the bottom in his class. How many students are there in his class?",
+      "question_image": null,
       "options": [
         "61",
         "62",
         "60",
         "59"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (60) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (60) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "Babul, Shlok, Raman, Charu, Reeta, Karan, Shalu, and Parul are sitting around a circular table, facing the centre.Reeta sits second to the left of Charu, who sits third to the left of Babul. Shalu sits third to the right of Karan, who is an immediate neighbour of Babul. Shlok is an immediate neighbour of Reeta and Charu. Raman does not sit with Karan.Who sits second to the right of Shlok?",
+      "question_image": null,
       "options": [
         "Parul",
         "Shalu",
         "Karan",
         "Raman"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Parul) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Parul) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following number pairs, the second number is obtained by applying certain mathematical operations to the first number. Which numbers should replace X and Y so that the pattern followed by the two numbers on the left side of :: is same as that on the right side of ::? (Note: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting /multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) X : 530 :: 48 : Y",
+      "question_image": null,
       "options": [
         "X = 54, Y = 480",
         "X = 53, Y = 490",
         "X = 52, Y = 470",
         "X = 54, Y = 470"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (X = 54, Y = 470) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (X = 54, Y = 470) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘A’ stands for ‘÷’, ‘B’ stands for ‘×’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘−’, what will be come in place of the question mark ‘?’ in the following equation?6 B 32 C 32 D 39 A 13 = ?",
+      "question_image": null,
       "options": [
         "221",
         "224",
         "222",
         "223"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (221) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (221) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "P, Q, R, S, T, and U live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it is numbered 2, and so on, till the topmost floor is numbered 6. P lives on an even-numbered floor but not on floor number 6. T and S do not live on the lowermost floor. R lives immediately below Q. There are exactly two floors between T and P.Who lives on the floor immediately above U?",
+      "question_image": null,
       "options": [
         "S",
         "R",
         "T",
         "P"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (P) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (P) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following series, only one letter-cluster is incorrect. Select the INCORRECT letter-cluster. QTM  ORK  MPI  KNG  ILF  GJC",
+      "question_image": null,
       "options": [
         "​ORK",
         "KNG",
         "ILF",
         "MPI"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (ILF) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (ILF) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.\n\nStatements:\nAll pears are cameras.\nAll cameras are nuts.\nAll nuts are monks.\n\nConclusions:\n(I): All pears are monks.\n(II): Some monks are cameras.",
+      "question_image": null,
       "options": [
         "Only conclusion (I) follows.",
         "Both conclusions (I) and (II) follow.",
         "Neither conclusion (I) nor (II) follows.",
         "Only conclusion (II) follows."
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Both conclusions (I) and (II) follow.) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Both conclusions (I) and (II) follow.) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "Six boxes A, B, C, D, E and F are kept one over the other but not necessarily in the same order. E is kept second from the top. Only two boxes are kept between B and D. B is kept immediately below E. A is kept immediately below F. C is kept immediately above E. Only three boxes are kept between A and C.How many boxes are kept between F and D?",
+      "question_image": null,
       "options": [
         "Four",
         "One",
         "Three",
         "Two"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (One) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (One) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "In this question, two statements I and II have been given. These statements may be independent causes or effects of independent causes or a common cause. One of the statements may be the effect of the other statement. Read both the statements and select the correct option.I. Despite a substantial reduction in hotel prices and tour package costs, City XYZ attracted very less tourists this year.II. For the past four years, roads connecting to City XYZ have been damaged in the monsoon and the City remains cut from the nearest railway station and airport.",
+      "question_image": null,
       "options": [
         "I is the cause and II is its possible effect.",
         "Both I and II are independent causes.",
         "II is the cause and I is its possible effect.",
         "Both I and II are effects of independent causes."
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (II is the cause and I is its possible effect.) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (II is the cause and I is its possible effect.) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "NKOL is related to SPTQ in a certain way based on the English alphabetical order. In the same way, HEIF is related to MJNK. To which of the given options is LIMJ related, following the same logic?",
+      "question_image": null,
       "options": [
         "NQRO",
         "NQOR",
         "QNRO",
         "QNOR"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (QNRO) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (QNRO) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left)   504   398   637  713   483  (Right)(Example: 697 – First digit = 6, second digit = 9 and third digit = 7)(NOTE: All operations to be done from left to right.)What will be the resultant if the first digit of the highest number is added to the first digit of the lowest number.",
+      "question_image": null,
       "options": [
         "10",
         "12",
         "6",
         "9"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (10) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (10) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "A and B are married to each other. A is the sister of K. B is the father of N. M is the son of N. N is the mother of T. T is the wife of J. How is T related to M?",
+      "question_image": null,
       "options": [
         "Brother",
         "Mother",
         "Sister",
         "Father"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Sister) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Sister) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven people A, B, I, J, K, L, and O are sitting in a straight row, facing the north (but not necessarily in the same order). No one sits to the right of L. Only three people sit between L and A. Only two people sit between A and O. K sits third to the left of B. I sits to the immediate right of B. How many people sit between J and O?",
+      "question_image": null,
       "options": [
         "Four",
         "One",
         "Two",
         "Three"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Three) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Three) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series to make it logically complete?DL 111, GI 94, JF 77, ?",
+      "question_image": null,
       "options": [
         "OD 69",
         "MC 60",
         "NE 66",
         "MF 71"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (MC 60) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (MC 60) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?246   210   185   169   160   ?",
+      "question_image": null,
       "options": [
         "156",
         "150",
         "144",
         "158"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (156) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (156) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "95 is related to 81 following a certain logic. Following the same logic, 72 is related to 58. To which of the given options is 83 related, following the same logic?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting /multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "question_image": null,
       "options": [
         "78",
         "61",
         "69",
         "71"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (69) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (69) है।",
+      "explanation_image": null
     }
   ]
 }

@@ -1,704 +1,552 @@
-{
-  "questions": [
-    {
-      "id": 1,
-      "section": "Computer Networks",
-      "question": "How many join types in join condition:",
-      "options": [
-        "A) 2",
-        "B) 3",
-        "C) 4",
-        "D) 5"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, EQUIJOIN."
-    },
-    {
-      "id": 2,
-      "section": "Computer Networks",
-      "question": "Which are the join types in join condition:",
-      "options": [
-        "A) Cross join",
-        "B) Natural join",
-        "C) Join with USING clause",
-        "D) All of the mentioned"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, EQUIJOIN are the types of joins."
-    },
-    {
-      "id": 3,
-      "section": "Computer Networks",
-      "question": "Which product is returned  in a join query have no join condition:",
-      "options": [
-        "A) Equijoins",
-        "B) Cartesian",
-        "C) Both Equijoins and Cartesian",
-        "D) None of the mentioned"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "A Cartesian coordinate system is a coordinate system that specifies each point uniquely in a plane by a pair of numerical coordinates."
-    },
-    {
-      "id": 4,
-      "section": "Computer Networks",
-      "question": "Which is a join condition contains an equality operator:",
-      "options": [
-        "A) Equijoins",
-        "B) Cartesian",
-        "C) Both Equijoins and Cartesian",
-        "D) None of the mentioned"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "An equi-join is a specific type of comparator-based join, that uses only equality comparisons in the join-predicate."
-    },
-    {
-      "id": 5,
-      "section": "Computer Networks",
-      "question": "Which join refers to join records from the write table that have no matching key in the left table are include in the result set:",
-      "options": [
-        "A) Left outer join",
-        "B) Right outer join",
-        "C) Full outer join",
-        "D) Half outer join"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "A right outer join will return all the rows that an inner join returns plus one row for each of the other rows in the second table that did not have a match in the first table. It is the same as a left outer join with the tables specified in the opposite order."
-    },
-    {
-      "id": 6,
-      "section": "Computer Networks",
-      "question": "Which operation are allowed in a join view:",
-      "options": [
-        "A) UPDATE",
-        "B) INSERT",
-        "C) DELETE",
-        "D) All of the mentioned"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "The DELETE statement is used to delete rows in a table. The UPDATE statement is used to update existing records in a table. The INSERT INTO statement is used to insert new records in a table."
-    },
-    {
-      "id": 7,
-      "section": "Computer Networks",
-      "question": "Which view that contains more than one table in the top-level FROM clause of the SELECT statement:",
-      "options": [
-        "A) Join view",
-        "B) Datable join view",
-        "C) Updatable join view",
-        "D) All of the mentioned"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "The DELETE statement is used to delete rows in a table. The UPDATE statement is used to update existing records in a table. The INSERT INTO statement is used to insert new records in a table."
-    },
-    {
-      "id": 8,
-      "section": "Computer Networks",
-      "question": "_______________ is a procedural extension of Oracle – SQL that offers language constructs similar to those in imperative programming languages.",
-      "options": [
-        "A) SQL",
-        "B) PL/SQL",
-        "C) Advanced SQL",
-        "D) PQL"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "PL/SQL is an imperative 3GL that was designed specifically for the seamless processing of SQL commands."
-    },
-    {
-      "id": 9,
-      "section": "Computer Networks",
-      "question": "___________ combines the data manipulating power of SQL with the data processing power of Procedural languages.",
-      "options": [
-        "A) PL/SQL",
-        "B) SQL",
-        "C) Advanced SQL",
-        "D) PQL"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "PL/SQL is an imperative 3GL that was designed specifically for the seamless processing of SQL commands."
-    },
-    {
-      "id": 10,
-      "section": "Computer Networks",
-      "question": "_______________ has made PL/SQL code run faster without requiring any additional work on the part of the programmer.",
-      "options": [
-        "A) SQL Server",
-        "B) My SQL",
-        "C) Oracle",
-        "D) SQL Lite"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "An Oracle database is a collection of data treated as a unit. The purpose of a database is to store and retrieve related information."
-    },
-    {
-      "id": 11,
-      "section": "Computer Networks",
-      "question": "A line of PL/SQL text contains groups of characters known as",
-      "options": [
-        "A) Lexical Units",
-        "B) Literals",
-        "C) Textual Units",
-        "D) Identifiers"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Lexical items can be generally understood to convey a single meaning, much as a lexeme, but are not limited to single words."
-    },
-    {
-      "id": 12,
-      "section": "Computer Networks",
-      "question": "We use ______________ name PL/SQL program objects and units.",
-      "options": [
-        "A) Lexical Units",
-        "B) Literals",
-        "C) Delimiters",
-        "D) Identifiers"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "The database object name is referred to as its identifier."
-    },
-    {
-      "id": 13,
-      "section": "Computer Networks",
-      "question": "A ___________________ is an explicit numeric, character, string or Boolean value not represented by an identifier.",
-      "options": [
-        "A) Comments",
-        "B) Literals",
-        "C) Delimiters",
-        "D) Identifiers"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "The terms literal and constant value are synonymous and refer to a fixed data value."
-    },
-    {
-      "id": 14,
-      "section": "Computer Networks",
-      "question": "If no header is specified, the block is said to be an _______________ PL/SQL block.",
-      "options": [
-        "A) Strong",
-        "B) Weak",
-        "C) Empty",
-        "D) Anonymous"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "The terms literal and constant value are synonymous and refer to a fixed data value."
-    },
-    {
-      "id": 15,
-      "section": "Computer Networks",
-      "question": "_________________ is a sequence of zero or more characters enclosed by single quotes.",
-      "options": [
-        "A) Integers literal",
-        "B) String literal",
-        "C) String units",
-        "D) String label"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "The terms literal and constant value are synonymous and refer to a fixed data value."
-    },
-    {
-      "id": 16,
-      "section": "Computer Networks",
-      "question": "In _______________ the management of the password for the account can be handled outside of oracle such as operating system.",
-      "options": [
-        "A) Database Authentication",
-        "B) Operating System Authentication",
-        "C) Internal Authentication",
-        "D) External Authentication"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "Database management involves the monitoring, administration, and maintenance of the databases and database groups in your enterprise."
-    },
-    {
-      "id": 17,
-      "section": "Computer Networks",
-      "question": "In ________________ of Oracle, the database administrator creates a user account in the database for each user who needs access.",
-      "options": [
-        "A) Database Authentication",
-        "B) Operating System Authentication",
-        "C) Internal Authentication",
-        "D) External Authentication"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Database management involves the monitoring, administration, and maintenance of the databases and database groups in your enterprise."
-    },
-    {
-      "id": 18,
-      "section": "Computer Networks",
-      "question": "In SQL, which command is used to issue multiple CREATE TABLE, CREATE VIEW and GRANT statements in a single transaction?",
-      "options": [
-        "A) CREATE PACKAGE",
-        "B) CREATE SCHEMA",
-        "C) CREATE CLUSTER",
-        "D) All of the mentioned"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "A database schema of a database system is its structure described in a formal language supported by the database management system and refers to the organization of data as a blueprint of how a database is constructed."
-    },
-    {
-      "id": 19,
-      "section": "Computer Networks",
-      "question": "In SQL, the CREATE TABLESPACE is used",
-      "options": [
-        "A) To create a place in the database for storage of scheme objects, rollback segments, and naming the data files to comprise the tablespace",
-        "B) To create a database trigger",
-        "C) To add/rename data files, to change storage",
-        "D) All of the mentioned"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Triggers are used to initialize the actions for an activity."
-    },
-    {
-      "id": 20,
-      "section": "Computer Networks",
-      "question": "Which character function can be used to return a specified portion of a character string?",
-      "options": [
-        "A) INSTR",
-        "B) SUBSTRING",
-        "C) SUBSTR",
-        "D) POS"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "SUBSTR are used to match the particular characters in a string."
-    },
-    {
-      "id": 21,
-      "section": "Computer Networks",
-      "question": "Which of the following is TRUE for the System Variable $date$?",
-      "options": [
-        "A) Can be assigned to a global variable",
-        "B) Can be assigned to any field only during design time",
-        "C) Can be assigned to any variable or field during run time",
-        "D) Can be assigned to a local variable"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "A database schema of a database system is its structure described in a formal language supported by the database management system and refers to the organization of data as a blueprint of how a database is constructed."
-    },
-    {
-      "id": 22,
-      "section": "Computer Networks",
-      "question": "What are the different events in Triggers?",
-      "options": [
-        "A) Define, Create",
-        "B) Drop, Comment",
-        "C) Insert, Update, Delete",
-        "D) Select, Commit"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "A database trigger is a procedural code that is automatically executed in response to certain events on a particular table or view in a database."
-    },
-    {
-      "id": 23,
-      "section": "Computer Networks",
-      "question": "Which is the subset of SQL commands used to manipulate Oracle Database Structures, including tables?",
-      "options": [
-        "A) Data Definition Language",
-        "B) Data Manipulation Language",
-        "C) Data Described Language",
-        "D) Data Retrieval Language"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "DDL are used to define schema and table characters."
-    },
-    {
-      "id": 24,
-      "section": "Computer Networks",
-      "question": "The SQL statement SELECT SUBSTR(‘123456789’, INSTR(‘abcabcabc’,’b’), 4) FROM EMP; prints",
-      "options": [
-        "A) 6789",
-        "B) 2345",
-        "C) 1234",
-        "D) 456789"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "SUBSTR are used to match the particular characters in a string."
-    },
-    {
-      "id": 25,
-      "section": "Computer Networks",
-      "question": "Which of the following SQL command can be used to modify existing data in a database table?",
-      "options": [
-        "A) MODIFY",
-        "B) UPDATE",
-        "C) CHANGE",
-        "D) NEW"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "Syntax : UPDATE table_name\nSET column1=value1,column2=value2,…\nWHERE some_column=some_value; ."
-    },
-    {
-      "id": 26,
-      "section": "Computer Networks",
-      "question": "When SQL statements are embedded inside 3GL, we call such a program as",
-      "options": [
-        "A) Nested query",
-        "B) Nested programming",
-        "C) Distinct query",
-        "D) Embedded SQL"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "SQL-99 is the most recent version of standard SQL prescribed by the ANSI."
-    },
-    {
-      "id": 27,
-      "section": "Computer Networks",
-      "question": "_______________ provides option for entering SQL queries as execution time, rather than at the development stage.",
-      "options": [
-        "A) PL/SQL",
-        "B) SQL*Plus",
-        "C) SQL",
-        "D) Dynamic SQL"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "Dynamic SQL enables you to write programs that reference SQL statements whose full text is not known until runtime."
-    },
-    {
-      "id": 28,
-      "section": "Computer Networks",
-      "question": "A transaction may not always complete its execution successfully. Such a transaction is termed",
-      "options": [
-        "A) Aborted",
-        "B) Terminated",
-        "C) Closed",
-        "D) All of the mentioned"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "If we are to ensure the atomicity property, an aborted transaction must have no effect on the state of the database."
-    },
-    {
-      "id": 29,
-      "section": "Computer Networks",
-      "question": "If an transaction is performed in a database and committed, the changes are taken to the previous state of transaction by",
-      "options": [
-        "A) Flashback",
-        "B) Rollback",
-        "C) Both Flashback and Rollback",
-        "D) Cannot be done"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "Once committed the changes cannot be rolled back."
-    },
-    {
-      "id": 30,
-      "section": "Computer Networks",
-      "question": "Each modification done in database transaction are first recorded into the",
-      "options": [
-        "A) Harddrive",
-        "B) Log",
-        "C) Disk",
-        "D) Datamart"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "After commit is issued the data are stored in a database and stored in drive."
-    },
-    {
-      "id": 31,
-      "section": "Computer Networks",
-      "question": "When the transaction finishes the final statement the transaction enters into",
-      "options": [
-        "A) Active state",
-        "B) Committed state",
-        "C) Partially committed state",
-        "D) Abort state"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "The commit statement has to be issued to enter into committed state."
-    },
-    {
-      "id": 32,
-      "section": "Computer Networks",
-      "question": "The name of the transaction file shall be provided by the operator and the file that contains the edited transactions ready for execution shall be called",
-      "options": [
-        "A) Batch. Exe",
-        "B) Trans. Exe",
-        "C) Opt. Exe",
-        "D) Edit.Exe"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "Transactions has to be managed by the executable files."
-    },
-    {
-      "id": 33,
-      "section": "Computer Networks",
-      "question": "Which of the following is an atomic sequence of database actions?",
-      "options": [
-        "A) Transaction",
-        "B) Concurrency",
-        "C) Relations",
-        "D) All of the mentioned"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Transaction is a collection of operations that provides single logical function in database."
-    },
-    {
-      "id": 34,
-      "section": "Computer Networks",
-      "question": "If the state of the database no longer reflects a real state of the world that the database is supposed to capture, then such a state is called",
-      "options": [
-        "A) Consistent state",
-        "B) Parallel state",
-        "C) Atomic state",
-        "D) Inconsistent state"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "If the state of the database no longer reflects a real state of the world that the database is supposed to capture, then such a state is called in a consistent state."
-    },
-    {
-      "id": 35,
-      "section": "Computer Networks",
-      "question": "_______ means that data used during the execution of a transaction cannot be used by a second transaction until the first one is completed.",
-      "options": [
-        "A) Serializability",
-        "B) Atomicity",
-        "C) Isolation",
-        "D) Time stamping"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "Isolation means that data used during the execution of a transaction can’t be used by a second transaction until the first one is completed."
-    },
-    {
-      "id": 36,
-      "section": "Computer Networks",
-      "question": "DBMS periodically suspends all processing and synchronizes its files and journals through the use of",
-      "options": [
-        "A) Checkpoint facility",
-        "B) Backup facility",
-        "C) Recovery manager",
-        "D) Database change log"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "DBMS periodically suspends all processing and synchronizes its files and journals though the use of  Check point facility."
-    },
-    {
-      "id": 37,
-      "section": "Computer Networks",
-      "question": "Which of the following is not a state in transaction?",
-      "options": [
-        "A) Active",
-        "B) Terminated",
-        "C) Aborted",
-        "D) Partially committed"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "The transaction states are abort, active, committed, partially committed, Failed."
-    },
-    {
-      "id": 38,
-      "section": "Computer Networks",
-      "question": "Which of the following is a property of transactions?",
-      "options": [
-        "A) Atomicity",
-        "B) Concurrency",
-        "C) Isolation",
-        "D) All of the mentioned"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "Atomicity, Concurrency, Isolation, and Durability are essential properties of transactions in database systems. They ensure that transactions are executed consistently, efficiently, and reliably, maintaining data integrity and consistency."
-    },
-    {
-      "id": 39,
-      "section": "Computer Networks",
-      "question": "SNAPSHOT is used for (DBA)",
-      "options": [
-        "A) Synonym",
-        "B) Tablespace",
-        "C) System server",
-        "D) Dynamic data replication"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "Snapshot gets the instance of the database at that time."
-    },
-    {
-      "id": 40,
-      "section": "Computer Networks",
-      "question": "Isolation of the transactions is ensured by",
-      "options": [
-        "A) Transaction management",
-        "B) Application programmer",
-        "C) Concurrency control",
-        "D) Recovery management"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "ACID properties are the properties of transactions."
-    },
-    {
-      "id": 41,
-      "section": "Computer Networks",
-      "question": "Constraint checking can be disabled in existing _______________ and _____________ constraints so that any data you modify or add to the table is not checked against the constraint.",
-      "options": [
-        "A) CHECK, FOREIGN KEY",
-        "B) DELETE, FOREIGN KEY",
-        "C) CHECK, PRIMARY KEY",
-        "D) PRIMARY KEY, FOREIGN KEY"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Check and foreign constraints are used to constraint the table data."
-    },
-    {
-      "id": 42,
-      "section": "Computer Networks",
-      "question": "Problems occurs if we don’t implement a proper locking strategy",
-      "options": [
-        "A) Dirty reads or Unrepeatable reads",
-        "B) Phantom reads",
-        "C) Lost updates",
-        "D) All of the mentioned"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "All the options are correct and any of them can happen due to improper locking strategy.\nDirty reads: Reading uncommitted data from another transaction.\nPhantom reads: Seeing rows that were not there before or missing rows that were there before.\nLost updates: Overwriting another transaction’s changes.\nUnrepeatable reads: Reading the same row twice and getting different values."
-    },
-    {
-      "id": 43,
-      "section": "Computer Networks",
-      "question": "Which of the following fixed database roles can add or remove user IDs?",
-      "options": [
-        "A) db_accessadmin",
-        "B) db_securityadmin",
-        "C) db_setupadmin",
-        "D) db_sysadmin"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "The database can be accessed by assigning the roles."
-    },
-    {
-      "id": 44,
-      "section": "Computer Networks",
-      "question": "By default sql server has ___________ isolation level",
-      "options": [
-        "A) READ COMMITTED",
-        "B) READ UNCOMMITTED",
-        "C) SERIALIZABLE",
-        "D) REPEATABLE READ"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Read committed is used to commit the default read operation."
-    },
-    {
-      "id": 45,
-      "section": "Computer Networks",
-      "question": "Which of the following statements is/are not true for SQL profiler?",
-      "options": [
-        "A) Enables you to monitor events",
-        "B) Check if rows are being inserted properly",
-        "C) Check the performance of a stored procedure",
-        "D) ALL of the mentioned"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "Read committed is used to commit the default read operation."
-    },
-    {
-      "id": 46,
-      "section": "Computer Networks",
-      "question": "Which of the following is the original purpose of SQL?",
-      "options": [
-        "A) To specify the syntax and semantics of SQL data definition language",
-        "B) To specify the syntax and semantics of SQL manipulation language",
-        "C) To define the data structures",
-        "D) All of the mentioned"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "Read committed is used to commit the default read operation."
-    },
-    {
-      "id": 47,
-      "section": "Computer Networks",
-      "question": "SQL can be used to:",
-      "options": [
-        "A) Create database structures only",
-        "B) Query database data only",
-        "C) Modify database data only",
-        "D) All of the mentioned"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "In a concurrent execution of these transactions, it is intuitively clear that they conflict, but this is a conflict not captured by our simple model. This situation is referred to as the phantom phenomenon, because a conflict may exist on “phantom” data."
-    },
-    {
-      "id": 48,
-      "section": "Computer Networks",
-      "question": "In order to maintain transactional integrity and database consistency, what technology does a DBMS deploy?",
-      "options": [
-        "A) Triggers",
-        "B) Pointers",
-        "C) Locks",
-        "D) Cursors"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "Locks are used to maintain database consistency."
-    },
-    {
-      "id": 49,
-      "section": "Computer Networks",
-      "question": "A lock that allows concurrent transactions to access different rows of the same table is known as a",
-      "options": [
-        "A) Database-level lock",
-        "B) Table-level lock",
-        "C) Page-level lock",
-        "D) Row-level lock"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "Locks are used to maintain database consistency."
-    },
-    {
-      "id": 50,
-      "section": "Computer Networks",
-      "question": "Which of the following are introduced to reduce the overheads caused by the log-based recovery?",
-      "options": [
-        "A) Checkpoints",
-        "B) Indices",
-        "C) Deadlocks",
-        "D) Locks"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Checkpoints are introduced to reduce overheads caused by the log-based recovery."
-    }
-  ]
-}
+[
+  {
+    "question": "How many join types in join condition:",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "correct_answer": "D",
+    "explanation": "INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, EQUIJOIN."
+  },
+  {
+    "question": "Which are the join types in join condition:",
+    "options": [
+      "A) Cross join",
+      "B) Natural join",
+      "C) Join with USING clause",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, EQUIJOIN are the types of joins."
+  },
+  {
+    "question": "Which product is returned  in a join query have no join condition:",
+    "options": [
+      "A) Equijoins",
+      "B) Cartesian",
+      "C) Both Equijoins and Cartesian",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "A Cartesian coordinate system is a coordinate system that specifies each point uniquely in a plane by a pair of numerical coordinates."
+  },
+  {
+    "question": "Which is a join condition contains an equality operator:",
+    "options": [
+      "A) Equijoins",
+      "B) Cartesian",
+      "C) Both Equijoins and Cartesian",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "An equi-join is a specific type of comparator-based join, that uses only equality comparisons in the join-predicate."
+  },
+  {
+    "question": "Which join refers to join records from the write table that have no matching key in the left table are include in the result set:",
+    "options": [
+      "A) Left outer join",
+      "B) Right outer join",
+      "C) Full outer join",
+      "D) Half outer join"
+    ],
+    "correct_answer": "B",
+    "explanation": "A right outer join will return all the rows that an inner join returns plus one row for each of the other rows in the second table that did not have a match in the first table. It is the same as a left outer join with the tables specified in the opposite order."
+  },
+  {
+    "question": "Which operation are allowed in a join view:",
+    "options": [
+      "A) UPDATE",
+      "B) INSERT",
+      "C) DELETE",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "The DELETE statement is used to delete rows in a table. The UPDATE statement is used to update existing records in a table. The INSERT INTO statement is used to insert new records in a table."
+  },
+  {
+    "question": "Which view that contains more than one table in the top-level FROM clause of the SELECT statement:",
+    "options": [
+      "A) Join view",
+      "B) Datable join view",
+      "C) Updatable join view",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "The DELETE statement is used to delete rows in a table. The UPDATE statement is used to update existing records in a table. The INSERT INTO statement is used to insert new records in a table."
+  },
+  {
+    "question": "_______________ is a procedural extension of Oracle – SQL that offers language constructs similar to those in imperative programming languages.",
+    "options": [
+      "A) SQL",
+      "B) PL/SQL",
+      "C) Advanced SQL",
+      "D) PQL"
+    ],
+    "correct_answer": "B",
+    "explanation": "PL/SQL is an imperative 3GL that was designed specifically for the seamless processing of SQL commands."
+  },
+  {
+    "question": "___________ combines the data manipulating power of SQL with the data processing power of Procedural languages.",
+    "options": [
+      "A) PL/SQL",
+      "B) SQL",
+      "C) Advanced SQL",
+      "D) PQL"
+    ],
+    "correct_answer": "A",
+    "explanation": "PL/SQL is an imperative 3GL that was designed specifically for the seamless processing of SQL commands."
+  },
+  {
+    "question": "_______________ has made PL/SQL code run faster without requiring any additional work on the part of the programmer.",
+    "options": [
+      "A) SQL Server",
+      "B) My SQL",
+      "C) Oracle",
+      "D) SQL Lite"
+    ],
+    "correct_answer": "C",
+    "explanation": "An Oracle database is a collection of data treated as a unit. The purpose of a database is to store and retrieve related information."
+  },
+  {
+    "question": "A line of PL/SQL text contains groups of characters known as",
+    "options": [
+      "A) Lexical Units",
+      "B) Literals",
+      "C) Textual Units",
+      "D) Identifiers"
+    ],
+    "correct_answer": "A",
+    "explanation": "Lexical items can be generally understood to convey a single meaning, much as a lexeme, but are not limited to single words."
+  },
+  {
+    "question": "We use ______________ name PL/SQL program objects and units.",
+    "options": [
+      "A) Lexical Units",
+      "B) Literals",
+      "C) Delimiters",
+      "D) Identifiers"
+    ],
+    "correct_answer": "D",
+    "explanation": "The database object name is referred to as its identifier."
+  },
+  {
+    "question": "A ___________________ is an explicit numeric, character, string or Boolean value not represented by an identifier.",
+    "options": [
+      "A) Comments",
+      "B) Literals",
+      "C) Delimiters",
+      "D) Identifiers"
+    ],
+    "correct_answer": "B",
+    "explanation": "The terms literal and constant value are synonymous and refer to a fixed data value."
+  },
+  {
+    "question": "If no header is specified, the block is said to be an _______________ PL/SQL block.",
+    "options": [
+      "A) Strong",
+      "B) Weak",
+      "C) Empty",
+      "D) Anonymous"
+    ],
+    "correct_answer": "D",
+    "explanation": "The terms literal and constant value are synonymous and refer to a fixed data value."
+  },
+  {
+    "question": "_________________ is a sequence of zero or more characters enclosed by single quotes.",
+    "options": [
+      "A) Integers literal",
+      "B) String literal",
+      "C) String units",
+      "D) String label"
+    ],
+    "correct_answer": "B",
+    "explanation": "The terms literal and constant value are synonymous and refer to a fixed data value."
+  },
+  {
+    "question": "In _______________ the management of the password for the account can be handled outside of oracle such as operating system.",
+    "options": [
+      "A) Database Authentication",
+      "B) Operating System Authentication",
+      "C) Internal Authentication",
+      "D) External Authentication"
+    ],
+    "correct_answer": "B",
+    "explanation": "Database management involves the monitoring, administration, and maintenance of the databases and database groups in your enterprise."
+  },
+  {
+    "question": "In ________________ of Oracle, the database administrator creates a user account in the database for each user who needs access.",
+    "options": [
+      "A) Database Authentication",
+      "B) Operating System Authentication",
+      "C) Internal Authentication",
+      "D) External Authentication"
+    ],
+    "correct_answer": "A",
+    "explanation": "Database management involves the monitoring, administration, and maintenance of the databases and database groups in your enterprise."
+  },
+  {
+    "question": "In SQL, which command is used to issue multiple CREATE TABLE, CREATE VIEW and GRANT statements in a single transaction?",
+    "options": [
+      "A) CREATE PACKAGE",
+      "B) CREATE SCHEMA",
+      "C) CREATE CLUSTER",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "A database schema of a database system is its structure described in a formal language supported by the database management system and refers to the organization of data as a blueprint of how a database is constructed."
+  },
+  {
+    "question": "In SQL, the CREATE TABLESPACE is used",
+    "options": [
+      "A) To create a place in the database for storage of scheme objects, rollback segments, and naming the data files to comprise the tablespace",
+      "B) To create a database trigger",
+      "C) To add/rename data files, to change storage",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Triggers are used to initialize the actions for an activity."
+  },
+  {
+    "question": "Which character function can be used to return a specified portion of a character string?",
+    "options": [
+      "A) INSTR",
+      "B) SUBSTRING",
+      "C) SUBSTR",
+      "D) POS"
+    ],
+    "correct_answer": "C",
+    "explanation": "SUBSTR are used to match the particular characters in a string."
+  },
+  {
+    "question": "Which of the following is TRUE for the System Variable $date$?",
+    "options": [
+      "A) Can be assigned to a global variable",
+      "B) Can be assigned to any field only during design time",
+      "C) Can be assigned to any variable or field during run time",
+      "D) Can be assigned to a local variable"
+    ],
+    "correct_answer": "B",
+    "explanation": "A database schema of a database system is its structure described in a formal language supported by the database management system and refers to the organization of data as a blueprint of how a database is constructed."
+  },
+  {
+    "question": "What are the different events in Triggers?",
+    "options": [
+      "A) Define, Create",
+      "B) Drop, Comment",
+      "C) Insert, Update, Delete",
+      "D) Select, Commit"
+    ],
+    "correct_answer": "C",
+    "explanation": "A database trigger is a procedural code that is automatically executed in response to certain events on a particular table or view in a database."
+  },
+  {
+    "question": "Which is the subset of SQL commands used to manipulate Oracle Database Structures, including tables?",
+    "options": [
+      "A) Data Definition Language",
+      "B) Data Manipulation Language",
+      "C) Data Described Language",
+      "D) Data Retrieval Language"
+    ],
+    "correct_answer": "A",
+    "explanation": "DDL are used to define schema and table characters."
+  },
+  {
+    "question": "The SQL statement SELECT SUBSTR(‘123456789’, INSTR(‘abcabcabc’,’b’), 4) FROM EMP; prints",
+    "options": [
+      "A) 6789",
+      "B) 2345",
+      "C) 1234",
+      "D) 456789"
+    ],
+    "correct_answer": "B",
+    "explanation": "SUBSTR are used to match the particular characters in a string."
+  },
+  {
+    "question": "Which of the following SQL command can be used to modify existing data in a database table?",
+    "options": [
+      "A) MODIFY",
+      "B) UPDATE",
+      "C) CHANGE",
+      "D) NEW"
+    ],
+    "correct_answer": "B",
+    "explanation": "Syntax : UPDATE table_name\nSET column1=value1,column2=value2,…\nWHERE some_column=some_value; ."
+  },
+  {
+    "question": "When SQL statements are embedded inside 3GL, we call such a program as",
+    "options": [
+      "A) Nested query",
+      "B) Nested programming",
+      "C) Distinct query",
+      "D) Embedded SQL"
+    ],
+    "correct_answer": "D",
+    "explanation": "SQL-99 is the most recent version of standard SQL prescribed by the ANSI."
+  },
+  {
+    "question": "_______________ provides option for entering SQL queries as execution time, rather than at the development stage.",
+    "options": [
+      "A) PL/SQL",
+      "B) SQL*Plus",
+      "C) SQL",
+      "D) Dynamic SQL"
+    ],
+    "correct_answer": "D",
+    "explanation": "Dynamic SQL enables you to write programs that reference SQL statements whose full text is not known until runtime."
+  },
+  {
+    "question": "A transaction may not always complete its execution successfully. Such a transaction is termed",
+    "options": [
+      "A) Aborted",
+      "B) Terminated",
+      "C) Closed",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "If we are to ensure the atomicity property, an aborted transaction must have no effect on the state of the database."
+  },
+  {
+    "question": "If an transaction is performed in a database and committed, the changes are taken to the previous state of transaction by",
+    "options": [
+      "A) Flashback",
+      "B) Rollback",
+      "C) Both Flashback and Rollback",
+      "D) Cannot be done"
+    ],
+    "correct_answer": "D",
+    "explanation": "Once committed the changes cannot be rolled back."
+  },
+  {
+    "question": "Each modification done in database transaction are first recorded into the",
+    "options": [
+      "A) Harddrive",
+      "B) Log",
+      "C) Disk",
+      "D) Datamart"
+    ],
+    "correct_answer": "B",
+    "explanation": "After commit is issued the data are stored in a database and stored in drive."
+  },
+  {
+    "question": "When the transaction finishes the final statement the transaction enters into",
+    "options": [
+      "A) Active state",
+      "B) Committed state",
+      "C) Partially committed state",
+      "D) Abort state"
+    ],
+    "correct_answer": "C",
+    "explanation": "The commit statement has to be issued to enter into committed state."
+  },
+  {
+    "question": "The name of the transaction file shall be provided by the operator and the file that contains the edited transactions ready for execution shall be called",
+    "options": [
+      "A) Batch. Exe",
+      "B) Trans. Exe",
+      "C) Opt. Exe",
+      "D) Edit.Exe"
+    ],
+    "correct_answer": "C",
+    "explanation": "Transactions has to be managed by the executable files."
+  },
+  {
+    "question": "Which of the following is an atomic sequence of database actions?",
+    "options": [
+      "A) Transaction",
+      "B) Concurrency",
+      "C) Relations",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Transaction is a collection of operations that provides single logical function in database."
+  },
+  {
+    "question": "If the state of the database no longer reflects a real state of the world that the database is supposed to capture, then such a state is called",
+    "options": [
+      "A) Consistent state",
+      "B) Parallel state",
+      "C) Atomic state",
+      "D) Inconsistent state"
+    ],
+    "correct_answer": "D",
+    "explanation": "If the state of the database no longer reflects a real state of the world that the database is supposed to capture, then such a state is called in a consistent state."
+  },
+  {
+    "question": "_______ means that data used during the execution of a transaction cannot be used by a second transaction until the first one is completed.",
+    "options": [
+      "A) Serializability",
+      "B) Atomicity",
+      "C) Isolation",
+      "D) Time stamping"
+    ],
+    "correct_answer": "C",
+    "explanation": "Isolation means that data used during the execution of a transaction can’t be used by a second transaction until the first one is completed."
+  },
+  {
+    "question": "DBMS periodically suspends all processing and synchronizes its files and journals through the use of",
+    "options": [
+      "A) Checkpoint facility",
+      "B) Backup facility",
+      "C) Recovery manager",
+      "D) Database change log"
+    ],
+    "correct_answer": "A",
+    "explanation": "DBMS periodically suspends all processing and synchronizes its files and journals though the use of  Check point facility."
+  },
+  {
+    "question": "Which of the following is not a state in transaction?",
+    "options": [
+      "A) Active",
+      "B) Terminated",
+      "C) Aborted",
+      "D) Partially committed"
+    ],
+    "correct_answer": "B",
+    "explanation": "The transaction states are abort, active, committed, partially committed, Failed."
+  },
+  {
+    "question": "Which of the following is a property of transactions?",
+    "options": [
+      "A) Atomicity",
+      "B) Concurrency",
+      "C) Isolation",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "Atomicity, Concurrency, Isolation, and Durability are essential properties of transactions in database systems. They ensure that transactions are executed consistently, efficiently, and reliably, maintaining data integrity and consistency."
+  },
+  {
+    "question": "SNAPSHOT is used for (DBA)",
+    "options": [
+      "A) Synonym",
+      "B) Tablespace",
+      "C) System server",
+      "D) Dynamic data replication"
+    ],
+    "correct_answer": "D",
+    "explanation": "Snapshot gets the instance of the database at that time."
+  },
+  {
+    "question": "Isolation of the transactions is ensured by",
+    "options": [
+      "A) Transaction management",
+      "B) Application programmer",
+      "C) Concurrency control",
+      "D) Recovery management"
+    ],
+    "correct_answer": "C",
+    "explanation": "ACID properties are the properties of transactions."
+  },
+  {
+    "question": "Constraint checking can be disabled in existing _______________ and _____________ constraints so that any data you modify or add to the table is not checked against the constraint.",
+    "options": [
+      "A) CHECK, FOREIGN KEY",
+      "B) DELETE, FOREIGN KEY",
+      "C) CHECK, PRIMARY KEY",
+      "D) PRIMARY KEY, FOREIGN KEY"
+    ],
+    "correct_answer": "A",
+    "explanation": "Check and foreign constraints are used to constraint the table data."
+  },
+  {
+    "question": "Problems occurs if we don’t implement a proper locking strategy",
+    "options": [
+      "A) Dirty reads or Unrepeatable reads",
+      "B) Phantom reads",
+      "C) Lost updates",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "All the options are correct and any of them can happen due to improper locking strategy.\nDirty reads: Reading uncommitted data from another transaction.\nPhantom reads: Seeing rows that were not there before or missing rows that were there before.\nLost updates: Overwriting another transaction’s changes.\nUnrepeatable reads: Reading the same row twice and getting different values."
+  },
+  {
+    "question": "Which of the following fixed database roles can add or remove user IDs?",
+    "options": [
+      "A) db_accessadmin",
+      "B) db_securityadmin",
+      "C) db_setupadmin",
+      "D) db_sysadmin"
+    ],
+    "correct_answer": "A",
+    "explanation": "The database can be accessed by assigning the roles."
+  },
+  {
+    "question": "By default sql server has ___________ isolation level",
+    "options": [
+      "A) READ COMMITTED",
+      "B) READ UNCOMMITTED",
+      "C) SERIALIZABLE",
+      "D) REPEATABLE READ"
+    ],
+    "correct_answer": "A",
+    "explanation": "Read committed is used to commit the default read operation."
+  },
+  {
+    "question": "Which of the following statements is/are not true for SQL profiler?",
+    "options": [
+      "A) Enables you to monitor events",
+      "B) Check if rows are being inserted properly",
+      "C) Check the performance of a stored procedure",
+      "D) ALL of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "Read committed is used to commit the default read operation."
+  },
+  {
+    "question": "Which of the following is the original purpose of SQL?",
+    "options": [
+      "A) To specify the syntax and semantics of SQL data definition language",
+      "B) To specify the syntax and semantics of SQL manipulation language",
+      "C) To define the data structures",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "Read committed is used to commit the default read operation."
+  },
+  {
+    "question": "SQL can be used to:",
+    "options": [
+      "A) Create database structures only",
+      "B) Query database data only",
+      "C) Modify database data only",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "In a concurrent execution of these transactions, it is intuitively clear that they conflict, but this is a conflict not captured by our simple model. This situation is referred to as the phantom phenomenon, because a conflict may exist on “phantom” data."
+  },
+  {
+    "question": "In order to maintain transactional integrity and database consistency, what technology does a DBMS deploy?",
+    "options": [
+      "A) Triggers",
+      "B) Pointers",
+      "C) Locks",
+      "D) Cursors"
+    ],
+    "correct_answer": "C",
+    "explanation": "Locks are used to maintain database consistency."
+  },
+  {
+    "question": "A lock that allows concurrent transactions to access different rows of the same table is known as a",
+    "options": [
+      "A) Database-level lock",
+      "B) Table-level lock",
+      "C) Page-level lock",
+      "D) Row-level lock"
+    ],
+    "correct_answer": "D",
+    "explanation": "Locks are used to maintain database consistency."
+  },
+  {
+    "question": "Which of the following are introduced to reduce the overheads caused by the log-based recovery?",
+    "options": [
+      "A) Checkpoints",
+      "B) Indices",
+      "C) Deadlocks",
+      "D) Locks"
+    ],
+    "correct_answer": "A",
+    "explanation": "Checkpoints are introduced to reduce overheads caused by the log-based recovery."
+  }
+]

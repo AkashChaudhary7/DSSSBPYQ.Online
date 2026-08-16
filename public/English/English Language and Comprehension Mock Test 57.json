@@ -6,281 +6,321 @@
       "id": 1,
       "section": "English Language and Comprehension",
       "question": "Choose the correct proverbial option to substitute the underlined word segment in the given sentence.Despite their best efforts, the team realized you can't turn something of poor quality into something of high quality, and the old, dilapidated building just couldn't be transformed into a luxury hotel.1816",
+      "question_image": null,
       "options": [
         "you can’t make bricks without straw",
         "you can’t make a silk purse out of a sow’s ear",
         "you can’t teach an old dog new tricks",
         "you can’t make omelette without breaking eggs"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (you can’t make a silk purse out of a sow’s ear) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (you can’t make a silk purse out of a sow’s ear) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option from the given alternative to fill in the blank.Can you please give me ________ jar?2325",
+      "question_image": null,
       "options": [
         "These",
         "Those",
         "Neither",
         "That"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (That) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (That) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "English Language and Comprehension",
       "question": "Select the appropriate word from the options to complete the sentence.I will let you know __________ the tickets are available for sale.3294",
+      "question_image": null,
       "options": [
         "whether",
         "because",
         "when",
         "but"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (when) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (when) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "English Language and Comprehension",
       "question": "Choose the appropriate verb form and complete the sentence.The secretary has ……… the meeting.2289",
+      "question_image": null,
       "options": [
         "postponing",
         "postponed",
         "postpone",
         "postpones"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (postponed) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (postponed) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "English Language and Comprehension",
       "question": "Choose the correct option to complete the sentence below.Under no circumstances should the students submit their assignments late, _______",
+      "question_image": null,
       "options": [
         "don’t they?",
         "do they?",
         "shouldn’t they?",
         "should they?"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (should they?) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (should they?) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "English Language and Comprehension",
       "question": "Rearrange the following sentences to form a coherent and meaningful paragraph.A. Before the 20th century, weather prediction was largely based on folklore, observation, and anecdotal evidence.B. With the advent of radar and satellite technology, meteorology transformed into a data-driven science.C. Today, weather forecasts rely on complex computer models that simulate atmospheric conditions with remarkable accuracy.D. This shift from intuition to empirical modeling has greatly improved our ability to prepare for natural disasters.",
+      "question_image": null,
       "options": [
         "ABCD",
         "ACBD",
         "CBAD",
         "BACD"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (ABCD) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (ABCD) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "English Language and Comprehension",
       "question": "Fill in the blank with the appropriate synonym of the underlined word.Historian: “The treaty’s language was perfunctory, betraying a lack of genuine commitment from either side.”Analyst: “Yes, the phrasing appeared unmistakably ______.”",
+      "question_image": null,
       "options": [
         "superficial",
         "thorough",
         "methodical",
         "deliberate"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (superficial) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (superficial) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "English Language and Comprehension",
       "question": "Read the following paragraph. Identify the misspelt word and select the option that corrects it.As soon as the fire alarm rang in the crowded hall, complete panemonium broke out, with people rushing in every direction in a state of confusion and fear. Many stumbled over chairs and bags, shouting warnings to one another, while some tried to help elderly individuals and children escape safely. The security personnel struggled to maintain order amidst the chaos.",
+      "question_image": null,
       "options": [
         "panedmonium",
         "pandemonium",
         "pandamoneum",
         "panemonium"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (pandemonium) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (pandemonium) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "English Language and Comprehension",
       "question": "The following five sentences form a coherent paragraph. Arrange them in the most logical order and select the correct sequence from the options given.A. This iterative paradigm minimizes systemic failures and enhances cross-functional collaboration.B. Agile methodology has become the predominant framework in contemporary software engineering.C. The approach is characterized by iterative development cycles and continuous stakeholder feedback.D. Development teams consequently demonstrate heightened responsiveness to dynamic requirements.E. Agile represents a fundamental departure from traditional, plan-driven development models such as Waterfall.",
+      "question_image": null,
       "options": [
         "DAECB",
         "BECDA",
         "DCEBA",
         "ECABD"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (BECDA) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (BECDA) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "English Language and Comprehension",
       "question": "Choose the most appropriate one-word substitute for this underlined phrase from the options.When the ship began to sink, most passengers scrambled for lifeboats, but the old sailor simply sat calmly. He was a person who believes that all events are predetermined and inevitable, accepting his fate without resistance.",
+      "question_image": null,
       "options": [
         "Fatalist",
         "Idealist",
         "Skeptic",
         "Realist"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Fatalist) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Fatalist) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "English Language and Comprehension",
       "question": "Read the prose passage below carefully. An underlined phrase appears in the passage. Choose the most appropriate one-word substitute for this underlined phrase from the options provided.The underground pamphlet circulated swiftly among disenfranchised youth, urging the dismantling of inherited institutions. Its anonymous author emerged as one who supports extreme or revolutionary political views, rejecting incremental reform in favour of systemic upheaval.",
+      "question_image": null,
       "options": [
         "Conservative",
         "Radical",
         "Moderate",
         "Pacifist"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Radical) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Radical) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "English Language and Comprehension",
       "question": "Correct the given sentence:“Scarcely anyone attended the seminar, didn’t they?”",
+      "question_image": null,
       "options": [
         "Scarcely anyone attended the seminar, hasn’t he?",
         "Scarcely anyone attended the seminar, did they not?",
         "Scarcely anyone attended the seminar, did they?",
         "Scarcely anyone attended the seminar, didn’t they?"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Scarcely anyone attended the seminar, did they?) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Scarcely anyone attended the seminar, did they?) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the passage and answer the questions that follow.Climate change is one of the most pressing challenges facing the world today. It refers to long-term changes in temperature, precipitation, and weather patterns, largely caused by human activities such as burning fossil fuels and deforestation. These changes have led to more frequent and intense natural disasters like hurricanes, droughts, and floods, affecting millions of people globally. Coastal regions are particularly vulnerable, with rising sea levels threatening communities and ecosystems alike. Scientists agree that reducing greenhouse gas emissions is critical to slowing climate change. Many countries have pledged to shift towards renewable energy sources like solar and wind power to decrease their carbon footprint. This transition not only reduces harmful emissions but also promotes energy independence and green job creation. Additionally, protecting forests and promoting sustainable agriculture can help absorb carbon dioxide from the atmosphere. Reforestation efforts and the preservation of biodiversity play a vital role in maintaining ecological balance and reducing carbon levels. The impacts of climate change are not limited to the environment; they also affect economies and public health. Crop failures, water shortages, and increased disease risk are some of the consequences that threaten food security and human well-being. Vulnerable populations in developing nations are often hit hardest, despite contributing the least to global emissions. In conclusion, combating climate change requires urgent collective action from governments, industries, and individuals to ensure a sustainable future for the planet. Education, innovation, and international cooperation will be essential tools in meeting this global challenge.Identify the central theme of the passage:",
+      "question_image": null,
       "options": [
         "The history of fossil fuels and climate change",
         "The economic benefits of deforestation and climate change",
         "The cause and effect of climate change and its migitation",
         "Ways to increase industrial production and energy emmission"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (The cause and effect of climate change and its migitation) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (The cause and effect of climate change and its migitation) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the passage and answer the questions that follow.Climate change is one of the most pressing challenges facing the world today. It refers to long-term changes in temperature, precipitation, and weather patterns, largely caused by human activities such as burning fossil fuels and deforestation. These changes have led to more frequent and intense natural disasters like hurricanes, droughts, and floods, affecting millions of people globally. Coastal regions are particularly vulnerable, with rising sea levels threatening communities and ecosystems alike. Scientists agree that reducing greenhouse gas emissions is critical to slowing climate change. Many countries have pledged to shift towards renewable energy sources like solar and wind power to decrease their carbon footprint. This transition not only reduces harmful emissions but also promotes energy independence and green job creation. Additionally, protecting forests and promoting sustainable agriculture can help absorb carbon dioxide from the atmosphere. Reforestation efforts and the preservation of biodiversity play a vital role in maintaining ecological balance and reducing carbon levels. The impacts of climate change are not limited to the environment; they also affect economies and public health. Crop failures, water shortages, and increased disease risk are some of the consequences that threaten food security and human well-being. Vulnerable populations in developing nations are often hit hardest, despite contributing the least to global emissions. In conclusion, combating climate change requires urgent collective action from governments, industries, and individuals to ensure a sustainable future for the planet. Education, innovation, and international cooperation will be essential tools in meeting this global challenge.Identify a suitable title for the passage.",
+      "question_image": null,
       "options": [
         "The Impact of Climate Change",
         "Natural Disasters Around the World",
         "Renewable Energy Solutions",
         "Agriculture and Economy"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (The Impact of Climate Change) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (The Impact of Climate Change) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the passage and answer the questions that follow.Climate change is one of the most pressing challenges facing the world today. It refers to long-term changes in temperature, precipitation, and weather patterns, largely caused by human activities such as burning fossil fuels and deforestation. These changes have led to more frequent and intense natural disasters like hurricanes, droughts, and floods, affecting millions of people globally. Coastal regions are particularly vulnerable, with rising sea levels threatening communities and ecosystems alike. Scientists agree that reducing greenhouse gas emissions is critical to slowing climate change. Many countries have pledged to shift towards renewable energy sources like solar and wind power to decrease their carbon footprint. This transition not only reduces harmful emissions but also promotes energy independence and green job creation. Additionally, protecting forests and promoting sustainable agriculture can help absorb carbon dioxide from the atmosphere. Reforestation efforts and the preservation of biodiversity play a vital role in maintaining ecological balance and reducing carbon levels. The impacts of climate change are not limited to the environment; they also affect economies and public health. Crop failures, water shortages, and increased disease risk are some of the consequences that threaten food security and human well-being. Vulnerable populations in developing nations are often hit hardest, despite contributing the least to global emissions. In conclusion, combating climate change requires urgent collective action from governments, industries, and individuals to ensure a sustainable future for the planet. Education, innovation, and international cooperation will be essential tools in meeting this global challenge.Identify the facts given in the passage.",
+      "question_image": null,
       "options": [
         "Deforestation helps reduce carbon dioxide.",
         "Renewable energy increases greenhouse gases.",
         "Climate change causes more frequent natural disasters.",
         "Climate change has no impact on human health."
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Climate change causes more frequent natural disasters.) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Climate change causes more frequent natural disasters.) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the passage and answer the questions that follow.Climate change is one of the most pressing challenges facing the world today. It refers to long-term changes in temperature, precipitation, and weather patterns, largely caused by human activities such as burning fossil fuels and deforestation. These changes have led to more frequent and intense natural disasters like hurricanes, droughts, and floods, affecting millions of people globally. Coastal regions are particularly vulnerable, with rising sea levels threatening communities and ecosystems alike. Scientists agree that reducing greenhouse gas emissions is critical to slowing climate change. Many countries have pledged to shift towards renewable energy sources like solar and wind power to decrease their carbon footprint. This transition not only reduces harmful emissions but also promotes energy independence and green job creation. Additionally, protecting forests and promoting sustainable agriculture can help absorb carbon dioxide from the atmosphere. Reforestation efforts and the preservation of biodiversity play a vital role in maintaining ecological balance and reducing carbon levels. The impacts of climate change are not limited to the environment; they also affect economies and public health. Crop failures, water shortages, and increased disease risk are some of the consequences that threaten food security and human well-being. Vulnerable populations in developing nations are often hit hardest, despite contributing the least to global emissions. In conclusion, combating climate change requires urgent collective action from governments, industries, and individuals to ensure a sustainable future for the planet. Education, innovation, and international cooperation will be essential tools in meeting this global challenge.What is the most appropriate synonym for the word “combating” in this context?",
+      "question_image": null,
       "options": [
         "Opposing",
         "Tolerating",
         "Promoting",
         "Ignoring"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Opposing) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Opposing) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the passage and answer the questions that follow.Climate change is one of the most pressing challenges facing the world today. It refers to long-term changes in temperature, precipitation, and weather patterns, largely caused by human activities such as burning fossil fuels and deforestation. These changes have led to more frequent and intense natural disasters like hurricanes, droughts, and floods, affecting millions of people globally. Coastal regions are particularly vulnerable, with rising sea levels threatening communities and ecosystems alike. Scientists agree that reducing greenhouse gas emissions is critical to slowing climate change. Many countries have pledged to shift towards renewable energy sources like solar and wind power to decrease their carbon footprint. This transition not only reduces harmful emissions but also promotes energy independence and green job creation. Additionally, protecting forests and promoting sustainable agriculture can help absorb carbon dioxide from the atmosphere. Reforestation efforts and the preservation of biodiversity play a vital role in maintaining ecological balance and reducing carbon levels. The impacts of climate change are not limited to the environment; they also affect economies and public health. Crop failures, water shortages, and increased disease risk are some of the consequences that threaten food security and human well-being. Vulnerable populations in developing nations are often hit hardest, despite contributing the least to global emissions. In conclusion, combating climate change requires urgent collective action from governments, industries, and individuals to ensure a sustainable future for the planet. Education, innovation, and international cooperation will be essential tools in meeting this global challenge.Identify the inferences drawn from the passage.",
+      "question_image": null,
       "options": [
         "Protecting forests and sustainable farming are beneficial.",
         "Green house gases are harmless.",
         "Climate change only affects certain countries.",
         "Technology cannot help mitigate climate change."
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Protecting forests and sustainable farming are beneficial.) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Protecting forests and sustainable farming are beneficial.) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.Her daughter is ________________________ your daughter.",
+      "question_image": null,
       "options": [
         "more bold and more brave than",
         "bolder and braver than",
         "bold and brave than",
         "more bold and brave than"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (bolder and braver than) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (bolder and braver than) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank._______________ were absent from the meeting.",
+      "question_image": null,
       "options": [
         "Either Sunil and Meera",
         "Neither Sunil and Meera",
         "Neither Sunil or Meera",
         "Both Sunil and Meera"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Both Sunil and Meera) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Both Sunil and Meera) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "English Language and Comprehension",
       "question": "Select the option that rectifies the incorrectly spelt words in the given sentence.'Her admiration for the philosopher’s logorhea was evident, even if his praelixity sometimes veered into solipsizm. Nonetheless, his speculative musings on metaphysics provided a refreshing departure from the conventional discourse.'",
+      "question_image": null,
       "options": [
         "logorrhea, prolixety, solipsism",
         "logorreah, prolexity, solipsasm",
         "logorrhea, prolixity, solipsism",
         "logorria, prolixity, solipsism"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (logorrhea, prolixity, solipsism) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (logorrhea, prolixity, solipsism) है।",
+      "explanation_image": null
     }
   ]
 }

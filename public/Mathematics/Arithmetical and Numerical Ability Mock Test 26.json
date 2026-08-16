@@ -6,281 +6,321 @@
       "id": 1,
       "section": "Arithmetical and Numerical Ability",
       "question": "The areas of three adjacent faces of a solid cuboid are 208 cm2, 289 cm2 and 117 cm2. What is the volume (in cm3) of the cuboid?",
+      "question_image": null,
       "options": [
         "2652",
         "2653",
         "2385",
         "2551"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (2652) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (2652) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "Arithmetical and Numerical Ability",
       "question": "A, B and C, when each is working alone, can do a piece of work in, respectively, 11, 84 and 44 days. They all started the work together, but A left after 3 days. In how many days was the remaining work completed?",
+      "question_image": null,
       "options": [
         "17",
         "20",
         "18",
         "19"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (18) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (18) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "Arithmetical and Numerical Ability",
       "question": "A trader offers a discount of 17% on the marked price of an article. How much percentage above the cost price should he mark the article to make a profit of 17%?(Give your answer rounded off to 2 decimal places.)",
+      "question_image": null,
       "options": [
         "38.47%",
         "36.71%",
         "41.56%",
         "40.96%"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (40.96%) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (40.96%) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "Arithmetical and Numerical Ability",
       "question": "An amount of ₹800 is divided among three persons in the ratio 13 : 19 : 18. The difference (in ₹) between the largest and the smallest shares in the distribution is:",
+      "question_image": null,
       "options": [
         "74",
         "96",
         "99",
         "49"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (96) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (96) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "Arithmetical and Numerical Ability",
       "question": "A woman travelled at a speed of 20 m/min for 93 min and at a speed of 73 m/min for 66 min. Her average speed (in m/min) is:",
+      "question_image": null,
       "options": [
         "42",
         "35",
         "46",
         "48"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (42) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (42) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "Arithmetical and Numerical Ability",
       "question": "एक व्यक्ति ने दो प्रकार के सेब क्रमशः ₹2 प्रति 3 सेब तथा ₹6 प्रति सेब की दर से खरीदे। यदि उसने प्रत्येक प्रकार के सेब बराबर संख्या में खरीदे तथा फिर सभी सेब ₹4 प्रति सेब की दर से बेच दिए, तो उसका लाभ प्रतिशत क्या था?",
+      "question_image": null,
       "options": [
         "15%",
         "22%",
         "25%",
         "20%"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (20%) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (20%) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "Arithmetical and Numerical Ability",
       "question": "The surface area (in cm2) of a sphere of radius 63 cm is: (Take π = 22/7)",
+      "question_image": null,
       "options": [
         "49898",
         "49895",
         "49896",
         "49897"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (49896) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (49896) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "Arithmetical and Numerical Ability",
       "question": "P and Q together can fill a cistern with water in 8 hours. If P alone can fill the same amount of water in 16 hours, then in how many hours will Q alone fill the same amount of water?",
+      "question_image": null,
       "options": [
         "18",
         "16",
         "15",
         "17"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (16) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (16) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "Arithmetical and Numerical Ability",
       "question": "Train A leaves station M at 7:40 a.m. and reaches station N at 4:40 p.m. on the same day. Train B leaves station N at 9:40 a.m. and reaches station M at 2:40 p.m. on the same day. Find the time when Trains A and B meet.",
+      "question_image": null,
       "options": [
         "8:57 p.m.",
         "12:10 p.m.",
         "7:26 p.m.",
         "3:42 p.m."
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (12:10 p.m.) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (12:10 p.m.) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "Arithmetical and Numerical Ability",
       "question": "A man spends 16% of his monthly salary (in ₹) on the rent of his house. If every month, he also spends ₹136 on his conveyance and ₹4,510 on his grocery, and saves the remaining ₹898, his monthly salary (in ₹) is:",
+      "question_image": null,
       "options": [
         "6,671",
         "6,600",
         "6,565",
         "6,550"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (6,600) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (6,600) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average of the first 13 multiples of 5 is:3838",
+      "question_image": null,
       "options": [
         "35",
         "32.5",
         "13",
         "5"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (35) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (35) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "Arithmetical and Numerical Ability",
       "question": "सचिन ने ₹89,125 की धनराशि को 20% वार्षिक चक्रवृद्धि ब्याज दर पर जमा किया, जहां ब्याज वार्षिक रूप से संयोजित होता है। 2 वर्षों के बाद सचिन को प्राप्त होने वाली कुल धनराशि (₹ में) ज्ञात कीजिए।",
+      "question_image": null,
       "options": [
         "1,27,922",
         "1,28,340",
         "1,27,880",
         "1,28,387"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (1,28,340) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (1,28,340) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "Arithmetical and Numerical Ability",
       "question": "शिवम ने व्यवसाय शुरू करने के लिए बैंक से ₹2,80,000 उधार लिए हैं। 2 वर्ष बाद 8% वार्षिक दर से उसे कितना साधारण ब्याज (₹ में) भुगतान करना होगा?",
+      "question_image": null,
       "options": [
         "43,800",
         "3,24,800",
         "45,800",
         "44,800"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (44,800) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (44,800) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "Arithmetical and Numerical Ability",
       "question": "एक व्यक्ति को प्रतिमाह ₹9,598 वेतन मिलता है। वह प्रतिमाह अपने वेतन का 50% बचाता है। उसका मासिक खर्च (₹ में) ज्ञात कीजिए।",
+      "question_image": null,
       "options": [
         "4,879",
         "4,821",
         "4,761",
         "4,799"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (4,799) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (4,799) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "Arithmetical and Numerical Ability",
       "question": "A cosmetic product is available at a discount of 11%. If the shopkeeper charges ₹1,513, what is its marked price (in ₹)?",
+      "question_image": null,
       "options": [
         "1,700",
         "1,705",
         "1,715",
         "1,712"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (1,700) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (1,700) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average of 13 numbers is 13. If each number is multiplied by 5, then what will the new average be?",
+      "question_image": null,
       "options": [
         "13",
         "26",
         "5",
         "65"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (65) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (65) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "Arithmetical and Numerical Ability",
       "question": "Two numbers are in the ratio 5 : 8. If the first number increases by 40% and the second number decreases by 15%, the new ratio becomes ____________.",
+      "question_image": null,
       "options": [
         "12 : 17",
         "37 : 39",
         "35 : 34",
         "23 : 26"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (35 : 34) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (35 : 34) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "Arithmetical and Numerical Ability",
       "question": "Find the curved surface area of a hemisphere of radius 63 cm.(Take π = 22/7)",
+      "question_image": null,
       "options": [
         "9355 cm2",
         "12474 cm2",
         "37422 cm2",
         "24948 cm2"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (24948 cm2) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (24948 cm2) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "Arithmetical and Numerical Ability",
       "question": "The distance between two points on a map is 2 cm. The scale of the map is 1 : 363787. The actual distance (rounded off to two decimal places) between the two points (in km) is:",
+      "question_image": null,
       "options": [
         "7.28",
         "12.12",
         "4.42",
         "7.26"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (7.28) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (7.28) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "Arithmetical and Numerical Ability",
       "question": "Pawan marks the price of his article 25% more than its cost price. If he sells the article for ₹5,830 after allowing a discount of 20%, then what will be the cost price (in ₹) of the article?",
+      "question_image": null,
       "options": [
         "₹5,830",
         "₹5,240",
         "₹5,120",
         "₹5,890"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (₹5,830) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (₹5,830) है।",
+      "explanation_image": null
     }
   ]
 }

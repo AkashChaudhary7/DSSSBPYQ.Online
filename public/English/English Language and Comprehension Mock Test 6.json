@@ -6,281 +6,321 @@
       "id": 1,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate article to fill in the blank. If no article is needed, select 'No article required'.Recent studies indicate that _______ information shared by the researchers was highly valuable.",
+      "question_image": null,
       "options": [
         "a",
         "No article required",
         "an",
         "the"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (the) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (the) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. Their problems have so far not received adequate attention in the process of development.B. Nutrition requirements of adolescents are higher than those of a normal child or adult.C. Poor nutrition can lead to deficiency and stunted growth. D. A large number of adolescent girls suffer from anaemia.E. But in India, the diet available to adolescents is inadequate in all nutrients.",
+      "question_image": null,
       "options": [
         "BCEDA",
         "ABCDE",
         "EABDC",
         "CDEAB"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (BCEDA) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (BCEDA) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. Over the years, environmental degradation has accelerated at an alarming pace.B. As a result, many governments have begun to prioritise sustainable development.C. Industrialisation and urban expansion have contributed significantly to this problem.D. However, the challenge lies in balancing economic growth with environmental protection.",
+      "question_image": null,
       "options": [
         "A → C → B → D",
         "C → A → B → D",
         "A → B → D → C",
         "B → C → A → D"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (A → C → B → D) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (A → C → B → D) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "English Language and Comprehension",
       "question": "Select  the  INCORRECTLY spelt word.",
+      "question_image": null,
       "options": [
         "Innocent",
         "Independent",
         "Exagerate",
         "Environment"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Exagerate) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Exagerate) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.The students _______ to the professor carefully during the lecture.",
+      "question_image": null,
       "options": [
         "listen",
         "listened",
         "listens",
         "listening"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (listened) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (listened) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "English Language and Comprehension",
       "question": "Select the option that can be used as a one-word substitute for the given group of words.A person who believes that all events are predetermined and inevitable",
+      "question_image": null,
       "options": [
         "Realist",
         "Fatalist",
         "Idealist",
         "Optimist"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Fatalist) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Fatalist) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate meaning of the given proverb.A picture is worth a thousand words.",
+      "question_image": null,
       "options": [
         "Thousand words make a picture.",
         "It is easier to explain something through pictures than words.",
         "Audio visual learning is the best for teaching.",
         "It is is easier to paint than to write."
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (It is easier to explain something through pictures than words.) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (It is easier to explain something through pictures than words.) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank. This solution is the most ______ of all we have tried.",
+      "question_image": null,
       "options": [
         "effective",
         "effecting",
         "affective",
         "effectively"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (effective) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (effective) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate article to fill in the blank. If no article is needed, select 'No article required'.She submitted _______ report on renewable energy policies yesterday.",
+      "question_image": null,
       "options": [
         "No article required",
         "a",
         "an",
         "the"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (a) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (a) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "English Language and Comprehension",
       "question": "Select the option that can be used as a one-word substitute for the underlined segment in the given sentence.The witness altered his statement repeatedly, and each version conflicted with the one before; Ultimately, he was accused of the criminal offense of knowingly making false statements under oath in judicial proceedings.",
+      "question_image": null,
       "options": [
         "collusion",
         "slander",
         "perjury",
         "libel"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (perjury) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (perjury) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate meaning of the given proverb.Empty vessels make the most noise.",
+      "question_image": null,
       "options": [
         "People with little knowledge often speak the loudest.",
         "People with deep wisdom usually speak softly.",
         "Arrogant people rise to positions of power.",
         "Silence is a sign of agreement."
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (People with little knowledge often speak the loudest.) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (People with little knowledge often speak the loudest.) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate ANTONYM of the underlined word in the given sentence.The new regulations rendered many older trade practices nugatory, stripping them of any force.",
+      "question_image": null,
       "options": [
         "valid",
         "ineffectual",
         "futile",
         "worthless"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (valid) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (valid) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "English Language and Comprehension",
       "question": "Select the correct spelling of the underlined incorrectly spelt word in the given sentence.The fashion designer's latest collection featured intricatily embroidered dresses that showcased her impeccable attention to detail. Each piece was inspired by traditional aesthetics but with a modern twist, making it a hit at the fashion show.",
+      "question_image": null,
       "options": [
         "intericately",
         "intricatly",
         "intricately",
         "intrecately"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (intricately) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (intricately) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate verbs to fill in the blanks.The committee ______ the report and ______ the necessary changes before the deadline.",
+      "question_image": null,
       "options": [
         "reviewing; implement",
         "reviews; implementing",
         "review; implementing",
         "reviewed; implemented"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (reviewed; implemented) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (reviewed; implemented) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate ANTONYM of the highlighted word in the given sentence.Her argument was dismissed as ephemeral, lacking the lasting significance required for a serious debate.",
+      "question_image": null,
       "options": [
         "Superficial",
         "Enduring",
         "Momentary",
         "Fleeting"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Enduring) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Enduring) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.Disability is a part of being humans. Almost everyone will temporarily or permanently experience disability at some point in their life. An estimated 1.3 billion people, about 16% of the global population, currently experience significant disability. This number is increasing due in part to population ageing and an increase in the prevalence of noncommunicable diseases. Disability results from the interaction of individuals having a health condition, such as cerebral palsy, Down syndrome and depression, with personal and environmental factors, including negative attitudes, inaccessible transportation, public buildings and limited social support. A person’s environment has a huge effect on the experience and extent of disability. Inaccessible environments create barriers that often hinder the full and effective participation of persons with disabilities in society on an equal basis with others. Progress on improving social participation can be made by addressing these barriers and facilitating persons with disabilities in their day to day lives.Q76. According to the passage, what is one major way to improve social participation for persons with disabilities?",
+      "question_image": null,
       "options": [
         "Reducing the prevalence of cerebral palsy",
         "Addressing barriers and facilitating accessibility",
         "Enhancing negative attitudes",
         "Decreasing the number of health conditions"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Addressing barriers and facilitating accessibility) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Addressing barriers and facilitating accessibility) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.Disability is a part of being humans. Almost everyone will temporarily or permanently experience disability at some point in their life. An estimated 1.3 billion people, about 16% of the global population, currently experience significant disability. This number is increasing due in part to population ageing and an increase in the prevalence of noncommunicable diseases. Disability results from the interaction of individuals having a health condition, such as cerebral palsy, Down syndrome and depression, with personal and environmental factors, including negative attitudes, inaccessible transportation, public buildings and limited social support. A person’s environment has a huge effect on the experience and extent of disability. Inaccessible environments create barriers that often hinder the full and effective participation of persons with disabilities in society on an equal basis with others. Progress on improving social participation can be made by addressing these barriers and facilitating persons with disabilities in their day to day lives.Q77. Select is the most appropriate ANTONYM of the word 'inaccessible' as used in the passage.",
+      "question_image": null,
       "options": [
         "Remote",
         "Difficult",
         "Obstructed",
         "Convenient"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Convenient) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Convenient) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.Disability is a part of being humans. Almost everyone will temporarily or permanently experience disability at some point in their life. An estimated 1.3 billion people, about 16% of the global population, currently experience significant disability. This number is increasing due in part to population ageing and an increase in the prevalence of noncommunicable diseases. Disability results from the interaction of individuals having a health condition, such as cerebral palsy, Down syndrome and depression, with personal and environmental factors, including negative attitudes, inaccessible transportation, public buildings and limited social support. A person’s environment has a huge effect on the experience and extent of disability. Inaccessible environments create barriers that often hinder the full and effective participation of persons with disabilities in society on an equal basis with others. Progress on improving social participation can be made by addressing these barriers and facilitating persons with disabilities in their day to day lives.Q78. What is the tone of the passage?",
+      "question_image": null,
       "options": [
         "Informative",
         "Sarcastic",
         "Optimistic",
         "Humorous"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Informative) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Informative) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.Disability is a part of being humans. Almost everyone will temporarily or permanently experience disability at some point in their life. An estimated 1.3 billion people, about 16% of the global population, currently experience significant disability. This number is increasing due in part to population ageing and an increase in the prevalence of noncommunicable diseases. Disability results from the interaction of individuals having a health condition, such as cerebral palsy, Down syndrome and depression, with personal and environmental factors, including negative attitudes, inaccessible transportation, public buildings and limited social support. A person’s environment has a huge effect on the experience and extent of disability. Inaccessible environments create barriers that often hinder the full and effective participation of persons with disabilities in society on an equal basis with others. Progress on improving social participation can be made by addressing these barriers and facilitating persons with disabilities in their day to day lives.Q79. Which of the following would be an appropriate title for the passage?",
+      "question_image": null,
       "options": [
         "The Rise of Noncommunicable Diseases",
         "Cerebral Palsy and Down Syndrome",
         "The Impact of Negative Attitudes",
         "Understanding Disability and Its Challenges"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Understanding Disability and Its Challenges) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Understanding Disability and Its Challenges) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.Disability is a part of being humans. Almost everyone will temporarily or permanently experience disability at some point in their life. An estimated 1.3 billion people, about 16% of the global population, currently experience significant disability. This number is increasing due in part to population ageing and an increase in the prevalence of noncommunicable diseases. Disability results from the interaction of individuals having a health condition, such as cerebral palsy, Down syndrome and depression, with personal and environmental factors, including negative attitudes, inaccessible transportation, public buildings and limited social support. A person’s environment has a huge effect on the experience and extent of disability. Inaccessible environments create barriers that often hinder the full and effective participation of persons with disabilities in society on an equal basis with others. Progress on improving social participation can be made by addressing these barriers and facilitating persons with disabilities in their day to day lives.Q80. What is the main theme of the passage?",
+      "question_image": null,
       "options": [
         "The benefits of accessible transportation",
         "The history of noncommunicable diseases",
         "The importance of health conditions",
         "The global prevalence and impact of disability"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (The global prevalence and impact of disability) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (The global prevalence and impact of disability) है।",
+      "explanation_image": null
     }
   ]
 }

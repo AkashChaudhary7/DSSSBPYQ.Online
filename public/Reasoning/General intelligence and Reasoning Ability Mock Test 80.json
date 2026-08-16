@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the triad that follows the same pattern as that followed by the two triads given below. Both triads follow the same pattern.FB-IE-LOHD-KG-NQ",
+      "question_image": null,
       "options": [
         "JF-MI-PS",
         "JF-MI-PR",
         "KF-MI-PR",
         "KF-NI-PR"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (JF-MI-PS) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (JF-MI-PS) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Which numbers should replace X and Y so that the pattern followed by the two numbers on the left side of :: is same as that on the right side of ::?(NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed)X : 125 ::  16 : Y321",
+      "question_image": null,
       "options": [
         "X = 11, Y = 260",
         "X = 12, Y = 271",
         "X = 11, Y = 267",
         "X = 12, Y = 269"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (X = 11, Y = 260) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (X = 11, Y = 260) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘A ~ B’ means ‘A is the brother of B’,‘A * B’ means ‘A is the daughter of B’,‘A ? B’ means ‘A is the father of B’ and ‘A > B’ means ‘A is the wife of B’.Based on the above, how is S related to T if 'S * I ~ G > H ? T’?899",
+      "question_image": null,
       "options": [
         "Mother's brother's wife",
         "Mother's brother's son",
         "Mother's brother's daughter",
         "Mother's brother's sister"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Mother's brother's daughter) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Mother's brother's daughter) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "13 is related to 31 following a certain logic. Following the same logic, 27 is related to 59. To which of the following is 17 related, following the same logic?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)518",
+      "question_image": null,
       "options": [
         "35",
         "37",
         "39",
         "41"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (39) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (39) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "S, T, U, V, Y and Z live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it, number 2 and so on till the topmost floor is numbered 6. Y lives on floor numbered 5. S lives on a floor above Y. Only V lives below U. T lives on an even numbered floor. How many people live below Z?2163",
+      "question_image": null,
       "options": [
         "One",
         "Three",
         "Four",
         "Two"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Two) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Two) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which two numbers should be interchanged to make the given equation correct?  (105 ÷ 5) + 15 × 3 – 75 + 20 = 55(Note: Interchange should be done for an entire number and not for individual digits of the number.)593",
+      "question_image": null,
       "options": [
         "3 and 5",
         "75 and 105",
         "15 and 20",
         "15 and 5"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (3 and 5) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (3 and 5) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "Two statements are given numbered I and II. There may be cause and effect relationship between the two statements. These two statements may be the effect of the same cause or independent causes. These statements may be independent causes without having any relationship. Read both the statements and select your answer accordingly.Statements I.\tA potentially highly transmissible variant of the SARS-CoV-2 was first discovered in India in October 2020. II.\tWHO and its international networks of experts are monitoring changes to the virus so as to develop its anti-body.687",
+      "question_image": null,
       "options": [
         "Both the statements I and II are independent causes.",
         "Statement II is the cause and statement I is its effect.",
         "Statement I is the cause and statement II is its effect.",
         "Both the statements I and II are effects of an independent cause."
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Statement I is the cause and statement II is its effect.) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Statement I is the cause and statement II is its effect.) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?GL18, IN25, KP32, MR39, ?3167",
+      "question_image": null,
       "options": [
         "OT44",
         "OT46",
         "PT44",
         "PT46"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (OT46) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (OT46) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘P’ stands for ‘×’, ‘Q’ stands for ‘÷’, ‘R’ stands for ‘−’ and ‘S’ stands for ‘+’, then what will come in place of the question mark (?) in the following equation?19 R 7 S 42 P (56 Q 4) S 2 R 249 = ?162",
+      "question_image": null,
       "options": [
         "269",
         "242",
         "353",
         "303"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (353) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (353) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "Nilay starts from point A and drives 6 km towards west. He then takes a left turn and drives 8 km. He takes a final right turn and drives 10 km and stops at point B. Ansh starts from point P, which is 15 km east of point A, and drives 5 km towards west. He then takes a left turn and drives 8 km. He takes a final right turn and drives 8 km and stops at point Q. What is the shortest distance between point Q and point B? (All turns are 90° turns only.)",
+      "question_image": null,
       "options": [
         "19 km",
         "18 km",
         "17 km",
         "16 km"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (18 km) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (18 km) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?5   28   74   166   350  ?",
+      "question_image": null,
       "options": [
         "716",
         "719",
         "718",
         "717"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (718) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (718) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion(s) logically follow(s) from the statements.Statements: All pillows are cushions.All pillows are beds.Conclusions: (I) All cushions are beds.(II) Some beds are pillows.752",
+      "question_image": null,
       "options": [
         "Both conclusions (I) and (II) follow.",
         "Only conclusion (I) follows.",
         "Neither conclusion (I) nor (II) follows.",
         "Only conclusion (II) follows."
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Only conclusion (II) follows.) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Only conclusion (II) follows.) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven people, A, B, C, Q, G, H and I are sitting in a row, facing north. B sits fourth from the right extreme end. C and Q are immediate neighbours of G. Only I sits between B and H. C sits third to the left of B. How many people sit between A and B?704",
+      "question_image": null,
       "options": [
         "Five",
         "Two",
         "None",
         "Three"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Two) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Two) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the given words.ACT          COB           DAY            PEN       In each of the words, each vowel is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. In how many letter-clusters thus formed, will no vowel appear? 2009",
+      "question_image": null,
       "options": [
         "Two",
         "Three",
         "Four",
         "One"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Two) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Two) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of S, T, U, V, X, Y and Z has an exam on a different day of a week starting from Monday and ending on Sunday of the same week. Only two people have exam before S. Only one person has exam after X. Only three people have exam between S and V. Only one person has exam between Y and Z. U has exam immediately before Y. How many people have exam between T and Y?2172",
+      "question_image": null,
       "options": [
         "One",
         "Four",
         "Two",
         "Three"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Two) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Two) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the following letter-clusters should replace # and % so that the pattern and relationship followed between the letter-cluster pair on the left side of :: is the same as that on the right side of :: ?\n\n# : KLM :: MOP : %",
+      "question_image": null,
       "options": [
         "# = JKN, % = NQR",
         "# = JKM, % = NQP",
         "# = KLN, % = MOP",
         "# = KLL, % = MOQ"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (# = KLL, % = MOQ) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (# = KLL, % = MOQ) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series in order to make it logically complete?BO20  FP29  JQ40  NR53  ?12805",
+      "question_image": null,
       "options": [
         "RS68",
         "PL53",
         "KU51",
         "FR53"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (RS68) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (RS68) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,E + F means ‘E is the wife of F’,E – F means ‘E is the father of F’,E x F means ‘E is the husband of F’ andE ÷ F means ‘E is the mother of F’.How is P related to T if ‘P x Q ÷ R x S÷ T’?12413",
+      "question_image": null,
       "options": [
         "Father's brother",
         "Mother's father",
         "Father's father",
         "Mother's brother"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Father's father) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Father's father) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?18    12    20    14    22   ?",
+      "question_image": null,
       "options": [
         "22",
         "14",
         "20",
         "16"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (16) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (16) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of L, M, N, O, S, T, and U has an exam on a different day of the week, starting from Monday and ending on Sunday of the same week.O has the exam on Tuesday. Only three people have their exams between M and S. T has the exam on one of the days before O. U has the exam immediately before S. Only N has the exam between U and L. Who among the following has the exam on Thursday?2757",
+      "question_image": null,
       "options": [
         "U",
         "M",
         "L",
         "N"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (L) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (L) है।",
+      "explanation_image": null
     }
   ]
 }

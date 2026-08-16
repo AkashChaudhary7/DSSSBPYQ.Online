@@ -6,281 +6,321 @@
       "id": 1,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.Set down your terms in ________.",
+      "question_image": null,
       "options": [
         "right or wrong",
         "black and white",
         "thick and thin",
         "slow and steady"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (black and white) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (black and white) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. Biologists say that during the last Ice Age, cheetahs went through a long period of inbreeding.B. They cannot adapt to changes in the environment as quickly as other animals and fewer cheetahs survive to maturity. C. Cheetahs (Acinonyx jubatus) are a threatened species native to Africa and Asia. D. As a result, there are very few genetic differences between cheetahs.E. These big cats have very little genetic variation.",
+      "question_image": null,
       "options": [
         "ACBED",
         "CEADB",
         "CABED",
         "ADECB"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (CEADB) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (CEADB) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate meaning of the given proverb.Still waters run deep.",
+      "question_image": null,
       "options": [
         "People who are quiet and shy may actually be very interesting.",
         "Running water is shallower than water which is very still.",
         "Anything which appears too quiet is probably very dangerous.",
         "Those who stay quiet can get more work done than those who talk too much."
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (People who are quiet and shy may actually be very interesting.) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (People who are quiet and shy may actually be very interesting.) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blanks. My aunt has found ________ unique way of preparing rice that involves little effort and is prepared in ________ jiffy.",
+      "question_image": null,
       "options": [
         "a; the",
         "a; a",
         "an; the",
         "a; an"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (a; a) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (a; a) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "English Language and Comprehension",
       "question": "Select the INCORRECTLY  spelt word.",
+      "question_image": null,
       "options": [
         "Disseminating",
         "Elephantine",
         "Ephemeral",
         "Credantial"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Credantial) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Credantial) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "English Language and Comprehension",
       "question": "Select the option that can be used as a one-word substitute for the underlined segment in the given sentence.The author began his speech by recalling childhood incidents, then wandered into anecdotes from history, and eventually recited pages of descriptions that were hardly relevant, which made his lecture full of unnecessary and excessive use of words that lacked conciseness and clarity.",
+      "question_image": null,
       "options": [
         "sagacity",
         "verbosity",
         "brevity",
         "clarity"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (verbosity) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (verbosity) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.________ a loaf is better than no bread.",
+      "question_image": null,
       "options": [
         "Half",
         "Whole",
         "Little",
         "Surplus"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Half) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Half) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A) The answer is all about perspective, for humans are pretty tiny creatures living on a really large sphere.B) So why doesn’t our planet look round when we’re standing in a park or looking out a window?C) Even in later observations, including the stunning images of Earth from space, whether captured by astronauts or gathered remotely by orbiting satellites, Earth still appears spherical.D) Ever since the ancient Greeks first made observations of the circular Moon and the skies, scientists have known that the Earth is a sphere.",
+      "question_image": null,
       "options": [
         "DACB",
         "DCBA",
         "BACD",
         "BDAC"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (DCBA) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (DCBA) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate meaning of the given proverb.As you sow, so shall you reap.",
+      "question_image": null,
       "options": [
         "You will lead a large crop if you sow a large amount of seeds.",
         "Your actions (good or bad) determine what you get.",
         "Your actions (good or bad) will always yield good results.",
         "You can only grow a plant after you sow a seed."
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Your actions (good or bad) determine what you get.) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Your actions (good or bad) determine what you get.) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the passage carefully and answer the questions that follow.In the realm of economics, the principles of supply and demand reign supreme, orchestrating the intricate dance of markets worldwide. Supply refers to the quantity of a good or service available for purchase, influenced by factors such as production costs, technological advancements and government policies. Conversely, demand reflects the desire and ability of consumers to purchase a particular product, influenced by factors such as income levels, tastes and preferences. The equilibrium between supply and demand establishes market prices, where neither shortages nor surpluses prevail. However, external factors such as changes in consumer behaviour, technological disruptions or geopolitical events can disrupt this delicate balance, leading to fluctuations in prices and market dynamics. Economists employ various models and theories to analyse these fluctuations and predict future trends, aiding businesses, policymakers and individuals in making informed decisions. Understanding the interplay between supply and demand is paramount for navigating the complex landscape of economics and achieving sustainable growth and prosperity.What does the principle of supply primarily refer to in economics?",
+      "question_image": null,
       "options": [
         "The regulations governments impose to maintain social stability",
         "The quantity of goods or services made available for purchase",
         "The willingness of consumers to spend their available resources",
         "The strategies businesses adopt to advertise their new products"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (The quantity of goods or services made available for purchase) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (The quantity of goods or services made available for purchase) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the passage carefully and answer the questions that follow.In the realm of economics, the principles of supply and demand reign supreme, orchestrating the intricate dance of markets worldwide. Supply refers to the quantity of a good or service available for purchase, influenced by factors such as production costs, technological advancements and government policies. Conversely, demand reflects the desire and ability of consumers to purchase a particular product, influenced by factors such as income levels, tastes and preferences. The equilibrium between supply and demand establishes market prices, where neither shortages nor surpluses prevail. However, external factors such as changes in consumer behaviour, technological disruptions or geopolitical events can disrupt this delicate balance, leading to fluctuations in prices and market dynamics. Economists employ various models and theories to analyse these fluctuations and predict future trends, aiding businesses, policymakers and individuals in making informed decisions. Understanding the interplay between supply and demand is paramount for navigating the complex landscape of economics and achieving sustainable growth and prosperity.What inference can be drawn from the passage regarding price fluctuations?",
+      "question_image": null,
       "options": [
         "They occur when external factors disturb the balance between supply and demand.",
         "They happen only when governments introduce new taxation policies.",
         "They are irrelevant to businesses, policymakers, or individual consumers.",
         "They can be permanently avoided by maintaining traditional practices."
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (They occur when external factors disturb the balance between supply and demand.) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (They occur when external factors disturb the balance between supply and demand.) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the passage carefully and answer the questions that follow.In the realm of economics, the principles of supply and demand reign supreme, orchestrating the intricate dance of markets worldwide. Supply refers to the quantity of a good or service available for purchase, influenced by factors such as production costs, technological advancements and government policies. Conversely, demand reflects the desire and ability of consumers to purchase a particular product, influenced by factors such as income levels, tastes and preferences. The equilibrium between supply and demand establishes market prices, where neither shortages nor surpluses prevail. However, external factors such as changes in consumer behaviour, technological disruptions or geopolitical events can disrupt this delicate balance, leading to fluctuations in prices and market dynamics. Economists employ various models and theories to analyse these fluctuations and predict future trends, aiding businesses, policymakers and individuals in making informed decisions. Understanding the interplay between supply and demand is paramount for navigating the complex landscape of economics and achieving sustainable growth and prosperity.Which real-world scenario best reflects the interplay of supply and demand?",
+      "question_image": null,
       "options": [
         "A cultural festival celebrated by people without any economic impact",
         "A government decision to appoint new ministers in local offices",
         "A rise in smartphone prices due to high demand and limited production",
         "A classroom discussion on history unrelated to financial systems"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (A rise in smartphone prices due to high demand and limited production) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (A rise in smartphone prices due to high demand and limited production) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the passage carefully and answer the questions that follow.In the realm of economics, the principles of supply and demand reign supreme, orchestrating the intricate dance of markets worldwide. Supply refers to the quantity of a good or service available for purchase, influenced by factors such as production costs, technological advancements and government policies. Conversely, demand reflects the desire and ability of consumers to purchase a particular product, influenced by factors such as income levels, tastes and preferences. The equilibrium between supply and demand establishes market prices, where neither shortages nor surpluses prevail. However, external factors such as changes in consumer behaviour, technological disruptions or geopolitical events can disrupt this delicate balance, leading to fluctuations in prices and market dynamics. Economists employ various models and theories to analyse these fluctuations and predict future trends, aiding businesses, policymakers and individuals in making informed decisions. Understanding the interplay between supply and demand is paramount for navigating the complex landscape of economics and achieving sustainable growth and prosperity.What is the central theme of the passage?",
+      "question_image": null,
       "options": [
         "The role of international trade agreements in stabilising markets",
         "The benefits of advertising strategies for modern industries",
         "The importance of understanding supply and demand in economics",
         "The dominance of government policies over consumer behaviour"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (The importance of understanding supply and demand in economics) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (The importance of understanding supply and demand in economics) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the passage carefully and answer the questions that follow.In the realm of economics, the principles of supply and demand reign supreme, orchestrating the intricate dance of markets worldwide. Supply refers to the quantity of a good or service available for purchase, influenced by factors such as production costs, technological advancements and government policies. Conversely, demand reflects the desire and ability of consumers to purchase a particular product, influenced by factors such as income levels, tastes and preferences. The equilibrium between supply and demand establishes market prices, where neither shortages nor surpluses prevail. However, external factors such as changes in consumer behaviour, technological disruptions or geopolitical events can disrupt this delicate balance, leading to fluctuations in prices and market dynamics. Economists employ various models and theories to analyse these fluctuations and predict future trends, aiding businesses, policymakers and individuals in making informed decisions. Understanding the interplay between supply and demand is paramount for navigating the complex landscape of economics and achieving sustainable growth and prosperity.Which tone does the author adopt in presenting the concept of supply and demand?",
+      "question_image": null,
       "options": [
         "Emotional, highlighting the struggles faced by common consumers",
         "Humourous, making light of how markets function in daily life",
         "Analytical, emphasising explanation and interpretation of principles",
         "Critical, questioning the validity of established economic models"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Analytical, emphasising explanation and interpretation of principles) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Analytical, emphasising explanation and interpretation of principles) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the following passage carefully and answer the questions that follow.Born in May 1917, John F Kennedy came from an illustrious political family; his father, Joseph Kennedy, was a leading member of the Democratic Party, and Joseph encouraged John F Kennedy in his political ambitions after the war. John graduated from Harvard after completing a thesis on 'Appeasement in Munich'. His thesis was later converted into a successful book: Why England Slept (1940). Before America joined the war, John joined the Navy and saw action throughout the Pacific theatre. In August 1943, his boat was rammed by the Japanese destroyer Amagiri. John F Kennedy was later decorated for his outstanding bravery in rescuing a fellow crewman; he was also awarded the Purple Heart for an incident later in the war. In 1946, he won a seat in Boston for the US House of Representatives, and in 1952, got himself elected to the US Senate, defeating the incumbent Republican. In 1953, he married Jacqueline Lee Bouvier. In 1957 he was awarded the Pulitzer Prize for Biography for his book Profiles in Courage, a book about US Senators who stood up for their personal beliefs. In 1956, he was nearly chosen to be the Vice-Presidential candidate for Adlai Stevenson. The national exposure raised his profile, and in 1960 he was selected to be the Democratic nomination for the Presidency.What role did Joseph Kennedy play in John F Kennedy's political career?",
+      "question_image": null,
       "options": [
         "He kept his political involvement to a minimum.",
         "He helped him get elected to the Senate.",
         "He encouraged and supported his political ambitions.",
         "He opposed his son’s ambitions and discouraged him."
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (He encouraged and supported his political ambitions.) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (He encouraged and supported his political ambitions.) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the following passage carefully and answer the questions that follow.Born in May 1917, John F Kennedy came from an illustrious political family; his father, Joseph Kennedy, was a leading member of the Democratic Party, and Joseph encouraged John F Kennedy in his political ambitions after the war. John graduated from Harvard after completing a thesis on 'Appeasement in Munich'. His thesis was later converted into a successful book: Why England Slept (1940). Before America joined the war, John joined the Navy and saw action throughout the Pacific theatre. In August 1943, his boat was rammed by the Japanese destroyer Amagiri. John F Kennedy was later decorated for his outstanding bravery in rescuing a fellow crewman; he was also awarded the Purple Heart for an incident later in the war. In 1946, he won a seat in Boston for the US House of Representatives, and in 1952, got himself elected to the US Senate, defeating the incumbent Republican. In 1953, he married Jacqueline Lee Bouvier. In 1957 he was awarded the Pulitzer Prize for Biography for his book Profiles in Courage, a book about US Senators who stood up for their personal beliefs. In 1956, he was nearly chosen to be the Vice-Presidential candidate for Adlai Stevenson. The national exposure raised his profile, and in 1960 he was selected to be the Democratic nomination for the Presidency.Which of the following is the closest ANTONYM to the word 'illustrious' as used in the passage?",
+      "question_image": null,
       "options": [
         "Acquitted",
         "Insignificant",
         "Noteworthy",
         "Disciplined"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Insignificant) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Insignificant) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the following passage carefully and answer the questions that follow.Born in May 1917, John F Kennedy came from an illustrious political family; his father, Joseph Kennedy, was a leading member of the Democratic Party, and Joseph encouraged John F Kennedy in his political ambitions after the war. John graduated from Harvard after completing a thesis on 'Appeasement in Munich'. His thesis was later converted into a successful book: Why England Slept (1940). Before America joined the war, John joined the Navy and saw action throughout the Pacific theatre. In August 1943, his boat was rammed by the Japanese destroyer Amagiri. John F Kennedy was later decorated for his outstanding bravery in rescuing a fellow crewman; he was also awarded the Purple Heart for an incident later in the war. In 1946, he won a seat in Boston for the US House of Representatives, and in 1952, got himself elected to the US Senate, defeating the incumbent Republican. In 1953, he married Jacqueline Lee Bouvier. In 1957 he was awarded the Pulitzer Prize for Biography for his book Profiles in Courage, a book about US Senators who stood up for their personal beliefs. In 1956, he was nearly chosen to be the Vice-Presidential candidate for Adlai Stevenson. The national exposure raised his profile, and in 1960 he was selected to be the Democratic nomination for the Presidency.What is the central theme of the passage?",
+      "question_image": null,
       "options": [
         "John F Kennedy's family background",
         "John F Kennedy's military service during World War II",
         "John F Kennedy's personal life and marriage​​​​​",
         "John F Kennedy's political career and achievements"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (John F Kennedy's political career and achievements) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (John F Kennedy's political career and achievements) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the following passage carefully and answer the questions that follow.Born in May 1917, John F Kennedy came from an illustrious political family; his father, Joseph Kennedy, was a leading member of the Democratic Party, and Joseph encouraged John F Kennedy in his political ambitions after the war. John graduated from Harvard after completing a thesis on 'Appeasement in Munich'. His thesis was later converted into a successful book: Why England Slept (1940). Before America joined the war, John joined the Navy and saw action throughout the Pacific theatre. In August 1943, his boat was rammed by the Japanese destroyer Amagiri. John F Kennedy was later decorated for his outstanding bravery in rescuing a fellow crewman; he was also awarded the Purple Heart for an incident later in the war. In 1946, he won a seat in Boston for the US House of Representatives, and in 1952, got himself elected to the US Senate, defeating the incumbent Republican. In 1953, he married Jacqueline Lee Bouvier. In 1957 he was awarded the Pulitzer Prize for Biography for his book Profiles in Courage, a book about US Senators who stood up for their personal beliefs. In 1956, he was nearly chosen to be the Vice-Presidential candidate for Adlai Stevenson. The national exposure raised his profile, and in 1960 he was selected to be the Democratic nomination for the Presidency.What is the tone of the passage?",
+      "question_image": null,
       "options": [
         "Suspenseful",
         "Humorous",
         "Critical",
         "Informative"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Informative) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Informative) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the following passage carefully and answer the questions that follow.Born in May 1917, John F Kennedy came from an illustrious political family; his father, Joseph Kennedy, was a leading member of the Democratic Party, and Joseph encouraged John F Kennedy in his political ambitions after the war. John graduated from Harvard after completing a thesis on 'Appeasement in Munich'. His thesis was later converted into a successful book: Why England Slept (1940). Before America joined the war, John joined the Navy and saw action throughout the Pacific theatre. In August 1943, his boat was rammed by the Japanese destroyer Amagiri. John F Kennedy was later decorated for his outstanding bravery in rescuing a fellow crewman; he was also awarded the Purple Heart for an incident later in the war. In 1946, he won a seat in Boston for the US House of Representatives, and in 1952, got himself elected to the US Senate, defeating the incumbent Republican. In 1953, he married Jacqueline Lee Bouvier. In 1957 he was awarded the Pulitzer Prize for Biography for his book Profiles in Courage, a book about US Senators who stood up for their personal beliefs. In 1956, he was nearly chosen to be the Vice-Presidential candidate for Adlai Stevenson. The national exposure raised his profile, and in 1960 he was selected to be the Democratic nomination for the Presidency.What was the main reason John F Kennedy's thesis became well-known?",
+      "question_image": null,
       "options": [
         "It criticised the United States' entry into the war.",
         "It was about American military strategy in World War II.",
         "It focussed on economic issues in Europe.",
         "It was converted into a successful book titled 'Why England Slept'."
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (It was converted into a successful book titled 'Why England Slept'.) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (It was converted into a successful book titled 'Why England Slept'.) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option that rectifies the incorrectly spelt word in the given sentence. It was embarassing for her to fall again and again in the stilettos that she chose to wear to the gathering of erudite scholars.",
+      "question_image": null,
       "options": [
         "scolars",
         "stilltoes",
         "embarrassing",
         "erudyte"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (embarrassing) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (embarrassing) है।",
+      "explanation_image": null
     }
   ]
 }

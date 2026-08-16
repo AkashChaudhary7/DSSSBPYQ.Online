@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "105 is related to 20.9 following a certain logic. Following the same logic, 175 is related to 34.9. To which of the following is 215 related, following the same logic?(NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "question_image": null,
       "options": [
         "41.9",
         "40.9",
         "42.9",
         "41.8"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (42.9) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (42.9) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "Six boxes, A, B, C, D, E and F, are kept one over the other, but not necessarily in the same order. D is kept third from the bottom. Only one box is kept between D and A. Only two boxes are kept between D and E. B is kept immediately below E. C is kept immediately above A. Only one box is kept between F and E.Which box is kept second from the top?",
+      "question_image": null,
       "options": [
         "B",
         "C",
         "F",
         "A"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (B) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (B) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?38           46           59         82         120           ?",
+      "question_image": null,
       "options": [
         "178",
         "172",
         "184",
         "168"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (178) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (178) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the following wordsPUP     OPT     WET     SADHow many letters are there between second letter of first word from the right and second letter of first word from the left per English alphabetical order?",
+      "question_image": null,
       "options": [
         "20",
         "22",
         "19",
         "18"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (19) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (19) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "F, J, M, L, R, V and X are seated around a circular table facing the center. Only one person is seated between X and M, when counted from the right of X. Only one person is seated between M and V. Only one person is seated between X and J. Only two people are seated between L and V. Only one person is seated between R and J. How many people are seated between X and F when counted from the left of F?",
+      "question_image": null,
       "options": [
         "2",
         "4",
         "3",
         "5"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (5) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (5) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of P, Q, R, S, T, U and V attends a seminar on a different day of a week starting from Monday and ending on Sunday of the same week.  A attends on Wednesday. Only one person attends between A and C. D attends immediately before C but not on Monday. There are exactly two people between D and F. G’s seminar is before E’s but after B’s. B attends the seminar on Monday.On which day does G attend the seminar?",
+      "question_image": null,
       "options": [
         "Saturday",
         "Friday",
         "Tuesday",
         "Thursday"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Tuesday) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Tuesday) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "Looking at a man in the photo, Mrs. Sen said, \"He is the husband of the daughter of my husband's father's only son.\" How is the man related to Mrs. Sen?",
+      "question_image": null,
       "options": [
         "Husband",
         "Son",
         "Daughter's husband",
         "Daughter's son"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Daughter's husband) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Daughter's husband) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "Refer to the following letter series and answer the question.Counting to be done from left to right only.(Left) K  R  H  V  K  N  Z  A  N  F  X  S  O  X  G  A  K  J  O  L  A  (Right)How many such consonants are there each of which is immediately preceded by a vowel and also immediately followed by a consonant?2820",
+      "question_image": null,
       "options": [
         "More than two",
         "Two",
         "None",
         "One"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (More than two) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (More than two) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "Refer to the following series and answer the question (all numbers are single digit numbers only) Counting to be done from left to right only.(Left) 2 1 4 6 8 5 3 5 9 7 3 9 7 4 2 5 3 4 1 3 5 6 8 2 6 7 (Right)How many such even digits are there each of which is immediately preceded by an odd digit and also immediately followed by an even digit?9509",
+      "question_image": null,
       "options": [
         "Three",
         "Two",
         "None",
         "One"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Three) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Three) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,A+ B means ‘A is the son of B’A – B means ‘A is the brother of B’A @ B means ‘A is the wife of B’A % B means ‘ A is the father of B’Based on the above, how is C related to B if ‘C+A%S@E–B ’?",
+      "question_image": null,
       "options": [
         "Wife's brother",
         "Brother's wife's father",
         "Brother's wife's brother",
         "Father's brother"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Brother's wife's brother) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Brother's wife's brother) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group?(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)3005",
+      "question_image": null,
       "options": [
         "NJM",
         "VRU",
         "PLO",
         "YVX"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (YVX) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (YVX) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "HQ 14 is related to FN 16 in a certain way. In the same way, LU 22 is related to JR 24. To which of the following is PY 27 related, following the same logic?",
+      "question_image": null,
       "options": [
         "MR 29",
         "MT 29",
         "NU 28",
         "NV 29"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (NV 29) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (NV 29) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the pair which follows the same pattern as that followed by the two set of pairs given below. Both pairs follow the same pattern.    VRM : RNI    DBT : ZXP 647",
+      "question_image": null,
       "options": [
         "MKI : OMK",
         "VUX : SRU",
         "OPQ : PQR",
         "ACN : WYJ"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (ACN : WYJ) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (ACN : WYJ) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the following letter-clusters will replace the question mark (?) in the given series to make it logically complete?\nIDS 2 GIO 6 ENK 18 CSG 54 ?",
+      "question_image": null,
       "options": [
         "AYD 162",
         "AXC 162",
         "BYD 128",
         "BXC 128"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (AXC 162) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (AXC 162) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,'A + B' means ‘A is the son of B’,'A - B' means ‘A is the brother of B’,'A x B' means ‘A is the wife of B’ and'A % B' means ‘A is the father of B’.How is Vinayak related to Ritik if ‘Vinayak % Aditya x Tejas – Manav + Ritik’?",
+      "question_image": null,
       "options": [
         "Wife's brother",
         "Son's wife's brother",
         "Son's wife's father",
         "Wife's father"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Son's wife's father) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Son's wife's father) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "Refer to the following number, symbol series and answer the question. Counting to be done from left to right only. (Note: All numbers are single-digit numbers only.)(Left) 2 / / + % # $ % + ^ 5 / 4 3 1 $ \\ # < 7 1 (Right)How many such symbols are there, each of which is immediately preceded by a number and also immediately followed by a symbol?",
+      "question_image": null,
       "options": [
         "Three",
         "One",
         "Four",
         "Two"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Two) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Two) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the set in which the numbers are related in the same way as are the numbers of the following sets.(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting / multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)(89, 102, 128)(68, 81, 107)",
+      "question_image": null,
       "options": [
         "(216, 229, 252)",
         "(179, 192, 217)",
         "(114, 127, 154)",
         "(97, 110, 136)"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' ((97, 110, 136)) है।"
+      "explanation": "सही उत्तर विकल्प 'D' ((97, 110, 136)) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "If 2 is added to each odd digit and 1 is subtracted from each even digit in the number 7246158, what will be the sum of the digits which are third from the left and third from the right in the new number thus formed?",
+      "question_image": null,
       "options": [
         "10",
         "6",
         "12",
         "8"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (6) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (6) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,'A + B' means ‘A is the daughter of B’,'A - B' means ‘A is the brother of B’,'A x B' means ‘A is the wife of B’ and'A % B' means ‘A is the father of B’.How is Kartik related to Rohan if ‘Kartik + Vijay – Yash % Shreya x Rohan’?",
+      "question_image": null,
       "options": [
         "Wife's mother's brother's daughter",
         "Wife's father's brother's wife",
         "Wife's mother's sister's daughter",
         "Wife's father's brother's daughter"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Wife's father's brother's daughter) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Wife's father's brother's daughter) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "Refer to the following letter series and answer the question that follows. Counting to be done from left to right only.(Left)   J P K Y C H X E W B J M H U S I Q   (Right)How many such consonants are there, each of which is immediately preceded by a consonant and also immediately followed by a vowel?",
+      "question_image": null,
       "options": [
         "1",
         "2",
         "3",
         "4"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (2) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (2) है।",
+      "explanation_image": null
     }
   ]
 }

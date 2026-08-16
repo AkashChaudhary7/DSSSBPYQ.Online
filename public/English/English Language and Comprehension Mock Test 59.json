@@ -6,281 +6,321 @@
       "id": 1,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.He saw it with his _______ eyes.",
+      "question_image": null,
       "options": [
         "same",
         "self",
         "own",
         "very"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (own) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (own) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "English Language and Comprehension",
       "question": "Select the option that correctly rectifies the spelling error in the given sentence.The consolidation of the various departments into one streamlined unit improved efficiancy and communication.",
+      "question_image": null,
       "options": [
         "communicetion",
         "consalidation",
         "efficiency",
         "departiments"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (efficiency) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (efficiency) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "English Language and Comprehension",
       "question": "Select the INCORRECTLY spelt word in the given sentence.The changeable weather had a significant consequence on the outdoor event's plans, so for convenience, the organisers decided to have an indoor backup with decorations that included camouflege elements to seamlessly integrate with the theme.",
+      "question_image": null,
       "options": [
         "consequence",
         "convenience",
         "camouflege",
         "changeable"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (camouflege) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (camouflege) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "English Language and Comprehension",
       "question": "Select the option that can be used as a one-word substitute for the given group of words.An error that occurs in printing or writing",
+      "question_image": null,
       "options": [
         "Erratum",
         "Manuscript",
         "Typology",
         "Proof"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Erratum) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Erratum) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "English Language and Comprehension",
       "question": "Select the option that can be used as a one-word substitute for the given group of words.The practice of lending money at unreasonably high rates of interest",
+      "question_image": null,
       "options": [
         "Extortion",
         "Bankruptcy",
         "Usury",
         "Embezzlement"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Usury) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Usury) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below. While the first and the last sentences (A1 and A6) are in the correct order, the sentences in between (P, Q, R and S) are jumbled up. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A1. Marathi cuisine is known for its spicy and flavourful dishes.P. The state’s historical legacy includes the Maratha Empire, established by the great warrior king, Chhatrapati Shivaji Maharaj.Q. It has famous staples such as vada pav and pav bhaji that are immensely popular.R. The Ajanta and Ellora caves, which are UNESCO World Heritage Sites, are prime examples of ancient architecture.S. Maharashtra is also known for its vibrant folk music, with genres like Powada and Bhavageet.A6. Maharashtra’s culture is a beautiful amalgamation of tradition and modernity, making it a unique and captivating region in India.",
+      "question_image": null,
       "options": [
         "RSPQ",
         "QRSP",
         "PQRS",
         "SPQR"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (QRSP) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (QRSP) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate synonym of the word ‘Enigmatic’ that fits the given conversation.Person 1: How was your experience at the Avant-Garde art exhibition?Person 2: It was rather ___________. I struggled to grasp the artist's intention behind the abstract pieces.",
+      "question_image": null,
       "options": [
         "transparent",
         "voluminous",
         "understandable",
         "cryptic"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (cryptic) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (cryptic) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.Have some more tea, _______?",
+      "question_image": null,
       "options": [
         "will you",
         "shall you",
         "can you",
         "do you"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (will you) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (will you) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate synonym of the word ‘ENIGMATIC’ from the options to fill in the blank in the given conversation.Person 1: How was your experience at the avant-garde art exhibition?Person 2: It was rather ___________. I struggled to grasp the artist’s intention behind the abstract pieces.",
+      "question_image": null,
       "options": [
         "cryptic",
         "understandable",
         "voluminous",
         "transparent"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (cryptic) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (cryptic) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate idiom that can substitute the underlined segment in the given paragraph.Unexpected expenses, like a mischievous cat bolting for the door, can appear from anywhere. A medical bill, car trouble or that amazing deal you can't resist – all potential budget busters. Wrangling your finances can feel like an impossible and unmanageable task, but it's not insurmountable. With patience, discipline and maybe a dash of humour, you can wrangle those spending quirks. By recognising these financial felines and planning ahead, you'll navigate the financial maze and reach your goals with greater ease.",
+      "question_image": null,
       "options": [
         "a bull in a china shop",
         "a walk in the park",
         "herding cats",
         "greasing the wheals"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (herding cats) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (herding cats) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.The _______ stone architecture of the fort attracts many foreign tourists.",
+      "question_image": null,
       "options": [
         "grand",
         "dull",
         "plain",
         "monotonous"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (grand) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (grand) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate idiom/phrase that can substitute the underlined part of the given sentence.This news channel is trying to revive interest in an outdated issue for cheap popularity.",
+      "question_image": null,
       "options": [
         "bark up the wrong tree",
         "flog a dead horse",
         "make a mountain out of a molehill",
         "beat around the bush"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (flog a dead horse) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (flog a dead horse) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.We left home, married, had children of our own, found the seeds of meanness blooming also within us. Dad began dressing the pole with more complexity and less discernible logic. He draped some kind of fur over it on Groundhog Day and lugged out a floodlight to ensure a shadow. When an earthquake struck Chile, he lay the pole on its side and spray painted a rift in the earth. Mom died and he dressed the pole as Death and hung from the crossbar photos of Mom as a baby. We'd stop by and find odd talismans from his youth arranged around the base: army medals, theatre tickets, old sweatshirts and tubes of Mom's makeup. One autumn he painted the pole bright yellow. He covered it with cotton swabs that winter for warmth and provided offspring by hammering in six crossed sticks around the yard. He ran lengths of string between the pole and the sticks, and taped to the string letters of apology, admissions of error, pleas for understanding, all written in a frantic hand on index cards. He painted a sign saying LOVE and hung it from the pole and another that said FORGIVE, and then he died in the hall with the radio on and we sold the house to a young couple who yanked out the pole and the sticks and left them by the road on garbage day.Identify the tone of the passage.",
+      "question_image": null,
       "options": [
         "Humourous",
         "Apologetic",
         "Dogmatic",
         "Emotional"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Emotional) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Emotional) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.We left home, married, had children of our own, found the seeds of meanness blooming also within us. Dad began dressing the pole with more complexity and less discernible logic. He draped some kind of fur over it on Groundhog Day and lugged out a floodlight to ensure a shadow. When an earthquake struck Chile, he lay the pole on its side and spray painted a rift in the earth. Mom died and he dressed the pole as Death and hung from the crossbar photos of Mom as a baby. We'd stop by and find odd talismans from his youth arranged around the base: army medals, theatre tickets, old sweatshirts and tubes of Mom's makeup. One autumn he painted the pole bright yellow. He covered it with cotton swabs that winter for warmth and provided offspring by hammering in six crossed sticks around the yard. He ran lengths of string between the pole and the sticks, and taped to the string letters of apology, admissions of error, pleas for understanding, all written in a frantic hand on index cards. He painted a sign saying LOVE and hung it from the pole and another that said FORGIVE, and then he died in the hall with the radio on and we sold the house to a young couple who yanked out the pole and the sticks and left them by the road on garbage day.What is the structure of the passage?",
+      "question_image": null,
       "options": [
         "Description",
         "Compare/Contrast",
         "Problem/Solution",
         "Cause/Effect"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Description) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Description) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.We left home, married, had children of our own, found the seeds of meanness blooming also within us. Dad began dressing the pole with more complexity and less discernible logic. He draped some kind of fur over it on Groundhog Day and lugged out a floodlight to ensure a shadow. When an earthquake struck Chile, he lay the pole on its side and spray painted a rift in the earth. Mom died and he dressed the pole as Death and hung from the crossbar photos of Mom as a baby. We'd stop by and find odd talismans from his youth arranged around the base: army medals, theatre tickets, old sweatshirts and tubes of Mom's makeup. One autumn he painted the pole bright yellow. He covered it with cotton swabs that winter for warmth and provided offspring by hammering in six crossed sticks around the yard. He ran lengths of string between the pole and the sticks, and taped to the string letters of apology, admissions of error, pleas for understanding, all written in a frantic hand on index cards. He painted a sign saying LOVE and hung it from the pole and another that said FORGIVE, and then he died in the hall with the radio on and we sold the house to a young couple who yanked out the pole and the sticks and left them by the road on garbage day.Which of the following is a fact mentioned in the passage?",
+      "question_image": null,
       "options": [
         "The family grew closer as they aged.",
         "The young couple was sympathetic to the father's eccentricities and kept the pole intact.",
         "The items which the father arranged around the base of the pole represented aspects of his wife's personality and interests.",
         "After the mom's death, the father dressed the pole as Death and hung from the crossbar photos of mom as a baby."
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (After the mom's death, the father dressed the pole as Death and hung from the crossbar photos of mom as a baby.) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (After the mom's death, the father dressed the pole as Death and hung from the crossbar photos of mom as a baby.) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.We left home, married, had children of our own, found the seeds of meanness blooming also within us. Dad began dressing the pole with more complexity and less discernible logic. He draped some kind of fur over it on Groundhog Day and lugged out a floodlight to ensure a shadow. When an earthquake struck Chile, he lay the pole on its side and spray painted a rift in the earth. Mom died and he dressed the pole as Death and hung from the crossbar photos of Mom as a baby. We'd stop by and find odd talismans from his youth arranged around the base: army medals, theatre tickets, old sweatshirts and tubes of Mom's makeup. One autumn he painted the pole bright yellow. He covered it with cotton swabs that winter for warmth and provided offspring by hammering in six crossed sticks around the yard. He ran lengths of string between the pole and the sticks, and taped to the string letters of apology, admissions of error, pleas for understanding, all written in a frantic hand on index cards. He painted a sign saying LOVE and hung it from the pole and another that said FORGIVE, and then he died in the hall with the radio on and we sold the house to a young couple who yanked out the pole and the sticks and left them by the road on garbage day. Based on the passage, what can be inferred about the father’s ultimate feelings of love and forgiveness?",
+      "question_image": null,
       "options": [
         "He struggled to express his love and seek forgiveness.",
         "He harboured resentment and bitterness towards his family.",
         "He remained hopeful for reconciliation even after his death.",
         "He found solace and closure through his actions with the pole."
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (He struggled to express his love and seek forgiveness.) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (He struggled to express his love and seek forgiveness.) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.We left home, married, had children of our own, found the seeds of meanness blooming also within us. Dad began dressing the pole with more complexity and less discernible logic. He draped some kind of fur over it on Groundhog Day and lugged out a floodlight to ensure a shadow. When an earthquake struck Chile, he lay the pole on its side and spray painted a rift in the earth. Mom died and he dressed the pole as Death and hung from the crossbar photos of Mom as a baby. We'd stop by and find odd talismans from his youth arranged around the base: army medals, theatre tickets, old sweatshirts and tubes of Mom's makeup. One autumn he painted the pole bright yellow. He covered it with cotton swabs that winter for warmth and provided offspring by hammering in six crossed sticks around the yard. He ran lengths of string between the pole and the sticks, and taped to the string letters of apology, admissions of error, pleas for understanding, all written in a frantic hand on index cards. He painted a sign saying LOVE and hung it from the pole and another that said FORGIVE, and then he died in the hall with the radio on and we sold the house to a young couple who yanked out the pole and the sticks and left them by the road on garbage day.Select the most appropriate ANTONYM of the given word within the passage. \n\nDrove out",
+      "question_image": null,
       "options": [
         "Yanked out",
         "Lugged out",
         "Draped",
         "Found"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Found) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Found) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. Mount Everest attracts climbers from all over the world who want to reach its summit.B. It is part of the Himalaya range in Asia and sits on the border between Nepal and Tibet.C. The mountain's harsh conditions include extreme cold, low oxygen levels, and unpredictable weather.D. Despite the dangers, hundreds attempt the climb each year, driven by the challenge it represents.E. Known as the world's highest peak, Mount Everest rises 8,848 metres above sea level.",
+      "question_image": null,
       "options": [
         "CDEBA",
         "EBACD",
         "BEDAC",
         "DCABE"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (EBACD) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (EBACD) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "English Language and Comprehension",
       "question": "Identify the INCORRECTLY spelt word in the given sentence.Climate change has become an urgent global concern, with its effects manifesting in more frequent and severe natural disasters. Rising sea levels threaten to submerge coastal cities, while prolonged droughts disrupt agricultural productivity. To combat these challenges, policymakers are advocating for stricter environmental regulations and increased investment in renewable resources. The international community has also committed to ambitious targets under agreements such as the Paris Accord, recognising the need for collective action. Yet, achieving these objectives requires unwavering committment from all stakeholders.",
+      "question_image": null,
       "options": [
         "agricultural",
         "investment",
         "policymakers",
         "committment"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (committment) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (committment) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "English Language and Comprehension",
       "question": "Identify the INCORRECTLY spelt word in the passage from the given options.Educational institutions worldwide are adapting to a hybrid learning model, combining traditional classrooms with virtual platforms. This approach ensures greater accesibility and inclusivity, especially for students in remote areas. However, the digital divide continues to be a pressing problem, hindering the adoption of online education in underprivileged communities. Governments and organisations are working tirelessly to bridge this gap by providing subsidised internet access and affordable devices. Stakeholders agree that sustained efforts are necessary to achieve equitable educational opportunities globally.",
+      "question_image": null,
       "options": [
         "underprivileged",
         "sustained",
         "accesibility",
         "inclusivity"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (accesibility) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (accesibility) है।",
+      "explanation_image": null
     }
   ]
 }

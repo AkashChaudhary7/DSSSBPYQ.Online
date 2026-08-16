@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Select the set in which the numbers are related in the same way as are the numbers of the following sets.(Note: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)(52, 24)(28, 12)",
+      "question_image": null,
       "options": [
         "(46, 25)",
         "(38, 19)",
         "(44, 22)",
         "(34,15)"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' ((34,15)) है।"
+      "explanation": "सही उत्तर विकल्प 'D' ((34,15)) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? BEF, YBC, VYZ, SVW, ?",
+      "question_image": null,
       "options": [
         "TPS",
         "SPT",
         "PST",
         "PTS"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (PST) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (PST) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "In this question two statements I and II have been given. These statements may be independent causes or effects of independent causes or a common cause. One of the statements may be the effect of the other statement. Read both the statements and select the correct option.Statements:I) The Director of institution Y issued show cause notices to some of the employees.II) Some of the employees of institution Y were found to be involved in offensive activities.",
+      "question_image": null,
       "options": [
         "Both statements I and II are effects of independent causes.",
         "Both the statements I and II are independent causes.",
         "Statement I is the cause and statement II is its possible effect.",
         "Statement II is the cause and statement I is its possible effect."
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Statement II is the cause and statement I is its possible effect.) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Statement II is the cause and statement I is its possible effect.) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.\n\n(Left) 942 249 657 186 728 (Right)\n\n(Example: 697 – First digit = 6, second digit = 9 and third digit = 7)\n(NOTE: All operations are to be done from left to right.)\n\nWhat will be the resultant if the third digit of the second highest number is added to the second digit of the lowest number?",
+      "question_image": null,
       "options": [
         "14",
         "15",
         "17",
         "16"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (16) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (16) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "Five people, Karen, Leo, Messi, Norah and Micky, are sitting in a straight row, facing the north. Leo is sitting to the immediate left of Karen. Messi is sitting to the immediate left of Leo. Norah is sitting to the immediate right of Micky. Karen is sitting at the extreme right end of the row. Who is sitting in the exact middle of the row?",
+      "question_image": null,
       "options": [
         "Micky",
         "Messi",
         "Leo",
         "Norah"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Messi) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Messi) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order?ACF, EGJ, IKN, MOR, ?",
+      "question_image": null,
       "options": [
         "QSV",
         "PSW",
         "PTV",
         "QTV"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (QSV) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (QSV) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "D is the father of C. C is the mother of E. E is the brother of F. F is the sister of G. How is D related to G?",
+      "question_image": null,
       "options": [
         "Father",
         "Mother's brother",
         "Mother's father",
         "Brother"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Mother's father) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Mother's father) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number result(s) in the second number. Similarly, certain mathematical operation(s) on the second number result(s) in the third number and so on. Which of the given options follows the same set of operations as in the given sets?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)28 - 30.3 - 32.6 - 34.935 - 37.3 - 39.6 - 41.9",
+      "question_image": null,
       "options": [
         "25 - 26.3 - 28.6 - 30.9",
         "39 - 41.3 - 42.6 - 45.9",
         "23 - 25.3 - 27.6 - 29.9",
         "43 - 45.3 - 48.6 - 51.9"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (23 - 25.3 - 27.6 - 29.9) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (23 - 25.3 - 27.6 - 29.9) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "FTBQ is related to KYGV in a certain way based on the English alphabetical order. In the same way, ZNVK is related to ESAP. To which of the given options is OCKZ related, following the same logic?",
+      "question_image": null,
       "options": [
         "THQE",
         "TGPE",
         "THPE",
         "THPF"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (THPE) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (THPE) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "12 is related to 186 following a certain logic. Following the same logic, 15 is related to 231. To which of the given options is 21 related, following the same logic?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "question_image": null,
       "options": [
         "321",
         "231",
         "282",
         "306"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (321) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (321) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "Geeta starts from Point P and drives 6 km towards the south. Then she takes a right turn, drives 8 km, she turns right again and drives 10 km. She then takes a right turn and drives 12 km. Then she takes left turn and drives 2 km, she takes a left turn again and drives 4 km and stops at Point Q. How far (shortest distance) and towards which direction should she drive in order to reach Point P again? (All turns are 90 degrees turns only unless specified.)",
+      "question_image": null,
       "options": [
         "4 km towards north",
         "4 km towards south",
         "6 km towards south",
         "8 km towards south"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (6 km towards south) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (6 km towards south) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "Param ranked 19th from the top and 12th from the bottom in his class. How many students are there in his class?",
+      "question_image": null,
       "options": [
         "30",
         "29",
         "31",
         "28"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (30) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (30) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "इस प्रश्न में दो कथन I और II दिए गए हैं। ये कथन स्वतंत्र कारण या स्वतंत्र कारणों के प्रभाव या एक उभयनिष्ठ कारण हो सकते हैं। इनमें से एक कथन दूसरे कथन का प्रभाव हो सकता है। दोनों कथनों को पढ़िए और सही विकल्प चुनिए।\n\nकथन:\nI) शहर X की पुलिस ने हाल ही में विभिन्न क्षेत्रों में रात के समय गश्त बढ़ा दी है।\nII) शहर X में चोरों और गुंडों के बारे में पुलिस थानों में काफी शिकायतें दर्ज की गई हैं।",
+      "question_image": null,
       "options": [
         "कथन I कारण है और कथन II इसका संभावित प्रभाव है।",
         "कथन I और II दोनों स्वतंत्र कारण हैं।",
         "कथन I और II दोनों स्वतंत्र कारणों के प्रभाव हैं।",
         "कथन II कारण है और कथन I इसका संभावित प्रभाव है।"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (कथन II कारण है और कथन I इसका संभावित प्रभाव है।) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (कथन II कारण है और कथन I इसका संभावित प्रभाव है।) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘+’ means ‘–’, ‘–’ means ‘×’, ‘×’ means ‘÷’, ‘÷’ means ‘+’, then what will come in place of the question mark (?) in the following equation?113 ÷ 28 × 7 – 6 + 18 = ?",
+      "question_image": null,
       "options": [
         "134",
         "119",
         "121",
         "127"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (119) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (119) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "E, F, G, H, K, L और M में से प्रत्येक की परीक्षा सोमवार से शुरू होकर उसी सप्ताह के रविवार को समाप्त होने वाले सप्ताह के अलग-अलग दिन होती है। G की परीक्षा गुरुवार को होती है। E की परीक्षा M के बाद किसी एक दिन और F से पहले किसी एक दिन होती है। H की परीक्षा L के बाद किसी एक दिन लेकिन K से पहले किसी एक दिन होती है। L की परीक्षा G के बाद किसी एक दिन होती है। H और E के बीच कितने लोगों की परीक्षा होती है?",
+      "question_image": null,
       "options": [
         "एक",
         "दो",
         "चार",
         "तीन"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (तीन) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (तीन) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "यह प्रश्न नीचे दी गई पाँच, तीन-अंकीय संख्याओं पर आधारित है।\n\n(बाएं)    495    328    941    527    376    (दाएं)\n\n(उदाहरण: 697 - पहला अंक = 6, दूसरा अंक = 9 और तीसरा अंक = 7)\n(नोट: सभी संक्रियाएं बाएं से दाएं की जानी हैं।)\n\nयदि सबसे बड़ी संख्या के तीसरे अंक को दूसरी सबसे छोटी संख्या के दूसरे अंक में जोड़ा जाए, तो परिणाम क्या होगा?",
+      "question_image": null,
       "options": [
         "9",
         "8",
         "10",
         "7"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (8) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (8) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘A’ stands for ‘+’, ‘B’ stands for ‘−’, ‘C’ stands for ‘×’ and ‘D’ stands for ‘÷’, then what will come in place of the question mark (?) in the following equation?5 C 7 B 45 D 9 A 8 = ?",
+      "question_image": null,
       "options": [
         "34",
         "40",
         "36",
         "38"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (38) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (38) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion(s) logically follow(s) from the statements.Statements:All frogs are mosquitoes.All lizards are whales.No lizard is a frog.Conclusion (I): Some whales are frogs.Conclusion (II): Some lizards are mosquitoes.",
+      "question_image": null,
       "options": [
         "Both conclusions (I) and (II) follow.",
         "Neither conclusion (I) nor (II) follows.",
         "Only conclusion (I) follows.",
         "Only conclusion (II) follows."
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Neither conclusion (I) nor (II) follows.) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Neither conclusion (I) nor (II) follows.) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘HYPE’ is coded as ‘6847’ and ‘THEY’ is coded as ‘4781’. What is the code for ‘T’ in the given code language?",
+      "question_image": null,
       "options": [
         "7",
         "4",
         "8",
         "1"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (1) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (1) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? QCJ 14,   RDK 19,   SEL 24,   TFM 29,   ?",
+      "question_image": null,
       "options": [
         "VGM 35",
         "UGL 36",
         "UGN 34",
         "RHM 32"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (UGN 34) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (UGN 34) है।",
+      "explanation_image": null
     }
   ]
 }

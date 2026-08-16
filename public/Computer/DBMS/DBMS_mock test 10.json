@@ -1,702 +1,550 @@
-{
-  "questions": [
-    {
-      "id": 1,
-      "section": "Computer Networks",
-      "question": "Suppose the Authority want to include a new instructor for the title Neuroscience what command should be inserted ?",
-      "options": [
-        "A) Insert into instructor values(12111,Emma,NeuroScience,200000);",
-        "B) Insert into course values(12111,Introduction,NeuroScience,2);"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "The values have to be inserted into both the relations to be intact  ."
-    },
-    {
-      "id": 2,
-      "section": "Computer Networks",
-      "question": "If a person all the people in Music department gets fired which of the following has to be performed on the instructor relation ?",
-      "options": [
-        "A) Delete Dept_name=Music in instructor;",
-        "B) Delete from instructor where Dept_name=Music;",
-        "C) Remove Dept_name= Music",
-        "D) All of the mentioned"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "Delete from table_name where condition  ."
-    },
-    {
-      "id": 3,
-      "section": "Computer Networks",
-      "question": "Which function is used to find the count of distinct departments?",
-      "options": [
-        "A) Dist",
-        "B) Distinct",
-        "C) Count",
-        "D) Count,Dist"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Count (distinct ID) is the correct usage."
-    },
-    {
-      "id": 4,
-      "section": "Computer Networks",
-      "question": "Which function is used to identify the title with Least scope?",
-      "options": [
-        "A) Min(Credits)",
-        "B) Max(Credits)",
-        "C) Min(title)",
-        "D) Min(Salary)"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Max is used to find the highest element and Min is used to find the lowest element."
-    },
-    {
-      "id": 5,
-      "section": "Computer Networks",
-      "question": "A domain is ______ if elements of the domain are considered to be indivisible units.",
-      "options": [
-        "A) Atomic",
-        "B) Subatomic",
-        "C) Substructure",
-        "D) Subset"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "A set of names is an example of a nonatomic value."
-    },
-    {
-      "id": 6,
-      "section": "Computer Networks",
-      "question": "Identify the composite attributes",
-      "options": [
-        "A) Salary",
-        "B) Credits",
-        "C) Section_id",
-        "D) None of the mentioned"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "Composite attributes, such as an attribute address with component attributes street, city, state, and zip have nonatomic domains."
-    },
-    {
-      "id": 7,
-      "section": "Computer Networks",
-      "question": "Which one is based on multi-valued dependency:",
-      "options": [
-        "A) First",
-        "B) Second",
-        "C) Third",
-        "D) Fourth"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "One of the more desirable normal forms that we can obtain is Boyce–Codd normal form (BCNF). It eliminates all redundancy that can be discovered based on functional dependencies."
-    },
-    {
-      "id": 8,
-      "section": "Computer Networks",
-      "question": "If a relation is in BCNF, then it is also in",
-      "options": [
-        "A) 1 NF",
-        "B) 2 NF",
-        "C) 3 NF",
-        "D) All of the mentioned"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "Third normal form (3NF) relaxes this constraint slightly by allowing certain nontrivial functionaldependencieswhose left side is not a superkey."
-    },
-    {
-      "id": 9,
-      "section": "Computer Networks",
-      "question": "If every non-key attribute is functionally dependent primary key, then the relation will be in",
-      "options": [
-        "A) First normal form",
-        "B) Second normal form",
-        "C) Third form",
-        "D) Fourth normal form"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "Third normal form (3NF) relaxes this constraint slightly by allowing certain nontrivial functionaldependencieswhose left side is not a superkey."
-    },
-    {
-      "id": 10,
-      "section": "Computer Networks",
-      "question": "If an attribute of a composite key is dependent on an attribute of the other composite key, a normalization  called _____ is needed.",
-      "options": [
-        "A) DKNF",
-        "B) BCNF",
-        "C) Fourth",
-        "D) Third"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "BCNF eliminates all redundancy that can be discovered based on functional dependencies."
-    },
-    {
-      "id": 11,
-      "section": "Computer Networks",
-      "question": "The term for information that describes what type of data is available in a database is:",
-      "options": [
-        "A) Data dictionary",
-        "B) data repository",
-        "C) Index data",
-        "D) Metadata"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "Meta data is generally data about a data."
-    },
-    {
-      "id": 12,
-      "section": "Computer Networks",
-      "question": "A data type that creates unique numbers for key columns in Microsoft Access is:",
-      "options": [
-        "A) Autonumber",
-        "B) Boolean",
-        "C) Sequential key",
-        "D) Sequential number"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "This can be taken as a primary key."
-    },
-    {
-      "id": 13,
-      "section": "Computer Networks",
-      "question": "A dependency exist between two columns when",
-      "options": [
-        "A) Together they constitute a composite key for the table",
-        "B) Knowing the value in one column determines the value stored in another column",
-        "C) The table is in 3NF",
-        "D) Together they constitute a foreign key"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Given a set F of functional dependencies on a schema, we can prove that certain other functional dependencies also hold on the schema."
-    },
-    {
-      "id": 14,
-      "section": "Computer Networks",
-      "question": "In the __________ normal form, a composite attribute is converted to individual attributes.",
-      "options": [
-        "A) First",
-        "B) Second",
-        "C) Third",
-        "D) Fourth"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "The first normal form is used to eliminate the duplicate information."
-    },
-    {
-      "id": 15,
-      "section": "Computer Networks",
-      "question": "A table on the many side of a one to many or many to many relationship must:",
-      "options": [
-        "A) Be in Second Normal Form (2NF)",
-        "B) Be in Third Normal Form (3NF)",
-        "C) Have a single attribute key",
-        "D) Have a composite key"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "The relation in second normal form is also in first normal form and no partial dependencies on any column in primary key."
-    },
-    {
-      "id": 16,
-      "section": "Computer Networks",
-      "question": "Tables in second normal form (2NF):",
-      "options": [
-        "A) Eliminate all hidden dependencies",
-        "B) Eliminate the possibility of a insertion anomalies",
-        "C) Have a composite key",
-        "D) Have all non key fields depend on the whole primary key"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "The relation in second normal form is also in first normal form and no partial dependencies on any column in primary key."
-    },
-    {
-      "id": 17,
-      "section": "Computer Networks",
-      "question": "Which-one ofthe following statements about normal forms is FALSE?",
-      "options": [
-        "A) BCNF is stricter than 3 NF",
-        "B) Lossless, dependency -preserving decomposition into 3 NF is always possible",
-        "C) Loss less, dependency – preserving decomposition into BCNF is always possible",
-        "D) Any relation with two attributes is BCNF"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "We say that the decomposition is a lossless decomposition if there is no loss of information by replacing r (R) with two relation schemas r1(R1) andr2(R2)."
-    },
-    {
-      "id": 18,
-      "section": "Computer Networks",
-      "question": "Functional Dependencies are the types of constraints that are based on______",
-      "options": [
-        "A) Key",
-        "B) Key revisited",
-        "C) Superset key",
-        "D) None of the mentioned"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Key is the basic element needed for the constraints."
-    },
-    {
-      "id": 19,
-      "section": "Computer Networks",
-      "question": "Which is a bottom-up approach to database design that design by examining the relationship between attributes:",
-      "options": [
-        "A) Functional dependency",
-        "B) Database modeling",
-        "C) Normalization",
-        "D) Decomposition"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "Normalisation is the process of removing redundancy and unwanted data."
-    },
-    {
-      "id": 20,
-      "section": "Computer Networks",
-      "question": "Which forms simplifies and ensures that there are minimal data aggregates and repetitive groups:",
-      "options": [
-        "A) 1NF",
-        "B) 2NF",
-        "C) 3NF",
-        "D) All of the mentioned"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "The first normal form is used to eliminate the duplicate information."
-    },
-    {
-      "id": 21,
-      "section": "Computer Networks",
-      "question": "Which forms has a relation that possesses data about an individual entity:",
-      "options": [
-        "A) 2NF",
-        "B) 3NF",
-        "C) 4NF",
-        "D) 5NF"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "A Table is in 4NF if and only if, for every one of its non-trivial multivalued dependencies X \\twoheadrightarrow Y, X is a superkey—that is, X is either a candidate key or a superset thereof."
-    },
-    {
-      "id": 22,
-      "section": "Computer Networks",
-      "question": "Which forms are based on the concept of functional dependency:",
-      "options": [
-        "A) 1NF",
-        "B) 2NF",
-        "C) 3NF",
-        "D) 4NF"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "The table is in 3NF if every non-prime attribute of R is non-transitively dependent (i.e. directly dependent) on every superkey of R."
-    },
-    {
-      "id": 23,
-      "section": "Computer Networks",
-      "question": "A relation is in ____________ if an attribute of a composite key is dependent on an attribute of other composite key.",
-      "options": [
-        "A) 2NF",
-        "B) 3NF",
-        "C) BCNF",
-        "D) 1NF"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "A relation is in 3 NF if an attribute of a composite key is dependent on an attribute of other composite key. (If an attribute of a composite key is dependent on an  attribute of other composite key then the relation is not in BCNF, hence it has to be  decomposed.)."
-    },
-    {
-      "id": 24,
-      "section": "Computer Networks",
-      "question": "What are the desirable properties of a decomposition",
-      "options": [
-        "A) Partition constraint",
-        "B) Dependency preservation",
-        "C) Redundancy",
-        "D) Security"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "Lossless join and dependency preserving are the two goals of the decomposition."
-    },
-    {
-      "id": 25,
-      "section": "Computer Networks",
-      "question": "R (A,B,C,D) is a relation. Which of the following does not have a lossless join dependency preserving BCNF decomposition?",
-      "options": [
-        "A) A->B, B->CD",
-        "B) A->B, B->C, C->D",
-        "C) AB->C, C->AD",
-        "D) A->BCD"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "This relation gives a relation without any loss in the values."
-    },
-    {
-      "id": 26,
-      "section": "Computer Networks",
-      "question": "The algorithm that takes a set of dependencies and adds one schema at a time, instead of decomposing the initial schema repeatedly is",
-      "options": [
-        "A) BCNF algorithm",
-        "B) 2NF algorithm",
-        "C) 3NF synthesis algorithm",
-        "D) 1NF algorithm"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "The result is not uniquely defined, since a set of functional dependencies can have more than one canonical cover, and, further, in some cases, the result of the algorithm depends on the order in which it considers the dependencies in Fc."
-    },
-    {
-      "id": 27,
-      "section": "Computer Networks",
-      "question": "The functional dependency can be tested easily on the materialized view, using the constraints ____________.",
-      "options": [
-        "A) Primary key",
-        "B) Null",
-        "C) Unique",
-        "D) Both Null and Unique"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "Primary key contains both unique and not null constraints."
-    },
-    {
-      "id": 28,
-      "section": "Computer Networks",
-      "question": "Which normal form is considered adequate for normal relational database design?",
-      "options": [
-        "A) 2NF",
-        "B) 5NF",
-        "C) 4NF",
-        "D) 3NF"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "A relational database table is often described as “normalized” if it is in the Third Normal Form because most of the 3NF tables are free of insertion, update, and deletion anomalies."
-    },
-    {
-      "id": 29,
-      "section": "Computer Networks",
-      "question": "Relation R with an associated set of functional dependencies, F, is decomposed into BCNF. The redundancy (arising out of functional dependencies) in the resulting set of relations is",
-      "options": [
-        "A) Zero",
-        "B) More than zero but less than that of an equivalent 3NF decomposition",
-        "C) Proportional to the size of F+",
-        "D) Indeterminate"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "Redundancy in BCNF is low when compared to 3NF. For more details on BCNF."
-    },
-    {
-      "id": 30,
-      "section": "Computer Networks",
-      "question": "The Java __________ specification defines an application programming interface for communication between the Web server and the application program.",
-      "options": [
-        "A) Servlet",
-        "B) Server",
-        "C) Program",
-        "D) Randomize"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Servlets are commonly used to generate dynamic responses to HTTP requests."
-    },
-    {
-      "id": 31,
-      "section": "Computer Networks",
-      "question": "The doGet() method in the example extracts values of the parameter’s type and number by using __________",
-      "options": [
-        "A) request.getParameter()",
-        "B) request.setParameter()",
-        "C) responce.getParameter()",
-        "D) responce.getAttribute()"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "These methods uses these values to run a query against a database."
-    },
-    {
-      "id": 32,
-      "section": "Computer Networks",
-      "question": "How many JDBC driver types does Sun define?",
-      "options": [
-        "A) One",
-        "B) Two",
-        "C) Three",
-        "D) Four"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "JBDB.DriverManager.getConnection() is used to get the connection to the database."
-    },
-    {
-      "id": 33,
-      "section": "Computer Networks",
-      "question": "Which JDBC driver Type(s) can be used in either applet or servlet code?",
-      "options": [
-        "A) Both Type 1 and Type 2",
-        "B) Both Type 1 and Type 3",
-        "C) Both Type 3 and Type 4",
-        "D) Type 4 only"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "In a Type 3 driver, a three-tier approach is used to accessing databases. The JDBC clients use standard network sockets to communicate with an middleware application server. In a Type 4 driver, a pure Java-based driver that communicates directly with vendor’s database through socket connection."
-    },
-    {
-      "id": 34,
-      "section": "Computer Networks",
-      "question": "What MySQL property is used to create a surrogate key in MySQL?",
-      "options": [
-        "A) UNIQUE",
-        "B) SEQUENCE",
-        "C) AUTO_INCREMENT",
-        "D) None of the mentioned"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "A surrogate key in a database is a unique identifier for either an entity in the modeled world or an object in the database."
-    },
-    {
-      "id": 35,
-      "section": "Computer Networks",
-      "question": "A JSP is transformed into a(n):",
-      "options": [
-        "A) Java applet",
-        "B) Java servlet",
-        "C) Either 1 or 2 above",
-        "D) Neither 1 nor 2 above"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "Servlets are commonly used to generate dynamic responses to HTTP requests."
-    },
-    {
-      "id": 36,
-      "section": "Computer Networks",
-      "question": "Which JDBC driver Type(s) is(are) the JDBC-ODBC bridge?",
-      "options": [
-        "A) Type 1",
-        "B) Type 2",
-        "C) Type 3",
-        "D) Type 4"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "In a Type 1 driver, a JDBC bridge is used to access ODBC drivers installed on each client machine."
-    },
-    {
-      "id": 37,
-      "section": "Computer Networks",
-      "question": "What programming language(s) or scripting language(s) does Java Server Pages (JSP) support?",
-      "options": [
-        "A) VBScript only",
-        "B) Jscript only",
-        "C) Java only",
-        "D) All of the mentioned"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "JSP primarily uses Java for certain codes."
-    },
-    {
-      "id": 38,
-      "section": "Computer Networks",
-      "question": "What is bytecode?",
-      "options": [
-        "A) Machine-specific code",
-        "B) Java code",
-        "C) Machine-independent code",
-        "D) None of the mentioned"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "Java bytecode is the form of instructions that the Java virtual machine executes. Each bytecode opcode is one byte in length, although some require parameters, resulting in some multi-byte instructions."
-    },
-    {
-      "id": 39,
-      "section": "Computer Networks",
-      "question": "Where is metadata stored in MySQL?",
-      "options": [
-        "A) In the MySQL database metadata",
-        "B) In the MySQL database metasql",
-        "C) In the MySQL database mysql",
-        "D) None of the mentioned"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "Metadata contains data about other data which is given in the <meta>…</meta> tags."
-    },
-    {
-      "id": 40,
-      "section": "Computer Networks",
-      "question": "Which schema object instructs Oracle to connect to a remotely access an object of a database?",
-      "options": [
-        "A) Sequence",
-        "B) Remote link",
-        "C) Database link",
-        "D) Data link"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "A database link (DBlink) is a definition of how to establish a connection from one Oracle database to another."
-    },
-    {
-      "id": 41,
-      "section": "Computer Networks",
-      "question": "DML changes are",
-      "options": [
-        "A) Insert",
-        "B) Update",
-        "C) Create",
-        "D) Both Insert and Update"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "Create is a DDL operation."
-    },
-    {
-      "id": 42,
-      "section": "Computer Networks",
-      "question": "Which of the following object types below cannot be replicated?",
-      "options": [
-        "A) Data",
-        "B) Trigger",
-        "C) View",
-        "D) Sequence"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "Sequence is a series of items which is like a unique index."
-    },
-    {
-      "id": 43,
-      "section": "Computer Networks",
-      "question": "How to force a log switch?",
-      "options": [
-        "A) By using ALTER SYSTEM LOG",
-        "B) By using ALTER SYSTEM SWITCH LOGFILE",
-        "C) By using ALTER SYSTEM SWITCH LOGS",
-        "D) By using ALTER SYS LOGFILES"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "ALTER SYSTEM ARCHIVE LOG CURRENT is the best practice for production backup scripts with RMAN. ."
-    },
-    {
-      "id": 44,
-      "section": "Computer Networks",
-      "question": "The ORDER BY clause can only be used in",
-      "options": [
-        "A) SELECT queries",
-        "B) INSERT queries",
-        "C) GROUP BY queries",
-        "D) HAVING queries"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "SELECT column_name,column_name\nFROM table_name\nORDER BY column_name,column_name ASC|DESC;."
-    },
-    {
-      "id": 45,
-      "section": "Computer Networks",
-      "question": "Which of the following rule below are categories of an index?",
-      "options": [
-        "A) Column and Functional",
-        "B) Multiple Column and functional",
-        "C) Column, Multiple Column and functional",
-        "D) None of the mentioned"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "The CREATE INDEX statement is used to create indexes in tables."
-    },
-    {
-      "id": 46,
-      "section": "Computer Networks",
-      "question": "What is the purpose of SMON background process?",
-      "options": [
-        "A) Performs crash recovery when a failed instance starts up again",
-        "B) Performs recovery when a user process fails",
-        "C) Writes redo log entries to disk",
-        "D) None of the mentioned"
-      ],
-      "answer": 0,
-      "correct_answer": "A",
-      "explanation": "SMON (System MONitor) is an Oracle background process created when you start a database instance."
-    },
-    {
-      "id": 47,
-      "section": "Computer Networks",
-      "question": "Which of the following queries are legal?",
-      "options": [
-        "A) SELECT deptno, count(deptno) FROM emp GROUP BY ename;",
-        "B) SELECT deptno, count(deptno), job FROM emp GROUP BY deptno;",
-        "C) SELECT deptno, avg(sal) FROM emp;",
-        "D) SELECT deptno, avg(sal) FROM emp GROUP BY deptno;"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "For aggregate functions group by clause is necessary."
-    },
-    {
-      "id": 48,
-      "section": "Computer Networks",
-      "question": "Which of the following queries displays the sum of all employee salaries for those employees not making commission, for each job, including only those sums greater than 2500?",
-      "options": [
-        "A) select job, sum(sal) from emp where sum(sal) > 2500 and comm is null;",
-        "B) select job, sum(sal) from emp where comm is null group by job having sum(sal) > 2500;",
-        "C) select job, sum(sal) from emp where sum(sal) > 2500 and comm is null group by job;",
-        "D) select job, sum(sal) from emp group by job having sum(sal) > 2500 and comm is not null;"
-      ],
-      "answer": 1,
-      "correct_answer": "B",
-      "explanation": "For aggregate functions group by clause is necessary."
-    },
-    {
-      "id": 49,
-      "section": "Computer Networks",
-      "question": "In magnetic disk ________ stores information on a sector magnetically as reversals of the direction of magnetization of the magnetic material.",
-      "options": [
-        "A) Read–write head",
-        "B) Read-assemble head",
-        "C) Head–disk assemblies",
-        "D) Disk arm"
-      ],
-      "answer": 3,
-      "correct_answer": "D",
-      "explanation": "Each side of a platter of a disk has a read–write head that moves across the platter to access different tracks."
-    },
-    {
-      "id": 50,
-      "section": "Computer Networks",
-      "question": "A __________ is the smallest unit of information that can be read from or written to the disk.",
-      "options": [
-        "A) Track",
-        "B) Spindle",
-        "C) Sector",
-        "D) Platter"
-      ],
-      "answer": 2,
-      "correct_answer": "C",
-      "explanation": "The disk surface is logically divided into tracks, which are subdivided into sectors."
-    }
-  ]
-}
+[
+  {
+    "question": "Suppose the Authority want to include a new instructor for the title Neuroscience what command should be inserted ?",
+    "options": [
+      "A) Insert into instructor values(12111,Emma,NeuroScience,200000);",
+      "B) Insert into course values(12111,Introduction,NeuroScience,2);"
+    ],
+    "correct_answer": "C",
+    "explanation": "The values have to be inserted into both the relations to be intact  ."
+  },
+  {
+    "question": "If a person all the people in Music department gets fired which of the following has to be performed on the instructor relation ?",
+    "options": [
+      "A) Delete Dept_name=Music in instructor;",
+      "B) Delete from instructor where Dept_name=Music;",
+      "C) Remove Dept_name= Music",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "Delete from table_name where condition  ."
+  },
+  {
+    "question": "Which function is used to find the count of distinct departments?",
+    "options": [
+      "A) Dist",
+      "B) Distinct",
+      "C) Count",
+      "D) Count,Dist"
+    ],
+    "correct_answer": "A",
+    "explanation": "Count (distinct ID) is the correct usage."
+  },
+  {
+    "question": "Which function is used to identify the title with Least scope?",
+    "options": [
+      "A) Min(Credits)",
+      "B) Max(Credits)",
+      "C) Min(title)",
+      "D) Min(Salary)"
+    ],
+    "correct_answer": "A",
+    "explanation": "Max is used to find the highest element and Min is used to find the lowest element."
+  },
+  {
+    "question": "A domain is ______ if elements of the domain are considered to be indivisible units.",
+    "options": [
+      "A) Atomic",
+      "B) Subatomic",
+      "C) Substructure",
+      "D) Subset"
+    ],
+    "correct_answer": "A",
+    "explanation": "A set of names is an example of a nonatomic value."
+  },
+  {
+    "question": "Identify the composite attributes",
+    "options": [
+      "A) Salary",
+      "B) Credits",
+      "C) Section_id",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "Composite attributes, such as an attribute address with component attributes street, city, state, and zip have nonatomic domains."
+  },
+  {
+    "question": "Which one is based on multi-valued dependency:",
+    "options": [
+      "A) First",
+      "B) Second",
+      "C) Third",
+      "D) Fourth"
+    ],
+    "correct_answer": "D",
+    "explanation": "One of the more desirable normal forms that we can obtain is Boyce–Codd normal form (BCNF). It eliminates all redundancy that can be discovered based on functional dependencies."
+  },
+  {
+    "question": "If a relation is in BCNF, then it is also in",
+    "options": [
+      "A) 1 NF",
+      "B) 2 NF",
+      "C) 3 NF",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "Third normal form (3NF) relaxes this constraint slightly by allowing certain nontrivial functionaldependencieswhose left side is not a superkey."
+  },
+  {
+    "question": "If every non-key attribute is functionally dependent primary key, then the relation will be in",
+    "options": [
+      "A) First normal form",
+      "B) Second normal form",
+      "C) Third form",
+      "D) Fourth normal form"
+    ],
+    "correct_answer": "B",
+    "explanation": "Third normal form (3NF) relaxes this constraint slightly by allowing certain nontrivial functionaldependencieswhose left side is not a superkey."
+  },
+  {
+    "question": "If an attribute of a composite key is dependent on an attribute of the other composite key, a normalization  called _____ is needed.",
+    "options": [
+      "A) DKNF",
+      "B) BCNF",
+      "C) Fourth",
+      "D) Third"
+    ],
+    "correct_answer": "B",
+    "explanation": "BCNF eliminates all redundancy that can be discovered based on functional dependencies."
+  },
+  {
+    "question": "The term for information that describes what type of data is available in a database is:",
+    "options": [
+      "A) Data dictionary",
+      "B) data repository",
+      "C) Index data",
+      "D) Metadata"
+    ],
+    "correct_answer": "D",
+    "explanation": "Meta data is generally data about a data."
+  },
+  {
+    "question": "A data type that creates unique numbers for key columns in Microsoft Access is:",
+    "options": [
+      "A) Autonumber",
+      "B) Boolean",
+      "C) Sequential key",
+      "D) Sequential number"
+    ],
+    "correct_answer": "A",
+    "explanation": "This can be taken as a primary key."
+  },
+  {
+    "question": "A dependency exist between two columns when",
+    "options": [
+      "A) Together they constitute a composite key for the table",
+      "B) Knowing the value in one column determines the value stored in another column",
+      "C) The table is in 3NF",
+      "D) Together they constitute a foreign key"
+    ],
+    "correct_answer": "A",
+    "explanation": "Given a set F of functional dependencies on a schema, we can prove that certain other functional dependencies also hold on the schema."
+  },
+  {
+    "question": "In the __________ normal form, a composite attribute is converted to individual attributes.",
+    "options": [
+      "A) First",
+      "B) Second",
+      "C) Third",
+      "D) Fourth"
+    ],
+    "correct_answer": "A",
+    "explanation": "The first normal form is used to eliminate the duplicate information."
+  },
+  {
+    "question": "A table on the many side of a one to many or many to many relationship must:",
+    "options": [
+      "A) Be in Second Normal Form (2NF)",
+      "B) Be in Third Normal Form (3NF)",
+      "C) Have a single attribute key",
+      "D) Have a composite key"
+    ],
+    "correct_answer": "D",
+    "explanation": "The relation in second normal form is also in first normal form and no partial dependencies on any column in primary key."
+  },
+  {
+    "question": "Tables in second normal form (2NF):",
+    "options": [
+      "A) Eliminate all hidden dependencies",
+      "B) Eliminate the possibility of a insertion anomalies",
+      "C) Have a composite key",
+      "D) Have all non key fields depend on the whole primary key"
+    ],
+    "correct_answer": "A",
+    "explanation": "The relation in second normal form is also in first normal form and no partial dependencies on any column in primary key."
+  },
+  {
+    "question": "Which-one ofthe following statements about normal forms is FALSE?",
+    "options": [
+      "A) BCNF is stricter than 3 NF",
+      "B) Lossless, dependency -preserving decomposition into 3 NF is always possible",
+      "C) Loss less, dependency – preserving decomposition into BCNF is always possible",
+      "D) Any relation with two attributes is BCNF"
+    ],
+    "correct_answer": "C",
+    "explanation": "We say that the decomposition is a lossless decomposition if there is no loss of information by replacing r (R) with two relation schemas r1(R1) andr2(R2)."
+  },
+  {
+    "question": "Functional Dependencies are the types of constraints that are based on______",
+    "options": [
+      "A) Key",
+      "B) Key revisited",
+      "C) Superset key",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Key is the basic element needed for the constraints."
+  },
+  {
+    "question": "Which is a bottom-up approach to database design that design by examining the relationship between attributes:",
+    "options": [
+      "A) Functional dependency",
+      "B) Database modeling",
+      "C) Normalization",
+      "D) Decomposition"
+    ],
+    "correct_answer": "C",
+    "explanation": "Normalisation is the process of removing redundancy and unwanted data."
+  },
+  {
+    "question": "Which forms simplifies and ensures that there are minimal data aggregates and repetitive groups:",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "The first normal form is used to eliminate the duplicate information."
+  },
+  {
+    "question": "Which forms has a relation that possesses data about an individual entity:",
+    "options": [
+      "A) 2NF",
+      "B) 3NF",
+      "C) 4NF",
+      "D) 5NF"
+    ],
+    "correct_answer": "C",
+    "explanation": "A Table is in 4NF if and only if, for every one of its non-trivial multivalued dependencies X \\twoheadrightarrow Y, X is a superkey—that is, X is either a candidate key or a superset thereof."
+  },
+  {
+    "question": "Which forms are based on the concept of functional dependency:",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) 4NF"
+    ],
+    "correct_answer": "C",
+    "explanation": "The table is in 3NF if every non-prime attribute of R is non-transitively dependent (i.e. directly dependent) on every superkey of R."
+  },
+  {
+    "question": "A relation is in ____________ if an attribute of a composite key is dependent on an attribute of other composite key.",
+    "options": [
+      "A) 2NF",
+      "B) 3NF",
+      "C) BCNF",
+      "D) 1NF"
+    ],
+    "correct_answer": "B",
+    "explanation": "A relation is in 3 NF if an attribute of a composite key is dependent on an attribute of other composite key. (If an attribute of a composite key is dependent on an  attribute of other composite key then the relation is not in BCNF, hence it has to be  decomposed.)."
+  },
+  {
+    "question": "What are the desirable properties of a decomposition",
+    "options": [
+      "A) Partition constraint",
+      "B) Dependency preservation",
+      "C) Redundancy",
+      "D) Security"
+    ],
+    "correct_answer": "B",
+    "explanation": "Lossless join and dependency preserving are the two goals of the decomposition."
+  },
+  {
+    "question": "R (A,B,C,D) is a relation. Which of the following does not have a lossless join dependency preserving BCNF decomposition?",
+    "options": [
+      "A) A->B, B->CD",
+      "B) A->B, B->C, C->D",
+      "C) AB->C, C->AD",
+      "D) A->BCD"
+    ],
+    "correct_answer": "D",
+    "explanation": "This relation gives a relation without any loss in the values."
+  },
+  {
+    "question": "The algorithm that takes a set of dependencies and adds one schema at a time, instead of decomposing the initial schema repeatedly is",
+    "options": [
+      "A) BCNF algorithm",
+      "B) 2NF algorithm",
+      "C) 3NF synthesis algorithm",
+      "D) 1NF algorithm"
+    ],
+    "correct_answer": "C",
+    "explanation": "The result is not uniquely defined, since a set of functional dependencies can have more than one canonical cover, and, further, in some cases, the result of the algorithm depends on the order in which it considers the dependencies in Fc."
+  },
+  {
+    "question": "The functional dependency can be tested easily on the materialized view, using the constraints ____________.",
+    "options": [
+      "A) Primary key",
+      "B) Null",
+      "C) Unique",
+      "D) Both Null and Unique"
+    ],
+    "correct_answer": "D",
+    "explanation": "Primary key contains both unique and not null constraints."
+  },
+  {
+    "question": "Which normal form is considered adequate for normal relational database design?",
+    "options": [
+      "A) 2NF",
+      "B) 5NF",
+      "C) 4NF",
+      "D) 3NF"
+    ],
+    "correct_answer": "D",
+    "explanation": "A relational database table is often described as “normalized” if it is in the Third Normal Form because most of the 3NF tables are free of insertion, update, and deletion anomalies."
+  },
+  {
+    "question": "Relation R with an associated set of functional dependencies, F, is decomposed into BCNF. The redundancy (arising out of functional dependencies) in the resulting set of relations is",
+    "options": [
+      "A) Zero",
+      "B) More than zero but less than that of an equivalent 3NF decomposition",
+      "C) Proportional to the size of F+",
+      "D) Indeterminate"
+    ],
+    "correct_answer": "B",
+    "explanation": "Redundancy in BCNF is low when compared to 3NF. For more details on BCNF."
+  },
+  {
+    "question": "The Java __________ specification defines an application programming interface for communication between the Web server and the application program.",
+    "options": [
+      "A) Servlet",
+      "B) Server",
+      "C) Program",
+      "D) Randomize"
+    ],
+    "correct_answer": "A",
+    "explanation": "Servlets are commonly used to generate dynamic responses to HTTP requests."
+  },
+  {
+    "question": "The doGet() method in the example extracts values of the parameter’s type and number by using __________",
+    "options": [
+      "A) request.getParameter()",
+      "B) request.setParameter()",
+      "C) responce.getParameter()",
+      "D) responce.getAttribute()"
+    ],
+    "correct_answer": "A",
+    "explanation": "These methods uses these values to run a query against a database."
+  },
+  {
+    "question": "How many JDBC driver types does Sun define?",
+    "options": [
+      "A) One",
+      "B) Two",
+      "C) Three",
+      "D) Four"
+    ],
+    "correct_answer": "D",
+    "explanation": "JBDB.DriverManager.getConnection() is used to get the connection to the database."
+  },
+  {
+    "question": "Which JDBC driver Type(s) can be used in either applet or servlet code?",
+    "options": [
+      "A) Both Type 1 and Type 2",
+      "B) Both Type 1 and Type 3",
+      "C) Both Type 3 and Type 4",
+      "D) Type 4 only"
+    ],
+    "correct_answer": "C",
+    "explanation": "In a Type 3 driver, a three-tier approach is used to accessing databases. The JDBC clients use standard network sockets to communicate with an middleware application server. In a Type 4 driver, a pure Java-based driver that communicates directly with vendor’s database through socket connection."
+  },
+  {
+    "question": "What MySQL property is used to create a surrogate key in MySQL?",
+    "options": [
+      "A) UNIQUE",
+      "B) SEQUENCE",
+      "C) AUTO_INCREMENT",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "A surrogate key in a database is a unique identifier for either an entity in the modeled world or an object in the database."
+  },
+  {
+    "question": "A JSP is transformed into a(n):",
+    "options": [
+      "A) Java applet",
+      "B) Java servlet",
+      "C) Either 1 or 2 above",
+      "D) Neither 1 nor 2 above"
+    ],
+    "correct_answer": "B",
+    "explanation": "Servlets are commonly used to generate dynamic responses to HTTP requests."
+  },
+  {
+    "question": "Which JDBC driver Type(s) is(are) the JDBC-ODBC bridge?",
+    "options": [
+      "A) Type 1",
+      "B) Type 2",
+      "C) Type 3",
+      "D) Type 4"
+    ],
+    "correct_answer": "A",
+    "explanation": "In a Type 1 driver, a JDBC bridge is used to access ODBC drivers installed on each client machine."
+  },
+  {
+    "question": "What programming language(s) or scripting language(s) does Java Server Pages (JSP) support?",
+    "options": [
+      "A) VBScript only",
+      "B) Jscript only",
+      "C) Java only",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "JSP primarily uses Java for certain codes."
+  },
+  {
+    "question": "What is bytecode?",
+    "options": [
+      "A) Machine-specific code",
+      "B) Java code",
+      "C) Machine-independent code",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "Java bytecode is the form of instructions that the Java virtual machine executes. Each bytecode opcode is one byte in length, although some require parameters, resulting in some multi-byte instructions."
+  },
+  {
+    "question": "Where is metadata stored in MySQL?",
+    "options": [
+      "A) In the MySQL database metadata",
+      "B) In the MySQL database metasql",
+      "C) In the MySQL database mysql",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "Metadata contains data about other data which is given in the <meta>…</meta> tags."
+  },
+  {
+    "question": "Which schema object instructs Oracle to connect to a remotely access an object of a database?",
+    "options": [
+      "A) Sequence",
+      "B) Remote link",
+      "C) Database link",
+      "D) Data link"
+    ],
+    "correct_answer": "D",
+    "explanation": "A database link (DBlink) is a definition of how to establish a connection from one Oracle database to another."
+  },
+  {
+    "question": "DML changes are",
+    "options": [
+      "A) Insert",
+      "B) Update",
+      "C) Create",
+      "D) Both Insert and Update"
+    ],
+    "correct_answer": "D",
+    "explanation": "Create is a DDL operation."
+  },
+  {
+    "question": "Which of the following object types below cannot be replicated?",
+    "options": [
+      "A) Data",
+      "B) Trigger",
+      "C) View",
+      "D) Sequence"
+    ],
+    "correct_answer": "D",
+    "explanation": "Sequence is a series of items which is like a unique index."
+  },
+  {
+    "question": "How to force a log switch?",
+    "options": [
+      "A) By using ALTER SYSTEM LOG",
+      "B) By using ALTER SYSTEM SWITCH LOGFILE",
+      "C) By using ALTER SYSTEM SWITCH LOGS",
+      "D) By using ALTER SYS LOGFILES"
+    ],
+    "correct_answer": "B",
+    "explanation": "ALTER SYSTEM ARCHIVE LOG CURRENT is the best practice for production backup scripts with RMAN. ."
+  },
+  {
+    "question": "The ORDER BY clause can only be used in",
+    "options": [
+      "A) SELECT queries",
+      "B) INSERT queries",
+      "C) GROUP BY queries",
+      "D) HAVING queries"
+    ],
+    "correct_answer": "A",
+    "explanation": "SELECT column_name,column_name\nFROM table_name\nORDER BY column_name,column_name ASC|DESC;."
+  },
+  {
+    "question": "Which of the following rule below are categories of an index?",
+    "options": [
+      "A) Column and Functional",
+      "B) Multiple Column and functional",
+      "C) Column, Multiple Column and functional",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "The CREATE INDEX statement is used to create indexes in tables."
+  },
+  {
+    "question": "What is the purpose of SMON background process?",
+    "options": [
+      "A) Performs crash recovery when a failed instance starts up again",
+      "B) Performs recovery when a user process fails",
+      "C) Writes redo log entries to disk",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "SMON (System MONitor) is an Oracle background process created when you start a database instance."
+  },
+  {
+    "question": "Which of the following queries are legal?",
+    "options": [
+      "A) SELECT deptno, count(deptno) FROM emp GROUP BY ename;",
+      "B) SELECT deptno, count(deptno), job FROM emp GROUP BY deptno;",
+      "C) SELECT deptno, avg(sal) FROM emp;",
+      "D) SELECT deptno, avg(sal) FROM emp GROUP BY deptno;"
+    ],
+    "correct_answer": "D",
+    "explanation": "For aggregate functions group by clause is necessary."
+  },
+  {
+    "question": "Which of the following queries displays the sum of all employee salaries for those employees not making commission, for each job, including only those sums greater than 2500?",
+    "options": [
+      "A) select job, sum(sal) from emp where sum(sal) > 2500 and comm is null;",
+      "B) select job, sum(sal) from emp where comm is null group by job having sum(sal) > 2500;",
+      "C) select job, sum(sal) from emp where sum(sal) > 2500 and comm is null group by job;",
+      "D) select job, sum(sal) from emp group by job having sum(sal) > 2500 and comm is not null;"
+    ],
+    "correct_answer": "B",
+    "explanation": "For aggregate functions group by clause is necessary."
+  },
+  {
+    "question": "In magnetic disk ________ stores information on a sector magnetically as reversals of the direction of magnetization of the magnetic material.",
+    "options": [
+      "A) Read–write head",
+      "B) Read-assemble head",
+      "C) Head–disk assemblies",
+      "D) Disk arm"
+    ],
+    "correct_answer": "D",
+    "explanation": "Each side of a platter of a disk has a read–write head that moves across the platter to access different tracks."
+  },
+  {
+    "question": "A __________ is the smallest unit of information that can be read from or written to the disk.",
+    "options": [
+      "A) Track",
+      "B) Spindle",
+      "C) Sector",
+      "D) Platter"
+    ],
+    "correct_answer": "C",
+    "explanation": "The disk surface is logically divided into tracks, which are subdivided into sectors."
+  }
+]

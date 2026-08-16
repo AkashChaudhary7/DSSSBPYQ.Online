@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General Awareness",
       "question": "Which of the following is a key advantage of 5G technology over previous generations?",
+      "question_image": null,
       "options": [
         "Lower data speeds",
         "Reduced device connectivity",
         "Higher latency",
         "Enhanced bandwidth and lower latency"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Enhanced bandwidth and lower latency) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Enhanced bandwidth and lower latency) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General Awareness",
       "question": "How many metres is the average height of the Purvanchal Hills above sea level?",
+      "question_image": null,
       "options": [
         "500 to 3000 metres",
         "800 to 6000 metres",
         "200 to 1000 metres",
         "400 to 2000 metres"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (500 to 3000 metres) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (500 to 3000 metres) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General Awareness",
       "question": "Which of the following are the two branches of the Luni river that meet each other at Govindgarh?",
+      "question_image": null,
       "options": [
         "Saraswati and Sabarmati",
         "Dhansiri and Puthimari",
         "Bindusara and Sabari",
         "Girna and Panzara"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Saraswati and Sabarmati) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Saraswati and Sabarmati) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General Awareness",
       "question": "Among the given options, which of the following States of India had the highest sex ratio as per census 2011?",
+      "question_image": null,
       "options": [
         "Himachal Pradesh",
         "Tamil Nadu",
         "Andhra Pradesh",
         "Manipur"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Tamil Nadu) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Tamil Nadu) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General Awareness",
       "question": "मेजर ध्यानचंद खेल रत्न पुरस्कार से सम्मानित होने वाली पहली महिला खिलाड़ी कौन है?",
+      "question_image": null,
       "options": [
         "अंजली भागवत",
         "कर्णम मल्लेश्वरी",
         "अंजू बॉबी जॉर्ज",
         "एम.सी. मैरी कॉम"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (कर्णम मल्लेश्वरी) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (कर्णम मल्लेश्वरी) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General Awareness",
       "question": "Which Article of the Indian Constitution empowers the Parliament to legislate with respect to any matter in the State List if a Proclamation of Emergency is in operation?",
+      "question_image": null,
       "options": [
         "Article 254",
         "Article 255",
         "Article 250",
         "Article 253"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Article 250) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Article 250) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General Awareness",
       "question": "Which of the following is the formula for Marginal propensity to save (MPS)?",
+      "question_image": null,
       "options": [
         "MPS = ΔY - ΔS",
         "MPS = ΔS / ΔY",
         "MPS = ΔS + ΔY",
         "MPS = ΔS ⨯ ΔY"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (MPS = ΔS / ΔY) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (MPS = ΔS / ΔY) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General Awareness",
       "question": "भारत के निम्नलिखित में से किस संस्थान ने 1974 में माइक्रोफाइनेंस की शुरुआत की थी?",
+      "question_image": null,
       "options": [
         "अन्नपूर्णा माइक्रोफाइनेंस",
         "ESAF माइक्रोफाइनेंस",
         "SEWA बैंक",
         "आशीर्वाद माइक्रोफाइनेंस"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (SEWA बैंक) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (SEWA बैंक) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General Awareness",
       "question": "Who among the following was honoured with the Dronacharya Award 2022 in the lifetime category for football?",
+      "question_image": null,
       "options": [
         "Sujeet Maan",
         "Mohammed Ali Qamar",
         "Raj Singh",
         "Bimal Prafulla Ghosh"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Bimal Prafulla Ghosh) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Bimal Prafulla Ghosh) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General Awareness",
       "question": "The \"Doctrine of Lapse\" leading to the expansion of British power in India, was introduced by which British Governor-General?",
+      "question_image": null,
       "options": [
         "Lord Curzon",
         "Lord Canning",
         "Lord Hastings",
         "Lord Dalhousie"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Lord Dalhousie) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Lord Dalhousie) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General Awareness",
       "question": "The former Governor of RBI has been appointed as Principal Secretary to which Government Department/Ministry?",
+      "question_image": null,
       "options": [
         "Department of Personnel and Training",
         "Prime Minister's Office",
         "Department of Economic Affairs",
         "Cabinet Secretariat"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Prime Minister's Office) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Prime Minister's Office) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General Awareness",
       "question": "Which of the following is NOT correct regarding the Prime Minister of India?",
+      "question_image": null,
       "options": [
         "He is the Chief of the Government’s business.",
         "He is the Chairman of Inter State Council.",
         "He is the leader of party in majority.",
         "He is the Chairperson of Business Advisory Committee of the Parliament."
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (He is the Chairperson of Business Advisory Committee of the Parliament.) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (He is the Chairperson of Business Advisory Committee of the Parliament.) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General Awareness",
       "question": "The level of poverty of which of the following states was above the national poverty level in 2011-12?",
+      "question_image": null,
       "options": [
         "Karnataka",
         "Andhra Pradesh",
         "West Bengal",
         "Madhya Pradesh"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Madhya Pradesh) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Madhya Pradesh) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General Awareness",
       "question": "'The number of persons unemployed but willing to work' equals to which of the following?",
+      "question_image": null,
       "options": [
         "Work Force",
         "Labour Force – Work Force",
         "Labour force",
         "Work Force + Labour Force"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Labour Force – Work Force) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Labour Force – Work Force) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General Awareness",
       "question": "Which of the following languages was/​​were added to the Eighth Schedule of the Indian Constitution by the 92nd Constitutional Amendment Act, 2003, published in the Gazette of India on 8 January 2004?",
+      "question_image": null,
       "options": [
         "English, Sanskrit, Nepali",
         "Rajasthani",
         "Malayalam, Manipuri",
         "Bodo, Dogari, Maithili and Santhali"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Bodo, Dogari, Maithili and Santhali) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Bodo, Dogari, Maithili and Santhali) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General Awareness",
       "question": "At the Federation Cup 2024 (officially known as the 27th National Federation Senior Athletics Competition) that was held in Bhubaneswar, Odisha, what distance did Neeraj Chopra achieve to win the gold medal in the men’s javelin throw event?",
+      "question_image": null,
       "options": [
         "50 metres",
         "27 metres",
         "75 metres",
         "10 metres"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (27 metres) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (27 metres) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General Awareness",
       "question": "When is the Ladakh harvest festival celebrated?",
+      "question_image": null,
       "options": [
         "January",
         "November",
         "April",
         "September"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (September) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (September) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General Awareness",
       "question": "Which of the following is NOT a type of meristematic tissue?",
+      "question_image": null,
       "options": [
         "Intercalary",
         "Apical",
         "Epithelial",
         "Lateral"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Epithelial) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Epithelial) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General Awareness",
       "question": "Which river is called ‘Vetesta’ in Sanskrit?",
+      "question_image": null,
       "options": [
         "Jhelum River",
         "Brahmaputra River",
         "Krishna River",
         "Yamuna River"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Jhelum River) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Jhelum River) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General Awareness",
       "question": "Ganga Puja is primarily a religious festival of which of the following states?",
+      "question_image": null,
       "options": [
         "Sikkim",
         "Mizoram",
         "Assam",
         "Tripura"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Tripura) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Tripura) है।",
+      "explanation_image": null
     }
   ]
 }

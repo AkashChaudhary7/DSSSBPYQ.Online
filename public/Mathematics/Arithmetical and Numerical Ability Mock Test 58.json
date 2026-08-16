@@ -6,281 +6,321 @@
       "id": 1,
       "section": "Arithmetical and Numerical Ability",
       "question": "Find the fourth proportional to 6, 13 and 12.4844",
+      "question_image": null,
       "options": [
         "27",
         "26",
         "29",
         "23"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (26) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (26) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "Arithmetical and Numerical Ability",
       "question": "A person has to cover a distance of 8 km in 3 hours. If he covers one-fourth of the distance in one-third of the total time, then what should his speed (in km/h) be to cover the remaining distance in the remaining time so that the person reaches the destination exactly on time?",
+      "question_image": null,
       "options": [
         "10",
         "9",
         "8",
         "3"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (3) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (3) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "Arithmetical and Numerical Ability",
       "question": "The table below shows the number of cars produced (in lakhs) by six different brands between 2018 and 2023. \t\t\t\t\t\tType\t\t\t2018\t\t\t2019\t\t\t2020\t\t\t2021\t\t\t2022\t\t\t2023\t\t\t\t\t\t\tA\t\t\t36\t\t\t40\t\t\t42\t\t\t45\t\t\t47\t\t\t42\t\t\t\t\t\t\tB\t\t\t23\t\t\t37\t\t\t28\t\t\t32\t\t\t34\t\t\t26\t\t\t\t\t\t\tC\t\t\t45\t\t\t47\t\t\t51\t\t\t54\t\t\t56\t\t\t48\t\t\t\t\t\t\tD\t\t\t35\t\t\t37\t\t\t42\t\t\t32\t\t\t36\t\t\t28\t\t\t\t\t\t\tE\t\t\t57\t\t\t56\t\t\t52\t\t\t38\t\t\t48\t\t\t42\t\t\t\t\t\t\tF\t\t\t43\t\t\t45\t\t\t56\t\t\t41\t\t\t52\t\t\t40\t\t\tIn which year is the type F production 100% more than type B production?",
+      "question_image": null,
       "options": [
         "2021",
         "2020",
         "2019",
         "2022"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (2020) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (2020) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "Arithmetical and Numerical Ability",
       "question": "After decreasing 76% in the actual cost price, the reduced cost price of an article is ₹1,008. The actual cost price of the article (in ₹) is:",
+      "question_image": null,
       "options": [
         "4,200",
         "1,860",
         "241.92",
         "766.08"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (4,200) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (4,200) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "Arithmetical and Numerical Ability",
       "question": "The total surface area (in m2) of a cube, each of whose edges measures 198 m, is:",
+      "question_image": null,
       "options": [
         "235194",
         "235224",
         "235212",
         "235254"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (235224) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (235224) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "Arithmetical and Numerical Ability",
       "question": "A man purchased two varieties of pencils, one at the rate of ₹6 for 7 pencils, and the other at ₹6 per pencil. He bought an equal number of pencils from each variety and sold all the pencils at ₹6 per piece. What was his percentage profit?",
+      "question_image": null,
       "options": [
         "72%",
         "75%",
         "78%",
         "80%"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (75%) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (75%) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "Arithmetical and Numerical Ability",
       "question": "A juice seller has three types of juices: 552 litres of apple juice, 621 litres of grape juice and 667 litres of orange juice. Find the least possible number of casks of equal size in which different types of juice can be filled without mixing.",
+      "question_image": null,
       "options": [
         "80",
         "90",
         "70",
         "60"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (80) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (80) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "Arithmetical and Numerical Ability",
       "question": "The ratio of A’s salary to B’s salary is 3 : 4, the ratio of B’s salary to C’s salary is 4 : 5 and the ratio of C’s salary to D’s salary is 5 : 6. What is the ratio of the salaries of A, B, C and D?",
+      "question_image": null,
       "options": [
         "3 : 5 : 7 : 9",
         "1 : 2 : 3 : 4",
         "3 : 4 : 5 : 6",
         "5 : 6 : 7 : 8"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (3 : 4 : 5 : 6) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (3 : 4 : 5 : 6) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "Arithmetical and Numerical Ability",
       "question": "If 20% of 90 + 40% of 110 = 30% of 170 + x, then the value of ‘x’ is:",
+      "question_image": null,
       "options": [
         "13",
         "10",
         "11",
         "15"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (11) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (11) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average of 13 numbers is 7. If each number is multiplied by 4, then what will be the new average?",
+      "question_image": null,
       "options": [
         "4",
         "7",
         "13",
         "28"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (28) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (28) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "Arithmetical and Numerical Ability",
       "question": "A train goes from A to B at a speed of 6 km/h and returns from B to A by the same route at 3 km/h. The average speed (in km/h) of the train during the two-way journey is:",
+      "question_image": null,
       "options": [
         "3",
         "5",
         "7",
         "4"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (4) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (4) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "Arithmetical and Numerical Ability",
       "question": "There is an inverse variation relationship between A and B. At some instant of time, A is 15 and B is 12. Select the pair that CANNOT be possible for the corresponding values of A and B.",
+      "question_image": null,
       "options": [
         "A = 20, B = 9",
         "A = 45, B = 4",
         "A = 36, B = 5",
         "A = 42, B = 4"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (A = 42, B = 4) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (A = 42, B = 4) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "Arithmetical and Numerical Ability",
       "question": "The prices of two articles are in the ratio of 2 : 3. If the price of the first article is increased by 10% and that of the second by ₹3, then the ratio remains the same as it initially was. Find the original price of the second article.",
+      "question_image": null,
       "options": [
         "₹30",
         "₹20",
         "₹10",
         "₹40"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (₹30) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (₹30) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "Arithmetical and Numerical Ability",
       "question": "Ranjan got an LED TV for ₹23,736 after getting two successive discounts of 14% and 8% on its MRP. What was its MRP (in ₹)?",
+      "question_image": null,
       "options": [
         "25,000",
         "35,000",
         "28,000",
         "30,000"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (30,000) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (30,000) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "Arithmetical and Numerical Ability",
       "question": "At what rate (in percentage) per year will a sum of money double itself in 8 years on simple interest?",
+      "question_image": null,
       "options": [
         "5%",
         "5%",
         "25%",
         "5%"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (5%) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (5%) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "Arithmetical and Numerical Ability",
       "question": "If a shopkeeper gives two successive discounts of 24% and 35% on an article whose marked price is ₹500, then what will be the selling price (in ₹) of the article?",
+      "question_image": null,
       "options": [
         "247",
         "246",
         "245",
         "250"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (247) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (247) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "Arithmetical and Numerical Ability",
       "question": "Calculate the cost required to paint a football shaped like a sphere with a radius of 21 cm, if the painting cost is ₹3.50 per square cm. (Take π = 22/7)3307",
+      "question_image": null,
       "options": [
         "₹19,442",
         "₹19,404",
         "₹19,400",
         "₹19,424"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (₹19,404) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (₹19,404) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "Arithmetical and Numerical Ability",
       "question": "Arrange the following ratios in ascending order:20 : 28, 19 : 13, 26 : 5, 17 : 2",
+      "question_image": null,
       "options": [
         "19:13, 20:28, 26:5, 17:2",
         "17:2, 26:5, 19:13, 20:28",
         "20:28, 19:13, 26:5, 17:2",
         "19:13, 26:5, 20:28, 17:2"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (20:28, 19:13, 26:5, 17:2) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (20:28, 19:13, 26:5, 17:2) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "Arithmetical and Numerical Ability",
       "question": "An article is sold at a profit of 63%. If the cost price is increased by ₹28 and the selling price is reduced by ₹57, then the profit would be 62.5%. What is the original cost price (in ₹) of the article?",
+      "question_image": null,
       "options": [
         "20300",
         "20700",
         "20500",
         "20800"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (20500) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (20500) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "Arithmetical and Numerical Ability",
       "question": "The diagonals of a rhombus are 12 cm and 13 cm, respectively. The area of the rhombus (in cm2) is:",
+      "question_image": null,
       "options": [
         "72",
         "30",
         "84",
         "78"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (78) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (78) है।",
+      "explanation_image": null
     }
   ]
 }

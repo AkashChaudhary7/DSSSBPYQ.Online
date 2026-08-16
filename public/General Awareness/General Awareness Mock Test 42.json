@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General Awareness",
       "question": "दिए गए कथन और निष्कर्षों को पढ़ें तथा सबसे उपयुक्त विकल्प का चयन कीजिए।\n\nकथन:\nन्यायमूर्ति यशवंत विष्णु चंद्रचूड़ भारत में सर्वोच्च न्यायालय के सबसे लंबे समय तक सेवा करने वाले मुख्य न्यायाधीश थे।\nनिष्कर्ष:\ni) उन्होंने 7 वर्ष और 4 महीने तक, भारत के सर्वोच्च न्यायालय के मुख्य न्यायाधीश के रूप में कार्य किया।\nii) उन्होंने 1978 से 1985 तक सेवा की।",
+      "question_image": null,
       "options": [
         "केवल निष्कर्ष (ii) सही है।",
         "केवल निष्कर्ष (i) सही है।",
         "न तो निष्कर्ष (i) और न ही निष्कर्ष (ii) सही है।",
         "निष्कर्ष (i) और (ii) दोनों सही हैं।"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (निष्कर्ष (i) और (ii) दोनों सही हैं।) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (निष्कर्ष (i) और (ii) दोनों सही हैं।) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General Awareness",
       "question": "एक आगत में वृद्धि होने पर उत्पादन फलन पर निम्नलिखित में से क्या प्रभाव पड़ेगा?",
+      "question_image": null,
       "options": [
         "कुल निर्गत में कमी होगी।",
         "कुल निर्गत में वृद्धि होगी।",
         "कुल निर्गत उतना ही रहेगा।",
         "आगत और निर्गत के बीच कोई संबंध नहीं है।"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (कुल निर्गत में वृद्धि होगी।) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (कुल निर्गत में वृद्धि होगी।) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General Awareness",
       "question": "During April-October 2024, which country was India's top import source with $65.89 billion worth of inbound shipments, marking a 9.8% year-on-year increase?",
+      "question_image": null,
       "options": [
         "Germany",
         "US",
         "China",
         "Japan"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (China) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (China) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General Awareness",
       "question": "Researchers from which of the following universities have revealed significant ecological degradations in the Veli-Akkulam Lake at the International Conference on Coastal Resilience (ECSA 60) in September 2024?",
+      "question_image": null,
       "options": [
         "University of Kashmir",
         "University of Odisha",
         "University of Kerala",
         "University of Tamil Nadu"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (University of Kerala) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (University of Kerala) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General Awareness",
       "question": "In which year was Sanskrit declared a Classical Language?",
+      "question_image": null,
       "options": [
         "2004",
         "2008",
         "2010",
         "2005"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (2005) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (2005) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General Awareness",
       "question": "As per the Sample Registration System (SRS), the Maternal Mortality Ratio (MMR) has reduced from 8.1% in 2015-17 to ___________ in 2016-18 at the national level.",
+      "question_image": null,
       "options": [
         "5.8%",
         "7.3%",
         "6.1%",
         "7.9%"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (7.3%) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (7.3%) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General Awareness",
       "question": "As of October 3, 2024, how many languages have been accorded the status of Classical Language in India?",
+      "question_image": null,
       "options": [
         "4",
         "8",
         "11",
         "7"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (11) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (11) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General Awareness",
       "question": "Who was the first recipient of the Vigyan Ratna Puraskar?",
+      "question_image": null,
       "options": [
         "Jayant Bhalchandra Udgaonkar",
         "Avesh Kumar Tyagi",
         "Govindarajan Padmanabhan",
         "Umesh Varshney"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Govindarajan Padmanabhan) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Govindarajan Padmanabhan) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General Awareness",
       "question": "The Landholders' Society was the first political association to be started in India in _________.",
+      "question_image": null,
       "options": [
         "1848",
         "1838",
         "1868",
         "1858"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (1838) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (1838) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General Awareness",
       "question": "Which of the following is the correct equation for the net production taxes?",
+      "question_image": null,
       "options": [
         "Total Production Taxes = Direct Taxes + Indirect Taxes",
         "Net Production Taxes = Production Taxes – Production Subsidies",
         "Net Production Taxes = Production Taxes",
         "Net Production Taxes = Production Taxes + Production Subsidies"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Net Production Taxes = Production Taxes – Production Subsidies) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Net Production Taxes = Production Taxes – Production Subsidies) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General Awareness",
       "question": "The Family Courts Act was enacted in which of the following years?",
+      "question_image": null,
       "options": [
         "1982",
         "1984",
         "1981",
         "1980"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (1984) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (1984) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General Awareness",
       "question": "According to Dadabhai Naoroji, which of the following was the value of per capita income during 1867-1868?",
+      "question_image": null,
       "options": [
         "₹35",
         "₹20",
         "₹30",
         "₹10"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (₹20) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (₹20) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General Awareness",
       "question": "In which of the following classical dance forms is the use of ‘ghungroos’ (ankle bells) to emphasise rhythmic footwork most prominent?",
+      "question_image": null,
       "options": [
         "Kathakali",
         "Kathak",
         "Sattriya",
         "Manipuri"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Kathak) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Kathak) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General Awareness",
       "question": "Nagarahole National Park is an important tiger reserve in _______ and is a major hub of conservation under Project Tiger and Project Elephant.",
+      "question_image": null,
       "options": [
         "Karnataka",
         "Kerala",
         "Telangana",
         "Odisha"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Karnataka) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Karnataka) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General Awareness",
       "question": "To which of the following components of GDP do consumer durable goods contribute?",
+      "question_image": null,
       "options": [
         "Consumption Expenditure",
         "Investment Expenditure",
         "Government Expenditure",
         "Net Exports"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Consumption Expenditure) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Consumption Expenditure) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General Awareness",
       "question": "The western coast, sandwiched between the Western Ghats and the ____________, is a narrow plain.",
+      "question_image": null,
       "options": [
         "Thar Desert",
         "Arabian Sea",
         "Persian Gulf",
         "Bay of Bengal"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Arabian Sea) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Arabian Sea) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General Awareness",
       "question": "The ‘Hola Mohalla' festival, started by Guru Gobind Singh, is primarily celebrated in which of the following states of India?",
+      "question_image": null,
       "options": [
         "Bihar",
         "Himachal Pradesh",
         "Rajasthan",
         "Punjab"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Punjab) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Punjab) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General Awareness",
       "question": "Which state government held ‘Bal Sabhas’ in every village on 24 April 2022, which is observed as Panchayati Raj Day, to give children a platform to express their views and participate in the Panchayati Raj?",
+      "question_image": null,
       "options": [
         "Tamil Nadu",
         "Karnataka",
         "Maharashtra",
         "Rajasthan"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Maharashtra) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Maharashtra) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General Awareness",
       "question": "निम्नलिखित में से किस नीति/टूल का उद्देश्य डिफरेंशियल इंटरनेट मूल्य निर्धारण को सीमित करना और ऑनलाइन कंटेंट का समान व्यवहार (equal treatment) सुनिश्चित करना है?",
+      "question_image": null,
       "options": [
         "नेट न्यूट्रैलिटी रेगुलेशंस (Net Neutrality regulations)",
         "स्वामित्व सामग्री थ्रॉटलिंग की अनुमति (Proprietary content throttling allowed)",
         "केवल कुछ साइटों के लिए विशेष ISP बंडल (Exclusive ISP bundles only for some sites)",
         "ओपन इंटरनेट एक्‍सेस को ब्‍लॉक करना (Blocking open internet access)"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (नेट न्यूट्रैलिटी रेगुलेशंस (Net Neutrality regulations)) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (नेट न्यूट्रैलिटी रेगुलेशंस (Net Neutrality regulations)) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General Awareness",
       "question": "Which of the following statements regarding the Central Council of Local Government is INCORRECT?",
+      "question_image": null,
       "options": [
         "Originally, it was called the Central Council of Local Self-Government.",
         "It was set up in 1954 under Article 263 of the Constitution of India.",
         "Presently, it deals with both urban and rural local governments.",
         "The Union Minister for Urban Development acts as the Chairman of the Council."
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Presently, it deals with both urban and rural local governments.) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Presently, it deals with both urban and rural local governments.) है।",
+      "explanation_image": null
     }
   ]
 }

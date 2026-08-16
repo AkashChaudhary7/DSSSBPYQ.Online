@@ -6,281 +6,321 @@
       "id": 1,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate preposition to fill in the blank.The book is lying _____ the table.",
+      "question_image": null,
       "options": [
         "under",
         "beside",
         "on",
         "in"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (on) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (on) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.Ravi has never been punctual in submitting his assignments, ________?",
+      "question_image": null,
       "options": [
         "hasn’t he",
         "does he",
         "has he",
         "doesn’t he"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (has he) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (has he) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "English Language and Comprehension",
       "question": "Select the option that can be used as a one-word substitute for the given group of words.Renounce or reject (something desired or valuable)",
+      "question_image": null,
       "options": [
         "Reiterate",
         "Homologate",
         "Abnegate",
         "Galvanise"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Abnegate) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Abnegate) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option that can substitute the group of words given in the brackets to complete the sentence meaningfully.He felt hurt when his friends (treated him with unfriendliness), and realised they were upset about his recent behaviour.",
+      "question_image": null,
       "options": [
         "gave him the cold shoulder",
         "left him in the lurch",
         "crossed the line",
         "rubbed him the wrong way"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (gave him the cold shoulder) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (gave him the cold shoulder) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "English Language and Comprehension",
       "question": "Read the following conversation and select the most appropriate ANTONYM of the underlined word. Trisha: His callous attitude toward the victims shocked the audience.Vikram: Empathy was clearly lacking in his speech.",
+      "question_image": null,
       "options": [
         "Heartless",
         "Quiet",
         "Mindful",
         "Talkative"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Mindful) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Mindful) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "English Language and Comprehension",
       "question": "Identify the INCORRECTLY spelt word in the given paragraph.The historian’s account of the empire’s fall was deeply engrossing, but certain dates and names were found to be ambigous, prompting a more thorough examination of his sources. Scholars praised the narrative flair but raised concerns over factual accuracy and potential misinterpretations. As debates intensified, peer reviewers called for stricter verification to uphold academic rigor.",
+      "question_image": null,
       "options": [
         "engrossing",
         "prompting",
         "examination",
         "ambigous"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (ambigous) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (ambigous) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option that can substitute the group of words given in the brackets to complete the sentence meaningfully.When he accused her of being messy, it was a classic case of (criticising someone else for the same faults that one also has), since he was just as disorganised.",
+      "question_image": null,
       "options": [
         "throwing stones at a glass house",
         "a chain being only as strong as its weakest link",
         "actions speaking louder than words",
         "the shoemaker's children going barefoot"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (throwing stones at a glass house) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (throwing stones at a glass house) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.The tourists got lost in the dense forest because they had failed _______ a map before embarking on their hike.",
+      "question_image": null,
       "options": [
         "bringing",
         "to be bringing",
         "to bring",
         "bring"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (to bring) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (to bring) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.(A) Furthermore, its scientific community contributed significantly to advancements in fields like physics and biology.(B) The 19th century was a period of rapid development for European societies.(C) This era saw industrial revolutions that brought about sweeping changes in manufacturing and transportation.(D) These changes laid the groundwork for modern economies and global interactions.",
+      "question_image": null,
       "options": [
         "D-A-C-B",
         "A-D-B-C",
         "B-C-D-A",
         "C-B-A-D"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (B-C-D-A) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (B-C-D-A) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.Philosophy of Education is a label applied to the study of the purpose, process, nature and ideals of education. It can be considered a branch of both philosophy and education. Education can be defined as the teaching and learning of specific skills and the imparting of knowledge, judgement and wisdom, and is something broader than the societal institution of education we often speak of. Many educationalists consider it a weak and woolly field, too far removed from the practical applications of the real world to be useful. But philosophers dating back to Plato and the Ancient Greeks have given the area much thought and emphasis, and there is little doubt that their work has helped shape the practice of education over the millennia. Plato is the earliest important educational thinker, and education is an essential element in 'The Republic' (his most important work on philosophy and political theory, written around 360 B.C.). In it, he advocates some rather extreme methods: removing children from their mothers' care and raising them as wards of the state, and differentiating children suitable to the various castes, the highest receiving the most education, so that they could act as guardians of the city and care for the less able. He believed that education should be holistic, including facts, skills, physical discipline, music and art. Plato believed that talent and intelligence is not distributed genetically and thus, is found in children born to all classes, although his proposed system of selective public education for an educated minority of the population does not really follow a democratic model.Aristotle considered human nature, habit and reason to be equally important forces to be cultivated in education, the ultimate aim of which should be to produce good and virtuous citizens. He proposed that teachers lead their students systematically, and that repetition be used as a key tool to develop good habits, unlike Socrates' emphasis on questioning his listeners to bring out their own ideas. He emphasised the balancing of the theoretical and practical aspects of subjects taught, among which he explicitly mentions reading, writing, mathematics, music, physical education, literature, history and a wide range of sciences, as well as play, which he also considered important.During the Medieval period, the idea of Perennialism was first formulated by St. Thomas Aquinas in his work 'De Magistro'. Perennialism holds that one should teach those things deemed to be of everlasting importance to all people everywhere, namely principles and reasoning, not just facts (which are apt to change over time), and that one should teach first about people, not machines or techniques. It was originally religious in nature, and it was only much later that a theory of secular perennialism developed. During the Renaissance, the French skeptic Michel de Montaigne (1533 - 1592) was one of the first to critically look at education. Unusually for his time, Montaigne was willing to question the conventional wisdom of the period, calling into question the whole edifice of the educational system, and the implicit assumption that university-educated philosophers were necessarily wiser than uneducated farm workers, for example.Select the most appropriate option based on Plato’s belief about education.",
+      "question_image": null,
       "options": [
         "He believed that only a select few are meant to attend schools.",
         "His belief was that education should only be available to the wealthy.",
         "Plato’s beliefs about education were democratic but his practices were non- democratic.",
         "He had a belief that not all pupils were talented."
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Plato’s beliefs about education were democratic but his practices were non- democratic.) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Plato’s beliefs about education were democratic but his practices were non- democratic.) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.Philosophy of Education is a label applied to the study of the purpose, process, nature and ideals of education. It can be considered a branch of both philosophy and education. Education can be defined as the teaching and learning of specific skills and the imparting of knowledge, judgement and wisdom, and is something broader than the societal institution of education we often speak of. Many educationalists consider it a weak and woolly field, too far removed from the practical applications of the real world to be useful. But philosophers dating back to Plato and the Ancient Greeks have given the area much thought and emphasis, and there is little doubt that their work has helped shape the practice of education over the millennia. Plato is the earliest important educational thinker, and education is an essential element in 'The Republic' (his most important work on philosophy and political theory, written around 360 B.C.). In it, he advocates some rather extreme methods: removing children from their mothers' care and raising them as wards of the state, and differentiating children suitable to the various castes, the highest receiving the most education, so that they could act as guardians of the city and care for the less able. He believed that education should be holistic, including facts, skills, physical discipline, music and art. Plato believed that talent and intelligence is not distributed genetically and thus, is found in children born to all classes, although his proposed system of selective public education for an educated minority of the population does not really follow a democratic model.Aristotle considered human nature, habit and reason to be equally important forces to be cultivated in education, the ultimate aim of which should be to produce good and virtuous citizens. He proposed that teachers lead their students systematically, and that repetition be used as a key tool to develop good habits, unlike Socrates' emphasis on questioning his listeners to bring out their own ideas. He emphasised the balancing of the theoretical and practical aspects of subjects taught, among which he explicitly mentions reading, writing, mathematics, music, physical education, literature, history and a wide range of sciences, as well as play, which he also considered important.During the Medieval period, the idea of Perennialism was first formulated by St. Thomas Aquinas in his work 'De Magistro'. Perennialism holds that one should teach those things deemed to be of everlasting importance to all people everywhere, namely principles and reasoning, not just facts (which are apt to change over time), and that one should teach first about people, not machines or techniques. It was originally religious in nature, and it was only much later that a theory of secular perennialism developed. During the Renaissance, the French skeptic Michel de Montaigne (1533 - 1592) was one of the first to critically look at education. Unusually for his time, Montaigne was willing to question the conventional wisdom of the period, calling into question the whole edifice of the educational system, and the implicit assumption that university-educated philosophers were necessarily wiser than uneducated farm workers, for example.Select the most appropriate meaning of the term ‘Perennialism’ in the context of this passage.",
+      "question_image": null,
       "options": [
         "It refers to something which is of constant importance.",
         "It refers to something which existed in large amounts in the past but no longer exists in modern times.",
         "It refers to something which is not necessary.",
         "It refers to something which is abstract and theoretical."
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (It refers to something which is of constant importance.) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (It refers to something which is of constant importance.) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.Philosophy of Education is a label applied to the study of the purpose, process, nature and ideals of education. It can be considered a branch of both philosophy and education. Education can be defined as the teaching and learning of specific skills and the imparting of knowledge, judgement and wisdom, and is something broader than the societal institution of education we often speak of. Many educationalists consider it a weak and woolly field, too far removed from the practical applications of the real world to be useful. But philosophers dating back to Plato and the Ancient Greeks have given the area much thought and emphasis, and there is little doubt that their work has helped shape the practice of education over the millennia. Plato is the earliest important educational thinker, and education is an essential element in 'The Republic' (his most important work on philosophy and political theory, written around 360 B.C.). In it, he advocates some rather extreme methods: removing children from their mothers' care and raising them as wards of the state, and differentiating children suitable to the various castes, the highest receiving the most education, so that they could act as guardians of the city and care for the less able. He believed that education should be holistic, including facts, skills, physical discipline, music and art. Plato believed that talent and intelligence is not distributed genetically and thus, is found in children born to all classes, although his proposed system of selective public education for an educated minority of the population does not really follow a democratic model.Aristotle considered human nature, habit and reason to be equally important forces to be cultivated in education, the ultimate aim of which should be to produce good and virtuous citizens. He proposed that teachers lead their students systematically, and that repetition be used as a key tool to develop good habits, unlike Socrates' emphasis on questioning his listeners to bring out their own ideas. He emphasised the balancing of the theoretical and practical aspects of subjects taught, among which he explicitly mentions reading, writing, mathematics, music, physical education, literature, history and a wide range of sciences, as well as play, which he also considered important.During the Medieval period, the idea of Perennialism was first formulated by St. Thomas Aquinas in his work 'De Magistro'. Perennialism holds that one should teach those things deemed to be of everlasting importance to all people everywhere, namely principles and reasoning, not just facts (which are apt to change over time), and that one should teach first about people, not machines or techniques. It was originally religious in nature, and it was only much later that a theory of secular perennialism developed. During the Renaissance, the French skeptic Michel de Montaigne (1533 - 1592) was one of the first to critically look at education. Unusually for his time, Montaigne was willing to question the conventional wisdom of the period, calling into question the whole edifice of the educational system, and the implicit assumption that university-educated philosophers were necessarily wiser than uneducated farm workers, for example.According to the passage, Aristotle and Plato’s approaches differ in terms of which of the following?",
+      "question_image": null,
       "options": [
         "Plato’s approach was time-bound, whereas Aristotle’s approach was liberal in terms of employment.",
         "Aristotle advocated the need for repetition to develop good habits in students, whereas Socrates felt that students need to be constantly questioned.",
         "Aristotle felt the need for rote-learning; Socrates emphasised on dialogic learning.",
         "Plato emphasised on the importance of paying attention to human society; Aristotle emphasised upon science as well as nature."
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Plato emphasised on the importance of paying attention to human society; Aristotle emphasised upon science as well as nature.) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Plato emphasised on the importance of paying attention to human society; Aristotle emphasised upon science as well as nature.) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.Philosophy of Education is a label applied to the study of the purpose, process, nature and ideals of education. It can be considered a branch of both philosophy and education. Education can be defined as the teaching and learning of specific skills and the imparting of knowledge, judgement and wisdom, and is something broader than the societal institution of education we often speak of. Many educationalists consider it a weak and woolly field, too far removed from the practical applications of the real world to be useful. But philosophers dating back to Plato and the Ancient Greeks have given the area much thought and emphasis, and there is little doubt that their work has helped shape the practice of education over the millennia. Plato is the earliest important educational thinker, and education is an essential element in 'The Republic' (his most important work on philosophy and political theory, written around 360 B.C.). In it, he advocates some rather extreme methods: removing children from their mothers' care and raising them as wards of the state, and differentiating children suitable to the various castes, the highest receiving the most education, so that they could act as guardians of the city and care for the less able. He believed that education should be holistic, including facts, skills, physical discipline, music and art. Plato believed that talent and intelligence is not distributed genetically and thus, is found in children born to all classes, although his proposed system of selective public education for an educated minority of the population does not really follow a democratic model.Aristotle considered human nature, habit and reason to be equally important forces to be cultivated in education, the ultimate aim of which should be to produce good and virtuous citizens. He proposed that teachers lead their students systematically, and that repetition be used as a key tool to develop good habits, unlike Socrates' emphasis on questioning his listeners to bring out their own ideas. He emphasised the balancing of the theoretical and practical aspects of subjects taught, among which he explicitly mentions reading, writing, mathematics, music, physical education, literature, history and a wide range of sciences, as well as play, which he also considered important.During the Medieval period, the idea of Perennialism was first formulated by St. Thomas Aquinas in his work 'De Magistro'. Perennialism holds that one should teach those things deemed to be of everlasting importance to all people everywhere, namely principles and reasoning, not just facts (which are apt to change over time), and that one should teach first about people, not machines or techniques. It was originally religious in nature, and it was only much later that a theory of secular perennialism developed. During the Renaissance, the French skeptic Michel de Montaigne (1533 - 1592) was one of the first to critically look at education. Unusually for his time, Montaigne was willing to question the conventional wisdom of the period, calling into question the whole edifice of the educational system, and the implicit assumption that university-educated philosophers were necessarily wiser than uneducated farm workers, for example.Why did Aquinas propose a model of education that did not lay much emphasis on facts?",
+      "question_image": null,
       "options": [
         "Because facts do not lead to complete education",
         "Because he thought that facts are not necessary",
         "Because he thought that facts change with the passage of time",
         "Because facts are controlled by the elite class of the society"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Because he thought that facts change with the passage of time) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Because he thought that facts change with the passage of time) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.Philosophy of Education is a label applied to the study of the purpose, process, nature and ideals of education. It can be considered a branch of both philosophy and education. Education can be defined as the teaching and learning of specific skills and the imparting of knowledge, judgement and wisdom, and is something broader than the societal institution of education we often speak of. Many educationalists consider it a weak and woolly field, too far removed from the practical applications of the real world to be useful. But philosophers dating back to Plato and the Ancient Greeks have given the area much thought and emphasis, and there is little doubt that their work has helped shape the practice of education over the millennia. Plato is the earliest important educational thinker, and education is an essential element in 'The Republic' (his most important work on philosophy and political theory, written around 360 B.C.). In it, he advocates some rather extreme methods: removing children from their mothers' care and raising them as wards of the state, and differentiating children suitable to the various castes, the highest receiving the most education, so that they could act as guardians of the city and care for the less able. He believed that education should be holistic, including facts, skills, physical discipline, music and art. Plato believed that talent and intelligence is not distributed genetically and thus, is found in children born to all classes, although his proposed system of selective public education for an educated minority of the population does not really follow a democratic model.Aristotle considered human nature, habit and reason to be equally important forces to be cultivated in education, the ultimate aim of which should be to produce good and virtuous citizens. He proposed that teachers lead their students systematically, and that repetition be used as a key tool to develop good habits, unlike Socrates' emphasis on questioning his listeners to bring out their own ideas. He emphasised the balancing of the theoretical and practical aspects of subjects taught, among which he explicitly mentions reading, writing, mathematics, music, physical education, literature, history and a wide range of sciences, as well as play, which he also considered important.During the Medieval period, the idea of Perennialism was first formulated by St. Thomas Aquinas in his work 'De Magistro'. Perennialism holds that one should teach those things deemed to be of everlasting importance to all people everywhere, namely principles and reasoning, not just facts (which are apt to change over time), and that one should teach first about people, not machines or techniques. It was originally religious in nature, and it was only much later that a theory of secular perennialism developed. During the Renaissance, the French skeptic Michel de Montaigne (1533 - 1592) was one of the first to critically look at education. Unusually for his time, Montaigne was willing to question the conventional wisdom of the period, calling into question the whole edifice of the educational system, and the implicit assumption that university-educated philosophers were necessarily wiser than uneducated farm workers, for example.Select the most appropriate ANTONYM of the word ‘conventional’ as used in the given passage.",
+      "question_image": null,
       "options": [
         "Natural",
         "Convenient",
         "Unorthodox",
         "Delighted"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Unorthodox) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Unorthodox) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate ANTONYM of the underlined word to fill in the blank in the given conversation.Anirudh: Have you caught wind of the buzz about the new actor? It's like everyone's rushing to lionise him as the next big thing in town.Vaishnavi: Really? I've heard quite the opposite. Several notable critics are quick to _______ his talent, claiming he's overrated.",
+      "question_image": null,
       "options": [
         "vilify",
         "inflate",
         "adorn",
         "augment"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (vilify) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (vilify) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "English Language and Comprehension",
       "question": "Select the option that can be used as a one-word substitute for the given group of words.The scientific study of the skin and its diseases",
+      "question_image": null,
       "options": [
         "Ophthalmology",
         "Neurology",
         "Dermatology",
         "Oncology"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Dermatology) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Dermatology) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate question tag to fill in the blank.He barely made it on time, _________?",
+      "question_image": null,
       "options": [
         "did he",
         "didn’t he",
         "will he",
         "hasn’t he"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (did he) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (did he) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate proverb that can substitute the underlined segment in the given sentence. After years of debate, reform, and public resistance, the new environmental policy was passed, demonstrating that persistent and steady efforts can eventually overcome even the most difficult resistance.",
+      "question_image": null,
       "options": [
         "when the going gets tough, the tough get going",
         "the squeaky wheel gets the grease",
         "a leopard doesn’t change its spots",
         "constant dripping wears away the stone"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (constant dripping wears away the stone) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (constant dripping wears away the stone) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate ANTONYM of the underlined word to fill in the blank in the given conversation.Kavita: \"The atmosphere during the festival was extremely jovial.\"Mohan: \"Unlike the atmosphere at our gathering, which was ______.\"",
+      "question_image": null,
       "options": [
         "gloomy",
         "gleeful",
         "arbitrary",
         "ideal"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (gloomy) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (gloomy) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A.  Check out social media accounts of foreigners in India attempting to speak an Indian language.B.  Any mispronunciation in English or another language by an Indian is immediately met with harsh criticism and ridicule.C.  In India, however, we are not as indulgent of ourselves.D.  We love that they are making an effort.E.  You’ll see the comments are all about how cute they sound.",
+      "question_image": null,
       "options": [
         "CEDAB",
         "AEDCB",
         "BEDAC",
         "ABEDC"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (AEDCB) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (AEDCB) है।",
+      "explanation_image": null
     }
   ]
 }

@@ -6,281 +6,321 @@
       "id": 1,
       "section": "English Language and Comprehension",
       "question": "Replace the highlighted phrase with the most appropriate proverb.Being very careful not to offend anyone is a delicate art. 1362",
+      "question_image": null,
       "options": [
         "Looking before you leap",
         "Walking on eggshells",
         "Striking while the iron is hot",
         "Making hay while the sun shines"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Walking on eggshells) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Walking on eggshells) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "English Language and Comprehension",
       "question": "Choose the correct option to complete the sentence.The plane flew ___ over the mountain peaks.2671",
+      "question_image": null,
       "options": [
         "high",
         "highest",
         "altitude",
         "height"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (high) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (high) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "English Language and Comprehension",
       "question": "Rearrange the following sentences to a form a coherent and meaningful paragraph.A. But without regular exercise, this diet alone may not yield long-term benefits.B. A balanced diet is crucial to maintaining a healthy body.C. Many nutritionists now advocate a combination of food and physical activity.D. Healthy habits develop over time and require consistency.E. Still, most people focus only on food choices.",
+      "question_image": null,
       "options": [
         "BAECD",
         "BEACD",
         "BACED",
         "BECAD"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (BACED) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (BACED) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to complete the sentence.The boy was very ........... dressed and looked unclean.2876",
+      "question_image": null,
       "options": [
         "neatly",
         "tidily",
         "shabbily",
         "uniformly"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (shabbily) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (shabbily) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "English Language and Comprehension",
       "question": "In the conversation, Identify the antonym of the underlined word.Teacher: The new school rules seem really strict, don’t they?Student: Yeah, some of them feel pretty draconian, particularly about the rule of using no phones even during breaks.Teacher: True, draconian means excessively harsh or severe. Sometimes rules like that can feel unfair.Student: I get that rules are important, but there has to be a balance.",
+      "question_image": null,
       "options": [
         "Punitive",
         "Indulgent",
         "Authoritarian",
         "Ruthless"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Indulgent) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Indulgent) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "English Language and Comprehension",
       "question": "Fill in the blanks with the most appropriate options.She ______ the documents carefully before signing them.2525",
+      "question_image": null,
       "options": [
         "has reading",
         "reading",
         "is reading",
         "had read"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (had read) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (had read) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "English Language and Comprehension",
       "question": "Read the following paragraph carefully. One of the words in the paragraph is spelled incorrectly. Identify the misspelled word and select its correct spelling from the options given.The researcher accentuated that the perniciuos dissemination of misinformation across digital platforms exerts a subtle yet detrimental influence on impressionable minds, progressively undermining not only their academic concentration but also their capacity for independent and critical reasoning.",
+      "question_image": null,
       "options": [
         "pernicious",
         "concentration",
         "disemination",
         "missinformation"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (pernicious) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (pernicious) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "English Language and Comprehension",
       "question": "Identify the synonym of the underlined word in the following conversation.Designer: I noticed the new office design is very minimal. What was the idea behind it?Architect: The office space is intentionally austere. It has no art, no color, just raw concrete and steel.",
+      "question_image": null,
       "options": [
         "Spartan",
         "Lavish",
         "Opulent",
         "Extravagant"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Spartan) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Spartan) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "English Language and Comprehension",
       "question": "Rearrange the following sentences to form a meaningful paragraph.P. This is where scientists explore space.Q. It orbits the Earth at about 400 kilometers altitude.R. The International Space Station is a marvel of engineering.S. It is a joint project by multiple countries.",
+      "question_image": null,
       "options": [
         "QRSP",
         "PRSQ",
         "RQPS",
         "RQSP"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (RQSP) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (RQSP) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the passage carefully and answer the questions that follow. By mid-2025, the global water crisis is expected to reach unprecedented levels. According to the 2024 UN World Water Development Report, approximately 2.2 billion people lack access to safely managed drinking water, and 3.5 billion lack safely managed sanitation services. Meanwhile, nearly half of the world’s population experiences severe water scarcity for at least part of each year. Agriculture consumes about 70% of global freshwater withdrawals, while industry and municipal use account for roughly 20% and 12%, respectively. Climate change is further destabilizing the hydrological cycle. Rising temperatures, glacial melt, and changing precipitation patterns are reducing freshwater availability, while floods and droughts increase in frequency and severity. Coastal aquifers face growing salinization: studies show that by 2100, as much as 77% of coastal aquifers could be affected by saltwater intrusion due to sea-level rise and declining recharge. Water scarcity today already affects 40% of the global population, and demand is expected to surpass supply by 40% by 2030. Groundwater depletion continues, especially in densely populated regions like India, China, and Pakistan, where aquifer recharge lags behind extraction. Many megacities now face “Day Zero” scenarios, where municipal taps could run dry without drastic conservation and infrastructure reform. While innovative technologies—such as biodegradable hydrogels that extract water from the air—offer promise for remote or water-stressed regions, current investments fall significantly short of what's needed (a shortfall of $85 billion per year) to achieve universal access by 2030. Experts warn that without coordinated global investment, transparent governance, equitable distribution, and water-efficient infrastructure, the world risks escalating conflict, agricultural collapse, economic instability, and public health crises on a global scale.What real-world connection applies?",
+      "question_image": null,
       "options": [
         "Desalination is the only solution",
         "Water stress affects food security, conflict, and health globally",
         "Scarcity is confined to small islands only",
         "Climate has no impact on water access"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Water stress affects food security, conflict, and health globally) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Water stress affects food security, conflict, and health globally) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the passage carefully and answer the questions that follow. By mid-2025, the global water crisis is expected to reach unprecedented levels. According to the 2024 UN World Water Development Report, approximately 2.2 billion people lack access to safely managed drinking water, and 3.5 billion lack safely managed sanitation services. Meanwhile, nearly half of the world’s population experiences severe water scarcity for at least part of each year. Agriculture consumes about 70% of global freshwater withdrawals, while industry and municipal use account for roughly 20% and 12%, respectively. Climate change is further destabilizing the hydrological cycle. Rising temperatures, glacial melt, and changing precipitation patterns are reducing freshwater availability, while floods and droughts increase in frequency and severity. Coastal aquifers face growing salinization: studies show that by 2100, as much as 77% of coastal aquifers could be affected by saltwater intrusion due to sea-level rise and declining recharge. Water scarcity today already affects 40% of the global population, and demand is expected to surpass supply by 40% by 2030. Groundwater depletion continues, especially in densely populated regions like India, China, and Pakistan, where aquifer recharge lags behind extraction. Many megacities now face “Day Zero” scenarios, where municipal taps could run dry without drastic conservation and infrastructure reform. While innovative technologies—such as biodegradable hydrogels that extract water from the air—offer promise for remote or water-stressed regions, current investments fall significantly short of what's needed (a shortfall of $85 billion per year) to achieve universal access by 2030. Experts warn that without coordinated global investment, transparent governance, equitable distribution, and water-efficient infrastructure, the world risks escalating conflict, agricultural collapse, economic instability, and public health crises on a global scale.Which facts are stated in the passage? \nA. 2.2 billion people lack safe drinking water\nB. 77 % of aquifers are currently polluted\nC. Agriculture uses 70 % of global freshwater\nD. Water demand to decline by 2030",
+      "question_image": null,
       "options": [
         "Both B and D",
         "Both A and D",
         "Both A and C",
         "Both D and A"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Both A and C) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Both A and C) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the passage carefully and answer the questions that follow. By mid-2025, the global water crisis is expected to reach unprecedented levels. According to the 2024 UN World Water Development Report, approximately 2.2 billion people lack access to safely managed drinking water, and 3.5 billion lack safely managed sanitation services. Meanwhile, nearly half of the world’s population experiences severe water scarcity for at least part of each year. Agriculture consumes about 70% of global freshwater withdrawals, while industry and municipal use account for roughly 20% and 12%, respectively. Climate change is further destabilizing the hydrological cycle. Rising temperatures, glacial melt, and changing precipitation patterns are reducing freshwater availability, while floods and droughts increase in frequency and severity. Coastal aquifers face growing salinization: studies show that by 2100, as much as 77% of coastal aquifers could be affected by saltwater intrusion due to sea-level rise and declining recharge. Water scarcity today already affects 40% of the global population, and demand is expected to surpass supply by 40% by 2030. Groundwater depletion continues, especially in densely populated regions like India, China, and Pakistan, where aquifer recharge lags behind extraction. Many megacities now face “Day Zero” scenarios, where municipal taps could run dry without drastic conservation and infrastructure reform. While innovative technologies—such as biodegradable hydrogels that extract water from the air—offer promise for remote or water-stressed regions, current investments fall significantly short of what's needed (a shortfall of $85 billion per year) to achieve universal access by 2030. Experts warn that without coordinated global investment, transparent governance, equitable distribution, and water-efficient infrastructure, the world risks escalating conflict, agricultural collapse, economic instability, and public health crises on a global scale.Which summary best fits the passage?",
+      "question_image": null,
       "options": [
         "A review of new water purification technologies",
         "A case study of desalination in Cyprus",
         "Overview of global water stress, its drivers and scarcity trends",
         "Financial spec sheet for water infrastructure financing"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Overview of global water stress, its drivers and scarcity trends) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Overview of global water stress, its drivers and scarcity trends) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the passage carefully and answer the questions that follow. By mid-2025, the global water crisis is expected to reach unprecedented levels. According to the 2024 UN World Water Development Report, approximately 2.2 billion people lack access to safely managed drinking water, and 3.5 billion lack safely managed sanitation services. Meanwhile, nearly half of the world’s population experiences severe water scarcity for at least part of each year. Agriculture consumes about 70% of global freshwater withdrawals, while industry and municipal use account for roughly 20% and 12%, respectively. Climate change is further destabilizing the hydrological cycle. Rising temperatures, glacial melt, and changing precipitation patterns are reducing freshwater availability, while floods and droughts increase in frequency and severity. Coastal aquifers face growing salinization: studies show that by 2100, as much as 77% of coastal aquifers could be affected by saltwater intrusion due to sea-level rise and declining recharge. Water scarcity today already affects 40% of the global population, and demand is expected to surpass supply by 40% by 2030. Groundwater depletion continues, especially in densely populated regions like India, China, and Pakistan, where aquifer recharge lags behind extraction. Many megacities now face “Day Zero” scenarios, where municipal taps could run dry without drastic conservation and infrastructure reform. While innovative technologies—such as biodegradable hydrogels that extract water from the air—offer promise for remote or water-stressed regions, current investments fall significantly short of what's needed (a shortfall of $85 billion per year) to achieve universal access by 2030. Experts warn that without coordinated global investment, transparent governance, equitable distribution, and water-efficient infrastructure, the world risks escalating conflict, agricultural collapse, economic instability, and public health crises on a global scale.What is the tone of the passage?",
+      "question_image": null,
       "options": [
         "Promotional and humorous",
         "Philosophical and data driven",
         "Data-driven and urgent",
         "Humorous and technical"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Data-driven and urgent) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Data-driven and urgent) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the passage carefully and answer the questions that follow. By mid-2025, the global water crisis is expected to reach unprecedented levels. According to the 2024 UN World Water Development Report, approximately 2.2 billion people lack access to safely managed drinking water, and 3.5 billion lack safely managed sanitation services. Meanwhile, nearly half of the world’s population experiences severe water scarcity for at least part of each year. Agriculture consumes about 70% of global freshwater withdrawals, while industry and municipal use account for roughly 20% and 12%, respectively. Climate change is further destabilizing the hydrological cycle. Rising temperatures, glacial melt, and changing precipitation patterns are reducing freshwater availability, while floods and droughts increase in frequency and severity. Coastal aquifers face growing salinization: studies show that by 2100, as much as 77% of coastal aquifers could be affected by saltwater intrusion due to sea-level rise and declining recharge. Water scarcity today already affects 40% of the global population, and demand is expected to surpass supply by 40% by 2030. Groundwater depletion continues, especially in densely populated regions like India, China, and Pakistan, where aquifer recharge lags behind extraction. Many megacities now face “Day Zero” scenarios, where municipal taps could run dry without drastic conservation and infrastructure reform. While innovative technologies—such as biodegradable hydrogels that extract water from the air—offer promise for remote or water-stressed regions, current investments fall significantly short of what's needed (a shortfall of $85 billion per year) to achieve universal access by 2030. Experts warn that without coordinated global investment, transparent governance, equitable distribution, and water-efficient infrastructure, the world risks escalating conflict, agricultural collapse, economic instability, and public health crises on a global scale.What is the central theme of the passage?",
+      "question_image": null,
       "options": [
         "Distribution of industrial waste use",
         "Technological advances in sewage treatment",
         "Urban hygiene education initiatives",
         "Rising water scarcity driven by climate and mismanagement"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Rising water scarcity driven by climate and mismanagement) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Rising water scarcity driven by climate and mismanagement) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "English Language and Comprehension",
       "question": "Which of the following is the correct passive voice form of the given sentence?Researchers across the globe have developed a new vaccine.",
+      "question_image": null,
       "options": [
         "A new vaccine were being developed by researchers across the globe.\n​​​​​​​",
         "A new vaccine have been developed by researchers across the globe.",
         "Researchers has developed a new vaccine across the globe.",
         "A new vaccine has been developed by researchers across the globe."
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (A new vaccine has been developed by researchers across the globe.) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (A new vaccine has been developed by researchers across the globe.) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "English Language and Comprehension",
       "question": "In the given question, a statement divided into different segments is given. The first segment is fixed, rearrange the other segments to form a coherent statement.The essence of a lasting marriage / to treat each other (P) / lies in the ability of partners (Q) / with enduring respect. (R) / to compromise and (S)",
+      "question_image": null,
       "options": [
         "S R Q P",
         "P Q R S",
         "Q S P R",
         "R P S Q"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Q S P R) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Q S P R) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "English Language and Comprehension",
       "question": "Choose the idiom that best replaces the highlighted phrase in the sentence.Despite several warnings, the manager chose to ignore the obvious warning signs.",
+      "question_image": null,
       "options": [
         "Miss the boat",
         "Turn a deaf ear",
         "Read between the lines",
         "Sit on the fence"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Turn a deaf ear) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Turn a deaf ear) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "English Language and Comprehension",
       "question": "Identify the antonym of the highlighted word in the given sentence.The manager's approach to solving problems is always pragmatic.",
+      "question_image": null,
       "options": [
         "Idealistic",
         "Realistic",
         "Practical",
         "Sensible"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Idealistic) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Idealistic) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "English Language and Comprehension",
       "question": "In the question given below, a part of the sentence has been underlined. Choose the option which best replaces the underlined text with the correct proverb.You shouldn’t judge a person just by looking at their clothes; outer appearances don’t reveal true nature.",
+      "question_image": null,
       "options": [
         "a stitch in time saves nine",
         "barking dogs seldom bite",
         "don’t judge a book by its cover",
         "don't put all your eggs in one basket"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (don’t judge a book by its cover) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (don’t judge a book by its cover) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "English Language and Comprehension",
       "question": "Choose the correct word to complete the sentence:He --------------- us saying that we had done well.",
+      "question_image": null,
       "options": [
         "congratulated",
         "cried out",
         "scolded",
         "interrogated"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (congratulated) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (congratulated) है।",
+      "explanation_image": null
     }
   ]
 }

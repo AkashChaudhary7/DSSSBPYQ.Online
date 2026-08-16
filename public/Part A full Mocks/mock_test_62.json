@@ -6,1401 +6,1601 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "Town L is to the south of Town M. Town N is to the east of Town L. Town P is to the west of Town N. Town Q is to the north of Town P. Town M is to the north-west of Town Q. What is the position of Town P with respect to Town L?",
+      "question_image": null,
       "options": [
         "West",
         "North-east",
         "North-west",
         "East"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (East) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (East) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the following series?3   8   18   38   78   ?",
+      "question_image": null,
       "options": [
         "175",
         "169",
         "161",
         "158"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (158) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (158) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code,'have you seen the' is coded as 'qq as zx cv','seen the power of' is coded as 'zx cv bv nb','seen of self over' is coded as 'zx nb ol yu' and'mind over you money' is coded as 'hg yu as ik'.(All the codes are two letter coded only.)What is the possible code for ‘mind’?",
+      "question_image": null,
       "options": [
         "Either 'as' or 'yu'",
         "Either 'ik' or 'hg'",
         "Either 'yu' or 'ik'",
         "Either 'ik' or 'as'"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Either 'ik' or 'hg') है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Either 'ik' or 'hg') है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the option that is related to the third term in the same way as the second term is related to the first term and the sixth term is related to the fifth term.22 : 4 :: 96 : ? :: 76 : 42",
+      "question_image": null,
       "options": [
         "58",
         "54",
         "64",
         "88"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (54) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (54) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "Nimesh starts from Point A and drives 27 km towards West. He then takes a left turn, drives 25 km, turns left and drives 30 km. He then takes a left turn and drives 39 km. He takes a final left turn, drives 3 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again? (All turns are 90-degree turns only unless specified.)",
+      "question_image": null,
       "options": [
         "13 km to the South",
         "14 km to the South",
         "11 km to the North",
         "12 km to the North"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (14 km to the South) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (14 km to the South) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the following words.ICE  COW  MAN   FUNIf in each of the words, each letter is changed to the next letter in the English alphabetical order, how many letter-clusters thus formed will have no vowel? 2045",
+      "question_image": null,
       "options": [
         "Three",
         "None",
         "Two",
         "One"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Two) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Two) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?14, 19, 29, 44, 64, ?",
+      "question_image": null,
       "options": [
         "89",
         "91",
         "82",
         "87"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (89) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (89) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of ‘?’ in the series.6000, ?, 4271, 3759, 3416, 3200, 3075.",
+      "question_image": null,
       "options": [
         "4729",
         "4929",
         "4629",
         "5000"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (5000) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (5000) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,\n‘A + B’ means ‘A is the mother of B’,\n‘A – B’ means ‘A is the father of B’,\n‘A $ B’ means ‘A is the son of B’, and\n‘A % B’ means ‘A is the sister of B’.\n\nWhich of the following mean(s) that E is the wife of B?\n(I) A + C – D % E $ B\n(II) A + B – C % D $ E\n(III) C + D – E % A $ B\n(IV) A + E – B % D $ C 3071",
+      "question_image": null,
       "options": [
         "Only (I)",
         "Only (II)",
         "Only (III) and (IV)",
         "Only (I) and (II)"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Only (II)) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Only (II)) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "Rohit starts from point A and walks 6 km towards east. He then takes a right turn and walks 5 km. He again turns right and walks 3 km. He takes another right turn and walks 3 km. In the end, he turns left and walks 3 km to reach point B. How far (shortest distance) and towards which direction should he walk in order to reach Point A again? (All turns are 90-degree turns only unless specified.)",
+      "question_image": null,
       "options": [
         "3 km towards east",
         "3 km towards south",
         "2 km towards north",
         "2 km towards west"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (2 km towards north) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (2 km towards north) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "In this question, a statement is given followed by two conclusions numbered I and II. You have to assume everything in the statement to be true and decide which of them logically follow(s) beyond a reasonable doubt from the information given in the statement.Statement:Price of onions has increased sharply due to shortages caused by damage to onion crops across the country.Conclusions:I) Large scale hoarding has also led to the increase in onion prices.II) Prices of commodities tend to rise when demand is greater than supply.",
+      "question_image": null,
       "options": [
         "Both conclusions I and II follow.",
         "Only conclusion II follows.",
         "Neither conclusion I nor II follows.",
         "Only conclusion I follows."
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Only conclusion II follows.) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Only conclusion II follows.) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the number from among the given options that can replace the question mark (?) in the following series.23   24   28   37   53   ?",
+      "question_image": null,
       "options": [
         "74",
         "78",
         "76",
         "72"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (78) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (78) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the set in which the numbers are related in the same way as are the numbers of the following sets.(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)7 - 3 - 204 - 5 - 184652",
+      "question_image": null,
       "options": [
         "6 - 8 - 26",
         "4 - 7 - 22",
         "16 - 3 - 36",
         "5 - 3 - 18"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (4 - 7 - 22) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (4 - 7 - 22) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "C, D, G, H, L, M, Y and Z are sitting around a circular table facing the centre. C sits third to the left of D. G sits second to the left of C. C sits to the immediate right of H. Neither D nor G is an immediate neighbour of Y. Z sits second to the right of L. Who sits third to the right of M?2505",
+      "question_image": null,
       "options": [
         "L",
         "C",
         "H",
         "Y"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (C) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (C) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order?\n\nMPQ, KNO, ILM, GJK, ?",
+      "question_image": null,
       "options": [
         "EIH",
         "EHI",
         "HIE",
         "HIB"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (EHI) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (EHI) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the set in which the numbers are related in the same way as are the numbers of the given sets.(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)(10, 8, 90)(12, 6, 82)",
+      "question_image": null,
       "options": [
         "(20, 4, 85)",
         "(15, 6, 100)",
         "(17, 6, 110)",
         "(18, 3, 54)"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' ((15, 6, 100)) है।"
+      "explanation": "सही उत्तर विकल्प 'B' ((15, 6, 100)) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "Given below is a statement followed by two possible reasons numbered I and II. Read the statement carefully and decide which of the two reasons explains the event/observation/information given in the statement. Statement:Despite having a large number of skilled graduates, Country A faces a shortage of skilled workforce in the technology sector.Reasons:I. Many skilled graduates from Country A migrate to other countries for better career opportunities and higher salaries.II. The technology sector in Country A faces challenges such as outdated infrastructure and limited investment in research and development.",
+      "question_image": null,
       "options": [
         "Both I and II are possible reasons.",
         "Only I is a possible reason.",
         "Neither I nor II is a possible reason.",
         "Only II is a possible reason."
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Both I and II are possible reasons.) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Both I and II are possible reasons.) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "A certain number of people are sitting in a row, facing the north. Only two people sit between A and C. D sits third to the right of A. B sits fourth to the left of C. If no other person is sitting in the row, what is the total number of persons seated?3291",
+      "question_image": null,
       "options": [
         "13",
         "8",
         "11",
         "10"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (11) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (11) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "Yuvraj starts from Point A and drives 12 km towards the east. He then takes a right turn and drives 8 km. He takes a final right turn and drives 9 km and stops at Point B. Sundar starts from point P, which is 29 km to the east of Point A, and drives 9 km towards the west. He then takes a left turn and drives 8 km. He takes a final right turn and drives 13 km and stops at Point Q. What is the shortest distance between Point Q and Point B? (All turns are 90-degree turns only.)",
+      "question_image": null,
       "options": [
         "1 km",
         "3 km",
         "2 km",
         "4 km"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (4 km) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (4 km) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the statement, followed by two possible reasons numbered I and II, and decide which explains the event/observation/information given in the statement.Statement:There has been a decrease in road traffic in the current year as compared to the previous year.Reasons:I. Fuel prices have shown a substantial increase in the current year.II. Road tax has increased in the current year.",
+      "question_image": null,
       "options": [
         "Both I and II are possible reasons",
         "Only I is a possible reason",
         "Neither I nor II is a possible reason",
         "Only II is a possible reason"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Only I is a possible reason) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Only I is a possible reason) है।",
+      "explanation_image": null
     },
     {
       "id": 21,
       "section": "General Awareness",
       "question": "Which of the following Indian leaders resigned from the Central Legislative Council in protest against the Rowlatt Act, 1919?",
+      "question_image": null,
       "options": [
         "Mohammed Ali Jinnah, Madan Mohan Malaviya and Mazhar-ul-Huq",
         "Bal Gangadhar Tilak, Bipin Chandra Pal and Lala Lajpat Rai",
         "Gopal Krishna Gokhale, Dadabhai Naoroji and Lala Lajpat Rai",
         "Jawaharlal Nehru, Sardar Patel and Subhas Chandra Bose"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Mohammed Ali Jinnah, Madan Mohan Malaviya and Mazhar-ul-Huq) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Mohammed Ali Jinnah, Madan Mohan Malaviya and Mazhar-ul-Huq) है।",
+      "explanation_image": null
     },
     {
       "id": 22,
       "section": "General Awareness",
       "question": "The Jagannath Pooja festival of Odisha is linked to which significant event?",
+      "question_image": null,
       "options": [
         "Janmasthami",
         "Rath Yatra",
         "Raja festival",
         "Holi"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Rath Yatra) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Rath Yatra) है।",
+      "explanation_image": null
     },
     {
       "id": 23,
       "section": "General Awareness",
       "question": "Which of the following accurately describes the Endoplasmic Reticulum (ER)?",
+      "question_image": null,
       "options": [
         "It functions as the site of DNA replication in both plant and animal cells.",
         "The ER are membranous tubules and sacs involved in protein and lipid synthesis.",
         "The ER is primarily found in prokaryotic cells and serves as the site of photosynthesis.",
         "The ER is responsible for the synthesis of ATP in eukaryotic cells."
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (The ER are membranous tubules and sacs involved in protein and lipid synthesis.) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (The ER are membranous tubules and sacs involved in protein and lipid synthesis.) है।",
+      "explanation_image": null
     },
     {
       "id": 24,
       "section": "General Awareness",
       "question": "निम्नलिखित में से कौन-सा ग्रंथ, व्याकरण के नियमों के लिए प्रसिद्ध है और समाज, अर्थव्यवस्था और संस्कृति पर भी प्रकाश डालता है?",
+      "question_image": null,
       "options": [
         "कौषीतकि उपनिषद (Kaushitaki Upanishad)",
         "तैत्तिरीय संहिता (Taittiriya Samhita)",
         "अष्टाध्यायी (Ashtadhyayi)",
         "पैप्पलाद संहिता (Paippalada Samhita)"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (अष्टाध्यायी (Ashtadhyayi)) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (अष्टाध्यायी (Ashtadhyayi)) है।",
+      "explanation_image": null
     },
     {
       "id": 25,
       "section": "General Awareness",
       "question": "तिब्बत में, निम्नलिखित में से किस नदी को 'सिंगी खंबन (Singi Khamban)' के नाम से जाना जाता है?",
+      "question_image": null,
       "options": [
         "दामोदर",
         "रामगंगा",
         "सिंधु",
         "सरयू"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (सिंधु) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (सिंधु) है।",
+      "explanation_image": null
     },
     {
       "id": 26,
       "section": "General Awareness",
       "question": "In February 2025, which Indian city hosted a three-day International Bird Festival to promote avian tourism?",
+      "question_image": null,
       "options": [
         "Chilika",
         "Kumarakom",
         "Bharatpur",
         "Prayagraj"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Prayagraj) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Prayagraj) है।",
+      "explanation_image": null
     },
     {
       "id": 27,
       "section": "General Awareness",
       "question": "How many Indian members were appointed in the ‘Indian Statutory Commission’ during the British period?",
+      "question_image": null,
       "options": [
         "Three",
         "Five",
         "Two",
         "Zero"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Zero) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Zero) है।",
+      "explanation_image": null
     },
     {
       "id": 28,
       "section": "General Awareness",
       "question": "The right to constitutional remedies includes the issuance of various writs. Which writ is issued to a lower court to transfer a case to itself for review if it finds that the lower court is acting beyond its jurisdiction?",
+      "question_image": null,
       "options": [
         "Habeas Corpus",
         "Certiorari",
         "Quo Warranto",
         "Mandamus"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Certiorari) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Certiorari) है।",
+      "explanation_image": null
     },
     {
       "id": 29,
       "section": "General Awareness",
       "question": "Which law, enacted in April 2025, seeks to overhaul India's immigration system by repealing four colonial-era legislations?",
+      "question_image": null,
       "options": [
         "Immigration and Foreigners Bill",
         "International Migration Control Bill",
         "Visa and Entry Management Bill",
         "Foreign Nationals Regulation Bill"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Immigration and Foreigners Bill) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Immigration and Foreigners Bill) है।",
+      "explanation_image": null
     },
     {
       "id": 30,
       "section": "General Awareness",
       "question": "According to the World Bank, India ranks fourth globally in income equality with a Gini score of ________________.",
+      "question_image": null,
       "options": [
         "15.5",
         "25.5",
         "18.5",
         "20.5"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (25.5) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (25.5) है।",
+      "explanation_image": null
     },
     {
       "id": 31,
       "section": "General Awareness",
       "question": "In which year was Shovana Narayan honoured with the Padma Shri award for creativity and contribution to the arts?",
+      "question_image": null,
       "options": [
         "2001",
         "1998",
         "2005",
         "1992"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (1992) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (1992) है।",
+      "explanation_image": null
     },
     {
       "id": 32,
       "section": "General Awareness",
       "question": "In which city was the National Convention on Model Women-Friendly Gram Panchayats organized on 5th March 2025?",
+      "question_image": null,
       "options": [
         "Patna",
         "Lucknow",
         "New Delhi",
         "Kolkata"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (New Delhi) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (New Delhi) है।",
+      "explanation_image": null
     },
     {
       "id": 33,
       "section": "General Awareness",
       "question": "निम्नलिखित में से किस इतिवृत्त में उल्लेख है कि चंद्रगुप्त मौर्य क्षत्रिय वंश से संबंधित थे जिसे मोरिया के नाम से जाना जाता था?",
+      "question_image": null,
       "options": [
         "इंडिका",
         "अर्थशास्त्र",
         "अंगुत्तर निकाय",
         "महावंश"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (महावंश) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (महावंश) है।",
+      "explanation_image": null
     },
     {
       "id": 34,
       "section": "General Awareness",
       "question": "In June 2025, Defence Research and Development Organisation(DRDO) along with which organisation/institution successfully demonstrated a Quantum Entanglement–Based Free-Space Quantum Secure Communication over a distance of more than 1 km?",
+      "question_image": null,
       "options": [
         "NewSpace Research & Technologies",
         "Indian Institute of Technology-Delhi",
         "Skyroot Aerospace Private Limited",
         "Bhabha Atomic Research Centre"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Indian Institute of Technology-Delhi) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Indian Institute of Technology-Delhi) है।",
+      "explanation_image": null
     },
     {
       "id": 35,
       "section": "General Awareness",
       "question": "Where did the Manuscripts were usually written?",
+      "question_image": null,
       "options": [
         "Paper",
         "Rock",
         "Stone",
         "Palm leaf"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Palm leaf) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Palm leaf) है।",
+      "explanation_image": null
     },
     {
       "id": 36,
       "section": "General Awareness",
       "question": "NISAR के संबंध में दिए गए कथनों में से कौन-से कथन सही हैं?\n1. NASA और ISRO, NISAR उपग्रह पर सहयोग कर रहे हैं।\n2. यह एक संचार उपग्रह है।\n3. यह भूकंप की भविष्यवाणी करेगा।",
+      "question_image": null,
       "options": [
         "केवल 1 और 2",
         "केवल 1",
         "केवल 1 और 3",
         "1, 2 और 3"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (केवल 1) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (केवल 1) है।",
+      "explanation_image": null
     },
     {
       "id": 37,
       "section": "General Awareness",
       "question": "What sport does D Gukesh represent for his Khel Ratna award in 2025?",
+      "question_image": null,
       "options": [
         "Hockey",
         "Chess",
         "Athletics",
         "Shooting"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Chess) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Chess) है।",
+      "explanation_image": null
     },
     {
       "id": 38,
       "section": "General Awareness",
       "question": "What is the main criticism of the formal credit delivery mechanism in rural banking?",
+      "question_image": null,
       "options": [
         "It eliminates agricultural lending.",
         "It provides credit to urban areas only.",
         "It charges exorbitant interest rates.",
         "It is ineffective in deposit mobilisation and loan recovery."
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (It is ineffective in deposit mobilisation and loan recovery.) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (It is ineffective in deposit mobilisation and loan recovery.) है।",
+      "explanation_image": null
     },
     {
       "id": 39,
       "section": "General Awareness",
       "question": "What is the name of the sixth form of punishment introduced in Bharatiya Nyaya Sanhita (BNS) in July 2024?",
+      "question_image": null,
       "options": [
         "Imprisonment for life",
         "Death",
         "Community service",
         "Forfeiture of property"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Community service) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Community service) है।",
+      "explanation_image": null
     },
     {
       "id": 40,
       "section": "General Awareness",
       "question": "Which of the following statements is/are correct regarding the Supreme Court's ruling on Imran Pratapgarhi's case (29 March 2025)?\tThe Supreme Court quashed the FIR filed by Gujarat Police against Imran Pratapgarhi for posting a video with objectionable content.\tThe Court emphasised that the right to free speech and expression is protected even if a large number of persons dislike the views expressed.\tThe Court ruled that a preliminary inquiry is not required when the offence involves restrictions under Article 19(2) of the Constitution.",
+      "question_image": null,
       "options": [
         "Only 1",
         "Only 2 and 3",
         "1, 2 and 3",
         "Only 1 and 2"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Only 1 and 2) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Only 1 and 2) है।",
+      "explanation_image": null
     },
     {
       "id": 41,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average of the squares of the first 91 natural numbers is:",
+      "question_image": null,
       "options": [
         "2806",
         "2807",
         "2805",
         "2808"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (2806) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (2806) है।",
+      "explanation_image": null
     },
     {
       "id": 42,
       "section": "Arithmetical and Numerical Ability",
       "question": "In what ratio must a grocer mix two varieties of rice costing ₹281 and ₹106 per kg, respectively, to get a mixture of rice worth ₹138 per kg?1380",
+      "question_image": null,
       "options": [
         "33 : 145",
         "143 : 32",
         "32 : 143",
         "145 : 33"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (32 : 143) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (32 : 143) है।",
+      "explanation_image": null
     },
     {
       "id": 43,
       "section": "Arithmetical and Numerical Ability",
       "question": "What is the radius (in cm) of the largest right circular cone that can be cut out from a cube of edge 12.6 cm?",
+      "question_image": null,
       "options": [
         "6.3",
         "6.4",
         "6.2",
         "6.1"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (6.3) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (6.3) है।",
+      "explanation_image": null
     },
     {
       "id": 44,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average of first 238 even natural numbers is:",
+      "question_image": null,
       "options": [
         "240",
         "238.5",
         "239.5",
         "239"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (239) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (239) है।",
+      "explanation_image": null
     },
     {
       "id": 45,
       "section": "Arithmetical and Numerical Ability",
       "question": "At what rate (in percentage) per year will a sum of money double itself in 4 years on simple interest?",
+      "question_image": null,
       "options": [
         "50",
         "25",
         "27",
         "23"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (25) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (25) है।",
+      "explanation_image": null
     },
     {
       "id": 46,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average of 7 numbers is 49. If each number is decreased by 4, what will the new average be?",
+      "question_image": null,
       "options": [
         "7",
         "41",
         "45",
         "49"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (45) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (45) है।",
+      "explanation_image": null
     },
     {
       "id": 47,
       "section": "Arithmetical and Numerical Ability",
       "question": "A shopkeeper professes to sell his goods at a 35% loss, but uses a false balance and gains 75%. The actual weight (correct to one decimal place) he uses for 1 kg is:",
+      "question_image": null,
       "options": [
         "375.7 gm",
         "376.9 gm",
         "371.4 gm",
         "369.2 gm"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (371.4 gm) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (371.4 gm) है।",
+      "explanation_image": null
     },
     {
       "id": 48,
       "section": "Arithmetical and Numerical Ability",
       "question": "A man spends 40% of his monthly salary (in ₹) on rent. If every month he also spends ₹264 on conveyance and ₹2,159 on grocery and saves the remaining ₹598, his monthly salary (in ₹) is:",
+      "question_image": null,
       "options": [
         "4,978",
         "5,055",
         "5,035",
         "5,045"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (5,035) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (5,035) है।",
+      "explanation_image": null
     },
     {
       "id": 49,
       "section": "Arithmetical and Numerical Ability",
       "question": "By how much is 30% of 75 greater than 30% of 35?",
+      "question_image": null,
       "options": [
         "12",
         "7",
         "14",
         "9"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (12) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (12) है।",
+      "explanation_image": null
     },
     {
       "id": 50,
       "section": "Arithmetical and Numerical Ability",
       "question": "Bhavesh bought an article for ₹363 and sold it to Bhumi at a loss of 30%. With this amount, Bhavesh bought another article and sold it at a gain of 62%. What is Bhavesh's overall gain percentage?",
+      "question_image": null,
       "options": [
         "16.6%",
         "12.6%",
         "13.4%",
         "16.4%"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (13.4%) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (13.4%) है।",
+      "explanation_image": null
     },
     {
       "id": 51,
       "section": "Arithmetical and Numerical Ability",
       "question": "Train A leaves station M at 7:40 a.m. and reaches station N at 4:40 p.m. on the same day. Train B leaves station N at 9:40 a.m. and reaches station M at 2:40 p.m. on the same day. Find the time when Trains A and B meet.",
+      "question_image": null,
       "options": [
         "8:57 p.m.",
         "12:10 p.m.",
         "7:26 p.m.",
         "3:42 p.m."
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (12:10 p.m.) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (12:10 p.m.) है।",
+      "explanation_image": null
     },
     {
       "id": 52,
       "section": "Arithmetical and Numerical Ability",
       "question": "Find the fourth proportional to 21, 18 and 7.",
+      "question_image": null,
       "options": [
         "7",
         "6",
         "8",
         "4"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (6) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (6) है।",
+      "explanation_image": null
     },
     {
       "id": 53,
       "section": "Arithmetical and Numerical Ability",
       "question": "2 men or 8 women can do a job in 3 days. 2 men work for 1 days and leave. The number of women required to complete the remaining work in 8 days is:",
+      "question_image": null,
       "options": [
         "1",
         "3",
         "2",
         "5"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (2) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (2) है।",
+      "explanation_image": null
     },
     {
       "id": 54,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average of the first 27 even natural numbers is:",
+      "question_image": null,
       "options": [
         "28",
         "27",
         "29",
         "22"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (28) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (28) है।",
+      "explanation_image": null
     },
     {
       "id": 55,
       "section": "Arithmetical and Numerical Ability",
       "question": "The least number which should be added to 2564 so that the sum is exactly divisible by 2, 4, 6 and 3 is _____.17",
+      "question_image": null,
       "options": [
         "16",
         "4",
         "3",
         "8"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (4) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (4) है।",
+      "explanation_image": null
     },
     {
       "id": 56,
       "section": "Arithmetical and Numerical Ability",
       "question": "If 19.2 : x :: x : 14.7, and x > 0, then find the value of x.772",
+      "question_image": null,
       "options": [
         "17.8",
         "15.6",
         "15.7",
         "16.8"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (16.8) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (16.8) है।",
+      "explanation_image": null
     },
     {
       "id": 57,
       "section": "Arithmetical and Numerical Ability",
       "question": "The arithmetic mean of the observations 49, 78, 32, 67, 43, 19, 16, 91 and 64 is:6333",
+      "question_image": null,
       "options": [
         "59",
         "58",
         "60",
         "51"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (51) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (51) है।",
+      "explanation_image": null
     },
     {
       "id": 58,
       "section": "Arithmetical and Numerical Ability",
       "question": "One-third of a journey is covered at a speed of 41 km/hr, the next one-third of the journey is covered at a speed of 17 km/hr, and the remaining journey is covered at a speed of 18 km/hr. The average speed (in km/hr, rounded off to 1 decimal place) for the entire journey is:",
+      "question_image": null,
       "options": [
         "3",
         "8",
         "5",
         "6"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (6) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (6) है।",
+      "explanation_image": null
     },
     {
       "id": 59,
       "section": "Arithmetical and Numerical Ability",
       "question": "A shopkeeper claims to sell his goods at a 35% loss but uses a false balance and actually makes a 65% gain. What is the actual weight (correct to one decimal place) he gives instead of 1 kg?",
+      "question_image": null,
       "options": [
         "397.5 gm",
         "393.9 gm",
         "391.5 gm",
         "390.4 gm"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (393.9 gm) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (393.9 gm) है।",
+      "explanation_image": null
     },
     {
       "id": 60,
       "section": "Arithmetical and Numerical Ability",
       "question": "If x is directly proportional to y and inversely proportional to z, and x = 26 when y = 8 and z = 12, then find the value of z when x = 13 and y = 31.",
+      "question_image": null,
       "options": [
         "92",
         "95",
         "93",
         "94"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (93) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (93) है।",
+      "explanation_image": null
     },
     {
       "id": 61,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the passage carefully and answer the questions that follow.In the realm of economics, the principles of supply and demand reign supreme, orchestrating the intricate dance of markets worldwide. Supply refers to the quantity of a good or service available for purchase, influenced by factors such as production costs, technological advancements and government policies. Conversely, demand reflects the desire and ability of consumers to purchase a particular product, influenced by factors such as income levels, tastes and preferences. The equilibrium between supply and demand establishes market prices, where neither shortages nor surpluses prevail. However, external factors such as changes in consumer behaviour, technological disruptions or geopolitical events can disrupt this delicate balance, leading to fluctuations in prices and market dynamics. Economists employ various models and theories to analyse these fluctuations and predict future trends, aiding businesses, policymakers and individuals in making informed decisions. Understanding the interplay between supply and demand is paramount for navigating the complex landscape of economics and achieving sustainable growth and prosperity.What does the principle of supply primarily refer to in economics?",
+      "question_image": null,
       "options": [
         "The regulations governments impose to maintain social stability",
         "The quantity of goods or services made available for purchase",
         "The willingness of consumers to spend their available resources",
         "The strategies businesses adopt to advertise their new products"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (The quantity of goods or services made available for purchase) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (The quantity of goods or services made available for purchase) है।",
+      "explanation_image": null
     },
     {
       "id": 62,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the following passage and answer the questions given below-In 1947, when India gained independence, a young man named Verghese Kurien arrived in Anand, Gujarat, to manage a government creamery. Though trained as a mechanical engineer, Kurien was deeply moved by the struggles of local dairy farmers, who were exploited by middlemen. What began as a temporary posting soon turned into a lifelong mission. Kurien collaborated with Tribhuvandas Patel, a local leader, and together they transformed small village cooperatives into a thriving movement—later known as Operation Flood, or more popularly, the White Revolution.Through innovation and collective effort, the project modernized dairy production, ensuring that profits returned directly to the farmers. Under Kurien’s leadership, India evolved from a milk-deficient country to the world’s largest producer of milk. Beyond its economic success, the revolution symbolized self-reliance and empowerment in rural India. Kurien’s unwavering belief that development must come “from the people, for the people” reshaped the nation’s agricultural landscape and inspired generations to believe that sustainable change begins with local initiative and shared responsibility.Even today, Amul, the cooperative he helped build, stands as a testament to how visionary leadership and grassroots collaboration can transform an entire economy. Kurien’s story is not merely about milk; it is about dignity, innovation, and the power of collective determination.What does the author imply about Kurien’s vision?",
+      "question_image": null,
       "options": [
         "It represented national self-reliance.",
         "It ignored social reform.",
         "It was limited to dairy farming.",
         "It relied heavily on foreign aid."
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (It represented national self-reliance.) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (It represented national self-reliance.) है।",
+      "explanation_image": null
     },
     {
       "id": 63,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the passage carefully and answer the questions that follow.Jane Austen, one of the most renowned English novelists, was born on December 16, 1775, in Steventon, Hampshire. She was the seventh of eight children in her family. From a young age, Austen showed a keen interest in literature, encouraged by her father, who had a substantial library. Her works provide a vivid portrayal of the British landed gentry of the early 19th century.Austen's novels are known for their biting social commentary, keen observations on human behavior, and subtle irony. Her major works include 'Pride and Prejudice', 'Sense and Sensibility', 'Emma', and 'Mansfield Park'. These novels often focus on the lives of young women navigating issues of marriage, morality, and social status. Austen's sharp wit and keen understanding of social dynamics have made her works enduring classics.'Pride and Prejudice', perhaps her most famous novel, was published in 1813. It tells the story of Elizabeth Bennet, a strong-willed and intelligent young woman, and her evolving relationship with the wealthy and aloof Mr. Darcy. Through Elizabeth, Austen explores themes of love, pride, and prejudice, critiquing the societal expectations of her time.Austen's life was relatively quiet and uneventful. She never married, and her novels were published anonymously during her lifetime. It wasn't until after her death in 1817 that her authorship became widely known. Today, Austen's works are celebrated worldwide, adapted into numerous films, television series, and modern reinterpretations.The passage says that Jane Austen's novels were published anonymously. It means that her name was _______.",
+      "question_image": null,
       "options": [
         "hidden",
         "shown",
         "known",
         "written"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (hidden) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (hidden) है।",
+      "explanation_image": null
     },
     {
       "id": 64,
       "section": "English Language and Comprehension",
       "question": "Identify the INCORRECTLY spelt word in the given sentence.Her prospicence became the reason for the vivisepulture done to her because such idiosyncrasies were considered unwomanly, and this incident developed a Laodicean attitude in her children.",
+      "question_image": null,
       "options": [
         "Vivisepulture",
         "Prospicence",
         "Laodicean",
         "Idiosyncrasies"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Prospicence) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Prospicence) है।",
+      "explanation_image": null
     },
     {
       "id": 65,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to substitute the underlined word and complete the idiom in the given sentence.You have taken the wind out of my nails.",
+      "question_image": null,
       "options": [
         "sails",
         "mail",
         "sale",
         "wails"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (sails) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (sails) है।",
+      "explanation_image": null
     },
     {
       "id": 66,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.Technology has revolutionised education, transforming traditional classrooms and creating new opportunities for learning. The integration of digital tools and resources has enhanced the educational experience for both, students and teachers. Interactive whiteboards, tablets and educational software have replaced chalkboards and textbooks, making lessons more engaging and interactive. Students can access a wealth of information online, enabling them to conduct research and explore subjects in greater depth.One of the most significant impacts of technology on education is the ability to personalise learning. Adaptive learning software can assess a student's strengths and weaknesses and provide customised lessons that cater to their individual needs. This personalised approach helps students learn at their own pace, ensuring they grasp fundamental concepts before moving on to more advanced topics. Additionally, online courses and educational platforms have made learning more accessible to people worldwide. Students can take classes from prestigious institutions, participate in webinars and earn certifications without leaving their homes.Technology has also facilitated collaboration among students and teachers. Online discussion forums, video conferencing and collaborative tools like Google Docs allow students to work together on projects and assignments, regardless of their physical location. This fosters a sense of community and enhances communication skills. For teachers, technology offers tools for creating engaging lesson plans, tracking student progress and providing timely feedback. Data analytics can help identify areas where students struggle, allowing for targeted interventions.However, the integration of technology in education also presents challenges. There is a digital divide between students who have access to technology and those who do not. Ensuring equitable access to devices and the internet is crucial for bridging this gap. Additionally, teachers need adequate training to effectively incorporate technology into their teaching practices.In conclusion, technology has significantly impacted education, offering numerous benefits but also presenting challenges that need to be addressed. By leveraging technology effectively, we can create a more inclusive and dynamic learning environment.What do you understand by inclusive and dynamic learning enviornment?",
+      "question_image": null,
       "options": [
         "Considering diversity and minimum participation",
         "Considering diversity and maximum participation",
         "Not considering diversity and minimum participation",
         "Not considering diversity and maximum participation"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Considering diversity and maximum participation) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Considering diversity and maximum participation) है।",
+      "explanation_image": null
     },
     {
       "id": 67,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate phrase that can substitute the underlined proverb in the given sentence.The government which introduced a new policy to protect local businesses proved that the road to hell was paved with good intentions.",
+      "question_image": null,
       "options": [
         "acts, not good intentions, were needed for achievement",
         "the ends justified the means",
         "actions spoke louder than words",
         "no good deed went unpunished"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (the ends justified the means) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (the ends justified the means) है।",
+      "explanation_image": null
     },
     {
       "id": 68,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate idiom to substitute the underlined segment in the given sentence.The collaboration between the two research teams was very productive, with both sides benefiting mutually.",
+      "question_image": null,
       "options": [
         "singing from the same hymn sheet",
         "seeing eye to eye with each other",
         "sharing the spotlight",
         "scratching each other's back"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (scratching each other's back) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (scratching each other's back) है।",
+      "explanation_image": null
     },
     {
       "id": 69,
       "section": "English Language and Comprehension",
       "question": "Identify the INCORRECTLY spelt word in the given sentence.Despite their disapproval of her complicated methods, they still recognised her sincere abhorrance of institutional injustice.",
+      "question_image": null,
       "options": [
         "abhorrance",
         "injustice",
         "disapproval",
         "institutional"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (abhorrance) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (abhorrance) है।",
+      "explanation_image": null
     },
     {
       "id": 70,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate ANTONYM of the highlighted word to complete the conversation meaningfully.Sarah: The recent argument between John and David has only exacerbated their misunderstanding.Mark: I hope their next conversation will help to ______ their differences.",
+      "question_image": null,
       "options": [
         "aggravate",
         "intensify",
         "magnify",
         "alleviate"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (alleviate) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (alleviate) है।",
+      "explanation_image": null
     },
     {
       "id": 71,
       "section": "English Language and Comprehension",
       "question": "Read the following paragraph and select the option that rectifies the spelling error(s). Alot of times, people, advertently or inadvertantly, cause self-harm. They have the notion that they are important  and that the world would fail to exist without them. This may lead to certain sychotic disorders effecting everyone in their surroundings. They need immediate attention.4",
+      "question_image": null,
       "options": [
         "A lot of times ; have the notion ; sycotic disorders ; imediate attention",
         "alot of times ; have the notion ; psychotic disorders ; attention",
         "A lot of times ; advertently or inadvertently ; psychotic disorders ; affecting everyone",
         "A lot of times ; advertently or inadvertantly ; sychotic disorders ; effecting everyone"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (A lot of times ; advertently or inadvertently ; psychotic disorders ; affecting everyone) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (A lot of times ; advertently or inadvertently ; psychotic disorders ; affecting everyone) है।",
+      "explanation_image": null
     },
     {
       "id": 72,
       "section": "English Language and Comprehension",
       "question": "The following sentence has been divided into segments. The first segment is fixed; rearrange the rest of the segments to form a coherent sentence.Fixed segment: Swati finally foundA) after a long delayB) under a newspaper,C) a wallet containing important ID,D) partially hidden 7012",
+      "question_image": null,
       "options": [
         "CABD",
         "ABDC",
         "DBAC",
         "CDBA"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (CDBA) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (CDBA) है।",
+      "explanation_image": null
     },
     {
       "id": 73,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph. A. The key to the system is the pancreatic hormone, insulin, through which the body attempts to manage blood sugar levels and ensure that cells receive the right amount of energy. B. Unfortunately, this lock and key system doesn’t always perform like this. C. Every cell in the body needs sugar as an energy source, but too much sugar can be toxic to cells, and this equilibrium needs to be regulated by a lock and key system. D. Cells cover themselves with locks that respond perfectly to insulin keys to facilitate the entry of sugar into cells.",
+      "question_image": null,
       "options": [
         "BCAD",
         "CADB",
         "BADC",
         "CDAB"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (CADB) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (CADB) है।",
+      "explanation_image": null
     },
     {
       "id": 74,
       "section": "English Language and Comprehension",
       "question": "Select the option that can be used as a one-word substitute for the underlined segment in the given sentence.Jenny inherited her grandmother's great love of collecting books, particularly obscure poetry from the Victorian Era.",
+      "question_image": null,
       "options": [
         "Numismatics",
         "Bibliophilia",
         "Philately",
         "Bibliophobia"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Bibliophilia) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Bibliophilia) है।",
+      "explanation_image": null
     },
     {
       "id": 75,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option that means the same as the given proverb.The pen is mightier than the sword",
+      "question_image": null,
       "options": [
         "Carry a sword for protection during unrest",
         "Words can create pain or give comfort",
         "Ideas and writing have more influence than violence",
         "Writing hurts the sentiments of people"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Ideas and writing have more influence than violence) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Ideas and writing have more influence than violence) है।",
+      "explanation_image": null
     },
     {
       "id": 76,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate ANTONYM of the underlined word in the given sentence.Despite his fame, the actor remained humble and approachable to his fans.",
+      "question_image": null,
       "options": [
         "Arrogant",
         "Polite",
         "Gentle",
         "Modest"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Arrogant) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Arrogant) है।",
+      "explanation_image": null
     },
     {
       "id": 77,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate meaning of the given idiom.  Throw down the gauntlet",
+      "question_image": null,
       "options": [
         "To accept",
         "To speak",
         "To challenge",
         "To write"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (To challenge) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (To challenge) है।",
+      "explanation_image": null
     },
     {
       "id": 78,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.The students _______ to the professor carefully during the lecture.",
+      "question_image": null,
       "options": [
         "listen",
         "listened",
         "listens",
         "listening"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (listened) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (listened) है।",
+      "explanation_image": null
     },
     {
       "id": 79,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate ANTONYM of the underlined word in the given sentence.While she preferred an austere lifestyle, her brother enjoyed a more sumptuous living.",
+      "question_image": null,
       "options": [
         "Stringent",
         "Plain",
         "Frugal",
         "Flexible"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Flexible) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Flexible) है।",
+      "explanation_image": null
     },
     {
       "id": 80,
       "section": "English Language and Comprehension",
       "question": "Select the option that can be used as a one-word substitute for the given group of words.Absence of rain for a long time",
+      "question_image": null,
       "options": [
         "Cyclone",
         "Typhoon",
         "Desert",
         "Drought"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Drought) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Drought) है।",
+      "explanation_image": null
     },
     {
       "id": 81,
       "section": "Hindi Language and Comprehension",
       "question": "उपयुक्त 'विशेषण' का चयन कर रिक्त स्थान की पूर्ति कीजिए।'सुहेल  ..................... लड़का है।'",
+      "question_image": null,
       "options": [
         "लाल",
         "सीधा",
         "चौकोर",
         "वर्तमान"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (सीधा) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (सीधा) है।",
+      "explanation_image": null
     },
     {
       "id": 82,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:गद्यांश के आधार पर प्रश्न का उत्तर दें।साहित्य की ही नहीं तुलसी का यह रामचरितमानस तो हमारी संस्कृति की अमूल्य धरोहर है। हमारे सामाजिक, धार्मिक, राजनैतिक जीवन की मूल्यवान संपदा है। रामचरितमानस की रचना उस भक्ति युग में हुई थी,जबकि भारतीय समाज का जीवन नैतिक, धार्मिक, सांस्कृतिक और आर्थिक सभी दृष्टियों से बड़ा दयनीय था। समाज के सामने कोई उच्चादर्श न था । लोग धर्म के नये स्वरूप को भूल रहे थे। ढोंगी और पाखंडी लोगों का प्रभुत्व था तलवार की नोंक से जड़ जमाने वाले मुस्लिम संप्रदाय से हिंदू जनता त्रस्त और भयभीत थी। ऐसे समय में तुलसी ने रामचंद्र जी के देदीप्यमान चरित्र को जन-जन के समक्ष रखकर लोकधर्म का महामंत्र दिया। संस्कृत के प्राकंड विद्वान होते हुए भी जनभाषा में उन्होंने काव्य की रचना की। पंडित लोग जिस ज्ञान को जनसुलभ नहीं बनाना चाहते थे। तुलसी ने रामचरितमानस द्वारा उसका द्वार सबके लिए खोल दिया। उन्होंने व्यक्ति, परिवार, समाज, राष्ट्र, पति-पत्नी, स्वामी सेवक सभी के अधिकार और कर्त्तव्य, मर्यादाओं एवं जीवन के आदर्शों का प्रतिपादन किया। राम, सीता, लक्ष्मण, भरत, हनुमान जैसे महान् चरित्रों की अवतारणा कर उन्होंने आदर्श जन समाज के संगठन का स्वरूप निर्धारित कियातुलसी ने किस भाषा में काव्य की रचना की -",
+      "question_image": null,
       "options": [
         "डिंगल – पिंगल",
         "पालि भाषा",
         "जन भाषा",
         "हिन्दी भाषा"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (जन भाषा) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (जन भाषा) है।",
+      "explanation_image": null
     },
     {
       "id": 83,
       "section": "Hindi Language and Comprehension",
       "question": "'सदाचार' का विलोम होता है-",
+      "question_image": null,
       "options": [
         "विचार",
         "कदाचार",
         "संचार",
         "आचार"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (कदाचार) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (कदाचार) है।",
+      "explanation_image": null
     },
     {
       "id": 84,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:दिए गये गाद्यंश को पढ़ें और नीचे दिए गये प्रश्नो का उत्तर देंमहात्मा ग़ाँधीजी का जन्म 2 अक्तूबर 1869 को  गुजरात के पोरबंदर में हुआ था। उनका पूरा नाम मोहनदास करमचंद ग़ाँधी था। उनके पिता का नाम करमचंद ग़ाँधी तथा  माता का नाम पुतलीबाई था। ग़ाँधीजी अपनी वकालत की पढ़ाई के लिए विदेश गये थे। वकालत की पढ़ाई पूरा करने के बाद ग़ाँधीजी ने  दक्षिण अफ्रीका में रह रहे भारतीय समुदाय के लोगों के मानवीय हक़ और अधिकार के लिए संघर्ष किया तथा उनका अधिकार दिलवाया। वहाँ से भारत लौटकर ग़ाँधीजी  अंग्रेजों से भारत को आजाद कराने की लड़ाई में उतर गये। ग़ाँधीजी सत्य  और अहिंसा के पुजारी थे। अंग्रेज उनके सत्य और अहिंसा के हथियार से डरते थे, इसलिए वे ग़ाँधीजी  को बार- बार जेल डाल देते थे। ग़ाँधीजी ने ‘सत्य के प्रयोग’ नाम से अपनी आत्मकथा लिखी है। रवीन्द्रनाथ टैगोर ने  ग़ाँधीजी को  ‘महात्मा’ की उपाधि प्रदान की। भारत को स्वतंत्र कराने में ग़ाँधीजी ने अपना सम्पूर्ण जीवन न्योछावर कर दिया। महात्मा ग़ाँधी को भारत का  राष्ट्रपिता कहा  जाता है। भारत में हर वर्ष  2 अक्तूबर को ग़ाँधी जयंती मनायी जाती है। तथा पूरे विश्व में 2 अक्तूबर को अंतरराष्ट्रीय अहिंसा दिवस मनाया जाता है। महात्मा ग़ाँधीजी की मृत्यु 30 जनवरी 1948 को गोली लगने से हुई थी।Q100. महात्मा गाँधी को कहा जाता है ?",
+      "question_image": null,
       "options": [
         "लौह पुरुष",
         "सरदार",
         "राष्ट्रपिता",
         "नेता जी"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (राष्ट्रपिता) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (राष्ट्रपिता) है।",
+      "explanation_image": null
     },
     {
       "id": 85,
       "section": "Hindi Language and Comprehension",
       "question": "निम्न वाक्य के रिक्त स्थान में उचित कारक चिह्न का प्रयोग कर वाक्य पूर्ण करें - 'वह घोड़े                   सवार था ।'",
+      "question_image": null,
       "options": [
         "से",
         "पर",
         "में",
         "ने"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (पर) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (पर) है।",
+      "explanation_image": null
     },
     {
       "id": 86,
       "section": "Hindi Language and Comprehension",
       "question": "पहाड़ों पर जाना स्वास्थ्यता लाभ के लिए सर्वोत्तम है  उपरोक्त वाक्य में रेखांकित शब्द की सही वर्तनी दिए गए विकल्पों में से चुनें -",
+      "question_image": null,
       "options": [
         "स्वास्थ्य",
         "स्वस्थ",
         "स्वस्थता",
         "स्वास्थता"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (स्वास्थ्य) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (स्वास्थ्य) है।",
+      "explanation_image": null
     },
     {
       "id": 87,
       "section": "Hindi Language and Comprehension",
       "question": "कारक के आधार पर वाक्य पूर्ण कीजिए।देरी —---- उठने वाले लोग सूर्योदय की सुंदरता और प्रकृति की ताजगी से भी वंचित रहते हैं।",
+      "question_image": null,
       "options": [
         "कि",
         "के",
         "से",
         "की"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (से) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (से) है।",
+      "explanation_image": null
     },
     {
       "id": 88,
       "section": "Hindi Language and Comprehension",
       "question": "निम्न मुहावरे के अर्थ को बताएं - 'तिल धरने की जगह न होना'",
+      "question_image": null,
       "options": [
         "बड़ी भीड़ होना",
         "स्वभाव मिलना",
         "काम में न लाना",
         "छोटी बात को बढ़ा चढ़ा कर कहना"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (बड़ी भीड़ होना) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (बड़ी भीड़ होना) है।",
+      "explanation_image": null
     },
     {
       "id": 89,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नांकित मुहावरे के सही अर्थ वाले विकल्प का चयन कीजिए—'डंका बजना'",
+      "question_image": null,
       "options": [
         "ढोल बजना",
         "शोहरत होना",
         "स्तुति होना",
         "निंदा होना"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (शोहरत होना) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (शोहरत होना) है।",
+      "explanation_image": null
     },
     {
       "id": 90,
       "section": "Hindi Language and Comprehension",
       "question": "निम्न विकल्पों में से शुद्ध वाक्य का चयन करें::--",
+      "question_image": null,
       "options": [
         "मुनिगण वेद पाठ कर रहे थे ।",
         "मुनिगन वेद पाठ कर रहे थे ।",
         "मुनीगण वेद पाठ कर रहे थे ।",
         "मनिगण वेद पाठ कर रहे थे ।"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (मुनिगण वेद पाठ कर रहे थे ।) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (मुनिगण वेद पाठ कर रहे थे ।) है।",
+      "explanation_image": null
     },
     {
       "id": 91,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:दिए गए गद्यांंश के आधार पर निम्नांकित प्रश्नों के उत्तर दीजिए-दलित वीरांगनाओं में ऊदा देवी नामक पासी महिला का नाम आता है। लखनऊ में ब्रिटिश सेना को बड़ी टक्कर ऊदा देवी ने दी थी। जब लखनऊ पर आक्रमण हुआ तो वे सिकंदरबाग में मर्दाना वेश धारणकर पीपल के एक पेड़ पर चढ़ गईं और पत्तों में छिपकर वहीं से गोलियों से निशाना लगाती रहीं। इस तरह उन्होंने दसियों सिपाहियों को ढेर कर दिया। एक सिपाही की नजर उस पेड़ से आती गोलियों की बौछार पर पड़ गई और उसने तुरंत ऊदा देवी को गोलियों से छलनी कर दिया। जब नीचे गिरी लाश को देखा गया तो पता चला कि वह कोई महिला थी। जंग में ऊदा देवी की वीरता को देख कर अंग्रेज अधिकारी उनके प्रति नतमस्तक हो गए। एक और बहादुर वीरांगना थीं, महावीरी देवी। वे मुजफ्फरनगर के मूंडभर गाँव की रहने वाली थीं। महावीरी देवी ने महिलाओं और बच्चों का एक संगठन बनाया था। जब मुजफ्फरनगर में ब्रिटिश हमला हुआ तो महावीरी देवी अपने संगठन की बाईस महिलाओं को लेकर युद्ध में सहभागिता हेतु निकल पड़ीं। युद्ध में सारी महिलाओं की मौत हो गई। मुजफ्फरनगर की ही आशा देवी गूजर को विद्रोह के जुर्म में फाँसी दे दी गई।152उपरोक्त गद्यांश में लेखक क्या प्रस्तुत करना चाहता है?155",
+      "question_image": null,
       "options": [
         "आज़ादी की लड़ाई गावों में भी लड़ी गयी है।",
         "भारतीय स्वतन्त्रता संग्राम में महिलाओं की विशिष्ट भूमिका रही है।",
         "इतिहास लेखन की शैली का वर्णन है।",
         "अंग्रेजों की धूर्तता का वर्णन है।"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (भारतीय स्वतन्त्रता संग्राम में महिलाओं की विशिष्ट भूमिका रही है।) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (भारतीय स्वतन्त्रता संग्राम में महिलाओं की विशिष्ट भूमिका रही है।) है।",
+      "explanation_image": null
     },
     {
       "id": 92,
       "section": "Hindi Language and Comprehension",
       "question": "वर्तनी की दृष्टि से दिए गए वाक्य के किस अंश में त्रुटि है, पहचानें-- भारत में गुरुओं के प्रति समाज का दृष्टिकोण हमेशा श्रृद्धय रहा है।1152",
+      "question_image": null,
       "options": [
         "दृष्टिकोण हमेशा",
         "भारत में गुरुओं",
         "के प्रति समाज का",
         "श्रृद्धय रहा है।"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (श्रृद्धय रहा है।) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (श्रृद्धय रहा है।) है।",
+      "explanation_image": null
     },
     {
       "id": 93,
       "section": "Hindi Language and Comprehension",
       "question": "' सिर धुनना '  मुहावरे का अर्थ है -",
+      "question_image": null,
       "options": [
         "लाभ उठाना",
         "अत्यंत प्रसन्न होना",
         "शोक करना",
         "सिर फिर जाना"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (शोक करना) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (शोक करना) है।",
+      "explanation_image": null
     },
     {
       "id": 94,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:निम्नलिखित गद्यांश को पढ़कर दिये गए प्रश्नों के उत्तर सबसे उचित विकल्प से दीजिये  -जिनमें सहिष्णुता की भावना होती है, केवल ऐसे लोग अध्यापक होने योग्य होते हैं। जिनका बच्चों से प्यार भरा लगाव होता है, उनमें धैर्य स्वभावतः आ जाता है। अध्यापकों को जिस अंतर्निहित गंभीर समस्या से जूझना पड़ता है, वह यह है कि उन्हें जिनको देखना है वे शक्ति और प्रभुत्ता में उनकी बराबरी के नहीं होते। अध्यापक के लिए एकदम तुच्छ या बिना किसी कारण के या फिर वास्तविकता की बजाए किसी काल्पनिक कारण के चलते अपने छात्रों के सामने धैर्य खो देना, उनकी खिल्ली उड़ाना, उन्हें अपमानित या दंडित करना एकदम आसान और संभव है। जो एक निर्बल अधीन राष्ट्र पर शासन करते हैं, उनमें न चाहते हुए भी गलत काम करने की प्रवृत्ति पाई जाती है।उसी तरह ऐसे अध्यापक होते हैं जो बच्चों के ऊपर अपने प्रभुत्व का शिकार हो जाते हैं। जो शासन के अयोग्य होते हैं, उन्हें केवल कमजोर लोगों पर अन्याय करते हुए कोई अपराध बोध नहीं होता, बल्कि ऐसा करने में उन्हें एक खास तरह का मजा मिलता है। बच्चे अपनी माँ की गोद में कमजोर अहसाय और अज्ञानी होते हैंमाता के हृदय में स्थित प्रचुर प्यार ही उनकी रक्षा की एकमात्र गारंटी होता है इसके बावजूद हमारे घरों में इस बात के उदाहरण कम नहीं कि कैसे हमारे स्वाभाविक प्यार पर धीरज का अभाव और उद्धत प्राधिकार विजय प्राप्त कर लेते हैं और बच्चों को अनुचित कारणों से दंडित होना पड़ता है।निम्नलिखित शब्दों में से 'प्रभुत्व' शब्द का सही पर्यायवाची शब्द कौन-सा है?",
+      "question_image": null,
       "options": [
         "सहयोग",
         "अधिकार",
         "समर्पण",
         "दया"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (अधिकार) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (अधिकार) है।",
+      "explanation_image": null
     },
     {
       "id": 95,
       "section": "Hindi Language and Comprehension",
       "question": "पूजा के लोचन सुन्दर हैं ।वाक्य का रेखांकित शब्द किसका पर्याय है ?60",
+      "question_image": null,
       "options": [
         "हाथ",
         "नेत्र",
         "पैर",
         "कान"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (नेत्र) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (नेत्र) है।",
+      "explanation_image": null
     },
     {
       "id": 96,
       "section": "Hindi Language and Comprehension",
       "question": "वाक्य क्रम में लिखिए-में मौजूद सभी लोगों(अ/की ओर देखा(ब/ने परेशानी से दस्तकों(स/अदालत(द।",
+      "question_image": null,
       "options": [
         "ब स अ द",
         "स ब अ द",
         "द अ स ब",
         "अ ब  स द"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (द अ स ब) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (द अ स ब) है।",
+      "explanation_image": null
     },
     {
       "id": 97,
       "section": "Hindi Language and Comprehension",
       "question": "उपयुक्त लोकोक्ति चुनकर, वाक्य में रिक्त स्थान की पूर्ति कीजिए-‘इस शुभ कार्य को तुम शीघ्र कर डालो;इसे स्थगित मत करते चलो अन्यथा इसे पूरा न कर पाओगे और सारा जीवन व्यतीत हो जाएगा| किसी ने सच कहा है|’-____________|’862",
+      "question_image": null,
       "options": [
         "सुख कहना जन से,दुःख कहना मन से|",
         "सुबह होती है शाम होती है,उम्र यों ही तमाम होती है|",
         "सुहाते की लात,न सुहाते की बात|",
         "सुनिए सबकी,कीजिए मन की |"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (सुबह होती है शाम होती है,उम्र यों ही तमाम होती है|) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (सुबह होती है शाम होती है,उम्र यों ही तमाम होती है|) है।",
+      "explanation_image": null
     },
     {
       "id": 98,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित वाक्य के  रिक्त स्थान में उचित क्रिया-विशेषण की पूर्ति कीजिए- ‘साँप  ____________  चलता है ।’",
+      "question_image": null,
       "options": [
         "दरअसल",
         "रेंगकर",
         "भर",
         "बुरी तरह"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (रेंगकर) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (रेंगकर) है।",
+      "explanation_image": null
     },
     {
       "id": 99,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:गद्यांश के आधार पर प्रश्नों के उत्तर दो-आधुनिक साहित्य में स्त्री विमर्श सर्वाधिक चर्चित विषय रहा है। सीमोन द बोउवार की ‘द सेकण्ड सेक्स’ का हिन्दी अनुवाद कर प्रभा खेतान ने स्त्री विमर्श की नींव तैयार की और इससे पहले सीमन्तनी उपदेश ने इसका आधार बनाया और इन्हीं से प्रेरित होकर आधुनिक लेखिकाएँ स्त्री के प्रति समाज की मानसिकता व रूढ़ियों पर आधारित पारिवारिक बंधनों से मुक्ति की आकांक्षा में प्रयत्नशील नज़र आती हैं। हिंदी साहित्य में भी स्त्री विमर्श कई धाराओं में विकसित हुआ और उसका मूल कारण लेखिकाओं का अपना अनुभव जगत और अपनी अलग-अलग सामाजिक स्थिति है। जिस ‘मर्दवाद’ के ख़िलाफ़ स्त्री विमर्श खड़ा हुआ है उसकी प्रतिक्रिया में ‘स्त्रीवाद’ का वह रूप भी आता है जहाँ वह मर्दवादी अवधारणा पर ही खड़ा दिखाई देता है लेकिन ऐसी प्रतिक्रिया पश्चिम के स्त्री विमर्श का भी हिस्सा रही है।मध्यवर्गीय स्त्री का पूरा संघर्ष दैहिक स्वतंत्रता से लेकर आर्थिक स्वतंत्रता तक सिमटा हुआ है। पुरुष के लिए नारीत्व अनुमान है और नारी के लिए अनुभव, अतः अपने जीवन का जैसा सजीव चित्र वह हमें दे सकेंगी, वैसा पुरुष बहुत साधना के उपरान्त भी शायद ही दे सके। फिर भी नारी विमर्श पुरुष संवेदनाओं पर आधारित है।मेरे अनुसार स्त्री स्वतंत्रता की बात सही परिप्रेक्ष्य में की जानी चाहिए। निरपेक्ष स्वतंत्रता जैसी कोई चीज़ नहीं हो सकती। स्वतंत्रता का मूल अभिप्राय है ‘निर्णय की स्वतंत्रता’ और स्त्री स्वतंत्रता का रूप क्या होगा, यह स्वयं स्त्रियों को ही तय करना है, यह निर्णय कुछ ‘विशिष्ट’ महिलाओं द्वारा नहीं लिया जा सकता। हिंदी साहित्य में भी कुछ स्त्री लेखकों को स्त्री-विमर्श का नेतृत्व करने वाला समझना ऐसी ही भूल है। 'द सेकंड सेक्स ' पुस्तक की लेखिका कौन है ?",
+      "question_image": null,
       "options": [
         "प्रभा खेतान",
         "मध्यवर्गीय स्त्री",
         "सीमोन द बोउवार",
         "सीमन्तनी उपदेश"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (सीमोन द बोउवार) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (सीमोन द बोउवार) है।",
+      "explanation_image": null
     },
     {
       "id": 100,
       "section": "Hindi Language and Comprehension",
       "question": "निम्न वाक्य के रिक्त स्थान में सही स्थान वाचक  क्रिया विशेषण विकल्प का चयन करें -'तुम             मत जाया करो '",
+      "question_image": null,
       "options": [
         "कल",
         "हमेशा",
         "वहाँ",
         "प्रतिदिन"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (वहाँ) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (वहाँ) है।",
+      "explanation_image": null
     }
   ]
 }

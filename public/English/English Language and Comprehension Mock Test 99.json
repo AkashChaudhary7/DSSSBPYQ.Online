@@ -6,281 +6,321 @@
       "id": 1,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. The digital revolution has transformed how information is stored and accessed.B. Cloud computing has emerged as a key solution for efficient data management.C. Businesses and individuals increasingly rely on cloud storage for convenience and security.D. However, cybersecurity remains a major concern with growing digital dependency.",
+      "question_image": null,
       "options": [
         "ACBD",
         "BCAD",
         "ABDC",
         "ABCD"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (ABCD) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (ABCD) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "English Language and Comprehension",
       "question": "One of the underlined words in the sentence given below is spelt incorrectly. Identify the MISSPELT word.The meeting was derailed by one obsteperous attendee who continually interrupted at every point and refused to concede to anyone.",
+      "question_image": null,
       "options": [
         "Continually",
         "Concede",
         "Obsteperous",
         "Derailed"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Obsteperous) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Obsteperous) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate ANTONYM of the underlined word in the given sentence.The government introduced stringent laws to regulate pollution levels in the city.",
+      "question_image": null,
       "options": [
         "Stubborn",
         "Lenient",
         "Severe",
         "Miserly"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Lenient) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Lenient) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "English Language and Comprehension",
       "question": "One of the underlined words in the sentence given below is spelt incorrectly. Identify the MISSPELT word.The professor's idosyncrasy of pausing mid-lecture to water his exotic plants, though bewildering to students at first, became an endearing ritual that highlighted his ardour for both botany and teaching.",
+      "question_image": null,
       "options": [
         "ardour",
         "idosyncrasy",
         "endearing",
         "bewildering"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (idosyncrasy) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (idosyncrasy) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate proverb that can substitute the highlighted segment in the given sentence.Employees lost faith in the CEO. So, they believe that words alone cannot bring results.",
+      "question_image": null,
       "options": [
         "a drowning man will clutch at a straw",
         "thunder is loud, but it brings no rain",
         "the wolf may lose his teeth, but not his nature",
         "the best-laid plans of mice and men often go awry"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (thunder is loud, but it brings no rain) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (thunder is loud, but it brings no rain) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer questions that follow.The rapid proliferation of artificial intelligence (AI) in surveillance technologies has sparked urgent ethical debates, particularly in societies where state and corporate monitoring are increasingly normalised. From facial recognition systems in public spaces to predictive policing algorithms, AI enables unprecedented levels of observation, often under the guise of security, efficiency, or public health. While proponents argue that such technologies enhance safety and administrative precision, critics contend that they erode civil liberties, reinforce systemic biases, and shift the balance of power toward opaque institutions.One of the central ethical concerns lies in the opacity of algorithmic decision-making. Many surveillance tools operate as “black boxes,” making it difficult to trace how decisions—such as identifying a suspect or flagging unusual behaviour—are made. This lack of transparency challenges both accountability and due process, particularly when errors disproportionately affect marginalised communities. Additionally, datasets used to train these systems often carry embedded social and racial biases, which are then amplified at scale, perpetuating historical injustices under the veneer of objectivity.Consent and autonomy further complicate the ethical terrain. In many surveillance contexts, individuals are monitored without explicit consent or even awareness, undermining notions of informed participation. The normalisation of “dataveillance” risks conditioning populations to accept intrusive oversight as inevitable, if not desirable.In democratic societies, these developments demand urgent ethical frameworks that prioritise transparency, fairness, and human rights. Regulatory interventions, public discourse, and interdisciplinary scholarship are essential to resist the drift toward techno-authoritarianism. Ultimately, the deployment of AI in surveillance must be guided not solely by what is technologically possible, but by what is ethically permissible and socially just.According to the passage, what is a major concern regarding AI-driven surveillance tools?",
+      "question_image": null,
       "options": [
         "They often lack transparency in how decisions are made.",
         "They are primarily used in authoritarian regimes.",
         "They rely on user consent for most of their decisions.",
         "They are unable to process real-time data effectively."
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (They often lack transparency in how decisions are made.) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (They often lack transparency in how decisions are made.) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer questions that follow.The rapid proliferation of artificial intelligence (AI) in surveillance technologies has sparked urgent ethical debates, particularly in societies where state and corporate monitoring are increasingly normalised. From facial recognition systems in public spaces to predictive policing algorithms, AI enables unprecedented levels of observation, often under the guise of security, efficiency, or public health. While proponents argue that such technologies enhance safety and administrative precision, critics contend that they erode civil liberties, reinforce systemic biases, and shift the balance of power toward opaque institutions.One of the central ethical concerns lies in the opacity of algorithmic decision-making. Many surveillance tools operate as “black boxes,” making it difficult to trace how decisions—such as identifying a suspect or flagging unusual behaviour—are made. This lack of transparency challenges both accountability and due process, particularly when errors disproportionately affect marginalised communities. Additionally, datasets used to train these systems often carry embedded social and racial biases, which are then amplified at scale, perpetuating historical injustices under the veneer of objectivity.Consent and autonomy further complicate the ethical terrain. In many surveillance contexts, individuals are monitored without explicit consent or even awareness, undermining notions of informed participation. The normalisation of “dataveillance” risks conditioning populations to accept intrusive oversight as inevitable, if not desirable.In democratic societies, these developments demand urgent ethical frameworks that prioritise transparency, fairness, and human rights. Regulatory interventions, public discourse, and interdisciplinary scholarship are essential to resist the drift toward techno-authoritarianism. Ultimately, the deployment of AI in surveillance must be guided not solely by what is technologically possible, but by what is ethically permissible and socially just.Which of the following is NOT explicitly mentioned in the passage as a justification used by proponents of AI surveillance?",
+      "question_image": null,
       "options": [
         "Ensuring administrative efficiency",
         "Improving democratic participation",
         "Enhancing public health",
         "Increasing security"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Improving democratic participation) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Improving democratic participation) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer questions that follow.The rapid proliferation of artificial intelligence (AI) in surveillance technologies has sparked urgent ethical debates, particularly in societies where state and corporate monitoring are increasingly normalised. From facial recognition systems in public spaces to predictive policing algorithms, AI enables unprecedented levels of observation, often under the guise of security, efficiency, or public health. While proponents argue that such technologies enhance safety and administrative precision, critics contend that they erode civil liberties, reinforce systemic biases, and shift the balance of power toward opaque institutions.One of the central ethical concerns lies in the opacity of algorithmic decision-making. Many surveillance tools operate as “black boxes,” making it difficult to trace how decisions—such as identifying a suspect or flagging unusual behaviour—are made. This lack of transparency challenges both accountability and due process, particularly when errors disproportionately affect marginalised communities. Additionally, datasets used to train these systems often carry embedded social and racial biases, which are then amplified at scale, perpetuating historical injustices under the veneer of objectivity.Consent and autonomy further complicate the ethical terrain. In many surveillance contexts, individuals are monitored without explicit consent or even awareness, undermining notions of informed participation. The normalisation of “dataveillance” risks conditioning populations to accept intrusive oversight as inevitable, if not desirable.In democratic societies, these developments demand urgent ethical frameworks that prioritise transparency, fairness, and human rights. Regulatory interventions, public discourse, and interdisciplinary scholarship are essential to resist the drift toward techno-authoritarianism. Ultimately, the deployment of AI in surveillance must be guided not solely by what is technologically possible, but by what is ethically permissible and socially just.What implicit assumption underlies the author's critique of AI surveillance tools?",
+      "question_image": null,
       "options": [
         "Most AI systems are neutral by design.",
         "Technological innovation is inherently unethical.",
         "Citizens are unaware of technological advancements.",
         "Ethics should constrain what is technologically possible."
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Ethics should constrain what is technologically possible.) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Ethics should constrain what is technologically possible.) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer questions that follow.The rapid proliferation of artificial intelligence (AI) in surveillance technologies has sparked urgent ethical debates, particularly in societies where state and corporate monitoring are increasingly normalised. From facial recognition systems in public spaces to predictive policing algorithms, AI enables unprecedented levels of observation, often under the guise of security, efficiency, or public health. While proponents argue that such technologies enhance safety and administrative precision, critics contend that they erode civil liberties, reinforce systemic biases, and shift the balance of power toward opaque institutions.One of the central ethical concerns lies in the opacity of algorithmic decision-making. Many surveillance tools operate as “black boxes,” making it difficult to trace how decisions—such as identifying a suspect or flagging unusual behaviour—are made. This lack of transparency challenges both accountability and due process, particularly when errors disproportionately affect marginalised communities. Additionally, datasets used to train these systems often carry embedded social and racial biases, which are then amplified at scale, perpetuating historical injustices under the veneer of objectivity.Consent and autonomy further complicate the ethical terrain. In many surveillance contexts, individuals are monitored without explicit consent or even awareness, undermining notions of informed participation. The normalisation of “dataveillance” risks conditioning populations to accept intrusive oversight as inevitable, if not desirable.In democratic societies, these developments demand urgent ethical frameworks that prioritise transparency, fairness, and human rights. Regulatory interventions, public discourse, and interdisciplinary scholarship are essential to resist the drift toward techno-authoritarianism. Ultimately, the deployment of AI in surveillance must be guided not solely by what is technologically possible, but by what is ethically permissible and socially just.Which of the following titles best encapsulates the central argument of the passage?",
+      "question_image": null,
       "options": [
         "Beyond Efficiency: Ethical Challenges in Algorithmic Surveillance",
         "Coding Consent: The Legal Future of AI Ethics",
         "AI and Predictive Policing: New Frontiers in Public Safety",
         "Understanding the Architecture of AI Neural Networks"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Beyond Efficiency: Ethical Challenges in Algorithmic Surveillance) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Beyond Efficiency: Ethical Challenges in Algorithmic Surveillance) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer questions that follow.The rapid proliferation of artificial intelligence (AI) in surveillance technologies has sparked urgent ethical debates, particularly in societies where state and corporate monitoring are increasingly normalised. From facial recognition systems in public spaces to predictive policing algorithms, AI enables unprecedented levels of observation, often under the guise of security, efficiency, or public health. While proponents argue that such technologies enhance safety and administrative precision, critics contend that they erode civil liberties, reinforce systemic biases, and shift the balance of power toward opaque institutions.One of the central ethical concerns lies in the opacity of algorithmic decision-making. Many surveillance tools operate as “black boxes,” making it difficult to trace how decisions—such as identifying a suspect or flagging unusual behaviour—are made. This lack of transparency challenges both accountability and due process, particularly when errors disproportionately affect marginalised communities. Additionally, datasets used to train these systems often carry embedded social and racial biases, which are then amplified at scale, perpetuating historical injustices under the veneer of objectivity.Consent and autonomy further complicate the ethical terrain. In many surveillance contexts, individuals are monitored without explicit consent or even awareness, undermining notions of informed participation. The normalisation of “dataveillance” risks conditioning populations to accept intrusive oversight as inevitable, if not desirable.In democratic societies, these developments demand urgent ethical frameworks that prioritise transparency, fairness, and human rights. Regulatory interventions, public discourse, and interdisciplinary scholarship are essential to resist the drift toward techno-authoritarianism. Ultimately, the deployment of AI in surveillance must be guided not solely by what is technologically possible, but by what is ethically permissible and socially just.Select the most appropriate ANTONYM of the given word as used in the passage.\n\nOpacity",
+      "question_image": null,
       "options": [
         "Lucidity",
         "Ambivalence",
         "Obliqueness",
         "Enigma"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Lucidity) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Lucidity) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "English Language and Comprehension",
       "question": "Identify the INCORRECTLY spelt word in the given sentence.The lackadaisical attitude of the team kept them stuck in the doldrums, while their competitors, driven and energetic, thrived in the ubiquitious excitement of the boisterous crowd.",
+      "question_image": null,
       "options": [
         "ubiquitious",
         "lackadaisical",
         "boisterous",
         "doldrums"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (ubiquitious) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (ubiquitious) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "English Language and Comprehension",
       "question": "Select the option that can be used as a one-word substitute for the given group of words.A government run by the wealthy",
+      "question_image": null,
       "options": [
         "Aristocracy",
         "Bureaucracy",
         "Oligarchy",
         "Plutocracy"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Plutocracy) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Plutocracy) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate question tag to fill in the blank.They are planning to visit Kashmir, _____?",
+      "question_image": null,
       "options": [
         "do they",
         "don’t they",
         "aren’t they",
         "won’t they"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (aren’t they) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (aren’t they) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "English Language and Comprehension",
       "question": "Select the option that can be used as a one-word substitute for the underlined group of words/phrase in the given sentence.In spite of his age, he has a lot of energy and enthusiasm for life.",
+      "question_image": null,
       "options": [
         "flashes in the pan",
         "vim and vigour",
         "raw deals",
         "done deals"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (vim and vigour) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (vim and vigour) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate synonym of the underlined word to fill in the blank.Savant: His writing style is florid, full of embellished language.Hemant: Yes, it is something more ____________________.",
+      "question_image": null,
       "options": [
         "austere",
         "unadorned",
         "ornate",
         "ingenuous"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (ornate) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (ornate) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate idiom that can substitute the underlined segment in the given sentence.Don’t be in a hurry to respond to that rude email from your boss, do not take action without thinking about it first.",
+      "question_image": null,
       "options": [
         "hold your horses",
         "nurse a grudge",
         "cold shoulder",
         "turn tables"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (hold your horses) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (hold your horses) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.The novel was _____ written, capturing the complex emotions of its characters.",
+      "question_image": null,
       "options": [
         "more beautiful",
         "most beautiful",
         "beautiful",
         "beautifully"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (beautifully) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (beautifully) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. This is facilitated by the fact that humans are not the natural prey of any venomous snake.B. Cobras are recognised by the hoods that they flare when angry or disturbed; the hoods are created by the extension of the ribs behind the cobras’ heads.C. We are a bit large for them to swallow whole, and they have no means of chopping us up into bite-size pieces.D. The Indian cobra is the common name for members of the family of venomous snakes, known for their intimidating looks and deadly bite.E. Obviously the best prevention is to avoid getting bitten.",
+      "question_image": null,
       "options": [
         "BCADE",
         "EADCB",
         "DBEAC",
         "ADCBE"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (DBEAC) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (DBEAC) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "English Language and Comprehension",
       "question": "Rectify the sentence by selecting the correct spelling of the highlighted word from the given options.The shrewd team members took percautionary measures before starting the experiment.",
+      "question_image": null,
       "options": [
         "precausionary",
         "precausionery",
         "precautionary",
         "precautionery"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (precautionary) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (precautionary) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. Although this physical reaction will help us function more effectively when we are under pressure for short periods of time, it can be extremely damaging to the body in terms of long-term effects.B. These hormones produce marked changes in heart rate, blood pressure levels, metabolism and physical activity.C. When the human body is placed under physical or psychological stress, it increases the production of certain hormones, such as adrenaline and cortisol.D. Examples of physiological effects are slowing down of the digestive system, increased heart rate and constriction of blood vessels.",
+      "question_image": null,
       "options": [
         "BDAC",
         "CBAD",
         "DBCA",
         "ADCB"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (CBAD) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (CBAD) है।",
+      "explanation_image": null
     }
   ]
 }

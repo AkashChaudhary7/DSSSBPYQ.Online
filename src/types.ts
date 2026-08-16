@@ -40,6 +40,7 @@ export interface Attempt {
   timeSpentSeconds: number;
   timestamp: string;
   mode: 'exam' | 'practice';
+  questionTimeSpent?: Record<number, number>;
 }
 
 export interface Bookmark {
@@ -115,4 +116,5 @@ export interface ActiveQuizSession {
   activeSectionIdx: number;
   submittedSections: Record<number, boolean>;
   lastUpdated: number;
+  questionTimeSpent?: Record<number, number>;
 }

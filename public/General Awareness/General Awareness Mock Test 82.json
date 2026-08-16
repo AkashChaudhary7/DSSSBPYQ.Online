@@ -6,276 +6,316 @@
       "id": 1,
       "section": "General Awareness",
       "question": "Choose the word that can substitute the given sentence.A thin and homeless child",
+      "question_image": null,
       "options": [
         "Truant",
         "Waif",
         "Aplomb",
         "Torrent"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Waif) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Waif) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General Awareness",
       "question": "In the given question, four words are given out of which one word is correctly spelt. Choose the correctly spelt word.",
+      "question_image": null,
       "options": [
         "Substitution",
         "Substtitution",
         "Subbstitution",
         "Substitutionn"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Substitution) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Substitution) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General Awareness",
       "question": "Select the most appropriate option to substitute the underlined segment in the given sentence. If no substitution is required, select No improvement.It can be considered a branch of either philosophy and education.",
+      "question_image": null,
       "options": [
         "none",
         "No Improvement",
         "neither",
         "both"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (both) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (both) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General Awareness",
       "question": "A sentence has been given with a blank to be filled with an appropriate word/words. Choose the correct alternative.One must respect ______ elders without any complaints.",
+      "question_image": null,
       "options": [
         "one’s",
         "their",
         "his",
         "ones"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (one’s) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (one’s) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General Awareness",
       "question": "In the given question, four words are given out of which one word is incorrectly spelt. Choose the incorrectly spelt word.",
+      "question_image": null,
       "options": [
         "Luminossity",
         "Fellowship",
         "Unilateral",
         "Respectively"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Luminossity) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Luminossity) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General Awareness",
       "question": "In the following question, out of the given four alternatives, select the alternative which best expresses the meaning of the Idiom/Phrase.To rain cats and dogs",
+      "question_image": null,
       "options": [
         "To rain very heavily",
         "A time of plenty",
         "To fill one with terror",
         "To retract one’s statement"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (To rain very heavily) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (To rain very heavily) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General Awareness",
       "question": "Comprehension:Read the following passage carefully and answer the questions.Fortunately, the WHO reports that some countries have continued to have major declines in TB cases; in Cambodia alone, the TB prevalence fell by about 50 percent. Due to diagnostic and treatment efforts, about 37 million lives were saved between 2000 and 2013. However, maintaining this success has mostly been complicated by HIV, MDR, XDR, the inefficacy of the BCG vaccine, false-positive screening tests, non-compliance to treatment regimens, the complexity of MTB, and the stall in developing novel therapeutics.In some countries, like India, China, and Russia, TB rates are only dropping slowly and still remain high. To address this concern, an additional treatment regimen is undergone by patients called directly observed therapy short-term (DOTS), which closely monitors treatment adherence and completion, with the goal of efficiency and cost-effectiveness. With the emergence of MDR-TB, DOTS-plus was initiated as a more rigorous treatment strategy.The WHO drafted a Stop TB Strategy, which outlines six aims to be implemented by all countries to reduce TB on both local and national scales, with the overall goal of enhancing TB treatment, health care experiences, and research. It is the world's hope that at least some of these aims will be achieved in the near future.In this race to combat a disease that knows no boundaries, it is necessary to have a conceptual and clear understanding of TB overall. This can only be enforced if collaborative efforts among research, public health officials, primary care professionals, and the general public continue to push the boundaries of our current knowledge, mitigating the global burden of TB.Which of the following has never been a hindrance in maintaining the success of controlling TB?",
+      "question_image": null,
       "options": [
         "XDR",
         "HIV",
         "DOTS",
         "MDR"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (DOTS) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (DOTS) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General Awareness",
       "question": "Comprehension:Read the following passage carefully and answer the questions.Fortunately, the WHO reports that some countries have continued to have major declines in TB cases; in Cambodia alone, the TB prevalence fell by about 50 percent. Due to diagnostic and treatment efforts, about 37 million lives were saved between 2000 and 2013. However, maintaining this success has mostly been complicated by HIV, MDR, XDR, the inefficacy of the BCG vaccine, false-positive screening tests, non-compliance to treatment regimens, the complexity of MTB, and the stall in developing novel therapeutics.In some countries, like India, China, and Russia, TB rates are only dropping slowly and still remain high. To address this concern, an additional treatment regimen is undergone by patients called directly observed therapy short-term (DOTS), which closely monitors treatment adherence and completion, with the goal of efficiency and cost-effectiveness. With the emergence of MDR-TB, DOTS-plus was initiated as a more rigorous treatment strategy.The WHO drafted a Stop TB Strategy, which outlines six aims to be implemented by all countries to reduce TB on both local and national scales, with the overall goal of enhancing TB treatment, health care experiences, and research. It is the world's hope that at least some of these aims will be achieved in the near future.In this race to combat a disease that knows no boundaries, it is necessary to have a conceptual and clear understanding of TB overall. This can only be enforced if collaborative efforts among research, public health officials, primary care professionals, and the general public continue to push the boundaries of our current knowledge, mitigating the global burden of TB.Which of the following is NOT true about DOTS treatment?",
+      "question_image": null,
       "options": [
         "It is cost effective.",
         "It’s an efficient treatment.",
         "It is more rigorous than DOTS-plus.",
         "It thoroughly monitors the completion of treatment."
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (It is more rigorous than DOTS-plus.) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (It is more rigorous than DOTS-plus.) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General Awareness",
       "question": "Comprehension:Read the following passage carefully and answer the questions.Fortunately, the WHO reports that some countries have continued to have major declines in TB cases; in Cambodia alone, the TB prevalence fell by about 50 percent. Due to diagnostic and treatment efforts, about 37 million lives were saved between 2000 and 2013. However, maintaining this success has mostly been complicated by HIV, MDR, XDR, the inefficacy of the BCG vaccine, false-positive screening tests, non-compliance to treatment regimens, the complexity of MTB, and the stall in developing novel therapeutics.In some countries, like India, China, and Russia, TB rates are only dropping slowly and still remain high. To address this concern, an additional treatment regimen is undergone by patients called directly observed therapy short-term (DOTS), which closely monitors treatment adherence and completion, with the goal of efficiency and cost-effectiveness. With the emergence of MDR-TB, DOTS-plus was initiated as a more rigorous treatment strategy.The WHO drafted a Stop TB Strategy, which outlines six aims to be implemented by all countries to reduce TB on both local and national scales, with the overall goal of enhancing TB treatment, health care experiences, and research. It is the world's hope that at least some of these aims will be achieved in the near future.In this race to combat a disease that knows no boundaries, it is necessary to have a conceptual and clear understanding of TB overall. This can only be enforced if collaborative efforts among research, public health officials, primary care professionals, and the general public continue to push the boundaries of our current knowledge, mitigating the global burden of TB.Which of the following words best expresses the synonym of the word ‘adherence’?",
+      "question_image": null,
       "options": [
         "Perseverance",
         "Separate",
         "Release",
         "Attachment"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Attachment) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Attachment) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General Awareness",
       "question": "Comprehension:Read the following passage carefully and answer the questions.Fortunately, the WHO reports that some countries have continued to have major declines in TB cases; in Cambodia alone, the TB prevalence fell by about 50 percent. Due to diagnostic and treatment efforts, about 37 million lives were saved between 2000 and 2013. However, maintaining this success has mostly been complicated by HIV, MDR, XDR, the inefficacy of the BCG vaccine, false-positive screening tests, non-compliance to treatment regimens, the complexity of MTB, and the stall in developing novel therapeutics.In some countries, like India, China, and Russia, TB rates are only dropping slowly and still remain high. To address this concern, an additional treatment regimen is undergone by patients called directly observed therapy short-term (DOTS), which closely monitors treatment adherence and completion, with the goal of efficiency and cost-effectiveness. With the emergence of MDR-TB, DOTS-plus was initiated as a more rigorous treatment strategy.The WHO drafted a Stop TB Strategy, which outlines six aims to be implemented by all countries to reduce TB on both local and national scales, with the overall goal of enhancing TB treatment, health care experiences, and research. It is the world's hope that at least some of these aims will be achieved in the near future.In this race to combat a disease that knows no boundaries, it is necessary to have a conceptual and clear understanding of TB overall. This can only be enforced if collaborative efforts among research, public health officials, primary care professionals, and the general public continue to push the boundaries of our current knowledge, mitigating the global burden of TB.Which of the following statements is definitely true about the Stop TB strategy?",
+      "question_image": null,
       "options": [
         "WHO has drafted this strategy to enhance the treatment of TB and provide good medical care experience to the TB patient.",
         "Stop TB strategy has outlined 6-7 aims to be implemented in near future.",
         "It has to be implemented by few countries, whose methods in controlling TB are not successful.",
         "It is implemented to reduce TB on local scale without any hindrance."
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (WHO has drafted this strategy to enhance the treatment of TB and provide good medical care experience to the TB patient.) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (WHO has drafted this strategy to enhance the treatment of TB and provide good medical care experience to the TB patient.) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General Awareness",
       "question": "Comprehension:Read the following passage carefully and answer the questions.Fortunately, the WHO reports that some countries have continued to have major declines in TB cases; in Cambodia alone, the TB prevalence fell by about 50 percent. Due to diagnostic and treatment efforts, about 37 million lives were saved between 2000 and 2013. However, maintaining this success has mostly been complicated by HIV, MDR, XDR, the inefficacy of the BCG vaccine, false-positive screening tests, non-compliance to treatment regimens, the complexity of MTB, and the stall in developing novel therapeutics.In some countries, like India, China, and Russia, TB rates are only dropping slowly and still remain high. To address this concern, an additional treatment regimen is undergone by patients called directly observed therapy short-term (DOTS), which closely monitors treatment adherence and completion, with the goal of efficiency and cost-effectiveness. With the emergence of MDR-TB, DOTS-plus was initiated as a more rigorous treatment strategy.The WHO drafted a Stop TB Strategy, which outlines six aims to be implemented by all countries to reduce TB on both local and national scales, with the overall goal of enhancing TB treatment, health care experiences, and research. It is the world's hope that at least some of these aims will be achieved in the near future.In this race to combat a disease that knows no boundaries, it is necessary to have a conceptual and clear understanding of TB overall. This can only be enforced if collaborative efforts among research, public health officials, primary care professionals, and the general public continue to push the boundaries of our current knowledge, mitigating the global burden of TB.What can be the suitable title for the given passage?",
+      "question_image": null,
       "options": [
         "Control of TB: Achievements, DOTS, Stop TB Strategy",
         "TB at its worst",
         "How to cure TB?",
         "Stop TB strategy"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Control of TB: Achievements, DOTS, Stop TB Strategy) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Control of TB: Achievements, DOTS, Stop TB Strategy) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General Awareness",
       "question": "निम्नलिखित प्रश्न में, दिए गए चार विकल्पों में से, उस विकल्प का चयन करें जो दिए गए मुहावरे के अर्थ को सर्वश्रेष्ठ रूप से व्यक्त करता है।अच्छे दिन आना",
+      "question_image": null,
       "options": [
         "बहुत मेहनत करना",
         "भाग्योदय होना",
         "महत्वहीन समझना",
         "वश में करना"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (भाग्योदय होना) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (भाग्योदय होना) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General Awareness",
       "question": "दिए गए शब्द युग्म का सही शब्द युग्म ज्ञात कीजिए।अनु : अणु",
+      "question_image": null,
       "options": [
         "कठिन : हाथ",
         "एक उपसर्ग : सूक्ष्म कण",
         "सूक्ष्म : कण",
         "सूक्ष्म कण : एक उपसर्ग"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (एक उपसर्ग : सूक्ष्म कण) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (एक उपसर्ग : सूक्ष्म कण) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General Awareness",
       "question": "दिए गए वाक्य में उपयुक्त विराम चिह्न का चयन कीजिए।आप उदयपुर से कब आए",
+      "question_image": null,
       "options": [
         ":–",
         ";",
         "।",
         "?"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (?) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (?) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General Awareness",
       "question": "जिस संज्ञा शब्दों में पदार्थों के नापतोल का बोध होता हैं उन्हें क्या कहते हैं?",
+      "question_image": null,
       "options": [
         "द्रव्यवाचक संज्ञा",
         "परिणामवाचक संज्ञा",
         "व्यक्तिवाचक संज्ञा",
         "जातिवाचक संज्ञा"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (परिणामवाचक संज्ञा) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (परिणामवाचक संज्ञा) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General Awareness",
       "question": "रिक्त स्थान में उत्तम छाँटकर लिखिए।बंदर ने कहा, ______ पेड़ तक ले चलो। वही ______ तुम्हे कुछ खाने के लिए फल दे दूँगा।",
+      "question_image": null,
       "options": [
         "मुझे; हम",
         "तुम्हे; मैं",
         "मुझे; मैं",
         "मैं; उसको"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (मुझे; मैं) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (मुझे; मैं) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General Awareness",
       "question": "निम्नलिखित शब्द का पर्यायवाची नहीं हैं, ज्ञात कीजिए।अनूठा\n1. पावक\n2. अनल\n3. दहन\n4. अतुल\n    \tNote: For this question, discrepancy is found in question/answer. So, This question is ignored for all candidates.",
+      "question_image": null,
       "options": [],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' () है।"
+      "explanation": "सही उत्तर विकल्प 'A' () है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General Awareness",
       "question": "दिए गए शब्दों में शुद्ध वर्तनी का चयन कीजिए।",
+      "question_image": null,
       "options": [
         "रसायनिक",
         "रासायनिक",
         "रासाय्निक",
         "रसायनीक"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (रासायनिक) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (रासायनिक) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General Awareness",
       "question": "दिए गए शब्द युग्म का सही शब्द युग्म ज्ञात कीजिए।गिरीश : गिरि",
+      "question_image": null,
       "options": [
         "हिमालय : पर्वत",
         "पर्वत : शिव",
         "गिरना : पर्वत",
         "पुराना : हिमालय"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (हिमालय : पर्वत) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (हिमालय : पर्वत) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General Awareness",
       "question": "निम्नलिखित में से कौन-सा शब्द विदेशज नहीं है?",
+      "question_image": null,
       "options": [
         "जगमग",
         "फ़कीर",
         "ईमारत",
         "नतीजा"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (जगमग) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (जगमग) है।",
+      "explanation_image": null
     }
   ]
 }

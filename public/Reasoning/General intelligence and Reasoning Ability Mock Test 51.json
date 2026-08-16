@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "If 1 is added to each odd digit and 1 is subtracted from each even digit in the number 8562134, which of the following digits will be second from the left in the new number thus formed?2404",
+      "question_image": null,
       "options": [
         "1",
         "2",
         "3",
         "6"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (6) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (6) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "Harman starts from point A and drives 27 km towards North. He then takes a right turn, drives 31 km, turns right and drives 33 km. He then takes a right turn and drives 33 km. He takes a final right turn, drives 6 km and stops at point P. How far (shortest distance) and towards which direction should he drive in order to reach point A again? (All turns are 90 degrees turns only, unless specified.)",
+      "question_image": null,
       "options": [
         "1 km to the south",
         "2 km to the east",
         "3 km to the north",
         "4 km to the west"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (2 km to the east) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (2 km to the east) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?15        25       ?        42        49        55",
+      "question_image": null,
       "options": [
         "34",
         "32",
         "35",
         "36"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (34) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (34) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of ? in the given series based on the English alphabetical order?FRS  MYZ  TFG  AMN  ?",
+      "question_image": null,
       "options": [
         "HTU",
         "HYT",
         "HTY",
         "HUT"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (HTU) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (HTU) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Select the set in which the numbers are related in the same way as are the numbers of the following sets.(NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed)178, 81232, 1083850",
+      "question_image": null,
       "options": [
         "308, 148",
         "258, 122",
         "290, 138",
         "326, 155"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (326, 155) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (326, 155) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘P’ stands for ‘-’, ‘Q’ stands for ‘x’, ‘C’ stands for ‘÷’ and ‘D’ stands for ‘+’, what will come in place of the question mark ‘?’ in the following equation? 18 D 6 C  2 Q 15 P 4 = ?",
+      "question_image": null,
       "options": [
         "59",
         "69",
         "49",
         "79"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (59) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (59) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the pair which follows the same pattern as that followed by the two pairs given below. Both pairs follow the same pattern.APM : ENJIWQ : MUN",
+      "question_image": null,
       "options": [
         "BFP : FDL",
         "GIL : KFI",
         "NIM : RGI",
         "FOV : JMS"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (FOV : JMS) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (FOV : JMS) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following triads, each group of letters is related to the subsequent one following a certain logic. Select from the given options, the one which follows the same logic.MAPS - AMPS - MPSAFUME - UFME - FMEU",
+      "question_image": null,
       "options": [
         "LOVE - LVOE - EVOL",
         "LIST - ILST - LSTI",
         "SAID - ASID - AIDS",
         "DEWS - EDWS - SEWD"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (LIST - ILST - LSTI) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (LIST - ILST - LSTI) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "Six people, J, K, L, W, X and Z, live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it is numbered 2 and so on till the topmost floor is numbered 6. No one lives below K. Only two people live between X and K. Only J lives between X and Z. W lives immediately below X. How many people live above L?",
+      "question_image": null,
       "options": [
         "One",
         "Three",
         "Two",
         "Four"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Four) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Four) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "Based on the English alphabetical order, three of the following four are alike in a certain way and thus form a group. Which is the one that DOES NOT belong to that group?(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+      "question_image": null,
       "options": [
         "BXT",
         "IFA",
         "JFB",
         "MIE"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (IFA) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (IFA) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each vowel in the word DOLPHIN is changed to the letter immediately following it in the English alphabetical order, and each consonant is changed to the letter immediately preceding it in the English alphabetical order.How many letters will appear exactly twice in the group of letters thus formed?",
+      "question_image": null,
       "options": [
         "2",
         "1",
         "3",
         "0"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (0) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (0) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘BANK’ is coded as ‘7368’ and ‘BAKE’ is coded as ‘6438’. What is the code for ‘N’ in that language?",
+      "question_image": null,
       "options": [
         "6",
         "7",
         "3",
         "8"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (7) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (7) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘E’ stands for ‘+’, ‘F’ stands for ‘-’, ‘G’ stands for ‘÷’ and ‘H’ stands for ‘x’, what will be come in place of question mark (?) in the following equation?55 G 11 E 11 H 1 F 9 = ?",
+      "question_image": null,
       "options": [
         "7",
         "22",
         "-8",
         "-3"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (7) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (7) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of  ? in the given series?66      70      78      94     126       ?",
+      "question_image": null,
       "options": [
         "189",
         "190",
         "191",
         "192"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (190) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (190) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "1 is related to 1 following a certain logic. Following the same logic, 7 is related to 49. To which of the following is 4 related, following the same logic?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "question_image": null,
       "options": [
         "36",
         "8",
         "64",
         "16"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (16) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (16) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which is the one that DOES NOT belong to that group?(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+      "question_image": null,
       "options": [
         "JQ  -  RZ",
         "EL  -  MT",
         "GN  -  OV",
         "CJ  -  KR"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (JQ  -  RZ) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (JQ  -  RZ) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes U, V, W, X, A, B, and C are kept one over the other but not necessarily in the same order.Only four boxes are kept between X and B. Only W is kept above X. Only two boxes are kept between U and V. A is kept just above C. V is not kept immediately above A.Which box is kept fourth from the top?",
+      "question_image": null,
       "options": [
         "A",
         "C",
         "V",
         "U"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (A) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (A) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "Refer to the following letter series and answer the question. Counting to be done from left to right only.(Left)   R   G   K  A   P   C   D   B   F   S   H   M  J   T   L   I   N   O   E   Q  U (Right)How many such consonants are there, each of which is immediately preceded by another consonant and also immediately followed by a vowel?",
+      "question_image": null,
       "options": [
         "One",
         "Three",
         "Two",
         "None"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Two) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Two) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the pair which follows the same pattern as that followed by the two sets of pairs given below. Both pairs follow the same pattern.QSU − OQSVXZ − TVX4579",
+      "question_image": null,
       "options": [
         "BDF−YBC",
         "BCD−ZBD",
         "GIK−EGI",
         "BCD−YAC"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (GIK−EGI) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (GIK−EGI) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the following words.HINT   TRAY     ARCH    PALEIn each of the words, each vowel is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. How many letter-clusters thus formed have the letter ‘B’ in it?",
+      "question_image": null,
       "options": [
         "Three",
         "Four",
         "Two",
         "One"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Three) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Three) है।",
+      "explanation_image": null
     }
   ]
 }

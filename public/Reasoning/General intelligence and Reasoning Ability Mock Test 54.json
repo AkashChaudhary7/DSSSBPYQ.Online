@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Which numbers should replace X and Y so that the pattern followed by the two numbers on the left side of :: is the same as that on the right side of ::?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed)X : 511 :: 4 : Y1860",
+      "question_image": null,
       "options": [
         "X = 8, Y = 125",
         "X = 12, Y = 512",
         "X = 7, Y = 27",
         "X = 8, Y = 63"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (X = 8, Y = 63) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (X = 8, Y = 63) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the following letter-clusters should replace # and % so that the pattern and relationship followed between the letter-cluster pair on the left side of :: is the same as that on the right side of :: ? # : IGJ:: MKN: % 12126",
+      "question_image": null,
       "options": [
         "# = JHK, % = LJM",
         "# = JHL, % = LJM",
         "# = JHK, % = LIM",
         "# = JHK, % = LJN"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (# = JHK, % = LJM) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (# = JHK, % = LJM) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "A certain number of people are sitting in a row, facing north. V sits to the immediate right of C. I sits third to the left of L. Only three people sit between V and R. C sits somewhere to the left of R. L sits somewhere between V and R. If no other person is sitting in the row, what is the total number of persons seated?1155",
+      "question_image": null,
       "options": [
         "8",
         "6",
         "5",
         "7"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (7) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (7) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the following wordsRAW  MEN  AID  FAYIn each of the words, each vowel is changed to the letter immediately preceding it in the English alphabetical order and each consonant is changed to the letter immediately following it in the English alphabetical order. In how many letter-clusters thus formed, will no vowel appear?5444",
+      "question_image": null,
       "options": [
         "One",
         "Four",
         "Two",
         "Three"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Two) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Two) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of D, E, F, G, R, S and T has exam on a different day of a week, starting from Monday and ending on Sunday of the same week. Only two people have exam before R. Only one person has exam after F. Only three people have exam between R and T. Only one person has exam between G and D. E has exam immediately before G. Who among the following has exam on Friday?2740",
+      "question_image": null,
       "options": [
         "S",
         "E",
         "D",
         "G"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (S) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (S) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "Based on the English alphabetical order, three of the following four letter cluster pairs are alike in a certain way and thus form a group. Which is the one that does not belong to that group?(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter cluster)5075",
+      "question_image": null,
       "options": [
         "UX – NW",
         "BE-UD",
         "FJ – YH",
         "HK-AJ"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (FJ – YH) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (FJ – YH) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "Based on the alphabetical order, three of the following four are alike in a certain way and thus form a group. Which is the one that does not belong to that group? <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}-->(Note: The odd man out is not based on the number of consonants/vowels or their position in the letter cluster)8192",
+      "question_image": null,
       "options": [
         "FHK",
         "HJL",
         "SUW",
         "PRT"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (FHK) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (FHK) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "Below are given two sets of numbers. In each set of numbers, a certain mathematical operation on first number results in the second number. Similarly, certain mathematical operation on second number results in the third number and so on. Which of the given options follows the same set of operations as in question?(NOTE – A two/three digit number cannot be broken into individual digits for operations e.g. if 37 is followed by 10, the operation cannot be 3+7 as a two digit number cannot be broken into individual digits) 16 – 12 – 27 – 40    ;    18 – 14 – 31 – 447",
+      "question_image": null,
       "options": [
         "13 – 9 – 21 – 34",
         "9 – 5 – 13 – 36",
         "11 – 15 – 33 – 46",
         "8 – 4 – 5 – 18"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (13 – 9 – 21 – 34) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (13 – 9 – 21 – 34) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the pair which follows the same pattern as that followed by the two set of pairs given below. Both pairs follow the same pattern. PHQ : QKMMBE : NEA967",
+      "question_image": null,
       "options": [
         "TMJ : UPG",
         "PMP : QPL",
         "NHZ : OJV",
         "OTM : PWJ"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (PMP : QPL) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (PMP : QPL) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statement(s) and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statement(s).Statements: All plants are trees. Some trees are fruits. Some fruits are biscuits.Conclusions (I) : Some biscuits are plantsConclusions (II) : Some fruits are plants6067",
+      "question_image": null,
       "options": [
         "Both conclusions (I) and (II) follow",
         "Only conclusion (II) follows",
         "Neither conclusion (I) nor (II) follows",
         "Only conclusion (I) follows"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Neither conclusion (I) nor (II) follows) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Neither conclusion (I) nor (II) follows) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language \"HCTK\"   is coded as \"126\"  and \"DGUA\"  is coded as \"99\" . What is the code for \"IBPE\"  in the given language?8124",
+      "question_image": null,
       "options": [
         "97",
         "96",
         "91",
         "93"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (96) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (96) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the given words.\n\nYOB ZOO LED IRE\n\nIn each of the words, each vowel is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. In how many letter-clusters thus formed, will no vowel appear? 2613",
+      "question_image": null,
       "options": [
         "Three",
         "Two",
         "One",
         "Zero"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Three) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Three) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following series, only one letter-cluster is incorrect. Select the INCORRECT letter-cluster. GKO JNR MQU PTX SWO VZD2931",
+      "question_image": null,
       "options": [
         "MQU",
         "VZD",
         "JNR",
         "SWO"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (SWO) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (SWO) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion(s) logically follow(s) from the statements.Statements:All dancers are singers.All singers are models.No dancer is an actor.Conclusions:(I) No singer is an actor.(II) No model is an actor.3191",
+      "question_image": null,
       "options": [
         "Both conclusions I and II follow",
         "Neither conclusion I nor II follows",
         "Only conclusion II follows",
         "Only conclusion I follows"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Neither conclusion I nor II follows) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Neither conclusion I nor II follows) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "Eight people are sitting in two parallel rows containing 4 people each in such a way that there is equal distance between adjacent persons.In row 1 – B, A, C and K are seated and all of them are facing south.In row 2 – I, D, E and L are seated and all of them are facing north.Thus each person faces another person from the other row.A sits third to the right of C. The one facing L is an immediate neighbour of C. The one facing B is an immediate neighbour of L. The one facing A is an immediate neighbour of D. I sits at some place to the left of E. Which of the following represents both people sitting at extreme ends of the line?",
+      "question_image": null,
       "options": [
         "K and I",
         "E and A",
         "C and D",
         "A and L"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (E and A) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (E and A) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following series, only one letter-cluster is incorrect. Select the INCORRECT letter-cluster.FDA   GEC   HFD   IGE   JHF   KIG",
+      "question_image": null,
       "options": [
         "HFD",
         "FDA",
         "GEC",
         "IGE"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (FDA) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (FDA) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "A certain number of people are sitting in a row, facing north. B sits fifth to the left of A. Only four people sit between A and E. E sits third from one of the extreme ends and thirteenth from the other extreme end. If no other person is sitting in the row, how many people, in total, are sitting in the row?3083",
+      "question_image": null,
       "options": [
         "15",
         "14",
         "13",
         "16"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (15) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (15) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,'the more his and' is coded as 'as df gh jk','his have bad is' is coded as 'gh pi qa tr','his and now have' is coded as 'gh jk lo pi' and'had is more gone' is coded as 'uy tr df ew'. (All the codes are two-letter codes only.)What is the possible code for ‘gone’?",
+      "question_image": null,
       "options": [
         "Either 'df' or 'tr'",
         "Either 'ew' or 'df'",
         "Either 'tr' or 'ew'",
         "Either 'ew' or 'uy'"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Either 'ew' or 'uy') है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Either 'ew' or 'uy') है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,‘A # B’ means ‘A is married to B’,‘A + B’ means ‘A is the mother of B’,‘A @ B’ means ‘A is the brother of B’,‘A $ B’ means ‘A is the sister of B’,How is P related to D if ‘D @ C # Z + P $ R’?3060",
+      "question_image": null,
       "options": [
         "Sister",
         "Mother",
         "Sister's daughter",
         "Brother’s daughter"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Brother’s daughter) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Brother’s daughter) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "In this question, a statement is given followed by two courses of action, numbered I and II. You must assume everything in the statement to be true, and on the basis of the information given in the statement, decide which of the given courses of action logically follow(s) for pursuing.Statement:Many ocean animals die daily due to the staggering amounts of hazardous chemicals and plastic pollution in our water bodies.Courses of action:I. The government and all responsible organisations should ensure that no plastic waste or harmful substances are dumped into water bodies. The rules regarding waste disposal should be implemented and enforced by the government with immediate effect.II. Campaigns are held by various organisations to educate the public about dangers caused to the ocean animals due to dumping of hazardous waste in water bodies.",
+      "question_image": null,
       "options": [
         "Only I follows.",
         "Neither I nor II follows.",
         "Both I and II follow.",
         "Only II follows."
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Both I and II follow.) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Both I and II follow.) है।",
+      "explanation_image": null
     }
   ]
 }

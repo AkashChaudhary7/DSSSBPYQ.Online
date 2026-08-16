@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "Three statements are given, followed by three conclusions numbered 1, 2 and 3. Assuming the statements to be true, even if they seem to be at variance with commonly known facts, decide which of the conclusion(s) logically follow(s) from the statements.Statements:1. Some tea are coffee.2. All coffee are juice.3. Some juice are shake.Conclusions:1. All tea are juice.2. Some tea are juice.3. No coffee is shake.",
+      "question_image": null,
       "options": [
         "Only conclusion 3 follows.",
         "Only conclusion 2 follows.",
         "Only conclusions 1 and 3 follow.",
         "Only conclusion 1 follows."
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Only conclusion 2 follows.) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Only conclusion 2 follows.) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes, A, B, C, D, E, F and G, are kept one over the other, but not necessarily in the same order. Only two boxes are kept between B and A. Only C is kept above F. No box is kept below A. D is kept at some place below E, but at some place above G. How many boxes are kept above D?",
+      "question_image": null,
       "options": [
         "5",
         "3",
         "2",
         "4"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (4) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (4) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "23 is related to 506 following a certain logic. Following the same logic, 28 is related to 756. To which of the given options is 16 related, following the same logic?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "question_image": null,
       "options": [
         "256",
         "252",
         "244",
         "240"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (240) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (240) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "A, B, C, D, K, L and M are sitting around a circular table facing the centre of the table. Only two people sit between A and B when counted from the right of A. Only two people sit between B and C. Only three people sit between A and K. M sits to the immediate left of D. Who sits third to the left of L?",
+      "question_image": null,
       "options": [
         "A",
         "K",
         "D",
         "M"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (D) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (D) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?28, 32, 40, 52, 68, ?",
+      "question_image": null,
       "options": [
         "86",
         "84",
         "88",
         "90"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (88) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (88) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "KO 4 is related to NL 1 in a certain way. In the same way, DZ 9 is related to GW 6. To which of the following is SD 7 related, following the same logic?",
+      "question_image": null,
       "options": [
         "VC 4",
         "VA −4",
         "VC −4",
         "VA 4"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (VA 4) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (VA 4) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the following series?31   28   25   22   19   ?",
+      "question_image": null,
       "options": [
         "18",
         "15",
         "16",
         "21"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (16) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (16) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "Six students, Sunita, Tina, Mina, Nila, Piyal and Rehana, are sitting around a circular table, facing the centre. Nila sits third to the right of Mina. Piyal sits to the immediate right of Mina. Sunita sits to the immediate left of Rehana. Who sits second to the right of Tina?",
+      "question_image": null,
       "options": [
         "Mina",
         "Piyal",
         "Sunita",
         "Nila"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Sunita) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Sunita) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Select the set in which the numbers are related in the same way as are the numbers of the following sets.(Note: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (216, 131)(245, 160)",
+      "question_image": null,
       "options": [
         "(261, 145)",
         "(232, 137)",
         "(195, 130)",
         "(168, 83)"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' ((168, 83)) है।"
+      "explanation": "सही उत्तर विकल्प 'D' ((168, 83)) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "Ram starts from point A and runs 4 km towards east. He then takes a left turn and runs 4 km. Then he turns right and runs 4 km. Again he turns right and runs 6 km. In the end, he turns right and runs 8 km to reach a point B. How far (shortest distance) and towards which direction should he run in order to reach Point A again? (All turns are 90-degree turns only unless specified.)",
+      "question_image": null,
       "options": [
         "4 km towards west",
         "2 km towards north",
         "3 km towards north",
         "4 km towards east"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (2 km towards north) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (2 km towards north) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given information carefully and answer the question that follows. You must assume everything in the information to be true.Company X has reported a decline in profits for the past 5 years. An audit firm report has linked this to the unstable government policies over the past five years in the textiles sector in which Company X deals. The firm has recommended Company X to diversify its business into other sectors.Which of the following can be concluded from the given information?I. Stable government policy in textiles is necessary for Company X to grow its profits.II. Company X has not diversified its business, which is leading to a decline in profits.",
+      "question_image": null,
       "options": [
         "Only I",
         "Both I and II",
         "Neither I nor II",
         "Only II"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Both I and II) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Both I and II) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,'A + B' means ‘A is the mother of B’,'A – B' means ‘A is the brother of B’,'A x B' means ‘A is the wife of B’ and'A ÷ B' means ‘A is the father of B’.How is O related to D if ‘N – O + B x L ÷ E – D’?",
+      "question_image": null,
       "options": [
         "Wife's mother",
         "Mother",
         "Mother's mother",
         "Father's mother"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Mother's mother) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Mother's mother) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘CAVE’ is coded as ‘5842’ and ‘ACES’ is coded as ‘4583’. What is the code for ‘S’ in that language?",
+      "question_image": null,
       "options": [
         "4",
         "3",
         "8",
         "5"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (3) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (3) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘+’ means ‘–’, ‘–’ means ‘×’, ‘×’ means ‘÷’, ‘÷’ means ‘+’, then what will come in place of the question mark (?) in the following equation?11 – 155 × 5 ÷ 29 + 44 = ?",
+      "question_image": null,
       "options": [
         "335",
         "326",
         "319",
         "348"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (326) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (326) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left)   156          856           865           165            423         (Right) (Example- 697 – First digit = 6, second digit = 9 and third digit = 7)Note: All operations to be done from left to right. What will be the resultant if the first digit of the highest number is added to the third digit of the lowest number?",
+      "question_image": null,
       "options": [
         "14",
         "12",
         "10",
         "9"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (14) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (14) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements:Some soups are tea.All teas are coffee.No coffee is water.Conclusions:(I) Some soups are coffee.(II) No tea is water.",
+      "question_image": null,
       "options": [
         "Only conclusion (I) follows",
         "Neither conclusion (I) nor (II) follows",
         "Only conclusion (II) follows",
         "Both conclusions (I) and (II) follow"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Both conclusions (I) and (II) follow) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Both conclusions (I) and (II) follow) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the option that is related to the fifth number in the same way as the second number is related to the first number and the fourth number is related to the third number.(Note: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) 630 : 5 : : 1302 : 6 : : 84 : ?",
+      "question_image": null,
       "options": [
         "3",
         "7",
         "34",
         "56"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (3) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (3) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "All 26 people are standing in a row facing the North. Karan is 7th from the left end while Mahi is 4th from the right end. How many people are there between Karan and Mahi?",
+      "question_image": null,
       "options": [
         "11",
         "13",
         "14",
         "15"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (15) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (15) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the term from among the given options that can replace the question mark (?) in the following series.WV1    TT4    QR9     ?   KN25",
+      "question_image": null,
       "options": [
         "NM16",
         "NP16",
         "MM36",
         "MN20"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (NP16) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (NP16) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the given letter-number clusters will replace the question mark (?) in the following series to make it logically complete?TP9, UR18, VT27, WV36, ?",
+      "question_image": null,
       "options": [
         "YY45",
         "YX54",
         "XW45",
         "XX45"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (XX45) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (XX45) है।",
+      "explanation_image": null
     }
   ]
 }

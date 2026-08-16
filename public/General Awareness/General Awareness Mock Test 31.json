@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General Awareness",
       "question": "How many members are nominated by the President of India in the Rajya Sabha?",
+      "question_image": null,
       "options": [
         "20",
         "22",
         "15",
         "12"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (12) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (12) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General Awareness",
       "question": "Which of the following schedules of the Indian Constitution deals with languages?",
+      "question_image": null,
       "options": [
         "7th Schedule",
         "8th Schedule",
         "10th Schedule",
         "9th Schedule"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (8th Schedule) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (8th Schedule) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General Awareness",
       "question": "Which of the following raw materials for the fertiliser industry is entirely imported as India does not have any reserves?",
+      "question_image": null,
       "options": [
         "Sulphur (S)",
         "Potash (K)",
         "Nitrogen (N)",
         "Phosphate (P)"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Potash (K)) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Potash (K)) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General Awareness",
       "question": "Which financial innovation is most closely associated with the securitisation of mortgage loans in the banking sector?",
+      "question_image": null,
       "options": [
         "Creation of exchange-traded funds (ETFs)",
         "Implementation of high-frequency trading algorithms",
         "Development of credit default swaps (CDS)",
         "Introduction of collateralised debt obligations (CDOs)"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Introduction of collateralised debt obligations (CDOs)) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Introduction of collateralised debt obligations (CDOs)) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General Awareness",
       "question": "How many total missions does India's National Action Plan on Climate Change (NAPCC) have as of April 2025?",
+      "question_image": null,
       "options": [
         "Seven",
         "Six",
         "Nine",
         "Eight"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Eight) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Eight) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General Awareness",
       "question": "Megasthenes was sent as an ambassador to the court of which of the following Mauryan rulers?",
+      "question_image": null,
       "options": [
         "Brihadratha",
         "Ashoka",
         "Bindusara",
         "Chandragupta Maurya"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Chandragupta Maurya) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Chandragupta Maurya) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General Awareness",
       "question": "Dr. Purabi Saikia has been awarded the Shanti Swarup Bhatnagar Award 2024 for her contributions in which field?",
+      "question_image": null,
       "options": [
         "Chemistry",
         "Environmental Science",
         "Engineering Sciences",
         "Biological Sciences"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Environmental Science) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Environmental Science) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General Awareness",
       "question": "The Annual Status of Education Report 2023 revealed higher desire among girls to pursue education beyond _________ as compared to boys.",
+      "question_image": null,
       "options": [
         "Graduation",
         "Post-graduation",
         "Class 12",
         "Class 10"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Class 12) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Class 12) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General Awareness",
       "question": "Mehrunnisa was married to _____ in 1611.",
+      "question_image": null,
       "options": [
         "Jahangir",
         "Akbar",
         "Babur",
         "Bahadur Shah Zafar"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Jahangir) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Jahangir) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General Awareness",
       "question": "The approximate empirical mass of glucose is _______.",
+      "question_image": null,
       "options": [
         "30 u",
         "90 u",
         "120 u",
         "180 u"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (30 u) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (30 u) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General Awareness",
       "question": "If the average propensity to consume is 60% at national income of ₹100 crores, then what will be the consumption expenditure?",
+      "question_image": null,
       "options": [
         "₹50 crores",
         "₹60 crores",
         "₹70 crores",
         "₹40 crores"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (₹60 crores) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (₹60 crores) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General Awareness",
       "question": "In which year did Girish Chandra Murmu assume office as the Comptroller and Auditor General (CAG) of India?",
+      "question_image": null,
       "options": [
         "2021",
         "2020",
         "2023",
         "2022"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (2020) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (2020) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General Awareness",
       "question": "Naked seeds are the characteristic feature of _____________.",
+      "question_image": null,
       "options": [
         "gymnosperms",
         "bryophytes",
         "angiosperms",
         "pteridophytes"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (gymnosperms) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (gymnosperms) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General Awareness",
       "question": "Which of the following is a FALSE statement about the Thorn forests?",
+      "question_image": null,
       "options": [
         "This type of vegetation is found in the north-western part of the country.",
         "Trees are scattered and have long roots penetrating deep into the soil in order to get moisture.",
         "Leaves are mostly thick and small to minimise evaporation.",
         "This forest is spread over the region receiving rainfall between 200 cm and 70 cm."
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (This forest is spread over the region receiving rainfall between 200 cm and 70 cm.) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (This forest is spread over the region receiving rainfall between 200 cm and 70 cm.) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General Awareness",
       "question": "Who passed an Act in 1898, making it an offence to provoke people against the British rulers?",
+      "question_image": null,
       "options": [
         "Lord Lytton",
         "Lord Willingdon",
         "Lord Dalhousie",
         "Lord Curzon"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Lord Curzon) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Lord Curzon) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General Awareness",
       "question": "Who won the Khelo India University Games 2024?",
+      "question_image": null,
       "options": [
         "Delhi University",
         "Chandigarh University",
         "Indira Gandhi National Open University",
         "Amity University"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Chandigarh University) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Chandigarh University) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General Awareness",
       "question": "As per the provision of the Constitution (89th Amendment) Act of which year was the National Commission for SC & ST replaced by two Commissions named National Commission for Scheduled Castes (NCSC) and National Commission for Scheduled Tribes (NCST)?",
+      "question_image": null,
       "options": [
         "1997",
         "2003",
         "2007",
         "1999"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (2003) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (2003) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General Awareness",
       "question": "Which of the following best describes the 'poverty trap' phenomenon that is often seen in developing economies?",
+      "question_image": null,
       "options": [
         "A condition where poverty is alleviated through short-term government subsidies",
         "A temporary phase where poverty levels fluctuate due to market volatility",
         "A situation where individuals cannot escape poverty due to a lack of resources and opportunities",
         "A cyclical pattern where economic growth leads to a temporary reduction in poverty"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (A situation where individuals cannot escape poverty due to a lack of resources and opportunities) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (A situation where individuals cannot escape poverty due to a lack of resources and opportunities) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General Awareness",
       "question": "Which constitutional amendment incorporated the Fundamental Duties into the Constitution of India?",
+      "question_image": null,
       "options": [
         "44th Constitutional Amendment",
         "38th Constitutional Amendment",
         "42nd Constitutional Amendment",
         "48th Constitutional Amendment"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (42nd Constitutional Amendment) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (42nd Constitutional Amendment) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General Awareness",
       "question": "1347 में, बहमनी सल्तनत की स्थापना किसने की थी?",
+      "question_image": null,
       "options": [
         "अलाउद्दीन हसन बहमन शाह",
         "मुहम्मद शाह",
         "मोहम्मद बिन तुगलक",
         "फ़िरोज़ शाह बहमनी"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (अलाउद्दीन हसन बहमन शाह) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (अलाउद्दीन हसन बहमन शाह) है।",
+      "explanation_image": null
     }
   ]
 }

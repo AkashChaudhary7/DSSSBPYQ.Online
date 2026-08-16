@@ -6,281 +6,321 @@
       "id": 1,
       "section": "Arithmetical and Numerical Ability",
       "question": "Find the simple interest (in ₹) if a sum of ₹400 is borrowed for 8.5 years at 16% per annum rate of interest.",
+      "question_image": null,
       "options": [
         "524",
         "644",
         "544",
         "594"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (544) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (544) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "Arithmetical and Numerical Ability",
       "question": "Kalpana and Sudha got 624 and 598 marks, respectively, in the same examination. If Kalpana scored 24% marks, then what is the percentage of marks scored by Sudha?",
+      "question_image": null,
       "options": [
         "25%",
         "23%",
         "24%",
         "20%"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (23%) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (23%) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "Arithmetical and Numerical Ability",
       "question": "A trader marks his goods at 43% above the cost price and allows a discount of 10% on them. If he still makes a profit of x%, then the value of x is:",
+      "question_image": null,
       "options": [
         "7",
         "7",
         "7",
         "7"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (7) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (7) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "Arithmetical and Numerical Ability",
       "question": "A bus is moving at a speed of 79 km/h. If its speed is reduced by 53%, then the new speed of the bus (in km/h) will be:",
+      "question_image": null,
       "options": [
         "29",
         "88",
         "89",
         "13"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (13) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (13) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "Arithmetical and Numerical Ability",
       "question": "Two students appeared in an examination. One of them secured 14 marks more than the other and his marks were 60% of the sum of their marks. The sum of the marks obtained by them was:",
+      "question_image": null,
       "options": [
         "84",
         "71",
         "70",
         "56"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (70) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (70) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "Arithmetical and Numerical Ability",
       "question": "A started a business with a capital of ₹1,38,000. After 4 months, B joined him with a certain amount of capital. At the end of a year of A's starting the business, the profit was shared in the ratio 2 : 1. How much (in ₹) did B invest?",
+      "question_image": null,
       "options": [
         "99,200",
         "83,500",
         "1,03,500",
         "1,15,400"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (1,03,500) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (1,03,500) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "Arithmetical and Numerical Ability",
       "question": "Arvind bought an article for ₹x. He sold it to Biru at a loss of 30%. Biru spent ₹113 on its transportation and sold it to Minu at a profit of 38%. If Minu bought it for ₹1518, then what is the value of x?",
+      "question_image": null,
       "options": [
         "1400",
         "1398",
         "1436",
         "1410"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (1410) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (1410) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "Arithmetical and Numerical Ability",
       "question": "The two diagonals and one side of a parallelogram are 8 cm, 14 cm and 9 cm, respectively. What is the perimeter of the parallelogram?",
+      "question_image": null,
       "options": [
         "32 cm",
         "50 cm",
         "30 cm",
         "34 cm"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (32 cm) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (32 cm) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "Arithmetical and Numerical Ability",
       "question": "X and Y, working separately can do a piece of work in 14 and 21 days, respectively. If they work on alternate days beginning with X, and get paid ₹45 per day, then find the amount received by X after the completion of work.",
+      "question_image": null,
       "options": [
         "₹360",
         "₹405",
         "₹390",
         "₹384"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (₹405) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (₹405) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "Arithmetical and Numerical Ability",
       "question": "Pipe A can fill a tank in 6 hours, pipe B can fill the same tank in 3 hours, and pipe C can fill the same tank in 2 hours. The time taken (in hours) by them to fill the same tank if they operate together is:",
+      "question_image": null,
       "options": [
         "1",
         "2",
         "3",
         "4"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (1) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (1) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "Arithmetical and Numerical Ability",
       "question": "One-third of a journey is covered at a speed of 41 km/hr, the next one-third of the journey is covered at a speed of 17 km/hr, and the remaining journey is covered at a speed of 18 km/hr. The average speed (in km/hr, rounded off to 1 decimal place) for the entire journey is:",
+      "question_image": null,
       "options": [
         "3",
         "8",
         "5",
         "6"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (6) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (6) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "Arithmetical and Numerical Ability",
       "question": "A retailer allows a trade discount of 40%, followed by a cash discount of 15% on the price to have been paid after the trade discount. If a customer paid ₹1,530 for an article, then how much was the cash discount (in ₹)?",
+      "question_image": null,
       "options": [
         "285",
         "208",
         "180",
         "270"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (270) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (270) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average of the marks of 13 students in a class is 58. If the marks of each student are doubled, then find the new average.",
+      "question_image": null,
       "options": [
         "13",
         "58",
         "26",
         "116"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (116) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (116) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "Arithmetical and Numerical Ability",
       "question": "Virat invested ₹90,000 at 18% p.a. for 1 year at compound interest, compounded half-yearly. The amount received by him is:",
+      "question_image": null,
       "options": [
         "₹1,07,308",
         "₹1,06,844",
         "₹1,06,701",
         "₹1,06,929"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (₹1,06,929) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (₹1,06,929) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average price of three items of furniture is ₹5,235. If their prices are in the ratio 3 : 5 : 7, then the price (in ₹) of the costliest item is:",
+      "question_image": null,
       "options": [
         "6,141",
         "7,047",
         "5,235",
         "7,329"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (7,329) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (7,329) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average of three numbers is 20. If two numbers are 12 and 28, the third number is:",
+      "question_image": null,
       "options": [
         "21",
         "20",
         "22",
         "19"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (20) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (20) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "Arithmetical and Numerical Ability",
       "question": "Salil invested ₹58,500 in a bank. In two years, how much compound interest (in ₹) will he get considering annual compounding, if the first year rate of interest was 8% per annum and second year had 2% per annum more than first year?",
+      "question_image": null,
       "options": [
         "11,248",
         "10,998",
         "10,798",
         "10,648"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (10,998) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (10,998) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "Arithmetical and Numerical Ability",
       "question": "In a library, the ratio of number of story books to that of non-story books was 4:1, and total number of story books was 1224. When some more story books were bought, the ratio became 13:1. Find the number of story books bought.",
+      "question_image": null,
       "options": [
         "2769",
         "2754",
         "2761",
         "2737"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (2754) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (2754) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "Arithmetical and Numerical Ability",
       "question": "The LCM of the numbers 14, 65 and 89 is:",
+      "question_image": null,
       "options": [
         "80,990",
         "80,190",
         "80,440",
         "80,490"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (80,990) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (80,990) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "Arithmetical and Numerical Ability",
       "question": "During the festive season, a shopkeeper announces a special offer: “Buy 12 crackers and get 3 crackers free”. What is the effective discount percentage under this scheme?",
+      "question_image": null,
       "options": [
         "18%",
         "19%",
         "20%",
         "21%"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (20%) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (20%) है।",
+      "explanation_image": null
     }
   ]
 }

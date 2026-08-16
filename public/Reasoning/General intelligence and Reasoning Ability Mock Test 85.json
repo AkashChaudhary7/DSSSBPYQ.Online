@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of P, Q, R, S, T, U and V has exam on a different day of a week starting from Monday and ending on Sunday of the same week. R has exam on Wednesday. Exactly three people have exam between R and Q. P has exam immediately after S, and V has exam immediately before S. Only three people have exam between T and S. Who has exam on Tuesday?",
+      "question_image": null,
       "options": [
         "T",
         "Q",
         "U",
         "V"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (U) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (U) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,‘A + B’ means ‘A is the wife of B’,‘A ¥ B’ means ‘A is the father of B’, ‘A x B’ means ‘A is the brother of B’ and ‘A % B’ means ‘A is the son of B’.Which of the following means that G is the brother's wife of S?",
+      "question_image": null,
       "options": [
         "G + O x A ¥ L % S",
         "G x O + A % L ¥ S",
         "G ¥ O x A % L + S",
         "G + O % A ¥ L x S"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (G + O % A ¥ L x S) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (G + O % A ¥ L x S) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "Rohan starts from Point I and walks south for 32 m. He takes a left turn, walks for 45 m and then takes a right turn, walks for 18 m, and stops at Point K. Reshma starts to walk from Point P, which is 30 m to the west of Point K. She walks 25 m towards the south, then takes a right turn and walks for 15 m, and stops at Point O. What is the shortest distance between Point I and Point O? (All turns are 90-degree turns only.)",
+      "question_image": null,
       "options": [
         "18 m",
         "75 m",
         "25 m",
         "60 m"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (75 m) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (75 m) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of C, D, E, F, G, H and X has exam on a different day of a week starting from Monday and ending on Sunday of the same week. G has exam on Thursday and F has exam on Saturday. C has exam immediately before H. E has exam on one of the days after X. D has exam immediately after H.How many people have exam between E and D?",
+      "question_image": null,
       "options": [
         "One",
         "Two",
         "Three",
         "Four"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Three) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Three) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete?TOL22 SNK35 RMJ48 QLI61 ?",
+      "question_image": null,
       "options": [
         "PKH74",
         "PKG75",
         "PKG74",
         "PKH75"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (PKH74) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (PKH74) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the following words.(Left)  ASH   VOW   JIG   COB  (Right)How many letters are there between the first letter of the second word from the right and the second letter of the first word from the left as per the English alphabetical order?",
+      "question_image": null,
       "options": [
         "8",
         "4",
         "11",
         "19"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (8) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (8) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the following letter-clusters should replace # and % so that the pattern and relationship followed between the letter-cluster pair on the left side of :: is the same as that on the right side of ::?# : SVU :: CFE : %",
+      "question_image": null,
       "options": [
         "# = OTS, % = GJI",
         "# = ORQ, % = GIJ",
         "# = ORP, % = FIH",
         "# = ORQ, % = GJI"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (# = ORQ, % = GJI) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (# = ORQ, % = GJI) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,'few inspiring moments' is coded as 'os sy ev','few bright color' is coded as 'ne zb os' and'color is inspiring' is coded as 'sy qz zb'.(All the codes are two-letter coded only.)What is the code for 'bright moments'?",
+      "question_image": null,
       "options": [
         "ev qz",
         "ne ev",
         "os qz",
         "sy zb"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (ne ev) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (ne ev) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "12 is related to 37 following a certain logic. Following the same logic, 15 is related to 46. To which of the given options is 18 related, following the same logic? (Note: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g., 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "question_image": null,
       "options": [
         "65",
         "64",
         "54",
         "55"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (55) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (55) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "Eight people, I, J, C, D, E, F, G and H, are sitting around a square table, facing the centre of the table. Some of them are sitting at the corners, while some are sitting at the exact centres of the sides. G is sitting second to the right of I. I is not sitting at any of the corners. Only three people are sitting between G and J when counted from the left of G. H is not sitting at any of the corners. E is an immediate neighbour of neither I nor J. Only three people are sitting between E and D. F is not an immediate neighbour of G. How many people are sitting between C and E when counted from the right of C?",
+      "question_image": null,
       "options": [
         "Three",
         "Two",
         "One",
         "Four"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (One) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (One) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,‘A + B’ means ‘A is the mother of B’,‘A – B’ means ‘A is the brother of B’,‘A × B’ means ‘A is the wife of B’ and‘A ÷ B’ means ‘A is the father of B’.How is Q related to J if ‘M + G − P × Q ÷ R × F÷ J’?3354",
+      "question_image": null,
       "options": [
         "Mother’s father",
         "Father’s mother",
         "Mother’s brother",
         "Brother’s wife"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Mother’s father) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Mother’s father) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number results in the second number. Similarly, certain mathematical operation(s) on the second number results in the third number and so on. Which of the given options follows the same set of operations as in the given sets? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting /multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) 85 - 72 - 60 - 4996 - 83 - 71 - 60437",
+      "question_image": null,
       "options": [
         "122 - 111 - 99 - 86",
         "109 - 96 - 84 - 73",
         "131 - 118 - 107 - 85",
         "148 - 135 - 113 - 102"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (109 - 96 - 84 - 73) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (109 - 96 - 84 - 73) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "QTOP is related to SVQR in a certain way based on the English alphabetical order. In the same way, YBWX is related to ADYZ. To which of the following options is EHCD related, following the same logic?",
+      "question_image": null,
       "options": [
         "WERT",
         "GJEF",
         "BHYT",
         "MKJI"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (GJEF) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (GJEF) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left)  473   759   627   823    351 (Right)(Example- 697 – First digit = 6, second digit = 9 and third digit = 7)NOTE - All operations to be done from left to right.What will be the resultant if the third digit of the highest number is added to the second digit of the lowest number?",
+      "question_image": null,
       "options": [
         "12",
         "9",
         "8",
         "11"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (8) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (8) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "A, B, C, D, E and F live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it is numbered 2 and so on, till the topmost floor is numbered 6. Only five people live above D. E does not live above B. Only three people live between F and E. A lives below C but above B. How many people live below B?",
+      "question_image": null,
       "options": [
         "Three",
         "Two",
         "Four",
         "One"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Two) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Two) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘P’ means ‘÷’, ‘Q’ means ‘−’, ‘R’ means ‘×’ and ‘S’ means ‘+’, then what will come in place of the question mark (?) in the following equation?8 S 3 Q 5 R 2 S 7 Q 6 P 3 = ?589",
+      "question_image": null,
       "options": [
         "5",
         "8",
         "4",
         "6"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (6) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (6) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left)  429   648   371   284    783 (Right)(Example- 697 – First digit = 6, second digit = 9 and third digit = 7)NOTE - All operations to be done from left to right.What will be the resultant if the third digit of the highest number is added to the second digit of the lowest number?",
+      "question_image": null,
       "options": [
         "13",
         "9",
         "12",
         "11"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (11) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (11) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of D, E, F, O, P, U and V has an exam on a different day of a week starting from Monday and ending on Sunday of the same week. F has exam on Thursday. U has exam on one of the days after O and on one of the days before E. No one has exam after D. Only P has exam between D and V. How many people have exam between P and O?",
+      "question_image": null,
       "options": [
         "Three",
         "One",
         "Two",
         "Four"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Four) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Four) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following number-pairs, the second number is obtained by applying certain mathematical operation(s) to the first number. Select the number-pair in which the numbers are related in the same way as are the numbers of the following pairs.(Note: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)13 - 3345 - 65",
+      "question_image": null,
       "options": [
         "120 - 153",
         "56 - 77",
         "65 - 87",
         "78 - 98"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (78 - 98) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (78 - 98) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following series, only one letter-number cluster is incorrect. Select the INCORRECT letter-number cluster.LF15, CZ31, TT47, KN63, BH79, PC97 3355",
+      "question_image": null,
       "options": [
         "PC97",
         "LF15",
         "TT47",
         "KN63"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (PC97) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (PC97) है।",
+      "explanation_image": null
     }
   ]
 }

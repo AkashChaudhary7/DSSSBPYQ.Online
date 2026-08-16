@@ -6,281 +6,321 @@
       "id": 1,
       "section": "English Language and Comprehension",
       "question": "Select the sentence in which all the words are correctly spelt.",
+      "question_image": null,
       "options": [
         "She sought to allieviate the tensions by facilitating an open dialogue between both parties.",
         "She sought to alleviete the tensions by facilitating an open dialogue between both parties.",
         "She sought to alleiviate the tensions by facilitating an open dialogue between both parties.",
         "She sought to alleviate the tensions by facilitating an open dialogue between both parties."
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (She sought to alleviate the tensions by facilitating an open dialogue between both parties.) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (She sought to alleviate the tensions by facilitating an open dialogue between both parties.) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A) She could hear the sound of footsteps behind her, growing louder and closer.B) Turning a corner, she was relieved to see her friends waiting at the park bench.C) As she walked through the dark alley, she began to feel uneasy.D) Finally, she stopped and turned around, but saw nothing.E) The streetlights cast long, moving shadows that made her heart race.",
+      "question_image": null,
       "options": [
         "ABCDE",
         "CEADB",
         "DEABC",
         "CAEBD"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (CEADB) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (CEADB) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. Cybercrime encompasses a wide range of malicious activities, including identity theft, financial fraud, hacking, cyberstalking and the distribution of harmful software, among others.B. This surge is attributed to the increasing penetration of the internet and digital services across the globe, making more individuals and organisations vulnerable to cyber threats.C. The digital age, while bringing unparalleled convenience and connectivity, has also seen a parallel and alarming rise in cybercrime.D. As more people conduct their financial transactions, social interactions and professional activities online, the opportunities for cybercriminals to exploit vulnerabilities have multiplied.",
+      "question_image": null,
       "options": [
         "ABDC",
         "BACD",
         "DBAC",
         "CBAD"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (CBAD) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (CBAD) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.Regular physical activity is crucial for maintaining optimal health and fitness levels. Moreover, it is essential for all aspects of life. The current generation of young people, in particular, requires a greater focus on physical fitness. The frequent consumption of junk food can negatively affect their overall quality of life. Living a fulfilling life and making meaningful contributions to society depend largely on one's health. Therefore, it is vital to engage in regular physical activity to address these challenges. However, this issue is not limited to the younger generation but applies to everyone in the community. In modern times, physical activities have become increasingly prevalent in educational settings. Experts are often invited to schools and colleges to organise and coordinate these activities. This offers a valuable opportunity for individuals interested in promoting physical fitness and participating in such endeavours.According to the passage, which generation requires a greater focus on physical fitness?",
+      "question_image": null,
       "options": [
         "The elderly",
         "Young people",
         "Middle-aged individuals",
         "The entire population"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Young people) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Young people) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.Regular physical activity is crucial for maintaining optimal health and fitness levels. Moreover, it is essential for all aspects of life. The current generation of young people, in particular, requires a greater focus on physical fitness. The frequent consumption of junk food can negatively affect their overall quality of life. Living a fulfilling life and making meaningful contributions to society depend largely on one's health. Therefore, it is vital to engage in regular physical activity to address these challenges. However, this issue is not limited to the younger generation but applies to everyone in the community. In modern times, physical activities have become increasingly prevalent in educational settings. Experts are often invited to schools and colleges to organise and coordinate these activities. This offers a valuable opportunity for individuals interested in promoting physical fitness and participating in such endeavours.What does the passage suggest is necessary for living a fulfilling life and contributing to society?",
+      "question_image": null,
       "options": [
         "Earning a high income",
         "Having a good state of health",
         "Travelling the world",
         "Pursuing higher education"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Having a good state of health) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Having a good state of health) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.Regular physical activity is crucial for maintaining optimal health and fitness levels. Moreover, it is essential for all aspects of life. The current generation of young people, in particular, requires a greater focus on physical fitness. The frequent consumption of junk food can negatively affect their overall quality of life. Living a fulfilling life and making meaningful contributions to society depend largely on one's health. Therefore, it is vital to engage in regular physical activity to address these challenges. However, this issue is not limited to the younger generation but applies to everyone in the community. In modern times, physical activities have become increasingly prevalent in educational settings. Experts are often invited to schools and colleges to organise and coordinate these activities. This offers a valuable opportunity for individuals interested in promoting physical fitness and participating in such endeavours.What is the most appropriate ANTONYM of the word \"optimal\" as used in the passage?",
+      "question_image": null,
       "options": [
         "Instantaneous",
         "Ideal",
         "Poor",
         "Maximum"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Poor) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Poor) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.Regular physical activity is crucial for maintaining optimal health and fitness levels. Moreover, it is essential for all aspects of life. The current generation of young people, in particular, requires a greater focus on physical fitness. The frequent consumption of junk food can negatively affect their overall quality of life. Living a fulfilling life and making meaningful contributions to society depend largely on one's health. Therefore, it is vital to engage in regular physical activity to address these challenges. However, this issue is not limited to the younger generation but applies to everyone in the community. In modern times, physical activities have become increasingly prevalent in educational settings. Experts are often invited to schools and colleges to organise and coordinate these activities. This offers a valuable opportunity for individuals interested in promoting physical fitness and participating in such endeavours.Which of the following would be the most appropriate title for the passage?",
+      "question_image": null,
       "options": [
         "The Benefits of a Healthy Diet",
         "Physical Activity: Key to a Healthy Life",
         "The Decline of Physical Fitness in Society",
         "Junk Food and Its Dangers"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Physical Activity: Key to a Healthy Life) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Physical Activity: Key to a Healthy Life) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.Regular physical activity is crucial for maintaining optimal health and fitness levels. Moreover, it is essential for all aspects of life. The current generation of young people, in particular, requires a greater focus on physical fitness. The frequent consumption of junk food can negatively affect their overall quality of life. Living a fulfilling life and making meaningful contributions to society depend largely on one's health. Therefore, it is vital to engage in regular physical activity to address these challenges. However, this issue is not limited to the younger generation but applies to everyone in the community. In modern times, physical activities have become increasingly prevalent in educational settings. Experts are often invited to schools and colleges to organise and coordinate these activities. This offers a valuable opportunity for individuals interested in promoting physical fitness and participating in such endeavours.What is the main theme of the passage?",
+      "question_image": null,
       "options": [
         "The responsibilities of educational institutions in promoting fitness",
         "The benefits of proper nutrition and avoiding junk food",
         "The crucial role of physical activity for health and well-being",
         "The impact of modern lifestyles on physical activity"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (The crucial role of physical activity for health and well-being) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (The crucial role of physical activity for health and well-being) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.The study of ancient civilisations provides valuable insights into human history, offering a window into the lives of people who lived thousands of years ago. Archaeological discoveries have shed light on the daily lives and customs of ancient peoples, revealing how they lived, worked and interacted with their environment. These findings help us understand the development of cultures and societies, showing us the evolution of human civilisation over time. For instance, the excavation of ancient cities has uncovered artifacts such as tools, pottery and inscriptions that tell us about the technological advancements, trade practices and social structures of these societies.However, interpreting these artifacts can be challenging due to limited information. Often, archaeologists must piece together incomplete records and fragmented objects to form a coherent picture of the past. This process requires a great deal of expertise and often involves making educated guesses based on the available evidence. The context in which an artifact is found can significantly influence its interpretation, and without a complete understanding of this context, our conclusions may be tentative or subject to revision.Ongoing research and technological advances continue to reveal new aspects of ancient civilisations. Modern techniques such as radiocarbon dating, DNA analysis and remote sensing have revolutionised the field of archaeology, allowing researchers to obtain more precise and detailed information about ancient peoples and their environments.What types of artifacts are commonly discovered in ancient cities?",
+      "question_image": null,
       "options": [
         "Sculptures, novels, and telescopes",
         "Tools, pottery, and inscriptions",
         "Bones, flags, and machines",
         "Jewelry, calendars, and cloths"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Tools, pottery, and inscriptions) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Tools, pottery, and inscriptions) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.The study of ancient civilisations provides valuable insights into human history, offering a window into the lives of people who lived thousands of years ago. Archaeological discoveries have shed light on the daily lives and customs of ancient peoples, revealing how they lived, worked and interacted with their environment. These findings help us understand the development of cultures and societies, showing us the evolution of human civilisation over time. For instance, the excavation of ancient cities has uncovered artifacts such as tools, pottery and inscriptions that tell us about the technological advancements, trade practices and social structures of these societies.However, interpreting these artifacts can be challenging due to limited information. Often, archaeologists must piece together incomplete records and fragmented objects to form a coherent picture of the past. This process requires a great deal of expertise and often involves making educated guesses based on the available evidence. The context in which an artifact is found can significantly influence its interpretation, and without a complete understanding of this context, our conclusions may be tentative or subject to revision.Ongoing research and technological advances continue to reveal new aspects of ancient civilisations. Modern techniques such as radiocarbon dating, DNA analysis and remote sensing have revolutionised the field of archaeology, allowing researchers to obtain more precise and detailed information about ancient peoples and their environments.What is the central theme of the passage?",
+      "question_image": null,
       "options": [
         "Gaining insights from the past and overcoming interpretive challenges",
         "The technological superiority of modern civilisations over ancient ones",
         "The need for more funding in archaeological research",
         "The importance of studying mythical narratives and cultural practices"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Gaining insights from the past and overcoming interpretive challenges) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Gaining insights from the past and overcoming interpretive challenges) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.The study of ancient civilisations provides valuable insights into human history, offering a window into the lives of people who lived thousands of years ago. Archaeological discoveries have shed light on the daily lives and customs of ancient peoples, revealing how they lived, worked and interacted with their environment. These findings help us understand the development of cultures and societies, showing us the evolution of human civilisation over time. For instance, the excavation of ancient cities has uncovered artifacts such as tools, pottery and inscriptions that tell us about the technological advancements, trade practices and social structures of these societies.However, interpreting these artifacts can be challenging due to limited information. Often, archaeologists must piece together incomplete records and fragmented objects to form a coherent picture of the past. This process requires a great deal of expertise and often involves making educated guesses based on the available evidence. The context in which an artifact is found can significantly influence its interpretation, and without a complete understanding of this context, our conclusions may be tentative or subject to revision.Ongoing research and technological advances continue to reveal new aspects of ancient civilisations. Modern techniques such as radiocarbon dating, DNA analysis and remote sensing have revolutionised the field of archaeology, allowing researchers to obtain more precise and detailed information about ancient peoples and their environments.Which modern technique is used to determine the age of organic materials?",
+      "question_image": null,
       "options": [
         "Carbon fusion",
         "Radiocarbon dating",
         "Spectroscopy",
         "Sonar scanning"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Radiocarbon dating) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Radiocarbon dating) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.The study of ancient civilisations provides valuable insights into human history, offering a window into the lives of people who lived thousands of years ago. Archaeological discoveries have shed light on the daily lives and customs of ancient peoples, revealing how they lived, worked and interacted with their environment. These findings help us understand the development of cultures and societies, showing us the evolution of human civilisation over time. For instance, the excavation of ancient cities has uncovered artifacts such as tools, pottery and inscriptions that tell us about the technological advancements, trade practices and social structures of these societies.However, interpreting these artifacts can be challenging due to limited information. Often, archaeologists must piece together incomplete records and fragmented objects to form a coherent picture of the past. This process requires a great deal of expertise and often involves making educated guesses based on the available evidence. The context in which an artifact is found can significantly influence its interpretation, and without a complete understanding of this context, our conclusions may be tentative or subject to revision.Ongoing research and technological advances continue to reveal new aspects of ancient civilisations. Modern techniques such as radiocarbon dating, DNA analysis and remote sensing have revolutionised the field of archaeology, allowing researchers to obtain more precise and detailed information about ancient peoples and their environments.Select the most appropriate ANTONYM of the given word as used in the passage.\n\nTentative",
+      "question_image": null,
       "options": [
         "Incorrect",
         "Uncertain",
         "Completed",
         "Confirmed"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Confirmed) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Confirmed) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.The study of ancient civilisations provides valuable insights into human history, offering a window into the lives of people who lived thousands of years ago. Archaeological discoveries have shed light on the daily lives and customs of ancient peoples, revealing how they lived, worked and interacted with their environment. These findings help us understand the development of cultures and societies, showing us the evolution of human civilisation over time. For instance, the excavation of ancient cities has uncovered artifacts such as tools, pottery and inscriptions that tell us about the technological advancements, trade practices and social structures of these societies.However, interpreting these artifacts can be challenging due to limited information. Often, archaeologists must piece together incomplete records and fragmented objects to form a coherent picture of the past. This process requires a great deal of expertise and often involves making educated guesses based on the available evidence. The context in which an artifact is found can significantly influence its interpretation, and without a complete understanding of this context, our conclusions may be tentative or subject to revision.Ongoing research and technological advances continue to reveal new aspects of ancient civilisations. Modern techniques such as radiocarbon dating, DNA analysis and remote sensing have revolutionised the field of archaeology, allowing researchers to obtain more precise and detailed information about ancient peoples and their environments.What is likely to happen when context is missing during artifact analysis?",
+      "question_image": null,
       "options": [
         "Interpretations may be less reliable.",
         "Analysis will become faster and cheaper.",
         "Researchers will find new inscriptions.",
         "Discoveries will become more detailed."
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Interpretations may be less reliable.) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Interpretations may be less reliable.) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "English Language and Comprehension",
       "question": "Identify the option that rectifies the given sentence to make it grammatically correct. She bought a red beautiful scarf for her sister.",
+      "question_image": null,
       "options": [
         "She bought a scarf beautiful red for her sister.",
         "She bought a beautiful scarf red for her sister.",
         "She bought a beautiful red scarf for her sister.",
         "She bought a red beautiful scarf for her sister."
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (She bought a beautiful red scarf for her sister.) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (She bought a beautiful red scarf for her sister.) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "English Language and Comprehension",
       "question": "Select the option that can be used as a one-word substitute for the given group of words.A person with the ability to speak or write several languages",
+      "question_image": null,
       "options": [
         "Bilingual",
         "Linguist",
         "Monolingual",
         "Polyglot"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Polyglot) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Polyglot) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blanks.To prepare for his lecture on ethics, the philosopher consulted ______ ancient Greek text and ______ modern treatise on moral psychology.",
+      "question_image": null,
       "options": [
         "an; a",
         "a; an",
         "No article required; a",
         "an; an"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (an; a) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (an; a) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate ANTONYM of the highlighted word in the given sentence.The innovative design of the smartphone impressed the buyers.",
+      "question_image": null,
       "options": [
         "conventional",
         "ingenious",
         "modern",
         "creative"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (conventional) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (conventional) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.The scientist presented a _____ methodology that left no room for error.",
+      "question_image": null,
       "options": [
         "rigorous",
         "confusing",
         "brief",
         "outdated"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (rigorous) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (rigorous) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "English Language and Comprehension",
       "question": "Identify the INCORRECTLY spelt word in the given sentence.The keynote address fascinated the audience with its inspirng views.",
+      "question_image": null,
       "options": [
         "inspirng",
         "audience",
         "fascinated",
         "keynote"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (inspirng) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (inspirng) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate meaning of the given idiom.To paint the town red1015",
+      "question_image": null,
       "options": [
         "To go out and celebrate",
         "To participate in a protest",
         "To create a public spectacle",
         "To vandalise public property"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (To go out and celebrate) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (To go out and celebrate) है।",
+      "explanation_image": null
     }
   ]
 }

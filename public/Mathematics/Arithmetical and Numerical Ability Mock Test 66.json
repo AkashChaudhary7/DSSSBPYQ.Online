@@ -6,281 +6,321 @@
       "id": 1,
       "section": "Arithmetical and Numerical Ability",
       "question": "रमेश ने एक निश्चित धनराशि को 12% वार्षिक साधारण ब्याज की दर से निवेश किया। यदि उसे 15 वर्षों के बाद ₹58,716 ब्याज प्राप्त होता है, तो उसके द्वारा निवेश की गई धनराशि (₹ में) कितनी है?",
+      "question_image": null,
       "options": [
         "33,187",
         "31,635",
         "32,270",
         "32,620"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (32,620) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (32,620) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "Arithmetical and Numerical Ability",
       "question": "The distance between A and B is 853 km. From A, Sumit goes to B at a speed of 23 km/h and returns to A at a speed of 68 km/h. Find the average speed of Sumit. (Round off to two decimal places.)",
+      "question_image": null,
       "options": [
         "25.82 km/h",
         "25.43 km/h",
         "41.87 km/h",
         "34.37 km/h"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (34.37 km/h) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (34.37 km/h) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "Arithmetical and Numerical Ability",
       "question": "The base and the corresponding height of a parallelogram are 32 cm and 58 cm, respectively. The area of the parallelogram (in cm2) is:",
+      "question_image": null,
       "options": [
         "1856",
         "1878",
         "1830",
         "1808"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (1856) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (1856) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "Arithmetical and Numerical Ability",
       "question": "The production of vegetable oil by five factories (in lakh tonnes) is given in the table. Study the table carefully and answer the question that follows. \t\t\t\t\t\tFactory\t\t\tYear\t\t\t\t\t\t\t\t\t\t1990\t\t\t1991\t\t\t1992\t\t\t1993\t\t\t1994\t\t\t\t\t\t\tSunflower\t\t\t9.0\t\t\t10.5\t\t\t8.9\t\t\t11.7\t\t\t8.5\t\t\t\t\t\t\tPeanut\t\t\t14.5\t\t\t16.2\t\t\t16.2\t\t\t16.4\t\t\t16.8\t\t\t\t\t\t\tMustard\t\t\t14.9\t\t\t15.6\t\t\t16.8\t\t\t16.9\t\t\t17.8\t\t\t\t\t\t\tRice Bran\t\t\t7.6\t\t\t8.4\t\t\t7.4\t\t\t7.9\t\t\t8.6\t\t\t\t\t\t\tSoybean\t\t\t21.0\t\t\t22.6\t\t\t23.2\t\t\t22.2\t\t\t23.9\t\t\tWhat was the average production by all the five factories in the year 1992 (in lakh tonnes)?1089",
+      "question_image": null,
       "options": [
         "12.5",
         "13.5",
         "11.5",
         "14.5"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (14.5) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (14.5) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "Arithmetical and Numerical Ability",
       "question": "What is the average (arithmetic mean) of a set of numbers?",
+      "question_image": null,
       "options": [
         "The largest number in the set",
         "The product of all the numbers in the set",
         "The difference between the largest and smallest numbers in the set",
         "The sum of all the numbers in the set divided by the total number of numbers"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (The sum of all the numbers in the set divided by the total number of numbers) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (The sum of all the numbers in the set divided by the total number of numbers) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "Arithmetical and Numerical Ability",
       "question": "If the mean proportional of P and 169 is 104, then find the value of P.",
+      "question_image": null,
       "options": [
         "64",
         "66",
         "65",
         "67"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (64) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (64) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "Arithmetical and Numerical Ability",
       "question": "Evaluate:  { – (4 – (10 – 8))}",
+      "question_image": null,
       "options": [
         "1",
         "–2",
         "–3",
         "–6"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (–2) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (–2) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "Arithmetical and Numerical Ability",
       "question": "Which of the following pairs of numbers are coprime?",
+      "question_image": null,
       "options": [
         "(7+7, 7+28)",
         "(3+6, 3+9)",
         "(8+8, 8+20)",
         "(10+8, 10+15)"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' ((10+8, 10+15)) है।"
+      "explanation": "सही उत्तर विकल्प 'D' ((10+8, 10+15)) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "Arithmetical and Numerical Ability",
       "question": "A student scored 70 out of 100 in the first semester and improved to 84 out of 100 in the second semester. What is the percentage increase in the student's score?",
+      "question_image": null,
       "options": [
         "18.57%",
         "22.85%",
         "25%",
         "20%"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (20%) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (20%) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "Arithmetical and Numerical Ability",
       "question": "A cuboidal tank having dimensions 35 m × 20 m × 6 m is full of water. The whole water is transferred to another empty cuboidal tank whose length is 25 m and breadth is 14 m. What is the height of the water level in this tank?",
+      "question_image": null,
       "options": [
         "10 m",
         "14 m",
         "16 m",
         "12 m"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (12 m) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (12 m) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "Arithmetical and Numerical Ability",
       "question": "A shopkeeper marks an article at ₹x and offers a discount of 20% on it. He sells it for ₹480 after charging VAT of 20% on the discounted price. What is the value of x?",
+      "question_image": null,
       "options": [
         "500",
         "300",
         "700",
         "400"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (500) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (500) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "Arithmetical and Numerical Ability",
       "question": "Find the simple interest (in ₹) on ₹2,000 at 5% per annum rate of interest for the period from 12 February 2023 to 26 April 2023.",
+      "question_image": null,
       "options": [
         "21",
         "18",
         "20",
         "19"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (20) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (20) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "Arithmetical and Numerical Ability",
       "question": "If a seller makes a 40% profit by selling a bike for $840, what was the cost price of the bike?",
+      "question_image": null,
       "options": [
         "$600",
         "$650",
         "$800",
         "$700"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' ($600) है।"
+      "explanation": "सही उत्तर विकल्प 'A' ($600) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "Arithmetical and Numerical Ability",
       "question": "Two pipes, A and B, can fill a tank in 10 hours and 15 hours, respectively. If both pipes are opened together, how long will it take to fill the tank completely?",
+      "question_image": null,
       "options": [
         "7 hours",
         "5 hours",
         "8 hours",
         "6 hours"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (6 hours) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (6 hours) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "Arithmetical and Numerical Ability",
       "question": "Find the mean proportional of 108 and 27.",
+      "question_image": null,
       "options": [
         "55",
         "57",
         "54",
         "51"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (54) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (54) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "Arithmetical and Numerical Ability",
       "question": "In what ratio must a grocer mix two varieties of wheat worth ₹50 per kg and ₹107 per kg so that if he sells the mixture at ₹123 per kg he may gain 23%?1519",
+      "question_image": null,
       "options": [
         "9 : 51",
         "7 : 50",
         "17 : 50",
         "17 : 55"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (7 : 50) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (7 : 50) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "Arithmetical and Numerical Ability",
       "question": "A man goes to Ranchi from Howrah at a speed of 3 km/hr and returns to Howrah at speed of 15 km/hr, through same route. What is his average speed (in km/hr) for the entire journey?",
+      "question_image": null,
       "options": [
         "2",
         "8",
         "4",
         "5"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (5) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (5) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "Arithmetical and Numerical Ability",
       "question": "Ashish purchased 10 kg of rice at the rate of ₹38 per kg and 36 kg of rice at ₹46 per kg. He sold the entire mixture at the rate of ₹43.5 per kg. Find his loss (in ₹).",
+      "question_image": null,
       "options": [
         "30",
         "40",
         "35",
         "43"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (35) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (35) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "Arithmetical and Numerical Ability",
       "question": "Sapna invested ₹22,300 on simple interest, partly at 6% per annum and partly at 4% per annum. If she earns equal interests from the two investments after 4 years, then find the sum invested at 6% per annum (in ₹).",
+      "question_image": null,
       "options": [
         "8,923",
         "8,920",
         "8,921",
         "8,919"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (8,920) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (8,920) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "Arithmetical and Numerical Ability",
       "question": "If the ratio of two numbers is 3 : 1, and their HCF is 55, then their LCM is:2407",
+      "question_image": null,
       "options": [
         "193",
         "191",
         "167",
         "165"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (165) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (165) है।",
+      "explanation_image": null
     }
   ]
 }

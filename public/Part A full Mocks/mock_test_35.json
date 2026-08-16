@@ -6,1401 +6,1601 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of J, K, L, M, N, O and P has an exam on a different day of the week starting on Monday and ending on Sunday of the same week.Only two people have exams between J and M. L has an exam on the day immediately after J. M has an exam on Saturday. P has an exam on the day immediately after M. O has an exam on the day immediately after K but not on Friday.On which day does O have the exam?1374",
+      "question_image": null,
       "options": [
         "Friday",
         "Monday",
         "Wednesday",
         "Tuesday"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Tuesday) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Tuesday) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "Given below is a statement followed by two possible reasons numbered I and II. Read the statement carefully and decide which of the two reasons explains the event/observation/information given in the statement. Statement:Despite a substantial rise in the public health campaign budget, smoking-related illnesses in Country U remain unchanged.Reasons:I: Although the campaigns mainly targeted adults, there has been a rise in young smokers.II: There has been a rise in a black market for cigarettes, offering them at very low prices, within the country.",
+      "question_image": null,
       "options": [
         "Neither I nor II is a possible reason.",
         "Only I is a possible reason.",
         "Only II is a possible reason.",
         "Both I and II are possible reasons."
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Both I and II are possible reasons.) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Both I and II are possible reasons.) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?61      64      69      72     77       ?413",
+      "question_image": null,
       "options": [
         "81",
         "82",
         "80",
         "79"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (80) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (80) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which is the letter-cluster that does NOT belong to that group?\n(Note: The odd one out is not based on the number of consonants/vowels or their positions in the letter-cluster.)",
+      "question_image": null,
       "options": [
         "WR - QL",
         "ZU - TO",
         "MH - GB",
         "QP - LJ"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (QP - LJ) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (QP - LJ) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "In this question two statements I and II have been given. These statements may be independent causes or effects of independent causes or a common cause. One of the statements maybe the effect of the other statement. Read both the statements and select the correct option.Statements:I. Amit got diagnosed with Type-II diabetes few days ago during a regular check-up.II. Amit has decided to stop consuming sugar and foods, which have high carbohydrates.",
+      "question_image": null,
       "options": [
         "Both statements I and II are effects of independent causes.",
         "Statement II is the cause, and statement I is its possible effect.",
         "Statement I is the cause, and statement II is its possible effect.",
         "Both statements I and II are effects of some common cause."
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Statement I is the cause, and statement II is its possible effect.) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Statement I is the cause, and statement II is its possible effect.) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series, based on the English alphabetical order?CIK, DKN, ?, FOT",
+      "question_image": null,
       "options": [
         "ENQ",
         "FNQ",
         "EMQ",
         "EMP"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (EMQ) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (EMQ) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left)   898  923  561  745  579    (Right)(Example: 697 – First digit = 6, second digit = 9 and third digit = 7)(NOTE: All operations to be done from left to right.)What will be the resultant if the second digit of the highest number is added to the second digit of the lowest number?",
+      "question_image": null,
       "options": [
         "5",
         "9",
         "7",
         "8"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (8) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (8) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left)         157          526          567            652            564         (Right) (Example: 697 – First digit = 6, second digit = 9 and third digit = 7)(NOTE: All operations to be done from left to right.)What will be the resultant if the third digit of the lowest number is added to the second digit of the highest number?",
+      "question_image": null,
       "options": [
         "14",
         "12",
         "11",
         "13"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (12) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (12) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?111   96   81   66   51    ?",
+      "question_image": null,
       "options": [
         "38",
         "34",
         "35",
         "36"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (36) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (36) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "A statement is given, followed by two assumptions numbered I and II. Assuming everything in the statement to be true, decide which assumption(s) is/are implicit in the statement.Statement: Only dry waste should be disposed in the blue-coloured bins placed on the ground floor.Assumptions:I) There are different coloured bins designated for different kinds of waste.II) Wet waste needs to be disposed of in green-coloured bins.",
+      "question_image": null,
       "options": [
         "Both assumptions I and II are implicit.",
         "Only assumption II is implicit.",
         "Neither assumption I nor II is implicit.",
         "Only assumption I is implicit."
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Only assumption I is implicit.) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Only assumption I is implicit.) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion(s) logically follow(s) from the statements.Statements:  All cars are mirrors.Some eggs are mirrors.No houses are mirrors.  Conclusions:(I) Some eggs are not houses.(II) No houses are cars.10920",
+      "question_image": null,
       "options": [
         "Only conclusion (I) follows.",
         "Only conclusion (II) follows.",
         "Neither conclusion (I) nor (II) follows.",
         "Both conclusions (I) and (II) follow."
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Both conclusions (I) and (II) follow.) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Both conclusions (I) and (II) follow.) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following series, only one letter-cluster is incorrect. Select the INCORRECT letter-cluster. QTM  ORK  MPI  KNG  ILF  GJC",
+      "question_image": null,
       "options": [
         "​ORK",
         "KNG",
         "ILF",
         "MPI"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (ILF) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (ILF) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "In this question, a statement is given followed by two courses of action, numbered I and II. You must assume everything in the statement to be true, and on the basis of the information given in the statement, decide which of the given courses of action logically follow(s) for pursuing.Statement: The number of cybercrime incidents reported in Country Z has doubled over the last two years, primarily due to inadequate cybersecurity measures in place.Courses of Action:I. The government should launch a public awareness campaign on cybersecurity practices.II. Stringent regulations and penalties for cybercrimes should be implemented and enforced immediately.",
+      "question_image": null,
       "options": [
         "Neither I nor II follows.",
         "Only II follows.",
         "Both I and II follow.",
         "Only I follows."
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Both I and II follow.) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Both I and II follow.) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group?\n(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+      "question_image": null,
       "options": [
         "SYE",
         "DJP",
         "ZFI",
         "XDJ"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (ZFI) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (ZFI) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of ? in the given series based on the English alphabetical order?ZDE  BFG DHI  FJK  ?",
+      "question_image": null,
       "options": [
         "HMK",
         "HLM",
         "HUI",
         "HLO"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (HLM) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (HLM) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,A ÷ B means ‘A is the son of B’A # B means ‘A is the sister of B’A + B means ‘A is the wife of B’A % B means ‘A is the father of B’Based on the above, how is P related to K if ‘P + Q ÷ G % H # K’?",
+      "question_image": null,
       "options": [
         "Sister",
         "Wife's brother",
         "Brother's wife",
         "Mother's sister"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Brother's wife) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Brother's wife) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "Six students are sitting around a circular table facing the centre. Eden is an immediate neighbour of both Ben and Carla. Adam is sitting second to the left of Carla. Franklin is sitting third to the left of Ben. David is an immediate neighbour of both Adam and Ben. Who is sitting between David and Eden?",
+      "question_image": null,
       "options": [
         "Adam",
         "Carla",
         "Ben",
         "Franklin"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Ben) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Ben) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "Refer to the following letter series and answer the question. Counting to be done from left to right only.(Left)   R   G   K  A   P   C   D   B   F   S   H   M  J   T   L   I   N   O   E   Q  U (Right)How many such consonants are there, each of which is immediately preceded by another consonant and also immediately followed by a vowel?",
+      "question_image": null,
       "options": [
         "One",
         "Three",
         "Two",
         "None"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Two) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Two) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?21, 25, 33, 45, 61, ?",
+      "question_image": null,
       "options": [
         "75",
         "79",
         "77",
         "81"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (81) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (81) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘apple orange banana’ is coded as ‘op cx ro’, ‘melon lemon apple’ is coded as ‘zx ro pa’ and ‘lemon kiwi mango’ is coded as ‘pa bq sw’ (All the codes are two-letter codes only.) ​How is 'lemon' coded in the given code language?",
+      "question_image": null,
       "options": [
         "ro",
         "pa",
         "zx",
         "bq"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (pa) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (pa) है।",
+      "explanation_image": null
     },
     {
       "id": 21,
       "section": "General Awareness",
       "question": "भारतीय संविधान के किस अनुच्छेद में उल्लेख है कि प्रधानमंत्री के नेतृत्व में मंत्रिपरिषद राष्ट्रपति के कार्यों में सहायता करने के लिए उत्तरदायी है?",
+      "question_image": null,
       "options": [
         "अनुच्छेद 79(1)",
         "अनुच्छेद 74(1)",
         "अनुच्छेद 94(1)",
         "अनुच्छेद 84(1)"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (अनुच्छेद 74(1)) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (अनुच्छेद 74(1)) है।",
+      "explanation_image": null
     },
     {
       "id": 22,
       "section": "General Awareness",
       "question": "Which of the following battery chemistries is noted as an abundant, lower-cost alternative to Li-ion for future storage?",
+      "question_image": null,
       "options": [
         "Nickel-cadmium only",
         "Mercury cells",
         "Sodium-ion batteries",
         "Lead-acid only"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Sodium-ion batteries) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Sodium-ion batteries) है।",
+      "explanation_image": null
     },
     {
       "id": 23,
       "section": "General Awareness",
       "question": "The climate of India is of _________.",
+      "question_image": null,
       "options": [
         "tropical dry monsoon",
         "tropical monsoon type",
         "equatorial type",
         "arid type"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (tropical monsoon type) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (tropical monsoon type) है।",
+      "explanation_image": null
     },
     {
       "id": 24,
       "section": "General Awareness",
       "question": "Name the Sultan of Delhi whose eldest son died in the Mongol invasion.",
+      "question_image": null,
       "options": [
         "Nasiruddin Khusrau Shah",
         "Ghiyas ud din Balban",
         "Bahram Shah",
         "Allaudin Masud Shah"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Ghiyas ud din Balban) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Ghiyas ud din Balban) है।",
+      "explanation_image": null
     },
     {
       "id": 25,
       "section": "General Awareness",
       "question": "In which of the following years was the Central Hindi Directorate (CHD) established?",
+      "question_image": null,
       "options": [
         "1953",
         "1954",
         "1960",
         "1959"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (1960) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (1960) है।",
+      "explanation_image": null
     },
     {
       "id": 26,
       "section": "General Awareness",
       "question": "The first 3D movie of India, 'My Dear Kuttichathan', was originally made in which language?",
+      "question_image": null,
       "options": [
         "Tamil",
         "Telugu",
         "Kannada",
         "Malayalam"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Malayalam) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Malayalam) है।",
+      "explanation_image": null
     },
     {
       "id": 27,
       "section": "General Awareness",
       "question": "Which Indian company launched India’s first satellite-based broadband service in January 2024?",
+      "question_image": null,
       "options": [
         "Vodafone Idea",
         "Reliance Jio",
         "Bharti Airtel",
         "Bharat Sanchar Nigam Limited"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Reliance Jio) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Reliance Jio) है।",
+      "explanation_image": null
     },
     {
       "id": 28,
       "section": "General Awareness",
       "question": "When did the International Big Cat Alliance (IBCA) officially come into force as a full-fledged treaty-based inter-governmental international organisation?",
+      "question_image": null,
       "options": [
         "2022",
         "2024",
         "2025",
         "2023"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (2025) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (2025) है।",
+      "explanation_image": null
     },
     {
       "id": 29,
       "section": "General Awareness",
       "question": "The bulk modulus of a material is defined as  _______.",
+      "question_image": null,
       "options": [
         "Hydraulic stress to the corresponding hydraulic strain",
         "Change in length under applied stress",
         "Change in elasticity due to load",
         "Ratio of normal stress to change in length"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Hydraulic stress to the corresponding hydraulic strain) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Hydraulic stress to the corresponding hydraulic strain) है।",
+      "explanation_image": null
     },
     {
       "id": 30,
       "section": "General Awareness",
       "question": "Dr. Purabi Saikia has been awarded the Shanti Swarup Bhatnagar Award 2024 for her contributions in which field?",
+      "question_image": null,
       "options": [
         "Chemistry",
         "Environmental Science",
         "Engineering Sciences",
         "Biological Sciences"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Environmental Science) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Environmental Science) है।",
+      "explanation_image": null
     },
     {
       "id": 31,
       "section": "General Awareness",
       "question": "Luana Lopes Lara, who was recognized as the world’s youngest self-made woman billionaire in December 2025, is primarily associated with which industry?",
+      "question_image": null,
       "options": [
         "Fashion",
         "Pharmaceuticals",
         "Real Estate",
         "Fintech"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Fintech) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Fintech) है।",
+      "explanation_image": null
     },
     {
       "id": 32,
       "section": "General Awareness",
       "question": "In which year was the Constitution (Sixty-seventh Amendment) Bill introduced, which provided for a collegium consisting of the Chief Justice of India and two other judges of the Supreme Court, for appointment to the Supreme Court?",
+      "question_image": null,
       "options": [
         "1990",
         "1980",
         "1987",
         "1983"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (1990) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (1990) है।",
+      "explanation_image": null
     },
     {
       "id": 33,
       "section": "General Awareness",
       "question": "Which coffee table book was released by the Odisha Chief Minister, capturing the moments of the FIH Hockey World Cup 2023?",
+      "question_image": null,
       "options": [
         "Odisha Hockey Glory 2023",
         "FIH Odisha Hockey Men’s World Cup 2023",
         "Champions of Hockey 2023",
         "Hockey Stars of Odisha 2023"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (FIH Odisha Hockey Men’s World Cup 2023) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (FIH Odisha Hockey Men’s World Cup 2023) है।",
+      "explanation_image": null
     },
     {
       "id": 34,
       "section": "General Awareness",
       "question": "According to the Forest Survey Report, 2021, which of the following forest areas has seen an increase of 17 square kilometres compared to the previous assessment?",
+      "question_image": null,
       "options": [
         "Thorn",
         "Montane",
         "Mangrove",
         "Tropical deciduous"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Mangrove) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Mangrove) है।",
+      "explanation_image": null
     },
     {
       "id": 35,
       "section": "General Awareness",
       "question": "Which country secured the fourth-place ranking in the Climate Change Performance Index (CCPI) 2026 report released by Germanwatch, together with the NewClimate Institute and the Climate Action Network-International?",
+      "question_image": null,
       "options": [
         "United Kingdom",
         "Netherlands",
         "Denmark",
         "Norway"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Denmark) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Denmark) है।",
+      "explanation_image": null
     },
     {
       "id": 36,
       "section": "General Awareness",
       "question": "According to the Union Budget 2025, how many Day Care Cancer Centres are set to be launched across India during 2025–26?",
+      "question_image": null,
       "options": [
         "125",
         "200",
         "175",
         "225"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (200) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (200) है।",
+      "explanation_image": null
     },
     {
       "id": 37,
       "section": "General Awareness",
       "question": "Which of the following is a simple tissue?I. XylemII. Phloem",
+      "question_image": null,
       "options": [
         "Only II",
         "Only I",
         "Neither I nor II",
         "Both I and II"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Neither I nor II) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Neither I nor II) है।",
+      "explanation_image": null
     },
     {
       "id": 38,
       "section": "General Awareness",
       "question": "What does the Labour Force Participation Rate (LFPR) indicate?",
+      "question_image": null,
       "options": [
         "Percentage of employed persons in the labour force",
         "Percentage of persons employed during the last 7 days",
         "Percentage of unemployed persons in the population",
         "Percentage of persons working or seeking/available for work in the population"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Percentage of persons working or seeking/available for work in the population) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Percentage of persons working or seeking/available for work in the population) है।",
+      "explanation_image": null
     },
     {
       "id": 39,
       "section": "General Awareness",
       "question": "Rearrange the parts of the sentence in correct order.Fair Trade coffee, part of theP: particularly in the poorer regions of the coffee-growing world, are paid a fair priceQ: ensure that coffee is harvested and processed without childR: labour and dangerous herbicides and pesticides and that growers and exportersS: larger Fair Trade movement, arose to",
+      "question_image": null,
       "options": [
         "PSQR",
         "SQRP",
         "RPSQ",
         "RQPS"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (SQRP) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (SQRP) है।",
+      "explanation_image": null
     },
     {
       "id": 40,
       "section": "General Awareness",
       "question": "The level of national income does NOT determine the level of which of the following variables?",
+      "question_image": null,
       "options": [
         "Private investment expenditure",
         "Import of goods and services",
         "Demand and supply of a good",
         "Aggregate consumption"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Demand and supply of a good) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Demand and supply of a good) है।",
+      "explanation_image": null
     },
     {
       "id": 41,
       "section": "Arithmetical and Numerical Ability",
       "question": "A man, who can finish a task in 20 days, works for 5 days. Then he is joined by a woman and the remaining task is finished in 9 days. The woman alone can finish the whole task in _____ days.",
+      "question_image": null,
       "options": [
         "30",
         "20",
         "28",
         "24"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (30) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (30) है।",
+      "explanation_image": null
     },
     {
       "id": 42,
       "section": "Arithmetical and Numerical Ability",
       "question": "Two plumbers, X and Y, are paid a total of ₹440 per day by their employer. If X is paid 120% of the sum paid to Y, then how much is Y paid (in ₹) per day?",
+      "question_image": null,
       "options": [
         "150",
         "200",
         "250",
         "100"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (200) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (200) है।",
+      "explanation_image": null
     },
     {
       "id": 43,
       "section": "Arithmetical and Numerical Ability",
       "question": "In what ratio should sugar costing ₹86 per kg be mixed with sugar costing ₹11 per kg so that by selling the mixture at ₹44.80 per kg, there is a profit of 40%?324",
+      "question_image": null,
       "options": [
         "19 : 52",
         "23 : 56",
         "21 : 54",
         "22 : 53"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (21 : 54) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (21 : 54) है।",
+      "explanation_image": null
     },
     {
       "id": 44,
       "section": "Arithmetical and Numerical Ability",
       "question": "A started a business with a capital of ₹1,53,000. After 6 months, B joined him with a certain amount of capital. At the end of a year of A's starting the business, the profit was shared in the ratio 6 : 2. How much (in ₹) did B invest?",
+      "question_image": null,
       "options": [
         "1,02,000",
         "87,600",
         "1,19,700",
         "1,01,600"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (1,02,000) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (1,02,000) है।",
+      "explanation_image": null
     },
     {
       "id": 45,
       "section": "Arithmetical and Numerical Ability",
       "question": "After decreasing 75% in the actual cost price, the reduced cost price of an article is ₹1,048. The actual cost price of the article (in ₹) is:",
+      "question_image": null,
       "options": [
         "4,786",
         "4,262",
         "3,888",
         "4,192"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (4,192) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (4,192) है।",
+      "explanation_image": null
     },
     {
       "id": 46,
       "section": "Arithmetical and Numerical Ability",
       "question": "The highest common factor (H.C.F.) and the least common multiple (L.C.M.) of two numbers are 3 and 234 respectively. If one of the numbers is 117, what is the other number?",
+      "question_image": null,
       "options": [
         "57",
         "6",
         "12",
         "9"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (6) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (6) है।",
+      "explanation_image": null
     },
     {
       "id": 47,
       "section": "Arithmetical and Numerical Ability",
       "question": "Panchayat Samiti of a village took a decision to dig up two ponds in two places of a village. 250 workers dig up the first pond that is 50 m long, 35 m broad and 5.2 m deep in 18 days working 10 hours daily. How many days will be required to dig up another pond that is 65 m long, 40 m broad and 5.6 m deep by 300 workers working 8 hours daily?",
+      "question_image": null,
       "options": [
         "32",
         "30",
         "28",
         "26"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (30) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (30) है।",
+      "explanation_image": null
     },
     {
       "id": 48,
       "section": "Arithmetical and Numerical Ability",
       "question": "Eighteen men can dig a well 76 feet deep in 14 days. How many men can dig a well 152 feet deep in 3 days?3339",
+      "question_image": null,
       "options": [
         "170",
         "160",
         "167",
         "168"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (168) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (168) है।",
+      "explanation_image": null
     },
     {
       "id": 49,
       "section": "Arithmetical and Numerical Ability",
       "question": "Find the value of 53 −2  ÷ 53 12  × 53 −5.",
+      "question_image": null,
       "options": [
         "53 −19",
         "53 −18",
         "53 −28",
         "53 −26"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (53 −19) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (53 −19) है।",
+      "explanation_image": null
     },
     {
       "id": 50,
       "section": "Arithmetical and Numerical Ability",
       "question": "The ratio of the cost prices of articles X and Y is 5 : 6. A man earns a profit of 28% by selling X and loses 5% by selling Y. What is his gain/loss percentage in the entire transaction?",
+      "question_image": null,
       "options": [
         "Loss, 11.5%",
         "Gain, 9.5%",
         "Gain, 10%",
         "Loss, 10%"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Gain, 10%) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Gain, 10%) है।",
+      "explanation_image": null
     },
     {
       "id": 51,
       "section": "Arithmetical and Numerical Ability",
       "question": "The total wages of 5 workers for 2 days of work are ₹1,720. What is the daily wage (in ₹) of one worker?",
+      "question_image": null,
       "options": [
         "172",
         "345",
         "344",
         "173"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (172) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (172) है।",
+      "explanation_image": null
     },
     {
       "id": 52,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average screen time of a group of 8 friends is  4h, 6h, 5h, 4h, 5h, 5h, 5h and 6h. What is their average screen time?",
+      "question_image": null,
       "options": [
         "6 hours",
         "5 hours",
         "4.5 hours",
         "4 hours"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (5 hours) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (5 hours) है।",
+      "explanation_image": null
     },
     {
       "id": 53,
       "section": "Arithmetical and Numerical Ability",
       "question": "The production of vegetable oil by five factories (in lakh tonnes) is given in the table. Study the table carefully and answer the question that follows. \t\t\t\t\t\tFactory\t\t\tYear\t\t\t\t\t\t\t\t\t\t1990\t\t\t1991\t\t\t1992\t\t\t1993\t\t\t1994\t\t\t\t\t\t\tSunflower\t\t\t9.0\t\t\t10.5\t\t\t8.9\t\t\t11.7\t\t\t8.5\t\t\t\t\t\t\tPeanut\t\t\t14.5\t\t\t16.2\t\t\t16.2\t\t\t16.4\t\t\t16.8\t\t\t\t\t\t\tMustard\t\t\t14.9\t\t\t15.6\t\t\t16.8\t\t\t16.9\t\t\t17.8\t\t\t\t\t\t\tRice Bran\t\t\t7.6\t\t\t8.4\t\t\t7.4\t\t\t7.9\t\t\t8.6\t\t\t\t\t\t\tSoybean\t\t\t21.0\t\t\t22.6\t\t\t23.2\t\t\t22.2\t\t\t23.9\t\t\tWhat was the average production by all the five factories in the year 1992 (in lakh tonnes)?1089",
+      "question_image": null,
       "options": [
         "12.5",
         "13.5",
         "11.5",
         "14.5"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (14.5) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (14.5) है।",
+      "explanation_image": null
     },
     {
       "id": 54,
       "section": "Arithmetical and Numerical Ability",
       "question": "The arithmetic mean of the observations 82, 11, 21, 84, 14, 21, 65, 18 and 35 is:6330",
+      "question_image": null,
       "options": [
         "45",
         "46",
         "41",
         "39"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (39) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (39) है।",
+      "explanation_image": null
     },
     {
       "id": 55,
       "section": "Arithmetical and Numerical Ability",
       "question": "A and B invested ₹6,00,000 and ₹9,00,000 in a business, respectively. They decided to share 40% of the profit equally between them and rest of the profit in the ratio of their investments. What amount of profit (in ₹) did A receive if the total profit is 10% more than their total investment?",
+      "question_image": null,
       "options": [
         "6,60,000",
         "3,30,000",
         "7,26,000",
         "9,24,000"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (7,26,000) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (7,26,000) है।",
+      "explanation_image": null
     },
     {
       "id": 56,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average of 13 numbers is 28. If each number is multiplied by 9, then what will be the new average?",
+      "question_image": null,
       "options": [
         "13",
         "9",
         "28",
         "252"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (252) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (252) है।",
+      "explanation_image": null
     },
     {
       "id": 57,
       "section": "Arithmetical and Numerical Ability",
       "question": "The simple interest (in ₹) on ₹2,900 at the rate of 5% per annum in 2 years is:",
+      "question_image": null,
       "options": [
         "390",
         "340",
         "290",
         "240"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (290) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (290) है।",
+      "explanation_image": null
     },
     {
       "id": 58,
       "section": "Arithmetical and Numerical Ability",
       "question": "The LCM of 43 × 72 × 14, 42 × 142 × 16 and 73 × 142 × 162 is:",
+      "question_image": null,
       "options": [
         "211 × 74",
         "210 × 75",
         "211 × 75",
         "210 × 74"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (210 × 75) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (210 × 75) है।",
+      "explanation_image": null
     },
     {
       "id": 59,
       "section": "Arithmetical and Numerical Ability",
       "question": "7230.8 × 353.5 × 0.868 is equal in value to:",
+      "question_image": null,
       "options": [
         "723.08 × 353.5 × 868",
         "7.2308 × 3.535 × 868",
         "7.2308 × 35.35 × 86.8",
         "72.308 × 3535 × 8.68"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (72.308 × 3535 × 8.68) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (72.308 × 3535 × 8.68) है।",
+      "explanation_image": null
     },
     {
       "id": 60,
       "section": "Arithmetical and Numerical Ability",
       "question": "The population of a village was 1,10,000. It increased by 15% in the first year and increased by 20% in the second year. Its population after two years is _______.3944",
+      "question_image": null,
       "options": [
         "1,26,500",
         "1,32,000",
         "1,48,500",
         "1,51,800"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (1,51,800) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (1,51,800) है।",
+      "explanation_image": null
     },
     {
       "id": 61,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the question that follows.Microfinance, the provision of financial services to low-income individuals and small businesses, plays a crucial role in economic development. By offering small loans, savings accounts and other financial products, microfinance institutions (MFIs) aim to empower people who lack access to traditional banking services. These financial services enable individuals to start or expand small businesses, invest in education and improve their living conditions, contributing to broader economic growth and poverty reduction.One of the key benefits of microfinance is its ability to promote entrepreneurship. Small loans, often referred to as microloans, provide the initial capital that individuals need to start or grow their businesses. This entrepreneurial activity not only generates income for borrowers but also creates jobs and stimulates local economies. By fostering a culture of entrepreneurship, microfinance can drive sustainable economic development.Microfinance also plays a vital role in improving access to education. Families with limited financial resources can use microloans to pay for school fees, books and other educational expenses. Investments in education can have long-term benefits, as they equip individuals with the skills and knowledge needed to secure better-paying jobs and break the cycle of poverty.What do you understand by sustainable economic development?",
+      "question_image": null,
       "options": [
         "Enhancing technological dvelopment",
         "Exploiting natural resources",
         "Building more investment",
         "Balancing current and potential needs"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Balancing current and potential needs) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Balancing current and potential needs) है।",
+      "explanation_image": null
     },
     {
       "id": 62,
       "section": "English Language and Comprehension",
       "question": "There are four sentences A, B, C and D given below. Arrange the sentences in the correct order to form a complete paragraph.A. Yet, scientific literacy among the general population remains limited.B. Public understanding of science is crucial in democratic societies.C. Effective communication strategies are needed to bridge this gap.D. Especially in an era of misinformation and health crises.",
+      "question_image": null,
       "options": [
         "A → B → D → C",
         "D → B → A → C",
         "B → A → D → C",
         "B → D → A → C"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (B → D → A → C) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (B → D → A → C) है।",
+      "explanation_image": null
     },
     {
       "id": 63,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.The novel 'The Pearl' stands as a powerful commentary on the dangers of materialism and the importance of embracing values that transcend wealth. Steinbeck’s cautionary tale urges readers to approach life with humility, compassion and a commitment to what truly matters. His exploration of Kino’s journey provides a poignant reminder that while wealth may be alluring, it is often hollow, and that the greatest riches are those rooted in love, integrity and a sense of purpose. Through this story, Steinbeck leaves an enduring legacy, inviting us all to reflect on our own lives and to choose paths that align with our deepest values. Steinbeck crafts a compelling examination of materialism as a force that corrupts individuals and leaves them adrift, cut off from the meaningful aspects of life. Kino’s story is a testament to the dangers of viewing wealth as the ultimate goal, as it often brings with it only illusion, moral compromise and eventual ruin. In the end, it stands as a timeless reminder that while the allure of wealth may be powerful, it is ultimately hollow. Steinbeck leaves with a powerful message: that the true measure of a fulfilling life is not found in wealth or status, but in the strength of our connections with others and the integrity with which we live. True happiness lies not in the pursuit of material gain but in cherishing the intangible yet deeply fulfilling aspects of life: family, integrity and peace.According to the underlying message in Steinbeck’s 'The Pearl', which of the following best represents the 'greatest riches' that Steinbeck advocates for, through Kino’s journey?",
+      "question_image": null,
       "options": [
         "The bonds of family, integrity and a purposeful life",
         "The prestige and social power achieved through financial success",
         "The dominance and control over one's fate through material means",
         "The satisfaction that comes from overcoming adversities through wealth"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (The bonds of family, integrity and a purposeful life) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (The bonds of family, integrity and a purposeful life) है।",
+      "explanation_image": null
     },
     {
       "id": 64,
       "section": "English Language and Comprehension",
       "question": "Comprehension: Read the given passage carefully and answer the following questions.India could experience 30 fewer extremely hot days each year, while the world on average could avoid such 57 such days if countries meet their emission- cutting pledges under the 2015 Paris Agreement and limit global warming to 2.6 degrees Celsius this century, according to a new study published on Thursday.The analysis by Climate Central and World Weather Attribution said the global accord, which completes 10 years this year, is steering the world toward a safer climate but warned that the current pace of action is not enough. Even at 2.6 degree Celsius, scientists caution, future generations will face heat, severe health risks and growing inequality unless countries move faster to phase out fossil fuels. India could experience 30 fewer hot days a year, while Kenya could see 82 fewer, Mexico 77, Brazil 69, Egypt 36 and the US and the UK 30 and 29 respectively, the researchers said.Prof Friederike Otto, Professor in Climate Science at Imperial College London, said, “The Paris Agreement is a powerful, legally binding framework that can help us avoid the most severe impacts of climate change. However, countries need to more to shift away from oil, gas and coal. We have all the knowledge and technology needed to transition away from fossil fuels but stronger, fairer policies are needed to move faster.”“Political leaders need to take the reason for the Paris Agreement much more seriously. It is about protecting our human rights.” she added.According to the study mentioned, approximately how many fewer extremely hot days could the world on average avoid each year if the 2.6-degree Celsius warming limit is met?",
+      "question_image": null,
       "options": [
         "30 days",
         "82 days",
         "57 days",
         "29 days"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (57 days) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (57 days) है।",
+      "explanation_image": null
     },
     {
       "id": 65,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate ANTONYM of the highlighted word in the given sentence.She approached the stage with trepidation, fearing she might forget her lines.",
+      "question_image": null,
       "options": [
         "Apprehension",
         "Confidence",
         "Dread",
         "Anxiety"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Confidence) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Confidence) है।",
+      "explanation_image": null
     },
     {
       "id": 66,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.\"The book is _____ the table.\"",
+      "question_image": null,
       "options": [
         "by",
         "on",
         "at",
         "in"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (on) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (on) है।",
+      "explanation_image": null
     },
     {
       "id": 67,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.The modern and alternative medicines are now winning greater acceptance _______ doctors.",
+      "question_image": null,
       "options": [
         "around",
         "among",
         "above",
         "about"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (among) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (among) है।",
+      "explanation_image": null
     },
     {
       "id": 68,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the passage carefully and answer the questions that follow.Antarctica, the southernmost continent on Earth, is a land of extremes. With its icy landscapes, frigid temperatures, and harsh conditions, Antarctica presents a formidable environment for life. Yet, despite its challenges, Antarctica is home to a diverse array of wildlife and holds a wealth of scientific discoveries waiting to be made. Let's embark on a journey to explore Antarctica's frozen frontier.One of the most striking features of Antarctica is its vast ice sheets, which cover more than 98% of the continent's surface. These ice sheets contain about 70% of the world's fresh water, making Antarctica the largest reservoir of freshwater on Earth. The continent's ice also plays a crucial role in regulating global climate patterns and sea levels, making it an essential area of study for scientists around the world.In addition to its ice, Antarctica is home to a surprising diversity of wildlife, from penguins and seals to whales and seabirds. These animals have adapted to life in one of the harshest environments on the planet, relying on each other and their surroundings for survival. Antarctica's marine ecosystems are particularly rich, with nutrient-rich waters supporting a complex food web that sustains a wide variety of species.Despite its remote location and harsh conditions, Antarctica has long captured the imagination of explorers and scientists alike. The continent's unique environment provides invaluable insights into Earth's past climate and geology, offering clues to the planet's future trajectory. As efforts to explore and study Antarctica continue, it is essential to balance scientific curiosity with the need to protect this fragile ecosystem for future generations.Q76. Select the most appropriate meaning of the given word.\n\nTrajectory",
+      "question_image": null,
       "options": [
         "Function",
         "Path",
         "Force",
         "Angle"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Path) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Path) है।",
+      "explanation_image": null
     },
     {
       "id": 69,
       "section": "English Language and Comprehension",
       "question": "Choose the most appropriate synonym of the underlined word from the options given below. His furtive glance at the documents did not go unnoticed.",
+      "question_image": null,
       "options": [
         "lavish",
         "extravagant",
         "overt",
         "secretive"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (secretive) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (secretive) है।",
+      "explanation_image": null
     },
     {
       "id": 70,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the following questions.Pollinators, such as bees, butterflies, birds, and bats, play a crucial role in the reproduction of many plants by transferring pollen from one flower to another. This process, known as pollination, is essential for the production of fruits, vegetables, and seeds. About 75% of the world's flowering plants depend on pollinators to some degree, and more than one-third of the world's food crops rely on animal pollinators. Unfortunately, pollinator populations are declining worldwide due to factors such as habitat loss, pesticide use, climate change, and diseases. This decline threatens the stability of ecosystems and the food security of billions of people.In recent years, there has been a growing movement to protect and restore pollinator habitats. Efforts include creating wildflower meadows, reducing pesticide usage, and providing nesting sites for bees. By safeguarding pollinator populations, we can ensure the continued diversity of plant species, which in turn supports a wide range of other wildlife. Furthermore, protecting pollinators contributes to agricultural productivity and helps maintain ecological balance.What is one of the main reasons for the decline in pollinator populations?",
+      "question_image": null,
       "options": [
         "Overuse of fertilisers",
         "Lack of water resources",
         "Increasing biodiversity",
         "Habitat loss"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Habitat loss) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Habitat loss) है।",
+      "explanation_image": null
     },
     {
       "id": 71,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate question tag to fill in the blank.As Jamie hasn’t apologised, they should not forgive him, ___________________?",
+      "question_image": null,
       "options": [
         "hasn't they",
         "has they",
         "should they",
         "shouldn't they"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (should they) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (should they) है।",
+      "explanation_image": null
     },
     {
       "id": 72,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.P- Self-management is thus defined as the ‘individual’s ability to manage the symptoms, treatment, physical and psychosocial consequences and lifestyle changes inherent in living with a chronic condition’.Q- Supporting people in decisions and actions that promote self-management is called self-management support requiring a cooperative relationship between the patient, the family, and the professionals.R- Having control means, among other things, that patients themselves perform self-management activities.S- Most people with progressive diseases like dementia prefer to have control over their own lives and healthcare for as long as possible.",
+      "question_image": null,
       "options": [
         "QPRS",
         "SRPQ",
         "PSQR",
         "RSQP"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (SRPQ) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (SRPQ) है।",
+      "explanation_image": null
     },
     {
       "id": 73,
       "section": "English Language and Comprehension",
       "question": "The given sentences, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a letter. Choose the most logical order of the sentences from the four given choices to construct a coherent paragraph keeping 1 and 6 as the first and the last statements, respectively.1. The invention process of the computer started around 3000 years ago. A. It consisted of numbers entered in dials but, it could only add.B. The first digital computer was invented in 1642 by Blaise Pascal. C. The man to credit for this invention is Gottfried Wilhelm von Leibniz.D. However in 1671, a computer was invented that was eventually built in 1694.6. Unlike Pascal’s computer, Leibniz’s could add and multiply.",
+      "question_image": null,
       "options": [
         "CBAD",
         "BACD",
         "BADC",
         "ACBD"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (BADC) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (BADC) है।",
+      "explanation_image": null
     },
     {
       "id": 74,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate adjective to fill in the blank.Her performance was so _______ that it left the audience in a state of awe.",
+      "question_image": null,
       "options": [
         "mediocre",
         "unsatisfactory",
         "tedious",
         "spectacular"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (spectacular) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (spectacular) है।",
+      "explanation_image": null
     },
     {
       "id": 75,
       "section": "English Language and Comprehension",
       "question": "Fill in the blank with the most appropriate article. If no article is required, choose ‘no article’.The committee has finally approved ___ plan that was proposed during the emergency meeting held last month.",
+      "question_image": null,
       "options": [
         "no article",
         "an",
         "the",
         "a"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (the) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (the) है।",
+      "explanation_image": null
     },
     {
       "id": 76,
       "section": "English Language and Comprehension",
       "question": "Select the option that rectifies the underlined incorrectly spelt word in the given sentence. The theory has been widely critikued in recent philosophical debates, particularly in post-structuralist circles.",
+      "question_image": null,
       "options": [
         "critiqued",
         "cretiqued",
         "criticed",
         "critiqueed"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (critiqued) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (critiqued) है।",
+      "explanation_image": null
     },
     {
       "id": 77,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blanks.The __________ scientist presented a/an __________ analysis of the data, offering a/an __________ perspective on the experiment's outcomes.",
+      "question_image": null,
       "options": [
         "casual ; vague ; traditional",
         "apathetic ; incomplete ; irrelevant",
         "diligent ; thorough ; novel",
         "indifferent ; basic ; outdated"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (diligent ; thorough ; novel) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (diligent ; thorough ; novel) है।",
+      "explanation_image": null
     },
     {
       "id": 78,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate meaning of the given proverb.Well begun is half done.",
+      "question_image": null,
       "options": [
         "Finishing any project is a mammoth task.",
         "Beginning a project well is already half the task.",
         "You can finish a task only if you start early.",
         "A task cannot be done unless it is begun."
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Beginning a project well is already half the task.) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Beginning a project well is already half the task.) है।",
+      "explanation_image": null
     },
     {
       "id": 79,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option that can substitute the underlined words in the given paragraph.When JK Rowling wrote crime novels, she used a fake name so people wouldn’t know it was her. Some writers use made-up names instead of their real ones when they publish books. They might do this to try something new or to keep their privacy.",
+      "question_image": null,
       "options": [
         "a surname",
         "an alias",
         "a nickname",
         "a pseudonym"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (a pseudonym) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (a pseudonym) है।",
+      "explanation_image": null
     },
     {
       "id": 80,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option that can substitute the underlined words in the given sentence.Sarita's fear of confined spaces made it difficult for her to take the elevator.",
+      "question_image": null,
       "options": [
         "Acrophobia",
         "Agoraphobia",
         "Claustrophobia",
         "Xenophobia"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Claustrophobia) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Claustrophobia) है।",
+      "explanation_image": null
     },
     {
       "id": 81,
       "section": "Hindi Language and Comprehension",
       "question": "दिए गए विकल्पों में त्रुटि पूर्ण  वाक्य क्रम अंकित कीजिए।",
+      "question_image": null,
       "options": [
         "बावजूद उसके अंक बहुत मेहनत करने के बहुत कम आए।",
         "पाठशाला में छात्र बहुत ही शरारती होते हैं।",
         "प्रथम आते ही वह  खुशी से झूमने लगा।",
         "तुम अपनी पढ़ाई समाप्त करके सो जाना।"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (बावजूद उसके अंक बहुत मेहनत करने के बहुत कम आए।) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (बावजूद उसके अंक बहुत मेहनत करने के बहुत कम आए।) है।",
+      "explanation_image": null
     },
     {
       "id": 82,
       "section": "Hindi Language and Comprehension",
       "question": "निम्न वाक्य में त्रुटियाँ पहचानें तथा वाक्य शुद्ध करें - 'पूजा का समान मँगवा लो । '",
+      "question_image": null,
       "options": [
         "सामान",
         "समान",
         "समन",
         "सामन"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (सामान) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (सामान) है।",
+      "explanation_image": null
     },
     {
       "id": 83,
       "section": "Hindi Language and Comprehension",
       "question": "‘रंगमंच का पर्दा’ वाक्यांश के लिए एक सार्थक शब्द होगा  –",
+      "question_image": null,
       "options": [
         "नेपथ्य",
         "नैष्ठिक",
         "पटाक्षेप",
         "यवनिका"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (यवनिका) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (यवनिका) है।",
+      "explanation_image": null
     },
     {
       "id": 84,
       "section": "Hindi Language and Comprehension",
       "question": "'वह ____________ सम्पन्न छात्र है' वाक्य में रिक्त स्थान की पूर्ति के लिए सही विकल्प चुनें",
+      "question_image": null,
       "options": [
         "कुशलता",
         "प्रतिभा",
         "धन",
         "अध्ययन"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (प्रतिभा) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (प्रतिभा) है।",
+      "explanation_image": null
     },
     {
       "id": 85,
       "section": "Hindi Language and Comprehension",
       "question": "कारक के आधार पर वाक्य पूर्ण कीजिए। निश्चय ही यह कहा जा सकता है कि जिंदादिली ...... जीवन जीना एक कला है ।",
+      "question_image": null,
       "options": [
         "कि",
         "के",
         "का",
         "से"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (से) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (से) है।",
+      "explanation_image": null
     },
     {
       "id": 86,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित में से अतिरिक्त उचित वाक्य का चयन करें –‘संघ का यह कर्तव्य होगा कि----------------------------------‘",
+      "question_image": null,
       "options": [
         "कोई कार्य सरल नहीं होता है।",
         "वह हिन्दी का प्रसार बढ़ाए,उसका विकास करे।",
         "जिससे वह भारत की सामासिक संस्कृति के सभी तत्त्वों की",
         "अभिव्यक्ति का माध्यम बन सके।"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (कोई कार्य सरल नहीं होता है।) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (कोई कार्य सरल नहीं होता है।) है।",
+      "explanation_image": null
     },
     {
       "id": 87,
       "section": "Hindi Language and Comprehension",
       "question": "रिया ________ खाती है। - रिक्त स्थान के लिए उचित क्रिया-विशेषण का चयन कीजिए-",
+      "question_image": null,
       "options": [
         "कम",
         "जितना",
         "लगभग",
         "मत"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (कम) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (कम) है।",
+      "explanation_image": null
     },
     {
       "id": 88,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:गद्यांश पर आधारित निम्नलिखित प्रश्नों के उत्तर दीजिए हमारी संस्कृति में धार्मिक कृत्यों में एकांत साधना पर अधिक बल दिया गया है, यद्यपि सामूहिक प्रार्थना का अभाव नहीं है। मुसलमानी और अंग्रेजी सभ्यता में सामूहिक प्रार्थना को अधिक आश्रय दिया गया है, यद्यपि एकांत साधना का वहाँ भी अभाव नहीं है। हमारे कीर्तन आदि और महात्मा गांधी द्वारा परिचालित प्रार्थना सभाएं धर्म में एकत्व की सामाजिक भावना को उत्पन्न करती आई हैं। हमारे यहाँ सामाजिकता की अपेक्षा पारिवारिकता को महत्व दिया गया है। पारिवारिकता को खोकर सामाजिकता को ग्रहण करना तो मूर्खता होगी किंतु पारिवारिकता के साथ - साथ सामाजिकता बढ़ाना श्रेयस्कर होगा। हमें अपनी सम्मिलित परिवार की प्रथा को इतना ना बढ़ा देना चाहिए कि व्यक्ति का व्यक्तित्व ही ना रह जाए और ना ही व्यक्तित्व को इतना महत्व देना चाहिए कि गुरुजनों का आदर भाव भी ना रहे और पारिवारिक एकता पर कुठाराघात हो। अंग्रेजी सभ्यता चीनी और काँच के बर्तनों की सभ्यता है। हमारी सभ्यता मिट्टी और पीतल के बर्तनों की है।  हमारी सभ्यता स्वास्थ्य विज्ञान के अधिक अनुकूल है। यदि हम कुल्हड़ों के कूड़े का अच्छा बंदोबस्त कर सकें तो उससे अच्छी कोई चीज़ नहीं है। आलस्य को वैज्ञानिकता पर विजय ना पाना चाहिए। अंग्रेजी संस्कृति से भी सफ़ाई और समय की पाबंदी की बहुत से बातें सीखी जा सकती हैं, किंतु अपनी संस्कृति के मूल अंगों पर ध्यान रखते हुए समन्वय बुद्धि से काम लेना चाहिए। समन्वय द्वारा ही संस्कृति क्रमशः उन्नति करती रही है और आज भी हमें उसे समन्वयशील बनाना है। लेखक इस गद्यांश में किस को बढ़ावा देना चाहता है ?",
+      "question_image": null,
       "options": [
         "परिवारहीन सामाजिकता",
         "व्यक्तित्व के साथ सामाजिकता",
         "वैयक्तिकता",
         "स्वास्थ्य को बढ़ावा"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (व्यक्तित्व के साथ सामाजिकता) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (व्यक्तित्व के साथ सामाजिकता) है।",
+      "explanation_image": null
     },
     {
       "id": 89,
       "section": "Hindi Language and Comprehension",
       "question": "दिए गये विकल्पों में से 'घर का भेदी लंका ढाए' लोकोक्ति  के लिए उपयुक्त अर्थ का चयन करें-",
+      "question_image": null,
       "options": [
         "आपसी फूट अत्यधिक हानिकारक होती है",
         "घर के आदमी का कोई आदर नहीं होता",
         "घर के लोग आपस में लड़ाई करते हैं",
         "सरल मार्ग की जगह कठिन मार्ग चुनना"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (आपसी फूट अत्यधिक हानिकारक होती है) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (आपसी फूट अत्यधिक हानिकारक होती है) है।",
+      "explanation_image": null
     },
     {
       "id": 90,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:दिए गए गद्यांश के आधार पर पूछे गए प्रश्नों का उत्तर दीजिए।सूचना क्रांति का एक असर यह पड़ा है कि सामाजिक संपर्क में गति आई है दूसरा असर यह है कि ‘अज्ञानता का शास्त्र’ बड़े पैमाने पर गढ़ा और प्रचारित किया जाने लगा है। हर समय भ्रामक सूचनाओं का जाल बिछा है हम कह सकते हैं कि ‘निर्मित अज्ञानता’ जानकारी का अभाव नहीं है , बल्कि यह एक व्यापारिक और राजनीतिक निर्मिति है। तीसरा असर यह है कि सूचनाओं की भरमार हो गई है। किसी विषय पर अत्यधिक सूचनाओं का जमावड़ा ज्ञान में अराजकता पैदा करता है और बौद्धिक रिक्तता लाता है सवालहै, क्या इस दुर्ग को वेधा जा सकता है ? इसमें संदेह नहीं कि सूचनाओं की भरमार से ज्यादा जरूरी है गुणवत्ता-आधारित शोध और ज्ञान। इसके लिए सूचनाएँ इकट्ठा करने के बाद इन्हें एक प्रक्रिया में वर्गीकृत, संश्लेषित और व्याख्यायित करना जरूरी होता है ,क्योंकि तभी यह वस्तुपरक समझ की ओर ले जा सकती हैं।उपर्युक्त गद्यांश में ‘विषय’ के लिए किस वाक्य में उचित शब्द का प्रयोग नहीं हुआ है?",
+      "question_image": null,
       "options": [
         "रमेश किससे खिन्न है?",
         "उसका मामला बहुत ही गंभीर हो गया गया है|",
         "इस विषय में आपसे मुझे कोई बात नहीं करनी है|",
         "भ्रष्टाचार वर्तमान समय का विचारणीय  मुद्दा है|"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (रमेश किससे खिन्न है?) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (रमेश किससे खिन्न है?) है।",
+      "explanation_image": null
     },
     {
       "id": 91,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित अनुच्छेद के वाक्य को उचित क्रम में लिखें जिससे एक सही अनुच्छेद का निर्माण हो-1. दुनियाभर की दैनिक घटने 2. समाचार पत्र वह मुद्रित 3. पत्र होता है, जिसमें 4. वाली जानकारियाँ छपती हैं",
+      "question_image": null,
       "options": [
         "3, 2, 4, 1",
         "4, 3, 1, 2",
         "1, 4, 3, 2",
         "2, 3, 1, 4"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (2, 3, 1, 4) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (2, 3, 1, 4) है।",
+      "explanation_image": null
     },
     {
       "id": 92,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:गद्यांश के आधार पर निम्नलिखित प्रश्नों के उत्तर दीजिए-सोवियत मध्य-एशिया भारत की तरह ही पिछड़ा हुआ देश था। वहां भी क्रान्ति से पहले अज्ञान,मूढ़ विश्वास और धर्मान्धता का अखंड राज्य था। यद्यपि क्रांति को तीस ही साल हुए हैं, लेकिन इन तीस सालों में इन जातियों के आर्थिक,सामाजिक और सांस्कृतिक जीवन में भारी क्रांति हुई। 93-94 प्रतिशत निरक्षर जनता की जगह अब कुछ बूढों-बूढ़ियों को छोड़कर सारी ही जनता साक्षर है। मूढ़ विश्वास वहां परिहास का विषय बन गये हैं और अब कोई वहां हाथ जन्मकुंडली दिखाने या टोना-मन्तर कराने के लिए ज्योतिषियों और ओझा-सयानों के पीछे नहीं दौड़ता फिरता। और धर्मान्धता ? हाँ, धर्मान्धता की लाश भी फूँकी जा चुकी है- यद्यपि सांप की तरह उसने आसानी से प्राण नहीं छोड़ा। मध्य एशिया की यह जातियां भारतियों से बहुत समानता रखती थीं। वह जारशाही निरंकुश शासन की भी सदियों शिकार रहीं। उस भूमि में समाजवाद, वैज्ञानिक खेती और उद्योगीकरण की इतनी भारी उन्नति हम भारतियों के दिलों में भी आशा का संचार करती है। कोई जाति किसी दूसरी जाति की सम्पूर्णरूपेण नकल करके सफलता प्राप्त नहीं कर सकती। हम भी इसी नियम के साथ-साथ मध्य एशिया के प्रजातंत्रों से बहुत सी बातें सीख सकते हैं। 613गद्यांश में प्रयुक्त 'विश्वास' शब्द का पर्यायवाची होगा -618",
+      "question_image": null,
       "options": [
         "विश्रुति",
         "प्रतीति",
         "विस्तीर्ण",
         "विशिष्ट"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (प्रतीति) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (प्रतीति) है।",
+      "explanation_image": null
     },
     {
       "id": 93,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित वाक्य के  रिक्त स्थान में उचित विशेषण की पूर्ति कीजिए-‘__________ आदमी आपको पूछ रहा  है?’",
+      "question_image": null,
       "options": [
         "जब",
         "अब",
         "कोई",
         "कब"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (कोई) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (कोई) है।",
+      "explanation_image": null
     },
     {
       "id": 94,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:उक्त गद्यांश को पढ़कर नीचे दिए गये प्रश्नों का उत्तर दीजिए।राजनीति का साहित्य पर प्रभाव तो पड़ता ही है परन्तु इसके विपरीत साहित्य भी राजनीति पर दूरगामी प्रभाव डालता है। सच तो यह है कि राजनीति और साहित्य दोनों ही एक दूसरे को प्रत्यक्षतः या परोक्षरूप से प्रभावित करते रहते हैं। कभी-कभी राजनीति बिना किसी आवरण के सीधे साहित्य पर प्रभाव डालने लगती है तब किसी राजनीतिक विचारधारा का नग्न रूप साहित्य में स्पष्टतः दिखाई पड़ने लगता है। इसीलिए हम कहते भी हैं कि साहित्य को राजनीति से दूर रखो। परन्तु यह बात भी सत्य है कि साहित्य या राजनीति का जन्म आसमान या हवा में नहीं होता, उन्हें ठोस जमीन चाहिए। समाज से विमुख होकर न तो राजनीति की जा सकती है ओर न ही साहित्य का सृजन। दोनों सामाजिकता की परिधि में रहने को अनिवार्य रूप से विवश हैं।Q99. गद्यांश के लिए उपयुक्त शीर्षक का चयन कीजिए।",
+      "question_image": null,
       "options": [
         "साहित्य और राजनीति का विरोध",
         "साहित्य की स्वायत्तता",
         "राजनीति की स्वायत्तता",
         "साहित्य और राजनीति का सम्बन्ध"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (साहित्य और राजनीति का सम्बन्ध) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (साहित्य और राजनीति का सम्बन्ध) है।",
+      "explanation_image": null
     },
     {
       "id": 95,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित वाक्य को ध्यानपूर्वक पढ़ें और रिक्त स्थान की पूर्ति उचित संख्यावाचक विशेषण के माध्यम से करें। राम ने ________ आम खाये।",
+      "question_image": null,
       "options": [
         "छोटे",
         "पके",
         "तीन",
         "बड़े"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (तीन) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (तीन) है।",
+      "explanation_image": null
     },
     {
       "id": 96,
       "section": "Hindi Language and Comprehension",
       "question": "वाक्य क्रम में लिखिए-लगातार हँस रहे थे(अ/लेकिन यह कुछ(ब/विलक्षण-सी स्थिति थी(स/दु:ख में भी वह(द।",
+      "question_image": null,
       "options": [
         "ब स अ द",
         "द अ ब स",
         "स ब अ द",
         "अ ब  स द"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (द अ ब स) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (द अ ब स) है।",
+      "explanation_image": null
     },
     {
       "id": 97,
       "section": "Hindi Language and Comprehension",
       "question": "उचित 'कारक' चिह्न  का प्रयोग कर दिए गए  वाक्य को  पूर्ण करें।                   भगवान ! इस गर्मी में लोग कैसे जी रहे हैं ।",
+      "question_image": null,
       "options": [
         "के लिए",
         "काश !",
         "द्वारा",
         "हे"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (हे) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (हे) है।",
+      "explanation_image": null
     },
     {
       "id": 98,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:दिए गए गद्यांंश के आधार पर निम्नांकित प्रश्नों के उत्तर दीजिए-   कृषि की दुर्दशा का सबसे बड़ा कारण तो यह है कि हमारे देश में जमीन बहुत छोटे-छोटे खेतों में बंटी हुई है। पहले तो प्रत्येक किसान के पास जो भूमि है, यह इतनी थोड़ी है कि उससे उसका भली भांति निर्वाह नहीं हो सकता; और इससे भी बुरी बात यह है कि एक किसान की सारी भूमि एक जगह नहीं होती, अपितु यह अलग-अलग कई छोटे-छोटे खेतों में बंटी होती है। इनमें से एक खेत कहीं होता है और दूसरा खेत बहुत दूर कहीं और। इसलिए किसान अपनी खेती की सिंचाई के लिए भी कोई प्रबन्ध नहीं कर सकता और न फसल के बचाव के लिए खेतों के चारों ओर बाड़ ही लगा सकता है। यदि उसकी सारी भूमि एक ही स्थान पर हो, तो वह सिंचाई और फसल की रक्षा का प्रबन्ध भली भांति कर सकता है। उत्तरप्रदेश और बिहार जैसे राज्यों में एक-एक और दो-दो बीघे के खेतों की कमी नहीं और हजारों खेत तो इतने छोटे हैं कि उनमें बैलों द्वारा हल चला पाना भी सम्भव नहीं है।निम्नलिखित में से किस भाव की अभिव्यक्ति गद्यांश में नहीं हुई है-",
+      "question_image": null,
       "options": [
         "किसान के खेत अलग अलग स्थान पर होते हैं।",
         "कई खेत इतने छोटे हैं कि बैल द्वारा हल भी नहीं चलाया जा सकता।",
         "जमीन छोटे छोटे खेतों में विभाजित है।",
         "बिजली की कमी के कारण सिंचाई नहीं हो पाती।"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (बिजली की कमी के कारण सिंचाई नहीं हो पाती।) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (बिजली की कमी के कारण सिंचाई नहीं हो पाती।) है।",
+      "explanation_image": null
     },
     {
       "id": 99,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:निम्नलिखित गद्यांश को पढ़कर पूछे गए प्रश्नों के उत्तर दीजिए -चित्र-कला का मौन राग अलापने लग जाता है; वक्ता चुप हो जाता है; लेखक की लेखनी थम जाती है; मूर्ति बनाने वाले के सामने नए कपोल, नए नयन और नई छवि का दृश्य उपस्थित हो जाता है।आचरण की सभ्यतामय भाषा सदा मौन रहती है। इस भाषा का निघंटु शुद्ध श्वेत पत्रों वाला है। इसमें नाम मात्र के लिए भी शब्द नहीं। यह सभ्याचरण नाद करता हुआ भी मौन है, व्याख्यान देता हुआ भी व्याख्यान के पीछे छिपा है, राग गाता हुआ भी राग के सुर के भीतर पड़ा है। मृदु वचनों की मिठास में आचरण की सभ्यता मौन रूप से खुली हुई है। नम्रता, दया, प्रेम और उदारता सबके सब सभ्याचरण की भाषा के मौन व्याख्यान हैं। मनुष्य के जीवन पर मौन व्याख्यान का प्रभाव चिरस्थायी होता है और उसकी आत्मा का एक अंग हो जाता है।न काला, न नीला, न पीला, न सफ़ेद, न पूर्वी, न पश्चिमी न उत्तरी न दक्षिणी, बे नाम, बे निशान, बे मकान—विशाल आत्मा के आचरण से मौनरुपिणी, सुगंधि सदा प्रसारित हुआ करती है। इसके मौन से प्रसूत प्रेम औरपवित्रता-धर्म सारे जगत् का कल्याण करके विस्तृत होते हैं। इसकी उपस्थिति से मन और हृदय की ऋतु बदल जाते हैं। तीक्ष्ण गर्मी से जले भुने व्यक्ति आचरण के काले बादलों की बूँदाबाँदी से शीतल हो जाते हैं। मानसोत्पन्न शरदऋतु से क्लेशातुर हुए पुरुष इसकी सुगंधमय अटल वसंत ऋतु के आनंद का पान करते हैं। आचरण के नेत्र के एक अश्रु से जगत् भर के नेत्र भीग जाते हैं। आचरण के आनंद-नृत्य से उन्मदिष्णु होकर वृक्षों और पर्वतों तक के हृदय नृत्य करने लगते हैं।आचरण के मौन व्याख्यान से मनुष्य को एक नया जीवन प्राप्त होता है।किसकी भाषा सदा मौन रहती है ?",
+      "question_image": null,
       "options": [
         "आत्मा",
         "कला",
         "सभ्याचरण",
         "मौन व्याख्यान"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (सभ्याचरण) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (सभ्याचरण) है।",
+      "explanation_image": null
     },
     {
       "id": 100,
       "section": "Hindi Language and Comprehension",
       "question": "उपर्युक्त वाक्य के रेखांकित शब्द के विलोम का चयन कीजिए -सिंहासन पर विराजमान इंद्र वर्षा और वज्रधारी देवता हैं, जो धरती और पृथ्वी के संतुलन का ध्यान रखते हैं।",
+      "question_image": null,
       "options": [
         "सूर्य",
         "इंद्रवीर",
         "आकाश",
         "विहीन"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (आकाश) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (आकाश) है।",
+      "explanation_image": null
     }
   ]
 }

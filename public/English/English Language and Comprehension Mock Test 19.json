@@ -6,281 +6,321 @@
       "id": 1,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blanks.You can have tea ____ coffee, ____ not both, ____ make your choice wisely.",
+      "question_image": null,
       "options": [
         "or; and; but",
         "or; because; so",
         "and; but; or",
         "or; but; so"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (or; but; so) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (or; but; so) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option that means the same as the given proverb.The pen is mightier than the sword",
+      "question_image": null,
       "options": [
         "Carry a sword for protection during unrest",
         "Words can create pain or give comfort",
         "Ideas and writing have more influence than violence",
         "Writing hurts the sentiments of people"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Ideas and writing have more influence than violence) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Ideas and writing have more influence than violence) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blanks.She studied hard for the exam, _____ she didn’t perform well due to extreme anxiety _____ pressure during the test.",
+      "question_image": null,
       "options": [
         "but; and",
         "and; and",
         "so; and",
         "because; but"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (but; and) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (but; and) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "English Language and Comprehension",
       "question": "Select the option that can be used as a one-word substitute for the given group of words.The practice of having more than one spouse at a time",
+      "question_image": null,
       "options": [
         "Polygamy",
         "Monogamy",
         "Bigamy",
         "Polyandry"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Polygamy) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Polygamy) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blanks.She placed the bouquet carefully on _____ table near _____ window, beside _____ vase filled with fresh lilies.",
+      "question_image": null,
       "options": [
         "a; an; the",
         "an; the; a",
         "an; the; the",
         "the; the; the"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (the; the; the) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (the; the; the) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "English Language and Comprehension",
       "question": "Identify the INCORRECTLY spelt word in the given sentence.Béatrice’s knowledge of modern archetecture was impressive.",
+      "question_image": null,
       "options": [
         "modern",
         "impressive",
         "archetecture",
         "knowledge"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (archetecture) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (archetecture) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate ANTONYM of the highlighted word in the given sentence.Despite his magnanimous gesture, the board remained unimpressed and unreceptive.",
+      "question_image": null,
       "options": [
         "Gracious",
         "Merciless",
         "Generous",
         "Petty"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Petty) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Petty) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "English Language and Comprehension",
       "question": "Select the correct spelling of the incorrectly spelt word in the given sentence.She was praised for her conscientious effort in completing the project on time, and her colleagues admired her diligentous work ethic.",
+      "question_image": null,
       "options": [
         "admired - admiired",
         "project - proejct",
         "diligentous - diligent",
         "conscientious - consciencious"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (diligentous - diligent) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (diligentous - diligent) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate meaning of the given proverb.Don’t count your chickens before they hatch.",
+      "question_image": null,
       "options": [
         "Always expect the worst in every situation.",
         "Hens should be monitored during hatching.",
         "Avoid making plans based on uncertain outcomes.",
         "Count your livestock regularly."
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Avoid making plans based on uncertain outcomes.) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Avoid making plans based on uncertain outcomes.) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage written by Narayani Ganesh and answer the questions that follow.Work that nourishes the mind, body and soul. Why do we work? Most would say to sustain themselves and their families. While some may love their profession, monetary return remains essential. However, the tragedy begins when work feeds only the body and mind, leaving the soul starved. Prolonged neglect of the soul due to relentless work pressures can be deeply damaging—emotionally, mentally and even physically.The solution lies in finding a creative outlet—something simple, hands-on, and joy-giving that isn’t burdened by deadlines or expectations. Activities like playing an instrument, gardening, painting, embroidery, carpentry or any other hobby that brings peace and fulfillment can nourish the soul. Such pursuits can lead to a profound transformation. They not only provide inner joy but also enhance one’s efficiency, creativity and problem-solving abilities at work. This change improves interpersonal skills and makes the individual more engaged and present in both, professional and personal life.Gradually, instead of wasting time on passive entertainment like mindless scrolling or binge-watching, one starts valuing time and connecting more meaningfully with the world. The mind, body and soul begin to function in harmony, leading to inner joy and outward positivity. This rejuvenation fosters compassion, love and appreciation, replacing complaints with gratitude. Even monotonous tasks become opportunities for innovation.This inner shift mirrors cultural movements like slow food or the resurgence of reading in a screen-dominated age. As John Ruskin said, “The highest reward for a man’s toil is not what he gets for it but what he becomes by it.” Let’s pursue that deeper reward.Which of the following facts is directly stated in the passage?",
+      "question_image": null,
       "options": [
         "Gardening is better than embroidery for mental health.",
         "Monotonous work can become innovative with the right mindset.",
         "Passive entertainment causes depression.",
         "Hobbies lead to promotion at the workplace."
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Monotonous work can become innovative with the right mindset.) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Monotonous work can become innovative with the right mindset.) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage written by Narayani Ganesh and answer the questions that follow.Work that nourishes the mind, body and soul. Why do we work? Most would say to sustain themselves and their families. While some may love their profession, monetary return remains essential. However, the tragedy begins when work feeds only the body and mind, leaving the soul starved. Prolonged neglect of the soul due to relentless work pressures can be deeply damaging—emotionally, mentally and even physically.The solution lies in finding a creative outlet—something simple, hands-on, and joy-giving that isn’t burdened by deadlines or expectations. Activities like playing an instrument, gardening, painting, embroidery, carpentry or any other hobby that brings peace and fulfillment can nourish the soul. Such pursuits can lead to a profound transformation. They not only provide inner joy but also enhance one’s efficiency, creativity and problem-solving abilities at work. This change improves interpersonal skills and makes the individual more engaged and present in both, professional and personal life.Gradually, instead of wasting time on passive entertainment like mindless scrolling or binge-watching, one starts valuing time and connecting more meaningfully with the world. The mind, body and soul begin to function in harmony, leading to inner joy and outward positivity. This rejuvenation fosters compassion, love and appreciation, replacing complaints with gratitude. Even monotonous tasks become opportunities for innovation.This inner shift mirrors cultural movements like slow food or the resurgence of reading in a screen-dominated age. As John Ruskin said, “The highest reward for a man’s toil is not what he gets for it but what he becomes by it.” Let’s pursue that deeper reward.Select the most appropriate title for the given passage.",
+      "question_image": null,
       "options": [
         "Work-Life Imbalance: A Corporate Crisis",
         "Nourishing the Soul Through Creative Pursuits",
         "The Power of Productivity",
         "Entertainment and Escapism in the Digital Age"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Nourishing the Soul Through Creative Pursuits) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Nourishing the Soul Through Creative Pursuits) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage written by Narayani Ganesh and answer the questions that follow.Work that nourishes the mind, body and soul. Why do we work? Most would say to sustain themselves and their families. While some may love their profession, monetary return remains essential. However, the tragedy begins when work feeds only the body and mind, leaving the soul starved. Prolonged neglect of the soul due to relentless work pressures can be deeply damaging—emotionally, mentally and even physically.The solution lies in finding a creative outlet—something simple, hands-on, and joy-giving that isn’t burdened by deadlines or expectations. Activities like playing an instrument, gardening, painting, embroidery, carpentry or any other hobby that brings peace and fulfillment can nourish the soul. Such pursuits can lead to a profound transformation. They not only provide inner joy but also enhance one’s efficiency, creativity and problem-solving abilities at work. This change improves interpersonal skills and makes the individual more engaged and present in both, professional and personal life.Gradually, instead of wasting time on passive entertainment like mindless scrolling or binge-watching, one starts valuing time and connecting more meaningfully with the world. The mind, body and soul begin to function in harmony, leading to inner joy and outward positivity. This rejuvenation fosters compassion, love and appreciation, replacing complaints with gratitude. Even monotonous tasks become opportunities for innovation.This inner shift mirrors cultural movements like slow food or the resurgence of reading in a screen-dominated age. As John Ruskin said, “The highest reward for a man’s toil is not what he gets for it but what he becomes by it.” Let’s pursue that deeper reward.What is the central theme of the passage?",
+      "question_image": null,
       "options": [
         "Professional success depends only on hard work and deadlines.",
         "Modern entertainment habits are harmful.",
         "Hobbies are more important than careers.",
         "True well-being arises when creative hobbies complement professional life."
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (True well-being arises when creative hobbies complement professional life.) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (True well-being arises when creative hobbies complement professional life.) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage written by Narayani Ganesh and answer the questions that follow.Work that nourishes the mind, body and soul. Why do we work? Most would say to sustain themselves and their families. While some may love their profession, monetary return remains essential. However, the tragedy begins when work feeds only the body and mind, leaving the soul starved. Prolonged neglect of the soul due to relentless work pressures can be deeply damaging—emotionally, mentally and even physically.The solution lies in finding a creative outlet—something simple, hands-on, and joy-giving that isn’t burdened by deadlines or expectations. Activities like playing an instrument, gardening, painting, embroidery, carpentry or any other hobby that brings peace and fulfillment can nourish the soul. Such pursuits can lead to a profound transformation. They not only provide inner joy but also enhance one’s efficiency, creativity and problem-solving abilities at work. This change improves interpersonal skills and makes the individual more engaged and present in both, professional and personal life.Gradually, instead of wasting time on passive entertainment like mindless scrolling or binge-watching, one starts valuing time and connecting more meaningfully with the world. The mind, body and soul begin to function in harmony, leading to inner joy and outward positivity. This rejuvenation fosters compassion, love and appreciation, replacing complaints with gratitude. Even monotonous tasks become opportunities for innovation.This inner shift mirrors cultural movements like slow food or the resurgence of reading in a screen-dominated age. As John Ruskin said, “The highest reward for a man’s toil is not what he gets for it but what he becomes by it.” Let’s pursue that deeper reward.What is the most appropriate ANTONYM of the word 'rejuvenation' as used in the passage?",
+      "question_image": null,
       "options": [
         "Preservation",
         "Vitality",
         "Exhaustion",
         "Stimulation"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Exhaustion) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Exhaustion) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage written by Narayani Ganesh and answer the questions that follow.Work that nourishes the mind, body and soul. Why do we work? Most would say to sustain themselves and their families. While some may love their profession, monetary return remains essential. However, the tragedy begins when work feeds only the body and mind, leaving the soul starved. Prolonged neglect of the soul due to relentless work pressures can be deeply damaging—emotionally, mentally and even physically.The solution lies in finding a creative outlet—something simple, hands-on, and joy-giving that isn’t burdened by deadlines or expectations. Activities like playing an instrument, gardening, painting, embroidery, carpentry or any other hobby that brings peace and fulfillment can nourish the soul. Such pursuits can lead to a profound transformation. They not only provide inner joy but also enhance one’s efficiency, creativity and problem-solving abilities at work. This change improves interpersonal skills and makes the individual more engaged and present in both, professional and personal life.Gradually, instead of wasting time on passive entertainment like mindless scrolling or binge-watching, one starts valuing time and connecting more meaningfully with the world. The mind, body and soul begin to function in harmony, leading to inner joy and outward positivity. This rejuvenation fosters compassion, love and appreciation, replacing complaints with gratitude. Even monotonous tasks become opportunities for innovation.This inner shift mirrors cultural movements like slow food or the resurgence of reading in a screen-dominated age. As John Ruskin said, “The highest reward for a man’s toil is not what he gets for it but what he becomes by it.” Let’s pursue that deeper reward.What structure does the author use in this passage?",
+      "question_image": null,
       "options": [
         "Problem–Solution–Application",
         "Chronological narrative",
         "Definition–Contrast–Critique",
         "Anecdotal storytelling"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Problem–Solution–Application) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Problem–Solution–Application) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate adverb to fill in the blank.She is ______ poor to pay her fees.",
+      "question_image": null,
       "options": [
         "much",
         "enough",
         "too",
         "very"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (too) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (too) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. Five of its seven floors house hundreds of showrooms.B. These sell clothes, shoes, accessories, jewellery and electronic goods of well-known national and international brands.C. The Westend Mall is the most happening place of my city.D. Every day, thousands of people visit for a wonderful shopping, movie and dining experience.E. The escalators, fire-exit, multi-level parking, clean washrooms make shopping a truly wonderful experience here.",
+      "question_image": null,
       "options": [
         "DEACB",
         "CEBDA",
         "CDABE",
         "AEBCD"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (CDABE) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (CDABE) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate meaning of the given proverb.When a twig grows hard, it is difficult to twist it.",
+      "question_image": null,
       "options": [
         "Hard work always pays off in the end.",
         "It is easy to make changes at the beginning, but harder as things progress.",
         "Early efforts are not adequate to change or influence.",
         "Success is guaranteed if you start at the right time."
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (It is easy to make changes at the beginning, but harder as things progress.) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (It is easy to make changes at the beginning, but harder as things progress.) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate article to fill in the blank. If no article is needed, select 'No article required'._____ tiger is the most ferocious of all animals.",
+      "question_image": null,
       "options": [
         "No article required.",
         "A",
         "An",
         "The"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (The) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (The) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option that rectifies the incorrectly spelt word in the given sentence.The doctor advised the patient to stay in a quiet environment to properly convelesce and regain his strength.",
+      "question_image": null,
       "options": [
         "convalesce",
         "convalasce",
         "convalace",
         "convelace"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (convalesce) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (convalesce) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate ANTONYM of the underlined word in the given sentence.The company's approach was rather draconian for a minor offense.",
+      "question_image": null,
       "options": [
         "Reluctant",
         "Lenient",
         "Cruel",
         "Cautious"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Lenient) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Lenient) है।",
+      "explanation_image": null
     }
   ]
 }

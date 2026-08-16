@@ -6,281 +6,321 @@
       "id": 1,
       "section": "Arithmetical and Numerical Ability",
       "question": "The sum of the length, breadth and height of a cuboid is 29 m. If the length of its diagonal is 17 m, then what is the total surface area (in sq. m) of the cuboid?208",
+      "question_image": null,
       "options": [
         "441",
         "552",
         "497",
         "529"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (552) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (552) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "Arithmetical and Numerical Ability",
       "question": "If a number is divisible by both 4 and 6, it must also be divisible by:",
+      "question_image": null,
       "options": [
         "8",
         "10",
         "12",
         "18"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (12) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (12) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "Arithmetical and Numerical Ability",
       "question": "Amit's income in 2019 was ₹24,200. He gets an increment of 10% every year. What was his income (in ₹) in 2021?1306",
+      "question_image": null,
       "options": [
         "29,282",
         "24,200",
         "29,040",
         "26,620"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (29,282) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (29,282) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "Arithmetical and Numerical Ability",
       "question": "A shopkeeper sells an item for ₹128.10 after giving two successive discounts of 85% and 50% on its marked price. Had he not given any discount, he would have earned a profit of 22%. What is the cost price (in ₹) of the item?550",
+      "question_image": null,
       "options": [
         "1,398",
         "1,414",
         "1,397",
         "1,400"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (1,400) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (1,400) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "Arithmetical and Numerical Ability",
       "question": "Sapna invested ₹20,300 on simple interest, partly at 3% per annum and partly at 4% per annum. If she earns equal interests from the two investments after 7 years, then find the sum invested at 3% per annum (in ₹).523",
+      "question_image": null,
       "options": [
         "11,598",
         "11,600",
         "11,597",
         "11,599"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (11,600) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (11,600) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average price of three items of furniture is ₹17,310. If their prices are in the ratio 3 : 5 : 7, the price of the costliest item (in ₹) is:",
+      "question_image": null,
       "options": [
         "24,234",
         "8,078",
         "10,386",
         "5,770"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (24,234) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (24,234) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average marks of 17 students in a class is 39. If the marks of each student are doubled, find the new average.315",
+      "question_image": null,
       "options": [
         "78",
         "17",
         "39",
         "34"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (78) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (78) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "Arithmetical and Numerical Ability",
       "question": "Two pipes can fill a tank in T hours and 15 hours, respectively. A waste pipe can empty the full tank in 18 hours. When all three pipes are open, they can fill the tank in 9 hours. The value of T is:96",
+      "question_image": null,
       "options": [
         "12",
         "11",
         "10",
         "9"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (10) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (10) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "Arithmetical and Numerical Ability",
       "question": "The area of a square plot is 39601 m2 . The length of each side of the plot (in m) is:1079",
+      "question_image": null,
       "options": [
         "199",
         "189",
         "201",
         "191"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (199) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (199) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "Arithmetical and Numerical Ability",
       "question": "In a test, B got 66 marks while A got 80 marks, out of maximum marks of 85. What percentage (approx.) of B's marks was A's marks?1262",
+      "question_image": null,
       "options": [
         "85",
         "94.12",
         "121.21",
         "82.5"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (121.21) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (121.21) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "Arithmetical and Numerical Ability",
       "question": "Veer can do a piece of work in 14 hours and Manoj can do it in 27 hours. With the assistance of Anand, they completed the work in 9 hours. In how many hours can Anand alone do the work?1195",
+      "question_image": null,
       "options": [
         "377",
         "378",
         "379",
         "380"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (378) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (378) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "Arithmetical and Numerical Ability",
       "question": "A wholesaler sells apples at ₹P per hundred to a retailer. The retailer spends 10% of P on transportation and sells them to shopkeepers at a 10% profit. The shopkeeper sells apples to customers at ₹30.25 per piece and earns a 25% profit. Find the value of P.102",
+      "question_image": null,
       "options": [
         "2,150",
         "2,100",
         "2,000",
         "2,225"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (2,000) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (2,000) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "Arithmetical and Numerical Ability",
       "question": "The ratio of numbers of girls and boys in a school is 1 : 5. If the number of girls is 232, determine the number of boys.",
+      "question_image": null,
       "options": [
         "1160",
         "1190",
         "1135",
         "1180"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (1160) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (1160) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "Arithmetical and Numerical Ability",
       "question": "A sum of ₹5,000 was lent for a period of 2 years 6 months at the rate of 10% per annum, interest compounded annually. Find the compound interest.833",
+      "question_image": null,
       "options": [
         "₹1,352.50",
         "₹1,452.50",
         "₹1,552.50",
         "₹1,650.50"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (₹1,352.50) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (₹1,352.50) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "Arithmetical and Numerical Ability",
       "question": "If the ratio of the volume of two hemispheres is 64 : 125, then what is the ratio of their total surface area?360",
+      "question_image": null,
       "options": [
         "4 : 5",
         "3 : 5",
         "16 : 25",
         "9 : 25"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (16 : 25) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (16 : 25) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "Arithmetical and Numerical Ability",
       "question": "While going to a shopping mall, Minal travels at a speed of 66 km/hr and on her way back, she travels at a speed of 24 km/hr. What is her average speed (in km/hr) for the whole journey?11337",
+      "question_image": null,
       "options": [
         "43.3",
         "29.3",
         "40.5",
         "35.2"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (35.2) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (35.2) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average of 13 numbers is 7. If each number is multiplied by 7, then what will the new average be?",
+      "question_image": null,
       "options": [
         "13",
         "7",
         "14",
         "49"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (49) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (49) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "Arithmetical and Numerical Ability",
       "question": "Find the height of a right triangular prism with volume 270 cm3, base of altitude 12 cm and side 9 cm.",
+      "question_image": null,
       "options": [
         "13 cm",
         "5 cm",
         "5 cm",
         "10 cm"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (5 cm) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (5 cm) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "Arithmetical and Numerical Ability",
       "question": "Find the compound interest on ₹5,000 for 2 years, if interest is compounded half-yearly at 5% rate of interest per annum. (Give your answer correct to two decimal places.)",
+      "question_image": null,
       "options": [
         "₹419.16",
         "₹219.16",
         "₹319.06",
         "₹519.06"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (₹519.06) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (₹519.06) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "Arithmetical and Numerical Ability",
       "question": "A train goes from A to B at a speed of 12 km/h and returns from B to A by the same route at 36 km/h. The average speed (in km/h) of the train during the two-way journey is:",
+      "question_image": null,
       "options": [
         "18",
         "17",
         "16",
         "15"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (18) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (18) है।",
+      "explanation_image": null
     }
   ]
 }

@@ -6,281 +6,321 @@
       "id": 1,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option that fits the given situation.The artist's studio was a chaotic mess, filled with a jumble of paint-splattered brushes, canvases leaning against every wall and sculptures in various stages of completion. The scene was a testament to the artist's frenzied creative process.",
+      "question_image": null,
       "options": [
         "Serene",
         "Idyllic",
         "Spartan",
         "Welter"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Welter) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Welter) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate ANTONYM of the underlined word in the given sentence.While she preferred an austere lifestyle, her brother enjoyed a more sumptuous living.",
+      "question_image": null,
       "options": [
         "Stringent",
         "Plain",
         "Frugal",
         "Flexible"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Flexible) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Flexible) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.The glass is _______.",
+      "question_image": null,
       "options": [
         "broke",
         "break apart",
         "broken",
         "not broke"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (broken) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (broken) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.The artist's _____ use of vibrant colours and bold brushstrokes created a visually stunning masterpiece that captivated viewers.",
+      "question_image": null,
       "options": [
         "audacious",
         "understated",
         "muted",
         "subdued"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (audacious) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (audacious) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate article to fill in the blank. If no article is needed, select 'X'.He said he became a criminal as it was difficult for him to earn ____ honest living.",
+      "question_image": null,
       "options": [
         "the",
         "a",
         "X",
         "an"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (an) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (an) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. The event, organised by a group of colonists disguised as Mohawk Indians, was a major act of defiance against the British rule and a catalyst for the American Revolution.B. In 1773, a group of American colonists protested against the Tea Act, a British law that imposed taxes on tea imported to the colonies.C. The Boston Tea Party is a significant event in American history, symbolising the colonists' growing discontent with the British rule and their desire for independence.D. The colonists boarded British ships in Boston Harbor and dumped 342 chests of tea into the water.E. The Tea Party led to a series of punitive measures by the British Government, further escalating tensions between the colonies and Britain.",
+      "question_image": null,
       "options": [
         "AEBCD",
         "DCAEB",
         "CABDE",
         "BADCE"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (CABDE) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (CABDE) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.The dog _____ across the yard when it saw the squirrel.",
+      "question_image": null,
       "options": [
         "running",
         "runs",
         "ran",
         "run"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (ran) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (ran) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate ANTONYM of the underlined word in the given sentence.His perfunctory apology did little to assuage her lingering resentment.",
+      "question_image": null,
       "options": [
         "Superficial",
         "Uninterested",
         "Sincere",
         "Routine"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Sincere) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Sincere) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "English Language and Comprehension",
       "question": "Select the INCORRECTLY spelt word.",
+      "question_image": null,
       "options": [
         "Shephird",
         "Inaudible",
         "Fortnight",
         "Simplify"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Shephird) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Shephird) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "English Language and Comprehension",
       "question": "Identify the INCORRECTLY spelt word from the given sentence.Despite the numerous oppertunity, challenges, achievements, and experiences in her career, she remained determined and focused.",
+      "question_image": null,
       "options": [
         "determined",
         "oppertunity",
         "numerous",
         "challenges"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (oppertunity) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (oppertunity) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "English Language and Comprehension",
       "question": "Select the literary context in which the given proverb would serve as a compelling thematic device.Dead men tell no tales",
+      "question_image": null,
       "options": [
         "A travelogue documenting rural cultures and forgotten languages",
         "A utopian novel exploring eternal peace after death",
         "A coming-of-age story about a boy learning to fish",
         "A political thriller where witnesses are mysteriously disappearing"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (A political thriller where witnesses are mysteriously disappearing) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (A political thriller where witnesses are mysteriously disappearing) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blanks. If no article is required, select the option with ‘No article required’.She is _____ professor of _____ history at our university.",
+      "question_image": null,
       "options": [
         "No article required, the",
         "a, the",
         "the, the",
         "a, No article required"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (a, No article required) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (a, No article required) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. Carson's meticulous research and eloquent prose awakened the public to the dangers of indiscriminate pesticide use.B. In 1962, Rachel Carson published Silent Spring, a groundbreaking book that exposed the devastating impact of pesticides on the environment.C. Her work sparked a nationwide environmental movement, leading to stricter regulations on pesticide use and a greater awareness of the interconnectedness of all living things.D. The book's title, 'Silent Spring', alluded to a future where birdsong would be silenced due to the widespread use of harmful chemicals.E. Carson's courageous stand against powerful industries made her a pioneer of modern environmentalism.",
+      "question_image": null,
       "options": [
         "DCABE",
         "ABDCE",
         "BACED",
         "BDACE"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (BACED) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (BACED) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "English Language and Comprehension",
       "question": "Identify the most appropriate option that fits the given situation.The hiker, having lost his way and run out of supplies, stumbled into the village in a state of utter exhaustion. His clothes were torn, his face gaunt and hisbody weakened from days of hunger and thirst.",
+      "question_image": null,
       "options": [
         "Robust",
         "Halcyon",
         "Corpulent",
         "Emaciated"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Emaciated) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Emaciated) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate meaning of the given proverb.All that glitters is not gold.",
+      "question_image": null,
       "options": [
         "Gold always fetches great returns.",
         "Everything that looks good gives rewards.",
         "The glitter of gold cannot be retained.",
         "Not everything that looks precious turns out to be so."
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Not everything that looks precious turns out to be so.) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Not everything that looks precious turns out to be so.) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.The Indus Valley Civilisation, which flourished around 2500 BCE, is regarded as one of the earliest urban societies in human history. Spanning parts of present-day India and Pakistan, it was remarkable for its advanced city planning, drainage systems, and standardised brick structures. Cities like Harappa and Mohenjo-Daro were laid out on a grid pattern, with wide streets and sophisticated public baths—features that reflected an organised and progressive society.Archaeologists have discovered seals, pottery, tools, and jewelry that reveal the artistic and commercial achievements of this civilisation. Trade links with Mesopotamia suggest that the Indus people had a well-developed system of exchange. Interestingly, the script used by them remains undeciphered even today, leaving many aspects of their language, beliefs, and governance shrouded in mystery.Around 1900 BCE, the civilisation began to decline, possibly due to environmental changes such as shifting river courses or repeated floods. Despite its fall, the Indus Valley left an enduring legacy of urban culture, technological skill, and social organisation. Its silent ruins continue to remind us that even in ancient times, human ingenuity could build cities of remarkable complexity and order, inspiring modern planners and historians to appreciate the sophistication and enduring wisdom of early civilisations and their contribution to human progress.Q76. Which feature shows that the Indus people were skilled city planners?",
+      "question_image": null,
       "options": [
         "Grid-patterned streets and drainage systems",
         "Absence of public spaces",
         "Use of stone temples",
         "Nomadic settlements"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Grid-patterned streets and drainage systems) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Grid-patterned streets and drainage systems) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.The Indus Valley Civilisation, which flourished around 2500 BCE, is regarded as one of the earliest urban societies in human history. Spanning parts of present-day India and Pakistan, it was remarkable for its advanced city planning, drainage systems, and standardised brick structures. Cities like Harappa and Mohenjo-Daro were laid out on a grid pattern, with wide streets and sophisticated public baths—features that reflected an organised and progressive society.Archaeologists have discovered seals, pottery, tools, and jewelry that reveal the artistic and commercial achievements of this civilisation. Trade links with Mesopotamia suggest that the Indus people had a well-developed system of exchange. Interestingly, the script used by them remains undeciphered even today, leaving many aspects of their language, beliefs, and governance shrouded in mystery.Around 1900 BCE, the civilisation began to decline, possibly due to environmental changes such as shifting river courses or repeated floods. Despite its fall, the Indus Valley left an enduring legacy of urban culture, technological skill, and social organisation. Its silent ruins continue to remind us that even in ancient times, human ingenuity could build cities of remarkable complexity and order, inspiring modern planners and historians to appreciate the sophistication and enduring wisdom of early civilisations and their contribution to human progress.Q77. What real-world lesson does the passage imply?",
+      "question_image": null,
       "options": [
         "Trade is more important than culture.",
         "Environmental care is vital for the survival of societies.",
         "Modern cities owe their design to ancient civilisations.",
         "Ancient people lacked intelligence."
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Environmental care is vital for the survival of societies.) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Environmental care is vital for the survival of societies.) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.The Indus Valley Civilisation, which flourished around 2500 BCE, is regarded as one of the earliest urban societies in human history. Spanning parts of present-day India and Pakistan, it was remarkable for its advanced city planning, drainage systems, and standardised brick structures. Cities like Harappa and Mohenjo-Daro were laid out on a grid pattern, with wide streets and sophisticated public baths—features that reflected an organised and progressive society.Archaeologists have discovered seals, pottery, tools, and jewelry that reveal the artistic and commercial achievements of this civilisation. Trade links with Mesopotamia suggest that the Indus people had a well-developed system of exchange. Interestingly, the script used by them remains undeciphered even today, leaving many aspects of their language, beliefs, and governance shrouded in mystery.Around 1900 BCE, the civilisation began to decline, possibly due to environmental changes such as shifting river courses or repeated floods. Despite its fall, the Indus Valley left an enduring legacy of urban culture, technological skill, and social organisation. Its silent ruins continue to remind us that even in ancient times, human ingenuity could build cities of remarkable complexity and order, inspiring modern planners and historians to appreciate the sophistication and enduring wisdom of early civilisations and their contribution to human progress.Q78. Which title best suits the passage?",
+      "question_image": null,
       "options": [
         "The Glory of the Indus Valley Civilisation",
         "The First Indian Empire",
         "Mysteries of the Ancient Traders",
         "The Lost Script of the East"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (The Glory of the Indus Valley Civilisation) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (The Glory of the Indus Valley Civilisation) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.The Indus Valley Civilisation, which flourished around 2500 BCE, is regarded as one of the earliest urban societies in human history. Spanning parts of present-day India and Pakistan, it was remarkable for its advanced city planning, drainage systems, and standardised brick structures. Cities like Harappa and Mohenjo-Daro were laid out on a grid pattern, with wide streets and sophisticated public baths—features that reflected an organised and progressive society.Archaeologists have discovered seals, pottery, tools, and jewelry that reveal the artistic and commercial achievements of this civilisation. Trade links with Mesopotamia suggest that the Indus people had a well-developed system of exchange. Interestingly, the script used by them remains undeciphered even today, leaving many aspects of their language, beliefs, and governance shrouded in mystery.Around 1900 BCE, the civilisation began to decline, possibly due to environmental changes such as shifting river courses or repeated floods. Despite its fall, the Indus Valley left an enduring legacy of urban culture, technological skill, and social organisation. Its silent ruins continue to remind us that even in ancient times, human ingenuity could build cities of remarkable complexity and order, inspiring modern planners and historians to appreciate the sophistication and enduring wisdom of early civilisations and their contribution to human progress.Q79. Which of the following best summarises the passage?",
+      "question_image": null,
       "options": [
         "The Indus Valley Civilisation was a primitive rural society.",
         "The Indus people were mainly warriors who conquered neighbouring regions.",
         "The Indus Civilisation was completely dependent on Mesopotamia.",
         "The Indus Valley Civilisation showed early examples of organised urban life and trade."
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (The Indus Valley Civilisation showed early examples of organised urban life and trade.) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (The Indus Valley Civilisation showed early examples of organised urban life and trade.) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.The Indus Valley Civilisation, which flourished around 2500 BCE, is regarded as one of the earliest urban societies in human history. Spanning parts of present-day India and Pakistan, it was remarkable for its advanced city planning, drainage systems, and standardised brick structures. Cities like Harappa and Mohenjo-Daro were laid out on a grid pattern, with wide streets and sophisticated public baths—features that reflected an organised and progressive society.Archaeologists have discovered seals, pottery, tools, and jewelry that reveal the artistic and commercial achievements of this civilisation. Trade links with Mesopotamia suggest that the Indus people had a well-developed system of exchange. Interestingly, the script used by them remains undeciphered even today, leaving many aspects of their language, beliefs, and governance shrouded in mystery.Around 1900 BCE, the civilisation began to decline, possibly due to environmental changes such as shifting river courses or repeated floods. Despite its fall, the Indus Valley left an enduring legacy of urban culture, technological skill, and social organisation. Its silent ruins continue to remind us that even in ancient times, human ingenuity could build cities of remarkable complexity and order, inspiring modern planners and historians to appreciate the sophistication and enduring wisdom of early civilisations and their contribution to human progress.Q80. What is the tone of the passage?",
+      "question_image": null,
       "options": [
         "Humorous and casual",
         "Analytical and factual",
         "Emotional and persuasive",
         "Sarcastic and informal"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Analytical and factual) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Analytical and factual) है।",
+      "explanation_image": null
     }
   ]
 }

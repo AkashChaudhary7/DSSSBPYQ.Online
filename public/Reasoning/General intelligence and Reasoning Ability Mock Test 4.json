@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete?CUB175, UMT211, MEL247, EWD283, ?",
+      "question_image": null,
       "options": [
         "WOY319",
         "XOV319",
         "WOV319",
         "WTV319"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (WOV319) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (WOV319) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the set in which the numbers are related in the same way as are the numbers of the following sets.(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 - Operations on 13 such as adding/deleting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed)(3, 24, 2)(5, 80, 4)",
+      "question_image": null,
       "options": [
         "(5, 125, 5)",
         "(4, 112, 7)",
         "(6, 186, 6)",
         "(11, 44, 2)"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' ((4, 112, 7)) है।"
+      "explanation": "सही उत्तर विकल्प 'B' ((4, 112, 7)) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a row of 56 students facing North, Yen is 21st from the right end. If Dollar is 19th to the left of Yen, what is Dollar's position from the left end of the line?",
+      "question_image": null,
       "options": [
         "17th",
         "19th",
         "15th",
         "11th"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (17th) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (17th) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given information carefully and answer the question that follows. You must assume everything in the information to be true.Recently, the water level in Reservoir X reached a critically low level, affecting water supply to downstream communities. Experts attribute this to prolonged drought conditions in the region.Which of the following can be concluded from the given information? I. Prolonged drought conditions are responsible for the low water level in Reservoir X.II. Building more dams upstream would solve the water supply issues faced by downstream communities.",
+      "question_image": null,
       "options": [
         "Only II",
         "Both I and II",
         "Neither I nor II",
         "Only I"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Only I) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Only I) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following triads, each group of letters is related to the subsequent one following a certain logic. Select from the given options, the one which follows the same logic.LINE – NELI – IELNFIND – NDFI – IDFN",
+      "question_image": null,
       "options": [
         "JUMP – MPJU – UPJM",
         "BOND – ONBD – ODBN",
         "GIVE – GEVI – GEIV",
         "RATE – RETA – ARTE"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (JUMP – MPJU – UPJM) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (JUMP – MPJU – UPJM) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes, A, B, C, D, E, F and G, are kept one over the other but not necessarily in the same order.Only G is kept above A. Only two boxes are kept between A and F. Only E is kept below C. B is not kept immediately above F.How many boxes are kept between D and E?1458",
+      "question_image": null,
       "options": [
         "Three",
         "One",
         "Four",
         "Two"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Two) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Two) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "Three of the following four numbers are alike in a certain way and thus form a group. Which is the one that DOES NOT belong to that group?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "question_image": null,
       "options": [
         "7 - 18",
         "8 - 21",
         "10 - 27",
         "13 - 54"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (13 - 54) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (13 - 54) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the following words.OPT  SEW  DAY  BYEIn each of the words, each vowel is changed to the second letter preceding it in the English alphabetical order and each consonant is changed to the letter immediately following it in the English alphabetical order. In how many letter-clusters thus formed, will no vowel appear?",
+      "question_image": null,
       "options": [
         "Two",
         "Four",
         "One",
         "Three"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Two) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Two) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements:All grapes are apples.Some bananas are apples.No banana is a pear.Conclusions:I. No apples are pears.II. Some grapes are bananas.",
+      "question_image": null,
       "options": [
         "Neither conclusion I nor II follows.",
         "Only conclusion I follows.",
         "Only conclusion II follows.",
         "Both conclusions I and II follow."
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Neither conclusion I nor II follows.) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Neither conclusion I nor II follows.) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left)   328          475           234            153          782         (Right)(Example- 697 – First digit = 6, second digit = 9 and third digit = 7)(NOTE: All operations to be done from left to right.)What will be the resultant if the third digit of the lowest number is added to the second digit of the highest number?",
+      "question_image": null,
       "options": [
         "12",
         "10",
         "11",
         "13"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (11) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (11) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which letter-cluster pair DOES NOT belong to that group?(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+      "question_image": null,
       "options": [
         "RK",
         "UM",
         "PI",
         "XQ"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (UM) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (UM) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete?EPG -1  GOJ 2  INM -4 ?  MLS -16",
+      "question_image": null,
       "options": [
         "PLJ 7",
         "LPY 7",
         "PLH 8",
         "KMP 8"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (KMP 8) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (KMP 8) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "What will come in place of the question mark (?) in the following equation, if ‘+’ and ‘-’ are interchanged and ‘×’ and ‘÷’ are interchanged?44 × 11 ÷ 9 - 7 + 15 = ?",
+      "question_image": null,
       "options": [
         "27",
         "28",
         "29",
         "26"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (28) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (28) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "K, L, M, N, U, V and X are sitting around a circular table facing the centre. U sits to the immediate right of K. Only three people sit between U and N when counted from the left of U.  Only three people sit between K and V. L sits to the immediate right of X. How many people sit between M and X when counted from the left of X?",
+      "question_image": null,
       "options": [
         "Three",
         "Two",
         "One",
         "Four"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Two) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Two) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘A’ stands for ‘÷’, ‘B’ stands for ‘×’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘−’, then what will come in place of the question mark (?) in the following equation?88 A 8 C 83 D 16 B 3 = ?",
+      "question_image": null,
       "options": [
         "46",
         "44",
         "45",
         "47"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (46) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (46) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "Naksh starts from Point A and drives 7 km towards south. He then takes a left turn, drives 5 km, turns left and drives 15 km. He then takes a left turn and drives 11 km. He takes a final left turn, drives 8 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again?(All turns are 90 degree turns only unless specified.)1863",
+      "question_image": null,
       "options": [
         "5 km to the west",
         "6 km to the west",
         "5 km to the east",
         "6 km to the east"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (6 km to the east) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (6 km to the east) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of A, B, C, D, E, F and G gave a lecture on different days of a week starting from Monday and ending on Sunday of the same week.\nOnly two people gave lectures before C. Only two people gave lectures between C and D. E gave the lecture immediately after D. Only two people gave lectures between E and B. A gave the lecture immediately before G.\nWho gave the lecture on Friday?1378",
+      "question_image": null,
       "options": [
         "F",
         "B",
         "D",
         "A"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (F) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (F) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order?SRQ   QPO   ONM   MLK   ?",
+      "question_image": null,
       "options": [
         "XWV",
         "KJI",
         "ZXY",
         "ACB"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (KJI) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (KJI) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number results in the second number. Similarly, certain mathematical operation(s) on the second number results in the third number and so on. Which of the given options follows the same set of operations as in the given sets?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting /multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)21 - 20.3 - 19.6 - 18.9; 28 - 27.3 - 26.6 - 25.9",
+      "question_image": null,
       "options": [
         "36 - 35.3 - 34.6 - 33.9",
         "15 - 13.3 - 11.6 - 9.9",
         "32 - 30.3 - 29.6 - 28.9",
         "26 - 25.3 - 23.6 - 21.9"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (36 - 35.3 - 34.6 - 33.9) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (36 - 35.3 - 34.6 - 33.9) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left)   823          574          432            351          287         (Right)(Example- 697 – First digit = 6, second digit = 9 and third digit = 7)(NOTE: All operations to be done from left to right.)If all the numbers are arranged in the descending order, the position(s) of how many numbers will remain unchanged?",
+      "question_image": null,
       "options": [
         "Five",
         "Three",
         "Two",
         "Four"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Five) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Five) है।",
+      "explanation_image": null
     }
   ]
 }

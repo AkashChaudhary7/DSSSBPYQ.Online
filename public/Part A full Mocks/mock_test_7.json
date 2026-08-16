@@ -6,1401 +6,1601 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements:Some pianos are guitars.All guitars are violins.No violins are drums.Conclusions:I: Some pianos are violins.II: No guitars are drums.",
+      "question_image": null,
       "options": [
         "Neither conclusion (I) nor (II) follows",
         "Only conclusion (II) follows",
         "Only conclusion (I) follows",
         "Both conclusions (I) and (II) follow"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Both conclusions (I) and (II) follow) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Both conclusions (I) and (II) follow) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of D, E, F, O, P, U and V has an exam on a different day of a week starting from Monday and ending on Sunday of the same week. F has exam on Thursday. U has exam on one of the days after O and on one of the days before E. No one has exam after D. Only P has exam between D and V. How many people have exam between P and O?",
+      "question_image": null,
       "options": [
         "Three",
         "One",
         "Two",
         "Four"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Four) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Four) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion(s) logically follow(s) from the statements.Statements: All notes are shoes.All shoes are helmets.Some helmets are keys.Conclusions:(I) All notes are helmets.(II) Some keys are notes.",
+      "question_image": null,
       "options": [
         "Only conclusion (II) follows.",
         "Only conclusion (I) follows.",
         "Neither conclusion (I) nor (II) follows.",
         "Both conclusions (I) and (II) follow."
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Only conclusion (I) follows.) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Only conclusion (I) follows.) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "CJEL is related to GNIP in a certain way based on the English alphabetical order. In the same way, FMHO is related to JQLS. To which of the given options is IPKR related, following the same logic?",
+      "question_image": null,
       "options": [
         "MTVO",
         "MTOV",
         "TMVO",
         "TMOV"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (MTOV) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (MTOV) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "118 is related to 72 following a certain logic. Following the same logic, 125 is related to 79. To which of the given options is 135 related, following the same logic?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "question_image": null,
       "options": [
         "99",
         "89",
         "79",
         "109"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (89) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (89) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete?CUB175, UMT211, MEL247, EWD283, ?",
+      "question_image": null,
       "options": [
         "WOY319",
         "XOV319",
         "WOV319",
         "WTV319"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (WOV319) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (WOV319) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below. (Left)   869         859           196            189            889         (Right) (Example- 697 – First digit = 6, second digit = 9 and third digit = 7)(NOTE - All operations to be done from left to right.)What will be the resultant if the first digit of the highest number is added to the third digit of the lowest number?",
+      "question_image": null,
       "options": [
         "15",
         "16",
         "18",
         "17"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (17) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (17) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number results in the second number. Similarly, certain mathematical operation(s) on the second number results in the third number and so on. Which of the given options follows the same set of operations as in the given sets?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting /multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)15 - 60 - 64 - 68; 16 - 64 - 68 - 725017",
+      "question_image": null,
       "options": [
         "18 - 72 - 76 - 80",
         "17 - 34 - 68 -72",
         "12 - 36 - 40 - 44",
         "8 - 24 - 32 - 64"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (18 - 72 - 76 - 80) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (18 - 72 - 76 - 80) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "22 is related to 57 following a certain logic. Following the same logic, 24 is related to 61. To which of the following is 26 related, following the same logic?(NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "question_image": null,
       "options": [
         "67",
         "63",
         "35",
         "65"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (65) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (65) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "Six boxes A, B, C, D, E and F are kept one over the other but not necessarily in the same order. Box F is kept second from the top. There are exactly two boxes kept between E and B. Box B is kept somewhere above box E. Only two boxes are kept between A and C. Box C is kept immediately below box D. Which box is kept at the bottom-most position?9",
+      "question_image": null,
       "options": [
         "D",
         "C",
         "B",
         "A"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (C) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (C) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "What will come in place of the question mark (?) in the following equation if ‘+’ and ‘−’ are interchanged and ‘×’ and ‘÷’ are interchanged?603 × 3 − 151 ÷ 3 + 86 = ?601",
+      "question_image": null,
       "options": [
         "568",
         "638",
         "658",
         "528"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (568) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (568) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "Anik starts from Point A and walks 20 m towards west. He takes a left turn, walks 35 m and then takes a right turn, walks 10 m, then takes a right turn, walks 25 m, reaches Point B and stops. Moinag starts from Point Z which is 30 m towards the south of Point A. He walks 30 m towards west, and stops at Point X. What is the shortest distance between Point X and Point B? (All turns are 90 degree-turns only.)",
+      "question_image": null,
       "options": [
         "40 m",
         "70 m",
         "50 m",
         "20 m"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (20 m) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (20 m) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements:All sticks are eagles.Some eagles are grapes.All roses are sticks.Conclusions:(I) : All roses are eagles.(II) : Some sticks are grapes.",
+      "question_image": null,
       "options": [
         "Both conclusions (I) and (II) follow",
         "Only conclusion (I) follows",
         "Neither conclusion (I) nor (II) follows",
         "Only conclusion (II) follows"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Only conclusion (I) follows) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Only conclusion (I) follows) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the following wordsPUP     OPT     WET     SADHow many letters are there between second letter of first word from the right and second letter of first word from the left per English alphabetical order?",
+      "question_image": null,
       "options": [
         "20",
         "22",
         "19",
         "18"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (19) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (19) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete?VIX56, SFU47, PCR38, MZO29, ?",
+      "question_image": null,
       "options": [
         "KWL22",
         "JWL20",
         "KXM22",
         "JXM20"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (JWL20) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (JWL20) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "Based on the English alphabetical order, three of the following four are alike in a certain way and thus form a group. Which is the one that does not belong to that group? <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}-->(Note: The odd man out is not based on the number of consonants/vowels or their position in the letter-cluster.)8217",
+      "question_image": null,
       "options": [
         "ACE",
         "HJL",
         "QSU",
         "TVY"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (TVY) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (TVY) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "Below are given two sets of numbers. In each set of numbers, a certain mathematical operation on the first number results in the second number. Similarly, a certain mathematical operation on the second number results in the third number and so on. Which of the given options follows the same set of operations as in the question?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting /multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)4 – 5 – 10 – 206 – 7 – 14 – 24",
+      "question_image": null,
       "options": [
         "9 – 10 – 20 – 30",
         "3 – 4 – 8 – 28",
         "5 – 6 – 12 – 24",
         "1 – 2 – 4 – 8"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (9 – 10 – 20 – 30) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (9 – 10 – 20 – 30) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘+’ means division, ‘÷’ means multiplication, ‘×’ means subtraction and ‘−’ means addition, then find the value of the following expression.96 − 15 ÷ 21 + 7 × 81",
+      "question_image": null,
       "options": [
         "60",
         "62",
         "75",
         "72"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (60) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (60) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘A > B’ means ‘A is the wife of B’,‘A ~ B’ means ‘A is the brother of B’,‘A * B’ means ‘A is the daughter of B’ and‘A ? B’ means ‘A is the father of B’. Based on the above, how is T related to S if 'T * I > G ? H ~ S’?898",
+      "question_image": null,
       "options": [
         "Mother",
         "Sister",
         "Brother",
         "Father"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Sister) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Sister) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?2   22   42   62   82   ?",
+      "question_image": null,
       "options": [
         "103",
         "102",
         "101",
         "104"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (102) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (102) है।",
+      "explanation_image": null
     },
     {
       "id": 21,
       "section": "General Awareness",
       "question": "सापूतारा मेघ मल्‍हार पर्व (Saputara Monsoon Festival) निम्नलिखित में से किस राज्य/केंद्र शासित प्रदेश में मनाया जाता है?",
+      "question_image": null,
       "options": [
         "केरल",
         "चंडीगढ़",
         "पुदुचेरी",
         "गुजरात"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (गुजरात) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (गुजरात) है।",
+      "explanation_image": null
     },
     {
       "id": 22,
       "section": "General Awareness",
       "question": "In which of the following food items is tartaric acid present?",
+      "question_image": null,
       "options": [
         "Tomato",
         "Lemon",
         "Vinegar",
         "Tamarind"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Tamarind) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Tamarind) है।",
+      "explanation_image": null
     },
     {
       "id": 23,
       "section": "General Awareness",
       "question": "Who among the following Gods of the Vedic period was also called Nasatyas?",
+      "question_image": null,
       "options": [
         "Asvins",
         "Rudra",
         "Agni",
         "Brahma"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Asvins) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Asvins) है।",
+      "explanation_image": null
     },
     {
       "id": 24,
       "section": "General Awareness",
       "question": "What are the different forms of the same gene, which can result in variations such as eye colour or disease risk, called?",
+      "question_image": null,
       "options": [
         "Genomes",
         "Alleles",
         "Chromosomes",
         "Nucleotides"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Alleles) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Alleles) है।",
+      "explanation_image": null
     },
     {
       "id": 25,
       "section": "General Awareness",
       "question": "As per the Sample Registration System (SRS), the Maternal Mortality Ratio (MMR) has reduced from 8.1% in 2015-17 to ___________ in 2016-18 at the national level.",
+      "question_image": null,
       "options": [
         "5.8%",
         "7.3%",
         "6.1%",
         "7.9%"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (7.3%) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (7.3%) है।",
+      "explanation_image": null
     },
     {
       "id": 26,
       "section": "General Awareness",
       "question": "When did brothers Sidhu and Kanhu Murmu start the Santhal Rebellion, a major armed rebellion against the British East India Company and the Zamindari system?",
+      "question_image": null,
       "options": [
         "1858",
         "1859",
         "1861",
         "1855"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (1855) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (1855) है।",
+      "explanation_image": null
     },
     {
       "id": 27,
       "section": "General Awareness",
       "question": "Which of the following functions is typically performed by financial institutions?",
+      "question_image": null,
       "options": [
         "Facilitating savings and investments",
         "Providing electricity services",
         "Managing transportation logistics",
         "Manufacturing automobiles"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Facilitating savings and investments) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Facilitating savings and investments) है।",
+      "explanation_image": null
     },
     {
       "id": 28,
       "section": "General Awareness",
       "question": "Which of the following rulers introduced the Malayalam language and script in their inscriptions?",
+      "question_image": null,
       "options": [
         "Cheras",
         "Hoysala",
         "Kakatiya",
         "Kadamba"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Cheras) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Cheras) है।",
+      "explanation_image": null
     },
     {
       "id": 29,
       "section": "General Awareness",
       "question": "In 2025, a rare 15th century dual-faced lamp symbolising the fusion of Shaiva and Vaishnava traditions was discovered at:",
+      "question_image": null,
       "options": [
         "Perdoor Anantapadmanabha Temple in Udupi district of Karnataka",
         "Chennakesava Temple in Belur district of Karnataka",
         "Jagannath Temple in Puri district of Odisha",
         "Thirunageswaram Temple in Thanjavur district of Tamil Nadu"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Perdoor Anantapadmanabha Temple in Udupi district of Karnataka) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Perdoor Anantapadmanabha Temple in Udupi district of Karnataka) है।",
+      "explanation_image": null
     },
     {
       "id": 30,
       "section": "General Awareness",
       "question": "Which type of corrective lenses are often used by people suffering from both myopia and hypermetropia?",
+      "question_image": null,
       "options": [
         "Bi-focal lenses",
         "Cylindrical lenses",
         "Convex lenses",
         "Concave lenses"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Bi-focal lenses) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Bi-focal lenses) है।",
+      "explanation_image": null
     },
     {
       "id": 31,
       "section": "General Awareness",
       "question": "What is the approximate length of the Karnataka Coastal Plain?",
+      "question_image": null,
       "options": [
         "320 km",
         "150 km",
         "175 km",
         "100 km"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (320 km) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (320 km) है।",
+      "explanation_image": null
     },
     {
       "id": 32,
       "section": "General Awareness",
       "question": "Varuna 2021 naval exercise was held between India and ______.",
+      "question_image": null,
       "options": [
         "Italy",
         "Japan",
         "France",
         "U.S.A"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (France) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (France) है।",
+      "explanation_image": null
     },
     {
       "id": 33,
       "section": "General Awareness",
       "question": "Which age group is targeted for cervical cancer vaccination in the Budget 2024 proposal?",
+      "question_image": null,
       "options": [
         "9 to 14 years",
         "12 to 16 years",
         "5 to 10 years",
         "15 to 19 years"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (9 to 14 years) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (9 to 14 years) है।",
+      "explanation_image": null
     },
     {
       "id": 34,
       "section": "General Awareness",
       "question": "केंद्र सरकार में राष्ट्रपति को उनके कार्यों के निष्पादन में सहायता करने और सलाह देने के लिए मंत्रिपरिषद का नेतृत्व ___________ करता है।",
+      "question_image": null,
       "options": [
         "प्रधानमंत्री",
         "लोकसभा स्‍पीकर",
         "राज्यसभा स्‍पीकर",
         "उपराष्ट्रपति"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (प्रधानमंत्री) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (प्रधानमंत्री) है।",
+      "explanation_image": null
     },
     {
       "id": 35,
       "section": "General Awareness",
       "question": "In which year was the 42nd Amendment Act passed, which changed the description of India from a 'Sovereign Democratic Republic' to a 'Sovereign, Socialist Secular Democratic Republic'?",
+      "question_image": null,
       "options": [
         "1976",
         "1966",
         "1952",
         "1980"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (1976) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (1976) है।",
+      "explanation_image": null
     },
     {
       "id": 36,
       "section": "General Awareness",
       "question": "The appointment of district judges in a state is governed by which Article of the Constitution?",
+      "question_image": null,
       "options": [
         "Article 235",
         "Article 234",
         "Article 237",
         "Article 233"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Article 233) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Article 233) है।",
+      "explanation_image": null
     },
     {
       "id": 37,
       "section": "General Awareness",
       "question": "_____________ celebrations are spread over four days, beginning with Nahay Khay and ending with Usha Arghya falling on the on the sixth day of Kartik Shukla.",
+      "question_image": null,
       "options": [
         "Madhushravani",
         "Sama Chakeva",
         "Chhathh Puja",
         "Bihula"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Chhathh Puja) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Chhathh Puja) है।",
+      "explanation_image": null
     },
     {
       "id": 38,
       "section": "General Awareness",
       "question": "Which of the following Fundamental Duties of the Indian Constitution was inserted through the 86th Constitutional Amendment Act of 2002?",
+      "question_image": null,
       "options": [
         "To develop the scientific temper, humanism and the spirit of inquiry and reform",
         "To provide opportunities for education to his child or as the case may be, ward between the age of six and fourteen years",
         "To safeguard public property and to abjure violence",
         "To value and preserve the rich heritage of our composite culture"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (To provide opportunities for education to his child or as the case may be, ward between the age of six and fourteen years) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (To provide opportunities for education to his child or as the case may be, ward between the age of six and fourteen years) है।",
+      "explanation_image": null
     },
     {
       "id": 39,
       "section": "General Awareness",
       "question": "Which of the following is NOT a recognised Indian system of medicine in AYUSH?(a) Allopathy(b) Naturopathy(c) Homeopathy",
+      "question_image": null,
       "options": [
         "Only (a) and (b)",
         "Only (a) and (c)",
         "Only (a)",
         "Only (b) and (c)"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Only (a)) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Only (a)) है।",
+      "explanation_image": null
     },
     {
       "id": 40,
       "section": "General Awareness",
       "question": "Comprehension:Read the following passage carefully and answer the given questions.Batten disease, also called Spielmeyer-Vogt-Sjogren-Batten disease or juvenile Batten disease, rare and fatal neurodegenerative disease that begins in childhood. The disease is named for British physician Frederick Batten, who in 1903 described the cerebral degeneration and macular changes characteristic of the condition.Although Batten Disease is usually regarded as the juvenile form of NCL, it has now become the term to describe all forms of NCL. The basic cause, progression, and the outcome are the same. The forms of NCL are classified by age of onset, and eight different genes [CLN1 – CLN8] have been identified as causing the disorder.Batten disease is among the most commonly occurring of the neuronal ceroid lipofuscinoses (NCLs), a group of inherited lysosomal storage disorders, the primary feature of which is progressive neurodegeneration with cognitive decline, loss of motor ability, worsening seizures, and early death.Batten disease manifests in childhood, typically between ages 4 and 10 years. One of the earliest symptoms is vision impairment, which is followed by a regression in development, often characterized initially by a loss of previously acquired speech skills and an inability to learn new skills.As the disease progresses, the affected individual experiences a further loss of communication skills as well as a loss of motor function, causing slow and stiff movements and difficulty walking. Recurrent seizures, disordered sleep, cardiovascular problems, and behavioral problems also emerge. Affected individuals typically survive only into late adolescence or early adulthood.What can be the suitable title for the given passage?",
+      "question_image": null,
       "options": [
         "Batten disease and its course",
         "Characteristics of Batten disease",
         "Batten disease",
         "Symptoms of Batten disease"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Batten disease and its course) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Batten disease and its course) है।",
+      "explanation_image": null
     },
     {
       "id": 41,
       "section": "Arithmetical and Numerical Ability",
       "question": "The diameter of a sphere is 14 cm more than the diameter of a smaller sphere. The surface area of the larger sphere is 6776 cm2 more than the surface area of the smaller sphere. What is the diameter (in cm) of the larger sphere?72",
+      "question_image": null,
       "options": [
         "77",
         "84",
         "63",
         "70"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (84) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (84) है।",
+      "explanation_image": null
     },
     {
       "id": 42,
       "section": "Arithmetical and Numerical Ability",
       "question": "A cosmetic product is available at a discount of 11% on its marked price. If the shopkeeper charges ₹1,602, what is its marked price?",
+      "question_image": null,
       "options": [
         "₹1,815",
         "₹1,805",
         "₹1,812",
         "₹1,800"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (₹1,800) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (₹1,800) है।",
+      "explanation_image": null
     },
     {
       "id": 43,
       "section": "Arithmetical and Numerical Ability",
       "question": "The volume (in m3) of a cuboidal tank, whose dimensions are given as 33 m × 6 m × 34 m, is:",
+      "question_image": null,
       "options": [
         "6724",
         "6732",
         "6719",
         "6720"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (6732) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (6732) है।",
+      "explanation_image": null
     },
     {
       "id": 44,
       "section": "Arithmetical and Numerical Ability",
       "question": "A seven-digit number is divisible by 42. If the digits are rearranged except the last two digits of the number, then the number is always divisible by _____.",
+      "question_image": null,
       "options": [
         "14",
         "7",
         "6",
         "21"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (6) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (6) है।",
+      "explanation_image": null
     },
     {
       "id": 45,
       "section": "Arithmetical and Numerical Ability",
       "question": "Suman invested a sum of ₹20,000 at 10% per annum compound interest, compounded annually. If she received an amount of ₹26,620 after n years, the value of n is:",
+      "question_image": null,
       "options": [
         "2",
         "2.5",
         "3",
         "2.8"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (3) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (3) है।",
+      "explanation_image": null
     },
     {
       "id": 46,
       "section": "Arithmetical and Numerical Ability",
       "question": "After decreasing 75% in the actual cost price, the reduced cost price of an article is ₹1,052. The actual cost price of the article (in ₹) is:",
+      "question_image": null,
       "options": [
         "4,789",
         "3,650",
         "4,263",
         "4,208"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (4,208) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (4,208) है।",
+      "explanation_image": null
     },
     {
       "id": 47,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average price of three items of furniture is ₹5,235. If their prices are in the ratio 3 : 5 : 7, then the price (in ₹) of the costliest item is:",
+      "question_image": null,
       "options": [
         "6,141",
         "7,047",
         "5,235",
         "7,329"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (7,329) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (7,329) है।",
+      "explanation_image": null
     },
     {
       "id": 48,
       "section": "Arithmetical and Numerical Ability",
       "question": "A dishonest vendor claims that he is selling goods at their cost price. But he is weighing 676 grams for 1,000 grams. What is his profit percentage (rounded off to 2 decimal places)?1033",
+      "question_image": null,
       "options": [
         "47.93%",
         "43.18%",
         "50.61%",
         "51.03%"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (47.93%) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (47.93%) है।",
+      "explanation_image": null
     },
     {
       "id": 49,
       "section": "Arithmetical and Numerical Ability",
       "question": "Find the simple interest (in ₹) if a sum of ₹400 is borrowed for 8.5 years at 12% per annum rate of interest.",
+      "question_image": null,
       "options": [
         "508",
         "458",
         "408",
         "388"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (408) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (408) है।",
+      "explanation_image": null
     },
     {
       "id": 50,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average price of three items of furniture is ₹17,820. If their prices are in the ratio 3 : 5 : 7, the price of the cheapest item (in ₹) is:",
+      "question_image": null,
       "options": [
         "10,692",
         "8,316",
         "5,940",
         "3,564"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (10,692) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (10,692) है।",
+      "explanation_image": null
     },
     {
       "id": 51,
       "section": "Arithmetical and Numerical Ability",
       "question": "X, Y and Z invest ₹20,000, ₹30,000 and ₹50,000 respectively in a business. If the profit is ₹40,000, what is Y’s share?",
+      "question_image": null,
       "options": [
         "₹8,000",
         "₹12,000",
         "₹10,000",
         "₹15,000"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (₹12,000) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (₹12,000) है।",
+      "explanation_image": null
     },
     {
       "id": 52,
       "section": "Arithmetical and Numerical Ability",
       "question": "A car runs for the first 375 km at an average speed of 50 km/hr, the next 315 km at an average speed of 70 km/hr and the next 575 km at an average speed of 57.5 km/hr. What is the average speed (in km/hr) for the entire journey?",
+      "question_image": null,
       "options": [
         "57.5",
         "62.5",
         "55.5",
         "66.5"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (57.5) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (57.5) है।",
+      "explanation_image": null
     },
     {
       "id": 53,
       "section": "Arithmetical and Numerical Ability",
       "question": "Pipe A can fill a tank in 6 hours, pipe B can fill the same tank in 10 hours and pipe C can fill the same tank in 15 hours. The time taken (in hours) by them to fill the same tank if they operate together is:",
+      "question_image": null,
       "options": [
         "4",
         "6",
         "3",
         "5"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (3) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (3) है।",
+      "explanation_image": null
     },
     {
       "id": 54,
       "section": "Arithmetical and Numerical Ability",
       "question": "The volume (in m3) of a cuboidal tank, whose dimensions are given as 43 m × 5 m × 6 m, is:",
+      "question_image": null,
       "options": [
         "1278",
         "1290",
         "1282",
         "1248"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (1290) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (1290) है।",
+      "explanation_image": null
     },
     {
       "id": 55,
       "section": "Arithmetical and Numerical Ability",
       "question": "The product of two numbers is 396 and their LCM is 66. Find their HCF.6835",
+      "question_image": null,
       "options": [
         "3",
         "24",
         "12",
         "6"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (6) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (6) है।",
+      "explanation_image": null
     },
     {
       "id": 56,
       "section": "Arithmetical and Numerical Ability",
       "question": "A cuboidal tank having dimensions 35 m × 20 m × 6 m is full of water. The whole water is transferred to another empty cuboidal tank whose length is 25 m and breadth is 14 m. What is the height of the water level in this tank?",
+      "question_image": null,
       "options": [
         "10 m",
         "14 m",
         "16 m",
         "12 m"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (12 m) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (12 m) है।",
+      "explanation_image": null
     },
     {
       "id": 57,
       "section": "Arithmetical and Numerical Ability",
       "question": "A 501-m long train passes through a 149-m long tunnel in 26 seconds. Find the speed of the train.",
+      "question_image": null,
       "options": [
         "74 km/hr",
         "90 km/hr",
         "98 km/hr",
         "86 km/hr"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (90 km/hr) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (90 km/hr) है।",
+      "explanation_image": null
     },
     {
       "id": 58,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average of 13 numbers is 7. If each number is multiplied by 9, then what will the new average be?",
+      "question_image": null,
       "options": [
         "9",
         "7",
         "63",
         "13"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (63) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (63) है।",
+      "explanation_image": null
     },
     {
       "id": 59,
       "section": "Arithmetical and Numerical Ability",
       "question": "Which of the following numbers is divisible by 85?",
+      "question_image": null,
       "options": [
         "634385",
         "634515",
         "634610",
         "631974"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (634610) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (634610) है।",
+      "explanation_image": null
     },
     {
       "id": 60,
       "section": "Arithmetical and Numerical Ability",
       "question": "2% of 46% of a number is what percentage of that number?",
+      "question_image": null,
       "options": [
         "0.92%",
         "0.092%",
         "48%",
         "92%"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (0.92%) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (0.92%) है।",
+      "explanation_image": null
     },
     {
       "id": 61,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate substitute for the underlined segment in the given sentence.James is a person who talks excessively about his achievements, constantly boasting about his successes and never missing a chance to highlight his own accomplishments.",
+      "question_image": null,
       "options": [
         "an altruist",
         "on execution",
         "a braggart",
         "on spinsterhood"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (a braggart) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (a braggart) है।",
+      "explanation_image": null
     },
     {
       "id": 62,
       "section": "English Language and Comprehension",
       "question": "One of the underlined words in the sentence given below is spelt incorrectly. Identify the MISSPELT word.  With deft precision, the driver executed a flawless manouevre, impeccably navigating through the congested traffic.",
+      "question_image": null,
       "options": [
         "Executed",
         "Manouevre",
         "Precision",
         "Impeccably"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Manouevre) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Manouevre) है।",
+      "explanation_image": null
     },
     {
       "id": 63,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate article to fill in the blank. If no article is required, select 'No article required'.Despite the heavy rain, _______ concert went ahead as planned, much to the delight of the audience.",
+      "question_image": null,
       "options": [
         "a",
         "an",
         "the",
         "No article required"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (the) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (the) है।",
+      "explanation_image": null
     },
     {
       "id": 64,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer questions that follow.The rapid proliferation of artificial intelligence (AI) in surveillance technologies has sparked urgent ethical debates, particularly in societies where state and corporate monitoring are increasingly normalised. From facial recognition systems in public spaces to predictive policing algorithms, AI enables unprecedented levels of observation, often under the guise of security, efficiency, or public health. While proponents argue that such technologies enhance safety and administrative precision, critics contend that they erode civil liberties, reinforce systemic biases, and shift the balance of power toward opaque institutions.One of the central ethical concerns lies in the opacity of algorithmic decision-making. Many surveillance tools operate as “black boxes,” making it difficult to trace how decisions—such as identifying a suspect or flagging unusual behaviour—are made. This lack of transparency challenges both accountability and due process, particularly when errors disproportionately affect marginalised communities. Additionally, datasets used to train these systems often carry embedded social and racial biases, which are then amplified at scale, perpetuating historical injustices under the veneer of objectivity.Consent and autonomy further complicate the ethical terrain. In many surveillance contexts, individuals are monitored without explicit consent or even awareness, undermining notions of informed participation. The normalisation of “dataveillance” risks conditioning populations to accept intrusive oversight as inevitable, if not desirable.In democratic societies, these developments demand urgent ethical frameworks that prioritise transparency, fairness, and human rights. Regulatory interventions, public discourse, and interdisciplinary scholarship are essential to resist the drift toward techno-authoritarianism. Ultimately, the deployment of AI in surveillance must be guided not solely by what is technologically possible, but by what is ethically permissible and socially just.Select the most appropriate ANTONYM of the given word as used in the passage.\n\nOpacity",
+      "question_image": null,
       "options": [
         "Lucidity",
         "Ambivalence",
         "Obliqueness",
         "Enigma"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Lucidity) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Lucidity) है।",
+      "explanation_image": null
     },
     {
       "id": 65,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. Over the years, environmental degradation has accelerated at an alarming pace.B. As a result, many governments have begun to prioritise sustainable development.C. Industrialisation and urban expansion have contributed significantly to this problem.D. However, the challenge lies in balancing economic growth with environmental protection.",
+      "question_image": null,
       "options": [
         "A → C → B → D",
         "C → A → B → D",
         "A → B → D → C",
         "B → C → A → D"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (A → C → B → D) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (A → C → B → D) है।",
+      "explanation_image": null
     },
     {
       "id": 66,
       "section": "English Language and Comprehension",
       "question": "Select the option that can be used as a one-word substitute for the given group of words.Eating both plants and animals794",
+      "question_image": null,
       "options": [
         "Piscivorous",
         "Omnivorous",
         "Frugivorous",
         "Granivorous"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Omnivorous) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Omnivorous) है।",
+      "explanation_image": null
     },
     {
       "id": 67,
       "section": "English Language and Comprehension",
       "question": "Select the option that can be used as a one-word substitute for the given group of words.Fear of heights",
+      "question_image": null,
       "options": [
         "Agoraphobia",
         "Acrophobia",
         "Aquaphobia",
         "Hydrophobia"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Acrophobia) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Acrophobia) है।",
+      "explanation_image": null
     },
     {
       "id": 68,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.The novel 'The Pearl' stands as a powerful commentary on the dangers of materialism and the importance of embracing values that transcend wealth. Steinbeck’s cautionary tale urges readers to approach life with humility, compassion and a commitment to what truly matters. His exploration of Kino’s journey provides a poignant reminder that while wealth may be alluring, it is often hollow, and that the greatest riches are those rooted in love, integrity and a sense of purpose. Through this story, Steinbeck leaves an enduring legacy, inviting us all to reflect on our own lives and to choose paths that align with our deepest values. Steinbeck crafts a compelling examination of materialism as a force that corrupts individuals and leaves them adrift, cut off from the meaningful aspects of life. Kino’s story is a testament to the dangers of viewing wealth as the ultimate goal, as it often brings with it only illusion, moral compromise and eventual ruin. In the end, it stands as a timeless reminder that while the allure of wealth may be powerful, it is ultimately hollow. Steinbeck leaves with a powerful message: that the true measure of a fulfilling life is not found in wealth or status, but in the strength of our connections with others and the integrity with which we live. True happiness lies not in the pursuit of material gain but in cherishing the intangible yet deeply fulfilling aspects of life: family, integrity and peace.In 'The Pearl', Steinbeck's portrayal of Kino’s pursuit of wealth primarily serves to highlight:",
+      "question_image": null,
       "options": [
         "the transformative power of ambition on a person's life",
         "the destructive consequences of valuing material gain above personal integrity",
         "the inevitability of social inequality and the futility of resisting it",
         "the essential need for wealth to provide security and happiness"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (the destructive consequences of valuing material gain above personal integrity) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (the destructive consequences of valuing material gain above personal integrity) है।",
+      "explanation_image": null
     },
     {
       "id": 69,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. Brands are now asking powerful influencers to market their products.B. An influencer is a person who can influence the decisions of their followers because of their relationship with their audience and their knowledge and expertise in a particular area, e.g. fashion, travel or technology.C. They have the power to persuade people to buy things, and influencers are now seen by many companies as a direct way to customers’ hearts.D. Influencers often have a large following of people who pay close attention to their views.",
+      "question_image": null,
       "options": [
         "CBDA",
         "BDCA",
         "DABC",
         "ADCB"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (BDCA) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (BDCA) है।",
+      "explanation_image": null
     },
     {
       "id": 70,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate synonym of the given word.Treacherous",
+      "question_image": null,
       "options": [
         "Faithful",
         "Prejudiced",
         "Traitorous",
         "Honest"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Traitorous) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Traitorous) है।",
+      "explanation_image": null
     },
     {
       "id": 71,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blanks.She placed the bouquet carefully on _____ table near _____ window, beside _____ vase filled with fresh lilies.",
+      "question_image": null,
       "options": [
         "a; an; the",
         "an; the; a",
         "an; the; the",
         "the; the; the"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (the; the; the) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (the; the; the) है।",
+      "explanation_image": null
     },
     {
       "id": 72,
       "section": "English Language and Comprehension",
       "question": "Fill in the blank with the most appropriate preposition from the options given below. \n\nThe committee insisted ______ conducting a second round of interviews before making a final decision.",
+      "question_image": null,
       "options": [
         "on",
         "in",
         "with",
         "for"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (on) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (on) है।",
+      "explanation_image": null
     },
     {
       "id": 73,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow. Mutual fund investment is a widely used financial instrument that pools money from multiple investors to invest in diversified portfolios of stocks, bonds, or other securities. This approach enables investors to benefit from professional fund management while minimising risk through diversification. Mutual funds are categorised into various types, such as equity funds, debt funds, hybrid funds, and index funds, each catering to different investment objectives and risk appetites. One of the primary advantages of mutual funds is liquidity. Investors can enter or exit their investments at prevailing Net Asset Value (NAV), making them a flexible investment choice. Another advantage is accessibility—mutual funds allow small investors to participate in capital markets without requiring extensive financial expertise. Additionally, systematic investment plans (SIPs) help investors develop financial discipline by investing small amounts regularly rather than making lump sum contributions. However, mutual fund investments also come with inherent risks. Market fluctuations, interest rate variations, and economic downturns can impact returns. Actively managed funds depend on fund managers' skills, and their expense ratios may be higher compared to passively managed index funds. Additionally, exit loads and tax implications can influence an investor's final returns. A key consideration when investing in mutual funds is aligning one’s financial goals with the fund’s objectives. For instance, aggressive investors with a long-term horizon may opt for equity funds, while conservative investors may prefer debt funds for stability. Understanding risk-return trade-offs, evaluating historical fund performance, and considering the expense ratio are crucial steps in making informed investment decisions. Thus, while mutual funds offer a structured way to invest in the financial markets, their success depends on an investor’s ability to analyse, adapt, and align their investments with broader financial strategies.Q76. An investor is reviewing two mutual funds: one actively managed and another passively managed (index fund). The actively managed fund has delivered higher returns in the past three years but has a higher expense ratio. What is the most logical approach to decide between the two?",
+      "question_image": null,
       "options": [
         "Invest in the actively managed fund since past performance indicates continued success",
         "Choose the passively managed fund because it is always more cost-effective in the long run",
         "Compare the risk-adjusted returns and consistency of both funds over different market conditions",
         "Invest equally in both funds to balance risk and return without analysing their performance"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Compare the risk-adjusted returns and consistency of both funds over different market conditions) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Compare the risk-adjusted returns and consistency of both funds over different market conditions) है।",
+      "explanation_image": null
     },
     {
       "id": 74,
       "section": "English Language and Comprehension",
       "question": "There are four sentences A, B, C and D given below. Arrange the sentences in the correct order to form a complete paragraph.A. This replication crisis has sparked a reevaluation of research methodologies.B. Many studies in psychology and biomedicine fail to produce consistent results.C. Hence journals are increasingly demanding transparent data practices.D. Therefore preregistration of studies is now encouraged to reduce bias.",
+      "question_image": null,
       "options": [
         "A → C → D → B",
         "A → B → D → C",
         "B → D → A → C",
         "B → A → C → D"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (B → A → C → D) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (B → A → C → D) है।",
+      "explanation_image": null
     },
     {
       "id": 75,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.The concept was widely accepted, _______ there were several anomalies that could not be explained.",
+      "question_image": null,
       "options": [
         "or",
         "at",
         "but",
         "for"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (but) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (but) है।",
+      "explanation_image": null
     },
     {
       "id": 76,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow.Throughout history, consciousness has remained an enigmatic phenomenon, resisting comprehensive scientific and philosophical explanations. While neuroscience attempts to map consciousness to neural activity, philosophers argue that subjective experience—often referred to as the hard problem of consciousness—cannot be entirely reduced to physical processes. This dilemma has given rise to various theories, each attempting to decipher the nature of awareness.One school of thought, physicalism, asserts that consciousness emerges solely from brain activity and can eventually be explained through neurobiological mechanisms. Functionalism extends this view, positing that mental states are defined by their function rather than their physical composition, allowing for the possibility of artificial intelligence achieving consciousness.Conversely, dualism suggests a fundamental separation between mind and matter, with thinkers like Descartes proposing that consciousness exists independently of the physical brain. More radical theories, such as panpsychism, argue that consciousness is a fundamental property of the universe, present in all matter at varying degrees. Recent advancements in cognitive science propose integrated theories, such as the Global Workspace Theory (GWT), which suggests that consciousness arises from the brain integrating and broadcasting information across different neural networks. Meanwhile, the Integrated Information Theory (IIT) attempts to quantify consciousness by measuring a system’s ability to integrate information.Despite these advancements, a fundamental question persists: Is consciousness an emergent property of complex computation, or does it transcend physical explanation? The search for answers continues to challenge the boundaries of science and philosophy. As interdisciplinary research deepens, the mystery of consciousness continues to inspire both awe and debate. Perhaps unlocking its secrets will require not just scientific innovation, but a paradigm shift in how we perceive reality itself.What is the hard problem of consciousness as mentioned in the passage?",
+      "question_image": null,
       "options": [
         "The inability of artificial intelligence to mimic human thought",
         "The difficulty of explaining subjective experience through physical processes",
         "The relationship between memory and perception in cognition",
         "The challenge of mapping brain activity using neuroscience"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (The difficulty of explaining subjective experience through physical processes) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (The difficulty of explaining subjective experience through physical processes) है।",
+      "explanation_image": null
     },
     {
       "id": 77,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.The boy narrated two stories, but the police found the _______ more convincing.",
+      "question_image": null,
       "options": [
         "last",
         "latest",
         "latter",
         "later"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (latter) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (latter) है।",
+      "explanation_image": null
     },
     {
       "id": 78,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blank.Despite his extensive knowledge, he has no real insight _______ how human emotions work under extreme stress.",
+      "question_image": null,
       "options": [
         "on",
         "with",
         "into",
         "over"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (into) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (into) है।",
+      "explanation_image": null
     },
     {
       "id": 79,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate question tag to fill in the blank.Ravi knows how to play the sitar, _____?",
+      "question_image": null,
       "options": [
         "does he",
         "doesn't he",
         "hadn't he",
         "isn't he"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (doesn't he) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (doesn't he) है।",
+      "explanation_image": null
     },
     {
       "id": 80,
       "section": "English Language and Comprehension",
       "question": "Select the option that rectifies the incorrectly spelt words in the given sentence.'Her admiration for the philosopher’s logorhea was evident, even if his praelixity sometimes veered into solipsizm. Nonetheless, his speculative musings on metaphysics provided a refreshing departure from the conventional discourse.'",
+      "question_image": null,
       "options": [
         "logorrhea, prolixety, solipsism",
         "logorreah, prolexity, solipsasm",
         "logorrhea, prolixity, solipsism",
         "logorria, prolixity, solipsism"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (logorrhea, prolixity, solipsism) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (logorrhea, prolixity, solipsism) है।",
+      "explanation_image": null
     },
     {
       "id": 81,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:दिए गए गद्यांश के आधार पर निम्नांकित प्रश्नों के उत्तर दीजिए--पुनर्जागरण आंदोलन और हिन्दी साहित्य के विकास में कलकत्ता की दो शैक्षणिक संस्थाओं का विशिष्ट योगदान रहा है । बंगाल, विशेषत: कलकत्ता से पुनर्जागरण आरंभ हुआ तो इसका कारण स्पष्ट है कि यहाँ भारतीय संस्कृति की यूरोपीय संस्कृति से टकराहट आंरभ हुई । फोर्ट विलियम कॉलेज के स्थापना 1800 ई. में हुई, पर इसका प्रभाव क्षेत्र सीमित था । इसके लिए कॉलेज के प्रिंसिपल गिलक्राइस्ट ने अपनी समझ के हिसाब से हिन्दी / हिन्दुस्तानी गद्य में पुस्तकें लिखवाईं । धार्मिक ग्रंथों के अनुवाद या तत्संबंधी वृत्तांतों के रूप में कुछ पुराना ब्रजभाषा या खड़ी बोली हिंदी गद्य का रूप अभी तक मिलता था पर, व्यावहारिक उद्देश्यों के लिए नियोजित गद्य का सजग रूप में प्रयोग यहाँ से आरंभ होता है । ऐहिक उद्देश्यों के लिए गद्य का प्रयोग फोर्ट विलियम कॉलेज से संबंध अध्यापकों की पुस्तकें में हुआ है जिनमें प्रमुख हैं 1803 में लिखित लल्लूलाल का ‘प्रेमसागर’ और सदल मिश्रा का ‘नासिकेतोपाख्यान’ । बंगीय क्षेत्र से आरंभ हुए पुनर्जागरण की व्यापक प्रक्रिया को गतिशील करने में कलकत्ता के दूसरे जिस कॉलेज की महत्वपूर्ण भूमिका है वह है हिन्दू कॉलेज (1817)। इस कॉलेज के माध्यम से पहली बार भारतीय युवाओं का सीधा संपर्क अंग्रेज़ी भाषा और यूरोपीय ज्ञान से हुआ, जिसने उन्हें अपनी परंपरा को फिर देखने-परखने के लिए क्रमशः बाध्य किया।पुनर्जागरण का आरम्भ किस स्थान से हुआ ?",
+      "question_image": null,
       "options": [
         "बॉम्बे",
         "मद्रास",
         "बंगाल",
         "अवध"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (बंगाल) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (बंगाल) है।",
+      "explanation_image": null
     },
     {
       "id": 82,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:निम्नलिखित गद्यांश के आधार पर प्रश्नों के उत्तर दें।संत रैदास की विचारधारा आज भी प्रचलित सामाजिक अंतर्विरोधों एवं समस्याओं का समाधान निकालने में एक सीमा तक सहयोग दे सकती है। उनकी वाणी में दीन हीन और शोषितों के प्रति एक विकल पीड़ा, अपमान के विरूद्ध समाधान में प्रतिपल घुटन तथा समस्याओं के प्रति एक जागरूक दृष्टि थी तथा वे वह यह भली प्रकार जानते थे कि पुरातनता से किस प्रकार ग्रहण किया जाये, परंपरा को किस स्थान तक सुरक्षित रखा जाये और नवीन परिस्थितियों के अनुरूप किस प्रकार मार्ग बनाया जाए। उनके काव्य में वर्ण-व्यवस्था से उत्पन्न भेदभाव तथा कर्मकांड के प्रति गहरा क्षोभ अभिव्यक्त हुआ है। उन्होंने तमाम तरह का वैषम्य और दुख-दर्द स्वयं भोगा था इसीलिए उनकी अभिव्यक्ति में सत्य और अनुभूति का बल है। सामाजिक जीवन में हर प्रकार के द्वैत को अस्वीकार करने वाले कवि के अनुसार भक्ति का धरातल प्रेम का धरातल है। उन्होंने अपने आचरण तथा व्यवहार से यह प्रमाणित कर दिया है कि मनुष्य अपने जन्म तथा व्यवसाय के आधार पर महान नहीं होता है। विचारों की श्रेष्ठता, समाज के हित की भावना से प्रेरित कार्य तथा सदव्यवहार जैसे गुण ही मनुष्य को महान बनाने में सहायक होते हैं। उनका जीवन और साहित्य अपने युग का ही नहीं, सदा-सर्वदा के लिए एक महन विचारक, चिंतक तथा समाज सुधार के रूप में आज की मनुष्यता के विकास के लिए मार्गदर्शक हैं। वर्तमान समय में समाज में व्याप्त विसंगतियों को देखते हुए कहा जा सकता है कि रैदास के साहित्य का पुनर्पाठ किया जाना चाहिए और शोध के माध्यम से अनछुए पहलुओं को उजागर किया जाना चाहिए।उपरोक्त गद्यांश हेतु उचित शीर्षक का चयन करें।",
+      "question_image": null,
       "options": [
         "रैदास और आधुनिकता",
         "कबीर का जीवन",
         "मनुष्यता के सर्जक रैदास",
         "कबीर के समकालीन कवि"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (मनुष्यता के सर्जक रैदास) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (मनुष्यता के सर्जक रैदास) है।",
+      "explanation_image": null
     },
     {
       "id": 83,
       "section": "Hindi Language and Comprehension",
       "question": "भूषण बिनु न विराजई  कविता, वनिता , मित्त।पंक्ति का रेखांकित शब्द किसका पर्याय है ?6",
+      "question_image": null,
       "options": [
         "स्त्री",
         "पत्नी",
         "देवी",
         "अप्सरा"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (स्त्री) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (स्त्री) है।",
+      "explanation_image": null
     },
     {
       "id": 84,
       "section": "Hindi Language and Comprehension",
       "question": "दिए गए वाक्यों में से 'इच्छा' का पर्यायवाची वाक्य चुनिए।",
+      "question_image": null,
       "options": [
         "अब यहाँ मेरा कोई कार्य नहीं है।",
         "देश के प्रति प्रेम रखना हमारा दायित्व है।",
         "अभी मुझे सिर्फ एक नौकरी की कामना है।",
         "तुमको अपने विषय में भी सोचना चाहिए।"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (अभी मुझे सिर्फ एक नौकरी की कामना है।) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (अभी मुझे सिर्फ एक नौकरी की कामना है।) है।",
+      "explanation_image": null
     },
     {
       "id": 85,
       "section": "Hindi Language and Comprehension",
       "question": "दिए गए वाक्य क्रम सही नहीं हैं। उनके सही क्रम के चार विकल्प दिए गए हैं। उनमें से सही विकल्प चुनिए।1. व्यक्त किए गए विचार 2. विशिष्ट अर्थ ग्रहण कर लेते है3. सामान्य अर्थ का परित्याग कर 4. मुहावरें के माध्यम से 2324",
+      "question_image": null,
       "options": [
         "3, 1, 4, 2",
         "4, 3, 1, 2",
         "2, 1, 4, 3",
         "4, 1, 3, 2"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (4, 1, 3, 2) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (4, 1, 3, 2) है।",
+      "explanation_image": null
     },
     {
       "id": 86,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:दिए गए गद्यांश को पढ़कर नीचे लिखे प्रश्नों के उत्तर दीजिए -भारत की पहचान सदा से धर्म एवं संस्कृति ही रही है। ये दोनों एक-दूसरे के पूरक हैं। जहाँ  धर्म, संस्कृति का आधार है, वहीं संस्कृति ,धर्म की संवाहिका है। धर्म जहाँ  अपनी स्वाभाविकता के साथ सामाजिक परिवेश का आधार बनता है, वहीं संस्कृति सामाजिक मूल्यों का स्थायी निर्माण करती है। धर्म का सूत्र मानव के सर्वांगीण विकास को सुनिश्चित करता है तो वहीं संस्कृति मानवीय संवेदनाओं को सामाजिक सरोकार से जोड़ती है। जहाँ  धर्म हमारे सर्वस्व का प्रतीक रहा है तो वहीं संस्कृति हमारी स्वाभाविक जीवनशैली की वाहिका रही है। दोनों ने ही भारतीय मूल्यों को जीवंत रखा है और संसार में इसी कारण से भारत का मान-सम्मान रहा है। प्राचीन समय में धर्म एक नागरिक के जीवन के उद्देश्यों का आधार था भारत की सारी व्यवस्थाएँ  संस्कृति पर आधारित थीं। संस्कृति का सौरभ ही हमारे राष्ट्र का सौरभ था। यह भारतीय धर्म की विशेषता रही है कि वह जटिलताओं में जकड़ा न रहा और सतत चिंतन की अवधारणा को विकसित होने में सहायक सिद्ध हुआ, जिसके कारण अनेक भारतीय धर्मों का उदय हुआ। बौद्ध, जैन एवं बाद में सिख धर्म ने अपनी चिंतनशैली को विकसित किया, परंतु मूल में सनातन धर्म ही रहा।सनातन धर्म का आशय हिंदू धर्म मात्र से नहीं, बल्कि बौद्ध, जैन, सिख धर्म से भी है।  128उपर्युक्त गद्यांश का शीर्षक होगा-9",
+      "question_image": null,
       "options": [
         "प्राचीन समय में धर्म",
         "धर्म और संस्कृति की भूमिका",
         "संस्कृति धर्म की संवाहिका",
         "सनातन धर्म"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (धर्म और संस्कृति की भूमिका) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (धर्म और संस्कृति की भूमिका) है।",
+      "explanation_image": null
     },
     {
       "id": 87,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:निम्नलिखित गद्यांश को पढ़कर पूछे गए प्रश्नों के उत्तर दें -लोकतंत्र के तीनों पायों-विधायिका, कार्यपालिका और न्यायपालिका का अपना-अपना महत्त्व है, किंतु जब प्रथम दो अपने मार्ग या उद्देश्य के प्रति शिथिल होती हैं या संविधान के दिशा-निर्देशों की अवहेलना होती है, तो न्यायपालिका का विशेष महत्त्व हो जाता है। न्यायपालिका ही है जो हमें आईना दिखाती है, किंतु आईना तभी उपयोगी होता है, जब उसमें दिखाई देने वाले चेहरे की विद्रूपता को सुधारने का प्रयास हो। सर्वोच्च न्यायालय के अनेक जनहितकारी निर्णयों को कुछ लोगों ने न्यायपालिका की अतिसक्रियता माना, पर जनता को लगा कि न्यायालय सही है। राजनीतिक चश्मे से देखने पर भ्रम की स्थिति हो सकती है।प्रश्न यह है कि जब संविधान की सत्ता सर्वोपरि है, तो उसके अनुपालन में शिथिलता क्यों होती है। राजनीतिक-दलगत स्वार्थ या निजी हित आड़े आ जाता है और यही भ्रष्टाचार को जन्म देता है। हम कसमें खाते हैं जनकल्याण की और कदम उठाते हैं आत्मकल्याण के। ऐसे तत्वों से देश को, समाज को सदा खतरा रहेगा। अतः जब कभी कोई न्यायालय ऐसे फैसले देता है, जो समाज कल्याण के हों और राजनीतिक ठेकेदारों को उनकी औकात बताते हों, तो जनता को उसमें आशा की किरण दिखाई देती है। अन्यथा तो वह अंधकार में जीने को विवश है ही।गद्यांश के आधार पर 'विद्रूपता' शब्द का अर्थ है -",
+      "question_image": null,
       "options": [
         "कुरूपता",
         "दुष्परिणाम",
         "सकारात्मकता",
         "जीवन"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (कुरूपता) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (कुरूपता) है।",
+      "explanation_image": null
     },
     {
       "id": 88,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित वाक्य में चिन्हित शब्द का पर्यायवाची शब्द पहचानें।शीला की शादी में जाने के लिए मैं बहुत उत्सुक हूँ।",
+      "question_image": null,
       "options": [
         "आलोक",
         "सम्यक",
         "व्यग्र",
         "उन्मेष"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (व्यग्र) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (व्यग्र) है।",
+      "explanation_image": null
     },
     {
       "id": 89,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित वाक्य खंड को सही क्रम में लिखिए।पेड़ के सभी झड़ पत्ते गये।",
+      "question_image": null,
       "options": [
         "पेड़ के सभी पत्ते झड़ गये।",
         "पेड़ सभी के गये झड़ पत्ते।",
         "पेड़ गये की सभी झड़ पत्ते।",
         "पेड़ के गये सभी पत्ते झड़।"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (पेड़ के सभी पत्ते झड़ गये।) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (पेड़ के सभी पत्ते झड़ गये।) है।",
+      "explanation_image": null
     },
     {
       "id": 90,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित वाक्य में त्रुटि की पहचान कर शुद्ध वाक्य का चयन करें।इस दरवज़े का कुंडा तूट गया है, तुम दूसरि लगा दो।",
+      "question_image": null,
       "options": [
         "इस दारवाज़े की कुंडा टूट गया है, तुम दुसरा लगा दों।",
         "इस दरवाज़े का कुंडा टूट गया है, तुम दूसरा लगा दो।",
         "इस दरवाजा का कुडा टुट गया है, तूम दूसरा लगा दो।",
         "इस दरवाज़े का कुंड़ा टूट गया हे, तुम दूसरा लागा दो।"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (इस दरवाज़े का कुंडा टूट गया है, तुम दूसरा लगा दो।) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (इस दरवाज़े का कुंडा टूट गया है, तुम दूसरा लगा दो।) है।",
+      "explanation_image": null
     },
     {
       "id": 91,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:दिए गये गद्यांश को पढ़कर  और नीचे दिए गये प्रश्नों का उत्तर दीजिए।उसने एक दैनिक दिनचर्या बना ली है। वह उसका कड़ाई से पालन करता है। वह ब्रह्म मुहूर्त में अर्थात् चार बजे उठता है। उठकर शौचादि से निवृत होता है। किसान का पुत्र होने के कारण पशुओं को सानी, चारा इत्यादि देने में पिता की सहायता करता है। फिर स्नान-ध्यान कर अपने पूज्यों को अभिवादन (नमस्कार, नमस्ते) इत्यादि कर उनका आशीर्वाद प्राप्त करता है। फिर स्वाध्याय करता है। विद्यालय में जो काम घर के लिए दिया जाता है उसे नियमित रूप से करता है। उसके कार्य से अध्यापक उससे बहुत प्रसन्न रहते हैं।वह जहाँ भी रहता है वहाँ के अनुशासन का पालन करता है। घर में रहता है तो घर के नियमों का पालन करता है। बड़ो का सम्मान करता है। छोटों को प्यार करता है। बराबर वालों के साथ समानता का व्यवहार करता है। उसके व्यवहार से घर के सभी लोग प्रसन्न होते हैं। सभी बड़े लोग उसे शुभाशीर्वाद देते रहते हैं।Q98. गद्यांश के लिए उपयुक्त शीर्षक का चयन कीजिए।",
+      "question_image": null,
       "options": [
         "सुखी बालक के लिए",
         "बदमाश लड़का",
         "एक आदर्श बालक",
         "कामचोर बालक"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (एक आदर्श बालक) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (एक आदर्श बालक) है।",
+      "explanation_image": null
     },
     {
       "id": 92,
       "section": "Hindi Language and Comprehension",
       "question": "उपयुक्त 'विशेषण' का चयन कर दिये गये वाक्य को पूर्ण कीजिए। 'रिम्पी का अपनी कक्षा में ...............................स्थान आया है।'",
+      "question_image": null,
       "options": [
         "तिगुना",
         "पहला",
         "चौगुना",
         "एक"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (पहला) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (पहला) है।",
+      "explanation_image": null
     },
     {
       "id": 93,
       "section": "Hindi Language and Comprehension",
       "question": "युवकों को             पर ही विवाह करना चाहिए। उपयुक्त मुहावरे से रिक्त स्थान की पूर्ति कीजिए।",
+      "question_image": null,
       "options": [
         "आग बबूला हो जाना",
         "ठनक जाना",
         "अपने पैरों पर खड़े हो जाना",
         "चकरा जाना"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (अपने पैरों पर खड़े हो जाना) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (अपने पैरों पर खड़े हो जाना) है।",
+      "explanation_image": null
     },
     {
       "id": 94,
       "section": "Hindi Language and Comprehension",
       "question": "कारक के आधार पर वाक्य पूर्ण कीजिए। सफलता के लक्ष्य पर पहुंचने —------ हमें कठिन परिश्रम करना होता है।",
+      "question_image": null,
       "options": [
         "पर",
         "का",
         "के लिए",
         "की"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (के लिए) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (के लिए) है।",
+      "explanation_image": null
     },
     {
       "id": 95,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:गद्यांश के आधार पर प्रश्न का उत्तर दें।द्विवेदी युग कि काव्यधारा की मूलधारा देश-भक्ति है  इस युग के कवियों ने समस्त जनता, विद्यार्थी, मजदूर, स्त्री, पुरुष, बूढ़े, तथा बच्चों आदि को भी स्वतंत्रता की समृधि के लिए प्रेरित किया कवियों का विशेष आग्रह सांप्रदायिक समन्वय में दिखाई पड़ता है क्योकि देश की उन्नति के लिए सभी जातियों का सच्चा मेल आवश्यक है  हरिऔध जी अपने युग के सच्चे कलाकार हैं तथा खड़ी बोली के कवि माने जाते हैं  युग के प्रतिनिधि कवि वही हो सकता है जिसकी रचना में नवीन विचारों का समावेश हो तथा सभी से समन्वय किया हो हरिऔध जी का युग इतिवृत्तात्मकता एवं उपदेशात्मकता का युग था उस समय की रचनाओं में उपदेशात्मक प्रवृति को महत्त्व दिया जाता था अतः हरिऔध जी कि रचनाओं में भी इन प्रवृतियों का होना स्वाभाविक है उन्होंने जो भी विषय अपनाये उनमें से अधिकांश  विश्लेषणात्मक हैं प्रिय प्रवास तथा वैदेही वनवास दोनों ही महाकाव्य हैं और दोनों ही पौराणिक हैं इतिवृत्तात्मक एवं उपदेशात्मक शैली कि दृष्टि से सर्वोत्कृष्ट हैं 542' स्त्री ' शब्द  का पर्यायवाची है-546",
+      "question_image": null,
       "options": [
         "पद्मा",
         "आली",
         "कलत्र",
         "सुमन"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (कलत्र) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (कलत्र) है।",
+      "explanation_image": null
     },
     {
       "id": 96,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:निम्नलिखित गद्यांश को पढ़कर प्रश्नों के उत्तर दीजिए -'स्वतंत्रता अपने-आपमें निरपेक्ष नहीं है। एक सीमा पार कर जाने के बाद स्वतंत्रता स्वेच्छाचारिता और उच्छृंखलता में बदल जाती है। एक व्यक्ति को धन कमाने की स्वतंत्रता है, पर काले बाजार की अथवा लूटने की स्वतंत्रता नहीं है। हम एक पागल को मोटर चलाने की स्वतंत्रता नहीं दे सकते, जबकि एक सामान्य नागरिक को, जो मोटर चलाना जानता है, मोटर चलाने का आज्ञापत्र प्राप्त करने में कोई कठिनाई नहीं होती। हमको लाउडस्पीकर पर गाने की स्वतंत्रता है, किंतु हमारे गाने से हमारे पड़ोसी के सोने की स्वतंत्रता नष्ट नहीं होनी चाहिए। जो स्वतंत्रता हमें प्राप्त है, वह दूसरे व्यक्ति की स्वतंत्रता में बाधक नहीं होनी चाहिए। हमें यह स्मरण रखना चाहिए कि हर स्वतंत्रता के साथ एक दायित्व का प्रश्न जुड़ा हुआ है। हमारे देश में जो हाल-हाल तक गुलाम बना रहा, नागरिक स्वतंत्रता का मूल्य समझना जरा कठिन है। अभी हमारे देश की जनता का ध्यान रोटी, कपड़ा, मकान और रोजगार की ओर गया है। प्रायः लोग यह कहते सुनाई देते हैं कि हमे इससे मतलब नहीं कि इस देश में किसका शासन है, जनतंत्र है या तानाशाही, हमें तो रोटी चाहिए, रोजगार चाहिए, दवा चाहिए। इन आवश्यकताओं को कोई भी पूरा कर दे। जनता की यह मानसिक स्थिति ठीक नहीं। यदि जनता की सूझबूझ ऐसी ही रही, तो फिर स्वतंत्रता जो असीम बलिदान देकर प्राप्त की गई है, मिट जाएगी।'Q97. इस गद्यांश के आधार पर वास्तविक जीवन में 'स्वतंत्रता' को क्या समझा जा सकता है?",
+      "question_image": null,
       "options": [
         "उच्छृंखलता",
         "निरंकुशता",
         "सापेक्षिक स्वतंत्रता",
         "स्वेच्छाचारिता"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (सापेक्षिक स्वतंत्रता) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (सापेक्षिक स्वतंत्रता) है।",
+      "explanation_image": null
     },
     {
       "id": 97,
       "section": "Hindi Language and Comprehension",
       "question": "निम्न शब्द का सही पर्याय अंकित कीजिए।देव बाला",
+      "question_image": null,
       "options": [
         "नायिका",
         "नर्तकी",
         "अभिनेत्री",
         "अप्सरा"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (अप्सरा) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (अप्सरा) है।",
+      "explanation_image": null
     },
     {
       "id": 98,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:निम्नलिखित गद्यांश को ध्यानपूर्वक पढ़कर पूछे गए प्रश्नों के लिए सही विकल्प चुनकर लिखेसंसार में अमरता ऐसे ही लोगों को मिलती है, जो अपने पीछे कुछ आदर्श छोड़ जाते हैं, जिनका स्थायी मूल्य होता है। अधिकतर यही देखा गया है कि ऐसे व्यक्ति संपन्न परिवार में बहुत कम पैदा होते हैं। अधिकांश ऐसे लोगों का जन्म मध्यम वर्ग या गरीब परिवारों में ही होता है। मनुष्य में विनय, उदारता, कष्ट-सहिष्णुता, साहस आदि चारित्रिक गुणों का विकास अत्यावश्यक है। ये गुण व्यक्ति के जीवन को अहंकारहीन तथा सादा-सरल बनाते हैं। जीवन में सादगी लाने के लिए दो बातें विशेष रूप से करणीय हैं-प्रथम कठिन से कठिन परिस्थितियों में धैर्य को न छोड़ना, द्वितीय अपनी आवश्यकताओं को न्यूनतम बनाना । सादगी का विचारों से भी घनिष्ठ संबंध है। हमें सादा जीवन व्यतीत करना चाहिए और अपने विचारों को उच्च बनाए रखना चाहिए। व्यक्ति की सच्ची पहचान उसके विचारों और करनी से होती है। मनुष्य के विचार उसके आचरण पर प्रभाव डालते हैं और उसके विवेक को जाग्रत रखते हैं। विवेकशील व्यक्ति ही अपनी आवश्यकताओं को सीमित रखता है। सादा जीवन व्यतीत करनेवाले व्यक्ति को भी कभी हतप्रभ होकर अपने आत्मसम्मान पर आँच नहीं आने देनी चाहिए। सादगी मनुष्य के चरित्र का अंग है, वह बाहरी चीज़ नहीं है। 'सादा जीवन, उच्च विचार' वाली कहावत जीवन की सादगी और विचारों की महानता के साथ-साथ अपने आचरण में सद्व्यवहार की अपेक्षा करती है। यह हमें सिखाती है कि जीवन में सदा सरल दृष्टिकोण अपनाना चाहिए। हमें हर जगह और हर किसी के समक्ष अपनी पसंद और भौतिकवादी चीज़ों को प्रदर्शित करने की कोशिश नहीं करनी चाहिए; बल्कि हमें अपनी नैतिक उच्चता और विचारों की शुद्धता पर अधिक बल देना चाहिए।आत्मसम्मान शब्द का विग्रह कीजिये।",
+      "question_image": null,
       "options": [
         "राष्ट्र का सम्मान",
         "विचारों का सम्मान",
         "समाज का सम्मान",
         "आत्मा का सम्मान"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (आत्मा का सम्मान) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (आत्मा का सम्मान) है।",
+      "explanation_image": null
     },
     {
       "id": 99,
       "section": "Hindi Language and Comprehension",
       "question": "‘महाविद्यालय ---पास जिलाधीश कार्यालय है ’ उपर्युक्त रिक्त स्थान  में उचित कारक का प्रयोग कीजिए-1.के2.को3.से4.पर",
+      "question_image": null,
       "options": [
         "1",
         "4",
         "3",
         "2"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (1) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (1) है।",
+      "explanation_image": null
     },
     {
       "id": 100,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित वाक्य को ‘निश्चित परिमाणवाचक’ विशेषण द्वारा पूर्ण करें ।__________गेहूँ दे दो ।",
+      "question_image": null,
       "options": [
         "इतना",
         "पाँच किलो",
         "थोड़ा",
         "तनिक"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (पाँच किलो) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (पाँच किलो) है।",
+      "explanation_image": null
     }
   ]
 }

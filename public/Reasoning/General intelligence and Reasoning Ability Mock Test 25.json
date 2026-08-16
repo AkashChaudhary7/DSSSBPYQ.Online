@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the following series?13   18   28   43   63   ?",
+      "question_image": null,
       "options": [
         "88",
         "84",
         "95",
         "75"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (88) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (88) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘+’ means ‘–’, ‘–’ means ‘×’, ‘×’ means ‘÷’, ‘÷’ means ‘+’, then what will come in place of the question mark (?) in the following equation?\n\n183 ÷ 65 × 13 – 4 + 36 = ?",
+      "question_image": null,
       "options": [
         "181",
         "153",
         "174",
         "167"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (167) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (167) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "Town B is to the south of Town A. Town A is to the east of Town D. Town C is to the north of Town D. Town E is to the west of Town C. What is the position of Town E with respect to Town B?",
+      "question_image": null,
       "options": [
         "South-west",
         "South",
         "North-west",
         "South-east"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (North-west) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (North-west) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of E, F, G, H, K, L and M has an exam on a different day of a week, starting from Monday and ending on Sunday of the same week. L has an exam on Thursday and F has an exam on Saturday. H has an exam immediately before K. E has an exam on one of the days after G. M has an exam immediately after K. How many people have exams between E and M?",
+      "question_image": null,
       "options": [
         "Two",
         "Three",
         "One",
         "Four"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Three) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Three) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "Given below is a statement followed by two possible reasons numbered I and II. Read the statement carefully and decide which of the two reasons explains the event/observation/information given in the statement. Statement:Even though state ABC has given many benefits, subsidies, and relaxation in taxes to industries, many industries have exited the state recently.Reasons:I. Over the past few years, landslides on the main highway of state ABC have increased and authorities are yet to figure out the alternate highway of state ABC.II. The major sources of water for state ABC are drying up, causing reduced water supply in the state ABC.",
+      "question_image": null,
       "options": [
         "Only II is a possible reason.",
         "Both I and II are possible reasons.",
         "Only I is a possible reason.",
         "Neither I nor II is a possible reason."
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Both I and II are possible reasons.) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Both I and II are possible reasons.) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?381 305 232 162 95 ?",
+      "question_image": null,
       "options": [
         "22",
         "52",
         "42",
         "31"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (31) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (31) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "What will come in place of the question mark (?) in the following equation, if ‘+’ and ‘−’ are interchanged and ‘×’ and ‘÷’ are interchanged?14 ÷ 5 + 104 × 4 − 9 = ?",
+      "question_image": null,
       "options": [
         "51",
         "52",
         "53",
         "50"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (53) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (53) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Select the set in which the numbers are related in the same way as are the numbers of the following sets.(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13, can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)(98, 218)(114, 234)",
+      "question_image": null,
       "options": [
         "(159, 299)",
         "(136, 256)",
         "(72, 162)",
         "(88, 198)"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' ((136, 256)) है।"
+      "explanation": "सही उत्तर विकल्प 'B' ((136, 256)) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? CGM,   DIP,   EKS,   FMV,   ?",
+      "question_image": null,
       "options": [
         "GOY",
         "HOY",
         "HLU",
         "ILV"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (GOY) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (GOY) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes A, B, C, D, R, S and T are kept one over the other but not necessarily in the same order. Only T is kept above R. Only two boxes are kept between R and D. Only A is kept below C. B is not kept immediately above D. How many boxes are kept between S and A?",
+      "question_image": null,
       "options": [
         "One",
         "Three",
         "Four",
         "Two"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Two) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Two) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "4 is related to 75 following a certain logic. Following the same logic, 6 is related to 227. To which of the given options is 3 related, following the same logic?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "question_image": null,
       "options": [
         "45",
         "27",
         "38",
         "16"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (38) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (38) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘CLAN’ is coded as ‘6135’ and ‘LEAN’ is coded as ‘6451’. What is the code for ‘E’ in the given code language?",
+      "question_image": null,
       "options": [
         "1",
         "4",
         "6",
         "5"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (4) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (4) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the following words.(Left) VAN  CUT  TIE  SIT (Right)In each of the words, each vowel is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. In how many letter-clusters thus formed, will no vowel appear?",
+      "question_image": null,
       "options": [
         "Two",
         "One",
         "Four",
         "Three"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Three) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Three) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,'A + B' means ‘A is the mother of B’,'A − B' means ‘A is the brother of B’,'A × B' means ‘A is the wife of B’ and'A ÷ B' means ‘A is the father of B’.How is I related to K if ‘B ÷ L − I × N ÷ K + E’?",
+      "question_image": null,
       "options": [
         "Mother",
         "Mother's mother",
         "Wife's mother",
         "Father's mother"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Mother) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Mother) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the following words.OIL  TYE  PIN  FANHow many letters are there between the second letter of the first word from the right and the second letter of the first word from the left?",
+      "question_image": null,
       "options": [
         "5",
         "6",
         "8",
         "7"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (7) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (7) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "Six students, A, B, C, D, E and F, are sitting around a circular table, facing the centre. D is the immediate neighbour of both C and B. B is sitting second to the right of E. F is not C’s immediate neighbour. Who is the immediate neighbour of both C and E?",
+      "question_image": null,
       "options": [
         "A",
         "F",
         "D",
         "B"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (A) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (A) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "ACGK is related to EFIL in a certain way based on the English alphabetical order. In the same way, MLMN is related to QOOO. To which of the given options is CXUR related, following the same logic?",
+      "question_image": null,
       "options": [
         "GAVS",
         "GAWS",
         "GAWT",
         "GBWS"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (GAWS) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (GAWS) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the given letter-number clusters will replace the question mark (?) in the following series to make it logically complete?VDF 11,   UGI 22,   TJL 33,   SMO 44,   ?",
+      "question_image": null,
       "options": [
         "RPR 55",
         "RPQ 66",
         "QQS 58",
         "PPM 57"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (RPR 55) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (RPR 55) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion(s) logically follow(s) from the statements.Statements:All carrots are tomatoes.All berries are potatoes.Some potatoes are tomatoes.Conclusion (I): No potatoes are carrots.Conclusion (II): Some berries are tomatoes.",
+      "question_image": null,
       "options": [
         "Both conclusions (I) and (II) follow.",
         "Only conclusion (II) follows.",
         "Neither conclusion (I) nor (II) follows.",
         "Only conclusion (I) follows."
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Neither conclusion (I) nor (II) follows.) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Neither conclusion (I) nor (II) follows.) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "Suresh starts from Point M and drives 10 km towards the north. Then he takes a right turn and drives 4 km, he turns right again and drives 4 km. Then he takes a left turn and drives 2 km, then he turns right and drives 8 km. Then he takes a final right turn and drives 6 km and stops at Point N. How far (shortest distance) and towards which direction should he drive in order to reach Point M again? (All turns are 90 degrees turns only unless specified.)",
+      "question_image": null,
       "options": [
         "2 km towards south",
         "4 km towards south",
         "4 km towards north",
         "2 km towards north"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (2 km towards north) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (2 km towards north) है।",
+      "explanation_image": null
     }
   ]
 }

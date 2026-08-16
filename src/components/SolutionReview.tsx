@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { Quiz, Question, Bookmark } from '../types';
 import { 
   ArrowLeft, ChevronLeft, ChevronRight, Star, CheckCircle2, XCircle, 
-  BookOpen, Layout, HelpCircle, Award, Check, X, AlertTriangle, Send
+  BookOpen, Layout, HelpCircle, Award, Check, X, AlertTriangle, Send, Clock, Zap
 } from 'lucide-react';
 import StepByStepExplanation from './StepByStepExplanation';
-import { FormattedText, cleanOptionText, hasOptionPrefix, getDisplayOptionText } from '../lib/formatText';
+import { FormattedText, cleanOptionText, hasOptionPrefix, getDisplayOptionText, StandardizedQuestionView } from '../lib/formatText';
 
 interface SolutionReviewProps {
   quiz: Quiz;
@@ -14,6 +14,7 @@ interface SolutionReviewProps {
   onToggleGlobalBookmark: (question: Question) => void;
   onReportQuestion?: (reportRecord: any) => void;
   onBack: () => void;
+  questionTimeSpent?: Record<number, number>;
 }
 
 export default function SolutionReview({
@@ -23,6 +24,7 @@ export default function SolutionReview({
   onToggleGlobalBookmark,
   onReportQuestion,
   onBack,
+  questionTimeSpent = {},
 }: SolutionReviewProps) {
   const [currentIdx, setCurrentIdx] = useState(0);
   const [isPaletteOpen, setIsPaletteOpen] = useState(false);
@@ -106,6 +108,10 @@ export default function SolutionReview({
     );
   }
 
+  const currentQSeconds = (questionTimeSpent && questionTimeSpent[currentQuestion.id] !== undefined)
+    ? questionTimeSpent[currentQuestion.id]
+    : 0;
+
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col relative" id="solution-review-root">
       {/* Top sticky header */}
@@ -148,27 +154,45 @@ export default function SolutionReview({
         {/* Main interactive area */}
         <main className="flex-1 max-w-4xl mx-auto w-full p-4 md:p-6 space-y-6 pb-28">
           
-          {/* Section tag */}
-          <div className="bg-slate-100 border border-slate-200/60 rounded-xl px-4 py-2.5 flex items-center justify-between text-slate-700">
-            <span className="text-[11px] font-bold tracking-wider uppercase">{currentQuestion.section}</span>
-            <span className={`text-[10px] font-extrabold uppercase px-2.5 py-1 rounded-full ${
-              getQuestionState(currentIdx) === 'correct' ? 'bg-emerald-100 text-emerald-800' :
-              getQuestionState(currentIdx) === 'incorrect' ? 'bg-rose-100 text-rose-800' :
-              'bg-slate-200 text-slate-700'
-            }`}>
-              {getQuestionState(currentIdx) === 'correct' ? 'Correct' :
-               getQuestionState(currentIdx) === 'incorrect' ? 'Incorrect' :
-               'Unattempted'}
-            </span>
+          {/* Section & Question Meta Tag */}
+          <div className="bg-slate-100 border border-slate-200/60 rounded-2xl px-4 py-3 flex flex-wrap items-center justify-between gap-2 text-slate-700">
+            <div className="flex items-center gap-2">
+              <span className="text-[11px] font-extrabold tracking-wider uppercase text-blue-900 bg-blue-50 border border-blue-200 px-2.5 py-1 rounded-lg">
+                {currentQuestion.section || 'General'}
+              </span>
+              <span className={`text-[10px] font-extrabold uppercase px-2.5 py-1 rounded-lg border ${
+                getQuestionState(currentIdx) === 'correct' ? 'bg-emerald-100 text-emerald-800 border-emerald-200' :
+                getQuestionState(currentIdx) === 'incorrect' ? 'bg-rose-100 text-rose-800 border-rose-200' :
+                'bg-slate-200 text-slate-700 border-slate-300'
+              }`}>
+                {getQuestionState(currentIdx) === 'correct' ? '✓ Correct (+1.0)' :
+                 getQuestionState(currentIdx) === 'incorrect' ? '✗ Incorrect (-0.25)' :
+                 '○ Unattempted (0.0)'}
+              </span>
+            </div>
+
+            {/* Time Taken on Question badge */}
+            <div className="flex items-center gap-1.5 font-mono text-[11px] font-bold text-slate-700 bg-white border border-slate-200 px-2.5 py-1 rounded-lg shadow-2xs">
+              <Clock className="w-3.5 h-3.5 text-blue-600" />
+              <span>Time Taken: <strong className="text-slate-900">{currentQSeconds}s</strong></span>
+              <span className="text-slate-400 font-sans text-[10px]">
+                ({currentQSeconds <= 45 ? '⚡ Ideal' : currentQSeconds <= 70 ? '🎯 Normal' : '⏳ Overtime'})
+              </span>
+            </div>
           </div>
 
           {/* Question Display Card */}
           <div className="bg-white border border-slate-200 rounded-3xl p-6 md:p-8 shadow-sm space-y-6 relative overflow-hidden" id="review-question-card">
             <div className="space-y-4">
-              <div className="flex items-start justify-between gap-4">
-                <span className="text-sm font-bold bg-slate-100 text-slate-600 w-8 h-8 rounded-full flex items-center justify-center shrink-0">
-                  Q{currentIdx + 1}
-                </span>
+              <div className="flex items-start justify-between gap-4 border-b border-slate-100 pb-3">
+                <div className="flex items-center gap-2">
+                  <span className="text-xs font-black bg-[#003366] text-white px-2.5 py-1 rounded-lg uppercase tracking-wider">
+                    Question {currentIdx + 1}
+                  </span>
+                  <span className="text-xs text-slate-500 font-bold">
+                    of {totalQuestions}
+                  </span>
+                </div>
                 <div className="flex items-center gap-2">
                   <button
                     onClick={() => setShowReportModal(true)}
@@ -191,53 +215,55 @@ export default function SolutionReview({
                   </button>
                 </div>
               </div>
-              <div className="text-base md:text-lg font-bold text-slate-800 leading-relaxed">
-                <FormattedText text={currentQuestion.question} />
-              </div>
+
+              {/* Standardized CBT Question Body */}
+              <StandardizedQuestionView question={currentQuestion.question} />
             </div>
 
-            {/* Options list */}
-            <div className="grid grid-cols-1 gap-3">
+            {/* Standardized CBT Options list */}
+            <div className="grid grid-cols-1 gap-2.5 pt-2">
               {currentQuestion.options.map((option, idx) => {
                 const isCorrect = currentQuestion.answer === idx;
                 const userSelected = userAnswers[currentQuestion.id] === idx;
 
-                let optStyle = "bg-white border-slate-200 text-slate-700";
+                let cardStyle = "bg-white border-slate-200 text-slate-700";
+                let badgeStyle = "bg-slate-100 text-slate-600 border-slate-200";
                 
                 if (isCorrect) {
-                  optStyle = "bg-emerald-50 border-emerald-500 text-emerald-900 ring-1 ring-emerald-500 font-bold";
+                  cardStyle = "bg-emerald-50/70 border-emerald-500 text-emerald-950 ring-1 ring-emerald-500/30 font-bold";
+                  badgeStyle = "bg-emerald-600 text-white border-emerald-600";
                 } else if (userSelected) {
-                  optStyle = "bg-rose-50 border-rose-400 text-rose-900 ring-1 ring-rose-400";
+                  cardStyle = "bg-rose-50/70 border-rose-500 text-rose-950 ring-1 ring-rose-500/30 font-bold";
+                  badgeStyle = "bg-rose-600 text-white border-rose-600";
                 } else {
-                  optStyle = "bg-slate-50/40 border-slate-200 text-slate-500";
+                  cardStyle = "bg-slate-50/40 border-slate-200 text-slate-500";
+                  badgeStyle = "bg-slate-100 text-slate-400 border-slate-200";
                 }
 
                 return (
                   <div
                     key={idx}
-                    className={`w-full text-left p-4 rounded-2xl border text-xs md:text-sm font-semibold flex items-center justify-between gap-4 ${optStyle}`}
+                    className={`w-full text-left p-3.5 md:p-4 rounded-xl border-2 text-xs md:text-sm font-semibold flex items-start justify-between gap-3 md:gap-4 transition-all shadow-2xs ${cardStyle}`}
                   >
-                    <div className="flex items-center gap-3 flex-1">
-                      {!hasOptionPrefix(option) && (
-                        <span className={`w-6 h-6 rounded-full border text-[11px] font-bold flex items-center justify-center shrink-0 ${
-                          isCorrect 
-                            ? 'bg-emerald-500 border-emerald-500 text-white' 
-                            : userSelected
-                              ? 'bg-rose-500 border-rose-500 text-white'
-                              : 'bg-slate-100 border-slate-200 text-slate-500'
-                        }`}>
-                          {String.fromCharCode(65 + idx)}
-                        </span>
-                      )}
-                      <FormattedText text={cleanOptionText(option)} asParagraph={false} />
+                    <div className="flex items-start gap-3 flex-1 min-w-0">
+                      <span className={`w-6 h-6 md:w-7 md:h-7 rounded-lg border font-black text-xs flex items-center justify-center shrink-0 mt-0.5 uppercase ${badgeStyle}`}>
+                        {String.fromCharCode(65 + idx)}
+                      </span>
+                      <div className="flex-1 min-w-0 pt-0.5 text-xs md:text-sm font-medium leading-relaxed break-words">
+                        <FormattedText text={cleanOptionText(option)} asParagraph={false} />
+                      </div>
                     </div>
 
-                    <div className="shrink-0 flex items-center gap-2">
+                    <div className="shrink-0 flex items-center gap-2 mt-0.5">
                       {isCorrect && (
-                        <span className="bg-emerald-100 text-emerald-800 text-[9px] font-extrabold px-2 py-0.5 rounded-full uppercase tracking-wider">Correct</span>
+                        <span className="bg-emerald-100 text-emerald-800 text-[10px] font-extrabold px-2.5 py-0.5 rounded-md uppercase tracking-wider flex items-center gap-1">
+                          <CheckCircle2 className="w-3.5 h-3.5 text-emerald-700" /> Correct
+                        </span>
                       )}
                       {userSelected && !isCorrect && (
-                        <span className="bg-rose-100 text-rose-800 text-[9px] font-extrabold px-2 py-0.5 rounded-full uppercase tracking-wider">Your Selection</span>
+                        <span className="bg-rose-100 text-rose-800 text-[10px] font-extrabold px-2.5 py-0.5 rounded-md uppercase tracking-wider flex items-center gap-1">
+                          <XCircle className="w-3.5 h-3.5 text-rose-700" /> Your Selection
+                        </span>
                       )}
                     </div>
                   </div>

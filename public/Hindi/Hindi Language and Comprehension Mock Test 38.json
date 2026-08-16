@@ -6,281 +6,321 @@
       "id": 1,
       "section": "Hindi Language and Comprehension",
       "question": "वाक्य के  रिक्त स्थान की पूर्ति के लिए  'आग'  का उपयुक्त पर्यायवाची चुनें - 'हवन कुंड में                    प्रज्वलित करो।'",
+      "question_image": null,
       "options": [
         "अग्नि",
         "दहन",
         "पावक",
         "अनल"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (अग्नि) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (अग्नि) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "Hindi Language and Comprehension",
       "question": "निम्न वाक्य के रिक्त स्थान में उचित कारक चिह्न का प्रयोग करें -'तुम साइकिल               अपने घर जाओ ।'",
+      "question_image": null,
       "options": [
         "का",
         "से",
         "के",
         "में"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (से) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (से) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित मुहावरे का अर्थ बताएं- 'अंतर के पट खोलना'",
+      "question_image": null,
       "options": [
         "हृदय की बात कह देना",
         "छिपाकर रखना",
         "द्वार खोलना",
         "कोठरी का दरवाजा खोलना"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (हृदय की बात कह देना) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (हृदय की बात कह देना) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "Hindi Language and Comprehension",
       "question": "दिये गए वाक्य खंडों को क्रम में लिखिए। (a) अनेक रूप मिलते हैं(b) जिनका संबंध प्रमुखत: क्षेत्र(c) समुदाय तथा अवसरों से है(d) भारतीय लोक नृत्यों के",
+      "question_image": null,
       "options": [
         "b,a,c,d",
         "a,b,d,c",
         "d,a,b,c",
         "a,d,b,c"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (d,a,b,c) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (d,a,b,c) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "Hindi Language and Comprehension",
       "question": "वाक्य के रिक्त स्थान की पूर्ति के लिए  'इच्छा' का  पर्यायवाची शब्द चुनें - 'मैं आपके स्वस्थ रहने की                    करता हूँ ।'",
+      "question_image": null,
       "options": [
         "संयोग",
         "कामना",
         "सहयोग",
         "संशय"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (कामना) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (कामना) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "Hindi Language and Comprehension",
       "question": "निम्न वाक्य को पूर्ण करें - सही कारक चिह्न का प्रयोग करें - 'इस कलम                   पूरी पूस्तक लिख लो ।'",
+      "question_image": null,
       "options": [
         "के",
         "की",
         "में",
         "से"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (से) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (से) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "Hindi Language and Comprehension",
       "question": "निम्न वाक्य के रिक्त स्थान में उचित कारक चिह्न का प्रयोग कर वाक्य पूर्ण करें - 'मोहन                    सोहन को पढ़ाया ।'",
+      "question_image": null,
       "options": [
         "ने",
         "का",
         "के लिए",
         "से"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (ने) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (ने) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "Hindi Language and Comprehension",
       "question": "दिए गए वाक्यांश के लिए सार्थक शब्द बताएं -'इंद्रियों से संबंधित'",
+      "question_image": null,
       "options": [
         "इतिवृत",
         "इंद्रियातीत",
         "ऐच्छिक",
         "ऐंद्रिक"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (ऐंद्रिक) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (ऐंद्रिक) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "Hindi Language and Comprehension",
       "question": "'राजा दशरथ के ज्येठ पुत्र का नाम राम था।'दिये गये वाक्य के किस भाग में त्रुटि है?",
+      "question_image": null,
       "options": [
         "पुत्र",
         "ज्येठ",
         "दशरथ",
         "राम"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (ज्येठ) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (ज्येठ) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "Hindi Language and Comprehension",
       "question": "निम्न वाक्य में अशुद्धि को पहचानकर शुद्ध शब्द का चयन करें-'मैं आपकी प्रतिक्षा करता रहा ।'",
+      "question_image": null,
       "options": [
         "प्रतीक्षा",
         "प्रतिकक्षा",
         "प्रतिक्ष",
         "प्रतिक्षा"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (प्रतीक्षा) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (प्रतीक्षा) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "Hindi Language and Comprehension",
       "question": "दिए गए वाक्य के रिक्त स्थान को सही विकल्प से पूर्ण करें - नदी किनारे वन विभाग             पेड़ लगवाए ।",
+      "question_image": null,
       "options": [
         "पर",
         "ने",
         "का",
         "को"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (ने) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (ने) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "Hindi Language and Comprehension",
       "question": "रिक्त स्थान के लिए उपयुक्त विकल्प का चयन करें-पुलिस ने चोर.....पकड़ लिया है।",
+      "question_image": null,
       "options": [
         "को",
         "का",
         "के",
         "की"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (को) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (को) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित वाक्य कारक के आधार पर पूर्ण कीजिए। प्रदूषण को कम करने ________ अधिकाधिक वृक्षारोपण करना चाहिए।",
+      "question_image": null,
       "options": [
         "का",
         "से",
         "के लिए",
         "पर"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (के लिए) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (के लिए) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित वाक्य में चिन्हित शब्द का पर्यायवाची शब्द पहचानें।।तुम जा कर चूल्हे के लिए जलावन ले आओ।1133",
+      "question_image": null,
       "options": [
         "ईंधन",
         "थाल",
         "गुड़",
         "स्तम्भ"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (ईंधन) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (ईंधन) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "Hindi Language and Comprehension",
       "question": "नीचे दिए गये वाक्य के किस भाग में त्रुटी है ?'ऐसी स्थिती में कुछ काम नहीं हो सकता'114",
+      "question_image": null,
       "options": [
         "सकता",
         "कुछ",
         "स्थिती",
         "ऐसी"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (स्थिती) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (स्थिती) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "Hindi Language and Comprehension",
       "question": "'कान खड़े होना' मुहावरे का सही अर्थ है -93",
+      "question_image": null,
       "options": [
         "खरगोश जैसा कान",
         "चौकन्ना होना",
         "कान का तेज होना",
         "बिल्ली जैसा कान"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (चौकन्ना होना) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (चौकन्ना होना) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित वाक्य  कारक के आधार पर पूर्ण कीजिए। रेडियो संचार माध्यम ________ हम केवल आवाज सुन सकते हैं।",
+      "question_image": null,
       "options": [
         "लिए की",
         "से",
         "का",
         "के"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (से) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (से) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "Hindi Language and Comprehension",
       "question": "वर्तनी की दृष्टि से दिए गए वाक्य के किस अंश में त्रुटि है, पहचानें-- नामदेव किसी गुरु से दीछा लेकर अपनी सगुण भक्ति में प्रवृत्त नहीं हुए थे।1138",
+      "question_image": null,
       "options": [
         "से दीछा लेकर",
         "नामदेव किसी गुरु",
         "अपनी सगुण भक्ति",
         "में प्रवृत्त नहीं हुए थे।"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (से दीछा लेकर) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (से दीछा लेकर) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित वाक्य  कारक के आधार पर पूर्ण कीजिए। रक्षा बंधन वर्षा ऋतु ________ परम पावन पर्व है।",
+      "question_image": null,
       "options": [
         "पर",
         "में",
         "के लिए",
         "का"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (का) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (का) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित वाक्य कारक के आधार पर पूर्ण कीजिए। संतानों ________ पालन पोषण ________ समुचित ध्यान देना आवश्यक है।",
+      "question_image": null,
       "options": [
         "से, से",
         "के लिए",
         "में, से",
         "के, पर"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (के, पर) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (के, पर) है।",
+      "explanation_image": null
     }
   ]
 }

@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { Quiz, Question, Bookmark } from '../types';
-import { Clock, ArrowLeft, ChevronLeft, ChevronRight, Star, AlertTriangle, Eye, RefreshCw, Send, CheckCircle2, XCircle, Lock, ShieldCheck, User, Info, Maximize2, Minimize2, Share2 } from 'lucide-react';
+import { Clock, ArrowLeft, ChevronLeft, ChevronRight, Star, AlertTriangle, Eye, RefreshCw, Send, CheckCircle2, XCircle, Lock, ShieldCheck, User, Info, Maximize2, Minimize2, Share2, Zap, Hourglass } from 'lucide-react';
 import StepByStepExplanation from './StepByStepExplanation';
-import { FormattedText, cleanOptionText, hasOptionPrefix, getDisplayOptionText } from '../lib/formatText';
+import { FormattedText, cleanOptionText, hasOptionPrefix, getDisplayOptionText, StandardizedQuestionView } from '../lib/formatText';
 import { getQuestionSourceTrace } from '../lib/sourceTrace';
 
 interface QuizInterfaceProps {
@@ -10,7 +10,7 @@ interface QuizInterfaceProps {
   mode: 'exam' | 'practice';
   durationMinutes: number; // Configurable override
   onBack: () => void;
-  onSubmit: (answers: Record<number, number>, timeSpentSeconds: number, bookmarks: Record<number, boolean>) => void;
+  onSubmit: (answers: Record<number, number>, timeSpentSeconds: number, bookmarks: Record<number, boolean>, questionTimeSpent?: Record<number, number>) => void;
   savedBookmarks: Bookmark[];
   onToggleGlobalBookmark: (question: Question) => void;
   onReportQuestion?: (reportRecord: any) => void;
@@ -22,6 +22,7 @@ interface QuizInterfaceProps {
     secondsLeft?: number;
     activeSectionIdx?: number;
     submittedSections?: Record<number, boolean>;
+    questionTimeSpent?: Record<number, number>;
   } | null;
   onDiscardSession?: () => void;
 }
@@ -42,6 +43,7 @@ export default function QuizInterface({
   const [userAnswers, setUserAnswers] = useState<Record<number, number>>(() => initialSessionState?.userAnswers ?? {});
   const [localBookmarks, setLocalBookmarks] = useState<Record<number, boolean>>(() => initialSessionState?.localBookmarks ?? {});
   const [visitedQuestions, setVisitedQuestions] = useState<Record<number, boolean>>(() => initialSessionState?.visitedQuestions ?? {});
+  const [questionTimeSpent, setQuestionTimeSpent] = useState<Record<number, number>>(() => initialSessionState?.questionTimeSpent ?? {});
   const [secondsLeft, setSecondsLeft] = useState<number>(() => initialSessionState?.secondsLeft ?? (durationMinutes * 60));
   const [showExitWarning, setShowExitWarning] = useState(false);
   const [showSubmitWarning, setShowSubmitWarning] = useState(false);
@@ -160,10 +162,12 @@ export default function QuizInterface({
     setLocalBookmarks(bMap);
   }, [savedBookmarks, quiz.testId]);
 
-  // Handle countdown timer in Exam mode
+  const currentQuestion = (quiz?.questions || [])[currentIdx] || (quiz?.questions || [])[0];
+
+  // Handle countdown timer & live per-question timing
   useEffect(() => {
-    if (mode === 'exam') {
-      timerRef.current = setInterval(() => {
+    timerRef.current = setInterval(() => {
+      if (mode === 'exam') {
         setSecondsLeft(prev => {
           if (prev <= 1) {
             clearInterval(timerRef.current!);
@@ -172,13 +176,21 @@ export default function QuizInterface({
           }
           return prev - 1;
         });
-      }, 1000);
-    }
+      }
+
+      // Track elapsed seconds on the currently viewed question
+      if (currentQuestion && currentQuestion.id !== undefined) {
+        setQuestionTimeSpent(prev => ({
+          ...prev,
+          [currentQuestion.id]: (prev[currentQuestion.id] || 0) + 1
+        }));
+      }
+    }, 1000);
 
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
     };
-  }, [mode]);
+  }, [mode, currentQuestion?.id]);
 
   // Auto-persist active quiz session to localStorage whenever state changes
   useEffect(() => {
@@ -194,6 +206,7 @@ export default function QuizInterface({
       secondsLeft,
       activeSectionIdx,
       submittedSections,
+      questionTimeSpent,
       lastUpdated: Date.now()
     };
     try {
@@ -201,9 +214,7 @@ export default function QuizInterface({
     } catch (_e) {
       // ignore storage errors
     }
-  }, [quiz, mode, durationMinutes, currentIdx, userAnswers, visitedQuestions, localBookmarks, secondsLeft, activeSectionIdx, submittedSections]);
-
-  const currentQuestion = (quiz?.questions || [])[currentIdx] || (quiz?.questions || [])[0];
+  }, [quiz, mode, durationMinutes, currentIdx, userAnswers, visitedQuestions, localBookmarks, secondsLeft, activeSectionIdx, submittedSections, questionTimeSpent]);
 
   // Auto-register visit on mount or index change
   useEffect(() => {
@@ -221,7 +232,7 @@ export default function QuizInterface({
       localStorage.removeItem('dsssb_active_quiz_session');
     } catch (_) {}
     const totalTimeSpent = Math.round((Date.now() - startTimeRef.current) / 1000);
-    onSubmit(userAnswers, Math.min(totalTimeSpent, durationMinutes * 60), localBookmarks);
+    onSubmit(userAnswers, Math.min(totalTimeSpent, durationMinutes * 60), localBookmarks, questionTimeSpent);
   };
 
   const handleSaveAndNext = () => {
@@ -513,13 +524,38 @@ export default function QuizInterface({
         {/* LEFT COLUMN: QUESTION AREA (75% WIDTH) */}
         <div className="flex-1 flex flex-col overflow-y-auto bg-white border-r border-[#dddddd]">
           
-          {/* Question Meta Header Info */}
-          <div className="bg-[#fcf8e3] text-[#8a6d3b] border-b border-[#faebcc] px-3 py-1.5 md:px-6 md:py-2.5 flex flex-col sm:flex-row sm:items-center justify-between gap-1 text-[10px] md:text-[11px] font-bold">
-            <span className="uppercase tracking-wider">Type: Multiple Choice Question (MCQ)</span>
-            <div className="flex items-center gap-3">
-              <span className="text-emerald-700">Correct: <span className="underline">1.0</span></span>
-              <span className="text-red-700">Negative: <span className="underline">0.25</span></span>
+          {/* Question Meta Header Info & Live Pacing Widget */}
+          <div className="bg-[#fcf8e3] text-[#8a6d3b] border-b border-[#faebcc] px-3 py-1.5 md:px-6 md:py-2.5 flex flex-col sm:flex-row sm:items-center justify-between gap-1.5 text-[10px] md:text-[11px] font-bold">
+            <div className="flex items-center gap-2 flex-wrap">
+              <span className="uppercase tracking-wider">Type: Multiple Choice Question (MCQ)</span>
+              <span className="text-slate-400">|</span>
+              <span className="text-emerald-700">Correct: <span className="underline">+1.0</span></span>
+              <span className="text-red-700">Negative: <span className="underline">-0.25</span></span>
             </div>
+            
+            {/* Live Per-Question Timer & Pace Indicator */}
+            {(() => {
+              const currentQSeconds = questionTimeSpent[currentQuestion.id] || 0;
+              const targetSecondsPerQ = Math.max(30, Math.round((durationMinutes * 60) / ((quiz.questions || []).length || 20)));
+              const isIdeal = currentQSeconds <= targetSecondsPerQ;
+              const isModerate = currentQSeconds <= targetSecondsPerQ * 1.6;
+
+              return (
+                <div className={`flex items-center gap-1.5 px-2.5 py-0.5 rounded-md border text-[10px] md:text-[11px] font-mono font-bold transition-all shadow-2xs ${
+                  isIdeal
+                    ? 'bg-emerald-50 text-emerald-800 border-emerald-200'
+                    : isModerate
+                    ? 'bg-amber-50 text-amber-800 border-amber-300'
+                    : 'bg-rose-50 text-rose-800 border-rose-300 animate-pulse'
+                }`}>
+                  <Clock className="w-3 h-3 shrink-0" />
+                  <span>Q. Time: {Math.floor(currentQSeconds / 60)}:{(currentQSeconds % 60).toString().padStart(2, '0')}</span>
+                  <span className="hidden sm:inline font-sans text-[9px] font-bold opacity-80">
+                    ({isIdeal ? '⚡ Fast / Ideal' : isModerate ? '🎯 Normal Pace' : '⏳ Overtime'})
+                  </span>
+                </div>
+              );
+            })()}
           </div>
 
           {/* VIEW IN LANGUAGE SELECTOR BAR & BOOKMARK ACTION */}
@@ -567,55 +603,63 @@ export default function QuizInterface({
             
             {/* Question Title Header */}
             <div className="border-b border-slate-200 pb-2 md:pb-3 flex items-center justify-between gap-2">
-              <h3 className="text-sm md:text-base font-black text-[#003366] tracking-tight">
-                Question No. {isSectionBasedMode ? activeSectionIndices.indexOf(currentIdx) + 1 : currentIdx + 1}
-              </h3>
-            </div>
-
-            {/* Question Text Body */}
-            <div className="space-y-3">
-              <div className="text-slate-800 text-xs md:text-base font-bold leading-relaxed">
-                <FormattedText 
-                  text={
-                    language === 'Hindi' 
-                      ? `[प्रश्न] ${currentQuestion.question}\n(कृपया ध्यान दें: हिंदी अनुवाद बीटा में है। अपनी सुविधानुसार अंग्रेजी माध्यम भी देखें।)` 
-                      : currentQuestion.question
-                  } 
-                />
+              <div className="flex items-center gap-2">
+                <span className="bg-[#003366] text-white text-[11px] font-black px-2.5 py-0.5 rounded uppercase tracking-wider">
+                  Question {isSectionBasedMode ? activeSectionIndices.indexOf(currentIdx) + 1 : currentIdx + 1}
+                </span>
+                <span className="text-xs text-slate-500 font-semibold">
+                  of {isSectionBasedMode ? activeSectionIndices.length : (quiz?.questions || []).length}
+                </span>
               </div>
+              {currentQuestion.section && (
+                <span className="text-[10px] font-bold text-slate-600 bg-slate-100 border border-slate-200 px-2 py-0.5 rounded-full uppercase tracking-wider">
+                  {currentQuestion.section}
+                </span>
+              )}
             </div>
 
-            {/* Options Render (Radio stack) */}
+            {/* Question Text Body (Standardized Testbook CBT Layout) */}
+            <StandardizedQuestionView 
+              question={
+                language === 'Hindi' 
+                  ? `[प्रश्न] ${currentQuestion.question}\n(कृपया ध्यान दें: हिंदी अनुवाद बीटा में है। अपनी सुविधानुसार अंग्रेजी माध्यम भी देखें।)` 
+                  : currentQuestion.question
+              }
+              language={language}
+            />
+
+            {/* Options Render (Clean Testbook-style Stack) */}
             <div className="space-y-2.5 pt-2 max-w-3xl">
               {currentQuestion.options.map((option, idx) => {
                 const isSelected = userAnswers[currentQuestion.id] === idx;
                 const isCorrect = currentQuestion.answer === idx;
                 const isRevealed = revealedSolutions[currentQuestion.id] === true;
 
-                let borderStyle = "border-slate-300 hover:bg-slate-50";
-                let radioStyle = "border-slate-300 bg-white";
+                let cardStyle = "border-slate-200 hover:border-blue-300 hover:bg-slate-50/70 bg-white text-slate-800";
+                let badgeStyle = "bg-slate-100 text-slate-700 border-slate-300";
 
                 if (isSelected) {
-                  borderStyle = "border-blue-500 bg-blue-50/50";
-                  radioStyle = "border-blue-600 bg-blue-600 ring-2 ring-white";
+                  cardStyle = "border-blue-600 bg-blue-50/70 text-blue-950 ring-1 ring-blue-500/30";
+                  badgeStyle = "bg-blue-600 text-white border-blue-600 shadow-sm";
                 }
 
                 if (mode === 'practice' && isRevealed) {
                   if (isCorrect) {
-                    borderStyle = "border-emerald-500 bg-emerald-50/60";
-                    radioStyle = "border-emerald-600 bg-emerald-600";
+                    cardStyle = "border-emerald-500 bg-emerald-50/70 text-emerald-950 ring-1 ring-emerald-500/30";
+                    badgeStyle = "bg-emerald-600 text-white border-emerald-600";
                   } else if (isSelected) {
-                    borderStyle = "border-red-500 bg-red-50/60";
-                    radioStyle = "border-red-600 bg-red-600";
+                    cardStyle = "border-rose-500 bg-rose-50/70 text-rose-950 ring-1 ring-rose-500/30";
+                    badgeStyle = "bg-rose-600 text-white border-rose-600";
                   } else {
-                    borderStyle = "border-slate-200 bg-slate-50/50 opacity-60 cursor-not-allowed";
+                    cardStyle = "border-slate-200 bg-slate-50/50 opacity-60 cursor-not-allowed text-slate-500";
+                    badgeStyle = "bg-slate-100 text-slate-400 border-slate-200";
                   }
                 }
 
                 return (
                   <label
                     key={idx}
-                    className={`flex items-center gap-2.5 md:gap-4 p-3 md:p-4 rounded-xl border-2 transition-all cursor-pointer select-none ${borderStyle}`}
+                    className={`flex items-start gap-3 md:gap-3.5 p-3 md:p-3.5 rounded-xl border-2 transition-all cursor-pointer select-none shadow-2xs ${cardStyle}`}
                   >
                     <input
                       type="radio"
@@ -631,20 +675,21 @@ export default function QuizInterface({
                       }}
                       className="hidden"
                     />
-                    <div className={`w-4 h-4 md:w-5 md:h-5 rounded-full border-2 flex items-center justify-center shrink-0 transition-all ${radioStyle}`}>
-                      {isSelected && <div className="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-white" />}
+
+                    {/* Option Letter Indicator */}
+                    <div className={`w-6 h-6 md:w-7 md:h-7 rounded-lg border font-black text-xs flex items-center justify-center shrink-0 mt-0.5 transition-all uppercase ${badgeStyle}`}>
+                      {String.fromCharCode(65 + idx)}
                     </div>
-                    <div className="flex items-center gap-2 flex-1 min-w-0">
-                      <span className="font-extrabold text-[11px] md:text-xs text-slate-700 bg-slate-100 border border-slate-200 px-2 py-0.5 rounded-md shrink-0">
-                        ({String.fromCharCode(65 + idx)})
-                      </span>
-                      <FormattedText text={cleanOptionText(option)} asParagraph={false} className="text-slate-800 text-xs md:text-sm font-semibold" />
+
+                    {/* Option Text Content */}
+                    <div className="flex-1 min-w-0 pt-0.5 text-xs md:text-sm font-medium leading-relaxed break-words">
+                      <FormattedText text={cleanOptionText(option)} asParagraph={false} />
                     </div>
 
                     {mode === 'practice' && isRevealed && (
-                      <div className="ml-auto shrink-0">
-                        {isCorrect && <CheckCircle2 className="w-4 h-4 md:w-5 md:h-5 text-emerald-600" />}
-                        {isSelected && !isCorrect && <XCircle className="w-4 h-4 md:w-5 md:h-5 text-red-600" />}
+                      <div className="ml-auto shrink-0 mt-0.5">
+                        {isCorrect && <CheckCircle2 className="w-5 h-5 text-emerald-600" />}
+                        {isSelected && !isCorrect && <XCircle className="w-5 h-5 text-rose-600" />}
                       </div>
                     )}
                   </label>

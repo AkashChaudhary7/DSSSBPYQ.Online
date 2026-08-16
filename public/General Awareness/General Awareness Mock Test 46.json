@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General Awareness",
       "question": "How many scientists received the Vigyan Shri Award in the first edition of the Rashtriya Vigyan Puraskar, 2024?",
+      "question_image": null,
       "options": [
         "18",
         "13",
         "33",
         "2"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (13) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (13) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General Awareness",
       "question": "Which state government has pledged sponsorship for the Indian men’s and women’s hockey teams until 2036?",
+      "question_image": null,
       "options": [
         "Bihar",
         "Odisha",
         "West Bengal",
         "Chhattisgarh"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Odisha) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Odisha) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General Awareness",
       "question": "As per the 2011 Census, which of the following is the percentage of Hindu population in India?",
+      "question_image": null,
       "options": [
         "79.8%",
         "92.3%",
         "52.7%",
         "61.3%"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (79.8%) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (79.8%) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General Awareness",
       "question": "Cooperative banks in India are typically organised under which Act?",
+      "question_image": null,
       "options": [
         "Indian Contract Act, 1872",
         "Company Act, 1956",
         "Companies Act, 2013",
         "Banking Regulation Act, 1949"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Banking Regulation Act, 1949) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Banking Regulation Act, 1949) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General Awareness",
       "question": "The revolutionary book ‘A General Theory of Employment, Interest and Money’ is attributed to:",
+      "question_image": null,
       "options": [
         "John Maynard Keynes",
         "Gustav Cassel",
         "AC Pigou",
         "Alfred Marshall"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (John Maynard Keynes) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (John Maynard Keynes) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General Awareness",
       "question": "According to the Bihar Official Language Act of ________, the language to be used for official purposes of the State of Bihar shall be Hindi in Devanagari script.",
+      "question_image": null,
       "options": [
         "1947",
         "1950",
         "1948",
         "1949"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (1950) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (1950) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General Awareness",
       "question": "Who among the following is responsible for investigating all matters relating to the safeguards provided for linguistic minorities?",
+      "question_image": null,
       "options": [
         "The Prime Minister",
         "The President",
         "Special Officer",
         "Language Commission"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Special Officer) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Special Officer) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General Awareness",
       "question": "As of July 2024, the NTPC's biggest power plant Vindhyachal Thermal Power Station is located in the state of _____________.",
+      "question_image": null,
       "options": [
         "Odisha",
         "Madhya Pradesh",
         "Chhattisgarh",
         "Jharkhand"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Madhya Pradesh) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Madhya Pradesh) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General Awareness",
       "question": "Which of the following Committees related to Fundamental Duties was appointed during the National Emergency between 1975-1977?",
+      "question_image": null,
       "options": [
         "Ayyangar Committee",
         "Santhanam Committee",
         "JS Verma Committee",
         "Swaran Singh Committee"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Swaran Singh Committee) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Swaran Singh Committee) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General Awareness",
       "question": "Who was the founder of the Brahmo Samaj, one of the earliest socio-religious reform movements in India?",
+      "question_image": null,
       "options": [
         "Dr. BR Ambedkar",
         "Mahatma Gandhi",
         "Swami Vivekanand",
         "Raja Ram Mohan Roy"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Raja Ram Mohan Roy) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Raja Ram Mohan Roy) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General Awareness",
       "question": "Mitochondria is _____________.",
+      "question_image": null,
       "options": [
         "dependent",
         "autonomous",
         "non-autonomous",
         "semi-autonomous"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (semi-autonomous) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (semi-autonomous) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General Awareness",
       "question": "How many types of equality are enshrined in the Preamble of the Indian Constitution?",
+      "question_image": null,
       "options": [
         "12",
         "2",
         "7",
         "18"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (2) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (2) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General Awareness",
       "question": "As per constitutional provisions in Article 124(2), at what age do Supreme Court Judges retire?",
+      "question_image": null,
       "options": [
         "58 years",
         "60 years",
         "65 years",
         "62 years"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (65 years) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (65 years) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General Awareness",
       "question": "What is the aggregate supply?",
+      "question_image": null,
       "options": [
         "The total amount of government spending on infrastructure projects within a fiscal year",
         "The total amount of money circulating in an economy at a given point in time",
         "The total value of goods and services produced within a country's borders in a specific period",
         "The total amount of goods and services that firms are willing and able to produce at a given price level"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (The total amount of goods and services that firms are willing and able to produce at a given price level) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (The total amount of goods and services that firms are willing and able to produce at a given price level) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General Awareness",
       "question": "Who is the author of the African Trilogy: Things Fall Apart (1958), No Longer at Ease (1960) and Arrow of God (1964)?",
+      "question_image": null,
       "options": [
         "Ngugi wa Thiong’o",
         "Wole Soyinka",
         "Chinua Achebe",
         "Ben Okri"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Chinua Achebe) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Chinua Achebe) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General Awareness",
       "question": "The chromosome in which, one or more than one form of gene is found, is called ______________.",
+      "question_image": null,
       "options": [
         "genetic code",
         "DNA",
         "allele",
         "RNA"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (allele) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (allele) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General Awareness",
       "question": "Who among the following commissioned the construction of a white marble tomb for Shaikh Salim Chishti at Fatehpur Sikri?",
+      "question_image": null,
       "options": [
         "Shah Jahan",
         "Aurangzeb",
         "Akbar",
         "Jahangir"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Akbar) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Akbar) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General Awareness",
       "question": "Which Indian athlete won a bronze medal in men’s compound archery at the 2025 World Games?",
+      "question_image": null,
       "options": [
         "Rishabh Yadav",
         "Atanu Das",
         "Tarundeep Rai",
         "Deepak Kumar"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Rishabh Yadav) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Rishabh Yadav) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General Awareness",
       "question": "According to the Word Bank report 2025, how many Indians have been lifted out of extreme poverty over the past decade?",
+      "question_image": null,
       "options": [
         "101 million",
         "171 million",
         "131 million",
         "71 million"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (171 million) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (171 million) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General Awareness",
       "question": "Which of the following languages is predominantly spoken in the state of Goa?",
+      "question_image": null,
       "options": [
         "Telugu",
         "Kannada",
         "Marathi",
         "Konkani"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Konkani) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Konkani) है।",
+      "explanation_image": null
     }
   ]
 }

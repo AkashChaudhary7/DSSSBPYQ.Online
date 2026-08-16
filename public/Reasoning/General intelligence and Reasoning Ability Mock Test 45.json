@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements:All lions are bears.Some lions are tigers.No lion is a horse.Conclusions:I. All bears are lions.II. No tiger is a horse.",
+      "question_image": null,
       "options": [
         "Only conclusion II follows.",
         "Both conclusions I and II follow.",
         "Neither conclusion I nor II follows.",
         "Only conclusion I follows."
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Neither conclusion I nor II follows.) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Neither conclusion I nor II follows.) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion(s) logically follow(s) from the statements.Statements:Some trains are doors.Some cars are trains.No doors are roads.Conclusions:(I) Some cars are doors.(II) Some cars are not roads.10,.916",
+      "question_image": null,
       "options": [
         "Only conclusion (I) follows.",
         "Neither conclusion (I) nor (II) follows.",
         "Only conclusion (II) follows.",
         "Both conclusions (I) and (II) follow."
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Neither conclusion (I) nor (II) follows.) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Neither conclusion (I) nor (II) follows.) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "Mayank starts from point A and drives 25 km towards south. He then takes a right turn, drives 29 km, turns right and drives 30 km. He then takes a right turn and drives 31 km. He takes a final right turn, drives 5 km and stops at point P. How far (shortest distance) and towards which direction should he drive in order to reach point A again?(All turns are 90-degree turns only unless specified.)",
+      "question_image": null,
       "options": [
         "2 km to the west",
         "1 km to the west",
         "3 km to the west",
         "4 km to the west"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (2 km to the west) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (2 km to the west) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "A, C, G, M, N, P, R and S are sitting around a circular table, facing the centre. A sits second to the right of R. C sits third to the left of P. G sits to the immediate left of S. P sits second to the left of R.  A is not an immediate neighbour of N. Who sits third to the left of M?",
+      "question_image": null,
       "options": [
         "P",
         "G",
         "R",
         "A"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (P) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (P) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below. (Left)  847  802  333  279  540  (Right) (Example - 697 – First digit = 6, second digit = 9 and third digit = 7)(NOTE:  All operations to be done from left to right.) If all the numbers are arranged in their descending order, which of the following will be the first digit of the fifth number from the left in the new arrangement?",
+      "question_image": null,
       "options": [
         "0",
         "2",
         "4",
         "3"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (2) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (2) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? DRY  ZNU  VJQ  RFM  ?",
+      "question_image": null,
       "options": [
         "BIN",
         "NBU",
         "BNI",
         "NBI"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (NBI) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (NBI) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘+’ means ‘−’, ‘−’ means ‘×’, ‘×’ means ‘÷’, ‘÷’ means ‘+’, then what will come in place of the question mark (?) in the following equation?11 − 95 ÷ 35 + 345 × 15 = ?",
+      "question_image": null,
       "options": [
         "1065",
         "1055",
         "1061",
         "1057"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (1057) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (1057) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘A’ stands for ‘÷’, ‘B’ stands for ‘×’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘−’, then what will come in place of question mark (?) in the following equation?28 B 9 A 9 D 32 C 29 = ?",
+      "question_image": null,
       "options": [
         "24",
         "25",
         "26",
         "28"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (25) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (25) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "Anil starts from Point A and drives 25 km towards the South. He then takes a right turn, drives 17 km, turns right and drives 33 km. He then takes a right turn and drives 31 km. He takes a final right turn, drives 8 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again? (All turns are 90 degrees turns only, unless specified.)",
+      "question_image": null,
       "options": [
         "7 km towards south",
         "14 km towards the west",
         "12 km towards the east",
         "12 km towards the north"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (14 km towards the west) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (14 km towards the west) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "CALM is related to DCMO in a certain way based on the English alphabetical order. In the same way, BEAK is related to CGBM. To which of the given options is HUNT related, following the same logic?",
+      "question_image": null,
       "options": [
         "JWPV",
         "IVOV",
         "IWOV",
         "JVOW"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (IWOV) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (IWOV) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? CUR  GYV  KCZ  OGD  ?",
+      "question_image": null,
       "options": [
         "SHU",
         "SUI",
         "SKI",
         "SKH"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (SKH) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (SKH) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left)  528  904  369  659  167  (Right) (Example: 697 – First digit = 6, second digit = 9 and third digit = 7)(NOTE: All operations to be done from left to right.) If all the numbers are arranged in ascending order, what will be the resultant of the summation of the third digit of the second number from the left and the first digit of the fourth number from the left in the new sequence thus formed?",
+      "question_image": null,
       "options": [
         "15",
         "17",
         "5",
         "11"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (15) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (15) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion(s) logically follow(s) from the statements.Statements:All rod are cane.All rod are ingot.All ingot are mace.Conclusions:(I) All rod are mace.(II) Some ingot are cane.",
+      "question_image": null,
       "options": [
         "Both conclusions (I) and (II) follow.",
         "Only conclusion (II) follows.",
         "Neither conclusion (I) nor (II) follows.",
         "Only conclusion (I) follows."
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Both conclusions (I) and (II) follow.) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Both conclusions (I) and (II) follow.) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, ‘LOUD’ is coded as ‘7684’ and ‘DOUN’ is coded as ‘6897’. What is the code for ‘N’ in the given code language?",
+      "question_image": null,
       "options": [
         "7",
         "0",
         "9",
         "8"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (9) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (9) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes M, N, O, P, S, T and U are kept one over the other, but not necessarily in the same order. U is kept immediately below S. T is kept second from the bottom. Only three boxes are kept between S and N. O is kept on one of the positions above N. M is kept immediately above P. Which box is fifth from the top?",
+      "question_image": null,
       "options": [
         "N",
         "O",
         "P",
         "U"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (O) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (O) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,A ÷ B means ‘A is the son of B’A # B means ‘A is the sister of B’A + B means ‘A is the wife of B’A % B means ‘A is the father of B’Based on the above, how is P related to K if ‘P # Q ÷ G + H % K’?",
+      "question_image": null,
       "options": [
         "Wife",
         "Mother",
         "Sister",
         "Daughter"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Sister) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Sister) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number results in the second number. Similarly, certain mathematical operation(s) on the second number results in the third number and so on. Which of the given options follows the same set of operations as in the given sets?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting /multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)8-64-72-80; 9-81-90-99",
+      "question_image": null,
       "options": [
         "10-100-110-112",
         "5-25-30-40",
         "7-49-56-63",
         "6-36-46-56"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (7-49-56-63) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (7-49-56-63) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "In this question, a statement is given followed by two courses of action, numbered I and II. You must assume everything in the statement to be true, and on the basis of the information given in the statement, decide which of the given courses of action logically follow(s) for pursuing.Statement:The number of students enrolled in course ‘Salesforce’ globally is more than the possible job vacancies in the field.Courses of Action:(i) Universities should continue offering ‘Salesforce’ course and convince students to pursue it.(ii) Seminars must be conducted to encourage students to pursue different courses offered by various universities which provide better employment opportunities.",
+      "question_image": null,
       "options": [
         "Only (i) follows.",
         "Neither (i) nor (ii) follows.",
         "Both (i) and (ii) follow.",
         "Only (ii) follows."
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Only (ii) follows.) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Only (ii) follows.) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number results in the second number. Similarly, certain mathematical operation(s) on the second number results in the third number and so on. Which of the given options follows the same set of operations as in the given sets? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting /multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)13 – 10 – 20 – 24;  22 – 19 – 38 – 42",
+      "question_image": null,
       "options": [
         "18 – 15 – 30 – 33",
         "12 – 9 – 3 – 1",
         "14 – 11 – 22 – 26",
         "27 – 25 – 5 – 30"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (14 – 11 – 22 – 26) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (14 – 11 – 22 – 26) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes A, B, C, D, E, F, and G are kept one over the other but not necessarily in the same order.Only three boxes are kept above E. Only one box is kept between B and E. Only three boxes are kept between B and D. D is kept at some place above E. G is kept immediately below D. C is kept at one of the places above F. A is not kept immediately above or below B. How many boxes are kept below C?",
+      "question_image": null,
       "options": [
         "1",
         "2",
         "3",
         "4"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (2) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (2) है।",
+      "explanation_image": null
     }
   ]
 }

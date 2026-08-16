@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General Awareness",
       "question": "The movie 'Raja Harischandra' was released in which of the following years?",
+      "question_image": null,
       "options": [
         "1915 AD",
         "1912 AD",
         "1916 AD",
         "1913 AD"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (1913 AD) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (1913 AD) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General Awareness",
       "question": "Consumer durable goods are characterised by:",
+      "question_image": null,
       "options": [
         "long lifespan",
         "rapid depreciation",
         "short lifespan",
         "high frequency of purchase"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (long lifespan) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (long lifespan) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General Awareness",
       "question": "Which constitutional provision authorises the legislature of a state to determine qualifications for panchayat membership and conditions for disqualification?",
+      "question_image": null,
       "options": [
         "Article 243A",
         "Article 243K",
         "Article 243F",
         "Article 243G"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Article 243F) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Article 243F) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General Awareness",
       "question": "Which book by Roshan Ali won the JCB Prize for Literature in 2021?",
+      "question_image": null,
       "options": [
         "A Burning",
         "Ib's Endless Search for Satisfaction",
         "Klara and the Sun",
         "Norwegian Wood"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Ib's Endless Search for Satisfaction) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Ib's Endless Search for Satisfaction) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General Awareness",
       "question": "The 'Naukhai' festival, which is a harvest festival, is celebrated in __________.",
+      "question_image": null,
       "options": [
         "Andhra Pradesh",
         "Odisha",
         "Telangana",
         "Jharkhand"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Odisha) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Odisha) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General Awareness",
       "question": "Which law, enacted in April 2025, seeks to overhaul India's immigration system by repealing four colonial-era legislations?",
+      "question_image": null,
       "options": [
         "Immigration and Foreigners Bill",
         "International Migration Control Bill",
         "Visa and Entry Management Bill",
         "Foreign Nationals Regulation Bill"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Immigration and Foreigners Bill) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Immigration and Foreigners Bill) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General Awareness",
       "question": "What is the minimum period of residence in India required for a person of Indian origin to apply for Indian citizenship by registration?",
+      "question_image": null,
       "options": [
         "5 years",
         "2 years",
         "7 years",
         "1 year"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (7 years) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (7 years) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General Awareness",
       "question": "Which vitamin is produced in the human body when ultraviolet (UV) rays from sunlight strike the skin and trigger its synthesis?",
+      "question_image": null,
       "options": [
         "Vitamin B12",
         "Vitamin C",
         "Vitamin D",
         "Vitamin A"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Vitamin D) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Vitamin D) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General Awareness",
       "question": "Which Indian won the Raman Magsaysay Award in September 2023?",
+      "question_image": null,
       "options": [
         "Korvi Rakshand",
         "Gautam Adani",
         "Kailash Vidyarthi",
         "R Ravi Kannan"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (R Ravi Kannan) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (R Ravi Kannan) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General Awareness",
       "question": "Which city hosted the 32nd National Men and Women Circle Kabaddi Championship?",
+      "question_image": null,
       "options": [
         "Dehradun",
         "Jaipur",
         "Mumbai",
         "Chandigarh"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Chandigarh) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Chandigarh) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General Awareness",
       "question": "The nationwide transporters’ protest, held in January 2024, was against which of the following Sections of the newly passed Bharatiya Nyaya Sanhita (BNS)?",
+      "question_image": null,
       "options": [
         "106(2)",
         "126",
         "120",
         "116"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (106(2)) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (106(2)) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General Awareness",
       "question": "The practice of national income accounting was developed by ___________.",
+      "question_image": null,
       "options": [
         "Paul Samuelson",
         "Alfred Marshall",
         "AC Pigou",
         "Simon Kuznets"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Simon Kuznets) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Simon Kuznets) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General Awareness",
       "question": "Which of the following best describes the concept of the 'digital divide' in the context of daily life?",
+      "question_image": null,
       "options": [
         "The process by which digital devices become obsolete too quickly",
         "The fragmentation of digital ecosystems across different countries",
         "The gap between those with and without access to modern information technologies",
         "No disparity in access to information and communication tools"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (The gap between those with and without access to modern information technologies) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (The gap between those with and without access to modern information technologies) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General Awareness",
       "question": "Tools mostly made up of chipped or flaked pieces, which were of sizes varying from 1 to 8 cm, belonged to which of the following periods?",
+      "question_image": null,
       "options": [
         "Neolithic",
         "Mesolithic",
         "Palaeolithic",
         "Chalcolithic"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Mesolithic) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Mesolithic) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General Awareness",
       "question": "The Jagannath Pooja festival of Odisha is linked to which significant event?",
+      "question_image": null,
       "options": [
         "Janmasthami",
         "Rath Yatra",
         "Raja festival",
         "Holi"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Rath Yatra) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Rath Yatra) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General Awareness",
       "question": "How many banks were nationalised in 1969?",
+      "question_image": null,
       "options": [
         "14",
         "13",
         "12",
         "15"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (14) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (14) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General Awareness",
       "question": "Who won Gold in men’s F64 javelin at 2025 World Para Athletics for India?",
+      "question_image": null,
       "options": [
         "Sharad Kumar",
         "Deepak Dhaiya",
         "Devendra Jhajharia",
         "Sumit Antil"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Sumit Antil) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Sumit Antil) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General Awareness",
       "question": "Which of the following Articles of the Constitution of India deal with the audit of accounts of Panchayats and Municipalities, respectively?",
+      "question_image": null,
       "options": [
         "Article 243-G and Article 243-ZB",
         "Article 243-J and Article 243-Z",
         "Article 243-I and Article 243-Y",
         "Article 243-M and Article 243-ZA"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Article 243-J and Article 243-Z) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Article 243-J and Article 243-Z) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General Awareness",
       "question": "In which year was Netaji Subhas National Institute of Sports (NSNIS) founded by the Government of India?",
+      "question_image": null,
       "options": [
         "1962",
         "1960",
         "1961",
         "1963"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (1961) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (1961) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General Awareness",
       "question": "Which of the following is a demographic indicator collected during the 2011 Census of India?",
+      "question_image": null,
       "options": [
         "Industrial output",
         "Agricultural productivity",
         "Gross Domestic Product (GDP) of India",
         "Sex ratio"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Sex ratio) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Sex ratio) है।",
+      "explanation_image": null
     }
   ]
 }

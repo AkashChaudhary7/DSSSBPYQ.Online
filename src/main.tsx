@@ -3,11 +3,8 @@ import {createRoot} from 'react-dom/client';
 import App from './App.tsx';
 import ErrorBoundary from './components/ErrorBoundary.tsx';
 import './index.css';
-import { initAdMob } from './lib/admob.ts';
 
 if (typeof window !== 'undefined') {
-  initAdMob().catch((err) => console.warn('[AdMob] Init warning:', err));
-
   window.addEventListener('unhandledrejection', (event) => {
     if (
       event.reason &&

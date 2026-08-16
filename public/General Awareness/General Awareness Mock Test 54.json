@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General Awareness",
       "question": "Which of the following pairs (wildlife sanctuary and associated state) is correct?",
+      "question_image": null,
       "options": [
         "Mudumalai Wildlife Sanctuary – Madhya Pradesh",
         "Pocharam Wildlife Sanctuary – Telangana",
         "Sariska Wildlife Sanctuary – Maharashtra",
         "Kawal Wildlife Sanctuary – Jharkhand"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Pocharam Wildlife Sanctuary – Telangana) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Pocharam Wildlife Sanctuary – Telangana) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General Awareness",
       "question": "As per the Department of Telecommunication Report 2023, which of the following states had the highest urban tele-density in November 2022?",
+      "question_image": null,
       "options": [
         "Gujarat",
         "Himachal Pradesh",
         "Maharashtra",
         "Karnataka"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Maharashtra) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Maharashtra) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General Awareness",
       "question": "In which year was the Official Language Act passed providing for the continuation of English as an associate official language in the Union and its use in the parliament for an indefinite period?",
+      "question_image": null,
       "options": [
         "1963",
         "1956",
         "1953",
         "1950"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (1963) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (1963) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General Awareness",
       "question": "With which of the following Union Territories is the Lava dance form associated?",
+      "question_image": null,
       "options": [
         "Ladakh",
         "Puducherry",
         "Daman & Diu",
         "Lakshadweep"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Lakshadweep) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Lakshadweep) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General Awareness",
       "question": "In 1896, who set up an Ashram at Hinge, Poona to educate widows and other women as he believed in empowerment through education?",
+      "question_image": null,
       "options": [
         "Maharshi Dhondo Keshav Karve",
         "Ishwar Chandra Vidyasagar",
         "C. Rajagopalachari",
         "Gopal Krishna Gokhale"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Maharshi Dhondo Keshav Karve) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Maharshi Dhondo Keshav Karve) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General Awareness",
       "question": "Which Indian cricketer scored the fastest double century in Women's Tests during a match against South Africa at the MA Chidambaram Stadium in Chennai?",
+      "question_image": null,
       "options": [
         "Jemimah Rodrigues",
         "Shafali Varma",
         "Harmanpreet Kaur",
         "Smriti Mandhana"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Shafali Varma) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Shafali Varma) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General Awareness",
       "question": "Qutbuddin Aibak ruled from 1206 AD to ________.",
+      "question_image": null,
       "options": [
         "1210 AD",
         "1221 AD",
         "1240 AD",
         "1236 AD"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (1210 AD) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (1210 AD) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General Awareness",
       "question": "Who was Maharaja Dharapatta?",
+      "question_image": null,
       "options": [
         "Ruler of Maitrakas of Valabhi",
         "Ruler of Maukharis of Kanauj",
         "Ruler of Pushyabhutis of Thanesar",
         "Ruler of Later Magadha"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Ruler of Maitrakas of Valabhi) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Ruler of Maitrakas of Valabhi) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General Awareness",
       "question": "Which of the following is a method of calculating GDP in Indian economy?",
+      "question_image": null,
       "options": [
         "Supply method",
         "Surplus method",
         "Consumption method",
         "Expenditure method"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Expenditure method) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Expenditure method) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General Awareness",
       "question": "Where was Asia’s first health research-related \"Pre-clinical Network Facility\" under the Coalition of Epidemic Preparedness Innovations (CEPI) inaugurated in India?",
+      "question_image": null,
       "options": [
         "Faridabad",
         "Hyderabad",
         "Mumbai",
         "Bengaluru"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Faridabad) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Faridabad) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General Awareness",
       "question": "Which state was awarded the \"Best Agriculture State Award for 2024\" at the 15th Agriculture Leadership Awards?",
+      "question_image": null,
       "options": [
         "Gujarat",
         "Maharashtra",
         "Punjab",
         "Karnataka"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Maharashtra) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Maharashtra) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General Awareness",
       "question": "Which scientist discovered the phenomenon of photoelectric emission in 1887 during experiments with electromagnetic waves?",
+      "question_image": null,
       "options": [
         "Max Planck",
         "Wilhelm Röntgen",
         "Albert Einstein",
         "Heinrich Hertz"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Heinrich Hertz) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Heinrich Hertz) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General Awareness",
       "question": "Which of the following statement/s is/are true about the city administration in the Mauryan Empire?a. The city council was divided in 6 sub councils or committee.b. There were five members in each committee.c. There was a separate committee for the registration of births and deaths.",
+      "question_image": null,
       "options": [
         "Option (a) and (c) only",
         "Option (a) and (b) only",
         "Option (a) only",
         "Option (a), (b) and (c)"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Option (a), (b) and (c)) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Option (a), (b) and (c)) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General Awareness",
       "question": "Who appoints district judges in a state?",
+      "question_image": null,
       "options": [
         "The President in consultation with the Chief Justice of India",
         "The State Public Service Commission",
         "The Chief Minister with the approval of the State Legislature",
         "The Governor in consultation with the High Court"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (The Governor in consultation with the High Court) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (The Governor in consultation with the High Court) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General Awareness",
       "question": "Consider the following statements regarding the Green Revolution. Which of these statements is/are NOT correct?1. Green Revolution was introduced in 1966 across all Indian states.2. Green Revolution resulted in both, intercrop and interregional disparities.",
+      "question_image": null,
       "options": [
         "Neither Statement 1 nor Statement 2",
         "Statement 1 only",
         "Statement 2 only",
         "Both Statement 1 and Statement 2"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Statement 1 only) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Statement 1 only) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General Awareness",
       "question": "Which of the following statement(s) is/are correct about the rights and privileges provided under Part III of the Indian Constitution?I. There are some rights and privileges under the Indian Constitution which are conferred to the aliens (Citizen of other countries).II. Right to freedom of speech and expression, assembly, association, movement, residence and profession (Article 19) is one of these rights.",
+      "question_image": null,
       "options": [
         "Neither I nor II",
         "Only II",
         "Only I",
         "Both I and II"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Only I) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Only I) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General Awareness",
       "question": "Which country secured the fourth-place ranking in the Climate Change Performance Index (CCPI) 2026 report released by Germanwatch, together with the NewClimate Institute and the Climate Action Network-International?",
+      "question_image": null,
       "options": [
         "United Kingdom",
         "Netherlands",
         "Denmark",
         "Norway"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Denmark) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Denmark) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General Awareness",
       "question": "In March 2025, the Centre notified the appointment of which judge to the Supreme Court, and he belonged to which High Court?",
+      "question_image": null,
       "options": [
         "Justice Sandeep Mehta; Calcutta High Court",
         "Justice Joymalya Bagchi; Telangana High Court",
         "Justice Joymalya Bagchi; Calcutta High Court",
         "Justice Aravind Kumar; Karnataka High Court"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Justice Joymalya Bagchi; Calcutta High Court) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Justice Joymalya Bagchi; Calcutta High Court) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General Awareness",
       "question": "The appointment of district judges in a state is governed by which Article of the Constitution?",
+      "question_image": null,
       "options": [
         "Article 235",
         "Article 234",
         "Article 237",
         "Article 233"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Article 233) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Article 233) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General Awareness",
       "question": "Who among the following two Indian musicians won the Bharat Ratna in the year 2001?",
+      "question_image": null,
       "options": [
         "Bhupen Hazarika and Bhimsen Joshi",
         "Lata Mangeshkar and Bismillah Khan",
         "Bhimsen Joshi and MS Subbu Lakshmi",
         "Bhimsen Joshi and Lata Mangeshkar"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Lata Mangeshkar and Bismillah Khan) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Lata Mangeshkar and Bismillah Khan) है।",
+      "explanation_image": null
     }
   ]
 }

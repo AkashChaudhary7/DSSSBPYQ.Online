@@ -10,281 +10,321 @@
       "id": 1,
       "section": "Teaching Methodology",
       "question": "[Test 31 - Q1] Which of the following is an example of an 'Intrinsic Motivation' factor in student learning?",
+      "question_image": null,
       "options": [
         "Inherent curiosity and personal satisfaction derived from mastering a subject",
         "Receiving cash prizes and gold medals from the school principal",
         "Avoidance of parental disapproval or detention after school",
         "Desire to secure first position in class merit list"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Intrinsic motivation arises from internal rewards—such as curiosity, interest, personal enjoyment, or autonomy—rather than external incentives or punishments. (Question source: DSSSB Teaching Methodology Paper Series 31)."
+      "explanation": "Intrinsic motivation arises from internal rewards—such as curiosity, interest, personal enjoyment, or autonomy—rather than external incentives or punishments. (Question source: DSSSB Teaching Methodology Paper Series 31).",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "Teaching Methodology",
       "question": "[Test 31 - Q2] Action Research in classroom pedagogy is defined as:",
+      "question_image": null,
       "options": [
         "A reflective process conducted by teachers to solve immediate practical problems in their own classroom",
         "Pure theoretical research conducted by university professors",
         "Nationwide statistical survey on school enrollment ratios",
         "Historical analysis of ancient educational systems"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Action research is practitioner-based inquiry aimed at diagnosing and solving specific classroom problems to enhance pedagogical effectiveness. (Question source: DSSSB Teaching Methodology Paper Series 31)."
+      "explanation": "Action research is practitioner-based inquiry aimed at diagnosing and solving specific classroom problems to enhance pedagogical effectiveness. (Question source: DSSSB Teaching Methodology Paper Series 31).",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "Teaching Methodology",
       "question": "[Test 31 - Q3] Which learning disability specifically affects mathematical calculations, numerical reasoning, and understanding of arithmetic concepts?",
+      "question_image": null,
       "options": [
         "Dyscalculia",
         "Dyslexia",
         "Dysgraphia",
         "Dyspraxia"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Dyscalculia is a specific learning disorder that impairs an individual's ability to learn, understand, and perform mathematical operations and number relationships. (Question source: DSSSB Teaching Methodology Paper Series 31)."
+      "explanation": "Dyscalculia is a specific learning disorder that impairs an individual's ability to learn, understand, and perform mathematical operations and number relationships. (Question source: DSSSB Teaching Methodology Paper Series 31).",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "Teaching Methodology",
       "question": "[Test 31 - Q4] The term 'Hidden Curriculum' in educational sociology refers to:",
+      "question_image": null,
       "options": [
         "Unwritten, unofficial, and unintended lessons, values, and perspectives that students learn in school",
         "Secret syllabi taught only to select advanced students",
         "Topics deleted from the official textbook by the examination board",
         "Extracurricular sports activities held outside school hours"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "The hidden curriculum consists of unspoken social norms, values, behaviors, and cultural expectations transmitted implicitly through the school environment. (Question source: DSSSB Teaching Methodology Paper Series 31)."
+      "explanation": "The hidden curriculum consists of unspoken social norms, values, behaviors, and cultural expectations transmitted implicitly through the school environment. (Question source: DSSSB Teaching Methodology Paper Series 31).",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "Teaching Methodology",
       "question": "[Test 31 - Q5] In Micro-Teaching, what is the standard ideal duration for a single micro-teaching cycle (Teach -> Feedback -> Re-plan -> Re-teach -> Re-feedback)?",
+      "question_image": null,
       "options": [
         "36 Minutes",
         "45 Minutes",
         "20 Minutes",
         "60 Minutes"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "The standard NCERT micro-teaching cycle duration is 36 minutes: Teach (6m), Feedback (6m), Re-plan (12m), Re-teach (6m), Re-feedback (6m). (Question source: DSSSB Teaching Methodology Paper Series 31)."
+      "explanation": "The standard NCERT micro-teaching cycle duration is 36 minutes: Teach (6m), Feedback (6m), Re-plan (12m), Re-teach (6m), Re-feedback (6m). (Question source: DSSSB Teaching Methodology Paper Series 31).",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "Teaching Methodology",
       "question": "[Test 31 - Q6] According to B.F. Skinner's Operant Conditioning, 'Positive Reinforcement' involves:",
+      "question_image": null,
       "options": [
         "Presenting a rewarding stimulus following a desired behavior to increase its frequency",
         "Removing an unpleasant stimulus to reduce unwanted behavior",
         "Administering a painful stimulus to suppress a bad habit",
         "Ignoring the behavior until it naturally extinguishes"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Positive reinforcement strengthens a behavior by providing a pleasant or desirable consequence immediately following that behavior. (Question source: DSSSB Teaching Methodology Paper Series 31)."
+      "explanation": "Positive reinforcement strengthens a behavior by providing a pleasant or desirable consequence immediately following that behavior. (Question source: DSSSB Teaching Methodology Paper Series 31).",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "Teaching Methodology",
       "question": "[Test 31 - Q7] National Curriculum Framework (NCF) 2005 emphasizes connecting knowledge to life outside the school and ensuring that learning shifts away from:",
+      "question_image": null,
       "options": [
         "Rote methods of learning",
         "Conceptual understanding",
         "Critical thinking skills",
         "Constructivist inquiry"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "NCF 2005 guiding principles mandate shifting learning away from rote memorization towards meaningful, context-based conceptual understanding. (Question source: DSSSB Teaching Methodology Paper Series 31)."
+      "explanation": "NCF 2005 guiding principles mandate shifting learning away from rote memorization towards meaningful, context-based conceptual understanding. (Question source: DSSSB Teaching Methodology Paper Series 31).",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "Teaching Methodology",
       "question": "[Test 31 - Q8] In Ivan Pavlov's classical conditioning paradigm, the buzzer or bell before conditioning is established represents the:",
+      "question_image": null,
       "options": [
         "Neutral Stimulus",
         "Unconditioned Stimulus",
         "Conditioned Response",
         "Unconditioned Response"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Before conditioning, the bell is a neutral stimulus because it does not naturally elicit the target response (salivation) until paired with food. (Question source: DSSSB Teaching Methodology Paper Series 31)."
+      "explanation": "Before conditioning, the bell is a neutral stimulus because it does not naturally elicit the target response (salivation) until paired with food. (Question source: DSSSB Teaching Methodology Paper Series 31).",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "Teaching Methodology",
       "question": "[Test 31 - Q9] Albert Bandura's Social Learning Theory emphasizes that children learn complex social behaviors primarily through:",
+      "question_image": null,
       "options": [
         "Observation, imitation, and modeling",
         "Trial and error with explicit rewards",
         "Rote memorization and recitation",
         "Biological maturation and sensory reflexes"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Bandura's key contribution is that learning occurs through observing, imitating, and modeling the behaviors, attitudes, and emotional reactions of others. (Question source: DSSSB Teaching Methodology Paper Series 31)."
+      "explanation": "Bandura's key contribution is that learning occurs through observing, imitating, and modeling the behaviors, attitudes, and emotional reactions of others. (Question source: DSSSB Teaching Methodology Paper Series 31).",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "Teaching Methodology",
       "question": "[Test 31 - Q10] According to Erik Erikson's psychosocial stages of development, which conflict is primary during adolescence?",
+      "question_image": null,
       "options": [
         "Identity vs. Role Confusion",
         "Trust vs. Mistrust",
         "Industry vs. Inferiority",
         "Initiative vs. Guilt"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Erikson identified 'Identity vs. Role Confusion' as the fifth stage of psychosocial development occurring during adolescence (ages 12 to 18). (Question source: DSSSB Teaching Methodology Paper Series 31)."
+      "explanation": "Erikson identified 'Identity vs. Role Confusion' as the fifth stage of psychosocial development occurring during adolescence (ages 12 to 18). (Question source: DSSSB Teaching Methodology Paper Series 31).",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "Teaching Methodology",
       "question": "[Test 31 - Q11] Edward Thorndike's 'Law of Effect' states that:",
+      "question_image": null,
       "options": [
         "Responses that produce a satisfying effect in a particular situation become more likely to occur again",
         "Learning is permanent only when repeated through multiple drills",
         "A learner must be biologically ready to acquire a new cognitive schema",
         "Visual stimuli are remembered longer than auditory stimuli"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Thorndike's Law of Effect established that behaviors followed by favorable consequences are strengthened, which laid the foundation for Skinner's operant conditioning. (Question source: DSSSB Teaching Methodology Paper Series 31)."
+      "explanation": "Thorndike's Law of Effect established that behaviors followed by favorable consequences are strengthened, which laid the foundation for Skinner's operant conditioning. (Question source: DSSSB Teaching Methodology Paper Series 31).",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "Teaching Methodology",
       "question": "[Test 31 - Q12] The Maria Montessori educational method is heavily characterized by:",
+      "question_image": null,
       "options": [
         "Child-centered self-directed activity, hands-on learning, and collaborative play in prepared environments",
         "Teacher-dominated lectures and strict penal punishments",
         "Standardized paper-and-pencil exams conducted on a weekly basis",
         "Pre-designed digital animations with no physical tactile materials"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Montessori classrooms feature prepared environments, multi-sensory materials, and self-directed learning tasks where teachers guide rather than lecture. (Question source: DSSSB Teaching Methodology Paper Series 31)."
+      "explanation": "Montessori classrooms feature prepared environments, multi-sensory materials, and self-directed learning tasks where teachers guide rather than lecture. (Question source: DSSSB Teaching Methodology Paper Series 31).",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "Teaching Methodology",
       "question": "[Test 31 - Q13] John Dewey, a pioneer of progressive education, argued that classrooms should prioritize:",
+      "question_image": null,
       "options": [
         "Learning by doing and democratic cooperative inquiry",
         "Passive listening and direct instructional lecturing",
         "Abstract memorization of ancient classical texts",
         "Strict separation of high IQ and low IQ students"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Dewey believed education is life itself, advocating experiential 'learning by doing' and training students to participate in a democratic society. (Question source: DSSSB Teaching Methodology Paper Series 31)."
+      "explanation": "Dewey believed education is life itself, advocating experiential 'learning by doing' and training students to participate in a democratic society. (Question source: DSSSB Teaching Methodology Paper Series 31).",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "Teaching Methodology",
       "question": "[Test 31 - Q14] In Benjamin Bloom's Mastery Learning model, what is the core assumption regarding student achievement?",
+      "question_image": null,
       "options": [
         "Almost all students can master the material if provided with sufficient time and appropriate instruction",
         "Intelligence is entirely fixed at birth and cannot be modified by pedagogical interventions",
         "Only the top 10% of students are capable of high-order critical analysis",
         "Written examinations should be designed to fail a high percentage of low-income pupils"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Mastery learning asserts that learning challenges are a function of instruction and time, rather than lack of student cognitive capacity. (Question source: DSSSB Teaching Methodology Paper Series 31)."
+      "explanation": "Mastery learning asserts that learning challenges are a function of instruction and time, rather than lack of student cognitive capacity. (Question source: DSSSB Teaching Methodology Paper Series 31).",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "Teaching Methodology",
       "question": "[Test 31 - Q15] A student who struggles to write legibly, showing poor spatial planning on paper and difficulty with fine motor coordination, most likely suffers from:",
+      "question_image": null,
       "options": [
         "Dysgraphia",
         "Dyslexia",
         "Dyscalculia",
         "Aphasia"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Dysgraphia is a specific learning disability that affects writing abilities, including handwriting, spelling, and organizing ideas on paper. (Question source: DSSSB Teaching Methodology Paper Series 31)."
+      "explanation": "Dysgraphia is a specific learning disability that affects writing abilities, including handwriting, spelling, and organizing ideas on paper. (Question source: DSSSB Teaching Methodology Paper Series 31).",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "Teaching Methodology",
       "question": "[Test 31 - Q16] Dyslexia is a specific learning disorder that primarily manifests as difficulty in:",
+      "question_image": null,
       "options": [
         "Reading, decoding words, and phonological processing",
         "Performing basic arithmetic and algebraic calculations",
         "Coordinating gross motor movements in outdoor sports",
         "Expressing verbal emotions in social gatherings"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Dyslexia impairs a person's ability to read and comprehend text by affecting phonological awareness, spelling, and word recognition. (Question source: DSSSB Teaching Methodology Paper Series 31)."
+      "explanation": "Dyslexia impairs a person's ability to read and comprehend text by affecting phonological awareness, spelling, and word recognition. (Question source: DSSSB Teaching Methodology Paper Series 31).",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "Teaching Methodology",
       "question": "[Test 31 - Q17] Which assessment type is designed to evaluate student learning, acquisition, and academic achievement at the conclusion of an instructional period?",
+      "question_image": null,
       "options": [
         "Summative Assessment",
         "Formative Assessment",
         "Diagnostic Assessment",
         "Prognostic Assessment"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Summative assessment is 'Assessment OF Learning', occurring at the end of a unit or term (e.g., final boards, term exams) to certify achievement. (Question source: DSSSB Teaching Methodology Paper Series 31)."
+      "explanation": "Summative assessment is 'Assessment OF Learning', occurring at the end of a unit or term (e.g., final boards, term exams) to certify achievement. (Question source: DSSSB Teaching Methodology Paper Series 31).",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "Teaching Methodology",
       "question": "[Test 31 - Q18] In Abraham Maslow's Hierarchy of Needs, which level represents the ultimate realization of personal potential, self-fulfillment, and peak experiences?",
+      "question_image": null,
       "options": [
         "Self-Actualization Needs",
         "Esteem Needs",
         "Love and Belongingness Needs",
         "Safety and Security Needs"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Self-actualization is the highest level of Maslow's pyramid, representing the drive to become everything that one is capable of becoming. (Question source: DSSSB Teaching Methodology Paper Series 31)."
+      "explanation": "Self-actualization is the highest level of Maslow's pyramid, representing the drive to become everything that one is capable of becoming. (Question source: DSSSB Teaching Methodology Paper Series 31).",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "Teaching Methodology",
       "question": "[Test 31 - Q19] Which educational theorist is credited with establishing 'Field Theory' in learning and pioneered Action Research in social psychology?",
+      "question_image": null,
       "options": [
         "Kurt Lewin",
         "B.F. Skinner",
         "Jerome Bruner",
         "Jean Piaget"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "Kurt Lewin introduced Field Theory, conceptualizing behavior as a function of the person and their psychological environment: B = f(P, E). (Question source: DSSSB Teaching Methodology Paper Series 31)."
+      "explanation": "Kurt Lewin introduced Field Theory, conceptualizing behavior as a function of the person and their psychological environment: B = f(P, E). (Question source: DSSSB Teaching Methodology Paper Series 31).",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "Teaching Methodology",
       "question": "[Test 31 - Q20] Jerome Bruner's concept of the 'Spiral Curriculum' advises that:",
+      "question_image": null,
       "options": [
         "Complex ideas should be taught at a simplified level first, then revisited at increasing levels of difficulty",
         "Students must study only in circular seating arrangements to improve social learning",
         "Every topic must be completed within a single class session and never repeated",
         "Science and mathematics must be completely separated from arts and languages"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "A spiral curriculum revisits topics periodically with increasing depth and complexity, allowing learners to build upon their existing foundation. (Question source: DSSSB Teaching Methodology Paper Series 31)."
+      "explanation": "A spiral curriculum revisits topics periodically with increasing depth and complexity, allowing learners to build upon their existing foundation. (Question source: DSSSB Teaching Methodology Paper Series 31).",
+      "explanation_image": null
     }
   ]
 }

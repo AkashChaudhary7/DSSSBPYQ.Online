@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "What will come in place of the question mark (?) in the given series?2.3, 3.2, 2.5, 3.4, 2.7, ? 2493",
+      "question_image": null,
       "options": [
         "3.9",
         "3.5",
         "3.6",
         "3.8"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (3.6) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (3.6) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven persons, of which two are girls— Priya and Gileon, two are men— Ali and Sabir and three are boys— Chandran, Saagar and John, are sitting in a row for lunch. Ali and Sabir have a girl sitting between them. Only Priya is sitting between Chandran and John. No two girls, no two boys and no two men are sitting next to each other. If Ali is sitting to the immediate right of Chandran, then who is sitting at the extreme right end?450",
+      "question_image": null,
       "options": [
         "Saagar",
         "Gileon",
         "John",
         "Priya"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Saagar) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Saagar) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. You have to take the given statements to be true even if they seem to be at variance from commonly known facts. You have to decide which conclusions logically follow(s) from the given statements.Statements:Some cakes are tyres.Some donkeys are tyres.No rings are donkeys.Conclusions:(I): All cakes are donkeys.(II): Some cakes are not rings.4464",
+      "question_image": null,
       "options": [
         "Only conclusion (I) follows",
         "Only conclusion (II) follows",
         "Neither conclusion (I) nor (II) follows",
         "Both conclusions (I) and (II) follow"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Neither conclusion (I) nor (II) follows) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Neither conclusion (I) nor (II) follows) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left) 861  869  820  844  853 (Right)(Example- 697 – First digit = 6, second digit = 9 and third digit = 7)NOTE - All operations to be done from left to right.What will be the resultant if the second digit of the second highest number is added to the third digit of the lowest number?2757",
+      "question_image": null,
       "options": [
         "7",
         "12",
         "6",
         "9"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (6) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (6) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "X, Y, Z, S, T and U live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it, number 2 and so on till the topmost floor is numbered 6. Only Z lives above U. T lives immediately below U. Only Y lives below S. Who lives on the floor numbered 4?2629",
+      "question_image": null,
       "options": [
         "T",
         "U",
         "Z",
         "S"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (T) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (T) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "Based on the English alphabetical order, three of the following four are alike in a certain way and thus form a group. Which is the one that does not belong to that group?(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)5155",
+      "question_image": null,
       "options": [
         "YTRK",
         "SNJE",
         "ZUQL",
         "GBXS"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (YTRK) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (YTRK) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the following letter-clusters should replace # and % so that the pattern and relationship followed between the letter-cluster pair on the left side of :: is the same as that on the right side of :: ? # : KHO :: LIP : % 12130",
+      "question_image": null,
       "options": [
         "# = IFM, % = NKR",
         "# = IFM, % = NLR",
         "# = IFN, % = NKR",
         "# = IFM, % = NKS"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (# = IFM, % = NKR) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (# = IFM, % = NKR) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "Based on the English alphabetical order, three of the following four are alike in a certain way and thus form a group. Which is the one that does not belong to that group? <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}-->(Note: The odd man out is not based on the number of consonants/vowels or their position in the letter-cluster.)8217",
+      "question_image": null,
       "options": [
         "ACE",
         "HJL",
         "QSU",
         "TVY"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (TVY) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (TVY) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "Navin starts from Point A and drives 5 km towards the North. He then takes a left turn and drives 4 km to reach Point B. Barun starts from Point X, which is 2 km East of Point A, and drives 5 km towards the North. He takes a right turn and drives 6 km to reach Point Y. What is the shortest distance between Point Y and Point B? (All turns are 90 degree turns only)12478",
+      "question_image": null,
       "options": [
         "2 km",
         "10 km",
         "12 km",
         "8 km"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (12 km) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (12 km) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code,‘type in job’ is coded as ‘mq kl sb’,‘people do job’ is coded as ‘gd wv sb’,‘people type material’ is coded as ‘jd gd kl’.All the codes are two-letter codes only.What is the possible code for ‘do job’?1068",
+      "question_image": null,
       "options": [
         "mq jd",
         "mq kl",
         "wv sb",
         "gd kl"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (wv sb) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (wv sb) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,E + F means ‘E is the wife of F’,E – F means ‘E is the father of F’,E x F means ‘E is the husband of F’ andE ÷ F means ‘E is the mother of F’.How is P related to T if ‘P + Q – R x S÷ T’?12415",
+      "question_image": null,
       "options": [
         "Mother's Mother",
         "Father's Brother",
         "Mother's Brother",
         "Father's Mother"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Father's Mother) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Father's Mother) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the following words.IVY NED TAW HUGHow many letters are there between the second letter of the second word from the right and the second letter of the first word from the left, counted in English alphabetical order?6629",
+      "question_image": null,
       "options": [
         "19",
         "17",
         "18",
         "20"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (20) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (20) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "If A stands for '÷', B stands for '×', C stands for '+' and D stands for '−', what will come in place of the question mark (?) in the following equation?36 B 13 C 552 A 4 D 39 = ?4016",
+      "question_image": null,
       "options": [
         "527",
         "553",
         "567",
         "549"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (567) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (567) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘+’ means ‘−’, ‘−’ means ‘×’, ‘×’ means ‘÷’, ‘÷’ means ‘+’, then what will come in place of the question mark (?) in the following equation?24 − 3 ÷ 8 + 32 × 4 = ?5851",
+      "question_image": null,
       "options": [
         "70",
         "71",
         "89",
         "72"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (72) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (72) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Which numbers should replace X and Y so that the pattern followed by the two numbers on the left side of :: is the same as that on the right side of :: ?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying, etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)X : 61 :: 17 : Y 1889",
+      "question_image": null,
       "options": [
         "X = 14 , Y = 76",
         "X = 14 , Y = 91",
         "X = 12  , Y = 89",
         "X = 13 , Y = 84"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (X = 14 , Y = 76) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (X = 14 , Y = 76) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the statement, followed by two possible reasons numbered I and II, and decide which explains the event/observation/information given in the statement.Statement:The percentage of people who opt for counselling services is higher in urban areas as compared to rural areas.Reasons:I. People living in urban areas have more psychological problems.II. Rural areas have fewer counselling centres.",
+      "question_image": null,
       "options": [
         "Only I is a possible reason",
         "Only II is a possible reason",
         "Both I and II are possible reasons",
         "Neither I nor II is a possible reason"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Only II is a possible reason) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Only II is a possible reason) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which is the one that does not belong to that group?\n(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)5367",
+      "question_image": null,
       "options": [
         "WD-ZV",
         "AH-DY",
         "DK-GB",
         "ZG-CX"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (WD-ZV) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (WD-ZV) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "Eight people are sitting in two parallel rows containing 4 people each in such a way that there is equal distance between adjacent persons. In row 1 – D, E, O and P are seated and all of them are facing south In row 2 – F, G, Q and R are seated and all of them are facing north. Thus each person faces another person from the other row. E sits second to the left of P. F sits second to the right of G. Only two people sit between G and Q. O faces R. Who amongst the following sits to the immediate left of the person facing F?4042",
+      "question_image": null,
       "options": [
         "O",
         "D",
         "E",
         "P"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (D) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (D) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the number from among the given options that can replace the question mark (?) in the following series.12 14 18 26 42 ?2402",
+      "question_image": null,
       "options": [
         "66",
         "74",
         "68",
         "72"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (74) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (74) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "Jayesh starts from point A and drives 6 km towards south. He then takes a left turn and drives 3 km. He then takes a right turn and drives 2 km to reach a point B. Tania starts from point X, which is 5 km east of point A, and drives 8 km towards north. She then takes a left turn and drives 5 km to reach a point Y. What is the shortest distance between point Y and point A? (All turns are 90° turns only.)12503",
+      "question_image": null,
       "options": [
         "5 km",
         "8 km",
         "7 km",
         "6 km"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (8 km) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (8 km) है।",
+      "explanation_image": null
     }
   ]
 }

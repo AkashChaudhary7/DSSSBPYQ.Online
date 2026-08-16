@@ -1,9 +1,9 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { Quiz, Question, Bookmark } from '../types';
-import { Trophy, RefreshCw, Star, CheckCircle, XCircle, Share2, Download, AlertCircle, ArrowLeft, Heart, Check, BookOpen, Send } from 'lucide-react';
+import { Trophy, RefreshCw, Star, CheckCircle, XCircle, Share2, Download, AlertCircle, ArrowLeft, Heart, Check, BookOpen, Send, Clock, Zap, Hourglass, BarChart3, TrendingUp, AlertTriangle, Filter } from 'lucide-react';
 import { generateQuizPdf } from '../lib/pdfGenerator';
 import { trackQuizComplete, trackPageView, trackPdfDownload } from '../lib/analytics';
-import AdBanner from './AdBanner';
+import { cleanOptionText } from '../lib/formatText';
 
 interface ResultScreenProps {
   quiz: Quiz;
@@ -15,6 +15,7 @@ interface ResultScreenProps {
   onRestart: () => void;
   onBackToHome: () => void;
   onOpenSolutionReview: () => void;
+  questionTimeSpent?: Record<number, number>;
 }
 
 export default function ResultScreen({
@@ -27,8 +28,10 @@ export default function ResultScreen({
   onRestart,
   onBackToHome,
   onOpenSolutionReview,
+  questionTimeSpent = {},
 }: ResultScreenProps) {
   const [activeTab, setActiveTab] = useState<'overview' | 'review'>('overview');
+  const [timeFilter, setTimeFilter] = useState<'all' | 'correct' | 'incorrect' | 'unattempted' | 'slow'>('all');
   const [pdfGenerating, setPdfGenerating] = useState(false);
   const [pdfSuccess, setPdfSuccess] = useState(false);
   const [shareScoreGenerating, setShareScoreGenerating] = useState(false);
@@ -260,6 +263,81 @@ export default function ResultScreen({
     return savedBookmarks.some(b => b.quizId === quiz.testId && b.question.id === qId);
   };
 
+  // Time-Per-Question Analysis Computations
+  const timeMetrics = useMemo(() => {
+    const questions = quiz?.questions || [];
+    let totalCorrectTime = 0;
+    let totalIncorrectTime = 0;
+    let totalUnattemptedTime = 0;
+    
+    let fastestItem: { q: Question; index: number; time: number; status: string } | null = null;
+    let slowestItem: { q: Question; index: number; time: number; status: string } | null = null;
+
+    const questionRows = questions.map((q, idx) => {
+      const isAnswered = userAnswers[q.id] !== undefined;
+      const isCorrect = isAnswered && userAnswers[q.id] === q.answer;
+      const isIncorrect = isAnswered && !isCorrect;
+      const status = isCorrect ? 'correct' : isIncorrect ? 'incorrect' : 'unattempted';
+
+      // Actual recorded time from session or estimated
+      const recordedTime = (questionTimeSpent && questionTimeSpent[q.id] !== undefined)
+        ? questionTimeSpent[q.id]
+        : (isAnswered ? Math.max(1, Math.round(timeSpentSeconds / Math.max(1, Object.keys(userAnswers).length))) : 0);
+
+      if (isCorrect) totalCorrectTime += recordedTime;
+      else if (isIncorrect) totalIncorrectTime += recordedTime;
+      else totalUnattemptedTime += recordedTime;
+
+      // Track fastest & slowest attempted questions
+      if (isAnswered && recordedTime > 0) {
+        if (!fastestItem || recordedTime < fastestItem.time) {
+          fastestItem = { q, index: idx + 1, time: recordedTime, status };
+        }
+        if (!slowestItem || recordedTime > slowestItem.time) {
+          slowestItem = { q, index: idx + 1, time: recordedTime, status };
+        }
+      }
+
+      return {
+        question: q,
+        index: idx + 1,
+        time: recordedTime,
+        status,
+        isOvertime: recordedTime > 45
+      };
+    });
+
+    const attemptedCount = correctCount + incorrectCount;
+    const avgOverallTime = questions.length > 0 ? Math.round(timeSpentSeconds / questions.length) : 0;
+    const avgAttemptedTime = attemptedCount > 0 ? Math.round((totalCorrectTime + totalIncorrectTime) / attemptedCount) : 0;
+    const avgCorrectTime = correctCount > 0 ? Math.round(totalCorrectTime / correctCount) : 0;
+    const avgIncorrectTime = incorrectCount > 0 ? Math.round(totalIncorrectTime / incorrectCount) : 0;
+    const avgUnattemptedTime = unattemptedCount > 0 ? Math.round(totalUnattemptedTime / unattemptedCount) : 0;
+
+    let paceGrade = 'Fast & Optimal';
+    let paceColor = 'text-emerald-700 bg-emerald-50 border-emerald-200';
+    if (avgAttemptedTime > 65) {
+      paceGrade = 'High Time / Slow Pace';
+      paceColor = 'text-rose-700 bg-rose-50 border-rose-200';
+    } else if (avgAttemptedTime > 45) {
+      paceGrade = 'Moderate Pace';
+      paceColor = 'text-amber-700 bg-amber-50 border-amber-200';
+    }
+
+    return {
+      avgOverallTime,
+      avgAttemptedTime,
+      avgCorrectTime,
+      avgIncorrectTime,
+      avgUnattemptedTime,
+      fastestItem,
+      slowestItem,
+      questionRows,
+      paceGrade,
+      paceColor
+    };
+  }, [quiz?.questions, userAnswers, questionTimeSpent, timeSpentSeconds, correctCount, incorrectCount, unattemptedCount]);
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-8 space-y-8 animate-fadeIn">
       {/* Result Metrics Header Card */}
@@ -376,6 +454,249 @@ export default function ResultScreen({
         </div>
       </div>
 
+      {/* TIME-PER-QUESTION & SPEED INTELLIGENCE CARD */}
+      <div className="bg-white border border-slate-200/80 rounded-3xl p-6 md:p-8 shadow-sm space-y-6">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 pb-4">
+          <div className="space-y-1">
+            <div className="flex items-center gap-2">
+              <span className="bg-amber-100 text-amber-800 text-[10px] font-extrabold px-2.5 py-0.5 rounded-full uppercase tracking-wider flex items-center gap-1">
+                <Clock className="w-3 h-3 text-amber-700" />
+                Time Analytics
+              </span>
+              <span className={`text-[10px] font-extrabold px-2.5 py-0.5 rounded-full border ${timeMetrics.paceColor}`}>
+                {timeMetrics.paceGrade}
+              </span>
+            </div>
+            <h3 className="text-lg font-black text-slate-800 tracking-tight flex items-center gap-2">
+              Time Per Question Analysis & Pace Intelligence
+            </h3>
+          </div>
+          <div className="text-right text-[11px] font-bold text-slate-500 bg-slate-50 border border-slate-100 px-3 py-1.5 rounded-xl">
+            <span>DSSSB Standard Pace: </span>
+            <strong className="text-blue-700">~45s / Question</strong>
+          </div>
+        </div>
+
+        {/* Speed Analytics 4-Grid */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <div className="bg-slate-50/80 border border-slate-100 rounded-2xl p-3.5 space-y-1 text-center">
+            <span className="text-[10px] font-bold text-slate-500 uppercase tracking-wider">Avg Time / Q</span>
+            <div className="text-xl font-black text-slate-800">
+              {timeMetrics.avgAttemptedTime}s
+            </div>
+            <span className="text-[9px] text-slate-500 font-medium">on attempted questions</span>
+          </div>
+
+          <div className="bg-emerald-50/60 border border-emerald-100 rounded-2xl p-3.5 space-y-1 text-center">
+            <span className="text-[10px] font-bold text-emerald-700 uppercase tracking-wider">Time on Correct</span>
+            <div className="text-xl font-black text-emerald-700">
+              {timeMetrics.avgCorrectTime}s
+            </div>
+            <span className="text-[9px] text-emerald-600 font-medium">high speed efficiency</span>
+          </div>
+
+          <div className="bg-rose-50/60 border border-rose-100 rounded-2xl p-3.5 space-y-1 text-center">
+            <span className="text-[10px] font-bold text-rose-700 uppercase tracking-wider">Time on Incorrect</span>
+            <div className="text-xl font-black text-rose-700">
+              {timeMetrics.avgIncorrectTime}s
+            </div>
+            <span className="text-[9px] text-rose-600 font-medium">
+              {timeMetrics.avgIncorrectTime > 45 ? '⚠️ Time Sink Traps' : 'Quick Attempt'}
+            </span>
+          </div>
+
+          <div className="bg-blue-50/60 border border-blue-100 rounded-2xl p-3.5 space-y-1 text-center">
+            <span className="text-[10px] font-bold text-blue-700 uppercase tracking-wider">Time on Skipped</span>
+            <div className="text-xl font-black text-blue-700">
+              {timeMetrics.avgUnattemptedTime}s
+            </div>
+            <span className="text-[9px] text-blue-600 font-medium">skipping speed</span>
+          </div>
+        </div>
+
+        {/* Fastest & Slowest Questions Highlights */}
+        {(timeMetrics.fastestItem || timeMetrics.slowestItem) && (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-1">
+            {timeMetrics.fastestItem && (
+              <div className="bg-emerald-50/40 border border-emerald-200/80 rounded-2xl p-4 flex items-start gap-3">
+                <div className="w-9 h-9 rounded-xl bg-emerald-500 text-white flex items-center justify-center font-bold text-sm shrink-0">
+                  ⚡
+                </div>
+                <div className="space-y-1 min-w-0 flex-1">
+                  <div className="flex items-center justify-between">
+                    <span className="text-[11px] font-extrabold text-emerald-900 uppercase">Fastest Solved Question</span>
+                    <span className="text-xs font-black text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded-md">
+                      {timeMetrics.fastestItem.time}s
+                    </span>
+                  </div>
+                  <p className="text-xs font-semibold text-slate-800 line-clamp-1">
+                    Q.{timeMetrics.fastestItem.index}: {cleanOptionText(timeMetrics.fastestItem.q.question)}
+                  </p>
+                  <span className="text-[10px] font-bold text-slate-500">
+                    Status: <span className={timeMetrics.fastestItem.status === 'correct' ? 'text-emerald-600' : 'text-rose-600'}>{timeMetrics.fastestItem.status.toUpperCase()}</span>
+                  </span>
+                </div>
+              </div>
+            )}
+
+            {timeMetrics.slowestItem && (
+              <div className="bg-amber-50/40 border border-amber-200/80 rounded-2xl p-4 flex items-start gap-3">
+                <div className="w-9 h-9 rounded-xl bg-amber-500 text-white flex items-center justify-center font-bold text-sm shrink-0">
+                  ⏳
+                </div>
+                <div className="space-y-1 min-w-0 flex-1">
+                  <div className="flex items-center justify-between">
+                    <span className="text-[11px] font-extrabold text-amber-900 uppercase">Most Time Consuming Question</span>
+                    <span className="text-xs font-black text-amber-800 bg-amber-100 px-2 py-0.5 rounded-md">
+                      {timeMetrics.slowestItem.time}s
+                    </span>
+                  </div>
+                  <p className="text-xs font-semibold text-slate-800 line-clamp-1">
+                    Q.{timeMetrics.slowestItem.index}: {cleanOptionText(timeMetrics.slowestItem.q.question)}
+                  </p>
+                  <span className="text-[10px] font-bold text-slate-500">
+                    Status: <span className={timeMetrics.slowestItem.status === 'correct' ? 'text-emerald-600' : 'text-rose-600'}>{timeMetrics.slowestItem.status.toUpperCase()}</span>
+                  </span>
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* Interactive Question-by-Question Time Breakdown Matrix */}
+        <div className="space-y-3 pt-2">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+            <h4 className="text-xs font-extrabold text-slate-700 uppercase tracking-wider flex items-center gap-1.5">
+              <BarChart3 className="w-3.5 h-3.5 text-blue-600" />
+              Question-by-Question Time Breakdown Matrix
+            </h4>
+
+            {/* Filter Pills */}
+            <div className="flex items-center gap-1 overflow-x-auto pb-1 scrollbar-none text-[10px] font-bold">
+              <button
+                onClick={() => setTimeFilter('all')}
+                className={`px-2.5 py-1 rounded-lg border transition-all cursor-pointer ${
+                  timeFilter === 'all'
+                    ? 'bg-blue-600 text-white border-blue-600 shadow-xs'
+                    : 'bg-slate-50 hover:bg-slate-100 text-slate-600 border-slate-200'
+                }`}
+              >
+                All ({totalQuestions})
+              </button>
+              <button
+                onClick={() => setTimeFilter('correct')}
+                className={`px-2.5 py-1 rounded-lg border transition-all cursor-pointer ${
+                  timeFilter === 'correct'
+                    ? 'bg-emerald-600 text-white border-emerald-600 shadow-xs'
+                    : 'bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border-emerald-200'
+                }`}
+              >
+                Correct ({correctCount})
+              </button>
+              <button
+                onClick={() => setTimeFilter('incorrect')}
+                className={`px-2.5 py-1 rounded-lg border transition-all cursor-pointer ${
+                  timeFilter === 'incorrect'
+                    ? 'bg-rose-600 text-white border-rose-600 shadow-xs'
+                    : 'bg-rose-50 hover:bg-rose-100 text-rose-700 border-rose-200'
+                }`}
+              >
+                Incorrect ({incorrectCount})
+              </button>
+              <button
+                onClick={() => setTimeFilter('slow')}
+                className={`px-2.5 py-1 rounded-lg border transition-all cursor-pointer ${
+                  timeFilter === 'slow'
+                    ? 'bg-amber-600 text-white border-amber-600 shadow-xs'
+                    : 'bg-amber-50 hover:bg-amber-100 text-amber-800 border-amber-200'
+                }`}
+              >
+                Overtime (&gt;45s)
+              </button>
+              <button
+                onClick={() => setTimeFilter('unattempted')}
+                className={`px-2.5 py-1 rounded-lg border transition-all cursor-pointer ${
+                  timeFilter === 'unattempted'
+                    ? 'bg-slate-700 text-white border-slate-700 shadow-xs'
+                    : 'bg-slate-50 hover:bg-slate-100 text-slate-500 border-slate-200'
+                }`}
+              >
+                Skipped ({unattemptedCount})
+              </button>
+            </div>
+          </div>
+
+          {/* Matrix List Rows */}
+          <div className="border border-slate-200 rounded-2xl overflow-hidden divide-y divide-slate-100 max-h-80 overflow-y-auto">
+            {timeMetrics.questionRows
+              .filter(row => {
+                if (timeFilter === 'correct') return row.status === 'correct';
+                if (timeFilter === 'incorrect') return row.status === 'incorrect';
+                if (timeFilter === 'unattempted') return row.status === 'unattempted';
+                if (timeFilter === 'slow') return row.time > 45;
+                return true;
+              })
+              .map(row => {
+                const maxTimeRef = Math.max(90, ...timeMetrics.questionRows.map(r => r.time));
+                const widthPercent = Math.min(100, Math.max(8, (row.time / maxTimeRef) * 100));
+
+                let barColor = "bg-slate-300";
+                let statusBadge = (
+                  <span className="text-[9px] font-bold text-slate-500 bg-slate-100 border border-slate-200 px-2 py-0.5 rounded-full">
+                    Skipped
+                  </span>
+                );
+
+                if (row.status === 'correct') {
+                  barColor = "bg-emerald-500";
+                  statusBadge = (
+                    <span className="text-[9px] font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded-full flex items-center gap-1">
+                      <CheckCircle className="w-2.5 h-2.5" /> Correct
+                    </span>
+                  );
+                } else if (row.status === 'incorrect') {
+                  barColor = "bg-rose-500";
+                  statusBadge = (
+                    <span className="text-[9px] font-bold text-rose-700 bg-rose-50 border border-rose-200 px-2 py-0.5 rounded-full flex items-center gap-1">
+                      <XCircle className="w-2.5 h-2.5" /> Incorrect
+                    </span>
+                  );
+                }
+
+                return (
+                  <div key={row.index} className="p-3 hover:bg-slate-50/80 transition-colors flex items-center gap-3 text-xs">
+                    <span className="font-mono font-bold text-slate-700 w-8 shrink-0">
+                      Q.{row.index}
+                    </span>
+
+                    <div className="flex-1 min-w-0 space-y-1">
+                      <div className="flex items-center justify-between gap-2">
+                        <p className="font-semibold text-slate-800 line-clamp-1">
+                          {cleanOptionText(row.question.question)}
+                        </p>
+                        <div className="flex items-center gap-2 shrink-0">
+                          {statusBadge}
+                          <span className="font-mono font-black text-slate-800 text-[11px] w-10 text-right">
+                            {row.time}s
+                          </span>
+                        </div>
+                      </div>
+
+                      {/* Visual Time Progress Bar */}
+                      <div className="w-full bg-slate-100 rounded-full h-1.5 overflow-hidden">
+                        <div
+                          className={`h-full rounded-full transition-all ${barColor}`}
+                          style={{ width: `${widthPercent}%` }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+          </div>
+        </div>
+      </div>
+
       {/* Action triggers: Restart, Return to Dashboard, PDF export */}
       <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-3xl p-6 md:p-8 text-white flex flex-col md:flex-row items-center justify-between gap-6 shadow-md shadow-blue-100">
         <div className="space-y-1 text-center md:text-left">
@@ -410,9 +731,6 @@ export default function ResultScreen({
           )}
         </button>
       </div>
-
-      {/* Result Screen Bottom Ad Banner */}
-      <AdBanner location="result_screen_bottom" />
 
       {/* Performance Insights layout directly */}
       <div className="space-y-6">

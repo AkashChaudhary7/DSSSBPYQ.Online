@@ -6,1401 +6,1601 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Which numbers should replace X and Y so that the pattern followed by the two numbers on the left side of :: is the same as that on the right side of :: ?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)X : 103 :: 10 : Y",
+      "question_image": null,
       "options": [
         "X = 17, Y = 68",
         "X = 18, Y = 97",
         "X = 15, Y = 68",
         "X = 15, Y = 78"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (X = 15, Y = 68) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (X = 15, Y = 68) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following series, only one letter-cluster is incorrect. Select the INCORRECT letter-cluster.NCI, QAK, TYL, WWM, ZUN, CSO",
+      "question_image": null,
       "options": [
         "ZUN",
         "WWN",
         "TYL",
         "NCI"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (NCI) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (NCI) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of P, Q, R, S, T, U and V has exam on a different day of a week starting from Monday and ending on Sunday of the same week. R has exam on Wednesday. Exactly three people have exam between R and Q. P has exam immediately after S, and V has exam immediately before S. Only three people have exam between T and S. Who has exam on Tuesday?",
+      "question_image": null,
       "options": [
         "T",
         "Q",
         "U",
         "V"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (U) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (U) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "What will come in the place of the question mark (?) in the following equation, if ‘+’ and ‘−’ are interchanged and ‘×’ and ‘÷’ are interchanged?78 − 24 ÷ 5 + 32 × 8 = ?",
+      "question_image": null,
       "options": [
         "198",
         "192",
         "194",
         "196"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (194) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (194) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes A, B, C, D, E, F, and G are kept one over the other but not necessarily in the same order. There are exactly four boxes kept between E and D. Only two boxes are kept between D and A. G is kept immediately above D. Only one box is kept between C and F. E is kept immediately below B. C is kept third from the top. Which box is third from the bottom?524",
+      "question_image": null,
       "options": [
         "C",
         "A",
         "G",
         "F"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (F) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (F) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven people, Saman, Bhumra, Krish, Shweta, Manish, Isheen and Gwasker, are sitting in a straight row, facing north. Only five people sit to the left of Bhumra. Only three people sit between Bhumra and Isheen. Manish is an immediate neighbour of both Isheen and Shweta. Saman sits second to the right of Krish. Who sits third to the right of Gwasker?",
+      "question_image": null,
       "options": [
         "Shweta",
         "Krish",
         "Bhumra",
         "Saman"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Shweta) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Shweta) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the given letter-clusters should replace $ and % so that the pattern and relationship followed between the letter-cluster pair on the left side of :: is the same as that on the right side of ::?# : WJH :: YSL : &",
+      "question_image": null,
       "options": [
         "# = AOS, & = SNI",
         "# = ZOS, & = VKI",
         "# = AKL, & = STK",
         "# = ZOK, & = VNI"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (# = ZOK, & = VNI) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (# = ZOK, & = VNI) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "Six friends J, K, P, Q, R and S live on six different floors of the same building. No one lives above J. Only two people live between K and S. K lives immediately below J. Only two people live between J and R. Only one person lives between Q and R. How many people live below P?",
+      "question_image": null,
       "options": [
         "Two",
         "None",
         "One",
         "Three"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Three) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Three) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "Select the set in which the numbers are related in the same way as are the numbers of the following sets.(NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)(12, 15.8, 19.6) (23, 26.8, 30.6)",
+      "question_image": null,
       "options": [
         "(29, 33.8, 35.6)",
         "(15, 18.8, 20.6)",
         "(26, 29.8, 31.6)",
         "(17, 20.8, 24.6)"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' ((17, 20.8, 24.6)) है।"
+      "explanation": "सही उत्तर विकल्प 'D' ((17, 20.8, 24.6)) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following series, only one letter-cluster is incorrect. Select the INCORRECT letter-cluster.FDA   GEC   HFD   IGE   JHF   KIG",
+      "question_image": null,
       "options": [
         "HFD",
         "FDA",
         "GEC",
         "IGE"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (FDA) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (FDA) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "Below are given two sets of numbers. In each set of numbers, a certain mathematical operation on the first number results in the second number. Similarly, a certain mathematical operation on the second number results in the third number and so on. Which of the given options follows the same set of mathematical operations as followed in the two sets?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)56 - 65 - 75 - 8677 - 86 - 96 - 107441",
+      "question_image": null,
       "options": [
         "44 - 53 - 73 - 84",
         "99 - 108 - 128 - 139",
         "85 - 94 - 104 - 115",
         "62 - 71 - 80 - 89"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (85 - 94 - 104 - 115) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (85 - 94 - 104 - 115) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number result(s) in the second number. Similarly, certain mathematical operation(s) on the second number result(s) in the third number and so on. Which of the given options follows the same set of operations as in the given sets? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)2 – 8 – 32 – 373 – 27 – 108 – 113318",
+      "question_image": null,
       "options": [
         "5 – 225 – 445 – 435",
         "6 – 216 – 864 – 869",
         "4 – 64 – 128 – 132",
         "2 – 4 – 8 – 24"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (6 – 216 – 864 – 869) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (6 – 216 – 864 – 869) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "Seven boxes A, B, C, D, K, L and M are kept one over the other but not necessarily in the same order.Only four boxes are kept between A and D.  Only C is kept above A.  Only two boxes are kept between L and K. B is kept immediately above M. K is not kept immediately above B.Which box is kept fourth from the top?",
+      "question_image": null,
       "options": [
         "M",
         "B",
         "D",
         "L"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (B) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (B) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following series, only one letter-cluster is incorrect. Select the INCORRECT letter-cluster. BZK   XUG   TPC   QLY   LFU   HAQ",
+      "question_image": null,
       "options": [
         "TPC",
         "XUG",
         "HAQ",
         "QLY"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (QLY) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (QLY) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "Each of A, S, D, F, G, H and J has an exam on a different day of a week, starting from Monday and ending on Sunday of the same week. Only two people have exams between F and S. D has an exam on one of the days after G and on one of the days before J. No one has an exam after F. Only H has an exam between F and A. How many people have exams between H and G?",
+      "question_image": null,
       "options": [
         "Three",
         "One",
         "Two",
         "Four"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Four) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Four) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order?ACF, EGJ, IKN, MOR, ?",
+      "question_image": null,
       "options": [
         "QSV",
         "PSW",
         "PTV",
         "QTV"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (QSV) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (QSV) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? QCJ 14,   RDK 19,   SEL 24,   TFM 29,   ?",
+      "question_image": null,
       "options": [
         "VGM 35",
         "UGL 36",
         "UGN 34",
         "RHM 32"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (UGN 34) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (UGN 34) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? DRY  ZNU  VJQ  RFM  ?",
+      "question_image": null,
       "options": [
         "BIN",
         "NBU",
         "BNI",
         "NBI"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (NBI) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (NBI) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "Dilip starts from Point A and drives 4 km towards the west. He then takes a left turn and drives 5 km to reach Point B. Tuhin starts from Point X, which is 2 km south of Point A, and drives 6 km towards the east. He then takes a right turn and drives 3 km to reach Point Y. What is the shortest distance between Point B and Point Y? (All turns are 90-degree turns only.)",
+      "question_image": null,
       "options": [
         "6 km",
         "7 km",
         "8 km",
         "10 km"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (10 km) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (10 km) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,'the one thing I' is coded as 'qw as df er','thing I don’t like' is coded as 'df er tg yh','is to one listen' is coded as 'uj ik as ol' and'thing like others to' is coded as 'df yh po ik'. (All the codes are two-letter codes only.)What is the possible code for ‘listen’?",
+      "question_image": null,
       "options": [
         "Either 'ik' or 'ol'",
         "Either 'ol' or 'as'",
         "Either 'ol' or 'uj'",
         "Either 'as' or 'ik'"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Either 'ol' or 'uj') है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Either 'ol' or 'uj') है।",
+      "explanation_image": null
     },
     {
       "id": 21,
       "section": "General Awareness",
       "question": "The immediate factor that prompted the launch of the Home Rule League Movement in India in 1916 was:",
+      "question_image": null,
       "options": [
         "India’s participation in World War I and influence of the Irish Home Rule League",
         "the introduction of separate electorates under the Government of India Act of 1909",
         "the failure of the Swadeshi and Boycott movements to sustain national mobilisation",
         "the growing pressure of Indian revolutionaries operating from foreign territories"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (India’s participation in World War I and influence of the Irish Home Rule League) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (India’s participation in World War I and influence of the Irish Home Rule League) है।",
+      "explanation_image": null
     },
     {
       "id": 22,
       "section": "General Awareness",
       "question": "Which team won the Khelo Creators League 2025 trophy?",
+      "question_image": null,
       "options": [
         "Judges Lions",
         "Shekhawati Strikers",
         "Pink City Paltan",
         "Admin Warriors"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Shekhawati Strikers) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Shekhawati Strikers) है।",
+      "explanation_image": null
     },
     {
       "id": 23,
       "section": "General Awareness",
       "question": "Dantidurga, the founder of the Rashtrakuta dynasty was succeeded by his uncle ________ in 756 CE.",
+      "question_image": null,
       "options": [
         "Amoghavarsha I",
         "Krishna I",
         "Govinda II",
         "Amoghavarsha III"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Krishna I) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Krishna I) है।",
+      "explanation_image": null
     },
     {
       "id": 24,
       "section": "General Awareness",
       "question": "What is the primary goal of the Viksit Bharat 2047 initiative?",
+      "question_image": null,
       "options": [
         "To achieve a fully digital India by 2047",
         "To make India a developed country by 2047",
         "To make India the largest economy by 2047",
         "To make India self-sufficient in renewable energy by 2047"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (To make India a developed country by 2047) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (To make India a developed country by 2047) है।",
+      "explanation_image": null
     },
     {
       "id": 25,
       "section": "General Awareness",
       "question": "In March 2025, the Centre notified the appointment of which judge to the Supreme Court, and he belonged to which High Court?",
+      "question_image": null,
       "options": [
         "Justice Sandeep Mehta; Calcutta High Court",
         "Justice Joymalya Bagchi; Telangana High Court",
         "Justice Joymalya Bagchi; Calcutta High Court",
         "Justice Aravind Kumar; Karnataka High Court"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Justice Joymalya Bagchi; Calcutta High Court) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Justice Joymalya Bagchi; Calcutta High Court) है।",
+      "explanation_image": null
     },
     {
       "id": 26,
       "section": "General Awareness",
       "question": "Match List I with List II correctly.List – I                                                                        List – IIa) Panyadhyaksa                               (i)    Looked after the marketsb) Samsthadhyaksa                           (ii)   Superintendent of weight and measurementsc) Pautavadhyaksa                            (iii)   Superintendent for overseeing the state-owned boatsd) Navadhyaksa                                 (iv)   A high-ranking official responsible for trade, etc.",
+      "question_image": null,
       "options": [
         "a - ii, b - iii, c - i, d - iv",
         "a - iv, b - i, c - ii, d - iii",
         "a - iv, b - iii, c- ii, d - i",
         "a - iii, b - ii, c - iv, d- i"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (a - iv, b - i, c - ii, d - iii) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (a - iv, b - i, c - ii, d - iii) है।",
+      "explanation_image": null
     },
     {
       "id": 27,
       "section": "General Awareness",
       "question": "According to the Centre for Research on Energy and Clean Air' Monthly ambient air quality snapshot for India January 2025, which is the second most polluted city of India in the month of January 2025?",
+      "question_image": null,
       "options": [
         "Meerut",
         "Lucknow",
         "Delhi",
         "Hyderabad"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Delhi) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Delhi) है।",
+      "explanation_image": null
     },
     {
       "id": 28,
       "section": "General Awareness",
       "question": "Individuals with the blood group ABO are an example of which of the following?",
+      "question_image": null,
       "options": [
         "Dominance",
         "Incomplete dominance",
         "Codominance",
         "Recessive dominance"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Codominance) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Codominance) है।",
+      "explanation_image": null
     },
     {
       "id": 29,
       "section": "General Awareness",
       "question": "How many metres is the average height of the Purvanchal Hills above sea level?",
+      "question_image": null,
       "options": [
         "500 to 3000 metres",
         "800 to 6000 metres",
         "200 to 1000 metres",
         "400 to 2000 metres"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (500 to 3000 metres) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (500 to 3000 metres) है।",
+      "explanation_image": null
     },
     {
       "id": 30,
       "section": "General Awareness",
       "question": "Dates for Upper Palaeolithic sites in Andhra Pradesh, Maharashtra, Madhya Pradesh and Rajasthan range from ______.",
+      "question_image": null,
       "options": [
         "60,000 years to 11,000 years BP",
         "50,000 years to 11,000 years BP",
         "40,000 years to 11,000 years BP",
         "70,000 years to 11,000 years BP"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (40,000 years to 11,000 years BP) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (40,000 years to 11,000 years BP) है।",
+      "explanation_image": null
     },
     {
       "id": 31,
       "section": "General Awareness",
       "question": "Where did Larsen and Toubro commission its first indigenously manufactured hydrogen electrolyser?",
+      "question_image": null,
       "options": [
         "Visakhapatnam",
         "Hazira",
         "Vizag",
         "Mumbai"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Hazira) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Hazira) है।",
+      "explanation_image": null
     },
     {
       "id": 32,
       "section": "General Awareness",
       "question": "Which of the following which committees underlined the need of an organised money market in India?",
+      "question_image": null,
       "options": [
         "Vaghul Committee",
         "Dave Committee",
         "C Rangrajan Committee",
         "Chakravarthy Committee"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Chakravarthy Committee) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Chakravarthy Committee) है।",
+      "explanation_image": null
     },
     {
       "id": 33,
       "section": "General Awareness",
       "question": "Which of the following was a key objective of fiscal policy reforms introduced in 1991?",
+      "question_image": null,
       "options": [
         "Decrease in foreign trade",
         "Reduction in fiscal deficit",
         "Nationalisation of private banks",
         "Expansion of public sector enterprises"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Reduction in fiscal deficit) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Reduction in fiscal deficit) है।",
+      "explanation_image": null
     },
     {
       "id": 34,
       "section": "General Awareness",
       "question": "When the input level in production is less than the output change, the returns to scale are ________.",
+      "question_image": null,
       "options": [
         "constant",
         "decreasing",
         "increasing",
         "zero"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (increasing) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (increasing) है।",
+      "explanation_image": null
     },
     {
       "id": 35,
       "section": "General Awareness",
       "question": "The Citizenship Amendment Act 2019 has reduced the aggregate period of residence or service government in India from not less than 11 years to not less than ______ under Citizenship by Naturalisation.",
+      "question_image": null,
       "options": [
         "9 years",
         "5 years",
         "7 years",
         "6 years"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (5 years) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (5 years) है।",
+      "explanation_image": null
     },
     {
       "id": 36,
       "section": "General Awareness",
       "question": "In February 2024, the Indian Government approved a ₹1,179.72-crore project to continue its 'Safety of Women' umbrella scheme for women safety until _____.",
+      "question_image": null,
       "options": [
         "2025-26",
         "2028-29",
         "2027-28",
         "2026-27"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (2025-26) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (2025-26) है।",
+      "explanation_image": null
     },
     {
       "id": 37,
       "section": "General Awareness",
       "question": "In March 2025, which of the following under the Department of Telecommunications signed an MoU with NABARD for Digital Rural Empowerment of rural areas across the country?",
+      "question_image": null,
       "options": [
         "Indian Telephone Industries Limited",
         "Semi-Conductor Laboratory",
         "Centre for Development of Telematics",
         "Digital Bharat Nidhi"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Digital Bharat Nidhi) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Digital Bharat Nidhi) है।",
+      "explanation_image": null
     },
     {
       "id": 38,
       "section": "General Awareness",
       "question": "Which of the following Governor Generals of British India started the first Anglo-Afghan war?",
+      "question_image": null,
       "options": [
         "Lord William Bentick",
         "Lord Dalhousie",
         "Lord Auckland",
         "Lord Amherst"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Lord Auckland) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Lord Auckland) है।",
+      "explanation_image": null
     },
     {
       "id": 39,
       "section": "General Awareness",
       "question": "How many Directorates of Census Operations are functioning under the aegis of its Headquarters - Office of the Registrar General and Census Commissioner, India, New Delhi?",
+      "question_image": null,
       "options": [
         "41",
         "34",
         "31",
         "37"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (34) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (34) है।",
+      "explanation_image": null
     },
     {
       "id": 40,
       "section": "General Awareness",
       "question": "The 2025 SAFF U-19 Championship was held in which Indian state?",
+      "question_image": null,
       "options": [
         "Arunachal Pradesh",
         "Manipur",
         "Sikkim",
         "Assam"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Arunachal Pradesh) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Arunachal Pradesh) है।",
+      "explanation_image": null
     },
     {
       "id": 41,
       "section": "Arithmetical and Numerical Ability",
       "question": "The present cost of an apartment is ₹101619. After a year, its cost increased to ₹125530. The percentage increase (rounded off to the nearest integer) in the cost of the apartment is:",
+      "question_image": null,
       "options": [
         "35%",
         "24%",
         "11%",
         "10%"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (24%) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (24%) है।",
+      "explanation_image": null
     },
     {
       "id": 42,
       "section": "Arithmetical and Numerical Ability",
       "question": "A product mix includes three products with the following selling prices and quantities: Product A - $10 (40 units), Product B - $15 (30 units), and Product C - $20 (20 units). What is the weighted average selling price of the product mix? (Round your answer to two decimal places.)",
+      "question_image": null,
       "options": [
         "$12.80",
         "$14.88",
         "$12.25",
         "$13.89"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' ($13.89) है।"
+      "explanation": "सही उत्तर विकल्प 'D' ($13.89) है।",
+      "explanation_image": null
     },
     {
       "id": 43,
       "section": "Arithmetical and Numerical Ability",
       "question": "एक कक्षा में 14 विद्यार्थियों के अंकों का औसत 36 है। यदि प्रत्येक विद्यार्थी के अंक दोगुने कर दिए जाएं, तो प्राप्त अंकों का नया औसत कितना होगा?",
+      "question_image": null,
       "options": [
         "28",
         "14",
         "36",
         "72"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (72) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (72) है।",
+      "explanation_image": null
     },
     {
       "id": 44,
       "section": "Arithmetical and Numerical Ability",
       "question": "A and B started moving at the same time towards each other from points X and Y, respectively. After meeting on the way, A and B took 93.6 hours and p hours, respectively, to reach Y and X, respectively. If the speed of B is 50% more than that of A, then what is the value of p?",
+      "question_image": null,
       "options": [
         "39.8",
         "38.5",
         "40.1",
         "41.6"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (41.6) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (41.6) है।",
+      "explanation_image": null
     },
     {
       "id": 45,
       "section": "Arithmetical and Numerical Ability",
       "question": "Study the given table and answer the question.Over the years, the number of candidates who appeared and qualified in a competitive examination from various states is as follows: \t\t\t\t\t\tYear\t\t\t2018\t\t\t2019\t\t\t2020\t\t\t2021\t\t\t2022\t\t\t\t\t\t\tState\t\t\tAppeared\t\t\tQualified\t\t\tAppeared\t\t\tQualified\t\t\tAppeared\t\t\tQualified\t\t\tAppeared\t\t\tQualified\t\t\tAppeared\t\t\tQualified\t\t\t\t\t\t\tA\t\t\t52000\t\t\t7344\t\t\t85000\t\t\t9800\t\t\t74000\t\t\t8500\t\t\t68000\t\t\t7757\t\t\t95000\t\t\t11257\t\t\t\t\t\t\tB\t\t\t75000\t\t\t8406\t\t\t92000\t\t\t10500\t\t\t84500\t\t\t9232\t\t\t92000\t\t\t9894\t\t\t88000\t\t\t10232\t\t\t\t\t\t\tC\t\t\t64000\t\t\t7843\t\t\t88000\t\t\t10287\t\t\t87000\t\t\t9800\t\t\t78500\t\t\t10108\t\t\t79500\t\t\t21500\t\t\t\t\t\t\tD\t\t\t82000\t\t\t9500\t\t\t59000\t\t\t12432\t\t\t78400\t\t\t8943\t\t\t79000\t\t\t21009\t\t\t98500\t\t\t9800\t\t\t\t\t\t\tE\t\t\t87000\t\t\t8700\t\t\t76000\t\t\t4912\t\t\t89000\t\t\t13502\t\t\t67000\t\t\t9540\t\t\t97900\t\t\t8858\t\t\t  In 2022, what is the percentage of the total number of candidates who qualified compared to the total number of candidates who appeared from states D and E?",
+      "question_image": null,
       "options": [
         "7.5%",
         "10.5%",
         "8.5%",
         "9.5%"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (9.5%) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (9.5%) है।",
+      "explanation_image": null
     },
     {
       "id": 46,
       "section": "Arithmetical and Numerical Ability",
       "question": "The population of a village 2 years ago was 2,51,200. Due to migration to cities, it decreases at the rate of 15% every year. What is the decrease in its population in two years?",
+      "question_image": null,
       "options": [
         "68,709",
         "68,907",
         "69,708",
         "69,807"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (69,708) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (69,708) है।",
+      "explanation_image": null
     },
     {
       "id": 47,
       "section": "Arithmetical and Numerical Ability",
       "question": "एक व्यक्ति को प्रत्येक महीने ₹1,772 वेतन प्राप्त होता है। वह प्रत्येक महीने अपने वेतन का 50% बचत करता है। उसका मासिक खर्च ज्ञात कीजिए।",
+      "question_image": null,
       "options": [
         "₹935",
         "₹930",
         "₹886",
         "₹814"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (₹886) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (₹886) है।",
+      "explanation_image": null
     },
     {
       "id": 48,
       "section": "Arithmetical and Numerical Ability",
       "question": "A book is marked at ₹225. After applying an initial 20% discount, what further percentage discount is required to bring the selling price down to ₹108?",
+      "question_image": null,
       "options": [
         "42%",
         "45%",
         "40%",
         "38%"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (40%) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (40%) है।",
+      "explanation_image": null
     },
     {
       "id": 49,
       "section": "Arithmetical and Numerical Ability",
       "question": "Priya starts business with ₹59,000 and after 3 months, Trisha joins with Priya as her partner. After a year, the profit is divided in the ratio 8 : 3. What is Trisha's contribution in the capital?5980",
+      "question_image": null,
       "options": [
         "₹29,155",
         "₹28,515",
         "₹27,605",
         "₹29,500"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (₹29,500) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (₹29,500) है।",
+      "explanation_image": null
     },
     {
       "id": 50,
       "section": "Arithmetical and Numerical Ability",
       "question": "A shopkeeper offers two successive discounts of 22% and 20% on an article. During the festive season, he gives an additional 10% discount. If the marked price of the article is ₹1,250, calculate the final price (in ₹) the customer has to pay.",
+      "question_image": null,
       "options": [
         "680",
         "638",
         "702",
         "677"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (702) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (702) है।",
+      "explanation_image": null
     },
     {
       "id": 51,
       "section": "Arithmetical and Numerical Ability",
       "question": "The average of 8 numbers is 55. If each number is increased by 4, what will the new average be?4568",
+      "question_image": null,
       "options": [
         "59",
         "8",
         "63",
         "55"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (59) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (59) है।",
+      "explanation_image": null
     },
     {
       "id": 52,
       "section": "Arithmetical and Numerical Ability",
       "question": "A car's radiator should contain a solution of 69% antifreeze. A motorist has 15 litres of 60% antifreeze. How many litres (rounded off to 2 decimal places) of 80% antifreeze liquid should he add to his solution to produce a 69% antifreeze?1515",
+      "question_image": null,
       "options": [
         "10.96",
         "13.92",
         "9.79",
         "12.27"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (12.27) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (12.27) है।",
+      "explanation_image": null
     },
     {
       "id": 53,
       "section": "Arithmetical and Numerical Ability",
       "question": "A number, when increased by 60%, gives 2400. The number is:",
+      "question_image": null,
       "options": [
         "3000",
         "4500",
         "1500",
         "750"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (1500) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (1500) है।",
+      "explanation_image": null
     },
     {
       "id": 54,
       "section": "Arithmetical and Numerical Ability",
       "question": "Find the compound interest on ₹6,500 at 10% per annum for 3 years, compounded annually.",
+      "question_image": null,
       "options": [
         "₹2,751.50",
         "₹2,651.50",
         "₹2,151.50",
         "₹2,681.50"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (₹2,151.50) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (₹2,151.50) है।",
+      "explanation_image": null
     },
     {
       "id": 55,
       "section": "Arithmetical and Numerical Ability",
       "question": "The HCF of 252, 1092 and 1800 is:",
+      "question_image": null,
       "options": [
         "59",
         "25",
         "12",
         "47"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (12) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (12) है।",
+      "explanation_image": null
     },
     {
       "id": 56,
       "section": "Arithmetical and Numerical Ability",
       "question": "Evaluate: 38 − 9 ÷ 12 × 45569",
+      "question_image": null,
       "options": [
         "33",
         "34",
         "35",
         "38"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (35) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (35) है।",
+      "explanation_image": null
     },
     {
       "id": 57,
       "section": "Arithmetical and Numerical Ability",
       "question": "The list price of an article is ₹16,500 and a discount of 57% is offered on the list price. What additional discount percent on the already discounted price must be offered to a customer to bring the net selling price to ₹1,560.90?",
+      "question_image": null,
       "options": [
         "82%",
         "74%",
         "80%",
         "78%"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (78%) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (78%) है।",
+      "explanation_image": null
     },
     {
       "id": 58,
       "section": "Arithmetical and Numerical Ability",
       "question": "Krishna, Vimla and Basanti together can weave a carpet in 4 days. Krishna alone can do it in 12 days and Vimla alone can do it in 10 days. How long will Basanti alone take to finish this work?",
+      "question_image": null,
       "options": [
         "10 days",
         "12 days",
         "16 days",
         "15 days"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (15 days) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (15 days) है।",
+      "explanation_image": null
     },
     {
       "id": 59,
       "section": "Arithmetical and Numerical Ability",
       "question": "A typist takes 40 minutes to type 8 pages. How many pages will he type in 75 minutes?",
+      "question_image": null,
       "options": [
         "14",
         "17",
         "15",
         "16"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (15) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (15) है।",
+      "explanation_image": null
     },
     {
       "id": 60,
       "section": "Arithmetical and Numerical Ability",
       "question": "Amit has borrowed an amount of ₹3,00,000 from a bank to start a business. How much simple interest (in ₹) will he pay at a rate of 5% per annum after 2 years?3716",
+      "question_image": null,
       "options": [
         "30,000",
         "31,000",
         "29,000",
         "3,30,000"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (30,000) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (30,000) है।",
+      "explanation_image": null
     },
     {
       "id": 61,
       "section": "English Language and Comprehension",
       "question": "Identify the antonym of the highlighted word in the given sentence.In the midst of the otherwise variegated discourse, his thesis stood out as cloaked in uniformity rather than the expected kaleidoscopic spectrum.",
+      "question_image": null,
       "options": [
         "Tedious",
         "Inconsequential",
         "Pragmatic",
         "Monochromatic"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Monochromatic) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Monochromatic) है।",
+      "explanation_image": null
     },
     {
       "id": 62,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the following passages and answer the questions that follow.In today's global business environment, communication is often conducted in English, but cultural expectations can vary significantly. Misunderstanding cultural norms can lead to poor judgment and communication breakdowns. Three important areas where business etiquette differs across cultures include how people are addressed, the role of smiling, and expectations around eye contact.When addressing someone, different cultures have distinct preferences. For instance, a German professional may expect to be called 'Doctor' if they hold a PhD, valuing the title as recognition of effort and achievement. In contrast, a British person might find this overly formal or even pretentious. Continental Europeans and Latin Americans often prefer formal titles and surnames, while Americans and some British professionals lean towards using first names. The safest approach is to observe how others address you and ask if unsure.Smiling also carries different meanings. In Russia, it can be seen as insincere, while in countries like the United States, Britain, and Australia, it signals friendliness and respect. Research shows that smiling individuals are seen as more intelligent in some cultures such as Germany and China, but as less intelligent or even dishonest in places like Japan, Iran, and India.Eye contact is another area of divergence. In Western countries, it reflects attentiveness and honesty. However, in cultures such as Japan and Korea, it may be viewed as disrespectful. In parts of South America, Africa, and the Middle East, prolonged or cross-gender eye contact can be inappropriate or confrontational.Understanding these cultural nuances is important, but it is equally vital to avoid overgeneralising. Individuals are shaped by many factors beyond nationality, such as region, age, profession, and personal experience. Awareness without stereotyping is key to successful cross cultural communication.Which of the following would be the most suitable title for the passage?",
+      "question_image": null,
       "options": [
         "Cultural Norms and Communication in Global Business",
         "The Psychology Behind Smiles and Eye Contact",
         "Understanding English as a Global Language",
         "Avoiding Miscommunication in Virtual Meetings"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Cultural Norms and Communication in Global Business) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Cultural Norms and Communication in Global Business) है।",
+      "explanation_image": null
     },
     {
       "id": 63,
       "section": "English Language and Comprehension",
       "question": "Read the given conversation and select the most appropriate ANTONYM of the underlined word from the options.Neelam: The critic called the film derivative, saying it lacked originality.Arnav: That’s harsh! I thought it was fresh and inventive.",
+      "question_image": null,
       "options": [
         "Cognate",
         "Original",
         "Deceptive",
         "Shallow"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Original) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Original) है।",
+      "explanation_image": null
     },
     {
       "id": 64,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the passage carefully and answer the questions that follow.Renewable energy is becoming increasingly vital as we look towards a sustainable future. Unlike fossil fuels, which are finite and contribute significantly to environmental degradation, renewable energy sources such as solar, wind, and hydro power are abundant and environmentally friendly. Solar power harnesses energy from the sun using photovoltaic cells. These cells convert sunlight directly into electricity, providing a clean and inexhaustible power source. Wind energy is captured through wind turbines that generate electricity as they spin, driven by the wind's kinetic energy. Hydropower utilises the energy of flowing water, usually from rivers or dams, to generate electricity.The shift towards renewable energy is crucial for several reasons. First, it helps mitigate climate change by reducing greenhouse gas emissions. Fossil fuels release large amounts of carbon dioxide and other harmful pollutants into the atmosphere, contributing to global warming and health problems. In contrast, renewable energy sources produce little to no emissions during operation. Second, renewable energy promotes energy security by reducing dependence on imported fuels. Countries can harness their natural resources to generate power, leading to greater energy independence and economic stability.Additionally, the renewable energy sector creates numerous jobs in manufacturing, installation, and maintenance. This not only helps in reducing unemployment rates but also fosters economic growth. Technological advancements in renewable energy are also driving down costs, making these sources more competitive with traditional energy sources. Governments and organisations worldwide are recognising the importance of investing in renewable energy and are implementing policies and incentives to accelerate its adoption.In summary, the transition to renewable energy is essential for environmental protection, economic stability, and job creation. By investing in solar, wind, and hydro power, we can ensure a sustainable and prosperous future for generations to come.Which renewable energy source uses photovoltaic cells?",
+      "question_image": null,
       "options": [
         "biomass",
         "hydro engery",
         "wind energy",
         "solar energy"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (solar energy) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (solar energy) है।",
+      "explanation_image": null
     },
     {
       "id": 65,
       "section": "English Language and Comprehension",
       "question": "Select the option that can be used as a one-word substitute to describe the conditions in which the animals were kept.The animals were kept in small, dirty cages with barely enough space to move around. They were fed scraps of food and rarely saw the light of day.837",
+      "question_image": null,
       "options": [
         "Spacious",
         "Squalid",
         "Luxurious",
         "Humane"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Squalid) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Squalid) है।",
+      "explanation_image": null
     },
     {
       "id": 66,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage and answer the questions that follow.Reading refines the mind, much as exercise strengthens the body. It adds depth to one’s understanding, shaping character through disciplined engagement with thought. Some books are to be tasted, others to be swallowed and a few to be digested fully. This means that not all reading requires the same intensity; some texts serve for amusement, others for knowledge and a rare few for shaping wisdom. The study of books should be balanced by conversation and experience. Reading alone makes a person contemplative but applying that knowledge to life demands interaction and practice. Different studies nurture different faculties. History makes men wise, poetry makes them imaginative, mathematics sharpens the intellect and logic teaches precision in argument. Yet reading without critical thinking can lead to pedantry. Bacon insists that learning must serve practical ends—moulding judgment, enhancing discourse and improving moral conduct.However, one should also beware of using knowledge merely to show off. Some people use learned words only to impress, but true wisdom lies in applying knowledge humbly. Study serves best when it supports action. In all, Bacon suggests that reading, like any tool, must be directed wisely—neither avoided nor worshipped, but put to proper use.What is the most suitable title for this passage?",
+      "question_image": null,
       "options": [
         "The Value of Reading and Study",
         "Knowledge versus Ignorance",
         "The Decay of Reading Habits",
         "A Critique of Modern Education"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (The Value of Reading and Study) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (The Value of Reading and Study) है।",
+      "explanation_image": null
     },
     {
       "id": 67,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate ANTONYM of the underlined word in the given sentence. The insipid soup lacked flavour and spice.1104",
+      "question_image": null,
       "options": [
         "Vapid",
         "Arid",
         "Delectable",
         "Bland"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Delectable) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Delectable) है।",
+      "explanation_image": null
     },
     {
       "id": 68,
       "section": "English Language and Comprehension",
       "question": "Select the option which has nearly the same meaning as the underlined phrase.Despite presenting well-documented evidence and expert testimonials, the scientist's theory about time perception being altered by emotional intensity was met with provoking disbelief by many in the academic community. Although the hypothesis challenged conventional understanding, it opened new avenues for research into the intersection of psychology and physics.",
+      "question_image": null,
       "options": [
         "Impeccable",
         "Immaculate",
         "Implausible",
         "Inconsequential"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Implausible) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Implausible) है।",
+      "explanation_image": null
     },
     {
       "id": 69,
       "section": "English Language and Comprehension",
       "question": "Select the option that can be used as a one-word substitute for the given group of words.To change something slightly, especially because it is not in the right position",
+      "question_image": null,
       "options": [
         "Adjust",
         "Complicate",
         "Disarrange",
         "Stabilise"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Adjust) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Adjust) है।",
+      "explanation_image": null
     },
     {
       "id": 70,
       "section": "English Language and Comprehension",
       "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A) While classical physics explains macroscopic phenomena, it fails to describe behaviours observed at the subatomic level.B) Quantum mechanics, developed in the early 20th century, revolutionised our understanding of atomic and subatomic particles.C) The wave-particle duality and uncertainty principle challenged long-held deterministic views in physics.D) This fundamental shift in perspective paved the way for groundbreaking advancements in fields such as quantum computing and nanotechnology.",
+      "question_image": null,
       "options": [
         "B - C - D - A",
         "B - A - C - D ​​​​​​",
         "A - B - C - D",
         "A - C - B - D"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (A - B - C - D) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (A - B - C - D) है।",
+      "explanation_image": null
     },
     {
       "id": 71,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate article to fill in the blank. If no article is needed, select 'No article required'.He plays ______ flute beautifully.",
+      "question_image": null,
       "options": [
         "an",
         "a",
         "the",
         "No article required"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (the) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (the) है।",
+      "explanation_image": null
     },
     {
       "id": 72,
       "section": "English Language and Comprehension",
       "question": "Comprehension:Read the given passage carefully and answer the questions that follow. In the labyrinthine streets of the ancient city, the fragrant scent of jasmine drifted through the air, blending with the soft chimes ringing from distant temples. Shadows moved across the worn cobblestone paths, weaving a scene rich with mystery and intrigue. Amid the lively hum of the bustling market, a hooded figure slipped through the crowd, moving with deliberate purpose and remaining entirely unnoticed. The figure’s destination was shrouded in myth—a hidden library, spoken of only in hushed voices, rumored to house ancient secrets of immense power. Swiftly and cautiously, the figure arrived at an inconspicuous door, nearly invisible among the weathered stone walls. As it creaked open, a cool, musty air enveloped the figure, revealing rows upon rows of towering shelves filled with ancient tomes, each blanketed in dust. Inside, the library seemed to hold its breath, as if guarding the powerful knowledge within, waiting for the worthy to uncover its secrets.698What primary element contributes to the atmosphere of mystery in the city?\n \n 699",
+      "question_image": null,
       "options": [
         "The bustling market",
         "Shadows dancing across cobblestones",
         "The sound of distant chimes",
         "The scent of jasmine"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Shadows dancing across cobblestones) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Shadows dancing across cobblestones) है।",
+      "explanation_image": null
     },
     {
       "id": 73,
       "section": "English Language and Comprehension",
       "question": "Identify the INCORRECTLY spelt word in the given paragraph.Despite the abysmal weather, the conscientious athlete stuck to her training routine without fail. Her lumbur movements and graceful form made her a conspicuous presence on the field. It was clear that discipline and dedication fuelled her success.",
+      "question_image": null,
       "options": [
         "lumbur",
         "abysmal",
         "conscientious",
         "conspicuous"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (lumbur) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (lumbur) है।",
+      "explanation_image": null
     },
     {
       "id": 74,
       "section": "English Language and Comprehension",
       "question": "Select the option that can be used as a one-word substitute for the given group of words.The time during which something continues",
+      "question_image": null,
       "options": [
         "Dutiful",
         "During",
         "Duration",
         "Dwelling"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (Duration) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (Duration) है।",
+      "explanation_image": null
     },
     {
       "id": 75,
       "section": "English Language and Comprehension",
       "question": "Comprehension:In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. The concept of cultural memory plays a vital role in how societies understand their collective past. Unlike individual memory, which is often fragmented and subjective, cultural memory refers to shared narratives that are passed down through generations via texts, rituals, and institutions. This form of memory is not merely a passive recollection but an active process that both reflects and (1) _______ identity.In contemporary discourse, cultural memory is often invoked to examine how nations commemorate traumatic events. Monuments, museums, and literature serve as physical and symbolic (2) _______. However, cultural memory is not immune to distortion. Political agendas frequently shape what is remembered and what is (3) _______, revealing power dynamics within the act of remembering.Additionally, globalisation complicates the notion of cultural memory, as it introduces transnational narratives that may challenge or (4) _______ national ones. The task for scholars, therefore, is to analyse not only what is preserved but also how memory is framed and mediated.Ultimately, cultural memory serves as a site of both continuity and contestation, reminding us that memory is never static but constantly being (5) _______ and reinterpreted.Select the most appropriate option to fill in blank number 4.",
+      "question_image": null,
       "options": [
         "displace",
         "internalise",
         "reinforce",
         "suppress"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (displace) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (displace) है।",
+      "explanation_image": null
     },
     {
       "id": 76,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate option to fill in the blanks. If no article is required, select the option with ‘No article required’. During our trip, we visited _____ Eiffel Tower and enjoyed an amazing view of Paris from _____ top.",
+      "question_image": null,
       "options": [
         "the ; the",
         "a ; No article required",
         "a ; the",
         "an ; No article required"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (the ; the) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (the ; the) है।",
+      "explanation_image": null
     },
     {
       "id": 77,
       "section": "English Language and Comprehension",
       "question": "Select the option that serves as the most appropriate one-word substitute for the entire paragraph.The artist's work was a departure from traditional forms, incorporating unconventional materials and techniques. It challenged viewers' expectations and provoked discussion about the nature of art itself.",
+      "question_image": null,
       "options": [
         "Derivative",
         "Avant-garde",
         "Orthodox",
         "Conventional"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Avant-garde) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Avant-garde) है।",
+      "explanation_image": null
     },
     {
       "id": 78,
       "section": "English Language and Comprehension",
       "question": "Select the option that can be used as a one-word substitute for the highlighted group of words.A/an recurring symbol, image, or idea in prose reinforces thematic depth. Its repetitive use helps the authors create an immersive literary experience for their readers. An example is the 'green light' in Fitzgerald's The Great Gatsby.",
+      "question_image": null,
       "options": [
         "metaphor",
         "allegory",
         "archetype",
         "motif"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (motif) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (motif) है।",
+      "explanation_image": null
     },
     {
       "id": 79,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate ANTONYM of the underlined word in the given sentence.Even after a sluggish start at the beginning of the academic year, the underachievers swiftly matched the standards of the toppers by year-end.",
+      "question_image": null,
       "options": [
         "alacritous",
         "attritional",
         "altruistic",
         "astute"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (alacritous) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (alacritous) है।",
+      "explanation_image": null
     },
     {
       "id": 80,
       "section": "English Language and Comprehension",
       "question": "Select the most appropriate article to fill in the blank. If no article is needed, select 'No article required'._____ tiger is the most ferocious of all animals.",
+      "question_image": null,
       "options": [
         "No article required.",
         "A",
         "An",
         "The"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (The) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (The) है।",
+      "explanation_image": null
     },
     {
       "id": 81,
       "section": "Hindi Language and Comprehension",
       "question": "दिए गए विकल्पों में से 'बंजर' के लिए उपयुक्त पर्यायवाची शब्द चुनिए-",
+      "question_image": null,
       "options": [
         "उत्पादक",
         "विनष्ट",
         "अनुर्वर",
         "उभाड़"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (अनुर्वर) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (अनुर्वर) है।",
+      "explanation_image": null
     },
     {
       "id": 82,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित  विकल्पों  में से सही वाक्य क्रम को चुनें।",
+      "question_image": null,
       "options": [
         "वह वास्तव में बहुत आदमी मोटा है।",
         "आदमी मोटा है वास्तव में वह बहुत ।",
         "वास्तव में वह है आदमी मोटा बहुत ।",
         "वास्तव में वह आदमी बहुत मोटा है।"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (वास्तव में वह आदमी बहुत मोटा है।) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (वास्तव में वह आदमी बहुत मोटा है।) है।",
+      "explanation_image": null
     },
     {
       "id": 83,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित लोकोक्ति का विकल्प में से उचित उत्तर चुनें-खूंटे के बल बछड़ा कूदता है।",
+      "question_image": null,
       "options": [
         "शक्तिशाली का अधिकार होना",
         "किसी अन्य के बल पर शक्ति का प्रदर्शन",
         "सबसे शक्तिशाली होना",
         "किसी के सामने अपनी शक्ति का प्रदर्शन करना"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (किसी अन्य के बल पर शक्ति का प्रदर्शन) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (किसी अन्य के बल पर शक्ति का प्रदर्शन) है।",
+      "explanation_image": null
     },
     {
       "id": 84,
       "section": "Hindi Language and Comprehension",
       "question": "‘मुकुट’ के पर्याय से दिए गए वाक्य के रिक्त स्थान को पूर्ण करें--- हिमालय भारत के ................ के समान है।",
+      "question_image": null,
       "options": [
         "रक्षक",
         "पयोधर",
         "मस्तक",
         "किरीट"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (किरीट) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (किरीट) है।",
+      "explanation_image": null
     },
     {
       "id": 85,
       "section": "Hindi Language and Comprehension",
       "question": "उपयुक्त विकल्प का चयन कर नीचे दिए गये वाक्य को पूर्ण करें---'यमुना यमुनोत्री नामक स्थान .......  निकलती है'",
+      "question_image": null,
       "options": [
         "से",
         "को",
         "के द्वारा",
         "में"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (से) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (से) है।",
+      "explanation_image": null
     },
     {
       "id": 86,
       "section": "Hindi Language and Comprehension",
       "question": "दिए गए मुहावरे का सही अर्थ लिखिए।जोड़-तोड़ करना",
+      "question_image": null,
       "options": [
         "भाग्य का चक्कर",
         "शोकाकुल होना",
         "उपाय करना",
         "दो नावों पर पैर रखना"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (उपाय करना) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (उपाय करना) है।",
+      "explanation_image": null
     },
     {
       "id": 87,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:दिए गए गद्यांश के आधार पर निम्नांकित प्रश्नों के उत्तर दीजिए--पुनर्जागरण आंदोलन और हिन्दी साहित्य के विकास में कलकत्ता की दो शैक्षणिक संस्थाओं का विशिष्ट योगदान रहा है । बंगाल, विशेषत: कलकत्ता से पुनर्जागरण आरंभ हुआ तो इसका कारण स्पष्ट है कि यहाँ भारतीय संस्कृति की यूरोपीय संस्कृति से टकराहट आंरभ हुई । फोर्ट विलियम कॉलेज के स्थापना 1800 ई. में हुई, पर इसका प्रभाव क्षेत्र सीमित था । इसके लिए कॉलेज के प्रिंसिपल गिलक्राइस्ट ने अपनी समझ के हिसाब से हिन्दी / हिन्दुस्तानी गद्य में पुस्तकें लिखवाईं । धार्मिक ग्रंथों के अनुवाद या तत्संबंधी वृत्तांतों के रूप में कुछ पुराना ब्रजभाषा या खड़ी बोली हिंदी गद्य का रूप अभी तक मिलता था पर, व्यावहारिक उद्देश्यों के लिए नियोजित गद्य का सजग रूप में प्रयोग यहाँ से आरंभ होता है । ऐहिक उद्देश्यों के लिए गद्य का प्रयोग फोर्ट विलियम कॉलेज से संबंध अध्यापकों की पुस्तकें में हुआ है जिनमें प्रमुख हैं 1803 में लिखित लल्लूलाल का ‘प्रेमसागर’ और सदल मिश्रा का ‘नासिकेतोपाख्यान’ । बंगीय क्षेत्र से आरंभ हुए पुनर्जागरण की व्यापक प्रक्रिया को गतिशील करने में कलकत्ता के दूसरे जिस कॉलेज की महत्वपूर्ण भूमिका है वह है हिन्दू कॉलेज (1817)। इस कॉलेज के माध्यम से पहली बार भारतीय युवाओं का सीधा संपर्क अंग्रेज़ी भाषा और यूरोपीय ज्ञान से हुआ, जिसने उन्हें अपनी परंपरा को फिर देखने-परखने के लिए क्रमशः बाध्य किया।हिंदू कॉलेज का निम्न में से क्या योगदान है--",
+      "question_image": null,
       "options": [
         "छात्रों को अपनी परम्परा को देखने परखने के लिए बाध्य किया।",
         "छात्रों को संस्कृत भाषा का ज्ञान दिया।",
         "हिंदी भाषा के विकास के लिए कार्य किया।",
         "व्यावहारिक उद्देश्यों के लिए नियोजित गद्य का प्रयोग शुरु किया।"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (छात्रों को अपनी परम्परा को देखने परखने के लिए बाध्य किया।) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (छात्रों को अपनी परम्परा को देखने परखने के लिए बाध्य किया।) है।",
+      "explanation_image": null
     },
     {
       "id": 88,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित मुहावरे का उचित अर्थ बताएं।घोड़े बेचकर सोना।",
+      "question_image": null,
       "options": [
         "समय बर्बाद करना।",
         "आराम करना।",
         "सुख का अनुभव करना।",
         "बेफिक्र होना।"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (बेफिक्र होना।) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (बेफिक्र होना।) है।",
+      "explanation_image": null
     },
     {
       "id": 89,
       "section": "Hindi Language and Comprehension",
       "question": "रिक्त स्थान की पूर्ति के लिए ‘बरस’ शब्द के उपयुक्त पर्यायवाची शब्द का चयन करें-गत..........की भांति इस बार भी सम्मेलन आयोजित किया जाएगा।",
+      "question_image": null,
       "options": [
         "सन",
         "साल",
         "वर्ष",
         "अब्द"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (वर्ष) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (वर्ष) है।",
+      "explanation_image": null
     },
     {
       "id": 90,
       "section": "Hindi Language and Comprehension",
       "question": "'अपना-सा मुँह लेकर रह जाना' मुहावरे का अर्थ क्या है?",
+      "question_image": null,
       "options": [
         "अचानक मिलना",
         "विश्वासघात करना",
         "बहुत मेहनत करना",
         "लज्जित होना"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (लज्जित होना) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (लज्जित होना) है।",
+      "explanation_image": null
     },
     {
       "id": 91,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:दिए गए गद्यांश के आधार पर निम्नांकित प्रश्नों के उत्तर दीजिएसंध्या का समय है, डूबने वाले सूर्य की सुनहरी किरणें रंगीन शीशों की आड़ से, एक अंग्रेजी ढंग पर सजे हुए कमरे में झांक रही हैं जिससे सारा कमरा रंगीन हो रहा है। अंग्रेजी ढंग की मनोहर तसवीरें, जो दीवारों से लटक रहीं हैं, इस समय रंगीन वस्त्र धारण करके और भी सुंदर मालूम होती हैं। कमरे के बीचों-बीच एक गोल मेज़ है जिसके चारों तरफ नर्म मखमली गद्दों की रंगीन कुर्सियाँ बिछी हुई हैं। इनमें से एक कुर्सी पर एक युवा पुरुष सिर नीचा किये हुए बैठा कुछ सोच रहा है। वह अति सुंदर और रूपवान पुरुष है जिस पर अंग्रेजी काट के कपड़े बहुत भले मालूम होते हैं। उसके सामने मेज पर एक कागज़ है जिसको वह बार-बार देखता है। उसके चेहरे से ऐसा विदित होता है कि इस समय वह किसी गहरे सोच में डूबा हुआ है। थोड़ी देर तक वह इसी तरह पहलू बदलता रहा, फिर वह एकाएक उठा और कमरे से बाहर निकलकर बरांडे में टहलने लगा, जिसमें मनोहर फूलों और पत्तों के गमले सजाकर धरे हुए थे। वह बरांडे से फिर कमरे में आया और कागज का टुकड़ा उठाकर बड़ी  के साथ इधर-उधर टहलने लगा।उपरोक्त गद्यांश के आधार पर उत्तर दें।\nलेखक के अनुसार पुरुष कमरे में क्या कर रहा था?",
+      "question_image": null,
       "options": [
         "गा रहा था।",
         "दफ्तर के बहुत ज़रूरी काम में व्यस्त था।",
         "नाच रहा था।",
         "कुर्सी पर बैठा सोच रहा था।"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (कुर्सी पर बैठा सोच रहा था।) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (कुर्सी पर बैठा सोच रहा था।) है।",
+      "explanation_image": null
     },
     {
       "id": 92,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:निम्नलिखित गद्यांश को ध्यानपूर्वक पढ़कर पूछे गए प्रश्नों के लिए सही विकल्प विकल्प चुनिए:हर बड़ा साहित्यकार साहित्य और विशेषकर शब्द की गरिमा और मर्यादा पर लड़ने-मरने को तैयार रहता है। बच्चन जी के साथ भी कुछ ऐसा ही है। बच्चन जी ने जितना आदर अपने साहित्य का किया, उतना ही भारत तथा विदेशों के साहित्य का भी किया। इसलिए समय-समय पर अनुवाद संबंधी नीति बनाते हुए उन्होंने भाषा की गरिमा बनाए रखने पर बहुत बल दिया। उनका कहना था कि अंग्रेज़ी का अनुवाद बाजारू स्तर की हिंदी में माँगना हिंदी के साथ अन्याय करना है। जब-जब हिंदी अंग्रेज़ी के स्तर तक उठने की कोशिश करती है, तो उस पर तुरंत दोष लगाया जाता है कि वह कठिन और क्लिष्ट है तथा जब वह उससे घबराकर अति सरलता की ओर जाती है, तो उसे अपरिपक्व कह दिया जाता है। बच्चन जी ने अपने गद्य और पद्य दोनों में ही एक सुंदर, सुगठित और सरल हिंदी का प्रयोग करके यह सिद्ध कर दिया कि आवश्यकता के अनुसार संस्कृत की ओर झुकती हिंदी भी लोकप्रिय और लोकरंजक हो सकती है। हरिवंश राय बच्चन प्रखर बुद्धि के कवि थे। उनकी भाषा शुद्ध साहित्यिक खड़ी बोली है। इन्होंने संस्कृत की तत्सम शब्दावली का अधिकता से प्रयोग किया है। इसके साथ-साथ तद्भव शब्दावली, उर्दू, फ़ारसी, अंग्रेज़ी आदि भाषाओं के शब्दों का भी प्रयोग हुआ है। कवि ने प्रांजल शैली का प्रयोग किया है, जिसके कारण इनका साहित्य लोकप्रिय हुआ है। इन्होंने लोकगीतों और मुक्तक छंदों की रचना भी की है। अपनी गेयता, सरलता, सरसता और खुलेपन के कारण इनके गीत बहुत ही पसंद किए जाते हैं।अनुवाद संबंधी नीति बनाते समय बच्चन जी ने किस बात पर अधिक बल दिया?",
+      "question_image": null,
       "options": [
         "आम बोल-चाल की भाषा के प्रयोग पर",
         "अपने साहित्य के प्रचार पर",
         "भाषा की गरिमा बनाए रखने पर",
         "विदेशी साहित्य के प्रचार पर"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (भाषा की गरिमा बनाए रखने पर) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (भाषा की गरिमा बनाए रखने पर) है।",
+      "explanation_image": null
     },
     {
       "id": 93,
       "section": "Hindi Language and Comprehension",
       "question": "Comprehension:निम्नलिखित गद्यांश के आधार पर प्रश्नों के उत्तर दें।.जनमत निर्माण सिद्धांत की प्रासंगिकता आज भी उतनी ही है जितनी पहले हुआ करती थी। नई सूचना तकनीक के आगमन से आज सूचनाओं पर कुछ शक्तिशाली वर्ग का आधिपत्य नहीं रह गया है। आज जनता भी सूचनाओं को जल्द से जल्द प्राप्त करती है। एक लोकतांत्रिक व्यवस्था में सरकार हमेशा जनता का प्रतिनिधित्व करती है और यहाँ चुनाव आवश्यक होते हैं। आज चुनावी अभियान ज्यादा सुनियोजित हो गए हैं परंतु अभी भी चुनाव का मुख्य खर्च विज्ञापन एवं रैली पर ही होता है। अपने संदेशों को जनता तक पहुँचाना और उनका विश्वास जीतना ही राजनीतिज्ञों का प्रमुख उद्देश्य होता है। चुनाव अभियान में राजनेता अपने भाषण द्वारा जनता को अपने हक में वोट देने का अनुनय करता है और उसे अपना भाषण ऐसे तैयार करना होता है जिससे वो अपने लिए ज्यादा से ज्यादा श्रोताओं का विश्वास जीत सके। जनता उसी राजनेता पर विश्वास करती है जिससे वो एक जुड़ाव महसूस करती है और जो अपने चरित्र एवं अपने पूर्व कार्यों से एक भरोसेमंद पात्र साबित हों। मीडिया के प्रत्यक्ष एवं सीधे प्रभाव को पूरी तरह से नकारा नहीं जा सकता क्योंकि विश्व के कई चुनाव अभियानों ने यह सिद्ध कर दिया है कि मीडिया जनमत निर्माण की आँधी को हवा देने में सफल होती है। कोई भी चुनाव अभियान सिर्फ रैली, भाषण या मीडिया के दम पर नहीं जीता जा सकता, ओपिनीयन लीडर्स का एक खास महत्व है।गद्यांश  के आधार पर उत्तर दें।\nराजनेता किस प्रकार जनता को अपने हक में वोट देने का अनुनय करता है?",
+      "question_image": null,
       "options": [
         "अपने भाषण द्वारा",
         "अपने स्वभाव द्वारा",
         "उदात्त चरित्र के द्वारा",
         "अच्छे कार्यों द्वारा"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (अपने भाषण द्वारा) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (अपने भाषण द्वारा) है।",
+      "explanation_image": null
     },
     {
       "id": 94,
       "section": "Hindi Language and Comprehension",
       "question": "रामलाल ने मुझे देखकर कहा, अब तो ईश्वर का ही भरोसा है । उपरोक्त दिए गए रेखांकित शब्द का पर्यायवाची होगा –",
+      "question_image": null,
       "options": [
         "आशीष",
         "आशय",
         "प्रश्रय",
         "विश्वास"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (विश्वास) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (विश्वास) है।",
+      "explanation_image": null
     },
     {
       "id": 95,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित वाक्यों में उनके प्रथम तथा अन्तिम अंश संख्या 1 और 6 के अन्तर्गत दिए गए हैं। बीच वाले चार अंश (य), (र), (ल), (व) के अन्तर्गत बिना क्रम के हैं। चारों अंशों को उचित क्रमानुसार व्यवस्थित कर सही विकल्य चुनें।(1) भारतीय गाँवों के-(य) अभी भारत सरकार को(र) सुधार के लिए(ल) और राज्य सरकारों को(व) बुहत प्रयत्न(6) करना होगा।",
+      "question_image": null,
       "options": [
         "ल र य व",
         "ल य र व",
         "र य ल व",
         "र य व ल"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (र य ल व) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (र य ल व) है।",
+      "explanation_image": null
     },
     {
       "id": 96,
       "section": "Hindi Language and Comprehension",
       "question": "निम्न विकल्पों में 'गंभीर' का विलोम नहीं है -",
+      "question_image": null,
       "options": [
         "चपल",
         "वाचाल",
         "शांत",
         "उथला"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (शांत) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (शांत) है।",
+      "explanation_image": null
     },
     {
       "id": 97,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित वाक्य में चिन्हित शब्द का पर्यायवाची लिखें।तुम्हारे पास एक ही नौका है, वो भी टूटी हुई।",
+      "question_image": null,
       "options": [
         "तनय",
         "बेड़ा",
         "शैल",
         "रंक"
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (बेड़ा) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (बेड़ा) है।",
+      "explanation_image": null
     },
     {
       "id": 98,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित वाक्य की पूर्ति उचित कारक शब्द से करें।यहाँ किसी ___ मत बुलाना।",
+      "question_image": null,
       "options": [
         "से",
         "द्वारा",
         "को",
         "हेतु"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (को) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (को) है।",
+      "explanation_image": null
     },
     {
       "id": 99,
       "section": "Hindi Language and Comprehension",
       "question": "निम्नलिखित वाक्य की पूर्ति उचित कारक शब्द से करें।यहाँ संतरे __ बाग हैं।",
+      "question_image": null,
       "options": [
         "पर",
         "से",
         "को",
         "के"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (के) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (के) है।",
+      "explanation_image": null
     },
     {
       "id": 100,
       "section": "Hindi Language and Comprehension",
       "question": "नीचे दिए गए वाक्यांश के लिए चार विकल्पों  में से कोई एक उचित 'सार्थक शब्द' का चुनाव कीजिए  जो बदली हुई परिस्थितियों के अनुकूल अपने को बदल सके -",
+      "question_image": null,
       "options": [
         "गगनस्पर्शी",
         "गत्यात्मक",
         "गांगेच",
         "गरिष्ठ"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (गांगेच) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (गांगेच) है।",
+      "explanation_image": null
     }
   ]
 }

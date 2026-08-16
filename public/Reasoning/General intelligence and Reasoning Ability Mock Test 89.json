@@ -6,281 +6,321 @@
       "id": 1,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the following letter-clusters should replace # and % so that the pattern and relationship followed between the letter-cluster pair on the left side of :: is the same as that on the right side of ::?# : MHA :: AVO : %",
+      "question_image": null,
       "options": [
         "# = IDW, % = EZS",
         "# = PDW, % = EZS",
         "# = IDW, % = MZS",
         "# = IDW, % = EZO"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (# = IDW, % = EZS) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (# = IDW, % = EZS) है।",
+      "explanation_image": null
     },
     {
       "id": 2,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements:All cameras are rugs.All rugs are bananas.All bananas are lamps.Conclusions: (I) All cameras are lamps.(II) Some lamps are rugs.",
+      "question_image": null,
       "options": [
         "Only conclusion (I) follows.",
         "Both conclusions (I) and (II) follow.",
         "Only conclusion (II) follows.",
         "Neither conclusion (I) nor (II) follows."
       ],
+      "option_images": [],
       "answer": 1,
-      "correct_answer": "B",
-      "explanation": "सही उत्तर विकल्प 'B' (Both conclusions (I) and (II) follow.) है।"
+      "explanation": "सही उत्तर विकल्प 'B' (Both conclusions (I) and (II) follow.) है।",
+      "explanation_image": null
     },
     {
       "id": 3,
       "section": "General intelligence and Reasoning Ability",
       "question": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which is the letter-cluster that does NOT belong to that group?\n(Note: The odd one out is not based on the number of consonants/vowels or their positions in the letter-cluster.)",
+      "question_image": null,
       "options": [
         "WR - QL",
         "ZU - TO",
         "MH - GB",
         "QP - LJ"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (QP - LJ) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (QP - LJ) है।",
+      "explanation_image": null
     },
     {
       "id": 4,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete?MIL54, QMP46, UQT38, YUX30, ?",
+      "question_image": null,
       "options": [
         "CIB22",
         "CYA22",
         "DYB22",
         "CYB22"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (CYB22) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (CYB22) है।",
+      "explanation_image": null
     },
     {
       "id": 5,
       "section": "General intelligence and Reasoning Ability",
       "question": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete?UTR 30, SRP 28, QPN 26, ONL 24,  ?",
+      "question_image": null,
       "options": [
         "NLI 16",
         "NKI 20",
         "MKJ 18",
         "MLJ 22"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (MLJ 22) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (MLJ 22) है।",
+      "explanation_image": null
     },
     {
       "id": 6,
       "section": "General intelligence and Reasoning Ability",
       "question": "Pawan starts from Point A and drives 11 km towards the west. He then takes a left turn and drives 10 km, takes another left turn and drives 8 km. He takes a final right turn and drives 5 km and stops at Point B. Sohail starts from Point P, which is 21 km to the east of Point A, and drives 9 km towards the east. He then takes a right turn and drives 15 km. He takes a final right turn and drives 7 km and stops at Point Q. What is the shortest distance between Point Q and Point B? (All turns are 90-degree turns only.)",
+      "question_image": null,
       "options": [
         "26 km",
         "24 km",
         "25 km",
         "22 km"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (26 km) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (26 km) है।",
+      "explanation_image": null
     },
     {
       "id": 7,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the five, three-digit numbers given below.(Left)   177   965   672   847   644   (Right)(Example- 697 – First digit = 6, second digit = 9 and third digit = 7)NOTE - All operations to be done from left to right.What will be the resultant if the third digit of the lowest number is subtracted from the first digit of highest number?",
+      "question_image": null,
       "options": [
         "7",
         "6",
         "2",
         "5"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (2) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (2) है।",
+      "explanation_image": null
     },
     {
       "id": 8,
       "section": "General intelligence and Reasoning Ability",
       "question": "P, Q, R, S, T and U live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it, number 2 and so on till the topmost floor is numbered 6. Q lives on an odd numbered floor but not 3. The sum of floors on which Q and U live is 7. T lives immediately below S. P lives on the top floor. How many people live below S?",
+      "question_image": null,
       "options": [
         "4",
         "1",
         "2",
         "3"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (3) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (3) है।",
+      "explanation_image": null
     },
     {
       "id": 9,
       "section": "General intelligence and Reasoning Ability",
       "question": "Based on English Alphabetical order, select the triad which follows the same pattern as that followed by the two triads given below. Both triads follow the same pattern.MH - PK - SVPK - SN - VY",
+      "question_image": null,
       "options": [
         "HB - JE - MO",
         "GB - JE - MO",
         "HB - JF - MO",
         "GB - JE - MP"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (GB - JE - MP) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (GB - JE - MP) है।",
+      "explanation_image": null
     },
     {
       "id": 10,
       "section": "General intelligence and Reasoning Ability",
       "question": "Eight people are sitting in two parallel rows containing four people each in such a way that there is equal distance between adjacent persons.In row 1 – A, B, C and D are seated and all of them are facing south.In row 2 – P, Q, R and S are seated and all of them are facing north.Thus, each person faces another person from the other row.Only two people sit to the right of P. B sits third to the right of A. D sits to the immediate left of the person facing P. S faces the person sitting second to the left of C. R does not face D. Who amongst the following faces D?",
+      "question_image": null,
       "options": [
         "Q",
         "R",
         "P",
         "S"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Q) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Q) है।",
+      "explanation_image": null
     },
     {
       "id": 11,
       "section": "General intelligence and Reasoning Ability",
       "question": "P, Q, R, S, T and U live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it, number 2 and so on till the topmost floor is numbered 6. Q lives on an even- numbered floor but not 6. The sum of floors on which R and Q live is 9. The sum of floors on which Q and P live is 5.S lives immediately below T. How many people live below T?",
+      "question_image": null,
       "options": [
         "1",
         "3",
         "2",
         "4"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (2) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (2) है।",
+      "explanation_image": null
     },
     {
       "id": 12,
       "section": "General intelligence and Reasoning Ability",
       "question": "What should come in place of the question mark (?) in the given series?29      36      47      62     81       ?",
+      "question_image": null,
       "options": [
         "103",
         "102",
         "105",
         "104"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (104) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (104) है।",
+      "explanation_image": null
     },
     {
       "id": 13,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language,'food and eating' is coded as 'sw lc zy''healthy food habit' is coded as 'zv um sw''eating healthy junk' is coded as 'lc mx um'(all the codes are two letter coded only)What does the code 'sw' stand for?",
+      "question_image": null,
       "options": [
         "food",
         "and",
         "eating",
         "habit"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (food) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (food) है।",
+      "explanation_image": null
     },
     {
       "id": 14,
       "section": "General intelligence and Reasoning Ability",
       "question": "In a certain code language, A - B means ‘A is the son of B’, A < B means ‘A is the father of B’, A & B means ‘A is the wife of B’ andA $ B means ‘A is the brother of B’.Based on the above, how is D related to X if 'D & E - M < N $ X’?",
+      "question_image": null,
       "options": [
         "Brother's wife",
         "Sister's son",
         "Brother's son",
         "Sister's daughter"
       ],
+      "option_images": [],
       "answer": 0,
-      "correct_answer": "A",
-      "explanation": "सही उत्तर विकल्प 'A' (Brother's wife) है।"
+      "explanation": "सही उत्तर विकल्प 'A' (Brother's wife) है।",
+      "explanation_image": null
     },
     {
       "id": 15,
       "section": "General intelligence and Reasoning Ability",
       "question": "Below are given two sets of numbers. In each set of numbers, a certain mathematical operation on first number results in the second number. Similarly, certain mathematical operation on second number results in the third number and so on. Which of the given options follows the same set of operations as in question?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13, can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)6 – 15 – 7 – 17    ;    10 – 23 – 15 – 251095",
+      "question_image": null,
       "options": [
         "4 – 11 – 19 – 29",
         "7 – 17 – 9 – 20",
         "8 – 19 – 11 – 21",
         "12 – 21 – 13 – 23"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (8 – 19 – 11 – 21) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (8 – 19 – 11 – 21) है।",
+      "explanation_image": null
     },
     {
       "id": 16,
       "section": "General intelligence and Reasoning Ability",
       "question": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Which numbers should replace X and Y so that the pattern followed by the two numbers on the left side of :: is the same as that on the right side of ::?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13, can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)X : 69 :: 5 : Y",
+      "question_image": null,
       "options": [
         "X = 6, Y = 130",
         "X = 4, Y = 132",
         "X = 5, Y = 131",
         "X = 4, Y = 130"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (X = 4, Y = 130) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (X = 4, Y = 130) है।",
+      "explanation_image": null
     },
     {
       "id": 17,
       "section": "General intelligence and Reasoning Ability",
       "question": "In this question, two statement are given followed by two conclusions numbered I and II. You have to assume everything in the statement to be true and decide which of them logically follow(s) beyond a reasonable doubt from the information given in the statements.Statements:A. Consuming fast foods on a regular basis and lack of physical exercise can cause diabetes.B. One must consume a balanced diet of complex carbs, protein, essential fats, vitamins and minerals as well as probiotics for a good health.Conclusions:I. Controlling the portions of food we consume can help us fight diabetes.II. Consuming a balanced diet and regular exercise can help keep diabetes at bay.",
+      "question_image": null,
       "options": [
         "Only conclusion I follows.",
         "None of the conclusions follows.",
         "Both the conclusions follow.",
         "Only conclusion II follows."
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Only conclusion II follows.) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Only conclusion II follows.) है।",
+      "explanation_image": null
     },
     {
       "id": 18,
       "section": "General intelligence and Reasoning Ability",
       "question": "If ‘+’ means ‘−’, ‘−’ means ‘×’, ‘×’ means ‘÷’, ‘÷’ means ‘+’, then what will come in place of the question mark (?) in the following equation?37 + 5 – 9 ÷ 120 × 4 ÷ 15 = ?",
+      "question_image": null,
       "options": [
         "29",
         "12",
         "37",
         "27"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (37) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (37) है।",
+      "explanation_image": null
     },
     {
       "id": 19,
       "section": "General intelligence and Reasoning Ability",
       "question": "This question is based on the following words.RISK    PINK    CUSP    SLABIn each of the words, each vowel is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. In how many letter-clusters thus formed, will no vowel appear?",
+      "question_image": null,
       "options": [
         "Three",
         "Four",
         "One",
         "Two"
       ],
+      "option_images": [],
       "answer": 2,
-      "correct_answer": "C",
-      "explanation": "सही उत्तर विकल्प 'C' (One) है।"
+      "explanation": "सही उत्तर विकल्प 'C' (One) है।",
+      "explanation_image": null
     },
     {
       "id": 20,
       "section": "General intelligence and Reasoning Ability",
       "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements:Some fruits are apples.No apples are oranges.Some oranges are lemons.Conclusions:(I): No apple is a lemon.(II): Some fruits are oranges.",
+      "question_image": null,
       "options": [
         "Both conclusions (I) and (II) follow",
         "Only conclusion (I) follows",
         "Only conclusion (II) follows",
         "Neither conclusion (I) nor (II) follows"
       ],
+      "option_images": [],
       "answer": 3,
-      "correct_answer": "D",
-      "explanation": "सही उत्तर विकल्प 'D' (Neither conclusion (I) nor (II) follows) है।"
+      "explanation": "सही उत्तर विकल्प 'D' (Neither conclusion (I) nor (II) follows) है।",
+      "explanation_image": null
     }
   ]
 }
