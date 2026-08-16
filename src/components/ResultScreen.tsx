@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { Quiz, Question, Bookmark } from '../types';
-import { Trophy, RefreshCw, Star, CheckCircle, XCircle, Share2, Download, AlertCircle, ArrowLeft, Heart, Check, BookOpen, Send, Clock, Zap, Hourglass, BarChart3, TrendingUp, AlertTriangle, Filter } from 'lucide-react';
+import { Trophy, RefreshCw, Star, CheckCircle, XCircle, Share2, Download, AlertCircle, ArrowLeft, Heart, Check, BookOpen, Send, Clock, Zap, Hourglass, BarChart3, TrendingUp, AlertTriangle, Filter, Layers, ArrowUpDown, SlidersHorizontal } from 'lucide-react';
 import { generateQuizPdf } from '../lib/pdfGenerator';
 import { trackQuizComplete, trackPageView, trackPdfDownload } from '../lib/analytics';
 import { cleanOptionText } from '../lib/formatText';
@@ -32,6 +32,8 @@ export default function ResultScreen({
 }: ResultScreenProps) {
   const [activeTab, setActiveTab] = useState<'overview' | 'review'>('overview');
   const [timeFilter, setTimeFilter] = useState<'all' | 'correct' | 'incorrect' | 'unattempted' | 'slow'>('all');
+  const [selectedSection, setSelectedSection] = useState<string>('all');
+  const [sortBy, setSortBy] = useState<'qnum' | 'slowest' | 'fastest' | 'incorrect' | 'correct' | 'skipped'>('qnum');
   const [pdfGenerating, setPdfGenerating] = useState(false);
   const [pdfSuccess, setPdfSuccess] = useState(false);
   const [shareScoreGenerating, setShareScoreGenerating] = useState(false);
@@ -307,6 +309,72 @@ export default function ResultScreen({
       };
     });
 
+    // Section-Wise Timing & Accuracy Aggregation
+    const sectionMap: Record<string, {
+      sectionName: string;
+      totalQuestions: number;
+      attemptedCount: number;
+      correctCount: number;
+      incorrectCount: number;
+      unattemptedCount: number;
+      totalTimeSpent: number;
+    }> = {};
+
+    questionRows.forEach(row => {
+      const secName = row.question.section || 'General Section';
+      if (!sectionMap[secName]) {
+        sectionMap[secName] = {
+          sectionName: secName,
+          totalQuestions: 0,
+          attemptedCount: 0,
+          correctCount: 0,
+          incorrectCount: 0,
+          unattemptedCount: 0,
+          totalTimeSpent: 0
+        };
+      }
+      const sec = sectionMap[secName];
+      sec.totalQuestions += 1;
+      sec.totalTimeSpent += row.time;
+
+      if (row.status === 'correct') {
+        sec.correctCount += 1;
+        sec.attemptedCount += 1;
+      } else if (row.status === 'incorrect') {
+        sec.incorrectCount += 1;
+        sec.attemptedCount += 1;
+      } else {
+        sec.unattemptedCount += 1;
+      }
+    });
+
+    const totalCalculatedTime = Math.max(1, timeSpentSeconds || Object.values(sectionMap).reduce((acc, s) => acc + s.totalTimeSpent, 0));
+
+    const sectionMetrics = Object.values(sectionMap).map(sec => {
+      const avgTime = sec.attemptedCount > 0 ? Math.round(sec.totalTimeSpent / sec.attemptedCount) : 0;
+      const accuracy = sec.attemptedCount > 0 ? Math.round((sec.correctCount / sec.attemptedCount) * 100) : 0;
+      const timePercent = Math.min(100, Math.round((sec.totalTimeSpent / totalCalculatedTime) * 100));
+
+      let paceLabel = 'Optimal Pace';
+      let paceBadge = 'bg-emerald-50 text-emerald-700 border-emerald-200';
+      if (avgTime > 65) {
+        paceLabel = 'Slow Pace';
+        paceBadge = 'bg-rose-50 text-rose-700 border-rose-200';
+      } else if (avgTime > 45) {
+        paceLabel = 'Moderate Pace';
+        paceBadge = 'bg-amber-50 text-amber-700 border-amber-200';
+      }
+
+      return {
+        ...sec,
+        avgTime,
+        accuracy,
+        timePercent,
+        paceLabel,
+        paceBadge
+      };
+    });
+
     const attemptedCount = correctCount + incorrectCount;
     const avgOverallTime = questions.length > 0 ? Math.round(timeSpentSeconds / questions.length) : 0;
     const avgAttemptedTime = attemptedCount > 0 ? Math.round((totalCorrectTime + totalIncorrectTime) / attemptedCount) : 0;
@@ -333,6 +401,7 @@ export default function ResultScreen({
       fastestItem,
       slowestItem,
       questionRows,
+      sectionMetrics,
       paceGrade,
       paceColor
     };
@@ -563,80 +632,255 @@ export default function ResultScreen({
           </div>
         )}
 
-        {/* Interactive Question-by-Question Time Breakdown Matrix */}
-        <div className="space-y-3 pt-2">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-            <h4 className="text-xs font-extrabold text-slate-700 uppercase tracking-wider flex items-center gap-1.5">
-              <BarChart3 className="w-3.5 h-3.5 text-blue-600" />
-              Question-by-Question Time Breakdown Matrix
-            </h4>
+        {/* SECTION-WISE TIMING ANALYSIS CHART */}
+        {timeMetrics.sectionMetrics && timeMetrics.sectionMetrics.length > 0 && (
+          <div className="space-y-3 pt-4 border-t border-slate-100">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+              <div className="flex items-center gap-2">
+                <span className="p-1.5 bg-indigo-50 text-indigo-700 rounded-lg">
+                  <Layers className="w-4 h-4" />
+                </span>
+                <div>
+                  <h4 className="text-xs font-black text-slate-800 uppercase tracking-wider">
+                    Section-Wise Timing & Performance Chart
+                  </h4>
+                  <p className="text-[11px] text-slate-500">
+                    Click any section card to isolate its question-wise analysis below
+                  </p>
+                </div>
+              </div>
 
-            {/* Filter Pills */}
-            <div className="flex items-center gap-1 overflow-x-auto pb-1 scrollbar-none text-[10px] font-bold">
-              <button
-                onClick={() => setTimeFilter('all')}
-                className={`px-2.5 py-1 rounded-lg border transition-all cursor-pointer ${
-                  timeFilter === 'all'
-                    ? 'bg-blue-600 text-white border-blue-600 shadow-xs'
-                    : 'bg-slate-50 hover:bg-slate-100 text-slate-600 border-slate-200'
-                }`}
-              >
-                All ({totalQuestions})
-              </button>
-              <button
-                onClick={() => setTimeFilter('correct')}
-                className={`px-2.5 py-1 rounded-lg border transition-all cursor-pointer ${
-                  timeFilter === 'correct'
-                    ? 'bg-emerald-600 text-white border-emerald-600 shadow-xs'
-                    : 'bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border-emerald-200'
-                }`}
-              >
-                Correct ({correctCount})
-              </button>
-              <button
-                onClick={() => setTimeFilter('incorrect')}
-                className={`px-2.5 py-1 rounded-lg border transition-all cursor-pointer ${
-                  timeFilter === 'incorrect'
-                    ? 'bg-rose-600 text-white border-rose-600 shadow-xs'
-                    : 'bg-rose-50 hover:bg-rose-100 text-rose-700 border-rose-200'
-                }`}
-              >
-                Incorrect ({incorrectCount})
-              </button>
-              <button
-                onClick={() => setTimeFilter('slow')}
-                className={`px-2.5 py-1 rounded-lg border transition-all cursor-pointer ${
-                  timeFilter === 'slow'
-                    ? 'bg-amber-600 text-white border-amber-600 shadow-xs'
-                    : 'bg-amber-50 hover:bg-amber-100 text-amber-800 border-amber-200'
-                }`}
-              >
-                Overtime (&gt;45s)
-              </button>
-              <button
-                onClick={() => setTimeFilter('unattempted')}
-                className={`px-2.5 py-1 rounded-lg border transition-all cursor-pointer ${
-                  timeFilter === 'unattempted'
-                    ? 'bg-slate-700 text-white border-slate-700 shadow-xs'
-                    : 'bg-slate-50 hover:bg-slate-100 text-slate-500 border-slate-200'
-                }`}
-              >
-                Skipped ({unattemptedCount})
-              </button>
+              {selectedSection !== 'all' && (
+                <button
+                  onClick={() => setSelectedSection('all')}
+                  className="text-[11px] font-bold text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-2.5 py-1 rounded-lg border border-blue-200 transition-all cursor-pointer self-start sm:self-auto"
+                >
+                  Clear Filter (Show All)
+                </button>
+              )}
+            </div>
+
+            {/* Section Breakdown Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              {timeMetrics.sectionMetrics.map((sec, idx) => {
+                const isSelected = selectedSection === sec.sectionName;
+                const secTimeStr = sec.totalTimeSpent < 60 
+                  ? `${sec.totalTimeSpent}s` 
+                  : `${Math.floor(sec.totalTimeSpent / 60)}m ${sec.totalTimeSpent % 60}s`;
+
+                return (
+                  <div
+                    key={idx}
+                    onClick={() => setSelectedSection(isSelected ? 'all' : sec.sectionName)}
+                    className={`p-4 rounded-2xl border transition-all cursor-pointer relative overflow-hidden ${
+                      isSelected
+                        ? 'bg-blue-50/80 border-blue-500 shadow-sm ring-2 ring-blue-400/30'
+                        : 'bg-slate-50/60 hover:bg-slate-100/80 border-slate-200/80 hover:border-slate-300'
+                    }`}
+                  >
+                    <div className="flex items-start justify-between gap-2 mb-2">
+                      <div className="space-y-0.5 min-w-0 flex-1">
+                        <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-500">
+                          Section {idx + 1} ({sec.totalQuestions} Questions)
+                        </span>
+                        <h5 className="text-sm font-bold text-slate-900 truncate">
+                          {sec.sectionName}
+                        </h5>
+                      </div>
+                      <span className={`text-[10px] font-black px-2 py-0.5 rounded-full border shrink-0 ${sec.paceBadge}`}>
+                        {sec.paceLabel}
+                      </span>
+                    </div>
+
+                    <div className="grid grid-cols-3 gap-2 py-2 border-y border-slate-200/60 text-center my-2 bg-white/70 rounded-xl">
+                      <div>
+                        <span className="text-[9px] font-bold text-slate-500 uppercase block">Total Time</span>
+                        <strong className="text-xs font-black text-slate-800">{secTimeStr}</strong>
+                      </div>
+                      <div>
+                        <span className="text-[9px] font-bold text-slate-500 uppercase block">Avg / Q</span>
+                        <strong className="text-xs font-black text-blue-700">{sec.avgTime}s</strong>
+                      </div>
+                      <div>
+                        <span className="text-[9px] font-bold text-slate-500 uppercase block">Accuracy</span>
+                        <strong className={`text-xs font-black ${sec.accuracy >= 60 ? 'text-emerald-600' : 'text-amber-600'}`}>
+                          {sec.accuracy}%
+                        </strong>
+                      </div>
+                    </div>
+
+                    {/* Section Time Progress Bar */}
+                    <div className="space-y-1 pt-1">
+                      <div className="flex items-center justify-between text-[10px] font-bold text-slate-500">
+                        <span>Share of Total Time</span>
+                        <span className="text-blue-700 font-black">{sec.timePercent}%</span>
+                      </div>
+                      <div className="w-full bg-slate-200/80 rounded-full h-2 overflow-hidden">
+                        <div
+                          className="bg-blue-600 h-full rounded-full transition-all"
+                          style={{ width: `${sec.timePercent}%` }}
+                        />
+                      </div>
+                    </div>
+
+                    {/* Question Status Pills */}
+                    <div className="flex items-center gap-2 text-[10px] font-bold mt-3">
+                      <span className="text-emerald-700 bg-emerald-100/80 px-2 py-0.5 rounded-md">
+                        ✓ {sec.correctCount} Correct
+                      </span>
+                      <span className="text-rose-700 bg-rose-100/80 px-2 py-0.5 rounded-md">
+                        ✗ {sec.incorrectCount} Incorrect
+                      </span>
+                      {sec.unattemptedCount > 0 && (
+                        <span className="text-slate-600 bg-slate-200/80 px-2 py-0.5 rounded-md">
+                          ○ {sec.unattemptedCount} Skipped
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
+        {/* Interactive Question-by-Question Time Breakdown Matrix */}
+        <div className="space-y-3 pt-4 border-t border-slate-100">
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-3">
+            <div className="space-y-0.5">
+              <h4 className="text-xs font-black text-slate-800 uppercase tracking-wider flex items-center gap-1.5">
+                <BarChart3 className="w-3.5 h-3.5 text-blue-600" />
+                Question-by-Question Timing Breakdown
+              </h4>
+              <p className="text-[11px] font-medium text-slate-500">
+                {selectedSection !== 'all' ? `Filtered by "${selectedSection}"` : 'Showing all questions'}
+              </p>
+            </div>
+
+            <div className="flex flex-wrap items-center gap-2">
+              {/* Section Filter Dropdown */}
+              {timeMetrics.sectionMetrics && timeMetrics.sectionMetrics.length > 1 && (
+                <div className="flex items-center gap-1 bg-slate-100 border border-slate-200 px-2.5 py-1.5 rounded-xl text-xs font-bold text-slate-700">
+                  <Filter className="w-3.5 h-3.5 text-slate-500 shrink-0" />
+                  <select
+                    value={selectedSection}
+                    onChange={(e) => setSelectedSection(e.target.value)}
+                    className="bg-transparent border-none focus:outline-none text-xs font-bold text-slate-800 cursor-pointer"
+                  >
+                    <option value="all">All Sections ({timeMetrics.questionRows.length})</option>
+                    {timeMetrics.sectionMetrics.map((sec, i) => (
+                      <option key={i} value={sec.sectionName}>
+                        {sec.sectionName} ({sec.totalQuestions})
+                      </option>
+                    ))}
+                  </select>
+                </div>
+              )}
+
+              {/* Sorting Feature Dropdown */}
+              <div className="flex items-center gap-1 bg-blue-50 border border-blue-200 px-2.5 py-1.5 rounded-xl text-xs font-bold text-blue-900">
+                <ArrowUpDown className="w-3.5 h-3.5 text-blue-600 shrink-0" />
+                <span className="text-[11px] text-blue-600 font-medium hidden sm:inline">Sort:</span>
+                <select
+                  value={sortBy}
+                  onChange={(e) => setSortBy(e.target.value as any)}
+                  className="bg-transparent border-none focus:outline-none text-xs font-extrabold text-blue-900 cursor-pointer"
+                >
+                  <option value="qnum">Q. Number (Default)</option>
+                  <option value="slowest">Slowest First ⏳</option>
+                  <option value="fastest">Fastest First ⚡</option>
+                  <option value="incorrect">Incorrect First ❌</option>
+                  <option value="correct">Correct First ✓</option>
+                  <option value="skipped">Skipped First ○</option>
+                </select>
+              </div>
             </div>
           </div>
 
+          {/* Status Filter Pills */}
+          <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none text-[10px] font-bold">
+            <button
+              onClick={() => setTimeFilter('all')}
+              className={`px-2.5 py-1.5 rounded-xl border transition-all cursor-pointer whitespace-nowrap ${
+                timeFilter === 'all'
+                  ? 'bg-blue-600 text-white border-blue-600 shadow-xs'
+                  : 'bg-slate-50 hover:bg-slate-100 text-slate-600 border-slate-200'
+              }`}
+            >
+              All Status ({totalQuestions})
+            </button>
+            <button
+              onClick={() => setTimeFilter('correct')}
+              className={`px-2.5 py-1.5 rounded-xl border transition-all cursor-pointer whitespace-nowrap ${
+                timeFilter === 'correct'
+                  ? 'bg-emerald-600 text-white border-emerald-600 shadow-xs'
+                  : 'bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border-emerald-200'
+              }`}
+            >
+              ✓ Correct ({correctCount})
+            </button>
+            <button
+              onClick={() => setTimeFilter('incorrect')}
+              className={`px-2.5 py-1.5 rounded-xl border transition-all cursor-pointer whitespace-nowrap ${
+                timeFilter === 'incorrect'
+                  ? 'bg-rose-600 text-white border-rose-600 shadow-xs'
+                  : 'bg-rose-50 hover:bg-rose-100 text-rose-700 border-rose-200'
+              }`}
+            >
+              ❌ Incorrect ({incorrectCount})
+            </button>
+            <button
+              onClick={() => setTimeFilter('slow')}
+              className={`px-2.5 py-1.5 rounded-xl border transition-all cursor-pointer whitespace-nowrap ${
+                timeFilter === 'slow'
+                  ? 'bg-amber-600 text-white border-amber-600 shadow-xs'
+                  : 'bg-amber-50 hover:bg-amber-100 text-amber-800 border-amber-200'
+              }`}
+            >
+              ⏳ Overtime (&gt;45s)
+            </button>
+            <button
+              onClick={() => setTimeFilter('unattempted')}
+              className={`px-2.5 py-1.5 rounded-xl border transition-all cursor-pointer whitespace-nowrap ${
+                timeFilter === 'unattempted'
+                  ? 'bg-slate-700 text-white border-slate-700 shadow-xs'
+                  : 'bg-slate-50 hover:bg-slate-100 text-slate-500 border-slate-200'
+              }`}
+            >
+              ○ Skipped ({unattemptedCount})
+            </button>
+          </div>
+
           {/* Matrix List Rows */}
-          <div className="border border-slate-200 rounded-2xl overflow-hidden divide-y divide-slate-100 max-h-80 overflow-y-auto">
-            {timeMetrics.questionRows
-              .filter(row => {
-                if (timeFilter === 'correct') return row.status === 'correct';
-                if (timeFilter === 'incorrect') return row.status === 'incorrect';
-                if (timeFilter === 'unattempted') return row.status === 'unattempted';
-                if (timeFilter === 'slow') return row.time > 45;
-                return true;
-              })
-              .map(row => {
+          <div className="border border-slate-200 rounded-2xl overflow-hidden divide-y divide-slate-100 max-h-96 overflow-y-auto">
+            {(() => {
+              let rows = [...timeMetrics.questionRows];
+
+              if (selectedSection !== 'all') {
+                rows = rows.filter(r => (r.question.section || 'General Section') === selectedSection);
+              }
+
+              if (timeFilter === 'correct') rows = rows.filter(r => r.status === 'correct');
+              else if (timeFilter === 'incorrect') rows = rows.filter(r => r.status === 'incorrect');
+              else if (timeFilter === 'unattempted') rows = rows.filter(r => r.status === 'unattempted');
+              else if (timeFilter === 'slow') rows = rows.filter(r => r.time > 45);
+
+              if (sortBy === 'slowest') rows.sort((a, b) => b.time - a.time);
+              else if (sortBy === 'fastest') rows.sort((a, b) => a.time - b.time);
+              else if (sortBy === 'incorrect') rows.sort((a, b) => (a.status === 'incorrect' ? -1 : 1));
+              else if (sortBy === 'correct') rows.sort((a, b) => (a.status === 'correct' ? -1 : 1));
+              else if (sortBy === 'skipped') rows.sort((a, b) => (a.status === 'unattempted' ? -1 : 1));
+              else rows.sort((a, b) => a.index - b.index);
+
+              if (rows.length === 0) {
+                return (
+                  <div className="p-8 text-center text-slate-500 font-medium text-xs">
+                    No questions found matching the selected section or filter.
+                  </div>
+                );
+              }
+
+              return rows.map(row => {
                 const maxTimeRef = Math.max(90, ...timeMetrics.questionRows.map(r => r.time));
                 const widthPercent = Math.min(100, Math.max(8, (row.time / maxTimeRef) * 100));
 
@@ -650,14 +894,14 @@ export default function ResultScreen({
                 if (row.status === 'correct') {
                   barColor = "bg-emerald-500";
                   statusBadge = (
-                    <span className="text-[9px] font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded-full flex items-center gap-1">
+                    <span className="text-[9px] font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded-full flex items-center gap-1 shrink-0">
                       <CheckCircle className="w-2.5 h-2.5" /> Correct
                     </span>
                   );
                 } else if (row.status === 'incorrect') {
                   barColor = "bg-rose-500";
                   statusBadge = (
-                    <span className="text-[9px] font-bold text-rose-700 bg-rose-50 border border-rose-200 px-2 py-0.5 rounded-full flex items-center gap-1">
+                    <span className="text-[9px] font-bold text-rose-700 bg-rose-50 border border-rose-200 px-2 py-0.5 rounded-full flex items-center gap-1 shrink-0">
                       <XCircle className="w-2.5 h-2.5" /> Incorrect
                     </span>
                   );
@@ -665,9 +909,16 @@ export default function ResultScreen({
 
                 return (
                   <div key={row.index} className="p-3 hover:bg-slate-50/80 transition-colors flex items-center gap-3 text-xs">
-                    <span className="font-mono font-bold text-slate-700 w-8 shrink-0">
-                      Q.{row.index}
-                    </span>
+                    <div className="flex flex-col items-center shrink-0 w-10">
+                      <span className="font-mono font-black text-slate-800 text-xs">
+                        Q.{row.index}
+                      </span>
+                      {row.question.section && (
+                        <span className="text-[8px] font-bold text-slate-400 truncate max-w-[42px]" title={row.question.section}>
+                          {row.question.section.split(' ')[0]}
+                        </span>
+                      )}
+                    </div>
 
                     <div className="flex-1 min-w-0 space-y-1">
                       <div className="flex items-center justify-between gap-2">
@@ -676,14 +927,18 @@ export default function ResultScreen({
                         </p>
                         <div className="flex items-center gap-2 shrink-0">
                           {statusBadge}
-                          <span className="font-mono font-black text-slate-800 text-[11px] w-10 text-right">
-                            {row.time}s
+                          <span className={`font-mono font-black text-[11px] px-2 py-0.5 rounded-md ${
+                            row.time > 45 
+                              ? 'bg-amber-100 text-amber-900 border border-amber-200' 
+                              : 'bg-slate-100 text-slate-800'
+                          }`}>
+                            {row.time > 45 && '⏳ '}{row.time}s
                           </span>
                         </div>
                       </div>
 
                       {/* Visual Time Progress Bar */}
-                      <div className="w-full bg-slate-100 rounded-full h-1.5 overflow-hidden">
+                      <div className="w-full bg-slate-100 rounded-full h-1.5 overflow-hidden flex items-center">
                         <div
                           className={`h-full rounded-full transition-all ${barColor}`}
                           style={{ width: `${widthPercent}%` }}
@@ -692,7 +947,8 @@ export default function ResultScreen({
                     </div>
                   </div>
                 );
-              })}
+              });
+            })()}
           </div>
         </div>
       </div>
