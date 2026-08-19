@@ -3721,23 +3721,6 @@ export default function App() {
               activeBg: 'bg-indigo-50/90 dark:bg-indigo-950/50 border-indigo-200/60 dark:border-indigo-800/60',
             },
             {
-              id: 'community',
-              label: 'Community',
-              icon: Send,
-              isActive: activeView === 'content',
-              onClick: () => {
-                triggerHaptic(12);
-                if (activeView === 'content') {
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
-                } else {
-                  setActiveView('content');
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
-                }
-              },
-              activeColor: 'text-sky-600 dark:text-sky-400',
-              activeBg: 'bg-sky-50/90 dark:bg-sky-950/50 border-sky-200/60 dark:border-sky-800/60',
-            },
-            {
               id: 'bookmarks',
               label: 'Saved',
               badge: savedBookmarks.length,

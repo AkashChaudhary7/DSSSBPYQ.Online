@@ -93,69 +93,68 @@ export default function MobileAppInstallModal() {
 
   return (
     <div 
-      className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-4 bg-slate-900/60 backdrop-blur-xs animate-in fade-in duration-300"
+      className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-3 sm:p-4 bg-slate-900/60 backdrop-blur-xs animate-in fade-in duration-300"
       role="dialog"
       aria-modal="true"
       aria-labelledby="app-install-title"
     >
       <div 
-        className="w-full max-w-md bg-white rounded-3xl shadow-2xl border border-slate-100 overflow-hidden relative p-5 space-y-4 animate-in slide-in-from-bottom duration-300"
+        className="w-full max-w-[340px] sm:max-w-md bg-white rounded-2xl sm:rounded-3xl shadow-2xl border border-slate-100 overflow-hidden relative p-4 sm:p-5 space-y-3 animate-in slide-in-from-bottom duration-300"
       >
         {/* Close button (×) */}
         <button
           onClick={handleDismiss}
-          className="absolute top-4 right-4 p-2 text-slate-400 hover:text-slate-600 rounded-full hover:bg-slate-100 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="absolute top-3 right-3 p-1.5 text-slate-400 hover:text-slate-600 rounded-full hover:bg-slate-100 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer"
           aria-label="Close modal"
         >
-          <X className="w-5 h-5" />
+          <X className="w-4 h-4 sm:w-5 sm:h-5" />
         </button>
 
         {/* Modal Header with App Icon */}
-        <div className="flex items-start gap-3.5 pr-8">
-          <div className="w-14 h-14 rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-600 p-0.5 shadow-md shrink-0 flex items-center justify-center">
+        <div className="flex items-center gap-3 pr-6">
+          <div className="w-11 h-11 sm:w-13 sm:h-13 rounded-xl sm:rounded-2xl bg-gradient-to-tr from-emerald-600 via-teal-600 to-blue-600 p-0.5 shadow-md shrink-0 flex items-center justify-center">
             <img 
               src="/pwa-192.png" 
               alt="BytePrep App Logo" 
-              className="w-full h-full object-cover rounded-[14px]"
+              className="w-full h-full object-cover rounded-[10px] sm:rounded-[12px]"
               onError={(e) => {
-                // Fallback icon if image error
                 (e.target as HTMLElement).style.display = 'none';
               }}
             />
           </div>
 
-          <div className="space-y-0.5">
-            <div className="flex items-center gap-1.5 text-blue-600 font-extrabold text-[11px] uppercase tracking-wider">
-              <Smartphone className="w-3.5 h-3.5" />
+          <div className="space-y-0.5 min-w-0">
+            <div className="flex items-center gap-1 text-emerald-600 font-extrabold text-[10px] uppercase tracking-wider">
+              <Smartphone className="w-3 h-3" />
               <span>BytePrep Official App</span>
             </div>
-            <h3 id="app-install-title" className="text-lg font-extrabold text-slate-900 leading-snug">
-              📱 Get the BytePrep CS App
+            <h3 id="app-install-title" className="text-sm sm:text-base font-extrabold text-slate-900 leading-snug truncate">
+              📱 Get BytePrep CS App
             </h3>
           </div>
         </div>
 
         {/* Modal Description */}
-        <p className="text-xs text-slate-600 leading-relaxed font-medium">
+        <p className="text-[11px] sm:text-xs text-slate-600 leading-relaxed font-medium">
           Practice TGT/PGT Computer Science PYQs, mock tests and preparation resources faster with the BytePrep Android app.
         </p>
 
         {/* Action Buttons */}
-        <div className="space-y-2 pt-1">
+        <div className="space-y-2 pt-0.5">
           <a
             href={PLAY_STORE_URL}
             target="_blank"
             rel="noopener noreferrer"
             onClick={handleInstallClick}
-            className="w-full py-3 px-4 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-extrabold text-sm rounded-xl shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2 active:scale-[0.98] cursor-pointer"
+            className="w-full py-2.5 px-3.5 bg-gradient-to-r from-emerald-600 via-teal-600 to-blue-600 hover:from-emerald-700 hover:to-blue-700 text-white font-extrabold text-xs sm:text-sm rounded-xl shadow-md transition-all flex items-center justify-center gap-1.5 active:scale-[0.98] cursor-pointer"
           >
-            <Download className="w-4 h-4" />
+            <Download className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
             <span>Install App</span>
           </a>
 
           <button
             onClick={handleDismiss}
-            className="w-full py-2.5 px-4 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs rounded-xl transition-all flex items-center justify-center active:scale-[0.98] cursor-pointer"
+            className="w-full py-2 px-3.5 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-[11px] sm:text-xs rounded-xl transition-all flex items-center justify-center active:scale-[0.98] cursor-pointer"
           >
             Continue on Website
           </button>

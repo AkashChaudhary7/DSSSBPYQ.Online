@@ -29,6 +29,18 @@ export interface PromoBannerConfig {
 // Default Promos array - Easily edited or extended!
 export const DEFAULT_PROMO_BANNERS: PromoBannerConfig[] = [
   {
+    id: 'app-install-promo',
+    title: 'BYTEPREP MOBILE APP',
+    subtitle: 'Practice TGT/PGT CS PYQs & Mock Tests Faster',
+    badge: 'Android App',
+    buttonText: 'Install App',
+    link: 'https://play.google.com/store/apps/details?id=online.dsssbpyq.twa',
+    isExternal: true,
+    gradient: 'from-emerald-600 via-teal-600 to-cyan-600',
+    badgeBg: 'bg-white/20 text-white',
+    imageUrl: '/pwa-192.png',
+  },
+  {
     id: 'telegram-promo',
     title: 'GET PROMOS ON TELEGRAM',
     subtitle: 'Daily PDF Notes, PYQs & Official Updates',
