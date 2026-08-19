@@ -2,12 +2,9 @@ import {StrictMode} from 'react';
 import {createRoot} from 'react-dom/client';
 import App from './App.tsx';
 import ErrorBoundary from './components/ErrorBoundary.tsx';
-import { handleMobileRedirect } from './lib/mobileRedirect.ts';
 import './index.css';
 
 if (typeof window !== 'undefined') {
-  handleMobileRedirect();
-
   window.addEventListener('unhandledrejection', (event) => {
     if (
       event.reason &&

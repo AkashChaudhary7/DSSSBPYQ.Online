@@ -39,6 +39,7 @@ import SeoPreviewHub from './components/SeoPreviewHub';
 import DailyStreakTracker from './components/DailyStreakTracker';
 import { PartAMockSpecialBanner } from './components/PartAMockSpecialBanner';
 import { Glass3dIcon } from './components/Glass3dIcons';
+import MobileAppInstallModal from './components/MobileAppInstallModal';
 
 const LazyViewFallback = () => (
   <div className="py-20 flex flex-col items-center justify-center space-y-3">
@@ -4160,6 +4161,9 @@ export default function App() {
         onDismissReport={handleDismissReport}
         onClearAllReports={handleClearAllReported}
       />
+
+      {/* Mobile App Install Prompt Modal */}
+      <MobileAppInstallModal />
     </div>
   );
 }

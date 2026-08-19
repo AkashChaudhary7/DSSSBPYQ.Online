@@ -3,53 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Mobile Device to Google Play Store Redirect Script -->
-    <script>
-      (function() {
-        try {
-          var pathname = window.location.pathname.toLowerCase();
-          // 1. Never redirect AdMob / AdSense verification files
-          if (pathname === '/app-ads.txt' || pathname === '/ads.txt') return;
-
-          // 2. Never redirect static assets, API paths, or system manifests
-          var staticExtensions = /\.(js|css|png|jpg|jpeg|gif|svg|ico|json|woff|woff2|ttf|eot|xml|txt|pdf|csv)$/i;
-          if (staticExtensions.test(pathname)) return;
-          if (pathname === '/sw.js' || pathname === '/manifest.json' || pathname === '/robots.txt' || pathname === '/sitemap.xml' || pathname === '/offline.html') return;
-
-          // 3. Never redirect local development or dev test mode
-          var hostname = window.location.hostname.toLowerCase();
-          if (hostname === 'localhost' || hostname === '127.0.0.1' || hostname.endsWith('.local')) return;
-
-          // 4. Check for explicit noredirect query flag
-          var search = window.location.search.toLowerCase();
-          if (search.indexOf('noredirect') !== -1 || search.indexOf('web=1') !== -1 || search.indexOf('preview=1') !== -1) return;
-
-          // 5. Never redirect search engine crawlers or ad verification bots
-          var ua = navigator.userAgent || '';
-          var crawlerRegex = /Googlebot|bingbot|yandexbot|DuckDuckBot|slurp|Mediapartners-Google|AdsBot-Google|google-app-manifest|FeedFetcher-Google/i;
-          if (crawlerRegex.test(ua)) return;
-
-          // 6. Robust Mobile Device Detection
-          var isMobile = false;
-          if (navigator.userAgentData && typeof navigator.userAgentData.mobile === 'boolean') {
-            if (navigator.userAgentData.mobile) isMobile = true;
-          }
-          if (!isMobile) {
-            var mobileRegex = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS|FxiOS|Tablet|Touch/i;
-            if (mobileRegex.test(ua)) isMobile = true;
-          }
-          if (!isMobile && /Macintosh/i.test(ua) && navigator.maxTouchPoints && navigator.maxTouchPoints > 1) {
-            isMobile = true;
-          }
-
-          if (isMobile) {
-            window.location.replace("https://play.google.com/store/apps/details?id=online.dsssbpyq.twa");
-          }
-        } catch (e) {
-          console.error('[MobileRedirect] Error:', e);
-        }
-      })();
-    </script>
     <!-- Defer Google Tag & AdSense to run during idle time to prevent blocking main thread FCP/LCP -->
     <script>
       function loadThirdPartyScripts() {
