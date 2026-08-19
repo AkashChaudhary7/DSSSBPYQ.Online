@@ -144,13 +144,13 @@ export const PromoBanners: React.FC<PromoBannersProps> = ({
         </span>
       </div>
 
-      {/* Single Column Promotional Banner Bars */}
-      <div className="grid grid-cols-1 gap-2.5 sm:gap-3">
+      {/* Single Horizontal Line (Row) Promotional Banners */}
+      <div className="flex flex-row items-center gap-2.5 sm:gap-3 overflow-x-auto pb-1.5 pt-0.5 px-0.5 snap-x snap-mandatory [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
         {banners.map((banner) => (
           <div
             key={banner.id}
             onClick={() => handleBannerClick(banner)}
-            className={`group relative overflow-hidden rounded-2xl p-3 sm:p-4 bg-gradient-to-br ${banner.gradient} text-white shadow-md hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 cursor-pointer flex flex-row items-center justify-between gap-3 min-h-[68px] border border-white/10 ${
+            className={`group relative overflow-hidden rounded-2xl p-3 sm:p-3.5 bg-gradient-to-br ${banner.gradient} text-white shadow-md hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 cursor-pointer flex flex-row items-center justify-between gap-2.5 sm:gap-3 min-h-[64px] sm:min-h-[68px] border border-white/10 shrink-0 snap-start w-[88%] sm:w-[360px] lg:flex-1 ${
               banner.hideOnMobile ? 'hidden sm:flex' : 'flex'
             }`}
           >
