@@ -1,3 +1,12 @@
+# AdMob and AdSense verification files
+/app-ads.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=3600
+
+/ads.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=3600
+
 # Global security headers
 /*
   X-Frame-Options: SAMEORIGIN

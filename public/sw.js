@@ -55,7 +55,9 @@ self.addEventListener('fetch', (event) => {
     url.pathname.includes('google') ||
     url.pathname.includes('firestore') ||
     url.pathname.includes('firebase') ||
-    url.pathname.includes('pagead')
+    url.pathname.includes('pagead') ||
+    url.pathname === '/app-ads.txt' ||
+    url.pathname === '/ads.txt'
   ) {
     return;
   }
