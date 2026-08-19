@@ -156,62 +156,65 @@ export const PromoBanners: React.FC<PromoBannersProps> = ({
         </span>
       </div>
 
-      {/* Grid of Promotional Banner Cards (2-column compact on mobile, 2x2/4-col on desktop) */}
-      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-4">
+      {/* Grid of Promotional Banner Cards (1-column horizontal bar on mobile, 2 or 3-column on desktop) */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-4">
         {banners.map((banner) => (
           <div
             key={banner.id}
             onClick={() => handleBannerClick(banner)}
-            className={`group relative overflow-hidden rounded-xl sm:rounded-3xl p-2 sm:p-5 bg-gradient-to-br ${banner.gradient} text-white shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 cursor-pointer flex-col justify-between min-h-[78px] sm:min-h-[160px] border border-white/10 ${
+            className={`group relative overflow-hidden rounded-2xl sm:rounded-3xl p-3 sm:p-5 bg-gradient-to-br ${banner.gradient} text-white shadow-md hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 cursor-pointer flex flex-row sm:flex-col items-center sm:items-stretch justify-between gap-3 min-h-[68px] sm:min-h-[160px] border border-white/10 ${
               banner.hideOnMobile ? 'hidden sm:flex' : 'flex'
             }`}
           >
             {/* Background Pattern / Gloss Effect */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-white/10 pointer-events-none" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-white/10 pointer-events-none" />
             <div className="absolute -top-12 -right-12 w-28 h-28 bg-white/10 rounded-full blur-xl pointer-events-none group-hover:scale-150 transition-transform duration-500" />
 
-            {/* Top Row: Badge & Floating Icon */}
-            <div className="flex items-start justify-between gap-1 relative z-10">
-              {banner.badge && (
-                <span className={`text-[8px] sm:text-[10px] font-black uppercase tracking-wider px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-full backdrop-blur-md shadow-2xs border border-white/20 ${banner.badgeBg || 'bg-black/20 text-white'}`}>
-                  {banner.badge}
-                </span>
-              )}
-
+            {/* Mobile Layout Left Side / Desktop Top Content */}
+            <div className="flex items-center sm:items-start gap-2.5 sm:gap-3 min-w-0 flex-1 relative z-10">
               {/* Icon rendering or Image thumbnail */}
-              {banner.imageUrl ? (
-                <img
-                  src={banner.imageUrl}
-                  alt={banner.title}
-                  className="w-7 h-7 sm:w-10 sm:h-10 object-cover rounded-lg sm:rounded-xl border border-white/30 shadow-md shrink-0"
-                />
-              ) : banner.iconType ? (
-                <div className="shrink-0 transform scale-75 sm:scale-100 origin-top-right group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300">
-                  <Glass3dIcon type={banner.iconType} size="sm" />
+              <div className="shrink-0">
+                {banner.imageUrl ? (
+                  <img
+                    src={banner.imageUrl}
+                    alt={banner.title}
+                    className="w-9 h-9 sm:w-10 sm:h-10 object-cover rounded-xl border border-white/30 shadow-sm"
+                  />
+                ) : banner.iconType ? (
+                  <div className="transform scale-90 sm:scale-100 origin-left group-hover:scale-110 transition-transform duration-300">
+                    <Glass3dIcon type={banner.iconType} size="sm" />
+                  </div>
+                ) : null}
+              </div>
+
+              {/* Title, Badge & Subtitle */}
+              <div className="min-w-0 flex-1 space-y-0.5">
+                <div className="flex items-center gap-1.5 flex-wrap">
+                  {banner.badge && (
+                    <span className={`text-[8px] sm:text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-full backdrop-blur-md shadow-2xs border border-white/20 ${banner.badgeBg || 'bg-black/20 text-white'}`}>
+                      {banner.badge}
+                    </span>
+                  )}
                 </div>
-              ) : null}
+                <h4 className="text-xs sm:text-base font-black leading-snug tracking-tight drop-shadow-xs group-hover:text-amber-200 transition-colors truncate sm:whitespace-normal sm:line-clamp-2">
+                  {banner.title}
+                </h4>
+                {banner.subtitle && (
+                  <p className="text-[10px] sm:text-xs text-white/90 font-medium truncate sm:whitespace-normal sm:line-clamp-2 leading-tight">
+                    {banner.subtitle}
+                  </p>
+                )}
+              </div>
             </div>
 
-            {/* Middle Content: Title & Subtitle */}
-            <div className="space-y-0.5 my-0.5 sm:my-2 relative z-10">
-              <h4 className="text-[10px] sm:text-base font-black leading-tight tracking-tight drop-shadow-xs group-hover:text-amber-200 transition-colors line-clamp-2">
-                {banner.title}
-              </h4>
-              {banner.subtitle && (
-                <p className="hidden sm:block text-xs text-white/90 font-medium line-clamp-2 leading-tight">
-                  {banner.subtitle}
-                </p>
-              )}
-            </div>
-
-            {/* Bottom Row: Call to Action Pill Button */}
-            <div className="pt-0.5 sm:pt-2 relative z-10 flex items-center justify-between">
-              <span className="inline-flex items-center gap-0.5 sm:gap-1 bg-white text-slate-900 font-extrabold text-[8px] sm:text-[11px] px-2 sm:px-3.5 py-0.5 sm:py-1.5 rounded-full shadow-md group-hover:bg-amber-300 group-hover:text-slate-950 transition-all">
+            {/* Bottom/Right Call to Action Pill Button */}
+            <div className="shrink-0 relative z-10 pt-0 sm:pt-2 flex items-center justify-end">
+              <span className="inline-flex items-center gap-1 bg-white text-slate-900 font-extrabold text-[10px] sm:text-[11px] px-3 sm:px-3.5 py-1.5 rounded-full shadow-md group-hover:bg-amber-300 group-hover:text-slate-950 transition-all whitespace-nowrap">
                 <span>{banner.buttonText}</span>
                 {banner.isExternal ? (
-                  <ExternalLink className="w-2 h-2 sm:w-3 sm:h-3 opacity-80" />
+                  <ExternalLink className="w-2.5 h-2.5 sm:w-3 sm:h-3 opacity-80" />
                 ) : (
-                  <ChevronRight className="w-2.5 h-2.5 sm:w-3.5 sm:h-3.5 group-hover:translate-x-0.5 transition-transform" />
+                  <ChevronRight className="w-3 h-3 sm:w-3.5 sm:h-3.5 group-hover:translate-x-0.5 transition-transform" />
                 )}
               </span>
             </div>
