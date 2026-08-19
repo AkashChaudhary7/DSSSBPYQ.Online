@@ -38,7 +38,7 @@ export const DEFAULT_PROMO_BANNERS: PromoBannerConfig[] = [
     isExternal: true,
     gradient: 'from-emerald-600 via-teal-600 to-cyan-600',
     badgeBg: 'bg-white/20 text-white',
-    imageUrl: '/pwa-192.png',
+    iconType: 'sparkles',
   },
   {
     id: 'telegram-promo',
@@ -51,18 +51,6 @@ export const DEFAULT_PROMO_BANNERS: PromoBannerConfig[] = [
     gradient: 'from-sky-500 via-blue-600 to-indigo-600',
     badgeBg: 'bg-white/20 text-white',
     iconType: 'telegram',
-  },
-  {
-    id: 'youtube-promo',
-    title: 'FREE YOUTUBE LECTURES',
-    subtitle: 'DSSSB TGT CS Complete Subject Playlists',
-    badge: 'YouTube Channel',
-    buttonText: 'Subscribe',
-    link: 'https://www.youtube.com/@dsssbpyqonline',
-    isExternal: true,
-    gradient: 'from-rose-500 via-red-600 to-amber-600',
-    badgeBg: 'bg-white/20 text-white',
-    iconType: 'youtube',
   },
   {
     id: 'tgt-cs-promo',
@@ -156,13 +144,13 @@ export const PromoBanners: React.FC<PromoBannersProps> = ({
         </span>
       </div>
 
-      {/* Grid of Promotional Banner Cards (1-column horizontal bar on mobile, 2 or 3-column on desktop) */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-4">
+      {/* Single Column Promotional Banner Bars */}
+      <div className="grid grid-cols-1 gap-2.5 sm:gap-3">
         {banners.map((banner) => (
           <div
             key={banner.id}
             onClick={() => handleBannerClick(banner)}
-            className={`group relative overflow-hidden rounded-2xl sm:rounded-3xl p-3 sm:p-5 bg-gradient-to-br ${banner.gradient} text-white shadow-md hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 cursor-pointer flex flex-row sm:flex-col items-center sm:items-stretch justify-between gap-3 min-h-[68px] sm:min-h-[160px] border border-white/10 ${
+            className={`group relative overflow-hidden rounded-2xl p-3 sm:p-4 bg-gradient-to-br ${banner.gradient} text-white shadow-md hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 cursor-pointer flex flex-row items-center justify-between gap-3 min-h-[68px] border border-white/10 ${
               banner.hideOnMobile ? 'hidden sm:flex' : 'flex'
             }`}
           >
