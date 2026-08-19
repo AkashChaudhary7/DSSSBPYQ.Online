@@ -144,65 +144,57 @@ export const PromoBanners: React.FC<PromoBannersProps> = ({
         </span>
       </div>
 
-      {/* Single Horizontal Line (Row) Promotional Banners */}
-      <div className="flex flex-row items-center gap-2.5 sm:gap-3 overflow-x-auto pb-1.5 pt-0.5 px-0.5 snap-x snap-mandatory [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
+      {/* 2-Column Grid on Mobile for Perfect Side-by-Side Visibility, 4-Column on Desktop */}
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-3.5">
         {banners.map((banner) => (
           <div
             key={banner.id}
             onClick={() => handleBannerClick(banner)}
-            className={`group relative overflow-hidden rounded-2xl p-3 sm:p-3.5 bg-gradient-to-br ${banner.gradient} text-white shadow-md hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 cursor-pointer flex flex-row items-center justify-between gap-2.5 sm:gap-3 min-h-[64px] sm:min-h-[68px] border border-white/10 shrink-0 snap-start w-[88%] sm:w-[360px] lg:flex-1 ${
+            className={`group relative overflow-hidden rounded-xl sm:rounded-2xl p-2.5 sm:p-3.5 bg-gradient-to-br ${banner.gradient} text-white shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 cursor-pointer flex flex-col justify-between gap-1.5 min-h-[76px] sm:min-h-[90px] border border-white/10 ${
               banner.hideOnMobile ? 'hidden sm:flex' : 'flex'
             }`}
           >
-            {/* Background Pattern / Gloss Effect */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-white/10 pointer-events-none" />
-            <div className="absolute -top-12 -right-12 w-28 h-28 bg-white/10 rounded-full blur-xl pointer-events-none group-hover:scale-150 transition-transform duration-500" />
+            {/* Background Gloss Effect */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-white/10 pointer-events-none" />
+            <div className="absolute -top-10 -right-10 w-20 h-20 bg-white/10 rounded-full blur-lg pointer-events-none group-hover:scale-150 transition-transform duration-500" />
 
-            {/* Mobile Layout Left Side / Desktop Top Content */}
-            <div className="flex items-center sm:items-start gap-2.5 sm:gap-3 min-w-0 flex-1 relative z-10">
-              {/* Icon rendering or Image thumbnail */}
-              <div className="shrink-0">
-                {banner.imageUrl ? (
-                  <img
-                    src={banner.imageUrl}
-                    alt={banner.title}
-                    className="w-9 h-9 sm:w-10 sm:h-10 object-cover rounded-xl border border-white/30 shadow-sm"
-                  />
-                ) : banner.iconType ? (
-                  <div className="transform scale-90 sm:scale-100 origin-left group-hover:scale-110 transition-transform duration-300">
-                    <Glass3dIcon type={banner.iconType} size="sm" />
-                  </div>
-                ) : null}
-              </div>
+            {/* Top Row: Badge & Icon */}
+            <div className="flex items-center justify-between gap-1 relative z-10">
+              {banner.badge && (
+                <span className={`text-[7px] sm:text-[9px] font-black uppercase tracking-tight px-1.5 py-0.5 rounded-full backdrop-blur-md shadow-2xs border border-white/20 truncate max-w-[100px] ${banner.badgeBg || 'bg-black/20 text-white'}`}>
+                  {banner.badge}
+                </span>
+              )}
 
-              {/* Title, Badge & Subtitle */}
-              <div className="min-w-0 flex-1 space-y-0.5">
-                <div className="flex items-center gap-1.5 flex-wrap">
-                  {banner.badge && (
-                    <span className={`text-[8px] sm:text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-full backdrop-blur-md shadow-2xs border border-white/20 ${banner.badgeBg || 'bg-black/20 text-white'}`}>
-                      {banner.badge}
-                    </span>
-                  )}
+              {/* Icon rendering */}
+              {banner.imageUrl ? (
+                <img
+                  src={banner.imageUrl}
+                  alt={banner.title}
+                  className="w-6 h-6 sm:w-8 sm:h-8 object-cover rounded-lg border border-white/30 shadow-xs shrink-0"
+                />
+              ) : banner.iconType ? (
+                <div className="shrink-0 transform scale-75 sm:scale-90 origin-top-right group-hover:scale-105 transition-transform duration-300">
+                  <Glass3dIcon type={banner.iconType} size="sm" />
                 </div>
-                <h4 className="text-xs sm:text-base font-black leading-snug tracking-tight drop-shadow-xs group-hover:text-amber-200 transition-colors truncate sm:whitespace-normal sm:line-clamp-2">
-                  {banner.title}
-                </h4>
-                {banner.subtitle && (
-                  <p className="text-[10px] sm:text-xs text-white/90 font-medium truncate sm:whitespace-normal sm:line-clamp-2 leading-tight">
-                    {banner.subtitle}
-                  </p>
-                )}
-              </div>
+              ) : null}
             </div>
 
-            {/* Bottom/Right Call to Action Pill Button */}
-            <div className="shrink-0 relative z-10 pt-0 sm:pt-2 flex items-center justify-end">
-              <span className="inline-flex items-center gap-1 bg-white text-slate-900 font-extrabold text-[10px] sm:text-[11px] px-3 sm:px-3.5 py-1.5 rounded-full shadow-md group-hover:bg-amber-300 group-hover:text-slate-950 transition-all whitespace-nowrap">
+            {/* Middle: Title */}
+            <div className="relative z-10 my-0.5">
+              <h4 className="text-[10px] sm:text-xs font-black leading-tight tracking-tight drop-shadow-xs group-hover:text-amber-200 transition-colors line-clamp-2">
+                {banner.title}
+              </h4>
+            </div>
+
+            {/* Bottom: Action Pill Button */}
+            <div className="relative z-10 flex items-center justify-between pt-0.5">
+              <span className="inline-flex items-center gap-0.5 bg-white text-slate-900 font-extrabold text-[8px] sm:text-[10px] px-2 sm:px-2.5 py-0.5 rounded-full shadow-xs group-hover:bg-amber-300 group-hover:text-slate-950 transition-all whitespace-nowrap">
                 <span>{banner.buttonText}</span>
                 {banner.isExternal ? (
-                  <ExternalLink className="w-2.5 h-2.5 sm:w-3 sm:h-3 opacity-80" />
+                  <ExternalLink className="w-2 h-2 opacity-80" />
                 ) : (
-                  <ChevronRight className="w-3 h-3 sm:w-3.5 sm:h-3.5 group-hover:translate-x-0.5 transition-transform" />
+                  <ChevronRight className="w-2.5 h-2.5 group-hover:translate-x-0.5 transition-transform" />
                 )}
               </span>
             </div>
