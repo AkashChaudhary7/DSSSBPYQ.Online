@@ -1,0 +1,18 @@
+{
+  "java.home": "C:\\Program Files\\Android\\Android Studio\\jbr",
+  "java.jdt.ls.java.home": "C:\\Program Files\\Android\\Android Studio\\jbr",
+  "java.import.gradle.java.home": "C:\\Program Files\\Android\\Android Studio\\jbr",
+  "java.import.gradle.user.home": "C:\\Users\\Ravi Infra\\.gradle",
+  "java.import.gradle.wrapper.enabled": true,
+  "java.import.gradle.wrapper.overridePath": "gradle/wrapper/gradle-wrapper.properties",
+  "java.import.gradle.version": "8.13",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-21",
+      "path": "C:\\Program Files\\Android\\Android Studio\\jbr",
+      "default": true
+    }
+  ],
+  "gradle.java.home": "C:\\Program Files\\Android\\Android Studio\\jbr",
+  "gradle.wrapperScript": "./gradlew.bat"
+}

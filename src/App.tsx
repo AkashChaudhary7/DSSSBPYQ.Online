@@ -42,7 +42,7 @@ import SeoPreviewHub from './components/SeoPreviewHub';
 import DailyStreakTracker from './components/DailyStreakTracker';
 import { PartAMockSpecialBanner } from './components/PartAMockSpecialBanner';
 import { Glass3dIcon } from './components/Glass3dIcons';
-import { showRewardedAd } from './lib/admob';
+import { showRewardedAd, showBannerAd, hideBannerAd } from './lib/admob';
 import { 
   isAttemptFree, 
   isAttemptUnlocked, 
@@ -51,6 +51,7 @@ import {
   recordMockAccess 
 } from './lib/attemptRules';
 import VignetteAdModal from './components/VignetteAdModal';
+import LockedQuizModal from './components/LockedQuizModal';
 import { presentPostQuizInterstitial } from './lib/interstitialRules';
 
 const LazyViewFallback = () => (
@@ -264,6 +265,23 @@ export default function App() {
         } else {
           setTimeout(loadAdSense, 1500);
         }
+      }
+    }
+  }, [activeView]);
+
+  // Native AdMob Banner lifecycle: Hide during active quiz, show on dashboard/result screens
+  useEffect(() => {
+    if (Capacitor.isNativePlatform()) {
+      if (activeView === 'quiz' || activeView === 'analyzing') {
+        hideBannerAd().catch(() => {});
+      } else if (
+        activeView === 'dashboard' ||
+        activeView === 'result' ||
+        activeView === 'teaching-methodology-view' ||
+        activeView === 'tgt-cs-view' ||
+        activeView === 'common-dsssb-view'
+      ) {
+        showBannerAd().catch(() => {});
       }
     }
   }, [activeView]);
@@ -4317,6 +4335,23 @@ export default function App() {
         onDismissReport={handleDismissReport}
         onClearAllReports={handleClearAllReported}
       />
+
+      {/* Locked Quiz Rewarded Ad Unlock Modal */}
+      {lockedQuizModal && (
+        <LockedQuizModal
+          quiz={lockedQuizModal.quiz}
+          onClose={() => setLockedQuizModal(null)}
+          onUnlocked={(unlockedQuiz) => {
+            setLockedQuizModal(null);
+            setNowTick(Date.now());
+            setCacheToast({
+              message: `🎉 "${unlockedQuiz.title}" successfully unlocked! Tap Start Test to practice.`,
+              type: 'success'
+            });
+            setTimeout(() => setCacheToast(null), 5000);
+          }}
+        />
+      )}
 
       {/* Rewarded Ad Modal Trigger for Web / Non-native testing */}
       {adModalState.isOpen && (

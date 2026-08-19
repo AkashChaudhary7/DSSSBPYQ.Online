@@ -19,7 +19,7 @@ function findJsonFiles(dir, fileList = []) {
     'bun.lock'
   ]);
   for (const file of files) {
-    if (file === 'node_modules' || file === 'dist' || file === 'android' || file === '.git' || file === 'content' || file === 'assets' || file === '.aistudio' || file === '.well-known') continue;
+    if (file === 'node_modules' || file === 'dist' || file === 'android' || file === '.git' || file === '.vscode' || file === '.agents' || file === 'content' || file === 'assets' || file === '.aistudio' || file === '.well-known') continue;
     const filePath = path.join(dir, file);
     const stat = fs.statSync(filePath);
     if (stat.isDirectory()) {

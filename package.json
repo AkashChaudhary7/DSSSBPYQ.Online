@@ -10,6 +10,7 @@
     "clean": "rm -rf dist server.js",
     "split": "node split_cs_syllabus.js",
     "lint": "tsc --noEmit",
+    "postinstall": "node scripts/patch-gradle-wrappers.js",
     "cap:sync": "npm run build && npx cap sync android",
     "cap:open": "npx cap open android"
   },

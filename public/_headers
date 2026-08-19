@@ -5,6 +5,22 @@
   X-XSS-Protection: 1; mode=block
   Referrer-Policy: no-referrer-when-downgrade
 
+# Plain-text files for AdMob / AdSense verification and search crawlers
+/app-ads.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=3600
+  Access-Control-Allow-Origin: *
+
+/ads.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=3600
+  Access-Control-Allow-Origin: *
+
+/robots.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=86400
+  Access-Control-Allow-Origin: *
+
 # Long-term caching for compiled JS and CSS bundles
 /assets/*
   Cache-Control: public, max-age=31536000, immutable

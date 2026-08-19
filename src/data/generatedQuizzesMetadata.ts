@@ -546,6 +546,86 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
     "questions": []
   },
   {
+    "testId": "custom_part_b_linux_mock_test_1_50",
+    "title": "Linux Mock Test 1",
+    "totalTimeMinutes": 60,
+    "markingScheme": {
+      "correct": 1,
+      "negative": 0.25
+    },
+    "category": "part_b",
+    "subject": "Computer Science",
+    "topic": "Linux Environment",
+    "isPartA": false,
+    "qCount": 50,
+    "file": "/Computer/Linux Environment/linux_mock test 1.json",
+    "questions": []
+  },
+  {
+    "testId": "custom_part_b_linux_mock_test_2_50",
+    "title": "Linux Mock Test 2",
+    "totalTimeMinutes": 60,
+    "markingScheme": {
+      "correct": 1,
+      "negative": 0.25
+    },
+    "category": "part_b",
+    "subject": "Computer Science",
+    "topic": "Linux Environment",
+    "isPartA": false,
+    "qCount": 50,
+    "file": "/Computer/Linux Environment/linux_mock test 2.json",
+    "questions": []
+  },
+  {
+    "testId": "custom_part_b_linux_mock_test_3_50",
+    "title": "Linux Mock Test 3",
+    "totalTimeMinutes": 60,
+    "markingScheme": {
+      "correct": 1,
+      "negative": 0.25
+    },
+    "category": "part_b",
+    "subject": "Computer Science",
+    "topic": "Linux Environment",
+    "isPartA": false,
+    "qCount": 50,
+    "file": "/Computer/Linux Environment/linux_mock test 3.json",
+    "questions": []
+  },
+  {
+    "testId": "custom_part_b_linux_mock_test_4_50",
+    "title": "Linux Mock Test 4",
+    "totalTimeMinutes": 60,
+    "markingScheme": {
+      "correct": 1,
+      "negative": 0.25
+    },
+    "category": "part_b",
+    "subject": "Computer Science",
+    "topic": "Linux Environment",
+    "isPartA": false,
+    "qCount": 50,
+    "file": "/Computer/Linux Environment/linux_mock test 4.json",
+    "questions": []
+  },
+  {
+    "testId": "custom_part_b_linux_mock_test_5_14",
+    "title": "Linux Mock Test 5",
+    "totalTimeMinutes": 17,
+    "markingScheme": {
+      "correct": 1,
+      "negative": 0.25
+    },
+    "category": "part_b",
+    "subject": "Computer Science",
+    "topic": "Linux Environment",
+    "isPartA": false,
+    "qCount": 14,
+    "file": "/Computer/Linux Environment/linux_mock test 5.json",
+    "questions": []
+  },
+  {
     "testId": "custom_part_b_os_mock_1_50",
     "title": "OS Mock 1",
     "totalTimeMinutes": 60,

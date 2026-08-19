@@ -4,4 +4,6 @@
     <string name="title_activity_main">DSSSBPYQ</string>
     <string name="package_name">online.dsssbpyq.twa</string>
     <string name="custom_url_scheme">online.dsssbpyq.twa</string>
+    <!-- Google AdMob Application ID -->
+    <string name="admob_app_id">ca-app-pub-9282190735069880~9460914393</string>
 </resources>

@@ -1,0 +1,14 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.import.gradle.wrapper.enabled": true,
+    "java.import.gradle.version": "8.13",
+    "gradle.version": "8.13",
+    "java.import.exclusions": [
+        "**/node_modules/**",
+        "**/.git/**"
+    ],
+    "files.exclude": {
+        "**/node_modules/**/build": true,
+        "**/node_modules/**/.gradle": true
+    }
+}

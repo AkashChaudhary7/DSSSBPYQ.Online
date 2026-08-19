@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { Quiz, Attempt } from '../types';
 import { MockUnlockStatus } from '../lib/unlockSystem';
+import { TestAccessManager } from '../lib/testAccessManager';
 import { 
-  GraduationCap, BookOpen, Trophy, Share2, Lock, Clock, CheckCircle2, Sparkles, Search, Layers 
+  GraduationCap, BookOpen, Trophy, Share2, Lock, Clock, CheckCircle2, Sparkles, Search, Layers, Play 
 } from 'lucide-react';
 import { getMockNumberLabel, getQuestionCount, getDifficultyTag } from '../lib/quizDisplayHelpers';
 import AdBanner from './AdBanner';
@@ -12,9 +13,9 @@ interface TeachingMethodologyHubProps {
   pastAttempts: Attempt[];
   nowTick: number;
   onStartQuiz: (quiz: Quiz, testIndex?: number) => void;
-  onLockedQuizClick: (quiz: Quiz, status: MockUnlockStatus) => void;
+  onLockedQuizClick: (quiz: Quiz, status?: MockUnlockStatus) => void;
   onShareQuiz: (quiz: Quiz, e: React.MouseEvent) => void;
-  getMockUnlockStatus: (testIndex: number, nowMs?: number) => MockUnlockStatus;
+  getMockUnlockStatus?: (testIndex: number, nowMs?: number) => MockUnlockStatus;
 }
 
 export const TeachingMethodologyHub: React.FC<TeachingMethodologyHubProps> = ({
@@ -79,7 +80,7 @@ export const TeachingMethodologyHub: React.FC<TeachingMethodologyHubProps> = ({
   const attemptedCount = pedagogyQuizzes.filter(q => pastAttempts.some(a => a.testId === q.testId)).length;
 
   return (
-    <div className="bg-white border-2 border-purple-100 rounded-3xl p-5 md:p-8 shadow-sm space-y-6 relative overflow-hidden">
+    <div className="bg-white dark:bg-slate-900 border-2 border-purple-100 dark:border-purple-900/40 rounded-3xl p-5 md:p-8 shadow-sm space-y-6 relative overflow-hidden">
       {/* Decorative Gradient Top Accent */}
       <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-purple-500 via-pink-500 to-indigo-500" />
 
@@ -87,48 +88,48 @@ export const TeachingMethodologyHub: React.FC<TeachingMethodologyHubProps> = ({
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div className="space-y-1.5">
           <div className="flex items-center gap-2.5 flex-wrap">
-            <span className="bg-purple-100 text-purple-900 border border-purple-200 text-[10px] font-extrabold px-3 py-0.5 rounded-full uppercase tracking-wider flex items-center gap-1 shadow-2xs">
-              <GraduationCap className="w-3.5 h-3.5 text-purple-600" />
+            <span className="bg-purple-100 dark:bg-purple-950/60 text-purple-900 dark:text-purple-300 border border-purple-200 dark:border-purple-800 text-[10px] font-extrabold px-3 py-0.5 rounded-full uppercase tracking-wider flex items-center gap-1 shadow-2xs">
+              <GraduationCap className="w-3.5 h-3.5 text-purple-600 dark:text-purple-400" />
               <span className="hidden sm:inline">Dedicated Pedagogy Section</span>
               <span className="sm:hidden">Teaching Methodology</span>
             </span>
-            <span className="bg-emerald-50 text-emerald-700 border border-emerald-200 text-[10px] font-black px-2.5 py-0.5 rounded-md uppercase tracking-wider">
-              {pedagogyQuizzes.length} Mock Tests
+            <span className="bg-emerald-50 dark:bg-emerald-950/50 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800 text-[10px] font-black px-2.5 py-0.5 rounded-md uppercase tracking-wider">
+              {pedagogyQuizzes.length} Mock Tests Available
             </span>
           </div>
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 md:w-12 md:h-12 rounded-2xl bg-purple-600 text-white flex items-center justify-center font-black shadow-md shadow-purple-200 shrink-0">
+            <div className="w-10 h-10 md:w-12 md:h-12 rounded-2xl bg-purple-600 text-white flex items-center justify-center font-black shadow-md shadow-purple-200 dark:shadow-none shrink-0">
               <GraduationCap className="w-6 h-6" />
             </div>
-            <h2 className="text-xl md:text-2xl font-black text-slate-900 tracking-tight">
+            <h2 className="text-xl md:text-2xl font-black text-slate-900 dark:text-white tracking-tight">
               <span className="hidden sm:inline">Teaching Methodology &amp; Pedagogy Hub</span>
               <span className="sm:hidden">Teaching Methodology</span>
             </h2>
           </div>
-          <p className="text-xs text-slate-600 leading-relaxed max-w-2xl hidden md:block">
-            Comprehensive practice for Child Development, Educational Psychology, Learning Theories (Piaget, Vygotsky, Bandura), Assessment &amp; Evaluation, TLM, Inclusive Education, and NEP 2020.
+          <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed max-w-2xl hidden md:block">
+            Practice mock tests for Child Psychology, Educational Theories (Piaget, Vygotsky, Kohlberg), Assessment &amp; Evaluation, TLM, Inclusive Education, and NEP 2020.
           </p>
         </div>
 
         {/* Quick Stats */}
-        <div className="flex items-center gap-1.5 sm:gap-2 bg-purple-50 border border-purple-100 p-1.5 sm:p-2 rounded-2xl shrink-0">
-          <div className="text-center px-2 sm:px-2.5 border-r border-purple-200">
-            <span className="text-[8px] sm:text-[9px] font-extrabold text-purple-600 uppercase block">Total</span>
-            <span className="text-sm sm:text-base font-black text-purple-950">{pedagogyQuizzes.length}</span>
+        <div className="flex items-center gap-1.5 sm:gap-2 bg-purple-50 dark:bg-purple-950/40 border border-purple-100 dark:border-purple-900/50 p-1.5 sm:p-2 rounded-2xl shrink-0">
+          <div className="text-center px-2 sm:px-2.5 border-r border-purple-200 dark:border-purple-800">
+            <span className="text-[8px] sm:text-[9px] font-extrabold text-purple-600 dark:text-purple-400 uppercase block">Total</span>
+            <span className="text-sm sm:text-base font-black text-purple-950 dark:text-purple-200">{pedagogyQuizzes.length}</span>
           </div>
-          <div className="text-center px-2 sm:px-2.5 border-r border-purple-200">
-            <span className="text-[8px] sm:text-[9px] font-extrabold text-emerald-600 uppercase block">Attempted</span>
-            <span className="text-sm sm:text-base font-black text-emerald-950">{attemptedCount}</span>
+          <div className="text-center px-2 sm:px-2.5 border-r border-purple-200 dark:border-purple-800">
+            <span className="text-[8px] sm:text-[9px] font-extrabold text-emerald-600 dark:text-emerald-400 uppercase block">Attempted</span>
+            <span className="text-sm sm:text-base font-black text-emerald-950 dark:text-emerald-300">{attemptedCount}</span>
           </div>
           <div className="text-center px-2 sm:px-2.5">
-            <span className="text-[8px] sm:text-[9px] font-extrabold text-purple-700 uppercase block">Unattempted</span>
-            <span className="text-sm sm:text-base font-black text-purple-950">{Math.max(0, pedagogyQuizzes.length - attemptedCount)}</span>
+            <span className="text-[8px] sm:text-[9px] font-extrabold text-purple-700 dark:text-purple-400 uppercase block">Unattempted</span>
+            <span className="text-sm sm:text-base font-black text-purple-950 dark:text-purple-200">{Math.max(0, pedagogyQuizzes.length - attemptedCount)}</span>
           </div>
         </div>
       </div>
 
       {/* Filter Toolbar */}
-      <div className="space-y-3 bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 md:p-4">
+      <div className="space-y-3 bg-slate-50 dark:bg-slate-800/60 border border-slate-200/80 dark:border-slate-700/80 rounded-2xl p-3.5 md:p-4">
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
           {/* Search bar */}
           <div className="relative flex-1">
@@ -138,7 +139,7 @@ export const TeachingMethodologyHub: React.FC<TeachingMethodologyHubProps> = ({
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Search pedagogy & methodology tests..."
-              className="w-full pl-10 pr-8 py-2 bg-white border border-slate-200 rounded-xl text-xs font-bold text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-purple-500/20 focus:border-purple-500"
+              className="w-full pl-10 pr-8 py-2 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl text-xs font-bold text-slate-800 dark:text-slate-200 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-purple-500/20 focus:border-purple-500"
             />
             {searchQuery && (
               <button
@@ -151,13 +152,13 @@ export const TeachingMethodologyHub: React.FC<TeachingMethodologyHubProps> = ({
           </div>
 
           {/* Status Pills */}
-          <div className="flex items-center gap-1.5 bg-white border border-slate-200 p-1 rounded-xl self-start sm:self-auto shrink-0">
+          <div className="flex items-center gap-1.5 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 p-1 rounded-xl self-start sm:self-auto shrink-0">
             <button
               onClick={() => setStatusFilter('all')}
               className={`px-3 py-1 rounded-lg text-[11px] font-extrabold transition-all cursor-pointer ${
                 statusFilter === 'all'
                   ? 'bg-purple-600 text-white shadow-2xs'
-                  : 'text-slate-600 hover:text-slate-900'
+                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
               }`}
             >
               All ({pedagogyQuizzes.length})
@@ -167,7 +168,7 @@ export const TeachingMethodologyHub: React.FC<TeachingMethodologyHubProps> = ({
               className={`px-3 py-1 rounded-lg text-[11px] font-extrabold transition-all cursor-pointer ${
                 statusFilter === 'unattempted'
                   ? 'bg-purple-600 text-white shadow-2xs'
-                  : 'text-slate-600 hover:text-slate-900'
+                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
               }`}
             >
               Unattempted
@@ -177,7 +178,7 @@ export const TeachingMethodologyHub: React.FC<TeachingMethodologyHubProps> = ({
               className={`px-3 py-1 rounded-lg text-[11px] font-extrabold transition-all cursor-pointer ${
                 statusFilter === 'attempted'
                   ? 'bg-purple-600 text-white shadow-2xs'
-                  : 'text-slate-600 hover:text-slate-900'
+                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
               }`}
             >
               Attempted ({attemptedCount})
@@ -193,45 +194,38 @@ export const TeachingMethodologyHub: React.FC<TeachingMethodologyHubProps> = ({
             {displayedQuizzes.slice(0, visibleCount).map((quiz, index) => {
               const attempt = pastAttempts.find(a => a.testId === quiz.testId);
               const isAttempted = !!attempt;
-              const unlockStatus = getMockUnlockStatus(index, nowTick);
-              const isLocked = false;
+              const canStart = TestAccessManager.canStartTest(quiz.testId);
+              const isLocked = !canStart;
               const questionCount = getQuestionCount(quiz);
               const mockNumberLabel = getMockNumberLabel(quiz, index);
 
               return (
                 <div
                   key={quiz.testId || index}
-                  onClick={() => {
-                    if (isLocked) {
-                      onLockedQuizClick(quiz, unlockStatus);
-                    } else {
-                      onStartQuiz(quiz, index);
-                    }
-                  }}
-                  className={`bg-white border rounded-2xl p-4 flex flex-col justify-between space-y-3 cursor-pointer transition-all relative group ${
+                  className={`bg-white dark:bg-slate-900 border-2 rounded-2xl p-4 md:p-5 flex flex-col justify-between space-y-4 transition-all relative group shadow-sm ${
                     isAttempted 
-                      ? 'border-emerald-200 hover:border-emerald-400 bg-emerald-50/20' 
+                      ? 'border-emerald-200 dark:border-emerald-800/80 bg-emerald-50/20 dark:bg-emerald-950/20' 
                       : isLocked 
-                        ? 'border-slate-200/60 bg-slate-50/50 opacity-90' 
-                        : 'border-slate-200 hover:border-purple-400 hover:shadow-md'
+                        ? 'border-slate-200/90 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-900/50' 
+                        : 'border-slate-200/90 dark:border-slate-800 hover:border-purple-400 dark:hover:border-purple-500 hover:shadow-md'
                   }`}
                 >
                   {/* Card Top Header */}
-                  <div className="space-y-2">
+                  <div className="space-y-2.5">
                     <div className="flex items-center justify-between gap-2">
-                      <span className="bg-purple-50 text-purple-700 font-black text-[10px] px-2.5 py-0.5 rounded-md border border-purple-100 uppercase tracking-wider">
+                      <span className="bg-purple-50 dark:bg-purple-950/60 text-purple-700 dark:text-purple-300 font-black text-[10px] px-2.5 py-0.5 rounded-md border border-purple-100 dark:border-purple-800 uppercase tracking-wider">
                         {mockNumberLabel}
                       </span>
 
-                      <div className="flex items-center gap-1">
+                      <div className="flex items-center gap-1.5">
                         {isAttempted && (
-                          <span className="bg-emerald-100 text-emerald-800 text-[10px] font-black px-2 py-0.5 rounded-md flex items-center gap-1">
-                            <CheckCircle2 className="w-3 h-3" /> Score: {attempt.score}
+                          <span className="bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 text-[10px] font-black px-2 py-0.5 rounded-md flex items-center gap-1 border border-emerald-200 dark:border-emerald-800">
+                            <CheckCircle2 className="w-3 h-3 text-emerald-600 dark:text-emerald-400" /> Score: {attempt.score}
                           </span>
                         )}
                         {isLocked && (
-                          <span className="bg-amber-100 text-amber-800 text-[10px] font-extrabold px-2 py-0.5 rounded-md flex items-center gap-1">
-                            <Lock className="w-3 h-3 text-amber-600" /> Locked
+                          <span className="bg-amber-100 dark:bg-amber-950/60 text-amber-800 dark:text-amber-300 text-[10px] font-extrabold px-2 py-0.5 rounded-md flex items-center gap-1 border border-amber-200 dark:border-amber-800">
+                            <Lock className="w-3 h-3 text-amber-600 dark:text-amber-400" /> 🔒 Locked
                           </span>
                         )}
                         <button
@@ -239,7 +233,7 @@ export const TeachingMethodologyHub: React.FC<TeachingMethodologyHubProps> = ({
                             e.stopPropagation();
                             onShareQuiz(quiz, e);
                           }}
-                          className="p-1 rounded-lg text-slate-400 hover:text-purple-600 hover:bg-purple-50 transition-colors"
+                          className="p-1 rounded-lg text-slate-400 hover:text-purple-600 hover:bg-purple-50 dark:hover:bg-slate-800 transition-colors cursor-pointer"
                           title="Share Quiz Link"
                         >
                           <Share2 className="w-3.5 h-3.5" />
@@ -247,25 +241,45 @@ export const TeachingMethodologyHub: React.FC<TeachingMethodologyHubProps> = ({
                       </div>
                     </div>
 
-                    <h3 className="font-extrabold text-sm text-slate-800 group-hover:text-purple-600 transition-colors line-clamp-2 leading-snug">
+                    <h3 className="font-extrabold text-sm text-slate-800 dark:text-slate-100 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors line-clamp-2 leading-snug">
                       {quiz.title}
                     </h3>
                   </div>
 
-                  {/* Card Info Details */}
+                  {/* Card Info Details & Actions */}
                   {(() => {
                     const diffTag = getDifficultyTag(index);
                     return (
-                      <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500 font-semibold">
-                        <span className={`px-2 py-0.5 rounded-md text-[10px] font-black flex items-center gap-1 border ${diffTag.bg} ${diffTag.text} ${diffTag.border}`}>
-                          <span>{diffTag.icon}</span> {diffTag.label}
-                        </span>
+                      <div className="space-y-3 pt-2 border-t border-slate-100 dark:border-slate-800">
+                        <div className="flex items-center justify-between text-xs text-slate-500 dark:text-slate-400 font-semibold">
+                          <span className={`px-2 py-0.5 rounded-md text-[10px] font-black flex items-center gap-1 border ${diffTag.bg} ${diffTag.text} ${diffTag.border}`}>
+                            <span>{diffTag.icon}</span> {diffTag.label}
+                          </span>
+                          <span className="text-[10px] font-bold text-slate-500 dark:text-slate-400">
+                            📝 {questionCount} Qs
+                          </span>
+                        </div>
 
-                        <span className={`font-black text-xs flex items-center gap-1 ${
-                          isAttempted ? 'text-emerald-600' : isLocked ? 'text-amber-600' : 'text-purple-600 group-hover:translate-x-0.5 transition-transform'
-                        }`}>
-                          {isAttempted ? 'Re-attempt' : isLocked ? 'Unlock' : 'Start Test →'}
-                        </span>
+                        {/* Action Buttons */}
+                        <div className="flex items-center gap-2">
+                          {canStart ? (
+                            <button
+                              onClick={() => onStartQuiz(quiz, index)}
+                              className="w-full py-2.5 rounded-xl text-xs font-black transition-all cursor-pointer bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white shadow-md shadow-purple-200 dark:shadow-none flex items-center justify-center gap-1.5"
+                            >
+                              <Play className="w-3.5 h-3.5 fill-current" />
+                              <span>{isAttempted ? "Reattempt Test" : "Start Test"}</span>
+                            </button>
+                          ) : (
+                            <button
+                              onClick={() => onLockedQuizClick(quiz)}
+                              className="w-full py-2.5 rounded-xl text-xs font-black transition-all cursor-pointer bg-slate-800 hover:bg-slate-900 dark:bg-purple-900/60 dark:hover:bg-purple-900 text-white border border-slate-700 dark:border-purple-700/60 shadow-sm flex items-center justify-center gap-1.5"
+                            >
+                              <Lock className="w-3.5 h-3.5 text-amber-400" />
+                              <span>Unlock Test</span>
+                            </button>
+                          )}
+                        </div>
                       </div>
                     );
                   })()}
@@ -279,7 +293,7 @@ export const TeachingMethodologyHub: React.FC<TeachingMethodologyHubProps> = ({
             <div className="text-center pt-4">
               <button
                 onClick={() => setVisibleCount(prev => prev + 30)}
-                className="bg-purple-50 hover:bg-purple-100 text-purple-700 font-extrabold px-6 py-2.5 rounded-2xl text-xs border border-purple-200 transition-all cursor-pointer shadow-2xs"
+                className="bg-purple-50 dark:bg-purple-950/40 hover:bg-purple-100 dark:hover:bg-purple-900/60 text-purple-700 dark:text-purple-300 font-extrabold px-6 py-2.5 rounded-2xl text-xs border border-purple-200 dark:border-purple-800 transition-all cursor-pointer shadow-2xs"
               >
                 Load More Tests ({displayedQuizzes.length - visibleCount} remaining)
               </button>
@@ -287,9 +301,9 @@ export const TeachingMethodologyHub: React.FC<TeachingMethodologyHubProps> = ({
           )}
         </div>
       ) : (
-        <div className="bg-slate-50 border border-dashed border-slate-200 rounded-3xl p-10 text-center space-y-2">
+        <div className="bg-slate-50 dark:bg-slate-800/40 border border-dashed border-slate-200 dark:border-slate-700 rounded-3xl p-10 text-center space-y-2">
           <GraduationCap className="w-8 h-8 text-slate-400 mx-auto" />
-          <h4 className="font-bold text-sm text-slate-700">No Teaching Methodology tests match your filters</h4>
+          <h4 className="font-bold text-sm text-slate-700 dark:text-slate-300">No Teaching Methodology tests match your filters</h4>
           <p className="text-xs text-slate-500 max-w-sm mx-auto">
             Try switching the status filter to "All" or clearing your search term.
           </p>
@@ -297,7 +311,7 @@ export const TeachingMethodologyHub: React.FC<TeachingMethodologyHubProps> = ({
       )}
 
       {/* Ad Banner */}
-      <AdBanner location="tgt_cs_bottom" />
+      <AdBanner location="teaching_methodology_bottom" />
     </div>
   );
 };

@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Quiz, Attempt } from '../types';
 import { MockUnlockStatus } from '../lib/unlockSystem';
+import { TestAccessManager } from '../lib/testAccessManager';
 import { 
-  Laptop, BookOpen, ChevronRight, Lock, Clock, Share2, ListTodo, Sparkles, CheckCircle2, ArrowRight, Tag 
+  Laptop, BookOpen, ChevronRight, Lock, Clock, Share2, ListTodo, Sparkles, CheckCircle2, ArrowRight, Tag, Play 
 } from 'lucide-react';
 import { TgtCsCategoryIcon } from './CategoryIcons';
 import { getMockNumberLabel, getQuestionCount, getTopicBadge, countMocksByTopic, getDifficultyTag } from '../lib/quizDisplayHelpers';
@@ -279,17 +280,17 @@ export const TgtCsHub: React.FC<TgtCsHubProps> = ({
       </div>
 
       {/* Quiz List Rendering */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
-        {displayedCsQuizzes.length === 0 && (
-          <div className="p-8 text-center bg-slate-50 border border-dashed border-slate-200 rounded-2xl text-slate-500 text-xs font-medium">
-            No Computer Science mock tests found for the selected topic filter.
-          </div>
-        )}
-
-        {displayedCsQuizzes.slice(0, visibleCount).map((quiz, index) => {
-          const unlockStatus = getMockUnlockStatus(index, nowTick);
+      {displayedCsQuizzes.length === 0 ? (
+        <div className="p-8 text-center bg-slate-50 border border-dashed border-slate-200 rounded-2xl text-slate-500 text-xs font-medium space-y-2">
+          <p className="font-bold text-slate-700">No Computer Science mock tests found matching your filter.</p>
+        </div>
+      ) : (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
+          {displayedCsQuizzes.slice(0, visibleCount).map((quiz, index) => {
           const quizAttempts = pastAttempts.filter(a => a.testId === quiz.testId);
           const isAttempted = quizAttempts.length > 0;
+          const canStart = TestAccessManager.canStartTest(quiz.testId);
+          const isLocked = !canStart;
           const mockLabel = getMockNumberLabel(quiz, index);
           const topicBadge = getTopicBadge(quiz);
           const qCount = getQuestionCount(quiz);
@@ -297,7 +298,13 @@ export const TgtCsHub: React.FC<TgtCsHubProps> = ({
           return (
             <div 
               key={quiz.testId} 
-              className="bg-white border-2 border-slate-200/90 hover:border-indigo-500 rounded-2xl p-4 md:p-5 flex flex-col justify-between gap-4 transition-all hover:shadow-md group relative"
+              className={`bg-white dark:bg-slate-900 border-2 rounded-2xl p-4 md:p-5 flex flex-col justify-between gap-4 transition-all group relative ${
+                isAttempted 
+                  ? 'border-emerald-200 dark:border-emerald-800/80 bg-emerald-50/20' 
+                  : isLocked 
+                    ? 'border-slate-200/90 dark:border-slate-800 bg-slate-50/50' 
+                    : 'border-slate-200/90 dark:border-slate-800 hover:border-indigo-500 hover:shadow-md'
+              }`}
             >
               {(() => {
                 const diffTag = getDifficultyTag(index);
@@ -307,45 +314,52 @@ export const TgtCsHub: React.FC<TgtCsHubProps> = ({
                       <span className="bg-indigo-600 text-white text-[10px] font-black px-2.5 py-0.5 rounded-md uppercase tracking-wider shrink-0 shadow-2xs">
                         {mockLabel}
                       </span>
-                      <span className="bg-purple-100 text-purple-900 border border-purple-200 text-[10px] font-bold px-2 py-0.5 rounded-md shrink-0 whitespace-nowrap">
+                      <span className="bg-purple-100 dark:bg-purple-950/60 text-purple-900 dark:text-purple-300 border border-purple-200 dark:border-purple-800 text-[10px] font-bold px-2 py-0.5 rounded-md shrink-0 whitespace-nowrap">
                         📌 {topicBadge}
                       </span>
                       <span className={`px-2 py-0.5 rounded-md text-[10px] font-black flex items-center gap-1 border shrink-0 whitespace-nowrap ${diffTag.bg} ${diffTag.text} ${diffTag.border}`}>
                         <span>{diffTag.icon}</span> {diffTag.label}
                       </span>
                       {isAttempted && (
-                        <span className="bg-emerald-100 text-emerald-800 border border-emerald-300 text-[9px] font-black px-2 py-0.5 rounded-md uppercase shrink-0 whitespace-nowrap">
+                        <span className="bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 border border-emerald-300 text-[9px] font-black px-2.5 py-0.5 rounded-md uppercase shrink-0 whitespace-nowrap">
                           ✅ Attempted ({quizAttempts.length}x)
+                        </span>
+                      )}
+                      {isLocked && (
+                        <span className="bg-amber-100 dark:bg-amber-950/60 text-amber-800 dark:text-amber-300 text-[9px] font-black px-2.5 py-0.5 rounded-md uppercase shrink-0 whitespace-nowrap border border-amber-200">
+                          🔒 Locked
                         </span>
                       )}
                     </div>
 
-                    <h3 className="font-black text-sm text-slate-900 leading-snug text-center py-2 border-y border-slate-100/80 my-1">{quiz.title}</h3>
+                    <h3 className="font-black text-sm text-slate-900 dark:text-slate-100 leading-snug text-center py-2 border-y border-slate-100/80 dark:border-slate-800 my-1">{quiz.title}</h3>
                   </div>
                 );
               })()}
 
-              <div className="pt-3 border-t border-slate-100 flex items-center gap-2 w-full shrink-0">
+              <div className="pt-3 border-t border-slate-100 dark:border-slate-800 flex items-center gap-2 w-full shrink-0">
                 <button
                   onClick={(e) => onShareQuiz(quiz, e)}
-                  className="px-3 py-2.5 rounded-xl text-xs font-bold transition-all cursor-pointer bg-slate-100 hover:bg-slate-200 text-slate-600 flex items-center gap-1"
+                  className="px-3 py-2.5 rounded-xl text-xs font-bold transition-all cursor-pointer bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-600 dark:text-slate-300 flex items-center gap-1"
                   title="Share Direct Link"
                 >
                   <Share2 className="w-3.5 h-3.5 text-slate-500" />
                 </button>
-                {unlockStatus.isUnlocked ? (
+                {canStart ? (
                   <button
                     onClick={() => onStartQuiz(quiz, index)}
-                    className="flex-1 py-2.5 rounded-xl text-xs font-extrabold transition-all cursor-pointer bg-indigo-600 hover:bg-indigo-700 text-white shadow-xs text-center"
+                    className="flex-1 py-2.5 rounded-xl text-xs font-extrabold transition-all cursor-pointer bg-indigo-600 hover:bg-indigo-700 text-white shadow-xs text-center flex items-center justify-center gap-1.5"
                   >
-                    {isAttempted ? "Reattempt Test" : "Start Test"}
+                    <Play className="w-3.5 h-3.5 fill-current" />
+                    <span>{isAttempted ? "Reattempt Test" : "Start Test"}</span>
                   </button>
                 ) : (
                   <button
-                    onClick={() => onLockedQuizClick(quiz, unlockStatus)}
-                    className="flex-1 py-2.5 rounded-xl text-xs font-extrabold transition-all cursor-pointer bg-indigo-600 hover:bg-indigo-700 text-white shadow-xs text-center"
+                    onClick={() => onLockedQuizClick(quiz)}
+                    className="flex-1 py-2.5 rounded-xl text-xs font-extrabold transition-all cursor-pointer bg-slate-800 hover:bg-slate-900 text-white shadow-xs text-center flex items-center justify-center gap-1.5"
                   >
-                    Unlock Test
+                    <Lock className="w-3.5 h-3.5 text-amber-400" />
+                    <span>Unlock Test</span>
                   </button>
                 )}
               </div>
@@ -364,6 +378,7 @@ export const TgtCsHub: React.FC<TgtCsHubProps> = ({
           </div>
         )}
       </div>
+      )}
 
       <AdBanner location="tgt_cs_hub_bottom" />
     </div>
