@@ -47,6 +47,8 @@ export interface Bookmark {
   quizId: string;
   quizTitle: string;
   question: Question;
+  subject?: string;
+  difficulty?: 'Basic' | 'Moderate' | 'Expert';
 }
 
 export interface ReportedQuestionRecord {

@@ -1,9 +1,9 @@
-import React, { useState, useEffect, useMemo, useRef } from 'react';
+import React, { useState, useEffect, useMemo, useRef, useCallback } from 'react';
 import { motion } from 'motion/react';
 import { 
   Trophy, BookOpen, Star, AlertCircle, RefreshCw, Zap, Heart, Search, Github, 
   Settings, ChevronRight, Download, Eye, Play, Sparkles, BookMarked, Layers, HelpCircle, ArrowLeft, Volume2, Share2, ClipboardList, XCircle, Send,
-  Trash2, AlertTriangle, ListTodo, CheckSquare, Lock, Clock, Laptop, Building2, Sun, Moon, Database, User, Youtube
+  Trash2, AlertTriangle, ListTodo, CheckSquare, Lock, Clock, Laptop, Building2, Sun, Moon, Database, User, Youtube, SlidersHorizontal, X, Filter
 } from 'lucide-react';
 
 import { Quiz, Question, Attempt, Bookmark, ActiveQuizSession, ReportedQuestionRecord, OFFICIAL_CS_TOPICS_LIST } from './types';
@@ -413,6 +413,138 @@ export default function App() {
 
   // Dashboard filter & interaction states
   const [dashboardSearchQuery, setDashboardSearchQuery] = useState<string>('');
+
+  // Bookmark filter & sort states
+  const [bookmarkSearchQuery, setBookmarkSearchQuery] = useState<string>('');
+  const [bookmarkSubjectFilter, setBookmarkSubjectFilter] = useState<string>('All');
+  const [bookmarkDifficultyFilter, setBookmarkDifficultyFilter] = useState<string>('All');
+  const [bookmarkSortBy, setBookmarkSortBy] = useState<string>('default');
+
+  // Helper: determine Subject for bookmark
+  const getBookmarkSubject = useCallback((b: Bookmark): string => {
+    if (b.subject && b.subject.trim().length > 0) return b.subject.trim();
+    if (b.question?.section && b.question.section.trim().length > 0 && b.question.section !== 'General') {
+      return b.question.section.trim();
+    }
+    const title = b.quizTitle || '';
+    if (/computer\s*science|tgt\s*cs|pgt\s*cs|dbms|operating\s*system|network|python|c\+\+|java|data\s*structure/i.test(title)) {
+      return 'Computer Science';
+    }
+    if (/pedagogy|teaching\s*methodology/i.test(title)) {
+      return 'Teaching Methodology';
+    }
+    if (/english/i.test(title)) {
+      return 'General English';
+    }
+    if (/reasoning/i.test(title)) {
+      return 'General Intelligence & Reasoning';
+    }
+    if (/arithmetic|numerical|math|quant/i.test(title)) {
+      return 'Arithmetic & Numerical Ability';
+    }
+    if (/hindi/i.test(title)) {
+      return 'General Hindi';
+    }
+    if (/awareness|gk|current/i.test(title)) {
+      return 'General Awareness';
+    }
+    return b.question?.section || 'General Ability';
+  }, []);
+
+  // Helper: determine Difficulty for bookmark
+  const getBookmarkDifficulty = useCallback((b: Bookmark): 'Basic' | 'Moderate' | 'Expert' => {
+    if (b.difficulty) return b.difficulty;
+    const q = b.question;
+    if (!q) return 'Moderate';
+    const seed = (q.id * 31) + (q.question ? q.question.length : 0);
+    const mod = Math.abs(seed) % 3;
+    if (mod === 0) return 'Basic';
+    if (mod === 1) return 'Moderate';
+    return 'Expert';
+  }, []);
+
+  const DIFFICULTY_BADGE_CONFIG: Record<string, { label: string; bg: string; text: string; border: string; icon: string }> = {
+    'Basic': {
+      label: 'Basic Level',
+      bg: 'bg-emerald-50 text-emerald-800 border-emerald-200',
+      text: 'text-emerald-800',
+      border: 'border-emerald-200',
+      icon: '🟢'
+    },
+    'Moderate': {
+      label: 'Moderate Level',
+      bg: 'bg-amber-50 text-amber-800 border-amber-200',
+      text: 'text-amber-800',
+      border: 'border-amber-200',
+      icon: '🟡'
+    },
+    'Expert': {
+      label: 'Expert Level',
+      bg: 'bg-rose-50 text-rose-800 border-rose-200',
+      text: 'text-rose-800',
+      border: 'border-rose-200',
+      icon: '🔴'
+    }
+  };
+
+  // Dynamic available subjects list for bookmarks filter
+  const bookmarkAvailableSubjects = useMemo(() => {
+    const set = new Set<string>();
+    savedBookmarks.forEach(b => {
+      if (b && b.question) {
+        set.add(getBookmarkSubject(b));
+      }
+    });
+    return Array.from(set).sort();
+  }, [savedBookmarks, getBookmarkSubject]);
+
+  // Filtered and sorted bookmarks array
+  const filteredAndSortedBookmarks = useMemo(() => {
+    return savedBookmarks.filter((b) => {
+      if (!b || !b.question) return false;
+      const q = b.question;
+      const subject = getBookmarkSubject(b);
+      const difficulty = getBookmarkDifficulty(b);
+
+      // Subject filter
+      if (bookmarkSubjectFilter !== 'All' && subject !== bookmarkSubjectFilter) {
+        return false;
+      }
+
+      // Difficulty filter
+      if (bookmarkDifficultyFilter !== 'All' && difficulty !== bookmarkDifficultyFilter) {
+        return false;
+      }
+
+      // Search query filter
+      if (bookmarkSearchQuery.trim()) {
+        const query = bookmarkSearchQuery.toLowerCase().trim();
+        const matchesQuestion = q.question?.toLowerCase().includes(query);
+        const matchesExplanation = q.explanation?.toLowerCase().includes(query);
+        const matchesSection = q.section?.toLowerCase().includes(query);
+        const matchesQuizTitle = b.quizTitle?.toLowerCase().includes(query);
+        const matchesSubject = subject.toLowerCase().includes(query);
+        return matchesQuestion || matchesExplanation || matchesSection || matchesQuizTitle || matchesSubject;
+      }
+
+      return true;
+    }).sort((a, b) => {
+      if (bookmarkSortBy === 'subject_asc') {
+        return getBookmarkSubject(a).localeCompare(getBookmarkSubject(b));
+      }
+      if (bookmarkSortBy === 'subject_desc') {
+        return getBookmarkSubject(b).localeCompare(getBookmarkSubject(a));
+      }
+      const diffWeight: Record<string, number> = { 'Basic': 1, 'Moderate': 2, 'Expert': 3 };
+      if (bookmarkSortBy === 'difficulty_asc') {
+        return diffWeight[getBookmarkDifficulty(a)] - diffWeight[getBookmarkDifficulty(b)];
+      }
+      if (bookmarkSortBy === 'difficulty_desc') {
+        return diffWeight[getBookmarkDifficulty(b)] - diffWeight[getBookmarkDifficulty(a)];
+      }
+      return 0;
+    });
+  }, [savedBookmarks, bookmarkSubjectFilter, bookmarkDifficultyFilter, bookmarkSearchQuery, bookmarkSortBy, getBookmarkSubject, getBookmarkDifficulty]);
 
   const matchingQuizzes = useMemo(() => {
     if (!dashboardSearchQuery.trim()) return [];
@@ -1334,7 +1466,10 @@ export default function App() {
     if (exists) {
       updated = savedBookmarks.filter(b => b && b.question && !(b.quizId === quizId && b.question.id === q.id));
     } else {
-      updated = [...savedBookmarks, { quizId, quizTitle, question: q }];
+      const tempBm: Bookmark = { quizId, quizTitle, question: q };
+      const subject = getBookmarkSubject(tempBm);
+      const difficulty = getBookmarkDifficulty(tempBm);
+      updated = [...savedBookmarks, { quizId, quizTitle, question: q, subject, difficulty }];
     }
     
     setSavedBookmarks(updated);
@@ -3445,22 +3580,41 @@ export default function App() {
 
         {/* Bookmarked questions star hub */}
         {activeView === 'bookmarks' && (
-          <div className="max-w-4xl mx-auto px-6 py-12 space-y-8 animate-fadeIn">
-            <div className="flex items-center gap-3">
-              <button 
-                onClick={() => setActiveView('dashboard')}
-                className="bg-white border border-slate-200 hover:bg-slate-50 p-2.5 rounded-xl text-slate-600 transition-all cursor-pointer"
-              >
-                <ArrowLeft className="w-4 h-4" />
-              </button>
-              <div>
-                <h2 className="text-xl font-extrabold text-slate-800 tracking-tight flex items-center gap-2">
-                  <Star className="w-5 h-5 text-amber-500 fill-amber-500" />
-                  <span className="hidden sm:inline">Saved Star Hub</span>
-                  <span className="sm:hidden">Saved Questions</span>
-                </h2>
-                <p className="text-xs text-slate-500">Your custom library of difficult, memory-anchored, and highly high-yield questions.</p>
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8 md:py-12 space-y-6 animate-fadeIn">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+              <div className="flex items-center gap-3">
+                <button 
+                  onClick={() => setActiveView('dashboard')}
+                  className="bg-white border border-slate-200 hover:bg-slate-50 p-2.5 rounded-xl text-slate-600 transition-all cursor-pointer shadow-2xs"
+                >
+                  <ArrowLeft className="w-4 h-4" />
+                </button>
+                <div>
+                  <h2 className="text-xl sm:text-2xl font-black text-slate-800 tracking-tight flex items-center gap-2">
+                    <Star className="w-5 h-5 text-amber-500 fill-amber-500" />
+                    <span>Saved Star Hub</span>
+                    <span className="text-xs font-extrabold px-2.5 py-0.5 rounded-full bg-amber-100 text-amber-800 border border-amber-200 ml-1">
+                      {savedBookmarks.length}
+                    </span>
+                  </h2>
+                  <p className="text-xs text-slate-500 font-medium">Your custom library of saved questions with subject & difficulty filter controls.</p>
+                </div>
               </div>
+
+              {savedBookmarks.length > 0 && (
+                <button
+                  onClick={() => {
+                    if (confirm('Are you sure you want to clear all bookmarked questions?')) {
+                      setSavedBookmarks([]);
+                      localStorage.setItem('dsssb_bookmarks', '[]');
+                      localStorage.setItem('dsssb_bookmarked_question_ids', '[]');
+                    }
+                  }}
+                  className="text-xs font-bold text-rose-600 hover:text-rose-700 bg-rose-50 hover:bg-rose-100 border border-rose-200 px-3 py-1.5 rounded-xl transition-all self-start sm:self-auto cursor-pointer"
+                >
+                  Clear All Saved
+                </button>
+              )}
             </div>
 
             {savedBookmarks.length === 0 ? (
@@ -3472,58 +3626,218 @@ export default function App() {
                 </p>
               </div>
             ) : (
-              <div className="space-y-4">
-                {savedBookmarks.map((bookmark) => {
-                  if (!bookmark || !bookmark.question) return null;
-                  const q = bookmark.question;
-                  const opts = q.options || [];
-                  return (
-                    <div key={`${bookmark.quizId}_${q.id}`} className="bg-white border border-slate-200/80 rounded-2xl p-6 shadow-sm space-y-3 relative">
-                      <button 
-                        onClick={() => toggleBookmark(q, bookmark.quizId, bookmark.quizTitle)}
-                        className="absolute top-4 right-4 text-amber-500 hover:text-slate-400 transition-colors"
-                        title="Remove Bookmark"
-                      >
-                        <XCircle className="w-5 h-5 fill-white" />
-                      </button>
-                      
-                      <div className="space-y-1 pr-6">
-                        <span className="text-[9px] font-bold text-blue-600 bg-blue-50 px-2 py-0.5 rounded-full uppercase">
-                          {bookmark.quizTitle}
-                        </span>
-                        <p className="font-semibold text-xs text-slate-500 mt-1">{q.section}</p>
-                        <h4 className="font-bold text-xs md:text-sm text-slate-800 leading-normal mt-1">
-                          {q.question}
-                        </h4>
-                      </div>
+              <div className="space-y-6">
+                {/* Filter & Sort Controls Panel */}
+                <div className="bg-white border border-slate-200 rounded-2xl p-4 sm:p-5 shadow-xs space-y-4">
+                  {/* Search and Sort row */}
+                  <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+                    {/* Search bar */}
+                    <div className="relative flex-1">
+                      <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none" />
+                      <input
+                        type="text"
+                        value={bookmarkSearchQuery}
+                        onChange={(e) => setBookmarkSearchQuery(e.target.value)}
+                        placeholder="Search saved questions, subjects or topics..."
+                        className="w-full bg-slate-50 border border-slate-200 text-xs font-medium text-slate-800 rounded-xl pl-9 pr-8 py-2 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:bg-white transition-all"
+                      />
+                      {bookmarkSearchQuery && (
+                        <button
+                          onClick={() => setBookmarkSearchQuery('')}
+                          className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 p-0.5"
+                        >
+                          <X className="w-3.5 h-3.5" />
+                        </button>
+                      )}
+                    </div>
 
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2">
-                        {opts.map((opt, oIdx) => {
-                          const isCorrect = q.answer === oIdx;
+                    {/* Sort Dropdown */}
+                    <div className="flex items-center gap-2 shrink-0">
+                      <SlidersHorizontal className="w-3.5 h-3.5 text-slate-500" />
+                      <span className="text-xs font-bold text-slate-700 whitespace-nowrap">Sort By:</span>
+                      <select
+                        value={bookmarkSortBy}
+                        onChange={(e) => setBookmarkSortBy(e.target.value)}
+                        className="bg-slate-50 border border-slate-200 text-xs font-bold text-slate-700 rounded-xl px-3 py-2 focus:outline-none focus:ring-2 focus:ring-amber-400 cursor-pointer"
+                      >
+                        <option value="default">Default (Recent)</option>
+                        <option value="subject_asc">Subject (A → Z)</option>
+                        <option value="subject_desc">Subject (Z → A)</option>
+                        <option value="difficulty_asc">Difficulty (Basic → Expert)</option>
+                        <option value="difficulty_desc">Difficulty (Expert → Basic)</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  {/* Subject and Difficulty Filter Selectors */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2 border-t border-slate-100">
+                    {/* Subject Filter */}
+                    <div className="flex flex-col sm:flex-row sm:items-center gap-2">
+                      <span className="text-xs font-black text-slate-700 uppercase tracking-wider whitespace-nowrap shrink-0">
+                        Filter Subject:
+                      </span>
+                      <select
+                        value={bookmarkSubjectFilter}
+                        onChange={(e) => setBookmarkSubjectFilter(e.target.value)}
+                        className="w-full bg-slate-50 border border-slate-200 text-xs font-semibold text-slate-800 rounded-xl px-3 py-1.5 focus:outline-none focus:ring-2 focus:ring-amber-400 cursor-pointer truncate"
+                      >
+                        <option value="All">All Subjects ({savedBookmarks.length})</option>
+                        {bookmarkAvailableSubjects.map((subj) => {
+                          const count = savedBookmarks.filter(b => getBookmarkSubject(b) === subj).length;
                           return (
-                            <div 
-                              key={oIdx} 
-                              className={`p-3 rounded-xl border text-xs font-semibold ${
-                                isCorrect 
-                                  ? 'bg-emerald-50 border-emerald-300 text-emerald-900' 
-                                  : 'bg-slate-50 border-slate-100 text-slate-500'
+                            <option key={subj} value={subj}>
+                              {subj} ({count})
+                            </option>
+                          );
+                        })}
+                      </select>
+                    </div>
+
+                    {/* Difficulty Filter */}
+                    <div className="flex flex-col sm:flex-row sm:items-center gap-2">
+                      <span className="text-xs font-black text-slate-700 uppercase tracking-wider whitespace-nowrap shrink-0">
+                        Filter Difficulty:
+                      </span>
+                      <div className="flex items-center gap-1.5 flex-wrap w-full">
+                        {['All', 'Basic', 'Moderate', 'Expert'].map((diffKey) => {
+                          const isActive = bookmarkDifficultyFilter === diffKey;
+                          const count = diffKey === 'All' 
+                            ? savedBookmarks.length 
+                            : savedBookmarks.filter(b => getBookmarkDifficulty(b) === diffKey).length;
+                          
+                          const badgeIcon = diffKey === 'Basic' ? '🟢' : diffKey === 'Moderate' ? '🟡' : diffKey === 'Expert' ? '🔴' : '';
+
+                          return (
+                            <button
+                              key={diffKey}
+                              onClick={() => setBookmarkDifficultyFilter(diffKey)}
+                              className={`text-[11px] font-extrabold px-2.5 py-1 rounded-lg border transition-all cursor-pointer flex items-center gap-1 ${
+                                isActive
+                                  ? 'bg-amber-500 text-slate-950 border-amber-600 shadow-xs'
+                                  : 'bg-slate-50 text-slate-600 border-slate-200 hover:bg-slate-100'
                               }`}
                             >
-                              {cleanOptionText(opt)}
-                              {isCorrect && (
-                                <span className="float-right bg-emerald-500 text-white text-[8px] font-bold px-1.5 py-0.2 rounded uppercase">Correct</span>
-                              )}
-                            </div>
+                              {badgeIcon && <span>{badgeIcon}</span>}
+                              <span>{diffKey}</span>
+                              <span className={`text-[9px] px-1 rounded-full ${isActive ? 'bg-slate-950/20 text-slate-950' : 'bg-slate-200 text-slate-600'}`}>
+                                {count}
+                              </span>
+                            </button>
                           );
                         })}
                       </div>
-
-                      <div className="bg-slate-50 rounded-xl p-3 text-[11px] text-slate-600 leading-relaxed border border-slate-100/60">
-                        <strong>Solution Explanation:</strong> {q.explanation}
-                      </div>
                     </div>
-                  );
-                })}
+                  </div>
+
+                  {/* Active Filter Indicators / Reset */}
+                  {(bookmarkSubjectFilter !== 'All' || bookmarkDifficultyFilter !== 'All' || bookmarkSearchQuery !== '' || bookmarkSortBy !== 'default') && (
+                    <div className="flex items-center justify-between pt-2 text-xs border-t border-slate-100 flex-wrap gap-2">
+                      <span className="text-slate-500 font-medium">
+                        Showing <strong className="text-slate-800">{filteredAndSortedBookmarks.length}</strong> of <strong className="text-slate-800">{savedBookmarks.length}</strong> bookmarks
+                      </span>
+                      <button
+                        onClick={() => {
+                          setBookmarkSubjectFilter('All');
+                          setBookmarkDifficultyFilter('All');
+                          setBookmarkSearchQuery('');
+                          setBookmarkSortBy('default');
+                        }}
+                        className="text-amber-600 hover:text-amber-700 font-bold underline cursor-pointer"
+                      >
+                        Reset All Filters
+                      </button>
+                    </div>
+                  )}
+                </div>
+
+                {/* Filtered Bookmarks List */}
+                {filteredAndSortedBookmarks.length === 0 ? (
+                  <div className="p-8 bg-white border border-slate-200 rounded-2xl text-center space-y-2">
+                    <p className="text-sm font-bold text-slate-700">No bookmarked questions match your selected filter.</p>
+                    <button
+                      onClick={() => {
+                        setBookmarkSubjectFilter('All');
+                        setBookmarkDifficultyFilter('All');
+                        setBookmarkSearchQuery('');
+                        setBookmarkSortBy('default');
+                      }}
+                      className="text-xs font-bold text-amber-600 hover:underline cursor-pointer"
+                    >
+                      Clear Filters
+                    </button>
+                  </div>
+                ) : (
+                  <div className="space-y-4">
+                    {filteredAndSortedBookmarks.map((bookmark) => {
+                      if (!bookmark || !bookmark.question) return null;
+                      const q = bookmark.question;
+                      const opts = q.options || [];
+                      const subject = getBookmarkSubject(bookmark);
+                      const difficulty = getBookmarkDifficulty(bookmark);
+                      const diffConfig = DIFFICULTY_BADGE_CONFIG[difficulty] || DIFFICULTY_BADGE_CONFIG['Moderate'];
+
+                      return (
+                        <div key={`${bookmark.quizId}_${q.id}`} className="bg-white border border-slate-200/80 rounded-2xl p-5 sm:p-6 shadow-sm space-y-3 relative hover:border-amber-300 transition-all">
+                          <button 
+                            onClick={() => toggleBookmark(q, bookmark.quizId, bookmark.quizTitle)}
+                            className="absolute top-4 right-4 text-amber-500 hover:text-rose-500 transition-colors p-1"
+                            title="Remove Bookmark"
+                          >
+                            <XCircle className="w-5 h-5 fill-amber-100 hover:fill-rose-100" />
+                          </button>
+                          
+                          {/* Badges Row: Quiz Title, Subject, and Difficulty */}
+                          <div className="flex items-center gap-2 flex-wrap pr-8">
+                            <span className="text-[9px] font-black text-blue-700 bg-blue-50 border border-blue-200 px-2.5 py-0.5 rounded-full uppercase tracking-wider">
+                              {bookmark.quizTitle}
+                            </span>
+
+                            <span className="text-[9px] font-black text-indigo-700 bg-indigo-50 border border-indigo-200 px-2.5 py-0.5 rounded-full uppercase tracking-wider">
+                              📂 {subject}
+                            </span>
+
+                            <span className={`text-[9px] font-black px-2.5 py-0.5 rounded-full border uppercase tracking-wider flex items-center gap-1 ${diffConfig.bg}`}>
+                              <span>{diffConfig.icon}</span>
+                              <span>{diffConfig.label}</span>
+                            </span>
+                          </div>
+
+                          <div className="space-y-1">
+                            <p className="font-semibold text-xs text-slate-500 mt-1">{q.section}</p>
+                            <h4 className="font-bold text-xs md:text-sm text-slate-800 leading-normal mt-1">
+                              {q.question}
+                            </h4>
+                          </div>
+
+                          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2">
+                            {opts.map((opt, oIdx) => {
+                              const isCorrect = q.answer === oIdx;
+                              return (
+                                <div 
+                                  key={oIdx} 
+                                  className={`p-3 rounded-xl border text-xs font-semibold ${
+                                    isCorrect 
+                                      ? 'bg-emerald-50 border-emerald-300 text-emerald-900' 
+                                      : 'bg-slate-50 border-slate-100 text-slate-500'
+                                  }`}
+                                >
+                                  {cleanOptionText(opt)}
+                                  {isCorrect && (
+                                    <span className="float-right bg-emerald-500 text-white text-[8px] font-bold px-1.5 py-0.2 rounded uppercase">Correct</span>
+                                  )}
+                                </div>
+                              );
+                            })}
+                          </div>
+
+                          <div className="bg-slate-50 rounded-xl p-3 text-[11px] text-slate-600 leading-relaxed border border-slate-100/60">
+                            <strong>Solution Explanation:</strong> {q.explanation}
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
               </div>
             )}
           </div>
