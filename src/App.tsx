@@ -2253,19 +2253,6 @@ export default function App() {
 
           <div className="flex items-center gap-2 md:gap-4">
 
-            {/* PWA Install Button (Icon Only) */}
-            {!isInstalled && (
-              <button
-                onClick={handleInstallClick}
-                className="w-9 h-9 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white flex items-center justify-center shadow-xs active:scale-95 transition-all cursor-pointer shrink-0"
-                title="Install App"
-                aria-label="Install App"
-                id="install-app-icon-btn"
-              >
-                <Download className="w-4 h-4" />
-              </button>
-            )}
-
             <div className="hidden lg:flex items-center gap-2.5 xl:gap-3.5">
               <button
                 onClick={() => setActiveView('dashboard')}

@@ -136,7 +136,7 @@ export const PromoBanners: React.FC<PromoBannersProps> = ({
             <Flame className="w-4 h-4 fill-amber-500" />
           </div>
           <h3 className="text-xs sm:text-sm font-black text-slate-900 dark:text-white uppercase tracking-wider">
-            Featured Announcements &amp; Updates
+            Announcements &amp; Updates
           </h3>
         </div>
         <span className="text-[10px] font-bold text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-800 px-2 py-0.5 rounded-full">
