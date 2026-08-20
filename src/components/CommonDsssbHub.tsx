@@ -97,19 +97,19 @@ export const CommonDsssbHub: React.FC<CommonDsssbHubProps> = ({
           </p>
         </div>
 
-        {/* Quick Stats Box Centered */}
-        <div className="flex items-center justify-center gap-2 sm:gap-4 bg-gradient-to-r from-amber-50 via-orange-50/60 to-amber-50 border border-amber-200/80 p-2 sm:p-2.5 rounded-2xl mx-auto md:mx-0 shrink-0 w-full md:w-auto shadow-2xs">
-          <div className="flex-1 sm:flex-initial text-center px-3 sm:px-4 border-r border-amber-200">
-            <span className="text-[9px] sm:text-[10px] font-extrabold text-amber-700 uppercase tracking-wide block">Total</span>
-            <span className="text-base sm:text-lg font-black text-amber-950 leading-tight">{partAQuizzes.length}</span>
+        {/* Quick Stats Box */}
+        <div className="flex items-center gap-1.5 sm:gap-2 bg-amber-50 border border-amber-100 p-1.5 sm:p-2 rounded-2xl shrink-0">
+          <div className="text-center px-2 sm:px-2.5 border-r border-amber-200">
+            <span className="text-[8px] sm:text-[9px] font-extrabold text-amber-700 uppercase block">Total</span>
+            <span className="text-sm sm:text-base font-black text-amber-950">{partAQuizzes.length}</span>
           </div>
-          <div className="flex-1 sm:flex-initial text-center px-3 sm:px-4 border-r border-amber-200">
-            <span className="text-[9px] sm:text-[10px] font-extrabold text-emerald-600 uppercase tracking-wide block">Attempted</span>
-            <span className="text-base sm:text-lg font-black text-emerald-950 leading-tight">{partAAttemptedCount}</span>
+          <div className="text-center px-2 sm:px-2.5 border-r border-amber-200">
+            <span className="text-[8px] sm:text-[9px] font-extrabold text-emerald-600 uppercase block">Attempted</span>
+            <span className="text-sm sm:text-base font-black text-emerald-950">{partAAttemptedCount}</span>
           </div>
-          <div className="flex-1 sm:flex-initial text-center px-3 sm:px-4">
-            <span className="text-[9px] sm:text-[10px] font-extrabold text-amber-800 uppercase tracking-wide block">Unattempted</span>
-            <span className="text-base sm:text-lg font-black text-amber-950 leading-tight">{Math.max(0, partAQuizzes.length - partAAttemptedCount)}</span>
+          <div className="text-center px-2 sm:px-2.5">
+            <span className="text-[8px] sm:text-[9px] font-extrabold text-amber-800 uppercase block">Unattempted</span>
+            <span className="text-sm sm:text-base font-black text-amber-950">{Math.max(0, partAQuizzes.length - partAAttemptedCount)}</span>
           </div>
         </div>
       </div>

@@ -2399,21 +2399,20 @@ export default function App() {
               )}
             </div>
 
-            {/* Part A Mock Sunday Special Banner - Hidden on Mobile View */}
-            <div className="hidden sm:block">
-              <PartAMockSpecialBanner
-                onClick={() => {
-                  const partAFullMocks = allCombinedQuizzes.filter(q => 
-                    q.subject === 'Part A Full Mock' || 
-                    (q.category === 'full' && (q.title.toLowerCase().includes('part a') || q.title.toLowerCase().includes('part-a') || q.isPartA === true))
-                  );
-                  const selectedPartAMockQuiz = partAFullMocks[0] || allCombinedQuizzes.find(q => q.category === 'full') || allCombinedQuizzes[0];
-                  if (selectedPartAMockQuiz) {
-                    handleStartTestAttempt(selectedPartAMockQuiz);
-                  }
-                }}
-              />
-            </div>
+            {/* Part A Mock Sunday Special Banner (Hidden on Mobile) */}
+            <PartAMockSpecialBanner
+              className="hidden sm:block"
+              onClick={() => {
+                const partAFullMocks = allCombinedQuizzes.filter(q => 
+                  q.subject === 'Part A Full Mock' || 
+                  (q.category === 'full' && (q.title.toLowerCase().includes('part a') || q.title.toLowerCase().includes('part-a') || q.isPartA === true))
+                );
+                const selectedPartAMockQuiz = partAFullMocks[0] || allCombinedQuizzes.find(q => q.category === 'full') || allCombinedQuizzes[0];
+                if (selectedPartAMockQuiz) {
+                  handleStartTestAttempt(selectedPartAMockQuiz);
+                }
+              }}
+            />
 
             {/* Daily Challenge Streak Tracker & Daily Booster Quiz - BELOW SEARCH */}
             <DailyStreakTracker 
