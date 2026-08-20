@@ -19,7 +19,7 @@ export const PartAMockSpecialBanner: React.FC<PartAMockSpecialBannerProps> = ({
       whileHover={{ y: -2 }}
       whileTap={{ scale: 0.98 }}
       onClick={onClick}
-      className={`relative overflow-hidden rounded-2xl md:rounded-3xl bg-gradient-to-br from-blue-700 via-indigo-800 to-slate-900 border border-blue-500/40 shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer p-4 sm:p-6 ${className}`}
+      className={`relative overflow-hidden rounded-2xl md:rounded-3xl bg-gradient-to-br from-blue-700 via-indigo-800 to-slate-900 border border-blue-500/40 shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer p-4 sm:p-6 hidden sm:block ${className}`}
     >
       {/* Dynamic decorative backdrop circles */}
       <div className="absolute -top-20 -right-20 w-44 h-44 bg-blue-500/25 rounded-full blur-2xl pointer-events-none" />

@@ -86,16 +86,6 @@ export const TeachingMethodologyHub: React.FC<TeachingMethodologyHubProps> = ({
       {/* Header Info */}
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div className="space-y-1.5">
-          <div className="flex items-center gap-2.5 flex-wrap">
-            <span className="bg-purple-100 text-purple-900 border border-purple-200 text-[10px] font-extrabold px-3 py-0.5 rounded-full uppercase tracking-wider flex items-center gap-1 shadow-2xs">
-              <GraduationCap className="w-3.5 h-3.5 text-purple-600" />
-              <span className="hidden sm:inline">Dedicated Pedagogy Section</span>
-              <span className="sm:hidden">Teaching Methodology</span>
-            </span>
-            <span className="bg-emerald-50 text-emerald-700 border border-emerald-200 text-[10px] font-black px-2.5 py-0.5 rounded-md uppercase tracking-wider">
-              {pedagogyQuizzes.length} Mock Tests
-            </span>
-          </div>
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 md:w-12 md:h-12 rounded-2xl bg-purple-600 text-white flex items-center justify-center font-black shadow-md shadow-purple-200 shrink-0">
               <GraduationCap className="w-6 h-6" />
@@ -110,19 +100,19 @@ export const TeachingMethodologyHub: React.FC<TeachingMethodologyHubProps> = ({
           </p>
         </div>
 
-        {/* Quick Stats */}
-        <div className="flex items-center gap-1.5 sm:gap-2 bg-purple-50 border border-purple-100 p-1.5 sm:p-2 rounded-2xl shrink-0">
-          <div className="text-center px-2 sm:px-2.5 border-r border-purple-200">
-            <span className="text-[8px] sm:text-[9px] font-extrabold text-purple-600 uppercase block">Total</span>
-            <span className="text-sm sm:text-base font-black text-purple-950">{pedagogyQuizzes.length}</span>
+        {/* Quick Stats Box Centered */}
+        <div className="flex items-center justify-center gap-2 sm:gap-4 bg-gradient-to-r from-purple-50 via-pink-50/60 to-indigo-50 border border-purple-200/80 p-2 sm:p-2.5 rounded-2xl mx-auto md:mx-0 shrink-0 w-full md:w-auto shadow-2xs">
+          <div className="flex-1 sm:flex-initial text-center px-3 sm:px-4 border-r border-purple-200">
+            <span className="text-[9px] sm:text-[10px] font-extrabold text-purple-600 uppercase tracking-wide block">Total</span>
+            <span className="text-base sm:text-lg font-black text-purple-950 leading-tight">{pedagogyQuizzes.length}</span>
           </div>
-          <div className="text-center px-2 sm:px-2.5 border-r border-purple-200">
-            <span className="text-[8px] sm:text-[9px] font-extrabold text-emerald-600 uppercase block">Attempted</span>
-            <span className="text-sm sm:text-base font-black text-emerald-950">{attemptedCount}</span>
+          <div className="flex-1 sm:flex-initial text-center px-3 sm:px-4 border-r border-purple-200">
+            <span className="text-[9px] sm:text-[10px] font-extrabold text-emerald-600 uppercase tracking-wide block">Attempted</span>
+            <span className="text-base sm:text-lg font-black text-emerald-950 leading-tight">{attemptedCount}</span>
           </div>
-          <div className="text-center px-2 sm:px-2.5">
-            <span className="text-[8px] sm:text-[9px] font-extrabold text-purple-700 uppercase block">Unattempted</span>
-            <span className="text-sm sm:text-base font-black text-purple-950">{Math.max(0, pedagogyQuizzes.length - attemptedCount)}</span>
+          <div className="flex-1 sm:flex-initial text-center px-3 sm:px-4">
+            <span className="text-[9px] sm:text-[10px] font-extrabold text-purple-700 uppercase tracking-wide block">Unattempted</span>
+            <span className="text-base sm:text-lg font-black text-purple-950 leading-tight">{Math.max(0, pedagogyQuizzes.length - attemptedCount)}</span>
           </div>
         </div>
       </div>
