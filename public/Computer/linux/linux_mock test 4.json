@@ -1,0 +1,602 @@
+[
+  {
+    "question": "Which one of the following is not true about GDB?",
+    "options": [
+      "A) quit command is used to exit the GDB",
+      "B) kill command is used to stop execution in GDB",
+      "C) if the execution is stopped by kill command then it can not be started again",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "None.",
+    "topic": "GDB Questions & Answers"
+  },
+  {
+    "question": "While debugging with GDB",
+    "options": [
+      "A) variables can be print",
+      "B) variables can be modify",
+      "C) variables can be print & modify",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "None.",
+    "topic": "GDB Questions & Answers"
+  },
+  {
+    "question": "GDB command “frame” is used",
+    "options": [
+      "A) to change the stack frames",
+      "B) to check the stack frames only",
+      "C) it is not a valid command",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None.",
+    "topic": "GDB Questions & Answers"
+  },
+  {
+    "question": "The GDB command “info local”",
+    "options": [
+      "A) displays the list of local variables",
+      "B) value of local values for the current stack frame",
+      "C) displays the list of local variables & value of local values for the current stack frame",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "None.",
+    "topic": "GDB Questions & Answers"
+  },
+  {
+    "question": "If we have multiple source files, then during the debugging with GDB",
+    "options": [
+      "A) breakpoint can not be set",
+      "B) break point can be set by “break” command with a filename",
+      "C) break point can be set only to makefile",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "None.",
+    "topic": "GDB Questions & Answers"
+  },
+  {
+    "question": "What is temporary breakpoint?",
+    "options": [
+      "A) it stops the program once",
+      "B) it is removed after one execution of the program",
+      "C) it stops the program once & removes after one execution of the program",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "None.",
+    "topic": "GDB Questions & Answers"
+  },
+  {
+    "question": "In GDB breakpoints can be skipped by the command",
+    "options": [
+      "A) ignore",
+      "B) reject",
+      "C) skip",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None.",
+    "topic": "GDB Questions & Answers"
+  },
+  {
+    "question": "Which GDB command is used to examine the memory?",
+    "options": [
+      "A) x",
+      "B) y",
+      "C) z",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None.",
+    "topic": "GDB Questions & Answers"
+  },
+  {
+    "question": "Which one of the following is not true about the GDB?",
+    "options": [
+      "A) info register is used to see that what is in the processor registers",
+      "B) processor registers can not be accessed by GDB",
+      "C) first 32 bits of the variable can not be examined",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "None.",
+    "topic": "GDB Questions & Answers"
+  },
+  {
+    "question": "Assemble code of the program can be displayed in GDB by the command",
+    "options": [
+      "A) disassemble",
+      "B) assemble",
+      "C) assembly",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None.",
+    "topic": "GDB Questions & Answers"
+  },
+  {
+    "question": "The directories of /sys directory",
+    "options": [
+      "A) are created at system startup when the subsystems register themselves with kobject core",
+      "B) are created when any device is connects with the system",
+      "C) are created at the time of kernel compilation",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None.",
+    "topic": "Linux /sys Questions & Answers"
+  },
+  {
+    "question": "The directory /sys/block contains",
+    "options": [
+      "A) sub-directories for each block device",
+      "B) symbolic link for each block device only",
+      "C) device file for each block device only",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None.",
+    "topic": "Linux /sys Questions & Answers"
+  },
+  {
+    "question": "In sysfs, each represented bus type has two directories named as",
+    "options": [
+      "A) attributes and kobjects",
+      "B) devices and drivers",
+      "C) devices and kobjects",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "None.",
+    "topic": "Linux /sys Questions & Answers"
+  },
+  {
+    "question": "A device class describes the ____ type of device.",
+    "options": [
+      "A) physical",
+      "B) stuctural",
+      "C) functional",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "None.",
+    "topic": "Linux /sys Questions & Answers"
+  },
+  {
+    "question": "Which one of the following directory contains every physical device that has been discovered by the bus types registered with the kernel?",
+    "options": [
+      "A) /sys/devices",
+      "B) /sys/bus/devices",
+      "C) /devices",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None.",
+    "topic": "Linux /sys Questions & Answers"
+  },
+  {
+    "question": "Which type of devices are peripheral devices?",
+    "options": [
+      "A) platform devices",
+      "B) system devices",
+      "C) both system and platform devices",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "None.",
+    "topic": "Linux /sys Questions & Answers"
+  },
+  {
+    "question": "Which one of the following is not a system device?",
+    "options": [
+      "A) CPU",
+      "B) APIC",
+      "C) Timer",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "None.",
+    "topic": "Linux /sys Questions & Answers"
+  },
+  {
+    "question": "Which one of the following is not a platform specific code?",
+    "options": [
+      "A) x86 BIOS",
+      "B) EFI on ia64",
+      "C) both x86 BIOS and EFI on ia64",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "None.",
+    "topic": "Linux /sys Questions & Answers"
+  },
+  {
+    "question": "In device driver model bus_type object contains the",
+    "options": [
+      "A) name of the bus type",
+      "B) set of kobjects of the drivers",
+      "C) set of kobjects of the devices",
+      "D) all of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "None.",
+    "topic": "Linux /sys Questions & Answers"
+  },
+  {
+    "question": "The file fs/sysfs/sysfs.h contains the",
+    "options": [
+      "A) internal header files for sysfs",
+      "B) function definitions will not shared locally among the sysfs source",
+      "C) all of the mentioned",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None.",
+    "topic": "Linux /sys Questions & Answers"
+  },
+  {
+    "question": "Sysfs is initialised in ______ file via sysfs_init function.",
+    "options": [
+      "A) fs/sysfs/mount.c",
+      "B) sysfs/mount.c",
+      "C) fs/mount.c",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None.",
+    "topic": "Sysfs Filesystem    Multiple Choice Questions & Answers"
+  },
+  {
+    "question": "Kernel objects are exported as _____ via sysfs.",
+    "options": [
+      "A) regular files",
+      "B) symbolic links",
+      "C) directories",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "None.",
+    "topic": "Sysfs Filesystem    Multiple Choice Questions & Answers"
+  },
+  {
+    "question": "Sysfs internally stores the pointer to the ____ that implements the directory in the file system.",
+    "options": [
+      "A) kobjects",
+      "B) kstructures",
+      "C) kinodes",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None.",
+    "topic": "Sysfs Filesystem    Multiple Choice Questions & Answers"
+  },
+  {
+    "question": "Attributes can be exported for objects in the form of _______ in the file system.",
+    "options": [
+      "A) regular files",
+      "B) directories",
+      "C) symbolic links",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None.",
+    "topic": "Sysfs Filesystem    Multiple Choice Questions & Answers"
+  },
+  {
+    "question": "In sysfs every subsystem has",
+    "options": [
+      "A) a shared attribute structure",
+      "B) its own attribute structure",
+      "C) a shared & own attribute structure",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "None.",
+    "topic": "Sysfs Filesystem    Multiple Choice Questions & Answers"
+  },
+  {
+    "question": "sysfs is based on",
+    "options": [
+      "A) rootfs",
+      "B) ramfs",
+      "C) initramfs",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "None.",
+    "topic": "Sysfs Filesystem    Multiple Choice Questions & Answers"
+  },
+  {
+    "question": "Which one of the following is a notification to user space from the kernel that something has changed in the system’s configuration?",
+    "options": [
+      "A) hotplug event",
+      "B) module event",
+      "C) attach event",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None.",
+    "topic": "Sysfs Filesystem    Multiple Choice Questions & Answers"
+  },
+  {
+    "question": "In the device driver model the device_driver object contains the",
+    "options": [
+      "A) name of the device driver",
+      "B) embedded kobjects",
+      "C) method for probing a device",
+      "D) all of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "None.",
+    "topic": "Sysfs Filesystem    Multiple Choice Questions & Answers"
+  },
+  {
+    "question": "A ____ is a higher level view of a device that abstracts out low level implementation details/",
+    "options": [
+      "A) inode",
+      "B) class",
+      "C) major number",
+      "D) minor number"
+    ],
+    "correct_answer": "B",
+    "explanation": "None.",
+    "topic": "Sysfs Filesystem    Multiple Choice Questions & Answers"
+  },
+  {
+    "question": "When a device is removed from the system",
+    "options": [
+      "A) files and directories of that device in the sysfs are removed automatically",
+      "B) all the files of sysfs are preserved until the system turn offs",
+      "C) it does not create any change in the sysfs",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None.",
+    "topic": "Sysfs Filesystem    Multiple Choice Questions & Answers"
+  },
+  {
+    "question": "The major number identifies the _____ associated with the device.",
+    "options": [
+      "A) driver",
+      "B) protocol",
+      "C) port",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None.",
+    "topic": "Linux Device Driver    Multiple Choice Questions & Answers"
+  },
+  {
+    "question": "The minor number range should be",
+    "options": [
+      "A) 0 to 15",
+      "B) 0 to 63",
+      "C) 0 to 255",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "None.",
+    "topic": "Linux Device Driver    Multiple Choice Questions & Answers"
+  },
+  {
+    "question": "In linux kernel 2.4, we can have",
+    "options": [
+      "A) 256 character drivers only",
+      "B) 256 block drivers only",
+      "C) 256 character drivers and 256 block drivers at the same time",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "c",
+    "topic": "Linux Device Driver    Multiple Choice Questions & Answers"
+  },
+  {
+    "question": "In we use a driver for N number of files, then we have to create ____ device files.",
+    "options": [
+      "A) N",
+      "B) 1",
+      "C) N-1",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None.",
+    "topic": "Linux Device Driver    Multiple Choice Questions & Answers"
+  },
+  {
+    "question": "If we use a driver for various device files, then",
+    "options": [
+      "A) minor number will be different for every device file",
+      "B) minor number will be same for every device file",
+      "C) minor number can not be allocated for any device file",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None.",
+    "topic": "Linux Device Driver    Multiple Choice Questions & Answers"
+  },
+  {
+    "question": "The connection between the device file and device driver is based on the",
+    "options": [
+      "A) name of device file",
+      "B) number of device file",
+      "C) name & number of device file",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "None.",
+    "topic": "Linux Device Driver    Multiple Choice Questions & Answers"
+  },
+  {
+    "question": "In linux kernel 2.1, the minor numbers were used to",
+    "options": [
+      "A) represnt the sub-functionalitites of the driver",
+      "B) identify the driver",
+      "C) represent the device files",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None.",
+    "topic": "Linux Device Driver    Multiple Choice Questions & Answers"
+  },
+  {
+    "question": "The kernel identifies the driver with its",
+    "options": [
+      "A) module",
+      "B) major number",
+      "C) device file",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "None.",
+    "topic": "Linux Device Driver    Multiple Choice Questions & Answers"
+  },
+  {
+    "question": "In linux, a device driver can work without the",
+    "options": [
+      "A) major number",
+      "B) minor number",
+      "C) device file name",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "None.",
+    "topic": "Linux Device Driver    Multiple Choice Questions & Answers"
+  },
+  {
+    "question": "Each process has unique",
+    "options": [
+      "A) fd table",
+      "B) file table",
+      "C) inode table",
+      "D) data block table"
+    ],
+    "correct_answer": "A",
+    "explanation": "None.",
+    "topic": "Linux Interview    File Management 1"
+  },
+  {
+    "question": "File descriptor table indexes which kernel structure?",
+    "options": [
+      "A) struct file",
+      "B) strruct fs_struct",
+      "C) files_struct",
+      "D) struct inode"
+    ],
+    "correct_answer": "A",
+    "explanation": "None.",
+    "topic": "Linux Interview    File Management 1"
+  },
+  {
+    "question": "What is the default  number of files open per user process?",
+    "options": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) 3"
+    ],
+    "correct_answer": "D",
+    "explanation": "None.",
+    "topic": "Linux Interview    File Management 1"
+  },
+  {
+    "question": "The file system information is stored in",
+    "options": [
+      "A) Boot block",
+      "B) Super Block",
+      "C) Inode Table",
+      "D) Data Block"
+    ],
+    "correct_answer": "B",
+    "explanation": "None.",
+    "topic": "Linux Interview    File Management 1"
+  },
+  {
+    "question": "Switch table is used by",
+    "options": [
+      "A) device special file",
+      "B) directory file",
+      "C) fifo",
+      "D) link file"
+    ],
+    "correct_answer": "A",
+    "explanation": "None.",
+    "topic": "Linux Interview    File Management 1"
+  },
+  {
+    "question": "What is the use of fcntl function?",
+    "options": [
+      "A) locking a file",
+      "B) reading the file descriptor flag",
+      "C) changing the file status flag",
+      "D) all of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "None.",
+    "topic": "Linux Interview    File Management 1"
+  },
+  {
+    "question": "Which function can be used instead of the dup2 to duplicate the file descriptor?",
+    "options": [
+      "A) read()",
+      "B) open()",
+      "C) stat()",
+      "D) fcntl()"
+    ],
+    "correct_answer": "D",
+    "explanation": "None.",
+    "topic": "Linux Interview    File Management 1"
+  },
+  {
+    "question": "printf() uses which system call",
+    "options": [
+      "A) open",
+      "B) read",
+      "C) write",
+      "D) close"
+    ],
+    "correct_answer": "C",
+    "explanation": "None.",
+    "topic": "Linux Interview    File Management 1"
+  },
+  {
+    "question": "read() system call on success returns",
+    "options": [
+      "A) 0",
+      "B) -1",
+      "C) number of character",
+      "D) none"
+    ],
+    "correct_answer": "C",
+    "explanation": "None.",
+    "topic": "Linux Interview    File Management 1"
+  },
+  {
+    "question": "Which system call is used to create a hard link?",
+    "options": [
+      "A) hardlink",
+      "B) link",
+      "C) symlink",
+      "D) ln"
+    ],
+    "correct_answer": "B",
+    "explanation": "None.",
+    "topic": "Linux Interview    File Management 1"
+  },
+  {
+    "question": "namei() is",
+    "options": [
+      "A) ANSI C library function",
+      "B) C library function",
+      "C) System call",
+      "D) kernel routine"
+    ],
+    "correct_answer": "D",
+    "explanation": "None.",
+    "topic": "Linux Interview    File Management 1"
+  }
+]

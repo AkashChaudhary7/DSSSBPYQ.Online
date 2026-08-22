@@ -1,0 +1,544 @@
+[
+  {
+    "question": "Circuit switching has more advantage than packet switching for PCS.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Packet switching technology will have more advantages for PCS/PCN than circuit switching. PCS is required to serve a wide range of services including voice, data, e-mail and digital video."
+  },
+  {
+    "question": "______ is used for transmission of packets in the cellular switched architecture.",
+    "options": [
+      "A) Packet switching techniques",
+      "B) Circuit switching techniques",
+      "C) Packet and circuit switched technique",
+      "D) Datagram technique"
+    ],
+    "correct_answer": "A",
+    "explanation": "Packet switching techniques are used for transmission of packets in the cellular switched architecture. Packet switching is attractive for wireless networks because the addresses and other information in packet headers make it possible for dispersed network elements to respond to a mobile user without intervention central controllers."
+  },
+  {
+    "question": "Which of the following has the function to accept information from PSTN?",
+    "options": [
+      "A) TIU",
+      "B) WIU",
+      "C) BIU",
+      "D) CIU"
+    ],
+    "correct_answer": "A",
+    "explanation": "The function of TIU (Trunk interface unit) is to accept information from the PSTN. TIU acts as the physical layer and transforms the standard format of the PSTN into the wireless access physical layer."
+  },
+  {
+    "question": "PTI is the address of ____________",
+    "options": [
+      "A) TIU",
+      "B) WIU",
+      "C) BIU",
+      "D) CIU"
+    ],
+    "correct_answer": "A",
+    "explanation": "PTI (Permanent terminal identifier) is the address of TIU. It is the address from where he call is originated."
+  },
+  {
+    "question": "_______ is the information contained in the packet header of TIU.",
+    "options": [
+      "A) PTI",
+      "B) VCI",
+      "C) PRMA",
+      "D) CDPD"
+    ],
+    "correct_answer": "B",
+    "explanation": "VCI (virtual circuit identifier) is the information contained in the packet header of TIU. It is used to identify the route through which the transmission will take place."
+  },
+  {
+    "question": "Transmission protocol, PRMA stands for _________",
+    "options": [
+      "A) Pocket reservation multiple access",
+      "B) Packet register multiple access",
+      "C) Pocket register multiple access",
+      "D) Packet reservation multiple access"
+    ],
+    "correct_answer": "D",
+    "explanation": "Transmission protocol, PRMA stands for packet reservation multiple access. PRMA is a time division multiplex (TDM) based multiple access protocol that allows a group of spatially dispersed terminals to transmit packet voice and low bit rate data over a common channel."
+  },
+  {
+    "question": "UMTS stands for ____________",
+    "options": [
+      "A) Universal mobile telecommunication system",
+      "B) Universal mobile telephone system",
+      "C) United multiplex telecommunication system",
+      "D) Universal mobile telecommunication system"
+    ],
+    "correct_answer": "D",
+    "explanation": "UMTS stands for Universal mobile telecommunication system. It is a system that is capable of providing a variety of mobile services to a wide range of global mobile communication standards."
+  },
+  {
+    "question": "Which of the following is the world’s first cellular system to specify digital modulation and network level architecture?",
+    "options": [
+      "A) GSM",
+      "B) AMPS",
+      "C) CDMA",
+      "D) IS-54"
+    ],
+    "correct_answer": "A",
+    "explanation": "GSM was the world’s first cellular system to specify digital modulation and level architectures and services. It is the world’s most popular 2G technology. It was developed to solve the fragmentation problems of the first cellular systems in Europe."
+  },
+  {
+    "question": "Previously in 1980s, GSM stands for ____________",
+    "options": [
+      "A) Global system for mobile",
+      "B) Groupe special mobile",
+      "C) Global special mobile",
+      "D) Groupe system mobile"
+    ],
+    "correct_answer": "B",
+    "explanation": "In the mid-1980s GSM was called by the name Groupe special mobile. In 1992, GSM changed its name to Global System for Mobile Communication for marketing reasons."
+  },
+  {
+    "question": "Who sets the standards of GSM?",
+    "options": [
+      "A) ITU",
+      "B) AT & T",
+      "C) ETSI",
+      "D) USDC"
+    ],
+    "correct_answer": "C",
+    "explanation": "The setting of standards for GSM is under the aegis of the European Technical Standards Institute (ETSI). GSM task was to specify a common mobile communication system for Europe in the 900 MHZ band."
+  },
+  {
+    "question": "Which of the following does not come under the teleservices of GSM?",
+    "options": [
+      "A) Standard mobile telephony",
+      "B) Mobile originated traffic",
+      "C) Base originated traffic",
+      "D) Packet switched traffic"
+    ],
+    "correct_answer": "D",
+    "explanation": "GSM services follow ISDN guidelines and are classified as either teleservices or data services. Teleservices include standard mobile telephony and mobile originated or base originated traffic."
+  },
+  {
+    "question": "Which of the following comes under supplementary ISDN services?",
+    "options": [
+      "A) Emergency calling",
+      "B) Packet switched protocols",
+      "C) Call diversion",
+      "D) Standard mobile telephony"
+    ],
+    "correct_answer": "C",
+    "explanation": "Supplementary ISDN services are digital in nature. They include call diversion, closed user groups, and caller identification, and are not available in analog mobile networks. Supplementary services also include short messaging service (SMS)."
+  },
+  {
+    "question": "Which of the following memory device stores information such as subscriber’s identification number in GSM?",
+    "options": [
+      "A) Register",
+      "B) Flip flop",
+      "C) SIM",
+      "D) SMS"
+    ],
+    "correct_answer": "C",
+    "explanation": "SIM (subscriber identity module) is a memory device that stores information such as the subscriber’s identification number, the networks and countries where the subscriber is entitled to service, privacy keys, and other user specific information."
+  },
+  {
+    "question": "Which of the following feature makes impossible to eavesdrop on GSM radio transmission?",
+    "options": [
+      "A) SIM",
+      "B) On the air privacy",
+      "C) SMS",
+      "D) Packet switched traffic"
+    ],
+    "correct_answer": "B",
+    "explanation": "The on the air privacy feature of GSM makes impossible to eavesdrop on a GSM radio transmission. The privacy is made possible by encrypting the digital bit stream sent by a GSM transmitter, according to a specific secret cryptographic key that is known only to the cellular carrier."
+  },
+  {
+    "question": "Which of the following does not come under subsystem of GSM architecture?",
+    "options": [
+      "A) BSS",
+      "B) NSS",
+      "C) OSS",
+      "D) Channel"
+    ],
+    "correct_answer": "D",
+    "explanation": "The GSM architecture consists of three major interconnected subsystems that interact between themselves and with the users through certain network interfaces. The subsystems are BSS (Base Station Subsystem), NSS (Network and Switching Subsystem) and OSS (Operation Support Subsystem)."
+  },
+  {
+    "question": "Which of the following subsystem provides radio transmission between mobile station and MSC?",
+    "options": [
+      "A) BSS",
+      "B) NSS",
+      "C) OSS",
+      "D) BSC"
+    ],
+    "correct_answer": "A",
+    "explanation": "The BSS provides and manages radio transmission paths between the mobile stations and the Mobile Switching Center (MSC). It also manages the radio interface between the mobile stations and all other subsystems of GSM."
+  },
+  {
+    "question": "___________ manages the switching function in GSM.",
+    "options": [
+      "A) BSS",
+      "B) NSS",
+      "C) OSS",
+      "D) MSC"
+    ],
+    "correct_answer": "B",
+    "explanation": "NSS (Network and Switching Subsystem) manages the switching functions of the system. It allows the MSCs to communicate with other networks such as PSTN and ISDN."
+  },
+  {
+    "question": "__________ supports the operation and maintenance of GSM.",
+    "options": [
+      "A) BSS",
+      "B) NSS",
+      "C) OSS",
+      "D) MSC"
+    ],
+    "correct_answer": "C",
+    "explanation": "The OSS (Operation Support Subsystem) supports the operation and maintenance of GSM. It allows system engineers to monitor, diagnose, and troubleshoot all aspects of GSM."
+  },
+  {
+    "question": "What layer in the TCP/IP stack is equivalent to the Transport layer of the OSI model?",
+    "options": [
+      "A) Application",
+      "B) Host to host",
+      "C) Internet",
+      "D) Network Access"
+    ],
+    "correct_answer": "B",
+    "explanation": "The four layers of the TCP/IP stack (also called the DoD model) are Application/Process, Host-to-Host, Internet, and Network Access. The Host-to-Host layer is equivalent to the Transport layer of the OSI model."
+  },
+  {
+    "question": "You want to implement a mechanism that automates the IP configuration, including IP address, subnet mask, default gateway, and DNS information. Which protocol will you use to accomplish this?",
+    "options": [
+      "A) SMTP",
+      "B) SNMP",
+      "C) DHCP",
+      "D) ARP"
+    ],
+    "correct_answer": "C",
+    "explanation": "Dynamic Host Configuration Protocol (DHCP) is used to provide IP information to hosts on your network. DHCP can provide a lot of information, but the most common is the IP address, subnet mask, default gateway, and DNS information."
+  },
+  {
+    "question": "The DoD model (also called the TCP/IP stack) has four layers. Which layer of the DoD model is equivalent to the Network layer of the OSI model?",
+    "options": [
+      "A) Application",
+      "B) Host to Host",
+      "C) Internet",
+      "D) Network Access"
+    ],
+    "correct_answer": "C",
+    "explanation": "The four layers of the DoD model are Application/Process, Host-to-Host, Internet, and Network Access. The Internet layer is equivalent to the Network layer of the OSI model."
+  },
+  {
+    "question": "Which of the following protocols uses both TCP and UDP?",
+    "options": [
+      "A) FTP",
+      "B) SMTP",
+      "C) Telnet",
+      "D) DNS"
+    ],
+    "correct_answer": "D",
+    "explanation": "DNS and some other services work on both TCP and the UDP protocols. DNS uses TCP for zone exchanges between servers and UDP when a client is trying to resolve a hostname to an IP address."
+  },
+  {
+    "question": "Length of Port address in TCP/IP is _________",
+    "options": [
+      "A) 4bit long",
+      "B) 16bit long",
+      "C) 32bit long",
+      "D) 8 bit long"
+    ],
+    "correct_answer": "B",
+    "explanation": "TCP and UDP port numbers are 16 bits in length. So, valid port numbers can theoretically take on values from 0 to 65,535. These values are divided into ranges for different purposes, with certain ports reserved for particular uses."
+  },
+  {
+    "question": "TCP/IP layer is equivalent to combined Session, Presentation and _________",
+    "options": [
+      "A) Network layer",
+      "B) Application layer",
+      "C) Transport layer",
+      "D) Physical layer"
+    ],
+    "correct_answer": "B",
+    "explanation": "TCP/IP network model is a hierarchical protocol made up of interactive modules, each of which provides a specific functionality; however, the modules are not necessarily interdependent. It is equivalent to combined session, presentation and application layer."
+  },
+  {
+    "question": "How many levels of addressing is provided in TCP/IP protocol?",
+    "options": [
+      "A) One",
+      "B) Two",
+      "C) Three",
+      "D) Four"
+    ],
+    "correct_answer": "D",
+    "explanation": "Four levels of addresses are used in the internet employing the TCP/IP protocols. They are physical (link) addresses, logical (IP) addresses, port addresses, and specific addresses."
+  },
+  {
+    "question": "Virtual terminal protocol is an example of _________",
+    "options": [
+      "A) Network layer",
+      "B) Application layer",
+      "C) Transport layer",
+      "D) Physical layer"
+    ],
+    "correct_answer": "B",
+    "explanation": "In open systems, a virtual terminal (VT) is an application service. It allows host terminals on a multi-user network to interact with other hosts regardless of terminal type and characteristics."
+  },
+  {
+    "question": "TCP/IP is related to __________",
+    "options": [
+      "A) ARPANET",
+      "B) OSI",
+      "C) DECNET",
+      "D) ALOHA"
+    ],
+    "correct_answer": "A",
+    "explanation": "In 1983, TCP/IP protocols replaced NCP (Network Control Program) as the ARPANET’s principal protocol. And ARPANET then became one component of the early Internet. The starting point for host-to-host communication on the ARPANET in 1969 was the 1822 protocol, which defined the transmission of messages to an IMP."
+  },
+  {
+    "question": "A device operating at network layer is called __________",
+    "options": [
+      "A) Router",
+      "B) Equalizer",
+      "C) Bridge",
+      "D) Repeater"
+    ],
+    "correct_answer": "A",
+    "explanation": "A router is a networking device that forwards data packets between computer networks. Routers perform the traffic directing functions on the Internet. It supports different network layer transmission standards. Each network interface is used to enable data packets to be forwarded from one transmission system to another."
+  },
+  {
+    "question": "A device operating at physical layer is called __________",
+    "options": [
+      "A) Router",
+      "B) Equalizer",
+      "C) Bridge",
+      "D) Repeater"
+    ],
+    "correct_answer": "D",
+    "explanation": "A repeater connects two segments of your network cable. It retimes and regenerates the signals to proper amplitudes and sends them to the other segments. Repeaters work only at the physical layer of the OSI network model."
+  },
+  {
+    "question": "MIMO stands for _______",
+    "options": [
+      "A) Many input many output",
+      "B) Multiple input multiple output",
+      "C) Major input minor output",
+      "D) Minor input minor output"
+    ],
+    "correct_answer": "B",
+    "explanation": "MIMO stands for Multiple Input and Multiple Output. It refers to the technology where there are multiple antennas at the base station and multiple antennas at the mobile device."
+  },
+  {
+    "question": "In MIMO, which factor has the greatest influence on data rates?",
+    "options": [
+      "A) The size of antenna",
+      "B) The height of the antenna",
+      "C) The number of transmit antennas",
+      "D) The area of receive antennas"
+    ],
+    "correct_answer": "C",
+    "explanation": "By increasing the number of receiving and transmitting antennas, it is possible to linearly increase the throughput of the channel with every pair of antennas added to the system."
+  },
+  {
+    "question": "MIMO was initially developed in the year __________",
+    "options": [
+      "A) 1980",
+      "B) 1990",
+      "C) 1980",
+      "D) 1975"
+    ],
+    "correct_answer": "B",
+    "explanation": "Since the initial development in the year 1990, MIMO Wireless Communications have become integral part of the most forthcoming commercial and next generation wireless data communication systems."
+  },
+  {
+    "question": "MIMO is a smart antenna technology.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "MIMO is one of several forms of smart antenna technology, the others being MISO (multiple input, single output) and SIMO (single input, multiple output). It is an antenna technology for wireless communications in which multiple antennas are used at both the source and the destination."
+  },
+  {
+    "question": "MIMO technology makes advantage of a natural radio wave phenomenon called _________",
+    "options": [
+      "A) Reflection",
+      "B) Multipath",
+      "C) Refraction",
+      "D) Diffraction"
+    ],
+    "correct_answer": "B",
+    "explanation": "MIMO technology makes use of multipath phenomenon to maximize transmission by receiving bounced signals from obstructions. Multipath is a phenomenon in wave propagation."
+  },
+  {
+    "question": "Which of the following technology does not use MIMO?",
+    "options": [
+      "A) 4G",
+      "B) Wifi",
+      "C) WiMax",
+      "D) AMPS"
+    ],
+    "correct_answer": "D",
+    "explanation": "MIMO is used in mobile radio telephone standards such as recent 3GPP and 3GPP2. In 3GPP, High-Speed Packet Access plus (HSPA+) and Long Term Evolution (LTE) standards take MIMO into account. Moreover, MIMO is also used in Wifi and WiMax."
+  },
+  {
+    "question": "MIMO means both transmitter and receiver have multiple antennas.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "MIMO provides a way of utilising the multiple signal paths that exist between a transmitter and receiver to significantly improve the data throughput available on a given channel with its defined bandwidth. It uses multiple antennas at the transmitter and receiver along with some complex digital signal processing."
+  },
+  {
+    "question": "_______ is a technique of transmit diversity used in UMTSS third-generation cellular systems.",
+    "options": [
+      "A) STTD",
+      "B) SM",
+      "C) Collaborative Uplink MIMO",
+      "D) MU-MIMO"
+    ],
+    "correct_answer": "A",
+    "explanation": "Space Time Transmit Diversity (STTD) is a technique of transmit diversity used in UMTSS third-generation cellular systems. Space Time Transmit Diversity is optional in the UTRANN air interface, but compulsory for user equipment."
+  },
+  {
+    "question": "_______ is a transmission method used in MIMO wireless communications to transmit encoded data signals independently.",
+    "options": [
+      "A) STTD",
+      "B) SM",
+      "C) Collaborative Uplink MIMO",
+      "D) MU-MIMO"
+    ],
+    "correct_answer": "B",
+    "explanation": "Spatial multiplexing is a transmission method used in MIMO wireless communications to transmit encoded data signals independently and separately (so-called streams) from each of the multiple transmit antennas."
+  },
+  {
+    "question": "_______ is an additional open-loop MIMO technique considered by the WiMAX vendors.",
+    "options": [
+      "A) STTD",
+      "B) SM",
+      "C) Collaborative Uplink MIMO",
+      "D) MU-MIMO"
+    ],
+    "correct_answer": "C",
+    "explanation": "Collaborative MIMO is an open-loop MIMO technique considered by the WiMAX vendors to surge the spectral efficiency and capacity of the uplink communications path. It is compared with the regular spatial multiplexing, wherein data streams are transmitted multiplying from multiple antennas on the same device."
+  },
+  {
+    "question": "Which IEEE standard defines the specifications and architecture of Wireless Local Area Network (WLAN)?",
+    "options": [
+      "A) IEEE 802.6",
+      "B) IEEE 802.16",
+      "C) IEEE 802.11",
+      "D) IEEE 802.15"
+    ],
+    "correct_answer": "C",
+    "explanation": "IEEE 802.11 standard defines the specifications and architecture of WLAN. Devices under IEEE 802.11 standard use high radio frequency waves instead of connections using cables in Local Area Networks (LAN). Users utilizing WLAN can move around within network coverage areas without any internet disruptions."
+  },
+  {
+    "question": "The physical layer of WLAN includes MAC sublayer, Security sublayer and transmission convergence sublayer.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "WLAN (IEEE 802.11) architecture includes Stations, Basic Service Set, Extended Service Set and Distribution Systems. MAC sublayer, Security sublayer and transmission convergence sublayer are the components used within IEEE 802.16, which includes Wireless Metropolitan Area Networks (WMAN)."
+  },
+  {
+    "question": "Which of the following statements regarding physical layer of WLAN is incorrect?",
+    "options": [
+      "A) Extended Service Set (ESS) is a combination of all Basic Service Set",
+      "B) Each access point in ESS is connected using Distribution System",
+      "C) Every station in WLAN has network interface controller",
+      "D) Wireless Access Points include computers, printers, workstations and smart phones"
+    ],
+    "correct_answer": "D",
+    "explanation": "The physical layer of WLAN includes stations, which is further classified into Wireless Access Points (WAP) and Clients. WAP’s includes multiple wireless routers which serves as base station points whereas clients include the interconnected devices like computers, printers, workstations and smart phones."
+  },
+  {
+    "question": "What frequency is utilized by Frequency Hopping Spread Spectrum technique for microwave transmission?",
+    "options": [
+      "A) 2.4 GHz",
+      "B) 3.6 GHz",
+      "C) 28 GHz",
+      "D) 42 GHz"
+    ],
+    "correct_answer": "A",
+    "explanation": "IEEE 802.11 based devices operates at data rates 1 Mbit/s to 2 Mbit/s. This includes Industrial Scientific Medical (ISM) band which operates at 2.4GHz frequency. Microwave transmission between several devices is based on Frequency Hopping Spread Spectrum technique which operates at 2.4 GHz."
+  },
+  {
+    "question": "What is the maximum data rate supported by the physical layer of WLAN?",
+    "options": [
+      "A) 60 Mbps",
+      "B) 54 Mbps",
+      "C) 32 Mbps",
+      "D) 43 Mbps"
+    ],
+    "correct_answer": "B",
+    "explanation": "The physical layer of WLAN essentially defined in IEEE 802.11a standard offers data rates upto 54 Mbps. Other popular IEEE 802.11 standards include IEEE 802.11b, IEEE 802.11g and IEEE802.11n standards. These standards support data rates very much lesser than IEEE 802.11a since Direct Sequence Spread Spectrum (DSSS) and Complementary Code Keying (CCK) is deployed."
+  },
+  {
+    "question": "Which modulation scheme is utilized within WLAN frame structure?",
+    "options": [
+      "A) Quadrature Phase Shift Keying (QPSK)",
+      "B) Quadrature Amplitude Modulation (QAM)",
+      "C) Binary Phase Shift Keying (BPSK)",
+      "D) Frequency Shift Keying (FSK)"
+    ],
+    "correct_answer": "C",
+    "explanation": "WLAN frame structure includes preamble, header and data parts. Preamble portion contains multiple training sequences interrupted by guard intervals, header portion includes 24 bits which are BPSK modulated signals and the data length is calculated in the header part itself."
+  },
+  {
+    "question": "Which of the following is not a characteristic feature of IEEE 802.11 physical layer (PHY)?",
+    "options": [
+      "A) PHY uses spread spectrum modulation scheme to transfer data frames over the media",
+      "B) PHY provides carrier sense indication to Media Access Control (MAC) to verify activity on the media",
+      "C) PHY provides interface for exchanging frames with the upper MAC layer",
+      "D) PHY is responsible for describing frame formats and encapsulation frames"
+    ],
+    "correct_answer": "D",
+    "explanation": "PHY serves as an interface between wireless media and MAC layer where the frames are transmitted and received. PHY provides 3 main functionalities: First and foremost, it provides interface for exchanging frames with the upper MAC layer. Secondly, it uses spread spectrum modulation scheme to transfer data frames over the media. Finally, it provides interface for exchanging frames with the upper MAC layer."
+  },
+  {
+    "question": "What is the correct sequential process involved in the header generation process of Wireless LAN?",
+    "options": [
+      "A) Generating field bits → coding and interleaving → Mapping with frequency domain → pilot and guard insertion → Time domain transformation",
+      "B) Generating field bits → mapping with frequency domain → coding and interleaving → pilot and guard insertion → Time domain transformation",
+      "C) Generating field bits → Time domain transformation → mapping with frequency domain → coding and interleaving → pilot and guard insertion",
+      "D) Pilot and guard insertion → Generating field bits → mapping with frequency domain → coding and interleaving → Time domain transformation"
+    ],
+    "correct_answer": "A",
+    "explanation": "Header generation in preamble portion involves the following sequential process: Initially, signal bits are generated, followed by coding and interleaving of signal bits. Further, these bits are mapped with frequency domain signals and later, pilot and guard bits are inserted. Finally, these field bits are transformed into time domain."
+  },
+  {
+    "question": "Why preamble is used within the physical layer of WLAN frame structure?",
+    "options": [
+      "A) Interleaving",
+      "B) Interoperability",
+      "C) Enhanced packet size",
+      "D) Synchronization"
+    ],
+    "correct_answer": "D",
+    "explanation": "WLAN frame is composed of 3 parts namely preamble, header and data. Preamble contains 12 symbols which are extensively utilized for synchronization of the data. Header’s main objective lies in transmitting the modulation code rate of signals. The data portion contains Cyclic Redundancy Check (CRC) code for detecting errors during transmission."
+  },
+  {
+    "question": "Which protocol is utilized by WLAN systems to gain access within the medium?",
+    "options": [
+      "A) Carrier Sense Multiple Access (CSMA)",
+      "B) Carrier Sense Multiple Access with Collision Detection (CSMA/CD)",
+      "C) Carrier Sense Multiple Access with Collision Avoidance (CSMA/CA)",
+      "D) Persistent Carrier Sense Multiple Access"
+    ],
+    "correct_answer": "C",
+    "explanation": "Management frames in WLAN systems are extensively utilized in transforming management related information. This entire procedure is defined using CSMA/CA which provides access to the medium. It also deploys carrier sensing and all the nodes begin transmission only after checking whether the channel is idle."
+  },
+  {
+    "question": "ISDN stands for ___________",
+    "options": [
+      "A) Integrated Services Digital Network",
+      "B) Integrated Services Discrete Network",
+      "C) Integrated Services Digital Node",
+      "D) Integrated Services Discrete Node"
+    ],
+    "correct_answer": "A",
+    "explanation": "ISDN stands for integrated services digital network. It defines the dedicated signalling network that has been created to complement the PSTN for more flexible and efficient network access and signalling."
+  }
+]

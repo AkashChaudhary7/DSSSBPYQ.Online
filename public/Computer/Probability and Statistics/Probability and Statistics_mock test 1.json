@@ -1,0 +1,571 @@
+[
+  {
+    "question": "Find the mean deviation for the following data :\n\n\n\nx\n 11 \n 12 \n 13 \n 14 \n 15 \n\n\nf\n 3 \n 12 \n 18 \n 12 \n 3",
+    "options": [
+      "A) x\n 11 \n 12 \n 13 \n 14 \n 15",
+      "B) f\n 3 \n 12 \n 18 \n 12 \n 3",
+      "C) (a)\n                                            \n                                                 0.55",
+      "D) (b)\n                                            \n                                                 0.65",
+      "E) (c)\n                                            \n                                                 0.75",
+      "F) (d)\n                                            \n                                                 0.85"
+    ],
+    "correct_answer": "C",
+    "explanation": ""
+  },
+  {
+    "question": "In kurtosis if the frequency curve which is more peaked than the normal curev is called _________ .",
+    "options": [
+      "A) (a)\n                                            \n                                                Mega curve",
+      "B) (b)\n                                            \n                                                Platykurtic",
+      "C) (c)\n                                            \n                                                Mesokurtic",
+      "D) (d)\n                                            \n                                                Leptokurtic"
+    ],
+    "correct_answer": "D",
+    "explanation": ""
+  },
+  {
+    "question": "For a group of  10  items,  ∑x=452 ,  ∑x2=24270  and mode =43.7 . Find Karl Pearson's coefficient of skewness.",
+    "options": [
+      "A) (a)\n                                            \n                                                 19.59",
+      "B) (b)\n                                            \n                                                 0.077",
+      "C) (c)\n                                            \n                                                 1.077",
+      "D) (d)\n                                            \n                                                 5.914"
+    ],
+    "correct_answer": "B",
+    "explanation": ""
+  },
+  {
+    "question": "The first two moments of distribution about  a=5  are  2  and  20 . Find the mean and the variance.",
+    "options": [
+      "A) (a)\n                                            \n                                                 5  and  12",
+      "B) (b)\n                                            \n                                                 5  and  20",
+      "C) (c)\n                                            \n                                                 7  and  49",
+      "D) (d)\n                                            \n                                                 7  and  12"
+    ],
+    "correct_answer": "D",
+    "explanation": ""
+  },
+  {
+    "question": "The coefficient of correlation always lies between ________ .",
+    "options": [
+      "A) (a)\n                                            \n                                                 -3,3",
+      "B) (b)\n                                            \n                                                 -2,2",
+      "C) (c)\n                                            \n                                                 0,1",
+      "D) (d)\n                                            \n                                                 -1,1"
+    ],
+    "correct_answer": "D",
+    "explanation": ""
+  },
+  {
+    "question": "Find the correlation coefficient between the income and expenditure of a wage earner.\n\n\n\nMonth\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\n\n\nIncome\n46\n54\n56\n56\n58\n60\n62\n\n\nExpenditure\n36\n40\n44\n54\n42\n58\n54",
+    "options": [
+      "A) Month\nJan\nFeb\nMar\nApr\nMay\nJun\nJul",
+      "B) Income\n46\n54\n56\n56\n58\n60\n62",
+      "C) Expenditure\n36\n40\n44\n54\n42\n58\n54",
+      "D) (a)\n                                            \n                                                 0.976",
+      "E) (b)\n                                            \n                                                 0769",
+      "F) (c)\n                                            \n                                                 0"
+    ],
+    "correct_answer": "B",
+    "explanation": ""
+  },
+  {
+    "question": "Compute Sperman's rank  correlation coefficient from the following data :\n\n\n\nx\n18\n20\n34\n52\n12\n\n\ny\n39\n23\n35\n18\n46",
+    "options": [
+      "A) x\n18\n20\n34\n52\n12",
+      "B) y\n39\n23\n35\n18\n46",
+      "C) (a)\n                                            \n                                                0.9",
+      "D) (b)\n                                            \n                                                9",
+      "E) (c)\n                                            \n                                                -0.9",
+      "F) (d)\n                                            \n                                                -9"
+    ],
+    "correct_answer": "C",
+    "explanation": ""
+  },
+  {
+    "question": "The following table gives the age of car and annual maintenance cost. Find the regression line of cost on age.\n\n\n\nAge of car\n2\n4\n6\n8\n\n\nMaintenance\n1\n2\n2.5\n3",
+    "options": [
+      "A) Age of car\n2\n4\n6\n8",
+      "B) Maintenance\n1\n2\n2.5\n3",
+      "C) (a)\n                                            \n                                                y=-0.181x+3.028",
+      "D) (b)\n                                            \n                                                x=0.325y-5.0",
+      "E) (c)\n                                            \n                                                x=0.181y+3.028"
+    ],
+    "correct_answer": "D",
+    "explanation": ""
+  },
+  {
+    "question": "In statistical procedure, the skewness is used to measure the _________ .",
+    "options": [
+      "A) (a)\n                                            \n                                                Amount of Variance",
+      "B) (b)\n                                            \n                                                Amount of Distribution",
+      "C) (c)\n                                            \n                                                Amount of Dispersion",
+      "D) (d)\n                                            \n                                                Direction of Dispersion"
+    ],
+    "correct_answer": "C",
+    "explanation": ""
+  },
+  {
+    "question": "The coefficient of variance is defined as ___________ .",
+    "options": [
+      "A) (a)\n                                            \n                                                C.V. σx¯σ×100",
+      "B) (b)\n                                            \n                                                C.V. σ=σ2x¯×100",
+      "C) (c)\n                                            \n                                                C.V. σx¯σ2×100",
+      "D) (d)\n                                            \n                                                C.V. σσx¯×100"
+    ],
+    "correct_answer": "D",
+    "explanation": ""
+  },
+  {
+    "question": "Any measure indicating the center of a set of data, arranged in an increasing or decreasing order of magnitude is called a measure of ___________ .",
+    "options": [
+      "A) (a)\n                                            \n                                                Skewness",
+      "B) (b)\n                                            \n                                                Central tendency",
+      "C) (c)\n                                            \n                                                Dispersion",
+      "D) (d)\n                                            \n                                                Symmetry"
+    ],
+    "correct_answer": "B",
+    "explanation": ""
+  },
+  {
+    "question": "Suppose we have following obeservations 25, 13, 54, 56, 25. Determine the type of Kurtosis.",
+    "options": [
+      "A) (a)\n                                            \n                                                Mesokurtic",
+      "B) (b)\n                                            \n                                                Leptokurtic",
+      "C) (c)\n                                            \n                                                Platykurtic",
+      "D) (d)\n                                            \n                                                None of this"
+    ],
+    "correct_answer": "C",
+    "explanation": ""
+  },
+  {
+    "question": "The kurtosis defines the peakness of the curve in the region which is _________ .",
+    "options": [
+      "A) (a)\n                                            \n                                                Around the mode",
+      "B) (b)\n                                            \n                                                Around the mean",
+      "C) (c)\n                                            \n                                                Around the median",
+      "D) (d)\n                                            \n                                                Around the variance"
+    ],
+    "correct_answer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "Find the correlation coefficient between x and y for the given values :\n\n\n\nx\n1\n2\n3\n4\n5\n6\n\n\ny\n10\n12\n16\n28\n25\n36",
+    "options": [
+      "A) x\n1\n2\n3\n4\n5\n6",
+      "B) y\n10\n12\n16\n28\n25\n36",
+      "C) (a)\n                                            \n                                                -1",
+      "D) (b)\n                                            \n                                                -0.9025",
+      "E) (c)\n                                            \n                                                1.0121",
+      "F) (d)\n                                            \n                                                0.9516"
+    ],
+    "correct_answer": "D",
+    "explanation": ""
+  },
+  {
+    "question": "Find  rxy  from the following data :\n σσn=10, ∑(x-x¯)(y-y¯)=1650, σx2=196, σy2=225 .",
+    "options": [
+      "A) (a)\n                                            \n                                                1.2354",
+      "B) (b)\n                                            \n                                                0.7857",
+      "C) (c)\n                                            \n                                                -6.3547",
+      "D) (d)\n                                            \n                                                7.0857"
+    ],
+    "correct_answer": "B",
+    "explanation": ""
+  },
+  {
+    "question": "The first four moment about  x=2  are  1, 2.5, 5.5  and  16 . Calculate  μμ3 .",
+    "options": [
+      "A) (a)\n                                            \n                                                0",
+      "B) (b)\n                                            \n                                                1",
+      "C) (c)\n                                            \n                                                2",
+      "D) (d)\n                                            \n                                                -1"
+    ],
+    "correct_answer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "Five student secured the following marks in Mathematics and Chemistry. Find Spearman's rank correlation.\n\n\n\nRoll No.\n1\n2\n3\n4\n5\n\n\nMathematics\n36\n77\n72\n62\n82\n\n\nChemistry\n51\n82\n60\n71\n86",
+    "options": [
+      "A) Roll No.\n1\n2\n3\n4\n5",
+      "B) Mathematics\n36\n77\n72\n62\n82",
+      "C) Chemistry\n51\n82\n60\n71\n86",
+      "D) (a)\n                                            \n                                                8",
+      "E) (b)\n                                            \n                                                -0.8",
+      "F) (c)\n                                            \n                                                0.8"
+    ],
+    "correct_answer": "C",
+    "explanation": ""
+  },
+  {
+    "question": "From the following data calculate the line x on y. \n\n\n\n \nx\ny\n\n\nMean\n60\n67.5\n\n\nS.D.\n15\n13.5\n\n\n\nHere,  r=0.50 .",
+    "options": [
+      "A) x\ny",
+      "B) Mean\n60\n67.5",
+      "C) S.D.\n15\n13.5",
+      "D) (a)\n                                            \n                                                 x=0.5556y-22.50",
+      "E) (b)\n                                            \n                                                 y=0.556x-22.50",
+      "F) (c)\n                                            \n                                                 x=22.50y-0.556"
+    ],
+    "correct_answer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "A standard curve passing through the origin was prepared for colrimetric estimation of sulphadiazine. The concentration and absorbance's are given below. Find  byx .\n\n\n\nConcentration (x)\n5\n10\n15\n20\n\n\nAbsorbance (y)\n0.120\n0.231\n0.362\n0.458",
+    "options": [
+      "A) Concentration (x)\n5\n10\n15\n20",
+      "B) Absorbance (y)\n0.120\n0.231\n0.362\n0.458",
+      "C) (a)\n                                            \n                                                2.4",
+      "D) (b)\n                                            \n                                                2",
+      "E) (c)\n                                            \n                                                0.24",
+      "F) (d)\n                                            \n                                                0.024"
+    ],
+    "correct_answer": "D",
+    "explanation": ""
+  },
+  {
+    "question": "Find median of the given data.\n\n\n\nx\n1\n2\n3\n4\n5\n6\n7\n8\n99\n\n\nf\n9\n6\n4\n10\n12\n7\n8\n13\n14",
+    "options": [
+      "A) x\n1\n2\n3\n4\n5\n6\n7\n8\n99",
+      "B) f\n9\n6\n4\n10\n12\n7\n8\n13\n14",
+      "C) (a)\n                                            \n                                                0.6",
+      "D) (b)\n                                            \n                                                1.6",
+      "E) (c)\n                                            \n                                                6",
+      "F) (d)\n                                            \n                                                -0.6"
+    ],
+    "correct_answer": "C",
+    "explanation": ""
+  },
+  {
+    "question": "Compute correlation coefficient for the following data :\n\n\n\nx\n4\n5\n9\n14\n18\n22\n24\n\n\ny\n16\n22\n11\n16\n7\n3\n17",
+    "options": [
+      "A) x\n4\n5\n9\n14\n18\n22\n24",
+      "B) y\n16\n22\n11\n16\n7\n3\n17",
+      "C) (a)\n                                            \n                                                0.5255",
+      "D) (b)\n                                            \n                                                5.2255",
+      "E) (c)\n                                            \n                                                -0.2522",
+      "F) (d)\n                                            \n                                                -0.5255"
+    ],
+    "correct_answer": "D",
+    "explanation": ""
+  },
+  {
+    "question": "If one regression coefficient is greater than one then other will be _____________ .",
+    "options": [
+      "A) (a)\n                                            \n                                                More than one",
+      "B) (b)\n                                            \n                                                Equal to one",
+      "C) (c)\n                                            \n                                                less than one",
+      "D) (d)\n                                            \n                                                Equal to minus 1"
+    ],
+    "correct_answer": "C",
+    "explanation": ""
+  },
+  {
+    "question": "The mean of  x  is 20 and mean of  y  is 45. The regression coefficient  y  on  x  is 4 and that of  x  on  y  is  19 . Find the regression line  x  on  y .",
+    "options": [
+      "A) (a)\n                                            \n                                                 y=4x-35",
+      "B) (b)\n                                            \n                                                 x=91y+15",
+      "C) (c)\n                                            \n                                                 y=91x+15",
+      "D) (d)\n                                            \n                                                 x=4y-35"
+    ],
+    "correct_answer": "B",
+    "explanation": ""
+  },
+  {
+    "question": "Find the first four moment about origin for the data :1, 3, 5,7.",
+    "options": [
+      "A) (a)\n                                            \n                                                 μμμμμ1=4, μ2=21, μ3=124, μ4=777",
+      "B) (b)\n                                            \n                                                 μμμμμ1=0, μ2=12, μ3=142, μ4=177",
+      "C) (c)\n                                            \n                                                 μμμμμ1=4, μ2=21, μ3=424, μ4=777",
+      "D) (d)\n                                            \n                                                 μμμμμ1=4, μ2=21, μ3=124, μ4=771"
+    ],
+    "correct_answer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "For estimating the value of x __________ is used.",
+    "options": [
+      "A) (a)\n                                            \n                                                Regression equation of y on x",
+      "B) (b)\n                                            \n                                                Regression equation of x on y",
+      "C) (c)\n                                            \n                                                Both",
+      "D) (d)\n                                            \n                                                None of these"
+    ],
+    "correct_answer": "B",
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following can not be the value of correlation coefficient ?",
+    "options": [
+      "A) (a)\n                                            \n                                                 r=1.99",
+      "B) (b)\n                                            \n                                                 r=0",
+      "C) (c)\n                                            \n                                                 r=-0.73",
+      "D) (d)\n                                            \n                                                 r=-1"
+    ],
+    "correct_answer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following indicates a strong negative correlation ?",
+    "options": [
+      "A) (a)\n                                            \n                                                 r=0.54",
+      "B) (b)\n                                            \n                                                 r=0.982",
+      "C) (c)\n                                            \n                                                 r=-0.793",
+      "D) (d)\n                                            \n                                                 r=-0.856"
+    ],
+    "correct_answer": "D",
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following indicates a negative correlation of lower degree ?",
+    "options": [
+      "A) (a)\n                                            \n                                                 r=-0.23",
+      "B) (b)\n                                            \n                                                 r=-0.12",
+      "C) (c)\n                                            \n                                                 r=-0.08",
+      "D) (d)\n                                            \n                                                 r=-0.7"
+    ],
+    "correct_answer": "C",
+    "explanation": ""
+  },
+  {
+    "question": "Correlation coefficient is useful to study ____________ .",
+    "options": [
+      "A) (a)\n                                            \n                                                Relationship between any two attributes.",
+      "B) (b)\n                                            \n                                                Relationship between any two variables.",
+      "C) (c)\n                                            \n                                                Relationship of more than two variables.",
+      "D) (d)\n                                            \n                                                None of these."
+    ],
+    "correct_answer": "B",
+    "explanation": ""
+  },
+  {
+    "question": "If the regression coefficient of x on y and yon x are -0.6 and -0.6 respectively then correlation coefficient between xand y is ____________ .",
+    "options": [
+      "A) (a)\n                                            \n                                                 r=0.6",
+      "B) (b)\n                                            \n                                                 r=3.6",
+      "C) (c)\n                                            \n                                                 r=-0.6",
+      "D) (d)\n                                            \n                                                 r=0.36"
+    ],
+    "correct_answer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following indicates negative correlation ?",
+    "options": [
+      "A) (a)\n                                            \n                                                No. of car and no. of accidents in the city",
+      "B) (b)\n                                            \n                                                Price and sale of vehicle",
+      "C) (c)\n                                            \n                                                Rainfall and production of car",
+      "D) (d)\n                                            \n                                                Advertising and sales"
+    ],
+    "correct_answer": "B",
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following indicates positive correlation ?",
+    "options": [
+      "A) (a)\n                                            \n                                                Both variables change in the same direction",
+      "B) (b)\n                                            \n                                                The graph is a horizontal line",
+      "C) (c)\n                                            \n                                                Both variables change in the opposite direction",
+      "D) (d)\n                                            \n                                                Sign of the correlation coefficient is negative"
+    ],
+    "correct_answer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "Which of the following is negative correlation ?",
+    "options": [
+      "A) (a)\n                                            \n                                                Both variables change in the same direction",
+      "B) (b)\n                                            \n                                                Both variables change in the opposite direction",
+      "C) (c)\n                                            \n                                                The graph is a horizontal line",
+      "D) (d)\n                                            \n                                                Sign of correlation coefficient is negative."
+    ],
+    "correct_answer": "B",
+    "explanation": ""
+  },
+  {
+    "question": "Two variables x and y are linearly related if _____________ .",
+    "options": [
+      "A) (a)\n                                            \n                                                 r=0",
+      "B) (b)\n                                            \n                                                 r=±1",
+      "C) (c)\n                                            \n                                                 r=0.2",
+      "D) (d)\n                                            \n                                                None of these."
+    ],
+    "correct_answer": "B",
+    "explanation": ""
+  },
+  {
+    "question": "Two variables x and y are not linearly correleted if ___________ .",
+    "options": [
+      "A) (a)\n                                            \n                                                 r=0",
+      "B) (b)\n                                            \n                                                 r=±1",
+      "C) (c)\n                                            \n                                                 r=0.1",
+      "D) (d)\n                                            \n                                                 r=2"
+    ],
+    "correct_answer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If two ariables x and y are independent of each other then they have __________ .",
+    "options": [
+      "A) (a)\n                                            \n                                                Perfect positive correlation",
+      "B) (b)\n                                            \n                                                Perfect negative correlation",
+      "C) (c)\n                                            \n                                                No correlation",
+      "D) (d)\n                                            \n                                                None of these"
+    ],
+    "correct_answer": "C",
+    "explanation": ""
+  },
+  {
+    "question": "The correlation coefficient r = ±1.5is __________ .",
+    "options": [
+      "A) (a)\n                                            \n                                                Possible",
+      "B) (b)\n                                            \n                                                Sometimes possible",
+      "C) (c)\n                                            \n                                                Not possible",
+      "D) (d)\n                                            \n                                                None of these"
+    ],
+    "correct_answer": "C",
+    "explanation": ""
+  },
+  {
+    "question": "A measure of linear relationship between two variables is ___________ .",
+    "options": [
+      "A) (a)\n                                            \n                                                Correlation coefficient",
+      "B) (b)\n                                            \n                                                Regression coefficient",
+      "C) (c)\n                                            \n                                                Both",
+      "D) (d)\n                                            \n                                                None of these"
+    ],
+    "correct_answer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "The equations of regression line are  y=0.5x+a  and  x=0.4y+b  then the correlation coefficient is ___________ .",
+    "options": [
+      "A) (a)\n                                            \n                                                 0.2",
+      "B) (b)\n                                            \n                                                 -0.2",
+      "C) (c)\n                                            \n                                                0.45",
+      "D) (d)\n                                            \n                                                0.63"
+    ],
+    "correct_answer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "The minimum value of correlation coefficient is _________ .",
+    "options": [
+      "A) (a)\n                                            \n                                                1",
+      "B) (b)\n                                            \n                                                -1",
+      "C) (c)\n                                            \n                                                0",
+      "D) (d)\n                                            \n                                                -0.6"
+    ],
+    "correct_answer": "B",
+    "explanation": ""
+  },
+  {
+    "question": "The equation of regression line y on x is  __________ .",
+    "options": [
+      "A) (a)\n                                            \n                                                 (y-y¯)=bxy(x-x¯)",
+      "B) (b)\n                                            \n                                                 (x-x¯)=bxy(y-y¯)",
+      "C) (c)\n                                            \n                                                 (y-y¯)=byx(x-x¯)",
+      "D) (d)\n                                            \n                                                 (x-x¯)=byx(y-y¯)"
+    ],
+    "correct_answer": "C",
+    "explanation": ""
+  },
+  {
+    "question": "The correlation coefficient between income and expenditure is ___________ .",
+    "options": [
+      "A) (a)\n                                            \n                                                Positive",
+      "B) (b)\n                                            \n                                                Negative",
+      "C) (c)\n                                            \n                                                Zero",
+      "D) (d)\n                                            \n                                                None of these"
+    ],
+    "correct_answer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If two regression coefficients are -0.9 and -0.1, the value of correlation coefficient is __________ .",
+    "options": [
+      "A) (a)\n                                            \n                                                0.3",
+      "B) (b)\n                                            \n                                                0.5",
+      "C) (c)\n                                            \n                                                -0.3",
+      "D) (d)\n                                            \n                                                -0.5"
+    ],
+    "correct_answer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "The relation beween mean, median and mode is  ___________ .",
+    "options": [
+      "A) (a)\n                                            \n                                                M=3 x¯ -2Z",
+      "B) (b)\n                                            \n                                                Z=3M-2 x¯",
+      "C) (c)\n                                            \n                                                Z=2 x¯ -3M",
+      "D) (d)\n                                            \n                                                 x¯ =M=Z"
+    ],
+    "correct_answer": "B",
+    "explanation": ""
+  },
+  {
+    "question": "The first four moments of a distribution  X=2  are -2, 12, -20 and 100. Calculate the Kurtosis.",
+    "options": [
+      "A) (a)\n                                            \n                                                2.80",
+      "B) (b)\n                                            \n                                                -2.08",
+      "C) (c)\n                                            \n                                                -2.80",
+      "D) (d)\n                                            \n                                                2.08"
+    ],
+    "correct_answer": "D",
+    "explanation": ""
+  },
+  {
+    "question": "The first four moments of a distribution about X=2 are -2, 12, -20 and 100. Calculate the skewness.",
+    "options": [
+      "A) (a)\n                                            \n                                                1.117",
+      "B) (b)\n                                            \n                                                1.17",
+      "C) (c)\n                                            \n                                                1.71",
+      "D) (d)\n                                            \n                                                1.07"
+    ],
+    "correct_answer": "B",
+    "explanation": ""
+  },
+  {
+    "question": "The moment about origin are -3, 90, -900, 21000. Find the moment about actual mean.",
+    "options": [
+      "A) (a)\n                                            \n                                                 μμμμμ1=0, μ2=18, μ3=-144, μ4=14817",
+      "B) (b)\n                                            \n                                                 μμμμμ1=0, μ2=81, μ3=144, μ4=14817",
+      "C) (c)\n                                            \n                                                 μμμμμ1=0, μ2=81, μ3=-144, μ4=14871",
+      "D) (d)\n                                            \n                                                 μμμμμ1=0, μ2=81, μ3=-144, μ4=14817"
+    ],
+    "correct_answer": "D",
+    "explanation": ""
+  },
+  {
+    "question": "The lowest value of variance can be ____________ .",
+    "options": [
+      "A) (a)\n                                            \n                                                1",
+      "B) (b)\n                                            \n                                                3",
+      "C) (c)\n                                            \n                                                -3",
+      "D) (d)\n                                            \n                                                0"
+    ],
+    "correct_answer": "D",
+    "explanation": ""
+  },
+  {
+    "question": "The mean deviation of the values 18, 12, 15 is __________ .",
+    "options": [
+      "A) (a)\n                                            \n                                                6",
+      "B) (b)\n                                            \n                                                0",
+      "C) (c)\n                                            \n                                                2",
+      "D) (d)\n                                            \n                                                3"
+    ],
+    "correct_answer": "C",
+    "explanation": ""
+  },
+  {
+    "question": "The standard deviation is always __________ than the mean deviation.",
+    "options": [
+      "A) (a)\n                                            \n                                                Greater",
+      "B) (b)\n                                            \n                                                Less",
+      "C) (c)\n                                            \n                                                Equar",
+      "D) (d)\n                                            \n                                                None of these"
+    ],
+    "correct_answer": "A",
+    "explanation": ""
+  }
+]

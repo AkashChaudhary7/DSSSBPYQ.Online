@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Production of wheat in 2019 and 2020 is what percentage of its production in 2018 and 2017?",
+    "options": [
+      "A) 200%",
+      "B) 183.33%",
+      "C) 150%",
+      "D) 133.33%"
+    ],
+    "correct_answer": "B",
+    "explanation": "The production of wheat in 2017 and 2018 = 5 + 10 = 15 tonnes\nThe production of wheat in 2019 and 2020 = 12.5 + 15 tonnes = 27.5 tonnes\nThe required percentage = 27.5 / 15 * 100 = 183.33%"
+  },
+  {
+    "question": "Study the graph and find what is the ratio of average production of bajra to total production of rice?",
+    "options": [
+      "A) 19 : 96",
+      "B) 17 : 94",
+      "C) 19 : 94",
+      "D) 17 : 96"
+    ],
+    "correct_answer": "A",
+    "explanation": "The average production of bajra = (10 + 12.5 + 15 + 10) / 4 = 47.5 / 4 = 11.875 tonnes.\nThe total production of rice = 10 + 15 + 20 + 15 = 60 tonnes\nThe required ratio = 11.875 : 60 = 19 : 96"
+  },
+  {
+    "question": "Study the table and find what percentage of A’s income is utilised in expenditure?",
+    "options": [
+      "A) 100%",
+      "B) 40%",
+      "C) 60%",
+      "D) 50%"
+    ],
+    "correct_answer": "C",
+    "explanation": "The total income of A = 100\nThe expenditure of A = 60\nThe required percentage = 60 / 100 * 100 = 60% of his income"
+  },
+  {
+    "question": "Study the table and find what is the average income of A, C and E?",
+    "options": [
+      "A) 10000 rupees",
+      "B) 9500 rupees",
+      "C) 8500 rupees",
+      "D) 9000 rupees"
+    ],
+    "correct_answer": "D",
+    "explanation": "The average income of A, C and E = (100 + 80 + 90) / 3 = 270 / 3 = 90 units = 90 * 100 = 9000 rupees"
+  },
+  {
+    "question": "Study the graph and find what is the percentage increase in consumption of coffee from the year 2018 to the year 2019?",
+    "options": [
+      "A) 23.07%",
+      "B) 32.70%",
+      "C) 32.07%",
+      "D) 23.70%"
+    ],
+    "correct_answer": "A",
+    "explanation": "The Consumption of coffee in 2018 = 13 units\nThe consumption of coffee in the year 2019 = 16 units\nThe percentage increase = (16 – 13) / 13 * 100 = 3 / 13 * 100 = 23.07%"
+  },
+  {
+    "question": "The yearly sales were 2,36,250 units, study the graph and find the sales in 3rd quarter.",
+    "options": [
+      "A) 83025 units",
+      "B) 80325 units",
+      "C) 86250 units",
+      "D) 83265 units"
+    ],
+    "correct_answer": "B",
+    "explanation": "The sales during the 3rd quarter = 236250 * 34 / 100 = 80325 units."
+  },
+  {
+    "question": "Study the graph and find what is the average quarterly sales throughout the year?",
+    "options": [
+      "A) 20682.5 units",
+      "B) 20826.5 units",
+      "C) 20862.5 units",
+      "D) 20628.5 units"
+    ],
+    "correct_answer": "C",
+    "explanation": "The average quarterly sales = (12500 + 22500 + 25000 + 23450) / 4 = 83450 / 4 = 20862.5 units quarterly."
+  },
+  {
+    "question": "Study the graph and find what is the angle of the sector of the 1st sector?",
+    "options": [
+      "A) 58 degrees",
+      "B) 50 degrees",
+      "C) 62 degrees",
+      "D) 54 degrees"
+    ],
+    "correct_answer": "D",
+    "explanation": "The angle of the sector of the 1st quarter = 15 / 100 * 360 = 54 degrees."
+  },
+  {
+    "question": "The sales in 1st quarter is to study the graph and find what percentage of the sales in the 3rd quarter?",
+    "options": [
+      "A) 60%",
+      "B) 55%",
+      "C) 66.66%",
+      "D) 63%"
+    ],
+    "correct_answer": "A",
+    "explanation": "The sales in 1st quarter = 3000 units\nThe sales in 3rd quarter = 5000 units\nThe required percentage = 3000 / 5000 * 100 = 60%"
+  },
+  {
+    "question": "Study the graph and find the angle of the sector of the 4th quarter.",
+    "options": [
+      "A) 118 degrees",
+      "B) 126 degrees",
+      "C) 132 degrees",
+      "D) 144 degrees"
+    ],
+    "correct_answer": "D",
+    "explanation": "The angle of the sector of the 4th quarter = 40 / 100 * 360 = 144 degrees."
+  },
+  {
+    "question": "Study the graph and find what is the difference between the maximum sales of p and minimum sales of q?",
+    "options": [
+      "A) 55 crores",
+      "B) 50 crores",
+      "C) 45 crores",
+      "D) 40 crores"
+    ],
+    "correct_answer": "B",
+    "explanation": "The maximum sales of p = 85 crores\nThe minimum sales of q = 35 crores\nThe difference = 85 – 35 = 50 crores"
+  },
+  {
+    "question": "The sales of r in 2005 is what percentage of sales of p in 2004?",
+    "options": [
+      "A) 52.63%",
+      "B) 180%",
+      "C) 190%",
+      "D) 47.75%"
+    ],
+    "correct_answer": "C",
+    "explanation": "Th sales of r in 2005 = 95\nThe sales of p in 2004 = 50\nThe required percentage = 95 / 50 * 100 = 190%"
+  },
+  {
+    "question": "Study the graph and find what is the total sales of p?",
+    "options": [
+      "A) 75 crores",
+      "B) 80 crores",
+      "C) 55 crores",
+      "D) 65 crores"
+    ],
+    "correct_answer": "D",
+    "explanation": "The total sales of p = 2.5 + 25 + 22.5 + 25 = 65 crores"
+  },
+  {
+    "question": "The sales of p in 2004 is what percentage of the sales of q in 2002?",
+    "options": [
+      "A) 128.57%",
+      "B) 188.88%",
+      "C) 125.7%",
+      "D) 112.5%"
+    ],
+    "correct_answer": "A",
+    "explanation": "The sales of p in2004 = 45000 crores\nThe sales of q in 2002 = 35000 crores\nThe required percentage = 45000 / 35000 * 100 = 128.57%"
+  },
+  {
+    "question": "Study the graph and find the maximum increase in production in terms of previous years in percentage.",
+    "options": [
+      "A) 66.66%",
+      "B) 50%",
+      "C) 33.33%",
+      "D) 40%"
+    ],
+    "correct_answer": "B",
+    "explanation": "The maximum increase would be 50 tonnes or 50% increase in production of rice from year 2003 to year 2004."
+  },
+  {
+    "question": "What is a data structure?",
+    "options": [
+      "A) A programming language",
+      "B) A collection of algorithms",
+      "C) A way to store and organize data",
+      "D) A type of computer hardware"
+    ],
+    "correct_answer": "C",
+    "explanation": "A data structure is a way to store and organize data efficiently, enhancing access and manipulation, unlike programming languages, algorithms, or computer hardware."
+  },
+  {
+    "question": "What are the disadvantages of arrays?",
+    "options": [
+      "A) Index value of an array can be negative",
+      "B) Elements are sequentially accessed",
+      "C) Data structure like queue or stack cannot be implemented",
+      "D) There are chances of wastage of memory space if elements inserted in an array are lesser than the allocated size"
+    ],
+    "correct_answer": "D",
+    "explanation": "Arrays are of fixed size. If we insert elements less than the allocated size, unoccupied positions can’t be used again. Wastage will occur in memory."
+  },
+  {
+    "question": "Which data structure is used for implementing recursion?",
+    "options": [
+      "A) Stack",
+      "B) Queue",
+      "C) List",
+      "D) Array"
+    ],
+    "correct_answer": "A",
+    "explanation": "Stacks are used for the implementation of Recursion."
+  },
+  {
+    "question": "The data structure required to check whether an expression contains a balanced parenthesis is?",
+    "options": [
+      "A) Queue",
+      "B) Stack",
+      "C) Tree",
+      "D) Array"
+    ],
+    "correct_answer": "B",
+    "explanation": "The stack is a simple data structure in which elements are added and removed based on the LIFO principle. Open parenthesis is pushed into the stack and a closed parenthesis pops out elements till the top element of the stack is its corresponding open parenthesis. If the stack is empty, parenthesis is balanced otherwise it is unbalanced."
+  },
+  {
+    "question": "Which of the following is not the application of stack?",
+    "options": [
+      "A) Data Transfer between two asynchronous process",
+      "B) Compiler Syntax Analyzer",
+      "C) Tracking of local variables at run time",
+      "D) A parentheses balancing program"
+    ],
+    "correct_answer": "A",
+    "explanation": "Data transfer between the two asynchronous process uses the queue data structure for synchronisation. The rest are all stack applications."
+  },
+  {
+    "question": "Which data structure is needed to convert infix notation to postfix notation?",
+    "options": [
+      "A) Tree",
+      "B) Branch",
+      "C) Stack",
+      "D) Queue"
+    ],
+    "correct_answer": "C",
+    "explanation": "The Stack data structure is used to convert infix expression to postfix expression. The purpose of stack is to reverse the order of the operators in the expression. It also serves as a storage structure, as no operator can be printed until both of its operands have appeared."
+  },
+  {
+    "question": "What is the value of the postfix expression 6 3 2 4 + – *?",
+    "options": [
+      "A) 74",
+      "B) -18",
+      "C) 22",
+      "D) 40"
+    ],
+    "correct_answer": "B",
+    "explanation": "Postfix Expression is (6*(3-(2+4))) which results -18 as output."
+  },
+  {
+    "question": "What data structure would you mostly likely see in non recursive implementation of a recursive algorithm?",
+    "options": [
+      "A) Stack",
+      "B) Linked List",
+      "C) Tree",
+      "D) Queue"
+    ],
+    "correct_answer": "A",
+    "explanation": "In recursive algorithms, the order in which the recursive process comes back is the reverse of the order in which it goes forward during execution. The compiler uses the stack data structure to implement recursion. In the forwarding phase, the values of local variables, parameters and the return address are pushed into the stack at each recursion level. In the backing-out phase, the stacked address is popped and used to execute the rest of the code."
+  },
+  {
+    "question": "Which of the following statement(s) about stack data structure is/are NOT correct?",
+    "options": [
+      "A) Top of the Stack always contain the new node",
+      "B) Stack is the FIFO data structure",
+      "C) Null link is present in the last node at the bottom of the stack",
+      "D) Linked List are used for implementing Stacks"
+    ],
+    "correct_answer": "B",
+    "explanation": "Stack follows LIFO."
+  },
+  {
+    "question": "The data structure required for Breadth First Traversal on a graph is?",
+    "options": [
+      "A) Array",
+      "B) Stack",
+      "C) Tree",
+      "D) Queue"
+    ],
+    "correct_answer": "D",
+    "explanation": "In Breadth First Search Traversal, BFS, starting vertex is first taken and adjacent vertices which are unvisited are also taken. Again, the first vertex which was added as an unvisited adjacent vertex list will be considered to add further unvisited vertices of the graph. To get the first unvisited vertex we need to follows First In First Out principle. Queue uses FIFO principle."
+  },
+  {
+    "question": "The prefix form of A-B/ (C * D ^ E) is?",
+    "options": [
+      "A) -A/B*C^DE",
+      "B) -A/BC*^DE",
+      "C) -ABCD*^DE",
+      "D) -/*^ACBDE"
+    ],
+    "correct_answer": "A",
+    "explanation": "Infix Expression is A-B/(C*D^E)\nThis can be written as: A-(B/(C*(D^E)))\nThus prefix expression is -A/B*C^DE."
+  },
+  {
+    "question": "Which of the following points is/are not true about Linked List data structure when it is compared with an array?",
+    "options": [
+      "A) Random access is not allowed in a typical implementation of Linked Lists",
+      "B) Access of elements in linked list takes less time than compared to arrays",
+      "C) Arrays have better cache locality that can make them better in terms of performance",
+      "D) It is easy to insert and delete elements in Linked List"
+    ],
+    "correct_answer": "B",
+    "explanation": "To access an element in a linked list, we need to traverse every element until we reach the desired element. This will take more time than arrays as arrays provide random access to its elements."
+  },
+  {
+    "question": "Which data structure is based on the Last In First Out (LIFO) principle?",
+    "options": [
+      "A) Tree",
+      "B) Linked List",
+      "C) Stack",
+      "D) Queue"
+    ],
+    "correct_answer": "C",
+    "explanation": "The data structure that follows the Last In First Out (LIFO) principle is the Stack. It operates like a stack of objects, making it suitable for specific-order management."
+  },
+  {
+    "question": "Which of the following application makes use of a circular linked list?",
+    "options": [
+      "A) Recursive function calls",
+      "B) Undo operation in a text editor",
+      "C) Implement Hash Tables",
+      "D) Allocating CPU to resources"
+    ],
+    "correct_answer": "D",
+    "explanation": "Generally, round robin fashion is employed to allocate CPU time to resources which makes use of the circular linked list data structure. Recursive function calls use stack data structure. Undo Operation in text editor uses doubly linked lists. Hash tables uses singly linked lists."
+  },
+  {
+    "question": "What is a bit array?",
+    "options": [
+      "A) Data structure that compactly stores bits",
+      "B) Data structure for representing arrays of records",
+      "C) Array in which elements are not present in continuous locations",
+      "D) An array in which most of the elements have the same value"
+    ],
+    "correct_answer": "A",
+    "explanation": "It compactly stores bits and exploits bit-level parallelism."
+  },
+  {
+    "question": "Which of the following tree data structures is not a balanced binary tree?",
+    "options": [
+      "A) Splay tree",
+      "B) B-tree",
+      "C) AVL tree",
+      "D) Red-black tree"
+    ],
+    "correct_answer": "B",
+    "explanation": "All the tree data structures given in options are balanced, but B-tree can have more than two children."
+  },
+  {
+    "question": "Which of the following is not the type of queue?",
+    "options": [
+      "A) Priority queue",
+      "B) Circular queue",
+      "C) Single ended queue",
+      "D) Ordinary queue"
+    ],
+    "correct_answer": "C",
+    "explanation": "Queue always has two ends. So, single ended queue is not the type of queue."
+  },
+  {
+    "question": "Which of the following data structures can be used for parentheses matching?",
+    "options": [
+      "A) n-ary tree",
+      "B) queue",
+      "C) priority queue",
+      "D) stack"
+    ],
+    "correct_answer": "D",
+    "explanation": "For every opening brace, push it into the stack, and for every closing brace, pop it off the stack. Do not take action for any other character. In the end, if the stack is empty, then the input has balanced parentheses."
+  },
+  {
+    "question": "Which algorithm is used in the top tree data structure?",
+    "options": [
+      "A) Backtracking",
+      "B) Divide and Conquer",
+      "C) Branch",
+      "D) Greedy"
+    ],
+    "correct_answer": "B",
+    "explanation": "Top tree is a type of data structure which is based on unrooted dynamic binary tree and is used to solve path related problems. It allows an algorithm called divide and conquer."
+  },
+  {
+    "question": "What is the need for a circular queue?",
+    "options": [
+      "A) easier computations",
+      "B) implement LIFO principle in queues",
+      "C) effective usage of memory",
+      "D) to delete elements based on priority"
+    ],
+    "correct_answer": "C",
+    "explanation": "In a linear queue, dequeue operation causes the starting elements of the array to be empty, and there is no way you can use that space, while in a circular queue, you can effectively use that space. Priority queue is used to delete the elements based on their priority. Higher priority elements will be deleted first whereas lower priority elements will be deleted next. Queue data structure always follows FIFO principle."
+  },
+  {
+    "question": "Which of the following is the most widely used external memory data structure?",
+    "options": [
+      "A) B-tree",
+      "B) Red-black tree",
+      "C) AVL tree",
+      "D) Both AVL tree and Red-black tree"
+    ],
+    "correct_answer": "A",
+    "explanation": "In external memory, the data is transferred in form of blocks. These blocks have data valued and pointers. And B-tree can hold both the data values and pointers. So B-tree is used as an external memory data structure."
+  },
+  {
+    "question": "Which of the following is also known as Rope data structure?",
+    "options": [
+      "A) Linked List",
+      "B) Array",
+      "C) String",
+      "D) Cord"
+    ],
+    "correct_answer": "D",
+    "explanation": "Array is a linear data structure. Strings are a collection and sequence of codes, alphabets or characters. Linked List is a linear data structure having a node containing data input and the address of the next node. The cord is also known as the rope data structure."
+  },
+  {
+    "question": "Which of the following data structure can provide efficient searching of the elements?",
+    "options": [
+      "A) binary search tree",
+      "B) unordered lists",
+      "C) 2-3 tree",
+      "D) treap"
+    ],
+    "correct_answer": "C",
+    "explanation": "The average case time for lookup in a binary search tree, treap and 2-3 tree is O(log n) and in unordered lists it is O(n). But in the worst case, only the 2-3 trees perform lookup efficiently as it takes O(log n), while others take O(n)."
+  },
+  {
+    "question": "What is an AVL tree?",
+    "options": [
+      "A) a tree which is unbalanced and is a height balanced tree",
+      "B) a tree which is balanced and is a height balanced tree",
+      "C) a tree with atmost 3 children",
+      "D) a tree with three children"
+    ],
+    "correct_answer": "B",
+    "explanation": "It is a self balancing tree with height difference atmost 1."
+  },
+  {
+    "question": "What is the time complexity for searching a key or integer in Van Emde Boas data structure?",
+    "options": [
+      "A) O (M!)",
+      "B) O (log M!)",
+      "C) O (log (log M))",
+      "D) O (M2)"
+    ],
+    "correct_answer": "C",
+    "explanation": "In order to search a key or integer in the Van Emde Boas data structure, the operation can be performed on an associative array. Hence, the time complexity for searching a key or integer in Van Emde Boas data structure is O (log (log M))."
+  },
+  {
+    "question": "The optimal data structure used to solve Tower of Hanoi is _________",
+    "options": [
+      "A) Tree",
+      "B) Heap",
+      "C) Priority queue",
+      "D) Stack"
+    ],
+    "correct_answer": "D",
+    "explanation": "The Tower of Hanoi involves moving of disks ‘stacked’ at one peg to another peg with respect to the size constraint. It is conveniently done using stacks and priority queues. Stack approach is widely used to solve Tower of Hanoi."
+  },
+  {
+    "question": "What is the use of the bin data structure?",
+    "options": [
+      "A) to have efficient traversal",
+      "B) to have efficient region query",
+      "C) to have efficient deletion",
+      "D) to have efficient insertion"
+    ],
+    "correct_answer": "B",
+    "explanation": "Bin data structure allows us to have efficient region queries. A frequency of bin is increased by one each time a data point falls into a bin."
+  },
+  {
+    "question": "Which is the most appropriate data structure for reversing a word?",
+    "options": [
+      "A) stack",
+      "B) queue",
+      "C) graph",
+      "D) tree"
+    ],
+    "correct_answer": "A",
+    "explanation": "Stack is the most appropriate data structure for reversing a word because stack follows LIFO principle."
+  },
+  {
+    "question": "Which of the following is the simplest data structure that supports range searching?",
+    "options": [
+      "A) AA-trees",
+      "B) K-d trees",
+      "C) Heaps",
+      "D) binary search trees"
+    ],
+    "correct_answer": "B",
+    "explanation": "K-d trees are the simplest data structure that supports range searching and also it achieves the respectable running time."
+  },
+  {
+    "question": "What is the advantage of a hash table as a data structure?",
+    "options": [
+      "A) easy to implement",
+      "B) faster access of data",
+      "C) exhibit good locality of reference",
+      "D) very efficient for less number of entries"
+    ],
+    "correct_answer": "B",
+    "explanation": "Hash table is a data structure that has an advantage that it allows fast access of elements. Hash functions are used to determine the index of any input record in a hash table."
+  },
+  {
+    "question": "Which type of data structure is a ternary heap?",
+    "options": [
+      "A) Hash",
+      "B) Array",
+      "C) Priority Stack",
+      "D) Priority Queue"
+    ],
+    "correct_answer": "D",
+    "explanation": "Ternary heap is a type of data structure in the field of computer science. It is a part of the Heap data structure family. It is a priority queue type of data structure that follows all the property of heap."
+  },
+  {
+    "question": "What is a deque?",
+    "options": [
+      "A) A queue implemented with both singly and doubly linked lists",
+      "B) A queue with insert/delete defined for front side of the queue",
+      "C) A queue with insert/delete defined for both front and rear ends of the queue",
+      "D) A queue implemented with a doubly linked list"
+    ],
+    "correct_answer": "C",
+    "explanation": "A deque or a double ended queue is a queue with insert/delete defined for both front and rear ends of the queue."
+  },
+  {
+    "question": "A data structure in which elements can be inserted or deleted at/from both ends but not in the middle is?",
+    "options": [
+      "A) Priority queue",
+      "B) Deque",
+      "C) Circular queue",
+      "D) Queue"
+    ],
+    "correct_answer": "B",
+    "explanation": "In deque, we can insert or delete elements from both the ends. In queue, we will follow first in first out principle for insertion and deletion of elements. Element with least priority will be deleted in a priority queue."
+  },
+  {
+    "question": "In simple chaining, what data structure is appropriate?",
+    "options": [
+      "A) Doubly linked list",
+      "B) Circular linked list",
+      "C) Singly linked list",
+      "D) Binary trees"
+    ],
+    "correct_answer": "A",
+    "explanation": "Deletion becomes easier with doubly linked list, hence it is appropriate."
+  },
+  {
+    "question": "What is the advantage of recursive approach than an iterative approach?",
+    "options": [
+      "A) Consumes less memory",
+      "B) Less code and easy to implement",
+      "C) Consumes more memory",
+      "D) More code has to be written"
+    ],
+    "correct_answer": "B",
+    "explanation": "A recursive approach is easier to understand and contains fewer lines of code."
+  }
+]

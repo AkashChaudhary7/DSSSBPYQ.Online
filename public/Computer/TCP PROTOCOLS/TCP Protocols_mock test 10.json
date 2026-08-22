@@ -1,0 +1,522 @@
+[
+  {
+    "question": "What is the full form of SIRCIM?",
+    "options": [
+      "A) Simulation of Indoor Radio Channel Impulse response Model",
+      "B) Statistical Indoor Radio Channel for Impulse Model",
+      "C) Statistical Impulse Radio Channel for Indoor Model",
+      "D) Simulation of Impulse Radio Channel for Indoor Model"
+    ],
+    "correct_answer": "A",
+    "explanation": "SIRCIM stands for Simulation of Indoor Radio Channel Impulse response Model. SIRCIM generates realistic samples of small scale indoor channel impulse response measurements."
+  },
+  {
+    "question": "Which is the process of encoding information from a message source in suitable manner for transmission?",
+    "options": [
+      "A) Modulation",
+      "B) Demodulation",
+      "C) Encryption",
+      "D) Decryption"
+    ],
+    "correct_answer": "A",
+    "explanation": "Modulation is the process of encoding information from a message source in suitable manner for transmission. It translates the baseband message signal to a bandpass signal at frequencies that are very higher compared to the baseband frequency."
+  },
+  {
+    "question": "The bandpass signal is called the modulating signal.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "The bandpass signal is called the modulated signal and the baseband message signal is called the modulating signal. Modulation is done by varying the amplitude, phase or frequency of a high frequency carrier in accordance with the amplitude of the message signal."
+  },
+  {
+    "question": "AM signal have all information in ______ of the carrier.",
+    "options": [
+      "A) Amplitude",
+      "B) Magnitude",
+      "C) Frequency",
+      "D) Power"
+    ],
+    "correct_answer": "A",
+    "explanation": "AM signals have all information in the amplitude of the carrier. Because, AM signal superimpose the exact relative amplitudes of the modulating signal onto the carrier."
+  },
+  {
+    "question": "In frequency modulation, the amplitude of modulated carrier signal is ______and its frequency is ______ by the modulating message signal.",
+    "options": [
+      "A) Constant, constant",
+      "B) Varied, constant",
+      "C) Constant, varied",
+      "D) Varied, varied"
+    ],
+    "correct_answer": "C",
+    "explanation": "In frequency modulation (FM), the amplitude of modulated carrier signal is kept constant while its frequency is varied by the modulating message signal. FM is the most popular analog modulation technique used in mobile communication."
+  },
+  {
+    "question": "FM signals have all their information in ______ of the carrier.",
+    "options": [
+      "A) Amplitude",
+      "B) Magnitude",
+      "C) Frequency",
+      "D) Power"
+    ],
+    "correct_answer": "C",
+    "explanation": "FM signal have all their information in the phase or frequency of the carrier. This provides a nonlinear and very rapid improvement in reception quality once a certain minimum received signal level, called FM threshold is achieved."
+  },
+  {
+    "question": "Amplitude modulation has ______ relationship between the quality of the received signal and the power of the received signal.",
+    "options": [
+      "A) No",
+      "B) Non linear",
+      "C) Constant",
+      "D) Linear"
+    ],
+    "correct_answer": "D",
+    "explanation": "In amplitude modulation schemes, there is a linear relationship between the quality of the received signal and the power of the received signal. AM signals superimpose the exact relative amplitudes of the modulating signal onto the carrier."
+  },
+  {
+    "question": "FM has _______ noise immunity when compared to amplitude modulation.",
+    "options": [
+      "A) Same",
+      "B) Less",
+      "C) No",
+      "D) Better"
+    ],
+    "correct_answer": "D",
+    "explanation": "FM offers many advantages over amplitude modulation which makes it a better choice for many mobile radio applications. Frequency modulation has better noise immunity when compared to amplitude modulation."
+  },
+  {
+    "question": "FM signals are _____ susceptible to atmospheric and impulse noise as compared to AM.",
+    "options": [
+      "A) Largely",
+      "B) Less",
+      "C) Not",
+      "D) Better"
+    ],
+    "correct_answer": "B",
+    "explanation": "FM signals are represented as frequency variations rather than amplitude variations. Therefore, FM signals are less susceptible to atmospheric and impulse noise."
+  },
+  {
+    "question": "Burst noise affects FM systems.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "If the FM received signal is above the FM threshold, burst noise does not affect FM system performance as much as AM systems. It is due to the fact that message amplitude variations do not carry information in FM."
+  },
+  {
+    "question": "AM has a modulation index.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Unlike AM, FM has a modulation index. Hence, bandwidth occupancy can be varied to obtain greater signal to noise performance. Thus, it is possible to tradeoff bandwidth occupancy for improved noise performance."
+  },
+  {
+    "question": "Which of the following is an advantage of AM systems in comparison to FM sysytems?",
+    "options": [
+      "A) Occupy less bandwidth",
+      "B) Superior performance in fading",
+      "C) Better noise immunity",
+      "D) Not susceptible to impulse noise"
+    ],
+    "correct_answer": "A",
+    "explanation": "AM signals are able to occupy less bandwidth as compared to FM signals, since the transmission system is linear. Small scale fading causes rapid fluctuations in the received signal. Thus, FM offers superior qualitative performance in fading when compared to AM."
+  },
+  {
+    "question": "An FM signal is a ______ envelope signal.",
+    "options": [
+      "A) Varied",
+      "B) Small",
+      "C) Large",
+      "D) Constant"
+    ],
+    "correct_answer": "D",
+    "explanation": "An FM signal is a constant envelope signal. It is due to the fact that the envelope of the carrier does not change with changes in the modulating signal. Hence, the transmitted power of an FM signal is constant regardless of the amplitude of the message signal."
+  },
+  {
+    "question": "FM uses class______ amplifiers and AM uses class ______ amplifiers.",
+    "options": [
+      "A) C, C",
+      "B) A, C",
+      "C) C, A",
+      "D) AB, C"
+    ],
+    "correct_answer": "C",
+    "explanation": "The constant envelope of the transmitted signal allows efficient class C amplifiers. However in AM, it is critical to maintain linearity between the applied message and amplitude of transmitted signal. Therefore, class A or AB are used for AM systems."
+  },
+  {
+    "question": "AM exhibits capture effect characteristics.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "AM systems do not exhibit capture effect characteristics because all the interferers are received at once and must be discriminated after the modulation process. FM exhibits this characteristic. Capture effect is a direct result of rapid non-linear improvement in received quality for an increase in receives power."
+  },
+  {
+    "question": "Which of the following is a drawback of FM systems?",
+    "options": [
+      "A) Burst noise",
+      "B) Susceptible to atmospheric noise",
+      "C) Wider frequency band",
+      "D) Poor performance in fading"
+    ],
+    "correct_answer": "C",
+    "explanation": "FM systems have many advantages over AM systems. They also have certain disadvantages. FM systems require a wider frequency band in transmitting media in order to obtain the advantages of reduced noise and capture effect. It is generally several times as large as that needed for AM."
+  },
+  {
+    "question": "FM is a part of general class of modulation known as ______",
+    "options": [
+      "A) Angle modulation",
+      "B) Phase modulation",
+      "C) Amplitude modulation",
+      "D) Frequency modulation"
+    ],
+    "correct_answer": "A",
+    "explanation": "FM is a part of general class of modulation known as angle modulation. Angle modulation varies a sinusoidal carrier signal in such a way that the angle of the carrier is varied according to the amplitude of the modulating baseband signal."
+  },
+  {
+    "question": "FM is called constant envelope because ______ of carrier wave is kept constant.",
+    "options": [
+      "A) Frequency",
+      "B) Amplitude",
+      "C) Phase",
+      "D) Angle"
+    ],
+    "correct_answer": "B",
+    "explanation": "FM is called the constant envelope because amplitude of the carrier wave is kept constant. It is duo to the fact that the envelope of the carrier does not change with changes in the modulating signal."
+  },
+  {
+    "question": "Which of the following are two most important classes of angle modulation?",
+    "options": [
+      "A) Amplitude modulation, frequency modulation",
+      "B) Amplitude modulation, phase modulation",
+      "C) Frequency modulation, phase modulation",
+      "D) Single sideband amplitude modulation, phase modulation"
+    ],
+    "correct_answer": "C",
+    "explanation": "The two most important classes of angle modulation are frequency modulation and phase modulation. They provide the ways in which phase of a carrier signal may be varied in accordance with the baseband signal."
+  },
+  {
+    "question": "Frequency modulated signal is regarded as the phase modulated signal in which the modulating wave is differentiated before modulation.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Frequency modulated signal is regarded as the phase modulated signal in which the modulating wave is integrated before modulation. This means that an FM signal can be generated by first integrating the message signal and then using the result as an input to a phase modulator."
+  },
+  {
+    "question": "Frequency modulation index defines the relationship between the ______ and bandwidth of transmitted signal.",
+    "options": [
+      "A) Frequency of message signal",
+      "B) Amplitude of message signal",
+      "C) Amplitude of carrier signal",
+      "D) Frequency of carrier signal"
+    ],
+    "correct_answer": "B",
+    "explanation": "The frequency modulation index defines the relationship between the message amplitude and the bandwidth of the transmitted signal. If the modulating signal is a low pass signal, maximum bandwidth of the modulating signal is equal to the highest frequency component present in the modulating signal."
+  },
+  {
+    "question": "FM bandwidth is approximated using _______ rule.",
+    "options": [
+      "A) Carson’s",
+      "B) Faraday’s",
+      "C) Maxwell’s",
+      "D) Armstrong’s"
+    ],
+    "correct_answer": "A",
+    "explanation": "The approximation of bandwidth is done using Carson’s rule. Carson’s bandwidth rule defines the approximate bandwidth requirements of communications system components for a carrier signal that is frequency modulated by a continuous or broad spectrum of frequencies rather than a single frequency."
+  },
+  {
+    "question": "Which of the following are two methods for generating FM signal?",
+    "options": [
+      "A) Coherent method, noncoherent method",
+      "B) Product detector, envelope detector",
+      "C) Direct method, indirect method",
+      "D) Slope detector, Zero crossing detector"
+    ],
+    "correct_answer": "C",
+    "explanation": "Direct method and indirect method are the methods used for generating FM signals. These methods are differentiated by the variation of the carrier frequency."
+  },
+  {
+    "question": "In indirect method, the carrier frequency is directly varied in accordance with the input modulating signal.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "The above is the case for direct method. In the indirect method, a narrowband FM signal is generated using a balanced modulator, and frequency multiplication is used to increase both the frequency deviation and the carrier frequency to the required level."
+  },
+  {
+    "question": "Which of the following is used to vary the frequency of the carrier frequency in accordance with the baseband signal amplitude variations in direct method of FM generation?",
+    "options": [
+      "A) Integrator",
+      "B) Envelope detector",
+      "C) Multivibrator",
+      "D) Voltage controlled oscillators"
+    ],
+    "correct_answer": "D",
+    "explanation": "In direct method, VCOs are used to vary the frequency of the carrier signal in accordance with the baseband signal amplitude variations. These oscillators use devices with reactance that can be varied by the application of a voltage."
+  },
+  {
+    "question": "Frequency demodulator is a frequency to amplitude converter circuit.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "Frequency demodulator produces an output voltage with instantaneous amplitude that is directly proportional to the instantaneous frequency of the input FM signal. Thus, frequency demodulator is a frequency to amplitude converter circuit."
+  },
+  {
+    "question": "Which of the following FM demodulator is sometimes known as pulse averaging discriminator?",
+    "options": [
+      "A) Slope detection",
+      "B) Zero crossing detection",
+      "C) Quadrature detection",
+      "D) Phase locked discriminator"
+    ],
+    "correct_answer": "B",
+    "explanation": "Zero crossing detector is sometimes known as pulse averaging discriminator. The rationale behind this technique is to use the output of the zero crossing detector to generate a pulse train with an average value that is proportional to frequency of the input signal."
+  },
+  {
+    "question": "PLL in FM detection stands for ______",
+    "options": [
+      "A) Phase locked loop",
+      "B) Programmable logic loop",
+      "C) Phase locked logic",
+      "D) Programmable locked loop"
+    ],
+    "correct_answer": "A",
+    "explanation": "PLL stands for phase locked loop. The PLL is a closed loop control system which can track the variations in the received signal phase and frequency."
+  },
+  {
+    "question": "In angle modulation, signal to noise ratio before detection is a function of ______",
+    "options": [
+      "A) Modulation index",
+      "B) Input signal to noise ratio",
+      "C) Maximum frequency of the message",
+      "D) IF filter bandwidth"
+    ],
+    "correct_answer": "D",
+    "explanation": "In angle modulation systems, the signal to noise ratio before detection is the function of the receiver IF filter bandwidth, received carrier power, and received interference. However, signal to noise ratio after detection is a function of maximum frequency of the message, input signal to noise ratio and modulation index."
+  },
+  {
+    "question": "FM can improve the receiver performance through adjustment of transmitted power.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "FM can improve receiver performance through adjustment of the modulation index at the transmitter, and not the transmitted power. This is not the case in AM since linear modulation techniques do not trade bandwidth for SNR."
+  },
+  {
+    "question": "Intersymbol interference (ISI) leads to ________ probability of the receiver for making an error in detecting the symbols.",
+    "options": [
+      "A) Increased",
+      "B) Decreased",
+      "C) Zero",
+      "D) One"
+    ],
+    "correct_answer": "A",
+    "explanation": "ISI leads to increased probability of the receiver making an error in detecting a symbol. When rectangular pulses are passed through a bandlimited channel, the pulses will spread in time, and the pulse for each symbol will smear into the time intervals of succeeding symbols."
+  },
+  {
+    "question": "ISI is ________ by increasing channel bandwidth.",
+    "options": [
+      "A) Maximized",
+      "B) Minimized",
+      "C) Zero",
+      "D) Infinite"
+    ],
+    "correct_answer": "B",
+    "explanation": "Increasing channel bandwidth is one of the method to minimize intersymbol interference. But mobile communication systems use minimal bandwidth, thus other methods to reduce ISI are desirable."
+  },
+  {
+    "question": "Why is pulse shaping technique used?",
+    "options": [
+      "A) To increase ISI",
+      "B) To increase spectral width of modulated signal",
+      "C) To reduce ISI",
+      "D) To reduce power spectral density"
+    ],
+    "correct_answer": "C",
+    "explanation": "Pulse shaping techniques reduces the intersymbol interference. They are also used to reduce the spectral width of the modulated digital signal."
+  },
+  {
+    "question": "Who was the first to solve the problem of ISI?",
+    "options": [
+      "A) Manchester",
+      "B) Faraday",
+      "C) Graham Bell",
+      "D) Nyquist"
+    ],
+    "correct_answer": "D",
+    "explanation": "Nyquist was the first to solve the problem of ISI. He overcome the problem of ISI while keeping the transmission bandwidth low. He observed that ISI can be completely nullified if at every instant, the response due to all symbols except the current symbol is equal to zero."
+  },
+  {
+    "question": "According to Nyquist, the impulse response of the overall communication system should have ______ decay with _______ magnitude for sample values not equal to zero.",
+    "options": [
+      "A) Fast, small",
+      "B) Slow, small",
+      "C) Slow, large",
+      "D) Fast. Large"
+    ],
+    "correct_answer": "A",
+    "explanation": "According to Nyquist, the impulse response of the overall communication system should have fast decay with small magnitude for sample values not equal to zero. If the channel is ideal then it should be possible to realize approximate shaping filters at both transmitter and receiver."
+  },
+  {
+    "question": "Raised cosine filter does not satisfy Nyquist criteria.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Raised cosine filter is the most popular pulse shaping filter used in mobile communication. It belongs to the class of filters that satisfy Nyquist criterion."
+  },
+  {
+    "question": "As the roll off factor in raised cosine rolloff filter __________ the occupied bandwidth ________",
+    "options": [
+      "A) Increases, decreases",
+      "B) Decreases, constant",
+      "C) Increases, increases",
+      "D) Decreases, increases"
+    ],
+    "correct_answer": "C",
+    "explanation": "As the rolloff factor increases, the bandwidth of the filter also increases and the time sidelobe levels decrease in adjacent symbol slots. Thus, it implies that increasing rolloff factor decreases the sensitivity to timing jitter but increases the occupied bandwidth."
+  },
+  {
+    "question": "Gaussian pulse shaping filter follows Nyquist criterion.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Gaussian pulse shaping filter uses non Nyquist technique. It is effective when used in conjunction with minimum shift keying (MSK) modulation, or other modulation which is well suited for power efficient nonlinear amplifiers."
+  },
+  {
+    "question": "Gaussian filter has zero crossings at adjacent symbol peaks.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Nyquist filters have zero crossings at adjacent symbol peaks and a truncated transfer function. Gaussian filter does not follow Nyquist criterion and has a smooth transfer function with no zero crossings."
+  },
+  {
+    "question": "Which of the following is true for a Gaussian filter?",
+    "options": [
+      "A) Large bandwidth",
+      "B) Minimum ISI",
+      "C) High overshoot",
+      "D) Sharp cut off"
+    ],
+    "correct_answer": "D",
+    "explanation": "The Gaussian filter has a narrow absolute bandwidth, and has a sharp cut off, low overshoot and pulse area preservation properties. This makes it attractive for use in mobile communication that uses nonlinear RF amplifiers."
+  },
+  {
+    "question": "Gaussian pulse shaping filter reduces the spectral occupancy and ISI.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Gaussian pulse shaping does not satisfy Nyquist criterion for ISI cancellation. Thus, it reduces the spectral occupancy but there is degradation in the performance due to increased ISI."
+  },
+  {
+    "question": "Gaussian pulses are used when cost and power efficiency are major factors.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "Gaussian pulses are used when cost and power efficiency are major factors. But the bit error rates due to ISI are deemed to be lower than what is nominally required. Thus, there is a trade-off between desired RF bandwidth and irreducible error due to ISI."
+  },
+  {
+    "question": "In non-linear modulation, the amplitude of the carrier varies with the variation of modulating signal.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "In non-linear modulation, the amplitude of the carrier is constant regardless of the variation in the modulating signal. Many practical mobile radio communication systems use these types of nonlinear modulation methods."
+  },
+  {
+    "question": "In constant envelope family of modulation, class C amplifiers introduces degradation in spectrum occupancy.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "The constant envelope family of modulation has an advantage of satisfying various conditions. In this, power efficient Class C amplifiers can be used without introducing degradation in the spectrum occupancy of the transmitted signal."
+  },
+  {
+    "question": "Constant envelope modulation techniques occupy ______ bandwidth than linear modulation schemes.",
+    "options": [
+      "A) Larger",
+      "B) Smaller",
+      "C) Same",
+      "D) Twice"
+    ],
+    "correct_answer": "A",
+    "explanation": "Constant envelope modulation technique occupies a larger bandwidth than linear modulation technique. It is one of the disadvantage of constant envelope modulation. It is not well suited where bandwidth efficiency is more important than power efficiency."
+  },
+  {
+    "question": "In BFSK __________ of constant amplitude carrier signal is switched between two values.",
+    "options": [
+      "A) Phase",
+      "B) Angle",
+      "C) Frequency",
+      "D) Amplitude"
+    ],
+    "correct_answer": "C",
+    "explanation": "In BFSK, the frequency of a constant amplitude carrier signal is switched between two values according to the two possible message states. These states are called high and low tunes, which corresponds to binary 1 or 0."
+  },
+  {
+    "question": "MSK stands for ________",
+    "options": [
+      "A) Maximum shift keying",
+      "B) Minimum shift keying",
+      "C) Minimum space keying",
+      "D) Maximum space keying"
+    ],
+    "correct_answer": "B",
+    "explanation": "MSK stands for minimum shift keying. It is a special type of continuous phase shift keying. It is form of digital modulation technique that was developed in 1950s."
+  },
+  {
+    "question": "What is the modulation index of MSK?",
+    "options": [
+      "A) 0.1",
+      "B) 1",
+      "C) 0.5",
+      "D) 0"
+    ],
+    "correct_answer": "C",
+    "explanation": "Minimum shift keying is a special type of CPFSK. Its peak frequency deviation is equal to ¼ the bit rate. In other words, MSK is continuous phase FSK with a modulation index of 0.5."
+  },
+  {
+    "question": "The modulation index of an FSK signal is similar to modulation index of ________",
+    "options": [
+      "A) Amplitude modulation",
+      "B) Phase modulation",
+      "C) QPSK",
+      "D) Frequency modulation"
+    ],
+    "correct_answer": "D",
+    "explanation": "The modulation index of an FSK signal is similar to FM modulation index. It is defined by (2∆F)/Rb. Here ∆F is the peak RF frequency and Rb is the bit rate."
+  },
+  {
+    "question": "The name minimum phase shift keying implies minimum _________",
+    "options": [
+      "A) Frequency separation",
+      "B) Amplitude separation",
+      "C) Phase change",
+      "D) Amplitude deviation"
+    ],
+    "correct_answer": "A",
+    "explanation": "The name minimum phase shift keying implies minimum frequency separation, i.e. the bandwidth that allows orthogonal detection. A modulation index of 0.5 corresponds to the minimum frequency spacing that allows two FSK signals to be coherently orthogonal."
+  }
+]

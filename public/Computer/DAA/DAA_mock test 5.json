@@ -1,0 +1,495 @@
+[
+  {
+    "question": "When the Depth First Search of a graph is unique?",
+    "options": [
+      "A) When the graph is a Binary Tree",
+      "B) When the graph is a Linked List",
+      "C) When the graph is a n-ary Tree",
+      "D) When the graph is a ternary Tree"
+    ],
+    "correct_answer": "B",
+    "explanation": "When Every node will have one successor then the Depth First Search is unique. In all other cases, when it will have more than one successor, it can choose any of them in arbitrary order."
+  },
+  {
+    "question": "Regarding implementation of Depth First Search using stacks, what is the maximum distance between two nodes present in the stack? (considering each edge length 1)",
+    "options": [
+      "A) Can be anything",
+      "B) 0",
+      "C) At most 1",
+      "D) Insufficient Information"
+    ],
+    "correct_answer": "A",
+    "explanation": "In the stack, at a time, there can be nodes which can differ in many levels. So, it can be the maximum distance between two nodes in the graph."
+  },
+  {
+    "question": "In Depth First Search, how many times a node is visited?",
+    "options": [
+      "A) Once",
+      "B) Twice",
+      "C) Equivalent to number of indegree of the node",
+      "D) Thrice"
+    ],
+    "correct_answer": "C",
+    "explanation": "In Depth First Search, we have to see whether the node is visited or not by it’s ancestor. If it is visited, we won’t let it enter it in the stack."
+  },
+  {
+    "question": "Suppose the first fibonnaci number is 0 and the second is 1. What is the sixth fibonnaci number?",
+    "options": [
+      "A) 5",
+      "B) 6",
+      "C) 7",
+      "D) 8"
+    ],
+    "correct_answer": "A",
+    "explanation": "The sixth fibonnaci number is 5."
+  },
+  {
+    "question": "Which of the following is not a fibonnaci number?",
+    "options": [
+      "A) 8",
+      "B) 21",
+      "C) 55",
+      "D) 14"
+    ],
+    "correct_answer": "D",
+    "explanation": "14 is not a fibonnaci number."
+  },
+  {
+    "question": "Which of the following option is wrong?",
+    "options": [
+      "A) Fibonacci number can be calculated by using Dynamic programming",
+      "B) Fibonacci number can be calculated by using Recursion method",
+      "C) Fibonacci number can be calculated by using Iteration method",
+      "D) No method is defined to calculate Fibonacci number"
+    ],
+    "correct_answer": "D",
+    "explanation": "Fibonacci number can be calculated by using Dynamic Programming, Recursion method, Iteration Method."
+  },
+  {
+    "question": "Which of the following recurrence relations can  be used to find the nth fibonacci number?",
+    "options": [
+      "A) F(n) = F(n) + F(n – 1)",
+      "B) F(n) = F(n) + F(n + 1)",
+      "C) F(n) = F(n – 1)",
+      "D) F(n) = F(n – 1) + F(n – 2)"
+    ],
+    "correct_answer": "D",
+    "explanation": "The relation F(n) = F(n – 1) + F(n – 2) can be used to find the nth fibonacci number."
+  },
+  {
+    "question": "Which of the following methods can be used to find the sum of digits of a number?",
+    "options": [
+      "A) Recursion",
+      "B) Iteration",
+      "C) Greedy algorithm",
+      "D) Both recursion and iteration"
+    ],
+    "correct_answer": "D",
+    "explanation": "Both recursion and iteration can be used to find the sum of digits of a number."
+  },
+  {
+    "question": "What can be the maximum sum of digits for a 4 digit number?",
+    "options": [
+      "A) 1",
+      "B) 16",
+      "C) 36",
+      "D) 26"
+    ],
+    "correct_answer": "C",
+    "explanation": "The sum of digits will be maximum when all the digits are 9. Thus, the sum will be maximum for the number 9999, which is 36."
+  },
+  {
+    "question": "What can be the minimum sum of digits for a 4 digit number?",
+    "options": [
+      "A) 0",
+      "B) 1",
+      "C) 16",
+      "D) 36"
+    ],
+    "correct_answer": "B",
+    "explanation": "The sum of digits will be minimum for the number 1000 and the sum is 1."
+  },
+  {
+    "question": "Which of the following methods can be used to search an element in a linked list?",
+    "options": [
+      "A) Iterative linear search",
+      "B) Iterative binary search",
+      "C) Recursive binary search",
+      "D) Normal binary search"
+    ],
+    "correct_answer": "A",
+    "explanation": "Iterative linear search can be used to search an element in a linked list. Binary search can be used only when the list is sorted."
+  },
+  {
+    "question": "Can binary search be applied on a sorted linked list in O(Logn) time?",
+    "options": [
+      "A) No",
+      "B) Yes"
+    ],
+    "correct_answer": "A",
+    "explanation": "Since linked list doesn’t allow random access, binary search cannot be applied on a sorted linked list in O(Logn) time."
+  },
+  {
+    "question": "What will be time complexity when binary search is applied on a linked list?",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(n2)",
+      "D) O(n3)"
+    ],
+    "correct_answer": "B",
+    "explanation": "The time complexity will be O(n) when binary search is applied on a linked list."
+  },
+  {
+    "question": "The first step in the naïve greedy algorithm is?",
+    "options": [
+      "A) adding flows with higher values",
+      "B) reversing flow if required",
+      "C) analysing the zero flow",
+      "D) calculating the maximum flow using trial and error"
+    ],
+    "correct_answer": "C",
+    "explanation": "The first step in the naïve greedy algorithm is to start with the zero flow followed by adding edges with higher values."
+  },
+  {
+    "question": "Suppose you have coins of denominations 1,3 and 4. You use a greedy algorithm, in which you choose the largest denomination coin which is not greater than the remaining sum. For which of the following sums, will the algorithm produce an optimal answer?",
+    "options": [
+      "A) 100",
+      "B) 10",
+      "C) 6",
+      "D) 14"
+    ],
+    "correct_answer": "A",
+    "explanation": "Using the greedy algorithm, three coins {4,1,1} will be selected to make a sum of 6. But, the optimal answer is two coins {3,3}. Similarly, four coins {4,4,1,1} will be selected to make a sum of 10. But, the optimal answer is three coins {4,3,3}. Also, five coins {4,4,4,1,1} will be selected to make a sum of 14. But, the optimal answer is four coins {4,4,3,3}. For a sum of 100, twenty-five coins {all 4’s} will be selected and the optimal answer is also twenty-five coins {all 4’s}."
+  },
+  {
+    "question": "Choose the correct statement from the following.",
+    "options": [
+      "A) branch and bound is not suitable where a greedy algorithm is not applicable",
+      "B) branch and bound divides a problem into at least 2 new restricted sub problems",
+      "C) backtracking divides a problem into at least 2 new restricted sub problems",
+      "D) branch and bound is more efficient than backtracking"
+    ],
+    "correct_answer": "B",
+    "explanation": "Both backtracking as well as branch and bound are problem solving algorithms. Branch and bound is less efficient than backtracking. Branch and bound divides a problem into at least 2 new restricted sub problems."
+  },
+  {
+    "question": "Dijkstra’s Algorithm is the prime example for ___________",
+    "options": [
+      "A) Dynamic programming",
+      "B) Back tracking",
+      "C) Branch and bound",
+      "D) Greedy algorithm"
+    ],
+    "correct_answer": "D",
+    "explanation": "Dijkstra’s Algorithm is the prime example for greedy algorithms because greedy algorithms generally solve a problem in stages by doing what appears to be the best thing at each stage."
+  },
+  {
+    "question": "Bellmann Ford Algorithm is an example for ____________",
+    "options": [
+      "A) Linear Programming",
+      "B) Greedy Algorithms",
+      "C) Dynamic Programming",
+      "D) Branch and Bound"
+    ],
+    "correct_answer": "C",
+    "explanation": "In Bellmann Ford Algorithm the shortest paths are calculated in bottom up manner which is similar to other dynamic programming problems."
+  },
+  {
+    "question": "Which of the following algorithms is the best approach for solving Huffman codes?",
+    "options": [
+      "A) greedy algorithm",
+      "B) exhaustive search",
+      "C) divide and conquer algorithm",
+      "D) brute force algorithm"
+    ],
+    "correct_answer": "A",
+    "explanation": "Greedy algorithm is the best approach for solving the Huffman codes problem since it greedily searches for an optimal solution."
+  },
+  {
+    "question": "Fractional knapsack problem is solved most efficiently by which of the following algorithm?",
+    "options": [
+      "A) Backtracking",
+      "B) Greedy algorithm",
+      "C) Dynamic programming",
+      "D) Divide and conquer"
+    ],
+    "correct_answer": "B",
+    "explanation": "Greedy algorithm is used to solve this problem. We first sort items according to their value/weight ratio and then add item with highest ratio until we cannot add the next item as a whole. At the end, we add the next item as much as we can."
+  },
+  {
+    "question": "Which of the following is false about the Kruskal’s algorithm?",
+    "options": [
+      "A) It constructs MST by selecting edges in increasing order of their weights",
+      "B) It is a greedy algorithm",
+      "C) It uses union-find data structure",
+      "D) It can accept cycles in the MST"
+    ],
+    "correct_answer": "D",
+    "explanation": "Kruskal’s algorithm is a greedy algorithm to construct the MST of the given graph. It constructs the MST by selecting edges in increasing order of their weights and rejects an edge if it may form the cycle. So, using Kruskal’s algorithm is never formed."
+  },
+  {
+    "question": "The following sequence is a fibonacci sequence:",
+    "options": [
+      "A) Recursion",
+      "B) Dynamic programming",
+      "C) A single for loop",
+      "D) Recursion, Dynamic Programming, For loops"
+    ],
+    "correct_answer": "D",
+    "explanation": "Each of the above mentioned methods can be used to find the nth fibonacci term."
+  },
+  {
+    "question": "What is the time complexity of the recursive implementation used to find the nth fibonacci term?",
+    "options": [
+      "A) O(1)",
+      "B) O(n2)",
+      "C) O(n!)",
+      "D) Exponential"
+    ],
+    "correct_answer": "D",
+    "explanation": "The recurrence relation is given by fibo(n) = fibo(n – 1) + fibo(n – 2). So, the time complexity is given by:\nT(n) = T(n – 1) + T(n – 2)\nApproximately,\nT(n) = 2 * T(n – 1)\n= 4 * T(n – 2)\n= 8 * T(n – 3)\n:\n:\n:\n= 2k * T(n – k)\nThis recurrence will stop when n – k = 0\ni.e. n = k\nTherefore, T(n) = 2n * O(0) = 2n\nHence, it takes exponential time.\nIt can also be proved by drawing the recursion tree and counting the number of leaves."
+  },
+  {
+    "question": "What is the space complexity of the recursive implementation used to find the nth fibonacci term?",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(n2)",
+      "D) O(n3)"
+    ],
+    "correct_answer": "A",
+    "explanation": "The recursive implementation doesn’t store any values and calculates every value from scratch. So, the space complexity is O(1)."
+  },
+  {
+    "question": "Which of the following methods can be used to solve the longest common subsequence problem?",
+    "options": [
+      "A) Recursion",
+      "B) Dynamic programming",
+      "C) Both recursion and dynamic programming",
+      "D) Greedy algorithm"
+    ],
+    "correct_answer": "C",
+    "explanation": "Both recursion and dynamic programming can be used to solve the longest subsequence problem."
+  },
+  {
+    "question": "Consider the strings “PQRSTPQRS” and “PRATPBRQRPS”. What is the length of the longest common subsequence?",
+    "options": [
+      "A) 9",
+      "B) 8",
+      "C) 7",
+      "D) 6"
+    ],
+    "correct_answer": "C",
+    "explanation": "The longest common subsequence is “PRTPQRS” and its length is 7."
+  },
+  {
+    "question": "Which of the following problems can be solved using the longest subsequence problem?",
+    "options": [
+      "A) Longest increasing subsequence",
+      "B) Longest palindromic subsequence",
+      "C) Longest bitonic subsequence",
+      "D) Longest decreasing subsequence"
+    ],
+    "correct_answer": "B",
+    "explanation": "To find the longest palindromic subsequence in a given string, reverse the given string and then find the longest common subsequence in the given string and the reversed string."
+  },
+  {
+    "question": "Longest common subsequence is an example of ____________",
+    "options": [
+      "A) Greedy algorithm",
+      "B) 2D dynamic programming",
+      "C) 1D dynamic programming",
+      "D) Divide and conquer"
+    ],
+    "correct_answer": "B",
+    "explanation": "Longest common subsequence is an example of 2D dynamic programming."
+  },
+  {
+    "question": "What is the time complexity of the brute force algorithm used to find the longest common subsequence?",
+    "options": [
+      "A) O(n)",
+      "B) O(n2)",
+      "C) O(n3)",
+      "D) O(2n)"
+    ],
+    "correct_answer": "D",
+    "explanation": "The time complexity of the brute force algorithm used to find the longest common subsequence is O(2n)."
+  },
+  {
+    "question": "Which of the following is the longest common subsequence between the strings “hbcfgmnapq” and “cbhgrsfnmq” ?",
+    "options": [
+      "A) hgmq",
+      "B) cfnq",
+      "C) bfmq",
+      "D) fgmna"
+    ],
+    "correct_answer": "D",
+    "explanation": "The length of the longest common subsequence is 4. But ‘fgmna’ is not the longest common subsequence as its length is 5."
+  },
+  {
+    "question": "You are given a boolean expression which consists of operators &, | and ∧ (AND, OR and XOR) and symbols T or F (true or false). You have to find the number of ways in which the symbols can be parenthesized so that the expression evaluates to true. This is the boolean parenthesization problem. Which of the following methods can be used to solve the problem?",
+    "options": [
+      "A) Dynamic programming",
+      "B) Recursion",
+      "C) Brute force",
+      "D) Dynamic programming, Recursion and Brute force"
+    ],
+    "correct_answer": "D",
+    "explanation": "Dynamic programming, Recursion and Brute force can be used to solve the Boolean parenthesization problem."
+  },
+  {
+    "question": "Consider the expression T & F | T. What is the number of ways in which the expression can be parenthesized so that the output is T (true)?",
+    "options": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) 3"
+    ],
+    "correct_answer": "C",
+    "explanation": "The expression can be parenthesized as T & (F | T) and (T & F) | T so that the output is T."
+  },
+  {
+    "question": "Consider the expression T & F ∧ T.  What is the number of ways in which the expression can be parenthesized so that the output is T (true)?",
+    "options": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) 3"
+    ],
+    "correct_answer": "C",
+    "explanation": "The expression can be parenthesized as (T & F) ∧ T  or  T & (F ∧ T), so that the output is T."
+  },
+  {
+    "question": "Consider the expression T | F ∧ T. In how many ways can the expression be parenthesized so that the output is F (false)?",
+    "options": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) 3"
+    ],
+    "correct_answer": "B",
+    "explanation": "The expression can be parenthesized as (T | F) ∧ T, so that the output is F (false)."
+  },
+  {
+    "question": "Which of the following gives the total number of ways of parenthesizing an expression with n + 1 terms?",
+    "options": [
+      "A) n factorial",
+      "B) n square",
+      "C) n cube",
+      "D) nth catalan number"
+    ],
+    "correct_answer": "D",
+    "explanation": "The nth Catalan number gives the total number of ways of parenthesizing an expression with n + 1 terms."
+  },
+  {
+    "question": "What is the maximum number of ways in which a boolean expression with n + 1 terms can be parenthesized, such that the output is true?",
+    "options": [
+      "A) nth catalan number",
+      "B) n factorial",
+      "C) n cube",
+      "D) n square"
+    ],
+    "correct_answer": "A",
+    "explanation": "The number of ways will be maximum when all the possible parenthesizations result in a true value. The number of possible parenthesizations is given by the nth catalan number."
+  },
+  {
+    "question": "Topological sort can be applied to which of the following graphs?",
+    "options": [
+      "A) Undirected Cyclic Graphs",
+      "B) Directed Cyclic Graphs",
+      "C) Undirected Acyclic Graphs",
+      "D) Directed Acyclic Graphs"
+    ],
+    "correct_answer": "D",
+    "explanation": "Every Directed Acyclic Graph has one or more topological ordering whereas Cyclic and Undirected graphs can’t be ordered topologically."
+  },
+  {
+    "question": "Most Efficient Time Complexity of Topological Sorting is? (V – number of vertices, E – number of edges)",
+    "options": [
+      "A) O(V + E)",
+      "B) O(V)",
+      "C) O(E)",
+      "D) O(V*E)"
+    ],
+    "correct_answer": "A",
+    "explanation": "The topological sort algorithm has complexity same as Depth First Search. So, DFS has a complexity O(V+E)."
+  },
+  {
+    "question": "In most of the cases, topological sort starts from a node which has __________",
+    "options": [
+      "A) Maximum Degree",
+      "B) Minimum Degree",
+      "C) Any degree",
+      "D) Zero Degree"
+    ],
+    "correct_answer": "D",
+    "explanation": "Topological sort starts with a node which has zero degree. If multiple such nodes exists then it can start with any node."
+  },
+  {
+    "question": "Which of the following is not an application of topological sorting?",
+    "options": [
+      "A) Finding prerequisite of a task",
+      "B) Finding Deadlock in an Operating System",
+      "C) Finding Cycle in a graph",
+      "D) Ordered Statistics"
+    ],
+    "correct_answer": "D",
+    "explanation": "Topological sort tells what task should be done before a task can be started. It also detects cycle in the graph which is why it is used in the Operating System to find the deadlock. Ordered statistics is an application of Heap sort."
+  },
+  {
+    "question": "Topological sort of a Directed Acyclic graph is?",
+    "options": [
+      "A) Always unique",
+      "B) Always Not unique",
+      "C) Sometimes unique and sometimes not unique",
+      "D) Always unique if graph has even number of vertices"
+    ],
+    "correct_answer": "C",
+    "explanation": "The topological sort of a graph can be unique if we assume the graph as a single linked list and we can have multiple topological sort order if we consider a graph as a complete binary tree."
+  },
+  {
+    "question": "Topological sort can be implemented by?",
+    "options": [
+      "A) Using Depth First Search",
+      "B) Using Breadth First Search",
+      "C) Using Depth and Breadth First Search",
+      "D) Using level ordered search"
+    ],
+    "correct_answer": "C",
+    "explanation": "We can implement topological sort by both BFS and DFS. In BFS, we use queue as data structure and in DFS, we use Linked list (if recursive) or Stack (if not recursive) as data structure."
+  },
+  {
+    "question": "Topological sort is equivalent to which of the traversals in trees?",
+    "options": [
+      "A) Pre-order traversal",
+      "B) Post-order traversal",
+      "C) In-order traversal",
+      "D) Level-order traversal"
+    ],
+    "correct_answer": "A",
+    "explanation": "In pre-order traversal of trees, we process the root first and then child from left to right."
+  },
+  {
+    "question": "A man wants to go different places in the world. He has listed them down all. But there are some places where he wants to visit before some other places. What application of graph can he use to determine that?",
+    "options": [
+      "A) Depth First Search",
+      "B) Breadth First Search",
+      "C) Topological Sorting",
+      "D) Dijkstra’s Shortest path algorithm"
+    ],
+    "correct_answer": "C",
+    "explanation": "As the definition of topological sorting suggests, it is the way to do tasks in prescribed order. So, if he does topological sorting, it will be easy for him to recognize what should be the order to visit different places."
+  },
+  {
+    "question": "When the topological sort of a graph is unique?",
+    "options": [
+      "A) When there exists a hamiltonian path in the graph",
+      "B) In the presence of multiple nodes with indegree 0",
+      "C) In the presence of single node with indegree 0",
+      "D) In the presence of single node with outdegree 0"
+    ],
+    "correct_answer": "A",
+    "explanation": "A hamiltonian path exists in a Directed Acyclic Graph when all pairs of consecutive vertices are in sorted order and are connected by edges. In such a case, there exists a unique topological sorting order."
+  }
+]

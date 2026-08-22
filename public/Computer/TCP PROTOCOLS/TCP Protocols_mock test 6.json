@@ -1,0 +1,522 @@
+[
+  {
+    "question": "Power spectral density of speech is flat.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "There is a nonflat characteristic in power spectral density of speech. It makes it possible to obtain significant compression by coding speech in the frequency domain."
+  },
+  {
+    "question": "Spectral flatness measure is the ratio of ______ and _____",
+    "options": [
+      "A) Variance, Geometric mean",
+      "B) Geometric Mean, Variance",
+      "C) Arithmetic mean, geometric mean",
+      "D) Geometric mean, arithmetic mean"
+    ],
+    "correct_answer": "C",
+    "explanation": "Spectral flatness measure is defined as ratio of arithmetic to geometric mean of the samples of the PSD taken at uniform intervals in frequency. Spectral flatness measure is a qualitative measure of the theoretical maximum coding gain that can be obtained by exploiting the nonflat characteristics of speech spectra."
+  },
+  {
+    "question": "Low frequency signals contribute very little to the total speech signals.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Lon term averaged PSD’s of speech show that high frequency signals contribute very little to the total speech energy. However, high frequency components are insignificant in energy, they are very important carriers of speech information."
+  },
+  {
+    "question": "Linear predictive coders belong to _______ domain class of vocoders.",
+    "options": [
+      "A) Time",
+      "B) Frequency",
+      "C) Direct",
+      "D) Indirect"
+    ],
+    "correct_answer": "A",
+    "explanation": "Linear predictive vocoders belong to the time domain class of vocoders. This class of vocoders attempts to extract the significant features of the speech from the time waveform."
+  },
+  {
+    "question": "Linear predictive coders are computationally simple.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Linear predictive coders are computationally intensive. But, they are the most popular among the class of low bit vocoders. With LPC, it is possible to transmit good quality voice at 4.8 kbps and poorer quality voice at even lower rates."
+  },
+  {
+    "question": "Linear predictive coding system models the vocal tract as __________ linear filter.",
+    "options": [
+      "A) Pole and zero",
+      "B) All zero",
+      "C) All pole",
+      "D) No pole"
+    ],
+    "correct_answer": "C",
+    "explanation": "The linear predictive coding system models the vocal tract as an all pole linear filter. The excitation to this filter is either a pulse at the pitch frequency or random white noise depending on whether the speech segment is voiced or unvoiced."
+  },
+  {
+    "question": "Linear predictive vocoders use __________ to estimate present sample.",
+    "options": [
+      "A) Weighted sum of past samples",
+      "B) Multiplication of past samples",
+      "C) One past sample",
+      "D) Do not use past samples"
+    ],
+    "correct_answer": "A",
+    "explanation": "The linear predictive coder uses a weighted sum of p past samples. Using this technique, the current sample can be written as linear sum of the immediately precoding samples."
+  },
+  {
+    "question": "Which of the following LPC uses code book?",
+    "options": [
+      "A) Multiple excited LPC",
+      "B) Residual excited LPC",
+      "C) LPC Vocoders",
+      "D) Code excited LPC"
+    ],
+    "correct_answer": "D",
+    "explanation": "Code excited LPC uses code book. In this method, the coder and decoder have a predetermined code book of stochastic (zero mean white Gaussian) excitation signals."
+  },
+  {
+    "question": "How many past samples are used by linear predictive coders to estimate present sample?",
+    "options": [
+      "A) 100-150",
+      "B) 10-15",
+      "C) 1",
+      "D) 1000-1100"
+    ],
+    "correct_answer": "B",
+    "explanation": "LPCs uses weighted sum of past p samples to estimate the present samples. The number of past samples used by linear predictive coders ranges from 10 to 15."
+  },
+  {
+    "question": "Which of the non-linear transform is generally used to improve the coding of reflection coefficient?",
+    "options": [
+      "A) Long area ratio transform",
+      "B) Mutual information",
+      "C) Least square",
+      "D) Interpolation"
+    ],
+    "correct_answer": "A",
+    "explanation": "Long area ratio (LAR) transform is generally used to improve the coding of reflection coefficient. This non linear transformation reduces the sensitivity of reflection coefficients to quantization errors. LAR performs an inverse hyperbolic tangent mapping of reflection coefficients."
+  },
+  {
+    "question": "Which of the following LPC uses two sources at the receiver?",
+    "options": [
+      "A) Multiple excited LPC",
+      "B) Residual excited LPC",
+      "C) LPC Vocoders",
+      "D) Code excited LPC"
+    ],
+    "correct_answer": "C",
+    "explanation": "LPC vocoder uses two sources at the receiver, one of white noise and the other with a series of pulses at the current pitch rate. The selection of either of these excitation methods is based on voiced/unvoiced decision made at the transmitter."
+  },
+  {
+    "question": "Which of the following LPC produces a buzzy twang in the synthesized speech?",
+    "options": [
+      "A) Multiple excited LPC",
+      "B) Residual excited LPC",
+      "C) LPC Vocoders",
+      "D) Code excited LPC"
+    ],
+    "correct_answer": "C",
+    "explanation": "LPC vocoder requires that the transmitter extract pitch frequency information which is often very difficult. Moreover, the phase coherence between the harmonic components of the excitation pulse tends to produce a buzzy twang in the synthesized speech."
+  },
+  {
+    "question": "The problem of buzzy twang in synthesized speech is mitigated by multipulse excited LPC or code excited LPC.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "LPC vocoder produces buzzy twang in the synthesized speech due to phase coherence between the harmonic components of the excitation pulses. This problem is mitigated by multipulse excited or code excited LPC."
+  },
+  {
+    "question": "Multipulse excited LPC requires pitch detection.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Multipulse excited LPC does not require pitch detection and the prediction residual is better approximated by several pulses per pitch period. This is the reason for better speech quality."
+  },
+  {
+    "question": "TDMA systems transmit in a continuous way.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "TDMA systems transmit data in a buffer and burst method. Thus, the transmission for any user is not continuous."
+  },
+  {
+    "question": "Preamble contains __________",
+    "options": [
+      "A) Address",
+      "B) Data",
+      "C) Guard bits",
+      "D) Trail bits"
+    ],
+    "correct_answer": "A",
+    "explanation": "TDMA frame is made up of a preamble, an information message and the trail bits. In a TDMA frame, the preamble contains the address and synchronization information that both the base station and the subscribers use to identify each other."
+  },
+  {
+    "question": "__________ are utilized to allow synchronization of the receivers between different slots and frames.",
+    "options": [
+      "A) Preamble",
+      "B) Data",
+      "C) Guard bits",
+      "D) Trail bits"
+    ],
+    "correct_answer": "C",
+    "explanation": "Guard times are utilized to allow synchronization of the receivers between different slots and frames. TDMA/FDD systems intentionally induce several time slots of delay between the forward and reverse time slots for a particular user."
+  },
+  {
+    "question": "Which of the following is not true for TDMA?",
+    "options": [
+      "A) Single carrier frequency for single user",
+      "B) Discontinuous data transmission",
+      "C) No requirement of duplexers",
+      "D) High transmission rates"
+    ],
+    "correct_answer": "A",
+    "explanation": "TDMA share a single carrier frequency with several users, where each user makes use of non-overlapping time slots. The number of time slots per frame depends on several factors, such as modulation technique, available bandwidth etc."
+  },
+  {
+    "question": "Because of _______ transmissions in TDMA, the handoff process in __________",
+    "options": [
+      "A) Continuous, complex",
+      "B) Continuous, simple",
+      "C) Discontinuous, complex",
+      "D) Discontinuous, simple"
+    ],
+    "correct_answer": "D",
+    "explanation": "Because of discontinuous transmissions in TDMA, the handoff process is much simpler for a subscriber unit, since it is able to listen for other base stations during idle time slots."
+  },
+  {
+    "question": "__________ synchronization overhead is required in TDMA due to _______ transmission.",
+    "options": [
+      "A) High, burst",
+      "B) High, continuous",
+      "C) Low, burst",
+      "D) No, burst"
+    ],
+    "correct_answer": "A",
+    "explanation": "High synchronization overhead is required in TDMA systems because of burst transmissions. TDMA transmissions are slotted, and this requires the receivers to be synchronized for each data burst."
+  },
+  {
+    "question": "TDMA allocates a single time per frame to different users.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "TDMA has an advantage that it can allocate different numbers of time slots per frame to different users. Thus, bandwidth can be supplied on demand to different users by concatenating or reassigning time slots based on priority."
+  },
+  {
+    "question": "___________ of TDMA system is a measure of the percentage of transmitted data that contains information as opposed to providing overhead for the access scheme.",
+    "options": [
+      "A) Efficiency",
+      "B) Figure of merit",
+      "C) Signal to noise ratio",
+      "D) Mean"
+    ],
+    "correct_answer": "A",
+    "explanation": "Efficiency of TDMA system is a measure of the percentage of transmitted data that contains information as opposed to providing overhead for the access scheme. The frame efficiency is the percentage of bits per frame which contain transmitted data."
+  },
+  {
+    "question": "A TDMA system uses 25 MHz for the forward link, which is broken into radio channels of 200 kHz. If 8 speech channels are supported on a single radio channel, how many simultaneous users can be accommodated?",
+    "options": [
+      "A) 25",
+      "B) 200",
+      "C) 1600",
+      "D) 1000"
+    ],
+    "correct_answer": "D",
+    "explanation": "For a TDMA system that uses 25 MHz for the forward link, which is broken into radio channels of 200 kHz. If 8 speech channels are supported on a single radio channel, 1000 simultaneous users can be accommodated as N = (25 MHz)/(200 kHz/8)."
+  },
+  {
+    "question": "What is the time duration of a bit if data is transmitted at 270.833 kbps in the channel?",
+    "options": [
+      "A) 270.833 s",
+      "B) 3 μs",
+      "C) 3.692 μs",
+      "D) 3.692 s"
+    ],
+    "correct_answer": "C",
+    "explanation": "If data is transmitted at 270.833 kbps in the channel, the time duration of a bit will be 3.692 μs, as Tb = (1/270.833 kbps) = 3.692 μs."
+  },
+  {
+    "question": "____________ is the maximum number of channels that can be provided in a fixed frequency band.",
+    "options": [
+      "A) Channel capacity",
+      "B) Radio capacity",
+      "C) Spectral capacity",
+      "D) Carrier capacity"
+    ],
+    "correct_answer": "A",
+    "explanation": "Channel capacity for a radio system can be defined as the maximum number of channels or users that can be provided in a fixed frequency band. It is useful in computer science, in electrical engineering, and in other disciplines evaluating the capacity of a channel or conduit."
+  },
+  {
+    "question": "Which of the following measures spectrum efficiency of a wireless system?",
+    "options": [
+      "A) Channel capacity",
+      "B) Radio capacity",
+      "C) Spectral capacity",
+      "D) Carrier capacity"
+    ],
+    "correct_answer": "B",
+    "explanation": "Radio capacity is a parameter which measures spectrum efficiency of a wireless system. This parameter is determined by the required carrier to interference ratio and the channel bandwidth."
+  },
+  {
+    "question": "If D is the distance between co-channel cells and R be the cell radius, co-channel reuse ratio is given by __________",
+    "options": [
+      "A) D*R",
+      "B) D2/R",
+      "C) D/R",
+      "D) D/R2"
+    ],
+    "correct_answer": "C",
+    "explanation": "Let, D is the distance between co-channel cells and R be the cell radius. Then the minimum ratio of D/R that is required to provide a tolerable level of co-channel interference is called the co-channel reuse ratio."
+  },
+  {
+    "question": "__________ is the interference at a base station receiver that comes from the subscriber units in the surrounding cells.",
+    "options": [
+      "A) Forward channel interference",
+      "B) Carrier interference",
+      "C) Receiver interference",
+      "D) Reverse channel interference"
+    ],
+    "correct_answer": "D",
+    "explanation": "In a cellular system, the interference at a base station receiver will come from the subscriber units in the surrounding cells. This is called reverse channel interference."
+  },
+  {
+    "question": "In practice, TDMA systems improve capacity by ____________ compared to analog cellular systems.",
+    "options": [
+      "A) Three to six times",
+      "B) Equal capacity",
+      "C) Two time",
+      "D) Ten to twenty times"
+    ],
+    "correct_answer": "A",
+    "explanation": "In practice, TDMA systems improve capacity by a factor of three to six times as compared to analog cellular radio systems. Powerful error control and speech coding enable better link performance in high interference environment."
+  },
+  {
+    "question": "__________ allows subscribers to monitor neighbouring base stations.",
+    "options": [
+      "A) TDMA",
+      "B) MAHO",
+      "C) FDMA",
+      "D) ACA"
+    ],
+    "correct_answer": "B",
+    "explanation": "Mobile assisted handoff (MAHO) allows subscribers to monitor the neighbouring base stations, and the best base station choice may be made by each subscriber. MAHO allows deployment of densely packed microcells, thus giving substantial capacity gains in a system."
+  },
+  {
+    "question": "Time division multiple access introduces ACA, which stands for ________",
+    "options": [
+      "A) Acute carrier allocation",
+      "B) Adaptive carrier allocation",
+      "C) Adaptive channel allocation",
+      "D) Acute channel allocation"
+    ],
+    "correct_answer": "C",
+    "explanation": "TDMA makes it possible to introduce adaptive channel allocation (ACA). ACA eliminates system planning since it is not required to plan frequencies for cells."
+  },
+  {
+    "question": "Which of the following standard had not adopted digital TDMA for high capacity?",
+    "options": [
+      "A) USDC",
+      "B) GSM",
+      "C) PDC",
+      "D) IS-95"
+    ],
+    "correct_answer": "D",
+    "explanation": "Various proposed standards such as the GSM, US digital cellular (USDC), and Pacific Digital Cellular (PDC) have adopted digital TDMA for high capacity. IS-95 does not use TDMA."
+  },
+  {
+    "question": "Capacity of CDMA is bandwidth limited.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "The capacity of CDMA systems is interference limited. It is bandwidth limited in FDMA and TDMA. Therefore, any reduction in the interference will cause a linear increase in the capacity of CDMA."
+  },
+  {
+    "question": "In a CDMA system, link performance for each user __________ as the number of users _______",
+    "options": [
+      "A) Increase, decrease",
+      "B) Increase, increase",
+      "C) Decrease, increase",
+      "D) Decrease, decrease"
+    ],
+    "correct_answer": "A",
+    "explanation": "In a CDMA system, the link performance for each user increases as the number of users decreases. A straightforward way to reduce interference is to use multisectorized antennas, which results in spatial isolation of users."
+  },
+  {
+    "question": "Capacity of CDMA can be increased by operating in DTX, which stands for _______",
+    "options": [
+      "A) Discrete transmission mode",
+      "B) Discrete transmission modulation",
+      "C) Discontinuous transmission mode",
+      "D) Digital transmission mode"
+    ],
+    "correct_answer": "C",
+    "explanation": "Capacity of CDMA can be increased by operating in DTX, which stands for Discontinuous transmission mode. It takes advantage of the intermittent nature of speech. In DTX, the transmiiter is turned off during the periods of silence in speech."
+  },
+  {
+    "question": "Frequency reuse factor for CDMA system is ___________",
+    "options": [
+      "A) One",
+      "B) Two",
+      "C) Zero",
+      "D) Ten"
+    ],
+    "correct_answer": "A",
+    "explanation": "The amount of out-of-cell interference determines the frequency reuse factor, f, of a CDMA cellular system. Ideally, each cell shares the same frequency and the maximum possible value of f (f=1) is achieved."
+  },
+  {
+    "question": "The type of traffic carried by a network determines the routing service.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "The type of traffic carried by a network determines the routing services. It also determines protocols, and call handling techniques which must be employed."
+  },
+  {
+    "question": "Connection oriented services are also called __________",
+    "options": [
+      "A) Datagram services",
+      "B) Virtual circuit routing",
+      "C) Connectionless services",
+      "D) Routing service"
+    ],
+    "correct_answer": "B",
+    "explanation": "Connection oriented services are also called virtual circuit routing. In connection oriented routing, the communications path between the message source and destination is fixed for the entire duration of the message."
+  },
+  {
+    "question": "Connectionless services are also called __________",
+    "options": [
+      "A) Datagram services",
+      "B) Virtual circuit routing",
+      "C) Connection oriented services",
+      "D) Routing service"
+    ],
+    "correct_answer": "A",
+    "explanation": "Connectionless services are also called datagram services. In a connectionless service, a call set up procedure is not required at the beginning of a call, and each message burst is treated independently by the network."
+  },
+  {
+    "question": "First generation cellular systems provide connectionless services for each voice user.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "First generation cellular systems provide connection oriented services for each voice user. Voice channels are dedicated for users at the serving base station."
+  },
+  {
+    "question": "Wireless data networks are not well supported by ___________",
+    "options": [
+      "A) Datagram services",
+      "B) Circuit switching",
+      "C) Connectionless services",
+      "D) Routing service"
+    ],
+    "correct_answer": "B",
+    "explanation": "Wireless data networks are not supported by circuit switching. It is due to their short, bursty transmissions which are often followed by periods of inactivity. Circuit switching is best suited for dedicated voice only traffic."
+  },
+  {
+    "question": "Packet switching breaks each message into smaller units.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "Packet switching breaks each message into smaller units for transmission and recovery. When a message is broken into packets, a certain amount of control information is added to each packet to provide source and destination identification, as well as error recovery provisions."
+  },
+  {
+    "question": "Header specifies the ___________ of a new packet.",
+    "options": [
+      "A) Ending",
+      "B) Middle part",
+      "C) Beginning",
+      "D) Data information"
+    ],
+    "correct_answer": "C",
+    "explanation": "The header specifies the beginning of a new packet. It contains the source address, packet sequence number, and other routing and billing information."
+  },
+  {
+    "question": "The control field contains the ________",
+    "options": [
+      "A) CRC",
+      "B) User data",
+      "C) Address",
+      "D) ARQ"
+    ],
+    "correct_answer": "D",
+    "explanation": "The control field defines functions such as transfer of acknowledgments, automatic repeat requests (ARQs), and packet sequencing. The information field contains user data. And the final field is the frame check sequence field or the CRC (cyclic redundancy check)."
+  },
+  {
+    "question": "Circuit switching provides greater efficiency in comparison to circuit switching.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "In contrast to circuit switching, packet switching provides excellent channel efficiency for bursty data transmission of short length. An advantage of packet switched data is that the channel is utilized only when sending or receiving bursts of information."
+  },
+  {
+    "question": "__________ was developed by CCITT to provide standard connectionless network access protocols for three layers of OSI model.",
+    "options": [
+      "A) Packet switching",
+      "B) Datagram routing",
+      "C) X.25",
+      "D) CDPD"
+    ],
+    "correct_answer": "C",
+    "explanation": "X.25 was developed by CCITT (now ITU-T) to provide standard connectionless network access (packet switching) protocols for the three layers (layer 1, 2 and 3) of the open systems interconnection (OSI) model."
+  },
+  {
+    "question": "X.25 protocols specify particular data rates.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "The X.25 protocol does not specify particular data rates or how packet switched networks are implemented. Rather, X.25 provides a series of standard functions and formats which give structure to the design of the software."
+  },
+  {
+    "question": "PCS/PCN provides only wired communication.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "The objective of personal communication systems (PCS) or personal communication networks (PCNs) is to provide ubiquitous wireless communications coverage, enabling users to access telephone network and Internet."
+  },
+  {
+    "question": "Concept of PCS/PCN is based on _________",
+    "options": [
+      "A) Advanced intelligent network",
+      "B) Artificial intelligent network",
+      "C) CDPD",
+      "D) SS7"
+    ],
+    "correct_answer": "A",
+    "explanation": "The concept of PCS/PCN is based on an advanced intelligent network (AIN). The mobile and fixed networks will be integrated to provide universal access to the network and its databases."
+  },
+  {
+    "question": "AIN has different telephone numbers for both wireline and wireless services.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "AIN (advanced intelligent network) allow its users to have a single telephone number to be used for both wireless and wireline services."
+  }
+]

@@ -1,0 +1,552 @@
+[
+  {
+    "question": "What layer in the TCP/IP stack is equivalent to the Transport layer of the OSI model?",
+    "options": [
+      "A) Application",
+      "B) Host to host",
+      "C) Internet",
+      "D) Network Access"
+    ],
+    "correct_answer": "B",
+    "explanation": "The four layers of the TCP/IP stack (also called the DoD model) are Application/Process, Host-to-Host, Internet, and Network Access. The Host-to-Host layer is equivalent to the Transport layer of the OSI model."
+  },
+  {
+    "question": "You want to implement a mechanism that automates the IP configuration, including IP address, subnet mask, default gateway, and DNS information. Which protocol will you use to accomplish this?",
+    "options": [
+      "A) SMTP",
+      "B) SNMP",
+      "C) DHCP",
+      "D) ARP"
+    ],
+    "correct_answer": "C",
+    "explanation": "Dynamic Host Configuration Protocol (DHCP) is used to provide IP information to hosts on your network. DHCP can provide a lot of information, but the most common is the IP address, subnet mask, default gateway, and DNS information."
+  },
+  {
+    "question": "The DoD model (also called the TCP/IP stack) has four layers. Which layer of the DoD model is equivalent to the Network layer of the OSI model?",
+    "options": [
+      "A) Application",
+      "B) Host to Host",
+      "C) Internet",
+      "D) Network Access"
+    ],
+    "correct_answer": "C",
+    "explanation": "The four layers of the DoD model are Application/Process, Host-to-Host, Internet, and Network Access. The Internet layer is equivalent to the Network layer of the OSI model."
+  },
+  {
+    "question": "Which of the following protocols uses both TCP and UDP?",
+    "options": [
+      "A) FTP",
+      "B) SMTP",
+      "C) Telnet",
+      "D) DNS"
+    ],
+    "correct_answer": "D",
+    "explanation": "DNS and some other services work on both TCP and the UDP protocols. DNS uses TCP for zone exchanges between servers and UDP when a client is trying to resolve a hostname to an IP address."
+  },
+  {
+    "question": "Length of Port address in TCP/IP is _________",
+    "options": [
+      "A) 4bit long",
+      "B) 16bit long",
+      "C) 32bit long",
+      "D) 8 bit long"
+    ],
+    "correct_answer": "B",
+    "explanation": "TCP and UDP port numbers are 16 bits in length. So, valid port numbers can theoretically take on values from 0 to 65,535. These values are divided into ranges for different purposes, with certain ports reserved for particular uses."
+  },
+  {
+    "question": "TCP/IP layer is equivalent to combined Session, Presentation and _________",
+    "options": [
+      "A) Network layer",
+      "B) Application layer",
+      "C) Transport layer",
+      "D) Physical layer"
+    ],
+    "correct_answer": "B",
+    "explanation": "TCP/IP network model is a hierarchical protocol made up of interactive modules, each of which provides a specific functionality; however, the modules are not necessarily interdependent. It is equivalent to combined session, presentation and application layer."
+  },
+  {
+    "question": "How many levels of addressing is provided in TCP/IP protocol?",
+    "options": [
+      "A) One",
+      "B) Two",
+      "C) Three",
+      "D) Four"
+    ],
+    "correct_answer": "D",
+    "explanation": "Four levels of addresses are used in the internet employing the TCP/IP protocols. They are physical (link) addresses, logical (IP) addresses, port addresses, and specific addresses."
+  },
+  {
+    "question": "Virtual terminal protocol is an example of _________",
+    "options": [
+      "A) Network layer",
+      "B) Application layer",
+      "C) Transport layer",
+      "D) Physical layer"
+    ],
+    "correct_answer": "B",
+    "explanation": "In open systems, a virtual terminal (VT) is an application service. It allows host terminals on a multi-user network to interact with other hosts regardless of terminal type and characteristics."
+  },
+  {
+    "question": "TCP/IP is related to __________",
+    "options": [
+      "A) ARPANET",
+      "B) OSI",
+      "C) DECNET",
+      "D) ALOHA"
+    ],
+    "correct_answer": "A",
+    "explanation": "In 1983, TCP/IP protocols replaced NCP (Network Control Program) as the ARPANET’s principal protocol. And ARPANET then became one component of the early Internet. The starting point for host-to-host communication on the ARPANET in 1969 was the 1822 protocol, which defined the transmission of messages to an IMP."
+  },
+  {
+    "question": "A device operating at network layer is called __________",
+    "options": [
+      "A) Router",
+      "B) Equalizer",
+      "C) Bridge",
+      "D) Repeater"
+    ],
+    "correct_answer": "A",
+    "explanation": "A router is a networking device that forwards data packets between computer networks. Routers perform the traffic directing functions on the Internet. It supports different network layer transmission standards. Each network interface is used to enable data packets to be forwarded from one transmission system to another."
+  },
+  {
+    "question": "A device operating at physical layer is called __________",
+    "options": [
+      "A) Router",
+      "B) Equalizer",
+      "C) Bridge",
+      "D) Repeater"
+    ],
+    "correct_answer": "D",
+    "explanation": "A repeater connects two segments of your network cable. It retimes and regenerates the signals to proper amplitudes and sends them to the other segments. Repeaters work only at the physical layer of the OSI network model."
+  },
+  {
+    "question": "What layer in the TCP/IP stack is equivalent to the Transport layer of the OSI model?",
+    "options": [
+      "A) Application",
+      "B) Host to host",
+      "C) Internet",
+      "D) Network Access"
+    ],
+    "correct_answer": "B",
+    "explanation": "The four layers of the TCP/IP stack (also called the DoD model) are Application/Process, Host-to-Host, Internet, and Network Access. The Host-to-Host layer is equivalent to the Transport layer of the OSI model."
+  },
+  {
+    "question": "You want to implement a mechanism that automates the IP configuration, including IP address, subnet mask, default gateway, and DNS information. Which protocol will you use to accomplish this?",
+    "options": [
+      "A) SMTP",
+      "B) SNMP",
+      "C) DHCP",
+      "D) ARP"
+    ],
+    "correct_answer": "C",
+    "explanation": "Dynamic Host Configuration Protocol (DHCP) is used to provide IP information to hosts on your network. DHCP can provide a lot of information, but the most common is the IP address, subnet mask, default gateway, and DNS information."
+  },
+  {
+    "question": "The DoD model (also called the TCP/IP stack) has four layers. Which layer of the DoD model is equivalent to the Network layer of the OSI model?",
+    "options": [
+      "A) Application",
+      "B) Host to Host",
+      "C) Internet",
+      "D) Network Access"
+    ],
+    "correct_answer": "C",
+    "explanation": "The four layers of the DoD model are Application/Process, Host-to-Host, Internet, and Network Access. The Internet layer is equivalent to the Network layer of the OSI model."
+  },
+  {
+    "question": "Which of the following protocols uses both TCP and UDP?",
+    "options": [
+      "A) FTP",
+      "B) SMTP",
+      "C) Telnet",
+      "D) DNS"
+    ],
+    "correct_answer": "D",
+    "explanation": "DNS and some other services work on both TCP and the UDP protocols. DNS uses TCP for zone exchanges between servers and UDP when a client is trying to resolve a hostname to an IP address."
+  },
+  {
+    "question": "Length of Port address in TCP/IP is _________",
+    "options": [
+      "A) 4bit long",
+      "B) 16bit long",
+      "C) 32bit long",
+      "D) 8 bit long"
+    ],
+    "correct_answer": "B",
+    "explanation": "TCP and UDP port numbers are 16 bits in length. So, valid port numbers can theoretically take on values from 0 to 65,535. These values are divided into ranges for different purposes, with certain ports reserved for particular uses."
+  },
+  {
+    "question": "TCP/IP layer is equivalent to combined Session, Presentation and _________",
+    "options": [
+      "A) Network layer",
+      "B) Application layer",
+      "C) Transport layer",
+      "D) Physical layer"
+    ],
+    "correct_answer": "B",
+    "explanation": "TCP/IP network model is a hierarchical protocol made up of interactive modules, each of which provides a specific functionality; however, the modules are not necessarily interdependent. It is equivalent to combined session, presentation and application layer."
+  },
+  {
+    "question": "How many levels of addressing is provided in TCP/IP protocol?",
+    "options": [
+      "A) One",
+      "B) Two",
+      "C) Three",
+      "D) Four"
+    ],
+    "correct_answer": "D",
+    "explanation": "Four levels of addresses are used in the internet employing the TCP/IP protocols. They are physical (link) addresses, logical (IP) addresses, port addresses, and specific addresses."
+  },
+  {
+    "question": "Virtual terminal protocol is an example of _________",
+    "options": [
+      "A) Network layer",
+      "B) Application layer",
+      "C) Transport layer",
+      "D) Physical layer"
+    ],
+    "correct_answer": "B",
+    "explanation": "In open systems, a virtual terminal (VT) is an application service. It allows host terminals on a multi-user network to interact with other hosts regardless of terminal type and characteristics."
+  },
+  {
+    "question": "TCP/IP is related to __________",
+    "options": [
+      "A) ARPANET",
+      "B) OSI",
+      "C) DECNET",
+      "D) ALOHA"
+    ],
+    "correct_answer": "A",
+    "explanation": "In 1983, TCP/IP protocols replaced NCP (Network Control Program) as the ARPANET’s principal protocol. And ARPANET then became one component of the early Internet. The starting point for host-to-host communication on the ARPANET in 1969 was the 1822 protocol, which defined the transmission of messages to an IMP."
+  },
+  {
+    "question": "A device operating at network layer is called __________",
+    "options": [
+      "A) Router",
+      "B) Equalizer",
+      "C) Bridge",
+      "D) Repeater"
+    ],
+    "correct_answer": "A",
+    "explanation": "A router is a networking device that forwards data packets between computer networks. Routers perform the traffic directing functions on the Internet. It supports different network layer transmission standards. Each network interface is used to enable data packets to be forwarded from one transmission system to another."
+  },
+  {
+    "question": "A device operating at physical layer is called __________",
+    "options": [
+      "A) Router",
+      "B) Equalizer",
+      "C) Bridge",
+      "D) Repeater"
+    ],
+    "correct_answer": "D",
+    "explanation": "A repeater connects two segments of your network cable. It retimes and regenerates the signals to proper amplitudes and sends them to the other segments. Repeaters work only at the physical layer of the OSI network model."
+  },
+  {
+    "question": "Several protocols for upper layers in bluetooth use _________",
+    "options": [
+      "A) UDP",
+      "B) HSP",
+      "C) ITC",
+      "D) L2CAP"
+    ],
+    "correct_answer": "D",
+    "explanation": "L2CAP is Logical Link, Control Adaptation Protocol Layer. The logical unit link control adaptation protocol is equivalent to logical link control sub layer of LAN. The ACL link uses L2CAP for data exchange. The various function of L2CAP is segmentation and reassembly, multiplexing and quality of service."
+  },
+  {
+    "question": "Protocols are set of rules to govern _________",
+    "options": [
+      "A) Communication",
+      "B) Standard",
+      "C) Metropolitan communication",
+      "D) Bandwidth"
+    ],
+    "correct_answer": "A",
+    "explanation": "A protocol is a set of rules that governs the communications between computers on a network. These rules include guidelines that regulate the characteristics of a network including access method, allowed physical topologies, types of cabling, and speed of data transfer."
+  },
+  {
+    "question": "An internet is a __________",
+    "options": [
+      "A) Collection of WANS",
+      "B) Network of networks",
+      "C) Collection of LANS",
+      "D) Collection of identical LANS and WANS"
+    ],
+    "correct_answer": "B",
+    "explanation": "Internet is a massive network of networks, a networking infrastructure. It connects millions of computers together globally, forming a network in which any computer can communicate with any other computer as long as they are both connected to the Internet."
+  },
+  {
+    "question": "Checksum is used in Internet by several protocols although not at the _________",
+    "options": [
+      "A) Session layer",
+      "B) Transport layer",
+      "C) Network layer",
+      "D) Data link layer"
+    ],
+    "correct_answer": "D",
+    "explanation": "The checksum is used in the Internet by several protocols although not at the data link layer. Like linear and cyclic codes, the checksum is based on the concept of redundancy. Several protocols still use the checksum for error detection."
+  },
+  {
+    "question": "In version field of IPv4 header, when machine is using some other version of IPv4 then datagram is __________",
+    "options": [
+      "A) Discarded",
+      "B) Accepted",
+      "C) Interpreted",
+      "D) Interpreted incorrectly"
+    ],
+    "correct_answer": "A",
+    "explanation": "A 4 bit field defines the version of IPv4 protocol. This field tells the software running in the processing machine that the datagram has the format of version 4. If the machine is using some other version of IPv4, the datagram is discarded rather than interpreted incorrectly."
+  },
+  {
+    "question": "Network layer at source is responsible for creating a packet from data coming from another ________",
+    "options": [
+      "A) Station",
+      "B) Link",
+      "C) Node",
+      "D) Protocol"
+    ],
+    "correct_answer": "D",
+    "explanation": "‘The network layer at the source is responsible for creating a packet from the data coming from another’ protocol (such as a transport layer protocol or a routing protocol). The network layer is responsible for checking its routing table to find the routing information."
+  },
+  {
+    "question": "Header of datagram in IPv4 has _________",
+    "options": [
+      "A) 0 to 20 bytes",
+      "B) 20 to 40 bytes",
+      "C) 20 to 60 bytes",
+      "D) 20 to 80 bytes"
+    ],
+    "correct_answer": "C",
+    "explanation": "IP header length is a minimum of 20 bytes and a maximum of 60 bytes. The minimum value for this field is 5, which is a length of 5×32 = 160 bits = 20 bytes. Being a 4-bit value, the maximum length is 15 words (15×32 bits) or 480 bits = 60 bytes."
+  },
+  {
+    "question": "In IPv4 layer, datagram is of ________",
+    "options": [
+      "A) Fixed length",
+      "B) Variable length",
+      "C) Global length",
+      "D) Zero length"
+    ],
+    "correct_answer": "B",
+    "explanation": "‘IPv4 is a connectionless protocol used for packet switched networks. It operates on best effort delivery model, in which neither delivery is guaranteed, nor proper sequencing or avoidance of duplicate delivery is assured. The size of the datagram header can be of variable length from 20 bytes to 60 bytes.’"
+  },
+  {
+    "question": "In IPv4, service type of service in header field, first 3 bits are called ______",
+    "options": [
+      "A) Type of service",
+      "B) Code bits",
+      "C) Sync bits",
+      "D) Precedence bits"
+    ],
+    "correct_answer": "D",
+    "explanation": "The 8-bit ToS (type of service) in IPv4 uses 3 bits for IP Precedence, 4 bits for ToS with the last bit not being used. The 4-bit ToS field, although defined, has never been used."
+  },
+  {
+    "question": "Which is a link layer protocol?",
+    "options": [
+      "A) ARP",
+      "B) TCP",
+      "C) UDP",
+      "D) HTTP"
+    ],
+    "correct_answer": "B",
+    "explanation": "‘In computer networking, the link layer is the lowest layer in the Internet Protocol Suite. It is commonly known as TCP/IP, the networking architecture of the Internet. It is described in RFC 1122 and RFC 1123.’"
+  },
+  {
+    "question": "Which protocol is commonly used to retrieve email from a mail server?",
+    "options": [
+      "A) FTP",
+      "B) IMAP",
+      "C) HTML",
+      "D) TELNET"
+    ],
+    "correct_answer": "B",
+    "explanation": "‘The Internet Message Access Protocol (IMAP) is a mail protocol used for accessing email on a remote web server from a local client. IMAP is the most commonly used Internet mail protocols for retrieving emails. It is supported by all modern email clients and web servers.’"
+  },
+  {
+    "question": "A packet in Transmission Control Protocol (TCP) is called a ____________",
+    "options": [
+      "A) Transmittable slots",
+      "B) Packet",
+      "C) Segment",
+      "D) Source Slots"
+    ],
+    "correct_answer": "C",
+    "explanation": "Applications working at the Application Layer transfers a contiguous stream of bytes to the bottom layers. It is the duty of TCP to pack this byte stream to packets, known as TCP segments, which are passed to the IP layer for transmission to the destination device."
+  },
+  {
+    "question": "Cable TV and DSL are examples of ____________",
+    "options": [
+      "A) Interconnection of network",
+      "B) LAN",
+      "C) MAN",
+      "D) WAN"
+    ],
+    "correct_answer": "C",
+    "explanation": "A MAN often acts as a high speed network to allow sharing of regional resources. It typically covers an area of between 5 and 50 km diameter. Examples of MAN are telephone company network that provides a high speed DSL to customers and cable TV network."
+  },
+  {
+    "question": "Station on a wireless ALOHA network is maximum of ________",
+    "options": [
+      "A) 400 Km",
+      "B) 500 Km",
+      "C) 600 Km",
+      "D) 700 Km"
+    ],
+    "correct_answer": "C",
+    "explanation": "The stations on wireless ALOHA networks are a maximum of 600 km apart. It was designed for a radio (wireless) LAN, but it can be used on any shared medium. It is obvious that there are potential collisions in this arrangement. The medium is shared between the stations."
+  },
+  {
+    "question": "IEEE 802.11 defines basic service set as building block of a wireless ___________",
+    "options": [
+      "A) LAN",
+      "B) WAN protocol",
+      "C) MAN",
+      "D) ALOHA"
+    ],
+    "correct_answer": "A",
+    "explanation": "The IEEE 802.11 topology consists of components interacting to provide a wireless LAN. It enables station mobility transparent to higher protocol layers, such as the LLC."
+  },
+  {
+    "question": "In wireless LAN, there are many hidden stations so that __________ cannot be detected.",
+    "options": [
+      "A) Frames",
+      "B) Collision",
+      "C) Signal",
+      "D) Data"
+    ],
+    "correct_answer": "B",
+    "explanation": "In wireless networking, the hidden node problem or hidden terminal problem occurs when a node is visible from a wireless access point (AP), but not from other nodes communicating with said AP. This leads to difficulties in media access control and collisions could not be detected."
+  },
+  {
+    "question": "A set that makes stationary or mobile wireless station and also have optional central base station is known as ___________",
+    "options": [
+      "A) Basic service set",
+      "B) Extended service set",
+      "C) Network point set",
+      "D) Access point"
+    ],
+    "correct_answer": "A",
+    "explanation": "A set that makes stationary or mobile wireless station and also have optional central base station is known as a basic service set. BSS is made of stationary or mobile wireless stations and an optional central base station, known as the access point (AP)."
+  },
+  {
+    "question": "Wireless communication started in _________",
+    "options": [
+      "A) 1869",
+      "B) 1895",
+      "C) 1879",
+      "D) 1885"
+    ],
+    "correct_answer": "B",
+    "explanation": "In England, Guglielmo Marconi began his wireless experiments in 1895. On 2 June 1896, he filed his provisional specification of a patent for wireless telegraphy. He demonstrated the system to the British Post Office in July."
+  },
+  {
+    "question": "Wireless transmission is divided into ___________",
+    "options": [
+      "A) 3 broad groups",
+      "B) 6 broad groups",
+      "C) 9 broad groups",
+      "D) 8 broad groups"
+    ],
+    "correct_answer": "A",
+    "explanation": "We can divide wireless transmission into three broad groups: radio waves, microwaves, and infrared waves. Radio waves are used for multicast communications, such as AM and FM radio, television, maritime radio, cordless phones and paging systems. Microwave propagation is line-of-sight."
+  },
+  {
+    "question": "Transmission Control Protocol/Internet Networking Protocol have ___________",
+    "options": [
+      "A) Four Layers",
+      "B) Five Layers",
+      "C) Six Layers",
+      "D) Seven Layers"
+    ],
+    "correct_answer": "A",
+    "explanation": "TCP/IP functionality is divided into four layers, each with its own set of agreed-upon protocols: The datalink layer consists of methods and protocols that operate only on a link. The Internet layer connects independent networks to transport the packets. The Transport layer handles communications between. The Application layer standardizes data exchange for applications."
+  },
+  {
+    "question": "Packets of data that is transported by IP is called __________",
+    "options": [
+      "A) Datagrams",
+      "B) Frames",
+      "C) Segments",
+      "D) Encapsulate message"
+    ],
+    "correct_answer": "A",
+    "explanation": "The format of data that can be recognized by IP is called an IP datagram. It consists of two components, the header and data, which need to be transmitted. The fields in the datagram, except the data, have specific roles to perform in the transmission of data."
+  },
+  {
+    "question": "Parameter that is normally achieved through a trailer added to end of frame is ___________",
+    "options": [
+      "A) Access Control",
+      "B) Flow Control",
+      "C) Error Control",
+      "D) Physical addressing"
+    ],
+    "correct_answer": "C",
+    "explanation": "The data link layer adds reliability to the physical layer by adding mechanisms to detect and retransmit damaged or lost frames. It also uses a mechanism to recognize duplicate frames. Error control is normally achieved through a trailer added to the end of the frame."
+  },
+  {
+    "question": "What is Mobile communication?",
+    "options": [
+      "A) Allows to communicate from different locations without the use of physical medium",
+      "B) Allows to communicate from different locations with the use of physical medium",
+      "C) Allows to communicate from same locations without the use of physical medium",
+      "D) Allows to communicate from same locations with the use of physical medium"
+    ],
+    "correct_answer": "A",
+    "explanation": "Mobile communication is use of technology that allows users to communicate from different locations without the use of physical medium (wires or cables)."
+  },
+  {
+    "question": "What is wireless communication?",
+    "options": [
+      "A) Sending data from one location to with the use of physical medium",
+      "B) Sending data from one location to another without the use of physical medium",
+      "C) Sending data from one location to another without the use of virtual medium",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "Wireless communication is a way of sending data from one location to another without the use of wires, cables, or any other physical medium."
+  },
+  {
+    "question": "Which of the following is a type of wireless communication?",
+    "options": [
+      "A) LAN",
+      "B) WAN",
+      "C) PAN",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "The three different types of wireless networks:\ni) WWAN – Wireless Wide Area Networks\nii) WLAN – Wireless Local Area Network\niii) WPAN – Wireless Personal Area Network"
+  },
+  {
+    "question": "Which of the following is not an example of wireless communication?",
+    "options": [
+      "A) Wi-Fi",
+      "B) Mobiles",
+      "C) Landline",
+      "D) Wireless Computer Parts"
+    ],
+    "correct_answer": "C",
+    "explanation": "Examples of different types of wireless communication devices are mobiles, Zigbee wireless technology, Cordless telephones, GPS, satellite television, Wi-Fi, and wireless computer parts."
+  },
+  {
+    "question": "Why wireless communication is used?",
+    "options": [
+      "A) It enables billions of people to connect to the Internet",
+      "B) Lowers the cost of network infrastructure",
+      "C) Makes services more inexpensive",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "Wireless communications have enabled billions of people to connect to the Internet, allowing them to profit from today’s digital economy. It also allows for economies of scale by lowering the cost of network infrastructure and user devices, making services more inexpensive."
+  },
+  {
+    "question": "_______ is a transmission method used in MIMO wireless communications to transmit encoded data signals independently.",
+    "options": [
+      "A) MU-MIMO",
+      "B) STTD",
+      "C) SM",
+      "D) Collaborative Uplink MIMO"
+    ],
+    "correct_answer": "C",
+    "explanation": "Spatial multiplexing is a transmission method used in MIMO wireless communications to transmit encoded data signals independently and separately (so-called streams) from each of the multiple transmit antennas."
+  }
+]

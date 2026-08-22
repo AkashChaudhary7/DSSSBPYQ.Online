@@ -1,0 +1,548 @@
+[
+  {
+    "question": "Given an input arr = {2,5,7,99,899}; key = 899; What is the level of recursion?",
+    "options": [
+      "A) 5",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "correct_answer": "C",
+    "explanation": "level 1: mid = 7\nlevel 2: mid = 99\nlevel 3: mid = 899(this is the key)."
+  },
+  {
+    "question": "Given an array arr = {45,77,89,90,94,99,100} and key = 99; what are the mid values(corresponding array elements) in the first and second levels of recursion?",
+    "options": [
+      "A) 90 and 99",
+      "B) 90 and 94",
+      "C) 89 and 99",
+      "D) 89 and 94"
+    ],
+    "correct_answer": "A",
+    "explanation": "At first level key = 90\nAt second level key= 99\nHere 90 and 99 are mid values."
+  },
+  {
+    "question": "What is the worst case complexity of binary search using recursion?",
+    "options": [
+      "A) O(nlogn)",
+      "B) O(logn)",
+      "C) O(n)",
+      "D) O(n2)"
+    ],
+    "correct_answer": "B",
+    "explanation": "Using the divide and conquer master theorem."
+  },
+  {
+    "question": "What is the average case time complexity of binary search using recursion?",
+    "options": [
+      "A) O(nlogn)",
+      "B) O(logn)",
+      "C) O(n)",
+      "D) O(n2)"
+    ],
+    "correct_answer": "B",
+    "explanation": "T(n) = T(n/2) + 1, Using the divide and conquer master theorem."
+  },
+  {
+    "question": "Which of the following is not an application of binary search?",
+    "options": [
+      "A) To find the lower/upper bound in an ordered sequence",
+      "B) Union of intervals",
+      "C) Debugging",
+      "D) To search in unordered list"
+    ],
+    "correct_answer": "D",
+    "explanation": "In Binary search, the elements in the list should be sorted. It is applicable only for ordered list. Hence Binary search in unordered list is not an application."
+  },
+  {
+    "question": "Binary Search can be categorized into which of the following?",
+    "options": [
+      "A) Brute Force technique",
+      "B) Divide and conquer",
+      "C) Greedy algorithm",
+      "D) Dynamic programming"
+    ],
+    "correct_answer": "B",
+    "explanation": "Since ‘mid’ is calculated for every iteration or recursion, we are diving the array into half and then try to solve the problem."
+  },
+  {
+    "question": "Given an array arr = {5,6,77,88,99} and key = 88; How many iterations are done until the element is found?",
+    "options": [
+      "A) 1",
+      "B) 3",
+      "C) 4",
+      "D) 2"
+    ],
+    "correct_answer": "D",
+    "explanation": "Iteration1 : mid = 77; Iteration2 : mid = 88;"
+  },
+  {
+    "question": "Given an array arr = {45,77,89,90,94,99,100} and key = 100; What are the mid values(corresponding array elements) generated in the first and second iterations?",
+    "options": [
+      "A) 90 and 99",
+      "B) 90 and 100",
+      "C) 89 and 94",
+      "D) 94 and 99"
+    ],
+    "correct_answer": "A",
+    "explanation": "Trace the input with the binary search iterative code."
+  },
+  {
+    "question": "What is the time complexity of binary search with iteration?",
+    "options": [
+      "A) O(nlogn)",
+      "B) O(logn)",
+      "C) O(n)",
+      "D) O(n2)"
+    ],
+    "correct_answer": "B",
+    "explanation": "T(n) = T(n/2) + theta(1)\nUsing the divide and conquer master theorem, we get the time complexity as O(logn)."
+  },
+  {
+    "question": "Which algorithmic technique does Fibonacci search use?",
+    "options": [
+      "A) Brute force",
+      "B) Divide and Conquer",
+      "C) Greedy Technique",
+      "D) Backtracking"
+    ],
+    "correct_answer": "B",
+    "explanation": "With every iteration, we divide the given array into two sub arrays(not necessarily equal)."
+  },
+  {
+    "question": "Choose the recursive formula for the Fibonacci series.(n>=1)",
+    "options": [
+      "A) F(n) = F(n+1) + F(n+2)",
+      "B) F(n) = F(n) + F(n+1)",
+      "C) F(n) = F(n-1) + F(n-2)",
+      "D) F(n) = F(n-1) – F(n-2)"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "What is the time complexity of Fibonacci Search?",
+    "options": [
+      "A) O(logn)",
+      "B) O(n)",
+      "C) O(n2)",
+      "D) O(nlogn)"
+    ],
+    "correct_answer": "A",
+    "explanation": "Since it divides the array into two parts, although not equal, its time complexity is O(logn), it is better than binary search in case of large arrays."
+  },
+  {
+    "question": "Which of the following is not an advantage of Fibonacci Search?",
+    "options": [
+      "A) When the element being searched for has a non uniform access storage",
+      "B) Can be used in magnetic tapes",
+      "C) Can be used for large arrays which do not fit in the CPU cache or in the RAM",
+      "D) It can be applied efficiently on unsorted arrays"
+    ],
+    "correct_answer": "D",
+    "explanation": "When the speed of access depends on the location previously accessed, Fibonacci search is better compared to binary search as it performs well on those locations which have lower dispersion. Fibonacci search won’t work on unsorted arrays. The input should be a sorted array or array should be sorted before Fibonacci search."
+  },
+  {
+    "question": "What is the length of the step in jump search?",
+    "options": [
+      "A) n",
+      "B) n/2",
+      "C) sqrt(n)",
+      "D) 1"
+    ],
+    "correct_answer": "C",
+    "explanation": "If the step size is 1, it becomes a linear search, if it is n, we reach the end of the list in just on step, if it is n/2, it becomes similar to binary search, therefore the most efficient step size is found to be sqrt(n)."
+  },
+  {
+    "question": "What is the time complexity of Jump Search?",
+    "options": [
+      "A) O(logn)",
+      "B) O(n)",
+      "C) O(sqrt(n))",
+      "D) O(nlogn)"
+    ],
+    "correct_answer": "C",
+    "explanation": "Since the size of the step is sqrt(n), the complexity is also obviously O(sqrt(n))."
+  },
+  {
+    "question": "What is an external sorting algorithm?",
+    "options": [
+      "A) Algorithm that uses tape or disk during the sort",
+      "B) Algorithm that uses main memory during the sort",
+      "C) Algorithm that involves swapping",
+      "D) Algorithm that are considered ‘in place’"
+    ],
+    "correct_answer": "A",
+    "explanation": "As the name suggests, external sorting algorithm uses external memory like tape or disk."
+  },
+  {
+    "question": "What is an internal sorting algorithm?",
+    "options": [
+      "A) Algorithm that uses tape or disk during the sort",
+      "B) Algorithm that uses main memory during the sort",
+      "C) Algorithm that involves swapping",
+      "D) Algorithm that are considered ‘in place’"
+    ],
+    "correct_answer": "B",
+    "explanation": "As the name suggests, internal sorting algorithm uses internal main memory."
+  },
+  {
+    "question": "What is the worst case complexity of bubble sort?",
+    "options": [
+      "A) O(nlogn)",
+      "B) O(logn)",
+      "C) O(n)",
+      "D) O(n2)"
+    ],
+    "correct_answer": "D",
+    "explanation": "Bubble sort works by starting from the first element and swapping the elements if required in each iteration."
+  },
+  {
+    "question": "What is the average case complexity of bubble sort?",
+    "options": [
+      "A) O(nlogn)",
+      "B) O(logn)",
+      "C) O(n)",
+      "D) O(n2)"
+    ],
+    "correct_answer": "D",
+    "explanation": "Bubble sort works by starting from the first element and swapping the elements if required in each iteration even in the average case."
+  },
+  {
+    "question": "Which of the following is not an advantage of optimised bubble sort over other sorting techniques in case of sorted elements?",
+    "options": [
+      "A) It is faster",
+      "B) Consumes less memory",
+      "C) Detects whether the input is already sorted",
+      "D) Consumes less time"
+    ],
+    "correct_answer": "C",
+    "explanation": "Optimised Bubble sort is one of the simplest sorting techniques and perhaps the only advantage it has over other techniques is that it can detect whether the input is already sorted. It is faster than other in case of sorted array and consumes less time to describe whether the input array is sorted or not. It consumes same memory than other sorting techniques. Hence it is not an advantage."
+  },
+  {
+    "question": "The given array is arr = {1, 2, 4, 3}. Bubble sort is used to sort the array elements. How many iterations will be done to sort the array?",
+    "options": [
+      "A) 4",
+      "B) 2",
+      "C) 1",
+      "D) 0"
+    ],
+    "correct_answer": "A",
+    "explanation": "Even though the first two elements are already sorted, bubble sort needs 4 iterations to sort the given array."
+  },
+  {
+    "question": "What is the best case efficiency of bubble sort in the improvised version?",
+    "options": [
+      "A) O(nlogn)",
+      "B) O(logn)",
+      "C) O(n)",
+      "D) O(n2)"
+    ],
+    "correct_answer": "C",
+    "explanation": "Some iterations can be skipped if the list is sorted, hence efficiency improves to O(n)."
+  },
+  {
+    "question": "The given array is arr = {1,2,4,3}. Bubble sort is used to sort the array elements. How many iterations will be done to sort the array with improvised version?",
+    "options": [
+      "A) 4",
+      "B) 2",
+      "C) 1",
+      "D) 0"
+    ],
+    "correct_answer": "B",
+    "explanation": "Only 2 elements in the given array are not sorted, hence only 2 iterations are required to sort them."
+  },
+  {
+    "question": "What is meant by the term lexicographical order?",
+    "options": [
+      "A) dictionary ordering of elements",
+      "B) reverse dictionary ordering of elements",
+      "C) to sort according to value of first element",
+      "D) to sort according to value of last element"
+    ],
+    "correct_answer": "A",
+    "explanation": "Lexicographical order is also known as dictionary order. It is a generalized method of the way words are alphabetically ordered in a dictionary."
+  },
+  {
+    "question": "How many combinations of 2 elements will be formed from the array arr={1,2,3}?",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "correct_answer": "C",
+    "explanation": "No.of combinations of r elements for an array of size n will be given by the formula nCr. So for the given problem, we have 3C2=3."
+  },
+  {
+    "question": "What will be the lexicographical order of combinations of 2 elements each formed from the array arr={1,2,3}?",
+    "options": [
+      "A) {{2,1},{3,2},{3,1}}",
+      "B) {{1,2},{2,3},{1,3}}",
+      "C) {{1,2},{1,3},{2,3}}",
+      "D) {{2,1},{3,1},{3,2}}"
+    ],
+    "correct_answer": "C",
+    "explanation": "The number of combinations for the problem will be 3 according to the formula 3C2. When ordered in lexicographical manner these will be {{1,2},{1,3},{2,3}}."
+  },
+  {
+    "question": "What will be the auxiliary space requirement (excluding call stack) of the program to print combinations of r elements each from array of size n?",
+    "options": [
+      "A) O(n*r)",
+      "B) O(n/r)",
+      "C) O(n)",
+      "D) O(r)"
+    ],
+    "correct_answer": "D",
+    "explanation": "Code to print combinations will require an auxiliary space of O(r) other than call stack memory. This memory is required by an array that is used for storing combinations formed."
+  },
+  {
+    "question": "The code for printing combinations is in-place.",
+    "options": [
+      "A) true",
+      "B) false"
+    ],
+    "correct_answer": "B",
+    "explanation": "Code to print combinations will require an auxiliary space of O(r) other than call stack memory. So it is not an in-place algorithm."
+  },
+  {
+    "question": "What will be the time complexity of the code to print combinations?",
+    "options": [
+      "A) O(n)",
+      "B) O(n2)",
+      "C) O(n log n)",
+      "D) O(2n)"
+    ],
+    "correct_answer": "D",
+    "explanation": "The recurrence relation of the code to print combinations will be T(n)=2T(n-1)+k. It is found to be equal to O(2n)."
+  },
+  {
+    "question": "What is meant by the power set of a set?",
+    "options": [
+      "A) subset of all sets",
+      "B) set of all subsets",
+      "C) set of particular subsets",
+      "D) empty set"
+    ],
+    "correct_answer": "B",
+    "explanation": "Power set of a set is defined as the set of all subsets. Ex- S={1,2} then P={{},{1},{2}{1,2}}."
+  },
+  {
+    "question": "Number of elements in the power set of set S={1,2,3} will be?",
+    "options": [
+      "A) 2",
+      "B) 4",
+      "C) 6",
+      "D) 8"
+    ],
+    "correct_answer": "D",
+    "explanation": "Power set of a set is defined as the set of all subsets. Number of elements in the power set of a set having n elements is given as 2n. Thus, here number of elements will be 23=8."
+  },
+  {
+    "question": "Number of elements in the power set of set S={1,2,2} will be?",
+    "options": [
+      "A) 2",
+      "B) 4",
+      "C) 6",
+      "D) 8"
+    ],
+    "correct_answer": "C",
+    "explanation": "For finding the number of elements in the power set of the given set we need to remove duplicates. So we will be left with 6 unique elements which will be P={{},{1},{2},{1,2},{2,2},{1,2,2}}."
+  },
+  {
+    "question": "The number of elements in the power set increases when there are duplicates present in the set.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "In case when duplicates are present in the set then the number of elements in the power set decreases. It is because we remove subsets with identical elements."
+  },
+  {
+    "question": "Breadth First Search is equivalent to which of the traversal in the Binary Trees?",
+    "options": [
+      "A) Pre-order Traversal",
+      "B) Post-order Traversal",
+      "C) Level-order Traversal",
+      "D) In-order Traversal"
+    ],
+    "correct_answer": "C",
+    "explanation": "The Breadth First Search Algorithm searches the nodes on the basis of level. It takes a node (level 0), explores it’s neighbors (level 1) and so on."
+  },
+  {
+    "question": "Time Complexity of Breadth First Search is? (V – number of vertices, E – number of edges)",
+    "options": [
+      "A) O(V + E)",
+      "B) O(V)",
+      "C) O(E)",
+      "D) O(V*E)"
+    ],
+    "correct_answer": "A",
+    "explanation": "The Breadth First Search explores every node once and every edge once (in worst case), so it’s time complexity is O(V + E)."
+  },
+  {
+    "question": "The Data structure used in standard implementation of Breadth First Search is?",
+    "options": [
+      "A) Stack",
+      "B) Queue",
+      "C) Linked List",
+      "D) Tree"
+    ],
+    "correct_answer": "B",
+    "explanation": "The Breadth First Search explores every node once and put that node in queue and then it takes out nodes from the queue and explores it’s neighbors."
+  },
+  {
+    "question": "The Breadth First Search traversal of a graph will result into?",
+    "options": [
+      "A) Linked List",
+      "B) Tree",
+      "C) Graph with back edges",
+      "D) Arrays"
+    ],
+    "correct_answer": "B",
+    "explanation": "The Breadth First Search will make a graph which don’t have back edges (a tree) which is known as Breadth First Tree."
+  },
+  {
+    "question": "A person wants to visit some places. He starts from a vertex and then wants to visit every place connected to this vertex and so on. What algorithm he should use?",
+    "options": [
+      "A) Depth First Search",
+      "B) Breadth First Search",
+      "C) Trim’s algorithm",
+      "D) Kruskal’s algorithm"
+    ],
+    "correct_answer": "B",
+    "explanation": "This is the definition of the Breadth First Search. Exploring a node, then it’s neighbors and so on."
+  },
+  {
+    "question": "Which of the following is not an application of Breadth First Search?",
+    "options": [
+      "A) Finding shortest path between two nodes",
+      "B) Finding bipartiteness of a graph",
+      "C) GPS navigation system",
+      "D) Path Finding"
+    ],
+    "correct_answer": "D",
+    "explanation": "Breadth First Search can be applied to Bipartite a graph, to find the shortest path between two nodes, in GPS Navigation. In Path finding, Depth First Search is used."
+  },
+  {
+    "question": "When the Breadth First Search of a graph is unique?",
+    "options": [
+      "A) When the graph is a Binary Tree",
+      "B) When the graph is a Linked List",
+      "C) When the graph is a n-ary Tree",
+      "D) When the graph is a Ternary Tree"
+    ],
+    "correct_answer": "B",
+    "explanation": "When Every node will have one successor then the Breadth First Search is unique. In all other cases, when it will have more than one successor, it can choose any of them in arbitrary order."
+  },
+  {
+    "question": "Regarding implementation of Breadth First Search using queues, what is the maximum distance between two nodes present in the queue? (considering each edge length 1)",
+    "options": [
+      "A) Can be anything",
+      "B) 0",
+      "C) At most 1",
+      "D) Insufficient Information"
+    ],
+    "correct_answer": "C",
+    "explanation": "In the queue, at a time, only those nodes will be there whose difference among levels is 1. Same as level order traversal of the tree."
+  },
+  {
+    "question": "In BFS, how many times a node is visited?",
+    "options": [
+      "A) Once",
+      "B) Twice",
+      "C) Equivalent to number of indegree of the node",
+      "D) Thrice"
+    ],
+    "correct_answer": "C",
+    "explanation": "In Breadth First Search, we have to see whether the node is visited or not by it’s ancestor. If it is visited, we won’t let it enter it in the queue."
+  },
+  {
+    "question": "Recursion is a method in which the solution of a problem depends on ____________",
+    "options": [
+      "A) Larger instances of different problems",
+      "B) Larger instances of the same problem",
+      "C) Smaller instances of the same problem",
+      "D) Smaller instances of different problems"
+    ],
+    "correct_answer": "C",
+    "explanation": "In recursion, the solution of a problem depends on the solution of smaller instances of the same problem."
+  },
+  {
+    "question": "Which of the following problems can’t be solved using recursion?",
+    "options": [
+      "A) Factorial of a number",
+      "B) Nth fibonacci number",
+      "C) Length of a string",
+      "D) Problems without base case"
+    ],
+    "correct_answer": "D",
+    "explanation": "Problems without base case leads to infinite recursion call. In general, we will assume a base case to avoid infinite recursion call. Problems like finding Factorial of a number, Nth Fibonacci number and Length of a string can be solved using recursion."
+  },
+  {
+    "question": "Recursion is similar to which of the following?",
+    "options": [
+      "A) Switch Case",
+      "B) Loop",
+      "C) If-else",
+      "D) if elif else"
+    ],
+    "correct_answer": "B",
+    "explanation": "Recursion is similar to a loop."
+  },
+  {
+    "question": "In recursion, the condition for which the function will stop calling itself is ____________",
+    "options": [
+      "A) Best case",
+      "B) Worst case",
+      "C) Base case",
+      "D) There is no such condition"
+    ],
+    "correct_answer": "C",
+    "explanation": "For recursion to end at some point, there always has to be a condition for which the function will not call itself. This condition is known as base case."
+  },
+  {
+    "question": "Which of the following statements is true?",
+    "options": [
+      "A) Recursion is always better than iteration",
+      "B) Recursion uses more memory compared to iteration",
+      "C) Recursion uses less memory compared to iteration",
+      "D) Iteration is always better and simpler than recursion"
+    ],
+    "correct_answer": "B",
+    "explanation": "Recursion uses more memory compared to iteration because every time the recursive function is called, the function call is stored in stack."
+  },
+  {
+    "question": "In general, which of the following methods isn’t used to find the factorial of a number?",
+    "options": [
+      "A) Recursion",
+      "B) Iteration",
+      "C) Dynamic programming",
+      "D) Non iterative / recursive"
+    ],
+    "correct_answer": "D",
+    "explanation": "In general we use recursion, iteration and dynamic programming to find the factorial of a number. We can also implement without using iterative / recursive method by using tgammal() method. Most of us never use it generally."
+  },
+  {
+    "question": "Which of the following recursive formula can be used to find the factorial of a number?",
+    "options": [
+      "A) fact(n) = n * fact(n)",
+      "B) fact(n) = n * fact(n+1)",
+      "C) fact(n) = n * fact(n-1)",
+      "D) fact(n) = n * fact(1)"
+    ],
+    "correct_answer": "C",
+    "explanation": "fact(n) = n * fact(n – 1) can be used to find the factorial of a number."
+  },
+  {
+    "question": "What is the time complexity of the above code used to reverse a string?",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(n2)",
+      "D) O(n3)"
+    ],
+    "correct_answer": "B",
+    "explanation": "The time complexity of the above code used to reverse a string is O(n)."
+  }
+]

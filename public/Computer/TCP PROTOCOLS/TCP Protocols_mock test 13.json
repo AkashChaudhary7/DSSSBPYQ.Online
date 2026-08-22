@@ -1,0 +1,538 @@
+[
+  {
+    "question": "Which of the following data channels of USDC carries the user information?",
+    "options": [
+      "A) DTC",
+      "B) CVDCC",
+      "C) SACCH",
+      "D) FACCH"
+    ],
+    "correct_answer": "A",
+    "explanation": "DTC (data traffic channel) is the most important data channel as far as the end user is concerned. It carries user information (i.e. speech or user data)."
+  },
+  {
+    "question": "Which of the following channel is similar in functionality to the SAT used in AMPS?",
+    "options": [
+      "A) DTC",
+      "B) CDVCC",
+      "C) SACCH",
+      "D) FACCH"
+    ],
+    "correct_answer": "B",
+    "explanation": "CDVCC (Code Digital Verification Color Code) is a 12 bit message sent in every time slot and is similar in functionality to the SAT used in AMPS. The CDVCC is an 8 bit number ranging between 1 and 255, which is protected with four additional channel coding bits from a shortened Hamming code."
+  },
+  {
+    "question": "Which of the following channel in USDC provides a signalling channel?",
+    "options": [
+      "A) DTC",
+      "B) CVDCC",
+      "C) SACCH",
+      "D) FACCH"
+    ],
+    "correct_answer": "C",
+    "explanation": "The SACCH (slow associated control channel) is sent in every time slot and provides a signalling channel in parallel with the digital speech. The SACCH carries various control and supervisory messages between the subscriber unit and the base station."
+  },
+  {
+    "question": "Which of the following channel in USDC is used to send important control or specialized traffic data between the base station and mobile units?",
+    "options": [
+      "A) DTC",
+      "B) CVDCC",
+      "C) SACCH",
+      "D) FACCH"
+    ],
+    "correct_answer": "D",
+    "explanation": "FACCH (fast associated control channel) is used to send important control or specialized traffic data between the base station and mobile units. The FACCH data, when transmitted, takes the place of user information data within a frame."
+  },
+  {
+    "question": "Which of the following speech coder is used in USDC?",
+    "options": [
+      "A) Vector Sum Excited Linear Predictive coder",
+      "B) Formant Vocoder",
+      "C) Multipulse Excited Linear Predictive coder",
+      "D) Residual Excited Linear Predictive coder"
+    ],
+    "correct_answer": "A",
+    "explanation": "The USDC speech coder is called the Vector Sum Excited Linear Predictive coder (VSELP). This belongs to the class of Code Excited Linear Predictive coders (CELP) or Stochastically Excited Linear Predictive coders."
+  },
+  {
+    "question": "IPv6 has a larger address space of _________",
+    "options": [
+      "A) 216",
+      "B) 2128",
+      "C) 232",
+      "D) 28"
+    ],
+    "correct_answer": "B",
+    "explanation": "The main advantage of IPv6 over IPv4 is its larger address space. The length of an IPv6 address is 128 bits, compared with 32 bits in IPv4. The address space therefore has 2128 or approximately 3.4×1038 addresses."
+  },
+  {
+    "question": "Three strategies used to handle transition from version 4 to version 6 are dual-stack, tunneling and ________",
+    "options": [
+      "A) Header Switching",
+      "B) Header Translation",
+      "C) Header Transfer",
+      "D) Header Transmission"
+    ],
+    "correct_answer": "B",
+    "explanation": "Three strategies used to handle transition from version 4 to version 6 are dual-stack, tunneling and header translation. Header translation techniques are more complicated than IPv4 NAT because the protocols have different header formats."
+  },
+  {
+    "question": "MTU stands for _________",
+    "options": [
+      "A) Minimum Transfer Unit",
+      "B) Maximum Transfer Unit",
+      "C) Maximum Transport Unit",
+      "D) Maximum Transmission Unit"
+    ],
+    "correct_answer": "D",
+    "explanation": "In computer networking, the maximum transmission unit (MTU) is the size of the largest network layer protocol data unit that can be communicated in a single network transaction."
+  },
+  {
+    "question": "In IPv6, real-time audio or video, particularly in digital form, requires resources such as __________",
+    "options": [
+      "A) Fixed Bandwidth",
+      "B) Variable Bandwidth",
+      "C) High Bandwidth",
+      "D) Low Bandwidth"
+    ],
+    "correct_answer": "C",
+    "explanation": "In IPv6, real-time audio or video, particularly in digital form, requires resources such as high bandwidth, large buffers, long processing times, and so on. A process can make a reservation for these resources beforehand to guarantee that real time data will not be delayed."
+  },
+  {
+    "question": "In practical IPv6 application, a technology encapsulates IPv6 packets inside IPv4 packets, this technology is called _______",
+    "options": [
+      "A) Tunneling",
+      "B) Hashing",
+      "C) Routing",
+      "D) NAT"
+    ],
+    "correct_answer": "A",
+    "explanation": "IPv6 tunneling enables IPv6 hosts and routers to connect with other IPv6 hosts and routers over the existing IPv4 Internet. The main purpose of IPv6 tunneling is to deploy IPv6 as well as maintain compatibility with large existing base of IPv4 hosts and routers."
+  },
+  {
+    "question": "Which one of the following descriptions about IPv6 is correct?",
+    "options": [
+      "A) Addresses are not hierarchical and are assigned at random",
+      "B) Broadcasts have been eliminated and replaced with multicasts",
+      "C) There are 2.7 billion available addresses",
+      "D) An interface can only be configured with one IPv6 address"
+    ],
+    "correct_answer": "B",
+    "explanation": "In IPv6, there’s no longer any broadcast, sending one packet to a large number of unspecified hosts. There’s only multicast, unicast and anycast. In IPv6 all nodes are required to support multicast."
+  },
+  {
+    "question": "The header length of an IPv6 datagram is ___________",
+    "options": [
+      "A) 10bytes",
+      "B) 25bytes",
+      "C) 30bytes",
+      "D) 40bytes"
+    ],
+    "correct_answer": "D",
+    "explanation": "IPv6 datagram has fixed header length of 40bytes. It results in faster processing of the datagram. Fixed length IPv6 header allows the routers to process the IPv6 datagram packets more efficiently."
+  },
+  {
+    "question": "In the IPv6 header, the traffic class field is similar to which field in the IPv4 header?",
+    "options": [
+      "A) Fragmentation field",
+      "B) Fast switching",
+      "C) TOS field",
+      "D) Option field"
+    ],
+    "correct_answer": "C",
+    "explanation": "This field enables to have different types of IP datagram. In an IPv6 packet, the Traffic Class byte is used in the same way as the ToS byte in an IPv4 packet. A ToS/Traffic Class byte includes a DSCP (Differentiated Services Codepoint) and precedence bits."
+  },
+  {
+    "question": "Which are the features present in IPv4 but not in IPv6?",
+    "options": [
+      "A) Fragmentation",
+      "B) Header checksum",
+      "C) Options",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "All the features are only present in IPv4 and not IPv6. IPv6 no longer has a header checksum to protect the IP header, meaning that when a packet header is corrupted by transmission errors, the packet is very likely to be delivered incorrectly."
+  },
+  {
+    "question": "IPv6 is designed to allow extension of the _________",
+    "options": [
+      "A) Protocol",
+      "B) Dataset",
+      "C) Headers",
+      "D) Routes"
+    ],
+    "correct_answer": "A",
+    "explanation": "IPv6 is designed to allow the extension of the protocol if required by new technologies or applications. IPv6 uses a new header format in which options are separated from the base header and inserted, when needed, between the base header and upper-layer data."
+  },
+  {
+    "question": "In IPv6, base header can be followed by, up to _________",
+    "options": [
+      "A) Six Extension Layers",
+      "B) Six Extension Headers",
+      "C) Eight Extension headers",
+      "D) Eight Extension layers"
+    ],
+    "correct_answer": "B",
+    "explanation": "The length of the base header is 40 bytes. However, to give more functionality to the IP datagram, the base header can be followed by up to six extension headers."
+  },
+  {
+    "question": "In an IPv6 datagram, M bit is 0, value of HLEN is 5, value of total length is 200 and offset value is ___________",
+    "options": [
+      "A) 400",
+      "B) 350",
+      "C) 300",
+      "D) 200"
+    ],
+    "correct_answer": "D",
+    "explanation": "In an IPv6 datagram, M bit is 0, value of HLEN is 5, the value of total length is 200 and offset value is 200. If the M bit is 0, it means there are no more fragments, the fragment is the last name."
+  },
+  {
+    "question": "Which of the following technology is mainly designed for indoor coverage?",
+    "options": [
+      "A) Femtocell network",
+      "B) 3GPP",
+      "C) LTE",
+      "D) AMPS"
+    ],
+    "correct_answer": "A",
+    "explanation": "Femtocell Network is a small-size Macro cell network designed for better indoor coverage. It began attracting attention from both industry and academy in late 2007."
+  },
+  {
+    "question": "Coverage of Femtocell Network is much larger than a regular Macro cell Network.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "The “femto” means 10-15. Coverage of Femtocell Network is much smaller than a regular Macro cell Network that is why this name is given. Femtocell Network, installed by end users at home or in an office environment."
+  },
+  {
+    "question": "Which of the following is not a component of Femtocell network?",
+    "options": [
+      "A) F-BS",
+      "B) Internet link",
+      "C) FGW",
+      "D) BSC"
+    ],
+    "correct_answer": "D",
+    "explanation": "Similar to UMTS Terrestrial Radio Access Network (UTRAN) architecture, the Femtocell Network consists of three components: Femtocell Base Stations (F-BS), Internet Link, and Femtocell Gateway (FGW)."
+  },
+  {
+    "question": "Which of the following is not true for Femtocell base stations?",
+    "options": [
+      "A) Short range",
+      "B) Low power",
+      "C) High cost",
+      "D) Wireless handsets"
+    ],
+    "correct_answer": "C",
+    "explanation": "Femtocell Base Stations (F-BSs) are short-range, low-cost, low-power indoor devices to provide service for wireless handsets. F-BS, which looks like WLAN Access Point (AP), is a small device with at least two wireless and internet interfaces."
+  },
+  {
+    "question": "Any existing wireless telecommunication standard cannot be used at F-BS wireless interface.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Wireless interface provides wireless radio access to Femtocell MSs. Any existing wireless telecommunication standard, such as UMTS/ CDMA200/ WIMAX/ LTE/ EV-DO, can be used at the F-BS wireless interfaces."
+  },
+  {
+    "question": "________ acts as a gateway between the Internet and communication network.",
+    "options": [
+      "A) F-BS",
+      "B) Internet link",
+      "C) FGW",
+      "D) BSC"
+    ],
+    "correct_answer": "C",
+    "explanation": "Femtocell Gateway (FGW) is a service provider’s device that acts as a gateway between the Internet and the communication network. One side of FGW connects a large number of F-BSs via broadband Internet, and the other side of FGW is connected to the telephony core network."
+  },
+  {
+    "question": "Femtocell network has improved seamless coverage and enhanced capacity.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "Femtocell Network is a so-called “double-win” strategy that brings benefits to both cellular users and cellular providers. It provides improved seamless coverage and enhanced capacity for cellular users."
+  },
+  {
+    "question": "In _________ all cellular users belong to open subscribers group (OSG) and can access F-BS unconditionally.",
+    "options": [
+      "A) Closed access mode",
+      "B) Open access mode",
+      "C) Hybrid Access mode",
+      "D) Zero access mode"
+    ],
+    "correct_answer": "B",
+    "explanation": "In open access mode, all cellular users belong to open subscribers group (OSG) and can access F-BS unconditionally. Several cellular service providers have plans to deploy F-BS for better service quality to cover public hole areas."
+  },
+  {
+    "question": "In _______ a closed subscribers group (CSG) is set by F-BS owner to allow only small portion of cellular users to be served in the Femtocell Network.",
+    "options": [
+      "A) Closed access mode",
+      "B) Open access mode",
+      "C) Hybrid Access mode",
+      "D) Zero access mode"
+    ],
+    "correct_answer": "A",
+    "explanation": "In closed access mode, a closed subscribers group (CSG) is set by F-BS owner to allow only small portion of cellular users to be served in the Femtocell Network. For example, people can install F-BS in their house and only household members can access F-BS to attain better service."
+  },
+  {
+    "question": "Femtocell Network has the capability to help Macro cell Network achieve seamless coverage.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "Femtocell Network has the capability to help Macro cell Network achieve seamless coverage. It can attain higher network capacity by transmitting over an Internet link."
+  },
+  {
+    "question": "_______ is responsible for tunneling multicast packets to the MS’s currently subscribed FA.",
+    "options": [
+      "A) Multicast home agent",
+      "B) Mobile multicast",
+      "C) Mobile station",
+      "D) Base station"
+    ],
+    "correct_answer": "A",
+    "explanation": "Multicast home agent (MHA) is responsible for tunneling multicast packets to the MS’s currently subscribed FA. MHA serves MSs that are roaming around the foreign networks and are within its service range."
+  },
+  {
+    "question": "Every MS can have only one MHA.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "Every MS can have only one MHA, which dynamically changes based on the location of the MS, whereas a HA of an MS never changes. The protocol requires that each MHA must be a multicast group member."
+  },
+  {
+    "question": "_______ provides a fast and efficient handoff for MSs in foreign networks.",
+    "options": [
+      "A) MHA",
+      "B) MMP",
+      "C) CBT",
+      "D) MS"
+    ],
+    "correct_answer": "B",
+    "explanation": "MMP provides a fast and efficient handoff for MSs in foreign networks. It also enables location-independent addressing."
+  },
+  {
+    "question": "MMP combines the concepts of _______ and ________",
+    "options": [
+      "A) Mobile IPs, GSM",
+      "B) Core based trees, GSM",
+      "C) Mobile IPs, core based trees",
+      "D) Core based trees, LTE"
+    ],
+    "correct_answer": "C",
+    "explanation": "MMP combines the concepts of Mobile IP and core-based trees (CBT). Here the former controls communication up to the foreign network, and the latter manages movement of the MSs inside them."
+  },
+  {
+    "question": "________ designed for an Internet work environment with small wireless cells.",
+    "options": [
+      "A) MMP",
+      "B) RMDP",
+      "C) RM2",
+      "D) Mobicast"
+    ],
+    "correct_answer": "D",
+    "explanation": "Mobicast is designed for an Internet work environment with small wireless cells. It assumes that a set of cells are grouped together and are served by a domain foreign agent (DFA)."
+  },
+  {
+    "question": "________ serve as multicast forwarding agents and are meant to isolate the mobility of the mobile host from the main multicast delivery tree.",
+    "options": [
+      "A) DFA",
+      "B) MHA",
+      "C) FA",
+      "D) MMP"
+    ],
+    "correct_answer": "A",
+    "explanation": "DFAs serve as multicast forwarding agents and are meant to isolate the mobility of the mobile host from the main multicast delivery tree. This hierarchical mobility management approach tries to isolate the mobility of the FAs from the main multicast delivery tree."
+  },
+  {
+    "question": "Mobicast is based on a method proposed by the IETF to support multicast over Mobile-IP.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "Mobicast is based on a method proposed by the IETF to support multicast over Mobile-IP. To handle the case when an MS is both the source and recipient of a multicast session, one needs to minimize the possibility of rebuilding the complete multicast tree at each foreign domain the MS visits."
+  },
+  {
+    "question": "_______ is meant to be implemented for use on the MBONE.",
+    "options": [
+      "A) MMP",
+      "B) RMDP",
+      "C) RM2",
+      "D) Mobicast"
+    ],
+    "correct_answer": "B",
+    "explanation": "The reliable multicast data distribution protocol (RMDP) is meant to be implemented for use on the MBONE. It relies on the use of FEC and ARQ information to provide reliable multicast service."
+  },
+  {
+    "question": "__________ is a reliable multicast protocol and is used for both wired and wireless environments.",
+    "options": [
+      "A) MMP",
+      "B) RMDP",
+      "C) RM2",
+      "D) Mobicast"
+    ],
+    "correct_answer": "C",
+    "explanation": "Reliable mobile multicast (RM2) is a reliable multicast protocol and is used for both wired and wireless environments. RM2 guarantees sequential packet delivery to all its multicast members without any packet loss."
+  },
+  {
+    "question": "____________ relies on IGMP.",
+    "options": [
+      "A) MMP",
+      "B) RMDP",
+      "C) RM2",
+      "D) Mobicast"
+    ],
+    "correct_answer": "C",
+    "explanation": "RM2 relies on the Internet group management protocol (IGMP) to manage multicast group membership. RM2 is a hierarchical protocol that divides a multicast tree into subtrees, whereby subcasting within these smaller regions is applied using a tree of retransmission servers."
+  },
+  {
+    "question": "Which type of cell provides the best level of service for average subscribers?",
+    "options": [
+      "A) Acceptance cell",
+      "B) Barred cell",
+      "C) Reserved cell",
+      "D) Suitable cell"
+    ],
+    "correct_answer": "D",
+    "explanation": "A suitable cell is a cell on which the UE may camp on to obtain normal service. The UE shall have a valid USIM and such a cell shall fulfil all the following requirements. It provides the best level of service for average subscribers."
+  },
+  {
+    "question": "With the normal cyclic prefix, how many symbols are contained in 1 frame?",
+    "options": [
+      "A) 7",
+      "B) 140",
+      "C) 12",
+      "D) 40"
+    ],
+    "correct_answer": "B",
+    "explanation": "There are two different type of Cyclic Prefix. One is normal Cyclic Prefix and the other is ‘Extended Cyclic Prefix’ which is longer than the Normal Cyclic Prefix. Normal cyclic prefix contains 140 symbols in 1 frame."
+  },
+  {
+    "question": "What is the PBCH scrambled with?",
+    "options": [
+      "A) Current frame number",
+      "B) Physical cell ID",
+      "C) UE’s CRNTI",
+      "D) Not scrambled"
+    ],
+    "correct_answer": "B",
+    "explanation": "The PBCH is scrambled prior to modulation with a cell-specific sequence that depends on the cells’ identity. In contrast to the synchronization signals, the PBCH is transmitted on the 72 reserved subcarriers, which are QPSK-modulated."
+  },
+  {
+    "question": "What is the length of the shortest possible PDCCH in bits?",
+    "options": [
+      "A) 144",
+      "B) 288",
+      "C) 72",
+      "D) 576"
+    ],
+    "correct_answer": "C",
+    "explanation": "PDCCH is a physical channel that carries downlink control information (DCI). Shortest possible PDCCH is 72 bits."
+  },
+  {
+    "question": "What is the average uploading speed of 4G LTE network?",
+    "options": [
+      "A) 1-3 Gbps",
+      "B) 2-5 Gbps",
+      "C) 1-3 Mbps",
+      "D) 2-5 Mbps"
+    ],
+    "correct_answer": "D",
+    "explanation": "Verizon 4G LTE wireless broadband is 10 times faster than 3G able to handle download speeds between 5 and 12 Mbps (Megabits per second) and upload speeds between 2 and 5 Mbps."
+  },
+  {
+    "question": "Which of the following is not a part of the characteristic of 4G network?",
+    "options": [
+      "A) Multirate management",
+      "B) Fully converged services",
+      "C) Software dependency",
+      "D) Diverse user devices"
+    ],
+    "correct_answer": "A",
+    "explanation": "4G is the fourth generation of broadband cellular network technology, succeeding 3G. Its characteristics include fully converged services, software dependency and diverse user devices."
+  },
+  {
+    "question": "What does SGSN stands for?",
+    "options": [
+      "A) Serving GPRS Support Node",
+      "B) Supporting GGSN Support Node",
+      "C) Supporting GPRS Support Node",
+      "D) Supporting Gateway Support Node"
+    ],
+    "correct_answer": "A",
+    "explanation": "The Serving GPRS Support Node (SGSN) is a main component of the GPRS network, which handles all packet switched data within the network, e.g. the mobility management and authentication of the users. The SGSN performs the same functions as the MSC for voice traffic."
+  },
+  {
+    "question": "What location management feature is supported by 4G?",
+    "options": [
+      "A) Concatenated Location Registration",
+      "B) Concurrent Location Register",
+      "C) Concatenated Management",
+      "D) Collated Location Registration"
+    ],
+    "correct_answer": "A",
+    "explanation": "4G supports concatenated location registration. Concatenated location registration reports to the network that they are concatenated to a common object."
+  },
+  {
+    "question": "In 2007 ____________ announced its plan to transmit its network to 4G standard LTE with joint efforts of Vodafone group.",
+    "options": [
+      "A) Verizon Wireless",
+      "B) AirTouch",
+      "C) Netflix",
+      "D) V Cast"
+    ],
+    "correct_answer": "A",
+    "explanation": "In 2007, Verizon announced plans to develop and deploy its fourth generation mobile broadband network using LTE, the technology developed within the Third Generation Partnership Project (3GPP) standards organization."
+  },
+  {
+    "question": "Hybrid ARQ is part of the ____________ layer.",
+    "options": [
+      "A) PDCP",
+      "B) RLC",
+      "C) MAC",
+      "D) PHY"
+    ],
+    "correct_answer": "C",
+    "explanation": "Hybrid automatic repeat request (hybrid ARQ or HARQ) is a combination of high-rate forward error-correcting coding and ARQ error-control. It is part of the MAC layer."
+  },
+  {
+    "question": "Which of the following elements is mandatory for Wireless Local Area Network (WLAN) peer to peer mode configurations?",
+    "options": [
+      "A) Cell stations",
+      "B) Multiport Repeater",
+      "C) Distributed Media Access Control protocol",
+      "D) Handoff"
+    ],
+    "correct_answer": "C",
+    "explanation": "WLAN technology includes hub topology and peer to peer mode topology. Hub topology requires cell stations, multiport repeater and mobile station handoff. Peer to peer mode based systems does not require the elements of hub topology and purely rely on distributed Media Access Control protocol."
+  },
+  {
+    "question": "Which of the following is not a contention based protocol utilized in WLAN architecture?",
+    "options": [
+      "A) Carrier Sense Multiple Access with Collision Detection (CSMA/ CD)",
+      "B) Carrier Sense Multiple Access (CSMA)",
+      "C) Aloha",
+      "D) Carrier Sense Multiple Access with Collision Avoidance (CSMA/ CA)"
+    ],
+    "correct_answer": "A",
+    "explanation": "CSMA/CD is efficient only for wired applications, since it requires a medium between transmitter and receiver. Contention based protocol aims in providing efficient communication between multiple users without interference in wireless medium. But, in rare cases collisions are prone to occur. Few examples of contention based protocols include Aloha, CSMA, Ethernet, Multiple Access Collision Avoidance (MACA), CSMA/CA and Multiple Access with Collision Avoidance for Wireless (MACAW)."
+  },
+  {
+    "question": "Collision avoidance in Media Access Control (MAC) protocol is capable of determining whether effective transmission of the signals occurs.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "MAC protocols include Carrier Sense (CS), Carrier Detection (CD), Collision Avoidance (CA), and back off mechanisms. CS is capable of sensing effective transmission, whereas back off mechanism implies procedures to estimate contention and postponing transmissions. CD and CA are used for detecting and avoiding collisions respectively."
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "question": "Evaluate the CREATE TABLE statement:\nCREATE TABLE products\n(product_id NUMBER(6) CONSTRAINT prod_id_pk PRIMARY KEY, product_name VARCHAR2(15));\nWhich statement is true regarding the PROD_ID_PK constraint?\n\nCREATE TABLE products\n(product_id NUMBER(6) CONSTRAINT prod_id_pk PRIMARY KEY, product_name VARCHAR2(15));",
+    "options": [
+      "A) It would be created only if a unique index is manually created first",
+      "B) It would be created and would use an automatically created unique index",
+      "C) It would be created and would use an automatically created no unique index",
+      "D) It would be created and remains in a disabled state because no index is specified in the command"
+    ],
+    "correct_answer": "A",
+    "explanation": "Syntax: create table table_name(name constraint)."
+  },
+  {
+    "question": "Evaluate the following CREATE SEQUENCE statement:\nCREATE SEQUENCE seq1\nSTART WITH 100\nINCREMENT BY 10\nMAXVALUE 200\nCYCLE\nNOCACHE;\nThe sequence SEQ1 has generated numbers up to the maximum limit of 200. You issue the following SQL statement:\nSELECT seq1.nextval FROM dual;\nWhat is displayed by the SELECT statement?\n\nCREATE SEQUENCE seq1\nSTART WITH 100\nINCREMENT BY 10\nMAXVALUE 200\nCYCLE\nNOCACHE;",
+    "options": [
+      "A) 1",
+      "B) 10",
+      "C) 100",
+      "D) an error"
+    ],
+    "correct_answer": "A",
+    "explanation": "Sequence is used to generate a series of values."
+  },
+  {
+    "question": "Which statements are correct regarding indexes?",
+    "options": [
+      "A) When a table is dropped, the corresponding indexes are automatically dropped",
+      "B) For each DML operation performed, the corresponding indexes are automatically updated",
+      "C) A non-deferrable PRIMARY KEY or UNIQUE KEY constraint in a table automatically creates a unique index",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Indexes are used to access the data efficiently."
+  },
+  {
+    "question": "You executed the following SQL statements in the given order:\nCREATE TABLE orders\n(order_id NUMBER(3) PRIMARY KEY,\norder_date DATE,\ncustomer_idnumber(3));\nINSERT INTO orders VALUES (100,'10-mar-2007,,222);\nALTER TABLE orders MODIFY order_date NOT NULL;\nUPDATE orders SET customer_id=333;\nDELETE FROM order;\nThe DELETE statement results in the following error:\nERROR at line 1: table or view does not exist\nWhat would be the outcome?\n\nCREATE TABLE orders\n(order_id NUMBER(3) PRIMARY KEY,\norder_date DATE,\ncustomer_idnumber(3));\n \nINSERT INTO orders VALUES (100,'10-mar-2007,,222);\n \nALTER TABLE orders MODIFY order_date NOT NULL;\n \nUPDATE orders SET customer_id=333;\n \nDELETE FROM order;",
+    "options": [
+      "A) All the statements before the DELETE statement would be rolled back",
+      "B) All the statements before the DELETE statement would be implicitly committed within the session",
+      "C) All the statements up to the ALTER TABLE statement would be committed and the outcome of UPDATE statement would be rolled back",
+      "D) All the statements up to the ALTER TABLE statement would be committed and the outcome of the UPDATE statement is retained uncommitted within the session"
+    ],
+    "correct_answer": "A",
+    "explanation": "Committing a transaction refers to making the changes to record in the database.\n\nadvertisement"
+  },
+  {
+    "question": "Evaluate the following statements:\n🎓 Free Certifications on 300 subjects are live for August 2026. Register Now!\nCREATE TABLE digits\n(id NUMBER(2),\ndescription VARCHAR2(15));\nINSERT INTO digits VALUES (1,'ONE);\nUPDATE digits SET description ='TWO'WHERE id=1;\nINSERT INTO digits VALUES (2 ,'TWO');\nCOMMIT;\nDELETE FROM digits;\nSELECT description FROM digits\nVERSIONS BETWEEN TIMESTAMP MINVALUE AND MAXVALUE;\nWhat would be the outcome of the above query?\n\nCREATE TABLE digits\n(id NUMBER(2),\ndescription VARCHAR2(15));\nINSERT INTO digits VALUES (1,'ONE);\nUPDATE digits SET description ='TWO'WHERE id=1;\nINSERT INTO digits VALUES (2 ,'TWO');\nCOMMIT;\nDELETE FROM digits;\nSELECT description FROM digits\nVERSIONS BETWEEN TIMESTAMP MINVALUE AND MAXVALUE;",
+    "options": [
+      "A) It would not display any values",
+      "B) It would display the value TWO once",
+      "C) It would display the value TWO twice",
+      "D) It would display the values ONE, TWO, and TWO"
+    ],
+    "correct_answer": "A",
+    "explanation": "The VERSIONS BETWEEN clause of the SELECT statement is used to create a Flashback Version Query.\n\n    advertisement"
+  },
+  {
+    "question": "A non-correlated subquery can be defined as________",
+    "options": [
+      "A) A set of sequential queries, all of which must always return a single value",
+      "B) A set of sequential queries, all of which must return values from the same table",
+      "C) A SELECT statement that can be embedded in a clause of another SELECT statement only",
+      "D) A set of one or more sequential queries in which generally the result of the inner query is used as the search value in the outer query"
+    ],
+    "correct_answer": "A",
+    "explanation": "A noncorrelated subquery is subquery that is independent of the outer query and it can executed on its own without relying on main outer query."
+  },
+  {
+    "question": "Which statement is true regarding synonyms?",
+    "options": [
+      "A) Synonyms can be created for tables but not views",
+      "B) Synonyms are used to reference only those tables that are owned by another user",
+      "C) A public synonym and a private synonym can exist with the same name for the same table",
+      "D) The DROP SYNONYM statement removes the synonym, and the status of the table on which the synonym has been created becomes invalid"
+    ],
+    "correct_answer": "A",
+    "explanation": "A synonym is an alias or alternate name for a table, view, sequence, or other schema object. They are used mainly to make it easy for users to access database objects owned by other users."
+  },
+  {
+    "question": "SCOTT is a user in the database.\nEvaluate the commands issued BY the DBA:\n1 - CREATE ROLE mgr;\n2 - GRANT CREATE TABLE, SELECT\nON oe. orders TO mgr;\n3 - GRANT mgr, CREATE TABLE TO SCOTT;\nWhich statement is true regarding the execution of the above commands?\n\nEvaluate the commands issued BY the DBA:\n1 - CREATE ROLE mgr;\n2 - GRANT CREATE TABLE, SELECT\nON oe. orders TO mgr;\n3 - GRANT mgr, CREATE TABLE TO SCOTT;",
+    "options": [
+      "A) Statement 1 would not execute because the WITH GRANT option is missing",
+      "B) Statement 1 would not execute because the IDENTIFIED BY  clause is missing",
+      "C) Statement 3 would not execute because role and system privileges cannot be granted together in a single GRANT statement",
+      "D) Statement 2 would not execute because system privileges and object privileges cannot be granted together in a single GRANT command"
+    ],
+    "correct_answer": "A",
+    "explanation": "The GRANT statement is used to give privileges to a specific user or role, or to all users, to perform actions on database objects."
+  },
+  {
+    "question": "OE and SCOTT are the users in the database. The ORDERS table is owned by OE. Evaluate the statements issued by the DBA in the following sequence:\nCREATE ROLE r1;\nGRANT SELECT, INSERT ON oe. orders TO r1;\nGRANT r1 TO scott;\nGRANT SELECT ON oe. orders TO scott;\nREVOKE SELECT ON oe.orders FROM scott;\nWhat would be the outcome after executing the statements?\n\nCREATE ROLE r1;\nGRANT SELECT, INSERT ON oe. orders TO r1;\nGRANT r1 TO scott;\nGRANT SELECT ON oe. orders TO scott;\nREVOKE SELECT ON oe.orders FROM scott;",
+    "options": [
+      "A) SCOTT would be able to query the OE.ORDERS table",
+      "B) SCOTT would not be able to query the OE.ORDERS table",
+      "C) The REVOKE statement would remove the SELECT privilege from SCOTT as well as from the role R1",
+      "D) The REVOKE statement would give an error because the SELECT privilege has been granted to the role R1"
+    ],
+    "correct_answer": "A",
+    "explanation": "The REVOKE statement is used to remove privileges from a specific user or role, or from all users, to perform actions on database objects."
+  },
+  {
+    "question": "Given below are the SQL statements executed in a user session:\nCREATE TABLE product\n(pcode NUMBER(2),\npnameVARCHAR2(10));\nINSERT INTO product VALUES(1, 'pen');\nINSERT INTO product VALUES (2,'penci');\nSAVEPOINT a;\nUPDATE product SET pcode = 10 WHERE pcode = 1;\nSAVEPOINT b;\nDELETE FROM product WHERE pcode = 2;\nCOMMIT;\nDELETE FROM product WHERE pcode=10;\nROLLBACK TO SAVEPOINT a;\nWhich statement describes the consequences?\n\nCREATE TABLE product\n(pcode NUMBER(2),\npnameVARCHAR2(10));\nINSERT INTO product VALUES(1, 'pen');\nINSERT INTO product VALUES (2,'penci');\nSAVEPOINT a;\nUPDATE product SET pcode = 10 WHERE pcode = 1;\nSAVEPOINT b;\nDELETE FROM product WHERE pcode = 2;\nCOMMIT;\nDELETE FROM product WHERE pcode=10;\nROLLBACK TO SAVEPOINT a;",
+    "options": [
+      "A) No SQL statement would be rolled back",
+      "B) Both the DELETE statements would be rolled back",
+      "C) Only the second DELETE statement would be rolled back",
+      "D) Both the DELETE statements and the UPDATE statement would be rolled back"
+    ],
+    "correct_answer": "A",
+    "explanation": "The SAVEPOINT statement names and marks the current point in the processing of a transaction. With the ROLLBACK TO statement, savepoints undo parts of a transaction instead of the whole transaction."
+  },
+  {
+    "question": "Evaluate the following command:\nCREATE TABLE employees (employee_id NUMBER(2) PRIMARY KEY, last_name VARCHAR2(25) NOT\nNULL, department_id NUMBER(2), job_id VARCHAR2(8), salary NUMBER(10,2));\nYou issue the following command TO CREATE a VIEW that displays the IDs AND LAST names OF the sales staff IN the organization:\nCREATE OR REPLACE VIEW sales_staff_vu AS SELECT employee_id, last_name job_id FROM employees\nWHERE job_id LIKE 'SA_%' WITH CHECK OPTION;\nWhich statements are true regarding the above view?\n\nCREATE TABLE employees (employee_id NUMBER(2) PRIMARY KEY, last_name VARCHAR2(25) NOT\nNULL, department_id NUMBER(2), job_id VARCHAR2(8), salary NUMBER(10,2));\nYou issue the following command TO CREATE a VIEW that displays the IDs AND LAST names OF the sales staff IN the organization:\nCREATE OR REPLACE VIEW sales_staff_vu AS SELECT employee_id, last_name job_id FROM employees\nWHERE job_id LIKE 'SA_%' WITH CHECK OPTION;\n\nCREATE VIEW view_name AS\nSELECT column_name(s)\nFROM TABLE_NAME\nWHERE condition.",
+    "options": [
+      "A) It allows you to insert details of all new staff into the EMPLOYEES table",
+      "B) It allows you to delete the details of the existing sales staff from the EMPLOYEES table",
+      "C) It allows you to update the job ids of the existing sales staff to any other job id in the EMPLOYEES table",
+      "D) It allows you to insert the IDs, last"
+    ],
+    "correct_answer": "A",
+    "explanation": "SQL Create view syntax :\n\n\nCREATE VIEW view_name AS\nSELECT column_name(s)\nFROM TABLE_NAME\nWHERE condition."
+  }
+]

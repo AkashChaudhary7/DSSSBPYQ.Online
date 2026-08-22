@@ -1,0 +1,538 @@
+[
+  {
+    "question": "Which model shows the flow of object interactions?",
+    "options": [
+      "A) Sequence model",
+      "B) Subsystem model",
+      "C) Dynamic model",
+      "D) Both Sequence and Dynamic model"
+    ],
+    "correct_answer": "A",
+    "explanation": "Sequence model are represented using a UML sequence or a collaboration diagram and are dynamic models."
+  },
+  {
+    "question": "If the system state is Shutdown then it can respond to which of the following message?",
+    "options": [
+      "A) restart()",
+      "B) reconfigure()",
+      "C) powerSave()",
+      "D) all of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "A restart() message causes a transition to normal operation. Both the powerSave() and reconfigure() messages cause a transition to a state in which the system reconfigures itself."
+  },
+  {
+    "question": "Which message is received so that the system moves to the Testing state, then the Transmitting state, before returning to the Running state?",
+    "options": [
+      "A) signalStatus()",
+      "B) remoteControl()",
+      "C) reconfigure()",
+      "D) reportStatus()"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "Open source development involves making the source code of a system publicly available.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "This means that many people can propose changes and improvements to the software."
+  },
+  {
+    "question": "Which of the following is not the primary objectives in the analysis model?",
+    "options": [
+      "A) describing the customer complaints",
+      "B) establishing a basis for the creation of a software design",
+      "C) defining a set of requirements that can be validated once the software is built",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "All the options are covered in analysis model."
+  },
+  {
+    "question": "A description of each function presented in the DFD is contained in a ________",
+    "options": [
+      "A) data flow",
+      "B) process specification",
+      "C) control specification",
+      "D) data store"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "Which diagram indicates the behaviour of the system as a consequence of external events?",
+    "options": [
+      "A) data flow diagram",
+      "B) state transition diagram",
+      "C) control specification diagram",
+      "D) workflow diagram"
+    ],
+    "correct_answer": "B",
+    "explanation": "The state transition diagram represents the various modes of behavior (called states) of the system and the manner in which transitions are made from state to state."
+  },
+  {
+    "question": "A data model contains",
+    "options": [
+      "A) data object",
+      "B) attributes",
+      "C) relationships",
+      "D) all of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "The data model consists of three interrelated pieces of information: the data object,\nthe attributes that describe the data object, and the relationships that connect data objects to one another."
+  },
+  {
+    "question": "_________ defines the properties of a data object and take on one of the three different characteristics.",
+    "options": [
+      "A) data object",
+      "B) attributes",
+      "C) relationships",
+      "D) data object and attributes"
+    ],
+    "correct_answer": "B",
+    "explanation": "They can be used to name an instance of the data object, describe the instance, or  make reference to another instance in another table."
+  },
+  {
+    "question": "The __________ of a relationship is 0 if there is no explicit need for the relationship to occur or the relationship is optional.",
+    "options": [
+      "A) modality",
+      "B) cardinality",
+      "C) entity",
+      "D) structured analysis"
+    ],
+    "correct_answer": "A",
+    "explanation": "The modality is 1 if an occurrence of the relationship is mandatory, else 0 for optional relationship."
+  },
+  {
+    "question": "A _________ is a graphical representation that depicts information flow and the transforms that are applied as data moves from input to output.",
+    "options": [
+      "A) data flow diagram",
+      "B) state transition diagram",
+      "C) control specification",
+      "D) workflow diagram"
+    ],
+    "correct_answer": "B",
+    "explanation": "The basic form of a data flow diagram, also known as a data flow graph or a bubble chart."
+  },
+  {
+    "question": "A data condition occurs whenever a data is passed to an input element followed by a processing element and the result in control output.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "Standard flow of condition check."
+  },
+  {
+    "question": "The __________ enables the software engineer to develop models of the information domain and functional domain at the same time",
+    "options": [
+      "A) data flow diagram",
+      "B) state transition diagram",
+      "C) control specification",
+      "D) activity diagram"
+    ],
+    "correct_answer": "A",
+    "explanation": "As the DFD is refined into greater levels of detail, the analyst performs an implicit functional decomposition of the system, thereby accomplishing the fourth operational analysis principle for function."
+  },
+  {
+    "question": "The __________ contains a state transition diagram that is a sequential specification of behavior.",
+    "options": [
+      "A) data flow diagram",
+      "B) state transition diagram",
+      "C) control specification",
+      "D) workflow diagram"
+    ],
+    "correct_answer": "C",
+    "explanation": "The control specification(CSPEC) describes the behavior of the system, but it gives us no information about the inner working of the processes that are activated as a result of this behavior ."
+  },
+  {
+    "question": "Which of the following is not a construct?",
+    "options": [
+      "A) sequence",
+      "B) condition",
+      "C) repetition",
+      "D) selection"
+    ],
+    "correct_answer": "D",
+    "explanation": "Sequence implements processing steps that are essential in the specification of any algorithm. Condition provides the facility for selected processing based on some logical occurrence, and repetition allows for looping."
+  },
+  {
+    "question": "Which of the following steps is applied to develop a decision table?",
+    "options": [
+      "A) List all actions that can be associated with a specific procedure",
+      "B) List all conditions during execution of the procedure",
+      "C) Define rules by indicating what action(s) occurs for a set of conditions",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "A decision table includes action stub and a condition stub with a set of rules."
+  },
+  {
+    "question": "_________ is a pidgin(simplified version of a language that develops as a means of communication between two or more groups that do not have a language in common)",
+    "options": [
+      "A) program design language",
+      "B) structured English",
+      "C) pseudocode",
+      "D) all of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "The difference between PDL and a real programming language lies in the use of narrative text embedded directly within PDL statements."
+  },
+  {
+    "question": "Which of the following term is best defined by the statement:”The ability to represent local and global data is an essential element of component-level design.”?",
+    "options": [
+      "A) Data representation",
+      "B) Logic verification",
+      "C) “Code-to” ability",
+      "D) Automatic processing"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "A software component",
+    "options": [
+      "A) Implements some functionality",
+      "B) Has explicit dependencies through provides and required interfaces",
+      "C) Communicates through its interfaces only",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "All the options identify with features of a software component."
+  },
+  {
+    "question": "Which diagram evolved from a desire to develop a procedural design representation that would not allow violation of the structured constructs?",
+    "options": [
+      "A) State transition diagram",
+      "B) Box diagram",
+      "C) ER diagram",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "A __________ executes the loop task first, then tests a condition and repeats the task until the condition fails.",
+    "options": [
+      "A) repeat until",
+      "B) condition",
+      "C) do while tests",
+      "D) if then-else"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "Which of the following is not a characteristics of box diagram?",
+    "options": [
+      "A) functional domain",
+      "B) arbitrary transfer of control is impossible",
+      "C) recursion is easy to represent",
+      "D) providing a notation that translates actions and conditions"
+    ],
+    "correct_answer": "D",
+    "explanation": "This functionality is covered by UML diagrams."
+  },
+  {
+    "question": "The________ is represented as two processing boxes connected by an line (arrow) of control.",
+    "options": [
+      "A) Repetition",
+      "B) Sequence",
+      "C) Condition",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "Which of the following term is best defined by the statement “Notation that can be input directly into a computer-based development system offers significant benefits.”?",
+    "options": [
+      "A) Machine readability",
+      "B) Maintainability",
+      "C) Structure enforcement",
+      "D) Overall simplicity"
+    ],
+    "correct_answer": "A",
+    "explanation": "Readability is processing input."
+  },
+  {
+    "question": "Which of the following is golden rule for interface design?",
+    "options": [
+      "A) Place the user in control",
+      "B) Reduce the user’s memory load",
+      "C) Make the interface consistent",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "These golden rules actually form the basis for a set of user interface design principles that guide this important software design activity."
+  },
+  {
+    "question": "Which of the following is not a design principle that allow the user to maintain control?",
+    "options": [
+      "A) Provide for flexible interaction",
+      "B) Allow user interaction to be interrupt-able and undo-able",
+      "C) Show technical internals from the casual user",
+      "D) Design for direct interaction with objects that appear on the screen"
+    ],
+    "correct_answer": "C",
+    "explanation": "The user interface should move the user into the virtual world of the application."
+  },
+  {
+    "question": "Which of the following is not a user interface design process?",
+    "options": [
+      "A) User, task, and environment analysis and modeling",
+      "B) Interface design",
+      "C) Knowledgeable, frequent users",
+      "D) Interface validation"
+    ],
+    "correct_answer": "C",
+    "explanation": "These are the end user for whom the product is being built."
+  },
+  {
+    "question": "When users are involved in complex tasks, the demand on __________ can be significant.",
+    "options": [
+      "A) short-term memory",
+      "B) shortcuts",
+      "C) objects that appear on the screen",
+      "D) all of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "The interface should be designed to reduce the requirement to remember past actions and results."
+  },
+  {
+    "question": "Which of the following option is not considered by the Interface design?",
+    "options": [
+      "A) the design of interfaces between software components",
+      "B) the design of interfaces between the software and human producers and consumers of information",
+      "C) the design of the interface between two computers",
+      "D) all of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "None"
+  },
+  {
+    "question": "A software might allow a user to interact via",
+    "options": [
+      "A) keyboard commands",
+      "B) mouse movement",
+      "C) voice recognition commands",
+      "D) all of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "All the mentioned input mediums are available today."
+  },
+  {
+    "question": "A software engineer designs the user interface by applying an iterative process that draws on predefined design principles.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "The statement is true."
+  },
+  {
+    "question": "What incorporates data, architectural, interface, and procedural representations of the software?",
+    "options": [
+      "A) design model",
+      "B) user’s model",
+      "C) mental image",
+      "D) system image"
+    ],
+    "correct_answer": "A",
+    "explanation": "The requirements specification may establish certain constraints that help to define the user of the system, but the interface design is often only incidental to the design model."
+  },
+  {
+    "question": "What establishes the profile of end-users of the system?",
+    "options": [
+      "A) design model",
+      "B) user’s model",
+      "C) mental image",
+      "D) system image"
+    ],
+    "correct_answer": "B",
+    "explanation": "To build an effective user interface, all design should begin with an understanding of the intended users, including their profiles of their age, physical abilities, education, etc."
+  },
+  {
+    "question": "What combines the outward manifestation of the computer-based system , coupled with all supporting information that describe system syntax and semantics?",
+    "options": [
+      "A) mental image",
+      "B) interface design",
+      "C) system image",
+      "D) interface validation"
+    ],
+    "correct_answer": "C",
+    "explanation": "When the system image and the system perception are coincident, users generally feel comfortable with the software and use it effectively."
+  },
+  {
+    "question": "What do you understand by V&V in software testing?",
+    "options": [
+      "A) Verified Version",
+      "B) Version Validation",
+      "C) Verification and Validation",
+      "D) Version Verification"
+    ],
+    "correct_answer": "C",
+    "explanation": "V&V generally refers to any activity that attempts to ensure that the software will function as required."
+  },
+  {
+    "question": "In static test techniques, behavioral and performance properties of the program are observed.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Static Analysis Techniques are based solely on the (manual or automated) examination of project documentation of software models and code."
+  },
+  {
+    "question": "Which granularity level of testing checks the behavior of module cooperation?",
+    "options": [
+      "A) Unit Testing",
+      "B) Integration Testing",
+      "C) Acceptance Testing",
+      "D) Regression Testing"
+    ],
+    "correct_answer": "B",
+    "explanation": "Integration testing is the phase in software testing in which individual software modules are combined and tested as a group."
+  },
+  {
+    "question": "Which test refers to the retesting of a unit, integration and system after modification, in order to ascertain that the change has not introduced new faults?",
+    "options": [
+      "A) Regression Test",
+      "B) Smoke Test",
+      "C) Alpha Test",
+      "D) Beta Test"
+    ],
+    "correct_answer": "A",
+    "explanation": "Regression test seeks to uncover new software bugs in existing functional and non-functional areas of a system after changes have been made to them."
+  },
+  {
+    "question": "Which of the following is a black box testing strategy?",
+    "options": [
+      "A) All Statements Coverage",
+      "B) Control Structure Coverage",
+      "C) Cause-Effect Graphs",
+      "D) All Paths Coverage"
+    ],
+    "correct_answer": "C",
+    "explanation": "Rest are test strategies of white box testing."
+  },
+  {
+    "question": "A set of inputs, execution preconditions and expected outcomes is known as a",
+    "options": [
+      "A) Test plan",
+      "B) Test case",
+      "C) Test document",
+      "D) Test Suite"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "In which test design each input is tested at both ends of its valid range and just outside its valid range?",
+    "options": [
+      "A) Boundary value testing",
+      "B) Equivalence class partitioning",
+      "C) Boundary value testing AND Equivalence class partitioning",
+      "D) Decision tables"
+    ],
+    "correct_answer": "A",
+    "explanation": "Boundary value analysis is a software testing technique in which tests are designed to include representatives of boundary values."
+  },
+  {
+    "question": "A white box test scales up well at different granularity levels of testing.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "A white box test is mostly applicable at unit and integration testing level."
+  },
+  {
+    "question": "When does the testing process stops?",
+    "options": [
+      "A) When resources (time and budget) are over",
+      "B) When some coverage is reached",
+      "C) When quality criterion is reached",
+      "D) Testing never ends"
+    ],
+    "correct_answer": "C",
+    "explanation": "As software testing is an exhaustive process, when the quality assurance is established and the product is ready to be delivered, testing is stopped."
+  },
+  {
+    "question": "Which of the following is not a part of a test design document?",
+    "options": [
+      "A) Test Plan",
+      "B) Test Design Specification",
+      "C) Test Case Specification",
+      "D) Test Log"
+    ],
+    "correct_answer": "D",
+    "explanation": "Test log is a part of testing result document."
+  },
+  {
+    "question": "Specifying a set of test cases or test paths for each item to be tested at that level is known as",
+    "options": [
+      "A) Test case generation",
+      "B) Test case design",
+      "C) ALL of the mentioned",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "Acceptance & system test planning are a part of architectural design.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "They are a part of requirements engineering, while integration & unit test planning come under architectural design."
+  },
+  {
+    "question": "PRD stands for",
+    "options": [
+      "A) Product Requirement Document",
+      "B) Project Requirement Document",
+      "C) Product Restrictions Document",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "A product requirements document (PRD) is a document written by a company that defines a product they are making, or the requirements for one or more new features for an existing product."
+  },
+  {
+    "question": "Which mechanism is applied to use a design pattern in an OO system?",
+    "options": [
+      "A) Inheritance",
+      "B) Composition",
+      "C) All of the mentioned",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "Using inheritance, an existing design pattern becomes a template for a new subclass.Composition is a concept that leads to aggregate objects."
+  },
+  {
+    "question": "Design patterns does not follow the concept of software reuse.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Design patterns allow the designer to create the system architecture by integrating reusable components."
+  },
+  {
+    "question": "The use of design patterns for the development of object-oriented software has important implications for",
+    "options": [
+      "A) Component-based software engineering",
+      "B) Reusability in general",
+      "C) All of the mentioned",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  }
+]

@@ -1,0 +1,552 @@
+[
+  {
+    "question": "The carry propagation can be expressed as ________",
+    "options": [
+      "A) Cp = AB",
+      "B) Cp = A + B",
+      "C) All but Y0 are LOW",
+      "D) All but Y0 are HIGH"
+    ],
+    "correct_answer": "B",
+    "explanation": "This happens in parallel adders (where we try to add numbers in parallel via more than one adders). A carry propagation occurs when carry from one adder needs to be forwarded to other adder and that second adder is holding the computation (addition) because carry from first adder has not come yet. So, there is a slight delay for second adder and this is known as carry propagation."
+  },
+  {
+    "question": "3 bits full adder contains ________",
+    "options": [
+      "A) 3 combinational inputs",
+      "B) 4 combinational inputs",
+      "C) 6 combinational inputs",
+      "D) 8 combinational inputs"
+    ],
+    "correct_answer": "D",
+    "explanation": "Full Adder is a combinational circuit with 3 input bits and 2 output bits CARRY and SUM. Three bits full adder requires 23 = 8 combinational circuits."
+  },
+  {
+    "question": "Latches constructed with NOR and NAND gates tend to remain in the latched condition due to which configuration feature?",
+    "options": [
+      "A) Low input voltages",
+      "B) Synchronous operation",
+      "C) Gate impedance",
+      "D) Cross coupling"
+    ],
+    "correct_answer": "D",
+    "explanation": "Latch is a type of bistable multivibrator having two stable states. Both inputs of a latch are directly connected to the other’s output. Such types of structure is called cross coupling and due to which latches remain in the latched condition."
+  },
+  {
+    "question": "One example of the use of an S-R flip-flop is as ___________",
+    "options": [
+      "A) Transition pulse generator",
+      "B) Racer",
+      "C) Switch debouncer",
+      "D) Astable oscillator"
+    ],
+    "correct_answer": "C",
+    "explanation": "The SR flip-flop is very effective in removing the effects of switch bounce, which is the unwanted noise caused during the switching of electronic devices."
+  },
+  {
+    "question": "The truth table for an S-R flip-flop has how many VALID entries?",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "correct_answer": "C",
+    "explanation": "The SR flip-flop actually has three inputs, Set, Reset and its current state. The Invalid or Undefined State occurs at both S and R being at 1."
+  },
+  {
+    "question": "When both inputs of a J-K flip-flop cycle, the output will ___________",
+    "options": [
+      "A) Be invalid",
+      "B) Change",
+      "C) Not change",
+      "D) Toggle"
+    ],
+    "correct_answer": "C",
+    "explanation": "After one cycle the value of each input comes to the same value. Eg: Assume J=0 and K=1. After 1 cycle, it becomes as J=0->1->0(1 cycle complete) and K=1->0->1(1 cycle complete). The J & K flip-flop has 4 stable states: Latch, Reset, Set and Toggle."
+  },
+  {
+    "question": "Which of the following is correct for a gated D-type flip-flop?",
+    "options": [
+      "A) The Q output is either SET or RESET as soon as the D input goes HIGH or LOW",
+      "B) The output complement follows the input when enabled",
+      "C) Only one of the inputs can be HIGH at a time",
+      "D) The output toggles if one of the inputs is held HIGH"
+    ],
+    "correct_answer": "C",
+    "explanation": "In D flip flop, when the clock is high then the output depends on the input otherwise reminds previous output. In a state of clock high, when D is high the output Q also high, if D is ‘0’ then output is also zero. Like SR flip-flop, the D-flip-flop also have an invalid state at both inputs being 1."
+  },
+  {
+    "question": "A basic S-R flip-flop can be constructed by cross-coupling of which basic logic gates?",
+    "options": [
+      "A) AND or OR gates",
+      "B) XOR or XNOR gates",
+      "C) NOR or NAND gates",
+      "D) AND or NOR gates"
+    ],
+    "correct_answer": "C",
+    "explanation": "The basic S-R flip-flop can be constructed by cross coupling of NOR or NAND gates. Cross coupling means the output of second gate is fed to the input of first gate and vice-versa."
+  },
+  {
+    "question": "The logic circuits whose outputs at any instant of time depends only on the present input but also on the past outputs are called ________________",
+    "options": [
+      "A) Combinational circuits",
+      "B) Sequential circuits",
+      "C) Latches",
+      "D) Flip-flops"
+    ],
+    "correct_answer": "B",
+    "explanation": "In sequential circuits, the output signals are fed back to the input side. So, The circuits whose outputs at any instant of time depends only on the present input but also on the past outputs are called sequential circuits. Unlike sequential circuits, if output depends only on the present state, then it’s known as combinational circuits."
+  },
+  {
+    "question": "Whose operations are more faster among the following?",
+    "options": [
+      "A) Combinational circuits",
+      "B) Sequential circuits",
+      "C) Latches",
+      "D) Flip-flops"
+    ],
+    "correct_answer": "A",
+    "explanation": "Combinational circuits are often faster than sequential circuits. Since the combinational circuits do not require memory elements whereas the sequential circuits need memory devices to perform their operations in sequence. Latches and Flip-flops come under sequential circuits."
+  },
+  {
+    "question": "How many types of sequential circuits are?",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "correct_answer": "A",
+    "explanation": "There are two type of sequential circuits viz., (i) synchronous or clocked and (ii) asynchronous or unclocked. Synchronous Sequential Circuits are triggered in the presence of a clock signal, whereas, Asynchronous Sequential Circuits function in the absence of a clock signal."
+  },
+  {
+    "question": "The sequential circuit is also called ___________",
+    "options": [
+      "A) Flip-flop",
+      "B) Latch",
+      "C) Strobe",
+      "D) Adder"
+    ],
+    "correct_answer": "B",
+    "explanation": "The sequential circuit is also called a latch because both are a memory cell, which are capable of storing one bit of information."
+  },
+  {
+    "question": "The basic latch consists of ___________",
+    "options": [
+      "A) Two inverters",
+      "B) Two comparators",
+      "C) Two amplifiers",
+      "D) Two adders"
+    ],
+    "correct_answer": "A",
+    "explanation": "The basic latch consists of two inverters. It is in the sense that if the output Q = 0 then the second output Q’ = 1 and vice versa."
+  },
+  {
+    "question": "In S-R flip-flop, if Q = 0 the output is said to be ___________",
+    "options": [
+      "A) Set",
+      "B) Reset",
+      "C) Previous state",
+      "D) Current state"
+    ],
+    "correct_answer": "B",
+    "explanation": "In S-R flip-flop, if Q = 0 the output is said to be reset and set for Q = 1."
+  },
+  {
+    "question": "The output of latches will remain in set/reset untill ___________",
+    "options": [
+      "A) The trigger pulse is given to change the state",
+      "B) Any pulse given to go into previous state",
+      "C) They don’t get any pulse more",
+      "D) The pulse is edge-triggered"
+    ],
+    "correct_answer": "A",
+    "explanation": "The output of latches will remain in set/reset untill the trigger pulse is given to change the state."
+  },
+  {
+    "question": "What is a trigger pulse?",
+    "options": [
+      "A) A pulse that starts a cycle of operation",
+      "B) A pulse that reverses the cycle of operation",
+      "C) A pulse that prevents a cycle of operation",
+      "D) A pulse that enhances a cycle of operation"
+    ],
+    "correct_answer": "A",
+    "explanation": "Trigger pulse is defined as a pulse that starts a cycle of operation."
+  },
+  {
+    "question": "The circuits of NOR based S-R latch classified as asynchronous sequential circuits, why?",
+    "options": [
+      "A) Because of inverted outputs",
+      "B) Because of triggering functionality",
+      "C) Because of cross-coupled connection",
+      "D) Because of inverted outputs & triggering functionality"
+    ],
+    "correct_answer": "C",
+    "explanation": "The cross-coupled connections from the output of one gate to the input of the other gate constitute a feedback path. For this reason, the circuits of NOR based S-R latch classified as asynchronous sequential circuits. Moreover, they are referred to as asynchronous because they function in the absence of a clock pulse."
+  },
+  {
+    "question": "Modulus refers to ____________",
+    "options": [
+      "A) A method used to fabricate decade counter units",
+      "B) The modulus of elasticity, or the ability of a circuit to be stretched from one mode to another",
+      "C) An input on a counter that is used to set the counter state, such as UP/DOWN",
+      "D) The maximum number of states in a counter sequence"
+    ],
+    "correct_answer": "D",
+    "explanation": "Modulus is defined as the maximum number of stages/states a counter has. It is independent of the number of states the counter will actually traverse."
+  },
+  {
+    "question": "A sequential circuit design is used to ____________",
+    "options": [
+      "A) Count up",
+      "B) Count down",
+      "C) Decode an end count",
+      "D) Count in a random order"
+    ],
+    "correct_answer": "D",
+    "explanation": "A sequential circuit design is used to count in a random manner which is faster than the combinational circuit. It is used for storing data."
+  },
+  {
+    "question": "In general, when using a scope to troubleshoot digital systems, the instrument should be triggered by ____________",
+    "options": [
+      "A) The A channel or channel 1",
+      "B) The vertical input mode, when using more than one channel",
+      "C) The system clock",
+      "D) Line sync, in order to observe troublesome power line glitches"
+    ],
+    "correct_answer": "C",
+    "explanation": "All the information is sent from one end to another end through the clock pulse which behaves like a carrier. So, for troubleshooting it should be triggered by the same. Since the system clock is internally produced."
+  },
+  {
+    "question": "Which counters are often used whenever pulses are to be counted and the results displayed in decimal?",
+    "options": [
+      "A) Synchronous",
+      "B) Bean",
+      "C) Decade",
+      "D) BCD"
+    ],
+    "correct_answer": "D",
+    "explanation": "BCD means Binary Coded Decimal, which means that decimal numbers coded of binary numbers. It displays the decimal equivalent of corresponding binary numbers."
+  },
+  {
+    "question": "The ________ counter in the Altera library has controls that allow it to count up or down, and perform synchronous parallel load and asynchronous cascading.",
+    "options": [
+      "A) 74134",
+      "B) LPM",
+      "C) Synchronous",
+      "D) AHDL"
+    ],
+    "correct_answer": "B",
+    "explanation": "The library of parameterized modules (LPM) counter in the Altera library has controls that allow it to count up or down, and perform synchronous parallel load and asynchronous cascading."
+  },
+  {
+    "question": "The minimum number of flip-flops that can be used to construct a modulus-5 counter is ____________",
+    "options": [
+      "A) 3",
+      "B) 8",
+      "C) 5",
+      "D) 10"
+    ],
+    "correct_answer": "A",
+    "explanation": "The minimum number of flip-flops used in a counter is given by: 2(n-1)<=N<=2n.\nThus, for modulus-5 counter: 22 <= N <= 23, where N = 5 and n = 3."
+  },
+  {
+    "question": "The duty cycle of the most significant bit from a 4-bit (0–9) BCD counter is ____________",
+    "options": [
+      "A) 20%",
+      "B) 50%",
+      "C) 10%",
+      "D) 80%"
+    ],
+    "correct_answer": "A",
+    "explanation": "There are 10 states, out of which MSB is high only for (1000, 1001) 2 times. Hence duty cycle is 2/10*100 = 20%. Since the duty cycle is the ratio of on-time to the total time."
+  },
+  {
+    "question": "Normally, the synchronous counter is designed using ____________",
+    "options": [
+      "A) S-R flip-flops",
+      "B) J-K flip-flops",
+      "C) D flip-flops",
+      "D) T flip-flops"
+    ],
+    "correct_answer": "B",
+    "explanation": "Since J-K flip-flops have options of recovery from toggle condition and by using less number of J-K flip-flops a synchronous counter can be designed. So, it is more preferred. Also, because JK-flip-flops resolves the problem of Forbidden States."
+  },
+  {
+    "question": "MOD-16 counter requires ________ no. of states.",
+    "options": [
+      "A) 8",
+      "B) 4",
+      "C) 16",
+      "D) 32"
+    ],
+    "correct_answer": "C",
+    "explanation": "2n >= N >= 2(n-1), by using this formula we get the value of N=16 for n=4."
+  },
+  {
+    "question": "What is a state diagram?",
+    "options": [
+      "A) It provides the graphical representation of states",
+      "B) It provides exactly the same information as the state table",
+      "C) It is same as the truth table",
+      "D) It is similar to the characteristic equation"
+    ],
+    "correct_answer": "B",
+    "explanation": "The state diagram provides exactly the same information as the state table and is obtained directly from the state table."
+  },
+  {
+    "question": "High speed counter is ____________",
+    "options": [
+      "A) Ring counter",
+      "B) Ripple counter",
+      "C) Synchronous counter",
+      "D) Asynchronous counter"
+    ],
+    "correct_answer": "C",
+    "explanation": "Synchronous counter doesn’t have propagation delay. Propagation delay refers to the amount of time taken in producing the output when the input is altered."
+  },
+  {
+    "question": "Program counter in a digital computer ____________",
+    "options": [
+      "A) Counts the number of programs run in the machine",
+      "B) Counts the number of times a subroutine",
+      "C) Counts the number of time the loops are executed",
+      "D) Points the memory address of the current or the next instruction"
+    ],
+    "correct_answer": "D",
+    "explanation": "Program counter in a digital computer points the memory address of the current or the next instruction which is to be executed."
+  },
+  {
+    "question": "Fundamental mode is another name for ____________",
+    "options": [
+      "A) Level operation",
+      "B) Pulse operation",
+      "C) Clock operation",
+      "D) Edge operation"
+    ],
+    "correct_answer": "B",
+    "explanation": "Whatever the input given to the devices are in the form of pulses always. That is why it is known as a fundamental mode."
+  },
+  {
+    "question": "Ring shift and Johnson counters are ____________",
+    "options": [
+      "A) Synchronous counters",
+      "B) Asynchronous counters",
+      "C) True binary counters",
+      "D) Synchronous and true binary counters"
+    ],
+    "correct_answer": "A",
+    "explanation": "Synchronous counters are the counters being triggered in the presence of a clock pulse. Since all of the clock inputs are connected through a single clock pulse in ring shift and johnson counters. So, both are synchronous counters."
+  },
+  {
+    "question": "What is the difference between a shift-right register and a shift-left register?",
+    "options": [
+      "A) There is no difference",
+      "B) The direction of the shift",
+      "C) Propagation delay",
+      "D) The clock input"
+    ],
+    "correct_answer": "B",
+    "explanation": "In shift-right register, shifting of bit takes place towards the right and towards left for shift-left register. Thus, both the registers vary in the shifting of their direction."
+  },
+  {
+    "question": "What is a transceiver circuit?",
+    "options": [
+      "A) A buffer that transfers data from input to output",
+      "B) A buffer that transfers data from output to input",
+      "C) A buffer that can operate in both directions",
+      "D) A buffer that can operate in one direction"
+    ],
+    "correct_answer": "C",
+    "explanation": "A transceiver circuit is a buffer that can operate in both directions right as well as left."
+  },
+  {
+    "question": "A 74HC195 4-bit parallel access shift register can be used for ____________",
+    "options": [
+      "A) Serial in/serial out operation",
+      "B) Serial in/parallel out operation",
+      "C) Parallel in/serial out operation",
+      "D) All of the Mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "74HC195 is an IC, which can be used for all of the given operations, as well as for, parallel-in/parallel-out."
+  },
+  {
+    "question": "Which type of device may be used to interface a parallel data format with external equipment’s serial format?",
+    "options": [
+      "A) UART",
+      "B) Key matrix",
+      "C) Memory chip",
+      "D) Series in Parallel out"
+    ],
+    "correct_answer": "A",
+    "explanation": "UART means Universal Asynchronous Receiver/Transmitter which converts the bytes it receives from the computer along parallel circuits into a single serial bit stream for outbound transmission. And also receives data in serial form and converts it into parallel form and sent to the processor."
+  },
+  {
+    "question": "What is the function of a buffer circuit?",
+    "options": [
+      "A) To provide an output that is inverted from that on the input",
+      "B) To provide an output that is equal to its input",
+      "C) To clean up the input",
+      "D) To clean up the output"
+    ],
+    "correct_answer": "B",
+    "explanation": "The function of a buffer circuit is to provide an output that is equal to its input. A transceiver circuit is a buffer that can operate in both directions right as well as left."
+  },
+  {
+    "question": "What is the preset condition for a ring shift counter?",
+    "options": [
+      "A) All FFs set to 1",
+      "B) All FFs cleared to 0",
+      "C) A single 0, the rest 1",
+      "D) A single 1, the rest 0"
+    ],
+    "correct_answer": "D",
+    "explanation": "A ring shift counter is a counter in which the output of one FF connected to the input of the adjacent FF. In preset condition, all of the bits are 0 except first one."
+  },
+  {
+    "question": "Which is not characteristic of a shift register?",
+    "options": [
+      "A) Serial in/parallel in",
+      "B) Serial in/parallel out",
+      "C) Parallel in/serial out",
+      "D) Parallel in/parallel out"
+    ],
+    "correct_answer": "A",
+    "explanation": "There is no such type of register present who doesn’t have output end. Thus, Serial in/Parallel in is not a characteristic of a shift register. There has to be an output, be it serial or parallel."
+  },
+  {
+    "question": "To keep output data accurate, 4-bit series-in, parallel-out shift registers employ a ____________",
+    "options": [
+      "A) Divide-by-4 clock pulse",
+      "B) Sequence generator",
+      "C) Strobe line",
+      "D) Multiplexer"
+    ],
+    "correct_answer": "C",
+    "explanation": "In computer or memory technology, a strobe is a signal that is sent that validates data or other signals on adjacent parallel lines. Thus, in registers the strobe line is there to check the availability of data."
+  },
+  {
+    "question": "Another way to connect devices to a shared data bus is to use a ____________",
+    "options": [
+      "A) Circulating gate",
+      "B) Transceiver",
+      "C) Bidirectional encoder",
+      "D) Strobed latch"
+    ],
+    "correct_answer": "B",
+    "explanation": "A transceiver is a device comprising both a transmitter and a receiver which are combined and share common circuitry or a single housing. When no circuitry is common between transmit and receive functions, the device is a transmitter-receiver."
+  },
+  {
+    "question": "The full form of ROM is __________",
+    "options": [
+      "A) Read Outside Memory",
+      "B) Read Out Memory",
+      "C) Read Only Memory",
+      "D) Read One Memory"
+    ],
+    "correct_answer": "C",
+    "explanation": "The full form of ROM is Read Only Memory."
+  },
+  {
+    "question": "ROM consist of __________",
+    "options": [
+      "A) NOR and OR arrays",
+      "B) NAND and NOR arrays",
+      "C) NAND and OR arrays",
+      "D) NOR and AND arrays"
+    ],
+    "correct_answer": "C",
+    "explanation": "ROM consists of NAND and OR arrays which can be programmed by the user to implement combinational & sequential functions. Combinational Operations like that of adders and subtractors and Sequential Functions like that of storing in the memory."
+  },
+  {
+    "question": "For reprogrammability, PLDs use __________",
+    "options": [
+      "A) PROM",
+      "B) EPROM",
+      "C) CDROM",
+      "D) PLA"
+    ],
+    "correct_answer": "B",
+    "explanation": "For reprogrammability, PLDs use EPROM (i.e. Erasable PROM). It erases the previous program and starts uploading a new one. However, data is erased by exposing it to UV-light, which is a tedious and time-consuming process."
+  },
+  {
+    "question": "The full form of PROM is __________",
+    "options": [
+      "A) Previous Read Only Memory",
+      "B) Programmable Read Out Memory",
+      "C) Programmable Read Only Memory",
+      "D) Previous Read Out Memory"
+    ],
+    "correct_answer": "C",
+    "explanation": "The full form of PROM is Programmable Read Only Memory, where the ROM can be programmed by the user."
+  },
+  {
+    "question": "The full form of EPROM is __________",
+    "options": [
+      "A) Easy Programmable Read Only Memory",
+      "B) Erasable Programmable Read Only Memory",
+      "C) Eradicate Programmable Read Only Memory",
+      "D) Easy Programmable Read Out Memory"
+    ],
+    "correct_answer": "B",
+    "explanation": "The full form of EPROM is Erasable Programmable Read Only Memory, where the ROM can be erased and re-used by the user."
+  },
+  {
+    "question": "PLDs with programmable AND and fixed OR arrays are called __________",
+    "options": [
+      "A) PAL",
+      "B) PLA",
+      "C) APL",
+      "D) PPL"
+    ],
+    "correct_answer": "A",
+    "explanation": "PLDs with programmable AND and fixed OR arrays are called PAL (i.e. Programmable Array Logic). However, PAL is less flexible but has higher speed."
+  },
+  {
+    "question": "When both the AND and OR are programmable, such PLDs are known as __________",
+    "options": [
+      "A) PAL",
+      "B) PPL",
+      "C) PLA",
+      "D) APL"
+    ],
+    "correct_answer": "C",
+    "explanation": "When both the AND and OR are programmable, such PLDs are known as PLA (i.e. Programmable Logic Array). However, PLA is more flexible but has less speed."
+  },
+  {
+    "question": "ASIC stands for __________",
+    "options": [
+      "A) Application Special Integrated Circuits",
+      "B) Applied Special Integrated Circuits",
+      "C) Application Specific Integrated Circuits",
+      "D) Applied Specific Integrated Circuits"
+    ],
+    "correct_answer": "C",
+    "explanation": "In digital electronics, ASIC stands for Application Specific Integrated Circuits. It is a customized integrated circuit which is produced for a specific use and not for a common-purpose."
+  },
+  {
+    "question": "The programmability and high density of PLDs make them useful in the design of __________",
+    "options": [
+      "A) ISAC",
+      "B) ASIC",
+      "C) SACC",
+      "D) CISF"
+    ],
+    "correct_answer": "B",
+    "explanation": "The programmability and high density of PLDs make them useful in the design of ASIC (i.e. Application Specific Integrated Circuits) where design changes can be more rapidly and inexpensively."
+  },
+  {
+    "question": "FPGA stands for __________",
+    "options": [
+      "A) Full Programmable Gate Array",
+      "B) Full Programmable Genuine Array",
+      "C) First Programmable Gate Array",
+      "D) Field Programmable Gate Array"
+    ],
+    "correct_answer": "D",
+    "explanation": "In digital electronics, FPGA stands for Field Programmable Gate Array. This type of integrated circuit is for general-purpose which is configured by the user as per their requirement."
+  }
+]

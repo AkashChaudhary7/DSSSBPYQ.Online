@@ -1,0 +1,552 @@
+[
+  {
+    "question": "The time to process the remote backup can be reduced by",
+    "options": [
+      "A) Flags",
+      "B) Breakpoints",
+      "C) Redo points",
+      "D) Checkpoints"
+    ],
+    "correct_answer": "A",
+    "explanation": "If the log at the remote backup grows large, recovery will take a long time. The remote backup site can periodically process the redo log records that it has received and can perform a checkpoint, so that earlier parts of the log can be deleted."
+  },
+  {
+    "question": "A _______________ configuration can make takeover by the backup site almost instantaneous.",
+    "options": [
+      "A) Hot-spare",
+      "B) Remote",
+      "C) Direct",
+      "D) Spare"
+    ],
+    "correct_answer": "A",
+    "explanation": "In this configuration, the remote backup site continually processes redo log records as they arrive, applying the updates locally.\n\n    advertisement"
+  },
+  {
+    "question": "A transaction commits as soon as its commit log record is written to stable storage at the primary site. This is",
+    "options": [
+      "A) One Safe",
+      "B) Two Safe",
+      "C) Two-very Safe",
+      "D) Very Safe"
+    ],
+    "correct_answer": "A",
+    "explanation": "The problem with this scheme is that the updates of a committed transaction may not have made it to the backup site, when the backup site takes over processing."
+  },
+  {
+    "question": "A transaction commits as soon as its commit log record is written to stable storage at the primary and the backup site. This is",
+    "options": [
+      "A) One Safe",
+      "B) Two Safe",
+      "C) Two-very Safe",
+      "D) Very Safe"
+    ],
+    "correct_answer": "A",
+    "explanation": "The problem with this scheme is that transaction processing cannot proceed if either the primary or the backup site is down."
+  },
+  {
+    "question": "If only the primary is active, the transaction is allowed to commit as soon as its commit log record is written to stable storage at the primary site. This is",
+    "options": [
+      "A) One Safe",
+      "B) Two Safe",
+      "C) Two-very Safe",
+      "D) Very Safe"
+    ],
+    "correct_answer": "A",
+    "explanation": "This scheme provides better availability than does two-very-safe, while avoiding the problem of lost transactions faced by the one-safe scheme."
+  },
+  {
+    "question": "Which of the following gives a logical structure of the database graphically?",
+    "options": [
+      "A) Entity-relationship diagram",
+      "B) Entity diagram",
+      "C) Database diagram",
+      "D) Architectural representation"
+    ],
+    "correct_answer": "A",
+    "explanation": "E-R diagrams are simple and clear—qualities that may well account in large part for the widespread use of the E-R model."
+  },
+  {
+    "question": "The entity relationship set is represented in E-R diagram as",
+    "options": [
+      "A) Double diamonds",
+      "B) Undivided rectangles",
+      "C) Dashed lines",
+      "D) Diamond"
+    ],
+    "correct_answer": "A",
+    "explanation": "Dashed lines link attributes of a relationship set to the relationship set."
+  },
+  {
+    "question": "The Rectangles divided into two parts represents",
+    "options": [
+      "A) Entity set",
+      "B) Relationship set",
+      "C) Attributes of a relationship set",
+      "D) Primary key"
+    ],
+    "correct_answer": "A",
+    "explanation": "The first part of the rectangle, contains the name of the entity set. The second part contains the names of all the attributes of the entity set.\n\nadvertisement"
+  },
+  {
+    "question": "Consider a directed line(->) from the relationship set advisor to both entity sets instructor and student. This indicates _________ cardinality",
+    "options": [
+      "A) One to many",
+      "B) One to one",
+      "C) Many to many",
+      "D) Many to one"
+    ],
+    "correct_answer": "A",
+    "explanation": "This indicates that an instructor may advise at most one student, and a student may have at most one advisor."
+  },
+  {
+    "question": "We indicate roles in E-R diagrams by labeling the lines that connect ___________ to __________",
+    "options": [
+      "A) Diamond , diamond",
+      "B) Rectangle, diamond",
+      "C) Rectangle, rectangle",
+      "D) Diamond, rectangle"
+    ],
+    "correct_answer": "A",
+    "explanation": "Diamond represents a relationship set and rectangle represents a entity set.\n \n\n\n    🎓 Free Certifications on 300 subjects are live for August 2026. Register Now!"
+  },
+  {
+    "question": "An entity set that does not have sufficient attributes to form a primary key is termed a __________",
+    "options": [
+      "A) Strong entity set",
+      "B) Variant set",
+      "C) Weak entity set",
+      "D) Variable set"
+    ],
+    "correct_answer": "A",
+    "explanation": "An entity set that has a primary key is termed a strong entity set."
+  },
+  {
+    "question": "For a weak entity set to be meaningful, it must be associated with another entity set, called the",
+    "options": [
+      "A) Identifying set",
+      "B) Owner set",
+      "C) Neighbour set",
+      "D) Strong entity set"
+    ],
+    "correct_answer": "A",
+    "explanation": "Every weak entity must be associated with an identifying entity; that is, the weak entity set is said to be existence dependent on the identifying entity set. The identifying entity set is said to own the weak entity set that it identifies. It is also called as owner entity set.\n\n    advertisement"
+  },
+  {
+    "question": "Weak entity set is represented as",
+    "options": [
+      "A) Underline",
+      "B) Double line",
+      "C) Double diamond",
+      "D) Double rectangle"
+    ],
+    "correct_answer": "A",
+    "explanation": "Weak entity set is represented as a double rectangle in entity relationship diagram."
+  },
+  {
+    "question": "If you were collecting and storing information about your music collection, an album would be considered a(n) _____",
+    "options": [
+      "A) Relation",
+      "B) Entity",
+      "C) Instance",
+      "D) Attribute"
+    ],
+    "correct_answer": "A",
+    "explanation": "An entity set is a logical container for instances of an entity type and instances of any type derived from that entity type."
+  },
+  {
+    "question": "What term is used to refer to a specific record in your music database; for instance; information stored about a specific album?",
+    "options": [
+      "A) Relation",
+      "B) Instance",
+      "C) Table",
+      "D) Column"
+    ],
+    "correct_answer": "A",
+    "explanation": "The environment of database is said to be an instance. A database instance or an ‘instance’ is made up of the background processes needed by the database."
+  },
+  {
+    "question": "In the __________ normal form, a composite attribute is converted to individual attributes.",
+    "options": [
+      "A) First",
+      "B) Second",
+      "C) Third",
+      "D) Fourth"
+    ],
+    "correct_answer": "A",
+    "explanation": "The first normal form is used to eliminate the duplicate information."
+  },
+  {
+    "question": "A table on the many side of a one to many or many to many relationship must:",
+    "options": [
+      "A) Be in Second Normal Form (2NF)",
+      "B) Be in Third Normal Form (3NF)",
+      "C) Have a single attribute key",
+      "D) Have a composite key"
+    ],
+    "correct_answer": "A",
+    "explanation": "The relation in second normal form is also in first normal form and no partial dependencies on any column in primary key."
+  },
+  {
+    "question": "Tables in second normal form (2NF):",
+    "options": [
+      "A) Eliminate all hidden dependencies",
+      "B) Eliminate the possibility of a insertion anomalies",
+      "C) Have a composite key",
+      "D) Have all non key fields depend on the whole primary key"
+    ],
+    "correct_answer": "A",
+    "explanation": "The relation in second normal form is also in first normal form and no partial dependencies on any column in primary key. \n\nadvertisement"
+  },
+  {
+    "question": "Which-one ofthe following statements about normal forms is FALSE?",
+    "options": [
+      "A) BCNF is stricter than 3 NF",
+      "B) Lossless, dependency -preserving decomposition into 3 NF is always possible",
+      "C) Loss less, dependency – preserving decomposition into BCNF is always possible",
+      "D) Any relation with two attributes is BCNF"
+    ],
+    "correct_answer": "A",
+    "explanation": "We say that the decomposition is a lossless decomposition if there is no loss of information by replacing r (R) with two relation schemas r1(R1) andr2(R2)."
+  },
+  {
+    "question": "Functional Dependencies are the types of constraints that are based on______",
+    "options": [
+      "A) Key",
+      "B) Key revisited",
+      "C) Superset key",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Key is the basic element needed for the constraints.\n \n\n\n    🎓 Register Today for Free C++ Certification - August 2026"
+  },
+  {
+    "question": "Which is a bottom-up approach to database design that design by examining the relationship between attributes:",
+    "options": [
+      "A) Functional dependency",
+      "B) Database modeling",
+      "C) Normalization",
+      "D) Decomposition"
+    ],
+    "correct_answer": "A",
+    "explanation": "Normalisation is the process of removing redundancy and unwanted data."
+  },
+  {
+    "question": "Which forms simplifies and ensures that there are minimal data aggregates and repetitive groups:",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "The first normal form is used to eliminate the duplicate information. \n\n    advertisement"
+  },
+  {
+    "question": "Which forms has a relation that possesses data about an individual entity:",
+    "options": [
+      "A) 2NF",
+      "B) 3NF",
+      "C) 4NF",
+      "D) 5NF"
+    ],
+    "correct_answer": "A",
+    "explanation": "A Table is in 4NF if and only if, for every one of its non-trivial multivalued dependencies X \\twoheadrightarrow Y, X is a superkey—that is, X is either a candidate key or a superset thereof."
+  },
+  {
+    "question": "Which forms are based on the concept of functional dependency:",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) 4NF"
+    ],
+    "correct_answer": "A",
+    "explanation": "The table is in 3NF if every non-prime attribute of R is non-transitively dependent (i.e. directly dependent) on every superkey of R."
+  },
+  {
+    "question": "Empdt1(empcode, name, street, city, state, pincode).\nFor any pincode, there is only one city and state. Also, for given street, city and state, there is just one pincode. In normalization terms, empdt1 is a relation in\n\nEmpdt1(empcode, name, street, city, state, pincode).",
+    "options": [
+      "A) 1 NF only",
+      "B) 2 NF and hence also in 1 NF",
+      "C) 3NF and hence also in 2NF and 1NF",
+      "D) BCNF and hence also in 3NF, 2NF and 1NF"
+    ],
+    "correct_answer": "A",
+    "explanation": "The relation in second normal form is also in first normal form and no partial dependencies on any column in primary key."
+  },
+  {
+    "question": "___________ is widely used today for protecting data in transit in a variety of applications such as data transfer on the Internet, and on cellular phone networks.",
+    "options": [
+      "A) Encryption",
+      "B) Data mining",
+      "C) Internet Security",
+      "D) Architectural security"
+    ],
+    "correct_answer": "A",
+    "explanation": "Encryption is also used to carry out other tasks, such as authentication."
+  },
+  {
+    "question": "In a database where the encryption is applied the data is cannot be handled by the unauthorised user without",
+    "options": [
+      "A) Encryption key",
+      "B) Decryption key",
+      "C) Primary key",
+      "D) Authorised key"
+    ],
+    "correct_answer": "A",
+    "explanation": "Even if the message is intercepted by an enemy, the enemy, not knowing the key, will not be able to decrypt and understand the message."
+  },
+  {
+    "question": "Which of the following is not a property of good encryption technique?",
+    "options": [
+      "A) Relatively simple for authorized users to encrypt and decrypt data",
+      "B) Decryption key is extremely difficult for an intruder to determine",
+      "C) Encryption depends on a parameter of the algorithm called the encryption key",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Here a, b and c are the properties have to be present in a good design of an encryption technique. \n\nadvertisement"
+  },
+  {
+    "question": "In which of the following encryption key is used to encrypt and decrypt the data?",
+    "options": [
+      "A) Public key",
+      "B) Private key",
+      "C) Symmetric key",
+      "D) Asymmetric key"
+    ],
+    "correct_answer": "A",
+    "explanation": "In public-key (also known as asymmetric-key) encryption techniques, there are two different keys, the public key and the private key, used to encrypt and decrypt the data."
+  },
+  {
+    "question": "Encryption of small values, such as identifiers or names, is made complicated by the possibility of __________",
+    "options": [
+      "A) Dictionary attacks",
+      "B) Database attacks",
+      "C) Minor attacks",
+      "D) Random attacks"
+    ],
+    "correct_answer": "A",
+    "explanation": "This happens when particularly if the encryption key is publicly available. \n \n\n\n    👉 Join  classes at Telegram or Youtube"
+  },
+  {
+    "question": "Which one of the following uses a 128bit round key to encrypt the data using XOR and use it in reverse to decrypt it?",
+    "options": [
+      "A) Round key algorithm",
+      "B) Public key algorithm",
+      "C) Advanced Encryption Standard",
+      "D) Asymmetric key algorithm"
+    ],
+    "correct_answer": "A",
+    "explanation": "The standard is based on the Rijndael algorithm."
+  },
+  {
+    "question": "Which of the following requires no password travel across the internet?",
+    "options": [
+      "A) Readable system",
+      "B) Manipulation system",
+      "C) Challenge–response system",
+      "D) Response system"
+    ],
+    "correct_answer": "A",
+    "explanation": "The database system sends a challenge string to the user. The user encrypts the challenge string using a secret password as encryption key and then returns the result. The database system can verify the authenticity of the user by decrypting the string with the same secret password and checking the result with the original challenge string. \n\n    advertisement"
+  },
+  {
+    "question": "Assymmetric Encryption: Why can a message encrypted with the Public Key only be decrypted with the receiver’s appropriate Private Key?",
+    "options": [
+      "A) Not true, the message can also be decrypted with the Public Key",
+      "B) A so called “one way function with back door” is applied for the encryption",
+      "C) The Public Key contains a special function which is used to encrypt the message and which can only be reversed by the appropriate Private Key",
+      "D) The encrypted message contains the function for decryption which identifies the Private Key"
+    ],
+    "correct_answer": "A",
+    "explanation": "An one-way function is a function which a computer can calculate quickly, but whose reversal would last months or years. An one-way function with back door can be reversed with the help of a couple of additional information (the back door), but scarcely without this information. The information for the back door is contained in the private Key."
+  },
+  {
+    "question": "Which is the largest disadvantage of symmetric Encryption?",
+    "options": [
+      "A) More complex and therefore more time-consuming calculations",
+      "B) Problem of the secure transmission of the Secret Key",
+      "C) Less secure encryption function",
+      "D) Isn’t used any more"
+    ],
+    "correct_answer": "A",
+    "explanation": "As there is only one key in the symmetrical encryption, this must be known by both sender and recipient and this key is sufficient to decrypt the secret message. Therefore it must be exchanged between sender and receiver in such a manner that an unauthorized person can in no case take possession of it."
+  },
+  {
+    "question": "Which is the principle of the encryption using a key?",
+    "options": [
+      "A) The key indicates which function is used for encryption. Thereby it is more difficult to decrypt an intercepted message as the function is unknown",
+      "B) The key contains the secret function for encryption including parameters. Only a password can activate the key",
+      "C) All functions are public, only the key is secret. It contains the parameters used for the encryption resp. decryption",
+      "D) The key prevents the user of having to reinstall the software at each change in technology or in the functions for encryption"
+    ],
+    "correct_answer": "A",
+    "explanation": "The encoding of a message is calculated by an algorithm. If always the same algorithm would be used, it would be easy to crack intercepted messages. However, it isn’t possible to invent a new algorithm whenever the old one was cracked, therefore the possibility to parameterize algorithms is needed and this is the assignment of the key. "
+  },
+  {
+    "question": "The most recent version of standard SQL prescribed by the American National Standards Institute is",
+    "options": [
+      "A) SQL 2016",
+      "B) SQL 2002",
+      "C) SQL – 4",
+      "D) SQL2"
+    ],
+    "correct_answer": "A",
+    "explanation": "SQL-2016 is the most recent version of standard SQL prescribed by the ANSI."
+  },
+  {
+    "question": "ANSI-standard SQL allows the use of special operators in conjunction with the WHERE clause.  A special operator used to check whether an attribute value is null is",
+    "options": [
+      "A) BETWEEN",
+      "B) IS NULL",
+      "C) LIKE",
+      "D) IN"
+    ],
+    "correct_answer": "A",
+    "explanation": "Exists is used to check whether an attribute value is null or not in conjunction with the where clause."
+  },
+  {
+    "question": "A lock that prevents the use of any tables in the database from one transaction while another transaction is being processed is called a",
+    "options": [
+      "A) Database-level lock",
+      "B) Table-level lock",
+      "C) Page-level lock",
+      "D) Row-level lock"
+    ],
+    "correct_answer": "A",
+    "explanation": "Data base-level lock prevents the use of any tables in the data base from one transaction while another transaction is being processed.\n\nadvertisement"
+  },
+  {
+    "question": "A condition that occurs when two transactions wait for each other to unlock data is known as a(n)",
+    "options": [
+      "A) Shared lock",
+      "B) Exclusive lock",
+      "C) Binary lock",
+      "D) Deadlock"
+    ],
+    "correct_answer": "A",
+    "explanation": "Deadlock occurs when two transactions wait for each other to unlock data."
+  },
+  {
+    "question": "_______ means that data used during the execution of a transaction cannot be used by a second transaction until the first one is completed.",
+    "options": [
+      "A) Serializability",
+      "B) Atomicity",
+      "C) Isolation",
+      "D) Time stamping"
+    ],
+    "correct_answer": "A",
+    "explanation": "Isolation means that data used during the execution of a transaction can’t be used by a second transaction until the first one is completed.\n \n\n\n    🎓 Register Today for Free C++ Certification - August 2026"
+  },
+  {
+    "question": "Which of the following is not true about B+ trees?",
+    "options": [
+      "A) B+ tree index takes the form of balanced tree",
+      "B) Performance of B+ tree degrades as the file grows",
+      "C) Look-up in B+ tree is straightforward and efficient",
+      "D) Insertion and deletion in B+ tree is complicated but efficient"
+    ],
+    "correct_answer": "A",
+    "explanation": "The answer is evident."
+  },
+  {
+    "question": "The extent of the database resource that is included with each lock is called the level of",
+    "options": [
+      "A) Impact",
+      "B) Granularity",
+      "C) Management",
+      "D) DBMS control"
+    ],
+    "correct_answer": "A",
+    "explanation": "The extent of the data base resource that is included with each lock is called the level of Granularity."
+  },
+  {
+    "question": "DBMS periodically suspends all processing and synchronizes its files and journals through the use of",
+    "options": [
+      "A) Checkpoint facility",
+      "B) Backup facility",
+      "C) Recovery manager",
+      "D) Database change log"
+    ],
+    "correct_answer": "A",
+    "explanation": "DBMS periodically suspends all processing and synchronizes its files and journals through the use of  Check point facility."
+  },
+  {
+    "question": "Snapshot isolation is a particular type of ______________ scheme.",
+    "options": [
+      "A) Concurrency-control",
+      "B) Concurrency-allowance",
+      "C) Redirection",
+      "D) Repetition-allowance"
+    ],
+    "correct_answer": "A",
+    "explanation": "It has gained wide acceptance in commercial and open-source systems, including Oracle, PostgreSQL, and SQL Server."
+  },
+  {
+    "question": "Snapshot isolation is used to give",
+    "options": [
+      "A) Transaction a snapshot of the database",
+      "B) Database a snapshot of the transaction",
+      "C) Database a snapshot of committed values in the transaction",
+      "D) Transaction a snapshot of the database and Database a snapshot of committed values in the transaction"
+    ],
+    "correct_answer": "A",
+    "explanation": "The data values in the snapshot consist only of values written by committed transactions."
+  },
+  {
+    "question": "Lost update problem is",
+    "options": [
+      "A) Second update overwrites the first",
+      "B) First update overwrites the second",
+      "C) The updates are lost due to conflicting problem",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Lost update problem has to be resolved.\n\nadvertisement"
+  },
+  {
+    "question": "Under first updater wins the system uses a __________ mechanism that applies only to updates.",
+    "options": [
+      "A) Close",
+      "B) Read",
+      "C) Locking",
+      "D) Beat"
+    ],
+    "correct_answer": "A",
+    "explanation": "Reads are unaffected by this, since they do not obtain locks."
+  },
+  {
+    "question": "When a transaction Ti attempts to update a data item, it requests a _________ on that data item.",
+    "options": [
+      "A) Read lock",
+      "B) Update lock",
+      "C) Write lock",
+      "D) Chain lock"
+    ],
+    "correct_answer": "A",
+    "explanation": "Reads are unaffected by this, since they do not obtain locks.\n \n\n\n"
+  },
+  {
+    "question": "Each of a pair of transactions has read data that is written by the other, but there is no data written by both transactions, is referred to as",
+    "options": [
+      "A) Read skew",
+      "B) Update skew",
+      "C) Write lock",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Write skew is the issue addressed here."
+  },
+  {
+    "question": "An application developer can guard against certain snapshot anomalies by appending a ______ clause to the SQL select query.",
+    "options": [
+      "A) For update",
+      "B) For read",
+      "C) For write",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Adding the for update clause causes the system to treat data that are read as if they had been updated for purposes of concurrency control.\n\n    advertisement"
+  }
+]

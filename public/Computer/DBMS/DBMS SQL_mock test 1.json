@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Name\nAnnie\nBob\nCallie\nDerek\nWhich of these query will display the the table given above ?\n\n| Name |\n| Annie |\n| Bob |\n| Callie |\n| Derek |",
+    "options": [
+      "A) Select employee from name",
+      "B) Select name",
+      "C) Select name from employee",
+      "D) Select employee"
+    ],
+    "correct_answer": "A",
+    "explanation": "The field to be displayed is included in select and the table is included in the from clause."
+  },
+  {
+    "question": "Here which of the following displays the unique values of the column?\nadvertisement\nSELECT ________ dept_name\nFROM instructor;\n\nSELECT ________ dept_name \n   FROM instructor;",
+    "options": [
+      "A) All",
+      "B) From",
+      "C) Distinct",
+      "D) Name"
+    ],
+    "correct_answer": "A",
+    "explanation": "Distinct keyword selects only the entries that are unique.  \n \n\n\n "
+  },
+  {
+    "question": "The ______ clause allows us to select only those rows in the result relation of the ____ clause that satisfy a specified predicate.",
+    "options": [
+      "A) Where, from",
+      "B) From, select",
+      "C) Select, from",
+      "D) From, where"
+    ],
+    "correct_answer": "D",
+    "explanation": "Where selects the rows on a particular condition. From gives the relation which involves the operation."
+  },
+  {
+    "question": "The query given below will not give an error. Which one of the following has to be replaced to get the desired output?\nadvertisement\nSELECT ID, name, dept_name, salary * 1.1\nWHERE instructor;\n\nSELECT ID, name, dept_name, salary * 1.1\n   WHERE instructor;",
+    "options": [
+      "A) Salary*1.1",
+      "B) ID",
+      "C) Where",
+      "D) Instructor"
+    ],
+    "correct_answer": "A",
+    "explanation": "Where selects the rows on a particular condition. From gives the relation which involves the operation. Since Instructor is a relation it has to have from clause."
+  },
+  {
+    "question": "The ________ clause is used to list the attributes desired in the result of a query.",
+    "options": [
+      "A) Where",
+      "B) Select",
+      "C) From",
+      "D) Distinct"
+    ],
+    "correct_answer": "A",
+    "explanation": "None"
+  },
+  {
+    "question": "This Query can be replaced by which one of the following?\nSELECT name, course_id\nFROM instructor, teaches\nWHERE instructor_ID= teaches_ID;\n\nSELECT name, course_id\n   FROM instructor, teaches\n   WHERE instructor_ID= teaches_ID;",
+    "options": [
+      "A) Select name,course_id from teaches,instructor where instructor_id=course_id;",
+      "B) Select name, course_id from instructor natural join teaches;",
+      "C) Select name, course_id from instructor;",
+      "D) Select course_id from instructor join teaches;"
+    ],
+    "correct_answer": "D",
+    "explanation": "Join clause joins two tables by matching the common column."
+  },
+  {
+    "question": "SELECT * FROM employee WHERE salary>10000 AND dept_id=101;\nWhich of the following fields are displayed as output?\n\nSELECT * FROM employee WHERE salary>10000 AND dept_id=101;",
+    "options": [
+      "A) Salary, dept_id",
+      "B) Employee",
+      "C) Salary",
+      "D) All the field of employee relation"
+    ],
+    "correct_answer": "A",
+    "explanation": "Here * is used to select all the fields of the relation."
+  },
+  {
+    "question": "Employee_id\nName\nSalary\n1001\nAnnie\n6000\n1009\nRoss\n4500\n1018\nZeith\n7000\nThis is Employee table.\nWhich of the following employee_id will be displayed for the given query?\nSELECT * FROM employee WHERE employee_id>1009;\n\n| Employee_id | Name | Salary |\n| 1001 | Annie | 6000 |\n| 1009 | Ross | 4500 |\n| 1018 | Zeith | 7000 |\n\nSELECT * FROM employee WHERE employee_id>1009;",
+    "options": [
+      "A) 1009, 1001, 1018",
+      "B) 1009, 1018",
+      "C) 1001",
+      "D) 1018"
+    ],
+    "correct_answer": "A",
+    "explanation": "Greater than symbol does not include the given value unlike >=."
+  },
+  {
+    "question": "Which of the following statements contains an error?",
+    "options": [
+      "A) Select * from emp where empid = 10003;",
+      "B) Select empid from emp where empid = 10006;",
+      "C) Select empid from emp;",
+      "D) Select empid where empid = 1009 and lastname = ‘GELLER’;"
+    ],
+    "correct_answer": "A",
+    "explanation": "This query do not have from clause which specifies the relation from which the values has to be selected."
+  },
+  {
+    "question": "In the given query which of the keyword has to be inserted? DataManagement\nINSERT INTO employee _____ (1002,Joey,2000);\n\nINSERT INTO employee _____ (1002,Joey,2000);",
+    "options": [
+      "A) Table",
+      "B) Values",
+      "C) Relation",
+      "D) Field"
+    ],
+    "correct_answer": "A",
+    "explanation": "Value keyword has to be used to insert the values into the table."
+  },
+  {
+    "question": "In the given query which of the keyword has to be inserted?\nINSERT INTO employee _____ (1002,Joey,2000);\n\nINSERT INTO employee _____ (1002,Joey,2000);",
+    "options": [
+      "A) Table",
+      "B) Values",
+      "C) Relation",
+      "D) Field"
+    ],
+    "correct_answer": "A",
+    "explanation": "Value keyword has to be used to insert the values into the table."
+  },
+  {
+    "question": "In the given query which of the keyword has to be inserted?\nINSERT INTO employee _____ (1002,Joey,2000);\n\nINSERT INTO employee _____ (1002,Joey,2000);",
+    "options": [
+      "A) Table",
+      "B) Values",
+      "C) Relation",
+      "D) Field"
+    ],
+    "correct_answer": "A",
+    "explanation": "Value keyword has to be used to insert the values into the table. "
+  },
+  {
+    "question": "Which one of the following is used to define the structure of the relation, deleting relations and relating schemas?",
+    "options": [
+      "A) DML(Data Manipulation Langauge)",
+      "B) DDL(Data Definition Langauge)",
+      "C) Query",
+      "D) Relational Schema"
+    ],
+    "correct_answer": "A",
+    "explanation": "Data Definition language is the language which performs all the operation in defining structure of relation."
+  },
+  {
+    "question": "Which one of the following provides the ability to query information from the database and to insert tuples into, delete tuples from, and modify tuples in the database?",
+    "options": [
+      "A) DML(Data Manipulation Langauge)",
+      "B) DDL(Data Definition Langauge)",
+      "C) Query",
+      "D) Relational Schema"
+    ],
+    "correct_answer": "A",
+    "explanation": "DML performs the change in the values of the relation."
+  },
+  {
+    "question": "advertisement\nCREATE TABLE employee (name VARCHAR, id INTEGER)\nWhat type of statement is this?\n\nCREATE TABLE employee (name VARCHAR, id INTEGER)",
+    "options": [
+      "A) DML",
+      "B) DDL",
+      "C) View",
+      "D) Integrity constraint"
+    ],
+    "correct_answer": "A",
+    "explanation": "Data Definition language is the language which performs all the operation in defining structure of relation. "
+  },
+  {
+    "question": "SELECT * FROM employee\nWhat type of statement is this?\n\nSELECT * FROM employee",
+    "options": [
+      "A) DML",
+      "B) DDL",
+      "C) View",
+      "D) Integrity constraint"
+    ],
+    "correct_answer": "A",
+    "explanation": "Select operation just shows the required fields of the relation. So it forms a DML. \n\n    advertisement"
+  },
+  {
+    "question": "The basic data type char(n) is a _____ length character string and varchar(n) is _____ length character.",
+    "options": [
+      "A) Fixed, equal",
+      "B) Equal, variable",
+      "C) Fixed, variable",
+      "D) Variable, equal"
+    ],
+    "correct_answer": "A",
+    "explanation": "Varchar changes its length accordingly whereas char has a specific length which has to be filled by either letters or spaces."
+  },
+  {
+    "question": "An attribute A of datatype varchar(20) has the value “Avi”. The attribute B of datatype char(20) has value  ”Reed”. Here attribute A has  ____ spaces and attribute B has ____ spaces.",
+    "options": [
+      "A) 3, 20",
+      "B) 20, 4",
+      "C) 20, 20",
+      "D) 3, 4"
+    ],
+    "correct_answer": "A",
+    "explanation": "Varchar changes its length accordingly whereas char has a specific length which has to be filled by either letters or spaces."
+  },
+  {
+    "question": "To remove a relation from an SQL database, we use the ______ command.",
+    "options": [
+      "A) Delete",
+      "B) Purge",
+      "C) Remove",
+      "D) Drop table"
+    ],
+    "correct_answer": "A",
+    "explanation": "Drop table deletes the whole structure of the relation .purge removes the table which cannot be obtained again."
+  },
+  {
+    "question": "DELETE FROM r;   //r - relation\nThis command performs which of the following action?\n\nDELETE FROM r;   //r - relation",
+    "options": [
+      "A) Remove relation",
+      "B) Clear relation entries",
+      "C) Delete fields",
+      "D) Delete rows"
+    ],
+    "correct_answer": "A",
+    "explanation": "Delete command removes the entries in the table."
+  },
+  {
+    "question": "INSERT INTO instructor VALUES (10211, ’Smith’, ’Biology’, 66000);\nWhat type of statement is this?\n\nINSERT INTO instructor VALUES (10211, ’Smith’, ’Biology’, 66000);",
+    "options": [
+      "A) Query",
+      "B) DML",
+      "C) Relational",
+      "D) DDL"
+    ],
+    "correct_answer": "A",
+    "explanation": "The values are manipulated. So it is a DML."
+  },
+  {
+    "question": "Updates that violate __________ are disallowed.",
+    "options": [
+      "A) Integrity constraints",
+      "B) Transaction control",
+      "C) Authorization",
+      "D) DDL constraints"
+    ],
+    "correct_answer": "A",
+    "explanation": "Integrity constraint has to be maintained in the entries of the relation."
+  },
+  {
+    "question": "SELECT name ____ instructor name, course id\nFROM instructor, teaches\nWHERE instructor.ID= teaches.ID;\nWhich keyword must be used here to rename the field name?\n\nSELECT name ____ instructor name, course id\nFROM instructor, teaches\nWHERE instructor.ID= teaches.ID;",
+    "options": [
+      "A) From",
+      "B) Rename",
+      "C) As",
+      "D) Join"
+    ],
+    "correct_answer": "A",
+    "explanation": "As keyword is used to rename.  \n\nadvertisement"
+  },
+  {
+    "question": "SELECT * FROM employee WHERE dept_name=\"Comp Sci\";\nIn the SQL given above there is an error . Identify the error.\n\nSELECT * FROM employee WHERE dept_name=\"Comp Sci\";",
+    "options": [
+      "A) Dept_name",
+      "B) Employee",
+      "C) “Comp Sci”",
+      "D) From"
+    ],
+    "correct_answer": "A",
+    "explanation": "For any string operations single quoted(‘) must be used to enclose.  \n \n\n\n "
+  },
+  {
+    "question": "advertisement\nSELECT emp_name\nFROM department\nWHERE dept_name LIKE ’ _____ Computer Science’;\nWhich one of the following has to be added into the blank to select the dept_name which has Computer Science as its ending string?\n\nSELECT emp_name\nFROM department\nWHERE dept_name LIKE ’ _____ Computer Science’;",
+    "options": [
+      "A) %",
+      "B) _",
+      "C) ||",
+      "D) $"
+    ],
+    "correct_answer": "A",
+    "explanation": "The % character matches any substring."
+  },
+  {
+    "question": "’_ _ _ ’ matches any string of ______ three characters. ’_ _ _ %’ matches any string of at ______ three characters.",
+    "options": [
+      "A) Atleast, Exactly",
+      "B) Exactly, Atleast",
+      "C) Atleast, All",
+      "D) All, Exactly"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "SELECT name\nFROM instructor\nWHERE dept name = ’Physics’\nORDER BY name;\nBy default, the order by clause lists items in ______ order.\n\nSELECT name\nFROM instructor\nWHERE dept name = ’Physics’\nORDER BY name;",
+    "options": [
+      "A) Descending",
+      "B) Any",
+      "C) Same",
+      "D) Ascending"
+    ],
+    "correct_answer": "A",
+    "explanation": "Specification of descending order is essential but it not for ascending."
+  },
+  {
+    "question": "SELECT *\nFROM instructor\nORDER BY salary ____, name ___;\nTo display the salary from greater to smaller and name in ascending order which of the following options should be used?\n\nSELECT *\nFROM instructor\nORDER BY salary ____, name ___;",
+    "options": [
+      "A) Ascending, Descending",
+      "B) Asc, Desc",
+      "C) Desc, Asc",
+      "D) Descending, Ascending"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "SELECT instructor.*\nFROM instructor, teaches\nWHERE instructor.ID= teaches.ID;\nThis query does which of the following operation?\n\nSELECT instructor.*\nFROM instructor, teaches\nWHERE instructor.ID= teaches.ID;",
+    "options": [
+      "A) All attributes of instructor and teaches are selected",
+      "B) All attributes of instructor are selected on the given condition",
+      "C) All attributes of teaches are selected on given condition",
+      "D) Only the some attributes from instructed and teaches are selected"
+    ],
+    "correct_answer": "A",
+    "explanation": "The asterisk symbol “ * ” can be usedin the select clause to denote “all attributes.”"
+  },
+  {
+    "question": "In SQL the spaces at the end of the string are removed by _______ function.",
+    "options": [
+      "A) Upper",
+      "B) String",
+      "C) Trim",
+      "D) Lower"
+    ],
+    "correct_answer": "A",
+    "explanation": "The syntax of trim is Trim(s); where s-string."
+  },
+  {
+    "question": "_____ operator is used for appending two strings.",
+    "options": [
+      "A) &",
+      "B) %",
+      "C) ||",
+      "D) _"
+    ],
+    "correct_answer": "A",
+    "explanation": "|| is the concatenation operator."
+  },
+  {
+    "question": "What is the full form of DBMS?",
+    "options": [
+      "A) Data of Binary Management System",
+      "B) Database Management System",
+      "C) Database Management Service",
+      "D) Data Backup Management System"
+    ],
+    "correct_answer": "A",
+    "explanation": "DBMS is abbreviated as Database Management System. Database Management System stores the data and allows authorized users to manipulate and modify the data."
+  },
+  {
+    "question": "What is a database?",
+    "options": [
+      "A) Organized collection of information that cannot be accessed, updated, and managed",
+      "B) Collection of data or information without organizing",
+      "C) Organized collection of data or information that can be accessed, updated, and managed",
+      "D) Organized collection of data that cannot be updated"
+    ],
+    "correct_answer": "A",
+    "explanation": "It is defined as an organized collection of data or information for easy access, updating, and management in a computer."
+  },
+  {
+    "question": "What is DBMS?",
+    "options": [
+      "A) DBMS is a collection of queries",
+      "B) DBMS is a high-level language",
+      "C) DBMS is a programming language",
+      "D) DBMS stores, modifies and retrieves data"
+    ],
+    "correct_answer": "A",
+    "explanation": "DBMS is nothing but a storehouse wherein the authorized user can create a database to store, modify or retrieve the organized data in the table. It can be modified or retrieved by users who have access to DBMS only."
+  },
+  {
+    "question": "Who created the first DBMS?",
+    "options": [
+      "A) Edgar Frank Codd",
+      "B) Charles Bachman",
+      "C) Charles Babbage",
+      "D) Sharon B. Codd"
+    ],
+    "correct_answer": "A",
+    "explanation": "Charles Bachman along with his team invented the first DBMS known as Integrated Data Store (IDS)."
+  },
+  {
+    "question": "Which type of data can be stored in the database?",
+    "options": [
+      "A) Image oriented data",
+      "B) Text, files containing data",
+      "C) Data in the form of audio or video",
+      "D) All of the above"
+    ],
+    "correct_answer": "A",
+    "explanation": "The reason for creating the database management system was to store large data and these data can be of any form image, text, audio, or video files, etc. DBMS allows the users to store and access the data of any format.\n\n\nadvertisement"
+  },
+  {
+    "question": "In which of the following formats data is stored in the database management system?",
+    "options": [
+      "A) Image",
+      "B) Text",
+      "C) Table",
+      "D) Graph"
+    ],
+    "correct_answer": "A",
+    "explanation": "The data is stored in a table format intended to manage the storage of data and manipulate stored data to generate information."
+  },
+  {
+    "question": "Which of the following is not a type of database?",
+    "options": [
+      "A) Hierarchical",
+      "B) Network",
+      "C) Distributed",
+      "D) Decentralized"
+    ],
+    "correct_answer": "A",
+    "explanation": "Different types are:\n1) Centralized\n2) Distributed\n3) Relational\n4) NoSQL\n5) Cloud\n6) Object-oriented\n7) Hierarchical\n8) Network"
+  },
+  {
+    "question": "Which of the following is not an example of DBMS?",
+    "options": [
+      "A) MySQL",
+      "B) Microsoft Acess",
+      "C) IBM DB2",
+      "D) Google"
+    ],
+    "correct_answer": "A",
+    "explanation": "MySQL, Microsoft Access, IBM DB2 are database management systems while Google is a search engine. MySQL is a Linux-based database management system, Microsoft Access is a tool that is a part of Microsoft Office used to store data, IBM DB2 is a database management system developed by IBM. Google’s Bigtable is the database that runs Google’s Internet search, Google Maps, YouTube, Gmail, and other products."
+  },
+  {
+    "question": "Which of the following is not a feature of DBMS?",
+    "options": [
+      "A) Minimum Duplication and Redundancy of Data",
+      "B) High Level of Security",
+      "C) Single-user Access only",
+      "D) Support ACID Property"
+    ],
+    "correct_answer": "A",
+    "explanation": "Single-user Access only” is not a feature of DBMS. DBMS allows multiple users to access and manipulate the database concurrently. It provides mechanisms to handle concurrent access and ensure data consistency and integrity among multiple users.\nThe important features of a database management system are:\n\nMinimum Duplication and Redundancy of Data\nHigh Level of Security\nMulitple-user Access\nSupport ACID Property"
+  },
+  {
+    "question": "Which of the following is a feature of the database?",
+    "options": [
+      "A) No-backup for the data stored",
+      "B) User interface provided",
+      "C) Lack of Authentication",
+      "D) Store data in multiple locations"
+    ],
+    "correct_answer": "A",
+    "explanation": "The important features are:\n1) Provides backup for the data stored by the user and the user can retrieve the data whenever required.\n2) Provides User-interface to access the data.\n3) Only authorized users can access the stored data.\n4) Data is stored in one central location but multiple authorized users can access the data."
+  },
+  {
+    "question": "Which of the following is not a function of the database?",
+    "options": [
+      "A) Managing stored data",
+      "B) Manipulating data",
+      "C) Security for stored data",
+      "D) Analysing code"
+    ],
+    "correct_answer": "A",
+    "explanation": "It allows authorized users to update, store, manipulate, or access data. Since data is stored in table format it is easy to access the data and perform the required functions. It also removes duplicate and redundant data."
+  },
+  {
+    "question": "Which of the following is a function of the DBMS?",
+    "options": [
+      "A) Storing data",
+      "B) Providing multi-users access control",
+      "C) Data Integrity",
+      "D) All of the above"
+    ],
+    "correct_answer": "A",
+    "explanation": "The purpose of creating DBMS was to store the data. The data stored in the database management system can be can accessed by multiple users if the access is provided. The data stored will be accurate and complete hence providing data integrity."
+  },
+  {
+    "question": "Which of the following is a component of the DBMS?",
+    "options": [
+      "A) Data",
+      "B) Data Languages",
+      "C) Data Manager",
+      "D) All of the above"
+    ],
+    "correct_answer": "A",
+    "explanation": "The components of DBMS are as follows:\n1) Hardware: Like a hard drive, monitor, etc.\n2) Software: Provides a user interface\n3) Data Manager: Manages operations of DBMS.\n4) Data: The collection of information on the DB is known as data.\n5) Data Languages: Languages like DDL, DML, DAL, and DCL allow to perform operations like creating, modifying, storing, or retrieving data.\n\n\n    advertisement"
+  },
+  {
+    "question": "Which of the following is known as a set of entities of the same type that share same properties, or attributes?",
+    "options": [
+      "A) Relation set",
+      "B) Tuples",
+      "C) Entity set",
+      "D) Entity Relation model"
+    ],
+    "correct_answer": "A",
+    "explanation": "In the actual world, an entity is a distinct “thing” or “object” from all other objects. For example: Each employee of an organization is an entity."
+  },
+  {
+    "question": "What is information about data called?",
+    "options": [
+      "A) Hyper data",
+      "B) Tera data",
+      "C) Meta data",
+      "D) Relations"
+    ],
+    "correct_answer": "A",
+    "explanation": "Information about data is known as Metadata. Metadata describes the data in detail by providing additional information like type, length of the data, etc. Metadata helps the user to understand the data."
+  },
+  {
+    "question": "What does an RDBMS consist of?",
+    "options": [
+      "A) Collection of Records",
+      "B) Collection of Keys",
+      "C) Collection of Tables",
+      "D) Collection of Fields"
+    ],
+    "correct_answer": "A",
+    "explanation": "It consists of a collection of tables i.e., the data is organized in tabular format. The columns of the relation are known as Fields and rows of the relation are known as Records. Constraints in a relation are known as Keys."
+  },
+  {
+    "question": "The values appearing in given attributes of any tuple in the referencing relation must likewise occur in specified attributes of at least one tuple in the referenced relation, according to _____________________ integrity constraint.",
+    "options": [
+      "A) Referential",
+      "B) Primary",
+      "C) Referencing",
+      "D) Specific"
+    ],
+    "correct_answer": "A",
+    "explanation": "Consider 2 relations r1 and r2. r1 may include among its attributes the primary key of relation r2. This attribute is called a foreign key from r1, referencing r2. The relation r1 is also called the referencing relation of the foreign key dependency, and r2 is called the referenced relation of the foreign key."
+  },
+  {
+    "question": "_____________ is a hardware component that is most important for the operation of a database management system.",
+    "options": [
+      "A) Microphone",
+      "B) High speed, large capacity disk to store data",
+      "C) High-resolution video display",
+      "D) Printer"
+    ],
+    "correct_answer": "A",
+    "explanation": "Since all the data are stored in form of memory in the disk, a high speed, and large-capacity disk is required for the operation of the database management system."
+  },
+  {
+    "question": "The DBMS acts as an interface between ________________ and ________________ of an enterprise-class system.",
+    "options": [
+      "A) Data and the DBMS",
+      "B) Application and SQL",
+      "C) Database application and the database",
+      "D) The user and the software"
+    ],
+    "correct_answer": "A",
+    "explanation": "A database management system is an application that acts as an interface between the user and the database. The user interacts with the application to access data."
+  }
+]

@@ -1,0 +1,534 @@
+[
+  {
+    "question": "What is the raw channel bit error rate of Bluetooth?",
+    "options": [
+      "A) 10-3",
+      "B) 10-10",
+      "C) 103",
+      "D) 10-1"
+    ],
+    "correct_answer": "A",
+    "explanation": "Bluetooth has a bit error rate (BER) of 10-3. Bluetooth uses a number of forward error control (FEC) coding and automatic repeat request (ARR) schemes to achieve this bit rate."
+  },
+  {
+    "question": "Which of the following standard committee specifies Bluetooth and other Personal Area Networks (PAN)?",
+    "options": [
+      "A) IEEE 802.11b",
+      "B) IEEE 802.15",
+      "C) IEEE 802.11g",
+      "D) IEEE 802.16"
+    ],
+    "correct_answer": "B",
+    "explanation": "IEEE 802.15 standards committee is formed to provide an international forum for developing Bluetooth and other PANs. PANs are used to interconnect pocket PCs, personal digital assistants (PDAs), cell phones, light projectors and other appliances."
+  },
+  {
+    "question": "Which of the following is not a source of interference?",
+    "options": [
+      "A) Base station in a different cluster",
+      "B) Another mobile in same cell",
+      "C) A call in progress in neighbouring cell",
+      "D) Any BS operating on same frequency"
+    ],
+    "correct_answer": "A",
+    "explanation": "Interference is a major limiting factor in the performance of cellular radio systems. Sources of interference includes another mobile in the same cell, a call in progress in neighbouring cell, other base stations operating in the same frequency band, or any non-cellular system which inadvertently leaks energy into the cellular frequency band."
+  },
+  {
+    "question": "Interference on voice channels causes _______",
+    "options": [
+      "A) Blocked calls",
+      "B) Cross talk",
+      "C) Queuing",
+      "D) Missed calls"
+    ],
+    "correct_answer": "B",
+    "explanation": "Interference on voice channels causes crass talk. Here, the subscriber hears interference in the background due to an undesired transmission."
+  },
+  {
+    "question": "Interference in control channel leads to ________",
+    "options": [
+      "A) Cross talk",
+      "B) Queuing",
+      "C) Blocked calls",
+      "D) Voice traffic"
+    ],
+    "correct_answer": "C",
+    "explanation": "On control channels, interference leads to missed and blocked calls. This happens due to errors in the digital signalling."
+  },
+  {
+    "question": "Interference is more severe in rural areas.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "Interference is more severe in rural areas. It happens due to the greater RF noise floor and the large number of base stations and mobiles."
+  },
+  {
+    "question": "What are co-channel cells?",
+    "options": [
+      "A) Cells having different base stations",
+      "B) Cells using different frequency",
+      "C) Cells using adjacent frequency",
+      "D) Cells using same frequency"
+    ],
+    "correct_answer": "D",
+    "explanation": "Due to frequency reuse concept, there are several cells that use the same set of frequencies. These cells are called co-channel cells. And the interference between these cells is called co-channel interference."
+  },
+  {
+    "question": "Co-channel interference is a function of _________",
+    "options": [
+      "A) Radius of cell",
+      "B) Transmitted power",
+      "C) Received power",
+      "D) Frequency of mobile user"
+    ],
+    "correct_answer": "A",
+    "explanation": "This is the case when the size of each cell is approximately the same and the base stations transmit the same power. Co-channel interference ratio is independent of the transmitted power and becomes a function of the radius of the cell ® and the distance between centers of the nearest co channel cell (D)."
+  },
+  {
+    "question": "Co-channel reuse ratio is define by _________",
+    "options": [
+      "A) Q=D*R",
+      "B) Q=D/R",
+      "C) Q=D^R",
+      "D) Q=1/R"
+    ],
+    "correct_answer": "B",
+    "explanation": "Co-channel reuse ratio is defined by Q=D/R. By increasing the ratio of D/R, the spatial separation between co-channel cells relative to the coverage distance of a cell is increased. Thus, interference I reduced from improved isolation of RF energy from the co-channel cells."
+  },
+  {
+    "question": "Co-channel ratio in terms of cluster size is defined as _________",
+    "options": [
+      "A) \\sqrt{(3N)}\\sqrt{(3N)}",
+      "B) N",
+      "C) 3N",
+      "D) √N"
+    ],
+    "correct_answer": "A",
+    "explanation": "Co-channel reuse is defined using \\sqrt{(3N)}\\sqrt{(3N)}. A small value of Q provides larger capacity since the cluster size N is small. However, a large value of Q improves the transmission quality, due to smaller level of co-channel interference."
+  },
+  {
+    "question": "What is the cluster size for CDMA?",
+    "options": [
+      "A) N=10",
+      "B) N=100",
+      "C) N=1",
+      "D) N=50"
+    ],
+    "correct_answer": "C",
+    "explanation": "CDMA systems have a cluster size of N=1.Therefore, frequency reuse is not as difficult as for TDMA or first generation cellular systems."
+  },
+  {
+    "question": "What is breathing cell effect?",
+    "options": [
+      "A) Fixed coverage region",
+      "B) Dynamic and time varying coverage region",
+      "C) Large coverage region",
+      "D) Very small coverage region"
+    ],
+    "correct_answer": "B",
+    "explanation": "Breathing cell is a concept used by CDMA systems. They had a dynamic, time varying coverage region which varies depending on the instantaneous number of users on the CDMA radio channel."
+  },
+  {
+    "question": "Adjacent channel interference occurs due to _______",
+    "options": [
+      "A) Power transmitted by Base station",
+      "B) MSCs",
+      "C) Same frequency of mobile users",
+      "D) Imperfect receiver filters"
+    ],
+    "correct_answer": "D",
+    "explanation": "Interference resulting from signals which are adjacent in frequency to the desired signal is called adjacent channel interference. It results from imperfect receiver filters which allow nearby frequencies to leak into the passband."
+  },
+  {
+    "question": "In near-far effect, a nearby transmitter captures the __________",
+    "options": [
+      "A) Receiver of the subscriber",
+      "B) Transmitter of the subscriber",
+      "C) Nearby MSC",
+      "D) Neighbouring base station"
+    ],
+    "correct_answer": "A",
+    "explanation": "Near-far effect occurs if an adjacent channel user is transmitting in very close range to a subscriber’s receiver while the receiver attempts to receive a base station on the desired channel. In this effect, a nearby transmitter captures the receiver of the subscriber."
+  },
+  {
+    "question": "Adjacent channel interference can be minimized through _______",
+    "options": [
+      "A) Changing frequency of base stations",
+      "B) Careful filtering and channel assignments",
+      "C) Increasing number of base stations",
+      "D) Increasing number of control channels"
+    ],
+    "correct_answer": "B",
+    "explanation": "Adjacent channel assignment can be minimized through careful filtering and channel assignments. Each cell is given only a fraction of the available channels, a cell need not be assigned channels which are all adjacent in frequency."
+  },
+  {
+    "question": "In dynamic channel assignment, any channel which is being used in one cell can be reassigned simultaneously to another cell in the system at a reasonable distance.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "Dynamic channel assignment (DCA) is one well known solution to the micro cellular channel assignment problem. The dynamic nature of the strategy permits adaptation to spatial and traffic variations while the distribution of control reduces the required computational load."
+  },
+  {
+    "question": "Which of the following mechanism do not impact propagation in mobile communication system?",
+    "options": [
+      "A) Reflection",
+      "B) Diffraction",
+      "C) Scattering",
+      "D) Refraction"
+    ],
+    "correct_answer": "D",
+    "explanation": "Reflection, diffraction and scattering are the three basic propagation mechanism which impact propagation in mobile communication system. Large scale propagation model and small scale fading and multipath propagation are described by the physics of reflection, diffraction and scattering."
+  },
+  {
+    "question": "When does the wave propagating from one medium to another gets partially reflection and partially transmitted?",
+    "options": [
+      "A) Both mediums have same electrical properties",
+      "B) Both mediums have different electrical properties",
+      "C) Both mediums have same magnetic properties",
+      "D) Both mediums have different magnetic properties"
+    ],
+    "correct_answer": "B",
+    "explanation": "When a radio wave propagating in one medium impinges upon another medium having different electrical properties. The wave is partially reflected and partially transmitted."
+  },
+  {
+    "question": "What is the case of reflection, in course of second medium being a perfect dielectric?",
+    "options": [
+      "A) Loss of energy during absorption",
+      "B) Total energy reflected back to first medium",
+      "C) No loss of energy in absorption",
+      "D) Total energy transmitted into second medium"
+    ],
+    "correct_answer": "C",
+    "explanation": "If the plane wave is incident on a perfect dielectric, part of the energy is transmitted into the second medium and part of the energy is reflected back into the first medium. There is no loss of energy in absorption."
+  },
+  {
+    "question": "What is the case of reflection, in course of second medium being a perfect conductor?",
+    "options": [
+      "A) Loss of energy during absorption",
+      "B) Total energy reflected back to first medium",
+      "C) Partly transmission and reflection",
+      "D) Total energy transmitted into second medium"
+    ],
+    "correct_answer": "B",
+    "explanation": "If the second medium is perfect conductor, then all incident energy is reflected back into the second medium. There is no loss of energy during absorption."
+  },
+  {
+    "question": "Which of the following relates the incident and reflected & transmitted wave?",
+    "options": [
+      "A) Fresnel transmission coefficient",
+      "B) Scattering coefficient",
+      "C) Diffraction coefficients",
+      "D) Fresnel reflection coefficient"
+    ],
+    "correct_answer": "D",
+    "explanation": "The electric field intensity of the reflected and transmitted waves may be related to the incident waves in the medium of origin through the Fresnel reflection coefficient. It is equal to the ratio of the amplitude of the reflected wave to the incident wave, with each expressed as phasors."
+  },
+  {
+    "question": "Reflection coefficient is not a function of __________",
+    "options": [
+      "A) Material property",
+      "B) Diffraction loss",
+      "C) Wave polarization",
+      "D) Angle of incidence"
+    ],
+    "correct_answer": "B",
+    "explanation": "The reflection coefficient is a function of the material properties, and generally depends upon the wave polarization, angle of incidence and frequency of propagating waves. It is a parameter that describes how much of an electromagnetic wave is reflected by an impedance discontinuity in the transmission medium."
+  },
+  {
+    "question": "Polarized wave can be mathematically represented as sum of ________",
+    "options": [
+      "A) Four orthogonal components",
+      "B) Two spatially adjacent components",
+      "C) Two spatially orthogonal components",
+      "D) Six orthogonal components"
+    ],
+    "correct_answer": "C",
+    "explanation": "A polarized wave may be mathematically represented as sum of two spatially orthogonal components. For an arbitrary polarization, super position may be used to compute the reflected fields from a reflecting surface."
+  },
+  {
+    "question": "The plane of incidence contains only incident rays.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "The plane of incidence is defined as the plane containing the incident, reflected and transmitted waves. The incident light is polarized with its electric field perpendicular to the plane containing the incident, reflected, and refracted rays."
+  },
+  {
+    "question": "Permittivity and conductivity are insensitive to ______ for a good conductor.",
+    "options": [
+      "A) Operating frequency",
+      "B) Polarization density",
+      "C) Electric field",
+      "D) Property of material"
+    ],
+    "correct_answer": "A",
+    "explanation": "The terms permittivity and conductivity are insensitive to operating frequency when the material is a good conductor. In the case of conductors, it is evident that electric field inside a conductor is zero. That is because free charges reside only on the surface of conductor and not inside."
+  },
+  {
+    "question": "Velocity of electromagnetic wave can be given by _______",
+    "options": [
+      "A) 1/√(μ∈)",
+      "B) μ/∈",
+      "C) 1/(μ∈)",
+      "D) μ∈"
+    ],
+    "correct_answer": "A",
+    "explanation": "For a medium with permittivity, ∈ and permeability, μ the velocity of electromagnetic wave is given by 1/√(μ∈). It is also known as phase velocity. The velocity of light is given by 3*108 m/s."
+  },
+  {
+    "question": "The boundary condition at the surface of incidence obeys ________",
+    "options": [
+      "A) Kepler’s law",
+      "B) Gauss law",
+      "C) Faraday law",
+      "D) Snell’s law"
+    ],
+    "correct_answer": "D",
+    "explanation": "Snell’s law is also known as Snell–Descartes law or the law of refraction. It gives a formula to describe the relationship between the angles of incidence and refraction, when referring to light or other waves passing through a boundary between two different isotropic media, such as water, glass, or air."
+  },
+  {
+    "question": "The angle at which no reflection occurs in the medium of origin is called _________",
+    "options": [
+      "A) Azimuth angle",
+      "B) Elevation angle",
+      "C) Brewster angle",
+      "D) Inclination angle"
+    ],
+    "correct_answer": "C",
+    "explanation": "The Brewster angle is the angle at which no reflection occurs in the medium of origin. It occurs when the incident angle is such that the reflection coefficient is equal to zero. The critical Brewster’s angles for diamond, glass and water are 67.5°, 57° and 53° respectively."
+  },
+  {
+    "question": "Which of the following is not an outdoor propagation model?",
+    "options": [
+      "A) Longley-Rice model",
+      "B) Ericson Multiple Breakpoint Model",
+      "C) Hata model",
+      "D) Okumura model"
+    ],
+    "correct_answer": "B",
+    "explanation": "Ericson multiple breakpoint model is an indoor propagation model. Longley-Rice, Hata and Okumura model are outdoor propagation models. Most of these models are based on a systematic interpretation of measurement data obtained in the service area."
+  },
+  {
+    "question": "Longley –Rice model is applicable to _________",
+    "options": [
+      "A) Point to point communication",
+      "B) All to all communication",
+      "C) Point to multipoint communication",
+      "D) Multipoint microwave distribution sstem"
+    ],
+    "correct_answer": "A",
+    "explanation": "The Longley-Rice model is applicable to point-to-point communication systems in the frequency range from 40 MHz to 100 GHz. They are applicable for different kinds of terrain. Terrain profile may vary from a simple curved Earth profile to a highly mountainous profile."
+  },
+  {
+    "question": "Longley-Rice prediction model is also referred as _________",
+    "options": [
+      "A) Okumura model",
+      "B) Hata model",
+      "C) ITS irregular terrain model",
+      "D) Bertoni model"
+    ],
+    "correct_answer": "C",
+    "explanation": "The Longley Rice prediction model is also referred to as ITS irregular terrain model. The model is based on electromagnetic theory and on statistical analyses of both terrain features and radio measurements. It predicts the median attenuation of a radio signal as a function of distance and the variability of the signal in time and in space."
+  },
+  {
+    "question": "The extra term for additional attenuation due to urban clutter near the receiving antenna is called __________",
+    "options": [
+      "A) Power factor",
+      "B) Urban gain",
+      "C) Clutter factor",
+      "D) Urban factor"
+    ],
+    "correct_answer": "D",
+    "explanation": "The urban factor (UF) is derived by comparing the predictions by the original Longley –Rice model with those obtained by Okumura. It deals with radio propagation in urban areas and is relevant to mobile radio."
+  },
+  {
+    "question": "Longley Rice model’s merit is to provide corrections due to environmental factors.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "One shortcoming of the Longley –Rice model is that it does not provide a way of determining corrections due to environmental factors. It does not consider correction factors to account for the effects of buildings and foliage. Multipath is also not considered."
+  },
+  {
+    "question": "Which method is used by Edwards and Durkin algorithm to calculate the loss associated with diffraction edges?",
+    "options": [
+      "A) Epstein and Peterson method",
+      "B) Interpolation method",
+      "C) Knife edge diffraction method",
+      "D) Fresnel- Kirchoff method"
+    ],
+    "correct_answer": "A",
+    "explanation": "The Edwards and Durkin algorithm uses Epstein and Peterson method to calculate the loss associated with two diffraction edges. It is the sum of two attenuations. First is loss at second diffraction edge caused by first diffraction edge. And second is the loss at receiver caused by second diffraction edge."
+  },
+  {
+    "question": "Durkin’s model can read digital elevation map.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "Durkin’s model is very attractive because it can read in a digital elevation map and perform a site specific propagation computation on the elevation data. It can produce a signal strength contour that is reported to be good within a few dB."
+  },
+  {
+    "question": "Okumura model is applicable for distances of _________",
+    "options": [
+      "A) 1 m to 10 m",
+      "B) 1 km to 100 km",
+      "C) 100 km to 1000 km",
+      "D) 10 km to 10000 km"
+    ],
+    "correct_answer": "B",
+    "explanation": "Okumura’s model is applicable for distances of 1 km to 100 km. It can be used for base station antenna heights ranging from 30 m to 1000 m. Okumura developed a set of curves giving the median attenuation relative to free space in an urban area."
+  },
+  {
+    "question": "Okumura model is considered to be complex in predicting path loss.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Okumura’s model is considered to be among the simplest and best in terms of accuracy in path loss prediction for mature cellular and land mobile radio system. It is very practical and has become a standard for system planning in modern land mobile system in Japan."
+  },
+  {
+    "question": "Which of the following is the major disadvantage of the Okumura model?",
+    "options": [
+      "A) Complex",
+      "B) Inaccurate",
+      "C) Not practical",
+      "D) Slow response to rapid change in terrain"
+    ],
+    "correct_answer": "D",
+    "explanation": "The major disadvantage with the model is its slow response to rapid changes in terrain. Therefore the model is fairly good in urban and suburban areas, but not as good in rural areas. Common standard deviations between predicted and measured path loss values are 10 dB to 14 dB."
+  },
+  {
+    "question": "The Hata model is empirical formulation of which model?",
+    "options": [
+      "A) Okumura model",
+      "B) Longley- Rice model",
+      "C) Durkin’s model",
+      "D) Walfisch and Bertoni model"
+    ],
+    "correct_answer": "A",
+    "explanation": "The Hata model is an empirical formulation of the graphical path loss data provided by Okumura. It is valid from 150 MHz to 1500 MHz. Hata presented the urban area propagation loss as a standard formulation. It supplied correct Equations for application to other situations."
+  },
+  {
+    "question": "Hata model is well suited for _________",
+    "options": [
+      "A) Personal communication system",
+      "B) Large cell mobile radio system",
+      "C) Small cell mobile radio system",
+      "D) Every mobile radio system"
+    ],
+    "correct_answer": "B",
+    "explanation": "Hata model is well suited for large cell mobile radio systems. But it is not well suited for personal communication system (PCS) which have cells on the order of 1 km radius. Hata model does not have any path specific corrections which are available in Okumura model."
+  },
+  {
+    "question": "Which of the following considers the impact of rooftops and building?",
+    "options": [
+      "A) Okumura model",
+      "B) Hata model",
+      "C) Walfisch and Bertoni model",
+      "D) Longley- Rice model"
+    ],
+    "correct_answer": "C",
+    "explanation": "The impact of rooftops and building height is considered by Walfisch and Bertoni model. It uses diffraction to predict average signal strength at street level. It considers path loss to be a product of three factors."
+  },
+  {
+    "question": "Which of the following is not a statistical models for multipath fading channels?",
+    "options": [
+      "A) Clarke’s model for flat fading",
+      "B) Saleh and Valenzuela indoor statistical model",
+      "C) Two ray Rayleigh fading model",
+      "D) Faraday model"
+    ],
+    "correct_answer": "D",
+    "explanation": "Several multipath models have been suggested to explain the observed statistical nature of a mobile channel. Clarke’s model for flat fading, Saleh and Valenzuela indoor statistical model, two ray Rayleigh fading model are some of the statistical model for multipath fading channels."
+  },
+  {
+    "question": "Who presented the first statistical model for multipath fading channel?",
+    "options": [
+      "A) Ossana",
+      "B) Rayleigh",
+      "C) Newton",
+      "D) Faraday"
+    ],
+    "correct_answer": "A",
+    "explanation": "The first statistical model was presented by Ossana. It was based on interference of wave incident and reflected from the flat sides of randomly located buildings. Ossana model predicts flat fading power spectra that were in agreement with measurements in suburban areas."
+  },
+  {
+    "question": "Clarke’s model assumes a horizontal polarized antenna.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Clarke developed a model where the statistical characteristics of the electromagnetic fields of the received signal at the mobile are deduced from scattering. Clarke’s model assumes a fixed transmitter with a vertically polarized antenna."
+  },
+  {
+    "question": "A wave that is incident on mobile does not undergo Doppler shift.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Every wave that is incident on the mobile undergoes a Doppler shift. It is due to the motion of the receiver and it arrives at the receiver at the same time. Therefore, there is no excess delay due to multipath for any of the waves."
+  },
+  {
+    "question": "The level crossing rate (LCR) is defined as expected rate at which _______ fading envelope crosses a specified level.",
+    "options": [
+      "A) Rayleigh",
+      "B) Saleh",
+      "C) Vanezuela",
+      "D) Faraday"
+    ],
+    "correct_answer": "A",
+    "explanation": "The LCR is defined as the expected rate at which the Rayleigh fading envelop is normalized to the local rms signal level. And it crosses a specified level in a positive going direction."
+  },
+  {
+    "question": "Level crossing rate is a function of _______",
+    "options": [
+      "A) Power transmitted by base station",
+      "B) Power density of receiver",
+      "C) Mobile speed",
+      "D) Bit error rate"
+    ],
+    "correct_answer": "C",
+    "explanation": "The level crossing rate is a function of mobile speed. Because, it is possible to relate the time rate of change of the received signal of the signal level and velocity of the mobile."
+  },
+  {
+    "question": "Clarke’s model considers the multipath time delay.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Clarke’s model and the statistics for Rayleigh fading are for flat fading conditions. They do not consider multipath time delay."
+  },
+  {
+    "question": "Saleh and Venezuela reported the results of ______ propagation measurements.",
+    "options": [
+      "A) Indoor",
+      "B) Outdoor",
+      "C) Air",
+      "D) High frequency"
+    ],
+    "correct_answer": "A",
+    "explanation": "Saleh and Venezuela reported the results of indoor propagation measurements. The measurements were made between two vertically polarized omnidirectional antennas located on the same floor of a medium sized office building."
+  },
+  {
+    "question": "Saleh and Venezuela show that indoor channel is _______ time varying.",
+    "options": [
+      "A) Not",
+      "B) Very slow",
+      "C) Fast",
+      "D) Very fast"
+    ],
+    "correct_answer": "B",
+    "explanation": "The results obtained by Saleh and Venezuela shows that the indoor channel is quasi static or very slow time varying. It shows that the statistics of the channel impulse response are independent of transmitting and receiving antenna polarization."
+  }
+]

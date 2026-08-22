@@ -1,0 +1,550 @@
+[
+  {
+    "question": "Which is a software configuration management concept that helps us to control change without seriously impeding justifiable change?",
+    "options": [
+      "A) Baselines",
+      "B) Source code",
+      "C) Data model",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "A baseline is analogous to the kitchen doors in the restaurant. Before a software configuration item becomes a baseline, change may be made quickly and informally."
+  },
+  {
+    "question": "Software Configuration Management can be administered in several ways. These include",
+    "options": [
+      "A) A single software configuration management team for the whole organization",
+      "B) A separate configuration management team for each project",
+      "C) Software Configuration Management distributed among the project members",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None"
+  },
+  {
+    "question": "What combines procedures and tools to manage different versions of configuration objects that are created during the software process?",
+    "options": [
+      "A) Change control",
+      "B) Version control",
+      "C) SCIs",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "Configuration management allows a user to specify alternative configurations of the software system through the selection of appropriate versions."
+  },
+  {
+    "question": "What complements the formal technical review by assessing a configuration object for characteristics that are generally not considered during review?",
+    "options": [
+      "A) Software configuration audit",
+      "B) Software configuration management",
+      "C) Baseline",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "Which of the following is the process of assembling program components, data, and libraries, and then compiling and linking these to create an executable system?",
+    "options": [
+      "A) System building",
+      "B) Release management",
+      "C) Change management",
+      "D) Version management"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "Which of the following option is not tracked by configuration management tools?",
+    "options": [
+      "A) Tracking of change proposals",
+      "B) Storing versions of system components",
+      "C) Tracking the releases of system versions to customers",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "All the options are tracked."
+  },
+  {
+    "question": "Which of the following is not a Software Configuration Management Activity?",
+    "options": [
+      "A) Configuration item identification",
+      "B) Risk management",
+      "C) Release management",
+      "D) Branch management"
+    ],
+    "correct_answer": "B",
+    "explanation": "Risk management is an entirely different domain."
+  },
+  {
+    "question": "The definition and use of configuration management standards is essential for quality certification in",
+    "options": [
+      "A) ISO 9000",
+      "B) CMM",
+      "C) CMMI",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "It is defined in all the mentioned options."
+  },
+  {
+    "question": "What involves preparing software for external release and keeping track of the system versions that have been released for customer use?",
+    "options": [
+      "A) System building",
+      "B) Release management",
+      "C) Change management",
+      "D) Version management"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "Which of the following process ensures that versions of systems and components are recorded and maintained?",
+    "options": [
+      "A) Codeline",
+      "B) Configuration control",
+      "C) Version",
+      "D) Workspace"
+    ],
+    "correct_answer": "B",
+    "explanation": "In configuration control changes are managed and all versions of components are identified and stored for the lifetime."
+  },
+  {
+    "question": "Which of the following process is concerned with analyzing the costs and benefits of proposed changes?",
+    "options": [
+      "A) Change management",
+      "B) Version management",
+      "C) System building",
+      "D) Release management"
+    ],
+    "correct_answer": "A",
+    "explanation": "It involves approving those changes that are worthwhile, and tracking which components in the system have been changed."
+  },
+  {
+    "question": "Which of the following is not a Version management feature?",
+    "options": [
+      "A) Version and release identification",
+      "B) Build script generation",
+      "C) Project support",
+      "D) Change history recording"
+    ],
+    "correct_answer": "B",
+    "explanation": "All other options are a part of version management."
+  },
+  {
+    "question": "Which method recommends that very frequent system builds should be carried out with automated testing to discover software problems?",
+    "options": [
+      "A) Agile method",
+      "B) Parallel compilation method",
+      "C) Large systems method",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "In keeping with the agile methods notion of making many small changes, continuous integration involves rebuilding the mainline frequently, after small source code changes have been made."
+  },
+  {
+    "question": "Which of the following is not a build system feature?",
+    "options": [
+      "A) Minimal recompilation",
+      "B) Documentation generation",
+      "C) Storage management",
+      "D) Reporting"
+    ],
+    "correct_answer": "C",
+    "explanation": "To reduce the storage space required by multiple versions of components that differ only slightly, version management systems usually provide storage management facilities."
+  },
+  {
+    "question": "Which of the following is a collection of component versions that make up a system?",
+    "options": [
+      "A) Version",
+      "B) Codeline",
+      "C) Baseline",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "Baselines are controlled, which means that the versions of the components making up the system cannot be changed."
+  },
+  {
+    "question": "Which of the following is a configuration item?",
+    "options": [
+      "A) Design & Test specification",
+      "B) Source code",
+      "C) Log information",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "A configuration item is an approved and accepted deliverable, changes have to be made through formal procedure."
+  },
+  {
+    "question": "Which of the following is a part of system release?",
+    "options": [
+      "A) electronic and paper documentation describing the system",
+      "B) packaging and associated publicity that have been designed for that release",
+      "C) an installation program that is used to help install the system on target hardware",
+      "D) all of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "Release creation is the process of creating the collection of files and documentation that includes all of the components of the system release."
+  },
+  {
+    "question": "A sequence of baselines representing different versions of a system is known as",
+    "options": [
+      "A) System building",
+      "B) Mainline",
+      "C) Software Configuration Item(SCI)",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "Which of the following term is best defined by the statement “The creation of a new codeline from a version in an existing codeline”?",
+    "options": [
+      "A) Branching",
+      "B) Merging",
+      "C) Codeline",
+      "D) Mainline"
+    ],
+    "correct_answer": "A",
+    "explanation": "The code may then be developed independently."
+  },
+  {
+    "question": "Software Maintenance includes",
+    "options": [
+      "A) Error corrections",
+      "B) Enhancements of capabilities",
+      "C) Deletion of obsolete capabilities",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "Maintenance is classified into how many categories ?",
+    "options": [
+      "A) two",
+      "B) three",
+      "C) four",
+      "D) five"
+    ],
+    "correct_answer": "C",
+    "explanation": "Adaptive, corrective, perfective and preventive are the four types of software maintenance."
+  },
+  {
+    "question": "The modification of the software to match changes in the ever changing environment, falls under which category of software maintenance?",
+    "options": [
+      "A) Corrective",
+      "B) Adaptive",
+      "C) Perfective",
+      "D) Preventive"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "How many phases are there in Taute Maintenance Model?",
+    "options": [
+      "A) six",
+      "B) seven",
+      "C) eight",
+      "D) nine"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "What type of software testing is generally used in Software Maintenance?",
+    "options": [
+      "A) Regression Testing",
+      "B) System Testing",
+      "C) Integration Testing",
+      "D) Unit Testing"
+    ],
+    "correct_answer": "A",
+    "explanation": "All other options are known as levels of software testing which further have types of software testing."
+  },
+  {
+    "question": "Regression testing is a very expensive activity.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "As regression testing is performed many times over the life of the software product, it becomes a costly affair."
+  },
+  {
+    "question": "Selective retest techniques may be more economical than the “retest-all”technique.How many selective retest techniques are there?",
+    "options": [
+      "A) two",
+      "B) three",
+      "C) four",
+      "D) five"
+    ],
+    "correct_answer": "B",
+    "explanation": "The three categories include: Coverage, Minimization and Safe techniques."
+  },
+  {
+    "question": "Which selective retest technique selects every test case that causes a modified program to produce a different output than its original version?",
+    "options": [
+      "A) Coverage",
+      "B) Minimization",
+      "C) Safe",
+      "D) Maximization"
+    ],
+    "correct_answer": "C",
+    "explanation": "Safe techniques do not focus on coverage criteria, instead they select every test case that cause a modified program to produce different output than its original version."
+  },
+  {
+    "question": "______________ measures the ability of a regression test selection technique to handle realistic applications.",
+    "options": [
+      "A) Efficiency",
+      "B) Precision",
+      "C) Generality",
+      "D) Inclusiveness"
+    ],
+    "correct_answer": "C",
+    "explanation": "Generality measures the ability of a technique to handle realistic and diverse language constructs, arbitrarily complex modifications, and realistic testing applications."
+  },
+  {
+    "question": "Which regression test selection technique exposes faults caused by modifications?",
+    "options": [
+      "A) Efficiency",
+      "B) Precision",
+      "C) Generality",
+      "D) Inclusiveness"
+    ],
+    "correct_answer": "D",
+    "explanation": "Inclusiveness measures the extent to which a technique chooses test cases that will cause the modified program to produce different output than the original program, and thereby expose faults caused by modifications."
+  },
+  {
+    "question": "The process of generating analysis and design documents is known as",
+    "options": [
+      "A) Software engineering",
+      "B) Software re-engineering",
+      "C) Reverse engineering",
+      "D) Re-engineering"
+    ],
+    "correct_answer": "C",
+    "explanation": "Reverse engineering is the process followed in order to find difficult, unknown and hidden information about a software system.."
+  },
+  {
+    "question": "What is a software patch?",
+    "options": [
+      "A) Required or Critical Fix",
+      "B) Emergency Fix",
+      "C) Daily or routine Fix",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "A software patch is an emergency fix which is worked upon the obsolete version whenever a vulnerability is encountered."
+  },
+  {
+    "question": "Which one of the following is not a maintenance model?",
+    "options": [
+      "A) Waterfall model",
+      "B) Reuse-oriented model",
+      "C) Iterative enhancement model",
+      "D) Quick fix model"
+    ],
+    "correct_answer": "A",
+    "explanation": "Waterfall model is a software development model."
+  },
+  {
+    "question": "What does ACT stands for in In Boehm model for software maintenance?",
+    "options": [
+      "A) Actual change track",
+      "B) Annual change track",
+      "C) Annual change traffic",
+      "D) Actual change traffic"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "Choose the suitable options with respect to regression testing.",
+    "options": [
+      "A) It helps in development of software",
+      "B) It helps in maintenance of software",
+      "C) It helps in development & maintenance of software",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "Regression testing preserves the quality and reliability of software and ensures the software’s continued operation."
+  },
+  {
+    "question": "What are legacy systems?",
+    "options": [
+      "A) new systems",
+      "B) old systems",
+      "C) under-developed systems",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "Legacy systems are the existing systems which may require some modification or maintenance."
+  },
+  {
+    "question": "Which of the following manuals is not a user documentation?",
+    "options": [
+      "A) Beginner’s Guide",
+      "B) Installation guide",
+      "C) Reference Guide",
+      "D) SRS"
+    ],
+    "correct_answer": "D",
+    "explanation": "SRS provides information on exact requirements of system as agreed between user and developers."
+  },
+  {
+    "question": "Which of the following manuals is a user documentation?",
+    "options": [
+      "A) SRS -Software Requirement Specification",
+      "B) SDD -Software Design Document",
+      "C) System Overview",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "System overview provides general description of the system’s functions."
+  },
+  {
+    "question": "The process of transforming a model into source code is known as",
+    "options": [
+      "A) Forward engineering",
+      "B) Reverse engineering",
+      "C) Re-engineering",
+      "D) Reconstructing"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "How many stages are there in Iterative-enhancement model used during software maintenance?",
+    "options": [
+      "A) two",
+      "B) three",
+      "C) four",
+      "D) five"
+    ],
+    "correct_answer": "B",
+    "explanation": "The stages include: analysis of existing system, characterize proposed modifications, redesign and implement current version."
+  },
+  {
+    "question": "Which of the following is a field related to certification ?",
+    "options": [
+      "A) Person",
+      "B) Process",
+      "C) Product",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "During software certification all given options are targeted."
+  },
+  {
+    "question": "Which of the following is a software process certification ?",
+    "options": [
+      "A) JAVA Certified",
+      "B) IBM Certified",
+      "C) ISO-9000",
+      "D) Microsoft Certified"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "Which standard is followed in aviation industry ?",
+    "options": [
+      "A) CTRADO-172B",
+      "B) RTCADO-178B",
+      "C) RTRADO-178B",
+      "D) CTCADO-178B"
+    ],
+    "correct_answer": "B",
+    "explanation": "RTCADO-178B is a popular aviation standard that has become a defacto standard."
+  },
+  {
+    "question": "How many levels, does the DO-178B certification targeted by RTCADO-178B has ?",
+    "options": [
+      "A) two",
+      "B) three",
+      "C) four",
+      "D) five"
+    ],
+    "correct_answer": "D",
+    "explanation": "The levels are A, B, C, D, E."
+  },
+  {
+    "question": "Third Party Certification for software standards is based on",
+    "options": [
+      "A) Ul 1998, Second Edition",
+      "B) UT 1998, Second Edition",
+      "C) Ul 1992, Second Edition",
+      "D) Ul 1996, Second Edition"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "What are the goals to gain Laboratory Accreditation ?",
+    "options": [
+      "A) Increase availability of testing services through third-party laboratories",
+      "B) Increase availability of testing market to encourage development of software testing industry",
+      "C) Reduce cost by increasing supply of testing services",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "The goal is to promote development of competitive market, hence option d."
+  },
+  {
+    "question": "National Voluntary Laboratory Accreditation Program approve accreditation in",
+    "options": [
+      "A) Environmental standards",
+      "B) Computers and electronics",
+      "C) Product testing",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "National Voluntary Laboratory Accreditation Program Works with other national metrology institutes to establish criteria for mutual recognition of test results."
+  },
+  {
+    "question": "CSTE stands for",
+    "options": [
+      "A) Certified Software Technology",
+      "B) Certified Software Tester",
+      "C) Certified Software Trainee",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "CSQA stands for",
+    "options": [
+      "A) Certified Software Quality Analyst",
+      "B) Certified Software Quality Approved",
+      "C) Certified Software Quality Acclaimed",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "Which of the following companies provide certifications for their own products?",
+    "options": [
+      "A) CISCO",
+      "B) ORACLE",
+      "C) Microsoft",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "“Robustness” answers which of the following description?",
+    "options": [
+      "A) CASE tools be used to support the process activities",
+      "B) Process errors are avoided or trapped before they result in product errors",
+      "C) Defined process is acceptable and usable by the engineers responsible for producing the software",
+      "D) Process continues in spite of unexpected problems"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  }
+]

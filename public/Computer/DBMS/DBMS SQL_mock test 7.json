@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Optimization that is basically related to the rewriter module is termed as__________",
+    "options": [
+      "A) Semantic query optimization",
+      "B) Global query optimization",
+      "C) All of the Mentioned",
+      "D) None of the Mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Semantic query optimization is a technique used in database systems where the rewriter module optimizes queries by using semantic knowledge of the data. This involves transforming a given query into an equivalent but more efficient query based on constraints and integrity rules present in the database. This optimization is different from global query optimization, which focuses on execution plans and query evaluation strategies."
+  },
+  {
+    "question": "Database security helps organizations to protect data from _____",
+    "options": [
+      "A) Internal users",
+      "B) External users",
+      "C) Non-external users",
+      "D) Non internal users"
+    ],
+    "correct_answer": "A",
+    "explanation": "External users are the people who do not involve in the processing of the database.\n \n\n\n    ⚡ Claim Your Free Java Certification - August 2026"
+  },
+  {
+    "question": "Copying files to secondary or specific devices is known as ______",
+    "options": [
+      "A) Retrieve",
+      "B) Backup",
+      "C) Recovery",
+      "D) Deadlock"
+    ],
+    "correct_answer": "A",
+    "explanation": "Backup is required to take all the data."
+  },
+  {
+    "question": "How many types of recovery control techniques:",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "correct_answer": "A",
+    "explanation": "Recovery means to take the backup data while there is a crash.\n\n    advertisement"
+  },
+  {
+    "question": "Which are types of recovery control techniques:",
+    "options": [
+      "A) Deferred update",
+      "B) Immediate update",
+      "C) All of the Mentioned",
+      "D) None of the Mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Recovery means to take the backup data while there is a crash."
+  },
+  {
+    "question": "Which server can join the indexes when only multiple indexes combined can cover the query:",
+    "options": [
+      "A) SQL",
+      "B) DBMS",
+      "C) RDBMS",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Indexing reduces the difficulty in searching the data."
+  },
+  {
+    "question": "In concurrency control policy the lock is obtained on",
+    "options": [
+      "A) Entire database",
+      "B) A particular transaction alone",
+      "C) All the new elements",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "It is to avoid deadlock."
+  },
+  {
+    "question": "A concurrency-control policy such as this one leads to ______ performance since it forces transactions to wait for preceding transactions to finish before they can start.",
+    "options": [
+      "A) Good",
+      "B) Average",
+      "C) Poor",
+      "D) Unstable"
+    ],
+    "correct_answer": "A",
+    "explanation": "It provides a poor degree of concurrency."
+  },
+  {
+    "question": "__________ are used to ensure that transactions access each data item in order of the transactions’ ____ if their accesses conflict.",
+    "options": [
+      "A) Zone",
+      "B) Relay",
+      "C) Line",
+      "D) Timestamps"
+    ],
+    "correct_answer": "A",
+    "explanation": "When this is not possible, offending transactions are aborted and restarted with a new timestamp.\n\nadvertisement"
+  },
+  {
+    "question": "In which scenario would you use the ROLLUP operator for expression or columns within a GROUP BY clause?",
+    "options": [
+      "A) To find the groups forming the subtotal in a row",
+      "B) To create group-wise grand totals for the groups specified within a GROUP BY clause",
+      "C) To create a grouping for expressions or columns specified within a GROUP BY clause in one direction, from right to left for calculating the subtotals",
+      "D) To create a grouping for expressions or columns specified within a GROUP BY clause in all possible directions, which is cross-tabular report for calculating the subtotals"
+    ],
+    "correct_answer": "A",
+    "explanation": "View is the temporary space created for the database."
+  },
+  {
+    "question": "Name\nNull?\nType\nCust_id\nNot null\nNumber(2)\nCust_Name\nVarchar2(15)\nEvaluate the following SQL statements executed in the given order:\nALTER TABLE cust\nADD CONSTRAINT cust_id_pk PRIMARY KEY(cust_id) DEFERRABLE INITIALLY DEFERRED; INSERT\nINTO cust VALUES (1,'RAJ'); --row 1\nINSERT INTO cust VALUES (1,'SAM'); --row 2\nCOMMIT;\nSET CONSTRAINT cust_id_pk IMMEDIATE;\nINSERT INTO cust VALUES (1,'LATA'); --row 3\nINSERT INTO cust VALUES (2,'KING'); --row 4\nCOMMIT;\nWhich rows would be made permanent in the CUST table?\n\n| Name | Null? | Type |\n| Cust_id | Not null | Number(2) |\n| Cust_Name |  | Varchar2(15) |\n\nALTER TABLE cust\nADD CONSTRAINT cust_id_pk PRIMARY KEY(cust_id) DEFERRABLE INITIALLY DEFERRED; INSERT\nINTO cust VALUES (1,'RAJ'); --row 1\nINSERT INTO cust VALUES (1,'SAM'); --row 2\nCOMMIT;\nSET CONSTRAINT cust_id_pk IMMEDIATE;\nINSERT INTO cust VALUES (1,'LATA'); --row 3\nINSERT INTO cust VALUES (2,'KING'); --row 4\nCOMMIT;",
+    "options": [
+      "A) row 4 only",
+      "B) rows 2 and 4",
+      "C) rows 3 and 4",
+      "D) rows 1 and 4"
+    ],
+    "correct_answer": "A",
+    "explanation": "View is the temporary space created for the database."
+  },
+  {
+    "question": "Which statement is true regarding external tables?",
+    "options": [
+      "A) The default REJECT LIMIT for external tables is UNLIMITED",
+      "B) The data and metadata for an external table are stored outside the database",
+      "C) ORACLE_LOADER and ORACLE_DATAPUMP have exactly the same functionality when used with an external table",
+      "D) The CREATE TABLE AS SELECT statement can be used to unload data into regular table in the database from an external table"
+    ],
+    "correct_answer": "A",
+    "explanation": "This will replicate the table as in the select statement."
+  },
+  {
+    "question": "A non-correlated subquery can be defined as ______",
+    "options": [
+      "A) A set of sequential queries, all of which must always return a single value",
+      "B) A set of sequential queries, all of which must return values from the same table",
+      "C) A SELECT statement that can be embedded in a clause of another SELECT statement only",
+      "D) A set of one or more sequential queries in which generally the result of the inner query is used as the search value in the outer query"
+    ],
+    "correct_answer": "A",
+    "explanation": "This will replicate the table as in the select statement."
+  },
+  {
+    "question": "Evaluate the following SQL statements in the given order:\nDROP TABLE dept;\nCREATE TABLE dept\n(deptno NUMBER(3) PRIMARY KEY,\ndeptname VARCHAR2(10));\nDROP TABLE dept;\nFLASHBACK TABLE dept TO BEFORE DROP;\nWhich statement is true regarding the above FLASHBACK operation?\n\nDROP TABLE dept;\nCREATE TABLE dept\n(deptno NUMBER(3) PRIMARY KEY,\ndeptname VARCHAR2(10));\nDROP TABLE dept;\nFLASHBACK TABLE dept TO BEFORE DROP;",
+    "options": [
+      "A) It recovers only the first DEPT table",
+      "B) It recovers only the second DEPT table",
+      "C) It does not recover any of the tables because FLASHBACK is not possible in this case",
+      "D) It recovers both the tables but the names would be changed to the ones assigned in the RECYCLEBIN"
+    ],
+    "correct_answer": "A",
+    "explanation": "This will replicate the table as in the select statement."
+  },
+  {
+    "question": "CREATE TABLE digits\n(id NUMBER(2),\ndescription VARCHAR2(15));\nINSERT INTO digits VALUES (1,'ONE');\nUPDATE digits SET description ='TWO' WHERE id=1;\nINSERT INTO digits VALUES (2,'TWO');\nCOMMIT;\nDELETE FROM digits;\nSELECT description FROM digits\nVERSIONS BETWEEN TIMESTAMP MINVALUE AND MAXVALUE;\nWhat would be the outcome of the above query?\n\nCREATE TABLE digits\n(id NUMBER(2),\ndescription VARCHAR2(15));\nINSERT INTO digits VALUES (1,'ONE');\nUPDATE digits SET description ='TWO' WHERE id=1;\nINSERT INTO digits VALUES (2,'TWO');\nCOMMIT;\nDELETE FROM digits;\nSELECT description FROM digits\nVERSIONS BETWEEN TIMESTAMP MINVALUE AND MAXVALUE;",
+    "options": [
+      "A) It would not display any values",
+      "B) It would display the value TWO once",
+      "C) It would display the value TWO twice",
+      "D) It would display the values ONE, TWO, and TWO"
+    ],
+    "correct_answer": "A",
+    "explanation": "This will replicate the table as in the select statement."
+  },
+  {
+    "question": "In order to reduce the overhead in retrieving the records from the storage space we use",
+    "options": [
+      "A) Logs",
+      "B) Log buffer",
+      "C) Medieval space",
+      "D) Lower records"
+    ],
+    "correct_answer": "A",
+    "explanation": "The output to stable storage is in units of blocks."
+  },
+  {
+    "question": "The order of log records in the stable storage ____________ as the order in which they were written to the log buffer.",
+    "options": [
+      "A) Must be exactly the same",
+      "B) Can be different",
+      "C) Is opposite",
+      "D) Can be partially same"
+    ],
+    "correct_answer": "A",
+    "explanation": "As a result of log buffering, a log record may reside in only main memory (volatile storage) for a considerable time before it is output to stable storage."
+  },
+  {
+    "question": "Before a block of data in main memory can be output to the database, all log records pertaining to data in that block must have been output to stable storage. This is",
+    "options": [
+      "A) Read-write logging",
+      "B) Read-ahead logging",
+      "C) Write-ahead logging",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "The WAL rule requires only that the undo information in the log has been output to stable storage, and it permits the redo information to be written later.\n\nadvertisement"
+  },
+  {
+    "question": "Writing the buffered log to __________ is sometimes referred to as a log force.",
+    "options": [
+      "A) Memory",
+      "B) Backup",
+      "C) Redo memory",
+      "D) Disk"
+    ],
+    "correct_answer": "A",
+    "explanation": "If there are insufficient log records to fill the block, all log records in main memory are combined into a partially full block and are output to stable storage."
+  },
+  {
+    "question": "The _______________ policy, allows a transaction to commit even if it has modified some blocks that have not yet been written back to disk.",
+    "options": [
+      "A) Force",
+      "B) No-force",
+      "C) Steal",
+      "D) No-steal"
+    ],
+    "correct_answer": "A",
+    "explanation": "No-force policy allows faster commit of transactions.\n \n\n\n    🎓 Free Certifications on 300 subjects are live for August 2026. Register Now!"
+  },
+  {
+    "question": "______________ policy allows multiple updates to accumulate on a block before it is output to stable storage, which can reduce the number of output operations greatly for frequently updated blocks.",
+    "options": [
+      "A) Force",
+      "B) No-force",
+      "C) Steal",
+      "D) No-steal"
+    ],
+    "correct_answer": "A",
+    "explanation": "No-force policy allows faster commit of transactions."
+  },
+  {
+    "question": "The ___________ policy, allows the system to write modified blocks to disk even if the transactions that made those modifications have not all committed.",
+    "options": [
+      "A) Force",
+      "B) No-force",
+      "C) Steal",
+      "D) No-steal"
+    ],
+    "correct_answer": "A",
+    "explanation": "The no-steal policy does not work with transactions that perform a large number of updates.\n\n    advertisement"
+  },
+  {
+    "question": "Locks on buffer blocks are unrelated to locks used for concurrency-control of transactions, and releasing them in a non-two-phase manner does not have any implications on transaction serializability. This is",
+    "options": [
+      "A) Latches",
+      "B) Swap Space",
+      "C) Dirty Block",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "These locks, and other similar locks that are held for a short duration."
+  },
+  {
+    "question": "The __________________ contains a list of blocks that have been updated in the database buffer.",
+    "options": [
+      "A) Latches",
+      "B) Swap Space",
+      "C) Dirty Block",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Dirty blocks are those that have been updated in memory, and the disk version is not up-to-date."
+  },
+  {
+    "question": "The operating system reserves space on disk for storing virtual-memory pages that are not currently in main memory; this space is called",
+    "options": [
+      "A) Latches",
+      "B) Swap Space",
+      "C) Dirty Block",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Almost all current-generation operating systems retain complete control of virtual memory"
+  },
+  {
+    "question": "ARIES uses a ___________ to identify log records, and stores it in database pages.",
+    "options": [
+      "A) Log sequence number",
+      "B) Log number",
+      "C) Lock number",
+      "D) Sequence"
+    ],
+    "correct_answer": "A",
+    "explanation": "LSN is used to identify which operations have been applied to a database page."
+  },
+  {
+    "question": "ARIES supports ___________ operations, which are physical in that the affected page is physically identified, but can be logical within the page.",
+    "options": [
+      "A) Physiological redo",
+      "B) Physiological undo",
+      "C) Logical redo",
+      "D) Logical undo"
+    ],
+    "correct_answer": "A",
+    "explanation": "The deletion of a record from a page may result in many other records in the page being shifted, if a slotted page structure is used."
+  },
+  {
+    "question": "______________ is used to minimize unnecessary redos during recovery.",
+    "options": [
+      "A) Dirty page table",
+      "B) Page table",
+      "C) Dirty redo",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Dirty pages are those that have been updated in memory, and the disk version is not up-to-date.\n\nadvertisement"
+  },
+  {
+    "question": "__________ scheme that records only information about dirty pages and associated information and does not even require of writing dirty pages to disk.",
+    "options": [
+      "A) Fuzzy logic",
+      "B) Checkpoints",
+      "C) Fuzzy-checkpoint",
+      "D) Logical checkpoint"
+    ],
+    "correct_answer": "A",
+    "explanation": "It flushes dirty pages in the background, continuously, instead of writing them during checkpoints."
+  },
+  {
+    "question": "Whenever an update operation occurs on a page, the operation stores the LSN of its log record in the _______ field of the page.",
+    "options": [
+      "A) LSN",
+      "B) ReadLSN",
+      "C) PageLSN",
+      "D) RedoLSN"
+    ],
+    "correct_answer": "A",
+    "explanation": "Each page maintains an identifier called the PageLSN.\n \n\n\n    👉 Join  classes at Telegram or Youtube"
+  },
+  {
+    "question": "There are special redo-only log records generated during transaction rollback, called _________ in ARIES.",
+    "options": [
+      "A) Compensation log records",
+      "B) Read log records",
+      "C) Page log records",
+      "D) Redo log records"
+    ],
+    "correct_answer": "A",
+    "explanation": "These serve the same purpose as the redo-only log records in our earlier recovery scheme."
+  },
+  {
+    "question": "The __________________ contains a list of pages that have been updated in the database buffer.",
+    "options": [
+      "A) Dirty page table",
+      "B) Page table",
+      "C) Dirty redo",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Dirty pages are those that have been updated in memory, and the disk version is not up-to-date.\n\n    advertisement"
+  },
+  {
+    "question": "___________ determines which transactions to undo, which pages were dirty at the time of the crash, and the LSN from which the redo pass should start.",
+    "options": [
+      "A) Analysis pass",
+      "B) Redo pass",
+      "C) Undo pass",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "The analysis pass finds the last complete checkpoint log record, and reads in the DirtyPageTable from this record."
+  },
+  {
+    "question": "__________ starts from a position determined during analysis, and performs a redo, repeating history, to bring the database to a state it was in before the crash.",
+    "options": [
+      "A) Analysis pass",
+      "B) Redo pass",
+      "C) Undo pass",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "The redo pass repeats history by replaying every action that is not already reflected in the page on disk."
+  },
+  {
+    "question": "______________ rolls back all transactions that were incomplete at the time of crash.",
+    "options": [
+      "A) Analysis pass",
+      "B) Redo pass",
+      "C) Undo pass",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "It performs a single backward scan of the log, undoing all transactions in undo-list."
+  },
+  {
+    "question": "Which lock should be obtained to prevent a concurrent transaction from executing a conflicting read, insert or delete operation on the same key value.",
+    "options": [
+      "A) Higher-level lock",
+      "B) Lower-level lock",
+      "C) Read only lock",
+      "D) Read write"
+    ],
+    "correct_answer": "A",
+    "explanation": "Operations acquire lower-level locks while they execute, but release them when they complete; the corresponding transaction must however retain a higher-level lock in a two-phase manner to prevent concurrent transactions from executing conflicting actions."
+  },
+  {
+    "question": "Once the lower-level lock is released, the operation cannot be undone by using the old values of updated data items, and must instead be undone by executing a compensating operation; such an operation is called",
+    "options": [
+      "A) Logical operation",
+      "B) Redo operation",
+      "C) Logical undo operation",
+      "D) Undo operation"
+    ],
+    "correct_answer": "A",
+    "explanation": "It is important that the lower-level locks acquired during an operation are sufficient to perform a subsequent logical undo of the operation."
+  },
+  {
+    "question": "Which of the following is used for undo operations alone?",
+    "options": [
+      "A) Logical logging",
+      "B) Physical logging",
+      "C) Physical log records",
+      "D) Physical logging and Physical log records"
+    ],
+    "correct_answer": "A",
+    "explanation": "If the operation inserted an entry in a B+-tree, the undo information U would indicate that a deletion operation is to be performed, and would identify the B+-tree and what entry to delete from the tree. Such logging of information about operations is called logical logging."
+  },
+  {
+    "question": "Redo operations are performed exclusively using",
+    "options": [
+      "A) Logical logging",
+      "B) Physical logging",
+      "C) Physical log records",
+      "D) Both Physical logging and Physical log records"
+    ],
+    "correct_answer": "A",
+    "explanation": "Logging of old-value and new-value information is called physical logging. \nadvertisement"
+  },
+  {
+    "question": "To perform logical redo or undo, the database state on disk must be operation ___________ that is, it should not have partial effects of any operation.",
+    "options": [
+      "A) Persistent",
+      "B) Resistant",
+      "C) Consistent",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Data structures such as B+-trees would not be in a consistent state, and neither logical redo nor logical undo operations can be performed on an inconsistent data structure."
+  },
+  {
+    "question": "An operation is said to be __________ if executing it several times in a row gives the same result as executing it once.",
+    "options": [
+      "A) Idempotent",
+      "B) Changed",
+      "C) Repetitive",
+      "D) All of the above"
+    ],
+    "correct_answer": "A",
+    "explanation": "Operations such as inserting an entry into a B+-tree may not be idempotent, and the recovery algorithm must therefore make sure that an operation that has already been performed is not performed again.  \n\n\n    🎓 Free Certifications on 300 subjects are live for August 2026. Register Now!"
+  },
+  {
+    "question": "Immediate database modification technique uses",
+    "options": [
+      "A) Both undo and redo",
+      "B) Undo but no redo",
+      "C) Redo but no undo",
+      "D) Neither undo nor redo"
+    ],
+    "correct_answer": "A",
+    "explanation": "Undo erases all the changes and redo makes the deleted changes."
+  },
+  {
+    "question": "Shadow paging has",
+    "options": [
+      "A) no redo",
+      "B) no undo",
+      "C) redo but no undo",
+      "D) neither redo nor undo"
+    ],
+    "correct_answer": "A",
+    "explanation": "Undo erases all the changes and redo makes the deleted changes. \n    advertisement"
+  },
+  {
+    "question": "For correct behaviour during recovery, undo and redo operation must be",
+    "options": [
+      "A) Commutative",
+      "B) Associative",
+      "C) Idempotent",
+      "D) Distributive"
+    ],
+    "correct_answer": "A",
+    "explanation": "Undo erases all the changes and redo makes the deleted changes."
+  },
+  {
+    "question": "If ___________ are not obtained in undo operation it will cause problem in undo-phase.",
+    "options": [
+      "A) Higher-level lock",
+      "B) Lower-level lock",
+      "C) Read only lock",
+      "D) Read write"
+    ],
+    "correct_answer": "A",
+    "explanation": "Operations acquire lower-level locks while they execute, but release them when they complete; the corresponding transaction must however retain a higher-level lock in a two-phase manner to prevent concurrent transactions from executing conflicting actions."
+  },
+  {
+    "question": "The remote backup site is sometimes also called the",
+    "options": [
+      "A) Primary Site",
+      "B) Secondary Site",
+      "C) Tertiary Site",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "We can achieve high availability by performing transaction processing at one site, called the primary site, and having a remote backup site where all the data from the primary site are replicated."
+  },
+  {
+    "question": "Remote backup system must be _________ with the primary site.",
+    "options": [
+      "A) Synchronised",
+      "B) Separated",
+      "C) Connected",
+      "D) Detached but related"
+    ],
+    "correct_answer": "A",
+    "explanation": "We can achieve high availability by performing transaction processing at one site, called the primary site, and having a remote backup site where all the data from the primary site are replicated."
+  },
+  {
+    "question": "The backup is taken by",
+    "options": [
+      "A) Erasing all previous records",
+      "B) Entering the new records",
+      "C) Sending all log records from primary site to the remote backup site",
+      "D) Sending selected records from primary site to the remote backup site"
+    ],
+    "correct_answer": "A",
+    "explanation": "We can achieve high availability by performing transaction processing at one site, called the primary site, and having a remote backup site where all the data from the primary site are replicated.\n\nadvertisement"
+  },
+  {
+    "question": "When the __________ the backup site takes over processing and becomes the primary.",
+    "options": [
+      "A) Secondary fails",
+      "B) Backup recovers",
+      "C) Primary fails",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "When the original primary site recovers, it can either play the role of remote backup, or take over the role of primary site again."
+  },
+  {
+    "question": "The simplest way of transferring control is for the old primary to receive __________ from the old backup site.",
+    "options": [
+      "A) Undo logs",
+      "B) Redo Logs",
+      "C) Primary Logs",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "If control must be transferred back, the old backup site can pretend to have failed, resulting in the old primary taking over."
+  }
+]

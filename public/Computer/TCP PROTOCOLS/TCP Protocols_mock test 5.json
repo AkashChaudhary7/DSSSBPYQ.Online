@@ -1,0 +1,538 @@
+[
+  {
+    "question": "It is easy to compare different fading distributions using mean values instead of median values.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "By using median values instead of mean values, it is easy to compare different fading distributions which may have widely varying means. Median is used in practice since fading data is measured in the field and a particular distribution cannot be assumed."
+  },
+  {
+    "question": "For a nonfading signal component present, the small scale fading envelope distribution is ____________",
+    "options": [
+      "A) Rayleigh",
+      "B) Gaussian",
+      "C) Log normal",
+      "D) Ricean"
+    ],
+    "correct_answer": "D",
+    "explanation": "The small scale fading envelope is Ricean when there is a dominant stationary (nonfading) signal component, such as line of sight propagation path. In such a situation, random multipath components arriving at different angles are superimposed on a stationary dominant signal."
+  },
+  {
+    "question": "Ricean distribution degenerates to ________ distribution when the dominant component fades away.",
+    "options": [
+      "A) Log normal",
+      "B) Gamma",
+      "C) Rayleigh",
+      "D) Gaussian"
+    ],
+    "correct_answer": "C",
+    "explanation": "Ricean distribution degenerates to Rayleigh distribution when the dominant component fades away. As the dominant signal becomes weaker, the composite signal resembles a noise signal which has an envelope that is Rayleigh."
+  },
+  {
+    "question": "The envelope of a bandpass noise is __________",
+    "options": [
+      "A) Uniformly distributed",
+      "B) Rayleigh",
+      "C) Ricean",
+      "D) Gaussian"
+    ],
+    "correct_answer": "B",
+    "explanation": "The envelope of only bandpass noise is Rayleigh distribution. Rayleigh distribution is a continuous probability density function for positive random variables."
+  },
+  {
+    "question": "The envelope of a sinusoid plus bandpass noise has __________",
+    "options": [
+      "A) Uniformly distributed",
+      "B) Rayleigh",
+      "C) Ricean",
+      "D) Gaussian"
+    ],
+    "correct_answer": "C",
+    "explanation": "The envelope of a sinusoid plus bandpass noise has Ricean distribution. In probability theory, Ricean distribution is the probability distribution which has magnitude of a circular bivariate normal random variable with potentially non-zero mean."
+  },
+  {
+    "question": "What do you call an attenuation that occurs over many different wavelengths of the carrier?",
+    "options": [
+      "A) Rayleigh fading",
+      "B) Ricean fading",
+      "C) Wavelength fading",
+      "D) Slow fading"
+    ],
+    "correct_answer": "D",
+    "explanation": "Slow fading does not vary quickly with the frequency. It originates due to effect of mobility. Slow fading is the result of signal path change due to shadowing and obstructions such as tree or buildings etc."
+  },
+  {
+    "question": "Which of the reception problems below that is not due to multipath?",
+    "options": [
+      "A) Delayed spreading",
+      "B) Rayleigh fading",
+      "C) Random Doppler shift",
+      "D) Slow fading"
+    ],
+    "correct_answer": "D",
+    "explanation": "Slow fading arises when the coherence time of the channel is large relative to the delay requirement of the application. Slow fading is caused by events such as shadowing, where a large obstruction such as a hill or large building obscures the main signal path between the transmitter and the receiver."
+  },
+  {
+    "question": "Which of the following is a combined linear and constant envelope technique?",
+    "options": [
+      "A) MPSK",
+      "B) PSK",
+      "C) BPSK",
+      "D) QPSK"
+    ],
+    "correct_answer": "A",
+    "explanation": "M-ary phase shift keying (MPSK) is a combined linear and constant envelope technique. It is a part of M-ary modulation techniques. These modern modulation techniques exploit the fact that digital baseband data may be sent by varying both the envelope and phase of an RF carrier."
+  },
+  {
+    "question": "In an M-ary signalling scheme two or more bits are grouped together to form a _______",
+    "options": [
+      "A) Chip",
+      "B) Symbol",
+      "C) Byte",
+      "D) Pattern"
+    ],
+    "correct_answer": "B",
+    "explanation": "In an M-ary signalling scheme two or more bits are grouped together to form symbols. And one of the M possible signals is transmitted during each symbol period of duration Ts."
+  },
+  {
+    "question": "The number of possible signal in M-ary signalling is given by M and M = __________ where n is an integer.",
+    "options": [
+      "A) n",
+      "B) 2n",
+      "C) 2n",
+      "D) n2"
+    ],
+    "correct_answer": "C",
+    "explanation": "Two or more bits are grouped to form a symbol in M-ary modulation. And the number of possible symbols should be equal to 2n, where n is an integer."
+  },
+  {
+    "question": "M-ary signalling techniques are not sensitive to timing jitters.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Timing errors increase when smaller distances between signals in the constellation diagram are used. M-ary signalling techniques are attractive for use in bandlimited channel, but are limited in their applications due to sensitivity in timing jitter."
+  },
+  {
+    "question": "M-ary modulation schemes have very good power efficiency.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "M-ary modulation schemes have poor power efficiency, but they have a better bandwidth efficiency. An 8-PSK system requires a bandwidth that is 3 times smaller than a BPSK system, whereas its BER performance is very worse since signals are packed more closely in the signal constellation."
+  },
+  {
+    "question": "In M-ary PSK, the carrier ___________ takes one of M possible values.",
+    "options": [
+      "A) Amplitude",
+      "B) Frequency",
+      "C) Angle",
+      "D) Phase"
+    ],
+    "correct_answer": "D",
+    "explanation": "In an M-ary PSK, the carrier phase takes one of the M possible values. The possible values of phase are θi=2(i-1)/M, where i=1,2,…….,M."
+  },
+  {
+    "question": "The constellation of M-ary PSK is ____________ dimensional.",
+    "options": [
+      "A) One",
+      "B) Does not exist",
+      "C) Two",
+      "D) Three"
+    ],
+    "correct_answer": "C",
+    "explanation": "The constellation of M-ary PSK is two dimensional. It is due to the presence of two basis signals. And the M-ary message points are equally spaced on a circle."
+  },
+  {
+    "question": "What is the radius of the circle in M-ary PSK on which message points are equaly spaced?",
+    "options": [
+      "A) √Es",
+      "B) √Eb",
+      "C) Eb",
+      "D) Es"
+    ],
+    "correct_answer": "A",
+    "explanation": "The M-ary message points are equally spaced on a circle of radius √Es centred at the origin.  Here Es is energy per symbol. Thus, MPSK is a constant envelope signal when no pulse shaping is used."
+  },
+  {
+    "question": "As the value of M _________ the bandwidth efficiency ________",
+    "options": [
+      "A) Increases, same.",
+      "B) Increases, decreases",
+      "C) Increases, increases",
+      "D) Decreases, same"
+    ],
+    "correct_answer": "C",
+    "explanation": "The first null bandwidth of M-ary PSK signals decrease as M increases while Rb is held constant. Therefore, as the value of M increases, the bandwidth efficiency also increases."
+  },
+  {
+    "question": "The power efficiency of the M ary PSK decreases because of the _____",
+    "options": [
+      "A) Freely packed constellation",
+      "B) Increment of bandwidth efficiency",
+      "C) Fixed null bandwidth",
+      "D) Densely packed constellation"
+    ],
+    "correct_answer": "D",
+    "explanation": "Bandwidth efficiency increases as the value of M increases. But at the same time, increasing M implies that the constellation is more densely packed. Hence the power efficiency or noise tolerance is decreased."
+  },
+  {
+    "question": "In QAM, the amplitude is _______ and phase is _______",
+    "options": [
+      "A) Varied, constant",
+      "B) Varied, varied",
+      "C) Constant, varied",
+      "D) Constant, constant"
+    ],
+    "correct_answer": "B",
+    "explanation": "Quadrature amplitude modulation (QAM) is obtained by allowing the amplitude to also vary with the phase. Thus, the constellation consists of square lattice of signal points."
+  },
+  {
+    "question": "M-ary QAM signal have constant energy per symbol.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "M-ary QAM does not have constant energy per symbol. It also does not have constant distance between possible symbol states. It reasons that particular values of M-ary QAM signal will be detected with higher probability than others."
+  },
+  {
+    "question": "In comparison to M-ary PSK, M-ary QAM bandwidth efficiency is _____ and power efficiency is ________",
+    "options": [
+      "A) Identical, superior",
+      "B) Less, superior",
+      "C) Identical, identical",
+      "D) Superior, superior"
+    ],
+    "correct_answer": "A",
+    "explanation": "The power spectrum and bandwidth efficiency of QAM modulator is identical to M-ary PSK modulation. But, in terms of power efficiency QAM is superior to M-ary PSK."
+  },
+  {
+    "question": "The bandwidth efficiency of an M-ary FSK signal ________ with ________ in M.",
+    "options": [
+      "A) Constant, increase",
+      "B) Increases, increase",
+      "C) Decreases, increase",
+      "D) Decreases, decrease"
+    ],
+    "correct_answer": "C",
+    "explanation": "The bandwidth efficiency of an M-ary FSK signal decreases with increase in M. Therefore, unlike M-PSK signals, M-FSK signals are bandwidth inefficient."
+  },
+  {
+    "question": "Power efficiency of M-ary FSK increases, since _________",
+    "options": [
+      "A) Constellation is densely packed",
+      "B) M signals are non-orthogonal",
+      "C) Fixed null bandwidth",
+      "D) M-signals are orthogonal"
+    ],
+    "correct_answer": "D",
+    "explanation": "In M-ary FSK, all the M signals are orthogonal and there is no crowding in the signal space. Hence, power efficiency of M-ary FSK increases with M."
+  },
+  {
+    "question": "Which of the following is not used to improve received signal quality over small scale times and distance?",
+    "options": [
+      "A) Modulation",
+      "B) Equalization",
+      "C) Diversity",
+      "D) Channel coding"
+    ],
+    "correct_answer": "A",
+    "explanation": "Equalization, diversity and channel coding are the three techniques which are used to improve received signal quality and link performance over small scale times and distance. But, the approach, cost, complexity and effectiveness varies in wireless communication system."
+  },
+  {
+    "question": "Equalization is used to compensate __________",
+    "options": [
+      "A) Peak signal to noise ratio",
+      "B) Intersymbol interference",
+      "C) Channel fading",
+      "D) Noises present in the signal"
+    ],
+    "correct_answer": "B",
+    "explanation": "Equalization compensate the intersymbol interference (ISI) created by multipath within time dispersive channels. An equalizer within a receiver compensates for the average range of the expected channel amplitude and delay characteristics."
+  },
+  {
+    "question": "Training and tracking are the operating modes of _________",
+    "options": [
+      "A) Diversity techniques",
+      "B) Channel coding techniques",
+      "C) Equalization techniques",
+      "D) Demodulation techniques"
+    ],
+    "correct_answer": "C",
+    "explanation": "General operating modes of an adaptive equalizer includes training and tracking. A known fixed length training sequence is sent by the transmitter so that the receiver’s equalizer may adapt to a proper setting for minimum bit error rate detection."
+  },
+  {
+    "question": "An equalizer is said to be converged when it is properly _______",
+    "options": [
+      "A) Trained",
+      "B) Tracked",
+      "C) Installed",
+      "D) Used"
+    ],
+    "correct_answer": "A",
+    "explanation": "When an equalizer has been properly trained, it is said to have converged. Equalizers are commonly used in digital communication systems where user data is segmented into short time blocks or time slots."
+  },
+  {
+    "question": "Time for convergence of an equalizer is not a function of _______",
+    "options": [
+      "A) Equalizer algorithm",
+      "B) Equalizer structure",
+      "C) Time rate of change of multipath radio channel",
+      "D) Transmitter characteristics"
+    ],
+    "correct_answer": "D",
+    "explanation": "The timespan over which an equalizer converges is a function of the equalizer algorithm, the equalizer structure and the time rate of change of the multipath radio channel. Equalizers require proper retraining in order to maintain effective ISI cancellation."
+  },
+  {
+    "question": "Equalizer is usually implemented in __________",
+    "options": [
+      "A) Transmitter",
+      "B) Baseband or at IF in a receiver",
+      "C) Radio channel",
+      "D) Modulator stage"
+    ],
+    "correct_answer": "B",
+    "explanation": "An equalizer is implemented at baseband or at IF in a receiver. Since the baseband complex envelope expression can be used to represent bandpass waveform, the channel response, the demodulated signal and adaptive equalizer algorithm are usually simulated and implemented at baseband."
+  },
+  {
+    "question": "Equalizer is ________ of the channel.",
+    "options": [
+      "A) Opposite",
+      "B) Same characteristics",
+      "C) Inverse filter",
+      "D) Add on"
+    ],
+    "correct_answer": "C",
+    "explanation": "An equalizer is actually an inverse filter of the channel. The goal of equalization is to satisfy that the combination of the transmitter, channel and receiver be an all pass channel."
+  },
+  {
+    "question": "______ controls the adaptive algorithm in an equalizer.",
+    "options": [
+      "A) Error signal",
+      "B) Transmitted signal",
+      "C) Received signal",
+      "D) Channel impulse response"
+    ],
+    "correct_answer": "A",
+    "explanation": "The adaptive algorithm is controlled by the error signal. The error signal is derived by comparing the output of the equalizer and some signal which is either an exact scaled replica of the transmitted signal or represents a property of transmitted signal."
+  },
+  {
+    "question": "The adaptive algorithms in equalizer that do not require training sequence are called ________",
+    "options": [
+      "A) Linear adaptive algorithms",
+      "B) Blind algorithms",
+      "C) Non-linear adaptive algorithms",
+      "D) Spatially adaptive algorithms"
+    ],
+    "correct_answer": "B",
+    "explanation": "Blind algorithms exploit the characteristics of the transmitted signal and do not require training sequence. These type of algorithm are able to acquire equalization through property restoral techniques of transmitted signal."
+  },
+  {
+    "question": "Which of the following is a blind algorithm?",
+    "options": [
+      "A) Linear adaptive algorithms",
+      "B) Constant modulus algorithm",
+      "C) Non-linear adaptive algorithms",
+      "D) Spatially adaptive algorithms"
+    ],
+    "correct_answer": "B",
+    "explanation": "Blind algorithm technique uses algorithms such as the constant modulus algorithm (CMA) and the spectral coherence restoral algorithm (SCORE). CMA is used for constant envelope modulation and forces the equalizer weights to maintain a constant envelope on the received signal."
+  },
+  {
+    "question": "In CDMA spread spectrum systems, chip rate is less than the bandwidth of the channel.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "In CDMA spread spectrum systems, the chip rate is typically much greater than the flat fading bandwidth of the channel. Whereas conventional modulation techniques require an equalizer to undo intersymbol interference between adjacent channels."
+  },
+  {
+    "question": "A RAKE receiver collects the __________ versions of the original signal.",
+    "options": [
+      "A) Time shifted",
+      "B) Amplitude shifted",
+      "C) Frequency shifted",
+      "D) Phase shifted"
+    ],
+    "correct_answer": "A",
+    "explanation": "RAKE receiver attempts to collect the time shifted versions of the original signal. It is due to the fact that there is useful information present in the multipath components."
+  },
+  {
+    "question": "RAKE receiver uses separate _________ to provide the time shifted version of the signal.",
+    "options": [
+      "A) IF receiver",
+      "B) Equalizer",
+      "C) Correlation receiver",
+      "D) Channel"
+    ],
+    "correct_answer": "C",
+    "explanation": "RAKE receiver uses separate correlation receivers to provide the time shifted version of the original signal for each of the multipath signal. CDMA receivers combine these time shifted versions of the original signal to transmission in order to improve the signal to noise ratio of the receiver."
+  },
+  {
+    "question": "Each correlation receiver in RAKE receiver is adjusted in ____________",
+    "options": [
+      "A) Frequency shift",
+      "B) Amplitude change",
+      "C) Phase shift",
+      "D) Time delay"
+    ],
+    "correct_answer": "D",
+    "explanation": "Each correlation receiver may be adjusted in time delay, so that a microprocessor controller can cause different correlation receivers to search in different time windows for significant multipath."
+  },
+  {
+    "question": "The range of time delays that a particular correlator can search is called ________",
+    "options": [
+      "A) Search window",
+      "B) Sliding window",
+      "C) Time span",
+      "D) Dwell time"
+    ],
+    "correct_answer": "A",
+    "explanation": "The range of time delays that a particular correlator an search is called a search window. RAKE receiver attempts to collect the time shifted version of the original signal by providing a separate correlation receiver for each of the multipath signal."
+  },
+  {
+    "question": "RAKE receiver is used for _______ technique.",
+    "options": [
+      "A) CDMA",
+      "B) TDMA",
+      "C) FDMA",
+      "D) OFDM"
+    ],
+    "correct_answer": "A",
+    "explanation": "RAKE receiver is essentially a diversity receiver which is used specifically for CDMA. It uses the fact that the multipath components are practically uncorrelated from one another when their relative propagation delays exceed a chip period."
+  },
+  {
+    "question": "A RAKE receiver uses __________ to separately detect the M strongest signals.",
+    "options": [
+      "A) Single correlator",
+      "B) Multiple correlator",
+      "C) Single IF receiver",
+      "D) Multiple IF receivers"
+    ],
+    "correct_answer": "B",
+    "explanation": "A RAKE receiver uses multiple correlators to separately detect the M strongest multipath components. Demodulation and bit decisions are then based on the weighted ouputs of the M correlators."
+  },
+  {
+    "question": "In a RAKE receiver, if the output from one correlator is corrupted by fading, all the other correlator’s output are also corrupted.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "In a RAKE receiver, if the output from one correlator is corrupted by fading, the others may not be. And the corrupted signal may be discounted through weighting process."
+  },
+  {
+    "question": "A RAKE receiver uses __________",
+    "options": [
+      "A) Equalization",
+      "B) Channel coding",
+      "C) Diversity",
+      "D) Encryption"
+    ],
+    "correct_answer": "C",
+    "explanation": "RAKE receiver is a diversity receiver. Diversity is provided by the fact that the multipath components are practically uncorrelated from one another when their relative propagation delays exceed chip period."
+  },
+  {
+    "question": "Interleaving is used to obtain ___________ diversity.",
+    "options": [
+      "A) Time",
+      "B) Frequency",
+      "C) Polarization",
+      "D) Antenna"
+    ],
+    "correct_answer": "A",
+    "explanation": "Interleaving is used to obtain time diversity in a digital communication system without adding any overhead. It provides rapid proliferation of digital speech coders which transform analog voices into efficient digital messages."
+  },
+  {
+    "question": "The higher the bit rate, the more speech channels can be compressed within a given bandwidth.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "The lower the bit rate at which the coder can deliver toll quality speech, the more speech channels can be compressed within a given bandwidth. Thus, manufacturers are continuously in search of speech coders that provide toll quality speech at lower bit rates."
+  },
+  {
+    "question": "Which of the following are two types of speech coders?",
+    "options": [
+      "A) Waveform coders and source coders",
+      "B) Active coders and passive coders",
+      "C) Direst coders and indirect coders",
+      "D) Time and frequency coders"
+    ],
+    "correct_answer": "A",
+    "explanation": "Speech coders can be categorised into waveform coders and source coders. Waveform coders can further be categorised into time domain and frequency domain. Source coders can be classified into linear predictive coders and vocoders."
+  },
+  {
+    "question": "Waveform coders has _______ complexity and achieves _______ economy in transmission bit rate.",
+    "options": [
+      "A) Maximum, moderate",
+      "B) Maximum, high",
+      "C) Minimal, moderate",
+      "D) Minimal, high"
+    ],
+    "correct_answer": "C",
+    "explanation": "Waveform coders have minimal complexity. This class of coders achieves only moderate economy in transmission bit rate. They are designed to be source independent and hence code equally well a variety of signals."
+  },
+  {
+    "question": "Vocoders has _______ complexity and achieves _______ economy in transmission bit rate.",
+    "options": [
+      "A) Maximum, moderate",
+      "B) Maximum, high",
+      "C) Minimal, moderate",
+      "D) Minimal, high"
+    ],
+    "correct_answer": "B",
+    "explanation": "Vocoders achieve very high economy in transmission bit rate. They are in general more complex. They are based on using a priori knowledge about the signal to be coded, and for this reason, they are signal specific."
+  },
+  {
+    "question": "Which of the following is not a property that is utilized in coder design?",
+    "options": [
+      "A) Non zero autocorrelation between successive speech signals",
+      "B) Non flat nature of speech signal",
+      "C) Quasiperiodicity of voiced speech signals",
+      "D) Uniform probability distribution of speech amplitude"
+    ],
+    "correct_answer": "D",
+    "explanation": "Speech waveforms have a number of useful properties that can be exploited when designing efficient coders. They are non uniform probability distribution of speech amplitude, non-zero autocorrelation between successive speech samples, the nonflat nature of the speech spectra and quasiperiodicity of voiced speech signals."
+  },
+  {
+    "question": "Speech waveforms are _______",
+    "options": [
+      "A) Bandlimited",
+      "B) Bandpass",
+      "C) High pass",
+      "D) Infinite bandwidth"
+    ],
+    "correct_answer": "A",
+    "explanation": "The most basic property of speech waveforms that are exploited by all speech coders is that they are bandlimited. A finite bandwidth means that it can be time-discretized at a finite rate and reconstructed complexity from its samples."
+  },
+  {
+    "question": "Which of the following is not a property of pdf of speech signals?",
+    "options": [
+      "A) Non uniformity",
+      "B) Very high probability of non-zero amplitudes",
+      "C) Significant probability of very high amplitudes",
+      "D) Increasing function of amplitudes between these extremes"
+    ],
+    "correct_answer": "D",
+    "explanation": "There is a non-uniform probability distribution of speech amplitude. The pdf of a speech signal is in general characterized by a very high probability of non-zero amplitudes, a significant probability of very high amplitudes, and a monotonically decreasing function of amplitudes between these extremes."
+  },
+  {
+    "question": "Auto correlation function measures______ between samples of a speech signal as a function of _______",
+    "options": [
+      "A) Similarity, frequency",
+      "B) Dissimilarity, time",
+      "C) Similarity, time",
+      "D) Dissimilarity, frequency"
+    ],
+    "correct_answer": "C",
+    "explanation": "The autocorrelation function (ACF) gives a quantitative measure of the closeness or similarity between samples of a speech signal as a function of their time separation. In every sample of speech, there is a large component that is easily predicted from the values of the previous samples."
+  }
+]

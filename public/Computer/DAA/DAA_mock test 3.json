@@ -1,0 +1,540 @@
+[
+  {
+    "question": "What is the time complexity of the above recursive implementation used to reverse a string?",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(n2)",
+      "D) O(n3)"
+    ],
+    "correct_answer": "B",
+    "explanation": "The time complexity of the above recursive implementation used to reverse a string is O(n)."
+  },
+  {
+    "question": "In which of the following cases is the reversal of a string not equal to the original string?",
+    "options": [
+      "A) Palindromic strings",
+      "B) Strings of length 1",
+      "C) Empty String",
+      "D) Strings of length 2"
+    ],
+    "correct_answer": "D",
+    "explanation": "String “ab” is a string of length 2 whose reversal is not the same as the given one. Palindromic Strings, String of length 1 and Empty Strings case – the reversal is the same as the one given."
+  },
+  {
+    "question": "Which of the following methods can be used to find the largest and smallest element in an array?",
+    "options": [
+      "A) Recursion",
+      "B) Iteration",
+      "C) Both recursion and iteration",
+      "D) No method is suitable"
+    ],
+    "correct_answer": "C",
+    "explanation": "Both recursion and iteration can be used to find the largest and smallest element in an array."
+  },
+  {
+    "question": "Which of the following techniques can be used to search an element in an unsorted array?",
+    "options": [
+      "A) Iterative linear search",
+      "B) Recursive binary search",
+      "C) Iterative binary search",
+      "D) Normal binary search"
+    ],
+    "correct_answer": "A",
+    "explanation": "Iterative linear search can be used to search an element in an unsorted array.\nNote: Binary search can be used only when the array is sorted."
+  },
+  {
+    "question": "Consider the array {1,1,1,1,1}. Select the wrong option?",
+    "options": [
+      "A) Iterative linear search can be used to search for the elements in the given array",
+      "B) Recursive linear search can be used to search for the elements in the given array",
+      "C) Recursive binary search can be used to search for the elements in the given array",
+      "D) No method is defined to search for an element in the given array"
+    ],
+    "correct_answer": "D",
+    "explanation": "Iterative linear search, Recursive linear search and Recursive binary search can be applied to search for an element in the above given array."
+  },
+  {
+    "question": "What is the time complexity of the above recursive implementation of binary search?",
+    "options": [
+      "A) O(n)",
+      "B) O(2n)",
+      "C) O(logn)",
+      "D) O(n!)"
+    ],
+    "correct_answer": "C",
+    "explanation": "The time complexity of the above recursive implementation of binary search is O(logn)."
+  },
+  {
+    "question": "Recursive program to raise an integer x to power y uses which of the following algorithm?",
+    "options": [
+      "A) Dynamic programming",
+      "B) Backtracking",
+      "C) Divide and conquer",
+      "D) Greedy algorithm"
+    ],
+    "correct_answer": "C",
+    "explanation": "The recursive approach uses divide and conquer algorithm as we break the problem into smaller parts and then solve the smaller parts and finally combine their results to get the overall solution."
+  },
+  {
+    "question": "What is the least time in which we can raise a number x to power y?",
+    "options": [
+      "A) O(x)",
+      "B) O(y)",
+      "C) O(log x)",
+      "D) O(log y)"
+    ],
+    "correct_answer": "D",
+    "explanation": "We can optimize the code for finding power of a number by calculating x raised to power y/2 only once and using it depending on whether y is even or odd."
+  },
+  {
+    "question": "What is the advantage of iterative code for finding power of number over recursive code?",
+    "options": [
+      "A) Iterative code requires less time",
+      "B) Iterative code requires less space",
+      "C) Iterative code is more compiler friendly",
+      "D) It has no advantage"
+    ],
+    "correct_answer": "B",
+    "explanation": "Both iterative and recursive approach can be implemented in log n time but the recursive code requires memory in call stack which makes it less preferable."
+  },
+  {
+    "question": "Recursive approach to find power of a number is preferred over iterative approach.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "The recursive code requires memory in call stack which makes it less preferable as compared to iterative approach."
+  },
+  {
+    "question": "Given a one-dimensional array of integers, you have to find a sub-array with maximum sum. This is the maximum sub-array sum problem. Which of these methods can be used to solve the problem?",
+    "options": [
+      "A) Dynamic programming",
+      "B) Two for loops (naive method)",
+      "C) Divide and conquer",
+      "D) Dynamic programming, naïve method and Divide and conquer methods"
+    ],
+    "correct_answer": "D",
+    "explanation": "Dynamic programming, naïve method and Divide and conquer methods can be used to solve the maximum sub array sum problem."
+  },
+  {
+    "question": "Find the maximum sub-array sum for the given elements.",
+    "options": [
+      "A) 3",
+      "B) 5",
+      "C) 8",
+      "D) 6"
+    ],
+    "correct_answer": "B",
+    "explanation": "The maximum sub-array sum is 5."
+  },
+  {
+    "question": "Find the maximum sub-array sum for the given elements.",
+    "options": [
+      "A) -3",
+      "B) 5",
+      "C) 3",
+      "D) -1"
+    ],
+    "correct_answer": "D",
+    "explanation": "All the elements are negative. So, the maximum sub-array sum will be equal to the largest element. The largest element is -1 and therefore, the maximum sub-array sum is -1."
+  },
+  {
+    "question": "What is the time complexity of the divide and conquer algorithm used to find the maximum sub-array sum?",
+    "options": [
+      "A) O(n)",
+      "B) O(logn)",
+      "C) O(nlogn)",
+      "D) O(n2)"
+    ],
+    "correct_answer": "C",
+    "explanation": "The time complexity of the divide and conquer algorithm used to find the maximum sub-array sum is O(nlogn)."
+  },
+  {
+    "question": "What is the space complexity of the divide and conquer algorithm used to find the maximum sub-array sum?",
+    "options": [
+      "A) O(n)",
+      "B) O(1)",
+      "C) O(n!)",
+      "D) O(n2)"
+    ],
+    "correct_answer": "B",
+    "explanation": "The divide and conquer algorithm uses a constant space. So, the space complexity is O(1)."
+  },
+  {
+    "question": "Kadane’s algorithm is used to find ____________",
+    "options": [
+      "A) Longest increasing subsequence",
+      "B) Longest palindrome subsequence",
+      "C) Maximum sub-array sum",
+      "D) Longest decreasing subsequence"
+    ],
+    "correct_answer": "C",
+    "explanation": "Kadane’s algorithm is used to find the maximum sub-array sum for a given array."
+  },
+  {
+    "question": "Kadane’s algorithm uses which of the following techniques?",
+    "options": [
+      "A) Divide and conquer",
+      "B) Dynamic programming",
+      "C) Recursion",
+      "D) Greedy algorithm"
+    ],
+    "correct_answer": "B",
+    "explanation": "Kadane’s algorithm uses dynamic programming."
+  },
+  {
+    "question": "For which of the following inputs would Kadane’s algorithm produce the INCORRECT output?",
+    "options": [
+      "A) {0,1,2,3}",
+      "B) {-1,0,1}",
+      "C) {-1,-2,-3,0}",
+      "D) {-4,-3,-2,-1}"
+    ],
+    "correct_answer": "D",
+    "explanation": "Kadane’s algorithm works if the input array contains at least one non-negative element. Every element in the array {-4,-3,-2,-1} is negative. Hence Kadane’s algorithm won’t work."
+  },
+  {
+    "question": "For which of the following inputs would Kadane’s algorithm produce a WRONG output?",
+    "options": [
+      "A) {1,0,-1}",
+      "B) {-1,-2,-3}",
+      "C) {1,2,3}",
+      "D) {0,0,0}"
+    ],
+    "correct_answer": "B",
+    "explanation": "Kadane’s algorithm doesn’t work for all negative numbers. So, the answer is {-1,-2,-3}."
+  },
+  {
+    "question": "What is the time complexity of Kadane’s algorithm?",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(n2)",
+      "D) O(5)"
+    ],
+    "correct_answer": "B",
+    "explanation": "The time complexity of Kadane’s algorithm is O(n) because there is only one for loop which scans the entire array exactly once."
+  },
+  {
+    "question": "What is the space complexity of Kadane’s algorithm?",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(n2)",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Kadane’s algorithm uses a constant space. So, the space complexity is O(1)."
+  },
+  {
+    "question": "Given a rod of length n and the selling prices of all pieces smaller than equal to n, find the most beneficial way of cutting the rod into smaller pieces. This problem is called the rod cutting problem. Which of these methods can be used to solve the rod cutting problem?",
+    "options": [
+      "A) Brute force",
+      "B) Dynamic programming",
+      "C) Recursion",
+      "D) Brute force, Dynamic programming and Recursion"
+    ],
+    "correct_answer": "D",
+    "explanation": "Brute force, Dynamic programming and Recursion can be used to solve the rod cutting problem."
+  },
+  {
+    "question": "Consider the brute force implementation of the rod cutting problem in which all the possible cuts are found and the maximum value is calculated. What is the time complexity of this brute force implementation?",
+    "options": [
+      "A) O(n2)",
+      "B) O(n3)",
+      "C) O(nlogn)",
+      "D) O(2n)"
+    ],
+    "correct_answer": "D",
+    "explanation": "The brute force implementation finds all the possible cuts. This takes O(2n) time."
+  },
+  {
+    "question": "For every rod cutting problem there will be a unique set of pieces that give the maximum price.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Consider a rod of length 3. The prices are {2,3,6} for lengths {1,2,3} respectively. The pieces {1,1,1} and {3} both give the maximum value of 6."
+  },
+  {
+    "question": "The Knapsack problem is an example of ____________",
+    "options": [
+      "A) Greedy algorithm",
+      "B) 2D dynamic programming",
+      "C) 1D dynamic programming",
+      "D) Divide and conquer"
+    ],
+    "correct_answer": "B",
+    "explanation": "Knapsack problem is an example of 2D dynamic programming."
+  },
+  {
+    "question": "Which of the following methods can be used to solve the Knapsack problem?",
+    "options": [
+      "A) Brute force algorithm",
+      "B) Recursion",
+      "C) Dynamic programming",
+      "D) Brute force, Recursion and Dynamic Programming"
+    ],
+    "correct_answer": "D",
+    "explanation": "Brute force, Recursion and Dynamic Programming can be used to solve the knapsack problem."
+  },
+  {
+    "question": "You are given a knapsack that can carry a maximum weight of 60. There are 4 items with weights {20, 30, 40, 70} and values {70, 80, 90, 200}. What is the maximum value of the items you can carry using the knapsack?",
+    "options": [
+      "A) 160",
+      "B) 200",
+      "C) 170",
+      "D) 90"
+    ],
+    "correct_answer": "A",
+    "explanation": "The maximum value you can get is 160. This can be achieved by choosing the items 1 and 3 that have a total weight of 60."
+  },
+  {
+    "question": "Which of the following problems is equivalent to the 0-1 Knapsack problem?",
+    "options": [
+      "A) You are given a bag that can carry a maximum weight of W. You are given N items which have a weight of {w1, w2, w3,…., wn} and a value of {v1, v2, v3,…., vn}. You can break the items into smaller pieces. Choose the items in such a way that you get the maximum value",
+      "B) You are studying for an exam and you have to study N questions. The questions take {t1, t2, t3,…., tn} time(in hours) and carry {m1, m2, m3,…., mn} marks. You can study for a maximum of T hours. You can either study a question or leave it. Choose the questions in such a way that your score is maximized",
+      "C) You are given infinite coins of denominations {v1, v2, v3,….., vn} and a sum S. You have to find the minimum number of coins required to get the sum S",
+      "D) You are given a suitcase that can carry a maximum weight of 15kg. You are given 4 items which have a weight of {10, 20, 15,40} and a value of {1, 2, 3,4}. You can break the items into smaller pieces. Choose the items in such a way that you get the maximum value"
+    ],
+    "correct_answer": "B",
+    "explanation": "In this case, questions are used instead of items. Each question has a score which is same as each item having a value. Also, each question takes a time t which is same as each item having a weight w. You have to maximize the score in time T which is same as maximizing the value using a bag of weight W."
+  },
+  {
+    "question": "What is the time complexity of the brute force algorithm used to solve the Knapsack problem?",
+    "options": [
+      "A) O(n)",
+      "B) O(n!)",
+      "C) O(2n)",
+      "D) O(n3)"
+    ],
+    "correct_answer": "C",
+    "explanation": "In the brute force algorithm all the subsets of the items are found and the value of each subset is calculated. The subset of items with the maximum value and a weight less than equal to the maximum allowed weight gives the answer. The time taken to calculate all the subsets is O(2n)."
+  },
+  {
+    "question": "The 0-1 Knapsack problem can be solved using Greedy algorithm.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "The Knapsack problem cannot be solved using the greedy algorithm."
+  },
+  {
+    "question": "Which of the following methods can be used to solve the matrix chain multiplication problem?",
+    "options": [
+      "A) Dynamic programming",
+      "B) Brute force",
+      "C) Recursion",
+      "D) Dynamic Programming, Brute force, Recursion"
+    ],
+    "correct_answer": "D",
+    "explanation": "Dynamic Programming, Brute force, Recursion methods can be used to solve the matrix chain multiplication problem."
+  },
+  {
+    "question": "Which of the following is the recurrence relation for the matrix chain multiplication problem where mat[i-1] * mat[i] gives the dimension of the ith matrix?",
+    "options": [
+      "A) dp[i,j] = 1 if i=j",
+      "B) dp[i,j] = 0 if i=j",
+      "C) dp[i,j] = 1 if i=j",
+      "D) dp[i,j] = 0 if i=j"
+    ],
+    "correct_answer": "D",
+    "explanation": "The recurrence relation is given by:\ndp[i,j] = 0 if i=j\ndp[i,j] = min{dp[i,k] + dp[k+1,j]} + mat[i-1]*mat[k]*mat[j]."
+  },
+  {
+    "question": "Consider the two matrices P and Q which are 10 x 20 and 20 x 30 matrices respectively. What is the number of multiplications required to multiply the two matrices?",
+    "options": [
+      "A) 10*20",
+      "B) 20*30",
+      "C) 10*30",
+      "D) 10*20*30"
+    ],
+    "correct_answer": "D",
+    "explanation": "The number of multiplications required is 10*20*30."
+  },
+  {
+    "question": "Consider the matrices P, Q and R which are 10 x 20, 20 x 30 and 30 x 40 matrices respectively. What is the minimum number of multiplications required to multiply the three matrices?",
+    "options": [
+      "A) 18000",
+      "B) 12000",
+      "C) 24000",
+      "D) 32000"
+    ],
+    "correct_answer": "A",
+    "explanation": "The minimum number of multiplications are 18000. This is the case when the matrices are parenthesized as (P*Q)*R."
+  },
+  {
+    "question": "Consider the matrices P, Q, R and S which are 20 x 15, 15 x 30, 30 x 5 and 5 x 40 matrices respectively. What is the minimum number of multiplications required to multiply the four matrices?",
+    "options": [
+      "A) 6050",
+      "B) 7500",
+      "C) 7750",
+      "D) 12000"
+    ],
+    "correct_answer": "C",
+    "explanation": "The minimum number of multiplications required is 7750."
+  },
+  {
+    "question": "Consider the brute force implementation in which we find all the possible ways of multiplying the given set of n matrices. What is the time complexity of this implementation?",
+    "options": [
+      "A) O(n!)",
+      "B) O(n3)",
+      "C) O(n2)",
+      "D) Exponential"
+    ],
+    "correct_answer": "D",
+    "explanation": "The time complexity of finding all the possible ways of multiplying a set of n matrices is given by (n-1)th Catalan number which is exponential."
+  },
+  {
+    "question": "Which of the following methods can be used to solve the longest palindromic subsequence problem?",
+    "options": [
+      "A) Dynamic programming",
+      "B) Recursion",
+      "C) Brute force",
+      "D) Dynamic programming, Recursion, Brute force"
+    ],
+    "correct_answer": "D",
+    "explanation": "Dynamic programming, Recursion, Brute force can be used to solve the longest palindromic subsequence problem."
+  },
+  {
+    "question": "Which of the following is not a palindromic subsequence of the string “ababcdabba”?",
+    "options": [
+      "A) abcba",
+      "B) abba",
+      "C) abbbba",
+      "D) adba"
+    ],
+    "correct_answer": "D",
+    "explanation": "‘adba’ is not a palindromic sequence."
+  },
+  {
+    "question": "For which of the following, the length of the string is not equal to the length of the longest palindromic subsequence?",
+    "options": [
+      "A) A string that is a palindrome",
+      "B) A string of length one",
+      "C) A string that has all the same letters(e.g. aaaaaa)",
+      "D) Some strings of length two"
+    ],
+    "correct_answer": "D",
+    "explanation": "A string of length 2 for eg: ab is not a palindrome."
+  },
+  {
+    "question": "What is the length of the longest palindromic subsequence for the string “ababcdabba”?",
+    "options": [
+      "A) 6",
+      "B) 7",
+      "C) 8",
+      "D) 9"
+    ],
+    "correct_answer": "B",
+    "explanation": "The longest palindromic subsequence is “abbabba” and its length is 7."
+  },
+  {
+    "question": "What is the time complexity of the brute force algorithm used to find the length of the longest palindromic subsequence?",
+    "options": [
+      "A) O(1)",
+      "B) O(2n)",
+      "C) O(n)",
+      "D) O(n2)"
+    ],
+    "correct_answer": "B",
+    "explanation": "In the brute force algorithm, all the subsequences are found and the length of the longest palindromic subsequence is calculated. This takes exponential time."
+  },
+  {
+    "question": "For every non-empty string, the length of the longest palindromic subsequence is at least one.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "A single character of any string can always be considered as a palindrome and its length is one."
+  },
+  {
+    "question": "Longest palindromic subsequence is an example of ______________",
+    "options": [
+      "A) Greedy algorithm",
+      "B) 2D dynamic programming",
+      "C) 1D dynamic programming",
+      "D) Divide and conquer"
+    ],
+    "correct_answer": "B",
+    "explanation": "Longest palindromic subsequence is an example of 2D dynamic programming."
+  },
+  {
+    "question": "Which of the following methods can be used to solve the edit distance problem?",
+    "options": [
+      "A) Recursion",
+      "B) Dynamic programming",
+      "C) Both dynamic programming and recursion",
+      "D) Greedy Algorithm"
+    ],
+    "correct_answer": "C",
+    "explanation": "Both dynamic programming and recursion can be used to solve the edit distance problem."
+  },
+  {
+    "question": "The edit distance satisfies the axioms of a metric when the costs are non-negative.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "d(s,s) = 0, since each string can be transformed into itself without any change.\nd(s1, s2) > 0 when s1 != s2, since the transformation would require at least one operation.\nd(s1, s2) = d(s2, s1)\nd(s1, s3) <= d(s1, s2) + d(s2, s3)\nThus, the edit distance satisfies the axioms of a metric."
+  },
+  {
+    "question": "Which of the following is an application of the edit distance problem?",
+    "options": [
+      "A) Approximate string matching",
+      "B) Spelling correction",
+      "C) Similarity of DNA",
+      "D) Approximate string matching, Spelling Correction and Similarity of DNA"
+    ],
+    "correct_answer": "D",
+    "explanation": "All of the mentioned are the applications of the edit distance problem."
+  },
+  {
+    "question": "In which of the following cases will the edit distance between two strings be zero?",
+    "options": [
+      "A) When one string is a substring of another",
+      "B) When the lengths of the two strings are equal",
+      "C) When the two strings are equal",
+      "D) The edit distance can never be zero"
+    ],
+    "correct_answer": "C",
+    "explanation": "The edit distance will be zero only when the two strings are equal."
+  },
+  {
+    "question": "Suppose each edit (insert, delete, replace) has a cost of one. Then, the maximum edit distance cost between the two strings is equal to the length of the larger string.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "Consider the strings “abcd” and “efghi”. The string “efghi” can be converted to “abcd” by deleting “i” and converting “efgh” to “abcd”. The cost of transformation is 5, which is equal to the length of the larger string."
+  },
+  {
+    "question": "Consider the strings “monday” and “tuesday”. What is the edit distance between the two strings?",
+    "options": [
+      "A) 3",
+      "B) 4",
+      "C) 5",
+      "D) 6"
+    ],
+    "correct_answer": "B",
+    "explanation": "“monday” can be converted to “tuesday” by replacing “m” with “t”, “o” with “u”, “n” with “e” and inserting “s” at the appropriate position. So, the edit distance is 4."
+  },
+  {
+    "question": "Consider the two strings “”(empty string) and “abcd”. What is the edit distance between the two strings?",
+    "options": [
+      "A) 0",
+      "B) 4",
+      "C) 2",
+      "D) 3"
+    ],
+    "correct_answer": "B",
+    "explanation": "The empty string can be transformed into “abcd” by inserting “a”, “b”, “c” and “d” at appropriate positions. Thus, the edit distance is 4."
+  }
+]
