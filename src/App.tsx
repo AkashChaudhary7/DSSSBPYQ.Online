@@ -40,6 +40,8 @@ import DailyStreakTracker from './components/DailyStreakTracker';
 import { PartAMockSpecialBanner } from './components/PartAMockSpecialBanner';
 import { Glass3dIcon } from './components/Glass3dIcons';
 import MobileAppInstallModal from './components/MobileAppInstallModal';
+import MobileAppGate from './components/MobileAppGate';
+import { isMobileDevice as checkIsMobileDevice, isNativeApp, isCrawler } from './lib/deviceDetection';
 
 const LazyViewFallback = () => (
   <div className="py-20 flex flex-col items-center justify-center space-y-3">
@@ -49,6 +51,30 @@ const LazyViewFallback = () => (
 );
 
 export default function App() {
+  // Mobile App Download Gate state (for mobile web browsers)
+  const [showMobileGate, setShowMobileGate] = useState<boolean>(() => {
+    if (typeof window === 'undefined') return false;
+    const pathname = window.location.pathname.toLowerCase();
+    if (pathname === '/app-ads.txt' || pathname === '/ads.txt') return false;
+    if (isCrawler()) return false;
+    if (isNativeApp()) return false;
+    return checkIsMobileDevice();
+  });
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const pathname = window.location.pathname.toLowerCase();
+    if (pathname === '/app-ads.txt' || pathname === '/ads.txt') {
+      setShowMobileGate(false);
+      return;
+    }
+    if (isCrawler() || isNativeApp()) {
+      setShowMobileGate(false);
+      return;
+    }
+    setShowMobileGate(checkIsMobileDevice());
+  }, []);
+
   // Helper to extract exam slug from URL (e.g., /syllabus/tgt-computer-science)
   const getExamSlugFromUrl = (): string | null => {
     if (typeof window === 'undefined') return null;
@@ -2223,6 +2249,10 @@ export default function App() {
   });
 
   const weakestTopic = sortedTopics[0]?.[0];
+
+  if (showMobileGate) {
+    return <MobileAppGate />;
+  }
 
   return (
     <div className="min-h-screen flex flex-col justify-between bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 transition-colors duration-200">

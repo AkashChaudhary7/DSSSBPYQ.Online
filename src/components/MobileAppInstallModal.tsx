@@ -1,42 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { X, Download, Smartphone } from 'lucide-react';
+import { isMobileDevice, isCrawler, isNativeApp } from '../lib/deviceDetection';
+
+export { isMobileDevice, isCrawler, isNativeApp };
 
 export const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=online.dsssbpyq.twa';
 export const DISMISSAL_STORAGE_KEY = 'byteprep_app_install_prompt_dismissed';
 export const DISMISSAL_COOLDOWN_MS = 7 * 24 * 60 * 60 * 1000; // 7 days cooldown
-
-export function isMobileDevice(): boolean {
-  if (typeof window === 'undefined' || typeof navigator === 'undefined') return false;
-
-  try {
-    // 1. Check navigator.userAgentData (modern browsers)
-    const nav = navigator as any;
-    if (nav.userAgentData && typeof nav.userAgentData.mobile === 'boolean') {
-      if (nav.userAgentData.mobile) return true;
-    }
-
-    // 2. User Agent regex test
-    const ua = navigator.userAgent || '';
-    const mobileRegex = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS|FxiOS|Tablet|Touch/i;
-    if (mobileRegex.test(ua)) return true;
-
-    // 3. iPadOS 13+ detection (Macintosh UA with touch points)
-    if (/Macintosh/i.test(ua) && navigator.maxTouchPoints && navigator.maxTouchPoints > 1) {
-      return true;
-    }
-  } catch {
-    // Silent fail
-  }
-
-  return false;
-}
-
-export function isCrawler(): boolean {
-  if (typeof navigator === 'undefined') return false;
-  const ua = navigator.userAgent || '';
-  const crawlerRegex = /Googlebot|bingbot|yandexbot|DuckDuckBot|slurp|Mediapartners-Google|AdsBot-Google|google-app-manifest|FeedFetcher-Google/i;
-  return crawlerRegex.test(ua);
-}
 
 export default function MobileAppInstallModal() {
   const [isVisible, setIsVisible] = useState(false);
