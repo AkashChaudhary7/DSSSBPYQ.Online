@@ -24,16 +24,58 @@ export default function AdBanner({
     if (typeof window === 'undefined' || window.innerWidth < 768) {
       return;
     }
-    trackAdImpression(format, location);
 
-    if (adSlot && adRef.current && !pushedRef.current) {
-      try {
+    if (!adSlot || !adRef.current || pushedRef.current) {
+      return;
+    }
+
+    let observer: ResizeObserver | IntersectionObserver | null = null;
+    let timerId: NodeJS.Timeout | null = null;
+
+    const pushAdIfVisible = () => {
+      if (!adRef.current || pushedRef.current) return false;
+
+      // Check if the element is rendered and has a valid visible width
+      const width = adRef.current.offsetWidth || adRef.current.parentElement?.offsetWidth || 0;
+      if (width > 0) {
         pushedRef.current = true;
-        ((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({});
-      } catch (err) {
-        console.warn('AdSense push warning:', err);
+        trackAdImpression(format, location);
+        try {
+          ((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({});
+        } catch (err) {
+          console.warn('AdSense push warning:', err);
+        }
+        return true;
+      }
+      return false;
+    };
+
+    // Attempt immediate push if width > 0
+    if (!pushAdIfVisible()) {
+      // Use ResizeObserver / IntersectionObserver to wait for non-zero width layout pass
+      if (typeof ResizeObserver !== 'undefined') {
+        observer = new ResizeObserver(() => {
+          if (pushAdIfVisible() && observer) {
+            observer.disconnect();
+            observer = null;
+          }
+        });
+        observer.observe(adRef.current);
+      } else {
+        // Fallback polling for layout rendering
+        const poll = () => {
+          if (!pushAdIfVisible()) {
+            timerId = setTimeout(poll, 200);
+          }
+        };
+        timerId = setTimeout(poll, 100);
       }
     }
+
+    return () => {
+      if (observer) observer.disconnect();
+      if (timerId) clearTimeout(timerId);
+    };
   }, [format, location, adSlot]);
 
   // Strictly obey AdSense Policy: Do NOT show fake placeholder text or mock ad frames
