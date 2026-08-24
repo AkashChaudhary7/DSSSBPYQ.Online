@@ -50,9 +50,13 @@ const LazyViewFallback = () => (
   </div>
 );
 
+// Mobile App Download Gate configuration flag (currently turned off)
+const ENABLE_MOBILE_APP_GATE = false;
+
 export default function App() {
-  // Mobile App Download Gate state (for mobile web browsers)
+  // Mobile App Download Gate state (disabled as of now)
   const [showMobileGate, setShowMobileGate] = useState<boolean>(() => {
+    if (!ENABLE_MOBILE_APP_GATE) return false;
     if (typeof window === 'undefined') return false;
     const pathname = window.location.pathname.toLowerCase();
     if (pathname === '/app-ads.txt' || pathname === '/ads.txt') return false;
@@ -62,6 +66,10 @@ export default function App() {
   });
 
   useEffect(() => {
+    if (!ENABLE_MOBILE_APP_GATE) {
+      setShowMobileGate(false);
+      return;
+    }
     if (typeof window === 'undefined') return;
     const pathname = window.location.pathname.toLowerCase();
     if (pathname === '/app-ads.txt' || pathname === '/ads.txt') {
