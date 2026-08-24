@@ -2788,29 +2788,34 @@ export default function App() {
                     </p>
                   </div>
                   
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5">
+                  <div className="grid grid-cols-2 lg:grid-cols-4 gap-2.5 sm:gap-4 md:gap-5">
                     {/* Main Exam Category 1: Computer Science */}
                     <motion.div 
                       initial={{ opacity: 0, y: 15 }}
                       animate={{ opacity: 1, y: 0 }}
                       whileHover={{ scale: 1.03, y: -4 }}
-                      whileTap={{ scale: 0.98 }}
+                      whileTap={{ scale: 0.97 }}
                       transition={{ duration: 0.3, delay: 0.04, type: 'spring', stiffness: 200, damping: 20 }}
                       onClick={() => setActiveView('tgt-cs-view')}
-                      className="glass-box backdrop-blur-xl bg-white/80 dark:bg-slate-900/80 border border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-5 md:p-6 text-center flex flex-col items-center justify-center space-y-3 shadow-lg hover:shadow-2xl hover:border-indigo-400 dark:hover:border-indigo-500 transition-all cursor-pointer group relative overflow-hidden"
+                      className="glass-box backdrop-blur-xl bg-white/90 dark:bg-slate-900/90 border-2 border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-3 sm:p-5 md:p-6 text-center flex flex-col items-center justify-between space-y-2 md:space-y-3 shadow-md hover:shadow-2xl hover:border-indigo-400 dark:hover:border-indigo-500 transition-all cursor-pointer group relative overflow-hidden"
                     >
-                      <div className="absolute top-0 right-0 bg-indigo-500/10 text-indigo-700 dark:text-indigo-300 border-b border-l border-indigo-200/60 dark:border-indigo-800/60 text-[9px] md:text-[10px] font-black px-2.5 py-0.5 md:px-3 md:py-1 rounded-bl-xl md:rounded-bl-2xl uppercase tracking-wider">
-                        32 CS Modules
+                      <div className="absolute top-0 right-0 bg-indigo-500/10 text-indigo-700 dark:text-indigo-300 border-b border-l border-indigo-200/60 dark:border-indigo-800/60 text-[8px] sm:text-[9px] md:text-[10px] font-black px-2 py-0.5 sm:px-2.5 sm:py-0.5 md:px-3 md:py-1 rounded-bl-lg sm:rounded-bl-xl md:rounded-bl-2xl uppercase tracking-wider">
+                        32 Modules
                       </div>
-                      <div className="pt-2 group-hover:scale-110 transition-transform">
-                        <Glass3dIcon type="target" size="lg" />
+                      <div className="pt-2 sm:pt-1 group-hover:scale-110 transition-transform">
+                        <div className="sm:hidden">
+                          <Glass3dIcon type="target" size="md" />
+                        </div>
+                        <div className="hidden sm:block">
+                          <Glass3dIcon type="target" size="lg" />
+                        </div>
                       </div>
-                      <div className="space-y-1">
-                        <h3 className="font-black text-base md:text-lg text-slate-900 dark:text-white tracking-tight group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
+                      <div className="space-y-0.5 md:space-y-1 w-full">
+                        <h3 className="font-black text-xs sm:text-base md:text-lg text-slate-900 dark:text-white tracking-tight group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors leading-tight">
                           TGT Computer Science
                         </h3>
-                        <p className="text-xs text-slate-500 dark:text-slate-400 font-medium">
-                          32 DOE Topics, PYQs &amp; Tracker
+                        <p className="text-[10px] sm:text-xs text-slate-500 dark:text-slate-400 font-medium line-clamp-2 sm:line-clamp-none">
+                          32 DOE Topics &amp; PYQs
                         </p>
                       </div>
                     </motion.div>
@@ -2820,23 +2825,28 @@ export default function App() {
                       initial={{ opacity: 0, y: 15 }}
                       animate={{ opacity: 1, y: 0 }}
                       whileHover={{ scale: 1.03, y: -4 }}
-                      whileTap={{ scale: 0.98 }}
+                      whileTap={{ scale: 0.97 }}
                       transition={{ duration: 0.3, delay: 0.08, type: 'spring', stiffness: 200, damping: 20 }}
                       onClick={() => setActiveView('common-dsssb-view')}
-                      className="glass-box backdrop-blur-xl bg-white/80 dark:bg-slate-900/80 border border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-5 md:p-6 text-center flex flex-col items-center justify-center space-y-3 shadow-lg hover:shadow-2xl hover:border-amber-400 dark:hover:border-amber-500 transition-all cursor-pointer group relative overflow-hidden"
+                      className="glass-box backdrop-blur-xl bg-white/90 dark:bg-slate-900/90 border-2 border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-3 sm:p-5 md:p-6 text-center flex flex-col items-center justify-between space-y-2 md:space-y-3 shadow-md hover:shadow-2xl hover:border-amber-400 dark:hover:border-amber-500 transition-all cursor-pointer group relative overflow-hidden"
                     >
-                      <div className="absolute top-0 right-0 bg-amber-500/10 text-amber-700 dark:text-amber-300 border-b border-l border-amber-200/60 dark:border-amber-800/60 text-[9px] md:text-[10px] font-black px-2.5 py-0.5 md:px-3 md:py-1 rounded-bl-xl md:rounded-bl-2xl uppercase tracking-wider">
-                        Part A (100 Marks)
+                      <div className="absolute top-0 right-0 bg-amber-500/10 text-amber-700 dark:text-amber-300 border-b border-l border-amber-200/60 dark:border-amber-800/60 text-[8px] sm:text-[9px] md:text-[10px] font-black px-2 py-0.5 sm:px-2.5 sm:py-0.5 md:px-3 md:py-1 rounded-bl-lg sm:rounded-bl-xl md:rounded-bl-2xl uppercase tracking-wider">
+                        Part A (100M)
                       </div>
-                      <div className="pt-2 group-hover:scale-110 transition-transform">
-                        <Glass3dIcon type="calculator" size="lg" />
+                      <div className="pt-2 sm:pt-1 group-hover:scale-110 transition-transform">
+                        <div className="sm:hidden">
+                          <Glass3dIcon type="calculator" size="md" />
+                        </div>
+                        <div className="hidden sm:block">
+                          <Glass3dIcon type="calculator" size="lg" />
+                        </div>
                       </div>
-                      <div className="space-y-1">
-                        <h3 className="font-black text-base md:text-lg text-slate-900 dark:text-white tracking-tight group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors">
+                      <div className="space-y-0.5 md:space-y-1 w-full">
+                        <h3 className="font-black text-xs sm:text-base md:text-lg text-slate-900 dark:text-white tracking-tight group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors leading-tight">
                           General Ability
                         </h3>
-                        <p className="text-xs text-slate-500 dark:text-slate-400 font-medium">
-                          Maths, Reasoning, GK &amp; Languages
+                        <p className="text-[10px] sm:text-xs text-slate-500 dark:text-slate-400 font-medium line-clamp-2 sm:line-clamp-none">
+                          Maths, Reasoning, GK
                         </p>
                       </div>
                     </motion.div>
@@ -2846,23 +2856,28 @@ export default function App() {
                       initial={{ opacity: 0, y: 15 }}
                       animate={{ opacity: 1, y: 0 }}
                       whileHover={{ scale: 1.03, y: -4 }}
-                      whileTap={{ scale: 0.98 }}
+                      whileTap={{ scale: 0.97 }}
                       transition={{ duration: 0.3, delay: 0.10, type: 'spring', stiffness: 200, damping: 20 }}
                       onClick={() => setActiveView('teaching-methodology-view')}
-                      className="glass-box backdrop-blur-xl bg-white/80 dark:bg-slate-900/80 border border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-5 md:p-6 text-center flex flex-col items-center justify-center space-y-3 shadow-lg hover:shadow-2xl hover:border-purple-400 dark:hover:border-purple-500 transition-all cursor-pointer group relative overflow-hidden"
+                      className="glass-box backdrop-blur-xl bg-white/90 dark:bg-slate-900/90 border-2 border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-3 sm:p-5 md:p-6 text-center flex flex-col items-center justify-between space-y-2 md:space-y-3 shadow-md hover:shadow-2xl hover:border-purple-400 dark:hover:border-purple-500 transition-all cursor-pointer group relative overflow-hidden"
                     >
-                      <div className="absolute top-0 right-0 bg-purple-500/10 text-purple-700 dark:text-purple-300 border-b border-l border-purple-200/60 dark:border-purple-800/60 text-[9px] md:text-[10px] font-black px-2.5 py-0.5 md:px-3 md:py-1 rounded-bl-xl md:rounded-bl-2xl uppercase tracking-wider">
+                      <div className="absolute top-0 right-0 bg-purple-500/10 text-purple-700 dark:text-purple-300 border-b border-l border-purple-200/60 dark:border-purple-800/60 text-[8px] sm:text-[9px] md:text-[10px] font-black px-2 py-0.5 sm:px-2.5 sm:py-0.5 md:px-3 md:py-1 rounded-bl-lg sm:rounded-bl-xl md:rounded-bl-2xl uppercase tracking-wider">
                         Pedagogy
                       </div>
-                      <div className="pt-2 group-hover:scale-110 transition-transform">
-                        <Glass3dIcon type="books" size="lg" />
+                      <div className="pt-2 sm:pt-1 group-hover:scale-110 transition-transform">
+                        <div className="sm:hidden">
+                          <Glass3dIcon type="books" size="md" />
+                        </div>
+                        <div className="hidden sm:block">
+                          <Glass3dIcon type="books" size="lg" />
+                        </div>
                       </div>
-                      <div className="space-y-1">
-                        <h3 className="font-black text-base md:text-lg text-slate-900 dark:text-white tracking-tight group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
+                      <div className="space-y-0.5 md:space-y-1 w-full">
+                        <h3 className="font-black text-xs sm:text-base md:text-lg text-slate-900 dark:text-white tracking-tight group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors leading-tight">
                           Teaching Methodology
                         </h3>
-                        <p className="text-xs text-slate-500 dark:text-slate-400 font-medium">
-                          Child Psychology, Pedagogy &amp; NEP
+                        <p className="text-[10px] sm:text-xs text-slate-500 dark:text-slate-400 font-medium line-clamp-2 sm:line-clamp-none">
+                          Psychology &amp; NEP 2020
                         </p>
                       </div>
                     </motion.div>
@@ -2872,23 +2887,28 @@ export default function App() {
                       initial={{ opacity: 0, y: 15 }}
                       animate={{ opacity: 1, y: 0 }}
                       whileHover={{ scale: 1.03, y: -4 }}
-                      whileTap={{ scale: 0.98 }}
+                      whileTap={{ scale: 0.97 }}
                       transition={{ duration: 0.3, delay: 0.12, type: 'spring', stiffness: 200, damping: 20 }}
                       onClick={() => setActiveView('full-mock-view')}
-                      className="glass-box backdrop-blur-xl bg-white/80 dark:bg-slate-900/80 border border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-5 md:p-6 text-center flex flex-col items-center justify-center space-y-3 shadow-lg hover:shadow-2xl hover:border-emerald-400 dark:hover:border-emerald-500 transition-all cursor-pointer group relative overflow-hidden"
+                      className="glass-box backdrop-blur-xl bg-white/90 dark:bg-slate-900/90 border-2 border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-3 sm:p-5 md:p-6 text-center flex flex-col items-center justify-between space-y-2 md:space-y-3 shadow-md hover:shadow-2xl hover:border-emerald-400 dark:hover:border-emerald-500 transition-all cursor-pointer group relative overflow-hidden"
                     >
-                      <div className="absolute top-0 right-0 bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border-b border-l border-emerald-200/60 dark:border-emerald-800/60 text-[9px] md:text-[10px] font-black px-2.5 py-0.5 md:px-3 md:py-1 rounded-bl-xl md:rounded-bl-2xl uppercase tracking-wider">
-                        200 Marks CBT
+                      <div className="absolute top-0 right-0 bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border-b border-l border-emerald-200/60 dark:border-emerald-800/60 text-[8px] sm:text-[9px] md:text-[10px] font-black px-2 py-0.5 sm:px-2.5 sm:py-0.5 md:px-3 md:py-1 rounded-bl-lg sm:rounded-bl-xl md:rounded-bl-2xl uppercase tracking-wider">
+                        200 Marks
                       </div>
-                      <div className="pt-2 group-hover:scale-110 transition-transform">
-                        <Glass3dIcon type="trophy" size="lg" />
+                      <div className="pt-2 sm:pt-1 group-hover:scale-110 transition-transform">
+                        <div className="sm:hidden">
+                          <Glass3dIcon type="trophy" size="md" />
+                        </div>
+                        <div className="hidden sm:block">
+                          <Glass3dIcon type="trophy" size="lg" />
+                        </div>
                       </div>
-                      <div className="space-y-1">
-                        <h3 className="font-black text-base md:text-lg text-slate-900 dark:text-white tracking-tight group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
-                          Full Mock CBT Series
+                      <div className="space-y-0.5 md:space-y-1 w-full">
+                        <h3 className="font-black text-xs sm:text-base md:text-lg text-slate-900 dark:text-white tracking-tight group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors leading-tight">
+                          Full Mock CBT
                         </h3>
-                        <p className="text-xs text-slate-500 dark:text-slate-400 font-medium">
-                          Real 200 Marks Exam CBT Simulation
+                        <p className="text-[10px] sm:text-xs text-slate-500 dark:text-slate-400 font-medium line-clamp-2 sm:line-clamp-none">
+                          200 Marks Simulation
                         </p>
                       </div>
                     </motion.div>
