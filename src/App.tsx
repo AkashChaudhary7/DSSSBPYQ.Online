@@ -27,6 +27,7 @@ import AdBanner from './components/AdBanner';
 import QuizInterface from './components/QuizInterface';
 import FooterWithCompliance from './components/FooterWithCompliance';
 import CookieConsentBanner from './components/CookieConsentBanner';
+import SeoBlogSection from './components/SeoBlogSection';
 import ResultScreen from './components/ResultScreen';
 import SolutionReview from './components/SolutionReview';
 import TimeAnalyticsView from './components/TimeAnalyticsView';
@@ -2571,61 +2572,59 @@ export default function App() {
         {activeView === 'dashboard' && (
           <div className="w-full max-w-6xl mx-auto px-3 sm:px-4 lg:px-6 py-4 md:py-8 space-y-4 md:space-y-6 animate-fadeIn">
             
-            {/* Promotional Banners Grid (Modular Component /src/components/PromoBanners.tsx) */}
-            <PromoBanners
-              onOpenSubscribeModal={() => setShowSubscribeModal(true)}
-              onNavigateToView={(view) => navigateToView(view as any)}
-            />
-
-            {/* 3D Light Welcome Card with Coin Economy */}
-            <div className="bg-gradient-to-r from-indigo-50 via-sky-50 to-amber-50/70 dark:from-indigo-950/60 dark:via-slate-900 dark:to-amber-950/40 border-2 border-indigo-200/90 dark:border-indigo-800/80 rounded-2xl md:rounded-3xl p-3.5 sm:p-4 text-slate-900 dark:text-white shadow-[0_4px_0_0_#c7d2fe] dark:shadow-none relative overflow-hidden">
-              <div className="flex items-center justify-between gap-3 relative z-10">
-                <div className="flex items-center gap-2.5 sm:gap-3 min-w-0">
-                  <div className="shrink-0">
-                    <Glass3dIcon type="target" size="sm" />
-                  </div>
-                  <div className="min-w-0">
-                    <div className="flex items-center gap-1.5 flex-wrap">
-                      <h2 className="text-xs sm:text-sm font-black tracking-tight text-indigo-950 dark:text-indigo-100 truncate">
-                        Hi, {username || 'Candidate'}! 👋
-                      </h2>
-                      <span className="bg-amber-400 text-slate-950 text-[9px] font-black px-1.5 py-0.2 rounded-full uppercase shadow-2xs">
-                        PRO
-                      </span>
+            {/* Welcome Card & Daily Practice Goal side-by-side in same column layout on web view */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+              {/* 3D Light Welcome Card with Coin Economy */}
+              <div className="bg-gradient-to-r from-indigo-50 via-sky-50 to-amber-50/70 dark:from-indigo-950/60 dark:via-slate-900 dark:to-amber-950/40 border-2 border-indigo-200/90 dark:border-indigo-800/80 rounded-2xl md:rounded-3xl p-4 text-slate-900 dark:text-white shadow-[0_4px_0_0_#c7d2fe] dark:shadow-none relative overflow-hidden flex flex-col justify-between h-full">
+                <div className="flex items-center justify-between gap-3 relative z-10">
+                  <div className="flex items-center gap-2.5 sm:gap-3 min-w-0">
+                    <div className="shrink-0">
+                      <Glass3dIcon type="target" size="sm" />
                     </div>
-                    <p className="text-[10px] sm:text-xs text-slate-600 dark:text-slate-300 font-semibold truncate">
-                      DSSSB TGT CS Prep Synced
-                    </p>
+                    <div className="min-w-0">
+                      <div className="flex items-center gap-1.5 flex-wrap">
+                        <h2 className="text-xs sm:text-sm font-black tracking-tight text-indigo-950 dark:text-indigo-100 truncate">
+                          Hi, {username || 'Candidate'}! 👋
+                        </h2>
+                        <span className="bg-amber-400 text-slate-950 text-[9px] font-black px-1.5 py-0.2 rounded-full uppercase shadow-2xs">
+                          PRO
+                        </span>
+                      </div>
+                      <p className="text-[10px] sm:text-xs text-slate-600 dark:text-slate-300 font-semibold truncate">
+                        DSSSB TGT CS Prep Synced
+                      </p>
+                    </div>
                   </div>
-                </div>
 
-                <div className="shrink-0">
-                  <button
-                    onClick={() => {
-                      setTargetLockedQuizForModal(null);
-                      setShowRewardsModal(true);
-                    }}
-                    className="bg-amber-100/90 dark:bg-amber-950/80 hover:bg-amber-200 dark:hover:bg-amber-900 border border-amber-300/90 dark:border-amber-700/80 px-2.5 sm:px-3 py-1.5 rounded-xl flex items-center gap-1.5 transition-all cursor-pointer shadow-2xs group active:scale-95"
-                    title="BytePrep Rewards & Coin Economy"
-                  >
-                    <span className="text-sm sm:text-base group-hover:rotate-12 transition-transform">🪙</span>
-                    <span className="text-xs sm:text-sm font-black text-amber-950 dark:text-amber-200">{userCoins}</span>
-                    <span className="text-[10px] font-extrabold text-amber-800 dark:text-amber-300 uppercase tracking-tight">Coins</span>
-                  </button>
+                  <div className="shrink-0">
+                    <button
+                      onClick={() => {
+                        setTargetLockedQuizForModal(null);
+                        setShowRewardsModal(true);
+                      }}
+                      className="bg-amber-100/90 dark:bg-amber-950/80 hover:bg-amber-200 dark:hover:bg-amber-900 border border-amber-300/90 dark:border-amber-700/80 px-2.5 sm:px-3 py-1.5 rounded-xl flex items-center gap-1.5 transition-all cursor-pointer shadow-2xs group active:scale-95"
+                      title="BytePrep Rewards & Coin Economy"
+                    >
+                      <span className="text-sm sm:text-base group-hover:rotate-12 transition-transform">🪙</span>
+                      <span className="text-xs sm:text-sm font-black text-amber-950 dark:text-amber-200">{userCoins}</span>
+                      <span className="text-[10px] font-extrabold text-amber-800 dark:text-amber-300 uppercase tracking-tight">Coins</span>
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            {/* Daily Goal Practice Progress Ring Widget */}
-            <DailyGoalWidget
-              attempts={pastAttempts}
-              onStartPractice={() => {
-                const dailyOrTopMock = allCombinedQuizzes.find(q => q.category === 'part_b' || q.category === 'full') || allCombinedQuizzes[0];
-                if (dailyOrTopMock) {
-                  handleStartTestAttempt(dailyOrTopMock);
-                }
-              }}
-            />
+              {/* Daily Goal Practice Progress Ring Widget */}
+              <DailyGoalWidget
+                attempts={pastAttempts}
+                onStartPractice={() => {
+                  const dailyOrTopMock = allCombinedQuizzes.find(q => q.category === 'part_b' || q.category === 'full') || allCombinedQuizzes[0];
+                  if (dailyOrTopMock) {
+                    handleStartTestAttempt(dailyOrTopMock);
+                  }
+                }}
+                className="h-full"
+              />
+            </div>
 
             {/* Attempt Component (Top Stats) - ABOVE SEARCH */}
             <div className="bg-white border-2 border-slate-200/90 dark:bg-slate-900/80 dark:border-slate-800 rounded-xl md:rounded-3xl p-2.5 md:p-6 shadow-sm">
@@ -4778,9 +4777,10 @@ export default function App() {
         </nav>
       )}
 
-      {/* AdSense-Compliant Footer with traffic counters, live users and legal links */}
+      {/* AdSense-Compliant Footer & SEO Knowledge Base */}
       {!['quiz', 'result', 'solution-review'].includes(activeView) && (
         <>
+          <SeoBlogSection />
           <FooterWithCompliance 
             onOpenSubscribeModal={() => setShowSubscribeModal(true)} 
             onOpenAdmin={() => setIsAdminOpen(true)}

@@ -85,7 +85,7 @@ export default function AdBanner({
   }
 
   return (
-    <div className={`my-6 mx-auto text-center overflow-hidden transition-all max-w-full hidden md:block ${className}`} id={`ad-container-${location}`}>
+    <div className={`my-2 md:my-3 mx-auto text-center overflow-hidden transition-all max-w-full hidden md:block ${className}`} id={`ad-container-${location}`}>
       <div className="text-[9px] font-extrabold text-slate-400 dark:text-slate-500 uppercase tracking-widest mb-1 flex items-center justify-center gap-1 opacity-60">
         <span>ADVERTISEMENT</span>
       </div>
