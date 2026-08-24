@@ -28,6 +28,7 @@ import QuizInterface from './components/QuizInterface';
 import FooterWithCompliance from './components/FooterWithCompliance';
 import CookieConsentBanner from './components/CookieConsentBanner';
 import SeoBlogSection from './components/SeoBlogSection';
+import BlogSection from './components/BlogSection';
 import ResultScreen from './components/ResultScreen';
 import SolutionReview from './components/SolutionReview';
 import TimeAnalyticsView from './components/TimeAnalyticsView';
@@ -4777,10 +4778,10 @@ export default function App() {
         </nav>
       )}
 
-      {/* AdSense-Compliant Footer & SEO Knowledge Base */}
+      {/* AdSense-Compliant Footer & Knowledge Blog Section */}
       {!['quiz', 'result', 'solution-review'].includes(activeView) && (
         <>
-          <SeoBlogSection />
+          <BlogSection />
           <FooterWithCompliance 
             onOpenSubscribeModal={() => setShowSubscribeModal(true)} 
             onOpenAdmin={() => setIsAdminOpen(true)}
