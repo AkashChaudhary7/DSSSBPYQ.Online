@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Quiz, Question, Bookmark } from '../types';
 import { 
   ArrowLeft, ChevronLeft, ChevronRight, Star, CheckCircle2, XCircle, 
-  BookOpen, Layout, HelpCircle, Award, Check, X, AlertTriangle, Send, Clock, Zap
+  BookOpen, Layout, HelpCircle, Award, Check, X, AlertTriangle, Send, Clock, Zap, Share2
 } from 'lucide-react';
 import StepByStepExplanation from './StepByStepExplanation';
 import { FormattedText, cleanOptionText, hasOptionPrefix, getDisplayOptionText, StandardizedQuestionView } from '../lib/formatText';
@@ -14,6 +14,7 @@ interface SolutionReviewProps {
   onToggleGlobalBookmark: (question: Question) => void;
   onReportQuestion?: (reportRecord: any) => void;
   onBack: () => void;
+  onOpenTimeAnalytics?: () => void;
   questionTimeSpent?: Record<number, number>;
 }
 
@@ -24,6 +25,7 @@ export default function SolutionReview({
   onToggleGlobalBookmark,
   onReportQuestion,
   onBack,
+  onOpenTimeAnalytics,
   questionTimeSpent = {},
 }: SolutionReviewProps) {
   const [currentIdx, setCurrentIdx] = useState(0);
@@ -32,6 +34,35 @@ export default function SolutionReview({
   const [reportReason, setReportReason] = useState('Incorrect Option / Answer Key');
   const [reportDetails, setReportDetails] = useState('');
   const [reportSuccessToast, setReportSuccessToast] = useState(false);
+  const [shareToast, setShareToast] = useState(false);
+
+  const handleShareQuestion = async () => {
+    if (!currentQuestion) return;
+    const shareUrl = `${window.location.origin}${window.location.pathname}?quizId=${quiz.testId}&qId=${currentQuestion.id}`;
+    const shareTitle = `DSSSB Question #${currentIdx + 1}: ${quiz.title}`;
+    const shareText = `DSSSB TGT CS Practice Question: ${currentQuestion.question?.slice(0, 100)}...`;
+
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: shareTitle,
+          text: shareText,
+          url: shareUrl,
+        });
+        return;
+      } catch (_) {
+        // Fallback to clipboard copy
+      }
+    }
+
+    try {
+      await navigator.clipboard.writeText(shareUrl);
+      setShareToast(true);
+      setTimeout(() => setShareToast(false), 2500);
+    } catch (_) {
+      // Fallback
+    }
+  };
 
   const currentQuestion = (quiz?.questions || [])[currentIdx] || (quiz?.questions || [])[0];
   const totalQuestions = (quiz?.questions || []).length;
@@ -194,13 +225,31 @@ export default function SolutionReview({
                   </span>
                 </div>
                 <div className="flex items-center gap-2">
+                  {onOpenTimeAnalytics && (
+                    <button
+                      onClick={onOpenTimeAnalytics}
+                      className="p-2 rounded-xl border border-emerald-200 bg-emerald-50 hover:bg-emerald-100 dark:bg-emerald-950 dark:border-emerald-800 text-emerald-700 dark:text-emerald-300 transition-all cursor-pointer flex items-center gap-1 text-xs font-bold"
+                      title="View Advance Time Analytics"
+                    >
+                      <Clock className="w-4 h-4 text-emerald-600" />
+                      <span className="hidden sm:inline">Advance Analytics</span>
+                    </button>
+                  )}
                   <button
                     onClick={() => setShowReportModal(true)}
                     className="p-2 rounded-xl border border-slate-200 hover:bg-red-50 hover:border-red-200 text-slate-500 hover:text-red-600 transition-all cursor-pointer flex items-center gap-1 text-xs font-bold"
                     title="Report Question Error"
                   >
                     <AlertTriangle className="w-4 h-4 text-red-500" />
-                    <span className="hidden sm:inline">Report Question</span>
+                    <span className="hidden sm:inline">Report</span>
+                  </button>
+                  <button
+                    onClick={handleShareQuestion}
+                    className="p-2 rounded-xl border border-slate-200 hover:bg-indigo-50 hover:border-indigo-200 text-slate-500 hover:text-indigo-600 transition-all cursor-pointer flex items-center gap-1 text-xs font-bold"
+                    title="Share Question Link"
+                  >
+                    <Share2 className="w-4 h-4 text-indigo-500" />
+                    <span className="hidden sm:inline">Share</span>
                   </button>
                   <button
                     onClick={() => onToggleGlobalBookmark(currentQuestion)}
@@ -210,11 +259,22 @@ export default function SolutionReview({
                         : 'bg-white border-slate-200 hover:bg-slate-50 text-slate-500'
                     }`}
                     id="star-bookmark-btn"
+                    title={isQuestionBookmarked(currentQuestion.id) ? "Remove Bookmark" : "Bookmark Question"}
                   >
                     <Star className={`w-4 h-4 ${isQuestionBookmarked(currentQuestion.id) ? 'fill-amber-500' : ''}`} />
                   </button>
                 </div>
               </div>
+
+              {/* Toast for Share */}
+              {shareToast && (
+                <div className="bg-indigo-600 text-white text-xs font-black px-4 py-2 rounded-xl shadow-lg animate-fadeIn flex items-center justify-between gap-2">
+                  <div className="flex items-center gap-2">
+                    <Share2 className="w-4 h-4 text-indigo-200" />
+                    <span>Direct Question Link Copied to Clipboard!</span>
+                  </div>
+                </div>
+              )}
 
               {/* Standardized CBT Question Body */}
               <StandardizedQuestionView question={currentQuestion.question} />

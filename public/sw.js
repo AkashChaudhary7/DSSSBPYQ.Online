@@ -1,8 +1,13 @@
-const CACHE_NAME = 'dsssbpyq-online-v16';
+// Service Worker for PWA (DSSSB PYQ Online / BytePrep)
+// Caches app shell (HTML, CSS, JS) and dynamically caches JSON quiz data fetched from GitHub raw URLs & content APIs
+// Includes offline fallback mechanisms.
+
+const SHELL_CACHE_NAME = 'dsssb-app-shell-v17';
+const QUIZ_DATA_CACHE = 'dsssb-quiz-data-cache-v1';
 const OFFLINE_URL = '/offline.html';
 
-// Assets to precache immediately on installation
-const PRECACHE_ASSETS = [
+// App shell assets to precache immediately on install
+const PRECACHE_SHELL_ASSETS = [
   '/',
   '/index.html',
   '/offline.html',
@@ -14,25 +19,45 @@ const PRECACHE_ASSETS = [
   '/screenshot-desktop.svg'
 ];
 
-// Install Event - Force immediate activation
+// Helper: Determine if URL is a GitHub raw URL or JSON quiz dataset
+function isQuizDataUrl(url) {
+  const href = url.href.toLowerCase();
+  const hostname = url.hostname.toLowerCase();
+  
+  // 1. GitHub raw URLs
+  if (hostname === 'raw.githubusercontent.com' || 
+      hostname === 'gist.githubusercontent.com' || 
+      (hostname.includes('github.com') && href.includes('/raw/'))) {
+    return true;
+  }
+
+  // 2. Local /content JSON quiz files
+  if (url.origin === self.location.origin && (url.pathname.startsWith('/content/') || url.pathname.endsWith('.json'))) {
+    return true;
+  }
+
+  return false;
+}
+
+// Install Event: Precache app shell and activate immediately
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME)
+    caches.open(SHELL_CACHE_NAME)
       .then((cache) => {
         console.log('[Service Worker] Precaching app shell & offline fallback...');
-        return cache.addAll(PRECACHE_ASSETS);
+        return cache.addAll(PRECACHE_SHELL_ASSETS);
       })
       .then(() => self.skipWaiting())
   );
 });
 
-// Activate Event - Clean up old caches and claim clients immediately
+// Activate Event: Clean up outdated caches and claim clients
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((cacheNames) => {
       return Promise.all(
         cacheNames.map((cacheName) => {
-          if (cacheName !== CACHE_NAME && cacheName !== 'dsssb-quiz-cache-v2') {
+          if (cacheName !== SHELL_CACHE_NAME && cacheName !== QUIZ_DATA_CACHE) {
             console.log('[Service Worker] Deleting old cache:', cacheName);
             return caches.delete(cacheName);
           }
@@ -42,34 +67,31 @@ self.addEventListener('activate', (event) => {
   );
 });
 
-// Fetch Event
+// Fetch Event: Orchestrate caching strategies with offline fallback
 self.addEventListener('fetch', (event) => {
   const { request } = event;
   const url = new URL(request.url);
 
-  // Exclude non-GET requests and external third-party tracking/ads/firebase
+  // Exclude non-GET requests and external analytics/ads/firebase tracking
   if (
-    url.origin !== self.location.origin ||
     request.method !== 'GET' ||
-    url.pathname.includes('/api/') ||
-    url.pathname.includes('google') ||
-    url.pathname.includes('firestore') ||
-    url.pathname.includes('firebase') ||
     url.pathname.includes('pagead') ||
+    url.pathname.includes('google-analytics') ||
+    url.pathname.includes('firestore.googleapis.com') ||
     url.pathname === '/app-ads.txt' ||
     url.pathname === '/ads.txt'
   ) {
     return;
   }
 
-  // HTML Navigation Requests: Network-First with Fast Fallback to Cache
+  // 1. Navigation Requests (HTML Pages): Network-First with Cache/Offline Fallback
   if (request.mode === 'navigate') {
     event.respondWith(
       fetch(request)
         .then((networkResponse) => {
           if (networkResponse && networkResponse.status === 200) {
             const cacheCopy = networkResponse.clone();
-            caches.open(CACHE_NAME).then((cache) => {
+            caches.open(SHELL_CACHE_NAME).then((cache) => {
               cache.put('/index.html', cacheCopy);
             });
           }
@@ -84,56 +106,98 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Critical Static Assets (JS, CSS, Images, Fonts, JSON): Cache-First with Background Update
-  event.respondWith(
-    caches.match(request).then((cachedResponse) => {
-      if (cachedResponse) {
-        // Background revalidation
-        fetch(request).then((networkResponse) => {
-          if (networkResponse && networkResponse.status === 200 && networkResponse.type === 'basic') {
-            caches.open(CACHE_NAME).then((cache) => cache.put(request, networkResponse));
+  // 2. Dynamic Caching for Quiz Data (GitHub Raw URLs & JSON Files)
+  // Network-First with Fallback to QUIZ_DATA_CACHE & Offline JSON object
+  if (isQuizDataUrl(url)) {
+    event.respondWith(
+      fetch(request)
+        .then((networkResponse) => {
+          // If valid response, clone into QUIZ_DATA_CACHE
+          if (networkResponse && networkResponse.status === 200) {
+            const cacheCopy = networkResponse.clone();
+            caches.open(QUIZ_DATA_CACHE).then((cache) => {
+              cache.put(request, cacheCopy);
+            });
           }
-        }).catch(() => {/* Silent cache update failure */});
-        return cachedResponse;
-      }
+          return networkResponse;
+        })
+        .catch(() => {
+          // Network failed: attempt retrieval from QUIZ_DATA_CACHE
+          return caches.open(QUIZ_DATA_CACHE).then((cache) => {
+            return cache.match(request).then((cachedResponse) => {
+              if (cachedResponse) {
+                return cachedResponse;
+              }
+              // If not cached, return graceful offline JSON fallback
+              return new Response(
+                JSON.stringify({
+                  error: 'offline',
+                  message: 'This quiz dataset is not yet cached for offline use. Please reconnect to load.'
+                }),
+                {
+                  status: 503,
+                  headers: { 'Content-Type': 'application/json' }
+                }
+              );
+            });
+          });
+        })
+    );
+    return;
+  }
 
-      // Network Fallback for uncached static assets
-      return fetch(request).then((networkResponse) => {
-        if (networkResponse && networkResponse.status === 200 && networkResponse.type === 'basic') {
-          const cacheCopy = networkResponse.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(request, cacheCopy));
-        } else if (networkResponse && networkResponse.status === 404 && (url.pathname.endsWith('.js') || url.pathname.endsWith('.css'))) {
-          // Stale asset requested due to deployment build hash update: flush cache
-          caches.delete(CACHE_NAME);
+  // 3. Static App Shell Assets (JS, CSS, Images, Fonts): Cache-First with Revalidation
+  if (url.origin === self.location.origin) {
+    event.respondWith(
+      caches.match(request).then((cachedResponse) => {
+        if (cachedResponse) {
+          // Background revalidation
+          fetch(request).then((networkResponse) => {
+            if (networkResponse && networkResponse.status === 200 && networkResponse.type === 'basic') {
+              caches.open(SHELL_CACHE_NAME).then((cache) => cache.put(request, networkResponse));
+            }
+          }).catch(() => {/* Silent cache update failure */});
+          return cachedResponse;
         }
-        return networkResponse;
-      }).catch((err) => {
-        if (url.pathname.endsWith('.js') || url.pathname.endsWith('.css')) {
-          caches.delete(CACHE_NAME);
-        }
-        throw err;
-      });
-    })
+
+        // Network fallback for uncached assets
+        return fetch(request).then((networkResponse) => {
+          if (networkResponse && networkResponse.status === 200 && networkResponse.type === 'basic') {
+            const cacheCopy = networkResponse.clone();
+            caches.open(SHELL_CACHE_NAME).then((cache) => cache.put(request, cacheCopy));
+          }
+          return networkResponse;
+        }).catch((err) => {
+          // Return offline page fallback for static document requests if any
+          if (request.destination === 'document') {
+            return caches.match(OFFLINE_URL);
+          }
+          throw err;
+        });
+      })
+    );
+    return;
+  }
+
+  // Default passthrough for other external assets
+  event.respondWith(
+    caches.match(request).then((cached) => cached || fetch(request))
   );
 });
 
-
 // Background Sync API
 self.addEventListener('sync', (event) => {
-  console.log('[Service Worker] Background sync triggered:', event.tag);
   if (event.tag === 'sync-data') {
     event.waitUntil(syncData());
   }
 });
 
 async function syncData() {
-  console.log('[Service Worker] Syncing data in background...');
-  // Implementation for background sync
+  console.log('[Service Worker] Syncing offline progress in background...');
 }
 
 // Web Push Notifications API
 self.addEventListener('push', (event) => {
-  console.log('[Service Worker] Push received.');
   let data = {};
   if (event.data) {
     try {
@@ -143,9 +207,9 @@ self.addEventListener('push', (event) => {
     }
   }
 
-  const title = data.title || 'DSSSB Practice Update';
+  const title = data.title || 'DSSSB PYQ Practice Alert';
   const options = {
-    body: data.body || 'New content or updates are available!',
+    body: data.body || 'Daily Mock Test & New PYQs are available for practice!',
     icon: '/pwa-192.png',
     badge: '/pwa-192.png',
     data: data.url || '/',
@@ -161,45 +225,20 @@ self.addEventListener('push', (event) => {
 });
 
 self.addEventListener('notificationclick', (event) => {
-  console.log('[Service Worker] Notification click received.');
   event.notification.close();
   const targetUrl = event.notification.data || '/';
   
   event.waitUntil(
     clients.matchAll({ type: 'window', includeUncontrolled: true }).then((clientList) => {
-      // Check if there's already a window/tab open with the target URL
       for (let i = 0; i < clientList.length; i++) {
         const client = clientList[i];
         if (client.url === targetUrl && 'focus' in client) {
           return client.focus();
         }
       }
-      // If not, open a new window/tab
       if (clients.openWindow) {
         return clients.openWindow(targetUrl);
       }
     })
   );
 });
-
-// Periodic Sync API
-self.addEventListener('periodicsync', (event) => {
-  console.log('[Service Worker] Periodic sync triggered:', event.tag);
-  if (event.tag === 'fetch-latest-content') {
-    event.waitUntil(fetchLatestContent());
-  }
-});
-
-async function fetchLatestContent() {
-  console.log('[Service Worker] Fetching latest content in background...');
-  try {
-    const response = await fetch('/content/index.json');
-    if (response.status === 200) {
-      const cache = await caches.open(CACHE_NAME);
-      await cache.put('/content/index.json', response);
-      console.log('[Service Worker] Successfully updated content index.');
-    }
-  } catch (error) {
-    console.error('[Service Worker] Failed to fetch latest content:', error);
-  }
-}

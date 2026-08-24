@@ -13,7 +13,7 @@ export default function AdBanner({
   format = 'responsive',
   location = 'general',
   adClient = 'ca-pub-9282190735069880',
-  adSlot,
+  adSlot = '1000000001',
   className = '',
 }: AdBannerProps) {
   const adRef = useRef<HTMLModElement>(null);
@@ -21,7 +21,7 @@ export default function AdBanner({
 
   useEffect(() => {
     // Only initialize AdSense on desktop screens (width >= 768px)
-    if (typeof window !== 'undefined' && window.innerWidth < 768) {
+    if (typeof window === 'undefined' || window.innerWidth < 768) {
       return;
     }
     trackAdImpression(format, location);
@@ -36,35 +36,28 @@ export default function AdBanner({
     }
   }, [format, location, adSlot]);
 
+  // Strictly obey AdSense Policy: Do NOT show fake placeholder text or mock ad frames
+  // If no adSlot is provided, collapse gracefully to prevent "Screen without publisher content" warnings.
+  if (!adSlot) {
+    return null;
+  }
+
   return (
-    <div className={`my-4 mx-auto text-center overflow-hidden transition-all max-w-full hidden md:block ${className}`} id={`ad-container-${location}`}>
-      <div className="text-[9px] font-extrabold text-slate-500 dark:text-slate-500 uppercase tracking-widest mb-1.5 flex items-center justify-center gap-1 opacity-75">
-        <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
-        <span>SPONSORED ADVERTISEMENT</span>
+    <div className={`my-6 mx-auto text-center overflow-hidden transition-all max-w-full hidden md:block ${className}`} id={`ad-container-${location}`}>
+      <div className="text-[9px] font-extrabold text-slate-400 dark:text-slate-500 uppercase tracking-widest mb-1 flex items-center justify-center gap-1 opacity-60">
+        <span>ADVERTISEMENT</span>
       </div>
-      <div className="bg-slate-50/60 dark:bg-slate-900/60 border border-slate-200/60 dark:border-slate-800/60 rounded-xl p-2.5 min-h-[90px] flex flex-col items-center justify-center text-center transition-all">
-        {adSlot ? (
-          <ins
-            ref={adRef}
-            className="adsbygoogle"
-            style={{ display: 'block', minWidth: '250px', minHeight: '90px', width: '100%' }}
-            data-ad-client={adClient}
-            data-ad-slot={adSlot}
-            data-ad-format={format === 'responsive' ? 'auto' : 'fluid'}
-            data-full-width-responsive="true"
-          />
-        ) : (
-          <div className="flex flex-col items-center justify-center space-y-1 py-1">
-            <span className="text-[10px] md:text-xs font-black text-slate-500 dark:text-slate-400 uppercase tracking-wide">
-              {location.includes('mob') ? 'Google AdMob Smart Banner' : 'Google AdSense Native Ad'}
-            </span>
-            <p className="text-[9px] md:text-[10px] text-slate-500 dark:text-slate-500 leading-normal max-w-md px-4">
-              Auto-optimized for Google Play Store upload and mobile viewing. Double-complying with Google publisher policies.
-            </p>
-          </div>
-        )}
+      <div className="bg-transparent flex flex-col items-center justify-center text-center transition-all min-h-[90px] w-full">
+        <ins
+          ref={adRef}
+          className="adsbygoogle"
+          style={{ display: 'block', minWidth: '250px', minHeight: '90px', width: '100%' }}
+          data-ad-client={adClient}
+          data-ad-slot={adSlot}
+          data-ad-format={format === 'responsive' ? 'auto' : 'fluid'}
+          data-full-width-responsive="true"
+        />
       </div>
     </div>
   );
 }
-

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Quiz, Attempt } from '../types';
 import { MockUnlockStatus } from '../lib/unlockSystem';
+import { isMockUnlocked, MOCK_UNLOCK_COST } from '../lib/rewardsSystem';
 import { 
   GraduationCap, BookOpen, Trophy, Share2, Lock, Clock, CheckCircle2, Sparkles, Search, Layers 
 } from 'lucide-react';
@@ -12,9 +13,9 @@ interface TeachingMethodologyHubProps {
   pastAttempts: Attempt[];
   nowTick: number;
   onStartQuiz: (quiz: Quiz, testIndex?: number) => void;
-  onLockedQuizClick: (quiz: Quiz, status: MockUnlockStatus) => void;
+  onLockedQuizClick: (quiz: Quiz, status?: MockUnlockStatus) => void;
   onShareQuiz: (quiz: Quiz, e: React.MouseEvent) => void;
-  getMockUnlockStatus: (testIndex: number, nowMs?: number) => MockUnlockStatus;
+  getMockUnlockStatus?: (testIndex: number, nowMs?: number) => MockUnlockStatus;
 }
 
 export const TeachingMethodologyHub: React.FC<TeachingMethodologyHubProps> = ({
@@ -183,8 +184,8 @@ export const TeachingMethodologyHub: React.FC<TeachingMethodologyHubProps> = ({
             {displayedQuizzes.slice(0, visibleCount).map((quiz, index) => {
               const attempt = pastAttempts.find(a => a.testId === quiz.testId);
               const isAttempted = !!attempt;
-              const unlockStatus = getMockUnlockStatus(index, nowTick);
-              const isLocked = false;
+              const unlocked = isMockUnlocked(quiz.testId, index);
+              const isLocked = !unlocked;
               const questionCount = getQuestionCount(quiz);
               const mockNumberLabel = getMockNumberLabel(quiz, index);
 
@@ -193,7 +194,7 @@ export const TeachingMethodologyHub: React.FC<TeachingMethodologyHubProps> = ({
                   key={quiz.testId || index}
                   onClick={() => {
                     if (isLocked) {
-                      onLockedQuizClick(quiz, unlockStatus);
+                      onLockedQuizClick(quiz);
                     } else {
                       onStartQuiz(quiz, index);
                     }
@@ -221,7 +222,7 @@ export const TeachingMethodologyHub: React.FC<TeachingMethodologyHubProps> = ({
                         )}
                         {isLocked && (
                           <span className="bg-amber-100 text-amber-800 text-[10px] font-extrabold px-2 py-0.5 rounded-md flex items-center gap-1">
-                            <Lock className="w-3 h-3 text-amber-600" /> Locked
+                            <Lock className="w-3 h-3 text-amber-600" /> {MOCK_UNLOCK_COST} 🪙
                           </span>
                         )}
                         <button
@@ -254,7 +255,7 @@ export const TeachingMethodologyHub: React.FC<TeachingMethodologyHubProps> = ({
                         <span className={`font-black text-xs flex items-center gap-1 ${
                           isAttempted ? 'text-emerald-600' : isLocked ? 'text-amber-600' : 'text-purple-600 group-hover:translate-x-0.5 transition-transform'
                         }`}>
-                          {isAttempted ? 'Re-attempt' : isLocked ? 'Unlock' : 'Start Test →'}
+                          {isAttempted ? 'Re-attempt' : isLocked ? `Unlock (${MOCK_UNLOCK_COST} 🪙)` : 'Start Test →'}
                         </span>
                       </div>
                     );
@@ -287,7 +288,7 @@ export const TeachingMethodologyHub: React.FC<TeachingMethodologyHubProps> = ({
       )}
 
       {/* Ad Banner */}
-      <AdBanner location="tgt_cs_bottom" />
+      <AdBanner location="tgt_cs_bottom" adSlot="1000000005" />
     </div>
   );
 };

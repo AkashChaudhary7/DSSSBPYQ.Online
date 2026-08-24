@@ -41,6 +41,10 @@ export interface Attempt {
   timestamp: string;
   mode: 'exam' | 'practice';
   questionTimeSpent?: Record<number, number>;
+  subject?: string;
+  userAnswers?: Record<number, number>;
+  questions?: Question[];
+  totalQuestions?: number;
 }
 
 export interface Bookmark {

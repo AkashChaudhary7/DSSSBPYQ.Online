@@ -3,7 +3,7 @@ import {
   User, Copy, Check, Download, Upload, RefreshCw, Award, Target, 
   BookOpen, Star, AlertTriangle, ShieldCheck, Sparkles, FileJson, 
   Key, X, HelpCircle, CheckCircle2, ChevronRight, Laptop, ArrowRight, ShieldAlert,
-  Trash2
+  Trash2, FileText
 } from 'lucide-react';
 import { 
   UserProfile, 
@@ -31,6 +31,8 @@ interface UserProfileModalProps {
   onDataImported: (restoredData: any) => void;
   onClearAllData: () => void;
   onShareAchievement?: () => void;
+  onOpenFullProfile?: () => void;
+  onOpenReport?: () => void;
 }
 
 export default function UserProfileModal({
@@ -44,7 +46,9 @@ export default function UserProfileModal({
   questionPerformance,
   onDataImported,
   onClearAllData,
-  onShareAchievement
+  onShareAchievement,
+  onOpenFullProfile,
+  onOpenReport
 }: UserProfileModalProps) {
   const [activeTab, setActiveTab] = useState<'profile' | 'sync' | 'badges'>('profile');
 
@@ -189,13 +193,43 @@ export default function UserProfileModal({
             </div>
           </div>
 
-          <button
-            onClick={onClose}
-            className="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 text-slate-300 hover:text-white flex items-center justify-center transition-colors cursor-pointer"
-            aria-label="Close modal"
-          >
-            <X className="w-4 h-4" />
-          </button>
+          <div className="flex items-center gap-2">
+            {onOpenReport && (
+              <button
+                type="button"
+                onClick={() => {
+                  onClose();
+                  onOpenReport();
+                }}
+                className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 bg-white/10 hover:bg-white/20 text-white rounded-xl text-xs font-bold transition-all border border-white/20 cursor-pointer"
+                title="Open Multi-Page PDF Diagnostic Report"
+              >
+                <FileText className="w-3.5 h-3.5" /> PDF Report
+              </button>
+            )}
+
+            {onOpenFullProfile && (
+              <button
+                type="button"
+                onClick={() => {
+                  onClose();
+                  onOpenFullProfile();
+                }}
+                className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 bg-indigo-500 hover:bg-indigo-600 text-white rounded-xl text-xs font-bold transition-all shadow-xs cursor-pointer"
+                title="Open Candidate Profile in Full Page"
+              >
+                <Laptop className="w-3.5 h-3.5" /> Full Page
+              </button>
+            )}
+
+            <button
+              onClick={onClose}
+              className="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 text-slate-300 hover:text-white flex items-center justify-center transition-colors cursor-pointer"
+              aria-label="Close modal"
+            >
+              <X className="w-4 h-4" />
+            </button>
+          </div>
         </div>
 
         {/* Modal Tabs Navigation */}

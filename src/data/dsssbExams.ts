@@ -16,10 +16,8 @@ export interface SyllabusSection {
   items: SyllabusItem[];
 }
 
-
-
-// 1. COMMON PART A GENERAL SYLLABUS SECTIONS (Used across DSSSB Exams)
-const PART_A_SECTIONS: SyllabusSection[] = [
+// 1. COMMON PART A GENERAL SYLLABUS SECTIONS (Standard 100 Marks across TGT & PGT CS)
+export const PART_A_SECTIONS: SyllabusSection[] = [
   {
     id: 'part_a_math',
     category: 'Part A',
@@ -199,89 +197,14 @@ export const DSSSB_EXAMS: ExamInfo[] = [
           { id: 'pgt_7', title: 'Python Programming & Data Science Libraries', description: 'Python syntax, OOP, NumPy, Pandas, Matplotlib, File handling, Data cleaning & Visualization', importance: 'Core', practiceTab: 'part-b-view' },
           { id: 'pgt_8', title: 'Cloud Computing & Distributed Systems', description: 'IaaS, PaaS, SaaS, Virtualization, Docker containers, Distributed File Systems (HDFS), RPC mechanisms', importance: 'Medium', practiceTab: 'part-b-view' }
         ]
-      }
-    ]
-  },
-  {
-    slug: 'special-education',
-    title: 'DSSSB Special Education Teacher',
-    postCode: 'Post Code: 103/26, 803/24, 20/22, 21/22',
-    department: 'Directorate of Education & Local Bodies',
-    totalMarks: '200 Marks (200 Questions)',
-    duration: '120 Minutes (2 Hours)',
-    badge: 'Post Code 103/26',
-    color: 'from-emerald-600 to-teal-800',
-    bgGradient: 'bg-gradient-to-br from-teal-950 via-slate-900 to-emerald-950',
-    iconName: 'Users',
-    overview: 'Comprehensive syllabus covering RPwD Act 2016, Inclusive Education, Intellectual & Learning Disabilities, Assistive Technologies, and Child Psychology.',
-    sections: [
-      ...PART_A_SECTIONS,
+      },
       {
-        id: 'special_ed_pedagogy',
+        id: 'part_b_pedagogy',
         category: 'Part B',
-        title: 'Special Education Needs & Disability Management (100 Marks)',
+        title: 'Teaching Methodology & Pedagogy (20 Marks)',
         items: [
-          { id: 'se_1', title: 'Rights of Persons with Disabilities Act (RPwD Act 2016)', description: '21 recognized disabilities, legal provisions, equal opportunities, accessible infrastructure standards', importance: 'Core', practiceTab: 'part-a-view' },
-          { id: 'se_2', title: 'Intellectual Disability, Autism & ADHD', description: 'Screening tools, early identification, behavioral intervention techniques, Individualized Education Program (IEP)', importance: 'Core', practiceTab: 'part-a-view' },
-          { id: 'se_3', title: 'Specific Learning Disabilities (SLD)', description: 'Dyslexia, Dysgraphia, Dyscalculia, Multisensory instruction methods, accommodations in examinations', importance: 'High', practiceTab: 'part-a-view' },
-          { id: 'se_4', title: 'Visual & Hearing Impairments', description: 'Braille literacy, orientation and mobility, sign language basics, hearing aids, auditory training', importance: 'High', practiceTab: 'part-a-view' },
-          { id: 'se_5', title: 'Assistive Technology & Inclusive Classroom Management', description: 'Augmentative and Alternative Communication (AAC), adaptive equipment, universal design for learning (UDL)', importance: 'Core', practiceTab: 'part-a-view' }
-        ]
-      }
-    ]
-  },
-  {
-    slug: 'prt-nursery',
-    title: 'DSSSB Assistant Teacher (PRT / Nursery)',
-    postCode: 'Post Code: 101/26, 801/24, 802/24',
-    department: 'DOE & Municipal Corporation of Delhi (MCD)',
-    totalMarks: '200 Marks (200 Questions)',
-    duration: '120 Minutes (2 Hours)',
-    badge: 'Post Code 101/26',
-    color: 'from-amber-500 to-orange-700',
-    bgGradient: 'bg-gradient-to-br from-amber-950 via-slate-900 to-orange-950',
-    iconName: 'Sparkles',
-    overview: 'Covers Early Childhood Care and Education (ECCE), Primary School Methodologies, NCF 2005, NEP 2020, FLN (Foundational Literacy & Numeracy) and Part A.',
-    sections: [
-      ...PART_A_SECTIONS,
-      {
-        id: 'prt_nursery_pedagogy',
-        category: 'Part B',
-        title: 'Child Development & Elementary Education Methodologies (100 Marks)',
-        items: [
-          { id: 'prt_1', title: 'Early Childhood Care and Education (ECCE)', description: 'Play-based learning, motor skill development, preschool pedagogy, story-telling techniques', importance: 'Core', practiceTab: 'part-a-view' },
-          { id: 'prt_2', title: 'Foundational Literacy and Numeracy (FLN / NIPUN Bharat)', description: 'Phonological awareness, early mathematics, activity-based learning, toy-based pedagogy', importance: 'Core', practiceTab: 'part-a-view' },
-          { id: 'prt_3', title: 'National Education Policy 2020 & NCF 2005', description: '5+3+3+4 curricular structure, holistic progress cards, experiential learning, continuous assessment', importance: 'High', practiceTab: 'part-a-view' },
-          { id: 'prt_4', title: 'Child Psychology & Moral Development', description: 'Piaget, Vygotsky, Bruner, Erikson stages of development, handling child emotions, positive discipline', importance: 'High', practiceTab: 'part-a-view' },
-          { id: 'prt_5', title: 'Environmental Studies (EVS) Pedagogy', description: 'Theme-based learning (Family, Food, Shelter, Water, Travel), inquiry-based science teaching in primary grades', importance: 'High', practiceTab: 'part-a-view' }
-        ]
-      }
-    ]
-  },
-  {
-    slug: 'non-teaching-ldc',
-    title: 'DSSSB LDC / Junior Assistant / Steno / DASS',
-    postCode: 'Post Code: 104/26, 802/23, 801/23',
-    department: 'Delhi Government Administrative Departments',
-    totalMarks: '200 Marks (200 Questions)',
-    duration: '120 Minutes (2 Hours)',
-    badge: 'Post Code 104/26',
-    color: 'from-slate-700 to-slate-900',
-    bgGradient: 'bg-gradient-to-br from-slate-900 via-zinc-900 to-slate-950',
-    iconName: 'Building',
-    overview: 'Full General Ability Test covering Quantitative Aptitude, Reasoning, English, Hindi, Delhi General Awareness, and Basic Computer & MS Office Skills.',
-    sections: [
-      ...PART_A_SECTIONS,
-      {
-        id: 'non_teaching_computer',
-        category: 'Part B',
-        title: 'Basic Computer Knowledge & MS Office Efficiency (40 Marks)',
-        items: [
-          { id: 'nt_1', title: 'Computer Hardware, Peripherals & Storage', description: 'CPU, RAM, ROM, SSD, HDD, Cache, Input/Output devices, Binary number systems', importance: 'Core', practiceTab: 'part-a-view' },
-          { id: 'nt_2', title: 'MS Word & Document Formatting', description: 'Shortcut keys, mail merge, headers/footers, line spacing, tables, page setup', importance: 'High', practiceTab: 'part-a-view' },
-          { id: 'nt_3', title: 'MS Excel & Data Formulas', description: 'VLOOKUP, HLOOKUP, IF conditions, SUMIF, COUNTIF, Pivot Tables, Charts, Data Sorting', importance: 'Core', practiceTab: 'part-a-view' },
-          { id: 'nt_4', title: 'MS PowerPoint & Email Etiquette', description: 'Slide master, transition effects, presentation design, official email writing, CC/BCC protocols', importance: 'Medium', practiceTab: 'part-a-view' },
-          { id: 'nt_5', title: 'Internet, Web Browsers & Cyber Safety', description: 'URL, HTTP/HTTPS, IP address, WiFi security, phishing awareness, digital signatures', importance: 'High', practiceTab: 'part-a-view' }
+          { id: 'pgt_ped_1', title: 'Advanced Curriculum & Pedagogical Practices in CS', description: 'Project-based learning, computational thinking, flipped classroom models in secondary education', importance: 'Core', practiceTab: 'part-b-view' },
+          { id: 'pgt_ped_2', title: 'Assessment & Educational Technology Standards', description: 'Rubrics for programming evaluation, NEP 2020 vocational integration, ICT standards', importance: 'High', practiceTab: 'part-b-view' }
         ]
       }
     ]

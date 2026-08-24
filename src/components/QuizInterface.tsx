@@ -253,6 +253,19 @@ export default function QuizInterface({
     }
   };
 
+  const handlePrevious = () => {
+    if (isSectionBasedMode) {
+      const currentSecPos = activeSectionIndices.indexOf(currentIdx);
+      if (currentSecPos > 0) {
+        setCurrentIdx(activeSectionIndices[currentSecPos - 1]);
+      }
+    } else {
+      if (currentIdx > 0) {
+        setCurrentIdx(prev => prev - 1);
+      }
+    }
+  };
+
   const isCurrentBookmarked = !!currentQuestion && (
     !!localBookmarks[currentQuestion.id] || savedBookmarks.some(b => 
       b && b.question && (
@@ -395,12 +408,6 @@ export default function QuizInterface({
       {/* CBT TOP EXAM TITLE BAR */}
       <div className="bg-[#1e1e1e] text-white px-3 py-1.5 md:px-4 md:py-2 flex items-center justify-between text-xs font-semibold select-none shadow-md shrink-0">
         <div className="flex items-center gap-2 md:gap-3 min-w-0">
-          <button
-            onClick={() => setShowExitWarning(true)}
-            className="flex items-center gap-1 bg-red-600 hover:bg-red-700 px-2 py-0.5 md:px-2.5 md:py-1 rounded text-[9px] md:text-[10px] font-bold text-white uppercase tracking-wider transition-colors shrink-0 cursor-pointer"
-          >
-            <ArrowLeft className="w-3 h-3 md:w-3.5 md:h-3.5" /> Exit
-          </button>
           <span className="text-[#ffff00] font-bold text-xs md:text-sm font-mono truncate">
             {quiz.title}
           </span>
@@ -525,37 +532,46 @@ export default function QuizInterface({
         <div className="flex-1 flex flex-col overflow-y-auto bg-white border-r border-[#dddddd]">
           
           {/* Question Meta Header Info & Live Pacing Widget */}
-          <div className="bg-[#fcf8e3] text-[#8a6d3b] border-b border-[#faebcc] px-3 py-1.5 md:px-6 md:py-2.5 flex flex-col sm:flex-row sm:items-center justify-between gap-1.5 text-[10px] md:text-[11px] font-bold">
-            <div className="flex items-center gap-2 flex-wrap">
-              <span className="uppercase tracking-wider">Type: Multiple Choice Question (MCQ)</span>
-              <span className="text-slate-400">|</span>
-              <span className="text-emerald-700">Correct: <span className="underline">+1.0</span></span>
-              <span className="text-red-700">Negative: <span className="underline">-0.25</span></span>
+          <div className="bg-[#fcf8e3] text-[#8a6d3b] border-b border-[#faebcc] px-3 py-1.5 md:px-6 md:py-2 flex items-center justify-between gap-1.5 text-[10px] md:text-[11px] font-bold">
+            <div className="flex items-center gap-2">
+              <span className="font-extrabold text-slate-800 uppercase tracking-wider">Question {currentIdx + 1} of {(quiz.questions || []).length}</span>
             </div>
-            
-            {/* Live Per-Question Timer & Pace Indicator */}
-            {(() => {
-              const currentQSeconds = questionTimeSpent[currentQuestion.id] || 0;
-              const targetSecondsPerQ = Math.max(30, Math.round((durationMinutes * 60) / ((quiz.questions || []).length || 20)));
-              const isIdeal = currentQSeconds <= targetSecondsPerQ;
-              const isModerate = currentQSeconds <= targetSecondsPerQ * 1.6;
 
-              return (
-                <div className={`flex items-center gap-1.5 px-2.5 py-0.5 rounded-md border text-[10px] md:text-[11px] font-mono font-bold transition-all shadow-2xs ${
-                  isIdeal
-                    ? 'bg-emerald-50 text-emerald-800 border-emerald-200'
-                    : isModerate
-                    ? 'bg-amber-50 text-amber-800 border-amber-300'
-                    : 'bg-rose-50 text-rose-800 border-rose-300 animate-pulse'
-                }`}>
-                  <Clock className="w-3 h-3 shrink-0" />
-                  <span>Q. Time: {Math.floor(currentQSeconds / 60)}:{(currentQSeconds % 60).toString().padStart(2, '0')}</span>
-                  <span className="hidden sm:inline font-sans text-[9px] font-bold opacity-80">
-                    ({isIdeal ? '⚡ Fast / Ideal' : isModerate ? '🎯 Normal Pace' : '⏳ Overtime'})
-                  </span>
-                </div>
-              );
-            })()}
+            {/* Exit Button + Live Question Timer on Right */}
+            <div className="flex items-center gap-2 shrink-0">
+              <button
+                type="button"
+                onClick={() => setShowExitWarning(true)}
+                className="bg-red-600 hover:bg-red-700 active:bg-red-800 text-white font-extrabold px-2.5 py-1 rounded text-[10px] md:text-[11px] uppercase tracking-wider transition-colors cursor-pointer shadow-2xs shrink-0 flex items-center gap-1"
+                title="Exit Mock Test"
+              >
+                Exit
+              </button>
+
+              {/* Live Per-Question Timer & Pace Indicator */}
+              {(() => {
+                const currentQSeconds = questionTimeSpent[currentQuestion.id] || 0;
+                const targetSecondsPerQ = Math.max(30, Math.round((durationMinutes * 60) / ((quiz.questions || []).length || 20)));
+                const isIdeal = currentQSeconds <= targetSecondsPerQ;
+                const isModerate = currentQSeconds <= targetSecondsPerQ * 1.6;
+
+                return (
+                  <div className={`flex items-center gap-1.5 px-2.5 py-0.5 rounded-md border text-[10px] md:text-[11px] font-mono font-bold transition-all shadow-2xs ${
+                    isIdeal
+                      ? 'bg-emerald-50 text-emerald-800 border-emerald-200'
+                      : isModerate
+                      ? 'bg-amber-50 text-amber-800 border-amber-300'
+                      : 'bg-rose-50 text-rose-800 border-rose-300 animate-pulse'
+                  }`}>
+                    <Clock className="w-3 h-3 shrink-0" />
+                    <span>Q. Time: {Math.floor(currentQSeconds / 60)}:{(currentQSeconds % 60).toString().padStart(2, '0')}</span>
+                    <span className="hidden sm:inline font-sans text-[9px] font-bold opacity-80">
+                      ({isIdeal ? '⚡ Fast / Ideal' : isModerate ? '🎯 Normal Pace' : '⏳ Overtime'})
+                    </span>
+                  </div>
+                );
+              })()}
+            </div>
           </div>
 
           {/* VIEW IN LANGUAGE SELECTOR BAR & BOOKMARK ACTION */}
@@ -645,11 +661,11 @@ export default function QuizInterface({
 
                 if (mode === 'practice' && isRevealed) {
                   if (isCorrect) {
-                    cardStyle = "border-emerald-500 bg-emerald-50/70 text-emerald-950 ring-1 ring-emerald-500/30";
-                    badgeStyle = "bg-emerald-600 text-white border-emerald-600";
+                    cardStyle = "border-emerald-500 bg-emerald-50/90 text-emerald-950 ring-2 ring-emerald-500/40 animate-correct-option";
+                    badgeStyle = "bg-emerald-600 text-white border-emerald-600 shadow-sm";
                   } else if (isSelected) {
-                    cardStyle = "border-rose-500 bg-rose-50/70 text-rose-950 ring-1 ring-rose-500/30";
-                    badgeStyle = "bg-rose-600 text-white border-rose-600";
+                    cardStyle = "border-rose-500 bg-rose-50/90 text-rose-950 ring-2 ring-rose-500/40 animate-wrong-option";
+                    badgeStyle = "bg-rose-600 text-white border-rose-600 shadow-sm";
                   } else {
                     cardStyle = "border-slate-200 bg-slate-50/50 opacity-60 cursor-not-allowed text-slate-500";
                     badgeStyle = "bg-slate-100 text-slate-400 border-slate-200";
@@ -1104,10 +1120,19 @@ export default function QuizInterface({
           )}
 
           <button
+            onClick={handlePrevious}
+            disabled={isSectionBasedMode ? activeSectionIndices.indexOf(currentIdx) <= 0 : currentIdx <= 0}
+            className="bg-white hover:bg-slate-100 disabled:opacity-40 disabled:cursor-not-allowed text-slate-800 font-black py-1.5 px-3 md:py-2.5 md:px-5 rounded-lg md:rounded text-[10px] md:text-[11px] uppercase transition-all shadow-xs cursor-pointer border border-slate-300 whitespace-nowrap flex items-center gap-1"
+            title="Previous Question"
+          >
+            <span>Previous</span>
+          </button>
+
+          <button
             onClick={handleSaveAndNext}
             className="bg-[#337ab7] hover:bg-[#286090] text-white font-black py-1.5 px-3 md:py-2.5 md:px-6 rounded-lg md:rounded text-[10px] md:text-[11px] uppercase transition-all shadow-sm cursor-pointer border border-[#2e6da4] whitespace-nowrap"
           >
-            Save &amp; Next
+            Next
           </button>
 
           {isSectionBasedMode ? (

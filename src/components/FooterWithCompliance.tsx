@@ -29,7 +29,7 @@ export default function FooterWithCompliance({ onOpenSubscribeModal, onOpenAdmin
   };
 
   return (
-    <footer className="bg-slate-900 text-slate-200 pt-8 pb-[calc(5.5rem+env(safe-area-inset-bottom,0px))] md:pb-10 px-4 md:px-6 border-t border-slate-800" id="adsense-footer">
+    <footer className="hidden md:block bg-slate-900 text-slate-200 pt-8 pb-10 px-4 md:px-6 border-t border-slate-800" id="adsense-footer">
       <div className="max-w-7xl mx-auto space-y-6 md:space-y-8">
         
         {/* MOBILE MINIMIZED FOOTER / DESKTOP RESPONSIVE FOOTER */}

@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 import { 
   Trophy, BookOpen, Star, AlertCircle, RefreshCw, Zap, Heart, Search, Github, 
   Settings, ChevronRight, Download, Eye, Play, Sparkles, BookMarked, Layers, HelpCircle, ArrowLeft, Volume2, Share2, ClipboardList, XCircle, Send,
-  Trash2, AlertTriangle, ListTodo, CheckSquare, Lock, Clock, Laptop, Building2, Sun, Moon, Database, User, Youtube, SlidersHorizontal, X, Filter
+  Trash2, AlertTriangle, ListTodo, CheckSquare, Lock, Clock, Laptop, Building2, Sun, Moon, Database, User, Youtube, SlidersHorizontal, X, Filter, History
 } from 'lucide-react';
 
 import { Quiz, Question, Attempt, Bookmark, ActiveQuizSession, ReportedQuestionRecord, OFFICIAL_CS_TOPICS_LIST } from './types';
@@ -26,13 +26,23 @@ import { getMockNumberLabel, getQuestionCount, getTopicBadge, getDifficultyTag }
 import AdBanner from './components/AdBanner';
 import QuizInterface from './components/QuizInterface';
 import FooterWithCompliance from './components/FooterWithCompliance';
+import CookieConsentBanner from './components/CookieConsentBanner';
 import ResultScreen from './components/ResultScreen';
 import SolutionReview from './components/SolutionReview';
+import TimeAnalyticsView from './components/TimeAnalyticsView';
 import Leaderboard from './components/Leaderboard';
 import SyllabusTracker from './components/SyllabusTracker';
 import TgtCsHub from './components/TgtCsHub';
 import CommonDsssbHub from './components/CommonDsssbHub';
 import TeachingMethodologyHub from './components/TeachingMethodologyHub';
+import SubjectDetailView from './components/SubjectDetailView';
+import CandidateProfileView from './components/CandidateProfileView';
+import ComprehensiveReportView from './components/ComprehensiveReportView';
+import MockHistoryView from './components/MockHistoryView';
+import DailyGoalWidget from './components/DailyGoalWidget';
+import { recordQuestionsAnsweredToday } from './lib/dailyGoalTracker';
+import RewardsModal from './components/RewardsModal';
+import { getUserCoins, subscribeToCoins, calculateQuizAttemptReward, isMockUnlocked, MOCK_UNLOCK_COST } from './lib/rewardsSystem';
 import DataManager from './components/DataManager';
 import ContentHub from './components/ContentHub';
 import SeoPreviewHub from './components/SeoPreviewHub';
@@ -99,12 +109,17 @@ export default function App() {
   };
 
   // Helper to determine initial view based on URL pathname, hash, or tab search query
-  const getViewFromUrl = (): 'dashboard' | 'quiz' | 'analyzing' | 'result' | 'bookmarks' | 'mistakes' | 'adaptive-path' | 'solution-review' | 'part-a-view' | 'part-b-view' | 'full-mock-view' | 'syllabus' | 'tgt-cs-view' | 'common-dsssb-view' | 'teaching-methodology-view' | 'data-manager' | 'content' | 'seo-preview' => {
+  const getViewFromUrl = (): 'dashboard' | 'quiz' | 'analyzing' | 'result' | 'bookmarks' | 'mistakes' | 'adaptive-path' | 'mock-history' | 'solution-review' | 'part-a-view' | 'part-b-view' | 'full-mock-view' | 'syllabus' | 'tgt-cs-view' | 'common-dsssb-view' | 'teaching-methodology-view' | 'subject-detail' | 'data-manager' | 'content' | 'seo-preview' | 'profile' | 'pdf-report' => {
     if (typeof window === 'undefined') return 'dashboard';
     const path = window.location.pathname.toLowerCase().replace(/\/$/, '');
     const hash = window.location.hash.toLowerCase();
     const searchParams = new URLSearchParams(window.location.search);
     const tab = searchParams.get('tab');
+
+    if (hash.startsWith('#/profile') || hash.startsWith('#profile') || path === '/profile' || tab === 'profile') return 'profile';
+    if (hash.startsWith('#/report') || hash.startsWith('#report') || hash.startsWith('#/pdf-report') || path === '/report' || path === '/pdf-report' || tab === 'report' || tab === 'pdf-report') return 'profile';
+
+    if (hash.startsWith('#/history') || hash.startsWith('#history') || hash.startsWith('#/mock-history') || path === '/history' || path === '/mock-history' || tab === 'history' || tab === 'mock-history') return 'mock-history';
 
     if (hash.startsWith('#/content') || hash.startsWith('#content') || path === '/content' || tab === 'content') return 'content';
     if (hash.startsWith('#/seo') || hash.startsWith('#seo') || path === '/seo' || path === '/seo-preview' || tab === 'seo') return 'seo-preview';
@@ -113,6 +128,7 @@ export default function App() {
     if (hash.startsWith('#/tgt-cs') || path === '/computer-science' || path === '/cs' || path === '/tgt-cs' || path === '/tgt-computer-science' || tab === 'cs' || tab === 'tgt-cs' || tab === 'tgt_cs') return 'tgt-cs-view';
     if (hash.startsWith('#/common-dsssb') || path === '/general-ability' || path === '/common-dsssb' || path === '/common-exam' || tab === 'general-ability' || tab === 'common-dsssb' || tab === 'common_dsssb') return 'common-dsssb-view';
     if (hash.startsWith('#/teaching-methodology') || path === '/teaching-methodology' || path === '/pedagogy' || tab === 'teaching-methodology' || tab === 'pedagogy') return 'teaching-methodology-view';
+    if (hash.startsWith('#/subject') || path.startsWith('/subject') || tab === 'subject') return 'subject-detail';
     if (path === '/part-a' || tab === 'part-a' || tab === 'part_a') return 'part-a-view';
     if (path === '/part-b' || tab === 'part-b' || tab === 'part_b') return 'part-b-view';
     if (path === '/full-mocks' || tab === 'full-mocks' || tab === 'full_mocks') return 'full-mock-view';
@@ -133,10 +149,39 @@ export default function App() {
   };
 
   // Navigation & Core States
-  const [activeView, setActiveView] = useState<'dashboard' | 'quiz' | 'analyzing' | 'result' | 'bookmarks' | 'mistakes' | 'adaptive-path' | 'solution-review' | 'part-a-view' | 'part-b-view' | 'full-mock-view' | 'syllabus' | 'tgt-cs-view' | 'common-dsssb-view' | 'teaching-methodology-view' | 'data-manager' | 'content' | 'seo-preview'>(getViewFromUrl);
+  const [activeView, setActiveView] = useState<'dashboard' | 'quiz' | 'analyzing' | 'result' | 'bookmarks' | 'mistakes' | 'adaptive-path' | 'mock-history' | 'solution-review' | 'time-analytics' | 'part-a-view' | 'part-b-view' | 'full-mock-view' | 'syllabus' | 'tgt-cs-view' | 'common-dsssb-view' | 'teaching-methodology-view' | 'subject-detail' | 'data-manager' | 'content' | 'seo-preview' | 'profile' | 'pdf-report'>(getViewFromUrl);
+  const [viewHistory, setViewHistory] = useState<string[]>([]);
+
+  const navigateToView = (nextView: typeof activeView) => {
+    if (nextView === activeView) return;
+    setViewHistory(prev => [...prev, activeView]);
+    setActiveView(nextView);
+  };
+
+  const handleGoBack = () => {
+    if (viewHistory.length > 0) {
+      const nextHistory = [...viewHistory];
+      const previousView = nextHistory.pop()!;
+      setViewHistory(nextHistory);
+      setActiveView(previousView as any);
+    } else {
+      setActiveView('dashboard');
+    }
+  };
   const [contentSubTab, setContentSubTab] = useState<'telegram' | 'youtube'>(getContentSubTabFromUrl);
   const [selectedExamSlug, setSelectedExamSlug] = useState<string | null>(getExamSlugFromUrl);
   const [selectedQuiz, setSelectedQuiz] = useState<Quiz | null>(null);
+  const [selectedSubjectId, setSelectedSubjectId] = useState<string>('maths');
+  const [showRewardsModal, setShowRewardsModal] = useState<boolean>(false);
+  const [targetLockedQuizForModal, setTargetLockedQuizForModal] = useState<Quiz | null>(null);
+  const [userCoins, setUserCoins] = useState<number>(getUserCoins);
+
+  // Subscribe to real-time Coin economy updates
+  useEffect(() => {
+    return subscribeToCoins((coins) => {
+      setUserCoins(coins);
+    });
+  }, []);
 
   const prevActiveViewRef = useRef(activeView);
 
@@ -369,8 +414,6 @@ export default function App() {
   // Local Storage lists
   const [pastAttempts, setPastAttempts] = useState<Attempt[]>(() => {
     try {
-      const resetDone = localStorage.getItem('dsssb_metric_reset_v5');
-      if (!resetDone) return [];
       const attempts = localStorage.getItem('dsssb_attempts');
       const parsed = attempts ? JSON.parse(attempts) : [];
       return Array.isArray(parsed) ? parsed : [];
@@ -380,8 +423,6 @@ export default function App() {
   });
   const [savedBookmarks, setSavedBookmarks] = useState<Bookmark[]>(() => {
     try {
-      const resetDone = localStorage.getItem('dsssb_metric_reset_v5');
-      if (!resetDone) return [];
       const bookmarks = localStorage.getItem('dsssb_bookmarks');
       const parsed = bookmarks ? JSON.parse(bookmarks) : [];
       return Array.isArray(parsed) ? parsed : [];
@@ -391,8 +432,6 @@ export default function App() {
   });
   const [missedQuestions, setMissedQuestions] = useState<Question[]>(() => {
     try {
-      const resetDone = localStorage.getItem('dsssb_metric_reset_v5');
-      if (!resetDone) return [];
       const missed = localStorage.getItem('dsssb_missed_questions');
       const parsed = missed ? JSON.parse(missed) : [];
       return Array.isArray(parsed) ? parsed : [];
@@ -404,8 +443,6 @@ export default function App() {
   const [isLoadingQuiz, setIsLoadingQuiz] = useState<boolean>(false);
   const [customQuizzes, setCustomQuizzes] = useState<Quiz[]>(() => {
     try {
-      const resetDone = localStorage.getItem('dsssb_metric_reset_v5');
-      if (!resetDone) return [];
       const customs = localStorage.getItem('dsssb_custom_quizzes');
       const parsed = customs ? JSON.parse(customs) : [];
       return Array.isArray(parsed) ? parsed : [];
@@ -426,8 +463,6 @@ export default function App() {
 
   const [unlockedQuizIds, setUnlockedQuizIds] = useState<Record<string, boolean>>(() => {
     try {
-      const resetDone = localStorage.getItem('dsssb_metric_reset_v5');
-      if (!resetDone) return {};
       const unlocked = localStorage.getItem('dsssb_unlocked_quizzes');
       return unlocked ? JSON.parse(unlocked) : {};
     } catch (_) {
@@ -436,8 +471,6 @@ export default function App() {
   });
   const [questionPerformance, setQuestionPerformance] = useState<Record<string, 'correct' | 'incorrect' | 'unattempted'>>(() => {
     try {
-      const resetDone = localStorage.getItem('dsssb_metric_reset_v5');
-      if (!resetDone) return {};
       const perf = localStorage.getItem('dsssb_question_performance');
       return perf ? JSON.parse(perf) : {};
     } catch (_) {
@@ -579,6 +612,103 @@ export default function App() {
       return 0;
     });
   }, [savedBookmarks, bookmarkSubjectFilter, bookmarkDifficultyFilter, bookmarkSearchQuery, bookmarkSortBy, getBookmarkSubject, getBookmarkDifficulty]);
+
+  // Mistake Vault filter & sorting states
+  const [mistakeSearchQuery, setMistakeSearchQuery] = useState<string>('');
+  const [mistakeSubjectFilter, setMistakeSubjectFilter] = useState<string>('All');
+  const [mistakeSortBy, setMistakeSortBy] = useState<string>('default');
+
+  // Dynamic available subjects list for mistake vault
+  const mistakeAvailableSubjects = useMemo(() => {
+    const set = new Set<string>();
+    missedQuestions.forEach(q => {
+      if (q && q.section) {
+        set.add(q.section);
+      }
+    });
+    return Array.from(set).sort();
+  }, [missedQuestions]);
+
+  // Filtered and sorted mistakes array
+  const filteredAndSortedMistakes = useMemo(() => {
+    return missedQuestions.filter(q => {
+      if (!q) return false;
+      if (mistakeSubjectFilter !== 'All' && q.section !== mistakeSubjectFilter) {
+        return false;
+      }
+      if (mistakeSearchQuery.trim()) {
+        const query = mistakeSearchQuery.toLowerCase().trim();
+        const matchesQuestion = q.question?.toLowerCase().includes(query);
+        const matchesExplanation = q.explanation?.toLowerCase().includes(query);
+        const matchesSection = q.section?.toLowerCase().includes(query);
+        return matchesQuestion || matchesExplanation || matchesSection;
+      }
+      return true;
+    }).sort((a, b) => {
+      if (mistakeSortBy === 'section_asc') {
+        return (a.section || '').localeCompare(b.section || '');
+      }
+      if (mistakeSortBy === 'section_desc') {
+        return (b.section || '').localeCompare(a.section || '');
+      }
+      return 0;
+    });
+  }, [missedQuestions, mistakeSubjectFilter, mistakeSearchQuery, mistakeSortBy]);
+
+  const handleResolveMistakeQuestion = (questionId: number) => {
+    const updated = missedQuestions.filter(q => q && q.id !== questionId);
+    setMissedQuestions(updated);
+    try {
+      localStorage.setItem('dsssb_missed_questions', safeStringify(updated));
+      const incorrectKeys = updated.map(mq => mq?.id).filter(Boolean);
+      localStorage.setItem('dsssb_incorrect_question_ids', safeStringify(incorrectKeys));
+    } catch (_) {}
+  };
+
+  const handleClearAllMistakes = () => {
+    if (confirm('Are you sure you want to clear all questions in the Mistake Vault?')) {
+      setMissedQuestions([]);
+      try {
+        localStorage.removeItem('dsssb_missed_questions');
+        localStorage.removeItem('dsssb_incorrect_question_ids');
+      } catch (_) {}
+    }
+  };
+
+  // Generate dynamic mistake vault test mode
+  const handleStartMistakesVaultTest = () => {
+    if (!missedQuestions || missedQuestions.length === 0) return;
+    const dynamicVaultQuiz: Quiz = {
+      testId: `mistake_vault_${Date.now()}`,
+      title: "Mistake Vault Recovery Drill",
+      category: "full",
+      totalTimeMinutes: Math.max(5, Math.ceil(missedQuestions.length * 1.5)),
+      markingScheme: { correct: 1, negative: 0.25 },
+      questions: missedQuestions.map((q, idx) => ({
+        ...q,
+        id: q.id ?? (idx + 1)
+      }))
+    };
+    handleStartTestAttempt(dynamicVaultQuiz, undefined, true);
+  };
+
+  // Generate dynamic bookmarked questions test mode
+  const handleStartBookmarkedQuestionsTest = () => {
+    const questions = savedBookmarks.map(b => b.question).filter(Boolean);
+    if (questions.length === 0) return;
+    const dynamicBookmarksQuiz: Quiz = {
+      testId: `bookmarks_drill_${Date.now()}`,
+      title: "Bookmarked Questions Practice Drill",
+      category: "full",
+      totalTimeMinutes: Math.max(5, Math.ceil(questions.length * 1.5)),
+      markingScheme: { correct: 1, negative: 0.25 },
+      questions: questions.map((q, idx) => ({
+        ...q,
+        id: q.id ?? (idx + 1)
+      }))
+    };
+    handleStartTestAttempt(dynamicBookmarksQuiz, undefined, true);
+  };
 
   const matchingQuizzes = useMemo(() => {
     if (!dashboardSearchQuery.trim()) return [];
@@ -1475,6 +1605,10 @@ export default function App() {
     setPastAttempts(updated);
     localStorage.setItem('dsssb_attempts', safeStringify(updated));
 
+    // Record questions answered today (attempted only: correct + incorrect)
+    const answeredCount = (newAttempt.correctCount || 0) + (newAttempt.incorrectCount || 0);
+    recordQuestionsAnsweredToday(answeredCount);
+
     // Explicitly update completed test IDs and scores
     const completedIds = Array.from(new Set(updated.map(a => a.testId)));
     localStorage.setItem('dsssb_completed_test_ids', safeStringify(completedIds));
@@ -1684,6 +1818,12 @@ export default function App() {
 
     const isDailyOrBooster = quiz.testId?.startsWith('daily_quiz_') || quiz.testId?.startsWith('booster_') || quiz.subject === 'Daily Quiz' || quiz.topic === 'Daily Challenge';
 
+    if (!isDailyOrBooster && !bypassLock && !isMockUnlocked(quiz.testId, resolvedIndex)) {
+      setTargetLockedQuizForModal(quiz);
+      setShowRewardsModal(true);
+      return;
+    }
+
     if (activeQuizSession && activeQuizSession.quiz.testId !== quiz.testId) {
       setPendingStartQuiz(quiz);
       return;
@@ -1793,6 +1933,7 @@ export default function App() {
             id: 'attempt_' + Date.now(),
             testId: selectedQuiz.testId,
             testTitle: selectedQuiz.title,
+            subject: selectedQuiz.subject || 'DSSSB CBT Mock',
             score: scoreValue,
             correctCount: corrects,
             incorrectCount: incorrects,
@@ -1800,11 +1941,31 @@ export default function App() {
             accuracy: accValue,
             timeSpentSeconds: timeSpent,
             timestamp: new Date().toISOString(),
-            mode: 'exam'
+            mode: 'exam',
+            questionTimeSpent: currentQuestionTimeSpent,
+            userAnswers: answers,
+            questions: qList,
+            totalQuestions: qList.length
           };
+
+          // Calculate and award coin rewards (only on 1st attempt)
+          const isDailyOrBooster = selectedQuiz.testId?.startsWith('daily_quiz_') || selectedQuiz.testId?.startsWith('booster_') || selectedQuiz.subject === 'Daily Quiz' || selectedQuiz.topic === 'Daily Challenge';
+          const isReattempt = pastAttempts.some(a => a.testId === selectedQuiz.testId);
 
           saveAttempt(attemptRecord);
           recordMissedQuestions(qList, answers);
+
+          const rewardRes = calculateQuizAttemptReward(accValue, selectedQuiz.title, isDailyOrBooster, isReattempt);
+          setUserCoins(getUserCoins());
+
+          if (rewardRes.totalCoins > 0) {
+            const bonusDetail = rewardRes.bonusReason ? `(+${rewardRes.baseCoins} attempt + ${rewardRes.bonusReason})` : `(+${rewardRes.baseCoins} attempt)`;
+            setShareToastMessage(`+${rewardRes.totalCoins} Coins Earned! 🪙 ${bonusDetail}`);
+            setTimeout(() => setShareToastMessage(null), 4000);
+          } else if (isReattempt) {
+            setShareToastMessage('Reattempt Completed! 🎯 (Coins/Points awarded on 1st attempt only)');
+            setTimeout(() => setShareToastMessage(null), 4000);
+          }
 
           // Update question performance records
           const updatedPerf = { ...questionPerformance };
@@ -1832,13 +1993,6 @@ export default function App() {
         return prev + 10;
       });
     }, 300);
-  };
-
-  // Generate dynamic mistake vault test
-  const handleStartMistakesVaultTest = () => {
-    if (missedQuestions.length === 0) return;
-    const url = `${window.location.origin}/?tab=mistakes&testId=recovery_mistakes_vault`;
-    window.open(url, '_blank');
   };
 
   // Match quiz topics flexibly for Part B CS filter checks
@@ -2291,46 +2445,11 @@ export default function App() {
 
           <div className="flex items-center gap-2 md:gap-4">
 
-            <div className="hidden lg:flex items-center gap-2.5 xl:gap-3.5">
-              <button
-                onClick={() => setActiveView('dashboard')}
-                className={`text-xs font-bold transition-colors cursor-pointer ${
-                  activeView === 'dashboard' ? 'text-blue-600 dark:text-blue-400 font-black' : 'text-slate-600 dark:text-slate-400 hover:text-slate-800 dark:hover:text-white'
-                }`}
-              >
-                Dashboard
-              </button>
-              <button
-                onClick={() => setActiveView('syllabus')}
-                className={`text-xs font-bold transition-colors cursor-pointer flex items-center gap-1 ${
-                  activeView === 'syllabus' ? 'text-amber-600 dark:text-amber-400 font-black' : 'text-slate-600 dark:text-slate-400 hover:text-slate-800 dark:hover:text-white'
-                }`}
-              >
-                <ListTodo className="w-3.5 h-3.5 text-amber-500" /> Syllabus
-              </button>
-              <button
-                onClick={() => setActiveView('adaptive-path')}
-                className={`text-xs font-bold transition-colors cursor-pointer flex items-center gap-1 ${
-                  activeView === 'adaptive-path' ? 'text-indigo-600 dark:text-indigo-400 font-black' : 'text-slate-600 dark:text-slate-400 hover:text-slate-800 dark:hover:text-white'
-                }`}
-              >
-                <Sparkles className="w-3.5 h-3.5 text-indigo-500 fill-indigo-50 dark:fill-indigo-950/40" /> Analysis
-              </button>
-              <button
-                onClick={() => setActiveView('bookmarks')}
-                className={`text-xs font-bold transition-colors cursor-pointer flex items-center gap-1 ${
-                  activeView === 'bookmarks' ? 'text-blue-600 dark:text-blue-400 font-black' : 'text-slate-600 dark:text-slate-400 hover:text-slate-800 dark:hover:text-white'
-                }`}
-              >
-                <Star className="w-3.5 h-3.5" /> Saved ({savedBookmarks.length})
-              </button>
-            </div>
-
             {/* Profile & Sync Header Button */}
             <button
-              onClick={() => setShowProfileModal(true)}
+              onClick={() => navigateToView('profile')}
               className="flex items-center gap-2 bg-slate-100 dark:bg-slate-800 hover:bg-indigo-50 dark:hover:bg-indigo-950/50 border border-slate-200 dark:border-slate-700 hover:border-indigo-200 dark:hover:border-indigo-800 px-3 py-1.5 rounded-xl transition-all cursor-pointer group shrink-0"
-              title="User Profile & Cross-Device Sync"
+              title="Candidate Profile & Performance Hub"
               id="user-profile-header-btn"
             >
               <div className="w-6 h-6 rounded-lg bg-indigo-600 text-white flex items-center justify-center font-black text-xs shadow-2xs">
@@ -2380,6 +2499,12 @@ export default function App() {
         {activeView === 'syllabus' && (
           <SyllabusTracker 
             initialExamSlug={selectedExamSlug}
+            quizzes={allCombinedQuizzes}
+            pastAttempts={pastAttempts}
+            onSelectSubject={(subjId) => {
+              setSelectedSubjectId(subjId);
+              setActiveView('subject-detail');
+            }}
             onNavigateToView={(view, topicContext) => {
               if (view === 'part-b-view' && topicContext) {
                 const topicLower = topicContext.toLowerCase();
@@ -2449,51 +2574,58 @@ export default function App() {
             {/* Promotional Banners Grid (Modular Component /src/components/PromoBanners.tsx) */}
             <PromoBanners
               onOpenSubscribeModal={() => setShowSubscribeModal(true)}
-              onNavigateToView={(view) => setActiveView(view as any)}
+              onNavigateToView={(view) => navigateToView(view as any)}
             />
 
-            {/* Minimized 3D Light Welcome Card - MOBILE ONLY (Hidden in Web View) */}
-            <div className="block md:hidden bg-gradient-to-r from-indigo-50 via-sky-50 to-amber-50/70 border-2 border-indigo-200/90 rounded-2xl p-3 text-slate-900 shadow-[0_4px_0_0_#c7d2fe] relative overflow-hidden">
-              <div className="flex items-center justify-between gap-2 relative z-10">
-                <div className="flex items-center gap-2.5 min-w-0">
+            {/* 3D Light Welcome Card with Coin Economy */}
+            <div className="bg-gradient-to-r from-indigo-50 via-sky-50 to-amber-50/70 dark:from-indigo-950/60 dark:via-slate-900 dark:to-amber-950/40 border-2 border-indigo-200/90 dark:border-indigo-800/80 rounded-2xl md:rounded-3xl p-3.5 sm:p-4 text-slate-900 dark:text-white shadow-[0_4px_0_0_#c7d2fe] dark:shadow-none relative overflow-hidden">
+              <div className="flex items-center justify-between gap-3 relative z-10">
+                <div className="flex items-center gap-2.5 sm:gap-3 min-w-0">
                   <div className="shrink-0">
                     <Glass3dIcon type="target" size="sm" />
                   </div>
                   <div className="min-w-0">
                     <div className="flex items-center gap-1.5 flex-wrap">
-                      <h2 className="text-xs font-black tracking-tight text-indigo-950 truncate">
+                      <h2 className="text-xs sm:text-sm font-black tracking-tight text-indigo-950 dark:text-indigo-100 truncate">
                         Hi, {username || 'Candidate'}! 👋
                       </h2>
                       <span className="bg-amber-400 text-slate-950 text-[9px] font-black px-1.5 py-0.2 rounded-full uppercase shadow-2xs">
                         PRO
                       </span>
                     </div>
-                    <p className="text-[10px] text-slate-600 font-semibold truncate">
+                    <p className="text-[10px] sm:text-xs text-slate-600 dark:text-slate-300 font-semibold truncate">
                       DSSSB TGT CS Prep Synced
                     </p>
                   </div>
                 </div>
 
-                <div className="flex items-center gap-1.5 shrink-0">
+                <div className="shrink-0">
                   <button
-                    onClick={() => setShowAchievementModal(true)}
-                    className="bg-amber-400/20 hover:bg-amber-400/30 text-amber-900 border border-amber-300 font-extrabold px-2 py-1.5 rounded-xl text-[10px] shadow-2xs cursor-pointer flex items-center gap-1"
-                    title="Share Achievement Card"
+                    onClick={() => {
+                      setTargetLockedQuizForModal(null);
+                      setShowRewardsModal(true);
+                    }}
+                    className="bg-amber-100/90 dark:bg-amber-950/80 hover:bg-amber-200 dark:hover:bg-amber-900 border border-amber-300/90 dark:border-amber-700/80 px-2.5 sm:px-3 py-1.5 rounded-xl flex items-center gap-1.5 transition-all cursor-pointer shadow-2xs group active:scale-95"
+                    title="BytePrep Rewards & Coin Economy"
                   >
-                    <Sparkles className="w-3 h-3 text-amber-600" />
-                    <span>Card</span>
-                  </button>
-
-                  <button
-                    onClick={() => setShowProfileModal(true)}
-                    className="bg-indigo-600 hover:bg-indigo-700 active:translate-y-0.5 text-white font-extrabold px-2.5 py-1.5 rounded-xl text-[10px] border border-indigo-500 shadow-[0_2px_0_0_#3730a3] cursor-pointer flex items-center gap-1"
-                  >
-                    <User className="w-3 h-3 text-amber-300" />
-                    <span>Sync</span>
+                    <span className="text-sm sm:text-base group-hover:rotate-12 transition-transform">🪙</span>
+                    <span className="text-xs sm:text-sm font-black text-amber-950 dark:text-amber-200">{userCoins}</span>
+                    <span className="text-[10px] font-extrabold text-amber-800 dark:text-amber-300 uppercase tracking-tight">Coins</span>
                   </button>
                 </div>
               </div>
             </div>
+
+            {/* Daily Goal Practice Progress Ring Widget */}
+            <DailyGoalWidget
+              attempts={pastAttempts}
+              onStartPractice={() => {
+                const dailyOrTopMock = allCombinedQuizzes.find(q => q.category === 'part_b' || q.category === 'full') || allCombinedQuizzes[0];
+                if (dailyOrTopMock) {
+                  handleStartTestAttempt(dailyOrTopMock);
+                }
+              }}
+            />
 
             {/* Attempt Component (Top Stats) - ABOVE SEARCH */}
             <div className="bg-white border-2 border-slate-200/90 dark:bg-slate-900/80 dark:border-slate-800 rounded-xl md:rounded-3xl p-2.5 md:p-6 shadow-sm">
@@ -2775,7 +2907,7 @@ export default function App() {
                 <div className="space-y-3 md:space-y-6 w-full">
                   {/* AdSense/AdMob Responsive Banner Slot 1 */}
                   <React.Suspense fallback={null}>
-                    <AdBanner location="dashboard_top" />
+                    <AdBanner location="dashboard_top" adSlot="1000000001" />
                   </React.Suspense>
 
                   <div className="text-center space-y-0.5 pt-2">
@@ -2796,7 +2928,7 @@ export default function App() {
                       whileHover={{ scale: 1.03, y: -4 }}
                       whileTap={{ scale: 0.97 }}
                       transition={{ duration: 0.3, delay: 0.04, type: 'spring', stiffness: 200, damping: 20 }}
-                      onClick={() => setActiveView('tgt-cs-view')}
+                      onClick={() => navigateToView('tgt-cs-view')}
                       className="glass-box backdrop-blur-xl bg-white/90 dark:bg-slate-900/90 border-2 border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-3 sm:p-5 md:p-6 text-center flex flex-col items-center justify-between space-y-2 md:space-y-3 shadow-md hover:shadow-2xl hover:border-indigo-400 dark:hover:border-indigo-500 transition-all cursor-pointer group relative overflow-hidden"
                     >
                       <div className="absolute top-0 right-0 bg-indigo-500/10 text-indigo-700 dark:text-indigo-300 border-b border-l border-indigo-200/60 dark:border-indigo-800/60 text-[8px] sm:text-[9px] md:text-[10px] font-black px-2 py-0.5 sm:px-2.5 sm:py-0.5 md:px-3 md:py-1 rounded-bl-lg sm:rounded-bl-xl md:rounded-bl-2xl uppercase tracking-wider">
@@ -2827,7 +2959,7 @@ export default function App() {
                       whileHover={{ scale: 1.03, y: -4 }}
                       whileTap={{ scale: 0.97 }}
                       transition={{ duration: 0.3, delay: 0.08, type: 'spring', stiffness: 200, damping: 20 }}
-                      onClick={() => setActiveView('common-dsssb-view')}
+                      onClick={() => navigateToView('common-dsssb-view')}
                       className="glass-box backdrop-blur-xl bg-white/90 dark:bg-slate-900/90 border-2 border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-3 sm:p-5 md:p-6 text-center flex flex-col items-center justify-between space-y-2 md:space-y-3 shadow-md hover:shadow-2xl hover:border-amber-400 dark:hover:border-amber-500 transition-all cursor-pointer group relative overflow-hidden"
                     >
                       <div className="absolute top-0 right-0 bg-amber-500/10 text-amber-700 dark:text-amber-300 border-b border-l border-amber-200/60 dark:border-amber-800/60 text-[8px] sm:text-[9px] md:text-[10px] font-black px-2 py-0.5 sm:px-2.5 sm:py-0.5 md:px-3 md:py-1 rounded-bl-lg sm:rounded-bl-xl md:rounded-bl-2xl uppercase tracking-wider">
@@ -2858,7 +2990,7 @@ export default function App() {
                       whileHover={{ scale: 1.03, y: -4 }}
                       whileTap={{ scale: 0.97 }}
                       transition={{ duration: 0.3, delay: 0.10, type: 'spring', stiffness: 200, damping: 20 }}
-                      onClick={() => setActiveView('teaching-methodology-view')}
+                      onClick={() => navigateToView('teaching-methodology-view')}
                       className="glass-box backdrop-blur-xl bg-white/90 dark:bg-slate-900/90 border-2 border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-3 sm:p-5 md:p-6 text-center flex flex-col items-center justify-between space-y-2 md:space-y-3 shadow-md hover:shadow-2xl hover:border-purple-400 dark:hover:border-purple-500 transition-all cursor-pointer group relative overflow-hidden"
                     >
                       <div className="absolute top-0 right-0 bg-purple-500/10 text-purple-700 dark:text-purple-300 border-b border-l border-purple-200/60 dark:border-purple-800/60 text-[8px] sm:text-[9px] md:text-[10px] font-black px-2 py-0.5 sm:px-2.5 sm:py-0.5 md:px-3 md:py-1 rounded-bl-lg sm:rounded-bl-xl md:rounded-bl-2xl uppercase tracking-wider">
@@ -2889,7 +3021,7 @@ export default function App() {
                       whileHover={{ scale: 1.03, y: -4 }}
                       whileTap={{ scale: 0.97 }}
                       transition={{ duration: 0.3, delay: 0.12, type: 'spring', stiffness: 200, damping: 20 }}
-                      onClick={() => setActiveView('full-mock-view')}
+                      onClick={() => navigateToView('full-mock-view')}
                       className="glass-box backdrop-blur-xl bg-white/90 dark:bg-slate-900/90 border-2 border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-3 sm:p-5 md:p-6 text-center flex flex-col items-center justify-between space-y-2 md:space-y-3 shadow-md hover:shadow-2xl hover:border-emerald-400 dark:hover:border-emerald-500 transition-all cursor-pointer group relative overflow-hidden"
                     >
                       <div className="absolute top-0 right-0 bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border-b border-l border-emerald-200/60 dark:border-emerald-800/60 text-[8px] sm:text-[9px] md:text-[10px] font-black px-2 py-0.5 sm:px-2.5 sm:py-0.5 md:px-3 md:py-1 rounded-bl-lg sm:rounded-bl-xl md:rounded-bl-2xl uppercase tracking-wider">
@@ -2914,22 +3046,95 @@ export default function App() {
                     </motion.div>
                   </div>
 
+                  {/* High Yield Revision & Mistake Mastery Grid */}
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 md:gap-5 pt-2">
+                    {/* Mistake Vault Dashboard Card */}
+                    <div className="bg-gradient-to-br from-rose-50/80 via-white to-orange-50/50 dark:from-rose-950/30 dark:via-slate-900 dark:to-orange-950/20 border-2 border-rose-200/80 dark:border-rose-900/50 rounded-2xl md:rounded-3xl p-4 md:p-5 flex flex-col justify-between gap-4 shadow-sm hover:shadow-md transition-all">
+                      <div className="space-y-2">
+                        <div className="flex items-center justify-between">
+                          <span className="flex items-center gap-1.5 text-xs font-black uppercase tracking-wider text-rose-700 dark:text-rose-400 bg-rose-100 dark:bg-rose-950/80 px-2.5 py-1 rounded-lg border border-rose-200 dark:border-rose-800">
+                            <AlertCircle className="w-3.5 h-3.5" /> Mistake Vault
+                          </span>
+                          <span className="text-xs font-black text-slate-700 dark:text-slate-300">
+                            {missedQuestions.length} Questions
+                          </span>
+                        </div>
+                        <h4 className="text-sm md:text-base font-extrabold text-slate-900 dark:text-white">
+                          Target &amp; Eliminate Incorrect Answers
+                        </h4>
+                        <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed font-medium">
+                          All questions answered incorrectly across all mock tests and syllabus practice are saved here in local storage for focused recovery.
+                        </p>
+                      </div>
+
+                      <div className="flex items-center gap-2 pt-1">
+                        <button
+                          onClick={handleStartMistakesVaultTest}
+                          disabled={missedQuestions.length === 0}
+                          className={`flex-1 py-2.5 px-3 rounded-xl text-xs font-black transition-all flex items-center justify-center gap-1.5 shadow-sm ${
+                            missedQuestions.length > 0
+                              ? 'bg-rose-600 hover:bg-rose-700 text-white cursor-pointer active:translate-y-0.5'
+                              : 'bg-slate-100 dark:bg-slate-800 text-slate-400 cursor-not-allowed border border-slate-200 dark:border-slate-700'
+                          }`}
+                        >
+                          <Play className="w-3.5 h-3.5 fill-current" />
+                          <span>Start Mistake Drill</span>
+                        </button>
+                        <button
+                          onClick={() => setActiveView('mistakes')}
+                          className="py-2.5 px-3 rounded-xl text-xs font-extrabold bg-white dark:bg-slate-800 hover:bg-rose-50 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 transition-all cursor-pointer"
+                        >
+                          Review All
+                        </button>
+                      </div>
+                    </div>
+
+                    {/* Bookmarked Questions Dashboard Card */}
+                    <div className="bg-gradient-to-br from-amber-50/80 via-white to-yellow-50/50 dark:from-amber-950/30 dark:via-slate-900 dark:to-yellow-950/20 border-2 border-amber-200/80 dark:border-amber-900/50 rounded-2xl md:rounded-3xl p-4 md:p-5 flex flex-col justify-between gap-4 shadow-sm hover:shadow-md transition-all">
+                      <div className="space-y-2">
+                        <div className="flex items-center justify-between">
+                          <span className="flex items-center gap-1.5 text-xs font-black uppercase tracking-wider text-amber-800 dark:text-amber-300 bg-amber-100 dark:bg-amber-950/80 px-2.5 py-1 rounded-lg border border-amber-200 dark:border-amber-800">
+                            <Star className="w-3.5 h-3.5 fill-amber-500 text-amber-600" /> Bookmarked Star Hub
+                          </span>
+                          <span className="text-xs font-black text-slate-700 dark:text-slate-300">
+                            {savedBookmarks.length} Saved
+                          </span>
+                        </div>
+                        <h4 className="text-sm md:text-base font-extrabold text-slate-900 dark:text-white">
+                          High-Yield Starred Question Library
+                        </h4>
+                        <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed font-medium">
+                          Quickly access and practice important questions you starred during test attempts for rapid pre-exam revision.
+                        </p>
+                      </div>
+
+                      <div className="flex items-center gap-2 pt-1">
+                        <button
+                          onClick={handleStartBookmarkedQuestionsTest}
+                          disabled={savedBookmarks.length === 0}
+                          className={`flex-1 py-2.5 px-3 rounded-xl text-xs font-black transition-all flex items-center justify-center gap-1.5 shadow-sm ${
+                            savedBookmarks.length > 0
+                              ? 'bg-amber-500 hover:bg-amber-600 text-white cursor-pointer active:translate-y-0.5'
+                              : 'bg-slate-100 dark:bg-slate-800 text-slate-400 cursor-not-allowed border border-slate-200 dark:border-slate-700'
+                          }`}
+                        >
+                          <Play className="w-3.5 h-3.5 fill-current" />
+                          <span>Practice Saved Qs</span>
+                        </button>
+                        <button
+                          onClick={() => setActiveView('bookmarks')}
+                          className="py-2.5 px-3 rounded-xl text-xs font-extrabold bg-white dark:bg-slate-800 hover:bg-amber-50 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 transition-all cursor-pointer"
+                        >
+                          Review All
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
                   {/* AdSense/AdMob Responsive Banner Slot 2 */}
                   <React.Suspense fallback={null}>
-                    <AdBanner location="dashboard_bottom" />
+                    <AdBanner location="dashboard_bottom" adSlot="1000000002" />
                   </React.Suspense>
-                </div>
-
-                {/* Persistent Leaderboard & Local History logs Section */}
-                <div className="pt-6 border-t border-slate-200">
-                  <Leaderboard 
-                    attempts={pastAttempts} 
-                    onReattempt={(testId) => {
-                      const q = staticQuizzes.find(mq => mq.testId === testId) || staticQuizzes.find(sq => sq.testId === testId) || customQuizzes.find(cq => cq.testId === testId);
-                      if (q) handleStartTestAttempt(q);
-                    }}
-                    onClearHistory={handleClearHistory}
-                  />
                 </div>
               </>
             )}
@@ -2938,15 +3143,15 @@ export default function App() {
 
         {/* TGT CS Exam Suite sub-view - Full dedicated page */}
         {activeView === 'tgt-cs-view' && (
-          <div className="w-full max-w-[1600px] mx-auto px-2 sm:px-4 lg:px-6 py-6 md:py-8 space-y-6 md:space-y-8 animate-fadeIn">
-            <div className="flex items-center justify-between border-b border-slate-200 pb-4">
+          <div className="w-full max-w-[1600px] mx-auto px-2 sm:px-4 lg:px-6 py-4 md:py-8 space-y-4 md:space-y-8 animate-fadeIn">
+            <div className="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-3 sm:pb-4">
               <button 
-                onClick={() => setActiveView('dashboard')}
-                className="flex items-center gap-1.5 bg-white hover:bg-slate-100 text-slate-800 border border-slate-200 px-3 py-1.5 sm:px-4 sm:py-2 rounded-2xl text-xs font-bold transition-all shadow-sm cursor-pointer"
-                title="Back to Dashboard"
+                onClick={handleGoBack}
+                className="p-2 sm:p-2.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 transition-all cursor-pointer shadow-xs group shrink-0"
+                title="Back"
+                aria-label="Back"
               >
-                <ArrowLeft className="w-4 h-4" />
-                <span className="hidden sm:inline">Back to Dashboard</span>
+                <ArrowLeft className="w-4 h-4 text-slate-700 dark:text-slate-200 group-hover:-translate-x-0.5 transition-transform" />
               </button>
               <span className="bg-indigo-100 text-indigo-900 border border-indigo-200 text-[10px] font-black px-3 py-1 sm:px-3.5 sm:py-1.5 rounded-full uppercase tracking-wider">
                 <span className="hidden sm:inline">💻 TGT Computer Science (41/26) Exam Suite</span>
@@ -2959,9 +3164,16 @@ export default function App() {
               pastAttempts={pastAttempts}
               nowTick={nowTick}
               onStartQuiz={(quiz, index) => handleStartTestAttempt(quiz, index)}
-              onLockedQuizClick={(quiz, status) => setLockedQuizModal({ quiz, status })}
+              onLockedQuizClick={(quiz) => {
+                setTargetLockedQuizForModal(quiz);
+                setShowRewardsModal(true);
+              }}
               onShareQuiz={(quiz, e) => handleShareMockLink(quiz, e)}
-              onOpenSyllabusTracker={() => setActiveView('syllabus')}
+              onOpenSyllabusTracker={() => navigateToView('syllabus')}
+              onSelectSubject={(subjId) => {
+                setSelectedSubjectId(subjId);
+                navigateToView('subject-detail');
+              }}
               getMockUnlockStatus={getMockUnlockStatus}
               initialActiveTab={tgtCsInitialTab}
               initialCsTopicFilter={tgtCsInitialTopic}
@@ -2972,14 +3184,14 @@ export default function App() {
         {/* Common DSSSB Exam Hub sub-view - Full dedicated page */}
         {activeView === 'common-dsssb-view' && (
           <div className="w-full max-w-[1600px] mx-auto px-2 sm:px-4 lg:px-6 py-2 sm:py-3 space-y-3 sm:space-y-4 animate-fadeIn">
-            <div className="flex items-center justify-between border-b border-slate-200 pb-4">
+            <div className="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-3 sm:pb-4">
               <button 
-                onClick={() => setActiveView('dashboard')}
-                className="flex items-center gap-1.5 bg-white hover:bg-slate-100 text-slate-800 border border-slate-200 px-3 py-1.5 sm:px-4 sm:py-2 rounded-2xl text-xs font-bold transition-all shadow-sm cursor-pointer"
-                title="Back to Dashboard"
+                onClick={handleGoBack}
+                className="p-2 sm:p-2.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 transition-all cursor-pointer shadow-xs group shrink-0"
+                title="Back"
+                aria-label="Back"
               >
-                <ArrowLeft className="w-4 h-4" />
-                <span className="hidden sm:inline">Back to Dashboard</span>
+                <ArrowLeft className="w-4 h-4 text-slate-700 dark:text-slate-200 group-hover:-translate-x-0.5 transition-transform" />
               </button>
               <span className="bg-amber-100 text-amber-900 border border-amber-200 text-[10px] font-black px-3 py-1 sm:px-3.5 sm:py-1.5 rounded-full uppercase tracking-wider">
                 <span className="hidden sm:inline">🏛️ Common DSSSB Exam Hub (Part A)</span>
@@ -2992,24 +3204,54 @@ export default function App() {
               pastAttempts={pastAttempts}
               nowTick={nowTick}
               onStartQuiz={(quiz, index) => handleStartTestAttempt(quiz, index)}
-              onLockedQuizClick={(quiz, status) => setLockedQuizModal({ quiz, status })}
+              onLockedQuizClick={(quiz) => {
+                setTargetLockedQuizForModal(quiz);
+                setShowRewardsModal(true);
+              }}
               onShareQuiz={(quiz, e) => handleShareMockLink(quiz, e)}
+              onOpenSyllabusTracker={() => navigateToView('syllabus')}
+              onSelectSubject={(subjId) => {
+                setSelectedSubjectId(subjId);
+                navigateToView('subject-detail');
+              }}
               getMockUnlockStatus={getMockUnlockStatus}
             />
           </div>
         )}
 
+        {/* Dedicated Subject Detail View (Mocks, Videos, Notes & Syllabus) */}
+        {activeView === 'subject-detail' && (
+          <SubjectDetailView
+            subjectId={selectedSubjectId}
+            quizzes={allCombinedQuizzes}
+            pastAttempts={pastAttempts}
+            nowTick={nowTick}
+            onBack={handleGoBack}
+            onStartQuiz={(quiz, index) => handleStartTestAttempt(quiz, index)}
+            onLockedQuizClick={(quiz) => {
+              setTargetLockedQuizForModal(quiz);
+              setShowRewardsModal(true);
+            }}
+            onShareQuiz={(quiz, e) => handleShareMockLink(quiz, e)}
+            onOpenRewards={() => {
+              setTargetLockedQuizForModal(null);
+              setShowRewardsModal(true);
+            }}
+            onSelectSubject={(newSubjId) => setSelectedSubjectId(newSubjId)}
+          />
+        )}
+
         {/* Teaching Methodology sub-view - Full dedicated page */}
         {activeView === 'teaching-methodology-view' && (
           <div className="w-full max-w-[1600px] mx-auto px-2 sm:px-4 lg:px-6 py-6 md:py-8 space-y-6 md:space-y-8 animate-fadeIn">
-            <div className="flex items-center justify-between border-b border-slate-200 pb-4">
+            <div className="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-3 sm:pb-4">
               <button 
-                onClick={() => setActiveView('dashboard')}
-                className="flex items-center gap-1.5 bg-white hover:bg-slate-100 text-slate-800 border border-slate-200 px-3 py-1.5 sm:px-4 sm:py-2 rounded-2xl text-xs font-bold transition-all shadow-sm cursor-pointer"
-                title="Back to Dashboard"
+                onClick={handleGoBack}
+                className="p-2 sm:p-2.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 transition-all cursor-pointer shadow-xs group shrink-0"
+                title="Back"
+                aria-label="Back"
               >
-                <ArrowLeft className="w-4 h-4" />
-                <span className="hidden sm:inline">Back to Dashboard</span>
+                <ArrowLeft className="w-4 h-4 text-slate-700 dark:text-slate-200 group-hover:-translate-x-0.5 transition-transform" />
               </button>
               <span className="bg-purple-100 text-purple-900 border border-purple-200 text-[10px] font-black px-3 py-1 sm:px-3.5 sm:py-1.5 rounded-full uppercase tracking-wider">
                 <span className="hidden sm:inline">🎓 Teaching Methodology &amp; Pedagogy</span>
@@ -3022,7 +3264,10 @@ export default function App() {
               pastAttempts={pastAttempts}
               nowTick={nowTick}
               onStartQuiz={(quiz, index) => handleStartTestAttempt(quiz, index)}
-              onLockedQuizClick={(quiz, status) => setLockedQuizModal({ quiz, status })}
+              onLockedQuizClick={(quiz) => {
+                setTargetLockedQuizForModal(quiz);
+                setShowRewardsModal(true);
+              }}
               onShareQuiz={(quiz, e) => handleShareMockLink(quiz, e)}
               getMockUnlockStatus={getMockUnlockStatus}
             />
@@ -3031,25 +3276,27 @@ export default function App() {
 
         {/* Part A sub-view - Full screen custom practice */}
         {activeView === 'part-a-view' && (
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-10 py-6 md:py-8 space-y-6 md:space-y-8 animate-fadeIn">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-10 py-4 md:py-8 space-y-4 md:space-y-8 animate-fadeIn">
             {/* Header / Back button */}
             <div className="flex items-center justify-between">
               <button 
-                onClick={() => setActiveView('dashboard')}
-                className="flex items-center gap-2 bg-white hover:bg-slate-100 text-slate-800 border border-slate-200 px-4 py-2 rounded-2xl text-xs font-bold transition-all shadow-sm cursor-pointer"
+                onClick={handleGoBack}
+                className="p-2 sm:p-2.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 transition-all cursor-pointer shadow-xs group shrink-0"
+                title="Back"
+                aria-label="Back"
               >
-                <ArrowLeft className="w-4 h-4" /> Back to Home
+                <ArrowLeft className="w-4 h-4 text-slate-700 dark:text-slate-200 group-hover:-translate-x-0.5 transition-transform" />
               </button>
               <span className="bg-amber-100 text-amber-800 text-[9px] font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">
                 Part A - Practice
               </span>
             </div>
 
-            <div className="space-y-2">
-              <h2 className="text-2xl font-extrabold text-slate-800 tracking-tight">
+            <div className="space-y-1">
+              <h2 className="text-lg sm:text-2xl font-extrabold text-slate-800 dark:text-white tracking-tight">
                 General Intelligence &amp; Aptitude
               </h2>
-              <p className="text-xs text-slate-500 leading-relaxed">
+              <p className="text-xs text-slate-500 leading-relaxed hidden sm:block">
                 Select a subject option below to practice target previous year questions and topic assessments.
               </p>
             </div>
@@ -3107,14 +3354,14 @@ export default function App() {
                 ) : (
                   <>
                     {partAQuizzes.slice(0, appVisibleCount).map((quiz, index) => {
-                      const unlockStatus = getMockUnlockStatus(index, nowTick);
+                      const unlocked = isMockUnlocked(quiz.testId, index);
                       const quizAttempts = pastAttempts.filter(a => a.testId === quiz.testId);
                       const isAttempted = quizAttempts.length > 0;
                       const mockLabel = getMockNumberLabel(quiz, index);
                       const topicBadge = getTopicBadge(quiz);
                       const diffTag = getDifficultyTag(index);
                       return (
-                        <div key={quiz.testId} className="bg-white border-2 border-slate-200/90 hover:border-amber-500 rounded-2xl p-4 md:p-5 flex flex-col justify-between gap-4 transition-all hover:shadow-md group relative">
+                        <div key={quiz.testId} className={`bg-white border-2 rounded-2xl p-4 md:p-5 flex flex-col justify-between gap-4 transition-all hover:shadow-md group relative ${unlocked ? 'border-slate-200/90 hover:border-amber-500' : 'border-slate-200/60 bg-slate-50/40'}`}>
                           <div className="space-y-2">
                             <div className="flex items-center gap-1.5 flex-nowrap overflow-x-auto scrollbar-none pb-0.5">
                               <span className="bg-amber-600 text-white text-[10px] font-black px-2.5 py-0.5 rounded-md uppercase tracking-wider shrink-0 shadow-2xs">
@@ -3126,11 +3373,15 @@ export default function App() {
                               <span className={`px-2 py-0.5 rounded-md text-[10px] font-black flex items-center gap-1 border shrink-0 whitespace-nowrap ${diffTag.bg} ${diffTag.text} ${diffTag.border}`}>
                                 <span>{diffTag.icon}</span> {diffTag.label}
                               </span>
-                              {isAttempted && (
+                              {isAttempted ? (
                                 <span className="bg-emerald-100 text-emerald-800 border border-emerald-300 text-[9px] font-black px-2.5 py-0.5 rounded-md uppercase tracking-wider flex items-center gap-1 shrink-0 whitespace-nowrap shadow-2xs">
                                   ✅ Attempted ({quizAttempts.length}x)
                                 </span>
-                              )}
+                              ) : !unlocked ? (
+                                <span className="bg-amber-50 text-amber-800 border border-amber-200 text-[10px] font-black px-2 py-0.5 rounded-md flex items-center gap-1 shrink-0">
+                                  <Lock className="w-2.5 h-2.5 text-amber-600" /> {MOCK_UNLOCK_COST} 🪙
+                                </span>
+                              ) : null}
                             </div>
                             <h4 className="font-bold text-sm text-slate-800 leading-snug text-center py-2 border-y border-slate-100 my-1">{quiz.title}</h4>
                           </div>
@@ -3142,7 +3393,7 @@ export default function App() {
                             >
                               <Share2 className="w-3.5 h-3.5 text-slate-500" /> Share Link
                             </button>
-                            {unlockStatus.isUnlocked ? (
+                            {unlocked ? (
                               <button
                                 onClick={() => handleStartTestAttempt(quiz, index)}
                                 className="w-full sm:w-auto px-5 py-2.5 rounded-xl text-xs font-extrabold transition-all cursor-pointer bg-amber-600 text-white hover:bg-amber-700 shadow-xs"
@@ -3151,10 +3402,14 @@ export default function App() {
                               </button>
                             ) : (
                               <button
-                                onClick={() => setLockedQuizModal({ quiz, status: unlockStatus })}
-                                className="w-full sm:w-auto px-5 py-2.5 rounded-xl text-xs font-extrabold transition-all cursor-pointer bg-amber-600 text-white hover:bg-amber-700 shadow-xs"
+                                onClick={() => {
+                                  setTargetLockedQuizForModal(quiz);
+                                  setShowRewardsModal(true);
+                                }}
+                                className="w-full sm:w-auto px-5 py-2.5 rounded-xl text-xs font-extrabold transition-all cursor-pointer bg-amber-500 text-white hover:bg-amber-600 shadow-xs flex items-center justify-center gap-1"
                               >
-                                Unlock Test
+                                <Lock className="w-3 h-3" />
+                                <span>Unlock ({MOCK_UNLOCK_COST} 🪙)</span>
                               </button>
                             )}
                           </div>
@@ -3181,25 +3436,27 @@ export default function App() {
 
         {/* Part B sub-view - Full screen custom CS practice */}
         {activeView === 'part-b-view' && (
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-10 py-6 md:py-8 space-y-6 md:space-y-8 animate-fadeIn">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-10 py-4 md:py-8 space-y-4 md:space-y-8 animate-fadeIn">
             {/* Header / Back button */}
             <div className="flex items-center justify-between">
               <button 
-                onClick={() => setActiveView('dashboard')}
-                className="flex items-center gap-2 bg-white hover:bg-slate-100 text-slate-800 border border-slate-200 px-4 py-2 rounded-2xl text-xs font-bold transition-all shadow-sm cursor-pointer"
+                onClick={handleGoBack}
+                className="p-2 sm:p-2.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 transition-all cursor-pointer shadow-xs group shrink-0"
+                title="Back"
+                aria-label="Back"
               >
-                <ArrowLeft className="w-4 h-4" /> Back to Home
+                <ArrowLeft className="w-4 h-4 text-slate-700 dark:text-slate-200 group-hover:-translate-x-0.5 transition-transform" />
               </button>
               <span className="bg-indigo-100 text-indigo-800 text-[9px] font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">
                 Part B - Practice
               </span>
             </div>
 
-            <div className="space-y-2">
-              <h2 className="text-2xl font-extrabold text-slate-800 tracking-tight">
+            <div className="space-y-1">
+              <h2 className="text-lg sm:text-2xl font-extrabold text-slate-800 dark:text-white tracking-tight">
                 Core Syllabus &amp; Pedagogy
               </h2>
-              <p className="text-xs text-slate-500 leading-relaxed">
+              <p className="text-xs text-slate-500 leading-relaxed hidden sm:block">
                 Practice highly specific questions mapped with the DSSSB TGT Computer Science official syllabus.
               </p>
             </div>
@@ -3282,14 +3539,14 @@ export default function App() {
                   <div className="bg-slate-50 border border-dashed border-slate-300 rounded-3xl p-8 text-center max-w-lg mx-auto shadow-sm text-slate-500">More mock tests coming soon.</div>
                 ) : (
                   partBQuizzes.slice(0, appVisibleCount).map((quiz, index) => {
-                    const unlockStatus = getMockUnlockStatus(index, nowTick);
+                    const unlocked = isMockUnlocked(quiz.testId, index);
                     const quizAttempts = pastAttempts.filter(a => a.testId === quiz.testId);
                     const isAttempted = quizAttempts.length > 0;
                     const mockLabel = getMockNumberLabel(quiz, index);
                     const topicBadge = getTopicBadge(quiz);
                     const diffTag = getDifficultyTag(index);
                     return (
-                      <div key={quiz.testId} className="bg-white border-2 border-slate-200/90 hover:border-indigo-500 rounded-2xl p-4 md:p-5 flex flex-col justify-between gap-4 transition-all hover:shadow-md group relative">
+                      <div key={quiz.testId} className={`bg-white border-2 rounded-2xl p-4 md:p-5 flex flex-col justify-between gap-4 transition-all hover:shadow-md group relative ${unlocked ? 'border-slate-200/90 hover:border-indigo-500' : 'border-slate-200/60 bg-slate-50/40'}`}>
                         <div className="space-y-2">
                           <div className="flex items-center gap-1.5 flex-nowrap overflow-x-auto scrollbar-none pb-0.5">
                             <span className="bg-indigo-600 text-white text-[10px] font-black px-2.5 py-0.5 rounded-md uppercase tracking-wider shrink-0 shadow-2xs">
@@ -3301,11 +3558,15 @@ export default function App() {
                             <span className={`px-2 py-0.5 rounded-md text-[10px] font-black flex items-center gap-1 border shrink-0 whitespace-nowrap ${diffTag.bg} ${diffTag.text} ${diffTag.border}`}>
                               <span>{diffTag.icon}</span> {diffTag.label}
                             </span>
-                            {isAttempted && (
+                            {isAttempted ? (
                               <span className="bg-emerald-100 text-emerald-800 border border-emerald-300 text-[9px] font-black px-2.5 py-0.5 rounded-md uppercase tracking-wider flex items-center gap-1 shrink-0 whitespace-nowrap shadow-2xs">
                                 ✅ Attempted ({quizAttempts.length}x)
                               </span>
-                            )}
+                            ) : !unlocked ? (
+                              <span className="bg-amber-50 text-amber-800 border border-amber-200 text-[10px] font-black px-2 py-0.5 rounded-md flex items-center gap-1 shrink-0">
+                                <Lock className="w-2.5 h-2.5 text-amber-600" /> {MOCK_UNLOCK_COST} 🪙
+                              </span>
+                            ) : null}
                           </div>
                           <h4 className="font-bold text-sm text-slate-800 leading-snug text-center py-2 border-y border-slate-100 my-1">{quiz.title}</h4>
                         </div>
@@ -3317,7 +3578,7 @@ export default function App() {
                           >
                             <Share2 className="w-3.5 h-3.5 text-slate-500" /> Share Link
                           </button>
-                          {unlockStatus.isUnlocked ? (
+                          {unlocked ? (
                             <button
                               onClick={() => handleStartTestAttempt(quiz, index)}
                               className="w-full sm:w-auto px-5 py-2.5 rounded-xl text-xs font-extrabold transition-all cursor-pointer bg-indigo-600 text-white hover:bg-indigo-700 shadow-xs"
@@ -3326,10 +3587,14 @@ export default function App() {
                             </button>
                           ) : (
                             <button
-                              onClick={() => setLockedQuizModal({ quiz, status: unlockStatus })}
-                              className="w-full sm:w-auto px-5 py-2.5 rounded-xl text-xs font-extrabold transition-all cursor-pointer bg-indigo-600 text-white hover:bg-indigo-700 shadow-xs"
+                              onClick={() => {
+                                setTargetLockedQuizForModal(quiz);
+                                setShowRewardsModal(true);
+                              }}
+                              className="w-full sm:w-auto px-5 py-2.5 rounded-xl text-xs font-extrabold transition-all cursor-pointer bg-amber-500 text-white hover:bg-amber-600 shadow-xs flex items-center justify-center gap-1"
                             >
-                              Unlock Test
+                              <Lock className="w-3 h-3" />
+                              <span>Unlock ({MOCK_UNLOCK_COST} 🪙)</span>
                             </button>
                           )}
                         </div>
@@ -3355,14 +3620,16 @@ export default function App() {
 
         {/* Full-Length simulation sub-view */}
         {activeView === 'full-mock-view' && (
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-10 py-6 md:py-8 space-y-6 md:space-y-8 animate-fadeIn">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-10 py-4 md:py-8 space-y-4 md:space-y-8 animate-fadeIn">
             {/* Header / Back button */}
             <div className="flex items-center justify-between">
               <button 
-                onClick={() => setActiveView('dashboard')}
-                className="flex items-center gap-2 bg-white hover:bg-slate-100 text-slate-800 border border-slate-200 px-4 py-2 rounded-2xl text-xs font-bold transition-all shadow-sm cursor-pointer"
+                onClick={handleGoBack}
+                className="p-2 sm:p-2.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 transition-all cursor-pointer shadow-xs group shrink-0"
+                title="Back"
+                aria-label="Back"
               >
-                <ArrowLeft className="w-4 h-4" /> Back to Home
+                <ArrowLeft className="w-4 h-4 text-slate-700 dark:text-slate-200 group-hover:-translate-x-0.5 transition-transform" />
               </button>
               <span className="bg-blue-100 text-blue-800 text-[9px] font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">
                 Full-Length Simulation
@@ -3370,12 +3637,12 @@ export default function App() {
             </div>
 
             <div className="flex items-center gap-3">
-              <FullMockCategoryIcon size={40} className="w-10 h-10 shrink-0 shadow-sm rounded-xl" />
-              <div className="space-y-1">
-                <h2 className="text-2xl font-extrabold text-slate-800 tracking-tight">
-                  DSSSB TGT CS Full Mock Tests (200 Marks Simulator)
+              <FullMockCategoryIcon size={36} className="w-9 h-9 sm:w-10 sm:h-10 shrink-0 shadow-sm rounded-xl" />
+              <div className="space-y-0.5 sm:space-y-1">
+                <h2 className="text-base sm:text-2xl font-extrabold text-slate-800 dark:text-white tracking-tight">
+                  DSSSB TGT CS Full Mock Tests
                 </h2>
-                <p className="text-xs text-slate-500 leading-relaxed">
+                <p className="text-xs text-slate-500 leading-relaxed hidden sm:block">
                   Simulate a real computer science examination in strict exam conditions. Features both Part A and Part B combined with section-based lock submission.
                 </p>
               </div>
@@ -3455,9 +3722,9 @@ export default function App() {
                 ) : fullMockQuizzes.length === 0 ? (
                   <div className="bg-slate-50 border border-dashed border-slate-300 rounded-3xl p-8 text-center max-w-lg mx-auto shadow-sm text-slate-500">More mock tests coming soon.</div>
                 ) : (
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+                  <div className="grid grid-cols-2 lg:grid-cols-3 gap-2.5 md:gap-6">
                     {fullMockQuizzes.map((quiz, index) => {
-                      const unlockStatus = getMockUnlockStatus(index, nowTick);
+                      const unlocked = isMockUnlocked(quiz.testId, index);
                       const quizAttempts = pastAttempts.filter(a => a.testId === quiz.testId);
                       const isAttempted = quizAttempts.length > 0;
                       const mockLabel = getMockNumberLabel(quiz, index);
@@ -3465,7 +3732,11 @@ export default function App() {
                       return (
                         <div 
                           key={quiz.testId} 
-                          className="bg-white dark:bg-slate-900 border-2 border-slate-200/90 dark:border-slate-800 hover:border-indigo-500 dark:hover:border-indigo-500 rounded-2xl p-4 md:p-5 flex flex-col justify-between gap-4 transition-all shadow-[0_4px_0_0_#cbd5e1] dark:shadow-[0_4px_0_0_#1e293b] hover:shadow-[0_8px_0_0_#6366f1] hover:-translate-y-1 group relative overflow-hidden"
+                          className={`bg-white dark:bg-slate-900 border-2 rounded-2xl p-4 md:p-5 flex flex-col justify-between gap-4 transition-all shadow-[0_4px_0_0_#cbd5e1] dark:shadow-[0_4px_0_0_#1e293b] hover:-translate-y-1 group relative overflow-hidden ${
+                            unlocked 
+                              ? 'border-slate-200/90 dark:border-slate-800 hover:border-indigo-500 dark:hover:border-indigo-500 hover:shadow-[0_8px_0_0_#6366f1]' 
+                              : 'border-slate-200/60 dark:border-slate-800/60 bg-slate-50/40 dark:bg-slate-900/40'
+                          }`}
                         >
                           {/* Top Badges Row */}
                           <div className="space-y-3">
@@ -3482,11 +3753,15 @@ export default function App() {
                               <span className="bg-blue-100 dark:bg-blue-950/60 text-blue-900 dark:text-blue-300 border border-blue-200 dark:border-blue-800 text-[10px] font-bold px-2 py-0.5 rounded-md">
                                 🎓 200 Marks CBT
                               </span>
-                              {isAttempted && (
+                              {isAttempted ? (
                                 <span className="bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 border border-emerald-300 text-[9px] font-black px-2.5 py-0.5 rounded-md uppercase tracking-wider flex items-center gap-1">
                                   ✅ Attempted ({quizAttempts.length}x)
                                 </span>
-                              )}
+                              ) : !unlocked ? (
+                                <span className="bg-amber-50 dark:bg-amber-950 text-amber-800 dark:text-amber-300 border border-amber-200 dark:border-amber-800 text-[10px] font-black px-2 py-0.5 rounded-md flex items-center gap-1">
+                                  <Lock className="w-2.5 h-2.5 text-amber-600" /> {MOCK_UNLOCK_COST} 🪙
+                                </span>
+                              ) : null}
                             </div>
 
                             {/* Centered Name / Title in Middle */}
@@ -3506,7 +3781,7 @@ export default function App() {
                             >
                               <Share2 className="w-3.5 h-3.5 text-slate-500" /> Share
                             </button>
-                            {unlockStatus.isUnlocked ? (
+                            {unlocked ? (
                               <button
                                 onClick={() => handleStartTestAttempt(quiz, index)}
                                 className="flex-1 py-2.5 rounded-xl text-xs font-black transition-all cursor-pointer bg-gradient-to-b from-indigo-500 via-indigo-600 to-indigo-700 text-white shadow-[0_4px_0_0_#3730a3] active:translate-y-1 active:shadow-none hover:brightness-110 text-center flex items-center justify-center gap-1.5"
@@ -3516,11 +3791,14 @@ export default function App() {
                               </button>
                             ) : (
                               <button
-                                onClick={() => setLockedQuizModal({ quiz, status: unlockStatus })}
-                                className="flex-1 py-2.5 rounded-xl text-xs font-black transition-all cursor-pointer bg-slate-800 hover:bg-slate-900 text-white shadow-[0_4px_0_0_#0f172a] active:translate-y-1 active:shadow-none text-center flex items-center justify-center gap-1.5"
+                                onClick={() => {
+                                  setTargetLockedQuizForModal(quiz);
+                                  setShowRewardsModal(true);
+                                }}
+                                className="flex-1 py-2.5 rounded-xl text-xs font-black transition-all cursor-pointer bg-amber-500 hover:bg-amber-600 text-white shadow-[0_4px_0_0_#d97706] active:translate-y-1 active:shadow-none text-center flex items-center justify-center gap-1.5"
                               >
-                                <Lock className="w-3.5 h-3.5 text-amber-400" />
-                                <span>Unlock Test</span>
+                                <Lock className="w-3.5 h-3.5 text-amber-100" />
+                                <span>Unlock ({MOCK_UNLOCK_COST} 🪙)</span>
                               </button>
                             )}
                           </div>
@@ -3603,10 +3881,12 @@ export default function App() {
             questionTimeSpent={currentQuestionTimeSpent}
             mode="exam"
             savedBookmarks={savedBookmarks}
+            isReattempt={pastAttempts.filter(a => a.testId === selectedQuiz.testId).length > 1}
             onToggleGlobalBookmark={(q) => toggleBookmark(q, selectedQuiz.testId, selectedQuiz.title)}
             onRestart={() => handleStartTestAttempt(selectedQuiz)}
-            onBackToHome={() => setActiveView('dashboard')}
-            onOpenSolutionReview={() => setActiveView('solution-review')}
+            onBackToHome={() => navigateToView('dashboard')}
+            onOpenSolutionReview={() => navigateToView('solution-review')}
+            onOpenTimeAnalytics={() => navigateToView('time-analytics')}
           />
         )}
 
@@ -3619,7 +3899,20 @@ export default function App() {
             savedBookmarks={savedBookmarks}
             onToggleGlobalBookmark={(q) => toggleBookmark(q, selectedQuiz.testId, selectedQuiz.title)}
             onReportQuestion={handleReportQuestion}
-            onBack={() => setActiveView('result')}
+            onBack={() => handleGoBack()}
+            onOpenTimeAnalytics={() => navigateToView('time-analytics')}
+          />
+        )}
+
+        {/* Advance Time Analytics Dedicated View */}
+        {activeView === 'time-analytics' && selectedQuiz && (
+          <TimeAnalyticsView
+            quiz={selectedQuiz}
+            userAnswers={currentAnswers}
+            timeSpentSeconds={timeSpentSeconds}
+            questionTimeSpent={currentQuestionTimeSpent}
+            onBack={() => handleGoBack()}
+            onOpenSolutionReview={() => navigateToView('solution-review')}
           />
         )}
 
@@ -3647,18 +3940,26 @@ export default function App() {
               </div>
 
               {savedBookmarks.length > 0 && (
-                <button
-                  onClick={() => {
-                    if (confirm('Are you sure you want to clear all bookmarked questions?')) {
-                      setSavedBookmarks([]);
-                      localStorage.setItem('dsssb_bookmarks', '[]');
-                      localStorage.setItem('dsssb_bookmarked_question_ids', '[]');
-                    }
-                  }}
-                  className="text-xs font-bold text-rose-600 hover:text-rose-700 bg-rose-50 hover:bg-rose-100 border border-rose-200 px-3 py-1.5 rounded-xl transition-all self-start sm:self-auto cursor-pointer"
-                >
-                  Clear All Saved
-                </button>
+                <div className="flex items-center gap-2 flex-wrap self-start sm:self-auto">
+                  <button
+                    onClick={handleStartBookmarkedQuestionsTest}
+                    className="text-xs font-black text-white bg-amber-500 hover:bg-amber-600 px-3.5 py-2 rounded-xl transition-all shadow-sm flex items-center gap-1.5 cursor-pointer active:scale-95"
+                  >
+                    <Play className="w-3.5 h-3.5 fill-current" /> Practice Saved Qs ({savedBookmarks.length})
+                  </button>
+                  <button
+                    onClick={() => {
+                      if (confirm('Are you sure you want to clear all bookmarked questions?')) {
+                        setSavedBookmarks([]);
+                        localStorage.setItem('dsssb_bookmarks', '[]');
+                        localStorage.setItem('dsssb_bookmarked_question_ids', '[]');
+                      }
+                    }}
+                    className="text-xs font-bold text-rose-600 hover:text-rose-700 bg-rose-50 hover:bg-rose-100 border border-rose-200 px-3 py-2 rounded-xl transition-all cursor-pointer"
+                  >
+                    Clear All Saved
+                  </button>
+                </div>
               )}
             </div>
 
@@ -3888,6 +4189,260 @@ export default function App() {
           </div>
         )}
 
+        {/* Mistakes Vault View */}
+        {activeView === 'mistakes' && (
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-12 space-y-6 sm:space-y-8 animate-fadeIn">
+            {/* Header / Actions Bar */}
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+              <div className="flex items-center gap-3">
+                <button 
+                  onClick={handleGoBack}
+                  className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:bg-slate-50 p-2.5 rounded-xl text-slate-600 dark:text-slate-300 transition-all cursor-pointer shadow-2xs group shrink-0"
+                  title="Back"
+                  aria-label="Back"
+                >
+                  <ArrowLeft className="w-4 h-4 group-hover:-translate-x-0.5 transition-transform" />
+                </button>
+                <div>
+                  <h2 className="text-lg sm:text-2xl font-black text-slate-900 dark:text-white tracking-tight flex items-center gap-2">
+                    <AlertCircle className="w-5 h-5 text-rose-500" />
+                    <span>Mistake Vault</span>
+                    <span className="text-xs font-extrabold px-2.5 py-0.5 rounded-full bg-rose-100 text-rose-800 dark:bg-rose-950/80 dark:text-rose-300 border border-rose-200 dark:border-rose-800 ml-1">
+                      {missedQuestions.length}
+                    </span>
+                  </h2>
+                  <p className="text-xs text-slate-500 dark:text-slate-400 font-medium hidden sm:block">
+                    Questions answered incorrectly across all mock tests and syllabus drills are stored here for targeted recovery.
+                  </p>
+                </div>
+              </div>
+
+              {missedQuestions.length > 0 && (
+                <div className="flex items-center gap-2 flex-wrap self-start sm:self-auto">
+                  <button
+                    onClick={handleStartMistakesVaultTest}
+                    className="text-xs font-black text-white bg-rose-600 hover:bg-rose-700 px-3.5 py-2 rounded-xl transition-all shadow-sm flex items-center gap-1.5 cursor-pointer active:scale-95"
+                  >
+                    <Play className="w-3.5 h-3.5 fill-current" /> Start Mistake Vault Drill ({missedQuestions.length})
+                  </button>
+                  <button
+                    onClick={handleClearAllMistakes}
+                    className="text-xs font-bold text-rose-600 hover:text-rose-700 bg-rose-50 hover:bg-rose-100 border border-rose-200 px-3 py-2 rounded-xl transition-all cursor-pointer"
+                  >
+                    Clear All
+                  </button>
+                </div>
+              )}
+            </div>
+
+            {missedQuestions.length === 0 ? (
+              <div className="h-64 rounded-3xl bg-white dark:bg-slate-900 border-2 border-dashed border-slate-200 dark:border-slate-800 flex flex-col items-center justify-center p-8 text-center text-slate-500">
+                <div className="w-12 h-12 rounded-2xl bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 flex items-center justify-center mb-3">
+                  <CheckSquare className="w-6 h-6" />
+                </div>
+                <h4 className="font-extrabold text-slate-800 dark:text-slate-200 text-sm">Mistake Vault is 100% Clear!</h4>
+                <p className="text-xs text-slate-500 dark:text-slate-400 max-w-md mt-1 leading-relaxed">
+                  Whenever you attempt a full mock test, booster, or subject PYQ, any incorrect answers are automatically saved here so you can practice until 100% accuracy.
+                </p>
+                <button
+                  onClick={() => setActiveView('dashboard')}
+                  className="mt-4 bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-5 rounded-xl text-xs transition-all cursor-pointer shadow-xs"
+                >
+                  Start Practicing on Dashboard
+                </button>
+              </div>
+            ) : (
+              <div className="space-y-6">
+                {/* Filter & Sort Controls Panel */}
+                <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 sm:p-5 shadow-xs space-y-4">
+                  {/* Search and Sort row */}
+                  <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+                    {/* Search bar */}
+                    <div className="relative flex-1">
+                      <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none" />
+                      <input
+                        type="text"
+                        placeholder="Search mistake questions, explanations, subjects..."
+                        value={mistakeSearchQuery}
+                        onChange={(e) => setMistakeSearchQuery(e.target.value)}
+                        className="w-full pl-9.5 pr-4 py-2 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl text-xs text-slate-800 dark:text-slate-100 focus:bg-white dark:focus:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-rose-500/20 focus:border-rose-500 transition-all"
+                      />
+                      {mistakeSearchQuery && (
+                        <button
+                          onClick={() => setMistakeSearchQuery('')}
+                          className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600"
+                        >
+                          <X className="w-3.5 h-3.5" />
+                        </button>
+                      )}
+                    </div>
+
+                    {/* Sort Dropdown */}
+                    <div className="flex items-center gap-2">
+                      <SlidersHorizontal className="w-3.5 h-3.5 text-slate-400 shrink-0" />
+                      <select
+                        value={mistakeSortBy}
+                        onChange={(e) => setMistakeSortBy(e.target.value)}
+                        aria-label="Sort Mistake Questions"
+                        className="bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl text-xs px-3 py-2 text-slate-700 dark:text-slate-200 font-bold focus:outline-none focus:ring-2 focus:ring-rose-500/20 focus:border-rose-500 transition-all cursor-pointer"
+                      >
+                        <option value="default">Sort: Default Order</option>
+                        <option value="section_asc">Subject/Section (A - Z)</option>
+                        <option value="section_desc">Subject/Section (Z - A)</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  {/* Subject Pills Filter Row */}
+                  {mistakeAvailableSubjects.length > 0 && (
+                    <div className="space-y-1.5">
+                      <div className="text-[10px] font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400 flex items-center gap-1">
+                        <Filter className="w-3 h-3 text-slate-600 dark:text-slate-400" /> Filter by Section
+                      </div>
+                      <div className="flex items-center gap-1.5 flex-wrap">
+                        <button
+                          onClick={() => setMistakeSubjectFilter('All')}
+                          className={`text-xs px-3 py-1 rounded-xl font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
+                            mistakeSubjectFilter === 'All'
+                              ? 'bg-rose-600 text-white shadow-xs'
+                              : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700'
+                          }`}
+                        >
+                          <span>All Sections</span>
+                          <span className={`text-[9px] px-1 rounded-full ${mistakeSubjectFilter === 'All' ? 'bg-rose-700 text-white' : 'bg-slate-200 dark:bg-slate-700 text-slate-600 dark:text-slate-300'}`}>
+                            {missedQuestions.length}
+                          </span>
+                        </button>
+                        {mistakeAvailableSubjects.map(subj => {
+                          const count = missedQuestions.filter(q => q && q.section === subj).length;
+                          const isActive = mistakeSubjectFilter === subj;
+                          return (
+                            <button
+                              key={subj}
+                              onClick={() => setMistakeSubjectFilter(subj)}
+                              className={`text-xs px-3 py-1 rounded-xl font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
+                                isActive
+                                  ? 'bg-rose-600 text-white shadow-xs'
+                                  : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700'
+                              }`}
+                            >
+                              <span>{subj}</span>
+                              <span className={`text-[9px] px-1 rounded-full ${isActive ? 'bg-rose-700 text-white' : 'bg-slate-200 dark:bg-slate-700 text-slate-600 dark:text-slate-300'}`}>
+                                {count}
+                              </span>
+                            </button>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  )}
+                </div>
+
+                {/* Filtered Mistakes List */}
+                {filteredAndSortedMistakes.length === 0 ? (
+                  <div className="p-8 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl text-center space-y-2">
+                    <p className="text-sm font-bold text-slate-700 dark:text-slate-300">No mistake questions match your selected filter.</p>
+                    <button
+                      onClick={() => {
+                        setMistakeSubjectFilter('All');
+                        setMistakeSearchQuery('');
+                      }}
+                      className="text-xs text-rose-600 dark:text-rose-400 font-bold hover:underline"
+                    >
+                      Clear search/filters
+                    </button>
+                  </div>
+                ) : (
+                  <div className="grid grid-cols-1 gap-4">
+                    {filteredAndSortedMistakes.map((q, idx) => {
+                      if (!q) return null;
+                      const isBookmarked = savedBookmarks.some(b => b.question?.id === q.id || (b.question?.question === q.question));
+
+                      return (
+                        <div 
+                          key={q.id || idx}
+                          className="bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-2xl p-5 shadow-xs space-y-3 hover:border-rose-300 dark:hover:border-rose-700 transition-colors"
+                        >
+                          <div className="flex items-start justify-between gap-4">
+                            <div className="flex items-center gap-2 flex-wrap">
+                              {/* Section Badge */}
+                              <span className="bg-rose-50 dark:bg-rose-950/80 border border-rose-200/60 dark:border-rose-800 text-rose-700 dark:text-rose-300 text-[10px] font-extrabold px-2.5 py-0.5 rounded-full uppercase tracking-wider">
+                                {q.section || 'General'}
+                              </span>
+
+                              {/* Question ID tag */}
+                              {q.id !== undefined && (
+                                <span className="bg-slate-100 dark:bg-slate-800 text-slate-500 text-[10px] font-mono px-2 py-0.5 rounded-full">
+                                  Q#{q.id}
+                                </span>
+                              )}
+                            </div>
+
+                            {/* Actions: Bookmark & Resolve */}
+                            <div className="flex items-center gap-1.5">
+                              <button
+                                onClick={() => toggleBookmark(q, 'mistake_vault', 'Mistake Vault Question')}
+                                className={`p-1.5 rounded-lg transition-colors cursor-pointer ${
+                                  isBookmarked
+                                    ? 'text-amber-500 bg-amber-50 dark:bg-amber-950/50'
+                                    : 'text-slate-400 hover:text-amber-500 hover:bg-slate-100 dark:hover:bg-slate-800'
+                                }`}
+                                title={isBookmarked ? "Bookmarked (Click to remove)" : "Bookmark this question"}
+                              >
+                                <Star className={`w-4 h-4 ${isBookmarked ? 'fill-amber-400' : ''}`} />
+                              </button>
+
+                              <button
+                                onClick={() => handleResolveMistakeQuestion(q.id)}
+                                className="text-xs font-bold text-emerald-700 dark:text-emerald-300 bg-emerald-50 dark:bg-emerald-950/60 hover:bg-emerald-100 dark:hover:bg-emerald-900 border border-emerald-200 dark:border-emerald-800 px-2.5 py-1 rounded-lg transition-colors cursor-pointer flex items-center gap-1"
+                                title="Mark as resolved and remove from Mistake Vault"
+                              >
+                                <CheckSquare className="w-3.5 h-3.5" />
+                                <span className="hidden sm:inline">Resolved</span>
+                              </button>
+                            </div>
+                          </div>
+
+                          <div className="text-xs sm:text-sm font-bold text-slate-800 dark:text-slate-100 leading-relaxed">
+                            {q.question}
+                          </div>
+
+                          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
+                            {q.options.map((opt, i) => {
+                              const isCorrect = i === q.answer;
+                              return (
+                                <div 
+                                  key={i} 
+                                  className={`p-2.5 rounded-xl border text-xs ${
+                                    isCorrect 
+                                      ? 'bg-emerald-50 dark:bg-emerald-950/40 border-emerald-300 dark:border-emerald-700 text-emerald-900 dark:text-emerald-200 font-bold' 
+                                      : 'bg-slate-50/50 dark:bg-slate-800/50 border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400'
+                                  }`}
+                                >
+                                  {cleanOptionText(opt)}
+                                  {isCorrect && (
+                                    <span className="float-right bg-emerald-500 text-white text-[8px] font-bold px-1.5 py-0.2 rounded uppercase">Correct Answer</span>
+                                  )}
+                                </div>
+                              );
+                            })}
+                          </div>
+
+                          {q.explanation && (
+                            <div className="bg-slate-50 dark:bg-slate-800/60 rounded-xl p-3 text-[11px] text-slate-600 dark:text-slate-300 leading-relaxed border border-slate-100/60 dark:border-slate-700/60">
+                              <strong className="text-slate-800 dark:text-white">Solution Explanation:</strong> {q.explanation}
+                            </div>
+                          )}
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        )}
+
         {/* JSON Data Manager & Indexer */}
         {activeView === 'data-manager' && (
           <DataManager staticQuizzes={staticQuizzes} />
@@ -3895,20 +4450,22 @@ export default function App() {
 
         {/* Performance Analysis Page */}
         {activeView === 'adaptive-path' && (
-          <div className="max-w-4xl mx-auto px-6 py-12 space-y-8 animate-fadeIn">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-12 space-y-6 sm:space-y-8 animate-fadeIn">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
               <div className="flex items-center gap-3">
                 <button 
-                  onClick={() => setActiveView('dashboard')}
-                  className="bg-white border border-slate-200 hover:bg-slate-50 p-2.5 rounded-xl text-slate-600 transition-all cursor-pointer"
+                  onClick={handleGoBack}
+                  className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:bg-slate-50 p-2.5 rounded-xl text-slate-600 dark:text-slate-300 transition-all cursor-pointer shadow-2xs group shrink-0"
+                  title="Back"
+                  aria-label="Back"
                 >
-                  <ArrowLeft className="w-4 h-4" />
+                  <ArrowLeft className="w-4 h-4 group-hover:-translate-x-0.5 transition-transform" />
                 </button>
                 <div>
-                  <h2 className="text-xl font-extrabold text-slate-800 tracking-tight flex items-center gap-2">
+                  <h2 className="text-lg sm:text-xl font-extrabold text-slate-800 dark:text-white tracking-tight flex items-center gap-2">
                     <Sparkles className="w-5 h-5 text-indigo-600 fill-indigo-100 animate-pulse" /> Performance Analysis
                   </h2>
-                  <p className="text-xs text-slate-500">Continuous diagnostic mapping of your DSSSB syllabus weak nodes and overall preparation stats.</p>
+                  <p className="text-xs text-slate-500 dark:text-slate-400 hidden sm:block">Continuous diagnostic mapping of your DSSSB syllabus weak nodes and overall preparation stats.</p>
                 </div>
               </div>
             </div>
@@ -4019,6 +4576,67 @@ export default function App() {
           </div>
         )}
 
+        {/* Dedicated Mock History View replacing AI booster */}
+        {activeView === 'mock-history' && (
+          <MockHistoryView
+            attempts={pastAttempts}
+            allQuizzes={allCombinedQuizzes}
+            onReviewAttempt={(attempt) => {
+              const foundQuiz = allCombinedQuizzes.find(q => q.testId === attempt.testId) ||
+                allCombinedQuizzes.find(q => q.title?.toLowerCase() === (attempt.testTitle || '').toLowerCase());
+              
+              if (foundQuiz) {
+                setSelectedQuiz(foundQuiz);
+              } else if (attempt.questions && attempt.questions.length > 0) {
+                setSelectedQuiz({
+                  testId: attempt.testId || 'archived_mock',
+                  title: attempt.testTitle || 'DSSSB CBT Mock Test',
+                  totalTimeMinutes: 120,
+                  markingScheme: { correct: 1, negative: 0.25 },
+                  questions: attempt.questions,
+                  subject: attempt.subject || 'DSSSB CBT Practice'
+                });
+              }
+              if (attempt.userAnswers) {
+                setCurrentAnswers(attempt.userAnswers);
+              }
+              if (attempt.questionTimeSpent) {
+                setCurrentQuestionTimeSpent(attempt.questionTimeSpent);
+              }
+              setActiveView('solution-review');
+            }}
+            onRetakeQuiz={(quiz) => {
+              handleStartTestAttempt(quiz);
+            }}
+            onDeleteAttempt={(index) => {
+              const updated = pastAttempts.filter((_, i) => i !== index);
+              setPastAttempts(updated);
+              localStorage.setItem('dsssb_attempts', safeStringify(updated));
+            }}
+            onNavigateToDashboard={() => setActiveView('dashboard')}
+          />
+        )}
+
+        {/* Full-Page Candidate Profile View (Inline Single Column) */}
+        {activeView === 'profile' && (
+          <CandidateProfileView
+            profile={userProfile}
+            onProfileUpdate={(updated) => {
+              setUserProfile(updated);
+              setUsername(updated.username);
+            }}
+            attempts={pastAttempts}
+            bookmarks={savedBookmarks}
+            missedQuestions={missedQuestions}
+            questionPerformance={questionPerformance}
+            onDataImported={handleDataImported}
+            onClearAllData={handleClearAllData}
+            onBack={handleGoBack}
+            onNavigateToView={(view) => navigateToView(view)}
+            onShareAchievement={() => setShowAchievementModal(true)}
+          />
+        )}
+
         </React.Suspense>
       </main>
 
@@ -4064,21 +4682,40 @@ export default function App() {
               activeBg: 'bg-amber-50/90 dark:bg-amber-950/50 border-amber-200/60 dark:border-amber-800/60',
             },
             {
-              id: 'booster',
-              label: 'AI Booster',
-              icon: Sparkles,
-              isActive: activeView === 'adaptive-path',
+              id: 'history',
+              label: 'My Mocks',
+              badge: pastAttempts.length > 0 ? new Set(pastAttempts.map(a => a.testId || a.testTitle)).size : undefined,
+              icon: History,
+              isActive: activeView === 'mock-history',
               onClick: () => {
                 triggerHaptic(12);
-                if (activeView === 'adaptive-path') {
+                if (activeView === 'mock-history') {
                   window.scrollTo({ top: 0, behavior: 'smooth' });
                 } else {
-                  setActiveView('adaptive-path');
+                  setActiveView('mock-history');
                   window.scrollTo({ top: 0, behavior: 'smooth' });
                 }
               },
               activeColor: 'text-indigo-600 dark:text-indigo-400',
               activeBg: 'bg-indigo-50/90 dark:bg-indigo-950/50 border-indigo-200/60 dark:border-indigo-800/60',
+            },
+            {
+              id: 'mistakes',
+              label: 'Mistakes',
+              badge: missedQuestions.length,
+              icon: AlertCircle,
+              isActive: activeView === 'mistakes',
+              onClick: () => {
+                triggerHaptic(12);
+                if (activeView === 'mistakes') {
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                } else {
+                  setActiveView('mistakes');
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+              },
+              activeColor: 'text-rose-600 dark:text-rose-400',
+              activeBg: 'bg-rose-50/90 dark:bg-rose-950/50 border-rose-200/60 dark:border-rose-800/60',
             },
             {
               id: 'bookmarks',
@@ -4143,10 +4780,13 @@ export default function App() {
 
       {/* AdSense-Compliant Footer with traffic counters, live users and legal links */}
       {!['quiz', 'result', 'solution-review'].includes(activeView) && (
-        <FooterWithCompliance 
-          onOpenSubscribeModal={() => setShowSubscribeModal(true)} 
-          onOpenAdmin={() => setIsAdminOpen(true)}
-        />
+        <>
+          <FooterWithCompliance 
+            onOpenSubscribeModal={() => setShowSubscribeModal(true)} 
+            onOpenAdmin={() => setIsAdminOpen(true)}
+          />
+          <CookieConsentBanner />
+        </>
       )}
 
 
@@ -4476,6 +5116,8 @@ export default function App() {
         onDataImported={handleDataImported}
         onClearAllData={handleClearAllData}
         onShareAchievement={() => setShowAchievementModal(true)}
+        onOpenFullProfile={() => setActiveView('profile')}
+        onOpenReport={() => setActiveView('profile')}
       />
 
       {/* Shareable Achievement Card Modal */}
@@ -4503,6 +5145,21 @@ export default function App() {
         reportedQuestions={reportedQuestions}
         onDismissReport={handleDismissReport}
         onClearAllReports={handleClearAllReported}
+      />
+
+      {/* Reward Economy & Mock Unlock Modal */}
+      <RewardsModal
+        isOpen={showRewardsModal}
+        onClose={() => {
+          setShowRewardsModal(false);
+          setTargetLockedQuizForModal(null);
+        }}
+        targetLockedQuiz={targetLockedQuizForModal}
+        onMockUnlocked={() => {
+          setUserCoins(getUserCoins());
+          setShareToastMessage('Mock test unlocked successfully! 🎉');
+          setTimeout(() => setShareToastMessage(null), 3000);
+        }}
       />
 
       {/* Mobile App Install Prompt Modal */}

@@ -128,7 +128,7 @@ export const PromoBanners: React.FC<PromoBannersProps> = ({
   };
 
   return (
-    <div className={`w-full space-y-3 ${className}`}>
+    <div className={`hidden md:block w-full space-y-3 ${className}`}>
       {/* Banner Section Header */}
       <div className="flex items-center justify-between px-1">
         <div className="flex items-center gap-2">

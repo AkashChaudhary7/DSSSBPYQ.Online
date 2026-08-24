@@ -1,9 +1,10 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { Quiz, Question, Bookmark } from '../types';
-import { Trophy, RefreshCw, Star, CheckCircle, XCircle, Share2, Download, AlertCircle, ArrowLeft, Heart, Check, BookOpen, Send, Clock, Zap, Hourglass, BarChart3, TrendingUp, AlertTriangle, Filter, Layers, ArrowUpDown, SlidersHorizontal } from 'lucide-react';
+import { Trophy, RefreshCw, Star, CheckCircle, XCircle, Share2, Download, AlertCircle, ArrowLeft, Heart, Check, BookOpen, Send, Clock, Zap, Hourglass, BarChart3, TrendingUp, AlertTriangle, Filter, Layers, ArrowUpDown, SlidersHorizontal, Coins, Lock, Sparkles } from 'lucide-react';
 import { generateQuizPdf } from '../lib/pdfGenerator';
 import { trackQuizComplete, trackPageView, trackPdfDownload } from '../lib/analytics';
 import { cleanOptionText } from '../lib/formatText';
+import { getUserCoins } from '../lib/rewardsSystem';
 
 interface ResultScreenProps {
   quiz: Quiz;
@@ -15,7 +16,9 @@ interface ResultScreenProps {
   onRestart: () => void;
   onBackToHome: () => void;
   onOpenSolutionReview: () => void;
+  onOpenTimeAnalytics?: () => void;
   questionTimeSpent?: Record<number, number>;
+  isReattempt?: boolean;
 }
 
 export default function ResultScreen({
@@ -28,12 +31,10 @@ export default function ResultScreen({
   onRestart,
   onBackToHome,
   onOpenSolutionReview,
+  onOpenTimeAnalytics,
   questionTimeSpent = {},
+  isReattempt = false,
 }: ResultScreenProps) {
-  const [activeTab, setActiveTab] = useState<'overview' | 'review'>('overview');
-  const [timeFilter, setTimeFilter] = useState<'all' | 'correct' | 'incorrect' | 'unattempted' | 'slow'>('all');
-  const [selectedSection, setSelectedSection] = useState<string>('all');
-  const [sortBy, setSortBy] = useState<'qnum' | 'slowest' | 'fastest' | 'incorrect' | 'correct' | 'skipped'>('qnum');
   const [pdfGenerating, setPdfGenerating] = useState(false);
   const [pdfSuccess, setPdfSuccess] = useState(false);
   const [shareScoreGenerating, setShareScoreGenerating] = useState(false);
@@ -265,148 +266,6 @@ export default function ResultScreen({
     return savedBookmarks.some(b => b.quizId === quiz.testId && b.question.id === qId);
   };
 
-  // Time-Per-Question Analysis Computations
-  const timeMetrics = useMemo(() => {
-    const questions = quiz?.questions || [];
-    let totalCorrectTime = 0;
-    let totalIncorrectTime = 0;
-    let totalUnattemptedTime = 0;
-    
-    let fastestItem: { q: Question; index: number; time: number; status: string } | null = null;
-    let slowestItem: { q: Question; index: number; time: number; status: string } | null = null;
-
-    const questionRows = questions.map((q, idx) => {
-      const isAnswered = userAnswers[q.id] !== undefined;
-      const isCorrect = isAnswered && userAnswers[q.id] === q.answer;
-      const isIncorrect = isAnswered && !isCorrect;
-      const status = isCorrect ? 'correct' : isIncorrect ? 'incorrect' : 'unattempted';
-
-      // Actual recorded time from session or estimated
-      const recordedTime = (questionTimeSpent && questionTimeSpent[q.id] !== undefined)
-        ? questionTimeSpent[q.id]
-        : (isAnswered ? Math.max(1, Math.round(timeSpentSeconds / Math.max(1, Object.keys(userAnswers).length))) : 0);
-
-      if (isCorrect) totalCorrectTime += recordedTime;
-      else if (isIncorrect) totalIncorrectTime += recordedTime;
-      else totalUnattemptedTime += recordedTime;
-
-      // Track fastest & slowest attempted questions
-      if (isAnswered && recordedTime > 0) {
-        if (!fastestItem || recordedTime < fastestItem.time) {
-          fastestItem = { q, index: idx + 1, time: recordedTime, status };
-        }
-        if (!slowestItem || recordedTime > slowestItem.time) {
-          slowestItem = { q, index: idx + 1, time: recordedTime, status };
-        }
-      }
-
-      return {
-        question: q,
-        index: idx + 1,
-        time: recordedTime,
-        status,
-        isOvertime: recordedTime > 45
-      };
-    });
-
-    // Section-Wise Timing & Accuracy Aggregation
-    const sectionMap: Record<string, {
-      sectionName: string;
-      totalQuestions: number;
-      attemptedCount: number;
-      correctCount: number;
-      incorrectCount: number;
-      unattemptedCount: number;
-      totalTimeSpent: number;
-    }> = {};
-
-    questionRows.forEach(row => {
-      const secName = row.question.section || 'General Section';
-      if (!sectionMap[secName]) {
-        sectionMap[secName] = {
-          sectionName: secName,
-          totalQuestions: 0,
-          attemptedCount: 0,
-          correctCount: 0,
-          incorrectCount: 0,
-          unattemptedCount: 0,
-          totalTimeSpent: 0
-        };
-      }
-      const sec = sectionMap[secName];
-      sec.totalQuestions += 1;
-      sec.totalTimeSpent += row.time;
-
-      if (row.status === 'correct') {
-        sec.correctCount += 1;
-        sec.attemptedCount += 1;
-      } else if (row.status === 'incorrect') {
-        sec.incorrectCount += 1;
-        sec.attemptedCount += 1;
-      } else {
-        sec.unattemptedCount += 1;
-      }
-    });
-
-    const totalCalculatedTime = Math.max(1, timeSpentSeconds || Object.values(sectionMap).reduce((acc, s) => acc + s.totalTimeSpent, 0));
-
-    const sectionMetrics = Object.values(sectionMap).map(sec => {
-      const avgTime = sec.attemptedCount > 0 ? Math.round(sec.totalTimeSpent / sec.attemptedCount) : 0;
-      const accuracy = sec.attemptedCount > 0 ? Math.round((sec.correctCount / sec.attemptedCount) * 100) : 0;
-      const timePercent = Math.min(100, Math.round((sec.totalTimeSpent / totalCalculatedTime) * 100));
-
-      let paceLabel = 'Optimal Pace';
-      let paceBadge = 'bg-emerald-50 text-emerald-700 border-emerald-200';
-      if (avgTime > 65) {
-        paceLabel = 'Slow Pace';
-        paceBadge = 'bg-rose-50 text-rose-700 border-rose-200';
-      } else if (avgTime > 45) {
-        paceLabel = 'Moderate Pace';
-        paceBadge = 'bg-amber-50 text-amber-700 border-amber-200';
-      }
-
-      return {
-        ...sec,
-        avgTime,
-        accuracy,
-        timePercent,
-        paceLabel,
-        paceBadge
-      };
-    });
-
-    const attemptedCount = correctCount + incorrectCount;
-    const avgOverallTime = questions.length > 0 ? Math.round(timeSpentSeconds / questions.length) : 0;
-    const avgAttemptedTime = attemptedCount > 0 ? Math.round((totalCorrectTime + totalIncorrectTime) / attemptedCount) : 0;
-    const avgCorrectTime = correctCount > 0 ? Math.round(totalCorrectTime / correctCount) : 0;
-    const avgIncorrectTime = incorrectCount > 0 ? Math.round(totalIncorrectTime / incorrectCount) : 0;
-    const avgUnattemptedTime = unattemptedCount > 0 ? Math.round(totalUnattemptedTime / unattemptedCount) : 0;
-
-    let paceGrade = 'Fast & Optimal';
-    let paceColor = 'text-emerald-700 bg-emerald-50 border-emerald-200';
-    if (avgAttemptedTime > 65) {
-      paceGrade = 'High Time / Slow Pace';
-      paceColor = 'text-rose-700 bg-rose-50 border-rose-200';
-    } else if (avgAttemptedTime > 45) {
-      paceGrade = 'Moderate Pace';
-      paceColor = 'text-amber-700 bg-amber-50 border-amber-200';
-    }
-
-    return {
-      avgOverallTime,
-      avgAttemptedTime,
-      avgCorrectTime,
-      avgIncorrectTime,
-      avgUnattemptedTime,
-      fastestItem,
-      slowestItem,
-      questionRows,
-      sectionMetrics,
-      paceGrade,
-      paceColor
-    };
-  }, [quiz?.questions, userAnswers, questionTimeSpent, timeSpentSeconds, correctCount, incorrectCount, unattemptedCount]);
-
   return (
     <div className="max-w-4xl mx-auto px-4 py-8 space-y-8 animate-fadeIn">
       {/* Result Metrics Header Card */}
@@ -500,6 +359,88 @@ export default function ResultScreen({
           </div>
         </div>
 
+        {/* BytePrep Coin Reward & High Accuracy Bonus Card */}
+        {(() => {
+          if (isReattempt) {
+            return (
+              <div className="mt-5 p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div className="flex items-center gap-3 text-center sm:text-left">
+                  <div className="w-11 h-11 rounded-2xl bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-300 flex items-center justify-center shrink-0 font-bold">
+                    🎯
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-2 justify-center sm:justify-start">
+                      <span className="text-sm font-black text-slate-900 dark:text-white">
+                        Reattempt Test Completed
+                      </span>
+                      <span className="text-[10px] font-black px-2 py-0.5 rounded-md bg-amber-100 dark:bg-amber-900/60 text-amber-900 dark:text-amber-200">
+                        🪙 Balance: {getUserCoins()} Coins
+                      </span>
+                    </div>
+                    <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">
+                      Points &amp; coins are awarded on your 1st attempt only. Great practice effort!
+                    </p>
+                  </div>
+                </div>
+
+                <div className="text-right shrink-0">
+                  <div className="text-[11px] text-slate-500 dark:text-slate-400 font-extrabold flex items-center gap-1">
+                    <Lock className="w-3 h-3 text-amber-500" /> 100 🪙 unlocks any CBT Mock
+                  </div>
+                </div>
+              </div>
+            );
+          }
+
+          const isDaily = quiz.testId?.startsWith('daily_quiz_') || quiz.testId?.startsWith('booster_') || quiz.subject === 'Daily Quiz' || quiz.topic === 'Daily Challenge';
+          const baseEarned = isDaily ? 25 : 20;
+          let bonusEarned = 0;
+          let bonusTag = '';
+          if (accuracy >= 90) {
+            bonusEarned = 50;
+            bonusTag = 'Ranker Mastery Bonus (≥90% Accuracy)';
+          } else if (accuracy >= 80) {
+            bonusEarned = 35;
+            bonusTag = 'High Accuracy Bonus (≥80% Accuracy)';
+          } else if (accuracy >= 70) {
+            bonusEarned = 20;
+            bonusTag = 'Great Accuracy Bonus (≥70% Accuracy)';
+          } else if (accuracy >= 50) {
+            bonusEarned = 10;
+            bonusTag = 'Good Accuracy Bonus (≥50% Accuracy)';
+          }
+          const totalEarned = baseEarned + bonusEarned;
+
+          return (
+            <div className="mt-5 p-4 rounded-2xl bg-gradient-to-r from-amber-50 via-amber-100/50 to-orange-50 dark:from-amber-950/40 dark:via-amber-900/30 dark:to-orange-950/40 border border-amber-200 dark:border-amber-900/60 flex flex-col sm:flex-row items-center justify-between gap-4">
+              <div className="flex items-center gap-3 text-center sm:text-left">
+                <div className="w-12 h-12 rounded-2xl bg-amber-500 flex items-center justify-center text-white shadow-md shadow-amber-500/20 shrink-0">
+                  <Coins className="w-6 h-6" />
+                </div>
+                <div>
+                  <div className="flex items-center gap-2 justify-center sm:justify-start">
+                    <span className="text-sm font-black text-slate-900 dark:text-white">
+                      +{totalEarned} BytePrep Coins Awarded!
+                    </span>
+                    <span className="text-[10px] font-black px-2 py-0.5 rounded-md bg-amber-200/80 dark:bg-amber-900 text-amber-900 dark:text-amber-200">
+                      🪙 Total Balance: {getUserCoins()}
+                    </span>
+                  </div>
+                  <p className="text-[11px] text-slate-600 dark:text-slate-300 mt-0.5">
+                    +{baseEarned} Base Attempt {bonusEarned > 0 ? `+ ${bonusEarned} ${bonusTag}` : '(Score ≥70% on next test for bonus coins)'}
+                  </p>
+                </div>
+              </div>
+
+              <div className="text-right shrink-0">
+                <div className="text-[11px] text-amber-800 dark:text-amber-300 font-extrabold flex items-center gap-1">
+                  <Lock className="w-3 h-3" /> 100 🪙 unlocks any CBT Mock Test
+                </div>
+              </div>
+            </div>
+          );
+        })()}
+
         {/* Official Website Stamp for Exported Image & Screen */}
         <div className="mt-8 pt-4 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] text-slate-500 font-medium">
           <div className="flex items-center gap-1.5 font-bold text-slate-700">
@@ -511,445 +452,26 @@ export default function ResultScreen({
         </div>
 
         {/* Primary Interactive Solution Review Banner Call-to-action */}
-        <div className="mt-8 border-t border-slate-100 pt-6 flex flex-col items-center justify-center" data-no-export="true">
+        <div className="mt-8 border-t border-slate-100 pt-6 flex flex-col sm:flex-row items-center justify-center gap-3" data-no-export="true">
           <button
             onClick={onOpenSolutionReview}
-            className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-extrabold py-3.5 px-6 rounded-2xl text-xs md:text-sm transition-all flex items-center justify-center gap-2 cursor-pointer shadow-lg shadow-indigo-100 hover:scale-[1.01]"
+            className="w-full sm:w-auto flex-1 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-extrabold py-3.5 px-6 rounded-2xl text-xs md:text-sm transition-all flex items-center justify-center gap-2 cursor-pointer shadow-lg shadow-indigo-100 hover:scale-[1.01]"
             id="open-solution-review-primary-btn"
           >
             <BookOpen className="w-5 h-5 text-white" />
-            Open Interactive Solutions & Explanation Review (Mock Test Style)
+            Open Interactive Solutions & Explanation Review
           </button>
-        </div>
-      </div>
-
-      {/* TIME-PER-QUESTION & SPEED INTELLIGENCE CARD */}
-      <div className="bg-white border border-slate-200/80 rounded-3xl p-6 md:p-8 shadow-sm space-y-6">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 pb-4">
-          <div className="space-y-1">
-            <div className="flex items-center gap-2">
-              <span className="bg-amber-100 text-amber-800 text-[10px] font-extrabold px-2.5 py-0.5 rounded-full uppercase tracking-wider flex items-center gap-1">
-                <Clock className="w-3 h-3 text-amber-700" />
-                Time Analytics
-              </span>
-              <span className={`text-[10px] font-extrabold px-2.5 py-0.5 rounded-full border ${timeMetrics.paceColor}`}>
-                {timeMetrics.paceGrade}
-              </span>
-            </div>
-            <h3 className="text-lg font-black text-slate-800 tracking-tight flex items-center gap-2">
-              Time Per Question Analysis & Pace Intelligence
-            </h3>
-          </div>
-          <div className="text-right text-[11px] font-bold text-slate-500 bg-slate-50 border border-slate-100 px-3 py-1.5 rounded-xl">
-            <span>DSSSB Standard Pace: </span>
-            <strong className="text-blue-700">~45s / Question</strong>
-          </div>
-        </div>
-
-        {/* Speed Analytics 4-Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-          <div className="bg-slate-50/80 border border-slate-100 rounded-2xl p-3.5 space-y-1 text-center">
-            <span className="text-[10px] font-bold text-slate-500 uppercase tracking-wider">Avg Time / Q</span>
-            <div className="text-xl font-black text-slate-800">
-              {timeMetrics.avgAttemptedTime}s
-            </div>
-            <span className="text-[9px] text-slate-500 font-medium">on attempted questions</span>
-          </div>
-
-          <div className="bg-emerald-50/60 border border-emerald-100 rounded-2xl p-3.5 space-y-1 text-center">
-            <span className="text-[10px] font-bold text-emerald-700 uppercase tracking-wider">Time on Correct</span>
-            <div className="text-xl font-black text-emerald-700">
-              {timeMetrics.avgCorrectTime}s
-            </div>
-            <span className="text-[9px] text-emerald-600 font-medium">high speed efficiency</span>
-          </div>
-
-          <div className="bg-rose-50/60 border border-rose-100 rounded-2xl p-3.5 space-y-1 text-center">
-            <span className="text-[10px] font-bold text-rose-700 uppercase tracking-wider">Time on Incorrect</span>
-            <div className="text-xl font-black text-rose-700">
-              {timeMetrics.avgIncorrectTime}s
-            </div>
-            <span className="text-[9px] text-rose-600 font-medium">
-              {timeMetrics.avgIncorrectTime > 45 ? '⚠️ Time Sink Traps' : 'Quick Attempt'}
-            </span>
-          </div>
-
-          <div className="bg-blue-50/60 border border-blue-100 rounded-2xl p-3.5 space-y-1 text-center">
-            <span className="text-[10px] font-bold text-blue-700 uppercase tracking-wider">Time on Skipped</span>
-            <div className="text-xl font-black text-blue-700">
-              {timeMetrics.avgUnattemptedTime}s
-            </div>
-            <span className="text-[9px] text-blue-600 font-medium">skipping speed</span>
-          </div>
-        </div>
-
-        {/* Fastest & Slowest Questions Highlights */}
-        {(timeMetrics.fastestItem || timeMetrics.slowestItem) && (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-1">
-            {timeMetrics.fastestItem && (
-              <div className="bg-emerald-50/40 border border-emerald-200/80 rounded-2xl p-4 flex items-start gap-3">
-                <div className="w-9 h-9 rounded-xl bg-emerald-500 text-white flex items-center justify-center font-bold text-sm shrink-0">
-                  ⚡
-                </div>
-                <div className="space-y-1 min-w-0 flex-1">
-                  <div className="flex items-center justify-between">
-                    <span className="text-[11px] font-extrabold text-emerald-900 uppercase">Fastest Solved Question</span>
-                    <span className="text-xs font-black text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded-md">
-                      {timeMetrics.fastestItem.time}s
-                    </span>
-                  </div>
-                  <p className="text-xs font-semibold text-slate-800 line-clamp-1">
-                    Q.{timeMetrics.fastestItem.index}: {cleanOptionText(timeMetrics.fastestItem.q.question)}
-                  </p>
-                  <span className="text-[10px] font-bold text-slate-500">
-                    Status: <span className={timeMetrics.fastestItem.status === 'correct' ? 'text-emerald-600' : 'text-rose-600'}>{timeMetrics.fastestItem.status.toUpperCase()}</span>
-                  </span>
-                </div>
-              </div>
-            )}
-
-            {timeMetrics.slowestItem && (
-              <div className="bg-amber-50/40 border border-amber-200/80 rounded-2xl p-4 flex items-start gap-3">
-                <div className="w-9 h-9 rounded-xl bg-amber-500 text-white flex items-center justify-center font-bold text-sm shrink-0">
-                  ⏳
-                </div>
-                <div className="space-y-1 min-w-0 flex-1">
-                  <div className="flex items-center justify-between">
-                    <span className="text-[11px] font-extrabold text-amber-900 uppercase">Most Time Consuming Question</span>
-                    <span className="text-xs font-black text-amber-800 bg-amber-100 px-2 py-0.5 rounded-md">
-                      {timeMetrics.slowestItem.time}s
-                    </span>
-                  </div>
-                  <p className="text-xs font-semibold text-slate-800 line-clamp-1">
-                    Q.{timeMetrics.slowestItem.index}: {cleanOptionText(timeMetrics.slowestItem.q.question)}
-                  </p>
-                  <span className="text-[10px] font-bold text-slate-500">
-                    Status: <span className={timeMetrics.slowestItem.status === 'correct' ? 'text-emerald-600' : 'text-rose-600'}>{timeMetrics.slowestItem.status.toUpperCase()}</span>
-                  </span>
-                </div>
-              </div>
-            )}
-          </div>
-        )}
-
-        {/* SECTION-WISE TIMING ANALYSIS CHART */}
-        {timeMetrics.sectionMetrics && timeMetrics.sectionMetrics.length > 0 && (
-          <div className="space-y-3 pt-4 border-t border-slate-100">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-              <div className="flex items-center gap-2">
-                <span className="p-1.5 bg-indigo-50 text-indigo-700 rounded-lg">
-                  <Layers className="w-4 h-4" />
-                </span>
-                <div>
-                  <h4 className="text-xs font-black text-slate-800 uppercase tracking-wider">
-                    Section-Wise Timing & Performance Chart
-                  </h4>
-                  <p className="text-[11px] text-slate-500">
-                    Click any section card to isolate its question-wise analysis below
-                  </p>
-                </div>
-              </div>
-
-              {selectedSection !== 'all' && (
-                <button
-                  onClick={() => setSelectedSection('all')}
-                  className="text-[11px] font-bold text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-2.5 py-1 rounded-lg border border-blue-200 transition-all cursor-pointer self-start sm:self-auto"
-                >
-                  Clear Filter (Show All)
-                </button>
-              )}
-            </div>
-
-            {/* Section Breakdown Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-              {timeMetrics.sectionMetrics.map((sec, idx) => {
-                const isSelected = selectedSection === sec.sectionName;
-                const secTimeStr = sec.totalTimeSpent < 60 
-                  ? `${sec.totalTimeSpent}s` 
-                  : `${Math.floor(sec.totalTimeSpent / 60)}m ${sec.totalTimeSpent % 60}s`;
-
-                return (
-                  <div
-                    key={idx}
-                    onClick={() => setSelectedSection(isSelected ? 'all' : sec.sectionName)}
-                    className={`p-4 rounded-2xl border transition-all cursor-pointer relative overflow-hidden ${
-                      isSelected
-                        ? 'bg-blue-50/80 border-blue-500 shadow-sm ring-2 ring-blue-400/30'
-                        : 'bg-slate-50/60 hover:bg-slate-100/80 border-slate-200/80 hover:border-slate-300'
-                    }`}
-                  >
-                    <div className="flex items-start justify-between gap-2 mb-2">
-                      <div className="space-y-0.5 min-w-0 flex-1">
-                        <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-500">
-                          Section {idx + 1} ({sec.totalQuestions} Questions)
-                        </span>
-                        <h5 className="text-sm font-bold text-slate-900 truncate">
-                          {sec.sectionName}
-                        </h5>
-                      </div>
-                      <span className={`text-[10px] font-black px-2 py-0.5 rounded-full border shrink-0 ${sec.paceBadge}`}>
-                        {sec.paceLabel}
-                      </span>
-                    </div>
-
-                    <div className="grid grid-cols-3 gap-2 py-2 border-y border-slate-200/60 text-center my-2 bg-white/70 rounded-xl">
-                      <div>
-                        <span className="text-[9px] font-bold text-slate-500 uppercase block">Total Time</span>
-                        <strong className="text-xs font-black text-slate-800">{secTimeStr}</strong>
-                      </div>
-                      <div>
-                        <span className="text-[9px] font-bold text-slate-500 uppercase block">Avg / Q</span>
-                        <strong className="text-xs font-black text-blue-700">{sec.avgTime}s</strong>
-                      </div>
-                      <div>
-                        <span className="text-[9px] font-bold text-slate-500 uppercase block">Accuracy</span>
-                        <strong className={`text-xs font-black ${sec.accuracy >= 60 ? 'text-emerald-600' : 'text-amber-600'}`}>
-                          {sec.accuracy}%
-                        </strong>
-                      </div>
-                    </div>
-
-                    {/* Section Time Progress Bar */}
-                    <div className="space-y-1 pt-1">
-                      <div className="flex items-center justify-between text-[10px] font-bold text-slate-500">
-                        <span>Share of Total Time</span>
-                        <span className="text-blue-700 font-black">{sec.timePercent}%</span>
-                      </div>
-                      <div className="w-full bg-slate-200/80 rounded-full h-2 overflow-hidden">
-                        <div
-                          className="bg-blue-600 h-full rounded-full transition-all"
-                          style={{ width: `${sec.timePercent}%` }}
-                        />
-                      </div>
-                    </div>
-
-                    {/* Question Status Pills */}
-                    <div className="flex items-center gap-2 text-[10px] font-bold mt-3">
-                      <span className="text-emerald-700 bg-emerald-100/80 px-2 py-0.5 rounded-md">
-                        ✓ {sec.correctCount} Correct
-                      </span>
-                      <span className="text-rose-700 bg-rose-100/80 px-2 py-0.5 rounded-md">
-                        ✗ {sec.incorrectCount} Incorrect
-                      </span>
-                      {sec.unattemptedCount > 0 && (
-                        <span className="text-slate-600 bg-slate-200/80 px-2 py-0.5 rounded-md">
-                          ○ {sec.unattemptedCount} Skipped
-                        </span>
-                      )}
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        )}
-
-        {/* Interactive Question-by-Question Time Breakdown Matrix */}
-        <div className="space-y-3 pt-4 border-t border-slate-100">
-          <div className="flex flex-col md:flex-row md:items-center justify-between gap-3">
-            <div className="space-y-0.5">
-              <h4 className="text-xs font-black text-slate-800 uppercase tracking-wider flex items-center gap-1.5">
-                <BarChart3 className="w-3.5 h-3.5 text-blue-600" />
-                Question-by-Question Timing Breakdown
-              </h4>
-              <p className="text-[11px] font-medium text-slate-500">
-                {selectedSection !== 'all' ? `Filtered by "${selectedSection}"` : 'Showing all questions'}
-              </p>
-            </div>
-
-            <div className="flex flex-wrap items-center gap-2">
-              {/* Section Filter Dropdown */}
-              {timeMetrics.sectionMetrics && timeMetrics.sectionMetrics.length > 1 && (
-                <div className="flex items-center gap-1 bg-slate-100 border border-slate-200 px-2.5 py-1.5 rounded-xl text-xs font-bold text-slate-700">
-                  <Filter className="w-3.5 h-3.5 text-slate-500 shrink-0" />
-                  <select
-                    value={selectedSection}
-                    onChange={(e) => setSelectedSection(e.target.value)}
-                    className="bg-transparent border-none focus:outline-none text-xs font-bold text-slate-800 cursor-pointer"
-                  >
-                    <option value="all">All Sections ({timeMetrics.questionRows.length})</option>
-                    {timeMetrics.sectionMetrics.map((sec, i) => (
-                      <option key={i} value={sec.sectionName}>
-                        {sec.sectionName} ({sec.totalQuestions})
-                      </option>
-                    ))}
-                  </select>
-                </div>
-              )}
-
-              {/* Sorting Feature Dropdown */}
-              <div className="flex items-center gap-1 bg-blue-50 border border-blue-200 px-2.5 py-1.5 rounded-xl text-xs font-bold text-blue-900">
-                <ArrowUpDown className="w-3.5 h-3.5 text-blue-600 shrink-0" />
-                <span className="text-[11px] text-blue-600 font-medium hidden sm:inline">Sort:</span>
-                <select
-                  value={sortBy}
-                  onChange={(e) => setSortBy(e.target.value as any)}
-                  className="bg-transparent border-none focus:outline-none text-xs font-extrabold text-blue-900 cursor-pointer"
-                >
-                  <option value="qnum">Q. Number (Default)</option>
-                  <option value="slowest">Slowest First ⏳</option>
-                  <option value="fastest">Fastest First ⚡</option>
-                  <option value="incorrect">Incorrect First ❌</option>
-                  <option value="correct">Correct First ✓</option>
-                  <option value="skipped">Skipped First ○</option>
-                </select>
-              </div>
-            </div>
-          </div>
-
-          {/* Status Filter Pills */}
-          <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none text-[10px] font-bold">
+          
+          {onOpenTimeAnalytics && (
             <button
-              onClick={() => setTimeFilter('all')}
-              className={`px-2.5 py-1.5 rounded-xl border transition-all cursor-pointer whitespace-nowrap ${
-                timeFilter === 'all'
-                  ? 'bg-blue-600 text-white border-blue-600 shadow-xs'
-                  : 'bg-slate-50 hover:bg-slate-100 text-slate-600 border-slate-200'
-              }`}
+              onClick={onOpenTimeAnalytics}
+              className="w-full sm:w-auto flex-1 bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 hover:from-emerald-700 hover:to-cyan-700 text-white font-extrabold py-3.5 px-6 rounded-2xl text-xs md:text-sm transition-all flex items-center justify-center gap-2 cursor-pointer shadow-lg shadow-emerald-100 hover:scale-[1.01]"
+              id="open-time-analytics-primary-btn"
             >
-              All Status ({totalQuestions})
+              <Sparkles className="w-5 h-5 text-amber-300 animate-pulse" />
+              <span>Advance Analytics (Time & Speed Deep Dive)</span>
             </button>
-            <button
-              onClick={() => setTimeFilter('correct')}
-              className={`px-2.5 py-1.5 rounded-xl border transition-all cursor-pointer whitespace-nowrap ${
-                timeFilter === 'correct'
-                  ? 'bg-emerald-600 text-white border-emerald-600 shadow-xs'
-                  : 'bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border-emerald-200'
-              }`}
-            >
-              ✓ Correct ({correctCount})
-            </button>
-            <button
-              onClick={() => setTimeFilter('incorrect')}
-              className={`px-2.5 py-1.5 rounded-xl border transition-all cursor-pointer whitespace-nowrap ${
-                timeFilter === 'incorrect'
-                  ? 'bg-rose-600 text-white border-rose-600 shadow-xs'
-                  : 'bg-rose-50 hover:bg-rose-100 text-rose-700 border-rose-200'
-              }`}
-            >
-              ❌ Incorrect ({incorrectCount})
-            </button>
-            <button
-              onClick={() => setTimeFilter('slow')}
-              className={`px-2.5 py-1.5 rounded-xl border transition-all cursor-pointer whitespace-nowrap ${
-                timeFilter === 'slow'
-                  ? 'bg-amber-600 text-white border-amber-600 shadow-xs'
-                  : 'bg-amber-50 hover:bg-amber-100 text-amber-800 border-amber-200'
-              }`}
-            >
-              ⏳ Overtime (&gt;45s)
-            </button>
-            <button
-              onClick={() => setTimeFilter('unattempted')}
-              className={`px-2.5 py-1.5 rounded-xl border transition-all cursor-pointer whitespace-nowrap ${
-                timeFilter === 'unattempted'
-                  ? 'bg-slate-700 text-white border-slate-700 shadow-xs'
-                  : 'bg-slate-50 hover:bg-slate-100 text-slate-500 border-slate-200'
-              }`}
-            >
-              ○ Skipped ({unattemptedCount})
-            </button>
-          </div>
-
-          {/* Matrix List Rows */}
-          <div className="border border-slate-200 rounded-2xl overflow-hidden divide-y divide-slate-100 max-h-96 overflow-y-auto">
-            {(() => {
-              let rows = [...timeMetrics.questionRows];
-
-              if (selectedSection !== 'all') {
-                rows = rows.filter(r => (r.question.section || 'General Section') === selectedSection);
-              }
-
-              if (timeFilter === 'correct') rows = rows.filter(r => r.status === 'correct');
-              else if (timeFilter === 'incorrect') rows = rows.filter(r => r.status === 'incorrect');
-              else if (timeFilter === 'unattempted') rows = rows.filter(r => r.status === 'unattempted');
-              else if (timeFilter === 'slow') rows = rows.filter(r => r.time > 45);
-
-              if (sortBy === 'slowest') rows.sort((a, b) => b.time - a.time);
-              else if (sortBy === 'fastest') rows.sort((a, b) => a.time - b.time);
-              else if (sortBy === 'incorrect') rows.sort((a, b) => (a.status === 'incorrect' ? -1 : 1));
-              else if (sortBy === 'correct') rows.sort((a, b) => (a.status === 'correct' ? -1 : 1));
-              else if (sortBy === 'skipped') rows.sort((a, b) => (a.status === 'unattempted' ? -1 : 1));
-              else rows.sort((a, b) => a.index - b.index);
-
-              if (rows.length === 0) {
-                return (
-                  <div className="p-8 text-center text-slate-500 font-medium text-xs">
-                    No questions found matching the selected section or filter.
-                  </div>
-                );
-              }
-
-              return rows.map(row => {
-                const maxTimeRef = Math.max(90, ...timeMetrics.questionRows.map(r => r.time));
-                const widthPercent = Math.min(100, Math.max(8, (row.time / maxTimeRef) * 100));
-
-                let barColor = "bg-slate-300";
-                let statusBadge = (
-                  <span className="text-[9px] font-bold text-slate-500 bg-slate-100 border border-slate-200 px-2 py-0.5 rounded-full">
-                    Skipped
-                  </span>
-                );
-
-                if (row.status === 'correct') {
-                  barColor = "bg-emerald-500";
-                  statusBadge = (
-                    <span className="text-[9px] font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded-full flex items-center gap-1 shrink-0">
-                      <CheckCircle className="w-2.5 h-2.5" /> Correct
-                    </span>
-                  );
-                } else if (row.status === 'incorrect') {
-                  barColor = "bg-rose-500";
-                  statusBadge = (
-                    <span className="text-[9px] font-bold text-rose-700 bg-rose-50 border border-rose-200 px-2 py-0.5 rounded-full flex items-center gap-1 shrink-0">
-                      <XCircle className="w-2.5 h-2.5" /> Incorrect
-                    </span>
-                  );
-                }
-
-                return (
-                  <div key={row.index} className="p-3 hover:bg-slate-50/80 transition-colors flex items-center gap-3 text-xs">
-                    <div className="flex flex-col items-center shrink-0 w-10">
-                      <span className="font-mono font-black text-slate-800 text-xs">
-                        Q.{row.index}
-                      </span>
-                      {row.question.section && (
-                        <span className="text-[8px] font-bold text-slate-400 truncate max-w-[42px]" title={row.question.section}>
-                          {row.question.section.split(' ')[0]}
-                        </span>
-                      )}
-                    </div>
-
-                    <div className="flex-1 min-w-0 space-y-1">
-                      <div className="flex items-center justify-between gap-2">
-                        <p className="font-semibold text-slate-800 line-clamp-1">
-                          {cleanOptionText(row.question.question)}
-                        </p>
-                        <div className="flex items-center gap-2 shrink-0">
-                          {statusBadge}
-                          <span className={`font-mono font-black text-[11px] px-2 py-0.5 rounded-md ${
-                            row.time > 45 
-                              ? 'bg-amber-100 text-amber-900 border border-amber-200' 
-                              : 'bg-slate-100 text-slate-800'
-                          }`}>
-                            {row.time > 45 && '⏳ '}{row.time}s
-                          </span>
-                        </div>
-                      </div>
-
-                      {/* Visual Time Progress Bar */}
-                      <div className="w-full bg-slate-100 rounded-full h-1.5 overflow-hidden flex items-center">
-                        <div
-                          className={`h-full rounded-full transition-all ${barColor}`}
-                          style={{ width: `${widthPercent}%` }}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                );
-              });
-            })()}
-          </div>
+          )}
         </div>
       </div>
 
@@ -959,9 +481,6 @@ export default function ResultScreen({
           <h4 className="font-bold text-base md:text-lg flex items-center justify-center md:justify-start gap-2">
             <BookOpen className="w-5 h-5 text-amber-300" /> Export Question Paper with Solutions
           </h4>
-          <p className="text-xs text-white/80 leading-relaxed max-w-xl">
-            Get a beautifully structured PDF document containing the original exam questions, correct options, and detailed pedagogical explanations. Perfect for self-revision or sharing in study groups.
-          </p>
         </div>
 
         <button

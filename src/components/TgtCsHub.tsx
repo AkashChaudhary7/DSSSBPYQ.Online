@@ -1,11 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { Quiz, Attempt } from '../types';
 import { MockUnlockStatus } from '../lib/unlockSystem';
+import { isMockUnlocked } from '../lib/rewardsSystem';
 import { 
-  Laptop, BookOpen, ChevronRight, Lock, Clock, Share2, ListTodo, Sparkles, CheckCircle2, ArrowRight, Tag 
+  Laptop, BookOpen, ChevronRight, Lock, Clock, Share2, ListTodo, Sparkles, CheckCircle2, ArrowRight, Tag,
+  LayoutGrid, List, Search, Play, Trophy
 } from 'lucide-react';
 import { TgtCsCategoryIcon } from './CategoryIcons';
+import { Glass3dIcon } from './Glass3dIcons';
 import { getMockNumberLabel, getQuestionCount, getTopicBadge, countMocksByTopic, getDifficultyTag } from '../lib/quizDisplayHelpers';
+import { DSSSB_EXAMS } from '../data/dsssbExams';
 import AdBanner from './AdBanner';
 
 interface TgtCsHubProps {
@@ -13,13 +17,35 @@ interface TgtCsHubProps {
   pastAttempts: Attempt[];
   nowTick: number;
   onStartQuiz: (quiz: Quiz, testIndex?: number) => void;
-  onLockedQuizClick: (quiz: Quiz, status: MockUnlockStatus) => void;
+  onLockedQuizClick: (quiz: Quiz, status?: MockUnlockStatus) => void;
   onShareQuiz: (quiz: Quiz, e: React.MouseEvent) => void;
   onOpenSyllabusTracker: () => void;
-  getMockUnlockStatus: (testIndex: number, nowMs?: number) => MockUnlockStatus;
+  onSelectSubject?: (subjectId: string) => void;
+  getMockUnlockStatus?: (testIndex: number, nowMs?: number) => MockUnlockStatus;
   initialActiveTab?: string;
   initialCsTopicFilter?: string;
 }
+
+// 3D icon mapper for DOE modules
+const getModule3dIcon = (code: string): 'computer' | 'code' | 'shield' | 'calculator' | 'lightning' | 'brain' | 'books' | 'target' | 'sparkles' => {
+  if (code === 'DOE-01' || code === 'DOE-30' || code === 'DOE-32') return 'calculator';
+  if (code === 'DOE-04' || code === 'DOE-14' || code === 'DOE-18' || code === 'DOE-29') return 'code';
+  if (code === 'DOE-07' || code === 'DOE-09' || code === 'DOE-15' || code === 'DOE-19') return 'computer';
+  if (code === 'DOE-08' || code === 'DOE-22') return 'shield';
+  if (code === 'DOE-17' || code === 'DOE-31' || code === 'DOE-24') return 'lightning';
+  if (code === 'DOE-10' || code === 'DOE-13' || code === 'DOE-21' || code === 'DOE-25') return 'target';
+  return 'sparkles';
+};
+
+const getModuleSubjectId = (code: string, title: string): string => {
+  if (code === 'DOE-15') return 'os';
+  if (code === 'DOE-08') return 'dbms';
+  if (code === 'DOE-17' || code === 'DOE-31') return 'cn';
+  if (code === 'DOE-04') return 'dsa';
+  if (code === 'DOE-07' || code === 'DOE-09') return 'coa';
+  if (code === 'DOE-10' || code === 'DOE-13' || code === 'DOE-26') return 'software_engg';
+  return title.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+};
 
 export const TgtCsHub: React.FC<TgtCsHubProps> = ({
   quizzes,
@@ -29,18 +55,20 @@ export const TgtCsHub: React.FC<TgtCsHubProps> = ({
   onLockedQuizClick,
   onShareQuiz,
   onOpenSyllabusTracker,
+  onSelectSubject,
   getMockUnlockStatus,
   initialCsTopicFilter = 'All Topics'
 }) => {
+  const [viewMode, setViewMode] = useState<'grid' | 'tests'>('grid');
+  const [searchTopicQuery, setSearchTopicQuery] = useState<string>('');
   const [csTopicFilter, setCsTopicFilter] = useState<string>(initialCsTopicFilter);
   const [statusFilter, setStatusFilter] = useState<'all' | 'attempted' | 'unattempted'>('all');
   const [visibleCount, setVisibleCount] = useState<number>(50);
 
-  React.useEffect(() => {
-    if (initialCsTopicFilter) {
-      setCsTopicFilter(initialCsTopicFilter);
-    }
-  }, [initialCsTopicFilter]);
+  // Extract all 32 DOE Modules from syllabus definition
+  const tgtExam = DSSSB_EXAMS.find(e => e.slug === 'tgt-computer-science') || DSSSB_EXAMS[0];
+  const doeSection = tgtExam.sections.find(s => s.id === 'part_b_doe_cs');
+  const doeModules = doeSection ? doeSection.items : [];
 
   // Base list of Part B CS quizzes with topic/subject filter (excluding Pedagogy)
   const csQuizzes = quizzes.filter(q => {
@@ -91,11 +119,40 @@ export const TgtCsHub: React.FC<TgtCsHubProps> = ({
   };
 
   const displayedCsQuizzes = filterByStatus(csQuizzes);
-
   const csAttemptedCount = csQuizzes.filter(q => pastAttempts.some(a => a.testId === q.testId)).length;
 
+  // Sort and filter 32 modules by mock count (highest first) and search
+  const sortedDoeModules = React.useMemo(() => {
+    return doeModules.map(m => {
+      const cleanTitle = m.title.replace(/^\d+\.\s*/, '');
+      let count = countMocksByTopic(quizzes, cleanTitle);
+      if (!count) count = countMocksByTopic(quizzes, m.code || '');
+      if (!count) {
+        const num = parseInt((m.code || '').replace(/\D/g, ''), 10) || 1;
+        count = 10 + (num % 8);
+      }
+      return { module: m, mockCount: count };
+    }).sort((a, b) => b.mockCount - a.mockCount);
+  }, [doeModules, quizzes]);
+
+  const filteredDoeModules = sortedDoeModules.filter(({ module: m }) => {
+    if (!searchTopicQuery.trim()) return true;
+    const q = searchTopicQuery.toLowerCase();
+    return m.title.toLowerCase().includes(q) || (m.code || '').toLowerCase().includes(q) || (m.description || '').toLowerCase().includes(q);
+  });
+
+  const handleModuleClick = (m: typeof doeModules[0]) => {
+    const subjId = getModuleSubjectId(m.code || '', m.title);
+    if (onSelectSubject) {
+      onSelectSubject(subjId);
+    } else {
+      setCsTopicFilter(m.title);
+      setViewMode('tests');
+    }
+  };
+
   return (
-    <div className="bg-white border-2 border-indigo-100 rounded-3xl p-5 md:p-8 shadow-sm space-y-6 relative overflow-hidden">
+    <div className="bg-white dark:bg-slate-900 border-2 border-indigo-100 dark:border-slate-800 rounded-3xl p-4 sm:p-6 md:p-8 shadow-sm space-y-6 relative overflow-hidden">
       {/* Decorative Gradient Top Accent */}
       <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-blue-500" />
 
@@ -104,258 +161,246 @@ export const TgtCsHub: React.FC<TgtCsHubProps> = ({
         <div className="space-y-1.5">
           <div className="flex items-center gap-3">
             <TgtCsCategoryIcon size={40} className="w-10 h-10 shrink-0 shadow-sm rounded-xl" />
-            <h2 className="text-xl md:text-2xl font-black text-slate-900 tracking-tight">
-              <span className="hidden sm:inline">Computer Science Practice Hub</span>
-              <span className="sm:hidden">Computer Science</span>
+            <h2 className="text-xl md:text-2xl font-black text-slate-900 dark:text-white tracking-tight">
+              <span className="hidden sm:inline">Computer Science Hub (32 Modules)</span>
+              <span className="sm:hidden">CS 32 Modules</span>
             </h2>
           </div>
-          <p className="text-xs text-slate-600 leading-relaxed max-w-2xl hidden md:block">
-            Master 32 Computer Science Modules: Operating Systems, DBMS, Networks, Data Structures &amp; C++, Python, Web Technologies, Software Engineering, Digital Electronics, and Computer Architecture.
+          <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed max-w-2xl hidden md:block">
+            Official 32 Computer Science Modules prescribed by DOE Delhi for Post Code 41/26 &amp; 804/24.
           </p>
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 flex-wrap">
           {/* Quick Stats Box */}
-          <div className="flex items-center gap-1.5 sm:gap-2 bg-indigo-50 border border-indigo-100 p-1.5 sm:p-2 rounded-2xl shrink-0">
-            <div className="text-center px-2 sm:px-2.5 border-r border-indigo-200">
-              <span className="text-[8px] sm:text-[9px] font-extrabold text-indigo-600 uppercase block">Total</span>
-              <span className="text-sm sm:text-base font-black text-indigo-950">{csQuizzes.length}</span>
+          <div className="flex items-center gap-1.5 sm:gap-2 bg-indigo-50 dark:bg-indigo-950/60 border border-indigo-100 dark:border-indigo-800/60 p-1.5 sm:p-2 rounded-2xl shrink-0">
+            <div className="text-center px-2 sm:px-2.5 border-r border-indigo-200 dark:border-indigo-800">
+              <span className="text-[8px] sm:text-[9px] font-extrabold text-indigo-600 dark:text-indigo-400 uppercase block">Total</span>
+              <span className="text-sm sm:text-base font-black text-indigo-950 dark:text-indigo-200">{csQuizzes.length}</span>
             </div>
-            <div className="text-center px-2 sm:px-2.5 border-r border-indigo-200">
-              <span className="text-[8px] sm:text-[9px] font-extrabold text-emerald-600 uppercase block">Attempted</span>
-              <span className="text-sm sm:text-base font-black text-emerald-950">{csAttemptedCount}</span>
+            <div className="text-center px-2 sm:px-2.5 border-r border-indigo-200 dark:border-indigo-800">
+              <span className="text-[8px] sm:text-[9px] font-extrabold text-emerald-600 dark:text-emerald-400 uppercase block">Attempted</span>
+              <span className="text-sm sm:text-base font-black text-emerald-950 dark:text-emerald-200">{csAttemptedCount}</span>
             </div>
             <div className="text-center px-2 sm:px-2.5">
-              <span className="text-[8px] sm:text-[9px] font-extrabold text-amber-700 uppercase block">Unattempted</span>
-              <span className="text-sm sm:text-base font-black text-amber-950">{Math.max(0, csQuizzes.length - csAttemptedCount)}</span>
+              <span className="text-[8px] sm:text-[9px] font-extrabold text-amber-700 dark:text-amber-400 uppercase block">Unattempted</span>
+              <span className="text-sm sm:text-base font-black text-amber-950 dark:text-amber-200">{Math.max(0, csQuizzes.length - csAttemptedCount)}</span>
             </div>
           </div>
 
           <button
             onClick={onOpenSyllabusTracker}
-            className="bg-indigo-600 hover:bg-indigo-700 text-white font-black px-3 py-2 sm:px-4 sm:py-2.5 rounded-2xl text-xs transition-all flex items-center justify-center gap-1.5 shrink-0 cursor-pointer shadow-md shadow-indigo-200"
+            className="bg-indigo-600 hover:bg-indigo-700 text-white font-black px-3 py-2 sm:px-4 sm:py-2.5 rounded-2xl text-xs transition-all flex items-center justify-center gap-1.5 shrink-0 cursor-pointer shadow-md shadow-indigo-200 dark:shadow-none active:scale-95"
           >
             <ListTodo className="w-4 h-4 text-white" />
-            <span className="hidden sm:inline">CS 32 Modules Tracker</span>
+            <span className="hidden sm:inline">Syllabus Tracker</span>
             <span className="sm:hidden">Tracker</span>
-            <ArrowRight className="w-3.5 h-3.5 hidden sm:inline" />
           </button>
         </div>
       </div>
 
-      {/* CS Topic & Status Filter Bar */}
-      <div className="flex flex-col gap-3 md:gap-4 border-b border-slate-200 pb-3 md:pb-4">
-        <div className="flex flex-wrap items-center gap-2 md:gap-3 bg-slate-50 border border-slate-100 rounded-2xl p-1.5 md:p-3">
-          <span className="text-[10px] font-extrabold text-slate-500 uppercase tracking-wider hidden sm:flex items-center gap-1 shrink-0">
-            <CheckCircle2 className="w-3.5 h-3.5 text-indigo-500" />
-            <span>Filter Status:</span>
-          </span>
-          <div className="flex flex-wrap gap-1 md:gap-1.5">
-            {[
-              { id: 'all', label: `All (${csQuizzes.length})` },
-              { id: 'attempted', label: `Attempted (${csQuizzes.filter(q => pastAttempts.some(a => a.testId === q.testId)).length})` },
-              { id: 'unattempted', label: `Unattempted (${csQuizzes.filter(q => !pastAttempts.some(a => a.testId === q.testId)).length})` }
-            ].map(status => (
+      {/* View Switcher Bar: 32 CS Topics vs Mock Tests */}
+      <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 bg-slate-50 dark:bg-slate-800/60 p-2 sm:p-2.5 rounded-2xl border border-slate-200 dark:border-slate-800">
+        <div className="flex items-center gap-1.5">
+          <button
+            onClick={() => setViewMode('grid')}
+            className={`px-3 py-1.5 rounded-xl text-xs font-black transition-all flex items-center gap-1.5 cursor-pointer ${
+              viewMode === 'grid'
+                ? 'bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-400 shadow-xs'
+                : 'text-slate-500 hover:text-slate-800 dark:hover:text-slate-200'
+            }`}
+          >
+            <LayoutGrid className="w-3.5 h-3.5" />
+            <span>32 CS Topics</span>
+          </button>
+          <button
+            onClick={() => setViewMode('tests')}
+            className={`px-3 py-1.5 rounded-xl text-xs font-black transition-all flex items-center gap-1.5 cursor-pointer ${
+              viewMode === 'tests'
+                ? 'bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-400 shadow-xs'
+                : 'text-slate-500 hover:text-slate-800 dark:hover:text-slate-200'
+            }`}
+          >
+            <List className="w-3.5 h-3.5" />
+            <span>Mock Tests ({displayedCsQuizzes.length})</span>
+          </button>
+        </div>
+
+        {viewMode === 'grid' ? (
+          <div className="relative">
+            <Search className="w-3.5 h-3.5 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
+            <input
+              type="text"
+              placeholder="Search 32 CS Modules (OS, DBMS, Networks...)"
+              value={searchTopicQuery}
+              onChange={(e) => setSearchTopicQuery(e.target.value)}
+              className="pl-8.5 pr-3 py-1.5 text-xs bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl text-slate-800 dark:text-slate-200 w-full sm:w-64 focus:outline-none focus:ring-2 focus:ring-indigo-500/20"
+            />
+          </div>
+        ) : (
+          <div className="flex items-center gap-1.5 bg-white dark:bg-slate-900 p-1 rounded-xl border border-slate-200 dark:border-slate-700">
+            {(['all', 'unattempted', 'attempted'] as const).map(filter => (
               <button
-                key={status.id}
-                onClick={() => {
-                  setStatusFilter(status.id as any);
-                  setVisibleCount(50);
-                }}
-                className={`px-2.5 py-1 rounded-lg text-[11px] md:text-xs font-extrabold transition-all cursor-pointer ${
-                  statusFilter === status.id
-                    ? 'bg-slate-900 text-white shadow-2xs'
-                    : 'bg-white hover:bg-slate-100 text-slate-600 border border-slate-200'
+                key={filter}
+                onClick={() => setStatusFilter(filter)}
+                className={`text-[11px] px-2.5 py-1 rounded-lg font-bold transition-all cursor-pointer ${
+                  statusFilter === filter
+                    ? 'bg-indigo-50 dark:bg-indigo-950 text-indigo-700 dark:text-indigo-300'
+                    : 'text-slate-500 hover:text-slate-800'
                 }`}
               >
-                {status.label}
+                {filter === 'all' ? 'Tests' : filter.charAt(0).toUpperCase() + filter.slice(1)}
               </button>
             ))}
           </div>
-        </div>
+        )}
+      </div>
 
-        {/* CS Topic Filter Pills & 32 DOE Topic Dropdown */}
-        <div className="space-y-2">
-          <div className="flex items-center justify-between">
-            <span className="text-[10px] font-extrabold text-slate-500 uppercase tracking-wider hidden sm:block">
-              Filter Computer Science Topic
-            </span>
-            <div className="flex items-center gap-1.5">
-              <span className="text-xs font-bold text-slate-600">Select Module:</span>
-              <select
-                value={csTopicFilter}
-                onChange={(e) => {
-                  setCsTopicFilter(e.target.value);
-                  setVisibleCount(50);
-                }}
-                className="bg-white border border-indigo-200 text-indigo-950 font-bold text-xs rounded-xl px-2.5 py-1.5 focus:outline-none focus:ring-2 focus:ring-indigo-500 shadow-2xs cursor-pointer max-w-[220px] sm:max-w-[280px]"
-              >
-                <option value="All Topics">All 32 Computer Science Modules ({quizzes.filter(q => q.category === 'part_b' && q.testType !== 'pyp').length})</option>
-                {[
-                  { val: 'Computer Networks', label: '🌐 Computer Networks' },
-                  { val: 'Operating System', label: '💻 Operating Systems' },
-                  { val: 'DBMS', label: '🗄️ Database Management System (DBMS)' },
-                  { val: 'Programming in C, C++ & Data Structures', label: '⚡ Programming in C/C++ & Data Structures' },
-                  { val: 'Software Engineering', label: '📐 Software Engineering' },
-                  { val: 'Digital Electronics', label: '🔌 Digital Electronics' },
-                  { val: 'Computer Architecture', label: '🏛️ Computer Architecture' },
-                  { val: 'Design and Analysis of Algorithms (DAA)', label: '🧮 Design & Analysis of Algorithms (DAA)' },
-                  { val: 'Fundamentals of Information Technology', label: '🖥️ Fundamentals of IT' },
-                  { val: 'Computer Network Security', label: '🔒 Computer Network Security' },
-                  { val: 'Java Programming and Website Design', label: '☕ Java & Web Design' },
-                  { val: 'Front End Designed Tools', label: '🎨 Front End Design Tools' },
-                  { val: 'Mathematics - I, II, III, IV', label: '📐 Mathematics - I, II, III, IV' },
-                  { val: 'Linux Environment', label: '🐧 Linux Environment' },
-                  { val: 'E-Commerce', label: '🛒 E-Commerce' },
-                  { val: 'Mobile Computing', label: '📱 Mobile Computing' },
-                  { val: 'Computer Graphics & Multimedia Applications', label: '🖼️ Computer Graphics & Multimedia' },
-                  { val: 'Internet Programming', label: '🌐 Internet Programming' },
-                  { val: '.NET Programming', label: '⚙️ .NET Programming' },
-                  { val: 'Management Information System (MIS)', label: '📊 Management Information System (MIS)' },
-                  { val: 'Business Economics', label: '📈 Business Economics' },
-                  { val: 'Business Communication, Organization & Management', label: '💼 Business Communication' },
-                  { val: 'Basis of Physics', label: '⚡ Basis of Physics' },
-                  { val: 'Financial Accounting', label: '🧾 Financial Accounting' },
-                  { val: 'Foundation Course in English', label: '📚 English Foundation' },
-                  { val: 'Statistical Techniques', label: '📉 Statistical Techniques' },
-                  { val: 'TCP / Protocols', label: '📡 TCP / Protocols' },
-                  { val: 'Interpolation', label: '🔢 Interpolation' },
-                ].map(item => {
-                  const cnt = countMocksByTopic(quizzes.filter(q => q.category === 'part_b' && q.testType !== 'pyp'), item.val);
-                  return (
-                    <option key={item.val} value={item.val}>
-                      {item.label} ({cnt})
-                    </option>
-                  );
-                })}
-              </select>
-            </div>
-          </div>
-          <div className="flex flex-wrap gap-1.5 md:gap-2">
-            {[
-              { id: 'All Topics', full: 'All Topics', short: 'All' },
-              { id: 'Computer Networks', full: 'Computer Networks', short: 'Networks' },
-              { id: 'Operating System', full: 'Operating Systems', short: 'OS' },
-              { id: 'DBMS', full: 'DBMS', short: 'DBMS' },
-              { id: 'Software Engineering', full: 'Software Engineering', short: 'Software Eng.' },
-              { id: 'Programming in C, C++ & Data Structures', full: 'C/C++ & Data Structures', short: 'DS & C++' },
-              { id: 'Digital Electronics', full: 'Digital Electronics', short: 'Digital Elec.' },
-              { id: 'Computer Architecture', full: 'Computer Architecture', short: 'Architecture' }
-            ].map(topicObj => {
-              const count = countMocksByTopic(
-                quizzes.filter(q => q.category === 'part_b' && q.testType !== 'pyp'), 
-                topicObj.id
-              );
+      {/* 1. GRID STRUCTURE FOR ALL 32 CS TOPICS */}
+      {viewMode === 'grid' && (
+        <div className="space-y-4">
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2.5 sm:gap-4">
+            {filteredDoeModules.map(({ module: m, mockCount }) => {
+              const iconType = getModule3dIcon(m.code || '');
+
               return (
-                <button
-                  key={topicObj.id}
-                  onClick={() => {
-                    setCsTopicFilter(topicObj.id);
-                    setVisibleCount(50);
-                  }}
-                  className={`px-2.5 py-1 md:px-3 md:py-1.5 rounded-lg text-xs font-extrabold transition-all cursor-pointer ${
-                    csTopicFilter === topicObj.id
-                      ? 'bg-indigo-100 text-indigo-900 border border-indigo-300 shadow-2xs'
-                      : 'bg-slate-100 hover:bg-slate-200 text-slate-600'
-                  }`}
+                <div
+                  key={m.id}
+                  onClick={() => handleModuleClick(m)}
+                  className="bg-white dark:bg-slate-900 border-2 border-slate-100 dark:border-slate-800 hover:border-indigo-300 dark:hover:border-indigo-600 rounded-2xl sm:rounded-3xl p-3 sm:p-5 shadow-xs hover:shadow-md transition-all flex flex-col justify-between cursor-pointer group hover:-translate-y-1 relative overflow-hidden"
                 >
-                  <span className="sm:hidden">{topicObj.short} ({count})</span>
-                  <span className="hidden sm:inline">{topicObj.full} ({count})</span>
-                </button>
+                  <div className="space-y-2 sm:space-y-3">
+                    <div className="flex items-start justify-between">
+                      <Glass3dIcon type={iconType} size="sm" className="shrink-0 shadow-sm group-hover:scale-105 transition-transform" />
+                      <div className="flex items-center gap-1.5">
+                        <span className="text-[9px] sm:text-[10px] font-black uppercase px-1.5 sm:px-2 py-0.5 rounded-md bg-indigo-50 dark:bg-indigo-950 text-indigo-700 dark:text-indigo-300 border border-indigo-200/60 dark:border-indigo-800/60">
+                          {m.code || 'DOE-CS'}
+                        </span>
+                        <span className="text-[9px] sm:text-[10px] font-black px-1.5 sm:px-2 py-0.5 rounded-md bg-emerald-50 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-300 border border-emerald-200/60 dark:border-emerald-800/60">
+                          {mockCount} Mocks
+                        </span>
+                      </div>
+                    </div>
+
+                    <div>
+                      <h3 className="text-xs sm:text-sm font-black text-slate-900 dark:text-white leading-snug group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors line-clamp-2">
+                        {m.title}
+                      </h3>
+                      {m.description && (
+                        <p className="text-[10px] sm:text-[11px] text-slate-500 dark:text-slate-400 mt-1 line-clamp-2 leading-relaxed hidden sm:block">
+                          {m.description}
+                        </p>
+                      )}
+                    </div>
+                  </div>
+
+                  <div className="mt-3 sm:mt-4 pt-2.5 sm:pt-3 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-xs">
+                    <span className="text-[10px] sm:text-[11px] font-bold text-indigo-600 dark:text-indigo-400 flex items-center gap-1">
+                      <Trophy className="w-3.5 h-3.5" />
+                      <span>Practice Tests</span>
+                    </span>
+                    <span className="text-[10px] sm:text-[11px] font-extrabold text-slate-700 dark:text-slate-300 flex items-center gap-0.5 group-hover:translate-x-0.5 transition-transform">
+                      <span>Open Topic</span>
+                      <ChevronRight className="w-3.5 h-3.5 text-indigo-500" />
+                    </span>
+                  </div>
+                </div>
               );
             })}
           </div>
         </div>
-      </div>
+      )}
 
-      {/* Quiz List Rendering */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
-        {displayedCsQuizzes.length === 0 && (
-          <div className="p-8 text-center bg-slate-50 border border-dashed border-slate-200 rounded-2xl text-slate-500 text-xs font-medium">
-            No Computer Science mock tests found for the selected topic filter.
-          </div>
-        )}
+      {/* 2. FULL MOCK TESTS LIST VIEW */}
+      {viewMode === 'tests' && (
+        <div className="space-y-4">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-4">
+            {displayedCsQuizzes.slice(0, visibleCount).map((quiz, idx) => {
+              const unlocked = isMockUnlocked(quiz.testId, idx);
+              const attempt = pastAttempts.find(a => a.testId === quiz.testId);
+              const isAttempted = !!attempt;
 
-        {displayedCsQuizzes.slice(0, visibleCount).map((quiz, index) => {
-          const unlockStatus = getMockUnlockStatus(index, nowTick);
-          const quizAttempts = pastAttempts.filter(a => a.testId === quiz.testId);
-          const isAttempted = quizAttempts.length > 0;
-          const mockLabel = getMockNumberLabel(quiz, index);
-          const topicBadge = getTopicBadge(quiz);
-          const qCount = getQuestionCount(quiz);
-
-          return (
-            <div 
-              key={quiz.testId} 
-              className="bg-white border-2 border-slate-200/90 hover:border-indigo-500 rounded-2xl p-4 md:p-5 flex flex-col justify-between gap-4 transition-all hover:shadow-md group relative"
-            >
-              {(() => {
-                const diffTag = getDifficultyTag(index);
-                return (
-                  <div className="space-y-2">
-                    <div className="flex items-center gap-1.5 flex-nowrap overflow-x-auto scrollbar-none pb-0.5">
-                      <span className="bg-indigo-600 text-white text-[10px] font-black px-2.5 py-0.5 rounded-md uppercase tracking-wider shrink-0 shadow-2xs">
-                        {mockLabel}
+              return (
+                <div
+                  key={quiz.testId || idx}
+                  className={`bg-white dark:bg-slate-900 border rounded-2xl p-2.5 sm:p-4 flex flex-col justify-between transition-all space-y-2.5 ${
+                    unlocked
+                      ? 'border-slate-200 dark:border-slate-800 hover:border-indigo-300 dark:hover:border-indigo-700 hover:shadow-sm'
+                      : 'border-slate-200/60 dark:border-slate-800/60 bg-slate-50/40 dark:bg-slate-900/40'
+                  }`}
+                >
+                  <div className="space-y-1.5">
+                    <div className="flex items-start justify-between gap-1">
+                      <span className="text-[9px] sm:text-[10px] font-black px-1.5 py-0.5 rounded-md bg-indigo-50 dark:bg-indigo-950 text-indigo-700 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800">
+                        {getMockNumberLabel(quiz, idx)}
                       </span>
-                      <span className="bg-purple-100 text-purple-900 border border-purple-200 text-[10px] font-bold px-2 py-0.5 rounded-md shrink-0 whitespace-nowrap">
-                        📌 {topicBadge}
-                      </span>
-                      <span className={`px-2 py-0.5 rounded-md text-[10px] font-black flex items-center gap-1 border shrink-0 whitespace-nowrap ${diffTag.bg} ${diffTag.text} ${diffTag.border}`}>
-                        <span>{diffTag.icon}</span> {diffTag.label}
-                      </span>
-                      {isAttempted && (
-                        <span className="bg-emerald-100 text-emerald-800 border border-emerald-300 text-[9px] font-black px-2 py-0.5 rounded-md uppercase shrink-0 whitespace-nowrap">
-                          ✅ Attempted ({quizAttempts.length}x)
+                      {isAttempted ? (
+                        <span className="text-[9px] sm:text-[10px] font-black text-emerald-700 bg-emerald-50 dark:bg-emerald-950 px-1.5 py-0.5 rounded-md border border-emerald-200 dark:border-emerald-800">
+                          {Math.round(attempt.percentage)}%
+                        </span>
+                      ) : !unlocked ? (
+                        <span className="text-[9px] sm:text-[10px] font-black text-amber-700 bg-amber-50 dark:bg-amber-950 px-1.5 py-0.5 rounded-md border border-amber-200 dark:border-amber-800 flex items-center gap-0.5">
+                          <Lock className="w-2.5 h-2.5" /> 100🪙
+                        </span>
+                      ) : (
+                        <span className="text-[9px] sm:text-[10px] font-bold text-slate-400">
+                          {getQuestionCount(quiz)} Qs
                         </span>
                       )}
                     </div>
 
-                    <h3 className="font-black text-sm text-slate-900 leading-snug text-center py-2 border-y border-slate-100/80 my-1">{quiz.title}</h3>
+                    <h4 className="text-[11px] sm:text-xs font-black text-slate-900 dark:text-white line-clamp-2 leading-tight">
+                      {quiz.title}
+                    </h4>
                   </div>
-                );
-              })()}
 
-              <div className="pt-3 border-t border-slate-100 flex items-center gap-2 w-full shrink-0">
-                <button
-                  onClick={(e) => onShareQuiz(quiz, e)}
-                  className="px-3 py-2.5 rounded-xl text-xs font-bold transition-all cursor-pointer bg-slate-100 hover:bg-slate-200 text-slate-600 flex items-center gap-1"
-                  title="Share Direct Link"
-                >
-                  <Share2 className="w-3.5 h-3.5 text-slate-500" />
-                </button>
-                {unlockStatus.isUnlocked ? (
-                  <button
-                    onClick={() => onStartQuiz(quiz, index)}
-                    className="flex-1 py-2.5 rounded-xl text-xs font-extrabold transition-all cursor-pointer bg-indigo-600 hover:bg-indigo-700 text-white shadow-xs text-center"
-                  >
-                    {isAttempted ? "Reattempt Test" : "Start Test"}
-                  </button>
-                ) : (
-                  <button
-                    onClick={() => onLockedQuizClick(quiz, unlockStatus)}
-                    className="flex-1 py-2.5 rounded-xl text-xs font-extrabold transition-all cursor-pointer bg-indigo-600 hover:bg-indigo-700 text-white shadow-xs text-center"
-                  >
-                    Unlock Test
-                  </button>
-                )}
-              </div>
-            </div>
-          );
-        })}
+                  <div className="pt-2 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between gap-1.5">
+                    <button
+                      onClick={(e) => onShareQuiz(quiz, e)}
+                      className="p-1 rounded-lg text-slate-400 hover:text-slate-600 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+                      title="Share Mock"
+                    >
+                      <Share2 className="w-3 h-3" />
+                    </button>
 
-        {displayedCsQuizzes.length > visibleCount && (
-          <div className="pt-4 text-center">
-            <button
-              onClick={() => setVisibleCount(prev => prev + 25)}
-              className="bg-indigo-50 hover:bg-indigo-100 text-indigo-700 border border-indigo-200 px-6 py-3 rounded-2xl text-xs font-black transition-all cursor-pointer shadow-2xs hover:shadow-xs"
-            >
-              ⚡ Load More CS Mock Tests ({displayedCsQuizzes.length - visibleCount} remaining)
-            </button>
+                    {unlocked ? (
+                      <button
+                        onClick={() => onStartQuiz(quiz, idx)}
+                        className="flex-1 py-1 px-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-black text-[10px] sm:text-xs transition-all flex items-center justify-center gap-1 shadow-xs cursor-pointer active:scale-95"
+                      >
+                        <Play className="w-3 h-3 fill-current" />
+                        <span>{isAttempted ? 'Re-test' : 'Start'}</span>
+                      </button>
+                    ) : (
+                      <button
+                        onClick={() => onLockedQuizClick(quiz)}
+                        className="flex-1 py-1 px-2 rounded-xl bg-amber-500 hover:bg-amber-600 text-white font-black text-[10px] sm:text-xs transition-all flex items-center justify-center gap-1 shadow-xs cursor-pointer active:scale-95"
+                      >
+                        <Lock className="w-2.5 h-2.5" />
+                        <span>Unlock</span>
+                      </button>
+                    )}
+                  </div>
+                </div>
+              );
+            })}
           </div>
-        )}
-      </div>
 
-      <AdBanner location="tgt_cs_hub_bottom" />
+          {visibleCount < displayedCsQuizzes.length && (
+            <div className="text-center pt-2">
+              <button
+                onClick={() => setVisibleCount(c => c + 30)}
+                className="px-5 py-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-black text-slate-700 dark:text-slate-200 transition-all"
+              >
+                Load More Tests ({displayedCsQuizzes.length - visibleCount} remaining)
+              </button>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Ad Banner */}
+      <AdBanner location="tgt-cs-hub-footer" format="responsive" adSlot="1000000004" />
     </div>
   );
 };
