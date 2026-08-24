@@ -99,7 +99,7 @@ export default function BlogSection({ onOpenArticleId, onCloseArticle, className
   };
 
   return (
-    <section className={`w-full bg-slate-900 text-slate-100 py-10 px-4 sm:px-6 lg:px-8 border-t border-slate-800 font-sans ${className}`} id="blog-knowledge-section">
+    <section className={`w-full bg-slate-900 text-slate-100 py-10 px-4 sm:px-6 lg:px-8 border-t border-slate-800 font-sans hidden md:block ${className}`} id="blog-knowledge-section">
       <div className="max-w-7xl mx-auto space-y-8">
         
         {/* Section Header */}
