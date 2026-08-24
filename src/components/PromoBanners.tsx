@@ -39,6 +39,7 @@ export const DEFAULT_PROMO_BANNERS: PromoBannerConfig[] = [
     gradient: 'from-emerald-600 via-teal-600 to-cyan-600',
     badgeBg: 'bg-white/20 text-white',
     iconType: 'sparkles',
+    hideOnMobile: true,
   },
   {
     id: 'telegram-promo',
@@ -51,6 +52,7 @@ export const DEFAULT_PROMO_BANNERS: PromoBannerConfig[] = [
     gradient: 'from-sky-500 via-blue-600 to-indigo-600',
     badgeBg: 'bg-white/20 text-white',
     iconType: 'telegram',
+    hideOnMobile: true,
   },
   {
     id: 'tgt-cs-promo',
@@ -62,7 +64,6 @@ export const DEFAULT_PROMO_BANNERS: PromoBannerConfig[] = [
     gradient: 'from-amber-500 via-orange-500 to-yellow-600',
     badgeBg: 'bg-slate-900/30 text-amber-100',
     iconType: 'books',
-    hideOnMobile: true,
   },
   {
     id: 'syllabus-promo',
@@ -74,7 +75,6 @@ export const DEFAULT_PROMO_BANNERS: PromoBannerConfig[] = [
     gradient: 'from-indigo-600 via-purple-600 to-sky-600',
     badgeBg: 'bg-white/20 text-white',
     iconType: 'calendar',
-    hideOnMobile: true,
   },
 ];
 

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'dsssbpyq-online-v14';
+const CACHE_NAME = 'dsssbpyq-online-v15';
 const OFFLINE_URL = '/offline.html';
 
 // Assets to precache immediately on installation
