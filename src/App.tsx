@@ -5215,6 +5215,9 @@ export default function App() {
           setTargetLockedQuizForModal(null);
         }}
         targetLockedQuiz={targetLockedQuizForModal}
+        onUnlockSuccess={(unlockedQuiz) => {
+          handleStartTestAttempt(unlockedQuiz, undefined, true);
+        }}
         onMockUnlocked={() => {
           setUserCoins(getUserCoins());
           setShareToastMessage('Mock test unlocked successfully! 🎉');
