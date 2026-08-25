@@ -203,7 +203,7 @@ export default function SyllabusTracker({
     if (isNowChecked) {
       const awarded = rewardSyllabusTopicCompletion(id, title);
       if (awarded) {
-        setRewardToast(`+10 Coins Earned! 🪙 Mastered: ${title}`);
+        setRewardToast(`+5 Coins Earned! 🪙 Mastered: ${title}`);
         setTimeout(() => setRewardToast(null), 3000);
       }
     }

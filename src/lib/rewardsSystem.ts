@@ -51,7 +51,7 @@ export const DEFAULT_INITIAL_COINS = 50;
 export const MOCK_UNLOCK_COST = 100;
 export const QUIZ_ATTEMPT_REWARD = 20;
 export const DAILY_QUIZ_REWARD = 25;
-export const SYLLABUS_TOPIC_REWARD = 15;
+export const SYLLABUS_TOPIC_REWARD = 5;
 export const DAILY_STREAK_REWARD = 20;
 
 // Listeners for real-time reactivity
@@ -341,8 +341,39 @@ export function getAvailableTasks(): RewardTask[] {
       iconType: 'sparkles',
       actionType: 'daily',
       isCompleted: hasClaimedDailyToday()
+    },
+    {
+      id: 'task_watch_ad',
+      title: 'Watch Sponsor Video Ad',
+      description: 'Watch a short 15-second sponsor video to support us & earn free coins.',
+      coins: 20,
+      iconType: 'target',
+      actionType: 'link',
+      isCompleted: hasWatchedAdToday()
     }
   ];
+}
+
+export function hasWatchedAdToday(): boolean {
+  if (typeof window === 'undefined') return false;
+  try {
+    const last = localStorage.getItem('dsssb_last_ad_watch_time');
+    if (!last) return false;
+    const lastDate = new Date(parseInt(last, 10)).toDateString();
+    const today = new Date().toDateString();
+    return lastDate === today;
+  } catch (e) {
+    return false;
+  }
+}
+
+export function recordAdWatch(): boolean {
+  if (hasWatchedAdToday()) return false;
+  try {
+    localStorage.setItem('dsssb_last_ad_watch_time', String(Date.now()));
+  } catch (e) {}
+  addCoins(20, 'Watched Sponsor Ad Video', 'task_completion');
+  return true;
 }
 
 function hasClaimedDailyToday(): boolean {
