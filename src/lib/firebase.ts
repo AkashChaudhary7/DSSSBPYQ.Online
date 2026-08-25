@@ -7,17 +7,9 @@ let app: any = null;
 let db: any = null;
 let isConfigured = false;
 
-// Safe initialization
-if (firebaseConfig && (firebaseConfig as any).apiKey) {
-  try {
-    app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApp();
-    const dbId = (firebaseConfig as any).firestoreDatabaseId;
-    db = dbId ? getFirestore(app, dbId) : getFirestore(app);
-    isConfigured = true;
-  } catch (err) {
-    console.warn("Firebase initialization failed:", err);
-  }
-}
+// Safe initialization (Disabled to use always-free, fast local-only device database storage)
+isConfigured = false;
+db = null;
 
 export { db, isConfigured };
 
