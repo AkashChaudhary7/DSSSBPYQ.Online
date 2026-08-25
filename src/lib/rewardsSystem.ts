@@ -35,7 +35,7 @@ export interface CoinTransaction {
   timestamp: number;
   amount: number; // positive for earn, negative for spend
   reason: string;
-  type: 'mock_unlock' | 'quiz_attempt' | 'score_bonus' | 'task_completion' | 'syllabus_progress' | 'daily_streak' | 'initial_bonus';
+  type: 'mock_unlock' | 'quiz_attempt' | 'score_bonus' | 'task_completion' | 'syllabus_progress' | 'daily_streak' | 'initial_bonus' | 'refund';
 }
 
 const STORAGE_KEYS = {
@@ -418,5 +418,30 @@ export function claimDailyLoginStreak(): { success: boolean; message: string; co
     success: false,
     message: 'Unable to claim daily streak right now.',
     coinsEarned: 0
+  };
+}
+
+/**
+ * Refunds the mock unlock cost if the quiz fails to load.
+ */
+export function refundMockUnlockCoins(testId: string, testTitle: string): { success: boolean; message: string; remainingCoins: number } {
+  const unlocked = getUnlockedMockIds();
+  if (!unlocked.has(testId)) {
+    return { success: false, message: 'Mock was not unlocked, no refund needed.', remainingCoins: getUserCoins() };
+  }
+
+  // Remove from unlocked set
+  unlocked.delete(testId);
+  try {
+    localStorage.setItem(STORAGE_KEYS.UNLOCKED_MOCKS, JSON.stringify(Array.from(unlocked)));
+  } catch (e) {}
+
+  // Refund coins
+  const remaining = addCoins(MOCK_UNLOCK_COST, `Refund: Failed to load ${testTitle}`, 'refund');
+  
+  return {
+    success: true,
+    message: `Refunded ${MOCK_UNLOCK_COST} coins for "${testTitle}"! 🪙`,
+    remainingCoins: remaining
   };
 }

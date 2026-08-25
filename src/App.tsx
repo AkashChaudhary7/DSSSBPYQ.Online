@@ -44,7 +44,7 @@ import MockHistoryView from './components/MockHistoryView';
 import DailyGoalWidget from './components/DailyGoalWidget';
 import { recordQuestionsAnsweredToday } from './lib/dailyGoalTracker';
 import RewardsModal from './components/RewardsModal';
-import { getUserCoins, subscribeToCoins, calculateQuizAttemptReward, isMockUnlocked, MOCK_UNLOCK_COST } from './lib/rewardsSystem';
+import { getUserCoins, subscribeToCoins, calculateQuizAttemptReward, isMockUnlocked, MOCK_UNLOCK_COST, refundMockUnlockCoins } from './lib/rewardsSystem';
 import DataManager from './components/DataManager';
 import ContentHub from './components/ContentHub';
 import SeoPreviewHub from './components/SeoPreviewHub';
@@ -1426,6 +1426,22 @@ export default function App() {
       return activeQuizData;
     } catch (err: any) {
       console.error("Failed to load full quiz:", err);
+      
+      // Refund coins if points/coins get used but Quiz does not open
+      const wasUnlocked = isMockUnlocked(quiz.testId);
+      if (wasUnlocked) {
+        try {
+          const refundRes = refundMockUnlockCoins(quiz.testId, quiz.title);
+          if (refundRes.success) {
+            setUserCoins(refundRes.remainingCoins);
+            alert(`⚠️ Error loading quiz questions: ${err?.message || "JSON structure error"}.\n\nSince this premium mock failed to load correctly, your 100 Coins have been successfully refunded to your balance! 🪙`);
+            throw err;
+          }
+        } catch (refundErr) {
+          console.error("Failed to execute refund:", refundErr);
+        }
+      }
+
       alert("Error loading quiz questions: " + (err?.message || "Please check your internet connection."));
       throw err;
     } finally {

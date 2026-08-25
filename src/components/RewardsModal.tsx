@@ -39,13 +39,15 @@ interface RewardsModalProps {
   onClose: () => void;
   targetLockedQuiz?: Quiz | null;
   onUnlockSuccess?: (quiz: Quiz) => void;
+  onMockUnlocked?: () => void;
 }
 
 export const RewardsModal: React.FC<RewardsModalProps> = ({
   isOpen,
   onClose,
   targetLockedQuiz: initialTargetLockedQuiz,
-  onUnlockSuccess
+  onUnlockSuccess,
+  onMockUnlocked
 }) => {
   const [coins, setCoins] = useState<number>(getUserCoins());
   const [tasks, setTasks] = useState<RewardTask[]>(getAvailableTasks());
@@ -196,6 +198,9 @@ export const RewardsModal: React.FC<RewardsModalProps> = ({
       setClaimToast(res.message);
       if (onUnlockSuccess) {
         onUnlockSuccess(targetLockedQuiz);
+      }
+      if (onMockUnlocked) {
+        onMockUnlocked();
       }
       setTimeout(() => {
         onClose();

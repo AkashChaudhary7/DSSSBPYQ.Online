@@ -37,8 +37,8 @@ export function resolveQuizPath(testId: string, customFile?: string): string[] {
   if (cleanId.includes('dbms') || cleanId.includes('database')) {
     const numMatch = cleanId.match(/(\d+)/);
     const num = numMatch ? numMatch[1] : '1';
+    paths.push(`/Computer/DBMS/DBMS_mock test ${num}.json`);
     paths.push(`/Computer/Database Management System (DBMS)/DBMS Mock ${num}.json`);
-    paths.push(`/Computer/Database Management System (DBMS)/dbms_mock_${num}.json`);
   }
 
   // 4. Programming / DS matching
@@ -59,13 +59,15 @@ export function resolveQuizPath(testId: string, customFile?: string): string[] {
   if (cleanId.includes('general_awareness') || cleanId.includes('ga_mock')) {
     const numMatch = cleanId.match(/(\d+)/);
     const num = numMatch ? numMatch[1] : '1';
+    paths.push(`/General Awareness/General Awareness Mock Test ${num}.json`);
     paths.push(`/General Awareness/General Awareness Mock ${num}.json`);
   }
 
   // 7. Quantitative Aptitude / Mathematics
-  if (cleanId.includes('math') || cleanId.includes('quant')) {
+  if (cleanId.includes('math') || cleanId.includes('quant') || cleanId.includes('arithmetic')) {
     const numMatch = cleanId.match(/(\d+)/);
     const num = numMatch ? numMatch[1] : '1';
+    paths.push(`/Mathematics/Arithmetical and Numerical Ability Mock Test ${num}.json`);
     paths.push(`/Mathematics/Arithmetic & Numerical Ability Mock ${num}.json`);
   }
 
@@ -73,6 +75,7 @@ export function resolveQuizPath(testId: string, customFile?: string): string[] {
   if (cleanId.includes('reasoning')) {
     const numMatch = cleanId.match(/(\d+)/);
     const num = numMatch ? numMatch[1] : '1';
+    paths.push(`/Reasoning/General intelligence and Reasoning Ability Mock Test ${num}.json`);
     paths.push(`/Reasoning/Reasoning Mock ${num}.json`);
   }
 
@@ -91,6 +94,22 @@ export async function loadActiveQuizQuestions(quiz: Quiz): Promise<Quiz> {
   // If questions are already loaded into memory for this active quiz, return it directly
   if (quiz.questions && quiz.questions.length > 0) {
     return quiz;
+  }
+
+  // Check if it is a builtin quiz defined statically in contentIndex
+  try {
+    const { BUILTIN_QUIZZES } = await import('../data/contentIndex');
+    const builtin = BUILTIN_QUIZZES.find(q => q.testId === quiz.testId);
+    if (builtin && builtin.questions && builtin.questions.length > 0) {
+      return {
+        ...quiz,
+        ...builtin,
+        questions: builtin.questions,
+        qCount: builtin.questions.length
+      };
+    }
+  } catch (err) {
+    console.warn(`[QuizLoader] Builtin lookup error for ${quiz.testId}:`, err);
   }
 
   const testId = quiz.testId;
@@ -137,6 +156,10 @@ export async function loadActiveQuizQuestions(quiz: Quiz): Promise<Quiz> {
       for (const p of candidatePaths) {
         const cachedResponse = await cache.match(p);
         if (cachedResponse && cachedResponse.ok) {
+          const contentType = cachedResponse.headers.get('content-type') || '';
+          if (contentType.includes('text/html')) {
+            continue;
+          }
           rawData = await cachedResponse.json();
           if (rawData) break;
         }
@@ -155,6 +178,11 @@ export async function loadActiveQuizQuestions(quiz: Quiz): Promise<Quiz> {
         const response = await fetch(fetchUrl).catch(() => null);
 
         if (response && response.ok) {
+          const contentType = response.headers.get('content-type') || '';
+          if (contentType.includes('text/html')) {
+            // It's the SPA fallback index.html, not a valid quiz JSON file. Skip it!
+            continue;
+          }
           rawData = await response.json();
 
           // Save in Cache API for subsequent instant offline access
