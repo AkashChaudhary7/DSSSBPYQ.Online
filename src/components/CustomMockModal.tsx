@@ -70,39 +70,61 @@ export default function CustomMockModal({
 
       if (selectedSubject.id === 'all') {
         matchingQuizzes = [...allQuizzes];
-      } else if (selectedSubject.category === 'cs') {
-        matchingQuizzes = allQuizzes.filter(q => 
-          q.category === 'part_b' || 
-          selectedSubject.keywords.some(kw => 
-            (q.subject || '').toLowerCase().includes(kw) ||
-            (q.topic || '').toLowerCase().includes(kw) ||
-            (q.title || '').toLowerCase().includes(kw)
-          )
-        );
-      } else if (selectedSubject.category === 'part_a') {
-        matchingQuizzes = allQuizzes.filter(q => 
-          q.category === 'part_a' || 
-          selectedSubject.keywords.some(kw => 
-            (q.subject || '').toLowerCase().includes(kw) ||
-            (q.topic || '').toLowerCase().includes(kw) ||
-            (q.title || '').toLowerCase().includes(kw)
-          )
-        );
+      } else {
+        matchingQuizzes = allQuizzes.filter(q => {
+          const sub = (q.subject || '').toLowerCase();
+          const top = (q.topic || '').toLowerCase();
+          const tit = (q.title || '').toLowerCase();
+          const isCs = sub === 'computer science' || sub === 'tgt cs' || q.category === 'part_b' || tit.includes('computer');
+
+          switch (selectedSubject.id) {
+            case 'cs_all':
+              return (sub === 'computer science' || sub === 'tgt cs' || q.category === 'part_b') && sub !== 'teaching methodology';
+            case 'dbms':
+              return isCs && (tit.includes('dbms') || tit.includes('database') || top.includes('dbms') || top.includes('database'));
+            case 'os':
+              return isCs && (tit.includes('operating system') || tit.includes('os ') || tit.includes('os_') || tit.includes('os mock') || top.includes('operating system') || top.includes('os'));
+            case 'cn':
+              return isCs && (tit.includes('network') || tit.includes('cn ') || tit.includes('cn_') || top.includes('network') || top.includes('cn'));
+            case 'programming':
+              return isCs && (tit.includes('programming') || tit.includes('python') || tit.includes('c++') || tit.includes('java') || tit.includes(' c ') || top.includes('programming') || top.includes('python') || top.includes('c++'));
+            case 'ds':
+              return isCs && (tit.includes('data structure') || tit.includes('algorithm') || tit.includes('daa') || top.includes('data structure') || top.includes('algorithm'));
+            case 'digital_logic':
+              return isCs && (tit.includes('digital') || tit.includes('logic') || tit.includes('gate') || top.includes('digital') || top.includes('logic'));
+            case 'pedagogy':
+              return sub === 'teaching methodology' || tit.includes('pedagogy') || tit.includes('teaching') || top.includes('pedagogy') || top.includes('teaching');
+            case 'english':
+              return sub === 'general english' || sub.includes('english') || tit.includes('english') || top.includes('english');
+            case 'hindi':
+              return sub === 'general hindi' || sub.includes('hindi') || tit.includes('hindi') || top.includes('hindi') || tit.includes('व्याकरण');
+            case 'maths':
+              return sub === 'quantitative aptitude' || sub.includes('quant') || sub.includes('math') || tit.includes('math') || tit.includes('arithmetic') || tit.includes('numerical') || top.includes('math') || top.includes('arithmetic');
+            case 'reasoning':
+              return sub === 'general intelligence & reasoning' || sub.includes('reasoning') || sub.includes('intelligence') || tit.includes('reasoning') || tit.includes('intelligence') || top.includes('reasoning') || top.includes('intelligence');
+            case 'ga':
+              return sub === 'general awareness' || sub.includes('awareness') || sub.includes('gk') || tit.includes('awareness') || tit.includes('gk') || tit.includes('current affairs') || top.includes('awareness') || top.includes('gk');
+            default:
+              return false;
+          }
+        });
       }
 
       if (matchingQuizzes.length === 0) {
-        matchingQuizzes = [...allQuizzes];
+        setErrorMsg(`No test material is available for "${selectedSubject.label}". Please choose another subject.`);
+        setIsGenerating(false);
+        return;
       }
 
       // Shuffle candidate quizzes to get diverse random questions
       const shuffledQuizzes = [...matchingQuizzes].sort(() => Math.random() - 0.5);
-      const candidatesToScan = shuffledQuizzes.slice(0, 15);
 
       const collectedQuestions: Question[] = [];
       const seenQuestionTexts = new Set<string>();
 
-      for (const quizMeta of candidatesToScan) {
-        if (collectedQuestions.length >= questionCount * 2) break;
+      for (const quizMeta of shuffledQuizzes) {
+        // Collect extra to ensure diversity but stop early when we have enough
+        if (collectedQuestions.length >= questionCount * 3) break;
         try {
           const fullQuiz = await loadActiveQuizQuestions(quizMeta);
           if (fullQuiz && fullQuiz.questions && fullQuiz.questions.length > 0) {
@@ -111,48 +133,30 @@ export default function CustomMockModal({
               const qTextNorm = q.question.trim().toLowerCase();
               if (seenQuestionTexts.has(qTextNorm)) continue;
 
-              // Filter question by subject keywords if applicable
-              if (selectedSubject.id !== 'all' && selectedSubject.keywords.length > 0) {
-                const qCombined = `${q.section || ''} ${q.question} ${quizMeta.subject || ''} ${quizMeta.topic || ''}`.toLowerCase();
+              // Filter question strictly by selected subject keywords
+              if (selectedSubject.id !== 'all' && selectedSubject.id !== 'cs_all' && selectedSubject.keywords.length > 0) {
+                const qCombined = `${q.section || ''} ${q.question} ${quizMeta.subject || ''} ${quizMeta.topic || ''} ${quizMeta.title || ''}`.toLowerCase();
                 const matchesKeyword = selectedSubject.keywords.some(kw => qCombined.includes(kw));
-                if (matchesKeyword) {
-                  seenQuestionTexts.add(qTextNorm);
-                  collectedQuestions.push(q);
+                if (!matchesKeyword) {
+                  continue; // Skip out-of-subject question
                 }
-              } else {
-                seenQuestionTexts.add(qTextNorm);
-                collectedQuestions.push(q);
               }
 
-              if (collectedQuestions.length >= questionCount * 2.5) break;
+              seenQuestionTexts.add(qTextNorm);
+              collectedQuestions.push(q);
             }
           }
         } catch (_) {}
       }
 
-      // Fallback: if keyword filtering produced too few questions, fill from candidate quizzes
-      if (collectedQuestions.length < Math.min(questionCount, 5)) {
-        for (const quizMeta of candidatesToScan) {
-          if (collectedQuestions.length >= questionCount) break;
-          try {
-            const fullQuiz = await loadActiveQuizQuestions(quizMeta);
-            if (fullQuiz?.questions) {
-              for (const q of fullQuiz.questions) {
-                if (!q || !q.question) continue;
-                const qTextNorm = q.question.trim().toLowerCase();
-                if (!seenQuestionTexts.has(qTextNorm)) {
-                  seenQuestionTexts.add(qTextNorm);
-                  collectedQuestions.push(q);
-                }
-                if (collectedQuestions.length >= questionCount) break;
-              }
-            }
-          } catch (_) {}
-        }
+      if (collectedQuestions.length === 0) {
+        setErrorMsg(`No questions are available in the system matching "${selectedSubject.label}". Please select another subject.`);
+        setIsGenerating(false);
+        return;
       }
 
-      if (collectedQuestions.length === 0) {
-        setErrorMsg('Unable to load questions for the selected subject. Please pick another subject or select All Combined.');
+      if (collectedQuestions.length < questionCount) {
+        setErrorMsg(`Only ${collectedQuestions.length} questions are available for the selected subject "${selectedSubject.label}". Please change the question count option to a smaller limit (e.g. ${collectedQuestions.length >= 10 ? '10' : collectedQuestions.length} Qs) or choose another subject.`);
         setIsGenerating(false);
         return;
       }
