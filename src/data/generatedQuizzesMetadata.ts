@@ -4082,6 +4082,22 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
     "questions": []
   },
   {
+    "testId": "custom_part_a_blogarticles_5",
+    "title": "BlogArticles",
+    "totalTimeMinutes": 10,
+    "markingScheme": {
+      "correct": 1,
+      "negative": 0.25
+    },
+    "category": "part_a",
+    "subject": "General Awareness",
+    "topic": "General Awareness & Current Affairs",
+    "isPartA": true,
+    "qCount": 5,
+    "file": "/General Awareness/blogArticles.json",
+    "questions": []
+  },
+  {
     "testId": "custom_part_a_hindi_language_and_comprehension_mock_test_1_20",
     "title": "Hindi Language and Comprehension Mock Test 1",
     "totalTimeMinutes": 24,

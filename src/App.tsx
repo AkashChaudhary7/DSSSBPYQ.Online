@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 import { 
   Trophy, BookOpen, Star, AlertCircle, RefreshCw, Zap, Heart, Search, Github, 
   Settings, ChevronRight, Download, Eye, Play, Sparkles, BookMarked, Layers, HelpCircle, ArrowLeft, Volume2, Share2, ClipboardList, XCircle, Send,
-  Trash2, AlertTriangle, ListTodo, CheckSquare, Lock, Clock, Laptop, Building2, Sun, Moon, Database, User, Youtube, SlidersHorizontal, X, Filter, History
+  Trash2, AlertTriangle, ListTodo, CheckSquare, Lock, Clock, Laptop, Building2, Sun, Moon, Database, User, Youtube, SlidersHorizontal, Sliders, X, Filter, History
 } from 'lucide-react';
 
 import { Quiz, Question, Attempt, Bookmark, ActiveQuizSession, ReportedQuestionRecord, OFFICIAL_CS_TOPICS_LIST } from './types';
@@ -49,6 +49,7 @@ import DataManager from './components/DataManager';
 import ContentHub from './components/ContentHub';
 import SeoPreviewHub from './components/SeoPreviewHub';
 import DailyStreakTracker from './components/DailyStreakTracker';
+import CustomMockModal from './components/CustomMockModal';
 import { PartAMockSpecialBanner } from './components/PartAMockSpecialBanner';
 import { Glass3dIcon } from './components/Glass3dIcons';
 import MobileAppInstallModal from './components/MobileAppInstallModal';
@@ -826,6 +827,7 @@ export default function App() {
   const [tgtCsInitialTab, setTgtCsInitialTab] = useState<'part_a' | 'part_b' | 'part_a_full' | 'full'>('part_b');
   const [tgtCsInitialTopic, setTgtCsInitialTopic] = useState<string>('All Topics');
   const [showSubscribeModal, setShowSubscribeModal] = useState<boolean>(false);
+  const [showCustomMockModal, setShowCustomMockModal] = useState<boolean>(false);
 
   // Automated Daily Mock Unlocking System - Live ticker state & modal state
   const [nowTick, setNowTick] = useState<number>(Date.now());
@@ -2623,6 +2625,9 @@ export default function App() {
                     handleStartTestAttempt(dailyOrTopMock);
                   }
                 }}
+                onStartDailyBooster={handleStartDailyBoosterQuiz}
+                hasAttemptedDailyBooster={hasAttemptedDailyBooster}
+                onOpenCustomMock={() => setShowCustomMockModal(true)}
                 className="h-full"
               />
             </div>
@@ -2691,6 +2696,33 @@ export default function App() {
               )}
             </div>
 
+            {/* Custom Mock Builder Quick Launcher Banner */}
+            <div className="flex items-center justify-between gap-3 bg-gradient-to-r from-indigo-950 via-slate-900 to-indigo-900 border-2 border-indigo-800/80 rounded-2xl p-3.5 sm:p-4 text-white shadow-sm">
+              <div className="flex items-center gap-3">
+                <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-indigo-600/60 flex items-center justify-center text-lg shrink-0 border border-indigo-400/30">
+                  ⚡
+                </div>
+                <div>
+                  <h4 className="text-xs sm:text-sm font-black text-white flex items-center gap-1.5">
+                    Custom Practice Mock Builder
+                    <span className="bg-amber-400 text-slate-950 text-[9px] font-black px-1.5 py-0.2 rounded uppercase">
+                      NEW
+                    </span>
+                  </h4>
+                  <p className="text-[10px] sm:text-xs text-indigo-200 font-medium">
+                    Pick subjects (CS Topics, English, Hindi, Maths), question count &amp; timer to start practice!
+                  </p>
+                </div>
+              </div>
+              <button
+                onClick={() => setShowCustomMockModal(true)}
+                className="px-3.5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-black text-xs rounded-xl transition-all cursor-pointer shrink-0 shadow-sm active:scale-95 flex items-center gap-1.5"
+              >
+                <Sliders className="w-3.5 h-3.5" />
+                <span>Build Mock</span>
+              </button>
+            </div>
+
             {/* Part A Mock Sunday Special Banner (Hidden on Mobile) */}
             <PartAMockSpecialBanner
               className="hidden sm:block"
@@ -2706,11 +2738,12 @@ export default function App() {
               }}
             />
 
-            {/* Daily Challenge Streak Tracker & Daily Booster Quiz - BELOW SEARCH */}
+            {/* Daily Challenge Streak Tracker & Daily Booster Quiz (Hidden on Mobile view, merged into Daily Goal card above) */}
             <DailyStreakTracker 
               onStartDailyBooster={handleStartDailyBoosterQuiz} 
               hasAttemptedToday={hasAttemptedDailyBooster} 
               onShareAchievement={() => setShowAchievementModal(true)}
+              className="hidden sm:block"
             />
 
             {dashboardSearchQuery ? (
@@ -5137,6 +5170,16 @@ export default function App() {
       <SubscribeBannerModal
         isOpen={showSubscribeModal}
         onClose={() => setShowSubscribeModal(false)}
+      />
+
+      {/* Custom Mock Builder Modal */}
+      <CustomMockModal
+        isOpen={showCustomMockModal}
+        onClose={() => setShowCustomMockModal(false)}
+        allQuizzes={allCombinedQuizzes}
+        onStartCustomQuiz={(customQuiz) => {
+          handleStartTestAttempt(customQuiz);
+        }}
       />
 
       {/* Admin Reported Questions Audit Tracker Modal */}

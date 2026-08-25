@@ -7,6 +7,7 @@ interface DailyStreakTrackerProps {
   onStartDailyBooster: () => void;
   hasAttemptedToday: boolean;
   onShareAchievement?: () => void;
+  className?: string;
 }
 
 interface DayStatus {
@@ -17,7 +18,7 @@ interface DayStatus {
   isCompleted: boolean;
 }
 
-export default function DailyStreakTracker({ onStartDailyBooster, hasAttemptedToday, onShareAchievement }: DailyStreakTrackerProps) {
+export default function DailyStreakTracker({ onStartDailyBooster, hasAttemptedToday, onShareAchievement, className = '' }: DailyStreakTrackerProps) {
   const [streakCount, setStreakCount] = useState<number>(0);
   const [weeklyDays, setWeeklyDays] = useState<DayStatus[]>([]);
   const [completedTodayState, setCompletedTodayState] = useState<boolean>(hasAttemptedToday);
@@ -114,7 +115,7 @@ export default function DailyStreakTracker({ onStartDailyBooster, hasAttemptedTo
       initial={{ opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.35, delay: 0.14 }}
-      className="glass-box backdrop-blur-xl bg-gradient-to-br from-amber-500/10 via-orange-500/5 to-rose-500/10 border-2 border-amber-300/70 dark:border-amber-700/60 rounded-2xl md:rounded-3xl p-4 sm:p-5 md:p-6 shadow-xl relative overflow-hidden space-y-4"
+      className={`glass-box backdrop-blur-xl bg-gradient-to-br from-amber-500/10 via-orange-500/5 to-rose-500/10 border-2 border-amber-300/70 dark:border-amber-700/60 rounded-2xl md:rounded-3xl p-4 sm:p-5 md:p-6 shadow-xl relative overflow-hidden space-y-4 ${className}`}
     >
       {/* Background Accent Glow */}
       <div className="absolute top-0 right-0 w-48 h-48 bg-gradient-to-br from-orange-400/10 to-amber-500/0 rounded-full blur-2xl pointer-events-none" />
