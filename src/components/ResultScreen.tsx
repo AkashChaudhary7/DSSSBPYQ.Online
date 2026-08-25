@@ -4,7 +4,7 @@ import { Trophy, RefreshCw, Star, CheckCircle, XCircle, Share2, Download, AlertC
 import { generateQuizPdf } from '../lib/pdfGenerator';
 import { trackQuizComplete, trackPageView, trackPdfDownload } from '../lib/analytics';
 import { cleanOptionText } from '../lib/formatText';
-import { getUserCoins } from '../lib/rewardsSystem';
+import { getUserCoins, QUIZ_ATTEMPT_REWARD, DAILY_QUIZ_REWARD } from '../lib/rewardsSystem';
 
 interface ResultScreenProps {
   quiz: Quiz;
@@ -393,20 +393,20 @@ export default function ResultScreen({
           }
 
           const isDaily = quiz.testId?.startsWith('daily_quiz_') || quiz.testId?.startsWith('booster_') || quiz.subject === 'Daily Quiz' || quiz.topic === 'Daily Challenge';
-          const baseEarned = isDaily ? 25 : 20;
+          const baseEarned = isDaily ? DAILY_QUIZ_REWARD : QUIZ_ATTEMPT_REWARD;
           let bonusEarned = 0;
           let bonusTag = '';
           if (accuracy >= 90) {
-            bonusEarned = 50;
+            bonusEarned = 10;
             bonusTag = 'Ranker Mastery Bonus (≥90% Accuracy)';
           } else if (accuracy >= 80) {
-            bonusEarned = 35;
+            bonusEarned = 7;
             bonusTag = 'High Accuracy Bonus (≥80% Accuracy)';
           } else if (accuracy >= 70) {
-            bonusEarned = 20;
+            bonusEarned = 5;
             bonusTag = 'Great Accuracy Bonus (≥70% Accuracy)';
           } else if (accuracy >= 50) {
-            bonusEarned = 10;
+            bonusEarned = 3;
             bonusTag = 'Good Accuracy Bonus (≥50% Accuracy)';
           }
           const totalEarned = baseEarned + bonusEarned;

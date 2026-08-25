@@ -203,7 +203,7 @@ export default function SyllabusTracker({
     if (isNowChecked) {
       const awarded = rewardSyllabusTopicCompletion(id, title);
       if (awarded) {
-        setRewardToast(`+5 Coins Earned! 🪙 Mastered: ${title}`);
+        setRewardToast(`+1 Coin Earned! 🪙 Mastered: ${title}`);
         setTimeout(() => setRewardToast(null), 3000);
       }
     }
@@ -343,7 +343,7 @@ export default function SyllabusTracker({
 
         <div className="flex items-center gap-2">
           <span className="text-xs font-bold text-emerald-600 bg-emerald-50 dark:bg-emerald-950 px-2.5 py-1 rounded-xl border border-emerald-200 dark:border-emerald-800">
-            🪙 +10 Coins per Topic Completed
+            🪙 +1 Coin per Topic Completed
           </span>
         </div>
       </div>

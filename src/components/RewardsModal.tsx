@@ -636,19 +636,19 @@ export const RewardsModal: React.FC<RewardsModalProps> = ({
                   </h5>
                   <ul className="space-y-2 list-disc pl-4 text-slate-600 dark:text-slate-300 font-medium">
                     <li><strong>All Mocks Locked by Default:</strong> Every CBT Mock Test &amp; Custom Mock requires <strong>100 Coins</strong> to unlock (permanent unlock).</li>
-                    <li><strong>Welcome Starter Balance:</strong> Every new candidate receives <strong>50 Coins</strong> immediately upon registration.</li>
-                    <li><strong>Syllabus Mastery:</strong> Check-marking syllabus topics as finished rewards <strong>+5 Coins</strong> each (reduced from +10 for optimal economy balancing).</li>
-                    <li><strong>Sponsor Ad Rewards:</strong> Watch a sponsor video once daily to earn <strong>+20 Coins</strong> instantly.</li>
+                    <li><strong>Welcome Starter Balance:</strong> Every new candidate receives <strong>10 Coins</strong> immediately upon registration.</li>
+                    <li><strong>Syllabus Mastery:</strong> Check-marking syllabus topics as finished rewards <strong>+1 Coin</strong> each (aligned with optimal economy balancing).</li>
+                    <li><strong>Sponsor Ad Rewards:</strong> Watch unlimited sponsor video ads to earn <strong>+25 Coins</strong> instantly every time.</li>
                     <li><strong>Task Verification Enforced:</strong> All reward tasks (Telegram, YouTube, Web App install) are fully checked with anti-cheat audit before granting coins.</li>
-                    <li><strong>Attempt Daily Quizzes:</strong> Earn <strong>+25 Coins</strong> on your first attempt of any daily booster quiz.</li>
-                    <li><strong>Daily Check-In Streak:</strong> Claim <strong>+20 Coins</strong> every single day.</li>
+                    <li><strong>Attempt Daily Quizzes:</strong> Earn <strong>+3 Coins</strong> on your first attempt of any daily booster quiz.</li>
+                    <li><strong>Daily Check-In Streak:</strong> Claim <strong>+2 Coins</strong> every single day.</li>
                     <li><strong>High Accuracy Performance Bonuses on Mocks:</strong>
                       <ul className="list-circle pl-4 mt-1 space-y-0.5 text-slate-500 dark:text-slate-400">
-                        <li>🏆 <strong>≥90% Accuracy:</strong> +50 Bonus Coins (Total 70 Coins per mock!)</li>
-                        <li>⭐ <strong>≥80% Accuracy:</strong> +35 Bonus Coins (Total 55 Coins per mock!)</li>
-                        <li>🎯 <strong>≥70% Accuracy:</strong> +20 Bonus Coins (Total 40 Coins per mock!)</li>
-                        <li>💡 <strong>≥50% Accuracy:</strong> +10 Bonus Coins (Total 30 Coins per mock!)</li>
-                        <li>📝 <strong>&lt;50% Accuracy:</strong> +20 Base Participation Coins.</li>
+                        <li>🏆 <strong>≥90% Accuracy:</strong> +10 Bonus Coins (Total 12 Coins per mock!)</li>
+                        <li>⭐ <strong>≥80% Accuracy:</strong> +7 Bonus Coins (Total 9 Coins per mock!)</li>
+                        <li>🎯 <strong>≥70% Accuracy:</strong> +5 Bonus Coins (Total 7 Coins per mock!)</li>
+                        <li>💡 <strong>≥50% Accuracy:</strong> +3 Bonus Coins (Total 5 Coins per mock!)</li>
+                        <li>📝 <strong>&lt;50% Accuracy:</strong> +2 Base Participation Coins.</li>
                       </ul>
                     </li>
                   </ul>
