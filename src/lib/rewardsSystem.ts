@@ -47,12 +47,12 @@ const STORAGE_KEYS = {
   CLAIMED_SYLLABUS_ITEMS: 'dsssb_claimed_syllabus_coins'
 };
 
-export const DEFAULT_INITIAL_COINS = 50;
+export const DEFAULT_INITIAL_COINS = 10;
 export const MOCK_UNLOCK_COST = 100;
-export const QUIZ_ATTEMPT_REWARD = 20;
-export const DAILY_QUIZ_REWARD = 25;
-export const SYLLABUS_TOPIC_REWARD = 5;
-export const DAILY_STREAK_REWARD = 20;
+export const QUIZ_ATTEMPT_REWARD = 2;
+export const DAILY_QUIZ_REWARD = 3;
+export const SYLLABUS_TOPIC_REWARD = 1;
+export const DAILY_STREAK_REWARD = 2;
 
 // Listeners for real-time reactivity
 type CoinChangeListener = (coins: number) => void;
@@ -216,16 +216,16 @@ export function calculateQuizAttemptReward(
   let bonusReason = '';
 
   if (percentage >= 90) {
-    bonusCoins = 50;
+    bonusCoins = 10;
     bonusReason = 'Ranker Mastery Bonus (≥90% Accuracy)';
   } else if (percentage >= 80) {
-    bonusCoins = 35;
+    bonusCoins = 7;
     bonusReason = 'High Accuracy Bonus (≥80% Accuracy)';
   } else if (percentage >= 70) {
-    bonusCoins = 20;
+    bonusCoins = 5;
     bonusReason = 'Great Performance Bonus (≥70% Accuracy)';
   } else if (percentage >= 50) {
-    bonusCoins = 10;
+    bonusCoins = 3;
     bonusReason = 'Good Accuracy Bonus (≥50% Accuracy)';
   } else {
     bonusCoins = 0;
@@ -308,7 +308,7 @@ export function getAvailableTasks(): RewardTask[] {
       id: 'task_telegram',
       title: 'Join Official Telegram Channel',
       description: 'Get daily DSSSB PYQ updates, PDFs, exam dates, and discussion groups.',
-      coins: 50,
+      coins: 5,
       iconType: 'telegram',
       link: 'https://t.me/byteprep_cs',
       actionType: 'link',
@@ -318,7 +318,7 @@ export function getAvailableTasks(): RewardTask[] {
       id: 'task_youtube',
       title: 'Subscribe YouTube Channel',
       description: 'Watch video lectures, topic breakdowns, and marathon live sessions.',
-      coins: 50,
+      coins: 5,
       iconType: 'youtube',
       link: 'https://www.youtube.com/@BytePrepCS',
       actionType: 'link',
@@ -328,7 +328,7 @@ export function getAvailableTasks(): RewardTask[] {
       id: 'task_install_app',
       title: 'Install BytePrep CS App',
       description: 'Add BytePrep to your home screen or install the app for instant offline access.',
-      coins: 50,
+      coins: 5,
       iconType: 'rocket',
       actionType: 'install',
       isCompleted: claimed.has('task_install_app')
@@ -337,7 +337,7 @@ export function getAvailableTasks(): RewardTask[] {
       id: 'task_daily_streak',
       title: 'Daily Practice Check-In',
       description: 'Visit daily and maintain your streak to keep your knowledge razor sharp.',
-      coins: 20,
+      coins: 2,
       iconType: 'sparkles',
       actionType: 'daily',
       isCompleted: hasClaimedDailyToday()
@@ -345,34 +345,25 @@ export function getAvailableTasks(): RewardTask[] {
     {
       id: 'task_watch_ad',
       title: 'Watch Sponsor Video Ad',
-      description: 'Watch a short 15-second sponsor video to support us & earn free coins.',
-      coins: 20,
+      description: 'Watch a short 15-second sponsor video to earn free coins. (Unlimited & Repeatable!)',
+      coins: 25,
       iconType: 'target',
       actionType: 'link',
-      isCompleted: hasWatchedAdToday()
+      isCompleted: false
     }
   ];
 }
 
 export function hasWatchedAdToday(): boolean {
-  if (typeof window === 'undefined') return false;
-  try {
-    const last = localStorage.getItem('dsssb_last_ad_watch_time');
-    if (!last) return false;
-    const lastDate = new Date(parseInt(last, 10)).toDateString();
-    const today = new Date().toDateString();
-    return lastDate === today;
-  } catch (e) {
-    return false;
-  }
+  // Always return false to allow unlimited ad rewards for unlocking premium mock tests
+  return false;
 }
 
 export function recordAdWatch(): boolean {
-  if (hasWatchedAdToday()) return false;
   try {
     localStorage.setItem('dsssb_last_ad_watch_time', String(Date.now()));
   } catch (e) {}
-  addCoins(20, 'Watched Sponsor Ad Video', 'task_completion');
+  addCoins(25, 'Watched Sponsor Ad Video', 'task_completion');
   return true;
 }
 

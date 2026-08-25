@@ -181,10 +181,25 @@ export const RewardsModal: React.FC<RewardsModalProps> = ({
     if (ok) {
       setCoins(getUserCoins());
       setTasks(getAvailableTasks());
-      setClaimToast('Claimed +20 Coins for watching Sponsor Ad! 🪙');
+      setClaimToast('Claimed +25 Coins for watching Sponsor Ad! 🪙');
       setTimeout(() => setClaimToast(null), 3500);
     }
     setVerifyingTask(null);
+  };
+
+  const watchAdFromUnlockScreen = () => {
+    const adTask: RewardTask = {
+      id: 'task_watch_ad',
+      title: 'Watch Sponsor Video Ad',
+      description: 'Watch a short 15-second sponsor video to earn free coins. (Unlimited & Repeatable!)',
+      coins: 25,
+      iconType: 'target',
+      actionType: 'link',
+      isCompleted: false
+    };
+    setVerifyingTask(adTask);
+    setVerifyingStep('verifying');
+    setAdCountdown(15);
   };
 
   const handleUnlockTest = () => {
@@ -217,91 +232,7 @@ export const RewardsModal: React.FC<RewardsModalProps> = ({
     <div className="fixed inset-0 z-50 bg-black/75 backdrop-blur-md flex items-center justify-center p-3 sm:p-4 overflow-y-auto animate-fadeIn">
       
       {/* 1. COMPACT LOCKED MOCK VIEW: Shown only when targetLockedQuiz is active */}
-      {targetLockedQuiz ? (
-        <div className="bg-white dark:bg-slate-900 max-w-md w-full rounded-3xl border-2 border-indigo-200 dark:border-indigo-900/60 shadow-2xl overflow-hidden my-auto p-5 sm:p-6 space-y-5 text-center relative">
-          
-          <button
-            onClick={onClose}
-            className="absolute right-4 top-4 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 text-slate-500 dark:text-slate-400 p-2 rounded-full transition-colors cursor-pointer"
-            aria-label="Close modal"
-          >
-            <X className="w-4 h-4" />
-          </button>
-
-          <div className="mx-auto w-16 h-16 rounded-2xl bg-amber-100 dark:bg-amber-950/60 flex items-center justify-center text-amber-500 animate-pulse">
-            <Lock className="w-8 h-8" />
-          </div>
-
-          <div className="space-y-1">
-            <span className="text-[10px] font-black uppercase tracking-wider text-indigo-600 dark:text-indigo-400">
-              Premium Mock CBT Test
-            </span>
-            <h4 className="text-base sm:text-lg font-black text-slate-900 dark:text-white leading-snug px-3">
-              {targetLockedQuiz.title}
-            </h4>
-          </div>
-
-          {/* Balance comparison info */}
-          <div className="bg-slate-50 dark:bg-slate-800/60 border border-slate-200/60 dark:border-slate-800 rounded-2xl p-3.5 flex items-center justify-around text-xs">
-            <div className="text-center">
-              <div className="text-slate-400 font-bold uppercase text-[9px] tracking-wider">Required Cost</div>
-              <div className="text-amber-500 font-extrabold text-lg mt-0.5">100 Coins</div>
-            </div>
-            <div className="h-8 w-[1px] bg-slate-200 dark:bg-slate-800" />
-            <div className="text-center">
-              <div className="text-slate-400 font-bold uppercase text-[9px] tracking-wider">Your Balance</div>
-              <div className={`font-extrabold text-lg mt-0.5 ${coins >= 100 ? 'text-emerald-500' : 'text-rose-500'}`}>
-                {coins} Coins
-              </div>
-            </div>
-          </div>
-
-          {coins >= MOCK_UNLOCK_COST ? (
-            <div className="space-y-2">
-              <button
-                onClick={handleUnlockTest}
-                disabled={isUnlocking}
-                className="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white font-black text-xs transition-all flex items-center justify-center gap-2 shadow-md cursor-pointer active:scale-98"
-              >
-                <Unlock className="w-4 h-4" />
-                <span>Unlock Now (-100 Coins) 🔓</span>
-              </button>
-              <p className="text-[10px] text-slate-400 font-medium">
-                Unlocks are permanent. Balance after unlock: {coins - MOCK_UNLOCK_COST} coins.
-              </p>
-            </div>
-          ) : (
-            <div className="space-y-3.5 pt-1">
-              <div className="p-3 bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-900 text-rose-800 dark:text-rose-200 rounded-xl text-xs font-semibold flex items-start gap-2.5 text-left">
-                <AlertCircle className="w-4 h-4 text-rose-500 shrink-0 mt-0.5" />
-                <span>
-                  <strong>Not enough coins!</strong> You need {MOCK_UNLOCK_COST - coins} more coins to unlock this mock. Please complete rewards tasks to earn free coins!
-                </span>
-              </div>
-
-              <div className="flex gap-2">
-                <button
-                  onClick={() => {
-                    // Instantly switch targetLockedQuiz state to null to open the regular Task View
-                    setTargetLockedQuiz(null);
-                    setActiveTab('tasks');
-                  }}
-                  className="flex-1 py-2.5 px-4 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-black text-xs transition-all flex items-center justify-center gap-1.5 shadow-sm cursor-pointer"
-                >
-                  <Trophy className="w-3.5 h-3.5" />
-                  <span>Go to Earn Tasks</span>
-                </button>
-                <button
-                  onClick={onClose}
-                  className="py-2.5 px-4 rounded-xl border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-300 font-bold text-xs hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer"
-                >
-                  Cancel
-                </button>
-              </div>
-            </div>
-          )}
-        </div>
-      ) : verifyingTask ? (
+      {verifyingTask ? (
         
         /* 2. TASK INTERACTIVE VERIFICATION OVERLAY (Prevents simple clicking) */
         <div className="bg-white dark:bg-slate-900 max-w-md w-full rounded-3xl border-2 border-indigo-400 dark:border-indigo-900/80 shadow-2xl overflow-hidden my-auto p-5 sm:p-6 space-y-4">
@@ -347,7 +278,7 @@ export const RewardsModal: React.FC<RewardsModalProps> = ({
                       <Clock className="w-4 h-4" /> Sponsor Video is Playing ({adCountdown}s)
                     </span>
                     <p className="text-[10px] text-slate-500 font-medium leading-normal">
-                      Do not close this window. Your 🪙 20 coins will be awarded in {adCountdown} seconds.
+                      Do not close this window. Your 🪙 25 coins will be awarded in {adCountdown} seconds.
                     </p>
                   </div>
                 </div>
@@ -364,7 +295,7 @@ export const RewardsModal: React.FC<RewardsModalProps> = ({
                     onClick={claimAdCoins}
                     className="w-full py-2.5 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-black text-xs transition-all shadow-md cursor-pointer active:scale-95"
                   >
-                    Claim +20 Coins Now 🪙
+                    Claim +25 Coins Now 🪙
                   </button>
                 </div>
               )}
@@ -470,6 +401,101 @@ export const RewardsModal: React.FC<RewardsModalProps> = ({
                 </div>
               )}
 
+            </div>
+          )}
+        </div>
+      ) : targetLockedQuiz ? (
+        
+        /* 1. COMPACT LOCKED MOCK VIEW: Shown only when targetLockedQuiz is active */
+        <div className="bg-white dark:bg-slate-900 max-w-md w-full rounded-3xl border-2 border-indigo-200 dark:border-indigo-900/60 shadow-2xl overflow-hidden my-auto p-5 sm:p-6 space-y-5 text-center relative">
+          
+          <button
+            onClick={onClose}
+            className="absolute right-4 top-4 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 text-slate-500 dark:text-slate-400 p-2 rounded-full transition-colors cursor-pointer"
+            aria-label="Close modal"
+          >
+            <X className="w-4 h-4" />
+          </button>
+
+          <div className="mx-auto w-16 h-16 rounded-2xl bg-amber-100 dark:bg-amber-950/60 flex items-center justify-center text-amber-500 animate-pulse">
+            <Lock className="w-8 h-8" />
+          </div>
+
+          <div className="space-y-1">
+            <span className="text-[10px] font-black uppercase tracking-wider text-indigo-600 dark:text-indigo-400">
+              Premium Mock CBT Test
+            </span>
+            <h4 className="text-base sm:text-lg font-black text-slate-900 dark:text-white leading-snug px-3">
+              {targetLockedQuiz.title}
+            </h4>
+          </div>
+
+          {/* Balance comparison info */}
+          <div className="bg-slate-50 dark:bg-slate-800/60 border border-slate-200/60 dark:border-slate-800 rounded-2xl p-3.5 flex items-center justify-around text-xs">
+            <div className="text-center">
+              <div className="text-slate-400 font-bold uppercase text-[9px] tracking-wider">Required Cost</div>
+              <div className="text-amber-500 font-extrabold text-lg mt-0.5">100 Coins</div>
+            </div>
+            <div className="h-8 w-[1px] bg-slate-200 dark:bg-slate-800" />
+            <div className="text-center">
+              <div className="text-slate-400 font-bold uppercase text-[9px] tracking-wider">Your Balance</div>
+              <div className={`font-extrabold text-lg mt-0.5 ${coins >= 100 ? 'text-emerald-500' : 'text-rose-500'}`}>
+                {coins} Coins
+              </div>
+            </div>
+          </div>
+
+          {coins >= MOCK_UNLOCK_COST ? (
+            <div className="space-y-2">
+              <button
+                onClick={handleUnlockTest}
+                disabled={isUnlocking}
+                className="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white font-black text-xs transition-all flex items-center justify-center gap-2 shadow-md cursor-pointer active:scale-98"
+              >
+                <Unlock className="w-4 h-4" />
+                <span>Unlock Now (-100 Coins) 🔓</span>
+              </button>
+              <p className="text-[10px] text-slate-400 font-medium">
+                Unlocks are permanent. Balance after unlock: {coins - MOCK_UNLOCK_COST} coins.
+              </p>
+            </div>
+          ) : (
+            <div className="space-y-3.5 pt-1">
+              <div className="p-3 bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-900 text-rose-800 dark:text-rose-200 rounded-xl text-xs font-semibold flex items-start gap-2.5 text-left">
+                <AlertCircle className="w-4 h-4 text-rose-500 shrink-0 mt-0.5" />
+                <span>
+                  <strong>Not enough coins!</strong> You need {MOCK_UNLOCK_COST - coins} more coins to unlock this mock. Complete tasks or watch Sponsor Video Ads to earn free coins!
+                </span>
+              </div>
+
+              {/* Directly Watch Sponsor Ad shortcut */}
+              <button
+                onClick={watchAdFromUnlockScreen}
+                className="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 hover:from-amber-600 hover:via-orange-650 hover:to-amber-700 text-white font-black text-xs transition-all flex items-center justify-center gap-2 shadow-md cursor-pointer active:scale-95 animate-bounce"
+              >
+                <Tv className="w-4 h-4 text-white shrink-0" />
+                <span>Watch Sponsor Ad (+25 Coins) 📺</span>
+              </button>
+
+              <div className="flex gap-2">
+                <button
+                  onClick={() => {
+                    // Instantly switch targetLockedQuiz state to null to open the regular Task View
+                    setTargetLockedQuiz(null);
+                    setActiveTab('tasks');
+                  }}
+                  className="flex-1 py-2.5 px-4 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-black text-xs transition-all flex items-center justify-center gap-1.5 shadow-sm cursor-pointer"
+                >
+                  <Trophy className="w-3.5 h-3.5" />
+                  <span>Go to Earn Tasks</span>
+                </button>
+                <button
+                  onClick={onClose}
+                  className="py-2.5 px-4 rounded-xl border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-300 font-bold text-xs hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer"
+                >
+                  Cancel
+                </button>
+              </div>
             </div>
           )}
         </div>
