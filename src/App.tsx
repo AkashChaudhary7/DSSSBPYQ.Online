@@ -63,11 +63,11 @@ const LazyViewFallback = () => (
   </div>
 );
 
-// Mobile App Download Gate configuration flag (currently turned off)
-const ENABLE_MOBILE_APP_GATE = false;
+// Mobile App Download Gate configuration flag (enabled for mobile lock)
+const ENABLE_MOBILE_APP_GATE = true;
 
 export default function App() {
-  // Mobile App Download Gate state (disabled as of now)
+  // Mobile App Download Gate state
   const [showMobileGate, setShowMobileGate] = useState<boolean>(() => {
     if (!ENABLE_MOBILE_APP_GATE) return false;
     if (typeof window === 'undefined') return false;
@@ -84,16 +84,25 @@ export default function App() {
       return;
     }
     if (typeof window === 'undefined') return;
-    const pathname = window.location.pathname.toLowerCase();
-    if (pathname === '/app-ads.txt' || pathname === '/ads.txt') {
-      setShowMobileGate(false);
-      return;
-    }
-    if (isCrawler() || isNativeApp()) {
-      setShowMobileGate(false);
-      return;
-    }
-    setShowMobileGate(checkIsMobileDevice());
+
+    const evaluateMobileGate = () => {
+      const pathname = window.location.pathname.toLowerCase();
+      if (pathname === '/app-ads.txt' || pathname === '/ads.txt') {
+        setShowMobileGate(false);
+        return;
+      }
+      if (isCrawler() || isNativeApp()) {
+        setShowMobileGate(false);
+        return;
+      }
+      setShowMobileGate(checkIsMobileDevice());
+    };
+
+    evaluateMobileGate();
+    window.addEventListener('resize', evaluateMobileGate);
+    return () => {
+      window.removeEventListener('resize', evaluateMobileGate);
+    };
   }, []);
 
   // Helper to extract exam slug from URL (e.g., /syllabus/tgt-computer-science)

@@ -1,11 +1,13 @@
-import React, { useEffect } from 'react';
-import { Smartphone, Zap, Target, ShieldCheck, CheckCircle2, ArrowRight } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
+import { Smartphone, Zap, Target, ShieldCheck, ArrowRight, Lock, ExternalLink } from 'lucide-react';
 import { isIOS } from '../lib/deviceDetection';
 
 export const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=online.dsssbpyq.twa';
 
 export default function MobileAppGate() {
   const isIosDevice = isIOS();
+  const [countdown, setCountdown] = useState<number>(3);
+  const [hasRedirected, setHasRedirected] = useState<boolean>(false);
 
   useEffect(() => {
     // Disable body scroll while mobile app gate is active
@@ -20,10 +22,22 @@ export default function MobileAppGate() {
     };
   }, []);
 
-  const handleDownloadClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    // Open Google Play Store externally
-    e.preventDefault();
-    window.open(PLAY_STORE_URL, '_blank', 'noopener,noreferrer');
+  useEffect(() => {
+    // Auto-redirect to Google Play Store after 3-second countdown on mobile view
+    if (countdown > 0) {
+      const timer = setTimeout(() => {
+        setCountdown(prev => prev - 1);
+      }, 1000);
+      return () => clearTimeout(timer);
+    } else if (!hasRedirected) {
+      setHasRedirected(true);
+      window.location.href = PLAY_STORE_URL;
+    }
+  }, [countdown, hasRedirected]);
+
+  const handleDownloadClick = (e?: React.MouseEvent<HTMLAnchorElement | HTMLButtonElement>) => {
+    if (e) e.preventDefault();
+    window.location.href = PLAY_STORE_URL;
   };
 
   return (
@@ -43,21 +57,26 @@ export default function MobileAppGate() {
 
       {/* Top Header / Branding */}
       <header className="flex flex-col items-center text-center space-y-3 pt-2">
-        {/* App Logo Icon */}
-        <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-blue-600 via-indigo-600 to-slate-900 p-0.5 shadow-2xl shadow-blue-500/30 flex items-center justify-center">
-          <div className="w-full h-full bg-slate-950/90 rounded-[14px] flex items-center justify-center border border-blue-500/30">
-            <Smartphone className="w-8 h-8 sm:w-10 sm:h-10 text-blue-400 animate-pulse" />
+        {/* App Logo Icon with Lock Badge */}
+        <div className="relative">
+          <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-blue-600 via-indigo-600 to-slate-900 p-0.5 shadow-2xl shadow-blue-500/30 flex items-center justify-center">
+            <div className="w-full h-full bg-slate-950/90 rounded-[14px] flex items-center justify-center border border-blue-500/30">
+              <Smartphone className="w-8 h-8 sm:w-10 sm:h-10 text-blue-400 animate-pulse" />
+            </div>
+          </div>
+          <div className="absolute -bottom-1 -right-1 bg-amber-500 text-slate-950 p-1 rounded-full shadow-lg border-2 border-slate-950">
+            <Lock className="w-3.5 h-3.5 font-bold" />
           </div>
         </div>
 
         {/* Brand Name */}
         <div className="space-y-1">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-950/80 border border-blue-500/30 text-blue-300 text-[10px] font-extrabold uppercase tracking-widest shadow-inner">
-            <span className="w-1.5 h-1.5 rounded-full bg-blue-400 animate-ping" />
-            DSSSBPYQ.Online
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-950/80 border border-amber-500/40 text-amber-300 text-[10px] font-extrabold uppercase tracking-widest shadow-inner">
+            <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-ping" />
+            MOBILE VIEW LOCKED
           </div>
           <h1 id="mobile-gate-heading" className="text-xl sm:text-2xl font-black text-white tracking-tight">
-            Get the Better Experience with Our App
+            Use Official Play Store App
           </h1>
         </div>
       </header>
@@ -65,14 +84,21 @@ export default function MobileAppGate() {
       {/* Center Body & Value Proposition */}
       <main className="my-auto py-6 space-y-6 max-w-sm mx-auto w-full">
         {/* Main message */}
-        <div className="bg-slate-900/90 border border-slate-800/90 rounded-2xl p-5 shadow-xl space-y-3 backdrop-blur-md">
-          <p className="text-xs sm:text-sm text-slate-300 leading-relaxed font-medium text-center">
-            Download the <strong className="text-white font-extrabold">DSSSBPYQ</strong> app for a faster, smoother and more convenient exam preparation experience.
+        <div className="bg-slate-900/90 border border-slate-800/90 rounded-2xl p-5 shadow-xl space-y-3 backdrop-blur-md text-center">
+          <p className="text-xs sm:text-sm text-slate-300 leading-relaxed font-medium">
+            Mobile web access is locked. Please open or install the official <strong className="text-white font-extrabold">BytePrep DSSSBPYQ</strong> Android app from Google Play Store for best performance.
           </p>
+          
           <div className="h-px bg-slate-800 w-full" />
-          <p className="text-[11px] sm:text-xs text-slate-400 leading-relaxed text-center">
-            Practice DSSSB/TGT Computer Science questions, mocks and study material with a smoother mobile experience.
-          </p>
+          
+          <div className="p-3 bg-blue-950/50 border border-blue-500/30 rounded-xl text-blue-200 text-xs font-bold flex items-center justify-center gap-2">
+            <ExternalLink className="w-4 h-4 text-blue-400 shrink-0" />
+            <span>
+              {countdown > 0 
+                ? `Redirecting to Play Store in ${countdown}s...` 
+                : 'Redirecting to Play Store...'}
+            </span>
+          </div>
         </div>
 
         {/* Feature Highlights Grid */}
@@ -114,17 +140,15 @@ export default function MobileAppGate() {
             <div className="space-y-3 text-center">
               <div className="p-4 rounded-xl bg-amber-950/40 border border-amber-500/30 text-amber-200 text-xs font-medium space-y-1">
                 <p className="font-extrabold text-amber-300">Notice for iOS Users</p>
-                <p>The DSSSBPYQ app is currently available for Android.</p>
+                <p>The DSSSBPYQ app is available on Google Play Store for Android devices.</p>
               </div>
 
               <a
                 href={PLAY_STORE_URL}
-                target="_blank"
-                rel="noopener noreferrer"
                 onClick={handleDownloadClick}
                 className="w-full py-3.5 px-5 bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-700 hover:from-blue-500 hover:to-indigo-600 text-white font-extrabold text-xs sm:text-sm rounded-xl shadow-lg shadow-blue-600/30 flex items-center justify-center gap-2 transition-all active:scale-[0.98] cursor-pointer"
               >
-                <span>View on Google Play</span>
+                <span>Open Google Play Store</span>
                 <ArrowRight className="w-4 h-4" />
               </a>
             </div>
@@ -132,8 +156,6 @@ export default function MobileAppGate() {
             <div className="space-y-2">
               <a
                 href={PLAY_STORE_URL}
-                target="_blank"
-                rel="noopener noreferrer"
                 onClick={handleDownloadClick}
                 className="w-full py-4 px-5 bg-gradient-to-r from-emerald-500 via-teal-600 to-blue-600 hover:from-emerald-400 hover:to-blue-500 text-white font-black text-sm sm:text-base rounded-2xl shadow-xl shadow-emerald-500/25 flex items-center justify-center gap-2.5 transition-all active:scale-[0.98] cursor-pointer border border-emerald-400/30 tracking-wide"
               >
@@ -141,11 +163,11 @@ export default function MobileAppGate() {
                 <svg className="w-5 h-5 fill-current shrink-0" viewBox="0 0 24 24">
                   <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L18.81,13.97C20.14,13.2 20.14,12.8 18.81,12.03L16.81,10.88L14.81,12.88L16.81,15.12M14.26,12.55L4.82,22.01L15.39,15.91L14.26,12.55M14.26,11.45L15.39,8.09L4.82,1.99L14.26,11.45Z" />
                 </svg>
-                <span>Download on Google Play</span>
+                <span>Open in Google Play Store</span>
               </a>
 
               <p className="text-[10px] text-slate-500 text-center font-medium">
-                Official Android Package: <span className="font-mono text-slate-400">online.dsssbpyq.twa</span>
+                Official Package: <span className="font-mono text-slate-400">online.dsssbpyq.twa</span>
               </p>
             </div>
           )}

@@ -13,23 +13,28 @@ export function isMobileDevice(): boolean {
   if (typeof window === 'undefined' || typeof navigator === 'undefined') return false;
 
   try {
-    // 1. Check navigator.userAgentData (modern Chromium browsers)
+    // 1. Direct mobile screen width check (under 768px)
+    if (window.innerWidth <= 768) {
+      return true;
+    }
+
+    // 2. Check navigator.userAgentData (modern Chromium browsers)
     const nav = navigator as any;
     if (nav.userAgentData && typeof nav.userAgentData.mobile === 'boolean') {
       if (nav.userAgentData.mobile) return true;
     }
 
-    // 2. User Agent regex test for mobile phones / tablets
+    // 3. User Agent regex test for mobile phones / tablets
     const ua = navigator.userAgent || '';
     const mobileRegex = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS|FxiOS|Tablet|Touch|Kindle|Silk/i;
     if (mobileRegex.test(ua)) return true;
 
-    // 3. iPadOS 13+ detection (Macintosh UA with touch points > 1)
+    // 4. iPadOS 13+ detection (Macintosh UA with touch points > 1)
     if (/Macintosh/i.test(ua) && navigator.maxTouchPoints && navigator.maxTouchPoints > 1) {
       return true;
     }
 
-    // 4. Touch capability & viewport width test (under 1024px with touch screen)
+    // 5. Touch capability & viewport width test (under 1024px with touch screen)
     if (window.innerWidth <= 1024 && ('ontouchstart' in window || navigator.maxTouchPoints > 0)) {
       // Exclude standard desktop OSes unless they explicitly identified as touch mobile
       if (!/Windows NT|Macintosh|X11|Linux x86_64/i.test(ua) || /Touch/i.test(ua)) {
