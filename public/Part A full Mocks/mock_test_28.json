@@ -1,0 +1,1606 @@
+{
+  "test_title": "Mock Test 28",
+  "total_questions": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "A, B, C, D, E, F and G are sitting around a circular table, facing the centre. D sits second to the left of E. B sits fourth to the right of A. A is not an immediate neighbour of E. F sits to the immediate left of G and is not an immediate neighbour of B. How many people sit between A and E when counted from the left of A?1547",
+      "question_image": null,
+      "options": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (1) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 2,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "If in each of the following letter clusters, each letter is changed to the immediate next letter in the English alphabetical order, how many letter clusters thus formed will have no vowel?LEG    NIB    DOT    HAY",
+      "question_image": null,
+      "options": [
+        "Three",
+        "Four",
+        "One",
+        "Two"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (One) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 3,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "This question is based on the following letter-clusters.HYP         ICK           SAN            JIN       In each of the letter-clusters, each vowel is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. In how many letter-clusters thus formed, will no vowel appear?",
+      "question_image": null,
+      "options": [
+        "Zero",
+        "Two",
+        "Three",
+        "One"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Two) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 4,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "A statement is given followed by two courses of actions, numbered I and II. You must assume everything in the statement to be true and on the basis of the information given in the statement, decide which of the given courses of action(s) logically follow(s) for pursuing.Statement:A rise in the price of tomatoes in state X has been reported in the past 5 months. This is due to the shortage of tomatoes in state X owing to the export of tomatoes to other states.Courses of Action:I) The Government of State X should impose a limit to the export of tomatoes to other states during peak seasons.II) The Government of State X should impose a maximum price above which tomatoes can’t be sold in state.",
+      "question_image": null,
+      "options": [
+        "Both I and II follow",
+        "Neither I nor II follows",
+        "Only I follows",
+        "Only II follows"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Only I follows) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 5,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete?OHJ53, IBD69, CVX85, WPR101, ?3015",
+      "question_image": null,
+      "options": [
+        "PJL117",
+        "QJI117",
+        "QJL119",
+        "QJL117"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (QJL117) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 6,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "What should come in place of the question mark (?) in the given series?13   23   33   43   53   ?",
+      "question_image": null,
+      "options": [
+        "72",
+        "61",
+        "63",
+        "60"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (63) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 7,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Which of the given options can replace the question mark (?) in the following series to make it logically complete?GLJ 11, INL 14, KPN 17, MRP 20, ?3091",
+      "question_image": null,
+      "options": [
+        "NQS 21",
+        "ORT 21",
+        "OTR 23",
+        "NQJ 23"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (OTR 23) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 8,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Six boxes, A, B, C, D, E and F, are kept one over the other, but not necessarily in the same order. D is kept third from the bottom. Only one box is kept between D and A. Only two boxes are kept between D and E. B is kept immediately below E. C is kept immediately above A. Only one box is kept between F and E.Which box is kept second from the top?",
+      "question_image": null,
+      "options": [
+        "B",
+        "C",
+        "F",
+        "A"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (B) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 9,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Six boxes A, B, C, D, E and F are kept one over the other but not necessarily in the same order. E is kept second from the top. Only two boxes are kept between B and D. B is kept immediately below E. A is kept immediately below F. C is kept immediately above E. Only three boxes are kept between A and C.How many boxes are kept between F and D?",
+      "question_image": null,
+      "options": [
+        "Four",
+        "One",
+        "Three",
+        "Two"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (One) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 10,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "31 is related to 88 following a certain logic. Following the same logic, 20 is related to 55. To which of the given options is 48 related, following the same logic?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "question_image": null,
+      "options": [
+        "143",
+        "139",
+        "141",
+        "140"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (139) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 11,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which is the one that does not belong to that group?(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+      "question_image": null,
+      "options": [
+        "QT-MS",
+        "IL-FK",
+        "DG-AF",
+        "MP-JO"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (QT-MS) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 12,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements. Statements: All bears are dogs.All dogs are cats.No cat is a horse. Conclusions:(I) No bear is a horse.(II) No dog is a horse.1604",
+      "question_image": null,
+      "options": [
+        "Both conclusions I and II follow.",
+        "Only conclusion I follows.",
+        "Only conclusion I follows.",
+        "Neither conclusion I nor II follows."
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Both conclusions I and II follow.) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 13,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "12 is related to 39 following a certain logic. Following the same logic, 14 is related to 45. To which of the given options is 18 related, following the same logic?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding /deleting /multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "question_image": null,
+      "options": [
+        "60",
+        "57",
+        "64",
+        "54"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (57) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 14,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "M, N, O, P, Y and Z live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it is numbered 2 and so on, till the topmost floor is numbered 6. Z lives immediately above N. Only two people live between N and P. P lives on an odd-numbered floor. O lives immediately below Y. How many people live between M and Y?6504",
+      "question_image": null,
+      "options": [
+        "Four",
+        "One",
+        "Three",
+        "Two"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Two) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 15,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "In a certain code language,‘A # B’ means ‘A is the father of B’,‘A $ B’ means ‘A is the mother of B’,‘A ! B’ means ‘A is the sister of B’, and‘A > B’ means ‘A is the husband of B’.Which of the given options will make the following statement true?‘P is the father of D’s father’",
+      "question_image": null,
+      "options": [
+        "P # Q ! C ! D",
+        "P $ Q ! C > D",
+        "P # Q ! C # D",
+        "P # Q $ C # D"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (P # Q ! C # D) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 16,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "यह प्रश्न दिए गए शब्दों पर आधारित है।\n\nBUD  JAB  MID  LAB\n\nप्रत्येक शब्द में, प्रत्येक स्वर को अंग्रेजी वर्णमाला क्रम में उसके ठीक पहले आने वाले अक्षर से बदल दिया जाता है और प्रत्येक व्यंजन को अंग्रेजी वर्णमाला क्रम में उसके ठीक बाद आने वाले अक्षर से बदल दिया जाता है। इस प्रकार निर्मित कितने अक्षर-समूहों में कोई स्वर नहीं आएगा?",
+      "question_image": null,
+      "options": [
+        "एक",
+        "दो",
+        "तीन",
+        "चार"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (दो) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 17,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Select the term from among the given options that can replace the question mark (?) in the following series.TV25,   QT16,   NR9,   ?",
+      "question_image": null,
+      "options": [
+        "KL4",
+        "KN4",
+        "KM4",
+        "KP4"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (KP4) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 18,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Which two numbers should be interchanged to make the given equation correct?  (105 ÷ 5) + 15 × 3 – 75 + 20 = 55(Note: Interchange should be done for an entire number and not for individual digits of the number.)593",
+      "question_image": null,
+      "options": [
+        "3 and 5",
+        "75 and 105",
+        "15 and 20",
+        "15 and 5"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (3 and 5) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 19,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Seven boxes A, B, C, D, E, F, and G are kept one over the other but not necessarily in the same order.Only three boxes are kept above E. Only one box is kept between B and E. Only three boxes are kept between B and D. D is kept at some place above E. G is kept immediately below D. C is kept at one of the places above F. A is not kept immediately above or below B. How many boxes are kept below C?",
+      "question_image": null,
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (2) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 20,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements:All cameras are rugs.All rugs are bananas.All bananas are lamps.Conclusions: (I) All cameras are lamps.(II) Some lamps are rugs.",
+      "question_image": null,
+      "options": [
+        "Only conclusion (I) follows.",
+        "Both conclusions (I) and (II) follow.",
+        "Only conclusion (II) follows.",
+        "Neither conclusion (I) nor (II) follows."
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Both conclusions (I) and (II) follow.) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 21,
+      "section": "General Awareness",
+      "question": "Which distinguishing feature separates Suhrawardi saints from Chishti saints?",
+      "question_image": null,
+      "options": [
+        "Use of vernacular language",
+        "Emphasis on charity",
+        "Close association with the state",
+        "Practice of meditation"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Close association with the state) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 22,
+      "section": "General Awareness",
+      "question": "Match the following.     Ancient University                     Founder \tVikramshila                         i. Bhattarika\tOdantapuri                         ii. Dharmpala\tVallabhi                              iii. Rampala\tJagadal                              iv. Gopala",
+      "question_image": null,
+      "options": [
+        "a-ii; b-iv; c-i; d-iii",
+        "a-iii; b-iv; c-i; d-ii",
+        "a-iv; b-i; c-iii; d-ii",
+        "a-i; b-iv; c-ii; d-iii"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (a-ii; b-iv; c-i; d-iii) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 23,
+      "section": "General Awareness",
+      "question": "Which of the following Acts of British India was related to the Jallianwala Bagh massacre of 1919?",
+      "question_image": null,
+      "options": [
+        "Rowlatt Act",
+        "Indian Councils Act",
+        "Official Secrets Act",
+        "Pitt's India Act"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Rowlatt Act) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 24,
+      "section": "General Awareness",
+      "question": "Which of the following is correct about magnets?",
+      "question_image": null,
+      "options": [
+        "The direction of field lines is from its south pole to its north pole.",
+        "The direction of field lines is from its north pole to its south pole.",
+        "The direction of the field depends on the strength of the field.",
+        "The magnetic field lines are open curves."
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (The direction of field lines is from its south pole to its north pole.) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 25,
+      "section": "General Awareness",
+      "question": "निम्नलिखित में से कौन-सा अनुच्छेद संसद को कानून द्वारा नागरिकता के अधिकार को विनियमित करने का अधिकार देता है?",
+      "question_image": null,
+      "options": [
+        "भारतीय संविधान का अनुच्छेद 10",
+        "भारतीय संविधान का अनुच्छेद 11",
+        "भारतीय संविधान का अनुच्छेद 16",
+        "भारतीय संविधान का अनुच्छेद 9"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (भारतीय संविधान का अनुच्छेद 11) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 26,
+      "section": "General Awareness",
+      "question": "Karikala, credited with constructing a dam on River Kaveri, belonged to the _______ dynasty.",
+      "question_image": null,
+      "options": [
+        "Andhra",
+        "Chera",
+        "Chola",
+        "Pandya"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Chola) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 27,
+      "section": "General Awareness",
+      "question": "Under Article 169 of the Constitution of India, which authority enacts the law to create or abolish a State Legislative Council after the State Legislative Assembly passes a resolution?",
+      "question_image": null,
+      "options": [
+        "Chief Minister of the State",
+        "Parliament of India",
+        "Governor of the State",
+        "Supreme Court of India"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Parliament of India) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 28,
+      "section": "General Awareness",
+      "question": "During the 2 December 2025 workshop, which organisation informed the Parsi community about loans for small businesses?",
+      "question_image": null,
+      "options": [
+        "Ministry of Finance, SEBI",
+        "State Bank, LIC",
+        "Reserve Bank, MOMA",
+        "NMDFC, MoMA"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (NMDFC, MoMA) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 29,
+      "section": "General Awareness",
+      "question": "Which of the following Articles of the Constitution are related to the Eighth Schedule?",
+      "question_image": null,
+      "options": [
+        "Articles 344(1) and 351",
+        "Articles 352 and 356",
+        "Articles 348 and 350",
+        "Articles 343 and 345"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Articles 344(1) and 351) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 30,
+      "section": "General Awareness",
+      "question": "Which of the following languages was/​​were added to the Eighth Schedule of the Indian Constitution by the 92nd Constitutional Amendment Act, 2003, published in the Gazette of India on 8 January 2004?",
+      "question_image": null,
+      "options": [
+        "English, Sanskrit, Nepali",
+        "Rajasthani",
+        "Malayalam, Manipuri",
+        "Bodo, Dogari, Maithili and Santhali"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Bodo, Dogari, Maithili and Santhali) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 31,
+      "section": "General Awareness",
+      "question": "Candela is the luminous intensity in a given direction of a source that emits monochromatic radiation of what frequency?",
+      "question_image": null,
+      "options": [
+        "740 × 109 Hz",
+        "640 × 1010 Hz",
+        "340 × 1012 Hz",
+        "540 × 1012 Hz"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (540 × 1012 Hz) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 32,
+      "section": "General Awareness",
+      "question": "Which energy-storage innovation uses lifting and lowering heavy weights to store and release energy?",
+      "question_image": null,
+      "options": [
+        "Solar PV cell",
+        "Gravity battery",
+        "Li-ion battery",
+        "Fuel cell"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Gravity battery) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 33,
+      "section": "General Awareness",
+      "question": "The principles that govern the grants-in-aid of the revenues given to the states from the consolidated fund of India is recommended by which of the following authorities?",
+      "question_image": null,
+      "options": [
+        "Inter-State-Council",
+        "Finance Commission",
+        "Union Ministry of Finance",
+        "Public Accounts Committee"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Finance Commission) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 34,
+      "section": "General Awareness",
+      "question": "The 101st Constitutional Amendment Act is related to the introduction of:",
+      "question_image": null,
+      "options": [
+        "Panchayati Raj",
+        "Right to Education",
+        "Fundamental Rights",
+        "Goods and Services Tax (GST)"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Goods and Services Tax (GST)) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 35,
+      "section": "General Awareness",
+      "question": "The Deccan Plateau is a _______ landmass that lies to the south of the Narmada river.",
+      "question_image": null,
+      "options": [
+        "triangular",
+        "circular",
+        "square",
+        "rectangular"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (triangular) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 36,
+      "section": "General Awareness",
+      "question": "Which of the following is a rabi crop?",
+      "question_image": null,
+      "options": [
+        "Tur",
+        "Maize",
+        "Rapeseed",
+        "Cotton"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Rapeseed) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 37,
+      "section": "General Awareness",
+      "question": "Which of the following pairs of rivers in India and their sources is correctly matched?",
+      "question_image": null,
+      "options": [
+        "Godavari – Siachen Glacier",
+        "Brahmaputra- Amarkantak Plateau",
+        "Ganga – Gangotri Glacier",
+        "Indus – Nasik"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Ganga – Gangotri Glacier) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 38,
+      "section": "General Awareness",
+      "question": "Under the cashless treatment scheme launched by the Government of India, in May 2025, road accident victims are entitled to receive treatment worth up to what amount per person, per accident, without any upfront payment?",
+      "question_image": null,
+      "options": [
+        "₹1.5 lakh",
+        "₹50 thousand",
+        "₹50 lakh",
+        "₹25 lakh"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (₹1.5 lakh) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 39,
+      "section": "General Awareness",
+      "question": "On which date is Gandhi Jayanti celebrated every year?",
+      "question_image": null,
+      "options": [
+        "15th August",
+        "14th November",
+        "2nd October",
+        "26th January"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (2nd October) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 40,
+      "section": "General Awareness",
+      "question": "Which of the following is a story set in a small South Indian fictional town located on the banks of river Sarayu?",
+      "question_image": null,
+      "options": [
+        "Ek Tha Rusty",
+        "Junoon",
+        "Malgudi Days",
+        "Pachatantra"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Malgudi Days) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 41,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Three bells toll at intervals of 24 sec, 60 sec and 72 sec, respectively. If the three bells toll together at 10:00 a.m., when will they toll together next?",
+      "question_image": null,
+      "options": [
+        "10:04 a.m.",
+        "10:07 a.m.",
+        "10:05 a.m.",
+        "10:06 a.m."
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (10:06 a.m.) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 42,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "One-third of a journey is covered at a speed of 48 km/hr, the next one-third of the journey is covered at a speed of 54 km/hr and the remaining journey is covered at a speed of 44 km/hr. The average speed (in km/hr, rounded off to 1 decimal place) for the entire journey is:",
+      "question_image": null,
+      "options": [
+        "3",
+        "3",
+        "2",
+        "2"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (3) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 43,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Pipe A can fill a tank in 6 hours, pipe B can fill the same tank in 8 hours, and pipe C can fill the same tank in 24 hours. The time taken (in hours) by them to fill the same tank if they operate together is:",
+      "question_image": null,
+      "options": [
+        "6",
+        "4",
+        "5",
+        "3"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (3) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 44,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "If the 6-digit number N49M44 is divisible by 11, then which of the following options can give a possible correct relation between M and N?",
+      "question_image": null,
+      "options": [
+        "M − N = 1",
+        "M = N",
+        "M − N = 5",
+        "M + N = 7"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (M − N = 5) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 45,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "In an election between two candidates, 80% of the registered voters cast their vote and 7% of the votes polled were found invalid. The winning candidate got 90% of the valid votes and won the election by a margin of 372 votes. How many voters were registered? 1980",
+      "question_image": null,
+      "options": [
+        "625",
+        "622",
+        "626",
+        "618"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (625) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 46,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A shopkeeper buys 80 books for the marked price of 76 books from a wholesaler. If he sells these books by giving a discount of 1% on the original marked price, then what is his profit percentage? (Round off your answer to two decimal places.)",
+      "question_image": null,
+      "options": [
+        "4.86%",
+        "3.21%",
+        "2.24%",
+        "4.21%"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (4.21%) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 47,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "When the selling price of a piano is ₹16,380, the shopkeeper incurs a loss of 9%. What should be the selling price (in ₹) of that piano so as to gain 10%?",
+      "question_image": null,
+      "options": [
+        "20,000",
+        "21,800",
+        "18,000",
+        "19,800"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (19,800) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 48,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "If a dishonest shopkeeper claims to sell millets at a specific cost price but uses a faulty weight and thus gains 30%, find the weight of millets he actually gives per kilogram for which a customer pays. (Round the answer to the nearest whole number.)",
+      "question_image": null,
+      "options": [
+        "767 grams",
+        "759 grams",
+        "779 grams",
+        "769 grams"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (769 grams) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 49,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The average of 13 numbers is 14. If each number is multiplied by 3, then what will the new average be?",
+      "question_image": null,
+      "options": [
+        "13",
+        "3",
+        "42",
+        "14"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (42) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 50,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A garrison of 1210 men has provisions for 15 days. How long (in days) will the provisions last if the garrison is increased to 1815 men?1189",
+      "question_image": null,
+      "options": [
+        "12",
+        "9",
+        "10",
+        "11"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (10) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 51,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The diagonals of a rhombus are 25 cm and 6 cm, respectively. The area of the rhombus (in cm2) is:",
+      "question_image": null,
+      "options": [
+        "75",
+        "108",
+        "44",
+        "74"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (75) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 52,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A person borrows ₹71000 at 10% compound interest per year, compounded annually. At the end of every year, he pays ₹9500 as part payment. How much does he still owe after two such instalments?",
+      "question_image": null,
+      "options": [
+        "₹65960",
+        "₹65869",
+        "₹66104",
+        "₹66146"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (₹65960) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 53,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A group of people consists of children, men, and women. 20% of them are children, 40% are men and the rest are women, and their average weights are 40 kg, 60 kg and 40 kg, respectively. The average weight (in kg) of the group is:",
+      "question_image": null,
+      "options": [
+        "48",
+        "47",
+        "49",
+        "46"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (48) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 54,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Study the given table of students studying in colleges A, B and C in the given years and answer the question that follows. \t\t\t\t\t\tYEARS\t\t\t   COLLEGES\t\t\t\t\t\t\t \t\t\tA\t\t\tB\t\t\tC\t\t\t\t\t\t\t \t\t\tADMITTED\t\t\tLEFT\t\t\tADMITTED\t\t\tLEFT\t\t\tADMITTED\t\t\tLEFT\t\t\t\t\t\t\t2019\t\t\t1140\t\t\t 890\t\t\t1070\t\t\t940\t\t\t1290\t\t\t1010\t\t\t\t\t\t\t2020\t\t\t1235\t\t\t920\t\t\t1060\t\t\t740\t\t\t1195\t\t\t980\t\t\t\t\t\t\t2021\t\t\t1135\t\t\t980\t\t\t1180\t\t\t865\t\t\t1290\t\t\t950\t\t\t What is the difference between the number of students admitted from colleges B and C in the year 2019, 2020 and 2021?",
+      "question_image": null,
+      "options": [
+        "395",
+        "465",
+        "375",
+        "305"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (465) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 55,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "What is the smallest number exactly divisible by each one of the numbers 12, 15, 20 and 27?",
+      "question_image": null,
+      "options": [
+        "540",
+        "270",
+        "180",
+        "240"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (540) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 56,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Three men complete a work in 27 hours. In how many hours will 9 men complete the same work?",
+      "question_image": null,
+      "options": [
+        "81",
+        "30",
+        "3",
+        "9"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (9) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 57,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Two trains are running in the same direction on parallel tracks. The length of train A is 150 m and its speed is 60 km/h, while the length of train B is 200 m and its speed is 40 km/h. Calculate the time taken by train A to overtake train B.",
+      "question_image": null,
+      "options": [
+        "54 seconds",
+        "45 seconds",
+        "63 seconds",
+        "36 seconds"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (63 seconds) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 58,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The average weight of Rakesh, Shivam and Rupesh is 45 kg. If the average weight of Rakesh and Shivam is 37 kg and that of Shivam and Rupesh is 46 kg, then the weight of Shivam (in kg) is:",
+      "question_image": null,
+      "options": [
+        "41",
+        "51",
+        "46",
+        "31"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (31) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 59,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "P and Q together can fill a cistern in 3 hours. If P alone can fill the cistern in 6 hours, then in how many hours will Q alone fill the cistern?",
+      "question_image": null,
+      "options": [
+        "5",
+        "8",
+        "6",
+        "7"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (6) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 60,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A dealer allows an 87% discount on an article and still manages to make 104% profit. Find the ratio of the cost price to the listed price.",
+      "question_image": null,
+      "options": [
+        "16 : 211",
+        "14 : 209",
+        "13 : 204",
+        "15 : 207"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (13 : 204) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 61,
+      "section": "English Language and Comprehension",
+      "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. They are also essential to human health, purifying our water and air and serving as our first line of defense against new infectious diseases.B. Additionally, forests provide more than 86 million green jobs and resources such as food and fuel that support billions of people’s livelihoods.C. But forests across the globe are under threat, jeopardising these benefits.D. Forests cover nearly one-third of the land area on our planet and are home to most of the world’s life on land.",
+      "question_image": null,
+      "options": [
+        "BCAD",
+        "CABD",
+        "BCDA",
+        "DABC"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (DABC) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 62,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate ANTONYM of the word 'Harbinger'.",
+      "question_image": null,
+      "options": [
+        "Messenger",
+        "Concealer",
+        "Precursor",
+        "Forerunner"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Concealer) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 63,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate option to fill in the blank.The child felt ________ after telling a lie to his parents.",
+      "question_image": null,
+      "options": [
+        "delighted",
+        "exhausted",
+        "hilarious",
+        "ashamed"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (ashamed) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 64,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage carefully and answer the questions that follow.The residents of a little community loved their yearly harvest celebration. Every autumn, they gathered to enjoy the wealth of their farms. Local artists showed handcrafted items, and farmers showcased colourful fruits and veggies. The air was filled with the scent of freshly baked bread and sweet apple cider. Children laughed as they played games, and musicians filled the space with lively tunes. Stalls adorned with vibrant decorations lined the path, inviting everyone to explore. Neighbours exchanged warm greetings, their faces alight with joy, as the spirit of camaraderie enveloped the festivities.As the sun set, the villagers lit lanterns, casting a warm glow over the celebrations. The highlight of the evening was the storytelling session, where elders shared tales of the village's history and legends. This event not only brought the community together but also instilled a sense of pride in their heritage. As they celebrated, they remembered the importance of tradition and unity, feeling the bonds that tied them to one another and to the land they cherished. With laughter echoing and hearts full, they looked forward to another year, eager to pass on their stories and traditions to future generations.Identify the tone of the passage.1104",
+      "question_image": null,
+      "options": [
+        "Sarcastic",
+        "Joyful",
+        "Cynical",
+        "Angry"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Joyful) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 65,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate meaning of the given idiom.Bury the hatchet",
+      "question_image": null,
+      "options": [
+        "To forget something",
+        "To reveal a secret",
+        "To end a conflict",
+        "To plant a tree"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (To end a conflict) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 66,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate option to fill in the blank.The authorities have responded to the complaints submitted last month, _______?",
+      "question_image": null,
+      "options": [
+        "haven’t they",
+        "won’t they",
+        "didn’t they",
+        "can’t they"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (haven’t they) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 67,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage and answer the questions that follow.Imagine an India where every prisoner is not just serving time but also preparing for a second chance at life. Education behind bars is often an overlooked solution to reducing recidivism, fostering economic reintegration, and building a more inclusive society. With India’s prison population exceeding 5.5 lakh inmates as of 2023, tapping into this human potential can address critical socio-economic challenges through Prison Education in India. India’s prisons are largely overcrowded, operating at 130% of their capacity. Nearly 77% of inmates are under trials, many of whom lack access to quality education or vocational training. This underutilises a massive workforce that could contribute to the nation’s economy if equipped with relevant knowledge and skills. While India has made strides in prison reforms, education for prisoners remains an area with significant potential. The National Policy on Prison Reforms 2017 emphasises the importance of education and skill development within prisons. However, challenges such as inadequate infrastructure, limited resources, and lack of trained personnel hinder the full implementation of these policies. While some prisons offer basic literacy programs, these initiatives are sparse and lack a structured curriculum. For example, the Tihar Jail in Delhi and Yerawada Jail in Pune run vocational courses, but only a small percentage of prisoners benefit from them. A 2022 study by the National Crime Records Bureau (NCRB) shows that educated prisoners are 50% less likely to reoffend compared to their uneducated counterparts. Literacy not only empowers them but also instils a sense of responsibility.What is the central theme of the passage?",
+      "question_image": null,
+      "options": [
+        "The importance of literacy in reducing crime rates",
+        "The potential of prison education in addressing social and economic challenges",
+        "Overcrowding in India’s prisons",
+        "The role of the judiciary in reforming the prison system"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (The potential of prison education in addressing social and economic challenges) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 68,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage carefully and answer the questions that follow.The human immunodeficiency virus (HIV) is a viral pathogen that specifically targets the immune cells responsible for combating infections, hence compromising the individual's ability to ward off other infectious agents and diseases. HIV is transmitted through the exchange of specific bodily fluids, most often during unprotected intimate contact and through the sharing of injection drug equipment. In the absence of medical intervention, the human immunodeficiency virus (HIV) has the potential to progress into acquired immunodeficiency syndrome (AIDS). The human body is unable to eliminate the Human Immunodeficiency Virus (HIV), and now, there is a lack of an efficacious cure for HIV. Fortunately, there exists a viable remedy in the form of HIV medication, commonly referred to as antiretroviral therapy or ART. When adhered to as directed, antiretroviral therapy (ART) has the capacity to significantly diminish the concentration of HIV in the bloodstream, commonly referred to as the viral load, to a state of minimal magnitude. The phenomenon being referred to is commonly known as viral suppression.Q80. What is commonly referred to as antiretroviral therapy or ART?",
+      "question_image": null,
+      "options": [
+        "An invisible cell in the form of HIV medication",
+        "A viable aptitude in the form of HIV medication",
+        "A viable remedy in the form of HIV medication",
+        "A suggestion in the form of HIV medication"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (A viable remedy in the form of HIV medication) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 69,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate meaning of the highlighted idiom in the given sentence.After years of struggle, they eventually saw light at the end of the tunnel.974",
+      "question_image": null,
+      "options": [
+        "Saw a glimmer of hope or success",
+        "Realised it was hopeless",
+        "Lost the dream",
+        "Finished the job"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Saw a glimmer of hope or success) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 70,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage and answer the questions that follow.Personal grooming plays a critical role in shaping self-esteem. Personal grooming involves maintaining a neat and clean appearance, including hair care, skin care, and dressing appropriately.  Grooming habits such as regular haircuts, skin care, and dressing appropriately contribute to how individuals perceive themselves and how they are perceived by others. When people feel well-groomed, they tend to project confidence, which positively impacts their self-esteem. For example, a well-dressed individual may feel more comfortable in social situations, contributing to a better self-image. Conversely, neglecting grooming can lead to feelings of insecurity and social withdrawal. A lack of self-care often results in people feeling unattractive or embarrassed, which can undermine their sense of self-worth. Over time, poor grooming can diminish one’s self-esteem, as the individual may internalise negative social cues or judgements. For example, a teenager who neglects personal hygiene might experience bullying or social exclusion, which can have lasting effects on their confidence. Thus, the relationship between grooming and self-esteem is reciprocal: good grooming fosters self-confidence, while poor grooming can erode it. This connection is particularly important during formative years, such as adolescence, when social appearance and self-image are closely linked. Understanding these connections not only prepares individuals for the challenges of daily life but also equips them to build healthier, more productive futures.What is the tone of the passage regarding personal grooming and its impact on self-esteem?",
+      "question_image": null,
+      "options": [
+        "Objective and informative",
+        "Sarcastic and dismissive",
+        "Optimistic and motivational",
+        "Formal and critical"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Objective and informative) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 71,
+      "section": "English Language and Comprehension",
+      "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. The event, organised by a group of colonists disguised as Mohawk Indians, was a major act of defiance against the British rule and a catalyst for the American Revolution.B. In 1773, a group of American colonists protested against the Tea Act, a British law that imposed taxes on tea imported to the colonies.C. The Boston Tea Party is a significant event in American history, symbolising the colonists' growing discontent with the British rule and their desire for independence.D. The colonists boarded British ships in Boston Harbor and dumped 342 chests of tea into the water.E. The Tea Party led to a series of punitive measures by the British Government, further escalating tensions between the colonies and Britain.",
+      "question_image": null,
+      "options": [
+        "AEBCD",
+        "DCAEB",
+        "CABDE",
+        "BADCE"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (CABDE) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 72,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage and answer the questions that follow.The Brahmaputra River is not just a geographical entity—it is a lifeline, a culture bearer and a force of nature. Originating in the icy regions of Tibet, where it is known as the Yarlung Tsangpo, it flows eastward before turning sharply south through the Himalayas into India’s Arunachal Pradesh and finally across the plains of Assam before entering Bangladesh.What distinguishes the Brahmaputra from many other rivers is its wild and unpredictable nature. Unlike the calm Ganges or Yamuna, the Brahmaputra is known for sudden floods, aggressive shifts in course and high sediment content. Its braided channels often lead to the formation and erosion of sandbars called 'chars,' which house transient farming communities that must adapt constantly to the river’s shifting moods.For the people of Assam, the Brahmaputra is sacred and essential. It sustains rice fields, provides fish and shapes the fertile floodplains. Majuli, one of the world’s largest river islands, lies in its embrace—though it is now shrinking due to erosion and frequent flooding. Cultural institutions like Satras thrive on its banks, preserving centuries-old traditions.Yet, the river is not without its threats. Every monsoon, villages are uprooted as the river swells with power. Climate change has intensified this cycle, with glacial melt and erratic rainfall increasing its ferocity. Entire ecosystems along the riverbank are now under stress and livelihoods increasingly face uncertainty.Despite its fury, the Brahmaputra remains a symbol of resilience and renewal. Its waters carry not just silt and stories, but also the identity of the communities along its banks. To understand this river is to understand a landscape shaped as much by nature’s might as by human adaptation, endurance and unwavering faith.What is the tone of the author toward the Brahmaputra?",
+      "question_image": null,
+      "options": [
+        "Detached and critical",
+        "Reverent and analytical",
+        "Mocking and casual",
+        "Disapproving and hostile"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Reverent and analytical) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 73,
+      "section": "English Language and Comprehension",
+      "question": "Select the INCORRECTLY spelt word. 1513",
+      "question_image": null,
+      "options": [
+        "​Accommodate",
+        "Necessary",
+        "Occasion",
+        "Independant"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Independant) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 74,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage carefully and answer the following questions.Pollinators, such as bees, butterflies, birds, and bats, play a crucial role in the reproduction of many plants by transferring pollen from one flower to another. This process, known as pollination, is essential for the production of fruits, vegetables, and seeds. About 75% of the world's flowering plants depend on pollinators to some degree, and more than one-third of the world's food crops rely on animal pollinators. Unfortunately, pollinator populations are declining worldwide due to factors such as habitat loss, pesticide use, climate change, and diseases. This decline threatens the stability of ecosystems and the food security of billions of people.In recent years, there has been a growing movement to protect and restore pollinator habitats. Efforts include creating wildflower meadows, reducing pesticide usage, and providing nesting sites for bees. By safeguarding pollinator populations, we can ensure the continued diversity of plant species, which in turn supports a wide range of other wildlife. Furthermore, protecting pollinators contributes to agricultural productivity and helps maintain ecological balance.What percentage of the world's flowering plants depend on pollinators?",
+      "question_image": null,
+      "options": [
+        "33%",
+        "75%",
+        "90%",
+        "50%"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (75%) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 75,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate adjective to fill in the blank.My grandfather had a/an _____ car with a Japanese engine.",
+      "question_image": null,
+      "options": [
+        "big old yellow",
+        "yellow old big",
+        "old big green",
+        "old big yellow"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (big old yellow) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 76,
+      "section": "English Language and Comprehension",
+      "question": "Select the option that can be used as a one-word substitute for the given group of words.The omission of one or more words that are obviously understood but must be supplied to make a construction grammatically complete.",
+      "question_image": null,
+      "options": [
+        "Verbose",
+        "Direct",
+        "Redundant",
+        "Ellipsis"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Ellipsis) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 77,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate article to fill in the blank. If no article is required, select 'No article required'.Who is _______ president of France?",
+      "question_image": null,
+      "options": [
+        "an",
+        "a",
+        "the",
+        "No article required"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (the) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 78,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate option to fill in the blank.Karan's ___________ observations have helped him to be recognised as the best detective of the town.",
+      "question_image": null,
+      "options": [
+        "astute",
+        "transparent",
+        "oblivious",
+        "carefree"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (astute) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 79,
+      "section": "English Language and Comprehension",
+      "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.A. This requires more fertilisers to be used, which further worsens soil quality.B. Tobacco’s deleterious influence extends beyond human health.C. Up to 5.4 kg of wood is required to process 1 kg of tobacco.D. The plant is also a major contributor to deforestation.E. It is a highly erosive crop that rapidly depletes soil nutrients.",
+      "question_image": null,
+      "options": [
+        "AEDCB",
+        "DEBAC",
+        "EDBCA",
+        "BEADC"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (BEADC) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 80,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate idiom that can substitute the underlined segment in the given sentence. John had hoped to avoid talking about the controversial issue, but his colleague brought up the difficult topic during the meeting.",
+      "question_image": null,
+      "options": [
+        "brought it to the table",
+        "hit the ground running",
+        "opened a can of worms",
+        "pulled the plug"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (opened a can of worms) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 81,
+      "section": "Hindi Language and Comprehension",
+      "question": "'घर पहुंचता है सात बजे के बाद ही राम' वाक्य का सही क्रम है-",
+      "question_image": null,
+      "options": [
+        "राम सात बजे के बाद ही घर पहुंचता है",
+        "सात बजे के बाद ही पहुंचता है घर राम",
+        "राम पहुंचता है सात बजे के बाद ही घर",
+        "पहुंचता है सात बजे के बाद ही घर राम"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (राम सात बजे के बाद ही घर पहुंचता है) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 82,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्नलिखित वाक्य के उचित क्रम को पहचानें।1. जो टीचर2. पढ़ाते हैं, उनकी तबीयत3. आज खराब है4. निशा को हिन्दी",
+      "question_image": null,
+      "options": [
+        "1423",
+        "3421",
+        "2431",
+        "4123"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (1423) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 83,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:निम्नलिखित गद्यांश के आधार पर प्रश्नों के उत्तर दीजिए-गंध का हमारे जीवन की घटनाओं से कितना गहरा नाता है, यह बात हमारे पूर्वज बहुत गहराई से जानते थे। ज़रा सोचिए-यदि ‘गंध’ इतनी शक्तिशाली न होती तो भीष्म पितामह का चरित्र कैसे विकसित होता? हज़ारों वर्षों से लोकप्रिय ‘महाभारत ‘की कथा का क्या स्वरूप होता? मैं तो यहाँ तक समझती हूंँ कि यदि ‘गंध ‘में इतनी शक्ति न होती तो संभवतः पांडव और कौरवों का जन्म ही न हुआ होता। आप हैरान हो रहे होंगे कि आख़िर गंध से भीष्म और ‘महाभारत’ का क्या सम्बन्ध? तो लीजिए सुनिए-महाराज शांतनु जो प्रौढ़ावस्था को प्राप्त हो चुके थे, देवव्रत जैसे प्रतापी, युवा पुत्र के पिता थे, वे सत्यवती पर मोहित हो उससे विवाह के लिए अधीर न हुए होते तो क्या देवव्रत ‘भीष्म’ बनते? महाराज शांतनु तो सत्यवती के तन से निकली ‘मत्स्यगंध’ के कारण ही कामपीड़ित हो, उससे विवाह करने को विवश हो गए थे न! सत्यवती के यौवन से भरपूर शरीर से जो गंध निकलती थी वह एक योजन की दूरी से भी अनुभव की जा सकती थी। उसका नाम ‘मत्स्यगंधा’ और ‘योजनगंधा’ प्रचलित था। इस गंध के जादू ने ही शांतनु को इतना उन्मत्त और कामान्ध बना दिया कि वे वह हर शर्त मानने को विवश हो गए जो विवाह के लिए रखी गई, तभी तो देवव्रत ‘भीष्म प्रतिज्ञा’ कर बैठे।Q100. लेखिका के अनुसार, यदि गंध में इतनी शक्ति न होती तो क्या होता?",
+      "question_image": null,
+      "options": [
+        "भीष्म पितामह का चरित्र अलग तरीके से विकसित होता",
+        "मत्स्यगंधा जीवित नहीं होती",
+        "पांडव और कौरवों का जन्म होता",
+        "महाराज शांतनु प्रौढ़ावस्था को प्राप्त न होते"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (भीष्म पितामह का चरित्र अलग तरीके से विकसित होता) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 84,
+      "section": "Hindi Language and Comprehension",
+      "question": "'जन्म लेना और मरना' वाक्यांश के लिए सार्थक शब्द होगा -",
+      "question_image": null,
+      "options": [
+        "अवगाहन",
+        "अवलोकन",
+        "अभिनन्दन",
+        "आवागमन"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (आवागमन) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 85,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्नलिखित शब्दों को सही क्रम में लगाकर वाक्य बनाइयेखेलता / है / बच्चा / पार्क में",
+      "question_image": null,
+      "options": [
+        "बच्चा खेलता है पार्क में",
+        "बच्चा पार्क में खेलता है",
+        "बच्चा में पार्क खेलता है",
+        "पार्क में बच्चा खेलता है"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (बच्चा पार्क में खेलता है) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 86,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:नीचे दिए गए गद्यांश को पढ़कर निम्नलिखित पाँच प्रश्नों के उत्तर दिए गए विकल्पों में से चुनें।जो अनगढ़ है, जिसमें कोई आकृति नहीं, ऐसे पत्थरों से जीवन को आकृति प्रदान करना, उसमें कलात्मक संवेदना जगाना और प्राण-प्रतिष्ठा करना ही संस्कृति है। वस्तुतः संस्कृति उन गुणों का समुदाय है, जिन्हें अनेक प्रकार की शिक्षा द्वारा अपने प्रयत्न से मनुष्य प्राप्त करता है। संस्कृति का संबंध मुख्यतः मनुष्य की बुद्धि एवं स्वभाव आदि मनोवृत्तियों से है। संक्षेप में सांस्कृतिक विशेषताएँ मनुष्य की मनोवृत्तियों से संबंधित हैं और इन विशेषताओं का अनिवार्य संबंध जीवन के मूल्यों से होता है। ये विशेषताएँ या तो स्वयं में मूल्यवान होती हैं अथवा मूल्यों के उत्पादन का साधन। प्रायः व्यक्तित्व में विशेषताएँ साध्य एवं साधन दोनों ही रूपों में अर्थपूर्ण समझी जाती हैं। वस्तुतः संस्कृति सामूहिक उल्लास की कलात्मक अभिव्यक्ति है। संस्कृति व्यक्ति की नहीं, समष्टि की अभिव्यक्ति है। डॉ० संपूर्णानंद ने कहा है-“संस्कृति उस दृष्टिकोण को कहते हैं, जिसमें कोई समुदाय विशेष जीवन की समस्याओं पर दृष्टि निक्षेप करता है” संक्षेप में वह समुदाय की चेतना बनकर प्रकाशमान होती है। यही चेतना प्राणों की प्रेरणा है और यही भावना प्रेम में प्रदीप्त हो उठती है। यह प्रेम संस्कृति का तेजस तत्व है, जो चारों ओर परिलक्षित होता है। प्रेम वह तत्व है, जो संस्कृति के केंद्र में स्थित है। इसी प्रेम से श्रद्धा उत्पन्न होती है, समर्पण जन्म लेता है और जीवन भी सार्थक लगता है। 80नीचे दिए गए विकल्पों में से उपरोक्त गद्यांश का मुख्य विषय पहचानें । 83",
+      "question_image": null,
+      "options": [
+        "सभ्यतागत विमर्श",
+        "सभ्यता के प्रश्न",
+        "संस्कृति के झगड़े",
+        "संस्कृति का महत्व और उसके विकास की प्रक्रिया"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (संस्कृति का महत्व और उसके विकास की प्रक्रिया) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 87,
+      "section": "Hindi Language and Comprehension",
+      "question": "वर्तनी की दृष्टि से दिये गये वाक्य के किस भाग में त्रुटि है?आदेश मिलने पर जललाद ने उसे फाँसी दे दी।",
+      "question_image": null,
+      "options": [
+        "आदेश मिलने पर",
+        "ने उसे फाँसी",
+        "जललाद",
+        "दे दी"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (जललाद) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 88,
+      "section": "Hindi Language and Comprehension",
+      "question": "‘चोरी का माल मोरी में’ लोकोक्ति का अर्थ निम्न में से है-",
+      "question_image": null,
+      "options": [
+        "बुरे ढंग से कमाए माल से सम्पन्नता आती है।",
+        "बुरी तरह से कमाया धन बुरे कार्यों में ही खर्च होता है ।",
+        "चोरी का माल दूसरों को बाँट दिया जाता है।",
+        "चोरी का माल ठीक से छुपाना पड़ता है।"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (बुरी तरह से कमाया धन बुरे कार्यों में ही खर्च होता है ।) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 89,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:दिए गए गद्यांश के आधार पर निम्नांकित प्रश्नों के उत्तर दें‌‌--जनसंख्या की दृष्टि से भारत का स्थान संसार के देशों में दूसरे नम्बर पर है। पहला नम्बर चीन का है। क्षेत्रफल की दृष्टि से भारत का स्थान चौथे या पांचवें नम्बर पर होगा। इस कारण जब भारत स्वाधीन हुआ तो विश्व की राजनीति मे उसका महत्त्वपूर्ण स्थान होना स्वाभाविक ही था। अन्तरराष्ट्रीय राजनीति में भारत का महत्त्वपूर्ण स्थान होने का एक बडा कारण यह भी है कि भारत की राजनीति कुछ विशिष्ट सिद्धांतों पर आधारित है। अवसर देखकर अपने सिद्धांतों को बदल लेना भारत की नीति नही है। भारत की विदेश नीति पंचशील पर आधारित है और पंचशील मुख्यतया तटस्थता, शांति- प्रियता, मित्रता और सहअस्तित्व का ही नाम है। भारत की इस तटस्थ और शांतिप्रिय नीति के कारण संसार की बड़ी-बड़ी शक्तियां भी भारत की सम्मति को आदर की दृष्टि से देखती हैं। वैसे तो प्रायः सभी राष्ट्र ऊँचे-ऊँचे आदर्शों की दुहाई देते हैं, किंतु व्यवहार में उनका पालन नहीं करते। मौका देखकर वे अपने सिद्धान्त भी बदल लेते हैं। ऐसे अवसरवादी राष्ट्रों का अवसरवादी व्यक्तियों की भाति संसार में कोई आदर नहीं है। किंतु भारत सिद्धांत और व्यवहार दोनों को एक रखना चाहता है।निम्नलिखित में से किस भाव की अभिव्यक्ति गद्यांश में नहीं हुई है-",
+      "question_image": null,
+      "options": [
+        "भारत की राजनीति कुछ विशिष्ट सिद्धांतों पर आधारित है।",
+        "जनसंख्या की दृष्टि से भारत का स्थान संसार के देशों में दूसरे नम्बर पर है।",
+        "भारत सिद्धांत और व्यवहार दोनों को एक रखना चाहता है।",
+        "भारत की सैन्य ताकत से डरकर अन्य राष्ट्र भारत को आदर की दृष्टि से देखते है।"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (भारत की राजनीति कुछ विशिष्ट सिद्धांतों पर आधारित है।) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 90,
+      "section": "Hindi Language and Comprehension",
+      "question": "'मेरे पतंग की डोर ------------------------।' वाक्य के रिक्त स्थान के लिए उपयुक्त क्रिया पद है-",
+      "question_image": null,
+      "options": [
+        "मत काटो",
+        "विदेशी है",
+        "पतली है",
+        "लंबी है"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (मत काटो) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 91,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:निम्नलिखित गद्यांश को ध्यानपूर्वक पढ़कर पूछे गये प्रश्नों के सही उत्तर दीजिए।  यह सत्य है कि मानव सृष्टि का सर्वश्रेष्ठ प्राणी होने के बावजूद अपने ही विनाश का कारण बनता रहा है। सभ्यता के आरोहण के साथ जिस अनुपात में विज्ञान, तकनीक और ज्ञान ने उन्नति की है, उसी अनुपात में विनाश के साधन भी परिष्कृत होते गए हैं। युद्ध मानव के अहंकार, स्वार्थ और सत्ता-लिप्सा का प्रतीक बन चुका है। जब-जब मनुष्य ने अपनी सीमा लांघी, तब-तब उसने युद्ध को अनिवार्य ठहराकर मानवता को स्वयं के पैरों तले रौंदा है। प्रगति की चमकती हुई ज्वाला के पीछे छिपे रक्तरंजित अध्याय इस बात के साक्ष्य हैं कि मनुष्य ने अपनी बुद्धि का उपयोग सर्जना से अधिक विध्वंस में किया है। युद्ध का भयावह यथार्थ यह है कि वह किसी धर्म, देश या विचारधारा का नहीं होता; वह केवल विनाश का पर्याय बनकर आता है। धूल-धुएँ से ढँका आकाश, मानवता की आहत करुण पुकार और सभ्यता के मलबे में बिखरी जीवन की वेदना—ये सभी युद्ध की वास्तविक भाषा हैं। आधुनिक मानव ने यदि युद्ध को ‘परमाणु शक्ति’ के आवरण में लपेट दिया है, तो भी उसकी आत्मा की नृशंसता अपरिवर्तित रही है। युद्ध की नृशंसता केवल सीमाओं को नहीं तोड़ती, वह मानवीय चेतना के भीतर के संतुलन को भी भंग कर देती है। अतः जब तक मनुष्य अपने भीतर पल रहे अहं के राक्षस को परास्त नहीं करता, तब तक वह स्वयं को सभ्य कहने का अधिकारी नहीं बन सकता। युद्ध अंततः मनुष्य की आत्मा की पराजय है—और यही उसका सबसे बड़ा दुःख भी।“मानवीय चेतना के भीतर के संतुलन को भी भंग कर देती है” पंक्ति में “भंग” शब्द का उचित प्रयोग है—",
+      "question_image": null,
+      "options": [
+        "गणितज्ञ ने एक जटिल समस्या का भंग किया।",
+        "अनुशासन भंग होने पर संगठन की नींव हिल जाती है।",
+        "समस्या को समझकर ही उसका भंग मिल सकता है।",
+        "बारिश के बाद खेतों में पूर्ण हरियाली भंग हुई।"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (अनुशासन भंग होने पर संगठन की नींव हिल जाती है।) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 92,
+      "section": "Hindi Language and Comprehension",
+      "question": "'मोहन रमेश से इर्षा करता है' वाक्य के किस भाग में त्रुटि है?234",
+      "question_image": null,
+      "options": [
+        "रमेश से",
+        "करता है",
+        "मोहन",
+        "इर्षा"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (इर्षा) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 93,
+      "section": "Hindi Language and Comprehension",
+      "question": "नीचे वाक्य के अव्यवस्थित खंड दिए गए हैं। इन्हें सही क्रम में लगाकर पूर्ण वाक्य बनाने वाले विकल्प का चयन कीजिए।(a) था कि इस साहसी छात्र(b) में डूबने से बचाया है(c) ने एक बच्चे को नदी(d) मैंने अखबार में पढ़ा",
+      "question_image": null,
+      "options": [
+        "a,c,b,d",
+        "c,b,d,a",
+        "d,a,c,b",
+        "b,d,a,c"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (d,a,c,b) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 94,
+      "section": "Hindi Language and Comprehension",
+      "question": "पिताजी बच्चों …… मिठाई लाए हैं। कारक चिह्न का प्रयोग करके वाक्य पूर्ण करें-",
+      "question_image": null,
+      "options": [
+        "की - संबंध कारक",
+        "से - अपादान कारक",
+        "पर - अधिकरण कारक",
+        "के लिए - संप्रदान कारक"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (के लिए - संप्रदान कारक) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 95,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:गद्यांश के आधार पर निम्नलिखित प्रश्नों  के उत्तर दीजिए।मानव जीवन बड़ी मुश्किल से मिलता है। यह अनेक जन्मों के अच्छे कर्मों का ही फल है। इसलिए इस महत्त्वपूर्ण मानव जीवन का उचित ढंग से उपयोग करना बहुत आवश्यक हो जाता है। कई लोग इसका महत्त्व नहीं समझते और इसे व्यर्थ खो देते हैं। तब वे हाथ मलते रह जाते हैं। वैज्ञानिक प्रगति के इस युग में मानव अपना लक्ष्य भूल चुका है। वह संसार की सुख-सुविधाओं और धन-सम्पत्ति को इकट्ठा करने में ही अपना जीवन लगा रहा है।मानव जीवन तभी सार्थक है, जब मनुष्य इसका उपयोग दूसरों के हित के लिए करे। पेट तो पशु भी भर लेते हैं पर मानव भी केवल अपने पेट के भरण में लगा रहे तो मानव जन्म का लाभ ही क्या ? पर मैं यह भी जानता हूँ कि कहना जितना सरल है, करना उतना ही कठिन । जन-सेवा और राष्ट्र के उद्धार की रट लगाने से कोई लाभ नहीं। यह काम तो सेवा, त्याग तपस्या का है। इसके लिए मनुष्य को अपने जीवन का समर्पण करना पड़ता है। यह काँटों से भरा रास्ता है। कदम-कदम पर समस्याओं का सामना करना पड़ता है। कई बार दूसरों की आलोचना का शिकार भी बनना पड़ता है। पर मुझे किसी चीज की चिन्ता नहीं। मार्ग में चाहे कितनी भी कठिनाइयाँ क्यों न आएँ, मैं अपने मार्ग पर दृढ़तापूर्वक बढ़ता जाऊँगा।Q100. अधिकतर मनुष्य अपने जीवन के अमूल्य वरदान को किस प्रकार व्यर्थ कर रहे हैं?",
+      "question_image": null,
+      "options": [
+        "संसार की सुख सुविधाओं और धन संपत्ति को जमा करने में।",
+        "सांस्कृतिक प्रगति के लिए प्रयास करके।",
+        "राजनैतिक प्रगति के लिए प्रयास करके।",
+        "आध्यात्मिक प्रगति के लिए प्रयास करके।"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (संसार की सुख सुविधाओं और धन संपत्ति को जमा करने में।) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 96,
+      "section": "Hindi Language and Comprehension",
+      "question": "'जीतने की  इच्छा' वाक्यांश के लिए उपयुक्त शब्द कौन सा है ?",
+      "question_image": null,
+      "options": [
+        "जिगीषा",
+        "बुभुक्षा",
+        "जिजीविषा",
+        "लिप्सा"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (जिगीषा) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 97,
+      "section": "Hindi Language and Comprehension",
+      "question": "गुरू शिष्य .... ज्ञान देता है ।वाक्य के रिक्त स्थान को सम्प्रदान  कारक से पूर्ण करें।",
+      "question_image": null,
+      "options": [
+        "में",
+        "को",
+        "से",
+        "पर"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (को) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 98,
+      "section": "Hindi Language and Comprehension",
+      "question": "'आस्तिक' का विलोम कौन-सा शब्द है-",
+      "question_image": null,
+      "options": [
+        "अनास्था",
+        "अधार्मिक",
+        "नास्तिक",
+        "धर्मभीरु"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (नास्तिक) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 99,
+      "section": "Hindi Language and Comprehension",
+      "question": "यह अनिकेत ....... किताब है।वाक्य के रिक्त स्थान को सम्बन्ध कारक से पूर्ण करें।",
+      "question_image": null,
+      "options": [
+        "की",
+        "को",
+        "का",
+        "के"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (की) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 100,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्न वाक्य के रिक्त स्थान में उपयुक्त कारक चिह्न का प्रयोग कर वाक्य पूर्ण करें -रमा ने मजदूर                 खाना खिलाया ।'",
+      "question_image": null,
+      "options": [
+        "में",
+        "अरे",
+        "को",
+        "का"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (को) है।",
+      "explanation_image": null
+    }
+  ]
+}

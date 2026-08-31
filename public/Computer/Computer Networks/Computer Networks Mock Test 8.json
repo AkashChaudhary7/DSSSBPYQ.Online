@@ -1,0 +1,700 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "section": "Computer Networks",
+      "question": "What was the name of the first network?",
+      "options": [
+        "A) ASAPNET",
+        "B) ARPANET",
+        "C) CNNET",
+        "D) NSFNET"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 2,
+      "section": "Computer Networks",
+      "question": "Which of the following is the network layer protocol for the internet?",
+      "options": [
+        "A) hypertext transfer protocol",
+        "B) file transfer protocol",
+        "C) ethernet",
+        "D) internet protocol"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 3,
+      "section": "Computer Networks",
+      "question": "Which network topology requires a central controller or hub?",
+      "options": [
+        "A) Ring",
+        "B) Bus",
+        "C) Star",
+        "D) Mesh"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 4,
+      "section": "Computer Networks",
+      "question": "If a link transmits 4000 frames per second, and each slot has 8 bits, what is the transmission rate of the circuit using Time Division Multiplexing (TDM)?",
+      "options": [
+        "A) 500kbps",
+        "B) 32kbps",
+        "C) 32bps",
+        "D) 500bps"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 5,
+      "section": "Computer Networks",
+      "question": "Which of the following allows LAN users to share computer programs and data?",
+      "options": [
+        "A) File server",
+        "B) Network",
+        "C) Communication server",
+        "D) Print server"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 6,
+      "section": "Computer Networks",
+      "question": "What type of transmission is involved in communication between a computer and a keyboard?",
+      "options": [
+        "A) Half-duplex",
+        "B) Full-duplex",
+        "C) Simplex",
+        "D) Automatic"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 7,
+      "section": "Computer Networks",
+      "question": "Which layer provides the services to user?",
+      "options": [
+        "A) physical layer",
+        "B) presentation layer",
+        "C) session layer",
+        "D) application layer"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 8,
+      "section": "Computer Networks",
+      "question": "Which connection is necessary for a computer to join the internet?",
+      "options": [
+        "A) internet society",
+        "B) internet service provider",
+        "C) different computer",
+        "D) internet architecture board"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 9,
+      "section": "Computer Networks",
+      "question": "Which of the following allows you to connect and login to a remote computer?",
+      "options": [
+        "A) SMTP",
+        "B) HTTP",
+        "C) FTP",
+        "D) Telnet"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 10,
+      "section": "Computer Networks",
+      "question": "Which of the following is used in an attempt to render a computer resource unavailable to its intended users?",
+      "options": [
+        "A) botnet process",
+        "B) worms attack",
+        "C) virus attack",
+        "D) denial-of-service attack"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 11,
+      "section": "Computer Networks",
+      "question": "The network layer is concerned with __________ of data.",
+      "options": [
+        "A) bits",
+        "B) frames",
+        "C) packets",
+        "D) bytes"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 12,
+      "section": "Computer Networks",
+      "question": "Which one of the following is not a function of network layer?",
+      "options": [
+        "A) routing",
+        "B) inter-networking",
+        "C) congestion control",
+        "D) error control"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 13,
+      "section": "Computer Networks",
+      "question": "A 4 byte IP address consists of __________",
+      "options": [
+        "A) only network address",
+        "B) only host address",
+        "C) network address & host address",
+        "D) network address & MAC address"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 14,
+      "section": "Computer Networks",
+      "question": "In virtual circuit network each packet contains ___________",
+      "options": [
+        "A) full source and destination address",
+        "B) a short VC number",
+        "C) only source address",
+        "D) only destination address"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 15,
+      "section": "Computer Networks",
+      "question": "Which of the following routing algorithms can be used for network layer design?",
+      "options": [
+        "A) shortest path algorithm",
+        "B) distance vector routing",
+        "C) link state routing",
+        "D) all of the mentioned"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 16,
+      "section": "Computer Networks",
+      "question": "Which of the following is not correct in relation to multi-destination routing?",
+      "options": [
+        "A) is same as broadcast routing",
+        "B) contains the list of all destinations",
+        "C) data is not sent by packets",
+        "D) there are multiple receivers"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 17,
+      "section": "Computer Networks",
+      "question": "A subset of a network that includes all the routers but contains no loops is called ________",
+      "options": [
+        "A) spanning tree",
+        "B) spider structure",
+        "C) spider tree",
+        "D) special tree"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 18,
+      "section": "Computer Networks",
+      "question": "Which one of the following algorithm is not used for congestion control?",
+      "options": [
+        "A) traffic aware routing",
+        "B) admission control",
+        "C) load shedding",
+        "D) routing information protocol"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 19,
+      "section": "Computer Networks",
+      "question": "The network layer protocol for internet is __________",
+      "options": [
+        "A) ethernet",
+        "B) internet protocol",
+        "C) hypertext transfer protocol",
+        "D) file transfer protocol"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 20,
+      "section": "Computer Networks",
+      "question": "ICMP is primarily used for __________",
+      "options": [
+        "A) error and diagnostic functions",
+        "B) addressing",
+        "C) forwarding",
+        "D) routing"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 21,
+      "section": "Computer Networks",
+      "question": "Transport layer aggregates data from different applications into a single stream before passing it to ____________",
+      "options": [
+        "A) network layer",
+        "B) data link layer",
+        "C) application layer",
+        "D) physical layer"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 22,
+      "section": "Computer Networks",
+      "question": "Which of the following are transport layer protocols used in networking?",
+      "options": [
+        "A) TCP and FTP",
+        "B) UDP and HTTP",
+        "C) TCP and UDP",
+        "D) HTTP and FTP"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 23,
+      "section": "Computer Networks",
+      "question": "User datagram protocol is called connectionless because _____________",
+      "options": [
+        "A) all UDP packets are treated independently by transport layer",
+        "B) it sends data as a stream of related packets",
+        "C) it is received in the same order as sent order",
+        "D) it sends data very quickly"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 24,
+      "section": "Computer Networks",
+      "question": "Transmission control protocol ___________",
+      "options": [
+        "A) is a connection-oriented protocol",
+        "B) uses a three way handshake to establish a connection",
+        "C) receives data from application as a single stream",
+        "D) all of the mentioned"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 25,
+      "section": "Computer Networks",
+      "question": "An endpoint of an inter-process communication flow across a computer network is called __________",
+      "options": [
+        "A) socket",
+        "B) pipe",
+        "C) port",
+        "D) machine"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 26,
+      "section": "Computer Networks",
+      "question": "Socket-style API for windows is called ____________",
+      "options": [
+        "A) wsock",
+        "B) winsock",
+        "C) wins",
+        "D) sockwi"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 27,
+      "section": "Computer Networks",
+      "question": "Which one of the following is a version of UDP with congestion control?",
+      "options": [
+        "A) datagram congestion control protocol",
+        "B) stream control transmission protocol",
+        "C) structured stream transport",
+        "D) user congestion control protocol"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 28,
+      "section": "Computer Networks",
+      "question": "A _____ is a TCP name for a transport service access point.",
+      "options": [
+        "A) port",
+        "B) pipe",
+        "C) node",
+        "D) protocol"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 29,
+      "section": "Computer Networks",
+      "question": "Transport layer protocols deals with ____________",
+      "options": [
+        "A) application to application communication",
+        "B) process to process communication",
+        "C) node to node communication",
+        "D) man to man communication"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 30,
+      "section": "Computer Networks",
+      "question": "Which of the following is a transport layer protocol?",
+      "options": [
+        "A) stream control transmission protocol",
+        "B) internet control message protocol",
+        "C) neighbor discovery protocol",
+        "D) dynamic host configuration protocol"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 31,
+      "section": "Computer Networks",
+      "question": "Physical or logical arrangement of network is __________",
+      "options": [
+        "A) Topology",
+        "B) Routing",
+        "C) Networking",
+        "D) Control"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 32,
+      "section": "Computer Networks",
+      "question": "Which network topology requires a central controller or hub?",
+      "options": [
+        "A) Star",
+        "B) Mesh",
+        "C) Ring",
+        "D) Bus"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 33,
+      "section": "Computer Networks",
+      "question": "_______ topology requires a multipoint connection.",
+      "options": [
+        "A) Star",
+        "B) Mesh",
+        "C) Ring",
+        "D) Bus"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 34,
+      "section": "Computer Networks",
+      "question": "Data communication system spanning states, countries, or the whole world is ________",
+      "options": [
+        "A) LAN",
+        "B) WAN",
+        "C) MAN",
+        "D) PAN"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 35,
+      "section": "Computer Networks",
+      "question": "Data communication system within a building or campus is________",
+      "options": [
+        "A) LAN",
+        "B) WAN",
+        "C) MAN",
+        "D) PAN"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 36,
+      "section": "Computer Networks",
+      "question": "WAN stands for __________",
+      "options": [
+        "A) World area network",
+        "B) Wide area network",
+        "C) Web area network",
+        "D) Web access network"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 37,
+      "section": "Computer Networks",
+      "question": "In TDM, slots are further divided into __________",
+      "options": [
+        "A) Seconds",
+        "B) Frames",
+        "C) Packets",
+        "D) Bits"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 38,
+      "section": "Computer Networks",
+      "question": "_____ is the multiplexing technique that shifts each signal to a different carrier frequency.",
+      "options": [
+        "A) FDM",
+        "B) TDM",
+        "C) Both FDM & TDM",
+        "D) PDM"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 39,
+      "section": "Computer Networks",
+      "question": "The three topologies associated with LANs are _________",
+      "options": [
+        "A) Mesh, Tree and Bus topology",
+        "B) Tree, Circular and Ring topology",
+        "C) Bus, Ring and Star topology",
+        "D) Hybrid, Mesh and Star topology"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 40,
+      "section": "Computer Networks",
+      "question": "A pseudo topology that combines a Star topology with either Ring or Bus topology is known as ___________",
+      "options": [
+        "A) Router",
+        "B) Hub",
+        "C) Ethernet",
+        "D) Switches"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 41,
+      "section": "Computer Networks",
+      "question": "The Tree topology is employed in network using ________",
+      "options": [
+        "A) Brouters",
+        "B) LAN",
+        "C) Switches",
+        "D) WAN"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 42,
+      "section": "Computer Networks",
+      "question": "________ topology is a combination of two or more topologies.",
+      "options": [
+        "A) Star",
+        "B) Hybrid",
+        "C) Bus",
+        "D) Ring"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 43,
+      "section": "Computer Networks",
+      "question": "The two types of LAN deployed are __________ and ___________",
+      "options": [
+        "A) Mesh based, Bus based",
+        "B) Hybrid based, Star based",
+        "C) Bus based, Ring based",
+        "D) Ring based, Tree based"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 44,
+      "section": "Computer Networks",
+      "question": "Bus Architecture is implemented in LANs using ________",
+      "options": [
+        "A) Address Resolution Protocol (ARP)",
+        "B) Hypertext Transfer Protocol (HTTP)",
+        "C) File Transfer Protocol (FTP)",
+        "D) Ethernet Protocol"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 45,
+      "section": "Computer Networks",
+      "question": "Token Ring and FDDI configurations use the _________ topology.",
+      "options": [
+        "A) ring",
+        "B) star",
+        "C) mesh",
+        "D) bus"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 46,
+      "section": "Computer Networks",
+      "question": "Which protocol is most frequently used in Star topology?",
+      "options": [
+        "A) Modem",
+        "B) Cable",
+        "C) DSL",
+        "D) Ethernet"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 47,
+      "section": "Computer Networks",
+      "question": "Linear network topology is more expensive than other topologies.",
+      "options": [
+        "A) True",
+        "B) False"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 48,
+      "section": "Computer Networks",
+      "question": "The diagram given below represents ___________",
+      "options": [
+        "A) Fully connected topology",
+        "B) Mesh topology",
+        "C) Star topology",
+        "D) Hybrid topology"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 49,
+      "section": "Computer Networks",
+      "question": "FDDI can cover a much larger geographical area than Token Ring on copper.",
+      "options": [
+        "A) True",
+        "B) False"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 50,
+      "section": "Computer Networks",
+      "question": "WANs are configured using the ______ or the ______ topology.",
+      "options": [
+        "A) Bus, Tree",
+        "B) Mesh, Ring",
+        "C) Ring, Hybrid",
+        "D) Mesh, Tree"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    }
+  ]
+}

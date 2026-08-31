@@ -1,0 +1,116 @@
+{
+  "id": "/?utm_source=pwa",
+  "short_name": "DSSSB PYQ",
+  "name": "DSSSB PYQ Online",
+  "description": "Comprehensive DSSSB exam preparation app with full mock tests, PYQs, subject-wise practice, and mistake vault for all TGT, PGT, PRT & non-teaching exams.",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": [
+    "education",
+    "utilities",
+    "books"
+  ],
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/pwa-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/pwa-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.svg",
+      "sizes": "390x844",
+      "type": "image/svg+xml",
+      "form_factor": "narrow",
+      "label": "DSSSB Mobile Practice Exam Interface"
+    },
+    {
+      "src": "/screenshot-desktop.svg",
+      "sizes": "1280x720",
+      "type": "image/svg+xml",
+      "form_factor": "wide",
+      "label": "DSSSB Desktop Analytics & Practice Board"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Practice Computer Science",
+      "short_name": "Part B CS",
+      "description": "Start practicing Part B Computer Science Mock tests.",
+      "url": "/?tab=part-b-view",
+      "icons": [
+        {
+          "src": "/pwa-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "General Part A Boosters",
+      "short_name": "Part A General",
+      "description": "Boost your scores in Mathematics, Reasoning, and English.",
+      "url": "/?tab=part-a-view",
+      "icons": [
+        {
+          "src": "/pwa-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Mistake Vault",
+      "short_name": "Mistakes",
+      "description": "Review and re-attempt your incorrect bookmark questions.",
+      "url": "/?tab=mistakes-view",
+      "icons": [
+        {
+          "src": "/pwa-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "start_url": "/?utm_source=pwa",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "window-controls-overlay",
+    "minimal-ui"
+  ],
+  "orientation": "portrait",
+  "prefer_related_applications": false
+}

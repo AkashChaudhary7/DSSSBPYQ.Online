@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Defer Google Tag & AdSense to run during idle time to prevent blocking main thread FCP/LCP -->
+    <script>
+      function loadThirdPartyScripts() {
+        if (window.__thirdPartyLoaded) return;
+        window.__thirdPartyLoaded = true;
+
+        // Google Tag (gtag.js)
+        var gtagScript = document.createElement('script');
+        gtagScript.async = true;
+        gtagScript.src = "https://www.googletagmanager.com/gtag/js?id=G-3JDCV6V22G";
+        document.head.appendChild(gtagScript);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-3JDCV6V22G');
+
+        // Google AdSense - Only load on Desktop / Web view (screen width >= 768px)
+        if (window.innerWidth >= 768) {
+          var adsenseScript = document.createElement('script');
+          adsenseScript.async = true;
+          adsenseScript.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9282190735069880";
+          adsenseScript.setAttribute("crossorigin", "anonymous");
+          document.head.appendChild(adsenseScript);
+        }
+      }
+
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(function() { setTimeout(loadThirdPartyScripts, 1500); });
+      } else {
+        window.addEventListener('load', function() { setTimeout(loadThirdPartyScripts, 2000); });
+      }
+    </script>
+    <meta name="google-adsense-account" content="ca-pub-9282190735069880" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BytePrep: TGT PGT CS - Computer Science Mock Tests, General Ability &amp; Teaching Methodology</title>
+    <meta name="description" content="BytePrep: TGT PGT CS - Comprehensive practice app for TGT &amp; PGT Computer Science (32 CS topics), General Ability Part A, Teaching Methodology (Pedagogy), 200-marks full CBT mock tests, and syllabus tracker." />
+    <meta name="keywords" content="BytePrep TGT PGT CS, BytePrep Computer Science, TGT Computer Science mock test, PGT Computer Science prep, DSSSB TGT CS 32 topics, General Ability Part A mocks, Teaching Methodology pedagogy, Operating Systems DBMS Computer Networks Data Structures, CBT mock tests" />
+    <meta name="author" content="BytePrep CS Team" />
+    <meta name="theme-color" content="#2563eb" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <link rel="canonical" href="https://dsssbpyq.online/" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://dsssbpyq.online/" />
+    <meta property="og:title" content="BytePrep: TGT PGT CS - Computer Science, General Ability &amp; Teaching Methodology" />
+    <meta property="og:description" content="Master TGT &amp; PGT Computer Science with 32 topic modules, General Ability subject mocks, Teaching Methodology pedagogy tests, and full-length CBT mock exams on BytePrep." />
+    <meta property="og:site_name" content="BytePrep: TGT PGT CS" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://dsssbpyq.online/" />
+    <meta name="twitter:title" content="BytePrep: TGT PGT CS" />
+    <meta name="twitter:description" content="Practice 32 CS topics, General Ability Part A, and Teaching Methodology pedagogy with timed CBT mock tests and detailed solutions." />
+
+    <!-- Schema.org JSON-LD Structured Data for Google Search Engine -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalApplication",
+      "name": "BytePrep: TGT PGT CS",
+      "alternateName": "BytePrep Computer Science & General Ability Prep",
+      "url": "https://dsssbpyq.online/",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "All",
+      "description": "Comprehensive practice app for TGT & PGT Computer Science, General Ability Part A, Teaching Methodology, 32 CS topics, and full-length CBT mock tests.",
+      "educationalUse": "Exam Preparation, Practice Tests, Performance Analytics",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "BytePrep: TGT PGT CS",
+        "url": "https://dsssbpyq.online/"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "BytePrep: TGT PGT CS",
+      "url": "https://dsssbpyq.online/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://dsssbpyq.online/?search={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://dsssbpyq.online/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Part A General Section",
+          "item": "https://dsssbpyq.online/part-a"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Part B Computer Science",
+          "item": "https://dsssbpyq.online/part-b"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Full Mock Tests",
+          "item": "https://dsssbpyq.online/full-mocks"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Booster Practice",
+          "item": "https://dsssbpyq.online/booster"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Mistakes Vault",
+          "item": "https://dsssbpyq.online/mistakes"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "DSSSB Syllabus Tracker Hub",
+          "item": "https://dsssbpyq.online/syllabus"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "DSSSB TGT CS Syllabus Tracker",
+          "item": "https://dsssbpyq.online/syllabus/tgt-computer-science"
+        }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Where can I find free DSSSB TGT Computer Science previous year question papers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can access 100% free official DSSSB TGT Computer Science previous year question papers (PYQs), topic-wise mock tests, and real-time timed test series at https://dsssbpyq.online."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is covered in Part A and Part B of the DSSSB TGT Computer Science exam?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Part A covers General Awareness, General Intelligence & Reasoning Ability, Arithmetical & Numerical Ability, Test of Hindi Language, and Test of English Language (100 marks total). Part B covers Computer Science domain knowledge including Operating Systems, DBMS, Networking, Data Structures, Programming in C++/Python, and Teaching Methodology (100 marks total)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is negative marking applicable in DSSSB TGT CS exams?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, DSSSB applies a negative marking penalty of 0.25 marks for every wrong answer. DSSSBPYQ.Online features an exact exam simulation with automatic 0.25 negative marking."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" media="print" onload="this.media='all'" />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" />
+    </noscript>
+    <style>
+      body {
+        font-family: 'Outfit', sans-serif;
+      }
+      .display-font {
+        font-family: 'Playfair Display', serif;
+      }
+      @media (max-width: 767px) {
+        .adsbygoogle, ins.adsbygoogle {
+          display: none !important;
+        }
+      }
+      /* Ensure images have layout bounds to prevent CLS */
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body class="bg-slate-50 text-slate-900 selection:bg-blue-100 selection:text-blue-900 min-h-screen">
+    <div id="root">
+      <div id="app-initial-loader" style="min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; background: #f8fafc; font-family: 'Outfit', sans-serif; text-align: center; padding: 24px; color: #0f172a;">
+        <div style="width: 72px; height: 72px; margin: 0 auto 16px; border-radius: 20px; background: linear-gradient(135deg, #4f46e5, #2563eb); display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 25px -5px rgba(79, 70, 229, 0.4);">
+          <svg style="width: 38px; height: 38px; color: #ffffff;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+          </svg>
+        </div>
+        <h1 style="font-size: 20px; font-weight: 800; color: #0f172a; margin: 0 0 6px 0; letter-spacing: -0.02em;">DSSSB PYQ Online</h1>
+        <p style="font-size: 13px; font-weight: 600; color: #64748b; margin: 0 0 20px 0;">TGT Computer Science &amp; General Ability Hub</p>
+        <div style="width: 140px; height: 4px; background: #e2e8f0; border-radius: 99px; overflow: hidden; margin: 0 auto 16px; position: relative;">
+          <div style="width: 50%; height: 100%; background: #4f46e5; border-radius: 99px; animation: loader-slide 1.2s ease-in-out infinite;"></div>
+        </div>
+        <p style="font-size: 11px; font-weight: 600; color: #94a3b8; margin: 0;">Opening application...</p>
+        
+        <div id="loader-fallback-btn" style="display: none; margin-top: 24px;">
+          <button onclick="window.location.reload(true)" style="background: #4f46e5; color: #ffffff; font-weight: 800; font-size: 12px; border: none; padding: 10px 20px; border-radius: 12px; cursor: pointer; box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);">
+            Taking longer than usual? Refresh App
+          </button>
+        </div>
+      </div>
+      <style>
+        @keyframes loader-slide {
+          0% { transform: translateX(-100%); }
+          100% { transform: translateX(200%); }
+        }
+      </style>
+      <script>
+        window.addEventListener('error', function(e) {
+          if (e.target && (e.target.tagName === 'SCRIPT' || e.target.tagName === 'LINK')) {
+            console.warn('[PWA Warning] Script or stylesheet failed to load:', e.target.src || e.target.href);
+            var btn = document.getElementById('loader-fallback-btn');
+            if (btn) btn.style.display = 'block';
+          }
+        }, true);
+
+        setTimeout(function() {
+          var btn = document.getElementById('loader-fallback-btn');
+          if (btn) btn.style.display = 'block';
+        }, 3500);
+      </script>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,1446 @@
+{
+  "test_title": "Mock Test 17",
+  "total_questions": 90,
+  "questions": [
+    {
+      "id": 1,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Given below is a statement (Cause) followed by possible effects numbered I and II. Read the ‘Cause’ carefully and decide which of them can be possible effect/s.Cause: Due to a severe drought, River F, one of Country L's major rivers, has significantly dried up over the past two years.Effect I: This year, Country L has recorded an all-time high of power generated from renewable sources.Effect II: Over the past year, Country L has achieved its highest-ever harvest of water-intensive crop R since the past decade.",
+      "question_image": null,
+      "options": [
+        "Both I and II are possible effects",
+        "Only II is a possible effect",
+        "Only I is a possible effect",
+        "Neither I nor II are possible effects"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Neither I nor II are possible effects) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 2,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "What will come in place of the question mark (?) in the following equation if ‘−’ and ‘÷’ are interchanged and ‘+’ and ‘×’ are interchanged?6 × 2 ÷ 3 × 45 − 9 × 4 = ?586",
+      "question_image": null,
+      "options": [
+        "20",
+        "14",
+        "25",
+        "17"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (14) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 3,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "This question is based on the following letter-clusters.IMP          ANR           HUP            KYE      In each of the letter-clusters, each vowel is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. In how many letter-clusters thus formed, will no vowel appear?",
+      "question_image": null,
+      "options": [
+        "Zero",
+        "Three",
+        "One",
+        "Two"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Two) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 4,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Each of A, B, C, D, P, Q and R has an exam on a different day of a week, starting from Monday and ending on Sunday of the same week.Only two people have their exams before B. Only one person has the exam after P. Only three people have their exams between B and R. Only one person has the exam between A and C. D has the exam immediately before A.Who has the exam on Friday?",
+      "question_image": null,
+      "options": [
+        "Q",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Q) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 5,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "A certain number of people are sitting in a row, facing north. L sits third to the left of D. Only two people sit between B and A. C sits second to the right of B. Only four people sit between L and C. M sits to the immediate left of D. No one sits to the left of B. If no other person is sitting in the row, what is the total number of persons seated?",
+      "question_image": null,
+      "options": [
+        "8",
+        "7",
+        "11",
+        "9"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (11) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 6,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.Statements:All benches are tables.Some chairs are tables.No chair is a stool.Conclusions:I. Some benches are chairs.II. No stool is a table.",
+      "question_image": null,
+      "options": [
+        "Both conclusions I and II follow.",
+        "Only conclusion I follows.",
+        "Only conclusion II follows.",
+        "Neither conclusion I nor II follows."
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Neither conclusion I nor II follows.) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 7,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion(s) logically follow(s) from the statements.Statements: All sweaters are jackets.All sweaters are trousers.Some trousers are cargoes.Conclusions:(I) Some cargoes are sweaters.(II) Some trousers are jackets.",
+      "question_image": null,
+      "options": [
+        "Neither conclusion (I) nor (II) follows.",
+        "Only conclusion (II) follows.",
+        "Both conclusions (I) and (II) follow.",
+        "Only conclusion (I) follows."
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Only conclusion (II) follows.) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 8,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number results in the second number. Similarly, certain mathematical operation(s) on the second number results in the third number and so on. Which of the given options follows the same set of operations as in the given sets? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting /multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) 85 - 72 - 60 - 4996 - 83 - 71 - 60437",
+      "question_image": null,
+      "options": [
+        "122 - 111 - 99 - 86",
+        "109 - 96 - 84 - 73",
+        "131 - 118 - 107 - 85",
+        "148 - 135 - 113 - 102"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (109 - 96 - 84 - 73) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 9,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete? DAX 91,  BVZ 83,  ZQB 75,  XLD 67,  VGF 59,   ?",
+      "question_image": null,
+      "options": [
+        "UAG 53",
+        "SBG 53",
+        "SCH 51",
+        "TBH 51"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (TBH 51) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 10,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "A, B, C, D, K, L, M and N are sitting around a square table facing the centre of the table (but not necessarily in the same order). Some of them are sitting at the corners while some are sitting at the exact centre of the sides.\nOnly three people sit between L and C when counted from the left of C. L sits at the centre of one of the sides. K sits second to the left of C. N sits second to the right of A. D sits at one of the corners and is not an immediate neighbour of C. Only three people sit between N and B when counted from the left of N. D is not an immediate neighbour of M.\nWho sits fourth to the left of M?3181",
+      "question_image": null,
+      "options": [
+        "L",
+        "A",
+        "K",
+        "N"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (K) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 11,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Mr. E starts from Point A and drives 12 km towards the North. He then takes a right turn, drives 6 km, turns right and drives 9 km. He then takes a left turn, drives 12 km, turns right and drives 6 km. He then takes a right turn and drives 21 km. He takes a final right turn, drives 3 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again? (All turns are 90 degrees turns only unless specified)",
+      "question_image": null,
+      "options": [
+        "6 km to the south",
+        "4 km to the north",
+        "5 km to the west",
+        "3 km to the east"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (3 km to the east) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 12,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "In this question, two statements I and II have been given. These statements may be independent causes or effects of independent causes or a common cause. One of the statements may be the effect of the other statement. Read both the statements and select the correct answer.Statements:I) Anil’s wealth has been decreasing over the last six months.II) Anil has been spending a lot of money buying cars over the last six months.",
+      "question_image": null,
+      "options": [
+        "Both I and II are independent causes.",
+        "I is the cause and II is its possible effect.",
+        "II is the cause and I is its possible effect.",
+        "Both I and II are effects of independent causes."
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (II is the cause and I is its possible effect.) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 13,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "27 is related to 49 following a certain logic. Following the same logic, 34 is related to 63. To which of the given options is 41 related, following the same logic?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "question_image": null,
+      "options": [
+        "76",
+        "77",
+        "79",
+        "75"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (77) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 14,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "यह प्रश्न निम्नलिखित शब्दों पर आधारित है।\nTUG RUT ITS PIG\nदाईं ओर से पहले शब्द के दूसरे अक्षर और बाईं ओर से दूसरे शब्द के तीसरे अक्षर के बीच वर्णमाला क्रम में कितने अक्षर आते हैं?",
+      "question_image": null,
+      "options": [
+        "7",
+        "9",
+        "10",
+        "8"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (10) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 15,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "A situation is given followed by two conclusions I and II.  Read the situation and both the statements carefully to select the correct answer.Situation: The Government of country X has decided to reduce the interest rates by 1% on loans taken by entrepreneurs in the technology sector.Conclusions: I. Almost none of the entrepreneurs in country X want to start a business in technology.II. The number of entrepreneurs in the technology sector of country X will double in the next few years.",
+      "question_image": null,
+      "options": [
+        "Only II can be concluded",
+        "Neither I nor II can be concluded",
+        "Only I can be concluded",
+        "Both I and II can be concluded"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Neither I nor II can be concluded) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 16,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Seven boxes A, B, C, D, E, F and G are kept one over the other but not necessarily in the same order. B is kept second from the bottom. Only three boxes are kept between B and G. C is kept at one of the positions below B. Only A is kept between G and F. E is kept at one of the positions above G. How many boxes are kept above G?",
+      "question_image": null,
+      "options": [
+        "4",
+        "1",
+        "3",
+        "2"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (1) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 17,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group?(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)3041",
+      "question_image": null,
+      "options": [
+        "BDF",
+        "WYA",
+        "QUS",
+        "VXZ"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (QUS) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 18,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "A, B, C, D, K, L and M are sitting around a circular table facing the centre of the table. Only two people sit between K and C when counted from the left of C. D sits third to the left of B. M sits to the immediate right of B and second to the left of K. L is not an immediate neighbour of D. Who sits third to the right of A?",
+      "question_image": null,
+      "options": [
+        "D",
+        "M",
+        "B",
+        "L"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (M) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 19,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? YMP UOM ? MSG IUD1345",
+      "question_image": null,
+      "options": [
+        "PYT",
+        "QQJ",
+        "PYR",
+        "OTR"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (QQJ) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 20,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number result(s) in the second number. Similarly, certain mathematical operation(s) on the second number result(s) in the third number and so on. Which of the given options follows the same set of operations as in the given sets?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)26 – 33 – 11 – 16; 14 – 21 – 7 – 12435",
+      "question_image": null,
+      "options": [
+        "50 – 45 – 15 – 20",
+        "20 – 27 – 9 – 14",
+        "12 – 9 – 3 – 8",
+        "15 – 12 – 4 – 9"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (20 – 27 – 9 – 14) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 21,
+      "section": "General Awareness",
+      "question": "Two or more alternative forms of a gene that occupy the same position on homologous chromosomes are known as _______.",
+      "question_image": null,
+      "options": [
+        "alleles",
+        "traits",
+        "factors",
+        "hybrids"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (alleles) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 22,
+      "section": "General Awareness",
+      "question": "Select the most appropriate option to substitute the underlined segment in the given sentence. If no substitution is required, select No improvement.It can be considered a branch of either philosophy and education.",
+      "question_image": null,
+      "options": [
+        "none",
+        "No Improvement",
+        "neither",
+        "both"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (both) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 23,
+      "section": "General Awareness",
+      "question": "Which of the following statements correctly describes the vegetation variation between the eastern and western slopes of the Western Ghats?",
+      "question_image": null,
+      "options": [
+        "The eastern slopes receive more rainfall, supporting dense evergreen forests, while the western slopes support dry deciduous forests.",
+        "The western slopes receive heavy rainfall, supporting evergreen forests, while the eastern slopes, with less rainfall, support deciduous forests.",
+        "Neither slope supports significant vegetation.",
+        "Both slopes have identical vegetation due to similar rainfall patterns."
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (The western slopes receive heavy rainfall, supporting evergreen forests, while the eastern slopes, with less rainfall, support deciduous forests.) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 24,
+      "section": "General Awareness",
+      "question": "In 1896, who set up an Ashram at Hinge, Poona to educate widows and other women as he believed in empowerment through education?",
+      "question_image": null,
+      "options": [
+        "Maharshi Dhondo Keshav Karve",
+        "Ishwar Chandra Vidyasagar",
+        "C. Rajagopalachari",
+        "Gopal Krishna Gokhale"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Maharshi Dhondo Keshav Karve) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 25,
+      "section": "General Awareness",
+      "question": "The Indian federal structure is inspired by which of the following countries model?",
+      "question_image": null,
+      "options": [
+        "Germany",
+        "Canada",
+        "Japan",
+        "South Africa"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Canada) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 26,
+      "section": "General Awareness",
+      "question": "In which of the following years was the Prime Minister’s Secretariat renamed the Prime Minister’s Office?",
+      "question_image": null,
+      "options": [
+        "1984",
+        "1982",
+        "1980",
+        "1977"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (1977) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 27,
+      "section": "General Awareness",
+      "question": "How many Indian states share their boundaries with Bangladesh?",
+      "question_image": null,
+      "options": [
+        "6",
+        "5",
+        "4",
+        "7"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (5) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 28,
+      "section": "General Awareness",
+      "question": "In which year was the Telugu Akademi created in Andhra Pradesh for the promotion of the Telugu language?",
+      "question_image": null,
+      "options": [
+        "1973",
+        "1968",
+        "1977",
+        "1970"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (1968) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 29,
+      "section": "General Awareness",
+      "question": "What was Neeraj Chopra's best throw distance that earned him the silver medal in the men's javelin throw at the Paris Olympics 2024?",
+      "question_image": null,
+      "options": [
+        "90.58 metres",
+        "88.77 metres",
+        "89.45 metres",
+        "86.47 metres"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (89.45 metres) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 30,
+      "section": "General Awareness",
+      "question": "According to the United Nations Development Programme's (UNDP) report, what percentage of countries experienced a reduction in their Human Development Index (HDI) value in 2020 or 2021?",
+      "question_image": null,
+      "options": [
+        "50%",
+        "100%",
+        "70%",
+        "90%"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (90%) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 31,
+      "section": "General Awareness",
+      "question": "Which type of bank account allows the account holder to withdraw funds without any prior notice?",
+      "question_image": null,
+      "options": [
+        "Recurring Deposit Account",
+        "Current Account",
+        "Fixed Deposit Account",
+        "Savings Account"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Current Account) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 32,
+      "section": "General Awareness",
+      "question": "Ayushman Bharat Diwas is celebrated on which day?",
+      "question_image": null,
+      "options": [
+        "April 30",
+        "March 26",
+        "April 9",
+        "Arpil 21"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (April 30) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 33,
+      "section": "General Awareness",
+      "question": "Khudiram Bose, a young revolutionary during the Indian independence movement, is known for ________________.",
+      "question_image": null,
+      "options": [
+        "attempting to assassinate Douglas H Kingsford along with Prafulla Chaki",
+        "writing influential texts on Indian nationalism",
+        "being the mentor of Subhash Chandra Bose",
+        "leading a violent uprising in Bengal"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (attempting to assassinate Douglas H Kingsford along with Prafulla Chaki) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 34,
+      "section": "General Awareness",
+      "question": "Among the given options, which of the following States of India had the highest sex ratio as per census 2011?",
+      "question_image": null,
+      "options": [
+        "Himachal Pradesh",
+        "Tamil Nadu",
+        "Andhra Pradesh",
+        "Manipur"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Tamil Nadu) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 35,
+      "section": "General Awareness",
+      "question": "As per Article 213, when both houses of the Legislature are NOT in session, who among the following has the right to issue ordinances, if he/she is satisfied that circumstances exist?",
+      "question_image": null,
+      "options": [
+        "Governor",
+        "President of India",
+        "Speaker",
+        "Chief Minister"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Governor) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 36,
+      "section": "General Awareness",
+      "question": "दिए गए शब्द का विलोम शब्द ज्ञात कीजिए।इति",
+      "question_image": null,
+      "options": [
+        "ईश्वर",
+        "इच्छा",
+        "ईश",
+        "अथ"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (अथ) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 37,
+      "section": "General Awareness",
+      "question": "Which of the following is a type of igneous rock?I. IntrusiveII. Extrusive",
+      "question_image": null,
+      "options": [
+        "Both I and II",
+        "Neither I nor II",
+        "Only I",
+        "Only II"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Both I and II) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 38,
+      "section": "General Awareness",
+      "question": "Which of the following Articles of the Indian Constitution empowers the Parliament to make laws regarding the acquisition and termination of Indian citizenship?",
+      "question_image": null,
+      "options": [
+        "Article 11",
+        "Article 9",
+        "Article 5",
+        "Article 15"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Article 11) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 39,
+      "section": "General Awareness",
+      "question": "The Sulh-i-Kul policy was introduced by which of the following Mughal emperors?",
+      "question_image": null,
+      "options": [
+        "Humayun",
+        "Akbar",
+        "Jahangir",
+        "Babur"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Akbar) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 40,
+      "section": "General Awareness",
+      "question": "In which year was the Official Language Act passed providing for the continuation of English as an associate official language in the Union and its use in the parliament for an indefinite period?",
+      "question_image": null,
+      "options": [
+        "1963",
+        "1956",
+        "1953",
+        "1950"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (1963) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 41,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The population of a town 3 years ago was 20,00,000. It increases at the rate of 3% per annum. One year ago, 500 people died due to an epidemic. What is the present population of the town?",
+      "question_image": null,
+      "options": [
+        "21,84,939",
+        "19,84,942",
+        "20,84,842",
+        "21,48,924"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (21,84,939) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 42,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "In a 200 m race, Ankit defeats Binu by 20 m, and Binu defeats Cheena by 27 m in another 200 m race. If Ankit and Cheena run a 200 m race, what approximate head start should Ankit give Cheena so that they both finish at the same time?",
+      "question_image": null,
+      "options": [
+        "55 m",
+        "50 m",
+        "47.5 m",
+        "44.3 m"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (44.3 m) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 43,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "At what price (in ₹) must an article costing ₹7,125 be marked in order that after giving discount of 5%, the profit is 25%?",
+      "question_image": null,
+      "options": [
+        "9,735",
+        "9,157",
+        "9,275",
+        "9,375"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (9,375) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 44,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Ritesh and Gauri have to travel from Delhi to Kanpur in their respective cars. Ritesh is driving at 125 km/hr while Gauri is driving at 100 km/hr. Find the time taken by Gauri to reach Kanpur if Ritesh takes 16 hr.",
+      "question_image": null,
+      "options": [
+        "17 hr",
+        "20 hr",
+        "23 hr",
+        "29 hr"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (20 hr) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 45,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Which of the following numbers is divisible by 82?",
+      "question_image": null,
+      "options": [
+        "958915",
+        "958893",
+        "953688",
+        "956612"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (956612) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 46,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A, B and C, when each is working alone, can complete a piece of work, respectively, in 11, 70 and 77 days. They all started the work together, but A left after 2 days. In how many days, was the remaining work completed by both B and C together?",
+      "question_image": null,
+      "options": [
+        "28",
+        "30",
+        "29",
+        "27"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (28) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 47,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The average price of three items of furniture is ₹16350. If their prices are in the ratio 3:5:7, the price of the cheapest item (in ₹) is",
+      "question_image": null,
+      "options": [
+        "9810",
+        "3270",
+        "5450",
+        "7630"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (9810) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 48,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A cosmetic product is available at a discount of 11%. If the shopkeeper charges ₹1,602, what is its marked price (in ₹)?",
+      "question_image": null,
+      "options": [
+        "1,815",
+        "1,805",
+        "1,812",
+        "1,800"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (1,800) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 49,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The arithmetic mean of the observations 90, 75, 25, 75, 42, 74, 43, 88 and 91 is:6331",
+      "question_image": null,
+      "options": [
+        "64",
+        "67",
+        "66",
+        "75"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (67) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 50,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A student's marks were incorrectly entered as 67 instead of 88. Due to this, the average marks of the class got decreased by 7/6. What is the number of students in the class?",
+      "question_image": null,
+      "options": [
+        "21",
+        "12",
+        "18",
+        "20"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (18) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 51,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The distance between two points on a map is 4 cm. The scale of the map is 1:366382. The actual distance (in km, rounded off to two decimal places) between the two points is:",
+      "question_image": null,
+      "options": [
+        "14.26",
+        "14.66",
+        "11.98",
+        "17.31"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (14.66) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 52,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The LCM of the numbers 14, 92 and 69 is:",
+      "question_image": null,
+      "options": [
+        "1942",
+        "1932",
+        "1933",
+        "1940"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (1932) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 53,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "If an item marked at ₹748 is sold for ₹215, what is the discount percentage? (Round off your answer to two decimal places.)",
+      "question_image": null,
+      "options": [
+        "72.33%",
+        "71.26%",
+        "73.15%",
+        "74.72%"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (71.26%) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 54,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "If 43% of the first number is equal to seven-eighths of the second number, what is the ratio of the first number to the second number?",
+      "question_image": null,
+      "options": [
+        "176 : 83",
+        "175 : 86",
+        "177 : 89",
+        "170 : 82"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (175 : 86) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 55,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Reyan can do a piece of work in 24 days and Mayank can do the same work in 72 days. Mayank works alone for 2 days and Reyan works alone on the 3rd day. This process continues till the work is completed. In how many days will the work be completed?",
+      "question_image": null,
+      "options": [
+        "43",
+        "42",
+        "44",
+        "41"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (44) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 56,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A person covers 296 km in 11 hours. If his speed for the first 282 km is 94 km/h, then find the speed for the rest of the distance.3659",
+      "question_image": null,
+      "options": [
+        "3.28 km/h",
+        "1.75 km/h",
+        "2.95 km/h",
+        "4.08 km/h"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (1.75 km/h) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 57,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Sachin deposited a sum of ₹38,975 at 20% rate of interest per annum, compounded annually. The total amount (in ₹) received by Sachin after 2 years is:",
+      "question_image": null,
+      "options": [
+        "56,124",
+        "56,199",
+        "55,662",
+        "55,895"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (56,124) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 58,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Find the greatest number by which when the numbers 47, 79 and 87 are divided, leaves the same remainder in each case.",
+      "question_image": null,
+      "options": [
+        "12",
+        "8",
+        "10",
+        "15"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (8) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 59,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Sohan borrows a sum of ₹8,06,465 at the rate of 20% per annum simple interest. At the end of the first year, he repays ₹25,590 towards return of principal amount borrowed. If Sohan clears all pending dues at the end of the second year, including interest payment that accrued during the first year, how much does he pay at the end of the second year?",
+      "question_image": null,
+      "options": [
+        "₹11,07,314",
+        "₹10,91,479",
+        "₹10,98,343",
+        "₹10,95,423"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (₹10,98,343) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 60,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The average age of 22 students of a class is 11 years. If the age of the teacher is also included, the average age of the whole group becomes 12 years. The age (in years) of the teacher is:6126",
+      "question_image": null,
+      "options": [
+        "37",
+        "34",
+        "35",
+        "38"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (34) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 61,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate ANTONYM of the highlighted word in the given sentence. The young man shocked everyone by making flippant remarks while the will was being read.",
+      "question_image": null,
+      "options": [
+        "Considerate",
+        "Confused",
+        "Insolent",
+        "Detailed"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Considerate) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 62,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate tag question given in the options to fill the blank in the given sentence:Though Farida has worked so hard, she doesn’t deserve a break, ______________________?",
+      "question_image": null,
+      "options": [
+        "doesn't she",
+        "has she",
+        "hasn't she",
+        "does she"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (does she) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 63,
+      "section": "English Language and Comprehension",
+      "question": "Choose the correct spelling of the underlined word in the paragraph given below.The committee raised concerns about the plagarism detected in several postgraduate theses. It was a wake-up call against the advent of artificial intelligence being used in research.",
+      "question_image": null,
+      "options": [
+        "plagiarism",
+        "plagourism",
+        "plagirism",
+        "plagerism"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (plagiarism) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 64,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate option that rectifies the incorrectly spelt word in the given sentence.The teachers avoid colloqual phrases in lectures given in the colleges as they seem too informal for academia.",
+      "question_image": null,
+      "options": [
+        "colloqial",
+        "colloquail",
+        "coloquial",
+        "colloquial"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (colloquial) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 65,
+      "section": "English Language and Comprehension",
+      "question": "Select the correctly spelt word.",
+      "question_image": null,
+      "options": [
+        "Translucent",
+        "Tranclucent",
+        "Translocent",
+        "Translusent"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Translucent) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 66,
+      "section": "English Language and Comprehension",
+      "question": "Complete the sentence with suitable articles. Use X where no article is required.This is _ horrendous situation to which _ authorities do not seem to have _ solution to.",
+      "question_image": null,
+      "options": [
+        "a; an; a",
+        "the; the; a",
+        "a; the; a",
+        "a; the; the"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (a; the; a) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 67,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate adjective to fill in the blank.Despite her _______ demeanour, the critic offered a scathing review of the novel.",
+      "question_image": null,
+      "options": [
+        "indifferent",
+        "volatile",
+        "abrasive",
+        "cordial"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (cordial) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 68,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage carefully and answer the questions that follow.Sunderban is the largest delta and mangrove forest in the world. The Indian Sunderban is bound on the west by river Muriganga and on the east by rivers Hariabhanga and Raimangal. Sunderban's highly productive ecosystem acts as a natural fish nursery. The biogeography of Sunderban is unique and the region harbours a rich diversity in terms of species content, ecosystem, and habitat types. This deltic ecosystem, which is the single largest continuous area in the world for the threatened Bengal Tiger and the largest contiguous mangrove-patch on the globe (along with Bangladesh), is very productive and well-known for its greater degree or specialisation. The entire Eastern India is dependent on the fishery resources from Sunderban. More than 40 species of mammals, 163 species of birds, 56 species of reptiles, 165 species of fish, 23 species of molluscs, 15 species of prawns, and 67 species of crabs have so far been reported in SBR, such as the hawk eagle (Nisaetus Sps.) and the south-water crocodile (Crocodylus porosus).Some three million people live in the biosphere reserve (2001). They depend directly on forest and forest-based resources since agriculture is not productive enough due to saline water. Sales of timber, fuel wood, thatching leaves, honey, and wax are the main sources of income. Due to demographic pressures, the Sunderban is under great stress and therefore an eco-development programme is envisaged based on a highly participative approach of the local communities.Identify the structure of the passage.",
+      "question_image": null,
+      "options": [
+        "Descriptive",
+        "Analytical",
+        "Narrative",
+        "Expository"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Expository) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 69,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate option to fill in the blank. Despite practising _______ at first, Shagufta improved with dedication and effort.",
+      "question_image": null,
+      "options": [
+        "worse",
+        "badness",
+        "bad",
+        "badly"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (badly) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 70,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the following passage carefully and answer the questions that follow.One of the most serious worldwide concerns of the twenty-first century is terrorism, which is defined as the illegal use of force and intimidation, particularly against civilians. In contrast to traditional warfare, terrorism uses fear and uncertainty to destabilise nations and sway political outcomes. To enlist new members and defend their acts, terrorist organisations frequently take use of political, religious, or ideological issues. Terrorism has changed throughout time, moving from small-scale acts to intricate global operations that are frequently coordinated online.Cyberterrorism has become more well-known in recent years, the internet is utilised for sensitive data theft and disruption in addition to recruiting and propaganda. In response, governments everywhere have implemented counterterrorism measures, ranging from military interventions and policy changes to monitoring systems and intelligence-sharing partnerships. But fighting terrorism involves more than just using force. It is equally important to address underlying issues like political oppression, social estrangement, and poverty.Finding a balance between civil freedom and national security is the difficult part. Racial profiling and overzealous surveillance can backfire, alienating communities and bolstering radical narratives. As a result, counterterrorism tactics need to be sophisticated, inclusive, and internationally coordinated. Societies may only then hope to reduce the threat while maintaining the values they are trying to safeguard.Another important factor in the fight against terrorism is education. Early exposure to critical thinking, tolerance, and intercultural understanding can help protect people against radical views. It is possible to lessen the appeal of radical groups and promote more resilient, cohesive communities by empowering young people via education and providing chances for positive civic engagement.What is the passage's main theme?",
+      "question_image": null,
+      "options": [
+        "The abuse of religion in contemporary wars",
+        "The function of governmental monitoring in upholding law and order",
+        "The shift from physical to digital combat",
+        "The difficulty of combating terrorism in the modern world"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (The difficulty of combating terrorism in the modern world) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 71,
+      "section": "Hindi Language and Comprehension",
+      "question": "दिये गये वाक्य को पूर्ण करने के लिए सबसे उपयुक्त विकल्प का चयन करें।पत्रकार ने साक्षात्कार करते समय अनेक प्रश्न _____।",
+      "question_image": null,
+      "options": [
+        "किए",
+        "सुनाए",
+        "कहे",
+        "पूछे"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (किए) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 72,
+      "section": "Hindi Language and Comprehension",
+      "question": "नीचे दिए वाक्य में रिक्त-स्थान की पूर्ति के लिए उचित कारक चिह्न का चयन करें-मोहन ------ पुस्तक पढ़ी है।",
+      "question_image": null,
+      "options": [
+        "के",
+        "ने",
+        "से",
+        "में"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (ने) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 73,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्नलिखित वाक्यांश के लिए एक शब्द का चयन कीजिए जो स्वयं उत्पन्न हुआ हो",
+      "question_image": null,
+      "options": [
+        "स्वयंभू",
+        "सामिष",
+        "स्वार्थी",
+        "समदर्शी"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (स्वयंभू) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 74,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:दिए गए गद्यांश के आधार पर निम्नलिखित प्रश्नों का उत्तर दीजिए।आधुनिक साहित्य में वस्तु-स्थिति-चित्रण की प्रवृत्ति इतनी बढ़ रही है कि आज की कहानी यथासम्भव प्रत्यक्ष अनुभवों की सीमा से बाहर नहीं जाती। हमें केवल इतना सोचने से ही संतोष नहीं होता कि मनोविज्ञान की दृष्टि से ये सभी पात्र मनुष्यों से मिले-जुलते हैं, बल्कि हम यह इत्मीनान चाहते हैं कि वे सचमुच मनुष्य हैं और लेखक ने यथासम्भव उनका जीवन-चरित्र ही लिखा है, क्योंकि कल्पना के गढ़े हुए आदमियों में हमारा विश्वास नहीं है, उनके कार्यो और विचारों से हम प्रभावित नहीं होते। हमें इसका निश्चय हो जाना चाहिए कि लेखक ने जो सृष्टि की है, वह प्रत्यक्ष अनुभवों के आधार पर की गई है और अपने पात्रों की ज़बान से वह खुद बोल रहा है। इसीलिए साहित्य को कुछ समालोचकों ने लेखक का मनोवैज्ञानिक जीवन-चरित्र कहा है।उपर्युक्त गद्यांश का उचित सारांश निम्न में से क्या होगा?",
+      "question_image": null,
+      "options": [
+        "साहित्य को आदर्शवादी होना चाहिए",
+        "साहित्य को कल्पनाशील होना चाहिए",
+        "साहित्य को उपयोगितावादी होना चाहिए",
+        "साहित्य को यथार्थवादी होना चाहिए"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (साहित्य को यथार्थवादी होना चाहिए) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 75,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्नलिखित वाक्य की पूर्ति उचित कारक शब्द से करें।___ सुनो आगे सड़क टूटी हुई है।",
+      "question_image": null,
+      "options": [
+        "तुम",
+        "अभी",
+        "अरे!",
+        "कोई"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (अरे!) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 76,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्नलिखित वाक्यांश हेतु सार्थक शब्द की पहचान करें।जो गुण दोष का विवेचन करता हो",
+      "question_image": null,
+      "options": [
+        "आलोच्य",
+        "आलोचना",
+        "आलोचक",
+        "समालोच्य"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (आलोचक) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 77,
+      "section": "Hindi Language and Comprehension",
+      "question": "राधा ________ बन गई।",
+      "question_image": null,
+      "options": [
+        "कृष्ण",
+        "स्त्री",
+        "लड़की",
+        "सखी"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (कृष्ण) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 78,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्नलिखित वाक्य को उचित क्रम में लिखें।तुषार के भाई ने साथ अपना घर खरीदा है, अब बड़े वे हमारे नहीं रहेंगे।",
+      "question_image": null,
+      "options": [
+        "तुषार के बड़े भाई ने अपना घर खरीदा है, अब वे हमारे साथ नहीं रहेंगे।",
+        "तुषार के खरीदा बड़े भाई ने नहीं अपना घर है, हमारे अब वे साथ रहेंगे।",
+        "तुषार बड़े भाई के अपना घर वे खरीदा, अब हमारे है साथ ने नहीं रहेंगे।",
+        "के बड़े नहीं भाई ने अपना घर हमारे खरीदा है, अब वे साथ तुषार रहेंगे।"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (तुषार के बड़े भाई ने अपना घर खरीदा है, अब वे हमारे साथ नहीं रहेंगे।) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 79,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्नलिखित वाक्य की पूर्ति उचित कारक शब्द से करें।बच्चों ___ सुला दो।",
+      "question_image": null,
+      "options": [
+        "का",
+        "से",
+        "को",
+        "पर"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (को) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 80,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:दिए गए गद्यांंश के आधार पर निम्नांकित प्रश्नों के उत्तर दीजिए-एक बस्ती में दो विद्वान रहते थे, जिनके विचारों में अत्यधिक मतभेद था और वे सदा एक – दूसरे की योग्यता पर व्यंग्य करते थे। उनमें से एक नास्तिक था और दूसरा आस्तिक।एक दिन दोनों बाजार में मिले और अपने – अपने अनुयोयियों की उपस्थिति में भगवान के अस्तित्व पर वाद – विवाद करने लगे। घंटों वाद – विवाद करने के पश्चात वे एक – दूसरे से अलग हुए।उसी साँझ नास्तिक मंदिर में गया और अपने पूर्वपापों के लिए भगवान से क्षमा – याचना करने लगा। दूसरे विद्वान ने घर जाकर अपनी सब धार्मिक पुस्तकें जला दीं; क्योंकि अब वह एक नास्तिक बन चुका था।दूसरे विद्वान ने क्या किया ?",
+      "question_image": null,
+      "options": [
+        "भगवान से माफी माँगी",
+        "अपनी पोशाकें जला दीं",
+        "अपनी धार्मिक पुस्तकें जला दीं",
+        "मंदिर में जाकर रोने लगा"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (अपनी धार्मिक पुस्तकें जला दीं) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 81,
+      "section": "Hindi Language and Comprehension",
+      "question": "उचित कारक चिह्न से दिए गए वाक्य के रिक्त स्थान पूर्ण करें--अश्विनीकुमार दत्त बहुसंख्यक मुसलमान किसानों को आंदोलन _______ प्रेरित करने _______ सफल हुए।",
+      "question_image": null,
+      "options": [
+        "में, से",
+        "के लिए, में",
+        "से, में",
+        "के लिए, पर"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (के लिए, में) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 82,
+      "section": "Hindi Language and Comprehension",
+      "question": "नीचे लिखी लोकोक्ति का सही अर्थ चुनें-'उनके भाग बड़े अलबेले जो दौलत में खावे खेले'",
+      "question_image": null,
+      "options": [
+        "जो समझदार के घर में रहे",
+        "जो बहुत खेलता हो",
+        "जो ग़रीब के घर पैदा हो",
+        "जो भाग्यवान हो और धनवान के घर पैदा हो"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (जो भाग्यवान हो और धनवान के घर पैदा हो) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 83,
+      "section": "Hindi Language and Comprehension",
+      "question": "‘ जो लोक में न मिलता हो ' वाक्यांश के लिए एक सार्थक शब्द होगा  –",
+      "question_image": null,
+      "options": [
+        "पाश्चात्य",
+        "अलौकिक",
+        "लौकिक",
+        "अलौहिक"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (अलौकिक) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 84,
+      "section": "Hindi Language and Comprehension",
+      "question": "उचित कारक चिह्न से दिए गए वाक्य का रिक्त स्थान पूर्ण करें--बंगाल विभाजन की योजना भारतीय राष्ट्रीय आंदोलन _______ एक सुनियोजित हमला थी।",
+      "question_image": null,
+      "options": [
+        "के लिए",
+        "में",
+        "पर",
+        "को"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (पर) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 85,
+      "section": "Hindi Language and Comprehension",
+      "question": "उचित कारक चिह्न से दिए गए वाक्य का रिक्त स्थान पूर्ण करें—कृष्ण भक्तिकाव्य मूलत: पदगायन-परम्परा ....... आधारित है।",
+      "question_image": null,
+      "options": [
+        "से",
+        "पर",
+        "में",
+        "द्वारा"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (पर) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 86,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:निम्नलिखित गद्यांश को पढ़कर दिये गए प्रश्नों के उत्तर सबसे उचित विकल्प से दीजिये  -जिनमें सहिष्णुता की भावना होती है, केवल ऐसे लोग अध्यापक होने योग्य होते हैं। जिनका बच्चों से प्यार भरा लगाव होता है, उनमें धैर्य स्वभावतः आ जाता है। अध्यापकों को जिस अंतर्निहित गंभीर समस्या से जूझना पड़ता है, वह यह है कि उन्हें जिनको देखना है वे शक्ति और प्रभुत्ता में उनकी बराबरी के नहीं होते। अध्यापक के लिए एकदम तुच्छ या बिना किसी कारण के या फिर वास्तविकता की बजाए किसी काल्पनिक कारण के चलते अपने छात्रों के सामने धैर्य खो देना, उनकी खिल्ली उड़ाना, उन्हें अपमानित या दंडित करना एकदम आसान और संभव है। जो एक निर्बल अधीन राष्ट्र पर शासन करते हैं, उनमें न चाहते हुए भी गलत काम करने की प्रवृत्ति पाई जाती है।उसी तरह ऐसे अध्यापक होते हैं जो बच्चों के ऊपर अपने प्रभुत्व का शिकार हो जाते हैं। जो शासन के अयोग्य होते हैं, उन्हें केवल कमजोर लोगों पर अन्याय करते हुए कोई अपराध बोध नहीं होता, बल्कि ऐसा करने में उन्हें एक खास तरह का मजा मिलता है। बच्चे अपनी माँ की गोद में कमजोर अहसाय और अज्ञानी होते हैंमाता के हृदय में स्थित प्रचुर प्यार ही उनकी रक्षा की एकमात्र गारंटी होता है इसके बावजूद हमारे घरों में इस बात के उदाहरण कम नहीं कि कैसे हमारे स्वाभाविक प्यार पर धीरज का अभाव और उद्धत प्राधिकार विजय प्राप्त कर लेते हैं और बच्चों को अनुचित कारणों से दंडित होना पड़ता है।किस तरह के लोग कमजोर लोगों पर अन्याय करते हैं?",
+      "question_image": null,
+      "options": [
+        "जो अध्यापक एकमात्र होते हैं।",
+        "जो निर्बल होते है",
+        "जिनमें शासन करने की योग्यता नहीं होती",
+        "जो दण्ड देने में कुशल नेतृत्व है।"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (जिनमें शासन करने की योग्यता नहीं होती) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 87,
+      "section": "Hindi Language and Comprehension",
+      "question": "‘आँख का अंधा नाम नयनसुख’ लोकोक्ति का सही अर्थ है-",
+      "question_image": null,
+      "options": [
+        "अंधा होना",
+        "नाम के अनुसार गुण होना",
+        "सबका प्रिय होना",
+        "गुण के विपरीत नाम होना"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (गुण के विपरीत नाम होना) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 88,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्नलिखित वाक्य को पूर्ण करने के लिए उचित कारक शब्द का चयन करें- प्रसाद युग-बोध और सांस्कृतिक मूल्यों ____ नाटककार हैं।3370",
+      "question_image": null,
+      "options": [
+        "ने",
+        "से",
+        "के",
+        "में"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (के) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 89,
+      "section": "Hindi Language and Comprehension",
+      "question": "दिए गए विकल्पों में से वाक्य का उचित क्रम चुनिए-अ. समाचार पत्र लोगों का   ब. परिचित कराते हैंस. और उन्हें वास्तविकताओं सेद. ज्ञानवर्धन तथा मनोरंजन करते हैं",
+      "question_image": null,
+      "options": [
+        "स, अ, द, ब",
+        "अ, द, स, ब",
+        "द, ब, स, अ",
+        "ब, द, अ, स"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (अ, द, स, ब) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 90,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:दिए गए गद्यांंश के आधार पर निम्नांकित प्रश्नों के उत्तर दीजिए--ईश्वर चन्द्र विद्यासागर भारत के प्रसिद्ध समाज  और स्वतंत्रता  सेनानी थे। वे गरीबों व दलितों के संरक्षक माने जाते थे। उन्होंने शास्त्रीय शिक्षा और विधवा विवाह पर काफी जोर दिया। ईश्वर चन्द्र विद्यासागर ने अनेक महिला विद्यालयों की स्थापना करवाई तथा वर्ष 1848 में वैताल पंचविंशति नामक बंगला भाषा की प्रथम गद्य रचना का भी प्रकाशन किया। ईश्वर चन्द्र विद्यासागर का जन्म 26 सितम्बर, 1820 को मेदिनीपुर जिला पश्चिम बंगाल में एक निर्धन धार्मिक परिवार में हुआ था। उत्कृष्ट शैक्षिक प्रदर्शन के कारण उन्हें विभिन्न संस्थानों द्वारा कई छात्रवृत्तियां प्रदान की गई थी। वे उच्चकोटि के विद्वान थे। उनकी विद्वता के कारण ही उन्हें विद्यासागर की उपाधि दी गई थी।अपने परिवार को आर्थिक सहायता  प्रदान करने के उद्देश्य से ही इन्होंने अध्यापन कार्य प्रारंभ किया। वर्ष 1839 में ईश्वर चन्द्र ने सफलता पूर्वक अपनी कानून की पढ़ाई भी सम्पन्न की। वर्ष 1841 में मात्र इक्कीस वर्ष की आयु में इन्होंने संस्कृत के शिक्षक के तौर पर फोर्ट विलियम कॉलेज में पढ़ाना शुरू कर दिया।  अपने समाज सुधार योगदान के अंतर्गत  इन्होंने लड़कियों की शिक्षा के लिए स्कूलों की एक शृंखला के साथ ही कलकत्ता में मेट्रोपॉलिटन कॉलेज की स्थापना भी की।गद्यांश में प्रयुक्त ‘शृंखला’ शब्द का पर्यायवाची अंकित कीजिए ।",
+      "question_image": null,
+      "options": [
+        "तेड़ी",
+        "घड़ी",
+        "मेडी",
+        "कड़ी"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (कड़ी) है।",
+      "explanation_image": null
+    }
+  ]
+}

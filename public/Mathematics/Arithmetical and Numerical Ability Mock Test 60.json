@@ -1,0 +1,326 @@
+{
+  "test_title": "Arithmetical and Numerical Ability Mock Test 60",
+  "total_questions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Find the compound interest on ₹12,000 for 2 years at the rate of 20% per annum, interest being payable half-yearly.",
+      "question_image": null,
+      "options": [
+        "₹5,596.20",
+        "₹5,659.20",
+        "₹5,651.20",
+        "₹5,569.20"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (₹5,569.20) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 2,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Saima runs at a speed of 8 km/hr. How long will she take to cover 200 m?",
+      "question_image": null,
+      "options": [
+        "175 seconds",
+        "120 seconds",
+        "54 seconds",
+        "90 seconds"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (90 seconds) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 3,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "There is a room whose height is 12 m, length is 9 m and breadth is 8 m. What is the length of the largest diagonal that may be fitted in the room?",
+      "question_image": null,
+      "options": [
+        "14 m",
+        "15 m",
+        "19 m",
+        "17 m"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (17 m) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 4,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "If 5.7 : x :: x : 22.8, and x > 0, then find the value of x.",
+      "question_image": null,
+      "options": [
+        "11.4",
+        "14.3",
+        "15.2",
+        "14"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (11.4) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 5,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Find the simple interest (in ₹) if a sum of ₹400 is borrowed for 4.5 years at 4% per annum rate of interest.",
+      "question_image": null,
+      "options": [
+        "122",
+        "172",
+        "72",
+        "52"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (72) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 6,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Vimlesh bought an article for ₹492 and sold it to Rupa at a loss of 8%. With this amount, Vimlesh bought another article and sold it at a gain of 65%. What is Vimlesh's overall gain percentage?",
+      "question_image": null,
+      "options": [
+        "47.1%",
+        "51.8%",
+        "54.2%",
+        "48.3%"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (51.8%) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 7,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A man sold two steel chairs for ₹1,400 each. He gains 40% on one and on the other, he loses 10%. Which of the options below is the closest to the overall gain or loss percentage made by the man in the overall transaction?",
+      "question_image": null,
+      "options": [
+        "2% loss",
+        "7.82% gain",
+        "5% gain",
+        "9.57% gain"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (9.57% gain) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 8,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "In a primary school, there are 40 boys and 20 girls in class I. In a health checkup, it is found that the average weight of all the girls is 18 kg, then what is the average weight (in kg) of all the boys if the average weight of the entire class is 20 kg?",
+      "question_image": null,
+      "options": [
+        "21",
+        "20",
+        "21.5",
+        "20.5"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (21) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 9,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "There are two sections A and B of a group, consisting of 22 and 44 students, respectively. If the average weight of section A is 40 kg and that of section B is 34 kg, find the average weight of the whole group (in kg).",
+      "question_image": null,
+      "options": [
+        "36.5",
+        "36",
+        "35.5",
+        "37"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (36) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 10,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A train goes from A to B at a speed of 84 km/hr and returns from B to A by the same route at 14 km/hr. The average speed (in km/her) of the train during the two-way journey is:",
+      "question_image": null,
+      "options": [
+        "24",
+        "22",
+        "26",
+        "25"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (24) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 11,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A number is increased by 11% and then again increased by 10%. By what percentage (correct to one decimal place) should the increased number be reduced so that original number is obtained?",
+      "question_image": null,
+      "options": [
+        "18.7%",
+        "17.9%",
+        "18.1%",
+        "17.5%"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (18.1%) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 12,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "9 buckets are needed to fill a tank in 1 hour. How long will it take for only 6 buckets of the same type to fill that tank?",
+      "question_image": null,
+      "options": [
+        "90 min",
+        "84 min",
+        "96 min",
+        "72 min"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (90 min) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 13,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Three pipes A, B and C can fill a tank in 10 hours. Three pipes worked together for 4 hours and then pipe C was closed. If A and B fill the remaining part of the tank in 12 hours, find the number of hours taken by C alone to fill the tank.",
+      "question_image": null,
+      "options": [
+        "25",
+        "15",
+        "30",
+        "20"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (20) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 14,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The area of a square is equal to the area of a rectangle whose length is 18 cm and breadth is 2 cm. What is the length of each side of this square?",
+      "question_image": null,
+      "options": [
+        "4 cm",
+        "8 cm",
+        "6 cm",
+        "3 cm"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (6 cm) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 15,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "If three successive discounts of 10%, 25% and 20% are equivalent to a single discount of ₹920, what is the marked price (in ₹)?",
+      "question_image": null,
+      "options": [
+        "2100",
+        "1920",
+        "1800",
+        "2000"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (2000) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 16,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "At what rate (in percentage) per annum on simple interest will a sum of money be 3 times of itself in 4 years?",
+      "question_image": null,
+      "options": [
+        "74",
+        "49",
+        "75",
+        "50"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (50) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 17,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Study the given table of students studying in colleges A, B and C in the given years and answer the question that follows. \t\t\t\t\t\tYEARS\t\t\t   COLLEGES\t\t\t\t\t\t\t \t\t\tA\t\t\tB\t\t\tC\t\t\t\t\t\t\t \t\t\tADMITTED\t\t\tLEFT\t\t\tADMITTED\t\t\tLEFT\t\t\tADMITTED\t\t\tLEFT\t\t\t\t\t\t\t2019\t\t\t1140\t\t\t 890\t\t\t1070\t\t\t940\t\t\t1290\t\t\t1010\t\t\t\t\t\t\t2020\t\t\t1235\t\t\t920\t\t\t1060\t\t\t740\t\t\t1195\t\t\t980\t\t\t\t\t\t\t2021\t\t\t1135\t\t\t980\t\t\t1180\t\t\t865\t\t\t1290\t\t\t950\t\t\t What is the difference between the number of students admitted from colleges B and C in the year 2019, 2020 and 2021?",
+      "question_image": null,
+      "options": [
+        "395",
+        "465",
+        "375",
+        "305"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (465) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 18,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The volume (in cm3) of a wire of diameter 10 cm and length 42 m is (use π = 22/7):1499",
+      "question_image": null,
+      "options": [
+        "330900",
+        "330000",
+        "329700",
+        "331000"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (330000) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 19,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "In an election between two candidates, 80% of the registered voters cast their vote and 7% of the votes polled were found invalid. The winning candidate got 90% of the valid votes and won the election by a margin of 372 votes. How many voters were registered? 1980",
+      "question_image": null,
+      "options": [
+        "625",
+        "622",
+        "626",
+        "618"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (625) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 20,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "After decreasing 68% in the actual cost price, the reduced cost price of an article is ₹1,056. The actual cost price of the article (in ₹) is:4838",
+      "question_image": null,
+      "options": [
+        "718.08",
+        "337.92",
+        "1,490",
+        "3,300"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (3,300) है।",
+      "explanation_image": null
+    }
+  ]
+}

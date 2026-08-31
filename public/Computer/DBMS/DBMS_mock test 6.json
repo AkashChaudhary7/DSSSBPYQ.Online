@@ -1,0 +1,552 @@
+[
+  {
+    "question": "When the “ROLLUP” operator for expression or columns within a “GROUP BY” clause is used?",
+    "options": [
+      "A) Find the groups that make up the subtotal in a row",
+      "B) Create group-wise grand totals for the groups indicated in a GROUP BY clause",
+      "C) Group expressions or columns specified in a GROUP BY clause in one direction, from right to left, for computing the subtotals",
+      "D) To produce a cross-tabular report for computing subtotals by grouping phrases or columns given within a GROUP BY clause in all available directions"
+    ],
+    "correct_answer": "C",
+    "explanation": "A view can be thought of as a virtual table that gets its data from one or more table columns."
+  },
+  {
+    "question": "Which of the following is the best way to represent the attributes in a large db?",
+    "options": [
+      "A) Dot representation",
+      "B) Concatenation",
+      "C) Relational-and",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "Concatenation in DBMS is used to join two or more table fields of the same table or different tables. Example inst sec and student sec."
+  },
+  {
+    "question": "Which of the following is the subset of SQL commands used to manipulate Oracle Structures, including tables?",
+    "options": [
+      "A) Data Described Language",
+      "B) Data Retrieval Language",
+      "C) Data Manipulation Language",
+      "D) Data Definition Language"
+    ],
+    "correct_answer": "D",
+    "explanation": "DDLs are used to define schema and table characters and consist of commands that help in modifying. DML performs the change in the values of the relation."
+  },
+  {
+    "question": "Which of the following functions construct histograms and use buckets for ranking?",
+    "options": [
+      "A) Ntil()",
+      "B) Newtil()",
+      "C) Rank()",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "ntile(n) returns the number of the bucket in which each tuple is stored, with bucket numbers beginning with 1."
+  },
+  {
+    "question": "__________ command is used in SQL to issue multiple CREATE TABLE, CREATE VIEW and GRANT statements in a single transaction.",
+    "options": [
+      "A) CREATE CLUSTER",
+      "B) CREATE PACKAGE",
+      "C) CREATE SCHEMA",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "A schema is a description of a system’s structure in a formal language supported by the database management system, and it refers to data organization as a blueprint for how a db is built."
+  },
+  {
+    "question": "Which of the following key is required in to handle the data when the encryption is applied to the data so that the unauthorised user cannot access the data?",
+    "options": [
+      "A) Primary key",
+      "B) Authorised key",
+      "C) Encryption key",
+      "D) Decryption key"
+    ],
+    "correct_answer": "C",
+    "explanation": "The encryption key is used to encrypt the message. Even if the message is intercepted by an enemy, the enemy will be unable to decrypt and interpret the message because he lacks the key."
+  },
+  {
+    "question": "Which of the following is known as the process of viewing cross-tab with a fixed value of one attribute?",
+    "options": [
+      "A) Dicing",
+      "B) Pivoting",
+      "C) Slicing",
+      "D) Both Pivoting and Dicing"
+    ],
+    "correct_answer": "C",
+    "explanation": "Slice procedure takes one dimension from a cube and turns it into a new sub-cube. Dice takes two or more dimensions from a cube and creates a new sub-cube from them."
+  },
+  {
+    "question": "For designing a normal RDBMS which of the following normal form is considered adequate?",
+    "options": [
+      "A) 4NF",
+      "B) 3NF",
+      "C) 2NF",
+      "D) 5NF"
+    ],
+    "correct_answer": "B",
+    "explanation": "Because most 3NF tables are free of insertion, update, and deletion anomalies, an RDBMS table is sometimes regarded as “normalized” if it is in the Third Normal Form."
+  },
+  {
+    "question": "Which of the following is popular for applications such as storage of log files in a database management system since it offers the best write performance?",
+    "options": [
+      "A) RAID level 0",
+      "B) RAID level 1",
+      "C) RAID level 2",
+      "D) RAID level 3"
+    ],
+    "correct_answer": "B",
+    "explanation": "RAID level 0 refers to data stripping. RAID level 1 refers to disk mirroring with block striping. RAID level 2 refers to bit-level stripping and RAID level 3 refers to byte-level striping with dedicated parity."
+  },
+  {
+    "question": "Which of the following represents a query in the tuple relational calculus?",
+    "options": [
+      "A) { }{P(t) | t }",
+      "B) {t | P(t)}",
+      "C) t | P() | t",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "A nonprocedural query language is the tuple relational calculus. It specifies the needed information but does not provide a detailed strategy for obtaining it."
+  },
+  {
+    "question": "The oldest DB model is _______________",
+    "options": [
+      "A) Network",
+      "B) Physical",
+      "C) Hierarchical",
+      "D) Relational"
+    ],
+    "correct_answer": "C",
+    "explanation": "Hierarchical database model was developed by IBM in the early 1960s. It had Parent-Child Relationship."
+  },
+  {
+    "question": "Which of the following establishes a top-to-bottom relationship among the items?",
+    "options": [
+      "A) Relational schema",
+      "B) Network schema",
+      "C) Hierarchical schema",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "A data model in which the data is structured into a tree-like structure is known as a hierarchical model. The structure allows information to be represented using parent-child relationships."
+  },
+  {
+    "question": "A major goal of the db system is to minimize the number of block transfers between the disk and memory. Which of the following helps in achieving this goal?",
+    "options": [
+      "A) Secondary storage",
+      "B) Storage",
+      "C) Catalog",
+      "D) Buffer"
+    ],
+    "correct_answer": "D",
+    "explanation": "Every block has a copy on disc, however, the copy on the disc may be an earlier version of the block than the version in the buffer."
+  },
+  {
+    "question": "What happens if a piece of data is stored in two places in the db?",
+    "options": [
+      "A) Storage space is wasted & Changing the data in one spot will cause data inconsistency",
+      "B) In can be more easily accessed",
+      "C) Changing the data in one spot will cause data inconsistency",
+      "D) Storage space is wasted"
+    ],
+    "correct_answer": "A",
+    "explanation": "One of the main features of a database management system is minimum data duplication and redundancy. Hence, is always consistent and so there is no duplication."
+  },
+  {
+    "question": "The logical design, and the snapshot of the data at a given instant in time is known as?",
+    "options": [
+      "A) Instance & Relation",
+      "B) Relation & Schema",
+      "C) Domain & Schema",
+      "D) Schema & Instance"
+    ],
+    "correct_answer": "D",
+    "explanation": "Instance is an instance of time, the relation is also known as table consists of data with similar characteristics, Domain is the collection of values that an attribute can contain and schema is a representation."
+  },
+  {
+    "question": "What is the full form of DBMS?",
+    "options": [
+      "A) Data of Binary Management System",
+      "B) Database Management System",
+      "C) Database Management Service",
+      "D) Data Backup Management System"
+    ],
+    "correct_answer": "B",
+    "explanation": "DBMS is abbreviated as Database Management System. Database Management System stores the data and allows authorized users to manipulate and modify the data."
+  },
+  {
+    "question": "What is a database?",
+    "options": [
+      "A) Organized collection of information that cannot be accessed, updated, and managed",
+      "B) Collection of data or information without organizing",
+      "C) Organized collection of data or information that can be accessed, updated, and managed",
+      "D) Organized collection of data that cannot be updated"
+    ],
+    "correct_answer": "C",
+    "explanation": "It is defined as an organized collection of data or information for easy access, updating, and management in a computer."
+  },
+  {
+    "question": "What is DBMS?",
+    "options": [
+      "A) DBMS is a collection of queries",
+      "B) DBMS is a high-level language",
+      "C) DBMS is a programming language",
+      "D) DBMS stores, modifies and retrieves data"
+    ],
+    "correct_answer": "D",
+    "explanation": "DBMS is nothing but a storehouse wherein the authorized user can create a database to store, modify or retrieve the organized data in the table. It can be modified or retrieved by users who have access to DBMS only."
+  },
+  {
+    "question": "Who created the first DBMS?",
+    "options": [
+      "A) Edgar Frank Codd",
+      "B) Charles Bachman",
+      "C) Charles Babbage",
+      "D) Sharon B. Codd"
+    ],
+    "correct_answer": "B",
+    "explanation": "Charles Bachman along with his team invented the first DBMS known as Integrated Data Store (IDS)."
+  },
+  {
+    "question": "Which type of data can be stored in the database?",
+    "options": [
+      "A) Image oriented data",
+      "B) Text, files containing data",
+      "C) Data in the form of audio or video",
+      "D) All of the above"
+    ],
+    "correct_answer": "D",
+    "explanation": "The reason for creating the database management system was to store large data and these data can be of any form image, text, audio, or video files, etc. DBMS allows the users to store and access the data of any format."
+  },
+  {
+    "question": "In which of the following formats data is stored in the database management system?",
+    "options": [
+      "A) Image",
+      "B) Text",
+      "C) Table",
+      "D) Graph"
+    ],
+    "correct_answer": "C",
+    "explanation": "The data is stored in a table format intended to manage the storage of data and manipulate stored data to generate information."
+  },
+  {
+    "question": "Which of the following is not a type of database?",
+    "options": [
+      "A) Hierarchical",
+      "B) Network",
+      "C) Distributed",
+      "D) Decentralized"
+    ],
+    "correct_answer": "D",
+    "explanation": "Different types are:\n1) Centralized\n2) Distributed\n3) Relational\n4) NoSQL\n5) Cloud\n6) Object-oriented\n7) Hierarchical\n8) Network"
+  },
+  {
+    "question": "Which of the following is not an example of DBMS?",
+    "options": [
+      "A) MySQL",
+      "B) Microsoft Acess",
+      "C) IBM DB2",
+      "D) Google"
+    ],
+    "correct_answer": "D",
+    "explanation": "MySQL, Microsoft Access, IBM DB2 are database management systems while Google is a search engine. MySQL is a Linux-based database management system, Microsoft Access is a tool that is a part of Microsoft Office used to store data, IBM DB2 is a database management system developed by IBM. Google’s Bigtable is the database that runs Google’s Internet search, Google Maps, YouTube, Gmail, and other products."
+  },
+  {
+    "question": "Which of the following is not a feature of DBMS?",
+    "options": [
+      "A) Minimum Duplication and Redundancy of Data",
+      "B) High Level of Security",
+      "C) Single-user Access only",
+      "D) Support ACID Property"
+    ],
+    "correct_answer": "C",
+    "explanation": "Single-user Access only” is not a feature of DBMS. DBMS allows multiple users to access and manipulate the database concurrently. It provides mechanisms to handle concurrent access and ensure data consistency and integrity among multiple users.\nThe important features of a database management system are:\n\nMinimum Duplication and Redundancy of Data\nHigh Level of Security\nMulitple-user Access\nSupport ACID Property"
+  },
+  {
+    "question": "Which of the following is a feature of the database?",
+    "options": [
+      "A) No-backup for the data stored",
+      "B) User interface provided",
+      "C) Lack of Authentication",
+      "D) Store data in multiple locations"
+    ],
+    "correct_answer": "B",
+    "explanation": "The important features are:\n1) Provides backup for the data stored by the user and the user can retrieve the data whenever required.\n2) Provides User-interface to access the data.\n3) Only authorized users can access the stored data.\n4) Data is stored in one central location but multiple authorized users can access the data."
+  },
+  {
+    "question": "Which of the following is not a function of the database?",
+    "options": [
+      "A) Managing stored data",
+      "B) Manipulating data",
+      "C) Security for stored data",
+      "D) Analysing code"
+    ],
+    "correct_answer": "D",
+    "explanation": "It allows authorized users to update, store, manipulate, or access data. Since data is stored in table format it is easy to access the data and perform the required functions. It also removes duplicate and redundant data."
+  },
+  {
+    "question": "Which of the following is a function of the DBMS?",
+    "options": [
+      "A) Storing data",
+      "B) Providing multi-users access control",
+      "C) Data Integrity",
+      "D) All of the above"
+    ],
+    "correct_answer": "D",
+    "explanation": "The purpose of creating DBMS was to store the data. The data stored in the database management system can be can accessed by multiple users if the access is provided. The data stored will be accurate and complete hence providing data integrity."
+  },
+  {
+    "question": "Which of the following is a component of the DBMS?",
+    "options": [
+      "A) Data",
+      "B) Data Languages",
+      "C) Data Manager",
+      "D) All of the above"
+    ],
+    "correct_answer": "D",
+    "explanation": "The components of DBMS are as follows:\n1) Hardware: Like a hard drive, monitor, etc.\n2) Software: Provides a user interface\n3) Data Manager: Manages operations of DBMS.\n4) Data: The collection of information on the DB is known as data.\n5) Data Languages: Languages like DDL, DML, DAL, and DCL allow to perform operations like creating, modifying, storing, or retrieving data."
+  },
+  {
+    "question": "Which of the following is known as a set of entities of the same type that share same properties, or attributes?",
+    "options": [
+      "A) Relation set",
+      "B) Tuples",
+      "C) Entity set",
+      "D) Entity Relation model"
+    ],
+    "correct_answer": "C",
+    "explanation": "In the actual world, an entity is a distinct “thing” or “object” from all other objects. For example: Each employee of an organization is an entity."
+  },
+  {
+    "question": "What is information about data called?",
+    "options": [
+      "A) Hyper data",
+      "B) Tera data",
+      "C) Meta data",
+      "D) Relations"
+    ],
+    "correct_answer": "C",
+    "explanation": "Information about data is known as Metadata. Metadata describes the data in detail by providing additional information like type, length of the data, etc. Metadata helps the user to understand the data."
+  },
+  {
+    "question": "What does an RDBMS consist of?",
+    "options": [
+      "A) Collection of Records",
+      "B) Collection of Keys",
+      "C) Collection of Tables",
+      "D) Collection of Fields"
+    ],
+    "correct_answer": "C",
+    "explanation": "It consists of a collection of tables i.e., the data is organized in tabular format. The columns of the relation are known as Fields and rows of the relation are known as Records. Constraints in a relation are known as Keys."
+  },
+  {
+    "question": "The values appearing in given attributes of any tuple in the referencing relation must likewise occur in specified attributes of at least one tuple in the referenced relation, according to _____________________ integrity constraint.",
+    "options": [
+      "A) Referential",
+      "B) Primary",
+      "C) Referencing",
+      "D) Specific"
+    ],
+    "correct_answer": "A",
+    "explanation": "Consider 2 relations r1 and r2. r1 may include among its attributes the primary key of relation r2. This attribute is called a foreign key from r1, referencing r2. The relation r1 is also called the referencing relation of the foreign key dependency, and r2 is called the referenced relation of the foreign key."
+  },
+  {
+    "question": "_____________ is a hardware component that is most important for the operation of a database management system.",
+    "options": [
+      "A) Microphone",
+      "B) High speed, large capacity disk to store data",
+      "C) High-resolution video display",
+      "D) Printer"
+    ],
+    "correct_answer": "B",
+    "explanation": "Since all the data are stored in form of memory in the disk, a high speed, and large-capacity disk is required for the operation of the database management system."
+  },
+  {
+    "question": "The DBMS acts as an interface between ________________ and ________________ of an enterprise-class system.",
+    "options": [
+      "A) Data and the DBMS",
+      "B) Application and SQL",
+      "C) Database application and the database",
+      "D) The user and the software"
+    ],
+    "correct_answer": "C",
+    "explanation": "A database management system is an application that acts as an interface between the user and the database. The user interacts with the application to access data."
+  },
+  {
+    "question": "The ability to query data, as well as insert, delete, and alter tuples, is offered by ____________",
+    "options": [
+      "A) TCL (Transaction Control Language)",
+      "B) DCL (Data Control Language)",
+      "C) DDL (Data Definition Langauge)",
+      "D) DML (Data Manipulation Langauge)"
+    ],
+    "correct_answer": "D",
+    "explanation": "A query is a request for data or information. Relational Schema is the design and structure of the relation. DDL consists of commands that help in modifying. DML performs the change in the values of the relation."
+  },
+  {
+    "question": "______________ is a set of one or more attributes taken collectively to uniquely identify a record.",
+    "options": [
+      "A) Primary Key",
+      "B) Foreign key",
+      "C) Super key",
+      "D) Candidate key"
+    ],
+    "correct_answer": "C",
+    "explanation": "Foreign key creates a relationship between two relations. Super key is the superset of all the keys in a relation. A candidate key is used to identify tuples in a relation."
+  },
+  {
+    "question": "Which command is used to remove a relation from an SQL?",
+    "options": [
+      "A) Drop table",
+      "B) Delete",
+      "C) Purge",
+      "D) Remove"
+    ],
+    "correct_answer": "A",
+    "explanation": "Delete command is used to delete the existing record from the table. The drop table deletes the whole structure of the relation. Purge removes the table which cannot be obtained again."
+  },
+  {
+    "question": "Which of the following set should be associated with weak entity set for weak entity to be meaningful?",
+    "options": [
+      "A) Neighbour set",
+      "B) Strong entity set",
+      "C) Owner set",
+      "D) Identifying set"
+    ],
+    "correct_answer": "D",
+    "explanation": "Every weak entity must be linked to an identifying entity; in other words, the existence of the weak entity set is contingent on the presence of the identifying entity set. The weak entity set that the identifying entity set identifies is said to be owned by the identifying entity set. Owner entity set is another name for it."
+  },
+  {
+    "question": "Which of the following command is correct to delete the values in the relation teaches?",
+    "options": [
+      "A) Delete from teaches;",
+      "B) Delete from teaches where Id =’Null’;",
+      "C) Remove table teaches;",
+      "D) Drop table teaches;"
+    ],
+    "correct_answer": "A",
+    "explanation": "To delete the entries from the table Delete from table command should be used."
+  },
+  {
+    "question": "Procedural language among the following is __________",
+    "options": [
+      "A) Domain relational calculus",
+      "B) Tuple relational calculus",
+      "C) Relational algebra",
+      "D) Query language"
+    ],
+    "correct_answer": "C",
+    "explanation": "Non-Procedural Languages are Domain relational calculus and Tuple relational calculus. Relational algebra is a procedural language that takes input in the form of relation and output generated is also a relation."
+  },
+  {
+    "question": "_________________ operations do not preserve non-matched tuples.",
+    "options": [
+      "A) Left outer join",
+      "B) Inner join",
+      "C) Natural join",
+      "D) Right outer join"
+    ],
+    "correct_answer": "B",
+    "explanation": "Left outer join returns all the rows from the table that is on the left side and matching rows on the right side of the join. Inner join returns all rows when there is at least one match in BOTH tables. Natural join returns the common columns from the tables being joined. A right outer join returns all the rows from the table that is on the right side and matching rows on the left side of the join."
+  },
+  {
+    "question": "Which forms have a relation that contains information about a single entity?",
+    "options": [
+      "A) 4NF",
+      "B) 2NF",
+      "C) 5NF",
+      "D) 3NF"
+    ],
+    "correct_answer": "D",
+    "explanation": "A table is in its 3rd NF if it has already completed in 2NF, and non-key attributes are not dependent on any non-key attributes. This means that all non-key attributes must depend on primary key. When a table represents a single entity, the primary key will identify the instance row and all attributes in 3NF are dependent on the primary key. So, the primary key in the 3th NF captures the whole information of this single entity."
+  },
+  {
+    "question": "The top level of the hierarchy consists of ______ each of which can contain _____.",
+    "options": [
+      "A) Schemas, Catalogs",
+      "B) Schemas, Environment",
+      "C) Environment, Schemas",
+      "D) Catalogs, Schemas"
+    ],
+    "correct_answer": "D",
+    "explanation": "Schemas represent the logical configuration of the DBMS. Catalogs consist of metadata of the objects and system settings used."
+  },
+  {
+    "question": "_______ indicates the maximum number of entities that can be involved in a relationship.",
+    "options": [
+      "A) Greater Entity Count",
+      "B) Minimum cardinality",
+      "C) Maximum cardinality",
+      "D) ERD"
+    ],
+    "correct_answer": "C",
+    "explanation": "The term cardinality refers to the uniqueness of data values included in a single column (attribute) of a table in SQL (Structured Query Language)."
+  },
+  {
+    "question": "The user IDs can be added or removed using which of the following fixed roles?",
+    "options": [
+      "A) db_sysadmin",
+      "B) db_accessadmin",
+      "C) db_securityadmin",
+      "D) db_setupadmin"
+    ],
+    "correct_answer": "B",
+    "explanation": "Along with security, as the name suggests the db_accessadmin role also handles access. db_sysadmin refers to the system administrator. db_securityadmin as the name suggests it involves granting or declining permission to access the data ensuring security."
+  },
+  {
+    "question": "The traditional storage of data organized by the customer, stored in separate folders in filing cabinets is an example of ______________ type of ‘database’ management system.",
+    "options": [
+      "A) Object-oriented database management system",
+      "B) Relational database management system",
+      "C) Network database management system",
+      "D) Hierarchical database management system"
+    ],
+    "correct_answer": "D",
+    "explanation": "In an object-oriented database management system, the data is stored in the form of objects. In a relational DBMS, the data is stored in the form of tables. Hierarchy is obtained by Parent-Child Relationship. Parent-Child Relationship Type is basically a 1:N relationship."
+  },
+  {
+    "question": "After groups have been established, SQL applies predicates in the ___________ clause, allowing aggregate functions to be used.",
+    "options": [
+      "A) Where",
+      "B) Having",
+      "C) Group by",
+      "D) With"
+    ],
+    "correct_answer": "B",
+    "explanation": "In SQL, after grouping data using the GROUP BY clause, the HAVING clause is used to filter the groups based on specific conditions. It allows the use of aggregate functions and selects only the groups that satisfy the given criteria."
+  },
+  {
+    "question": "Which of the following is not the utility of DBMS?",
+    "options": [
+      "A) Backup",
+      "B) Data Loading",
+      "C) Process Organization",
+      "D) File organization"
+    ],
+    "correct_answer": "C",
+    "explanation": "Backup utility is used to create a copy of the db as a backup. Loading utility is used to load existing file. File organization is used to relocate the files and create new access path. Processing is not an utility."
+  },
+  {
+    "question": "What does a foreign key combined with a primary key create?",
+    "options": [
+      "A) Network model between the tables that connect them",
+      "B) Parent-Child relationship between the tables that connects them",
+      "C) One to many relationship between the tables that connects them",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "When the foreign key of one table references the primary key of another table, the foreign key creates a parent-child relationship. The table containing the primary key is considered the parent table where as the table containing the foreign key is considered the child table."
+  },
+  {
+    "question": "Which of the following is correct according to the technology deployed by DBMS?",
+    "options": [
+      "A) Pointers are used to maintain transactional integrity and consistency",
+      "B) Cursors are used to maintain transactional integrity and consistency",
+      "C) Locks are used to maintain transactional integrity and consistency",
+      "D) Triggers are used to maintain transactional integrity and consistency"
+    ],
+    "correct_answer": "C",
+    "explanation": "Pointers are used to access data with great speed and accuracy. Consistency is maintained using locks."
+  }
+]

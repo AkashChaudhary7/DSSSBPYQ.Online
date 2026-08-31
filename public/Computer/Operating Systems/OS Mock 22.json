@@ -1,0 +1,240 @@
+{
+  "test_title": "OS Mock 22",
+  "total_questions": 18,
+  "questions": [
+    {
+      "id": 1,
+      "section": "Operating System",
+      "question": "If a page number is not found in the TLB, then it is known as a ____________",
+      "options": [
+        "A) TLB miss",
+        "B) Buffer miss",
+        "C) TLB hit",
+        "D) All of the mentioned"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 2,
+      "section": "Operating System",
+      "question": "An ______ uniquely identifies processes and is used to provide address space protection for that process.",
+      "options": [
+        "A) address space locator",
+        "B) address space identifier",
+        "C) address process identifier",
+        "D) none of the mentioned"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 3,
+      "section": "Operating System",
+      "question": "The percentage of times a page number is found in the TLB is known as ____________",
+      "options": [
+        "A) miss ratio",
+        "B) hit ratio",
+        "C) miss percent",
+        "D) none of the mentioned"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 4,
+      "section": "Operating System",
+      "question": "Memory protection in a paged environment is accomplished by ____________",
+      "options": [
+        "A) protection algorithm with each page",
+        "B) restricted access rights to users",
+        "C) restriction on page visibility",
+        "D) protection bit with each page"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 5,
+      "section": "Operating System",
+      "question": "When the valid – invalid bit is set to valid, it means that the associated page ____________",
+      "options": [
+        "A) is in the TLB",
+        "B) has data in it",
+        "C) is in the process’s logical address space",
+        "D) is the system’s physical address space"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 6,
+      "section": "Operating System",
+      "question": "Illegal addresses are trapped using the _____ bit.",
+      "options": [
+        "A) error",
+        "B) protection",
+        "C) valid – invalid",
+        "D) access"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 7,
+      "section": "Operating System",
+      "question": "When there is a large logical address space, the best way of paging would be ____________",
+      "options": [
+        "A) not to page",
+        "B) a two level paging algorithm",
+        "C) the page table itself",
+        "D) all of the mentioned"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 8,
+      "section": "Operating System",
+      "question": "In a paged memory, the page hit ratio is 0.35. The required to access a page in secondary memory is equal to 100 ns. The time required to access a page in primary memory is 10 ns. The average time required to access a page is?",
+      "options": [
+        "A) 3.0 ns",
+        "B) 68.0 ns",
+        "C) 68.5 ns",
+        "D) 78.5 ns"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 9,
+      "section": "Operating System",
+      "question": "To obtain better memory utilization, dynamic loading is used. With dynamic loading, a routine is not loaded until it is called. For implementing dynamic loading ____________",
+      "options": [
+        "A) special support from hardware is required",
+        "B) special support from operating system is essential",
+        "C) special support from both hardware and operating system is essential",
+        "D) user programs can implement dynamic loading without any special support from hardware or operating system"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 10,
+      "section": "Operating System",
+      "question": "In paged memory systems, if the page size is increased, then the internal fragmentation generally ____________",
+      "options": [
+        "A) becomes less",
+        "B) becomes more",
+        "C) remains constant",
+        "D) none of the mentioned"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 11,
+      "section": "Operating System",
+      "question": "Thread pools are useful when ____________",
+      "options": [
+        "A) when we need to limit the number of threads running in the application at the same time",
+        "B) when we need to limit the number of threads running in the application as a whole",
+        "C) when we need to arrange the ordering of threads",
+        "D) none of the mentioned"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 12,
+      "section": "Operating System",
+      "question": "Instead of starting a new thread for every task to execute concurrently, the task can be passed to a ___________",
+      "options": [
+        "A) process",
+        "B) thread pool",
+        "C) thread queue",
+        "D) none of the mentioned"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 13,
+      "section": "Operating System",
+      "question": "Each connection arriving at multi threaded servers via network is generally ____________",
+      "options": [
+        "A) is directly put into the blocking queue",
+        "B) is wrapped as a task and passed on to a thread pool",
+        "C) is kept in a normal queue and then sent to the blocking queue from where it is dequeued",
+        "D) none of the mentioned"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 14,
+      "section": "Operating System",
+      "question": "What is the idea behind thread pools?",
+      "options": [
+        "A) a number of threads are created at process startup and placed in a pool where they sit and wait for work",
+        "B) when a process begins, a pool of threads is chosen from the many existing and each thread is allotted equal amount of work",
+        "C) all threads in a pool distribute the task equally among themselves",
+        "D) none of the mentioned"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 15,
+      "section": "Operating System",
+      "question": "If the thread pool contains no available thread ____________",
+      "options": [
+        "A) the server runs a new process",
+        "B) the server goes to another thread pool",
+        "C) the server demands for a new pool creation",
+        "D) the server waits until one becomes free"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 16,
+      "section": "Operating System",
+      "question": "Thread pools help in ____________",
+      "options": [
+        "A) servicing multiple requests using one thread",
+        "B) servicing a single request using multiple threads from the pool",
+        "C) faster servicing of requests with an existing thread rather than waiting to create a new thread",
+        "D) none of the mentioned"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 17,
+      "section": "Operating System",
+      "question": "Thread pools limit the number of threads that exist at any one point, hence ____________",
+      "options": [
+        "A) not letting the system resources like CPU time and memory exhaust",
+        "B) helping a limited number of processes at a time",
+        "C) not serving all requests and ignoring many",
+        "D) none of the mentioned"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 18,
+      "section": "Operating System",
+      "question": "The number of the threads in the pool can be decided on factors such as ____________",
+      "options": [
+        "A) number of CPUs in the system",
+        "B) amount of physical memory",
+        "C) expected number of concurrent client requests",
+        "D) all of the mentioned"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    }
+  ]
+}
