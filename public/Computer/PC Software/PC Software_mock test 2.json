@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which of the following is used in EBCDIC?",
+    "options": [
+      "A) Super Computers",
+      "B) Mainframes",
+      "C) Machine Codes",
+      "D) Programming"
+    ],
+    "correct_answer": "B",
+    "explanation": "This concept of EBCDIC was invented by IBM. It is mainly used in the IBM mainframe environment. So basically, mainframes use EBCDIC codes."
+  },
+  {
+    "question": "Which of the following are physical devices of a computer?",
+    "options": [
+      "A) Hardware",
+      "B) Software",
+      "C) System Software",
+      "D) Package"
+    ],
+    "correct_answer": "A",
+    "explanation": "Hardware refers to the physical devices of a computer system. Software refers to a collection of programs. A program is a sequence of instructions."
+  },
+  {
+    "question": "Which of the following defines the assigned ordering among the characters used by the computer?",
+    "options": [
+      "A) Accumulation",
+      "B) Sorting",
+      "C) Collating Sequence",
+      "D) Unicode"
+    ],
+    "correct_answer": "C",
+    "explanation": "Collating sequence is the term used for ordering among characters. It may vary depending upon the type of code used by a computer."
+  },
+  {
+    "question": "Which of the following storage is a system where a robotic arm will connect or disconnect off-line mass storage media according to the computer operating system demands?",
+    "options": [
+      "A) Magnetic",
+      "B) Secondary",
+      "C) Virtual",
+      "D) Tertiary"
+    ],
+    "correct_answer": "D",
+    "explanation": "Tertiary storage is the correct option. It is used in the realms of enterprise storage and scientific computing on large computer systems and business computer networks and is something a typical personal computer never sees firsthand."
+  },
+  {
+    "question": "Which of the following is known as the interval between the instant a computer makes a request for the transfer of data from a disk system to the primary storage and the instance the operation is completed?",
+    "options": [
+      "A) Disk utilization time",
+      "B) Drive utilization time",
+      "C) Disk access time",
+      "D) Disk arrival time"
+    ],
+    "correct_answer": "D",
+    "explanation": "The interval is referred to as the disk arrival time. It depends on several parameters. Generally, a computer makes a request and the operation is served."
+  },
+  {
+    "question": "Which of the following devices provides the communication between a computer and the outer world?",
+    "options": [
+      "A) Compact",
+      "B) I/O",
+      "C) Drivers",
+      "D) Storage"
+    ],
+    "correct_answer": "B",
+    "explanation": "The I/O i.e. the input/output devices provide a means of communication between the computer and the outer world. They are often referred to as peripheral devices sometimes."
+  },
+  {
+    "question": "Which of the following are the input devices that enable direct data entry into a computer system from source documents?",
+    "options": [
+      "A) System Access devices",
+      "B) Data acquiring devices",
+      "C) Data retrieving devices",
+      "D) Data Scanning devices"
+    ],
+    "correct_answer": "D",
+    "explanation": "They are referred to as data scanning devices. They eliminate the need to key in text data into the computer. It demands the high quality of input documents."
+  },
+  {
+    "question": "Which of the following is the device used for converting maps, pictures, and drawings into digital form for storage in computers?",
+    "options": [
+      "A) Image Scanner",
+      "B) Digitizer",
+      "C) MICR",
+      "D) Scanner"
+    ],
+    "correct_answer": "B",
+    "explanation": "A digitizer serves the purpose given in the question. Digitizers are generally used in the area of Computer-Aided Design by architects and engineers to design cars, buildings, etc."
+  },
+  {
+    "question": "Which of the following can access the server?",
+    "options": [
+      "A) Web Client",
+      "B) User",
+      "C) Web Browser",
+      "D) Web Server"
+    ],
+    "correct_answer": "A",
+    "explanation": "Any computer that has access to the webserver is called the web client. A web server is any computer that uses the HTTP protocol."
+  },
+  {
+    "question": "Which of the following is known as the language made up of binary-coded instructions?",
+    "options": [
+      "A) High level",
+      "B) BASIC",
+      "C) C",
+      "D) Machine"
+    ],
+    "correct_answer": "D",
+    "explanation": "The language made up of binary-coded instructions built into the hardware of a particular computer and used directly by the computer is machine language."
+  },
+  {
+    "question": "Which of the following package allows individuals to use personal computers for storing and retrieving their personal information?",
+    "options": [
+      "A) Personal assistance package",
+      "B) Graphics package",
+      "C) Spreadsheet package",
+      "D) Animation package"
+    ],
+    "correct_answer": "A",
+    "explanation": "It is a personal assistance package that allows for the same. It helps in planning and managing their schedules, contacts, finances, and inventory of important terms."
+  },
+  {
+    "question": "Which of the following is created when a user opens an account in the computer system?",
+    "options": [
+      "A) SFD",
+      "B) MFD",
+      "C) Subdirectory",
+      "D) RFD"
+    ],
+    "correct_answer": "C",
+    "explanation": "A subdirectory is created when a user opens an account in the computer system. It is treated as a file, though flagged in MFD as a subdirectory."
+  },
+  {
+    "question": "Which of the following is a technique that marked the beginning of computer communications?",
+    "options": [
+      "A) User Environment",
+      "B) Batch Environment",
+      "C) Time Sharing",
+      "D) Message passing"
+    ],
+    "correct_answer": "C",
+    "explanation": "The answer is time-sharing. In time-sharing, Users were able to interact with the computer and could share its information processing resources."
+  },
+  {
+    "question": "Which of the following is a type of technique in which dumb terminals are connected to a central computer system?",
+    "options": [
+      "A) Time Sharing",
+      "B) Message passing",
+      "C) Batch environment",
+      "D) User environment"
+    ],
+    "correct_answer": "A",
+    "explanation": "This happens in time-sharing. In this, users were able to interact with the computer and could share its information processing resources."
+  },
+  {
+    "question": "Which of the following service allows a user to log in to another computer somewhere on the Internet?",
+    "options": [
+      "A) e-mail",
+      "B) UseNet",
+      "C) Telnet",
+      "D) FTP"
+    ],
+    "correct_answer": "C",
+    "explanation": "Telnet is the answer. It is a service that enables the user to log into another computer somewhere on the Internet."
+  },
+  {
+    "question": "Which of the following is not a type of computer on the basis of operation?",
+    "options": [
+      "A) Digital",
+      "B) Analog",
+      "C) Hybrid",
+      "D) Remote"
+    ],
+    "correct_answer": "D",
+    "explanation": "There are three types of computers basically on the basis of operation:\n Analog, Digital, and Hybrid."
+  },
+  {
+    "question": "Which of the following type of computer is mostly used for automatic operations?",
+    "options": [
+      "A) analog",
+      "B) digital",
+      "C) hybrid",
+      "D) remote"
+    ],
+    "correct_answer": "C",
+    "explanation": "Hybrid computer is mostly used with automatic operations of complicated physical processes and machines."
+  },
+  {
+    "question": "Which of the following invention gave birth to the much cheaper microcomputers?",
+    "options": [
+      "A) PDAs",
+      "B) Microprocessors",
+      "C) Microcomputers",
+      "D) Mainframes"
+    ],
+    "correct_answer": "B",
+    "explanation": "The invention of the microprocessor (also called a single-chip CPU) gave birth to much cheaper microcomputers."
+  },
+  {
+    "question": "Which of the following computers are lower than mainframe computers in terms of speed and storage capacity?",
+    "options": [
+      "A) Mainframes",
+      "B) Hybrid",
+      "C) Mini",
+      "D) Super"
+    ],
+    "correct_answer": "C",
+    "explanation": "The answer is a. Mini computers are compared to mainframe computers in terms of:\n1. speed and, 2.  storage capacity."
+  },
+  {
+    "question": "Which of the following is the first neural network computer?",
+    "options": [
+      "A) AN",
+      "B) AM",
+      "C) RFD",
+      "D) SNARC"
+    ],
+    "correct_answer": "D",
+    "explanation": "SNARC was the first neural network computer. it was built by Minsky and Edmonds in 1956."
+  },
+  {
+    "question": "Who is the father of Computers?",
+    "options": [
+      "A) James Gosling",
+      "B) Charles Babbage",
+      "C) Dennis Ritchie",
+      "D) Bjarne Stroustrup"
+    ],
+    "correct_answer": "B",
+    "explanation": "Charles Babbage is known as the father of computers. Charles Babbage designed and built the first mechanical computer and Difference Engine."
+  },
+  {
+    "question": "Which of the following is the correct abbreviation of COMPUTER?",
+    "options": [
+      "A) Commonly Occupied Machines Used in Technical and Educational Research",
+      "B) Commonly Operated Machines Used in Technical and Environmental Research",
+      "C) Commonly Oriented Machines Used in Technical and Educational Research",
+      "D) Commonly Operated Machines Used in Technical and Educational Research"
+    ],
+    "correct_answer": "D",
+    "explanation": "The word COMPUTER is an abbreviation for the terms “Commonly Operated Machines Used in Technical and Educational Research”. The word COMPUTER also relates to the word COMPUTE which means to calculate. So initially, it was thought that a computer is a device that is used to perform calculations."
+  },
+  {
+    "question": "Which of the following is the correct definition of Computer?",
+    "options": [
+      "A) Computer is a machine or device that can be programmed to perform arithmetical or logic operation sequences automatically",
+      "B) Computer understands only binary language which is written in the form of 0s & 1s",
+      "C) Computer is a programmable electronic device that stores, retrieves, and processes the data",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "A computer is a machine or device that can be programmed to perform arithmetical or logic operation sequences automatically. The computer understands only binary codes (0s & 1s)."
+  },
+  {
+    "question": "What is the full form of CPU?",
+    "options": [
+      "A) Computer Processing Unit",
+      "B) Computer Principle Unit",
+      "C) Central Processing Unit",
+      "D) Control Processing Unit"
+    ],
+    "correct_answer": "C",
+    "explanation": "CPU stands for Central Processing Unit. CPU is the part of a computer system that is mainly referred as the brain of the computer."
+  },
+  {
+    "question": "Which of the following language does the computer understand?",
+    "options": [
+      "A) Computer understands only C Language",
+      "B) Computer understands only Assembly Language",
+      "C) Computer understands only Binary Language",
+      "D) Computer understands only BASIC"
+    ],
+    "correct_answer": "C",
+    "explanation": "The Computer understands only binary language which is written in the form of 0s & 1s. A computer can understand assembly language but an assembler is required which convert the assembly language to binary language. Similarly, for understanding high level languages, compilers/interpreters are required."
+  },
+  {
+    "question": "Which of the following computer language is written in binary codes only?",
+    "options": [
+      "A) pascal",
+      "B) machine language",
+      "C) C",
+      "D) C#"
+    ],
+    "correct_answer": "B",
+    "explanation": "Machine Language is written in binary codes only. It can be easily understood by the computer and is very difficult for us to understand. A machine language, unlike other languages, requires no translators or interpreters."
+  },
+  {
+    "question": "Which of the following is the brain of the computer?",
+    "options": [
+      "A) Central Processing Unit",
+      "B) Memory",
+      "C) Arithmetic and Logic unit",
+      "D) Control unit"
+    ],
+    "correct_answer": "A",
+    "explanation": "The CPU is referred to as the brain of a computer.\nIt consists of a control unit and an arithmetic and logic unit. It is responsible for performing all the processes and operations."
+  },
+  {
+    "question": "Which of the following is not a characteristic of a computer?",
+    "options": [
+      "A) Versatility",
+      "B) Accuracy",
+      "C) Diligence",
+      "D) I.Q."
+    ],
+    "correct_answer": "D",
+    "explanation": "The Computer system has no I.Q. of its own. It does only what it is programmed to do. It cannot take decisions of its own.\nA computer is diligent because it can work continuously for hours without getting any errors or without getting grumbled.\nThe accuracy of a computer is consistently high and its level of accuracy depends on its design. A computer can perform any task if, it can be broken down into a series of logical steps. Therefore, a computer is versatile."
+  },
+  {
+    "question": "Which of the following is the smallest unit of data in a computer?",
+    "options": [
+      "A) Bit",
+      "B) KB",
+      "C) Nibble",
+      "D) Byte"
+    ],
+    "correct_answer": "A",
+    "explanation": "A bit is defined as the smallest unit of data in a computer system. It is used as a short form of Binary Digit.  A bit can have only two values 0 or 1. A nibble comprises 4 bits, a byte is a collection of 8 bits whereas KB (Kilobyte) is equal to 1024 bytes."
+  },
+  {
+    "question": "Which of the following unit is responsible for converting the data received from the user into a computer understandable format?",
+    "options": [
+      "A) Output Unit",
+      "B) Input Unit",
+      "C) Memory Unit",
+      "D) Arithmetic & Logic Unit"
+    ],
+    "correct_answer": "B",
+    "explanation": "The Input Unit converts the data, which the user enters into a language that the computer understands, i.e. it converts the data into binary format. The Output Unit is responsible for giving the results in a user-understandable format. The Storage Unit is responsible for storing the data after immediate results of processing whereas; the ALU is responsible for various arithmetic and bitwise operations."
+  },
+  {
+    "question": "Which of the following monitor looks like a television and are normally used with non-portable computer systems?",
+    "options": [
+      "A) LED",
+      "B) LCD",
+      "C) CRT",
+      "D) Flat Panel Monitors"
+    ],
+    "correct_answer": "C",
+    "explanation": "A CRT (or the Cathode Ray Tube) Monitor looks like a television ideally. The flat-panel monitors are thinner and lighter in comparison."
+  },
+  {
+    "question": "Which of the following is not a type of computer code?",
+    "options": [
+      "A) EDIC",
+      "B) ASCII",
+      "C) BCD",
+      "D) EBCDIC"
+    ],
+    "correct_answer": "A",
+    "explanation": "There is no coding scheme like EDIC. EBCDIC stands for Extended Binary Coded Decimal Interchange Code. BCD stands for Binary Coded Decimal. ASCII stands for American Standard Code for information interchange."
+  },
+  {
+    "question": "Which of the following part of a processor contains the hardware necessary to perform all the operations required by a computer?",
+    "options": [
+      "A) Controller",
+      "B) Registers",
+      "C) Cache",
+      "D) Data path"
+    ],
+    "correct_answer": "D",
+    "explanation": "A processor is a part of the computer which does all the data manipulation and decision making. A processor comprises of:\nA data path that contains the hardware necessary to perform all the operations. A controller tells the data path what needs to be done.\nThe registers act as intermediate storage for the data."
+  },
+  {
+    "question": "Which of the following is designed to control the operations of a computer?",
+    "options": [
+      "A) User",
+      "B) Application Software",
+      "C) System Software",
+      "D) Utility Software"
+    ],
+    "correct_answer": "C",
+    "explanation": "Software is basically classified into two: System and application. System Software is designed to control the operations and extend the processing capability of a computer system."
+  },
+  {
+    "question": "Which of the following device use positional notation to represent a decimal number?",
+    "options": [
+      "A) Pascaline",
+      "B) Abacus",
+      "C) Computer",
+      "D) Calculator"
+    ],
+    "correct_answer": "B",
+    "explanation": "Abacus was used to do arithmetic calculations around 2500 years ago. Pascaline was the pascal’s calculator by Blaise Pascal invented for doing laborious calculations."
+  },
+  {
+    "question": "Which of the following is used in EBCDIC?",
+    "options": [
+      "A) Super Computers",
+      "B) Mainframes",
+      "C) Machine Codes",
+      "D) Programming"
+    ],
+    "correct_answer": "B",
+    "explanation": "This concept of EBCDIC was invented by IBM. It is mainly used in the IBM mainframe environment. So basically, mainframes use EBCDIC codes."
+  },
+  {
+    "question": "Which of the following are physical devices of a computer?",
+    "options": [
+      "A) Hardware",
+      "B) Software",
+      "C) System Software",
+      "D) Package"
+    ],
+    "correct_answer": "A",
+    "explanation": "Hardware refers to the physical devices of a computer system. Software refers to a collection of programs. A program is a sequence of instructions."
+  },
+  {
+    "question": "Which of the following defines the assigned ordering among the characters used by the computer?",
+    "options": [
+      "A) Accumulation",
+      "B) Sorting",
+      "C) Collating Sequence",
+      "D) Unicode"
+    ],
+    "correct_answer": "C",
+    "explanation": "Collating sequence is the term used for ordering among characters. It may vary depending upon the type of code used by a computer."
+  },
+  {
+    "question": "Which of the following storage is a system where a robotic arm will connect or disconnect off-line mass storage media according to the computer operating system demands?",
+    "options": [
+      "A) Magnetic",
+      "B) Secondary",
+      "C) Virtual",
+      "D) Tertiary"
+    ],
+    "correct_answer": "D",
+    "explanation": "Tertiary storage is the correct option. It is used in the realms of enterprise storage and scientific computing on large computer systems and business computer networks and is something a typical personal computer never sees firsthand."
+  },
+  {
+    "question": "Which of the following is known as the interval between the instant a computer makes a request for the transfer of data from a disk system to the primary storage and the instance the operation is completed?",
+    "options": [
+      "A) Disk utilization time",
+      "B) Drive utilization time",
+      "C) Disk access time",
+      "D) Disk arrival time"
+    ],
+    "correct_answer": "D",
+    "explanation": "The interval is referred to as the disk arrival time. It depends on several parameters. Generally, a computer makes a request and the operation is served."
+  },
+  {
+    "question": "Which of the following devices provides the communication between a computer and the outer world?",
+    "options": [
+      "A) Compact",
+      "B) I/O",
+      "C) Drivers",
+      "D) Storage"
+    ],
+    "correct_answer": "B",
+    "explanation": "The I/O i.e. the input/output devices provide a means of communication between the computer and the outer world. They are often referred to as peripheral devices sometimes."
+  },
+  {
+    "question": "Which of the following are the input devices that enable direct data entry into a computer system from source documents?",
+    "options": [
+      "A) System Access devices",
+      "B) Data acquiring devices",
+      "C) Data retrieving devices",
+      "D) Data Scanning devices"
+    ],
+    "correct_answer": "D",
+    "explanation": "They are referred to as data scanning devices. They eliminate the need to key in text data into the computer. It demands the high quality of input documents."
+  },
+  {
+    "question": "Which of the following is the device used for converting maps, pictures, and drawings into digital form for storage in computers?",
+    "options": [
+      "A) Image Scanner",
+      "B) Digitizer",
+      "C) MICR",
+      "D) Scanner"
+    ],
+    "correct_answer": "B",
+    "explanation": "A digitizer serves the purpose given in the question. Digitizers are generally used in the area of Computer-Aided Design by architects and engineers to design cars, buildings, etc."
+  },
+  {
+    "question": "Which of the following can access the server?",
+    "options": [
+      "A) Web Client",
+      "B) User",
+      "C) Web Browser",
+      "D) Web Server"
+    ],
+    "correct_answer": "A",
+    "explanation": "Any computer that has access to the webserver is called the web client. A web server is any computer that uses the HTTP protocol."
+  },
+  {
+    "question": "Which of the following is known as the language made up of binary-coded instructions?",
+    "options": [
+      "A) High level",
+      "B) BASIC",
+      "C) C",
+      "D) Machine"
+    ],
+    "correct_answer": "D",
+    "explanation": "The language made up of binary-coded instructions built into the hardware of a particular computer and used directly by the computer is machine language."
+  },
+  {
+    "question": "Which of the following package allows individuals to use personal computers for storing and retrieving their personal information?",
+    "options": [
+      "A) Personal assistance package",
+      "B) Graphics package",
+      "C) Spreadsheet package",
+      "D) Animation package"
+    ],
+    "correct_answer": "A",
+    "explanation": "It is a personal assistance package that allows for the same. It helps in planning and managing their schedules, contacts, finances, and inventory of important terms."
+  },
+  {
+    "question": "Which of the following is created when a user opens an account in the computer system?",
+    "options": [
+      "A) SFD",
+      "B) MFD",
+      "C) Subdirectory",
+      "D) RFD"
+    ],
+    "correct_answer": "C",
+    "explanation": "A subdirectory is created when a user opens an account in the computer system. It is treated as a file, though flagged in MFD as a subdirectory."
+  },
+  {
+    "question": "Which of the following is a technique that marked the beginning of computer communications?",
+    "options": [
+      "A) User Environment",
+      "B) Batch Environment",
+      "C) Time Sharing",
+      "D) Message passing"
+    ],
+    "correct_answer": "C",
+    "explanation": "The answer is time-sharing. In time-sharing, Users were able to interact with the computer and could share its information processing resources."
+  },
+  {
+    "question": "Which of the following is a type of technique in which dumb terminals are connected to a central computer system?",
+    "options": [
+      "A) Time Sharing",
+      "B) Message passing",
+      "C) Batch environment",
+      "D) User environment"
+    ],
+    "correct_answer": "A",
+    "explanation": "This happens in time-sharing. In this, users were able to interact with the computer and could share its information processing resources."
+  },
+  {
+    "question": "Which of the following service allows a user to log in to another computer somewhere on the Internet?",
+    "options": [
+      "A) e-mail",
+      "B) UseNet",
+      "C) Telnet",
+      "D) FTP"
+    ],
+    "correct_answer": "C",
+    "explanation": "Telnet is the answer. It is a service that enables the user to log into another computer somewhere on the Internet."
+  }
+]

@@ -1,0 +1,552 @@
+[
+  {
+    "question": "The bit used to indicate whether the block was recently used or not is _______",
+    "options": [
+      "A) Reference bit",
+      "B) Dirty bit",
+      "C) Control bit",
+      "D) Idol bit"
+    ],
+    "correct_answer": "B",
+    "explanation": "The dirty bit is used to show that the block was recently modified and for a replacement algorithm."
+  },
+  {
+    "question": "The number successful accesses to memory stated as a fraction is called as _____",
+    "options": [
+      "A) Access rate",
+      "B) Success rate",
+      "C) Hit rate",
+      "D) Miss rate"
+    ],
+    "correct_answer": "C",
+    "explanation": "The hit rate is an important factor in performance measurement."
+  },
+  {
+    "question": "The ______ format is usually used to store data.",
+    "options": [
+      "A) BCD",
+      "B) Decimal",
+      "C) Hexadecimal",
+      "D) Octal"
+    ],
+    "correct_answer": "A",
+    "explanation": "The data usually used by computers have to be stored and represented in a particular format for ease of use."
+  },
+  {
+    "question": "The 8-bit encoding format used to store data in a computer is ______",
+    "options": [
+      "A) ASCII",
+      "B) EBCDIC",
+      "C) ANCI",
+      "D) USCII"
+    ],
+    "correct_answer": "B",
+    "explanation": "The data to be stored in the computers have to be encoded in a particular way so as to provide secure processing of the data."
+  },
+  {
+    "question": "A source program is usually in _______",
+    "options": [
+      "A) Assembly language",
+      "B) Machine level language",
+      "C) High-level language",
+      "D) Natural language"
+    ],
+    "correct_answer": "C",
+    "explanation": "The program written and before being compiled or assembled is called as a source program."
+  },
+  {
+    "question": "Which memory device is generally made of semiconductors?",
+    "options": [
+      "A) RAM",
+      "B) Hard-disk",
+      "C) Floppy disk",
+      "D) Cd disk"
+    ],
+    "correct_answer": "A",
+    "explanation": "Memory devices are usually made of semiconductors for faster manipulation of the contents."
+  },
+  {
+    "question": "The small extremely fast, RAM’s are called as _______",
+    "options": [
+      "A) Cache",
+      "B) Heaps",
+      "C) Accumulators",
+      "D) Stacks"
+    ],
+    "correct_answer": "A",
+    "explanation": "These small and fast memory devices are compared to RAM because they optimize the performance of the system and they only keep files which are required by the current process in them"
+  },
+  {
+    "question": "The ALU makes use of _______ to store the intermediate results.",
+    "options": [
+      "A) Accumulators",
+      "B) Registers",
+      "C) Heap",
+      "D) Stack"
+    ],
+    "correct_answer": "A",
+    "explanation": "The ALU is the computational center of the CPU. It performs all mathematical and logical operations. In order to perform better, it uses some internal memory spaces to store immediate results."
+  },
+  {
+    "question": "The control unit controls other units by generating ___________",
+    "options": [
+      "A) Control signals",
+      "B) Timing signals",
+      "C) Transfer signals",
+      "D) Command Signals"
+    ],
+    "correct_answer": "A",
+    "explanation": "This unit is used to control and coordinate between the various parts and components of the CPU."
+  },
+  {
+    "question": "______ are numbers and encoded characters, generally used as operands.",
+    "options": [
+      "A) Input",
+      "B) Data",
+      "C) Information",
+      "D) Stored Values"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "The Input devices can send information to the processor.",
+    "options": [
+      "A) When the SIN status flag is set",
+      "B) When the data arrives regardless of the SIN flag",
+      "C) Neither of the cases",
+      "D) Either of the cases"
+    ],
+    "correct_answer": "A",
+    "explanation": "The input devices use buffers to store the data received and when the buffer has some data it sends it to the processor."
+  },
+  {
+    "question": "______ bus structure is usually used to connect I/O devices.",
+    "options": [
+      "A) Single bus",
+      "B) Multiple bus",
+      "C) Star bus",
+      "D) Rambus"
+    ],
+    "correct_answer": "A",
+    "explanation": "BUS is a bunch of wires which carry address, control signals and data. It is used to connect various components of the computer."
+  },
+  {
+    "question": "The I/O interface required to connect the I/O device to the bus consists of ______",
+    "options": [
+      "A) Address decoder and registers",
+      "B) Control circuits",
+      "C) Address decoder, registers and Control circuits",
+      "D) Only Control circuits"
+    ],
+    "correct_answer": "C",
+    "explanation": "The I/O devices are connected to the CPU via BUS and to interact with the BUS they have an interface."
+  },
+  {
+    "question": "To reduce the memory access time we generally make use of  ______",
+    "options": [
+      "A) Heaps",
+      "B) Higher capacity RAM’s",
+      "C) SDRAM’s",
+      "D) Cache’s"
+    ],
+    "correct_answer": "D",
+    "explanation": "The time required to access a part of the memory for data retrieval."
+  },
+  {
+    "question": "______ is generally used to increase the apparent size of physical memory.",
+    "options": [
+      "A) Secondary memory",
+      "B) Virtual memory",
+      "C) Hard-disk",
+      "D) Disks"
+    ],
+    "correct_answer": "B",
+    "explanation": "Virtual memory is like an extension to the existing memory."
+  },
+  {
+    "question": "MFC stands for ___________",
+    "options": [
+      "A) Memory Format Caches",
+      "B) Memory Function Complete",
+      "C) Memory Find Command",
+      "D) Mass Format Command"
+    ],
+    "correct_answer": "B",
+    "explanation": "This is a system command enabled when a memory function is completed by a process."
+  },
+  {
+    "question": "The time delay between two successive initiations of memory operation _______",
+    "options": [
+      "A) Memory access time",
+      "B) Memory search time",
+      "C) Memory cycle time",
+      "D) Instruction delay"
+    ],
+    "correct_answer": "C",
+    "explanation": "The time is taken to finish one task and to start another."
+  },
+  {
+    "question": "The decoded instruction is stored in ______",
+    "options": [
+      "A) IR",
+      "B) PC",
+      "C) Registers",
+      "D) MDR"
+    ],
+    "correct_answer": "A",
+    "explanation": "The instruction after obtained from the PC, is decoded and operands are fetched and stored in the IR."
+  },
+  {
+    "question": "The instruction -> Add LOCA, R0 does _______",
+    "options": [
+      "A) Adds the value of LOCA to R0 and stores in the temp register",
+      "B) Adds the value of R0 to the address of LOCA",
+      "C) Adds the values of both LOCA and R0 and stores it in R0",
+      "D) Adds the value of LOCA with a value in accumulator and stores it in R0"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "Which registers can interact with the secondary storage?",
+    "options": [
+      "A) MAR",
+      "B) PC",
+      "C) IR",
+      "D) R0"
+    ],
+    "correct_answer": "A",
+    "explanation": "MAR can interact with secondary storage in order to fetch data from it."
+  },
+  {
+    "question": "During the execution of a program which gets initialized first?",
+    "options": [
+      "A) MDR",
+      "B) IR",
+      "C) PC",
+      "D) MAR"
+    ],
+    "correct_answer": "C",
+    "explanation": "For the execution of a process first the instruction is placed in the PC."
+  },
+  {
+    "question": "Which of the register/s of the processor is/are connected to Memory Bus?",
+    "options": [
+      "A) PC",
+      "B) MAR",
+      "C) IR",
+      "D) Both PC and MAR"
+    ],
+    "correct_answer": "B",
+    "explanation": "MAR is connected to the memory BUS in order to access the memory."
+  },
+  {
+    "question": "ISP stands for _________",
+    "options": [
+      "A) Instruction Set Processor",
+      "B) Information Standard Processing",
+      "C) Interchange Standard Protocol",
+      "D) Interrupt Service Procedure"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "The internal components of the processor are connected by _______",
+    "options": [
+      "A) Processor intra-connectivity circuitry",
+      "B) Processor bus",
+      "C) Memory bus",
+      "D) Rambus"
+    ],
+    "correct_answer": "B",
+    "explanation": "The processor BUS is used to connect the various parts in order to provide a direct connection to the CPU."
+  },
+  {
+    "question": "______ is used to choose between incrementing the PC or performing ALU operations.",
+    "options": [
+      "A) Conditional codes",
+      "B) Multiplexer",
+      "C) Control unit",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "The multiplexer circuit is used to choose between the two as it can give different results based on the input."
+  },
+  {
+    "question": "The registers, ALU and the interconnection between them are collectively called as _____",
+    "options": [
+      "A) process route",
+      "B) information trail",
+      "C) information path",
+      "D) data path"
+    ],
+    "correct_answer": "D",
+    "explanation": "The Operational and processing part of the CPU are collectively called as a data path."
+  },
+  {
+    "question": "_______ is used to store data in registers.",
+    "options": [
+      "A) D flip flop",
+      "B) JK flip flop",
+      "C) RS flip flop",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "The main virtue for using single Bus structure is ____________",
+    "options": [
+      "A) Fast data transfers",
+      "B) Cost effective connectivity and speed",
+      "C) Cost effective connectivity and ease of attaching peripheral devices",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "By using a single BUS structure we can minimize the amount of hardware (wire) required and thereby reducing the cost."
+  },
+  {
+    "question": "______ are used to overcome the difference in data transfer speeds of various devices.",
+    "options": [
+      "A) Speed enhancing circuitory",
+      "B) Bridge circuits",
+      "C) Multiple Buses",
+      "D) Buffer registers"
+    ],
+    "correct_answer": "D",
+    "explanation": "By using Buffer registers, the processor sends the data to the I/O device at the processor speed and the data gets stored in the buffer. After that the data gets sent to or from the buffer to the devices at the device speed."
+  },
+  {
+    "question": "To extend the connectivity of the processor bus we use ________",
+    "options": [
+      "A) PCI bus",
+      "B) SCSI bus",
+      "C) Controllers",
+      "D) Multiple bus"
+    ],
+    "correct_answer": "A",
+    "explanation": "PCI BUS is used to connect other peripheral devices that require a direct connection with the processor."
+  },
+  {
+    "question": "IBM developed a bus standard for their line of computers ‘PC AT’ called _____",
+    "options": [
+      "A) IB bus",
+      "B) M-bus",
+      "C) ISA",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "ANSI stands for __________",
+    "options": [
+      "A) American National Standards Institute",
+      "B) American National Standard Interface",
+      "C) American Network Standard Interfacing",
+      "D) American Network Security Interrupt"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "_____ register Connected to the Processor bus is a single-way transfer capable.",
+    "options": [
+      "A) PC",
+      "B) IR",
+      "C) Temp",
+      "D) Z"
+    ],
+    "correct_answer": "D",
+    "explanation": "The Z register is a special register which can interact with the processor BUS only."
+  },
+  {
+    "question": "In multiple Bus organisation, the registers are collectively placed and referred as ______",
+    "options": [
+      "A) Set registers",
+      "B) Register file",
+      "C) Register Block",
+      "D) Map registers"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "The main advantage of multiple bus organisation over a single bus is _____",
+    "options": [
+      "A) Reduction in the number of cycles for execution",
+      "B) Increase in size of the registers",
+      "C) Better Connectivity",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "The ISA standard Buses are used to connect ___________",
+    "options": [
+      "A) RAM and processor",
+      "B) GPU and processor",
+      "C) Harddisk and Processor",
+      "D) CD/DVD drives and Processor"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "During the execution of the instructions, a copy of the instructions is placed in the ______",
+    "options": [
+      "A) Register",
+      "B) RAM",
+      "C) System heap",
+      "D) Cache"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "Two processors A and B have clock frequencies of 700 Mhz and 900 Mhz respectively. Suppose A can execute an instruction with an average of 3 steps and B can execute with an average of 5 steps. For the execution of the same instruction which processor is faster?",
+    "options": [
+      "A) A",
+      "B) B",
+      "C) Both take the same time",
+      "D) Insufficient information"
+    ],
+    "correct_answer": "A",
+    "explanation": "The performance of a system can be found out using the Basic performance formula."
+  },
+  {
+    "question": "A processor performing fetch or decoding of different instruction during the execution of another instruction is called ______",
+    "options": [
+      "A) Super-scaling",
+      "B) Pipe-lining",
+      "C) Parallel Computation",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "Pipe-lining is the process of improving the performance of the system by processing different instructions at the same time, with only one instruction performing one specific operation."
+  },
+  {
+    "question": "For a given FINITE number of instructions to be executed, which architecture of the processor provides for a faster execution?",
+    "options": [
+      "A) ISA",
+      "B) ANSA",
+      "C) Super-scalar",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "In super-scalar architecture, the instructions are set in groups and they’re decoded and executed together reducing the amount of time required to process them."
+  },
+  {
+    "question": "The clock rate of the processor can be improved by _________",
+    "options": [
+      "A) Improving the IC technology of the logic circuits",
+      "B) Reducing the amount of processing done in one step",
+      "C) By using the overclocking method",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "The clock rate(frequency of the processor) is the hardware dependent quantity it is fixed for a given processor."
+  },
+  {
+    "question": "An optimizing Compiler does _________",
+    "options": [
+      "A) Better compilation of the given piece of code",
+      "B) Takes advantage of the type of processor and reduces its process time",
+      "C) Does better memory management",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "An optimizing compiler is a compiler designed for the specific purpose of increasing the operation speed of the processor by reducing the time taken to compile the program instructions."
+  },
+  {
+    "question": "The ultimate goal of a compiler is to ________",
+    "options": [
+      "A) Reduce the clock cycles for a programming task",
+      "B) Reduce the size of the object code",
+      "C) Be versatile",
+      "D) Be able to detect even the smallest of errors"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "SPEC stands for _______",
+    "options": [
+      "A) Standard Performance Evaluation Code",
+      "B) System Processing Enhancing Code",
+      "C) System Performance Evaluation Corporation",
+      "D) Standard Processing Enhancement Corporation"
+    ],
+    "correct_answer": "C",
+    "explanation": "SPEC is a corporation that started to standardize the evaluation method of a system’s performance."
+  },
+  {
+    "question": "As of 2000, the reference system to find the performance of a system is _____",
+    "options": [
+      "A) Ultra SPARC 10",
+      "B) SUN SPARC",
+      "C) SUN II",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "In SPEC system of measuring a system’s performance, a system is used as a reference against which other systems are compared and performance is determined."
+  },
+  {
+    "question": "When Performing a looping operation, the instruction gets stored in the ______",
+    "options": [
+      "A) Registers",
+      "B) Cache",
+      "C) System Heap",
+      "D) System stack"
+    ],
+    "correct_answer": "B",
+    "explanation": "When a looping or branching operation is carried out the offset value is stored in the cache along with the data."
+  },
+  {
+    "question": "The average number of steps taken to execute the set of instructions can be made to be less than one by following _______",
+    "options": [
+      "A) ISA",
+      "B) Pipe-lining",
+      "C) Super-scaling",
+      "D) Sequential"
+    ],
+    "correct_answer": "C",
+    "explanation": "The number of steps required to execute a given set of instructions is sufficiently reduced by using super-scaling. In this method, a set of instructions are grouped together and are processed."
+  },
+  {
+    "question": "If a processor clock is rated as 1250 million cycles per second, then its clock period is ________",
+    "options": [
+      "A) 1.9 * 10-10 sec",
+      "B) 1.6 * 10-9 sec",
+      "C) 1.25 * 10-10 sec",
+      "D) 8 * 10-10 sec"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "If the instruction, Add R1, R2, R3 is executed in a system that is pipe-lined, then the value of S is (Where S is a term of the Basic performance equation)?",
+    "options": [
+      "A) 3",
+      "B) ~2",
+      "C) ~1",
+      "D) 6"
+    ],
+    "correct_answer": "C",
+    "explanation": "S is the number of steps required to execute the instructions."
+  },
+  {
+    "question": "CISC stands for _______",
+    "options": [
+      "A) Complete Instruction Sequential Compilation",
+      "B) Computer Integrated Sequential Compiler",
+      "C) Complex Instruction Set Computer",
+      "D) Complex Instruction Sequential Compilation"
+    ],
+    "correct_answer": "C",
+    "explanation": "CISC is a type of system architecture where complex instructions are grouped together and executed to improve system performance."
+  }
+]

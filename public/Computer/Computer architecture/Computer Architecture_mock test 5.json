@@ -1,0 +1,555 @@
+[
+  {
+    "question": "As of 2000, the reference system to find the SPEC rating are built with _____ Processor.",
+    "options": [
+      "A) Intel Atom SParc 300Mhz",
+      "B) Ultra SPARC -IIi 300MHZ",
+      "C) Amd Neutrino series",
+      "D) ASUS A series 450 Mhz"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "The instruction, Add #45,R1 does _______",
+    "options": [
+      "A) Adds the value of 45 to the address of R1 and stores 45 in that address",
+      "B) Adds 45 to the value of R1 and stores it in R1",
+      "C) Finds the memory location 45 and adds that content to that of R1",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "The instruction is using immediate addressing mode hence the value is stored in the location 45 is added."
+  },
+  {
+    "question": "In the case of, Zero-address instruction method the operands are stored in _____",
+    "options": [
+      "A) Registers",
+      "B) Accumulators",
+      "C) Push down stack",
+      "D) Cache"
+    ],
+    "correct_answer": "C",
+    "explanation": "In this case, the operands are implicitly loaded onto the ALU."
+  },
+  {
+    "question": "Add #45, when this instruction is executed the following happen/s _______",
+    "options": [
+      "A) The processor raises an error and requests for one more operand",
+      "B) The value stored in memory location 45 is retrieved and one more operand is requested",
+      "C) The value 45 gets added to the value on the stack and is pushed onto the stack",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "The addressing mode which makes use of in-direction pointers is ______",
+    "options": [
+      "A) Indirect addressing mode",
+      "B) Index addressing mode",
+      "C) Relative addressing mode",
+      "D) Offset addressing mode"
+    ],
+    "correct_answer": "A",
+    "explanation": "In this addressing mode, the value of the register serves as another memory location and hence we use pointers to get the data."
+  },
+  {
+    "question": "In the following indexed addressing mode instruction, MOV 5(R1), LOC the effective address is ______",
+    "options": [
+      "A) EA = 5+R1",
+      "B) EA = R1",
+      "C) EA = [R1]",
+      "D) EA = 5+[R1]"
+    ],
+    "correct_answer": "D",
+    "explanation": "This instruction is in Base with offset addressing mode."
+  },
+  {
+    "question": "The addressing mode/s, which uses the PC instead of a general purpose register is  ______",
+    "options": [
+      "A) Indexed with offset",
+      "B) Relative",
+      "C) Direct",
+      "D) Both Indexed with offset and direct"
+    ],
+    "correct_answer": "B",
+    "explanation": "In this, the contents of the PC are directly incremented."
+  },
+  {
+    "question": "When we use auto increment or auto decrements, which of the following is/are true?",
+    "options": [
+      "A) In both, the address is used to retrieve the operand and then the address gets altered",
+      "B) In auto increment, the operand is retrieved first and then the address altered",
+      "C) Both of them can be used on general purpose registers as well as memory locations",
+      "D) 1, 2, 3",
+      "E) 2",
+      "F) 1, 3",
+      "G) 2, 3"
+    ],
+    "correct_answer": "D",
+    "explanation": "In the case of, auto increment the increment is done afterward and in auto decrement the decrement is done first."
+  },
+  {
+    "question": "The addressing mode, where you directly specify the operand value is _______",
+    "options": [
+      "A) Immediate",
+      "B) Direct",
+      "C) Definite",
+      "D) Relative"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "The effective address of the following instruction is MUL 5(R1,R2).",
+    "options": [
+      "A) 5+R1+R2",
+      "B) 5+(R1*R2)",
+      "C) 5+[R1]+[R2]",
+      "D) 5*([R1]+[R2])"
+    ],
+    "correct_answer": "C",
+    "explanation": "The addressing mode used is base with offset and index."
+  },
+  {
+    "question": "_____ addressing mode is most suitable to change the normal sequence of execution of instructions.",
+    "options": [
+      "A) Relative",
+      "B) Indirect",
+      "C) Index with Offset",
+      "D) Immediate"
+    ],
+    "correct_answer": "A",
+    "explanation": "The relative addressing mode is used for this since it directly updates the PC."
+  },
+  {
+    "question": "Which method/s of representation of numbers occupies a large amount of memory than others?",
+    "options": [
+      "A) Sign-magnitude",
+      "B) 1’s complement",
+      "C) 2’s complement",
+      "D) 1’s & 2’s compliment"
+    ],
+    "correct_answer": "A",
+    "explanation": "It takes more memory as one bit used up to store the sign."
+  },
+  {
+    "question": "Which representation is most efficient to perform arithmetic operations on the numbers?",
+    "options": [
+      "A) Sign-magnitude",
+      "B) 1’s complement",
+      "C) 2’S complement",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "The two’s complement form is more suitable to perform arithmetic operations as there is no need to involve the sign of the number into consideration."
+  },
+  {
+    "question": "Which method of representation has two representations for ‘0’?",
+    "options": [
+      "A) Sign-magnitude",
+      "B) 1’s complement",
+      "C) 2’s complement",
+      "D) Both Sign-magnitude and 1’s complement"
+    ],
+    "correct_answer": "D",
+    "explanation": "For an 8-bit number, in Sign-magnitude, +0 is 00000000, and -0 is 10000000. Similarly, in 1’s complementation representation, +0 is 00000000 and -0 is 11111111."
+  },
+  {
+    "question": "When we perform subtraction on -7 and 1 the answer in 2’s complement form is _________",
+    "options": [
+      "A) 1010",
+      "B) 1110",
+      "C) 0110",
+      "D) 1000"
+    ],
+    "correct_answer": "D",
+    "explanation": "First the 2’s complement is found and that is added to the number and the overflow is ignored."
+  },
+  {
+    "question": "When we perform subtraction on -7 and -5 the answer in 2’s complement form is ________",
+    "options": [
+      "A) 11110",
+      "B) 1110",
+      "C) 1010",
+      "D) 0010"
+    ],
+    "correct_answer": "B",
+    "explanation": "First the 2’s complement is found and that is added to the number and the overflow is ignored."
+  },
+  {
+    "question": "When we subtract -3 from 2 , the answer in 2’s complement form is _________",
+    "options": [
+      "A) 0001",
+      "B) 1101",
+      "C) 0101",
+      "D) 1001"
+    ],
+    "correct_answer": "C",
+    "explanation": "First the 2’s complement is found and that is added to the number and the overflow is ignored."
+  },
+  {
+    "question": "The processor keeps track of the results of its operations using flags called ________",
+    "options": [
+      "A) Conditional code flags",
+      "B) Test output flags",
+      "C) Type flags",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "These flags are used to indicate if there is an overflow or carry or zero result occurrence."
+  },
+  {
+    "question": "The register used to store the flags is called as _________",
+    "options": [
+      "A) Flag register",
+      "B) Status register",
+      "C) Test register",
+      "D) Log register"
+    ],
+    "correct_answer": "B",
+    "explanation": "The status register stores the condition codes of the system."
+  },
+  {
+    "question": "The Flag ‘V’ is set to 1 indicates that _____________",
+    "options": [
+      "A) The operation is valid",
+      "B) The operation is validated",
+      "C) The operation has resulted in an overflow",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "This is used to check the overflow occurs in the operation."
+  },
+  {
+    "question": "In some pipelined systems, a different instruction is used to add to numbers which can affect the flags upon execution. That instruction is _______",
+    "options": [
+      "A) AddSetCC",
+      "B) AddCC",
+      "C) Add++",
+      "D) SumSetCC"
+    ],
+    "correct_answer": "A",
+    "explanation": "By using this instruction the condition flags won’t be affected at all."
+  },
+  {
+    "question": "The most efficient method followed by computers to multiply two unsigned numbers is _______",
+    "options": [
+      "A) Booth algorithm",
+      "B) Bit pair recording of multipliers",
+      "C) Restoring algorithm",
+      "D) Non restoring algorithm"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "For the addition of large integers, most of the systems make use of ______",
+    "options": [
+      "A) Fast adders",
+      "B) Full adders",
+      "C) Carry look-ahead adders",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "In this method, the carries for each step are generated first."
+  },
+  {
+    "question": "In a normal n-bit adder, to find out if an overflow as occurred we make use of ________",
+    "options": [
+      "A) And gate",
+      "B) Nand gate",
+      "C) Nor gate",
+      "D) Xor gate"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "In the implementation of a Multiplier circuit in the system we make use of _______",
+    "options": [
+      "A) Counter",
+      "B) Flip flop",
+      "C) Shift register",
+      "D) Push down stack"
+    ],
+    "correct_answer": "C",
+    "explanation": "The shift registers are used to store the multiplied answer."
+  },
+  {
+    "question": "When 1101 is used to divide 100010010 the remainder is ______",
+    "options": [
+      "A) 101",
+      "B) 11",
+      "C) 0",
+      "D) 1"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "RTN stands for ___________",
+    "options": [
+      "A) Register Transfer Notation",
+      "B) Register Transmission Notation",
+      "C) Regular Transmission Notation",
+      "D) Regular Transfer Notation"
+    ],
+    "correct_answer": "A",
+    "explanation": "This is the way of writing the assembly language code with the help of register notations."
+  },
+  {
+    "question": "The instruction, Add Loc,R1 in RTN is _______",
+    "options": [
+      "A) AddSetCC Loc+R1",
+      "B) R1=Loc+R1",
+      "C) Not possible to write in RTN",
+      "D) R1<-[Loc]+[R1]"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "Can you perform an addition on three operands simultaneously in ALN using Add instruction?",
+    "options": [
+      "A) Yes",
+      "B) Not possible using Add, we’ve to use AddSetCC",
+      "C) Not permitted",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "You cannot perform an addition on three operands simultaneously because the third operand is where the result is stored."
+  },
+  {
+    "question": "The instruction, Add R1,R2,R3 in RTN is _______",
+    "options": [
+      "A) R3=R1+R2+R3",
+      "B) R3<-[R1]+[R2]+[R3]",
+      "C) R3=[R1]+[R2]",
+      "D) R3<-[R1]+[R2]"
+    ],
+    "correct_answer": "D",
+    "explanation": "In RTN the first operand is the destination and the second operand is the source."
+  },
+  {
+    "question": "In a system, which has 32 registers the register id is __________ long.",
+    "options": [
+      "A) 16 bit",
+      "B) 8 bits",
+      "C) 5 bits",
+      "D) 6 bits"
+    ],
+    "correct_answer": "C",
+    "explanation": "The ID is the name tag given to each of the registers and used to identify them."
+  },
+  {
+    "question": "The two phases of executing an instruction are __________",
+    "options": [
+      "A) Instruction decoding and storage",
+      "B) Instruction fetch and instruction execution",
+      "C) Instruction execution and storage",
+      "D) Instruction fetch and Instruction processing"
+    ],
+    "correct_answer": "B",
+    "explanation": "First, the instructions are fetched and decoded and then they’re executed and stored."
+  },
+  {
+    "question": "The Instruction fetch phase ends with _________",
+    "options": [
+      "A) Placing the data from the address in MAR into MDR",
+      "B) Placing the address of the data into MAR",
+      "C) Completing the execution of the data and placing its storage address into MAR",
+      "D) Decoding the data in MDR and placing it in IR"
+    ],
+    "correct_answer": "D",
+    "explanation": "The fetch ends with the instruction getting decoded and being placed in the IR and the PC getting incremented."
+  },
+  {
+    "question": "While using the iterative construct (Branching) in execution _____________ instruction is used to check the condition.",
+    "options": [
+      "A) TestAndSet",
+      "B) Branch",
+      "C) TestCondn",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "Branch instruction is used to check the test condition and to perform the memory jump with the help of offset."
+  },
+  {
+    "question": "When using Branching, the usual sequencing of the PC is altered. A new instruction is loaded which is called as ______",
+    "options": [
+      "A) Branch target",
+      "B) Loop target",
+      "C) Forward target",
+      "D) Jump instruction"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "The condition flag Z is set to 1 to indicate _______",
+    "options": [
+      "A) The operation has resulted in an error",
+      "B) The operation requires an interrupt call",
+      "C) The result is zero",
+      "D) There is no empty register available"
+    ],
+    "correct_answer": "C",
+    "explanation": "This condition flag is used to check if the arithmetic operation yields a zero output."
+  },
+  {
+    "question": "__________ converts the programs written in assembly language into machine instructions.",
+    "options": [
+      "A) Machine compiler",
+      "B) Interpreter",
+      "C) Assembler",
+      "D) Converter"
+    ],
+    "correct_answer": "C",
+    "explanation": "An assembler is a software used to convert the programs into machine instructions."
+  },
+  {
+    "question": "The instructions like MOV or ADD are called as ______",
+    "options": [
+      "A) OP-Code",
+      "B) Operators",
+      "C) Commands",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "This OP – codes tell the system what operation to perform on the operands."
+  },
+  {
+    "question": "The alternate way of writing the instruction, ADD #5,R1 is ______",
+    "options": [
+      "A) ADD [5],[R1];",
+      "B) ADDI 5,R1;",
+      "C) ADDIME 5,[R1];",
+      "D) There is no other way"
+    ],
+    "correct_answer": "B",
+    "explanation": "The ADDI instruction, means the addition is in immediate addressing mode."
+  },
+  {
+    "question": "Instructions which won’t appear in the object program are called as _____",
+    "options": [
+      "A) Redundant instructions",
+      "B) Exceptions",
+      "C) Comments",
+      "D) Assembler Directives"
+    ],
+    "correct_answer": "D",
+    "explanation": "The directives help the program in getting compiled and hence won’t be there in the object code."
+  },
+  {
+    "question": "The assembler directive EQU, when used in the instruction: Sum EQU 200 does ________",
+    "options": [
+      "A) Finds the first occurrence of Sum and assigns value 200 to it",
+      "B) Replaces every occurrence of Sum with 200",
+      "C) Re-assigns the address of Sum by adding 200 to its original address",
+      "D) Assigns 200 bytes of memory starting the location of Sum"
+    ],
+    "correct_answer": "B",
+    "explanation": "This basically is used to replace the variable with a constant value."
+  },
+  {
+    "question": "The purpose of the ORIGIN directive is __________",
+    "options": [
+      "A) To indicate the starting position in memory, where the program block is to be stored",
+      "B) To indicate the starting of the computation code",
+      "C) To indicate the purpose of the code",
+      "D) To list the locations of all the registers used"
+    ],
+    "correct_answer": "A",
+    "explanation": "This does the function similar to the main statement."
+  },
+  {
+    "question": "The directive used to perform initialization before the execution of the code is ______",
+    "options": [
+      "A) Reserve",
+      "B) Store",
+      "C) Dataword",
+      "D) EQU"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "_____ directive is used to specify and assign the memory required for the block of code.",
+    "options": [
+      "A) Allocate",
+      "B) Assign",
+      "C) Set",
+      "D) Reserve"
+    ],
+    "correct_answer": "D",
+    "explanation": "This instruction is used to allocate a block of memory and to store the object code of the program there."
+  },
+  {
+    "question": "_____ directive specifies the end of execution of a program.",
+    "options": [
+      "A) End",
+      "B) Return",
+      "C) Stop",
+      "D) Terminate"
+    ],
+    "correct_answer": "B",
+    "explanation": "This instruction directive is used to terminate the program execution."
+  },
+  {
+    "question": "The last statement of the source program should be _______",
+    "options": [
+      "A) Stop",
+      "B) Return",
+      "C) OP",
+      "D) End"
+    ],
+    "correct_answer": "D",
+    "explanation": "This enables the processor to load some other process."
+  },
+  {
+    "question": "When dealing with the branching code the assembler ___________",
+    "options": [
+      "A) Replaces the target with its address",
+      "B) Does not replace until the test condition is satisfied",
+      "C) Finds the Branch offset and replaces the Branch target with it",
+      "D) Replaces the target with the value specified by the DATAWORD directive"
+    ],
+    "correct_answer": "C",
+    "explanation": "When the assembler comes across the branch code, it immediately finds the branch offset and replaces it with it."
+  },
+  {
+    "question": "The assembler stores all the names and their corresponding values in ______",
+    "options": [
+      "A) Special purpose Register",
+      "B) Symbol Table",
+      "C) Value map Set",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "The table where the assembler stores the variable names along with their corresponding memory locations and values."
+  },
+  {
+    "question": "The assembler stores the object code in  ______",
+    "options": [
+      "A) Main memory",
+      "B) Cache",
+      "C) RAM",
+      "D) Magnetic disk"
+    ],
+    "correct_answer": "D",
+    "explanation": "After compiling the object code, the assembler stores it in the magnetic disk and waits for further execution."
+  },
+  {
+    "question": "The utility program used to bring the object code into memory for execution is ______",
+    "options": [
+      "A) Loader",
+      "B) Fetcher",
+      "C) Extractor",
+      "D) Linker"
+    ],
+    "correct_answer": "A",
+    "explanation": "The program is used to load the program into memory."
+  }
+]

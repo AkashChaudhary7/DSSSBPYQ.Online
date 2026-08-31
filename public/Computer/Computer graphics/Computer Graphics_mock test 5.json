@@ -1,0 +1,505 @@
+[
+  {
+    "question": "The translation distances (dx, dy) is called as",
+    "options": [
+      "A) Translation vector",
+      "B) Shift vector",
+      "C) Both a and b",
+      "D) Neither a nor b"
+    ],
+    "correct_answer": "C",
+    "explanation": "The translation distances (dx, dy) from its original position is called as translation vector or shift vector."
+  },
+  {
+    "question": "In 2D-translation, a point (x, y) can  move to the new position (x’, y’) by using the equation",
+    "options": [
+      "A) x’=x+dx and y’=y+dx",
+      "B) x’=x+dx and y’=y+dy",
+      "C) X’=x+dy and Y’=y+dx",
+      "D) X’=x-dx and y’=y-dy"
+    ],
+    "correct_answer": "B",
+    "explanation": "By adding translation distance dx and dy to its originsl position (x, y) we can obtain a new position (x’, y’)."
+  },
+  {
+    "question": "The two-dimensional translation equation in the matrix form is",
+    "options": [
+      "A) P’=P+T",
+      "B) P’=P-T",
+      "C) P’=P*T",
+      "D) P’=p"
+    ],
+    "correct_answer": "A",
+    "explanation": "The 2D translation equation is P’=P+T."
+  },
+  {
+    "question": "_________ is a rigid body transformation that moves objects without deformation.",
+    "options": [
+      "A) Rotation",
+      "B) Scaling",
+      "C) Translation",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "Translation a rigid body transformation that moves objects without deformation."
+  },
+  {
+    "question": "A straight line segment is translated by applying the transformation equation",
+    "options": [
+      "A) P’=P+T",
+      "B) Dx and Dy",
+      "C) P’=P+P",
+      "D) Only c"
+    ],
+    "correct_answer": "A",
+    "explanation": "A straight line segment is translated by applying the transformation equation P’=P+T to each of line endpoints."
+  },
+  {
+    "question": "Polygons are translated by adding __________ to the coordinate position of each vertex and the current attribute setting.",
+    "options": [
+      "A) Straight line path",
+      "B) Translation vector",
+      "C) Differences",
+      "D) Only b"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "To change the position of a circle or ellipse we translate",
+    "options": [
+      "A) Center coordinates",
+      "B) Center coordinates and redraw the figure in new location",
+      "C) Outline coordinates",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "By translating the center coordinates and redraw the figure in new location we can change the position of a circle or ellipse."
+  },
+  {
+    "question": "The basic geometric transformations are",
+    "options": [
+      "A) Translation",
+      "B) Rotation",
+      "C) Scaling",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "These are the basic geometric transformations and other transformations are reflection and shear."
+  },
+  {
+    "question": "The transformation that is used to alter the size of an object is",
+    "options": [
+      "A) Scaling",
+      "B) Rotation",
+      "C) Translation",
+      "D) Reflection"
+    ],
+    "correct_answer": "A",
+    "explanation": "Scaling is used to alter the size of an object."
+  },
+  {
+    "question": "The two-dimensional scaling equation in the matrix form is",
+    "options": [
+      "A) P’=P+T",
+      "B) P’=S*P",
+      "C) P’=P*R",
+      "D) P’=R+S"
+    ],
+    "correct_answer": "B",
+    "explanation": "The 2d scaling equation is P’=S*P."
+  },
+  {
+    "question": "Scaling of a polygon is done by computing",
+    "options": [
+      "A) The product of (x, y) of each vertex",
+      "B) (x, y) of end points",
+      "C) Center coordinates",
+      "D) Only a"
+    ],
+    "correct_answer": "D",
+    "explanation": "Scaling of a polygon is done by computing the product of (x, y) of each vertex with scaling factor sx and sy to produce the transformation coordinates ( Xnew, Ynew)."
+  },
+  {
+    "question": "If the scaling factors values sx and sy < 1 then",
+    "options": [
+      "A) It reduces the size of object",
+      "B) It increases the size of object",
+      "C) It stunts the shape of an object",
+      "D) None"
+    ],
+    "correct_answer": "A",
+    "explanation": "If the scaling factors values sx and sy < 1 then it reduces the size of object."
+  },
+  {
+    "question": "If the scaling factors values sx and sy are assigned to the same value then",
+    "options": [
+      "A) Uniform rotation is produced",
+      "B) Uniform scaling is produced",
+      "C) Scaling cannot be done",
+      "D) Scaling can be done or cannot be done"
+    ],
+    "correct_answer": "B",
+    "explanation": "When sx and sy are assigned the same value then uniform scaling is produced that maintains relative object proportions."
+  },
+  {
+    "question": "If the scaling factors values sx and sy are assigned to unequal values then",
+    "options": [
+      "A) Uniform rotation is produced",
+      "B) Uniform scaling is produced",
+      "C) Differential scaling is produced",
+      "D) Scaling cannot be done"
+    ],
+    "correct_answer": "C",
+    "explanation": "Unequal values for sx and sy results in differential scaling that is often used in design applications."
+  },
+  {
+    "question": "The objects transformed using the equation  P’=S*P should be",
+    "options": [
+      "A) Scaled",
+      "B) Repositioned",
+      "C) Both a and b",
+      "D) Neither a nor b"
+    ],
+    "correct_answer": "C",
+    "explanation": "The objects transformed using the equation P’=S*P should be scaled and repositioned."
+  },
+  {
+    "question": "We control the location of a scaled object by choosing the position is known as",
+    "options": [
+      "A) Pivot point",
+      "B) Fixed point",
+      "C) Differential scaling",
+      "D) Uniform scaling"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "If the value of sx=1  and sy=1 then",
+    "options": [
+      "A) Reduce the size of object",
+      "B) Distort the picture",
+      "C) Produce an enlargement",
+      "D) No change in the size of an object"
+    ],
+    "correct_answer": "D",
+    "explanation": "sx=sx=1 does not change the size of the object."
+  },
+  {
+    "question": "The polygons are scaled by applying the following transformation.",
+    "options": [
+      "A) X’=x * Sx + Xf(1-Sx) and Y’=y * Sy + Yf(1-Sy)",
+      "B) X’=x * Sx + Xf(1+Sx) and Y’=y * Sy + Yf(1+Sy)",
+      "C) X’=x * Sx + Xf(1-Sx) and Y’=y * Sy – Yf(1-Sy)",
+      "D) X’=x * Sx * Xf(1-Sx) and Y’=y * Sy * Yf(1-Sy)"
+    ],
+    "correct_answer": "A",
+    "explanation": "The polygons are scaled by applying the transformation X’=x * Sx + Xf(1-Sx) and Y’=y * Sy + Yf(1-Sy)."
+  },
+  {
+    "question": "A ___________ is a system which uses one or more numbers, or coordinates, to uniquely determine the position of a point.",
+    "options": [
+      "A) co-ordinate system",
+      "B) binary-system",
+      "C) vector-system",
+      "D) euclid geometry"
+    ],
+    "correct_answer": "A",
+    "explanation": "A coordinate system is a system which uses one or more numbers, or coordinates, to uniquely determine the position of a point. It also determines the other geometric elements on a manifold on Euclid space."
+  },
+  {
+    "question": "Which of the co-ordinate represents X co-ordinate in (6,8,9)?",
+    "options": [
+      "A) 6",
+      "B) 8",
+      "C) 9",
+      "D) 0"
+    ],
+    "correct_answer": "A",
+    "explanation": "In a co-ordinate system, any position of a point is denoted as (x,y,z). Where x denotes the perpendicular distance of the point from the x-axis. Hence x is the X co-ordinate."
+  },
+  {
+    "question": "Which of the co-ordinate represents Y co-ordinate in (6,8,9)?",
+    "options": [
+      "A) 6",
+      "B) 8",
+      "C) 9",
+      "D) 0"
+    ],
+    "correct_answer": "B",
+    "explanation": "In a co-ordinate system, any position of a point is denoted as (x,y,z). Where y denotes the perpendicular distance of the point from the y-axis. Hence y is the Y co-ordinate."
+  },
+  {
+    "question": "Which of the co-ordinate represents Z co-ordinate in (6,8,9)?",
+    "options": [
+      "A) 6",
+      "B) 8",
+      "C) 9",
+      "D) 0"
+    ],
+    "correct_answer": "C",
+    "explanation": "In a co-ordinate system, any position of a point is denoted as (x,y,z). Where z denotes the perpendicular distance of the point from the z-axis. Hence z is the Z co-ordinate."
+  },
+  {
+    "question": "_______________ and ___________ are two types of transformations.",
+    "options": [
+      "A) quadratic, cubic",
+      "B) variable, affine",
+      "C) linear, quadratic",
+      "D) linear, affine"
+    ],
+    "correct_answer": "D",
+    "explanation": "Linear and affine transformations are two different types of transformations of matrices. In linear, points are in vector space but in affine, points are in affine space."
+  },
+  {
+    "question": "Adding points to a vector give a vector.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Adding a vector to a point gives a point, but Subtracting points gives a vector.\n<img src=\"https://www.sanfoundry.com/wp-content/uploads/2018/12/computer-graphics-interview-questions-answers-q6.png\" alt=\"Adding a vector to a point gives a point but Subtracting points gives a vector\" width=\"85\" height=\"35\" class=\"alignnone size-full wp-image-232582\" />"
+  },
+  {
+    "question": "Which of the following properties are preserved in affine transformation?",
+    "options": [
+      "A) co-linearity",
+      "B) convexity",
+      "C) concavity",
+      "D) parallelism"
+    ],
+    "correct_answer": "C",
+    "explanation": "The col-linearity, convexity and parallelism of bunch of points are conserved in affine transformations but any 3 or more points which are concave can turn parallel, so we can say concavity is not conserved."
+  },
+  {
+    "question": "Ratio of length along a line is preserved in affine transformations.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "The ratio of length gets preserved, for example, distinct collinear points x1,x2,x3. The ratio of x1x2 and x2x3 is same as that of f(x1)f(x2) and f(x2)f(x3)."
+  },
+  {
+    "question": "Which co-ordinates allow common vector operations such as translation, rotation, scaling and perspective projection to be represented as a matrix by which the vector is multiplied.",
+    "options": [
+      "A) vector co-ordinates",
+      "B) 3d co-ordinates",
+      "C) affine co-ordinates",
+      "D) homogenous co-ordinates"
+    ],
+    "correct_answer": "D",
+    "explanation": "The function of homogenous co-ordinates is to allow common vector operations such as translation, rotation, scaling and perspective projection to be represented as a matrix by which the vector is multiplied."
+  },
+  {
+    "question": "For orthonormal basis, which of these is correct?",
+    "options": [
+      "A) M-1 = Mt",
+      "B) M-1 = Mt",
+      "C) M = M",
+      "D) Mt = I"
+    ],
+    "correct_answer": "A",
+    "explanation": "Due to the effect of similitude and similarity transform, the inverse is equal to the transpose. So, we can say that M-1 = Mt."
+  },
+  {
+    "question": "What is the primary use of clipping in computer graphics?",
+    "options": [
+      "A) adding graphics",
+      "B) removing objects and lines",
+      "C) zooming",
+      "D) copying"
+    ],
+    "correct_answer": "B",
+    "explanation": "The primary use of clipping in computer graphics is to remove objects, lines, or line segments that are outside the viewing pane."
+  },
+  {
+    "question": "A polygon can be clipped using clipping operations.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "A polygon can also be clipped by specifying the clipping window. Sutherland Hodgeman polygon clipping algorithm is used for polygon clipping."
+  },
+  {
+    "question": "Which vertex of the polygon is clipped first in polygon clipping?",
+    "options": [
+      "A) top right",
+      "B) bottom right",
+      "C) bottom left",
+      "D) top left"
+    ],
+    "correct_answer": "D",
+    "explanation": "In polygon clipping, first the polygon is clipped against the left edge of the polygon window to get new vertices of the polygon. So, it is the top left which is clipped first."
+  },
+  {
+    "question": "How many methods of text clipping are there?",
+    "options": [
+      "A) 5",
+      "B) 4",
+      "C) 3",
+      "D) 2"
+    ],
+    "correct_answer": "C",
+    "explanation": "There are three methods for text clipping which are −\n1) All or none string clipping      2) All or none character clipping    3) Text clipping."
+  },
+  {
+    "question": "A bitmap is collection of ___________________ that describes an image.",
+    "options": [
+      "A) bits",
+      "B) colors",
+      "C) algorithms",
+      "D) pixels"
+    ],
+    "correct_answer": "D",
+    "explanation": "A bitmap is a collection of pixels that describe an image. It is a type of computer graphics that the computer uses to store and display pictures."
+  },
+  {
+    "question": "We can change the size or resize the bitmap image.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "We can’t resize the bitmap image. When the bitmap image is resized, the image pixels get distorted. It is one of the main disadvantages of the bitmap."
+  },
+  {
+    "question": "In line clipping, the portion of line which is _____________ of window is cut and the portion that is _____________ the window is kept.",
+    "options": [
+      "A) outside, inside",
+      "B) inside, outside",
+      "C) exact copy, different",
+      "D) different, an exact copy"
+    ],
+    "correct_answer": "A",
+    "explanation": "Line clipping follows the same algorithm that is in the case of point clipping. So, in line clipping also, we will cut the portion of the line which is outside of the window and keep only the portion that is inside the window."
+  },
+  {
+    "question": "‘Skala’ is an example of which type of clipping?",
+    "options": [
+      "A) curve clipping",
+      "B) point clipping",
+      "C) polygon clipping",
+      "D) line clipping"
+    ],
+    "correct_answer": "D",
+    "explanation": "Skala is a type of clipping operation which can be used for a line or line-segment clipping against a rectangular window, as well as against a convex polygon. Its algorithm is based on homogenous co-ordinates and duality."
+  },
+  {
+    "question": "‘Vatti’ clipping algorithm is used in _________________",
+    "options": [
+      "A) curve clipping",
+      "B) point clipping",
+      "C) polygon clipping",
+      "D) line clipping"
+    ],
+    "correct_answer": "A",
+    "explanation": "Vatti is used in polygon clipping. It allows clipping of any number of arbitrarily shaped subject polygons. It can also be used to clip any number of arbitrarily shaped polygons."
+  },
+  {
+    "question": "The process of removal of hidden surfaces is termed as _______________",
+    "options": [
+      "A) clipping",
+      "B) copying",
+      "C) culling",
+      "D) shorting"
+    ],
+    "correct_answer": "C",
+    "explanation": "An area which is related to the visible surface determination (VSD) is called culling. ‘Viewing frustum culling’ and ‘Backface culling’ are examples of some culling algorithms."
+  },
+  {
+    "question": "How many types of basic polygons are present?",
+    "options": [
+      "A) 4",
+      "B) 2",
+      "C) 10",
+      "D) 5"
+    ],
+    "correct_answer": "B",
+    "explanation": "There are two types of basic polygons present. They are concave polygons and convex polygons. In a concave polygon at least one angle should be greater than 180. In a convex polygon all the angles should be less than 180."
+  },
+  {
+    "question": "A polygon can be a figure whose all edges are not connected with another edge.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "In a polygon, all lines are connected. Lines can be a combination of edges and vertices, which together form a polygon. It is a 2-dimensional shape made by connecting multiple straight lines."
+  },
+  {
+    "question": "Which of the following part of a polygon is considered in a polygon clipping algorithm?",
+    "options": [
+      "A) Part which is both inside and outside the window",
+      "B) Part which is outside the window",
+      "C) Part which is inside the window",
+      "D) Part which is neither inside nor outside the window"
+    ],
+    "correct_answer": "C",
+    "explanation": "Polygon clipping is a process in which we only consider the part which is inside the view pane or window. We will remove or clip the part that is outside the window."
+  },
+  {
+    "question": "Which of the following polygon clipping algorithm can be used to clip a filled area?",
+    "options": [
+      "A) Sutherland Hodgman Clipping Algorithm",
+      "B) Weiler Atherton Clipping Algorithm",
+      "C) Vatti Clipping Algorithm",
+      "D) Greiner Hormann Clipping Algorithm"
+    ],
+    "correct_answer": "B",
+    "explanation": "Weiler Atherton Clipping algorithm helps us to clip a filled area. The filled area may be a convex polygon or concave polygon. This algorithm was introduced to identify the visible surfaces. This algorithm helps to create individual polygons in some cases."
+  },
+  {
+    "question": "In Weiler Atherton Clipping Algorithm which of the following is consider to clip a polygon?",
+    "options": [
+      "A) Polygon edges and Window boundaries",
+      "B) Polygon Vertices",
+      "C) Polygon Edges",
+      "D) Window boundaries"
+    ],
+    "correct_answer": "D",
+    "explanation": "In the Weiler Atherton algorithm, we consider the view pane boundaries instead of edges and vertices of the polygon to clip a polygon. Points very close to the edge of the other polygon may be considered as both in and out until their status can be confirmed after all the intersections have been found and verified but this increases the complexity."
+  },
+  {
+    "question": "Which of the following algorithm can be used to clip a self-intersecting polygon?",
+    "options": [
+      "A) Greiner Hormann Clipping Algorithm",
+      "B) Weiler Atherton Clipping Algorithm",
+      "C) Vatti Clipping Algorithm",
+      "D) Both Vatti and Greiner Hormann Clipping Algorithm"
+    ],
+    "correct_answer": "D",
+    "explanation": "To clip a self-intersecting polygon we can use the Vatti Clipping Algorithm as well as the Greiner Hormann Clipping Algorithm. Polygons with holes can also be clipped using these algorithms. Algorithms like Sutherland-Hodgman and Weiler-Atherton cannot perform clipping on a self-intersecting polygon."
+  },
+  {
+    "question": "Vatti Clipping Algorithm uses the sweep line approach to clip a polygon.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "The Vatti Clipping algorithm uses the sweep line approach to clip a polygon. In scan line approach the selected polygon is selected and placed upon imaginary horizontal lines that passes through the polygons every vertex and divides the polygon on different parts."
+  },
+  {
+    "question": "Greiner Hormann Clipping Algorithm is more efficient than the Vatti Clipping Algorithm.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "The Greiner Hormann Clipping Algorithm works better than the Vatti Clipping Algorithm. It can work on self-intersecting polygons as well as non-convex polygons but it cannot work upon polygons having common edges."
+  },
+  {
+    "question": "Which of the following clipping algorithm is based upon the “inside” of a polygon based on the winding number?",
+    "options": [
+      "A) Sutherland Hodgman Clipping Algorithm",
+      "B) Weiler Atherton Clipping Algorithm",
+      "C) Vatti Clipping Algorithm",
+      "D) Greiner Hormann Clipping Algorithm"
+    ],
+    "correct_answer": "D",
+    "explanation": "The Greiner Hormann Clipping algorithm is based upon the “inside” of a polygon based on the winding number. The winding number of a closed curve in the plane around a given point is an integer representing the total number of times that curve travels counter clockwise around the point.  The algorithm considers regions with odd winding number to be inside the polygon."
+  }
+]

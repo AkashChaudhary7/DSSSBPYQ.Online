@@ -1,0 +1,550 @@
+[
+  {
+    "question": "Space diversity s also known as ________",
+    "options": [
+      "A) Frequency diversity",
+      "B) Antenna diversity",
+      "C) Polarization diversity",
+      "D) Time diversity"
+    ],
+    "correct_answer": "B",
+    "explanation": "Space diversity is also known as antenna diversity. It is one of the popular forms of diversity used in wireless communications. Signals received from the spatially separated antenna on the mobile would have essentially uncorrelated envelopes for antenna separation."
+  },
+  {
+    "question": "MIMO was initially developed in the year __________",
+    "options": [
+      "A) 1970",
+      "B) 1990",
+      "C) 1960",
+      "D) 1985"
+    ],
+    "correct_answer": "B",
+    "explanation": "Since the initial development in the year 1990, MIMO Wireless Communications have become integral part of the most forthcoming commercial and next generation wireless data communication systems."
+  },
+  {
+    "question": "MIMO is a smart antenna technology.",
+    "options": [
+      "A) False",
+      "B) True"
+    ],
+    "correct_answer": "B",
+    "explanation": "MIMO is one of several forms of smart antenna technology, the others being MISO (multiple input, single output) and SIMO (single input, multiple output). It is an antenna technology for wireless communications in which multiple antennas are used at both the source and the destination."
+  },
+  {
+    "question": "Which type of transmission technique is employed by paging system?",
+    "options": [
+      "A) Multicasting",
+      "B) Unicasting",
+      "C) Hybrid",
+      "D) Simulcasting"
+    ],
+    "correct_answer": "D",
+    "explanation": "Simulcast is a reliable technique used by paging system by transmitting the same paging signal from multiple paging transmitters at approximately equal times."
+  },
+  {
+    "question": "Which of the following is the drawback for cordless telephones?",
+    "options": [
+      "A) Security",
+      "B) Wireless technology",
+      "C) Limited coverage area",
+      "D) Mobile"
+    ],
+    "correct_answer": "C",
+    "explanation": "Cordless telephone systems are wireless, but they have a disadvantage of limited coverage area with cell size of approx. 300 m. Being digital, they have very less chance of eaves dropping."
+  },
+  {
+    "question": "Which two channels are responsible for initiating mobile calls?",
+    "options": [
+      "A) FCC and RVC",
+      "B) FVC and FCC",
+      "C) FVC and RVC",
+      "D) FCC and RCC"
+    ],
+    "correct_answer": "D",
+    "explanation": "FCC (Forward Control Channel) and RCC (Reverse Control Channel) are control channels responsible for initiating mobile calls."
+  },
+  {
+    "question": "Which of the following is a CDMA standard of second generation network?",
+    "options": [
+      "A) ETACS",
+      "B) EDGE",
+      "C) IS-95",
+      "D) IS-136"
+    ],
+    "correct_answer": "C",
+    "explanation": "Interim Standard 95 (IS-95) is the most popular CDMA standard of second generation networks. IS-136 is a TDMA standard of 2G. EDGE is a standard of 2.5G and ETACS is a 1G standard."
+  },
+  {
+    "question": "Which of the following is not a TDMA standard of 2.5G network?",
+    "options": [
+      "A) GPRS",
+      "B) GSM",
+      "C) HSCSD",
+      "D) EDGE"
+    ],
+    "correct_answer": "B",
+    "explanation": "GSM (Global System for Mobile) is a TDMA standard for 2G network. HSCSD (High Speed Circuit Switched Data), GPRS (General Packet Radio Service) and EDGE (Enhanced Data rates for GSM Evolution) are TDMA standards of 2.5G technology."
+  },
+  {
+    "question": "Which of the following leads to the 3G evolution of GSM, IS-136 and PDC systems?",
+    "options": [
+      "A) GPRS",
+      "B) HSCSD",
+      "C) W-CDMA",
+      "D) EDGE"
+    ],
+    "correct_answer": "C",
+    "explanation": "The 3G evolution for GSM, IS-136 and PDC systems leads to W-CDMA (Wideband CDMA). It is based on the network fundamentals of GSM, as well as merged versions of GSM and IS-136 through EDGE. GPRS, EDGE and HSCSD are 2.5G networks."
+  },
+  {
+    "question": "Which of the following has no backward compatibility with 3G Cdma2000?",
+    "options": [
+      "A) IS-95B",
+      "B) IS-95A",
+      "C) IS-95",
+      "D) GPRS"
+    ],
+    "correct_answer": "D",
+    "explanation": "3G Cdma2000 is based on the original IS-95 and IS-95A CDMA standards, as well as the 2.5G IS-95B air interface. While upgrading, Cdma2000 maintains backward compatibility with existing IS-95, IS-95A and IS-95B equipments. Thus, Cdma2000 allow wireless carriers to introduce a family of new high data rate Internet access capabilities within existing systems."
+  },
+  {
+    "question": "Which of the following specifies a set of media access control (MAC) and physical layer specifications for implementing WLANs?",
+    "options": [
+      "A) IEEE 802.11",
+      "B) IEEE 802.16",
+      "C) IEEE 802.15",
+      "D) IEEE 802.3"
+    ],
+    "correct_answer": "A",
+    "explanation": "IEEE 802.11 is a set of media access control and physical layer specification for implementing WLAN computer communication. It was founded in 1987 to begin standardization of spread spectrum WLANs for use in the ISM bands."
+  },
+  {
+    "question": "Which modulation scheme is used by Bluetooth?",
+    "options": [
+      "A) GFSK",
+      "B) DQPSK",
+      "C) BPSK",
+      "D) MSK"
+    ],
+    "correct_answer": "A",
+    "explanation": "Bluetooth uses GFSK (Gaussian Frequency Shift Keying). When GFSK is used for Bluetooth modulation, the frequency of the carrier is shifted to carry the modulation. By doing this the Bluetooth modulation achieves a bandwidth of 1 MHz with stringent filter requirements to prevent interference on other channels."
+  },
+  {
+    "question": "Which of the following is a universally adopted shape of cell?",
+    "options": [
+      "A) Hexagon",
+      "B) Square",
+      "C) Circle",
+      "D) Triangle"
+    ],
+    "correct_answer": "A",
+    "explanation": "Hexagonal cell shape is a simplistic model of radio coverage for each base station. It has been universally adopted since the hexagon permits easy and manageable analysis of a cellular system."
+  },
+  {
+    "question": "Which of the following is associated with the handoff in first generation analog cellular systems?",
+    "options": [
+      "A) Breathing cell",
+      "B) Locator receiver",
+      "C) MAHO",
+      "D) Cell dragging"
+    ],
+    "correct_answer": "B",
+    "explanation": "Locator receiver is a spare receiver in each base station. It is used to scan and determine signal strengths of mobile users which are in neighbouring cells."
+  },
+  {
+    "question": "Which of the following problem occur due to adjacent channel interference?",
+    "options": [
+      "A) Cross talk",
+      "B) Missed calls",
+      "C) Blocked calls",
+      "D) Near-far effect"
+    ],
+    "correct_answer": "D",
+    "explanation": "One of the main problems with adjacent channel interference is the near-far effect. It occurs when a mobile close to a base station transmits on a channel close to one being used by a weak mobile."
+  },
+  {
+    "question": "Which of the following technology distributes the coverage of the cell and extends the cell boundary to hard-to-reach places?",
+    "options": [
+      "A) Sectoring",
+      "B) Cell splitting",
+      "C) Micro cell zone concept",
+      "D) Scattering"
+    ],
+    "correct_answer": "C",
+    "explanation": "Micro cell zone concept distributes the coverage of the cell and extends the cell boundary to hard-to reach places. It is the solution for the problem of increased number of handoffs when sectoring which results in an increase of load on switching."
+  },
+  {
+    "question": "Which of the following do not undergo free space propagation?",
+    "options": [
+      "A) Wired telephone systems",
+      "B) Wireless line of sight radio links",
+      "C) Microwave line of sight radio links",
+      "D) Satellite communication system"
+    ],
+    "correct_answer": "A",
+    "explanation": "EM signals when traveling through wireless channels experience fading effects due to various effects. But in some cases the transmission is with no obstruction and direct line of sight such as in satellite communication, microwave and wireless line of sight radio links."
+  },
+  {
+    "question": "What is the dimension of object as compared to wavelength of propagating wave when reflection occurs?",
+    "options": [
+      "A) Small",
+      "B) Same",
+      "C) Very small",
+      "D) Large"
+    ],
+    "correct_answer": "D",
+    "explanation": "Reflection occurs when a propagating electromagnetic wave impinges upon an object which has very large dimensions when compared to the wavelength of the propagation wave. Reflection occurs from the surface of the Earth and from buildings and walls."
+  },
+  {
+    "question": "Which of the following explains the concept of diffraction loss?",
+    "options": [
+      "A) Archimedes’ Principle",
+      "B) Fresnel zone",
+      "C) Principle of Simultaneity",
+      "D) Pascal’s Principle"
+    ],
+    "correct_answer": "B",
+    "explanation": "The concept of diffraction loss is a function of the path difference around an obstruction. It can be explained by Fresnel zones. Fresnel zones represent successive regions where secondary waves have a path length from Tx to Rx which are nλ/2 greater than total path length."
+  },
+  {
+    "question": "Which of the following is not a practical path loss estimation technique?",
+    "options": [
+      "A) Determination of percentage of coverage area",
+      "B) Hata model",
+      "C) Log distance path loss model",
+      "D) Log normal shadowing"
+    ],
+    "correct_answer": "A",
+    "explanation": "Log Normal Shadowing, Log Distance Path Loss Model, and Hata Model are practical path loss estimation techniques. However, ‘Determination of Percentage of Coverage Area’ is a network planning metric, not a path loss estimation technique."
+  },
+  {
+    "question": "Which of the most widely used model for signal prediction in urban areas?",
+    "options": [
+      "A) Okumura model",
+      "B) Attenuation factor model",
+      "C) Ericsson Multiple Breakpoint Model",
+      "D) Log distance path loss model"
+    ],
+    "correct_answer": "A",
+    "explanation": "Okumura’s model is one of the most widely used models for signal prediction in urban areas. This model is applicable for frequencies in the range 150 MHz to 1920 MHz (Extrapolated upto 3000 MHz)."
+  },
+  {
+    "question": "Which of the following is not an effect caused by multipath in radio channel?",
+    "options": [
+      "A) Random frequency modulation",
+      "B) Time dispersion",
+      "C) Rapid changes in signal strength",
+      "D) Power of base station"
+    ],
+    "correct_answer": "D",
+    "explanation": "Rapid changes in signal strength over a small travel distance are caused due to multipath. It causes random frequency modulation due to varying Doppler shifts on different multipath signals. Time dispersion is also caused by multipath propagation delays."
+  },
+  {
+    "question": "What is the main disadvantage of RF pulse system?",
+    "options": [
+      "A) Simplicity",
+      "B) Interference and noise",
+      "C) Not real time",
+      "D) Complexity"
+    ],
+    "correct_answer": "B",
+    "explanation": "The main problem with RF pulse system is that it is subject to interference and noise. This is due to wide passband filter required for multipath time resolution."
+  },
+  {
+    "question": "Which of the following is not a multipath channel parameter that can be determined from power delay profile?",
+    "options": [
+      "A) RMS delay spread",
+      "B) Doppler spread",
+      "C) Mean excess delay",
+      "D) Excess delay spread"
+    ],
+    "correct_answer": "B",
+    "explanation": "The mean excess delay, excess delay spread and rms delay spread are some multipath channel parameters. They can be determined from a power delay profile. Doppler spread is a measure of spectral broadening caused by time rate of change of mobile radio channel."
+  },
+  {
+    "question": "Which of the following is not a channel parameter?",
+    "options": [
+      "A) Coherence time",
+      "B) Rms delay spread",
+      "C) Doppler spread",
+      "D) Bandwidth"
+    ],
+    "correct_answer": "D",
+    "explanation": "Channel parameters include coherence time, RMS delay spread, and Doppler spread. Signal parameters include bandwidth and symbol period. Different types of fading occur depending on the relationship between channel and signal parameters."
+  },
+  {
+    "question": "Which of the following is an important statistics of a Rayleigh fading useful for designing error control codes and diversity schemes?",
+    "options": [
+      "A) Doppler frequency",
+      "B) Level crossing rate (LCR)",
+      "C) Power density",
+      "D) Mobile speed"
+    ],
+    "correct_answer": "B",
+    "explanation": "The level crossing rate (LCR) and average fade duration of a Rayleigh fading signal are important statistics. They are useful for designing error control codes and diversity schemes to be used in mobile communication."
+  },
+  {
+    "question": "Which of the following is not a principle shape factor?",
+    "options": [
+      "A) Azimuthal direction of maximum fading",
+      "B) Angle of arrival",
+      "C) Angular spread",
+      "D) Angular constriction"
+    ],
+    "correct_answer": "B",
+    "explanation": "Three principle shape factors are angular spread, angular constriction, and azimuthal direction of maximum fading. They are exactly related to the average rate at which a received signal fades."
+  },
+  {
+    "question": "Which of the following is not a technique for FM demodulation?",
+    "options": [
+      "A) Phase locked discriminator",
+      "B) Slope detection",
+      "C) Zero crossing detection",
+      "D) Product detector"
+    ],
+    "correct_answer": "D",
+    "explanation": "Various techniques such as slope detection, zero crossing detection, phase locked discrimination and quadrature detection are used to demodulate FM. Product detector is used for demodulating AM signals."
+  },
+  {
+    "question": "Which of the following is the ratio of the throughput data rate per Hertz?",
+    "options": [
+      "A) Spectral density",
+      "B) Bandwidth efficiency",
+      "C) Power density",
+      "D) Power efficiency"
+    ],
+    "correct_answer": "B",
+    "explanation": "Bandwidth efficiency reflects how efficiently the allocated bandwidth is utilized. It is defined as the ratio of throughput data rate per Hertz in a given bandwidth. It describes the ability of a modulation scheme to accommodate data within a limited bandwidth."
+  },
+  {
+    "question": "Which of the following is not a linear modulation technique?",
+    "options": [
+      "A) π/4 QPSK",
+      "B) OQPSK",
+      "C) BPSK",
+      "D) FSK"
+    ],
+    "correct_answer": "D",
+    "explanation": "OQPSK, π/4 QPSK and BPSK are the most popular linear modulation techniques. They have very good spectral efficiency. However, FSK is an non-linear modulation technique."
+  },
+  {
+    "question": "Which of the following is not a property of MSK?",
+    "options": [
+      "A) Self synchronizing capability",
+      "B) Variable envelope",
+      "C) Spectral efficiency",
+      "D) Good BER performance"
+    ],
+    "correct_answer": "B",
+    "explanation": "MSK has a constant envelope. It is a spectrally efficient scheme. It possesses properties such as constant envelope, spectral efficiency, good BER performance and self-synchronizing capability."
+  },
+  {
+    "question": "What is the set of possible carrier frequencies in FH-SS?",
+    "options": [
+      "A) Hop",
+      "B) Hopset",
+      "C) Symbols",
+      "D) Chips"
+    ],
+    "correct_answer": "B",
+    "explanation": "The set of possible carrier frequencies in FH-SS is called hopset. Hopping occurs of a frequency band that includes a number of channels. Each channel is defined as a spectral region with central frequency in the hopset."
+  },
+  {
+    "question": "Which of the following is specified by a specific number of bit errors occurring in a given transmission?",
+    "options": [
+      "A) Equally likely event",
+      "B) Exhaustive events",
+      "C) Bit error rate",
+      "D) Outage event"
+    ],
+    "correct_answer": "D",
+    "explanation": "Outage event is specified by a specific number of bit errors occurring in a given transmission. Evaluating the probability of outage is one of the means to judge the effectiveness of the signalling scheme in a mobile radio channel."
+  },
+  {
+    "question": "Which of the following is not used to improve received signal quality over small scale times and distance?",
+    "options": [
+      "A) Diversity",
+      "B) Channel coding",
+      "C) Equalization",
+      "D) Modulation"
+    ],
+    "correct_answer": "D",
+    "explanation": "Equalization, diversity and channel coding are the three techniques which are used to improve received signal quality and link performance over small scale times and distance. But, the approach, cost, complexity and effectiveness varies in wireless communication system."
+  },
+  {
+    "question": "Which of the following is not an advantage of lattice equalizer?",
+    "options": [
+      "A) Faster convergence",
+      "B) Dynamic assignment",
+      "C) Numerical stability",
+      "D) Simple structure"
+    ],
+    "correct_answer": "D",
+    "explanation": "The structure of lattice equalizer is more complicated than a linear transversal equalizer. But, numerical stability and faster convergence are two advantage of laatic equalizer. Also, its unique structure allows dynamic assignment of the most effective length of lattice equalizer."
+  },
+  {
+    "question": "Which of the following is not a category of space diversity technique?",
+    "options": [
+      "A) Time diversity",
+      "B) Equal gain diversity",
+      "C) Selection diversity",
+      "D) Feedback diversity"
+    ],
+    "correct_answer": "A",
+    "explanation": "Space diversity reception methods can be classified into four categories. They are selection diversity, feedback diversity, maximal ratio combining and equal gain diversity."
+  },
+  {
+    "question": "Which of the following is not a property of block code?",
+    "options": [
+      "A) Cyclic",
+      "B) Non linearity",
+      "C) Linearity",
+      "D) Systematic"
+    ],
+    "correct_answer": "B",
+    "explanation": "Block codes are linear, systematic and cyclic in nature. Encoding and decoding techniques make use of mathematical constructs known as finite fields."
+  },
+  {
+    "question": "Which of the following indicates the number of input bits that the current output is dependent upon?",
+    "options": [
+      "A) Code length",
+      "B) Search window",
+      "C) Information rate",
+      "D) Constraint length"
+    ],
+    "correct_answer": "D",
+    "explanation": "Constraint length determines the number of input data bits that the current output is dependent upon. The constraint length determines how powerful and complex the code is."
+  },
+  {
+    "question": "Which of the following is one of the most frequently used transform in speech coding?",
+    "options": [
+      "A) Shearlet transform",
+      "B) Fourier transform",
+      "C) Discrete cosine transform",
+      "D) Wavelet transform"
+    ],
+    "correct_answer": "C",
+    "explanation": "DCT (discrete cosine transform) is one of the most attractive and frequently used transforms for speech coding. Fast algorithms developed for computing the DCT in a computationally efficient manner are used."
+  },
+  {
+    "question": "Which of the following is an important factor in determining spectral efficiency of the system?",
+    "options": [
+      "A) Vocoder",
+      "B) Modulation technique",
+      "C) Cell size",
+      "D) Multiple access technique"
+    ],
+    "correct_answer": "D",
+    "explanation": "The type of multiple access technique used is an important factor in determining the spectral efficiency of the system. It strongly influences the choice of speech codec."
+  },
+  {
+    "question": "Which of the following measures spectrum efficiency of a wireless system?",
+    "options": [
+      "A) Spectral capacity",
+      "B) Channel capacity",
+      "C) Carrier capacity",
+      "D) Radio capacity"
+    ],
+    "correct_answer": "D",
+    "explanation": "Radio capacity is a parameter which measures spectrum efficiency of a wireless system. This parameter is determined by the required carrier to interference ratio and the channel bandwidth."
+  },
+  {
+    "question": "Which of the following standard had not adopted digital TDMA for high capacity?",
+    "options": [
+      "A) PDC",
+      "B) USDC",
+      "C) IS-95",
+      "D) GSM"
+    ],
+    "correct_answer": "C",
+    "explanation": "Various proposed standards such as the GSM, US digital cellular (USDC), and Pacific Digital Cellular (PDC) have adopted digital TDMA for high capacity. IS-95 does not use TDMA."
+  },
+  {
+    "question": "Which of the following is true for first-generation wireless systems?",
+    "options": [
+      "A) Low rate",
+      "B) Efficient",
+      "C) High data rate",
+      "D) Digital technology"
+    ],
+    "correct_answer": "A",
+    "explanation": "First generation wireless systems provide analog speech and inefficient, low rate, data transmission between the base station and mobile user."
+  },
+  {
+    "question": "Which of the following is not a service offered by SS7?",
+    "options": [
+      "A) Alternate billing services",
+      "B) Touchstar",
+      "C) 400 services",
+      "D) 800 services"
+    ],
+    "correct_answer": "C",
+    "explanation": "There are three main types of services offered by the SS7 network. They are the Touchstar, 800 services, and alternate billing services."
+  },
+  {
+    "question": "Which of the following is not a characteristic of cellular telephone system?",
+    "options": [
+      "A) Accommodate a large number of users",
+      "B) Large geographic area",
+      "C) Limited frequency spectrum",
+      "D) Large frequency spectrum"
+    ],
+    "correct_answer": "D",
+    "explanation": "Cellular systems accommodate a large number of users within a limited frequency spectrum over a large geographic area."
+  },
+  {
+    "question": "What is the responsibility of MSC in cellular telephone system?",
+    "options": [
+      "A) Connection of mobile to base stations",
+      "B) Connection of mobile to PSTN",
+      "C) Connection of base station to PSTN",
+      "D) Connection of base station to MSC"
+    ],
+    "correct_answer": "B",
+    "explanation": "Mobile Switching Center (MSC) is responsible for connecting all mobiles to the PSTN (Public Switched Telephone Network) in a cellular system."
+  },
+  {
+    "question": "Who has the responsibility of billing and system maintenance function in cellular system?",
+    "options": [
+      "A) Base Station",
+      "B) PSTN",
+      "C) MSC",
+      "D) Mobile system"
+    ],
+    "correct_answer": "C",
+    "explanation": "Mobile switching center (MSC) accommodates 100,000 subscribers and 5,000 simultaneous conversations at a time and handles all billing and system maintenance functions."
+  },
+  {
+    "question": "What is the function of FVC (Forward Voice Channel)?",
+    "options": [
+      "A) Voice transmission from base station to mobiles",
+      "B) Voice transmission from mobile to base station",
+      "C) Initiating mobile calls",
+      "D) Broadcast all traffic request for all mobile"
+    ],
+    "correct_answer": "A",
+    "explanation": "FVC (Forward Voice Channel) and RVC (Reverse Voice Channel) are responsible for voice transmission. FVC is used for voice transmission from base station to mobile and RVC is used for voice transmission from mobile to base station."
+  },
+  {
+    "question": "Which two channels are responsible for initiating mobile calls?",
+    "options": [
+      "A) FVC and FCC",
+      "B) FVC and RVC",
+      "C) FCC and RCC",
+      "D) FCC and RVC"
+    ],
+    "correct_answer": "C",
+    "explanation": "FCC (Forward Control Channel) and RCC (Reverse Control Channel) are control channels responsible for initiating mobile calls."
+  },
+  {
+    "question": "Of the total channels present in the cellular system, what is the percentage of voice and control channels?",
+    "options": [
+      "A) 95% voice channels, 5% control channels",
+      "B) 5% voice channels, 95% control channels",
+      "C) 50% voice channels, 50% control channels",
+      "D) 25% voice channels, 75% control channels"
+    ],
+    "correct_answer": "A",
+    "explanation": "In each cellular system, control channels are 5% of the total channels available and remaining 95% are dedicated to voice and data traffic."
+  }
+]

@@ -1,0 +1,552 @@
+[
+  {
+    "question": "The result “X + XY  =  X” follows which of these laws?",
+    "options": [
+      "A) Consensus law",
+      "B) Distributive law",
+      "C) Duality law",
+      "D) Absorption law"
+    ],
+    "correct_answer": "D",
+    "explanation": "The results “X + XY  =  X” and “X(X + Y)  =  X” follows the absorption law. The expression given can be written in the form X + XY  =  X(1 + Y). Any value – added with 1 will give 1 itself. Therefore 1 + Y  =  1 and X + XY  =  X."
+  },
+  {
+    "question": "Which of the following options correctly represents the consensus law of Digital Circuits?",
+    "options": [
+      "A) AB + AC + BC = AB +  AC",
+      "B) AB + AC + BC = AB +  AC",
+      "C) AB + AC + BC = AB +  AC",
+      "D) AB + AC + BC = AB +  AC"
+    ],
+    "correct_answer": "A",
+    "explanation": "The consensus law of Digital Electronics can be represented by the expression\n                             AB + AC + BC = AB +  AC"
+  },
+  {
+    "question": "Which of the following points is not correct regarding an Ex – NOR gate in Digital Electronics?",
+    "options": [
+      "A) It is a one – bit comparator",
+      "B) It is a buffer",
+      "C) It is a one – bit inverter",
+      "D) It is a universal gate"
+    ],
+    "correct_answer": "A",
+    "explanation": "Ex – NOR gate is a one – bit comparator as the output for the gate is 1 if similar inputs are given to the gate and output is 0 if different inputs are given to the gate."
+  },
+  {
+    "question": "Which gate is called the anti – coincidence and coincidence gate respectively?",
+    "options": [
+      "A) XNOR and XOR",
+      "B) AND and OR",
+      "C) OR and AND",
+      "D) XOR and XNOR"
+    ],
+    "correct_answer": "D",
+    "explanation": "XNOR gate is called coincidence gate and gives 1 if similar inputs are given to the gate and output is 0 if different inputs are given to the gate. XOR gate is called anti – coincidence gate and gives 0 if similar inputs are given to the gate and output is 1 if different inputs are given to the gate."
+  },
+  {
+    "question": "What frequency division of the pulsed clock signal can be obtained by connecting 4 flip – flops in cascade?",
+    "options": [
+      "A) 2",
+      "B) 4",
+      "C) 8",
+      "D) 16"
+    ],
+    "correct_answer": "D",
+    "explanation": "In Digital Circuits, a frequency division of 2n of the pulsed clock signal can be obtained by connecting n flip – flops in cascade. Thus, for 4 flip – flops clock frequency can be divided by 16."
+  },
+  {
+    "question": "Which of the following options represent the correct reduction of XYZ + XYZ ?",
+    "options": [
+      "A) 0",
+      "B) YZ",
+      "C) X  + X",
+      "D) 2YZ"
+    ],
+    "correct_answer": "B",
+    "explanation": "Using Boolean identities of Digital Electronics the expression  XYZ + XYZ can be reduced. According to Complementarity identity  X + X = 1. Thus, YZ + XYZ = (X + X)YZ = YZ."
+  },
+  {
+    "question": "A priority encoder has four inputs I0, I1, I2, and I3 where I3 has the highest priority and I0 has the least priority. If I2  =  1, what will be the output?",
+    "options": [
+      "A) 00",
+      "B) 01",
+      "C) 10",
+      "D) 11"
+    ],
+    "correct_answer": "C",
+    "explanation": "In digital circuits, if an input has 1 then the other inputs with lower priority can be considered with the “don’t care” condition. I2  =  1, thus, I3  =  0, I1  =  x and I0  =  x. The output will be 10."
+  },
+  {
+    "question": "Which of the following options are correct for a 4×1 multiplexer?",
+    "options": [
+      "A) It has four 3 – input AND gates",
+      "B) It has four 2 – input AND gates",
+      "C) It has one 3 – input AND gate",
+      "D) It has one 3 – input AND gate"
+    ],
+    "correct_answer": "A",
+    "explanation": "A 4 x 1 multiplexer has 2 select lines, 4 input lines, and 1 output line. AND gates are required to pass the inputs. Thus 4 AND gates will be used for each input. 3 – input AND gate is used, where 2 inputs come from each of the select lines and 1 input for the data."
+  },
+  {
+    "question": "What determines the output from the combinational logic circuit in Digital Electronics?",
+    "options": [
+      "A) Input signals from the past condition",
+      "B) Input signals at the present moment",
+      "C) Input signals from both past and present",
+      "D) Input signals expected in future"
+    ],
+    "correct_answer": "B",
+    "explanation": "The output in a combinational circuit depends on the mixture of input signals present at that moment. It is not determined by the past conditions. The output in a synchronous circuit depends on the mixture of input signals present at that moment and also the past conditions."
+  },
+  {
+    "question": "Which of these pins will allow to activate and deactivate a multiplexer?",
+    "options": [
+      "A) Enable pin",
+      "B) Selection pin",
+      "C) Logic pin",
+      "D) Preset pin"
+    ],
+    "correct_answer": "A",
+    "explanation": "An enable pin allows to activate and deactivate the multiplexer. When enable pin is 0, the output is obtained while when enable pin is 0, the multiplexer is disabled."
+  },
+  {
+    "question": "Binary coded decimal is a combination of __________",
+    "options": [
+      "A) Two binary digits",
+      "B) Three binary digits",
+      "C) Four binary digits",
+      "D) Five binary digits"
+    ],
+    "correct_answer": "C",
+    "explanation": "Binary coded decimal is a combination of 4 binary digits. For example-8421."
+  },
+  {
+    "question": "The decimal number 10 is represented in its BCD form as __________",
+    "options": [
+      "A) 10100000",
+      "B) 01010111",
+      "C) 00010000",
+      "D) 00101011"
+    ],
+    "correct_answer": "C",
+    "explanation": "The decimal number 10 is represented in its BCD form as 0001 0000, in accordance to 8421 for each of the two digits."
+  },
+  {
+    "question": "Add the two BCD numbers: 1001 + 0100 = ?",
+    "options": [
+      "A) 10101111",
+      "B) 01010000",
+      "C) 00010011",
+      "D) 00101011"
+    ],
+    "correct_answer": "C",
+    "explanation": "Firstly, Add the 1001 and 0100. We get 1101 as output but it’s not in BCD form. So, we add 0110 (i.e. 6) with 1101. As a result we get 10011 and it’s BCD form is 0001 0011."
+  },
+  {
+    "question": "Carry out BCD subtraction for (68) – (61) using 10’s complement method.",
+    "options": [
+      "A) 00000111",
+      "B) 01110000",
+      "C) 100000111",
+      "D) 011111000"
+    ],
+    "correct_answer": "A",
+    "explanation": "First the two numbers are converted into their respective BCD form using 8421 sequence. Then binary subtraction is carried out."
+  },
+  {
+    "question": "Code is a symbolic representation of __________ information.",
+    "options": [
+      "A) Continuous",
+      "B) Discrete",
+      "C) Analog",
+      "D) Both continuous and discrete"
+    ],
+    "correct_answer": "B",
+    "explanation": "Code is a symbolic representation of discrete information, which may be present in the form of numbers, letters or physical quantities. Mostly, it is represented using a particular number system like decimal or binary and such like."
+  },
+  {
+    "question": "When numbers, letters or words are represented by a special group of symbols, this process is called __________",
+    "options": [
+      "A) Decoding",
+      "B) Encoding",
+      "C) Digitizing",
+      "D) Inverting"
+    ],
+    "correct_answer": "B",
+    "explanation": "When numbers, letters or words are represented by a special group of symbols, this process is called encoding. Encoding in the sense of fetching the codes or words in a computer. It is done to secure the transmission of information."
+  },
+  {
+    "question": "A three digit decimal number requires ________ for representation in the conventional BCD format.",
+    "options": [
+      "A) 3 bits",
+      "B) 6 bits",
+      "C) 12 bits",
+      "D) 24 bits"
+    ],
+    "correct_answer": "C",
+    "explanation": "The number of bits needed to represent a given decimal number is always greater than the number of bits required for a straight binary encoding of the same. Hence, a three digit decimal number requires 12 bits for representation in BCD format."
+  },
+  {
+    "question": "How many bits would be required to encode decimal numbers 0 to 9999 in straight binary codes?",
+    "options": [
+      "A) 12",
+      "B) 14",
+      "C) 16",
+      "D) 18"
+    ],
+    "correct_answer": "B",
+    "explanation": "Total number of decimals to be represented = 10000 = 104 = 2n (where n is the number of bits required) = 213.29. Therefore, the number of bits required for straight binary encoding = 14."
+  },
+  {
+    "question": "The excess-3 code for 597 is given by __________",
+    "options": [
+      "A) 100011001010",
+      "B) 100010100111",
+      "C) 010110010111",
+      "D) 010110101101"
+    ],
+    "correct_answer": "A",
+    "explanation": "The addition of ‘3’ to each digit yields the three new digits ‘8’, ’12’ and ’10’. Hence, the corresponding four-bit binary equivalents are 100011001010, in accordance to 8421 format."
+  },
+  {
+    "question": "The decimal equivalent of the excess-3 number 110010100011.01110101 is _____________",
+    "options": [
+      "A) 970.42",
+      "B) 1253.75",
+      "C) 861.75",
+      "D) 1132.87"
+    ],
+    "correct_answer": "A",
+    "explanation": "The conversion of binary numbers into digits ‘1100’, ‘1010’, ‘0011’, ‘0111’ and ‘0101’ gives ’12’, ‘5’, ‘3’, ‘7’ and ‘5’ respectively. Hence, the decimal number is 970.42."
+  },
+  {
+    "question": "A Karnaugh map (K-map) is an abstract form of ____________ diagram organized as a matrix of squares.",
+    "options": [
+      "A) Venn Diagram",
+      "B) Cycle Diagram",
+      "C) Block diagram",
+      "D) Triangular Diagram"
+    ],
+    "correct_answer": "A",
+    "explanation": "A Karnaugh map (K-map) is an abstract form of Venn diagram organized as a matrix of squares, where each square represents a Maxterm or a Minterm."
+  },
+  {
+    "question": "There are ______ cells in a 4-variable K-map.",
+    "options": [
+      "A) 12",
+      "B) 16",
+      "C) 18",
+      "D) 8"
+    ],
+    "correct_answer": "B",
+    "explanation": "There are 16 = (24) cells in a 4-variable K-map."
+  },
+  {
+    "question": "The K-map based Boolean reduction is based on the following Unifying Theorem: A + A’ = 1.",
+    "options": [
+      "A) Impact",
+      "B) Non Impact",
+      "C) Force",
+      "D) Complementarity"
+    ],
+    "correct_answer": "B",
+    "explanation": "The given expression A +A’ = 1 is based on non-impact unifying theorem."
+  },
+  {
+    "question": "Each product term of a group, w’.x.y’ and w.y, represents the ____________ in that group.",
+    "options": [
+      "A) Input",
+      "B) POS",
+      "C) Sum-of-Minterms",
+      "D) Sum of Maxterms"
+    ],
+    "correct_answer": "C",
+    "explanation": "In a minterm, each variable w, x or y appears once either as the variable itself or as the inverse. So, the given expression satisfies the property of Sum of Minterm."
+  },
+  {
+    "question": "The prime implicant which has at least one element that is not present in any other implicant is known as ___________",
+    "options": [
+      "A) Essential Prime Implicant",
+      "B) Implicant",
+      "C) Complement",
+      "D) Prime Complement"
+    ],
+    "correct_answer": "A",
+    "explanation": "Essential prime implicants are prime implicants that cover an output of the function that no combination of other prime implicants is able to cover."
+  },
+  {
+    "question": "Product-of-Sums expressions can be implemented using ___________",
+    "options": [
+      "A) 2-level OR-AND logic circuits",
+      "B) 2-level NOR logic circuits",
+      "C) 2-level XOR logic circuits",
+      "D) Both 2-level OR-AND and NOR logic circuits"
+    ],
+    "correct_answer": "D",
+    "explanation": "Product-of-Sums expressions can be implemented using 2-level OR-AND & NOR logic circuits."
+  },
+  {
+    "question": "Each group of adjacent Minterms (group size in powers of twos) corresponds to a possible product term of the given ___________",
+    "options": [
+      "A) Function",
+      "B) Value",
+      "C) Set",
+      "D) Word"
+    ],
+    "correct_answer": "A",
+    "explanation": "Each group of adjacent Minterms (group size in powers of twos) corresponds to a possible product term of the given function."
+  },
+  {
+    "question": "Don’t care conditions can be used for simplifying Boolean expressions in ___________",
+    "options": [
+      "A) Registers",
+      "B) Terms",
+      "C) K-maps",
+      "D) Latches"
+    ],
+    "correct_answer": "C",
+    "explanation": "Don’t care conditions can be used for simplifying Boolean expressions in K-maps which helps in pairing with 1/0."
+  },
+  {
+    "question": "It should be kept in mind that don’t care terms should be used along with the terms that are present in ___________",
+    "options": [
+      "A) Minterms",
+      "B) Expressions",
+      "C) K-Map",
+      "D) Latches"
+    ],
+    "correct_answer": "A",
+    "explanation": "It should be kept in mind that don’t care terms should be used along with the terms that are present in minterms as well as maxterms which reduces the complexity of the boolean expression."
+  },
+  {
+    "question": "Using the transformation method you can realize any POS realization of OR-AND with only.",
+    "options": [
+      "A) XOR",
+      "B) NAND",
+      "C) AND",
+      "D) NOR"
+    ],
+    "correct_answer": "D",
+    "explanation": "Using the transformation method we can realize any POS realization of OR-AND with only NOR."
+  },
+  {
+    "question": "There are many situations in logic design in which simplification of logic expression is possible in terms of XOR and _________________ operations.",
+    "options": [
+      "A) X-NOR",
+      "B) XOR",
+      "C) NOR",
+      "D) NAND"
+    ],
+    "correct_answer": "A",
+    "explanation": "There are many situations in logic design in which simplification of logic expression is possible in terms of XOR and XNOR operations.\nExpression of XOR : AB’ + A’B\nExpression of XNOR : AB + A’B’"
+  },
+  {
+    "question": "These logic gates are widely used in _______________ design and therefore are available in IC form.",
+    "options": [
+      "A) Sampling",
+      "B) Digital",
+      "C) Analog",
+      "D) Systems"
+    ],
+    "correct_answer": "B",
+    "explanation": "These logic gates(XOR, XNOR, NOR) are widely used in digital design and therefore are available in IC form as digital circuits deal with data transmission in the form of binary digits."
+  },
+  {
+    "question": "In case of XOR/XNOR simplification we have to look for the following _______________",
+    "options": [
+      "A) Diagonal Adjacencies",
+      "B) Offset Adjacencies",
+      "C) Straight Adjacencies",
+      "D) Both diagonal and offset adjencies"
+    ],
+    "correct_answer": "D",
+    "explanation": "In case of XOR/XNOR simplification we have to look for the following diagonal and offset adjacencies. XOR gives output 1 when odd number of 1s are present in input while XNOR gives output 1 when even number of 1s or all 0s are present in input."
+  },
+  {
+    "question": "Entries known as _______________ mapping.",
+    "options": [
+      "A) Diagonal",
+      "B) Straight",
+      "C) K",
+      "D) Boolean"
+    ],
+    "correct_answer": "A",
+    "explanation": "Entries known as diagonal mapping. The diagonal mapping holds true when for any relation, there is a projection of product on the factor."
+  },
+  {
+    "question": "All input of NOR as low produces result as __________",
+    "options": [
+      "A) Low",
+      "B) Mid",
+      "C) High",
+      "D) Floating"
+    ],
+    "correct_answer": "C",
+    "explanation": "All input of NOR as low produces the result as high, whereas, rest all conditions produce output as low."
+  },
+  {
+    "question": "In RTL NOR gate, the output is at logic 1 only when all the inputs are at __________",
+    "options": [
+      "A) logic 0",
+      "B) logic 1",
+      "C) +10V",
+      "D) Floating"
+    ],
+    "correct_answer": "A",
+    "explanation": "RTL NOR gate behaves as NOR gate and the output of NOR gate will be 1 only when all the inputs are at logic 0 and in rest conditions of the input, the output is 0."
+  },
+  {
+    "question": "Resistor–transistor logic (RTL) is a class of digital circuits built using _______ as the input network and _______ as switching devices.",
+    "options": [
+      "A) Resistors, bipolar junction transistors (BJTs)",
+      "B) Bipolar junction transistors (BJTs), Resistors",
+      "C) Capacitors, resistors",
+      "D) Resistors, capacitors"
+    ],
+    "correct_answer": "A",
+    "explanation": "Resistor–transistor logic (RTL) is a class of digital circuits built using resistors as the input network and bipolar junction transistors (BJTs) as switching devices."
+  },
+  {
+    "question": "RTL consists of a common emitter stage with a _______ connected between the base and the input voltage source.",
+    "options": [
+      "A) collector",
+      "B) base resistor",
+      "C) capacitor",
+      "D) inductor"
+    ],
+    "correct_answer": "B",
+    "explanation": "RTL consist of a common emitter stage with a base resistor connected between the base and the input voltage source. The role of base resistor is to expand the negligible transistor input voltage range (about 0.7 V) to the logical “1” level (about 3.5 V) by converting the input voltage into a current. Thus, base resistor plays a major role in biasing of the transistor."
+  },
+  {
+    "question": "The role of the _______ is to convert the collector current into a voltage in RTL.",
+    "options": [
+      "A) Collector resistor",
+      "B) Base resistor",
+      "C) Capacitor",
+      "D) Inductor"
+    ],
+    "correct_answer": "A",
+    "explanation": "The role of the collector resistor is to convert the collector current into a voltage; its resistance is chosen high enough to saturate the transistor and low enough to obtain low output resistance. Base Resistor is to provide the necessary biasing to the base of the transistor in order to activate it."
+  },
+  {
+    "question": "The limitations of the one transistor RTL NOR gate are overcome by __________",
+    "options": [
+      "A) Two-transistor RTL implementation",
+      "B) Three-transistor RTL implementation",
+      "C) Multi-transistor RTL implementation",
+      "D) Four-transistor RTL implementation"
+    ],
+    "correct_answer": "C",
+    "explanation": "The limitations of the one transistor RTL NOR gate are overcome by the use of multi transistor RTL. It consists of a set of parallel connected transistor switches driven by the logic inputs."
+  },
+  {
+    "question": "The primary advantage of RTL technology was that __________",
+    "options": [
+      "A) It results as low power dissipation",
+      "B) It uses a minimum number of resistors",
+      "C) It uses a minimum number of transistors",
+      "D) It operates swiftly"
+    ],
+    "correct_answer": "C",
+    "explanation": "The primary advantage of RTL technology was that it uses a minimum number of transistors. It consists of registers in large amount and it results in as high power dissipation. The resistors act as the input network and the transistors performs the switching operation."
+  },
+  {
+    "question": "The disadvantage of RTL is that __________",
+    "options": [
+      "A) It uses a maximum number of resistors",
+      "B) It results in high power dissipation",
+      "C) High noise creation",
+      "D) It uses a minimum number of transistors"
+    ],
+    "correct_answer": "B",
+    "explanation": "The disadvantage of RTL is its high power dissipation when the transistor is switched on by current flowing in the collector and base resistor. This requires that more current be supplied to and heat be removed from RTL circuits. In contrast, TTL circuits with “totem-pole” output stage minimize both of these requirements."
+  },
+  {
+    "question": "TTL circuits with “totem-pole” output stage minimize __________",
+    "options": [
+      "A) The power dissipation in RTL",
+      "B) The time consumption in RTL",
+      "C) The speed of transferring rate in RTL",
+      "D) Propagation delay in RTL"
+    ],
+    "correct_answer": "A",
+    "explanation": "TTL circuits with “totem-pole” output stage minimize the power dissipation and heating effect in RTL."
+  },
+  {
+    "question": "The minimum number of transistors can be used by 2 input AND gate is __________",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "correct_answer": "A",
+    "explanation": "The minimum number of transistors can be used by 2 input AND gate is 2 and maximum up to 3."
+  },
+  {
+    "question": "In parts of the processor, adders are used to calculate ____________",
+    "options": [
+      "A) Addresses",
+      "B) Table indices",
+      "C) Increment and decrement operators",
+      "D) All of the Mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "Adders are used to perform the operation of addition. Thus, in parts of the processor, adders are used to calculate addresses, table indices, increment and decrement operators, and similar operations."
+  },
+  {
+    "question": "Total number of inputs in a half adder is __________",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 1"
+    ],
+    "correct_answer": "A",
+    "explanation": "Total number of inputs in a half adder is two. Since an EXOR gates has 2 inputs and carry is connected with the input of EXOR gates. The output of half-adder is also 2, them being, SUM and CARRY. The output of EXOR gives SUM and that of AND gives carry."
+  },
+  {
+    "question": "In which operation carry is obtained?",
+    "options": [
+      "A) Subtraction",
+      "B) Addition",
+      "C) Multiplication",
+      "D) Both addition and subtraction"
+    ],
+    "correct_answer": "B",
+    "explanation": "In addition, carry is obtained. For example: 1 0 1 + 1 1 1 = 1 0 0; in this example carry is obtained after 1st addition (i.e. 1 + 1 = 1 0). In subtraction, borrow is obtained. Like, 0 – 1 = 1 (borrow 1)."
+  },
+  {
+    "question": "If A and B are the inputs of a half adder, the sum is given by __________",
+    "options": [
+      "A) A AND B",
+      "B) A OR B",
+      "C) A XOR B",
+      "D) A EX-NOR B"
+    ],
+    "correct_answer": "C",
+    "explanation": "If A and B are the inputs of a half adder, the sum is given by A XOR B, while the carry is given by A AND B."
+  },
+  {
+    "question": "If A and B are the inputs of a half adder, the carry is given by __________",
+    "options": [
+      "A) A AND B",
+      "B) A OR B",
+      "C) A XOR B",
+      "D) A EX-NOR B"
+    ],
+    "correct_answer": "A",
+    "explanation": "If A and B are the inputs of a half adder, the carry is given by: A(AND)B, while the sum is given by A XOR B."
+  },
+  {
+    "question": "Half-adders have a major limitation in that they cannot __________",
+    "options": [
+      "A) Accept a carry bit from a present stage",
+      "B) Accept a carry bit from a next stage",
+      "C) Accept a carry bit from a previous stage",
+      "D) Accept a carry bit from the following stages"
+    ],
+    "correct_answer": "C",
+    "explanation": "Half-adders have a major limitation in that they cannot accept a carry bit from a previous stage, meaning that they cannot be chained together to add multi-bit numbers. However, the two output bits of a half-adder can also represent the result A+B=3 as sum and carry both being high."
+  }
+]

@@ -1,0 +1,548 @@
+[
+  {
+    "question": "Which of the following is used in EBCDIC?",
+    "options": [
+      "A) Super Computers",
+      "B) Mainframes",
+      "C) Machine Codes",
+      "D) Programming"
+    ],
+    "correct_answer": "B",
+    "explanation": "This concept of EBCDIC was invented by IBM. It is mainly used in the IBM mainframe environment. So basically, mainframes use EBCDIC codes."
+  },
+  {
+    "question": "Which of the following are physical devices of a computer?",
+    "options": [
+      "A) Hardware",
+      "B) Software",
+      "C) System Software",
+      "D) Package"
+    ],
+    "correct_answer": "A",
+    "explanation": "Hardware refers to the physical devices of a computer system. Software refers to a collection of programs. A program is a sequence of instructions."
+  },
+  {
+    "question": "Which of the following defines the assigned ordering among the characters used by the computer?",
+    "options": [
+      "A) Accumulation",
+      "B) Sorting",
+      "C) Collating Sequence",
+      "D) Unicode"
+    ],
+    "correct_answer": "C",
+    "explanation": "Collating sequence is the term used for ordering among characters. It may vary depending upon the type of code used by a computer."
+  },
+  {
+    "question": "Which of the following storage is a system where a robotic arm will connect or disconnect off-line mass storage media according to the computer operating system demands?",
+    "options": [
+      "A) Magnetic",
+      "B) Secondary",
+      "C) Virtual",
+      "D) Tertiary"
+    ],
+    "correct_answer": "D",
+    "explanation": "Tertiary storage is the correct option. It is used in the realms of enterprise storage and scientific computing on large computer systems and business computer networks and is something a typical personal computer never sees firsthand."
+  },
+  {
+    "question": "Which of the following is known as the interval between the instant a computer makes a request for the transfer of data from a disk system to the primary storage and the instance the operation is completed?",
+    "options": [
+      "A) Disk utilization time",
+      "B) Drive utilization time",
+      "C) Disk access time",
+      "D) Disk arrival time"
+    ],
+    "correct_answer": "D",
+    "explanation": "The interval is referred to as the disk arrival time. It depends on several parameters. Generally, a computer makes a request and the operation is served."
+  },
+  {
+    "question": "Which of the following devices provides the communication between a computer and the outer world?",
+    "options": [
+      "A) Compact",
+      "B) I/O",
+      "C) Drivers",
+      "D) Storage"
+    ],
+    "correct_answer": "B",
+    "explanation": "The I/O i.e. the input/output devices provide a means of communication between the computer and the outer world. They are often referred to as peripheral devices sometimes."
+  },
+  {
+    "question": "Which of the following are the input devices that enable direct data entry into a computer system from source documents?",
+    "options": [
+      "A) System Access devices",
+      "B) Data acquiring devices",
+      "C) Data retrieving devices",
+      "D) Data Scanning devices"
+    ],
+    "correct_answer": "D",
+    "explanation": "They are referred to as data scanning devices. They eliminate the need to key in text data into the computer. It demands the high quality of input documents."
+  },
+  {
+    "question": "Which of the following is the device used for converting maps, pictures, and drawings into digital form for storage in computers?",
+    "options": [
+      "A) Image Scanner",
+      "B) Digitizer",
+      "C) MICR",
+      "D) Scanner"
+    ],
+    "correct_answer": "B",
+    "explanation": "A digitizer serves the purpose given in the question. Digitizers are generally used in the area of Computer-Aided Design by architects and engineers to design cars, buildings, etc."
+  },
+  {
+    "question": "Which of the following can access the server?",
+    "options": [
+      "A) Web Client",
+      "B) User",
+      "C) Web Browser",
+      "D) Web Server"
+    ],
+    "correct_answer": "A",
+    "explanation": "Any computer that has access to the webserver is called the web client. A web server is any computer that uses the HTTP protocol."
+  },
+  {
+    "question": "Which of the following is known as the language made up of binary-coded instructions?",
+    "options": [
+      "A) High level",
+      "B) BASIC",
+      "C) C",
+      "D) Machine"
+    ],
+    "correct_answer": "D",
+    "explanation": "The language made up of binary-coded instructions built into the hardware of a particular computer and used directly by the computer is machine language."
+  },
+  {
+    "question": "Which of the following package allows individuals to use personal computers for storing and retrieving their personal information?",
+    "options": [
+      "A) Personal assistance package",
+      "B) Graphics package",
+      "C) Spreadsheet package",
+      "D) Animation package"
+    ],
+    "correct_answer": "A",
+    "explanation": "It is a personal assistance package that allows for the same. It helps in planning and managing their schedules, contacts, finances, and inventory of important terms."
+  },
+  {
+    "question": "Which of the following is created when a user opens an account in the computer system?",
+    "options": [
+      "A) SFD",
+      "B) MFD",
+      "C) Subdirectory",
+      "D) RFD"
+    ],
+    "correct_answer": "C",
+    "explanation": "A subdirectory is created when a user opens an account in the computer system. It is treated as a file, though flagged in MFD as a subdirectory."
+  },
+  {
+    "question": "Which of the following is a technique that marked the beginning of computer communications?",
+    "options": [
+      "A) User Environment",
+      "B) Batch Environment",
+      "C) Time Sharing",
+      "D) Message passing"
+    ],
+    "correct_answer": "C",
+    "explanation": "The answer is time-sharing. In time-sharing, Users were able to interact with the computer and could share its information processing resources."
+  },
+  {
+    "question": "Which of the following is a type of technique in which dumb terminals are connected to a central computer system?",
+    "options": [
+      "A) Time Sharing",
+      "B) Message passing",
+      "C) Batch environment",
+      "D) User environment"
+    ],
+    "correct_answer": "A",
+    "explanation": "This happens in time-sharing. In this, users were able to interact with the computer and could share its information processing resources."
+  },
+  {
+    "question": "Which of the following service allows a user to log in to another computer somewhere on the Internet?",
+    "options": [
+      "A) e-mail",
+      "B) UseNet",
+      "C) Telnet",
+      "D) FTP"
+    ],
+    "correct_answer": "C",
+    "explanation": "Telnet is the answer. It is a service that enables the user to log into another computer somewhere on the Internet."
+  },
+  {
+    "question": "Which of the following is not a type of computer on the basis of operation?",
+    "options": [
+      "A) Digital",
+      "B) Analog",
+      "C) Hybrid",
+      "D) Remote"
+    ],
+    "correct_answer": "D",
+    "explanation": "There are three types of computers basically on the basis of operation:\n Analog, Digital, and Hybrid."
+  },
+  {
+    "question": "Which of the following type of computer is mostly used for automatic operations?",
+    "options": [
+      "A) analog",
+      "B) digital",
+      "C) hybrid",
+      "D) remote"
+    ],
+    "correct_answer": "C",
+    "explanation": "Hybrid computer is mostly used with automatic operations of complicated physical processes and machines."
+  },
+  {
+    "question": "Which of the following invention gave birth to the much cheaper microcomputers?",
+    "options": [
+      "A) PDAs",
+      "B) Microprocessors",
+      "C) Microcomputers",
+      "D) Mainframes"
+    ],
+    "correct_answer": "B",
+    "explanation": "The invention of the microprocessor (also called a single-chip CPU) gave birth to much cheaper microcomputers."
+  },
+  {
+    "question": "Which of the following computers are lower than mainframe computers in terms of speed and storage capacity?",
+    "options": [
+      "A) Mainframes",
+      "B) Hybrid",
+      "C) Mini",
+      "D) Super"
+    ],
+    "correct_answer": "C",
+    "explanation": "The answer is a. Mini computers are compared to mainframe computers in terms of:\n1. speed and, 2.  storage capacity."
+  },
+  {
+    "question": "Which of the following is the first neural network computer?",
+    "options": [
+      "A) AN",
+      "B) AM",
+      "C) RFD",
+      "D) SNARC"
+    ],
+    "correct_answer": "D",
+    "explanation": "SNARC was the first neural network computer. it was built by Minsky and Edmonds in 1956."
+  },
+  {
+    "question": "Which unit is responsible for converting the data received from the user into a computer understandable format?",
+    "options": [
+      "A) Memory Unit",
+      "B) Arithmetic & Logic Unit",
+      "C) Input Unit",
+      "D) Output Unit"
+    ],
+    "correct_answer": "C",
+    "explanation": "The Input Unit converts the data, which the user enters into a language which the computer understands, i.e. it converts the data into binary format. The Output Unit is responsible for giving the results in user-understandable format. The Storage Unit is responsible for storing the data after immediate results of processing whereas; the ALU is responsible for various arithmetic and bitwise operations."
+  },
+  {
+    "question": "The only language which the computer understands is ______________",
+    "options": [
+      "A) Assembly Language",
+      "B) Binary Language",
+      "C) BASIC",
+      "D) C Language"
+    ],
+    "correct_answer": "B",
+    "explanation": "The Computer understands only binary language which is written in the form of 0s & 1s. A computer can understand assembly language but an assembler is required which converts the assembly language to binary language. Similarly, for understanding high level languages, compilers/interpreters are required."
+  },
+  {
+    "question": "The smallest unit of data in computer is ________________",
+    "options": [
+      "A) Byte",
+      "B) Nibble",
+      "C) Bit",
+      "D) KB"
+    ],
+    "correct_answer": "C",
+    "explanation": "A bit is defined as the smallest unit of data in a computer system. It is used as a short form of Binary Digit.  A bit can have only two values 0 or 1. A nibble comprises of 4 bits, a byte is a collection of 8 bits whereas KB (Kilobyte) is equal to 1024 bytes."
+  },
+  {
+    "question": "One nibble is equivalent to how many bits?",
+    "options": [
+      "A) 2",
+      "B) 4",
+      "C) 8",
+      "D) 1"
+    ],
+    "correct_answer": "B",
+    "explanation": "A nibble is defined as a unit of data which comprises of 4 binary digits or half of 8-bit byte.                     Therefore, 1 nibble = 4 bits. A bit is the smallest unit of data in a computer system. A byte = 8 bits, therefore, half of a byte=4 bits=a nibble."
+  },
+  {
+    "question": "Which of the following describes the correct format of an input instruction?",
+    "options": [
+      "A) IN 82",
+      "B) INPUT 82",
+      "C) INP 82",
+      "D) 82 INP"
+    ],
+    "correct_answer": "A",
+    "explanation": "The input/output instructions are used to transfer information between external peripherals and the CPU. The correct format of an input instruction is: IN 8-bit port address.\nHere, IN 82 is the correct option, where 82 is the designated port address.  All the other options are invalid."
+  },
+  {
+    "question": "The input machine which originated in the United States around 1880s is a ___________",
+    "options": [
+      "A) Mouse",
+      "B) Joystick",
+      "C) Keyboard",
+      "D) Bar Code Reader"
+    ],
+    "correct_answer": "C",
+    "explanation": "A keyboard is an input device which originated in the 1880s and is used to give instructions to the computer in the form of letters and numbers.  Mouse is used for the selection of various objects on the screen, joystick is mainly used for gaming purpose and bar code readers are used for reading the bar-codes."
+  },
+  {
+    "question": "What does the COMPUTER stand for?",
+    "options": [
+      "A) Commonly Operated Machines Used in Technical and Educational Research",
+      "B) Commonly Occupied Machines Used in Technical and Educational Research",
+      "C) Commonly Operated Machines Used in Technical and Environmental Research",
+      "D) Commonly Oriented Machines Used in Technical and Educational Research"
+    ],
+    "correct_answer": "A",
+    "explanation": "The word COMPUTER is an abbreviation for the terms “Commonly Operated Machines Used in Technical and Educational Research”. The word COMPUTER also relates to the word COMPUTE which means to calculate. So, initially it was thought that a computer is a device which is used to perform calculations."
+  },
+  {
+    "question": "1 yottabyte = ______________",
+    "options": [
+      "A) 1024 TB",
+      "B) 1024 EB",
+      "C) 1024 ZB",
+      "D) 1024 PB"
+    ],
+    "correct_answer": "C",
+    "explanation": "1 yottabyte is equal to 1024 ZB, which stands for zettabyte. Further, 1 ZB=1024 EB (exabyte) and and 1 EB=1024PB (petabyte)."
+  },
+  {
+    "question": "Which of the following is not a function of the Input Unit?",
+    "options": [
+      "A) It reads instructions and data from the outside world",
+      "B) It converts the data into computer acceptable format",
+      "C) It makes the data into user understandable format",
+      "D) It supplies the data and instructions to the computer for further processing"
+    ],
+    "correct_answer": "C",
+    "explanation": "The input unit converts the data into computer understandable format i.e. binary format and not the user understandable format.  It is the duty of the output unit to make the data into user understandable format."
+  },
+  {
+    "question": "Label the parts 1 and 2:",
+    "options": [
+      "A) 1.ALU 2. MU",
+      "B) 1.Output unit 2.Input Unit",
+      "C) 1.MU 2. ALU",
+      "D) 1.Input Unit 2.Output Unit"
+    ],
+    "correct_answer": "D",
+    "explanation": "The above diagram is a simple explanation which describes how the instruction is given to the CPU, how it is processed, and then how the result is obtained.\nSo here, the input unit is used to give instructions to the central processing unit and the output unit is responsible for giving the result to the user."
+  },
+  {
+    "question": "The process of producing useful information for the user is called ___________",
+    "options": [
+      "A) Controlling",
+      "B) Outputting",
+      "C) Inputting",
+      "D) Processing"
+    ],
+    "correct_answer": "B",
+    "explanation": "The Output Unit is responsible for giving the results to the user in the form of a printed report or visual display. The process is referred to as outputting. Controlling is nothing but the manner and sequence in which the instructions are being operated. Inputting means giving instructions to the system whereas, processing means performing certain operations and calculations."
+  },
+  {
+    "question": "The output unit converts the data entered by the user into computer understandable form.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "The Output unit is responsible for converting the computer obtained data into user understandable format. The Input Unit is responsible for converting the data in computer understandable format."
+  },
+  {
+    "question": "VDU stands for  __________",
+    "options": [
+      "A) Virtual Display Unit",
+      "B) Visual Display Unit",
+      "C) Virtual Detection Unit",
+      "D) Visual Detection Unit"
+    ],
+    "correct_answer": "B",
+    "explanation": "A Visual Display unit is also referred to as the monitor who basically is used to give the results or outputs to the user.  It comprises of a cathode ray tube internally."
+  },
+  {
+    "question": "What does SVGA stand for?",
+    "options": [
+      "A) Standard Visual Graphics Array",
+      "B) Super Visual Graphics Array",
+      "C) Standard Video Graphics Array",
+      "D) Super Video Graphics Array"
+    ],
+    "correct_answer": "D",
+    "explanation": "Super Video Graphics Array is a type of Visual Display Unit.It supports 1024 by 768 pixels with 16 million different operations."
+  },
+  {
+    "question": "The devices that used to give single or multiple colored images and drawings are ____________",
+    "options": [
+      "A) Monitors",
+      "B) Printers",
+      "C) Plotters",
+      "D) VDUs"
+    ],
+    "correct_answer": "C",
+    "explanation": "Plotters are the devices which are used to give colored images.  They use ink pens or ink jets for drawing. Pens of different colors and shades are used for shading and styling."
+  },
+  {
+    "question": "A special request originated from some device to the CPU to acquire some of its time is called ___________",
+    "options": [
+      "A) Disturbance",
+      "B) Attenuation",
+      "C) Interrupt",
+      "D) Noise"
+    ],
+    "correct_answer": "C",
+    "explanation": "An interrupt is a kind of request which takes control of the system bus for some time, then performs all the operations and gives back control to the CPU.  It is usually identified by some number and is handled by the interrupt controller."
+  },
+  {
+    "question": "Line Printers that print one line at a time are _________",
+    "options": [
+      "A) Laser Printers",
+      "B) Inkjet Printers",
+      "C) Drum Printers and Chain Printers",
+      "D) Chain Printers and Inkjet Printers"
+    ],
+    "correct_answer": "C",
+    "explanation": "Both the Drum and Chain printers are actually Line Printers. The drum printers have a solid cylindrical drum with characters embossed on its surface in the form of circular bands. It can only print a predefined set of characters. Chain printers has character slugs arranged in a specific order and it uses a continuous loop of chain for printing these characters."
+  },
+  {
+    "question": "A ___________________ monitor looks like a television and are normally used with non-portable computer systems.",
+    "options": [
+      "A) CRT",
+      "B) LCD",
+      "C) LED",
+      "D) Flat Panel Monitors"
+    ],
+    "correct_answer": "A",
+    "explanation": "A CRT (or the Cathode Ray Tube) Monitor looks like a television ideally.  The flat panel monitors are thinner and lighter in comparison."
+  },
+  {
+    "question": "Which of the following is not a function of the Output Unit?",
+    "options": [
+      "A) It produces results that can be easily understood by the user",
+      "B) It accepts the results produced by the computer",
+      "C) It supplies the data and instructions to the outside world",
+      "D) It supplies the data and instructions to the computer for further processing"
+    ],
+    "correct_answer": "D",
+    "explanation": "The output unit is responsible for giving the results to the user in the form of a printed report or visual display.  It is not responsible for giving the instructions back to the CPU for processing."
+  },
+  {
+    "question": "PCI stands for _________",
+    "options": [
+      "A) Peripheral Component Interconnect",
+      "B) Partial Component Interconnect",
+      "C) Peripheral Component Interaction",
+      "D) Partial Component Interaction"
+    ],
+    "correct_answer": "A",
+    "explanation": "PCI is a high-bandwidth bus that can function as a peripheral bus. Compared with others, it delivers better system performance."
+  },
+  {
+    "question": "The software designed to perform a specific task:",
+    "options": [
+      "A) Synchronous Software",
+      "B) Package Software",
+      "C) Application Software",
+      "D) System Software"
+    ],
+    "correct_answer": "C",
+    "explanation": "Software refers to a collection of programs. Software designed to do a specific task are referred to as the application software. Eg: Inventory management, banking, etc."
+  },
+  {
+    "question": "Word processing software is a type of application software.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "The statement is true.  Since, application software are designed to do a specific job, word processing is a type of application software used for the designing of text documents."
+  },
+  {
+    "question": "Developing software __________ means a major commitment of time, money and resources.",
+    "options": [
+      "A) In-house",
+      "B) In-sync",
+      "C) On-date",
+      "D) On-duration"
+    ],
+    "correct_answer": "A",
+    "explanation": "Developing software in-house means the same. It is easier to carry out changes in the software if it is developed in-house"
+  },
+  {
+    "question": "Which of the following is not a way of acquiring software?",
+    "options": [
+      "A) Buying pre-written software",
+      "B) Ordering customized software",
+      "C) Downloading public-domain Software",
+      "D) Duplicating the software"
+    ],
+    "correct_answer": "D",
+    "explanation": "Duplication is not a correct way of acquiring the software. All the other options are valid. Apart from these, another option could be development of a customized software."
+  },
+  {
+    "question": "OSS stands for:",
+    "options": [
+      "A) Open System Service",
+      "B) Open Source Software",
+      "C) Open System Software",
+      "D) Open Synchronized Software"
+    ],
+    "correct_answer": "B",
+    "explanation": "OSS stands for open source software. OSS allows any user to download, view, modify and redistribute the software. Also, the user can fix bugs according to needs."
+  },
+  {
+    "question": "Public domain software is usually:",
+    "options": [
+      "A) System supported",
+      "B) Source supported",
+      "C) Community supported",
+      "D) Programmer supported"
+    ],
+    "correct_answer": "C",
+    "explanation": "The public domain software is generally community supported. It is community supported as author does not support users directly."
+  },
+  {
+    "question": "Set of programs which consist of full documentation.",
+    "options": [
+      "A) Software Package",
+      "B) System Software",
+      "C) Utility Software",
+      "D) File package"
+    ],
+    "correct_answer": "A",
+    "explanation": "It is called a software package. A software is nothing but a collection of programs. A software package can solve a specific problem or perform a specific type of job."
+  },
+  {
+    "question": "Interpreter is used as a translator for  __________",
+    "options": [
+      "A) Low level language",
+      "B) High Level Language",
+      "C) COBOL",
+      "D) C"
+    ],
+    "correct_answer": "B",
+    "explanation": "It is generally used to make the code into an machine understandable format. Interpreter is used with the high level languages similarly. Assembler is used in case of low level languages."
+  },
+  {
+    "question": "What do you call a specific instruction designed to do a task?",
+    "options": [
+      "A) Command",
+      "B) Process",
+      "C) Task",
+      "D) Instruction"
+    ],
+    "correct_answer": "A",
+    "explanation": "A program is a set of instructions. A command is given to do a specific job. A program in execution is called a process."
+  },
+  {
+    "question": "They normally interact with the system via user interface provided by the application software.",
+    "options": [
+      "A) Programmers",
+      "B) Developers",
+      "C) Users",
+      "D) Testers"
+    ],
+    "correct_answer": "C",
+    "explanation": "Users interact with the system via user interface that is given by the application software. An application software is a set of instructions designed to serve a particular purpose."
+  }
+]

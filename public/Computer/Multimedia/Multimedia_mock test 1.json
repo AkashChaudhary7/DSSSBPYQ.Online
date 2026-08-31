@@ -1,0 +1,343 @@
+[
+  {
+    "question": "The major difference between a  multimedia file and a regular file is ___________",
+    "options": [
+      "A) the size",
+      "B) the attributes",
+      "C) the ownership",
+      "D) the rate at which the file must be accessed"
+    ],
+    "correct_answer": "D",
+    "explanation": "Multimedia files must be accessed at a specific rate whereas accessing regular files requires no special timings."
+  },
+  {
+    "question": "Video is represented as a series of images formally known as ___________",
+    "options": [
+      "A) pics",
+      "B) shots",
+      "C) frames",
+      "D) snaps"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "The faster the frames are displayed, ___________",
+    "options": [
+      "A) the rougher the video appears",
+      "B) the smoother the video appears",
+      "C) it gets blurry",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "The characteristic of the eye to retain the image for a short time after it has been presented is known as ___________",
+    "options": [
+      "A) persistence of vision",
+      "B) learning power",
+      "C) memory mapped input",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "When will Local playback be used?",
+    "options": [
+      "A) the multimedia data are delivered from a local file system",
+      "B) a  computer next to you is playing something",
+      "C) a multimedia file is being played on a system in the local network",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "Multimedia files stored on a remote server are delivered to a client across the network using a technique known as ___________",
+    "options": [
+      "A) download",
+      "B) streaming",
+      "C) flowing",
+      "D) leaking"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "What are the two types of streaming techniques?",
+    "options": [
+      "A) progressive download & real time streaming",
+      "B) regular download & real time streaming",
+      "C) real time & virtual time streaming",
+      "D) virtual time streaming"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "A media file containing audio or video is downloaded and stored on the client’s local file system in ___________",
+    "options": [
+      "A) progressive download",
+      "B) regular download",
+      "C) real time streaming",
+      "D) virtual time streaming"
+    ],
+    "correct_answer": "A",
+    "explanation": "As the file is being downloaded, the client is able to play back the media file without having to wait for the file to be downloaded in its entirety."
+  },
+  {
+    "question": "Progressive download is most useful for ___________",
+    "options": [
+      "A) short video clips",
+      "B) long video clips",
+      "C) extremely long and high quality videos",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "The media file is streamed to the client but is only played and not stored by the client in ___________",
+    "options": [
+      "A) progressive download",
+      "B) regular download",
+      "C) real time streaming",
+      "D) virtual time streaming"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "Real time streaming is most useful for ___________",
+    "options": [
+      "A) short video clips",
+      "B) long video clips",
+      "C) extremely short and low quality videos",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "What is the full form of MPEG?",
+    "options": [
+      "A) Motion Pictures  Engineering Group",
+      "B) Motion Picture Engineers Group",
+      "C) Motion Picture Experts Group",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "What is MPEG compression?",
+    "options": [
+      "A) stores the compression values of each frame",
+      "B) stores the differences between successive frames",
+      "C) stores multiple frames’ values together",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "What are the levels in QoS?",
+    "options": [
+      "A) Best effort service",
+      "B) Soft QoS",
+      "C) Hard QoS",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "The level that treats different types of traffics in different ways, giving certain traffic streams higher priority than other streams and with best efforts, but no guarantees are made ___________",
+    "options": [
+      "A) Best effort service",
+      "B) Soft QoS",
+      "C) Worst effort service",
+      "D) Hard QoS"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "The quality of service requirements are guaranteed in ___________",
+    "options": [
+      "A) Best effort service",
+      "B) Soft QoS",
+      "C) Worst effort service",
+      "D) Hard QoS"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "What are the factors that define QoS?",
+    "options": [
+      "A) Throughput",
+      "B) Jitter",
+      "C) Delay",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "Delay and Jitter ___________",
+    "options": [
+      "A) mean the same thing",
+      "B) are two completely different things",
+      "C) all of the mentioned",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "What is the Delay?",
+    "options": [
+      "A) the time from when a request is first submitted to when the desired result is produced",
+      "B) the delay that occurs during playback of the stream",
+      "C) how the errors are handled during the transmission and processing of continuous media",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "What is Admission control?",
+    "options": [
+      "A) the delay that occurs during playback of the stream",
+      "B) the practice of admitting a request for service only if the server has sufficient resources to satisfy the request",
+      "C) how the errors are handled during the transmission and processing of continuous media",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "An admission control scheme assigns a __________ to each type of resource.",
+    "options": [
+      "A) processor",
+      "B) memory location",
+      "C) resource manager",
+      "D) all of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "The ability to move around within a media stream is known as ___________",
+    "options": [
+      "A) buffering",
+      "B) random access",
+      "C) access",
+      "D) sequential access"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "What are the two types of real time streaming?",
+    "options": [
+      "A) live & on demand streaming",
+      "B) dead & static streaming",
+      "C) static & on demand streaming",
+      "D) on demand streaming"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "Random access is not allowed in ___________",
+    "options": [
+      "A) live streaming",
+      "B) dead streaming",
+      "C) static streaming",
+      "D) on demand streaming"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "The streaming that takes place as the event is occurring is ___________",
+    "options": [
+      "A) live streaming",
+      "B) dead streaming",
+      "C) static streaming",
+      "D) on demand streaming"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "For a  computer to deliver continuous media it must guarantee the specific rate and timing requirements, also known as ___________",
+    "options": [
+      "A) deadline",
+      "B) quality of service",
+      "C) period",
+      "D) burst time"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "For QOS to be implemented properly ___________",
+    "options": [
+      "A) file systems must be efficient to meet the rate requirements of continuous media",
+      "B) network protocols must support bandwidth requirements while minimizing delay and jitter",
+      "C) all of the mentioned",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "What will happen once a file is compressed?",
+    "options": [
+      "A) it has a better quality",
+      "B) it takes up less space for storage",
+      "C) it cannot be delivered to the client more quickly",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "Compression ratio is the ratio of ___________",
+    "options": [
+      "A) the original file size to the size of the compressed file",
+      "B) the number of pixels in a frame of the original size to those in a frame of the compressed file",
+      "C) compressed file size to the original file size",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "Lossy and lossless are classifications of ___________",
+    "options": [
+      "A) multimedia storage systems",
+      "B) files",
+      "C) compression algorithms",
+      "D) all of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "Lossy techniques provide ___________ when compared to lossless techniques.",
+    "options": [
+      "A) lower compression ratios",
+      "B) much higher compression ratios",
+      "C) similar compression ratios",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  }
+]

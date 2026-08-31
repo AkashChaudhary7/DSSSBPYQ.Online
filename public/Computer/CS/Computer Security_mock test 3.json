@@ -1,0 +1,101 @@
+[
+  {
+    "question": "The certificate message is required for any agreed-on key exchange method except _______________",
+    "options": [
+      "A) Ephemeral Diffie-Hellman",
+      "B) Anonymous Diffie-Hellman",
+      "C) Fixed Diffie-Hellman",
+      "D) RSA"
+    ],
+    "correct_answer": "B",
+    "explanation": "The certificate message is required for any agreed-on key exchange method except Anonymous Diffie-Hellman."
+  },
+  {
+    "question": "In the Phase 2 of the Handshake Protocol Action, the step server_key_exchange is not needed for which of the following cipher systems?",
+    "options": [
+      "A) Fortezza",
+      "B) Anonymous Diffie-Hellman",
+      "C) Fixed Diffie-Hellman",
+      "D) RSA"
+    ],
+    "correct_answer": "C",
+    "explanation": "The Fixed Diffie-Helmann  does not require the server_key_exchange step in the handshake protocol."
+  },
+  {
+    "question": "The DSS signature uses which hash algorithm?",
+    "options": [
+      "A) MD5",
+      "B) SHA-2",
+      "C) SHA-1",
+      "D) Does not use hash algorithm"
+    ],
+    "correct_answer": "C",
+    "explanation": "The DSS signature uses SHA-1."
+  },
+  {
+    "question": "The RSA signature uses which hash algorithm?",
+    "options": [
+      "A) MD5",
+      "B) SHA-1",
+      "C) MD5 and SHA-1",
+      "D) None of the mentioned."
+    ],
+    "correct_answer": "C",
+    "explanation": "The MD5 and SHA-1 hash is concatenated together and the then encrypted with the server’s private key."
+  },
+  {
+    "question": "What is the size of the RSA signature hash after the MD5 and SHA-1 processing?",
+    "options": [
+      "A) 42 bytes",
+      "B) 32 bytes",
+      "C) 36 bytes",
+      "D) 48 bytes"
+    ],
+    "correct_answer": "C",
+    "explanation": "The size is 36 bytes after MD5 and SHA-1 processing."
+  },
+  {
+    "question": "The certificate_request massage includes two parameters, one of which is-",
+    "options": [
+      "A) certificate_extension",
+      "B) certificate_creation",
+      "C) certificate_exchange",
+      "D) certificate_type"
+    ],
+    "correct_answer": "D",
+    "explanation": "The certificate_request massage includes two parameters : certificate_type and certificate_authorities."
+  },
+  {
+    "question": "The client_key_exchange message uses a pre master key of size –",
+    "options": [
+      "A) 48 bytes",
+      "B) 56 bytes",
+      "C) 64 bytes",
+      "D) 32 bytes"
+    ],
+    "correct_answer": "A",
+    "explanation": "The client_key_exchange message uses a pre master key of size 48 bytes."
+  },
+  {
+    "question": "The certificate_verify message involves the process defined by the pseudo-code (in terms of MD5) –",
+    "options": [
+      "A) Yes. pad_1 and pad_2 should be interchanged",
+      "B) Yes. pad’s should be present towards the end",
+      "C) Yes. master_key should not be used, the pre_master key should be used",
+      "D) No Error"
+    ],
+    "correct_answer": "D",
+    "explanation": "The code is correct with no errors."
+  },
+  {
+    "question": "In the handshake protocol which is the message type first sent between client and server ?",
+    "options": [
+      "A) server_hello",
+      "B) client_hello",
+      "C) hello_request",
+      "D) certificate_request"
+    ],
+    "correct_answer": "B",
+    "explanation": "Interaction between the client and server starts via the client_hello message."
+  }
+]

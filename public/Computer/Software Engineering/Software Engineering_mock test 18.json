@@ -1,0 +1,542 @@
+[
+  {
+    "question": "Transformation of a system from one representational form to another is known as",
+    "options": [
+      "A) Re-factoring",
+      "B) Restructuring",
+      "C) Forward engineering",
+      "D) Both Re-factoring and Restructuring"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "Which of the following is not an objective of reverse engineering?",
+    "options": [
+      "A) to reduce maintenance effort",
+      "B) to cope with complexity",
+      "C) to avoid side effects",
+      "D) to assist migration to a CASE environment"
+    ],
+    "correct_answer": "D",
+    "explanation": "Reverse engineering helps us to detect side effects rather than avoiding them."
+  },
+  {
+    "question": "Which one is not a software quality model?",
+    "options": [
+      "A) ISO 9000",
+      "B) McCall model",
+      "C) Boehm model",
+      "D) ISO 9126"
+    ],
+    "correct_answer": "A",
+    "explanation": "ISO 9000 is software certification."
+  },
+  {
+    "question": "How many levels are present in CMM?",
+    "options": [
+      "A) three",
+      "B) four",
+      "C) five",
+      "D) six"
+    ],
+    "correct_answer": "C",
+    "explanation": "The five levels are: initial, repeatable, defined, managed, optimizing."
+  },
+  {
+    "question": "Which level of CMM is for process management?",
+    "options": [
+      "A) Initial",
+      "B) Repeatable",
+      "C) Defined",
+      "D) Optimizing"
+    ],
+    "correct_answer": "D",
+    "explanation": "It is a characteristic of processes at this level that the focus is on continually improving process performance through both incremental and innovative technological changes/improvements."
+  },
+  {
+    "question": "In ISO 9126, time behavior and resource utilization are a part of",
+    "options": [
+      "A) maintainability",
+      "B) portability",
+      "C) efficiency",
+      "D) usability"
+    ],
+    "correct_answer": "C",
+    "explanation": "A set of attributes that bear on the relationship between the level of performance of the software and the amount of resources used, under stated conditions."
+  },
+  {
+    "question": "Which of the following is not a Probabilistic Model?",
+    "options": [
+      "A) Error seeding",
+      "B) NHPP",
+      "C) Input domain",
+      "D) Halstead’s software metric"
+    ],
+    "correct_answer": "D",
+    "explanation": "Halstead’s software metric is a deterministic model."
+  },
+  {
+    "question": "Software reliability is defined with respect to",
+    "options": [
+      "A) time",
+      "B) bugs",
+      "C) failures",
+      "D) quality"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "Failure In Time (FIT) is another way of reporting",
+    "options": [
+      "A) MTTR",
+      "B) MTTF",
+      "C) MTSF",
+      "D) MTBF"
+    ],
+    "correct_answer": "D",
+    "explanation": "FIT reports the number of expected failures per one billion hours of operation for a device. This term is used particularly by the semiconductor industry but is also used by component manufacturers ."
+  },
+  {
+    "question": "MTTF stands for",
+    "options": [
+      "A) Minimum time to failure",
+      "B) Mean time to failure",
+      "C) Maximum time to failure",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "Mean Time To Repair (MTTR) is the time needed to repair a failed hardware module.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "In an operational system, repair generally means replacing a failed hardware part. Thus, hardware MTTR could be viewed as mean time to replace a failed hardware module."
+  },
+  {
+    "question": "IMC Networks is a leading ________ certified manufacturer of optical networking and LAN/WAN connectivity solutions for enterprise, telecommunications and service provider applications.",
+    "options": [
+      "A) Telco Systems",
+      "B) D-Link",
+      "C) Arista Networks",
+      "D) ISO 9001"
+    ],
+    "correct_answer": "A",
+    "explanation": "Founded in 1988, with over one million products installed worldwide, IMC Networks offers a wide range of fiber media and mode converters for a variety of applications."
+  },
+  {
+    "question": "The architecture of object-oriented software results in a series of layered subsystems that encapsulate collaborating classes.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "It is necessary to test an OO system at a variety of different levels in an effort to uncover errors that may occur as classes collaborate with one another and subsystems communicate across architectural layers."
+  },
+  {
+    "question": "The construction of object-oriented software begins with the creation of",
+    "options": [
+      "A) design model",
+      "B) analysis model",
+      "C) code levels",
+      "D) both design and analysis model"
+    ],
+    "correct_answer": "D",
+    "explanation": "It is due to the evolutionary nature of the OO software engineering paradigm, these models begin as relatively informal representations of system requirements and evolve into detailed models of classes, class connections and relationships, system design and allocation, and object design."
+  },
+  {
+    "question": "Which testing integrates the set of classes required to respond to one input or event for the system?",
+    "options": [
+      "A) cluster testing",
+      "B) thread-based testing",
+      "C) use-based testing",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "Each thread is integrated and tested individually. Regression testing is applied to ensure that no side effects occur."
+  },
+  {
+    "question": "Which of the following is one of the steps in the integration testing of OO software?",
+    "options": [
+      "A) cluster testing",
+      "B) thread-based testing",
+      "C) use-based testing",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Here, a cluster of collaborating classes is exercised by designing test cases that attempt to uncover errors in the collaborations."
+  },
+  {
+    "question": "__________ methods can be used to drive validations tests",
+    "options": [
+      "A) Yellow-box testing",
+      "B) Black-box testing",
+      "C) White-box testing",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "Black-box testing methods are as appropriate for OO systems as they are for systems developed using conventional software engineering methods."
+  },
+  {
+    "question": "Which of the following is a part of testing OO code?",
+    "options": [
+      "A) Validation tests",
+      "B) Integration tests",
+      "C) Class tests",
+      "D) System tests"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "The object of ___________within an OO system is to design tests that have a high likelihood of uncovering plausible bugs.",
+    "options": [
+      "A) Fault-based testing",
+      "B) Integration testing",
+      "C) Use-based testing",
+      "D) Scenario-based testing"
+    ],
+    "correct_answer": "A",
+    "explanation": "The object of fault-based testing within an OO system is to design tests that have a high likelihood of uncovering plausible faults."
+  },
+  {
+    "question": "What refers to the externally observable structure of an OO program?",
+    "options": [
+      "A) Deep structure",
+      "B) Surface structure",
+      "C) Core structure",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "Surface structure refers to the externally observable structure of an OO program which is immediately obvious to an end-user."
+  },
+  {
+    "question": "_____________ categorizes class operations based on the generic function that each performs.",
+    "options": [
+      "A) Category-based partitioning",
+      "B) Attribute-based partitioning",
+      "C) State-based partitioning",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "For example, operations in the account class can be categorized in initialization operations (open, setup), computational operations (deposit,withdraw) etc."
+  },
+  {
+    "question": "Which of the following is black-box oriented and can be accomplished by applying the same black-box methods discussed for conventional software?",
+    "options": [
+      "A) Conventional testing",
+      "B) OO system validation testing",
+      "C) Test case design",
+      "D) Both Conventional testing and OO system validation testing"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "In which of the following testing strategies, a smallest testable unit is the encapsulated class or object?",
+    "options": [
+      "A) Unit testing",
+      "B) Integration testing",
+      "C) System testing",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "Which of the following testing types is not a part of system testing?",
+    "options": [
+      "A) Recovery testing",
+      "B) Stress testing",
+      "C) System testing",
+      "D) Random testing"
+    ],
+    "correct_answer": "D",
+    "explanation": "It is a testing method at class level."
+  },
+  {
+    "question": "Which of these are not among the eight principles followed by Software Engineering Code of Ethics and Professional Practice ?",
+    "options": [
+      "A) PUBLIC",
+      "B) PROFESSION",
+      "C) PRODUCT",
+      "D) ENVIRONMENT"
+    ],
+    "correct_answer": "D",
+    "explanation": "Rest all are clauses for software ethics, environment does not focus on specific clause nor its of importace related to question."
+  },
+  {
+    "question": "What is a Software ?",
+    "options": [
+      "A) Software is set of programs",
+      "B) Software is documentation and configuration of data",
+      "C) Software is set of programs, documentation & configuration of data",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "Software is not just set of program but it is also associated documentation and configuration of data to make program run."
+  },
+  {
+    "question": "Which of these does not account for software failure ?",
+    "options": [
+      "A) Increasing Demand",
+      "B) Low expectation",
+      "C) Increasing Supply",
+      "D) Less reliable and expensive"
+    ],
+    "correct_answer": "C",
+    "explanation": "Increasing supply will lead to more production and not failure."
+  },
+  {
+    "question": "What are attributes of good software ?",
+    "options": [
+      "A) Software maintainability",
+      "B) Software functionality",
+      "C) Software development",
+      "D) Software maintainability & functionality"
+    ],
+    "correct_answer": "D",
+    "explanation": "Good software should deliver the required functinality, maintainability. Software development is not an attribute but a fundamental."
+  },
+  {
+    "question": "Which of these software engineering activities are not a part of software processes ?",
+    "options": [
+      "A) Software dependence",
+      "B) Software development",
+      "C) Software validation",
+      "D) Software specification"
+    ],
+    "correct_answer": "A",
+    "explanation": "Software dependence is an attribute and not an engineering activity for process."
+  },
+  {
+    "question": "Which of these is incorrect ?",
+    "options": [
+      "A) Software engineering belongs to Computer science",
+      "B) Software engineering is a part of more general form of System Engineering",
+      "C) Computer science belongs to Software engineering",
+      "D) Software engineering is concerned with the practicalities of developing  and delivering useful software"
+    ],
+    "correct_answer": "C",
+    "explanation": "Software engineering is a vast sub domain which comes under computer science which is main domain."
+  },
+  {
+    "question": "Which of these is true ?",
+    "options": [
+      "A) Generic products and customized products are types of software products",
+      "B) Generic products are produced by organization and sold to open market",
+      "C) Customized products are commissioned by particular customer",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "All of them are true."
+  },
+  {
+    "question": "Which of these does not affect different types of software  as a whole?",
+    "options": [
+      "A) Heterogeneity",
+      "B) Flexibility",
+      "C) Business and social change",
+      "D) Security"
+    ],
+    "correct_answer": "B",
+    "explanation": "Option b & c are a part of Software Engineering as a subject,hence option a covers them both."
+  },
+  {
+    "question": "The fundamental notions of software engineering does not account for ?",
+    "options": [
+      "A) Software processes",
+      "B) Software Security",
+      "C) Software reuse",
+      "D) Software Validation"
+    ],
+    "correct_answer": "D",
+    "explanation": "Software validation is an activity for software process and not the fundamental for engineering."
+  },
+  {
+    "question": "Which of these is not true ?",
+    "options": [
+      "A) Web has led to availability of software services and possibility of developing highly distributed service based systems",
+      "B) Web based systems have led to degradation of programming languages",
+      "C) Web brings concept of software as service",
+      "D) Web based system should be developed and delivered incrementally"
+    ],
+    "correct_answer": "B",
+    "explanation": "Web based systems has led to important advances in programming languages."
+  },
+  {
+    "question": "_____________&_____________ are two kinds of software products.",
+    "options": [
+      "A) CAD, CAM",
+      "B) Firmware, Embedded",
+      "C) Generic, Customised",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "rest all are sub categories/applications of option c."
+  },
+  {
+    "question": "Software costs more to maintain than it does to develop.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "For systems with a long life, maintenance costs may be several times development costs."
+  },
+  {
+    "question": "Which one of the following is not an application of embedded software product?",
+    "options": [
+      "A) keypad control of a security system",
+      "B) pattern recognition game playing",
+      "C) digital function of dashboard display in a car",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "Pattern recognition uses Artificial Intelligence (AI) software."
+  },
+  {
+    "question": "Purpose of process is to deliver software",
+    "options": [
+      "A) in time",
+      "B) with acceptable quality",
+      "C) that is cost efficient",
+      "D) both in time & with acceptable quality"
+    ],
+    "correct_answer": "D",
+    "explanation": "Cost of a software is a management issue & is not related to process activities."
+  },
+  {
+    "question": "The work associated with software engineering can be categorized into three generic phases,regardless of application area, project size, or complexity namely the__________ phase which focuses on what, the_________ phase which focuses on how and the_________ phase which focuses on change.",
+    "options": [
+      "A) 1, 2, 3",
+      "B) 2, 1, 3",
+      "C) 3, 2, 1",
+      "D) 3, 1, 2"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "Which of the following activities of a Generic Process framework provides a feedback report?",
+    "options": [
+      "A) Communication",
+      "B) Planning",
+      "C) Modeling & Construction",
+      "D) Deployment"
+    ],
+    "correct_answer": "D",
+    "explanation": "In Deployment the product is delivered to the customer who evaluates the product and provides feedback based on the evaluation."
+  },
+  {
+    "question": "Process adopted for one project is same as the process adopted from another project.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "the overall flow of activities, actions,tasks,the level of autonomy given to the software team and the inter dependencies among two process can never be the same."
+  },
+  {
+    "question": "Which one of the following is not an Umbrella Activity that complements the five process framework activities and help team manage and control progress, quality, change, and risk.",
+    "options": [
+      "A) Reusability management",
+      "B) Risk management",
+      "C) Measurement",
+      "D) User Reviews"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "Four types of change are encountered during the support phase.Which one of the following is not one that falls into such category?",
+    "options": [
+      "A) Translation",
+      "B) Correction",
+      "C) Adaptation",
+      "D) Prevention"
+    ],
+    "correct_answer": "A",
+    "explanation": "Translation is done in the development phase."
+  },
+  {
+    "question": "Which of the following is not a diagram studied in Requirement Analysis ?",
+    "options": [
+      "A) Use Cases",
+      "B) Entity Relationship Diagram",
+      "C) State Transition Diagram",
+      "D) Activity Diagram"
+    ],
+    "correct_answer": "D",
+    "explanation": "Activity Diagram comes under the design phase of SDLC."
+  },
+  {
+    "question": "How many feasibility studies is conducted in Requirement Analysis ?",
+    "options": [
+      "A) Two",
+      "B) Three",
+      "C) Four",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "Economic feasibility (cost/benefit analysis), Technical feasibility (hardware/software/people, etc.) and Legal feasibility studies are done in Requirement Analysis."
+  },
+  {
+    "question": "How many phases are there in Requirement Analysis ?",
+    "options": [
+      "A) Three",
+      "B) Four",
+      "C) Five",
+      "D) Six"
+    ],
+    "correct_answer": "C",
+    "explanation": "Problem Recognition, Evaluation and Synthesis (focus is on what not how), Modeling, Specification and Review are the  five phases."
+  },
+  {
+    "question": "Traceability is not considered in Requirement Analysis.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Requirements traceability is concerned with documenting the life of a requirement and providing bi-directional traceability between various associated requirements, hence requirements must be traceable."
+  },
+  {
+    "question": "Requirements analysis is critical to the success of a development project.",
+    "options": [
+      "A) True",
+      "B) False",
+      "C) Depends upon the size of project",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Requirements must be actionable, measurable, testable, related to identified business needs or opportunities, and defined to a level of detail sufficient for system design."
+  },
+  {
+    "question": "_________ and _________ are the two issues of Requirement Analysis.",
+    "options": [
+      "A) Performance, Design",
+      "B) Stakeholder, Developer",
+      "C) Functional, Non-Functional",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "Option a and c are the types of requirements and not the issues of requirement analysis.."
+  },
+  {
+    "question": "The requirements that result from requirements analysis are typically expressed from one of three perspectives or views.WhaT is that perspective or view ?",
+    "options": [
+      "A) Developer",
+      "B) User",
+      "C) Non-Functional",
+      "D) Physical"
+    ],
+    "correct_answer": "D",
+    "explanation": "The perspectives or views have been described as the Operational, Functional, and Physical views.All three are necessary and must be coordinated to fully understand the customers’ needs and objectives."
+  }
+]

@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which one is a 4-bit binary ripple counter?",
+    "options": [
+      "A) IC 7493",
+      "B) IC 7490",
+      "C) IC 7491",
+      "D) IC 7492"
+    ],
+    "correct_answer": "A",
+    "explanation": "IC 7493 is a 4-bit binary ripple counter. It is a MOD-16 counter with 24 = 16 states."
+  },
+  {
+    "question": "IC 7493 consist of ____________",
+    "options": [
+      "A) 4 S-R flip-flop",
+      "B) 4 J-K flip-flop",
+      "C) 4 master-slave flip-flop",
+      "D) 4 D flip-flop"
+    ],
+    "correct_answer": "C",
+    "explanation": "IC 7493 consist of 4 J-K master-slave flip-flop. It is a MOD-16 counter with 24 = 16 states.\n<img src=\"https://www.sanfoundry.com/wp-content/uploads/2017/06/digital-circuits-questions-answers-counter-ics-q5.png\" alt=\"IC 7493 consist of 4 J-K master-slave flip-flop MOD-16 counter with 24 = 16 states\" width=\"691\" height=\"293\" class=\"alignnone size-full wp-image-166738\" srcset=\"https://www.sanfoundry.com/wp-content/uploads/2017/06/digital-circuits-questions-answers-counter-ics-q5.png 691w, https://www.sanfoundry.com/wp-content/uploads/2017/06/digital-circuits-questions-answers-counter-ics-q5-300x127.png 300w\" sizes=\"(max-width: 691px) 100vw, 691px\" />"
+  },
+  {
+    "question": "A reset input is used in IC 7493, why?",
+    "options": [
+      "A) For increment of bit by 1",
+      "B) For decrement of bit by 1",
+      "C) For reset the counter",
+      "D) For setting the counter"
+    ],
+    "correct_answer": "C",
+    "explanation": "The reset inputs are used to reset the counter to 0000."
+  },
+  {
+    "question": "In a 4-bit binary ripple counter, four master-slave flip-flops are internally connected to provide a ________ bit counter.",
+    "options": [
+      "A) Divide-by-2 & divide-by-6",
+      "B) Divide-by-6 & divide-by-8",
+      "C) Divide-by-2 & divide-by-8",
+      "D) Divide-by-4 & divide-by-8"
+    ],
+    "correct_answer": "C",
+    "explanation": "In a 4-bit binary ripple counter, four master-slave flip-flops are internally connected to provide a Divide-by-2 & divide-by-8 bit counter.\n<img src=\"https://www.sanfoundry.com/wp-content/uploads/2017/06/digital-circuits-questions-answers-counter-ics-q7.png\" alt=\"In 4-bit binary ripple counter four master-slave flip-flops are internally connected\" width=\"602\" height=\"180\" class=\"alignnone size-full wp-image-240921\" srcset=\"https://www.sanfoundry.com/wp-content/uploads/2017/06/digital-circuits-questions-answers-counter-ics-q7.png 602w, https://www.sanfoundry.com/wp-content/uploads/2017/06/digital-circuits-questions-answers-counter-ics-q7-300x90.png 300w\" sizes=\"(max-width: 602px) 100vw, 602px\" />"
+  },
+  {
+    "question": "Which of the following is a decade counter?",
+    "options": [
+      "A) IC 7493",
+      "B) IC 7490",
+      "C) IC 7491",
+      "D) IC 7492"
+    ],
+    "correct_answer": "B",
+    "explanation": "IC 7490 is called as decade counter or MOD-10. Thus, it has 10 states."
+  },
+  {
+    "question": "In a 4-bit decade counter, four master-slave flip-flops are internally connected to provide a ________ bit counter.",
+    "options": [
+      "A) Divide-by-2 & divide-by-6",
+      "B) Divide-by-6 & divide-by-8",
+      "C) Divide-by-2 & divide-by-5",
+      "D) Divide-by-4 & divide-by-8"
+    ],
+    "correct_answer": "C",
+    "explanation": "In a decade counter, four master-slave flip-flops are internally connected to provide a Divide-by-2 & divide-by-5 bit counter."
+  },
+  {
+    "question": "Reset inputs are used in IC 7490, why?",
+    "options": [
+      "A) For increment of bit by 1",
+      "B) For decrement of bit by 1",
+      "C) For reset the counter",
+      "D) For setting the counter"
+    ],
+    "correct_answer": "C",
+    "explanation": "The reset inputs are used to reset the counter to 0000."
+  },
+  {
+    "question": "The set inputs are used in a decade counter, why?",
+    "options": [
+      "A) To set the counter to 0011",
+      "B) To set the counter to 1000",
+      "C) To set the counter to 1001",
+      "D) To set the counter to 0001"
+    ],
+    "correct_answer": "C",
+    "explanation": "The set inputs are used in a decade counter to set the counter to 1001 which is 9 in decimal, as a decade counter counts from 0 to 9."
+  },
+  {
+    "question": "List which pins need to be connected together on a 7493 to make a MOD-12 counter.",
+    "options": [
+      "A) 12 to 1, 11 to 3, 9 to 2",
+      "B) 12 to 1, 11 to 3, 12 to 2",
+      "C) 12 to 1, 11 to 3, 8 to 2",
+      "D) 12 to 1, 11 to 3, 1 to 2"
+    ],
+    "correct_answer": "C",
+    "explanation": "IC-7493 is a MOD-16 counter. So maximum, it can have 16 states. A MOD-12 counter will have 12-states. Thus, it is clear from the diagram shown below: 12 & 1 are clear pins, 11 & 3 are clock pins, 8 & 2 are input for 7493 FF.\n<img src=\"https://www.sanfoundry.com/wp-content/uploads/2017/06/digital-circuits-questions-answers-counter-ics-q12.png\" alt=\"The diagram 12 &#038; 1 are clear pins, 11 &#038; 3 are clock pins, 8 &#038; 2 are input for 7493 FF\" width=\"330\" height=\"238\" class=\"alignnone size-full wp-image-166739\" srcset=\"https://www.sanfoundry.com/wp-content/uploads/2017/06/digital-circuits-questions-answers-counter-ics-q12.png 330w, https://www.sanfoundry.com/wp-content/uploads/2017/06/digital-circuits-questions-answers-counter-ics-q12-300x216.png 300w\" sizes=\"(max-width: 330px) 100vw, 330px\" />"
+  },
+  {
+    "question": "Ripple counter IC has _____________",
+    "options": [
+      "A) 10 pins",
+      "B) 11 pins",
+      "C) 12 pins",
+      "D) 14 pins"
+    ],
+    "correct_answer": "D",
+    "explanation": "A ripple counter is of 4-bit and has 4 J-K flip-flops. Ripple counter IC has 14 pins.\n<img src=\"https://www.sanfoundry.com/wp-content/uploads/2017/06/digital-circuits-questions-answers-counter-ics-q12.png\" alt=\"The diagram 12 &#038; 1 are clear pins, 11 &#038; 3 are clock pins, 8 &#038; 2 are input for 7493 FF\" width=\"330\" height=\"238\" class=\"alignnone size-full wp-image-166739\" srcset=\"https://www.sanfoundry.com/wp-content/uploads/2017/06/digital-circuits-questions-answers-counter-ics-q12.png 330w, https://www.sanfoundry.com/wp-content/uploads/2017/06/digital-circuits-questions-answers-counter-ics-q12-300x216.png 300w\" sizes=\"(max-width: 330px) 100vw, 330px\" />"
+  },
+  {
+    "question": "Integrated-circuit counter chips are used in numerous applications including ____________",
+    "options": [
+      "A) Timing operations, counting operations, sequencing, and frequency multiplication",
+      "B) Timing operations, counting operations, sequencing, and frequency division",
+      "C) Timing operations, decoding operations, sequencing, and frequency multiplication",
+      "D) Data generation, counting operations, sequencing, and frequency multiplication"
+    ],
+    "correct_answer": "B",
+    "explanation": "There are no integrated circuit counter chips employed for frequency multiplication. In the rest of the options, frequency multiplication is mentioned which is not related to counters in anyway. So, they are not the correct answers.  Thus, counters are used for timing operations, counting operations, sequencing and frequency division."
+  },
+  {
+    "question": "What is the difference between 7490 and a 7492?",
+    "options": [
+      "A) 7490 is a MOD-12, 7492 is a MOD-10",
+      "B) 7490 is a MOD-12, 7492 is a MOD-16",
+      "C) 7490 is a MOD-16, 7492 is a MOD-10",
+      "D) 7490 is a MOD-10, 7492 is a MOD-12"
+    ],
+    "correct_answer": "D",
+    "explanation": "From the properties of both ICs, we have 7490 is a MOD-10, 7492 is a MOD-12. Thus, IC-7490 can have maximum 10 states, while IC-7492 can have maximum 12 states."
+  },
+  {
+    "question": "The full form of IIL is __________",
+    "options": [
+      "A) Injection integrated logic",
+      "B) Integrated inspected logic",
+      "C) Integrated injection logic",
+      "D) Injection Inspected Logic"
+    ],
+    "correct_answer": "C",
+    "explanation": "The full form of IIL is Integrated injection logic. It is made up of multiple bipolar junction transistors and had a speed comparable to TTl and power consumption equivalent to CMOS."
+  },
+  {
+    "question": "Integrated injection logic is a class of digital circuits built with __________",
+    "options": [
+      "A) Single collector BJT",
+      "B) Double emitter BJT",
+      "C) Multiple emitter BJT",
+      "D) Multiple collector BJT"
+    ],
+    "correct_answer": "D",
+    "explanation": "Integrated injection logic is a class of digital circuits built with multiple collector bipolar junction transistors (BJT)."
+  },
+  {
+    "question": "IIL has _____ noise immunity.",
+    "options": [
+      "A) High",
+      "B) Low",
+      "C) Neutral",
+      "D) Nil"
+    ],
+    "correct_answer": "A",
+    "explanation": "The full form of IIL is Integrated injection logic. It is made up of multiple bipolar junction transistors and had speed comparable to TTl and power consumption equivalent to CMOS. IIL has high noise immunity because it operates by current instead of voltage."
+  },
+  {
+    "question": "IIL is sometimes also known as __________",
+    "options": [
+      "A) Single transistor logic",
+      "B) Multiple transistor logic",
+      "C) Merged transistor logic",
+      "D) Mixed Transistor Logic"
+    ],
+    "correct_answer": "C",
+    "explanation": "The full form of IIL is Integrated injection logic. It is made up of multiple bipolar junction transistors and had speed comparable to TTl and power consumption equivalent to CMOS. IIL is sometimes also known as merged transistor logic."
+  },
+  {
+    "question": "Integrated Injection logic cannot be denoted as __________",
+    "options": [
+      "A) IIL",
+      "B) I2L",
+      "C) I2L",
+      "D) I TWO L"
+    ],
+    "correct_answer": "D",
+    "explanation": "The full form of IIL is Integrated injection logic. It is made up of multiple bipolar junction transistors and had speed comparable to TTl and power consumption equivalent to CMOS. Integrated Injection logic can be denoted as IIL, I2L and I2L as well."
+  },
+  {
+    "question": "The heart of an I2L circuit is the __________",
+    "options": [
+      "A) Common collector open emitter inverter",
+      "B) Common emitter open collector inverter",
+      "C) Open emitter common collector inverter",
+      "D) Open Emitter Open Collector Inverter"
+    ],
+    "correct_answer": "B",
+    "explanation": "The heart of an I2L circuit is the common emitter open collector inverter. The emitter is connected to the ground, with the base having an input behaving as either current sink or high impedance floating condition. The output of an inverter is connected to the collector."
+  },
+  {
+    "question": "In Integrated Injection, logic input is supplied to the __________",
+    "options": [
+      "A) Emitter",
+      "B) Base",
+      "C) Collector",
+      "D) Collector Emitter"
+    ],
+    "correct_answer": "B",
+    "explanation": "In IIL, the input is supplied to the base as either a current sink (low logic level) or as a high impedance floating condition (high logic level). The output of an inverter is connected to the collector."
+  },
+  {
+    "question": "In Integrated Injection, logic output is received through the __________",
+    "options": [
+      "A) Emitter",
+      "B) Base",
+      "C) Collector",
+      "D) Base Emitter Junction"
+    ],
+    "correct_answer": "C",
+    "explanation": "In Integrated Injection logic output is received through the collector. The output of an inverter is connected at the collector."
+  },
+  {
+    "question": "When the outputs of two inverters are wired together the result is __________",
+    "options": [
+      "A) A two-input NOR gate",
+      "B) A single-input NOR gate",
+      "C) A two-input NAND gate",
+      "D) A single-input NAND gate"
+    ],
+    "correct_answer": "A",
+    "explanation": "When the outputs of two inverters are wired together then the result is a two-input NOR gate because the configuration (NOT A) AND (NOT B) is equivalent to NOT (A OR B). In a NOR gate, the output is high only when all of its input are at logic 0 else, the output is low."
+  },
+  {
+    "question": "IIL was commonly used before the advent of CMOS logic by company ___________",
+    "options": [
+      "A) Samsung",
+      "B) Nokia",
+      "C) Motorola",
+      "D) Apple"
+    ],
+    "correct_answer": "C",
+    "explanation": "I2L is relatively simple to construct on an integrated circuit and was commonly used before the advent of CMOS logic by companies such as Motorola."
+  },
+  {
+    "question": "Which company introduced one of the first consumer-grade digital watches (the Black Watch) which used I2L technology?",
+    "options": [
+      "A) Cambridge Consultants Pvt Ltd",
+      "B) Sinclair Radionics Ltd",
+      "C) National Research and Development Council",
+      "D) Westminster"
+    ],
+    "correct_answer": "B",
+    "explanation": "Sinclair Radionics Ltd introduced one of the first consumer-grade digital watches (the Black Watch) in August 1975, which used I2L technology."
+  },
+  {
+    "question": "The basic building blocks of the arithmetic unit in digital computers are __________",
+    "options": [
+      "A) Subtractors",
+      "B) Adders",
+      "C) Multiplexer",
+      "D) Comparator"
+    ],
+    "correct_answer": "B",
+    "explanation": "The basic building blocks of the arithmetic unit in digital computers are adders. Since a parallel adder is constructed with a number of full-adder circuits connected in cascade. By controlling the data inputs to the parallel adder, it is possible to obtain different types of arithmetic operations."
+  },
+  {
+    "question": "A digital system consists of _____ types of circuits.",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "correct_answer": "A",
+    "explanation": "A digital system consists of two types of circuits and these are a combinational and sequential logic circuit. Combinational circuits are the ones which do not depend on previous inputs while Sequential circuits depend on past inputs."
+  },
+  {
+    "question": "In a combinational circuit, the output at any time depends only on the _______ at that time.",
+    "options": [
+      "A) Voltage",
+      "B) Intermediate values",
+      "C) Input values",
+      "D) Clock pulses"
+    ],
+    "correct_answer": "C",
+    "explanation": "In a combinational circuit, the output at any time depends only on the input values at that time and not on past or intermediate values."
+  },
+  {
+    "question": "In a sequential circuit, the output at any time depends only on the input values at that time.",
+    "options": [
+      "A) Past output values",
+      "B) Intermediate values",
+      "C) Both past output and present input",
+      "D) Present input values"
+    ],
+    "correct_answer": "C",
+    "explanation": "In a sequential circuit, the output at any time depends on the present input values as well as past output values. It also depends on clock pulses depending on whether it’s synchronous or asynchronous sequential circuits."
+  },
+  {
+    "question": "All logic operations can be obtained by means of __________",
+    "options": [
+      "A) AND and NAND operations",
+      "B) OR and NOR operations",
+      "C) OR and NOT operations",
+      "D) NAND and NOR operations"
+    ],
+    "correct_answer": "D",
+    "explanation": "Since the logic gates NOR  and NAND are known as universal logic gates, therefore it can be used to design all the three basic gates AND, OR and NOT. Thus, it means that any operations can be obtained by implementation of these gates."
+  },
+  {
+    "question": "The design of an ALU is based on __________",
+    "options": [
+      "A) Sequential logic",
+      "B) Combinational logic",
+      "C) Multiplexing",
+      "D) De-Multiplexing"
+    ],
+    "correct_answer": "B",
+    "explanation": "The design of an ALU is based on combinational logic. Because the unit has a regular pattern, it can be broken into identical stages connected in cascade through carries."
+  },
+  {
+    "question": "If the two numbers are unsigned, the bit conditions of interest are the ______ carry and a possible _____ result.",
+    "options": [
+      "A) Input, zero",
+      "B) Output, one",
+      "C) Input, one",
+      "D) Output, zero"
+    ],
+    "correct_answer": "D",
+    "explanation": "If the two numbers are unsigned, the bit conditions of interest are the output carry and a possible zero result."
+  },
+  {
+    "question": "If the two numbers include a sign bit in the highest order position, the bit conditions of interest are the sign of the result, a zero indication and __________",
+    "options": [
+      "A) An underflow condition",
+      "B) A neutral condition",
+      "C) An overflow condition",
+      "D) One indication"
+    ],
+    "correct_answer": "C",
+    "explanation": "If the two numbers include a sign bit in the highest order position, the bit conditions of interest are the sign of the result, a zero indication and an overflow condition."
+  },
+  {
+    "question": "The flag bits in an ALU is defined as ___________",
+    "options": [
+      "A) The total number of registers",
+      "B) The status bit conditions",
+      "C) The total number of control lines",
+      "D) All of the Mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "In an ALU, status bit conditions are sometimes called condition code bits or flag bits. It is so called because they tend to represent the status of the respect flags after any operation."
+  },
+  {
+    "question": "A serial subtractor can be obtained by converting the serial adder by using the _____________",
+    "options": [
+      "A) 1’s complement system",
+      "B) 2’s complement system",
+      "C) 10’s complement",
+      "D) 9’s complement"
+    ],
+    "correct_answer": "B",
+    "explanation": "A serial subtractor can be obtained by converting the serial adder by using the 2’s complement system. 9’s complement and 10’s complement are used for decimal numbers while adders deal with binary numbers."
+  },
+  {
+    "question": "The hexadecimal number (4B)16 is transmitted as an 8-bit word in parallel. What is the time required for this transmission if the clock frequency is 2.25 MHz?",
+    "options": [
+      "A) 444 ns",
+      "B) 444 s",
+      "C) 3.55 s",
+      "D) 3.55 ms"
+    ],
+    "correct_answer": "A",
+    "explanation": "Because the clock pulse of 4-bit transmits the data of 8-bit word in parallel mode and this transmission is done at 2.25 MHz frequency. We know that: f=1/t and we can find the time required for this transmission by the clock pulse.\nTherefore, time = (1/2.25) = 0.4444 us = 444.44 ns ~ 444ns."
+  },
+  {
+    "question": "Internally, a computer’s binary data are always transmitted on parallel channels which is commonly referred to as the __________",
+    "options": [
+      "A) Parallel bus",
+      "B) Serial bus",
+      "C) Data bus",
+      "D) Memory bus"
+    ],
+    "correct_answer": "C",
+    "explanation": "A process consists of 3 types of buses: Control Bus, Data Bus and Address Bus. A computer’s data is always in the binary form which is stored in the bus that transmits the data on any channels. It doesn’t matter that it’s in parallel or serial."
+  },
+  {
+    "question": "What is the frequency of a clock waveform if the period of that waveform is 1.25sec?",
+    "options": [
+      "A) 8 kHz",
+      "B) 0.8 kHz",
+      "C) 0.8 MHz",
+      "D) 8 MHz"
+    ],
+    "correct_answer": "C",
+    "explanation": "By using the formula of frequency, we can find the frequency of clock waveform. Time period(t) of the waveform is = 1.25microseconds\n             f=1/t\n             Where ‘t’ is the time taken by the clock waveform;\n             f=(1/1.25)\n             so, f=0.8 MHz."
+  },
+  {
+    "question": "Why is parallel data transmission preferred over serial data transmission for most applications?",
+    "options": [
+      "A) It is much slower",
+      "B) It is cheaper",
+      "C) More people use it",
+      "D) It is much faster"
+    ],
+    "correct_answer": "D",
+    "explanation": "Parallel data transmission preferred over serial data transmission for most applications because it is much faster as bits are transmitted simultaneously, whereas in serial data transmission, bits are transmitted one by one."
+  },
+  {
+    "question": "With surface-mount technology (SMT), the devices should __________",
+    "options": [
+      "A) Utilize transistor outline connections",
+      "B) Mount directly",
+      "C) Have parallel connecting pins",
+      "D) Require holes and pads"
+    ],
+    "correct_answer": "B",
+    "explanation": "Surface-mount technology (SMT) is a method for producing electronic circuits in which the components are mounted or placed directly onto the surface of printed circuit boards (PCBs). An electronic device so made is called a surface-mount device (SMD). In the industry, it has largely replaced the through-hole technology construction method of fitting components with wire leads into holes in the circuit board. Both technologies can be used on the same board for components not suited to surface mounting such as large transformers and heat-sinked power semiconductors."
+  },
+  {
+    "question": "In most applications, transistor switches used in place of relays?",
+    "options": [
+      "A) They consume less power",
+      "B) They are faster",
+      "C) They are quieter and smaller",
+      "D) All of the Mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "Transistors are of less consuming power, faster, quieter, smaller and its implementation is too easy. So, in most applications transistor switches are more preferred. And also, transistors can be current-controlled or voltage-controlled depending on our choice."
+  },
+  {
+    "question": "What can a relay provide between the triggering source and the output that semiconductor switching devices cannot?",
+    "options": [
+      "A) Total isolation",
+      "B) Faster",
+      "C) Higher current rating",
+      "D) Total isolation and higher current rating"
+    ],
+    "correct_answer": "D",
+    "explanation": "A relay provides total isolation and higher current rating between the triggering source and the output that semiconductor switching devices cannot provide. This is why relays are used to drive high watt appliances at offices or other buildings."
+  },
+  {
+    "question": "The serial format for transmitting binary information uses __________",
+    "options": [
+      "A) A single conductor",
+      "B) Multiple conductors",
+      "C) Infrared technology",
+      "D) Fiber-optic"
+    ],
+    "correct_answer": "A",
+    "explanation": "A conductor accepts the whole data and arranges it in a serial manner, which is transmitted as binary information. In serial transmission, data is transmitted bit by bit while in parallel transmission data is transmitted simultaneously."
+  },
+  {
+    "question": "Serial communication can be sped up by __________",
+    "options": [
+      "A) Using silver or gold conductors instead of copper",
+      "B) Using high-speed clock signals",
+      "C) Adjusting the duty cycle of the binary information",
+      "D) Using silver or gold conductors instead of copper and high-speed clock signals"
+    ],
+    "correct_answer": "B",
+    "explanation": "For any serial data transmission there is required of continuously data supply and if the input supply (i.e. high speed clock signals) in a high amount the speed of serial communication can be increased. In serial communication, data is transmitted bit by bit. So the use of high speed clock pulses would make the process faster."
+  },
+  {
+    "question": "Which of the circuits in figure (a to d) is the sum-of-products implementation of figure (e)?",
+    "options": [
+      "A) a",
+      "B) b",
+      "C) c",
+      "D) d"
+    ],
+    "correct_answer": "D",
+    "explanation": "SOP means Sum Of Products form which represents the sum of product terms having variables in complemented as well as in uncomplemented form. Here, the diagram of d contains the OR gate followed by the AND gates, so it is in SOP form."
+  },
+  {
+    "question": "Which of the following logic expressions represents the logic diagram shown?",
+    "options": [
+      "A) X=AB’+A’B",
+      "B) X=(AB)’+AB",
+      "C) X=(AB)’+A’B’",
+      "D) X=A’B’+AB"
+    ],
+    "correct_answer": "D",
+    "explanation": "1st output of AND gate is = A’B’\n             2nd AND gate’s output is = AB and,\n             OR gate’s output is = (A’B’)+(AB) = AB + A’B’."
+  },
+  {
+    "question": "The device shown here is most likely a ________",
+    "options": [
+      "A) Comparator",
+      "B) Multiplexer",
+      "C) Inverter",
+      "D) Demultiplexer"
+    ],
+    "correct_answer": "D",
+    "explanation": "The given diagram is demultiplexer, because it takes single input & gives many outputs. A demultiplexer is a combinational circuit that takes a single output and latches it to multiple outputs depending on the select lines."
+  },
+  {
+    "question": "What type of logic circuit is represented by the figure shown below?",
+    "options": [
+      "A) XOR",
+      "B) XNOR",
+      "C) AND",
+      "D) XAND"
+    ],
+    "correct_answer": "B",
+    "explanation": "After solving the circuit we get (A’B’)+AB as output, which is XNOR operation. Thus, it will produce 1 when inputs are even number of 1s or all 0s, and produce 0 when input is odd number of 1s."
+  },
+  {
+    "question": "For a two-input XNOR gate, with the input waveforms as shown below, which output waveform is correct?",
+    "options": [
+      "A) d",
+      "B) a",
+      "C) c",
+      "D) b"
+    ],
+    "correct_answer": "A",
+    "explanation": "When both inputs are same then the o/p is high for a XNOR gate.\ni.e., A B O/P\n0 0 1\n0 1 0\n1 0 0\n1 1 1.\nThus, it will produce 1 when inputs are even number of 1s or all 0s, and produce 0 when input is odd number of 1s."
+  },
+  {
+    "question": "Which of the following combinations of logic gates can decode binary 1101?",
+    "options": [
+      "A) One 4-input AND gate",
+      "B) One 4-input AND gate, one inverter",
+      "C) One 4-input AND gate, one OR gate",
+      "D) One 4-input NAND gate, one inverter"
+    ],
+    "correct_answer": "B",
+    "explanation": "For decoding any number output must be high for that code and this is possible in One 4-input AND gate, one inverter option only. We can have 1st, 2nd and 4th bit high and supplied to the AND gate and the 3rd bit (low) going through inverter 1st and then going to the AND gate. A decoder is a combinational circuit that converts binary data to n-coded data upto 2n outputs."
+  },
+  {
+    "question": "What is the indication of a short to ground in the output of a driving gate?",
+    "options": [
+      "A) Only the output of the defective gate is affected",
+      "B) There is a signal loss to all load gates",
+      "C) The node may be stuck in either the HIGH or the LOW state",
+      "D) The affected node will be stuck in the HIGH state"
+    ],
+    "correct_answer": "B",
+    "explanation": "Short to ground in the output of a driving gate indicates of a signal loss to all load gates. This results in information being disrupted and loss of data."
+  },
+  {
+    "question": "For the device shown here, assume the D input is LOW, both S inputs are LOW and the input is LOW. What is the status of the Y’ outputs?",
+    "options": [
+      "A) All are HIGH",
+      "B) All are LOW",
+      "C) All but Y0 are LOW",
+      "D) All but Y0 are HIGH"
+    ],
+    "correct_answer": "D",
+    "explanation": "In the given diagram, S0 and S1 are selection bits. So,\nI/P S0 S1 O/P\nD = 0 0 0 Y0\nD = 0 0 1 Y1\nD = 0 1 0 Y2\nD = 0 1 1 Y3\nHence, inputs are S0 and S1 are Low means 0, so output is Y0 and rest all are HIGH."
+  }
+]

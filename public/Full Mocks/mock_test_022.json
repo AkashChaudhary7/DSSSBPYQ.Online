@@ -1,0 +1,3093 @@
+{
+  "mock_id": 22,
+  "title": "DSSSB TGT Computer Science Full Mock Test 022",
+  "pattern": "DSSSB TGT CS (200 Questions)",
+  "source_part_a_file": "mock_test_71.json",
+  "total_questions": 200,
+  "id_ranges": {
+    "part_a": "1 to 100",
+    "computer_science": "101 to 190",
+    "teaching_methodology": "191 to 200"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "1 is related to 1 following a certain logic. Following the same logic, 7 is related to 49. To which of the following is 4 related, following the same logic?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "question_image": null,
+      "options": [
+        "36",
+        "8",
+        "64",
+        "16"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (16) है।",
+      "explanation_image": null,
+      "question_id": 1
+    },
+    {
+      "id": 2,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "What should come in place of the question mark (?) in the given series? 5000, 2500, 1250, 625, 312.5, ?",
+      "question_image": null,
+      "options": [
+        "156.25",
+        "130.75",
+        "80.75",
+        "125.25"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (156.25) है।",
+      "explanation_image": null,
+      "question_id": 2
+    },
+    {
+      "id": 3,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "If ‘A’ stands for ‘+’ , ‘B’ stands for ‘−’, ‘C’ stands for ‘÷’ and ‘D’ stands for ‘×‘ , what will be come in place of the question mark (?) in the given equation?14 D 2 A 56 B 26 C 13 = ?959",
+      "question_image": null,
+      "options": [
+        "107",
+        "102",
+        "47",
+        "82"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (82) है।",
+      "explanation_image": null,
+      "question_id": 3
+    },
+    {
+      "id": 4,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "This question is based on the given words.DEN         KIF           BUN           CAR      In each of the words, each vowel is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. In how many letter-clusters thus formed, will no vowel appear?",
+      "question_image": null,
+      "options": [
+        "One",
+        "Four",
+        "Zero",
+        "Two"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Two) है।",
+      "explanation_image": null,
+      "question_id": 4
+    },
+    {
+      "id": 5,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "In a certain code language, ‘CLAN’ is coded as ‘9865’ and ‘LOAN’ is coded as ‘6485’. What is the code for ‘O’ in the given code language?",
+      "question_image": null,
+      "options": [
+        "4",
+        "8",
+        "6",
+        "5"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (4) है।",
+      "explanation_image": null,
+      "question_id": 5
+    },
+    {
+      "id": 6,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Select the number from among the given options that can replace the question mark (?) in the following series.13  ?   22   31   43   58259",
+      "question_image": null,
+      "options": [
+        "17",
+        "14",
+        "16",
+        "15"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (16) है।",
+      "explanation_image": null,
+      "question_id": 6
+    },
+    {
+      "id": 7,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "A, B, C, D, E, F, G and H are sitting around a square table, facing the centre of the table (but not necessarily in the same order). Some of them are sitting at the corners, while some are sitting at the exact centre of the sides. B sits second to the right of H. H does not sit at any of the corners. Only three people sit between B and D. G does not sit at any of the corners. F is neither an immediate neighbour of H nor D. Only three people sit between F and C. A is not an immediate neighbour of B. How many people sit between E and F when counted from the right of E?3199",
+      "question_image": null,
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "One"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (One) है।",
+      "explanation_image": null,
+      "question_id": 7
+    },
+    {
+      "id": 8,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Each of G, H, I, J, M, N and O has an exam on a different day of a week starting from Monday and ending on Sunday of the same week. Only three people have the exam between I and O. Only three people have the exam between M and N. J has the exam on some day before O and on some day after H. Only G has the exam before N. How many people have the exam before J?",
+      "question_image": null,
+      "options": [
+        "One",
+        "Four",
+        "Three",
+        "Two"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Four) है।",
+      "explanation_image": null,
+      "question_id": 8
+    },
+    {
+      "id": 9,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "If 2 is added to each odd digit and 2 is subtracted from each even digit in the number 7586134, what will be the sum of the digits that are third from the left and third from the right in the new number thus formed?",
+      "question_image": null,
+      "options": [
+        "7",
+        "11",
+        "13",
+        "9"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (9) है।",
+      "explanation_image": null,
+      "question_id": 9
+    },
+    {
+      "id": 10,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "In a certain code language,'A + B' means 'A is the mother of B','A – B' means 'A is the brother of B','A × B' means 'A is the wife of B','A % B' means 'A is the father of B', and'A # B' means 'A is the daughter of B'.How is L related to Q if 'L # P × G % V – N + Q'?",
+      "question_image": null,
+      "options": [
+        "Son’s daughter",
+        "Sister",
+        "Mother’s mother",
+        "Mother’s sister"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Mother’s sister) है।",
+      "explanation_image": null,
+      "question_id": 10
+    },
+    {
+      "id": 11,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number result(s) in the second number. Similarly, certain mathematical operation(s) on the second number result(s) in the third number and so on. Which of the given options follows the same set of operations as in the given sets? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)15 - 30 - 25 - 50;        10 - 20 - 15 - 30",
+      "question_image": null,
+      "options": [
+        "30 - 60 - 55 - 105",
+        "6 - 12 - 7 - 16",
+        "5 - 10 - 5 - 15",
+        "20 - 40 - 35 - 70"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (20 - 40 - 35 - 70) है।",
+      "explanation_image": null,
+      "question_id": 11
+    },
+    {
+      "id": 12,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "In the following series only one letter cluster is INCORRECT. Find out the INCORRECT letter cluster.JLO KMP LNQ MOR NPS OQU",
+      "question_image": null,
+      "options": [
+        "LNQ",
+        "KMP",
+        "JLO",
+        "OQU"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (OQU) है।",
+      "explanation_image": null,
+      "question_id": 12
+    },
+    {
+      "id": 13,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number result(s) in the second number. Similarly, certain mathematical operation(s) on the second number result(s) in the third number and so on. Which of the given options follows the same set of operations as in the given sets?(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)12 – 6 – 20 – 29    ;    18 – 12 – 32 – 41",
+      "question_image": null,
+      "options": [
+        "11 – 5 – 18 – 9",
+        "21 – 15 – 22 – 31",
+        "23 – 17 – 42 – 51",
+        "14 – 20 – 48 – 57"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (23 – 17 – 42 – 51) है।",
+      "explanation_image": null,
+      "question_id": 13
+    },
+    {
+      "id": 14,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which letter-cluster pair DOES NOT belong to that group?(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+      "question_image": null,
+      "options": [
+        "RK",
+        "UM",
+        "PI",
+        "XQ"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (UM) है।",
+      "explanation_image": null,
+      "question_id": 14
+    },
+    {
+      "id": 15,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "In the following series, only one letter-cluster is incorrect. Select the INCORRECT letter-cluster.EKQ  JPV  OUA  TZF  YEK  DIP",
+      "question_image": null,
+      "options": [
+        "OUA",
+        "DIP",
+        "TZF",
+        "YEK"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (DIP) है।",
+      "explanation_image": null,
+      "question_id": 15
+    },
+    {
+      "id": 16,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "What will come in the place of ‘?’ in the following equation, if  ‘+’ and ‘-‘ are interchanged and ‘x’ and ‘÷’ are interchanged?31-16÷2+36×9=? 3868",
+      "question_image": null,
+      "options": [
+        "63",
+        "59",
+        "95",
+        "53"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (59) है।",
+      "explanation_image": null,
+      "question_id": 16
+    },
+    {
+      "id": 17,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Based on the English alphabetical order, three of the following four are alike in a certain way and thus form a group. Which is the one that does not belong to that group?(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)5155",
+      "question_image": null,
+      "options": [
+        "YTRK",
+        "SNJE",
+        "ZUQL",
+        "GBXS"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (YTRK) है।",
+      "explanation_image": null,
+      "question_id": 17
+    },
+    {
+      "id": 18,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Seven people, A, B, C, Q, X, Y and Z, are standing in a row, facing north. Exactly three people stand between A and C. Q and A are immediate neighbours of X. None stand to the right of Q. Only Z stands between B and C. Which of the following pairs DOES NOT belong to the same group?",
+      "question_image": null,
+      "options": [
+        "AX",
+        "YC",
+        "BY",
+        "XQ"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (YC) है।",
+      "explanation_image": null,
+      "question_id": 18
+    },
+    {
+      "id": 19,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Given below is a statement (Cause) followed by possible effects numbered I and II. Read the Cause carefully and decide which of the two can be possible effect(s).Cause:There was flooding and waterlogging due to a heavy downpour in Locality X the previous night.Statements:I) Many people have fallen ill after the floodwater receded in a particular locality X.II) About 60% of the people sleep very late at night in locality Y.",
+      "question_image": null,
+      "options": [
+        "Both I and II are possible effects",
+        "Neither I nor II is a possible effect",
+        "Only II is a possible effect",
+        "Only I is a possible effect"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Only I is a possible effect) है।",
+      "explanation_image": null,
+      "question_id": 19
+    },
+    {
+      "id": 20,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "105 is related to 20.9 following a certain logic. Following the same logic, 175 is related to 34.9. To which of the following is 215 related, following the same logic?(NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+      "question_image": null,
+      "options": [
+        "41.9",
+        "40.9",
+        "42.9",
+        "41.8"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (42.9) है।",
+      "explanation_image": null,
+      "question_id": 20
+    },
+    {
+      "id": 21,
+      "section": "General Awareness",
+      "question": "How many sections have been introduced in Bharatiya Nyaya Sanhita (BNS) in July 2024?",
+      "question_image": null,
+      "options": [
+        "358 sections",
+        "368 sections",
+        "512 sections",
+        "484 sections"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (358 sections) है।",
+      "explanation_image": null,
+      "question_id": 21
+    },
+    {
+      "id": 22,
+      "section": "General Awareness",
+      "question": "Prime Minister of India inaugurated the India Energy Week (IEW) in February 2024 in which state?",
+      "question_image": null,
+      "options": [
+        "Goa",
+        "Maharashtra",
+        "Tamil Nadu",
+        "Karnataka"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Goa) है।",
+      "explanation_image": null,
+      "question_id": 22
+    },
+    {
+      "id": 23,
+      "section": "General Awareness",
+      "question": "What role did Brahmans play in the post-Gupta political structure?",
+      "question_image": null,
+      "options": [
+        "They were responsible for collecting taxes from peasants.",
+        "They legitimised the rule of kings through rituals and land grants.",
+        "They served as military commanders in regional armies.",
+        "They led popular uprisings against feudal lords."
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (They legitimised the rule of kings through rituals and land grants.) है।",
+      "explanation_image": null,
+      "question_id": 23
+    },
+    {
+      "id": 24,
+      "section": "General Awareness",
+      "question": "The ability of women to actively participate in economic and political life is measured by _________.",
+      "question_image": null,
+      "options": [
+        "CPM",
+        "HDI",
+        "GDI",
+        "GEM"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (GEM) है।",
+      "explanation_image": null,
+      "question_id": 24
+    },
+    {
+      "id": 25,
+      "section": "General Awareness",
+      "question": "निम्नलिखित में से कौन-सी सिंचाई विधि मक्का, गन्ना और कपास जैसी पंक्ति फसलों के लिए सबसे अधिक उपयुक्त है?",
+      "question_image": null,
+      "options": [
+        "खूड सिंचाई",
+        "सीमान्त-पट्टी सिंचाई",
+        "बेसिन सिंचाई",
+        "बूंद-बूंद सिंचाई"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (खूड सिंचाई) है।",
+      "explanation_image": null,
+      "question_id": 25
+    },
+    {
+      "id": 26,
+      "section": "General Awareness",
+      "question": "Who is India's first female pitch curator, overseeing pitch preparation for the first leg of the Women's Premier League in Bengaluru in February 2024?",
+      "question_image": null,
+      "options": [
+        "Neetu David",
+        "Mithali Raj",
+        "Jacintha Kalyan",
+        "Anjum Chopra"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Jacintha Kalyan) है।",
+      "explanation_image": null,
+      "question_id": 26
+    },
+    {
+      "id": 27,
+      "section": "General Awareness",
+      "question": "Street lights and all lights in houses are connected in _________.",
+      "question_image": null,
+      "options": [
+        "series",
+        "series-parallel",
+        "parallel",
+        "end to end"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (parallel) है।",
+      "explanation_image": null,
+      "question_id": 27
+    },
+    {
+      "id": 28,
+      "section": "General Awareness",
+      "question": "What is the mass ratio of carbon to oxygen in CO2?",
+      "question_image": null,
+      "options": [
+        "3 : 8",
+        "8 : 3",
+        "1 : 2",
+        "2 : 1"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (3 : 8) है।",
+      "explanation_image": null,
+      "question_id": 28
+    },
+    {
+      "id": 29,
+      "section": "General Awareness",
+      "question": "Who passed an Act in 1898, making it an offence to provoke people against the British rulers?",
+      "question_image": null,
+      "options": [
+        "Lord Lytton",
+        "Lord Willingdon",
+        "Lord Dalhousie",
+        "Lord Curzon"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Lord Curzon) है।",
+      "explanation_image": null,
+      "question_id": 29
+    },
+    {
+      "id": 30,
+      "section": "General Awareness",
+      "question": "Which of the following is NOT a National Festival of India?",
+      "question_image": null,
+      "options": [
+        "Gandhi Jayanti",
+        "Ambedkar Jayanti",
+        "Republic Day",
+        "Independence Day"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Ambedkar Jayanti) है।",
+      "explanation_image": null,
+      "question_id": 30
+    },
+    {
+      "id": 31,
+      "section": "General Awareness",
+      "question": "Which Directive Principle was introduced by the 44th Constitutional Amendment in 1978?",
+      "question_image": null,
+      "options": [
+        "Protecting wildlife and the environment",
+        "Ensuring free legal services for the poor",
+        "Reducing inequalities in income and status",
+        "Workers’ participation in industry"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Reducing inequalities in income and status) है।",
+      "explanation_image": null,
+      "question_id": 31
+    },
+    {
+      "id": 32,
+      "section": "General Awareness",
+      "question": "In which year did Babasaheb Ambedkar organise a non-violent struggle for entry into the Kala Ram Temple in Nasik?",
+      "question_image": null,
+      "options": [
+        "1925",
+        "1921",
+        "1930",
+        "1934"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (1930) है।",
+      "explanation_image": null,
+      "question_id": 32
+    },
+    {
+      "id": 33,
+      "section": "General Awareness",
+      "question": "Comprehension:निम्नलिखित गद्यांश को ध्यानपूर्वक पढ़ें और दिए गए प्रश्न के उत्तर दें।गुजरात भारत के पश्चिमी तट पर स्थित है। गुजरात का इतिहास ईसवी पूर्व लगभग 2000 वर्ष पुराना है यह भी माना जाता है कि भगवान कृष्‍ण मथुरा छोड़कर सौराष्‍ट्र के पश्चिमी तट पर जा बसे, जो द्वारका यानी प्रवेशद्वार कहलाया। बाद के वर्षों में मौर्य, गुप्‍त, प्रतिहार तथा अन्‍य अनेक राजवंशों ने इस प्रदेश पर राज किया। चालुक्‍य (सोलंकी) राजाओं का शासनकाल गुजरात में प्रगति और समृद्धि का युग था। आजादी से पहले गुजरात का वर्तमान क्षेत्र मुख्‍य रूप से दो भागों में बंटा था- एक ब्रिटिश क्षेत्र और दूसरा देसी रियासतें। राज्‍यों के पुनर्गठन के कारण सौराष्‍ट्र के राज्‍यों और कच्‍छ के केंद्रशासित प्रदेश के साथ पूर्व ब्रिटिश गुजरात को मिलाकर द्विभाषी बंबई राज्‍य का गठन हुआ। पहली मई, 1960 को वर्तमान गुजरात राज्‍य अस्तित्‍व में आया। गुजरात का क्षेत्रफल लगभग 196,024 वर्ग किलोमीटर है। महात्मा गांधी और वल्लभभाई पटेल जैसे भारत के कई प्रसिद्ध व्यक्तियों की जन्मभूमि होने के कारण इस जगह की सांस्कृतिक और पारंपरिक विरासत बहुत समृद्ध है और ये राज्य का गौरव बढ़ाती है। गुजरात कपास, तंबाकू और मूंगफली का उत्‍पादन करने वाला देश का प्रमुख राज्‍य है । यहां की अन्‍य महत्‍वपूर्ण नकदी फसलें हैं- इसबगोल, धान, गेहूं और बाजरा। राज्‍य में भूतलीय जल तथा भूमिगत जल द्वारा कुल सिंचाई क्षमता 64.88 लाख हेक्‍टेयर आंकी गई है जिसमें सरदार सरोवर (नर्मदा) परियोजना की 17.92 लाख हेक्‍टेयर क्षमता है। राज्‍य में जून 2010 तक कुल सिंचाई क्षमता 31.65 लाख हेक्‍टेयर तक पहुंच गई थी। जून 2010 त‍क अधिकतम उपयोग क्षमता 23.79 लाख हेक्‍टेयर आंकी गई।गुजरात का इतिहास कितना पुराना है?",
+      "question_image": null,
+      "options": [
+        "लगभग 2500 ईसवी",
+        "लगभग 2000 ईसवी",
+        "लगभग 5000 ईसवी",
+        "लगभग 3000 ईसवी"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (लगभग 2000 ईसवी) है।",
+      "explanation_image": null,
+      "question_id": 33
+    },
+    {
+      "id": 34,
+      "section": "General Awareness",
+      "question": "Who among the following started the Aligarh movement?",
+      "question_image": null,
+      "options": [
+        "Mohammad Iqbal",
+        "Jamaluddin Afghani",
+        "Syed Ahmad Khan",
+        "Muhammad Abduh"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Syed Ahmad Khan) है।",
+      "explanation_image": null,
+      "question_id": 34
+    },
+    {
+      "id": 35,
+      "section": "General Awareness",
+      "question": "Which dynasty overthrew the Mauryan Empire?",
+      "question_image": null,
+      "options": [
+        "Shaka",
+        "Gupta",
+        "Shunga",
+        "Pala"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Shunga) है।",
+      "explanation_image": null,
+      "question_id": 35
+    },
+    {
+      "id": 36,
+      "section": "General Awareness",
+      "question": "The Aunta-Simaria Bridge, opened in August 2025, connects which regions in Bihar across the Ganges?",
+      "question_image": null,
+      "options": [
+        "Darbhanga and Saharsa",
+        "Gaya and Bhagalpur",
+        "Patna and Muzaffarpur",
+        "Mokama and Begusarai"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Mokama and Begusarai) है।",
+      "explanation_image": null,
+      "question_id": 36
+    },
+    {
+      "id": 37,
+      "section": "General Awareness",
+      "question": "What has contributed to the high population density in the Northern Plains and Kerala?",
+      "question_image": null,
+      "options": [
+        "Rocky terrain and shallow soils",
+        "Flat plains, fertile soils, and abundant rainfall",
+        "Hilly terrain and moderate rainfall",
+        "Rugged terrain and unfavourable climate"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Flat plains, fertile soils, and abundant rainfall) है।",
+      "explanation_image": null,
+      "question_id": 37
+    },
+    {
+      "id": 38,
+      "section": "General Awareness",
+      "question": "Mitochondria is _____________.",
+      "question_image": null,
+      "options": [
+        "dependent",
+        "autonomous",
+        "non-autonomous",
+        "semi-autonomous"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (semi-autonomous) है।",
+      "explanation_image": null,
+      "question_id": 38
+    },
+    {
+      "id": 39,
+      "section": "General Awareness",
+      "question": "Which of the following is NOT one of the four main seasons in India based on the Indian Meteorological Department (IMD) classification?",
+      "question_image": null,
+      "options": [
+        "Post monsoon season",
+        "Winter season",
+        "Summer season",
+        "Spring season"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Spring season) है।",
+      "explanation_image": null,
+      "question_id": 39
+    },
+    {
+      "id": 40,
+      "section": "General Awareness",
+      "question": "The later stage of which of the following Five-Year Plans shifted the focused approach from development to defence and development?",
+      "question_image": null,
+      "options": [
+        "3rd",
+        "8th",
+        "2nd",
+        "7th"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (3rd) है।",
+      "explanation_image": null,
+      "question_id": 40
+    },
+    {
+      "id": 41,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A person borrows ₹31200 at 20% compound interest per year, compounded annually. At the end of every year, he pays ₹8400 as part payment. How much does he still owe after two such instalments?4454",
+      "question_image": null,
+      "options": [
+        "₹26610",
+        "₹26312",
+        "₹26448",
+        "₹26514"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (₹26448) है।",
+      "explanation_image": null,
+      "question_id": 41
+    },
+    {
+      "id": 42,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A invests ₹40,000 in a business. After 3 months, he adds ₹20,000. After another 3 months, he withdraws ₹10,000. B invests ₹50,000 for the whole year. If the total profit at the end of the year is ₹24,000, what is A’s share of the profit?",
+      "question_image": null,
+      "options": [
+        "₹11,500",
+        "₹12,000",
+        "₹11,000",
+        "₹12,500"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (₹12,000) है।",
+      "explanation_image": null,
+      "question_id": 42
+    },
+    {
+      "id": 43,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Forty-eight men can dig a trench in 14 days. In how many days will 28 men dig the same trench?",
+      "question_image": null,
+      "options": [
+        "12",
+        "48",
+        "10",
+        "24"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (24) है।",
+      "explanation_image": null,
+      "question_id": 43
+    },
+    {
+      "id": 44,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A man receives ₹5,842 per month as salary. He saves 50% of his salary every month. His expenditure (in ₹) per month is:",
+      "question_image": null,
+      "options": [
+        "2,854",
+        "3,017",
+        "2,921",
+        "2,936"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (2,921) है।",
+      "explanation_image": null,
+      "question_id": 44
+    },
+    {
+      "id": 45,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The average weight of Mandar, Ketan and Tushar is 46 kg. If the average weight of Mandar and Ketan is 41 kg and that of Ketan and Tushar is 46 kg, then the weight of Ketan (in kg) is:",
+      "question_image": null,
+      "options": [
+        "46",
+        "36",
+        "56",
+        "51"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (36) है।",
+      "explanation_image": null,
+      "question_id": 45
+    },
+    {
+      "id": 46,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A, B and C, when each is working alone, can do a piece of work in, respectively, 11, 88 and 11 days. They all started the work together, but A left after 2 days. In how many days, was the remaining work completed?",
+      "question_image": null,
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (6) है।",
+      "explanation_image": null,
+      "question_id": 46
+    },
+    {
+      "id": 47,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "2961 is divided into three parts in such a way that half of the first part, one-fourth of the second part and one-eighth of the third part are equal. What is the value of third part?",
+      "question_image": null,
+      "options": [
+        "1992",
+        "1692",
+        "1592",
+        "1792"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (1692) है।",
+      "explanation_image": null,
+      "question_id": 47
+    },
+    {
+      "id": 48,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "If the listed price of a bag is 80% more than its cost price and a discount of 56% is announced on it, find the loss percentage.",
+      "question_image": null,
+      "options": [
+        "23.38%",
+        "20.8%",
+        "21.75%",
+        "24.7%"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (20.8%) है।",
+      "explanation_image": null,
+      "question_id": 48
+    },
+    {
+      "id": 49,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "If the radii of two spheres are in the ratio 4 : 3, then the ratio of their surface area is:",
+      "question_image": null,
+      "options": [
+        "64 : 27",
+        "4 : 3",
+        "3 : 4",
+        "16 : 9"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (16 : 9) है।",
+      "explanation_image": null,
+      "question_id": 49
+    },
+    {
+      "id": 50,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A and B working together can do a piece of work in 18 days. B alone can do the same work in 72 days. How long (in days) will A alone take to do the same work?",
+      "question_image": null,
+      "options": [
+        "26",
+        "25",
+        "24",
+        "27"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (24) है।",
+      "explanation_image": null,
+      "question_id": 50
+    },
+    {
+      "id": 51,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The LCM of 29, 90, 180 and 261 is:",
+      "question_image": null,
+      "options": [
+        "5289",
+        "5131",
+        "5220",
+        "5268"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (5220) है।",
+      "explanation_image": null,
+      "question_id": 51
+    },
+    {
+      "id": 52,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The difference (rounded off to one decimal place) between the compound interest (when interest is compounded annually) and the simple interest, if ₹55,700 is deposited at 3% rate of interest per annum for 2 years, is:",
+      "question_image": null,
+      "options": [
+        "₹42.6",
+        "₹58.8",
+        "₹50.1",
+        "₹51.2"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (₹50.1) है।",
+      "explanation_image": null,
+      "question_id": 52
+    },
+    {
+      "id": 53,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "यदि किसी संख्या का 30% उसके 25% से 96 अधिक है, तो वह संख्या कितनी होगी?",
+      "question_image": null,
+      "options": [
+        "1920",
+        "1940",
+        "1960",
+        "1900"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (1920) है।",
+      "explanation_image": null,
+      "question_id": 53
+    },
+    {
+      "id": 54,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The volume (in m3) of a cuboidal tank, whose dimensions are given as 8 m × 25 m × 5 m, is:",
+      "question_image": null,
+      "options": [
+        "990",
+        "989",
+        "1000",
+        "1041"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (1000) है।",
+      "explanation_image": null,
+      "question_id": 54
+    },
+    {
+      "id": 55,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "P and Q together can fill a cistern with water in 8 hours. If P alone can fill the same amount of water in 16 hours, then in how many hours will Q alone fill the same amount of water?",
+      "question_image": null,
+      "options": [
+        "18",
+        "16",
+        "15",
+        "17"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (16) है।",
+      "explanation_image": null,
+      "question_id": 55
+    },
+    {
+      "id": 56,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Rakesh bought a dress and sold it to Shivam at a profit of 10%. Shivam sold it to Rupesh at a loss of 10%. If Rupesh paid ₹3,960, then the cost price (in ₹) of the dress Rakesh bought is:",
+      "question_image": null,
+      "options": [
+        "4,000",
+        "3,750",
+        "4,150",
+        "3,800"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (4,000) है।",
+      "explanation_image": null,
+      "question_id": 56
+    },
+    {
+      "id": 57,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The average of three numbers is 20. If two numbers are 14 and 26, the third number is:",
+      "question_image": null,
+      "options": [
+        "20",
+        "19",
+        "21",
+        "22"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (20) है।",
+      "explanation_image": null,
+      "question_id": 57
+    },
+    {
+      "id": 58,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "What is the smallest number of 5 digits that is completely divisible by 13?",
+      "question_image": null,
+      "options": [
+        "10005",
+        "10013",
+        "10026",
+        "10010"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (10010) है।",
+      "explanation_image": null,
+      "question_id": 58
+    },
+    {
+      "id": 59,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "If the ratio of two numbers is 3 : 1, and their HCF is 55, then their LCM is:2407",
+      "question_image": null,
+      "options": [
+        "193",
+        "191",
+        "167",
+        "165"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (165) है।",
+      "explanation_image": null,
+      "question_id": 59
+    },
+    {
+      "id": 60,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A man covers the first 120 km of his journey at 60 km/hr and the next 30 km of his journey at 10 km/hr. Find his average speed.",
+      "question_image": null,
+      "options": [
+        "23 km/hr",
+        "30 km/hr",
+        "42 km/hr",
+        "50 km/hr"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (30 km/hr) है।",
+      "explanation_image": null,
+      "question_id": 60
+    },
+    {
+      "id": 61,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate question tag to fill in the blank.Shubham writes an apology letter for his behaviour towards his teachers, __________?",
+      "question_image": null,
+      "options": [
+        "does he",
+        "doesn’t he",
+        "did he",
+        "didn’t he"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (doesn’t he) है।",
+      "explanation_image": null,
+      "question_id": 61
+    },
+    {
+      "id": 62,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate meaning of the given idiom.My way or the highway",
+      "question_image": null,
+      "options": [
+        "To give a list of rules",
+        "To runaway from the people",
+        "To spoil or ruin someone's plans or event",
+        "To give an ultimatum"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (To give an ultimatum) है।",
+      "explanation_image": null,
+      "question_id": 62
+    },
+    {
+      "id": 63,
+      "section": "English Language and Comprehension",
+      "question": "Select the option that can be used as a one-word substitute to describe the library's collection.The library was filled with a vast collection of books, covering every imaginable topic. There were shelves upon shelves of novels, biographies, history books, scientific journals, and everything in between.",
+      "question_image": null,
+      "options": [
+        "Meager",
+        "Scanty",
+        "Extensive",
+        "Limited"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Extensive) है।",
+      "explanation_image": null,
+      "question_id": 63
+    },
+    {
+      "id": 64,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate idiom that can substitute the underlined segment in the given paragraph.Unexpected expenses, like a mischievous cat bolting for the door, can appear from anywhere. A medical bill, car trouble or that amazing deal you can't resist – all potential budget busters. Wrangling your finances can feel like an impossible and unmanageable task, but it's not insurmountable. With patience, discipline and maybe a dash of humour, you can wrangle those spending quirks. By recognising these financial felines and planning ahead, you'll navigate the financial maze and reach your goals with greater ease.",
+      "question_image": null,
+      "options": [
+        "a bull in a china shop",
+        "a walk in the park",
+        "herding cats",
+        "greasing the wheals"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (herding cats) है।",
+      "explanation_image": null,
+      "question_id": 64
+    },
+    {
+      "id": 65,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage and answer the questions that follow. Waxing, a common method of hair removal, has been practised for centuries across different cultures and civilisations. While its basic purpose remains cosmetic, the motivations and perceptions surrounding waxing have evolved significantly. In ancient Egypt, hair removal was considered a symbol of cleanliness and beauty. Today, waxing is both a personal grooming choice and, at times, a reflection of societal norms and expectations. Modern waxing techniques range from traditional hot wax to newer options like sugar waxing and cold wax strips. These methods vary in effectiveness, pain levels, and cost, making accessibility and preference important factors in decision-making. Interestingly, the popularity of waxing has also prompted discussions about gender roles and body autonomy. Although once marketed predominantly to women, waxing has seen a rise in male clientele in recent years, reflecting a shift toward more inclusive beauty standards. Despite its widespread use, waxing is not without its criticisms. Dermatologists often warn against overuse, as it can irritate the skin, lead to ingrown hairs, and even cause long-term sensitivity. Moreover, some argue that the pressure to remove body hair is driven more by commercial beauty ideals than by individual preference. Waxing is more than a grooming habit; it reveals the complex interplay between personal choices, cultural influences, and evolving ideals of beauty.What does the passage suggest about the changing societal views toward waxing?",
+      "question_image": null,
+      "options": [
+        "Waxing reflects broader changes in gender norms and self-expression.",
+        "Waxing has become less popular due to health concerns.",
+        "The motivations behind waxing are now solely aesthetic.",
+        "Ancient practices of waxing are no longer relevant today."
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Waxing reflects broader changes in gender norms and self-expression.) है।",
+      "explanation_image": null,
+      "question_id": 65
+    },
+    {
+      "id": 66,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage carefully and answer the questions that follow.Public libraries have long been cornerstones of communities, offering a wealth of knowledge and resources for free. Beyond just books, libraries provide access to computers, Wi-Fi, meeting spaces, and a variety of programmes for all ages. This accessibility makes libraries crucial for individuals seeking to bridge the digital divide, gain new skills, or simply enjoy a quiet space to read or work.The rise of e-readers and online resources might seem like a threat to traditional libraries. However, libraries are adapting to the changing landscape. Many now offer digital collections of e-books and audiobooks, allowing patrons to access materials anytime, anywhere. Libraries also host workshops on digital literacy, helping individuals navigate the online world with confidence.Furthermore, libraries are increasingly becoming hubs for social interaction and community engagement. They host book clubs, author talks, and cultural events, fostering a sense of connection and belonging. Libraries also play a vital role in early childhood education, providing story times, educational resources, and a nurturing environment for young minds to explore and learn.In conclusion, libraries remain essential institutions in the 21st century. By offering a blend of traditional and modern resources, fostering social connections, and supporting education, libraries continue to empower individuals and communities to thrive.638Which of the following is a fact mentioned in the passage?",
+      "question_image": null,
+      "options": [
+        "Libraries no longer provide a space for quiet reading.",
+        "Public libraries charge fees for access to Wi-Fi.",
+        "E-readers have made traditional libraries obsolete.",
+        "Libraries offer workshops on digital literacy."
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Libraries offer workshops on digital literacy.) है।",
+      "explanation_image": null,
+      "question_id": 66
+    },
+    {
+      "id": 67,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate option to fill in the blank.The scientist was so engrossed ______ his research that he barely noticed the time passing.",
+      "question_image": null,
+      "options": [
+        "in",
+        "on",
+        "at",
+        "under"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (in) है।",
+      "explanation_image": null,
+      "question_id": 67
+    },
+    {
+      "id": 68,
+      "section": "English Language and Comprehension",
+      "question": "Select the option that can be used as a one-word substitute for the underlined group of words in the given sentence.Alexander Pope's Essay on Man pertains to the philosophical doctrine of the quality and conditions of ignorance, and in particular of what can truly be considered 'unknowable' as distinct from 'unknown'.",
+      "question_image": null,
+      "options": [
+        "agnotology",
+        "atheism",
+        "thearchy",
+        "agnoiology"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (agnoiology) है।",
+      "explanation_image": null,
+      "question_id": 68
+    },
+    {
+      "id": 69,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate question tag to fill in the blank.Rakesh has completed his work, _______?",
+      "question_image": null,
+      "options": [
+        "had he",
+        "have he",
+        "has he",
+        "hasn’t he"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (hasn’t he) है।",
+      "explanation_image": null,
+      "question_id": 69
+    },
+    {
+      "id": 70,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate option to fill in the blank.This movie is ___________ entertaining than the last one we watched.",
+      "question_image": null,
+      "options": [
+        "most",
+        "quite",
+        "more",
+        "much"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (more) है।",
+      "explanation_image": null,
+      "question_id": 70
+    },
+    {
+      "id": 71,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate article to fill in the blank. If no article is needed, select 'No article required'.There is ______ belief that coffee is good for health.",
+      "question_image": null,
+      "options": [
+        "No article required",
+        "the",
+        "an",
+        "a"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (a) है।",
+      "explanation_image": null,
+      "question_id": 71
+    },
+    {
+      "id": 72,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage and answer the questions that follow.Elara lived in a village nestled beside the Whispering Woods. Unlike the other children who chased butterflies and climbed trees, Elara was captivated by gears and springs. Her small room overflowed with dismantled toys and half-finished contraptions. One crisp autumn morning, a travelling tinker arrived, his cart laden with curious trinkets. Among them, a clockwork canary with gleaming brass feathers and tiny ruby eyes caught Elara’s attention.The tinker, a man with twinkling eyes and a long, grey beard, wound the key, and the canary burst into a surprisingly melodious song. Elara was mesmerised. She traded her most prized possession, a smooth, grey river stone she’d carried since she was little, for the mechanical bird. Back in her room, Elara didn't just listen to the canary sing. She gently probed its intricate workings, her nimble fingers tracing the delicate connections. Days turned into weeks, filled with the soft whirring of gears and Elara’s quiet concentration.One afternoon, the canary’s song faltered and then fell silent. Most would have been disheartened, but Elara’s eyes gleamed with newfound purpose. Now, the real puzzle began. She sketched diagrams late into the night, her candle flickering as shadows danced across the walls. Pages filled with possibilities, each scribble bringing her closer to understanding. With every twist of a screw and alignment of a gear, Elara wasn’t just repairing a bird—she was building her dream, one click at a time. Her world, once quiet and ordinary, now buzzed with invention, hope, and the promise of something greater.Select the most appropriate title for the given passage.",
+      "question_image": null,
+      "options": [
+        "The Whispering Woods",
+        "The Song of the Silent Canary",
+        "Elara and the Tinker",
+        "Gears and Dreams"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Gears and Dreams) है।",
+      "explanation_image": null,
+      "question_id": 72
+    },
+    {
+      "id": 73,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate option to fill in the blank and complete the following sentence.The challenge, in overcoming which he faced the greatest difficulty, was a/an ________ tendency to procrastinate that had been ingrained in him since his childhood and later reinforced by surrounding influences.",
+      "question_image": null,
+      "options": [
+        "pernicious",
+        "irrefutable",
+        "restrained",
+        "inveterate"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (inveterate) है।",
+      "explanation_image": null,
+      "question_id": 73
+    },
+    {
+      "id": 74,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate and grammatically correct adjective to fill in the blank.The ________ negotiations between the factory workers and management were a pleasant surprise and also a huge relief.",
+      "question_image": null,
+      "options": [
+        "affectionate",
+        "amicable",
+        "hostile",
+        "apathetic"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (amicable) है।",
+      "explanation_image": null,
+      "question_id": 74
+    },
+    {
+      "id": 75,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate option to fill in the blank.I hadn't expected but he turned out to be an/a ___________ editor. The edited work looks very promising.",
+      "question_image": null,
+      "options": [
+        "stable",
+        "affordable",
+        "able",
+        "comfortable"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (able) है।",
+      "explanation_image": null,
+      "question_id": 75
+    },
+    {
+      "id": 76,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage and answer the questions that follow.Artificial intelligence (AI) is rapidly transforming industries, paving the way for a smarter and more efficient global economy. Its applications span diverse sectors, including healthcare, where AI aids in diagnostics and personalised treatments, and finance, where it optimises fraud detection and investment strategies. Machine learning, a vital subset of AI, has emerged as a game-changer by enabling systems to learn from vast amounts of data and improve autonomously. This capability is revolutionising areas like predictive maintenance in manufacturing and urban planning by offering data-driven insights that improve outcomes and efficiency.Yet, despite these promising advancements, AI adoption faces significant challenges. Ethical concerns, such as algorithmic bias and the misuse of personal data, are critical hurdles that need immediate attention. Additionally, successful implementation of AI requires substantial workforce upskilling and reskilling, as traditional roles evolve to incorporate advanced technologies. Smaller organisations, often constrained by limited budgets, struggle with the high cost and technical complexity of deploying AI solutions, widening the gap in adoption rates.In response to these challenges, governments and corporations worldwide are allocating considerable resources to AI research and development. These investments aim to address technical, ethical, and accessibility issues while fostering innovation. By developing inclusive policies, ensuring data security, and promoting transparency, the transformative potential of AI can be fully realised. As AI continues to evolve, its ability to shape industries, improve lives, and drive economic progress offers a glimpse into a highly connected and innovative future.What does the passage primarily discuss?",
+      "question_image": null,
+      "options": [
+        "The role of governments in regulating AI technologies",
+        "The ethical concerns of using machine learning in businesses",
+        "The limitations of AI in practical applications",
+        "The transformative impact and challenges of AI adoption across industries"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (The transformative impact and challenges of AI adoption across industries) है।",
+      "explanation_image": null,
+      "question_id": 76
+    },
+    {
+      "id": 77,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate option to substitute the underlined segment in the given sentence.Alex was raked over the coals for violating the traffic rules.",
+      "question_image": null,
+      "options": [
+        "appreciated",
+        "rebuked harshly",
+        "given a penalty",
+        "sentenced to jail"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (rebuked harshly) है।",
+      "explanation_image": null,
+      "question_id": 77
+    },
+    {
+      "id": 78,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate option to fill in the blank.The gemstone is very shiny. Have you ever seen a _____________ one?",
+      "question_image": null,
+      "options": [
+        "shinier",
+        "shiniest",
+        "shine",
+        "shiny"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (shinier) है।",
+      "explanation_image": null,
+      "question_id": 78
+    },
+    {
+      "id": 79,
+      "section": "English Language and Comprehension",
+      "question": "Select the sentence in which all the words are correctly spelt.",
+      "question_image": null,
+      "options": [
+        "She sought to allieviate the tensions by facilitating an open dialogue between both parties.",
+        "She sought to alleviete the tensions by facilitating an open dialogue between both parties.",
+        "She sought to alleiviate the tensions by facilitating an open dialogue between both parties.",
+        "She sought to alleviate the tensions by facilitating an open dialogue between both parties."
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (She sought to alleviate the tensions by facilitating an open dialogue between both parties.) है।",
+      "explanation_image": null,
+      "question_id": 79
+    },
+    {
+      "id": 80,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate adjective to fill in the blank.The ___________ mountain peak offered breathtaking views of the surrounding valleys and lakes.",
+      "question_image": null,
+      "options": [
+        "happiness",
+        "slowly",
+        "tall",
+        "quickly"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (tall) है।",
+      "explanation_image": null,
+      "question_id": 80
+    },
+    {
+      "id": 81,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:दिए गये गद्यांश को पढ़ें और नीचे दिए गये प्रश्नो का उत्तर देंदक्षिण अफ्रीका में गांधीजी जिस मुकदमे के सिलसिले में गए थे, उसे उन्होंने समझौते द्वारा निपटवा दिया। किन्तु वहां जाकर उनके जीवन की दिशा ही मुड़ गई। दक्षिण अफ्रीका में बहुत बडी संख्या में भारतीय रहते थे। ये भारतीय किसी समय मजदूरी करने के लिए एक ऐग्रीमेंट की शर्तों के अनुसार यहां लाए गए थे; इसीलिए इन्हें 'गिरमिटिया' कहा जाता था। गोरे लोग इन भारतीयों के साथ पशुओं से भी बुरा बर्ताव करते थे और वे भारतीय उस सारे अपमान और लांछना को सिर झुकाकर सह लेते थे। गांधीजी ने ऐसे दुर्व्यवहार के सामने सिर झुकाना स्वीकार न किया। एक बार अदालत में उनसे पगड़ी उतारने को कहा गया। गांधीजी ने अदालत से निकल जाना मंजूर किया पर पगड़ी उतारना नहीं। इस प्रकार अन्याय के विरुद्ध विद्रोह करके उन्होंने भारतीयों मे एक नई चेतना जगाई। वैसे गांधीजी शायद जल्दी ही भारत वापस लौट आते, किन्तु भारतीयों की दुर्दशा को देखकर उन्होंने अफ्रीका में ही रहने का निश्चय कर लिया।गद्यांश में प्रयुक्त ‘लांछन’ शब्द का पर्यायवाची शब्द बताएं-",
+      "question_image": null,
+      "options": [
+        "दुर्लभ",
+        "लक्षण",
+        "आरोप",
+        "विकास"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (आरोप) है।",
+      "explanation_image": null,
+      "question_id": 81
+    },
+    {
+      "id": 82,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:दिए गए गद्यांंश के आधार पर निम्नांकित प्रश्नों के उत्तर दीजिए-एक बस्ती में दो विद्वान रहते थे, जिनके विचारों में अत्यधिक मतभेद था और वे सदा एक – दूसरे की योग्यता पर व्यंग्य करते थे। उनमें से एक नास्तिक था और दूसरा आस्तिक।एक दिन दोनों बाजार में मिले और अपने – अपने अनुयोयियों की उपस्थिति में भगवान के अस्तित्व पर वाद – विवाद करने लगे। घंटों वाद – विवाद करने के पश्चात वे एक – दूसरे से अलग हुए।उसी साँझ नास्तिक मंदिर में गया और अपने पूर्वपापों के लिए भगवान से क्षमा – याचना करने लगा। दूसरे विद्वान ने घर जाकर अपनी सब धार्मिक पुस्तकें जला दीं; क्योंकि अब वह एक नास्तिक बन चुका था।‘शिष्य’ के लिए कौन – सा पर्यायवाची शब्द अवतरण में प्रयुक्त है ?",
+      "question_image": null,
+      "options": [
+        "विद्वान",
+        "अनुयायी",
+        "नास्तिक",
+        "आस्तिक"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (अनुयायी) है।",
+      "explanation_image": null,
+      "question_id": 82
+    },
+    {
+      "id": 83,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:गद्यांश के आधार पर प्रश्न का उत्तर दें।तुर्कों के द्वारा भारत में शासन क़ायम करने से लेकर शाहजहाँ तक के राजनीतिक इतिहास में सबसे महत्त्वपूर्ण तथ्य केंद्रीकृत शासन व्यवस्था है। तुर्कों ने शासन-व्यवस्था को सुचारू रूप से चलाने के लिए केंद्रीय प्रशासन और स्थानीय प्रशासन की व्यवस्था की। आय और व्यय का हिसाब रखने के लिए अधिकारियों की नियुक्तियाँ की गईं। साम्राज्य को विभिन्न सूबों में बाँटा गया और फिर सूबों को भी विभाजित किया गया, जिसे उस समय शिक कहा जाता था। शिक के नीचे परगने होते थे। गाँव में खुत, मुकद्दम, पटवारी के माध्यम से भू-राजस्व की वसूली की जाती थी। तुर्कों के आने के बाद दूसरा महत्त्वपूर्ण परिवर्तन शहरों का उदय है। दिल्ली, आगरा, बनारस, इलाहाबाद, पटना आदि कई शहरों का उदय हुआ। तुर्कों के साथ नई तकनीक भारत आई। इनमें चरखा, धुनकी, रहट, काग़ज़, चुम्बकीय कुतुबनुमा, घुड़सवार सेना प्रमुख हैं। चरखे के आने से वस्त्र उद्योग में काफी बढ़ोत्तरी हुई। कारीगर की क्षमता बढ़ जाने से वस्त्र उद्योग भारत का सबसे बड़ा उद्योग हो गया। इस काल में शुरू होने वाला नया उद्योग काग़ज़ निर्माण का था।110'परगना' से अभिप्राय है-115",
+      "question_image": null,
+      "options": [
+        "एक प्रकार का उद्योग",
+        "एक शहर का नाम",
+        "एक मापक इकाई",
+        "राज्य का एक विभाजन"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (राज्य का एक विभाजन) है।",
+      "explanation_image": null,
+      "question_id": 83
+    },
+    {
+      "id": 84,
+      "section": "Hindi Language and Comprehension",
+      "question": "नीचे दिए गए विकल्पों में से सही क्रम वाले वाक्य का चयन कीजिए।",
+      "question_image": null,
+      "options": [
+        "शब्द का प्रयोग में आर्य ऋग्वेद  छत्तीस बार हुआ है।",
+        "छत्तीस बार हुआ है शब्द का प्रयोग में आर्य ऋग्वेद ।",
+        "ऋग्वेद में आर्य शब्द का प्रयोग छत्तीस बार हुआ है।",
+        "में आर्य ऋग्वेद शब्द का प्रयोग छत्तीस बार हुआ है।"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (ऋग्वेद में आर्य शब्द का प्रयोग छत्तीस बार हुआ है।) है।",
+      "explanation_image": null,
+      "question_id": 84
+    },
+    {
+      "id": 85,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:निम्न गद्यांश  के आधार पर उत्तर दीजिए। मैथिलीशरण गुप्त का जन्म 3 अगस्त 1886 को चिरगाँव, झाँसी, उत्तर प्रदेश में एक वैश्य परिवार में हुआ था। उनके पिता का नाम सेठ रामचरण और माता का नाम श्रीमती काशीबाई था।उनका झुकाव बचपन से ही साहित्य की ओर था। उन्होंने हिंदी को अपनी काव्य अभिव्यक्ति का माध्यम बनाया, जबकि उस समय ब्रजभाषा और अवधी का अधिक प्रचलन था। उनकी काव्य प्रतिभा को महावीर प्रसाद द्विवेदी ने प्रोत्साहित किया। राम भक्ति और काव्य की प्रतिभा उन्हें अपने पिता से विरासत में मिली थी, क्योंकि उनके पिता राम भक्त थे। मैथिलीशरण गुप्त हिंदी साहित्य के प्रसिद्ध कवि थे, जिन्हें \"राष्ट्रकवि\" की उपाधि दी गई। वे खड़ी बोली हिंदी के कवि माने जाते हैं। उनकी रचनाएँ राष्ट्रीय चेतना, सामाजिक सुधार और भारतीय संस्कृति से ओत-प्रोत है।गुप्त जी की कविताएँ सरल, सहज और भावनात्मक होती थी। उन्होंने अपनी रचनाओं में भारतीय संस्कृति, इतिहास और राष्ट्रभक्ति को प्रमुखता दी। उनकी भाषा खड़ी बोली होते हुए भी सहज और प्रभावशाली थी।उनकी प्रमुख कृतियाँ साकेत, यशोधरा, भारत-भारती, पंचवटी, और जयद्रथ वध है। ‘भारत-भारती’ कविता  के माध्यम से  भारतीय स्वतंत्रता संग्राम में लोगों में राष्ट्रीय चेतना जागृत करने का कार्य किया। साकेत में उन्होंने रामायण की कथा को उर्मिला के दृष्टिकोण से प्रस्तुत किया, जो उनकी नवीन दृष्टि को दर्शाता है।गुप्त जी की रचनाएँ राष्ट्रीयता से ओत-प्रोत थी। वे नारी शिक्षा, जाति सुधार और भारतीय संस्कृति के पुनर्जागरण के समर्थक थे। उन्होंने नारी जीवन के संघर्षों को भी अपनी कविता में स्थान दिया। मैथिलीशरण गुप्त हिंदी साहित्य के अमर कवि थे। उनकी कृतियाँ आज भी प्रेरणा देती है और हिंदी काव्य को नई दिशा प्रदान करती है । उनका योगदान हिंदी साहित्य और राष्ट्रीय चेतना में अतुलनीय है।निम्न विकल्पों में उपर्युक्त  गद्यांश का सही सारांश चुनें ।",
+      "question_image": null,
+      "options": [
+        "संत जी की रचनाएँ भारतीय संस्कृति के पुनर्जागरण,राष्ट्रीयता आदि से ओत-प्रोत थी।",
+        "पंत जी की रचनाएँ भारतीय संस्कृति के पुनर्जागरण,राष्ट्रीयता आदि से ओत-प्रोत थी।",
+        "प्रसाद  जी की रचनाएँ भारतीय संस्कृति के पुनर्जागरण,राष्ट्रीयता आदि से ओत-प्रोत थी।",
+        "गुप्त जी की रचनाएँ भारतीय संस्कृति के पुनर्जागरण,राष्ट्रीयता आदि से ओत-प्रोत थीं ।"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (गुप्त जी की रचनाएँ भारतीय संस्कृति के पुनर्जागरण,राष्ट्रीयता आदि से ओत-प्रोत थीं ।) है।",
+      "explanation_image": null,
+      "question_id": 85
+    },
+    {
+      "id": 86,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्नलिखित में से कौन -सा ‘अनेक शब्दों के लिए एक शब्द’  युग्म अशुद्ध है?",
+      "question_image": null,
+      "options": [
+        "पसीने से उत्पन्न होने वाला-स्वेदज्",
+        "जो अपने से उत्पन्न हो- स्वयंभू",
+        "जो किसी के अधीन या पराधीन हो- गुलाम",
+        "स्वयं का हित चाहने वाला- अनेकार्थी"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (स्वयं का हित चाहने वाला- अनेकार्थी) है।",
+      "explanation_image": null,
+      "question_id": 86
+    },
+    {
+      "id": 87,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्न वाक्यांश  के लिए सार्थक शब्द अंकित कीजिए।जिसे मर जाने की कामना हो -",
+      "question_image": null,
+      "options": [
+        "मुमूर्षु",
+        "असहिष्णु",
+        "सहिष्णु",
+        "चक्षु"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (मुमूर्षु) है।",
+      "explanation_image": null,
+      "question_id": 87
+    },
+    {
+      "id": 88,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्नलिखित वाक्यांश के लिए सही सार्थक शब्द अंकित कीजिए। जिसका दमन करना कठिन हो 649",
+      "question_image": null,
+      "options": [
+        "दर्दयनीय",
+        "दुर्दमनीय",
+        "गमनीय",
+        "गोपनीय"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (दुर्दमनीय) है।",
+      "explanation_image": null,
+      "question_id": 88
+    },
+    {
+      "id": 89,
+      "section": "Hindi Language and Comprehension",
+      "question": "उसकी आपबीती  सुनकर मैं द्रविभूत  हो गया।वाक्य के किस अंश में अशुद्धि है ?",
+      "question_image": null,
+      "options": [
+        "सुनकर मैं",
+        "उसकी आपबीती",
+        "हो  गया ।",
+        "द्रविभूत"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (द्रविभूत) है।",
+      "explanation_image": null,
+      "question_id": 89
+    },
+    {
+      "id": 90,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्नलिखित वाक्य खंड को सही क्रम में लिखिए।मेरा गगन है नाम।",
+      "question_image": null,
+      "options": [
+        "नाम गगन मेरा है।",
+        "है मेरा गगन नाम।",
+        "मेरा नाम गगन है।",
+        "है नाम गगन मेरा।"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (मेरा नाम गगन है।) है।",
+      "explanation_image": null,
+      "question_id": 90
+    },
+    {
+      "id": 91,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्नलिखित वाक्यांश के लिए दिए गए विकल्पों में सही सार्थक शब्द चुनें।  ‘जिसे ईश्वर पर विश्वास न हो।’846",
+      "question_image": null,
+      "options": [
+        "ईश्वरीय",
+        "नास्तिक",
+        "नश्वर",
+        "आस्तिक"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (नास्तिक) है।",
+      "explanation_image": null,
+      "question_id": 91
+    },
+    {
+      "id": 92,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:गद्यांश के अनुसार दिए गए प्रश्नों का उत्तर दें -साहित्योन्नति के साधनों में पुस्तकालयों का स्थान अत्यंत महत्त्वपूर्ण है। इनके द्वारा साहित्य के जीवन की रक्षा, पुष्टि और अभिवृद्धि होती है। पुस्तकालय सभ्यता के इतिहास का जीता-जागता गवाह है। इसी के बल पर वर्तमान भारत को अपने अतीत गौरव पर गर्व है। पुस्तकालय भारत के लिए कोई नई वस्तु नहीं है। लिपि के आविष्कार से आज तक लोग निरंतर पुस्तकों का संग्रह करते रहे हैं। पहले देवालय, विद्यालय और नृपालय इन संग्रहों के प्रमुख स्थान होते थे। इनके अतिरिक्त, विद्वज्जनों के अपने निजी पुस्तकालय भी होते थे। मुद्रणकला के आविष्कार से पूर्व पुस्तकों का संग्रह करना आजकल की तरह सरल बात न थी। आजकल साधारण स्थिति के पुस्तकालय में जितनी संपत्ति लगती है, उतनी उन दिनों कभी-कभी एक-एक पुस्तक की तैयारी में लग जाया करती थी। भारत के पुस्कालय संसारभर में अपना सानी नहीं रखते थे। प्राचीनकाल से मुगल सम्राटों के समय तक यही स्थिति रही। चीन, फारस प्रभृति सुदूरस्थित देशों से झुंड-के-झुंड विद्यानुरागी लंबी यात्राएँ करके भारत आया करते थे।प्रस्तुत गद्यांश  के अनुसार पुराने समय में अधिक व्यय  क्यों होता था ?118",
+      "question_image": null,
+      "options": [
+        "अशिक्षा के करण",
+        "साहित्य की अवनति के कारण",
+        "यातायात के साधन न होने के करण",
+        "मुद्रण की व्यवस्था न होने के करण"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (मुद्रण की व्यवस्था न होने के करण) है।",
+      "explanation_image": null,
+      "question_id": 92
+    },
+    {
+      "id": 93,
+      "section": "Hindi Language and Comprehension",
+      "question": "'इस जमीन से अच्छी पेदावार होती है।'दिये गये वाक्य के किस भाग में त्रुटि है?",
+      "question_image": null,
+      "options": [
+        "पेदावर",
+        "इस",
+        "अच्छी",
+        "जमीन"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (पेदावर) है।",
+      "explanation_image": null,
+      "question_id": 93
+    },
+    {
+      "id": 94,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्न वाक्य को क्रम में लिखें-\tउसी पर चलकर दूसरा भी \tकवि को अनुसरण नहीं करना चाहिए, \tकवि हो सके, यह संभव नहीं।\tक्योंकि जिस पथ पर एक कवि को सफलता हुई है",
+      "question_image": null,
+      "options": [
+        "3 2 1 4",
+        "2 3 4 1",
+        "4 1 2 3",
+        "2 4 1 3"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (2 4 1 3) है।",
+      "explanation_image": null,
+      "question_id": 94
+    },
+    {
+      "id": 95,
+      "section": "Hindi Language and Comprehension",
+      "question": "विशेषण  के आधार पर वाक्य पूर्ण कीजिए।गंगा नदी का पानी _____ और पवित्र होता है।",
+      "question_image": null,
+      "options": [
+        "चंचल",
+        "शीतल",
+        "ज्ञानवर्धक",
+        "बलवान"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (शीतल) है।",
+      "explanation_image": null,
+      "question_id": 95
+    },
+    {
+      "id": 96,
+      "section": "Hindi Language and Comprehension",
+      "question": "वह वाक्य चुनें, जिसमें किसी शब्द की वर्तनी अशुद्ध है-",
+      "question_image": null,
+      "options": [
+        "वह उच्च कोटी का विद्वान है।",
+        "मुख्य अतिथि आ गए।",
+        "बदाम खाओ, स्वस्थ रहो।",
+        "द्वार पर  साधू आए हैं।"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (मुख्य अतिथि आ गए।) है।",
+      "explanation_image": null,
+      "question_id": 96
+    },
+    {
+      "id": 97,
+      "section": "Hindi Language and Comprehension",
+      "question": "वर्तनी की दृष्टि से दिए गए वाक्य के किस अंश में त्रुटि है, पहचानें-- नामदेव किसी गुरु से दीछा लेकर अपनी सगुण भक्ति में प्रवृत्त नहीं हुए थे।1138",
+      "question_image": null,
+      "options": [
+        "से दीछा लेकर",
+        "नामदेव किसी गुरु",
+        "अपनी सगुण भक्ति",
+        "में प्रवृत्त नहीं हुए थे।"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (से दीछा लेकर) है।",
+      "explanation_image": null,
+      "question_id": 97
+    },
+    {
+      "id": 98,
+      "section": "Hindi Language and Comprehension",
+      "question": "जो मुक्ति प्राप्ति की इच्छा करे ______________ उपरोक्त वाक्य खंड के लिए उपयुक्त शब्द चयन कीजिए।",
+      "question_image": null,
+      "options": [
+        "मुमुक्षु",
+        "चिरस्थायी",
+        "वाचाल",
+        "पारंगत"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (मुमुक्षु) है।",
+      "explanation_image": null,
+      "question_id": 98
+    },
+    {
+      "id": 99,
+      "section": "Hindi Language and Comprehension",
+      "question": "वर्तनी की दृष्टि से दिए गए वाक्य के किस अंश में त्रुटि है?'आनंद की दशा का पोषण केवल सामन्य या आनंददायक वस्तुओं से ही होता है।'",
+      "question_image": null,
+      "options": [
+        "पोषण केवल सामन्य",
+        "से ही होता है",
+        "या आनंददायक वस्तुओं",
+        "आनंद की दशा का"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (पोषण केवल सामन्य) है।",
+      "explanation_image": null,
+      "question_id": 99
+    },
+    {
+      "id": 100,
+      "section": "Hindi Language and Comprehension",
+      "question": "'अक्ल पर पत्थर पड़ना' मुहावरे का सही अर्थ है -",
+      "question_image": null,
+      "options": [
+        "पथरीले रास्ते पर चलना",
+        "पत्थर तोड़ना",
+        "समझ न रहना",
+        "पत्थर पर बैठना"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (समझ न रहना) है।",
+      "explanation_image": null,
+      "question_id": 100
+    },
+    {
+      "question": "Which concept of OOP is false for C++?",
+      "options": [
+        "A) Code can be written without using classes",
+        "B) Code must contain at least one class",
+        "C) A class must have member functions",
+        "D) At least one object should be declared in code"
+      ],
+      "correct_answer": "B",
+      "explanation": "In C++, it’s not necessary to use classes, and hence codes can be written without using OOP concept. Classes may or may not contain member functions, so it’s not a necessary condition in C++. And, an object can only be declared in a code if its class is defined/included via header file.",
+      "topic": "Object Oriented Programming using C++    OOPs Basic Conc...",
+      "id": 101,
+      "question_id": 101
+    },
+    {
+      "question": "The back bone of any organization is",
+      "options": [
+        "A) information",
+        "B) management",
+        "C) employee",
+        "D) capital"
+      ],
+      "correct_answer": "C",
+      "explanation": "The back bone of any organization is employee. Employees are the backbone of any organization, and as you might expect, studies show that happy employees are more motivated, productive and committed and as you might expect, studies show that happy employees are more motivated, productive and committed.",
+      "topic": "Business Communication MCQ Questions and Solutions with Explanations   Management Page 1 section 2",
+      "site": "www.examveda.com",
+      "id": 102,
+      "question_id": 102
+    },
+    {
+      "question": "Why is the phase of individual multipath components are not received in RF Pulse system?",
+      "options": [
+        "A) Due to use of duplexer",
+        "B) Due to use of ADC",
+        "C) Due to use of flip flops",
+        "D) Due to use of envelope detector"
+      ],
+      "correct_answer": "D",
+      "explanation": "Another disadvantage of RF pulse system is that phase of individual multipath components are not received due to use of an envelope detector. However, use of a coherent detector permits measurement of the multipath phase using this technique.",
+      "id": 103,
+      "question_id": 103
+    },
+    {
+      "question": "A _________ consists of a sequence of query and/or update statements.",
+      "options": [
+        "A) Transaction",
+        "B) Commit",
+        "C) Rollback",
+        "D) Flashback"
+      ],
+      "correct_answer": "A",
+      "explanation": "Transaction is a set of operation until commit.",
+      "id": 104,
+      "question_id": 104
+    },
+    {
+      "question": "What location management feature is supported by 4G?",
+      "options": [
+        "A) Concatenated Location Registration",
+        "B) Concurrent Location Register",
+        "C) Concatenated Management",
+        "D) Collated Location Registration"
+      ],
+      "correct_answer": "A",
+      "explanation": "4G supports concatenated location registration. Concatenated location registration reports to the network that they are concatenated to a common object.",
+      "id": 105,
+      "question_id": 105
+    },
+    {
+      "question": "The management information system (MIS) structure with one main computer system is called a",
+      "options": [
+        "A) Hierarchical MIS structure",
+        "B) Distributed MIS structure",
+        "C) Centralized MIS structure",
+        "D) Decentralized MIS structure"
+      ],
+      "correct_answer": "A",
+      "explanation": "Structure of MIS may be understood by looking at the physical components of the information system in an organization.",
+      "id": 106,
+      "question_id": 106
+    },
+    {
+      "question": "Which of the following are two most important classes of angle modulation?",
+      "options": [
+        "A) Amplitude modulation, frequency modulation",
+        "B) Amplitude modulation, phase modulation",
+        "C) Frequency modulation, phase modulation",
+        "D) Single sideband amplitude modulation, phase modulation"
+      ],
+      "correct_answer": "C",
+      "explanation": "The two most important classes of angle modulation are frequency modulation and phase modulation. They provide the ways in which phase of a carrier signal may be varied in accordance with the baseband signal.",
+      "id": 107,
+      "question_id": 107
+    },
+    {
+      "question": "A product or service that customers have come to expect from an industry, which must be offered by new entrants if they wish to compete and survive, is known as a(n)?",
+      "options": [
+        "A) Switching costs",
+        "B) Loyalty programs",
+        "C) Entry barriers",
+        "D) Affiliate programs"
+      ],
+      "correct_answer": "C",
+      "explanation": "A product or service that customers have come to expect from an industry, which must be offered by new entrants if they wish to compete and survive, is known as an Entry barriers.",
+      "topic": "eCommerce MCQ Questions and Solutions with Explanations   Commerce Page 6 section 1",
+      "site": "www.examveda.com",
+      "id": 108,
+      "question_id": 108
+    },
+    {
+      "question": "If the instruction Add R1, R2, R3 is executed in a system which is pipelined, then the value of S is (Where S is term of the Basic performance equation).",
+      "options": [
+        "A) 2",
+        "B) ~1",
+        "C) ~7",
+        "D) 2"
+      ],
+      "correct_answer": "B",
+      "explanation": "The value will be much lower in case of multiple BUS organisation.",
+      "id": 109,
+      "question_id": 109
+    },
+    {
+      "question": "Feedback is a listeners",
+      "options": [
+        "A) verbal critique of your message",
+        "B) aversion to a message",
+        "C) acceptance of a message",
+        "D) verbal or nonverbal responses to a message"
+      ],
+      "correct_answer": "D",
+      "explanation": "Feedback is a listeners who verbally or nonverbally responses to a message. Feedback can take the form of verbal or non-verbal responses to an in-person speech, or verbal responses which are electronically captured for large or remote audiences.",
+      "topic": "Business Communication MCQ Questions and Solutions with Explanations   Management Page 6 section 1",
+      "site": "www.examveda.com",
+      "id": 110,
+      "question_id": 110
+    },
+    {
+      "question": "The word which describes the importance of software design is?",
+      "options": [
+        "A) Complexity",
+        "B) Quality",
+        "C) Efficiency",
+        "D) Accuracy"
+      ],
+      "correct_answer": "B",
+      "explanation": "The degree to which software complies with or adheres to a particular design based on functional requirements or specifications is referred to as functional quality.",
+      "id": 111,
+      "question_id": 111
+    },
+    {
+      "question": "What value is to be considered for a “don’t care condition”?",
+      "options": [
+        "A) 0",
+        "B) 1",
+        "C) Either 0 or 1",
+        "D) Any number except 0 and 1"
+      ],
+      "correct_answer": "C",
+      "explanation": "A don’t care condition can take 0 or 1 according to the requirement. SOP expressions may consider it to be 1 to increase the number of 1s and POS expressions may consider it to be 0 to increase the number of 0s.",
+      "id": 112,
+      "question_id": 112
+    },
+    {
+      "question": "FM uses class______ amplifiers and AM uses class ______ amplifiers.",
+      "options": [
+        "A) C, C",
+        "B) A, C",
+        "C) C, A",
+        "D) AB, C"
+      ],
+      "correct_answer": "C",
+      "explanation": "The constant envelope of the transmitted signal allows efficient class C amplifiers. However in AM, it is critical to maintain linearity between the applied message and amplitude of transmitted signal. Therefore, class A or AB are used for AM systems.",
+      "id": 113,
+      "question_id": 113
+    },
+    {
+      "id": 114,
+      "section": "Operating System",
+      "question": "What is included in telecommunication?",
+      "options": [
+        "A) Postal services",
+        "B) Only Internet communication",
+        "C) Mobile phones, radio, and email",
+        "D) Railway announcements"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided.",
+      "question_id": 114
+    },
+    {
+      "question": "There are _____________ Minterms for 3 variables (a, b, c).",
+      "options": [
+        "A) 0",
+        "B) 2",
+        "C) 8",
+        "D) 1"
+      ],
+      "correct_answer": "C",
+      "explanation": "Minterm is given by 2n. So, 23 = 8 minterms are required.",
+      "id": 115,
+      "question_id": 115
+    },
+    {
+      "question": "What is the set of possible carrier frequencies in FH-SS?",
+      "options": [
+        "A) Hop",
+        "B) Hopset",
+        "C) Symbols",
+        "D) Chips"
+      ],
+      "correct_answer": "B",
+      "explanation": "The set of possible carrier frequencies in FH-SS is called hopset. Hopping occurs of a frequency band that includes a number of channels. Each channel is defined as a spectral region with central frequency in the hopset.",
+      "id": 116,
+      "question_id": 116
+    },
+    {
+      "id": 117,
+      "section": "Operating System",
+      "question": "Which of the following is a result of the Columbian Exchange?",
+      "options": [
+        "A) Isolation of continents",
+        "B) Exchange of goods, crops, and diseases between continents",
+        "C) Decline in global trade",
+        "D) End of colonization"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided.",
+      "question_id": 117
+    },
+    {
+      "id": 118,
+      "section": "Operating System",
+      "question": "Two trains cross each other at a speed of 30kmph and 45 kmph, respectively. If they are moving in the opposite direction, find the length of both the trains combined. The time taken = 12 seconds.",
+      "options": [
+        "A) 0.30 km",
+        "B) 0.32 km",
+        "C) 0.25 km",
+        "D) 0.33 km"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided.",
+      "question_id": 118
+    },
+    {
+      "question": "What is computer organization?",
+      "options": [
+        "A) structure and behaviour of a computer system as observed by the user",
+        "B) structure of a computer system as observed by the developer",
+        "C) structure and behaviour of a computer system as observed by the developer",
+        "D) All of the mentioned"
+      ],
+      "correct_answer": "A",
+      "explanation": "The structure and behaviour of a computer system as observed by the user is the subject of computer organisation.",
+      "id": 119,
+      "question_id": 119
+    },
+    {
+      "question": "Any file’s attribute information is stored in which structure on the disk",
+      "options": [
+        "A) Inode",
+        "B) Data blocks",
+        "C) File blocks",
+        "D) Directory file"
+      ],
+      "correct_answer": "A",
+      "explanation": "None.",
+      "topic": "Redhat, CompTIA, LPI Exam Questions & Answers",
+      "id": 120,
+      "question_id": 120
+    },
+    {
+      "question": "How many full adders are required to construct an m-bit parallel adder?",
+      "options": [
+        "A) m/2",
+        "B) m",
+        "C) m-1",
+        "D) m+1"
+      ],
+      "correct_answer": "C",
+      "explanation": "We need adder for every bit. So we should need m bit adders. A full adder adds a carry bit to two inputs and produces an output and a carry. But the most significant bits can use a half adder which differs from the full adder as in that it has no carry input, so we need m-1 full adders and 1 half adder in m bit parallel adder.",
+      "id": 121,
+      "question_id": 121
+    },
+    {
+      "question": "Which of the following is an example of a digital Electronic?",
+      "options": [
+        "A) Computers",
+        "B) Information appliances",
+        "C) Digital cameras",
+        "D) All of the mentioned"
+      ],
+      "correct_answer": "D",
+      "explanation": "Computers, information appliances, digital cameras, digital televisions, flash memory, key USB memory, mobile phones, hard discs, and computer memory devices are examples of digital electronics. After analog signals have been transformed to digital form, digital signal processing is applied to them.",
+      "id": 122,
+      "question_id": 122
+    },
+    {
+      "question": "In 4-bit up-down counter, how many flip-flops are required?",
+      "options": [
+        "A) 2",
+        "B) 3",
+        "C) 4",
+        "D) 5"
+      ],
+      "correct_answer": "C",
+      "explanation": "An n-bit bit counter requires n number of FFs. In a 4-bit up-down counter, there are 4 J-K flip-flops required.",
+      "id": 123,
+      "question_id": 123
+    },
+    {
+      "question": "Which one is a 4-bit binary ripple counter?",
+      "options": [
+        "A) IC 7493",
+        "B) IC 7490",
+        "C) IC 7491",
+        "D) IC 7492"
+      ],
+      "correct_answer": "A",
+      "explanation": "IC 7493 is a 4-bit binary ripple counter. It is a MOD-16 counter with 24 = 16 states.",
+      "id": 124,
+      "question_id": 124
+    },
+    {
+      "question": "Which of the following is not the type of queue?",
+      "options": [
+        "A) Priority queue",
+        "B) Circular queue",
+        "C) Single ended queue",
+        "D) Ordinary queue"
+      ],
+      "correct_answer": "C",
+      "explanation": "Queue always has two ends. So, single ended queue is not the type of queue.",
+      "id": 125,
+      "question_id": 125
+    },
+    {
+      "question": "In which of the following method, fixed pattern of a line is used to generate characters?",
+      "options": [
+        "A) Dot-matrix method",
+        "B) Bitmap method",
+        "C) Stroke method",
+        "D) Starbust method"
+      ],
+      "correct_answer": "D",
+      "explanation": "A mixture of 24bit line segments is employed in the Starbust approach. It is a character generating method in which only 24 strokes are defined for character generation.",
+      "id": 126,
+      "question_id": 126
+    },
+    {
+      "question": "In the keypad application, the preset state of the ring counter define _____________",
+      "options": [
+        "A) The NANDing of the columns",
+        "B) The NANDing of the rows",
+        "C) The proper output of the column encoder",
+        "D) The proper output of the row encoder"
+      ],
+      "correct_answer": "D",
+      "explanation": "When a key is pressed the ring counter in the HDL scans the information provided by the user and counts to find the row. The preset state of the ring counter define the proper output of the row encoder.",
+      "id": 127,
+      "question_id": 127
+    },
+    {
+      "question": "Which of the following examples is/are models of application architectures?",
+      "options": [
+        "A) a means of assessing components for reuse",
+        "B) a design checklist",
+        "C) a vocabulary for talking about types of applications",
+        "D) all of the mentioned"
+      ],
+      "correct_answer": "D",
+      "explanation": "Application architectures encapsulate the principal characteristics of a class of systems.",
+      "id": 128,
+      "question_id": 128
+    },
+    {
+      "question": "The static content objects are dependent on the actions of the user.",
+      "options": [
+        "A) True",
+        "B) False"
+      ],
+      "correct_answer": "B",
+      "explanation": "Dynamic Objects are user dependent",
+      "id": 129,
+      "question_id": 129
+    },
+    {
+      "question": "Each of a pair of transactions has read data that is written by the other, but there is no data written by both transactions, is referred to as",
+      "options": [
+        "A) Read skew",
+        "B) Update skew",
+        "C) Write lock",
+        "D) None of the mentioned"
+      ],
+      "correct_answer": "D",
+      "explanation": "Write skew is the issue addressed here.",
+      "topic": "Snapshot Isolation   Database Questions & Answers",
+      "id": 130,
+      "question_id": 130
+    },
+    {
+      "question": "In the __________ normal form, a composite attribute is converted to individual attributes.",
+      "options": [
+        "A) First",
+        "B) Second",
+        "C) Third",
+        "D) Fourth"
+      ],
+      "correct_answer": "A",
+      "explanation": "The first normal form is used to eliminate the duplicate information.",
+      "topic": "Normal Forms   Database Questions & Answers",
+      "id": 131,
+      "question_id": 131
+    },
+    {
+      "question": "What does ATC stands for in speech coders?",
+      "options": [
+        "A) Automatic transform code",
+        "B) Air traffic controller",
+        "C) Active thermal convection",
+        "D) Adaptive transform coding"
+      ],
+      "correct_answer": "D",
+      "explanation": "In speech coding, ATC stands for adaptive transform coding. It is form of frequency domain coder that encodes the speech at bit rates in the range of 9.6 kbps and 20 kbps.",
+      "id": 132,
+      "question_id": 132
+    },
+    {
+      "question": "The device connected to the BUS are given addresses of ____ bit.",
+      "options": [
+        "A) 24",
+        "B) 64",
+        "C) 32",
+        "D) 16"
+      ],
+      "correct_answer": "B",
+      "explanation": "Each of the devices connected to the BUS will be allocated an address during the initialization phase.",
+      "id": 133,
+      "question_id": 133
+    },
+    {
+      "question": "Which of the following explains correctly what happens when a JavaScript program is developed on a Unix Machine?",
+      "options": [
+        "A) will work perfectly well on a Windows Machine",
+        "B) will be displayed as JavaScript text on the browser",
+        "C) will throw errors and exceptions",
+        "D) must be restricted to a Unix Machine only"
+      ],
+      "correct_answer": "A",
+      "explanation": "Because JS can run on a variety of operating systems, an application written for UNIX will run just as well on Windows.",
+      "topic": "1000 JavaScript MCQ (Multiple Choice Questions)",
+      "id": 134,
+      "question_id": 134
+    },
+    {
+      "question": "Which among the following best describes member functions?",
+      "options": [
+        "A) Functions which are defined within the class",
+        "B) Functions belonging a class",
+        "C) Functions in public access of a class",
+        "D) Functions which are private to class"
+      ],
+      "correct_answer": "B",
+      "explanation": "We can’t say that only functions that are defined inside class are member functions. There can be some inherited functions. Though they doesn’t belong to the class but are property of the objects once inheritance is used. So the nearest definition is functions belonging to a class.",
+      "topic": "Member Functions   Object Oriented Programming",
+      "id": 135,
+      "question_id": 135
+    },
+    {
+      "question": "Which element is used for short quote?",
+      "options": [
+        "A) <q>",
+        "B) <blockquote>",
+        "C) <em>",
+        "D) <abbr>"
+      ],
+      "correct_answer": "A",
+      "explanation": "<em> element indicates emphasis, browser will show the contents of <em> element in italic. A section which is quoted from another source is specified by <blockquote>. The <abbr> defines abbreviation. We used <q> element for shorter quote. Browser put quote around <q> element.\n\n\n<p>This is a <q>black dog</q>.</p>\n\n\nOutput: This is a “black dog”.",
+      "topic": "HTML Fonts Questions & Answers",
+      "id": 136,
+      "question_id": 136
+    },
+    {
+      "question": "What is the full form of ISA?",
+      "options": [
+        "A) Industry Standard Architecture",
+        "B) International Standard Architecture",
+        "C) International American Standard",
+        "D) None of the mentioned"
+      ],
+      "correct_answer": "C",
+      "explanation": "The ISA is an architectural standard developed by IBM for its PC’s.",
+      "id": 137,
+      "question_id": 137
+    },
+    {
+      "question": "Which feature converts row data to a column for better analytical view?",
+      "options": [
+        "A) Views",
+        "B) Join",
+        "C) Pivot",
+        "D) Trigger"
+      ],
+      "correct_answer": "C",
+      "explanation": "Pivot table is very powerful and very easy to use.",
+      "topic": "Estimating Statistics of Expression Results",
+      "id": 138,
+      "question_id": 138
+    },
+    {
+      "question": "The carry look ahead adder is based on the principle of looking at the lower order bits of ________ and ________ if a high order carry is generated.",
+      "options": [
+        "A) Addend, minuend",
+        "B) Minuend, subtrahend",
+        "C) Addend, minuend",
+        "D) Augend, addend"
+      ],
+      "correct_answer": "D",
+      "explanation": "The carry look ahead adder is based on the principle of looking at the lower order bits of the augend and addend if a high order carry is generated. A carry look ahead adder is a type of adder which reduces the propagation delay.",
+      "id": 139,
+      "question_id": 139
+    },
+    {
+      "question": "If a declaration of a member in inner class has the same name as that in the outer class, then ________________ enclosing scope.",
+      "options": [
+        "A) Outer declaration shadows inner declaration in",
+        "B) Inner declaration shadows outer declaration in",
+        "C) Declaration gives compile time error",
+        "D) Declaration gives runtime error"
+      ],
+      "correct_answer": "B",
+      "explanation": "The inner class will have more preference for its local members than those of the enclosing members. Hence it will shadow the enclosing class members. This process is known as shadowing.",
+      "topic": "Nested Class   Object Oriented Programming",
+      "id": 140,
+      "question_id": 140
+    },
+    {
+      "id": 141,
+      "section": "Computer Networks",
+      "question": "The managed objects are defined as ___________ objects in SNMP.",
+      "options": [
+        "A) tensor",
+        "B) scalar",
+        "C) vector",
+        "D) spinor"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "",
+      "question_id": 141
+    },
+    {
+      "id": 142,
+      "section": "Operating System",
+      "question": "Find the HCF of 405, 585, 765 and 900.",
+      "options": [
+        "A) 35",
+        "B) 15",
+        "C) 45",
+        "D) 90"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided.",
+      "question_id": 142
+    },
+    {
+      "question": "Handover protocol is executed by_____",
+      "options": [
+        "A) (a)\t\n\nBSC",
+        "B) (b)\t\n\nMSC",
+        "C) (c)\t\n\nBSS",
+        "D) (d)\t\n\nVLR"
+      ],
+      "correct_answer": "A",
+      "explanation": "",
+      "id": 143,
+      "question_id": 143
+    },
+    {
+      "question": "Which of these is not true ?",
+      "options": [
+        "A) Web has led to availability of software services and possibility of developing highly distributed service based systems",
+        "B) Web based systems have led to degradation of programming languages",
+        "C) Web brings concept of software as service",
+        "D) Web based system should be developed and delivered incrementally"
+      ],
+      "correct_answer": "B",
+      "explanation": "Web based systems has led to important advances in programming languages.",
+      "id": 144,
+      "question_id": 144
+    },
+    {
+      "question": "Which of the following Property controls the display of small caps?",
+      "options": [
+        "A) font-size",
+        "B) font-variant",
+        "C) font-style",
+        "D) font-weight"
+      ],
+      "correct_answer": "B",
+      "explanation": "Self-explainatory.",
+      "topic": "Styling Texts   CSS Questions & Answers",
+      "id": 145,
+      "question_id": 145
+    },
+    {
+      "question": "In indirect method, the carrier frequency is directly varied in accordance with the input modulating signal.",
+      "options": [
+        "A) True",
+        "B) False"
+      ],
+      "correct_answer": "B",
+      "explanation": "The above is the case for direct method. In the indirect method, a narrowband FM signal is generated using a balanced modulator, and frequency multiplication is used to increase both the frequency deviation and the carrier frequency to the required level.",
+      "id": 146,
+      "question_id": 146
+    },
+    {
+      "id": 147,
+      "section": "Computer Networks",
+      "question": "Which of the following is a Boolean cookie attribute?",
+      "options": [
+        "A) Bool",
+        "B) Secure",
+        "C) Lookup",
+        "D) Domain"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "",
+      "question_id": 147
+    },
+    {
+      "question": "The most modern letter style is",
+      "options": [
+        "A) modified-block",
+        "B) full-block",
+        "C) simplified",
+        "D) block"
+      ],
+      "correct_answer": "C",
+      "explanation": "The most modern letter style is simplified. The simplified style business letter is a variation of the full-block and semi-block letter formats.",
+      "topic": "Business Communication MCQ Questions and Solutions with Explanations   Management Page 4 section 1",
+      "site": "www.examveda.com",
+      "id": 148,
+      "question_id": 148
+    },
+    {
+      "id": 149,
+      "section": "Operating System",
+      "question": "Which is India’s longest railway tunnel?",
+      "options": [
+        "A) Banihal Tunnel",
+        "B) Atal Tunnel",
+        "C) Pir Panjal Tunnel",
+        "D) Konkan Tunnel"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided.",
+      "question_id": 149
+    },
+    {
+      "id": 150,
+      "section": "Computer Networks",
+      "question": "What is the full form of OSI?",
+      "options": [
+        "A) optical service implementation",
+        "B) open service Internet",
+        "C) open system interconnection",
+        "D) operating system interface"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "",
+      "question_id": 150
+    },
+    {
+      "question": "One positive pulse with tw = 75 µs is applied to one of the inputs of an exclusive-OR circuit. A second positive pulse with tw = 15 µs is applied to the other input beginning 20 µs after the leading edge of the first pulse. Which statement describes the output’s relation with the inputs?",
+      "options": [
+        "A) The exclusive-OR output is a 20 s pulse followed by a 40 s pulse, with a separation of 15 s between the pulses",
+        "B) The exclusive-OR output is a 20 s pulse followed by a 15 s pulse, with a separation of 40 s between the pulses",
+        "C) The exclusive-OR output is a 15 s pulse followed by a 40 s pulse",
+        "D) The exclusive-OR output is a 20 s pulse followed by a 15 s pulse, followed by a 40 s pulse"
+      ],
+      "correct_answer": "D",
+      "explanation": "When both the input pulses are high or low X-OR output is low. But when one of the input is high and another is low or vice-versa, output is high. In this problem for the first 20uS one input is high and another is low. So, obviously output is a high. for next 15uS both the input is high so output is low and for remaining 40uS(75-20-15) first input is still high and second one is low so output is high.",
+      "id": 151,
+      "question_id": 151
+    },
+    {
+      "question": "The entity relationship set is represented in E-R diagram as",
+      "options": [
+        "A) Double diamonds",
+        "B) Undivided rectangles",
+        "C) Dashed lines",
+        "D) Diamond"
+      ],
+      "correct_answer": "A",
+      "explanation": "Dashed lines link attributes of a relationship set to the relationship set.",
+      "id": 152,
+      "question_id": 152
+    },
+    {
+      "id": 153,
+      "section": "Operating System",
+      "question": "Which house of Parliament represents the people directly?",
+      "options": [
+        "A) Rajya Sabha",
+        "B) Lok Sabha",
+        "C) The President",
+        "D) The Supreme Court"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided.",
+      "question_id": 153
+    },
+    {
+      "question": "The RAS and CAS signals are provided by the ______",
+      "options": [
+        "A) Mode register",
+        "B) CS",
+        "C) Memory controller",
+        "D) None of the mentioned"
+      ],
+      "correct_answer": "C",
+      "explanation": "The multiplexed signal of the controller is split into RAS and CAS.",
+      "id": 154,
+      "question_id": 154
+    },
+    {
+      "question": "DES stands for?",
+      "options": [
+        "A) Data Encryption Standard",
+        "B) Data Encryption Statistics",
+        "C) Data Encryption System",
+        "D) Data Encryption Sequence"
+      ],
+      "correct_answer": "A",
+      "explanation": "DES stands for Data Encryption Standard. It was created in 1977 and went into operation from 1990s.",
+      "id": 155,
+      "question_id": 155
+    },
+    {
+      "question": "Which of the following is true for first-generation wireless systems?",
+      "options": [
+        "A) Low rate",
+        "B) Efficient",
+        "C) High data rate",
+        "D) Digital technology"
+      ],
+      "correct_answer": "A",
+      "explanation": "First generation wireless systems provide analog speech and inefficient, low rate, data transmission between the base station and mobile user.",
+      "id": 156,
+      "question_id": 156
+    },
+    {
+      "question": "The devices which converts the electrical energy into light is called",
+      "options": [
+        "A) Liquid-crystal displays",
+        "B) Non-emitters",
+        "C) Plasma panels",
+        "D) Emitters"
+      ],
+      "correct_answer": "D",
+      "explanation": "Emissive displays are devices that convert electrical energy into light.",
+      "id": 157,
+      "question_id": 157
+    },
+    {
+      "question": "The ultimate goal of a compiler is to ________",
+      "options": [
+        "A) Reduce the clock cycles for a programming task",
+        "B) Reduce the size of the object code",
+        "C) Be versatile",
+        "D) Be able to detect even the smallest of errors"
+      ],
+      "correct_answer": "A",
+      "explanation": "None.",
+      "id": 158,
+      "question_id": 158
+    },
+    {
+      "question": "What describes the data and control to be processed?",
+      "options": [
+        "A) Planning process",
+        "B) Software scope",
+        "C) External hardware",
+        "D) Project complexity"
+      ],
+      "correct_answer": "B",
+      "explanation": "Functions described in the statement of scope are evaluated and in some cases refined to provide more detail prior to the beginning of estimation.",
+      "id": 159,
+      "question_id": 159
+    },
+    {
+      "question": "What is the time complexity for searching a key or integer in Van Emde Boas data structure?",
+      "options": [
+        "A) O (M!)",
+        "B) O (log M!)",
+        "C) O (log (log M))",
+        "D) O (M2)"
+      ],
+      "correct_answer": "C",
+      "explanation": "In order to search a key or integer in the Van Emde Boas data structure, the operation can be performed on an associative array. Hence, the time complexity for searching a key or integer in Van Emde Boas data structure is O (log (log M)).",
+      "id": 160,
+      "question_id": 160
+    },
+    {
+      "question": "The _________ element is used to render simple graphics such as line art, graphs, and other custom graphical elements on the client side.",
+      "options": [
+        "A) metadata",
+        "B) css",
+        "C) canvas",
+        "D) art"
+      ],
+      "correct_answer": "C",
+      "explanation": "Metdata gives data or information of other data. CSS i.e. Cascading Style Sheets is a style sheet language. Canvas is introduced in HTML5 for providing/drawing graphics. The canvas element is part of HTML5 and allows for dynamic, scriptable rendering of 2D shapes and bitmap images.",
+      "topic": "HTML Questions & Answers   HTML5’s Open Media Effort",
+      "id": 161,
+      "question_id": 161
+    },
+    {
+      "id": 162,
+      "section": "Operating System",
+      "question": "To obtain better memory utilization, dynamic loading is used. With dynamic loading, a routine is not loaded until it is called. For implementing dynamic loading ____________",
+      "options": [
+        "A) special support from operating system is essential",
+        "B) special support from hardware is required",
+        "C) user programs can implement dynamic loading without any special support from hardware or operating system",
+        "D) special support from both hardware and operating system is essential"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided.",
+      "question_id": 162
+    },
+    {
+      "question": "Which of the following is a fully digital cordless system?",
+      "options": [
+        "A) CT0",
+        "B) CT1",
+        "C) CT1+",
+        "D) DECT"
+      ],
+      "correct_answer": "D",
+      "explanation": "Digital enhanced cordless telecommunication (DECT) is a fully digital system established in 1991. CT0, Ct1, Ct1+ were analog systems established in 1980, 1984 and 1987 respectively.",
+      "id": 163,
+      "question_id": 163
+    },
+    {
+      "question": "How do you create a React application?",
+      "options": [
+        "A) Using Node.js",
+        "B) Writing plain JavaScript",
+        "C) Using ‘npx create-react-app’ command",
+        "D) Using HTML"
+      ],
+      "correct_answer": "C",
+      "explanation": "To create a new React application, you use the `npx create-react-app` command, which sets up a React project with all the necessary configurations and dependencies.",
+      "topic": "React MCQ (Multiple Choice Questions)",
+      "id": 164,
+      "question_id": 164
+    },
+    {
+      "id": 165,
+      "section": "Operating System",
+      "question": "64 men can do a piece of work in 90 days. Find the amount of work done by 95 men in 50 days.",
+      "options": [
+        "A) 84%",
+        "B) 85%",
+        "C) 83%",
+        "D) 82%"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided.",
+      "question_id": 165
+    },
+    {
+      "question": "Key value pairs is usually seen in",
+      "options": [
+        "A) Hash tables",
+        "B) Heaps",
+        "C) Both Hash tables and Heaps",
+        "D) Skip list"
+      ],
+      "correct_answer": "A",
+      "explanation": "Hashing is used to index and retrieve items in a database because it is easier to find the item using the shortened hashed key than using the original value.",
+      "topic": "Hashing Techniques   Database Questions & Answers",
+      "id": 166,
+      "question_id": 166
+    },
+    {
+      "question": "The software substituted for hardware and stored in ROM.",
+      "options": [
+        "A) Synchronous Software",
+        "B) Package Software",
+        "C) Firmware",
+        "D) Middleware"
+      ],
+      "correct_answer": "C",
+      "explanation": "Software refers to a collection of programs. Firm wares act as a link between the hardware and the system. It is stored in read only memory.",
+      "id": 167,
+      "question_id": 167
+    },
+    {
+      "question": "What is the total time spent for N-1 merges in a dynamic equivalence problem?",
+      "options": [
+        "A) O(N)",
+        "B) O(log N)",
+        "C) O(N log N)",
+        "D) O(M log N)"
+      ],
+      "correct_answer": "C",
+      "explanation": "The total time spent for N-1 merges in a dynamic equivalence problem is mathematically found to be O(N log N).",
+      "id": 168,
+      "question_id": 168
+    },
+    {
+      "question": "The major difference between a  multimedia file and a regular file is ___________",
+      "options": [
+        "A) the size",
+        "B) the attributes",
+        "C) the ownership",
+        "D) the rate at which the file must be accessed"
+      ],
+      "correct_answer": "D",
+      "explanation": "Multimedia files must be accessed at a specific rate whereas accessing regular files requires no special timings.",
+      "id": 169,
+      "question_id": 169
+    },
+    {
+      "id": 170,
+      "section": "Operating System",
+      "question": "Where is the operating system placed in the memory?",
+      "options": [
+        "A) either low or high memory (depending on the location of interrupt vector)",
+        "B) in the low memory",
+        "C) in the high memory",
+        "D) none of the mentioned"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided.",
+      "question_id": 170
+    },
+    {
+      "question": "Which one of the following can be treated as a primary key in teaches relation?",
+      "options": [
+        "A) Id",
+        "B) Semester",
+        "C) Sec_id",
+        "D) Year"
+      ],
+      "correct_answer": "A",
+      "explanation": "Here Id is the only attribute that has to have a unique entry.\n\nadvertisement",
+      "id": 171,
+      "question_id": 171
+    },
+    {
+      "question": "In second generation wireless networks, the handoff process is called __________",
+      "options": [
+        "A) MAHO",
+        "B) Soft handoff",
+        "C) Hard handoff",
+        "D) Inter system handoff"
+      ],
+      "correct_answer": "A",
+      "explanation": "In second generation wireless networks, the handoff process is mobile controlled and is known as mobile assisted handoff (MAHO). The mobile units in these networks perform several other functions not performed by first generation subscriber units.",
+      "id": 172,
+      "question_id": 172
+    },
+    {
+      "question": "IRDY# signal is used for _______",
+      "options": [
+        "A) Selecting the interrupt line",
+        "B) Sending an interrupt",
+        "C) Saying that the initiator is ready",
+        "D) None of the mentioned"
+      ],
+      "correct_answer": "C",
+      "explanation": "The initiator transmits this signal to tell the target that it is ready.",
+      "id": 173,
+      "question_id": 173
+    },
+    {
+      "question": "Which access type data gets derived as private member in derived class?",
+      "options": [
+        "A) Private",
+        "B) Public",
+        "C) Protected",
+        "D) Protected and Private"
+      ],
+      "correct_answer": "A",
+      "explanation": "It is a rule, that when a derived class inherits the base class in private access mode, all the members of base class gets derived as private members of the derived class.",
+      "topic": "Inheritance   Object Oriented Programming",
+      "id": 174,
+      "question_id": 174
+    },
+    {
+      "question": "Consider the array {1,1,1,1,1}. Select the wrong option?",
+      "options": [
+        "A) Iterative linear search can be used to search for the elements in the given array",
+        "B) Recursive linear search can be used to search for the elements in the given array",
+        "C) Recursive binary search can be used to search for the elements in the given array",
+        "D) No method is defined to search for an element in the given array"
+      ],
+      "correct_answer": "D",
+      "explanation": "Iterative linear search, Recursive linear search and Recursive binary search can be applied to search for an element in the above given array.",
+      "id": 175,
+      "question_id": 175
+    },
+    {
+      "question": "Virtual reality, CAD, and animations are the application of",
+      "options": [
+        "A) Z mouse",
+        "B) Digitizers",
+        "C) Data tablets",
+        "D) Image scanners"
+      ],
+      "correct_answer": "A",
+      "explanation": "Application of  Z mouse includes virtual reality, CAD, and animations.",
+      "id": 176,
+      "question_id": 176
+    },
+    {
+      "id": 177,
+      "section": "Computer Networks",
+      "question": "Which of the following is not a property of public key cryptography?",
+      "options": [
+        "A) Uses different keys",
+        "B) Every user has a unique private key",
+        "C) Public key can be same for number of users",
+        "D) Cannot deduce private key from public key"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "",
+      "question_id": 177
+    },
+    {
+      "question": "Define Agile scrum methodology.",
+      "options": [
+        "A) project management that emphasizes incremental progress",
+        "B) project management that emphasizes decremental progress",
+        "C) project management that emphasizes neutral progress",
+        "D) project management that emphasizes no progress"
+      ],
+      "correct_answer": "A",
+      "explanation": "Agile scrum methodology is a style of project management that emphasizes incremental progress. Each iteration is divided into two to four-week sprints, with the goal of completing the most important features first and delivering a possibly deliverable product at the end of each sprint.",
+      "id": 178,
+      "question_id": 178
+    },
+    {
+      "question": "___________ reports are usually short messages with natural, casual use of language.",
+      "options": [
+        "A) Conference",
+        "B) Periodic",
+        "C) Informal",
+        "D) Formal"
+      ],
+      "correct_answer": "C",
+      "explanation": "Informal reports are usually short messages with natural, casual use of language. An informal report is used for internal purposes for business and research and also serves as an outline for a formal report to be written later.",
+      "topic": "Business Communication MCQ Questions and Solutions with Explanations   Management Page 6 section 1",
+      "site": "www.examveda.com",
+      "id": 179,
+      "question_id": 179
+    },
+    {
+      "id": 180,
+      "section": "Computer Networks",
+      "question": "In CSMA (Carrier Sense Multiple Access), what does a node do before transmitting?",
+      "options": [
+        "A) Listens to the medium to check if it is idle",
+        "B) Sends a request-to-send (RTS) frame immediately",
+        "C) Waits for a token from the master node",
+        "D) Transmits immediately without checking"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "",
+      "question_id": 180
+    },
+    {
+      "question": "What is the maximum number of ways in which a boolean expression with n + 1 terms can be parenthesized, such that the output is true?",
+      "options": [
+        "A) nth catalan number",
+        "B) n factorial",
+        "C) n cube",
+        "D) n square"
+      ],
+      "correct_answer": "A",
+      "explanation": "The number of ways will be maximum when all the possible parenthesizations result in a true value. The number of possible parenthesizations is given by the nth catalan number.",
+      "id": 181,
+      "question_id": 181
+    },
+    {
+      "question": "How many inputs are required for a digital comparator?",
+      "options": [
+        "A) 1",
+        "B) 2",
+        "C) 3",
+        "D) 4"
+      ],
+      "correct_answer": "B",
+      "explanation": "A comparator is a combinational circuit that takes two numbers as input in binary form and results whether one input is greater, lesser or equal to the other input. Thus, there are two inputs required for a digital comparator (i.e. A & B).",
+      "id": 182,
+      "question_id": 182
+    },
+    {
+      "question": "______________ is used to minimize unnecessary redos during recovery.",
+      "options": [
+        "A) Dirty page table",
+        "B) Page table",
+        "C) Dirty redo",
+        "D) All of the mentioned"
+      ],
+      "correct_answer": "A",
+      "explanation": "Dirty pages are those that have been updated in memory, and the disk version is not up-to-date.\n\nadvertisement",
+      "id": 183,
+      "question_id": 183
+    },
+    {
+      "question": "M-ary QAM signal have constant energy per symbol.",
+      "options": [
+        "A) True",
+        "B) False"
+      ],
+      "correct_answer": "B",
+      "explanation": "M-ary QAM does not have constant energy per symbol. It also does not have constant distance between possible symbol states. It reasons that particular values of M-ary QAM signal will be detected with higher probability than others.",
+      "id": 184,
+      "question_id": 184
+    },
+    {
+      "question": "In the ARM, PC is implemented using ___________",
+      "options": [
+        "A) Caches",
+        "B) Heaps",
+        "C) General purpose register",
+        "D) Stack"
+      ],
+      "correct_answer": "C",
+      "explanation": "PC is the place where the next instruction about to be executed is stored.",
+      "id": 185,
+      "question_id": 185
+    },
+    {
+      "question": "Which of the following methods can be used to find the sum of digits of a number?",
+      "options": [
+        "A) Recursion",
+        "B) Iteration",
+        "C) Greedy algorithm",
+        "D) Both recursion and iteration"
+      ],
+      "correct_answer": "D",
+      "explanation": "Both recursion and iteration can be used to find the sum of digits of a number.",
+      "id": 186,
+      "question_id": 186
+    },
+    {
+      "question": "The process of removal of hidden surfaces is termed as _______________",
+      "options": [
+        "A) clipping",
+        "B) copying",
+        "C) culling",
+        "D) shorting"
+      ],
+      "correct_answer": "C",
+      "explanation": "An area which is related to the visible surface determination (VSD) is called culling. ‘Viewing frustum culling’ and ‘Backface culling’ are examples of some culling algorithms.",
+      "id": 187,
+      "question_id": 187
+    },
+    {
+      "question": "Raised eyebrows and shrugs are examples of",
+      "options": [
+        "A) body language",
+        "B) cross-cultural communication",
+        "C) poor communication",
+        "D) good communication"
+      ],
+      "correct_answer": "A",
+      "explanation": "Raised eyebrows and shrugs are examples of body language. Body language is a type of nonverbal communication that relies on body movements (such as gestures, posture, and facial expressions) to convey messages.",
+      "topic": "Business Communication MCQ Questions and Solutions with Explanations   Management Page 10 section 1",
+      "site": "www.examveda.com",
+      "id": 188,
+      "question_id": 188
+    },
+    {
+      "question": "Which decoding method involves the evaluation by means of Fano’s algorithm?",
+      "options": [
+        "A) Maximum Likelihood Decoding",
+        "B) Sequential Decoding",
+        "C) Maximum a priori",
+        "D) Minimum mean square"
+      ],
+      "correct_answer": "B",
+      "explanation": "Fano’s algorithm involves sequential decoding. It searches for the most probable path through the trellis by examining one path at a time.",
+      "id": 189,
+      "question_id": 189
+    },
+    {
+      "question": "What must be used along with synchronous control inputs to trigger a change in the flip flop?",
+      "options": [
+        "A) 0",
+        "B) 1",
+        "C) Clock",
+        "D) Previous output"
+      ],
+      "correct_answer": "C",
+      "explanation": "A clock must be used along with synchronous control inputs to trigger a change in the flip flop. These flip – flops may be edge – triggered or level – triggered. A change should occur only when the clock changes from 0 to 1 or vice versa.",
+      "id": 190,
+      "question_id": 190
+    },
+    {
+      "id": 191,
+      "section": "Teaching Methodology",
+      "question": "[Test 7 - Q4] The Maria Montessori educational method is heavily characterized by:",
+      "question_image": null,
+      "options": [
+        "Child-centered self-directed activity, hands-on learning, and collaborative play in prepared environments",
+        "Teacher-dominated lectures and strict penal punishments",
+        "Standardized paper-and-pencil exams conducted on a weekly basis",
+        "Pre-designed digital animations with no physical tactile materials"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "Montessori classrooms feature prepared environments, multi-sensory materials, and self-directed learning tasks where teachers guide rather than lecture. (Question source: DSSSB Teaching Methodology Paper Series 7).",
+      "explanation_image": null,
+      "question_id": 191
+    },
+    {
+      "id": 192,
+      "section": "Teaching Methodology",
+      "question": "[Test 65 - Q19] Which of the following is an example of an 'Intrinsic Motivation' factor in student learning?",
+      "question_image": null,
+      "options": [
+        "Inherent curiosity and personal satisfaction derived from mastering a subject",
+        "Receiving cash prizes and gold medals from the school principal",
+        "Avoidance of parental disapproval or detention after school",
+        "Desire to secure first position in class merit list"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "Intrinsic motivation arises from internal rewards—such as curiosity, interest, personal enjoyment, or autonomy—rather than external incentives or punishments. (Question source: DSSSB Teaching Methodology Paper Series 65).",
+      "explanation_image": null,
+      "question_id": 192
+    },
+    {
+      "id": 193,
+      "section": "Teaching Methodology",
+      "question": "[Test 64 - Q16] Inclusive Education in Indian classrooms fundamentally implies:",
+      "question_image": null,
+      "options": [
+        "Educating children with special needs alongside non-disabled children in regular classrooms with appropriate adaptations",
+        "Establishing separate special schools for children with disabilities",
+        "Admitting only high-achieving gifted students in mainstream schools",
+        "Providing home-based schooling for all children with mild learning difficulties"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "Inclusive education ensures that all children, regardless of their physical, cognitive, social, or linguistic abilities, learn together in the same mainstream educational environment. (Question source: DSSSB Teaching Methodology Paper Series 64).",
+      "explanation_image": null,
+      "question_id": 193
+    },
+    {
+      "id": 194,
+      "section": "Teaching Methodology",
+      "question": "[Test 60 - Q15] According to Robert Gagne's Conditions of Learning, how many hierarchical levels of learning are there, and what is the highest level?",
+      "question_image": null,
+      "options": [
+        "8 levels; Problem Solving",
+        "5 levels; Rule Learning",
+        "10 levels; Concept Association",
+        "6 levels; Verbal Chain Learning"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "Gagne proposed 8 hierarchical levels of learning. The lowest is signal learning, and the highest, most complex level is problem-solving. (Question source: DSSSB Teaching Methodology Paper Series 60).",
+      "explanation_image": null,
+      "question_id": 194
+    },
+    {
+      "id": 195,
+      "section": "Teaching Methodology",
+      "question": "[Test 61 - Q13] The 'Project Method' of teaching, which focuses on solving real-world, purposeful problems in a social environment, was developed by:",
+      "question_image": null,
+      "options": [
+        "William Heard Kilpatrick",
+        "H. E. Armstrong",
+        "B. F. Skinner",
+        "Maria Montessori"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "Kilpatrick formulated the Project Method based on pragmatism and the educational philosophies of his mentor, John Dewey. (Question source: DSSSB Teaching Methodology Paper Series 61).",
+      "explanation_image": null,
+      "question_id": 195
+    },
+    {
+      "id": 196,
+      "section": "Teaching Methodology",
+      "question": "[Test 37 - Q19] What is the primary objective of Continuous and Comprehensive Evaluation (CCE)?",
+      "question_image": null,
+      "options": [
+        "To evaluate all aspects of student development, including scholastic and co-scholastic domains continuously",
+        "To conduct quarterly written examinations to eliminate low performers",
+        "To substitute internal assessments with final external board examinations",
+        "To reduce teacher workload by automating grading systems"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "CCE evaluates both scholastic (academic) and co-scholastic (life skills, attitudes, values) growth of a learner continuously throughout the academic cycle. (Question source: DSSSB Teaching Methodology Paper Series 37).",
+      "explanation_image": null,
+      "question_id": 196
+    },
+    {
+      "id": 197,
+      "section": "Teaching Methodology",
+      "question": "[Test 65 - Q13] Inclusive Education in Indian classrooms fundamentally implies:",
+      "question_image": null,
+      "options": [
+        "Educating children with special needs alongside non-disabled children in regular classrooms with appropriate adaptations",
+        "Establishing separate special schools for children with disabilities",
+        "Admitting only high-achieving gifted students in mainstream schools",
+        "Providing home-based schooling for all children with mild learning difficulties"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "Inclusive education ensures that all children, regardless of their physical, cognitive, social, or linguistic abilities, learn together in the same mainstream educational environment. (Question source: DSSSB Teaching Methodology Paper Series 65).",
+      "explanation_image": null,
+      "question_id": 197
+    },
+    {
+      "id": 198,
+      "section": "Teaching Methodology",
+      "question": "[Test 24 - Q12] Under the Right to Free and Compulsory Education (RTE) Act 2009, what is the mandatory Pupil-Teacher Ratio (PTR) prescribed for primary schools (Classes I to V)?",
+      "question_image": null,
+      "options": [
+        "30:1",
+        "35:1",
+        "25:1",
+        "40:1"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "As per the RTE Act 2009, the Pupil-Teacher Ratio (PTR) for primary schools (Classes 1-5) is mandated at 30:1 for enrollment up to 200 students. (Question source: DSSSB Teaching Methodology Paper Series 24).",
+      "explanation_image": null,
+      "question_id": 198
+    },
+    {
+      "id": 199,
+      "section": "Teaching Methodology",
+      "question": "[Test 3 - Q1] What is the primary objective of Continuous and Comprehensive Evaluation (CCE)?",
+      "question_image": null,
+      "options": [
+        "To evaluate all aspects of student development, including scholastic and co-scholastic domains continuously",
+        "To conduct quarterly written examinations to eliminate low performers",
+        "To substitute internal assessments with final external board examinations",
+        "To reduce teacher workload by automating grading systems"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "CCE evaluates both scholastic (academic) and co-scholastic (life skills, attitudes, values) growth of a learner continuously throughout the academic cycle. (Question source: DSSSB Teaching Methodology Paper Series 3).",
+      "explanation_image": null,
+      "question_id": 199
+    },
+    {
+      "id": 200,
+      "section": "Teaching Methodology",
+      "question": "[Test 50 - Q12] Which of the following principles best characterizes Jean Piaget's theory of cognitive development regarding the process of Schema Adaptation?",
+      "question_image": null,
+      "options": [
+        "Assimilation and Accommodation",
+        "Classical and Operant Conditioning",
+        "Zone of Proximal Development",
+        "Scaffolding and Fading"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "Piaget defined adaptation as the balance achieved through assimilation (incorporating new info into existing schemas) and accommodation (modifying existing schemas to fit new info). (Question source: DSSSB Teaching Methodology Paper Series 50).",
+      "explanation_image": null,
+      "question_id": 200
+    }
+  ]
+}

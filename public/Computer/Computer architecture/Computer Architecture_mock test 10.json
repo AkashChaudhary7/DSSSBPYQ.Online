@@ -1,0 +1,542 @@
+[
+  {
+    "question": "______  have been developed specifically for pipelined systems.",
+    "options": [
+      "A) Utility software",
+      "B) Speed up utilities",
+      "C) Optimizing compilers",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "The compilers which are designed to remove redundant parts of the code are called as optimizing compilers."
+  },
+  {
+    "question": "The pipelining process is also called as ______",
+    "options": [
+      "A) Superscalar operation",
+      "B) Assembly line operation",
+      "C) Von Neumann cycle",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "It is called so because it performs its operation at the assembly level."
+  },
+  {
+    "question": "The fetch and execution cycles are interleaved with the help of ________",
+    "options": [
+      "A) Modification in processor architecture",
+      "B) Clock",
+      "C) Special unit",
+      "D) Control unit"
+    ],
+    "correct_answer": "B",
+    "explanation": "The time cycle of the clock is adjusted to perform the interleaving."
+  },
+  {
+    "question": "Each stage in pipelining should be completed within ___________ cycle.",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "correct_answer": "A",
+    "explanation": "The stages in the pipelining should get completed within one cycle to increase the speed of performance."
+  },
+  {
+    "question": "In pipelining the task which requires the least time is performed first.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "This is done to avoid starvation of the longer task."
+  },
+  {
+    "question": "If a unit completes its task before the allotted time period, then _______",
+    "options": [
+      "A) It’ll perform some other task in the remaining time",
+      "B) Its time gets reallocated to a different task",
+      "C) It’ll remain idle for the remaining time",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "To increase the speed of memory access in pipelining, we make use of _______",
+    "options": [
+      "A) Special memory locations",
+      "B) Special purpose registers",
+      "C) Cache",
+      "D) Buffers"
+    ],
+    "correct_answer": "C",
+    "explanation": "By using the cache we can reduce the speed of memory access by a factor of 10."
+  },
+  {
+    "question": "The periods of time when the unit is idle is called as _____",
+    "options": [
+      "A) Stalls",
+      "B) Bubbles",
+      "C) Hazards",
+      "D) Both Stalls and Bubbles"
+    ],
+    "correct_answer": "D",
+    "explanation": "The stalls are a type of hazards that affect a pipelined system."
+  },
+  {
+    "question": "The contention for the usage of a hardware device is called ______",
+    "options": [
+      "A) Structural hazard",
+      "B) Stalk",
+      "C) Deadlock",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "The situation wherein the data of operands are not available is called ______",
+    "options": [
+      "A) Data hazard",
+      "B) Stock",
+      "C) Deadlock",
+      "D) Structural hazard"
+    ],
+    "correct_answer": "A",
+    "explanation": "Data hazards are generally caused when the data is not ready on the destination side."
+  },
+  {
+    "question": "The CISC stands for ___________",
+    "options": [
+      "A) Computer Instruction Set Compliment",
+      "B) Complete Instruction Set Compliment",
+      "C) Computer Indexed Set Components",
+      "D) Complex Instruction set computer"
+    ],
+    "correct_answer": "D",
+    "explanation": "CISC is a computer architecture where in the processor performs more complex operations in one step."
+  },
+  {
+    "question": "The computer architecture aimed at reducing the time of execution of instructions is ________",
+    "options": [
+      "A) CISC",
+      "B) RISC",
+      "C) ISA",
+      "D) ANNA"
+    ],
+    "correct_answer": "B",
+    "explanation": "The RISC stands for Reduced Instruction Set Computer."
+  },
+  {
+    "question": "The Sun micro systems processors usually follow _____ architecture.",
+    "options": [
+      "A) CISC",
+      "B) ISA",
+      "C) ULTRA SPARC",
+      "D) RISC"
+    ],
+    "correct_answer": "D",
+    "explanation": "The Risc machine aims at reducing the instruction set of the computer."
+  },
+  {
+    "question": "The RISC processor has a more complicated design than CISC.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "The RISC processor design is more simpler than CISC and it consists of fewer transistors."
+  },
+  {
+    "question": "The iconic feature of the RISC machine among the following is _______",
+    "options": [
+      "A) Reduced number of addressing modes",
+      "B) Increased memory size",
+      "C) Having a branch delay slot",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "A branch delay slot is an instruction space immediately following a jump or branch."
+  },
+  {
+    "question": "Both the CISC and RISC architectures have been developed to reduce the ______",
+    "options": [
+      "A) Cost",
+      "B) Time delay",
+      "C) Semantic gap",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "The semantic gap is the gap between the high level language and the low level language."
+  },
+  {
+    "question": "Out of the following which is not a CISC machine.",
+    "options": [
+      "A) IBM 370/168",
+      "B) VAX 11/780",
+      "C) Intel 80486",
+      "D) Motorola A567"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "Pipe-lining is a unique feature of _______",
+    "options": [
+      "A) RISC",
+      "B) CISC",
+      "C) ISA",
+      "D) IANA"
+    ],
+    "correct_answer": "A",
+    "explanation": "The RISC machine architecture was the first to implement pipe-lining."
+  },
+  {
+    "question": "In CISC architecture most of the complex instructions are stored in _____",
+    "options": [
+      "A) Register",
+      "B) Diodes",
+      "C) CMOS",
+      "D) Transistors"
+    ],
+    "correct_answer": "D",
+    "explanation": "In CISC architecture more emphasis is given on the instruction set and the instructions take over a cycle to complete."
+  },
+  {
+    "question": "Which of the architecture is power efficient?",
+    "options": [
+      "A) CISC",
+      "B) RISC",
+      "C) ISA",
+      "D) IANA"
+    ],
+    "correct_answer": "B",
+    "explanation": "Hence the RISC architecture is followed in the design of mobile devices."
+  },
+  {
+    "question": "Any condition that causes a processor to stall is called as _________",
+    "options": [
+      "A) Hazard",
+      "B) Page fault",
+      "C) System error",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "An hazard causes a delay in the execution process of the processor."
+  },
+  {
+    "question": "The periods of time when the unit is idle is called as ________",
+    "options": [
+      "A) Stalls",
+      "B) Bubbles",
+      "C) Hazards",
+      "D) Both Stalls and Bubbles"
+    ],
+    "correct_answer": "D",
+    "explanation": "The stalls are a type of hazards that affect a pipe-lined system."
+  },
+  {
+    "question": "The contention for the usage of a hardware device is called ______",
+    "options": [
+      "A) Structural hazard",
+      "B) Stalk",
+      "C) Deadlock",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "The processor contends for the usage of the hardware and might enter into a deadlock state."
+  },
+  {
+    "question": "The situation wherein the data of operands are not available is called ______",
+    "options": [
+      "A) Data hazard",
+      "B) Stock",
+      "C) Deadlock",
+      "D) Structural hazard"
+    ],
+    "correct_answer": "A",
+    "explanation": "Data hazards are generally caused when the data is not ready on the destination side."
+  },
+  {
+    "question": "The stalling of the processor due to the unavailability of the instructions is called as ___________",
+    "options": [
+      "A) Control hazard",
+      "B) structural hazard",
+      "C) Input hazard",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "The control hazard also called as instruction hazard is usually caused by a cache miss."
+  },
+  {
+    "question": "The time lost due to the branch instruction is often referred to as ____________",
+    "options": [
+      "A) Latency",
+      "B) Delay",
+      "C) Branch penalty",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "This time also retards the performance speed of the processor."
+  },
+  {
+    "question": "The pipeline bubbling is a method used to prevent data hazard and structural hazards.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "The periods of time when the unit is idle is called a Bubble."
+  },
+  {
+    "question": "____________ method is used in centralized systems to perform out of order execution.",
+    "options": [
+      "A) Scorecard",
+      "B) Score boarding",
+      "C) Optimizing",
+      "D) Redundancy"
+    ],
+    "correct_answer": "B",
+    "explanation": "In a scoreboard, the data dependencies of every instruction are logged. Instructions are released only when the scoreboard determines that there are no conflicts with previously issued and incomplete instructions."
+  },
+  {
+    "question": "The algorithm followed in most of the systems to perform out of order execution is __________",
+    "options": [
+      "A) Tomasulo algorithm",
+      "B) Score carding",
+      "C) Reader-writer algorithm",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "The Tomasulo algorithm is a hardware algorithm developed in 1967 by Robert Tomasulo from IBM. It allows sequential instructions that would normally be stalled due to certain dependencies to execute non-sequentially (out-of-order execution)."
+  },
+  {
+    "question": "The problem where process concurrency becomes an issue is called as ___________",
+    "options": [
+      "A) Philosophers problem",
+      "B) Bakery problem",
+      "C) Bankers problem",
+      "D) Reader-writer problem"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "For converting a virtual address into the physical address, the programs are divided into __________",
+    "options": [
+      "A) Pages",
+      "B) Frames",
+      "C) Segments",
+      "D) Blocks"
+    ],
+    "correct_answer": "A",
+    "explanation": "On the physical memory side the memory is divided into pages."
+  },
+  {
+    "question": "The memory allocated to each page is contiguous.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "Each page might be allocated memory deferentially but the memory for one page will be continuous."
+  },
+  {
+    "question": "The pages size shouldn’t be too small, as this would lead to __________",
+    "options": [
+      "A) Transfer errors",
+      "B) Increase in operation time",
+      "C) Increase in access time",
+      "D) Decrease in performance"
+    ],
+    "correct_answer": "C",
+    "explanation": "The access time of the magnetic disk is much longer than the access time of the memory."
+  },
+  {
+    "question": "The cache bridges the speed gap between ______ and __________",
+    "options": [
+      "A) RAM and ROM",
+      "B) RAM and Secondary memory",
+      "C) Processor and RAM",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "The Cache is a hardware implementation to reduce the access time for processor operations."
+  },
+  {
+    "question": "The virtual memory bridges the size and speed gap between __________ and __________",
+    "options": [
+      "A) RAM and ROM",
+      "B) RAM and Secondary memory",
+      "C) Processor and RAM",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "The virtual memory basically works as an extension of the RAM."
+  },
+  {
+    "question": "The higher order bits of the virtual address generated by the processor forms the _______",
+    "options": [
+      "A) Table number",
+      "B) Frame number",
+      "C) List number",
+      "D) Page number"
+    ],
+    "correct_answer": "D",
+    "explanation": "The higher order bits indicate the page number which points to one particular entry in the page table."
+  },
+  {
+    "question": "The page length shouldn’t be too long because ___________",
+    "options": [
+      "A) It reduces the program efficiency",
+      "B) It increases the access time",
+      "C) It leads to wastage of memory",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "If the size is more than the required size then the extra space gets wasted."
+  },
+  {
+    "question": "The lower order bits of the virtual address forms the __________",
+    "options": [
+      "A) Page number",
+      "B) Frame number",
+      "C) Block number",
+      "D) Offset"
+    ],
+    "correct_answer": "D",
+    "explanation": "This gives the offset within the page table."
+  },
+  {
+    "question": "The area in the main memory that can hold one page is called as ___________",
+    "options": [
+      "A) Page entry",
+      "B) Page frame",
+      "C) Frame",
+      "D) Block"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "The starting address of the page table is stored in __________",
+    "options": [
+      "A) TLB",
+      "B) R0",
+      "C) Page table base register",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "The register is used to hold the address which is used to access the table."
+  },
+  {
+    "question": "_____ register is designated to point to the 68000 processor stack.",
+    "options": [
+      "A) A7 register",
+      "B) B2 register",
+      "C) There is no such designation",
+      "D) Any general purpose register is selected at random"
+    ],
+    "correct_answer": "A",
+    "explanation": "The processor stack is the place used to store the ongoing and upcoming process information"
+  },
+  {
+    "question": "The word length in the 68000 computer is _______",
+    "options": [
+      "A) 32 bit",
+      "B) 64 bit",
+      "C) 16 bit",
+      "D) 8 bit"
+    ],
+    "correct_answer": "C",
+    "explanation": "The length of an instruction that can be read or accessed at a time is referred to as word length."
+  },
+  {
+    "question": "Is 68000 computer Byte addressable?",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "The ability of a system to access the entire data of a process by reading consecutive bytes is called as Byte addressability"
+  },
+  {
+    "question": "The register in 68000 can contain up to _____ bits.",
+    "options": [
+      "A) 24",
+      "B) 32",
+      "C) 16",
+      "D) 64"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "The 68000 has a max of how many data registers?",
+    "options": [
+      "A) 16",
+      "B) 20",
+      "C) 10",
+      "D) 8"
+    ],
+    "correct_answer": "D",
+    "explanation": "The data registers are solely used for the purpose of storing data items of the process."
+  },
+  {
+    "question": "When an operand is stored in a register it is _______",
+    "options": [
+      "A) Stored in the lower order bits of the register",
+      "B) Stored in the higher order bits of the register",
+      "C) Stored in any of the bits at random",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "The data always gets stored from the lower order to the higher order bits, except in the case of Little Endian architecture."
+  },
+  {
+    "question": "The status register of the 68000 has ____ condition codes.",
+    "options": [
+      "A) 7",
+      "B) 4",
+      "C) 5",
+      "D) 8"
+    ],
+    "correct_answer": "C",
+    "explanation": "The register which is used to basically store the condition flags is called as a status register."
+  },
+  {
+    "question": "The 68000 uses _____ address assignment.",
+    "options": [
+      "A) Big Endian",
+      "B) Little Endian",
+      "C) X-Little Endian",
+      "D) X-Big Endian"
+    ],
+    "correct_answer": "A",
+    "explanation": "The way the data gets stored in a memory is called an address assignment."
+  },
+  {
+    "question": "The addresses generated by the 68000 is _____ bit.",
+    "options": [
+      "A) 32",
+      "B) 16",
+      "C) 24",
+      "D) 42"
+    ],
+    "correct_answer": "C",
+    "explanation": "The size of the address is directly related to the address space of the system."
+  },
+  {
+    "question": "Instructions which can handle any type of addressing mode are said to be ___________",
+    "options": [
+      "A) Omniscient",
+      "B) Orthogonal",
+      "C) Versatile",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "These instructions do not require the mentioning of any one type of addressing mode."
+  }
+]

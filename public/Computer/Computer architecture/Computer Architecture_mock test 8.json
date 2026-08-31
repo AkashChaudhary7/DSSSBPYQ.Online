@@ -1,0 +1,538 @@
+[
+  {
+    "question": "PCI stands for _______",
+    "options": [
+      "A) Peripheral Component Interconnect",
+      "B) Peripheral Computer Internet",
+      "C) Processor Computer Interconnect",
+      "D) Processor Cable Interconnect"
+    ],
+    "correct_answer": "A",
+    "explanation": "The PCI BUS is used as an extension for the processor BUS."
+  },
+  {
+    "question": "The PCI BUS supports _____ address space/s.",
+    "options": [
+      "A) I/O",
+      "B) Memory",
+      "C) Configuration",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "The PCI BUS is mainly built to provide a wide range of connectivity for devices."
+  },
+  {
+    "question": "______ address space gives the PCI its plug and plays capability.",
+    "options": [
+      "A) Configuration",
+      "B) I/O",
+      "C) Memory",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "The configuration address space is used to store the details of the connected device."
+  },
+  {
+    "question": "_____ provides a separate physical connection to the memory.",
+    "options": [
+      "A) PCI BUS",
+      "B) PCI interface",
+      "C) PCI bridge",
+      "D) Switch circuit"
+    ],
+    "correct_answer": "C",
+    "explanation": "The PCI bridge is a circuit that acts as a bridge between the BUS and the memory."
+  },
+  {
+    "question": "When transferring data over the PCI BUS, the master as to hold the address until the completion of the transfer to the slave.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "The address is stored by the slave in a buffer and hence it is not required by the master to hold it."
+  },
+  {
+    "question": "The master is also called as _____ in PCI terminology.",
+    "options": [
+      "A) Initiator",
+      "B) Commander",
+      "C) Chief",
+      "D) Starter"
+    ],
+    "correct_answer": "A",
+    "explanation": "The Master is also called as an initiator in PCI terminology as it is the one that initiates a data transfer."
+  },
+  {
+    "question": "Signals whose names end in ____ are asserted in the low voltage state.",
+    "options": [
+      "A) $",
+      "B) #",
+      "C) *",
+      "D) !"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "The chip can be disabled or cut off from an external connection using ______",
+    "options": [
+      "A) Chip select",
+      "B) LOCK",
+      "C) ACPT",
+      "D) RESET"
+    ],
+    "correct_answer": "A",
+    "explanation": "The chip gets enabled if the CS is set otherwise the chip gets disabled."
+  },
+  {
+    "question": "To organise large memory chips we make use of ______",
+    "options": [
+      "A) Integrated chips",
+      "B) Upgraded hardware",
+      "C) Memory modules",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "The cell blocks are arranged and put in a memory module."
+  },
+  {
+    "question": "The less space consideration as lead to the development of ________ (for large memories).",
+    "options": [
+      "A) SIMM’s",
+      "B) DIMS’s",
+      "C) SRAM’s",
+      "D) Both SIMM’s and DIMS’s"
+    ],
+    "correct_answer": "D",
+    "explanation": "The SIMM (single inline memory module) or DIMM (dual inline memory module) occupy less space while providing greater memory space."
+  },
+  {
+    "question": "The SRAM’s are basically used as ______",
+    "options": [
+      "A) Registers",
+      "B) Caches",
+      "C) TLB",
+      "D) Buffer"
+    ],
+    "correct_answer": "B",
+    "explanation": "The SRAM’s are used as caches as their operation speed is very high."
+  },
+  {
+    "question": "The higher order bits of the address are used to _____",
+    "options": [
+      "A) Specify the row address",
+      "B) Specify the column address",
+      "C) Input the CS",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "The address lines multiplexing is done using ______",
+    "options": [
+      "A) MMU",
+      "B) Memory controller unit",
+      "C) Page table",
+      "D) Overlay generator"
+    ],
+    "correct_answer": "B",
+    "explanation": "This unit multiplexes the various address lines to lesser pins on the chip."
+  },
+  {
+    "question": "The controller multiplexes the addresses after getting the _____ signal.",
+    "options": [
+      "A) INTR",
+      "B) ACK",
+      "C) RESET",
+      "D) Request"
+    ],
+    "correct_answer": "D",
+    "explanation": "The controller gets the request from the device needing the memory read or write operation and then it multiplexes the address."
+  },
+  {
+    "question": "The RAS and CAS signals are provided by the ______",
+    "options": [
+      "A) Mode register",
+      "B) CS",
+      "C) Memory controller",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "The multiplexed signal of the controller is split into RAS and CAS."
+  },
+  {
+    "question": "Consider a memory organised into 8K rows, and that it takes 4 cycles to complete a read operation. Then the refresh overhead of the chip is ______",
+    "options": [
+      "A) 0.0021",
+      "B) 0.0038",
+      "C) 0.0064",
+      "D) 0.0128"
+    ],
+    "correct_answer": "B",
+    "explanation": "The refresh overhead is calculated by taking into account the total time for refreshing and the interval of each refresh."
+  },
+  {
+    "question": "When DRAM’s are used to build a complex large memory, then the controller only provides the refresh counter.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "If the transistor gate is closed, then the ROM stores a value of 1.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "If the gate of the transistor is closed then, the value of zero is stored in the ROM."
+  },
+  {
+    "question": "PROM stands for __________",
+    "options": [
+      "A) Programmable Read Only Memory",
+      "B) Pre-fed Read Only Memory",
+      "C) Pre-required Read Only Memory",
+      "D) Programmed Read Only Memory"
+    ],
+    "correct_answer": "A",
+    "explanation": "It allows the user to program the ROM."
+  },
+  {
+    "question": "The PROM is more effective than ROM chips in regard to _______",
+    "options": [
+      "A) Cost",
+      "B) Memory management",
+      "C) Speed of operation",
+      "D) Both Cost and Speed of operation"
+    ],
+    "correct_answer": "D",
+    "explanation": "The PROM is cheaper than ROM as they can be programmed manually."
+  },
+  {
+    "question": "The difference between the EPROM and ROM circuitry is _____",
+    "options": [
+      "A) The usage of MOSFET’s over transistors",
+      "B) The usage of JFET’s over transistors",
+      "C) The usage of an extra transistor",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "The EPROM uses an extra transistor where the ground connection is there in the ROM chip."
+  },
+  {
+    "question": "The ROM chips are mainly used to store _______",
+    "options": [
+      "A) System files",
+      "B) Root directories",
+      "C) Boot files",
+      "D) Driver files"
+    ],
+    "correct_answer": "C",
+    "explanation": "The ROM chips are used to store boot files required for the system startup."
+  },
+  {
+    "question": "The contents of the EPROM are erased by ________",
+    "options": [
+      "A) Overcharging the chip",
+      "B) Exposing the chip to UV rays",
+      "C) Exposing the chip to IR rays",
+      "D) Discharging the Chip"
+    ],
+    "correct_answer": "B",
+    "explanation": "To erase the contents of the EPROM the chip is exposed to the UV rays, which dissipate the charge on the transistor."
+  },
+  {
+    "question": "The disadvantage of the EPROM chip is _______",
+    "options": [
+      "A) The high cost factor",
+      "B) The low efficiency",
+      "C) The low speed of operation",
+      "D) The need to remove the chip physically to reprogram it"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "EEPROM stands for Electrically Erasable Programmable Read Only Memory.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "The disadvantages of the EPROM led to the development of the EEPROM."
+  },
+  {
+    "question": "The disadvantage of the EEPROM is/are ________",
+    "options": [
+      "A) The requirement of different voltages to read, write and store information",
+      "B) The Latency read operation",
+      "C) The inefficient memory mapping schemes used",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "The memory devices which are similar to EEPROM but differ in the cost effectiveness is ______",
+    "options": [
+      "A) Memory sticks",
+      "B) Blue-ray devices",
+      "C) Flash memory",
+      "D) CMOS"
+    ],
+    "correct_answer": "C",
+    "explanation": "The flash memory functions similar to the EEPROM but is much cheaper."
+  },
+  {
+    "question": "The only difference between the EEPROM and flash memory is that the latter doesn’t allow bulk data to be written.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "This is not permitted as the previous contents of the cells will be overwritten."
+  },
+  {
+    "question": "The flash memories find application in ______",
+    "options": [
+      "A) Super computers",
+      "B) Mainframe systems",
+      "C) Distributed systems",
+      "D) Portable devices"
+    ],
+    "correct_answer": "D",
+    "explanation": "The flash memories low power requirement enables them to be used in a wide range of hand held devices."
+  },
+  {
+    "question": "The memory module obtained by placing a number of flash chips for higher memory storage called as _______",
+    "options": [
+      "A) FIMM",
+      "B) SIMM",
+      "C) Flash card",
+      "D) RIMM"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "The flash memory modules designed to replace the functioning of a hard disk is ______",
+    "options": [
+      "A) RIMM",
+      "B) Flash drives",
+      "C) FIMM",
+      "D) DIMM"
+    ],
+    "correct_answer": "B",
+    "explanation": "The flash drives have been developed to provide faster operation but with lesser space."
+  },
+  {
+    "question": "The reason for the fast operating speeds of the flash drives is ____________",
+    "options": [
+      "A) The absence of any movable parts",
+      "B) The integrated electronic hardware",
+      "C) The improved bandwidth connection",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Since the flash drives have no movable parts their access and seek times are reasonably reduced."
+  },
+  {
+    "question": "The reason for the implementation of the cache memory is ________",
+    "options": [
+      "A) To increase the internal memory of the system",
+      "B) The difference in speeds of operation of the processor and memory",
+      "C) To reduce the memory access and cycle time",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "There is a significant difference in speeds of operation of the processor (GHz) and the main memory due to which processor has to wait un-necessarily for the instruction and data to be fetched from the memory. This wastes a lot of CPU cycles. If we bring these data into the a staging buffer or cache, the processor can continue to operate, thereby increasing the program execution time significantly.\n\n\nadvertisement\n\n\n                    “The difference in speeds of operation of the processor and memory” is the main reason or the trigger for the implementation of cache memory. “reducing memory access and cycle time” is one of the benefits of cache memory, rather than the primary reason for its implementation. Out of the 4 choices given, we have to choose only one and hence “The difference in speeds of operation of the processor and memory” is most appropriate."
+  },
+  {
+    "question": "The effectiveness of the cache memory is based on the property of ________",
+    "options": [
+      "A) Locality of reference",
+      "B) Memory localisation",
+      "C) Memory size",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "This means that the cache depends on the location in the memory that is referenced often."
+  },
+  {
+    "question": "The temporal aspect of the locality of reference means ________",
+    "options": [
+      "A) That the recently executed instruction won’t be executed soon",
+      "B) That the recently executed instruction is temporarily not referenced",
+      "C) That the recently executed instruction will be executed soon again",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "The spatial aspect of the locality of reference means ________",
+    "options": [
+      "A) That the recently executed instruction is executed again next",
+      "B) That the recently executed won’t be executed again",
+      "C) That the instruction executed will be executed at a later time",
+      "D) That the instruction in close proximity of the instruction executed will be executed in future"
+    ],
+    "correct_answer": "D",
+    "explanation": "The spatial aspect of locality of reference tells that the nearby instruction is more likely to be executed in future."
+  },
+  {
+    "question": "The correspondence between the main memory blocks and those in the cache is given by _________",
+    "options": [
+      "A) Hash function",
+      "B) Mapping function",
+      "C) Locale function",
+      "D) Assign function"
+    ],
+    "correct_answer": "B",
+    "explanation": "The mapping function is used to map the contents of the memory to the cache."
+  },
+  {
+    "question": "The algorithm to remove and place new contents into the cache is called _______",
+    "options": [
+      "A) Replacement algorithm",
+      "B) Renewal algorithm",
+      "C) Updation",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "As the cache gets full, older contents of the cache are swapped out with newer contents. This decision is taken by the algorithm."
+  },
+  {
+    "question": "The write-through procedure is used ________",
+    "options": [
+      "A) To write onto the memory directly",
+      "B) To write and read from memory simultaneously",
+      "C) To write directly on the memory and the cache simultaneously",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "When write operation is issued then the corresponding operation is performed."
+  },
+  {
+    "question": "The bit used to signify that the cache location is updated is ________",
+    "options": [
+      "A) Dirty bit",
+      "B) Update bit",
+      "C) Reference bit",
+      "D) Flag bit"
+    ],
+    "correct_answer": "A",
+    "explanation": "When the cache location is updated in order to signal to the processor this bit is used."
+  },
+  {
+    "question": "The copy-back protocol is used ________",
+    "options": [
+      "A) To copy the contents of the memory onto the cache",
+      "B) To update the contents of the memory from the cache",
+      "C) To remove the contents of the cache and push it on to the memory",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "This is another way of performing the write operation, wherein the cache is updated first and then the memory."
+  },
+  {
+    "question": "The approach where the memory contents are transferred directly to the processor from the memory is called ______",
+    "options": [
+      "A) Read-later",
+      "B) Read-through",
+      "C) Early-start",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "The main memory is structured into modules each with its own address register called ______",
+    "options": [
+      "A) ABR",
+      "B) TLB",
+      "C) PC",
+      "D) IR"
+    ],
+    "correct_answer": "A",
+    "explanation": "ABR stands for Address Buffer Register."
+  },
+  {
+    "question": "When consecutive memory locations are accessed only one module is accessed at a time.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "In a modular approach to memory structuring only one module can be accessed at a time."
+  },
+  {
+    "question": "In memory interleaving, the lower order bits of the address is used to _____________",
+    "options": [
+      "A) Get the data",
+      "B) Get the address of the module",
+      "C) Get the address of the data within the module",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "To implement parallelism in data access we use interleaving."
+  },
+  {
+    "question": "The number successful accesses to memory stated as a fraction is called as _____",
+    "options": [
+      "A) Hit rate",
+      "B) Miss rate",
+      "C) Success rate",
+      "D) Access rate"
+    ],
+    "correct_answer": "A",
+    "explanation": "The hit rate is an important factor in performance measurement."
+  },
+  {
+    "question": "The number failed attempts to access memory, stated in the form of a fraction is called as _________",
+    "options": [
+      "A) Hit rate",
+      "B) Miss rate",
+      "C) Failure rate",
+      "D) Delay rate"
+    ],
+    "correct_answer": "B",
+    "explanation": "The miss rate is a key factor in deciding the type of replacement algorithm."
+  },
+  {
+    "question": "In associative mapping during LRU, the counter of the new block is set to ‘0’ and all the others are incremented by one, when _____ occurs.",
+    "options": [
+      "A) Delay",
+      "B) Miss",
+      "C) Hit",
+      "D) Delayed hit"
+    ],
+    "correct_answer": "B",
+    "explanation": "Miss usually occurs when the memory block required is not present in the cache."
+  },
+  {
+    "question": "In LRU, the referenced blocks counter is set to’0′ and that of the previous blocks are incremented by one and others remain same, in the case of ______",
+    "options": [
+      "A) Hit",
+      "B) Miss",
+      "C) Delay",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "If the referenced block is present in the memory it is called as hit."
+  },
+  {
+    "question": "If hit rates are well below 0.9, then they’re called as speedy computers.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "It has to be above 0.9 for speedy computers."
+  }
+]

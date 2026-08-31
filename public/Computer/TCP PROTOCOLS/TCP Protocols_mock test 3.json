@@ -1,0 +1,540 @@
+[
+  {
+    "question": "What is MIN?",
+    "options": [
+      "A) Subscriber’s telephone number",
+      "B) Paging message",
+      "C) Traffic request number",
+      "D) Mobile Internet"
+    ],
+    "correct_answer": "A",
+    "explanation": "MIN (Mobile Identification Number) is a 10 digit unique number which represents the telephone number of subscriber."
+  },
+  {
+    "question": "What is transmitted along with the call initiation request during the origin of call by a mobile?",
+    "options": [
+      "A) MIN",
+      "B) ESN",
+      "C) ESN and SCM",
+      "D) MIN, ESN and SCM"
+    ],
+    "correct_answer": "D",
+    "explanation": "When a mobile originates the call, it sends the MIN (mobile identification number), ESN (electronic serial number) and SCM (station class mark) along with the call initiation request."
+  },
+  {
+    "question": "What does SCM indicates?",
+    "options": [
+      "A) Maximum receiver power level for a particular user",
+      "B) Maximum transmitter power level for a particular user",
+      "C) Minimum receiver power level for a particular user",
+      "D) Minimum transmitter power level for a particular user"
+    ],
+    "correct_answer": "B",
+    "explanation": "SCM (Station Class Mark) indicates the maximum transmitter power level for a particular user."
+  },
+  {
+    "question": "What is the shape of the cell present in the cellular system?",
+    "options": [
+      "A) Circular",
+      "B) Square",
+      "C) Hexagonal",
+      "D) Triangular"
+    ],
+    "correct_answer": "C",
+    "explanation": "The shape of the cell present in the cellular network is hexagonal since it can cover the entire geographical area without any gap and overlapping."
+  },
+  {
+    "question": "Why the size of the cell is kept small in cellular network?",
+    "options": [
+      "A) Increase capacity",
+      "B) Decrease capacity",
+      "C) Increased size of base station electronics",
+      "D) Slow process of handoffs"
+    ],
+    "correct_answer": "A",
+    "explanation": "The size of the cells in cellular network is kept small because of the need of high capacity in areas with high user density and reduced size and cost of base station electronics."
+  },
+  {
+    "question": "What is handoff?",
+    "options": [
+      "A) Forward channel",
+      "B) Switching technique",
+      "C) Roamer",
+      "D) Guard channel"
+    ],
+    "correct_answer": "B",
+    "explanation": "Handoff is a switching technique which refers to the process of transferring an active call or data session from one cell in a cellular network to another."
+  },
+  {
+    "question": "Which one is not an advantage of using frequency reuse?",
+    "options": [
+      "A) Increased capacity",
+      "B) Limited spectrum is required",
+      "C) Same spectrum may be allocated to other network",
+      "D) Number of base stations is reduced"
+    ],
+    "correct_answer": "D",
+    "explanation": "Frequency reuse is a technique of reusing frequencies and channels within a cellular system to improve capacity and spectral efficiency."
+  },
+  {
+    "question": "The process of transferring a mobile station from one base station to another is ____________",
+    "options": [
+      "A) MSC",
+      "B) Roamer",
+      "C) Handoff",
+      "D) Forward channel"
+    ],
+    "correct_answer": "C",
+    "explanation": "Handoff is the process of changing the channel associated with current connection while a call is in progress."
+  },
+  {
+    "question": "The interference between the neighbouring base stations is avoided by ____________",
+    "options": [
+      "A) Assigning different group of channels",
+      "B) Using transmitters with different power level",
+      "C) Using different antennas",
+      "D) Using different base stations"
+    ],
+    "correct_answer": "A",
+    "explanation": "The interference between the neighbouring base stations is avoided by assigning different group of channels and reusing the same channel after a certain amount of distance."
+  },
+  {
+    "question": "Power delay profile is represented as plots of __________ with respect to fixed time delay reference.",
+    "options": [
+      "A) Relative received power",
+      "B) Frequency",
+      "C) Transmitted power",
+      "D) Relative power"
+    ],
+    "correct_answer": "A",
+    "explanation": "Power delay profiles are generally represented as plots of relative received power as a function of excess delay with respect to a fixed time delay reference. They are calculated by averaging instantaneous power delay profile measurements over a local area."
+  },
+  {
+    "question": "Which of the following is not a multipath channel parameter that can be determined from power delay profile?",
+    "options": [
+      "A) Mean excess delay",
+      "B) RMS delay spread",
+      "C) Excess delay spread",
+      "D) Doppler spread"
+    ],
+    "correct_answer": "D",
+    "explanation": "The mean excess delay, excess delay spread and rms delay spread are some multipath channel parameters. They can be determined from a power delay profile. Doppler spread is a measure of spectral broadening caused by time rate of change of mobile radio channel."
+  },
+  {
+    "question": "The time dispersive properties of wideband multipath channel are quantified by ______ and _______",
+    "options": [
+      "A) Mean excess delay, rms delay spread",
+      "B) Doppler spread, rms delay spread",
+      "C) Doppler spread, coherence time",
+      "D) Mean excess delay, Doppler spread"
+    ],
+    "correct_answer": "A",
+    "explanation": "The time dispersive properties of wide band multipath channels are most commonly quantified by their mean excess delay and rms delay spread. Coherence time characterizes the time varying nature of frequency dispersiveness of mobile radio channel in time domain."
+  },
+  {
+    "question": "_______ is the square root of the second central moment of the power delay profile.",
+    "options": [
+      "A) Mean excess delay",
+      "B) Rms delay spread",
+      "C) Excess delay spread",
+      "D) Coherence time"
+    ],
+    "correct_answer": "B",
+    "explanation": "The rms delay spread is the square root of the second central moment of the power delay profile. Many measurements are made at many local areas in order to determine a statistical range of multipath channel parameters for a mobile communication system over a large scale area."
+  },
+  {
+    "question": "Which of the following is the first moment of the power delay profile?",
+    "options": [
+      "A) Rms delay spread",
+      "B) Excess delay spread",
+      "C) Mean excess delay",
+      "D) Doppler spread"
+    ],
+    "correct_answer": "C",
+    "explanation": "Mean excess delay is the first moment of the power delay profile. It is defined from a single power delay profile which is temporal or spatial average of consecutive impulse response measurements collected and averaged over a local area."
+  },
+  {
+    "question": "What is the order of typical values of rms delay spread in outdoor mobile radio channels?",
+    "options": [
+      "A) Microseconds",
+      "B) Nanoseconds",
+      "C) Seconds",
+      "D) Minutes"
+    ],
+    "correct_answer": "A",
+    "explanation": "Typical values of rms delay spread are on the order of microseconds in outdoor mobile radio channels. For indoor mobile radio channels, they are of the order of nanoseconds."
+  },
+  {
+    "question": "Power delay profile and magnitude frequency response of a mobile radio channel are related through _______",
+    "options": [
+      "A) Laplace Transform",
+      "B) Fourier Transform",
+      "C) S Transform",
+      "D) Wavelet Transform"
+    ],
+    "correct_answer": "B",
+    "explanation": "Power delay profile and magnitude frequency response of a mobile radio channel are related through the Fourier transform. Therefore, it is possible to obtain an equivalent description of the channel in the frequency domain using its frequency response characteristics."
+  },
+  {
+    "question": "______ and coherence bandwidth are inversely proportional to one another.",
+    "options": [
+      "A) Rms delay spread",
+      "B) Mean excess delay",
+      "C) Excess delay spread",
+      "D) Doppler spread"
+    ],
+    "correct_answer": "A",
+    "explanation": "The rms delay spread and coherence bandwidth are inversely proportional to one another. However, their exact relationship is a function of the exact multipath structure."
+  },
+  {
+    "question": "Coherence bandwidth is a statistical measure of range of frequencies over which channel is considered _______",
+    "options": [
+      "A) Time dispersive",
+      "B) Frequency selective",
+      "C) Time variant",
+      "D) Flat"
+    ],
+    "correct_answer": "D",
+    "explanation": "Coherence bandwidth is a statistical measure of range of frequencies over which channel is considered flat. A flat channel is a channel which passes all spectral components with approximately equal gain and linear phase."
+  },
+  {
+    "question": "Which of the following describes time varying nature of the channel in a small scale region?",
+    "options": [
+      "A) Delay spread and coherence time",
+      "B) Coherence bandwidth and delay spread",
+      "C) Doppler spread and coherence time",
+      "D) Delay spread and doppler spread"
+    ],
+    "correct_answer": "C",
+    "explanation": "Delay spread and coherence bandwidth describes the time dispersive nature of the channel in a local area. They do not give information about the time varying nature of the channel caused by either relative motion between the mobile and base station, or by movement of objects in the channel."
+  },
+  {
+    "question": "Doppler spread is a range of frequencies over which received Doppler spread is _______",
+    "options": [
+      "A) Zero",
+      "B) Non zero",
+      "C) Infinite",
+      "D) One"
+    ],
+    "correct_answer": "B",
+    "explanation": "Doppler spread is a range of frequencies over which received Doppler spectrum is essentially non-zero. It is a measure of spectral broadening caused by time rate of change of mobile radio channel."
+  },
+  {
+    "question": "_______ is a statistical measure of time duration over which channel impulse response is invariant.",
+    "options": [
+      "A) Coherence time",
+      "B) Doppler spread",
+      "C) Mean excess delay",
+      "D) Rms delay spread"
+    ],
+    "correct_answer": "A",
+    "explanation": "Coherence time is actually a statistical measure of the time duration over which the channel impulse response is essentially invariant. It quantifies the similarity of the channel response at varying times."
+  },
+  {
+    "question": "Which of the following is not a small scale multipath measurement technique?",
+    "options": [
+      "A) Indirect pulse measurement",
+      "B) Direct pulse measurement",
+      "C) Spread spectrum sliding correlator measurement",
+      "D) Swept frequency measurement"
+    ],
+    "correct_answer": "A",
+    "explanation": "Because of the importance of multipath structure in determining the small scale fading effects, a number of wideband channel sounding techniques have been developed. These are direct pulse measurement, spread spectrum sliding correlator and swept frequency measurement."
+  },
+  {
+    "question": "Direct RF pulse systems are complex.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Direct RF pulse systems have a very attractive system. They lack complexity because of the use of off the shelf equipment. This system can also provide a local average power delay profile."
+  },
+  {
+    "question": "What is the main disadvantage of RF pulse system?",
+    "options": [
+      "A) Complexity",
+      "B) Not real time",
+      "C) Interference and noise",
+      "D) Simplicity"
+    ],
+    "correct_answer": "C",
+    "explanation": "The main problem with RF pulse system is that it is subject to interference and noise. This is due to wide passband filter required for multipath time resolution."
+  },
+  {
+    "question": "Why is the phase of individual multipath components are not received in RF Pulse system?",
+    "options": [
+      "A) Due to use of duplexer",
+      "B) Due to use of ADC",
+      "C) Due to use of flip flops",
+      "D) Due to use of envelope detector"
+    ],
+    "correct_answer": "D",
+    "explanation": "Another disadvantage of RF pulse system is that phase of individual multipath components are not received due to use of an envelope detector. However, use of a coherent detector permits measurement of the multipath phase using this technique."
+  },
+  {
+    "question": "Spread spectrum sliding correlator has better ________ in comparison to RF pulse system.",
+    "options": [
+      "A) Dynamic range",
+      "B) Frequency",
+      "C) Power density",
+      "D) Structure"
+    ],
+    "correct_answer": "A",
+    "explanation": "While the probing signal may be wideband, it is possible to detect the transmitted signal using a narrowband receiver preceded by a wideband mixer. Thus, it improves the dynamic range of the system in comparison to RF pulse system."
+  },
+  {
+    "question": "If a PN sequence has chip duration of Tc, then chip rate is given by ___________",
+    "options": [
+      "A) Tc",
+      "B) 1/Tc",
+      "C) 2 Tc",
+      "D) Tc2"
+    ],
+    "correct_answer": "B",
+    "explanation": "In a spread spectrum channel sounder, a carrier signal is spread over a large bandwidth. It is done by mixing it with a binary pseudo number (PN) sequence having a chip duration of Tc and chip rate of 1/Tc."
+  },
+  {
+    "question": "The maximal length of PN sequence, the sequence length for n number of shift register is ______",
+    "options": [
+      "A) 2n",
+      "B) 1/2n",
+      "C) 2n – 1",
+      "D) 2n + 1"
+    ],
+    "correct_answer": "C",
+    "explanation": "For a maximal length pseudo number (PN) sequence, the sequence length is 2n – 1. Here, n is the number of shift registers in the sequence register."
+  },
+  {
+    "question": "The ratio between transmitter chip clock rate and the difference between the transmitter chip clock and difference between transmitter and receiver chip clock rates is called ___________",
+    "options": [
+      "A) Slide factor",
+      "B) Chip factor",
+      "C) Reuse factor",
+      "D) Shape factor"
+    ],
+    "correct_answer": "A",
+    "explanation": "The slide factor is defined as ratio between transmitter chip clock rate and the difference between the transmitter chip clock and difference between transmitter and receiver chip clock rates. It is unit less quantity."
+  },
+  {
+    "question": "Which of the following is not an advantage of spread spectrum channel sounding system?",
+    "options": [
+      "A) Rejection of passband noise",
+      "B) Real time",
+      "C) Coverage range improvement",
+      "D) Less transmitter power required"
+    ],
+    "correct_answer": "B",
+    "explanation": "One of the main advantage of spread spectrum channel sounding system is ability to reject passsband noise. Thus, it improves the coverage range for a given transmitter power. Also, required transmitter powers can be considerably lower compared to direct pulse systems due to inherent processing gain."
+  },
+  {
+    "question": "Which of the following is a disadvantage of spread spectrum channel sounding system?",
+    "options": [
+      "A) Passband noise",
+      "B) Less coverage area",
+      "C) Large transmitter power required",
+      "D) Not in real time"
+    ],
+    "correct_answer": "D",
+    "explanation": "A disadvantage of spread spectrum system as compared to direct RF pulse system, is that measurements are not made in real time. But they are compiled as the PN codes slide past one another."
+  },
+  {
+    "question": "There is no relationship between time domain and frequency domain techniques.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "There is a dual relationship between time domain and frequency domain techniques. Therefore, it is possible to measure the channel impulse response in the frequency domain. Frequency domain channel sounder is used for measuring channel impulse response."
+  },
+  {
+    "question": "Transmissivity is a _________ domain response.",
+    "options": [
+      "A) Time",
+      "B) Frequency",
+      "C) Time-frequency",
+      "D) Spatial"
+    ],
+    "correct_answer": "B",
+    "explanation": "Transmissivity response is a frequency domain response. It is a frequency domain representation of channel impulse response. This response is then converted to the time domain using inverse discrete Fourier transform."
+  },
+  {
+    "question": "Frequency domain channel sounding technique do not require hard wired synchronization between transmitter and receiver.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Frequency domain channel sounding system requires careful calibration and hardwired synchronization between transmitter and receiver. However, this technique works well and indirectly provides amplitude and phase information in the time domain."
+  },
+  {
+    "question": "Frequency domain channel sounding system is _______ in nature.",
+    "options": [
+      "A) Real time",
+      "B) Digital",
+      "C) Non real time",
+      "D) Analog"
+    ],
+    "correct_answer": "C",
+    "explanation": "Frequency domain channel sounding system makes measurements of non real time nature. For time varying channels, the channel frequency response can change rapidly giving an erroneous impulse response measurement."
+  },
+  {
+    "question": "Faster sweep time can be accomplished by ________",
+    "options": [
+      "A) Increasing frequency steps",
+      "B) Increasing time slots",
+      "C) Reducing time slots",
+      "D) Reducing frequency steps"
+    ],
+    "correct_answer": "D",
+    "explanation": "A faster sweep time can be accomplished by reducing the number of frequency steps. But this sacrifices the time resolution and excess delay range in the time domain."
+  },
+  {
+    "question": "Which of the following has no backward compatibility with 3G Cdma2000?",
+    "options": [
+      "A) IS-95",
+      "B) GPRS",
+      "C) IS-95A",
+      "D) IS-95B"
+    ],
+    "correct_answer": "B",
+    "explanation": "3G Cdma2000 is based on the original IS-95 and IS-95A CDMA standards, as well as the 2.5G IS-95B air interface. While upgrading, Cdma2000 maintains backward compatibility with existing IS-95, IS-95A and IS-95B equipments. Thus, Cdma2000 allow wireless carriers to introduce a family of new high data rate Internet access capabilities within existing systems."
+  },
+  {
+    "question": "2G and 2.5G CDMA operators may selectively introduce 3G capabilities at each cell without changing entire base stations and reallocate spectrums.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "Cdma2000 does not require change in entire base station or additional RF equipment. All the changes are made in software or in baseband hardware."
+  },
+  {
+    "question": "Which of the following the first 3G CDMA air interface?",
+    "options": [
+      "A) IS-95",
+      "B) IS-95B",
+      "C) Cdma2000 1xRTT",
+      "D) CdmaOne"
+    ],
+    "correct_answer": "C",
+    "explanation": "Cdma2000 1xRTT is the first 3G air interface. Here, RTT stands for Radio Transmission Technology and 1x indicates that the bandwidth is one times that of the original CdmaOne channel. It is modulated on a single carrier."
+  },
+  {
+    "question": "Within ITU IMT-2000 body, Cdma2000 1xRTT is also known as ____________",
+    "options": [
+      "A) Cdma2000 1xEV-DO",
+      "B) Cdma2000 1xEV-DV",
+      "C) IS-95B",
+      "D) G3G-MC-CDMA-1X"
+    ],
+    "correct_answer": "D",
+    "explanation": "Cdma2000 1xRTT is also known as G3G-MC-CDMA-1X. The initials MC stand for multicarrier. RTT stand for Radio Transmission Technology, a language suggested by IMT-2000 body. Usually, MC and RTT are omitted for convenience."
+  },
+  {
+    "question": "How many users are supported by Cdma2000 1X in comparison to 2G CDMA standard?",
+    "options": [
+      "A) Half",
+      "B) Twice",
+      "C) Six times",
+      "D) Ten times"
+    ],
+    "correct_answer": "B",
+    "explanation": "Cdma2000 support up to twice as many users as the 2G CDMA standard. It also provides the two times the standby time for longer lasting battery life."
+  },
+  {
+    "question": "Cdma2000 works in TDD mode only.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Cdma2000 works in both FDD and TDD mode. Cdma2000 developed for wide area cellular coverage uses FDD. And TDD is used by Cdma2000 for indoor cordless type applications."
+  },
+  {
+    "question": "Which of the following is not a characteristic of Cdma2000?",
+    "options": [
+      "A) Adaptable baseband signalling rates",
+      "B) Adaptable baseband chipping rates",
+      "C) Multicarrier technologies",
+      "D) OFDMA"
+    ],
+    "correct_answer": "D",
+    "explanation": "Cdma2000 does not use OFDMA technique. OFDMA is used by 4G networks. Cdma2000 uses rapidly adaptable baseband signalling rates and chipping rates for each user. It also provides multi-level keying within same framework."
+  },
+  {
+    "question": "Cdma2000 1xEV was developed by ________",
+    "options": [
+      "A) Motorola",
+      "B) AT&T Laboratories",
+      "C) Qualcomm",
+      "D) NTT"
+    ],
+    "correct_answer": "C",
+    "explanation": "Cdma2000 is an evolutionary advancement for CDMA. It was developed by Qualcomm Inc. It is a proprietary high data rate (HDR) packet standard that can be overlaid upon existing IS-95, IS-95B and Cdma2000 networks."
+  },
+  {
+    "question": "How is bandwidth increased in Cdma2000?",
+    "options": [
+      "A) Clubbing adjacent radio channels",
+      "B) Changing the hardware of base stations",
+      "C) Change of spectrum",
+      "D) Change of RF equipment"
+    ],
+    "correct_answer": "A",
+    "explanation": "The increase in the bandwidth is achieved through clubbing the adjacent radio channels of CdmaOne and using multicarrier technologies. For example, Cdma2000 3xRTT uses these technologies by combining three adjacent 1.25 MHz bandwidth of CdmaOne channels."
+  },
+  {
+    "question": "What are the two options provided by Cdma2000 1xEV?",
+    "options": [
+      "A) Cdma2000 1xRTT. Cdma2000 3xRTT",
+      "B) Cdma2000 1xEV-DO, Cdma2000 1xEV-DV",
+      "C) Cdma2000 1xEV-DT, Cdma2000 1xEV-DO",
+      "D) Cdma2000 1xRTT, Cdma2000 1xEV-DV"
+    ],
+    "correct_answer": "B",
+    "explanation": "Cdma2000 1xEV is an evolutionary upgrade for Cdma2000. It provides two options, for accessing only data (Cdma2000 1xEV-DO) and for both data & voice (Cdma2000 1xEV-DV)."
+  },
+  {
+    "question": "Which of the following is not backward compatible with Cdma2000?",
+    "options": [
+      "A) Cdma2000 1xRTT",
+      "B) Cdma2000 3xRTT",
+      "C) Cdma2000 1xEV-DO",
+      "D) Cdma2000 1xEV-DT"
+    ],
+    "correct_answer": "C",
+    "explanation": "Cdma2000 1xEV-DO option provides data rates of about 2.4 Mbps and supports data traffic only. No voice communication is supported. It relaxes the minimum latency requirement. But this mode is not backward compatible with Cdma2000."
+  },
+  {
+    "question": "Cellular concept replaces many low power transmitters to a single high power transmitter.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Cellular concept is a system level idea that replaces a single high power transmitter to many low power transmitters. High power transmitters lead to large cell, and thus it was impossible to use the same frequencies throughout the systems. But, it is possible with low power transmitter."
+  },
+  {
+    "question": "Why neighbouring stations are assigned different group of channels in cellular system?",
+    "options": [
+      "A) To minimize interference",
+      "B) To minimize area",
+      "C) To maximize throughput",
+      "D) To maximize capacity of each cell"
+    ],
+    "correct_answer": "A",
+    "explanation": "Neighbouring base stations are assigned different group of channels. It minimizes the interference between base stations and the users under their control."
+  },
+  {
+    "question": "What is a cell in cellular system?",
+    "options": [
+      "A) A group of cells",
+      "B) A group of subscribers",
+      "C) A small geographical area",
+      "D) A large group of mobile systems"
+    ],
+    "correct_answer": "C",
+    "explanation": "Cell is a small geographic area in a cellular system. Each cellular base station within a cell is allocated a group of radio channels that could be used in another cell."
+  }
+]

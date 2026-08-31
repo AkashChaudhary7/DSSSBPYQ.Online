@@ -1,0 +1,542 @@
+[
+  {
+    "question": "Which of the following strategies means that the impact of the risk will be reduced?",
+    "options": [
+      "A) Avoidance strategies",
+      "B) Minimization strategies",
+      "C) Contingency plans",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "Risk management is now recognized as one of the most important project management tasks.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "Why is decomposition technique required?",
+    "options": [
+      "A) Software project estimation is a form of problem solving",
+      "B) Developing a cost and effort estimate for a software project is too complex",
+      "C) All of the mentioned",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "For these reasons, we decompose the problem, re-characterizing it as a set of smaller problems."
+  },
+  {
+    "question": "Cost and effort estimation of a software uses only one forms of decomposition, either decomposition of the problem or decomposition of the process.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Estimation uses one or both forms of partitioning."
+  },
+  {
+    "question": "If a Direct approach to software project sizing is taken, size can be measured in",
+    "options": [
+      "A) LOC",
+      "B) FP",
+      "C) LOC and FP",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "LOC or Line of Code is a direct measure to estimate project size."
+  },
+  {
+    "question": "Which software project sizing approach develop estimates of the information domain characteristics?",
+    "options": [
+      "A) Function point sizing",
+      "B) Change sizing",
+      "C) Standard component sizing",
+      "D) Fuzzy logic sizing"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "The expected value for the estimation variable (size), S, can be computed as a weighted average of the optimistic(Sopt), most likely (Sm), and pessimistic (Spess) estimates given as",
+    "options": [
+      "A) EV = (Sopt + 4Sm + Spess)/4",
+      "B) EV = (Sopt + 4Sm + Spess)/6",
+      "C) EV = (Sopt + 2Sm + Spess)/6",
+      "D) EV = (Sopt + 2Sm + Spess)/4"
+    ],
+    "correct_answer": "B",
+    "explanation": "This assumes that there is a very small probability that the actual size result will fall outside the optimistic or pessimistic values."
+  },
+  {
+    "question": "How many forms exists of Barry Boehm’s COCOMO Model?",
+    "options": [
+      "A) Two",
+      "B) Three",
+      "C) Four",
+      "D) No form exists"
+    ],
+    "correct_answer": "B",
+    "explanation": "The three forms include the basic, intermediate and advanced COCOMO model."
+  },
+  {
+    "question": "Who suggested the four different approaches to the sizing problem?",
+    "options": [
+      "A) Putnam",
+      "B) Myers",
+      "C) Boehm",
+      "D) Putnam and Myers"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "In many cases, it is often more cost-effective to acquire, rather than develop, computer software.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "Managers are faced with a make-buy decision in such situations."
+  },
+  {
+    "question": "A make-buy decision is based on whether",
+    "options": [
+      "A) The software may be purchased off-the-shelf",
+      "B) “Full-experience” or “Partial-experience” software components should be used",
+      "C) Customer-built software should be developed",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "None.."
+  },
+  {
+    "question": "Which of the following is not one of the five information domain characteristics of Function Point (FP) decomposition?",
+    "options": [
+      "A) External inputs",
+      "B) External outputs",
+      "C) External process",
+      "D) External inquiries"
+    ],
+    "correct_answer": "C",
+    "explanation": "External inputs, external outputs, external inquiries, internal logical files, external interface files are the five domains."
+  },
+  {
+    "question": "The project planner must reconcile the estimates based on decomposition techniques to produce a single estimate of effort.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "The planner must determine the cause of divergence and then reconcile the estimates."
+  },
+  {
+    "question": "Programming language experience is a part of which factor of COCOMO cost drivers?",
+    "options": [
+      "A) Personnel Factor",
+      "B) Product Factor",
+      "C) Platform Factor",
+      "D) Project Factor"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "If an Indirect approach is taken, then the sizing approach is represented as",
+    "options": [
+      "A) LOC",
+      "B) FP",
+      "C) Fuzzy Logic",
+      "D) LOC and FP"
+    ],
+    "correct_answer": "B",
+    "explanation": "A function point (FP) is a unit of measurement to express the amount of business functionality an information system provides to a user."
+  },
+  {
+    "question": "Project management involves the planning, monitoring, and control of the people, process, and events that occur as software evolves from a preliminary concept to an operational implementation.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "Which of the following is not an effective software project management focus?",
+    "options": [
+      "A) people",
+      "B) product",
+      "C) popularity",
+      "D) process"
+    ],
+    "correct_answer": "C",
+    "explanation": "Effective software project management focuses on the four P’s: people, product,   process, and project."
+  },
+  {
+    "question": "PM-CMM stands for",
+    "options": [
+      "A) people management capability maturity model",
+      "B) process management capability maturity model",
+      "C) product management capability maturity model",
+      "D) project management capability maturity model"
+    ],
+    "correct_answer": "A",
+    "explanation": "The people management maturity model defines the following key practice areas for software people: recruiting, selection, performance management, training, compensation, career development, organization and work design, and team/culture development."
+  },
+  {
+    "question": "Which of the following is not a project manager’s activity?",
+    "options": [
+      "A) project control",
+      "B) project management",
+      "C) project planning",
+      "D) project design"
+    ],
+    "correct_answer": "D",
+    "explanation": "The design part of any project management is done by the project team."
+  },
+  {
+    "question": "A software ________ provides the framework from which a comprehensive plan for software development can be established.",
+    "options": [
+      "A) people",
+      "B) product",
+      "C) process",
+      "D) none of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "A small number of framework activities are applicable to all software projects, regardless of their size or complexity."
+  },
+  {
+    "question": "Who defines the business issues that often have significant influence on the project?",
+    "options": [
+      "A) Practitioners",
+      "B) Project managers",
+      "C) Senior managers",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "Who delivers the technical skills that are necessary to engineer a product or an application?",
+    "options": [
+      "A) Practitioners",
+      "B) Project managers",
+      "C) Senior managers",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "Which of the following paradigm attempts to structure a team in a manner that achieves some of the controls associated with the closed paradigm but also much of the innovation that occurs when using the random paradigm?",
+    "options": [
+      "A) asynchronous paradigm",
+      "B) open paradigm",
+      "C) closed paradigm",
+      "D) synchronous paradigm"
+    ],
+    "correct_answer": "B",
+    "explanation": "Open paradigm team structures are well suited to the solution of complex problems but may not perform as efficiently as other teams."
+  },
+  {
+    "question": "Which of the following is a people-intensive activity?",
+    "options": [
+      "A) Problem solving",
+      "B) Organization",
+      "C) Motivation",
+      "D) Project management"
+    ],
+    "correct_answer": "D",
+    "explanation": "For this reason, competent practitioners often make poor team leaders."
+  },
+  {
+    "question": "Which paradigm structures a team loosely and depends on individual initiative of the team members?",
+    "options": [
+      "A) random paradigm",
+      "B) open paradigm",
+      "C) closed paradigm",
+      "D) synchronous paradigm"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "Which of the following is not an approach to software cost estimation?",
+    "options": [
+      "A) Empirical",
+      "B) Heuristic",
+      "C) Analytical",
+      "D) Critical"
+    ],
+    "correct_answer": "D",
+    "explanation": "Critical is no such standard approach of cost estimation."
+  },
+  {
+    "question": "Which paradigm relies on the natural compartmentalization of a problem and organizes team members to work on pieces of the problem with little active communication among themselves?",
+    "options": [
+      "A) random paradigm",
+      "B) open paradigm",
+      "C) closed paradigm",
+      "D) synchronous paradigm"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "Who interacts with the software once it is released for production use?",
+    "options": [
+      "A) End-users",
+      "B) Client",
+      "C) Project (technical) managers",
+      "D) Senior managers"
+    ],
+    "correct_answer": "A",
+    "explanation": "A product is always built to satisfy an end-user."
+  },
+  {
+    "question": "Which of the following is not an effective project manager trait?",
+    "options": [
+      "A) Problem solving",
+      "B) Managerial identity",
+      "C) Influence and team building",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "All are key traits of an effective project manager."
+  },
+  {
+    "question": "Which type of software engineering team has a defined leader who coordinates specific tasks and secondary leaders that have responsibility for sub tasks?",
+    "options": [
+      "A) Controlled decentralized (CD)",
+      "B) Democratic decentralized (DD)",
+      "C) Controlled centralized (CC)",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Problem solving remains a group activity, but implementation of solutions is partitioned among subgroups by the team leader."
+  },
+  {
+    "question": "Commitments to unrealistic time and resource estimates may result in",
+    "options": [
+      "A) project delay",
+      "B) poor quality work",
+      "C) project failure",
+      "D) all of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "Which software engineering team has no permanent leader?",
+    "options": [
+      "A) Controlled decentralized (CD)",
+      "B) Democratic decentralized (DD)",
+      "C) Controlled Centralized (CC)",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "Here Communication among team members is horizontal."
+  },
+  {
+    "question": "Which of the following is not a project factor that should be considered when planning the structure of software engineering teams?",
+    "options": [
+      "A) The difficulty of the problem to be solved",
+      "B) High frustration caused by personal, business, or technological factors that causes friction among team members",
+      "C) The degree of sociability required for the project",
+      "D) The rigidity of the delivery date"
+    ],
+    "correct_answer": "C",
+    "explanation": "Development is irrelevant of social quotient."
+  },
+  {
+    "question": "Which of the following is a collection of project coordination technique?",
+    "options": [
+      "A) Formal approaches",
+      "B) Formal, interpersonal procedures",
+      "C) Informal, interpersonal procedures",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "Which activity sits at the core of software requirements analysis?",
+    "options": [
+      "A) Problem decomposition",
+      "B) Partitioning",
+      "C) Problem elaboration",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "During the scoping activity decomposition is applied in two major areas: the functionality that must be delivered and the process that will be used to deliver it."
+  },
+  {
+    "question": "Which of the following is not a sign that indicates that an information systems project is in jeopardy?",
+    "options": [
+      "A) Software people don’t understand their customers needs",
+      "B) Changes are managed poorly",
+      "C) Sponsorship is gained",
+      "D) Users are resistant"
+    ],
+    "correct_answer": "C",
+    "explanation": "Other options are contradictory to the question."
+  },
+  {
+    "question": "SPMP stands for",
+    "options": [
+      "A) Software Project Manager’s Plan",
+      "B) Software Project Management Plan",
+      "C) Software Product Management Plan",
+      "D) Software Product Manager’s Plan"
+    ],
+    "correct_answer": "B",
+    "explanation": "After planning is complete, documenting of the plans is done in a Software Project Management Plan(SPMP) document."
+  },
+  {
+    "question": "Which of the following is the reason that software is delivered late?",
+    "options": [
+      "A) Changing customer requirements that are not reflected in schedule changes",
+      "B) Technical difficulties that could not have been foreseen in advance",
+      "C) Human difficulties that could not have been foreseen in advance",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "Which of the following is an activity that distributes estimated effort across the planned project duration by allocating the effort to specific software engineering tasks?",
+    "options": [
+      "A) Software Macroscopic schedule",
+      "B) Software Project scheduling",
+      "C) Software Detailed schedule",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "Every task that is scheduled should be assigned to a specific team member is termed as",
+    "options": [
+      "A) Compartmentalization",
+      "B) Defined milestones",
+      "C) Defined responsibilities",
+      "D) Defined outcomes"
+    ],
+    "correct_answer": "C",
+    "explanation": "These responsibilities are domain specific."
+  },
+  {
+    "question": "What is a collection of software engineering work tasks, milestones, and deliverables that must be accomplished to complete a particular project?",
+    "options": [
+      "A) Task set",
+      "B) Degree of milestone",
+      "C) Adaptation criteria",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "Ensuring that no more than the allocated number of people are allocated at any given time in Software Scheduling is known as",
+    "options": [
+      "A) Time Allocation",
+      "B) Effort Validation",
+      "C) Defined Milestone",
+      "D) Effort Distribution"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "What is used to determine the recommended degree of rigor with which the software process should be applied on a project?",
+    "options": [
+      "A) Degree of Rigor",
+      "B) Adaptation criteria",
+      "C) Task Set",
+      "D) Both degree of Rigor and adaptation criteria"
+    ],
+    "correct_answer": "B",
+    "explanation": "Four different degrees of rigor are: casual, structured, strict, and quick reaction."
+  },
+  {
+    "question": "What evaluates the risk associated with the technology to be implemented as part of project scope?",
+    "options": [
+      "A) Concept scoping",
+      "B) Preliminary concept planning",
+      "C) Technology risk assessment",
+      "D) Customer reaction to the concept"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "Which of the following is not an adaptation criteria for software projects?",
+    "options": [
+      "A) Size of the project",
+      "B) Customers Complaints",
+      "C) Project staff",
+      "D) Mission criticality"
+    ],
+    "correct_answer": "B",
+    "explanation": "These can vary from client to client."
+  },
+  {
+    "question": "Which of the following is a project scheduling method that can be applied to software development?",
+    "options": [
+      "A) PERT",
+      "B) CPM",
+      "C) CMM",
+      "D) Both PERT and CPM"
+    ],
+    "correct_answer": "D",
+    "explanation": "Program evaluation and review technique (PERT) and critical path method (CPM) are two project scheduling methods that can be applied to software development."
+  },
+  {
+    "question": "A technique for performing quantitative analysis of progress is known as",
+    "options": [
+      "A) BCWS",
+      "B) EVA",
+      "C) BAC",
+      "D) CBSE"
+    ],
+    "correct_answer": "B",
+    "explanation": "The earned value system provides a common value scale for every task, regardless of the type of work being performed. The total hours to do the whole project are estimated, and every task is given an earned value based on its estimated percentage of the total."
+  },
+  {
+    "question": "What is the recommended distribution of effort for a project?",
+    "options": [
+      "A) 40-20-40",
+      "B) 50-20-30",
+      "C) 30-40-30",
+      "D) 50-30-20"
+    ],
+    "correct_answer": "A",
+    "explanation": "A recommended distribution of effort across the software process is 40% (analysis and design), 20% (coding), and 40% (testing)‏."
+  },
+  {
+    "question": "A project usually has a timeline chart which was developed by",
+    "options": [
+      "A) Henry Gantt",
+      "B) Barry Boehm",
+      "C) Ivar Jacabson",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Timeline chart, also called a Gantt chart was invented by Henry Gantt, an industrial engineer in 1917 ."
+  },
+  {
+    "question": "Which of the following categories is part of the output of software process?",
+    "options": [
+      "A) computer programs",
+      "B) documents that describe the computer programs",
+      "C) data",
+      "D) all of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "None"
+  }
+]

@@ -1,0 +1,524 @@
+[
+  {
+    "question": "MSK is sometimes also referred as _________",
+    "options": [
+      "A) Slow FSK",
+      "B) Fast FSK",
+      "C) Slow PSK",
+      "D) Fast PSK"
+    ],
+    "correct_answer": "B",
+    "explanation": "Minimum shift keying is sometimes also referred as fast FSK. It is so called because frequency spacing used is only half as much as that used in conventional noncoherent frequency shift keying."
+  },
+  {
+    "question": "MSK is a special form of OQPSK.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "Yes, MSK can be thought of as a special form of offset quadrature phase shift keying. The condition is that baseband rectangular pulses are replaced with half sinusoidal pulses."
+  },
+  {
+    "question": "GMSK is a ________ of MSK.",
+    "options": [
+      "A) Integral",
+      "B) Opposite",
+      "C) Derivative",
+      "D) Similar"
+    ],
+    "correct_answer": "C",
+    "explanation": "Gaussian minimum phase shift keying is a simple binary modulation scheme. It is viewed as a derivative of MSK. GMSK considerably reduces the sidelobe levels in the transmitted spectrum."
+  },
+  {
+    "question": "Which of the following holds true for GMSK?",
+    "options": [
+      "A) Minimum ISI",
+      "B) Minimum error rate",
+      "C) Good spectral efficiency",
+      "D) Variable envelope property"
+    ],
+    "correct_answer": "C",
+    "explanation": "GMSK sacrifices the irreducible error rate caused by partial response signalling in exchange for extremely good spectral efficiency and constant envelope properties. And the premodulation Gaussian filtering introduces ISI in the transmitted signal."
+  },
+  {
+    "question": "MSK has complex demodulation and synchronization circuits.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "MSK has simple demodulation and synchronization circuits. It has various other advantages like continuous phase property makes it highly desirable for highly reactive loads. Due to these advantages, MSK is a popular modulation scheme for mobile radio communication."
+  },
+  {
+    "question": "Bit error rate provides the information about the type of error.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Bit error rate does not provide information about the type of error. However, bit error rate (BER) evaluation gives a good indication of the performance of a particular modulation scheme."
+  },
+  {
+    "question": "Irreducible BER floor is created in frequency selective channels due to ____________",
+    "options": [
+      "A) Intersymbol interference",
+      "B) Random spectral spreading",
+      "C) Time varying Doppler spread",
+      "D) Blind speed"
+    ],
+    "correct_answer": "A",
+    "explanation": "Frequency selective fading is caused due to multipath delay spread which causes intersymbol interference. It results in an irreducible BER floor for mobile systems."
+  },
+  {
+    "question": "Irreducible BER floor is created in non frequency selective channels due to ____________",
+    "options": [
+      "A) Intersymbol interference",
+      "B) Multipath time delay",
+      "C) Time varying Doppler spread",
+      "D) Blind speed"
+    ],
+    "correct_answer": "C",
+    "explanation": "Even if a mobile channel is not frequency selective, the tie varying Doppler spread due to motion creates an irreducible BER floor. It is caused due random spectral spreading."
+  },
+  {
+    "question": "The performance of BPSK is best is term of BER because _______",
+    "options": [
+      "A) Symbol offset interference does not exist",
+      "B) Existence of cross rail interference",
+      "C) No multipath delay",
+      "D) Doppler spread"
+    ],
+    "correct_answer": "A",
+    "explanation": "BER performance of BPSK is best among all the modulation schemes compared. This is because symbol offset interference does not exist in BPSK. Symbol offset interference is also called cross rail interference due to the fact that the eye diagram has multiple rails."
+  },
+  {
+    "question": "High capacity mobile systems are interference limited.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "High capacity mobile systems are interference limited, but they are not noise limited. It was clearly seen that when carrier to interference ratio (C/I) is large, the errors are primarily due to fading, and interference has very little effect. However, as C/I drops below a certain level, interference dominates the link performance."
+  },
+  {
+    "question": "Which of the following do not impact bit error rate in mobile communication systems?",
+    "options": [
+      "A) Mobile velocity",
+      "B) Channel delay spread",
+      "C) Modulation format",
+      "D) Base station"
+    ],
+    "correct_answer": "D",
+    "explanation": "The mobile velocity, channel delay spread, interference levels and modulation formats all independently impact the raw bit error rate in mobile communication systems. And simulation is a powerful way to design or predict the performance of wireless communication links."
+  },
+  {
+    "question": "Coherence time refers to ____________",
+    "options": [
+      "A) Time required attaining a call with the busy base station",
+      "B) Time required for synchronization between the transmitter and the receiver",
+      "C) Minimum time for change in magnitude and phase of the channel",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "Coherence time is the time required for synchronization between the transmitter and receiver. It is the over which a propagating wave is said to be coherent."
+  },
+  {
+    "question": "Doppler spread refers to _________",
+    "options": [
+      "A) Signal fading due to Doppler shift in the channel",
+      "B) Temporary failure of message transfer",
+      "C) Large coherence time of the channel as compared to the delay constraints",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Doppler spread refers to signal fading due to Doppler shift in the channel. It is a measure of spectral broadening caused by time rate of change of the mobile radio channel."
+  },
+  {
+    "question": "A rake receiver uses multiple ______",
+    "options": [
+      "A) Delay circuits",
+      "B) Correlators",
+      "C) Detectors",
+      "D) Flip flops"
+    ],
+    "correct_answer": "B",
+    "explanation": "A rake receiver uses multiple correlators to separately detect multiple strongest components. It is designed to counter the effects of multipath fading."
+  },
+  {
+    "question": "Diversity requires a training sequence.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Unlike equalization, diversity requires no training overhead since a training sequence is not required by the transmitter. Diversity is a powerful communication receiver technique that provides wireless link improvement at a relatively low cost."
+  },
+  {
+    "question": "Diversity decisions are made by ____________",
+    "options": [
+      "A) Receiver",
+      "B) Transmitter",
+      "C) Channel",
+      "D) Adaptive algorithms"
+    ],
+    "correct_answer": "A",
+    "explanation": "In virtually all applications, diversity decisions are made by the receiver and are unknown to the transmitter. Diversity exploits the random nature of radio propagation by finding independent signal paths for communication."
+  },
+  {
+    "question": "Small scale fades are characterized by ____________ amplitude fluctuations.",
+    "options": [
+      "A) Large",
+      "B) Small",
+      "C) Rapid",
+      "D) Slow"
+    ],
+    "correct_answer": "C",
+    "explanation": "Small scale fades are characterized by deep and rapid fluctuations. They occur as the mobile system moves over distances of just a few wavelengths. These fades are caused by multiple reflections from the surrounding in the vicinity of the mobile."
+  },
+  {
+    "question": "____________ is used to prevent deep fade for rapidly varying channel.",
+    "options": [
+      "A) Modulation",
+      "B) Demodulation",
+      "C) Macroscopic diversity technique",
+      "D) Microscopic diversity technique"
+    ],
+    "correct_answer": "D",
+    "explanation": "In order to prevent deep fades from occurring, microscopic diversity techniques can exploit the rapidly changing signal. By selecting the best signal at all times, a receiver can mitigate small scale fading effects."
+  },
+  {
+    "question": "Large scale fading can be mitigated with the help of _________",
+    "options": [
+      "A) Modulation",
+      "B) Demodulation",
+      "C) Macroscopic diversity technique",
+      "D) Microscopic diversity technique"
+    ],
+    "correct_answer": "C",
+    "explanation": "Large scale fading is mitigated with macroscopic diversity techniques. It is done by selecting a base station which is not shadowed when others are, the mobile can improve substantially the average signal to noise ratio."
+  },
+  {
+    "question": "In selection diversity, the gain of each diversity branch provides different SNR.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Selection diversity uses m demodulators to provide m diversity branches. Their gain is adjusted to provide the same average SNR for each branch."
+  },
+  {
+    "question": "Polarization diversity uses the ________ as the diversity element.",
+    "options": [
+      "A) Modulation index",
+      "B) Carrier frequency",
+      "C) Reflection coefficient",
+      "D) Coherence time"
+    ],
+    "correct_answer": "C",
+    "explanation": "Decorrelation of the signal in each polarization is caused by multiple reflections in the channel between mobile and base station antenna. Reflection coefficient for each polarization is different, which results in different amplitudes and phases for each reflection."
+  },
+  {
+    "question": "Which of the factor does not determine the correlation coefficient?",
+    "options": [
+      "A) Polarization angle",
+      "B) Cross polarization discrimination",
+      "C) Offset angle from the main beam direction",
+      "D) Coherence time"
+    ],
+    "correct_answer": "D",
+    "explanation": "The correlation coefficient is determined by three factors, polarization angle, offset angle from the main beam direction of the diversity antenna, and the cross polarization discrimination. The correlation coefficient generally becomes higher as offset angle becomes large."
+  },
+  {
+    "question": "Frequency diversity is implemented by transmitting information on more than one ___________",
+    "options": [
+      "A) Carrier frequency",
+      "B) Amplitude",
+      "C) Phase",
+      "D) Modulation scheme"
+    ],
+    "correct_answer": "A",
+    "explanation": "Frequency diversity is implemented by transmitting information on more than one carrier frequency. Frequency diversity is often employed in microwave line of sight links which carry several channels in frequency division multiplex mode."
+  },
+  {
+    "question": "Frequency diversity uses ________ as a diversity element.",
+    "options": [
+      "A) Correlation coefficient",
+      "B) Coherence time",
+      "C) Coherence bandwidth",
+      "D) SNR"
+    ],
+    "correct_answer": "C",
+    "explanation": "The rationale behind the frequency diversity is that frequencies separated by more than the coherence bandwidth of the channel will be uncorrelated. Thus, they will not experience the same fade."
+  },
+  {
+    "question": "Frequency diversity is good for low traffic conditions.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Frequency diversity is not good for low traffic conditions. This technique has a disadvantage that it not only requires spare bandwidth but also requires that there be as many receivers as there are channels used for frequency diversity. However, for critical traffic, the expense may be justified."
+  },
+  {
+    "question": "Time diversity repeatedly transmits information at time spacings that exceed ___________",
+    "options": [
+      "A) Coherence bandwidth",
+      "B) Dwell time",
+      "C) Run time",
+      "D) Coherence time"
+    ],
+    "correct_answer": "D",
+    "explanation": "Time diversity repeatedly transmits information at time spacings that exceed coherence time of the channel. Thus, multiple repetitions of the signal will be received with independent fading conditions, thereby providing for diversity."
+  },
+  {
+    "question": "In maximal ratio combining, the output SNR is equal to __________",
+    "options": [
+      "A) Mean of all individual SNRs",
+      "B) Maximum of all SNRs",
+      "C) Sum of individual SNR",
+      "D) Minimum of all SNRs"
+    ],
+    "correct_answer": "C",
+    "explanation": "Maximal ratio combining produces an output SNR equal to the sum of the individual SNRs. Thus, it has the advantage of producing an output with an acceptable SNR even when none of the individual signals are themselves acceptable."
+  },
+  {
+    "question": "Block codes can achieve a larger coding gain than convolution coding.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Convolution code can achieve a larger coding gain that can be achieved using a block coding with the same complexity. Their mapping is highly structured, enabling a decoding method considerably different from block codes."
+  },
+  {
+    "question": "Which of the following is not a way to represent convolution code?",
+    "options": [
+      "A) State diagram",
+      "B) Trellis diagram",
+      "C) Tree diagram",
+      "D) Linear matrix"
+    ],
+    "correct_answer": "D",
+    "explanation": "Linear matrix is not a way to represent convolution code. Various ways of representing convolution codes are generator matrix, generator polynomial, logic tables, state diagram, tree diagram and trellis diagram."
+  },
+  {
+    "question": "Which of the following is not an algorithm for decoding convolution codes?",
+    "options": [
+      "A) Viterbi algorithm",
+      "B) Stack algorithm",
+      "C) Fano’s sequential coding",
+      "D) Ant colony optimization"
+    ],
+    "correct_answer": "D",
+    "explanation": "There are a number of techniques for decoding convolution codes. The most important of these methods is Viterbi algorithm. Other decoding algorithms for convolutional codes are Fano’s sequential coding, stack algorithm and feedback coding."
+  },
+  {
+    "question": "Viterbi algorithm performs ____________ decoding of convolutional codes.",
+    "options": [
+      "A) Maximum likelihood",
+      "B) Maximum a posteriori",
+      "C) Minimum square",
+      "D) Minimum mean square"
+    ],
+    "correct_answer": "A",
+    "explanation": "Viterbi algorithm performs maximum likelihood decoding of convolutional codes. The algorithm was first developed by A.J. Viterbi. It is one of the most important algorithm used for decoding convolutional codes."
+  },
+  {
+    "question": "Fano’s algorithm searches all the paths of trellis diagram at same time to find the most probable path.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Fano’s algorithm searches for the most probable path through the trellis diagram by examining one path at a time. The error rate performance of Fano’s algorithm is comparable to Viterbi’s algorithm."
+  },
+  {
+    "question": "Which of the following is not an advantage of Fano’s algorithm in comparison to Viterbi’s algorithm?",
+    "options": [
+      "A) Less storage",
+      "B) Large constraint length",
+      "C) Error rate",
+      "D) Small delays"
+    ],
+    "correct_answer": "D",
+    "explanation": "In comparison to Viterbi decoding, sequential decoding has a significantly larger delay. In advantage over Viterbi decoding is that it requires less storage, and thus codes with larger constraint lengths can be employed."
+  },
+  {
+    "question": "In comparison to stack algorithm, Fano’s algorithm is simpler.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "In comparison to Fano’s algorithm, the stack algorithm is computationally simpler since there is no retracting over the same path. But stack algorithm requires more storage than Fano’s algorithm."
+  },
+  {
+    "question": "Which of the following is not an error correction and detection code?",
+    "options": [
+      "A) Block code",
+      "B) Convolutional codes",
+      "C) Passive codes",
+      "D) Turbo codes"
+    ],
+    "correct_answer": "C",
+    "explanation": "There are three basic types of error correction and detection codes. They are block codes, convolutional codes and turbo codes. A channel coder operates on digital message data by encoding the source information into a code sequence."
+  },
+  {
+    "question": "Which decoding method involves the evaluation by means of Fano’s algorithm?",
+    "options": [
+      "A) Maximum Likelihood Decoding",
+      "B) Sequential Decoding",
+      "C) Maximum a priori",
+      "D) Minimum mean square"
+    ],
+    "correct_answer": "B",
+    "explanation": "Fano’s algorithm involves sequential decoding. It searches for the most probable path through the trellis by examining one path at a time."
+  },
+  {
+    "question": "In Viterbi’s algorithm, the selected paths are regarded as __________",
+    "options": [
+      "A) Survivors",
+      "B) Defenders",
+      "C) Destroyers",
+      "D) Carriers"
+    ],
+    "correct_answer": "A",
+    "explanation": "In Viterbi’s algorithm, the selected paths are regarded as survivors. The path thus defined is unique and corresponds to the decoded output."
+  },
+  {
+    "question": "Frequency domain coders divides the speech signal into __________",
+    "options": [
+      "A) A set of frequency components",
+      "B) A set of different amplitudes",
+      "C) A set of time delays",
+      "D) A set of phase components"
+    ],
+    "correct_answer": "A",
+    "explanation": "In the class of frequency domain coders, the speech signal is divided into a set of frequency components. Each frequency component is quantized and encoded separately."
+  },
+  {
+    "question": "In frequency domain coding of speech, the number of bits used to encode each frequency component is constant.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "Frequency domain coders have an advantage that number of bits used to encode each frequency component can be dynamically varied. They can also be shared among different bands."
+  },
+  {
+    "question": "Quantization is a ________ process.",
+    "options": [
+      "A) Linear",
+      "B) Direct",
+      "C) Non-linear",
+      "D) Indirect"
+    ],
+    "correct_answer": "C",
+    "explanation": "Quantization is a non-linear process. It produces distortion products that are typically broad in spectrum."
+  },
+  {
+    "question": "Sub band coding codes the short time transform of a windowed signal.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "It is function of block transform coding. However, a sub band coder divides the speech signal into many smaller sub bands and encodes each sub band separately according to some perceptual criterion."
+  },
+  {
+    "question": "What does ATC stands for in speech coders?",
+    "options": [
+      "A) Automatic transform code",
+      "B) Air traffic controller",
+      "C) Active thermal convection",
+      "D) Adaptive transform coding"
+    ],
+    "correct_answer": "D",
+    "explanation": "In speech coding, ATC stands for adaptive transform coding. It is form of frequency domain coder that encodes the speech at bit rates in the range of 9.6 kbps and 20 kbps."
+  },
+  {
+    "question": "Waveform coders and Vocoders are the types of ____________",
+    "options": [
+      "A) Speech coders",
+      "B) Modulation technique",
+      "C) Frequency translation methods",
+      "D) Channel allocation for transmission"
+    ],
+    "correct_answer": "A",
+    "explanation": "Speech coders can be classified into waveform coders and Vocoders. Waveform coders convert the analog signal into digital signal. Vocoders exploit the special properties of speech signal to reduce the bit rate."
+  },
+  {
+    "question": "The type of frequency domain coding that divides the speech signal into sub bands is _____",
+    "options": [
+      "A) Waveform coding",
+      "B) Vocoders",
+      "C) Block transform coding",
+      "D) Sub-band coding"
+    ],
+    "correct_answer": "D",
+    "explanation": "Sub band coding (SBC) is a method where the speech signal is subdivided into several frequency bands and each band is digitally encoded separately. The audible frequency spectrum 20Hz-20 KHz is divided into frequency sub-bands using a bank of finite impulse response (FIR) filter and output of each filter is sampled and encoded."
+  },
+  {
+    "question": "Speech coders are categorized on the basis of __________",
+    "options": [
+      "A) Signal compression techniques",
+      "B) Frequency of signal",
+      "C) Bandwidth of the signal",
+      "D) Phase of the signal"
+    ],
+    "correct_answer": "A",
+    "explanation": "Speech coders are categorised on the basis of signal compression techniques. Speech coding is an art of compressing and then encoding speech signals."
+  },
+  {
+    "question": "The speech coding technique that is dependent on the prior knowledge of the signal is __________",
+    "options": [
+      "A) Waveform coders",
+      "B) Vocoders",
+      "C) Sub band coding",
+      "D) Block transform"
+    ],
+    "correct_answer": "B",
+    "explanation": "Vocoders are dependent on the prior knowledge of the signals. They capture the characteristic elements of audio signal and then uses this characteristic signal to affect other audio signals."
+  },
+  {
+    "question": "Frequency division multiple access (FDMA) assigns ______ channels to _______ users.",
+    "options": [
+      "A) Individual, individual",
+      "B) Many, individual",
+      "C) Individual, many",
+      "D) Many, many"
+    ],
+    "correct_answer": "A",
+    "explanation": "Frequency division multiple access (FDMA) assigns individual channels to individual users. Each user is allocated a unique frequency band or channel. These channels are assigned on demand to users who request service."
+  },
+  {
+    "question": "During the period of call, other users can share the same channel in FDMA.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "In FDMA systems, no other user can share the same channel during the period of call. In FDD systems, the users are assigned a channel as a pair of frequencies; one is used for the forward channel while the other frequency is used for the reverse channel."
+  },
+  {
+    "question": "The FDMA channel carries ____________ phone circuit at a time.",
+    "options": [
+      "A) Ten",
+      "B) Two",
+      "C) One",
+      "D) Several"
+    ],
+    "correct_answer": "C",
+    "explanation": "The FDMA channel carries one phone circuit at a time. Each individual band or channel is wide enough to accommodate the signal spectra of the transmissions to be propagated."
+  },
+  {
+    "question": "If the FDMA channel is not in use, it can be used by other users.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "If an FDMA channel is not in use, it sits idle and cannot be used by other users to increase or share capacity. It is essentially a wasted resource."
+  }
+]

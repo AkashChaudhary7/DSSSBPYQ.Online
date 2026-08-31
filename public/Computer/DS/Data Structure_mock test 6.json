@@ -1,0 +1,540 @@
+[
+  {
+    "question": "Evaluate the following infix expression using algorithm and choose the correct answer. a+b*c-d/e^f  where a=1, b=2, c=3, d=4, e=2, f=2.",
+    "options": [
+      "A) 6",
+      "B) 8",
+      "C) 9",
+      "D) 7"
+    ],
+    "correct_answer": "A",
+    "explanation": "^ has the highest order of precedence. Hence, 2^2 is evaluated first, and then, 2*3 and 4/4 are evaluated. Therefore, 1+6-1=6."
+  },
+  {
+    "question": "From the given expression tree, identify the infix expression, evaluate it and choose the correct result.",
+    "options": [
+      "A) 5",
+      "B) 10",
+      "C) 12",
+      "D) 16"
+    ],
+    "correct_answer": "C",
+    "explanation": "From the given expression tree, the infix expression and it’s result will be 3*((3-2)+(5-2)) = 3*(1+3) = 12."
+  },
+  {
+    "question": "The optimal data structure used to solve Tower of Hanoi is _________",
+    "options": [
+      "A) Tree",
+      "B) Heap",
+      "C) Priority queue",
+      "D) Stack"
+    ],
+    "correct_answer": "D",
+    "explanation": "The Tower of Hanoi involves moving of disks ‘stacked’ at one peg to another peg with respect to the size constraint. It is conveniently done using stacks and priority queues. Stack approach is widely used to solve Tower of Hanoi."
+  },
+  {
+    "question": "Which among the following is not a palindrome?",
+    "options": [
+      "A) Madam",
+      "B) Dad",
+      "C) Malayalam",
+      "D) Maadam"
+    ],
+    "correct_answer": "D",
+    "explanation": "A palindrome is a string that reads the same forward and backward, Madam, Dad and Malayalam are palindromes where as Maadam is not a palindrome."
+  },
+  {
+    "question": "Which data structure can be used to test a palindrome?",
+    "options": [
+      "A) Tree",
+      "B) Heap",
+      "C) Stack",
+      "D) Priority queue"
+    ],
+    "correct_answer": "C",
+    "explanation": "Stack is a convenient option as it involves pushing and popping of characters."
+  },
+  {
+    "question": "What is the number of moves required to solve Tower of Hanoi problem for k disks?",
+    "options": [
+      "A) 2k – 1",
+      "B) 2k + 1",
+      "C) 2k + 1",
+      "D) 2k – 1"
+    ],
+    "correct_answer": "D",
+    "explanation": "Tracing of the moves in the above ToH problem will prove this result, instead you can simply add a count for each recursive call to check the number of moves."
+  },
+  {
+    "question": "What are parallel arrays?",
+    "options": [
+      "A) Arrays of the same size",
+      "B) Arrays allocated one after the other",
+      "C) Arrays of the same number of elements",
+      "D) Arrays allocated dynamically"
+    ],
+    "correct_answer": "C",
+    "explanation": "Different arrays can be of different data types but should contain same number of elements. Elements at corresponding index belong to a record."
+  },
+  {
+    "question": "Which of the following is a disadvantage of parallel array over the traditional arrays?",
+    "options": [
+      "A) When a language does not support records, parallel arrays can be used",
+      "B) Increased locality of reference",
+      "C) Ideal cache behaviour",
+      "D) Insertion and Deletion becomes tedious"
+    ],
+    "correct_answer": "D",
+    "explanation": "Insertion and deletion of elements require to move every element from their initial positions. This will become tedious. For Record collection, locality of reference and Ideal Cache behaviour we can use parallel arrays."
+  },
+  {
+    "question": "Which of the following is an advantage of parallel arrays?",
+    "options": [
+      "A) Poor locality of reference for non-sequential access",
+      "B) Very little direct language support",
+      "C) Expensive to shrink or grow",
+      "D) Increased Locality of Reference"
+    ],
+    "correct_answer": "D",
+    "explanation": "Elements in the parallel array are accessed sequentially as one arrays holds the keys whereas other holds the values. This sequential access generally improves Locality of Reference. It is an advantage."
+  },
+  {
+    "question": "What is a sorted array?",
+    "options": [
+      "A) Arrays sorted in numerical order",
+      "B) Arrays sorted in alphabetical order",
+      "C) Elements of the array are placed at equally spaced addresses in the memory",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "The array can be sorted in any way, numerical, alphabetical or any other way but the elements are placed at equally spaced addresses."
+  },
+  {
+    "question": "To search for an element in a sorted array, which searching technique can be used?",
+    "options": [
+      "A) Linear Search",
+      "B) Jump Search",
+      "C) Binary Search",
+      "D) Fibonacci Search"
+    ],
+    "correct_answer": "C",
+    "explanation": "Since the array is sorted, binary search is preferred as its time complexity is O(logn)."
+  },
+  {
+    "question": "Which of the following is not an application of sorted array?",
+    "options": [
+      "A) Commercial computing",
+      "B) Priority Scheduling",
+      "C) Discrete Mathematics",
+      "D) Hash Tables"
+    ],
+    "correct_answer": "D",
+    "explanation": "Sorted arrays have widespread applications as all commercial computing involves large data which is very useful if it is sorted. It makes best use of locality of reference and data cache. Linked lists are used in Hash Tables not arrays."
+  },
+  {
+    "question": "What is the worst case time complexity of inserting an element into the sorted array?",
+    "options": [
+      "A) O(nlogn)",
+      "B) O(logn)",
+      "C) O(n)",
+      "D) O(n2)"
+    ],
+    "correct_answer": "C",
+    "explanation": "In the worst case, an element must added to the front of the array, which means that rest of the elements have to be shifted, hence the worst case time complexity becomes O(n)."
+  },
+  {
+    "question": "What will be the minimum number of jumps required to reach the end of the array arr[] = {1,3,6,3,6,8,5}?",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) not possible to reach the end"
+    ],
+    "correct_answer": "C",
+    "explanation": "Each element of the array represents the maximum number of steps that can be taken forward from that element. If the first element is 0 then it is not possible to reach the end."
+  },
+  {
+    "question": "What will be the minimum number of jumps required to reach the end of the array arr[] ={0,1,3,6,3,6,8,5}?",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) not possible to reach the end"
+    ],
+    "correct_answer": "D",
+    "explanation": "Each element of the array represents the maximum number of steps that can be taken forward from that element. So as the first element here is 0 so we cannot move any further from the first element. Thus, it is not possible to reach the end of the array."
+  },
+  {
+    "question": "What will be the minimum number of jumps required to reach the end of the array arr[] = {1,2,0,0,3,6,8,5}?",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) not possible to reach the end"
+    ],
+    "correct_answer": "D",
+    "explanation": "Each element of the array represents the maximum number of steps that can be taken forward from that element. So we cannot move any further after reaching the second element hence it is impossible to reach the end of the array."
+  },
+  {
+    "question": "It is not possible to find the minimum number of steps to reach the end of an array in linear time.",
+    "options": [
+      "A) true",
+      "B) false"
+    ],
+    "correct_answer": "B",
+    "explanation": "It is possible to find the minimum number of steps to reach the end of an array in O(n) time complexity. So it is the fastest possible method of finding the minimum number of steps to reach the end of an array."
+  },
+  {
+    "question": "In how many different ways we can reach the end of the array arr[]={1,3,5,8,9}?",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "correct_answer": "D",
+    "explanation": "There are 4 possible ways in which we can reach the end of the array. The possible paths are – 1->3->5->8->9, 1->3->5->9, 1->3->8->9, 1->3->9."
+  },
+  {
+    "question": ": It is not possible to reach the end of an array if starting element of the array is 0.",
+    "options": [
+      "A) true",
+      "B) false"
+    ],
+    "correct_answer": "A",
+    "explanation": "If the first element of an array is 0 then it is not possible to reach the end. However, if 0 is present at other positions then we may/may not be able to reach the end."
+  },
+  {
+    "question": "What is the minimum possible time complexity to find the number of steps to reach the end of an array?",
+    "options": [
+      "A) O(n)",
+      "B) O(n2)",
+      "C) O(n3/2)",
+      "D) O(1)"
+    ],
+    "correct_answer": "A",
+    "explanation": "The minimum possible time complexity to reach the end of an array is O(n). So a linear time complexity is possible."
+  },
+  {
+    "question": "Advantages of linked list representation of binary trees over arrays?",
+    "options": [
+      "A) dynamic size",
+      "B) ease of insertion/deletion",
+      "C) ease in randomly accessing a node",
+      "D) both dynamic size and ease in insertion/deletion"
+    ],
+    "correct_answer": "D",
+    "explanation": "It has both dynamic size and ease in insertion and deletion as advantages."
+  },
+  {
+    "question": "Disadvantages of linked list representation of binary trees over arrays?",
+    "options": [
+      "A) Randomly accessing is not possible",
+      "B) Extra memory for a pointer is needed with every element in the list",
+      "C) Difficulty in deletion",
+      "D) Random access is not possible and extra memory with every element"
+    ],
+    "correct_answer": "D",
+    "explanation": "Random access is not possible with linked lists.Also it includes extra memory space for each element thereby increasing its space complexity."
+  },
+  {
+    "question": "Which of the following traversing algorithm is not used to traverse in a tree?",
+    "options": [
+      "A) Post order",
+      "B) Pre order",
+      "C) Post order",
+      "D) Randomized"
+    ],
+    "correct_answer": "D",
+    "explanation": "Generally, all nodes in a tree are visited by using preorder, inorder and postorder traversing algorithms."
+  },
+  {
+    "question": "Level order traversal of a tree is formed with the help of",
+    "options": [
+      "A) breadth first search",
+      "B) depth first search",
+      "C) dijkstra’s algorithm",
+      "D) prims algorithm"
+    ],
+    "correct_answer": "A",
+    "explanation": "Level order is similar to bfs."
+  },
+  {
+    "question": "Identify the reason which doesn’t play a key role to use threaded binary trees?",
+    "options": [
+      "A) The storage required by stack and queue is more",
+      "B) The pointers in most of nodes of a binary tree are NULL",
+      "C) It is Difficult to find a successor node",
+      "D) They occupy less size"
+    ],
+    "correct_answer": "D",
+    "explanation": "Threaded binary trees are introduced to make the Inorder traversal faster without using any stack or recursion. Stack and Queue require more space and pointers in the majority of binary trees are null and difficulties are raised while finding successor nodes. Size constraints are not taken on threaded binary trees, but they occupy less space than a stack/queue."
+  },
+  {
+    "question": "The following lines talks about deleting a node in a binary tree.(the tree property must not be violated after deletion)",
+    "options": [
+      "A) ii)-find random node,replace with node to be deleted. iii)- delete the node",
+      "B) ii)-find node to be deleted. iii)- delete the node at found location",
+      "C) ii)-find deepest node,replace with node to be deleted. iii)- delete a node",
+      "D) ii)-find deepest node,replace with node to be deleted. iii)- delete the deepest node"
+    ],
+    "correct_answer": "D",
+    "explanation": "We just replace a to be deleted node with last leaf node of a tree. this must not be done in case of BST or heaps."
+  },
+  {
+    "question": "What may be the psuedo code for finding the size of a tree?",
+    "options": [
+      "A) find_size(root_node–>left_node) + 1 + find_size(root_node–>right_node)",
+      "B) find_size(root_node–>left_node) + find_size(root_node–>right_node)",
+      "C) find_size(root_node–>right_node) – 1",
+      "D) find_size(root_node–>left_node + 1"
+    ],
+    "correct_answer": "A",
+    "explanation": "Draw a tree and analyze the expression. we are always taking size of left subtree and right subtree and adding root value(1) to it and finally printing size."
+  },
+  {
+    "question": "What is an AVL tree?",
+    "options": [
+      "A) a tree which is balanced and is a height balanced tree",
+      "B) a tree which is unbalanced and is a height balanced tree",
+      "C) a tree with three children",
+      "D) a tree with atmost 3 children"
+    ],
+    "correct_answer": "A",
+    "explanation": "It is a self balancing tree with height difference atmost 1."
+  },
+  {
+    "question": "Why we need to a binary tree which is height balanced?",
+    "options": [
+      "A) to avoid formation of skew trees",
+      "B) to save memory",
+      "C) to attain faster memory access",
+      "D) to simplify storing"
+    ],
+    "correct_answer": "A",
+    "explanation": "In real world dealing with random values is often not possible, the probability that u are dealing with non random values(like sequential) leads to mostly skew trees, which leads to worst case. hence we make height balance by rotations."
+  },
+  {
+    "question": "Which of the below diagram is following AVL tree property?",
+    "options": [
+      "A) only i",
+      "B) both i and ii",
+      "C) only ii",
+      "D) i is not a binary search tree"
+    ],
+    "correct_answer": "C",
+    "explanation": "The property of AVL tree is it is height balanced tree with difference of atmost 1 between left and right subtrees. All AVL trees are binary search tree."
+  },
+  {
+    "question": "What is the maximum height of an AVL tree with p nodes?",
+    "options": [
+      "A) p",
+      "B) log(p)",
+      "C) log(p)/2",
+      "D) p⁄2"
+    ],
+    "correct_answer": "B",
+    "explanation": "Consider height of tree to be ‘he’, then number of nodes which totals to p can be written in terms of height as N(he)=N(he-1)+1+N(he-2). since N(he) which is p can be written in terms of height as the beside recurrence relation which on solving gives N(he)= O(logp) as worst case height."
+  },
+  {
+    "question": "To restore the AVL property after inserting a element, we start at the insertion point and move towards root of that tree. is this statement true?",
+    "options": [
+      "A) true",
+      "B) false"
+    ],
+    "correct_answer": "A",
+    "explanation": "It is interesting to note that after insertion, only the path from that point to node or only that subtrees are imbalanced interms of height."
+  },
+  {
+    "question": "Given an empty AVL tree, how would you construct AVL tree when a set of numbers are given without performing any rotations?",
+    "options": [
+      "A) just build the tree with the given input",
+      "B) find the median of the set of elements given, make it as root and construct the tree",
+      "C) use trial and error",
+      "D) use dynamic programming to build the tree"
+    ],
+    "correct_answer": "B",
+    "explanation": "Sort the given input, find the median element among them, make it as root and construct left and right subtrees with elements lesser and greater than the median element recursively. this ensures the subtrees differ only by height 1."
+  },
+  {
+    "question": "What maximum difference in heights between the leafs of a AVL tree is possible?",
+    "options": [
+      "A) log(n) where n is the number of nodes",
+      "B) n where n is the number of nodes",
+      "C) 0 or 1",
+      "D) atmost 1"
+    ],
+    "correct_answer": "A",
+    "explanation": "At every level we can form a tree with difference in height between subtrees to be atmost 1 and so there can be log(n) such levels since height of AVL tree is log(n)."
+  },
+  {
+    "question": "Why to prefer red-black trees over AVL trees?",
+    "options": [
+      "A) Because red-black is more rigidly balanced",
+      "B) AVL tree store balance factor in every node which costs space",
+      "C) AVL tree fails at scale",
+      "D) Red black is more efficient"
+    ],
+    "correct_answer": "B",
+    "explanation": "Every node in an AVL tree need to store the balance factor (-1, 0, 1) hence space costs to O(n), n being number of nodes. but in red-black we can use the sign of number (if numbers being stored are only positive) and hence save space for storing balancing information. there are even other reasons where redblack is mostly prefered."
+  },
+  {
+    "question": "What is a Cartesian tree?",
+    "options": [
+      "A) a skip list in the form of tree",
+      "B) a tree which obeys cartesian product",
+      "C) a tree which obeys heap property and whose inorder traversal yields the given sequence",
+      "D) a tree which obeys heap property only"
+    ],
+    "correct_answer": "C",
+    "explanation": "A tree with heap property (parent is either small or big than children) and when traversed in inorder yields the given input sequence. refer below diagram question for clarity."
+  },
+  {
+    "question": "Is the below tree representation of 50,100,400,300,280 correct way to represent cartesian tree?",
+    "options": [
+      "A) true",
+      "B) false"
+    ],
+    "correct_answer": "A",
+    "explanation": "A tree with heap property (parent is either small or big than children) and when traversed in inorder yields the given input sequence is called as a cartesian tree. as the above figure satisies both the properties. note that even min heap tree can be generated. the above is a max heap tree."
+  },
+  {
+    "question": "Which of the below statements are true?",
+    "options": [
+      "A) both statements are true",
+      "B) only i. is true",
+      "C) only ii. is true",
+      "D) both are false"
+    ],
+    "correct_answer": "A",
+    "explanation": "A height balanced cartesian tree is not possible as seen in above question. also any time a unique sequnce possess a unique cartesian tree, this can be proven through induction."
+  },
+  {
+    "question": "What is the speciality of cartesian sorting?",
+    "options": [
+      "A) it sorts partially sorted set of data quickly",
+      "B) it considers cartesian product of elements",
+      "C) it sorts elements in less than O(logn)",
+      "D) it is a self balancing tree"
+    ],
+    "correct_answer": "A",
+    "explanation": "It can sort a set which requires only some sorting or displacements. for example consider 78, 79, 80, 82, 81, 83, In this only 81 and 82 must be swaped to make it a complete sorted set, in this case cartesian sort comes to the rescue."
+  },
+  {
+    "question": "Consider a sequence of numbers to have repetitions, how a cartesian tree can be constructed in such situations without violating any rules?",
+    "options": [
+      "A) use any tie-breaking rule between repeated elements",
+      "B) cartesian tree is impossible when repetitions are present",
+      "C) construct a max heap in such cases",
+      "D) construct a min heap in such cases"
+    ],
+    "correct_answer": "A",
+    "explanation": "Consider any of the tie breaking rules, for example the element which appears first can be taken as small among the same elements and then apply cartesian tree rules."
+  },
+  {
+    "question": "What happens if we apply the below operations on an input sequence?",
+    "options": [
+      "A) constructs a cartesian tree",
+      "B) sorts the input sequence",
+      "C) does nothing",
+      "D) produces some random output"
+    ],
+    "correct_answer": "B",
+    "explanation": "The above given steps are for sorting a cartesian tree. cartesian sort is benificial in case of partially sorted set of elements. a cartesian sort can be considered as a selection or heap sort maintaing a priority queue."
+  },
+  {
+    "question": "Cartesian trees are most suitable for?",
+    "options": [
+      "A) searching",
+      "B) finding nth element",
+      "C) minimum range query and lowest common ancestors",
+      "D) self balancing a tree"
+    ],
+    "correct_answer": "C",
+    "explanation": "In a cartesian tree minimum value can be found by finding lowest common ancestor for the extreme elements. consider 11,9,19,16 the lowest element is 9 and is a lowest common ancestor for 11 and 16. and by applying few techniques cartesian tree can be used to even find lowest common ancestors efficiently.\nthese can be done in constant time. tree can be constructed in linear time (this is the most efficient time for any tree construction) and takes space as many elements are there."
+  },
+  {
+    "question": "A treap is a cartesian tree with ___________",
+    "options": [
+      "A) additional value, which is a priority value to the key generated randomly",
+      "B) additional value, which is a priority value to the key generated sequentially",
+      "C) additional heap rule",
+      "D) additional operations like remove a range of elements"
+    ],
+    "correct_answer": "A",
+    "explanation": "A cartesian tree, if feeded with a sorted sequence will generate a straight path (or in tree terminology a skew tree). moreover a cartesian tree basing on same values from the search keys doesnot work well. so a cartesian tree with priority value in addition to search key is called treap."
+  },
+  {
+    "question": "Cartesian trees solve range minimum query problem in constant time.",
+    "options": [
+      "A) true",
+      "B) false"
+    ],
+    "correct_answer": "A",
+    "explanation": "Range minmum query is finding the minimum element in a given subarray of an array. Constant time is achieved by storing the Cartesian trees for all the blocks in the array. Rmq’s are used in string matchings, computing lowest common ancestor and longest common prefix of a sring."
+  },
+  {
+    "question": "How many properties will an equivalent relationship satisfy?",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "correct_answer": "C",
+    "explanation": "An equivalent relationship will satisfy three properties – reflexive, symmetric and transitive."
+  },
+  {
+    "question": "A relation R on a set S, defined as x R y if and only if y R x. This is an example of?",
+    "options": [
+      "A) reflexive relation",
+      "B) symmetric relation",
+      "C) transitive relation",
+      "D) invalid relation"
+    ],
+    "correct_answer": "B",
+    "explanation": "A symmetric property in an equivalence relation is defined as x R y if and only y R x."
+  },
+  {
+    "question": "Electrical connectivity is an example of equivalence relation.",
+    "options": [
+      "A) true",
+      "B) false"
+    ],
+    "correct_answer": "A",
+    "explanation": "Electrical connectivity is reflexive, symmetric and also transitive. Hence, electrical connectivity is an equivalence relation."
+  },
+  {
+    "question": "What is the worst case efficiency for a path compression algorithm?",
+    "options": [
+      "A) O(N)",
+      "B) O(log N)",
+      "C) O(N log N)",
+      "D) O(M log N)"
+    ],
+    "correct_answer": "D",
+    "explanation": "The worst case efficiency for a path compression algorithm is mathematically found to be O(M log N)."
+  },
+  {
+    "question": "Path Compression algorithm performs in which of the following operations?",
+    "options": [
+      "A) Create operation",
+      "B) Insert operation",
+      "C) Find operation",
+      "D) Delete operation"
+    ],
+    "correct_answer": "C",
+    "explanation": "Path compression algorithm is performed during find operation and is independent of the strategy used to perform unions."
+  },
+  {
+    "question": "What is the definition for Ackermann’s function?",
+    "options": [
+      "A) A(1,i) = i+1 for i>=1",
+      "B) A(i,j) = i+j for i>=j",
+      "C) A(i,j) = i+j for i = j",
+      "D) A(1,i) = i+1 for i<1"
+    ],
+    "correct_answer": "A",
+    "explanation": "The Ackermann’s function is defined as A(1,i) = i+1 for i>=1. This form in text grows faster and the inverse is slower."
+  }
+]

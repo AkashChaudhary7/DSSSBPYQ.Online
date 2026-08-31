@@ -1,0 +1,544 @@
+[
+  {
+    "question": "The instructions in 68000 can deal with operands of three different sizes.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "The operands are of different sizes because of the difference in the values."
+  },
+  {
+    "question": "As the instructions can deal with variable size operands we use ____________ to resolve this.",
+    "options": [
+      "A) Delimiter",
+      "B) Size indicator mnemonic",
+      "C) Special assemblers",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "To indicate the size of the operand we use a separate variable mnemonic to indicate it."
+  },
+  {
+    "question": "The starting address is denoted using _________ directive.",
+    "options": [
+      "A) EQU",
+      "B) ORIGIN",
+      "C) ORG",
+      "D) PLACE"
+    ],
+    "correct_answer": "C",
+    "explanation": "The starting address is the location where the program is stored."
+  },
+  {
+    "question": "The constant can be declared using ___________ directive.",
+    "options": [
+      "A) DATAWORD",
+      "B) PLACE",
+      "C) CONS",
+      "D) DC"
+    ],
+    "correct_answer": "D",
+    "explanation": "To declare Global constants we use this directive."
+  },
+  {
+    "question": "To allocate a block of memory we use ___________ directive.",
+    "options": [
+      "A) RESERVE",
+      "B) DS",
+      "C) DATAWORD",
+      "D) PLACE"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "The Branch instruction in 68000 provides how many types of offsets?",
+    "options": [
+      "A) 3",
+      "B) 1",
+      "C) 0",
+      "D) 2"
+    ],
+    "correct_answer": "D",
+    "explanation": "The Branch instruction basically just adds a constant value to the address present in the PC, to change the instruction to be executed."
+  },
+  {
+    "question": "The purpose of using DBcc as a branch instruction is __________",
+    "options": [
+      "A) It provides two conditions to be satisfied for a branch to occur",
+      "B) It provides a counter to check the number of times the branch as taken place",
+      "C) It is used to check the condition along with the branch condition",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "The 68000 uses ____________ method to access I/O devices buffers.",
+    "options": [
+      "A) Memory mapped",
+      "B) I/O mapped",
+      "C) Buffer mapped",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "In this method, both the I/O device and the memory share a common address space."
+  },
+  {
+    "question": "____________ instruction is used to set up a frame pointer for the subroutines in 68000.",
+    "options": [
+      "A) CREATE",
+      "B) LINK",
+      "C) UNLK",
+      "D) FRAME"
+    ],
+    "correct_answer": "B",
+    "explanation": "This pointer is used to monitor the stack."
+  },
+  {
+    "question": "The LINK instruction is always followed by ____________ instruction.",
+    "options": [
+      "A) MOV",
+      "B) UNLK",
+      "C) ORG",
+      "D) MOVEM"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "ARM stands for _____________",
+    "options": [
+      "A) Advanced Rate Machines",
+      "B) Advanced RISC Machines",
+      "C) Artificial Running Machines",
+      "D) Aviary Running Machines"
+    ],
+    "correct_answer": "B",
+    "explanation": "ARM is a type of system architecture."
+  },
+  {
+    "question": "The main importance of ARM micro-processors is providing operation with ______",
+    "options": [
+      "A) Low cost and low power consumption",
+      "B) Higher degree of multi-tasking",
+      "C) Lower error or glitches",
+      "D) Efficient memory management"
+    ],
+    "correct_answer": "A",
+    "explanation": "The Stand alone feature of the ARM processors is that they’re economically viable."
+  },
+  {
+    "question": "ARM processors where basically designed for _______",
+    "options": [
+      "A) Main frame systems",
+      "B) Distributed systems",
+      "C) Mobile systems",
+      "D) Super computers"
+    ],
+    "correct_answer": "C",
+    "explanation": "These ARM processors are designed for handheld devices."
+  },
+  {
+    "question": "The ARM processors don’t support Byte addressability.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "B",
+    "explanation": "The ability to store data in the form of consecutive bytes."
+  },
+  {
+    "question": "The address space in ARM is ___________",
+    "options": [
+      "A) 224",
+      "B) 264",
+      "C) 216",
+      "D) 232"
+    ],
+    "correct_answer": "D",
+    "explanation": "None."
+  },
+  {
+    "question": "The address system supported by ARM systems is/are ___________",
+    "options": [
+      "A) Little Endian",
+      "B) Big Endian",
+      "C) X-Little Endian",
+      "D) Both Little & Big Endian"
+    ],
+    "correct_answer": "D",
+    "explanation": "The way in which, the data gets stored in the system or the way of address allocation is called as address system."
+  },
+  {
+    "question": "Memory can be accessed in ARM systems by __________ instructions.",
+    "options": [
+      "A) i, ii, iii",
+      "B) i, ii",
+      "C) i, iv, v",
+      "D) iii, iv, v"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "RISC stands for _________",
+    "options": [
+      "A) Restricted Instruction Sequencing Computer",
+      "B) Restricted Instruction Sequential Compiler",
+      "C) Reduced Instruction Set Computer",
+      "D) Reduced Induction Set Computer"
+    ],
+    "correct_answer": "C",
+    "explanation": "This is a system architecture, in which the performance of the system is improved by reducing the size of the instruction set."
+  },
+  {
+    "question": "In the ARM, PC is implemented using ___________",
+    "options": [
+      "A) Caches",
+      "B) Heaps",
+      "C) General purpose register",
+      "D) Stack"
+    ],
+    "correct_answer": "C",
+    "explanation": "PC is the place where the next instruction about to be executed is stored."
+  },
+  {
+    "question": "The additional duplicate register used in ARM machines are called as _______",
+    "options": [
+      "A) Copied-registers",
+      "B) Banked registers",
+      "C) EXtra registers",
+      "D) Extential registers"
+    ],
+    "correct_answer": "B",
+    "explanation": "The duplicate registers are used in situations of context switching."
+  },
+  {
+    "question": "The banked registers are used for ______",
+    "options": [
+      "A) Switching between supervisor and interrupt mode",
+      "B) Extended storing",
+      "C) Same as other general purpose registers",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "When switching from one mode to another, instead of storing the register contents somewhere else it’ll be kept in the duplicate registers and the new values are stored in the actual registers."
+  },
+  {
+    "question": "Each instruction in ARM machines is encoded into __________ Word.",
+    "options": [
+      "A) 2 byte",
+      "B) 3 byte",
+      "C) 4 byte",
+      "D) 8 byte"
+    ],
+    "correct_answer": "C",
+    "explanation": "The data is encrypted to make them secure."
+  },
+  {
+    "question": "All instructions in ARM are conditionally executed.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "The addressing mode where the EA of the operand is the contents of Rn is ______",
+    "options": [
+      "A) Pre-indexed mode",
+      "B) Pre-indexed with write back mode",
+      "C) Post-indexed mode",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "The effective address of the instruction written in Post-indexed mode, MOVE[Rn]+Rm is _______",
+    "options": [
+      "A) EA = [Rn]",
+      "B) EA = [Rn  + Rm]",
+      "C) EA = [Rn] + Rm",
+      "D) EA = [Rm] + Rn"
+    ],
+    "correct_answer": "A",
+    "explanation": "Effective address is the address that the computer acquires from the current instruction being executed."
+  },
+  {
+    "question": "A complete transfer operation over the BUS, involving the address and a burst of data is called _____",
+    "options": [
+      "A) Transaction",
+      "B) Transfer",
+      "C) Move",
+      "D) Procedure"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "The device connected to the BUS are given addresses of ____ bit.",
+    "options": [
+      "A) 24",
+      "B) 64",
+      "C) 32",
+      "D) 16"
+    ],
+    "correct_answer": "B",
+    "explanation": "Each of the devices connected to the BUS will be allocated an address during the initialization phase."
+  },
+  {
+    "question": "The PCI BUS has _____ interrupt request lines.",
+    "options": [
+      "A) 6",
+      "B) 1",
+      "C) 4",
+      "D) 3"
+    ],
+    "correct_answer": "C",
+    "explanation": "The interrupt request lines are used by the devices connected to raise the interrupts."
+  },
+  {
+    "question": "_____ signal is sent by the initiator to indicate the duration of the transaction.",
+    "options": [
+      "A) FRAME#",
+      "B) IRDY#",
+      "C) TMY#",
+      "D) SELD#"
+    ],
+    "correct_answer": "A",
+    "explanation": "The FRAME signal is used to indicate the time required by the device."
+  },
+  {
+    "question": "______ signal is used to enable commands.",
+    "options": [
+      "A) FRAME#",
+      "B) IRDY#",
+      "C) TMY#",
+      "D) c/BE#"
+    ],
+    "correct_answer": "D",
+    "explanation": "The signal is used to enable 4 command lines."
+  },
+  {
+    "question": "IRDY# signal is used for _______",
+    "options": [
+      "A) Selecting the interrupt line",
+      "B) Sending an interrupt",
+      "C) Saying that the initiator is ready",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "The initiator transmits this signal to tell the target that it is ready."
+  },
+  {
+    "question": "The signal used to indicate that the slave is ready is _____",
+    "options": [
+      "A) SLRY#",
+      "B) TRDY#",
+      "C) DSDY#",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "DEVSEL# signal is used _________",
+    "options": [
+      "A) To select the device",
+      "B) To list all the devices connected",
+      "C) By the device to indicate that it is ready for a transaction",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "This is signal is activated by the device after it as recognized the address and commands put on the BUS."
+  },
+  {
+    "question": "The signal used to initiate device select ________",
+    "options": [
+      "A) IRDY#",
+      "B) S/BE",
+      "C) DEVSEL#",
+      "D) IDSEL#"
+    ],
+    "correct_answer": "D",
+    "explanation": "This signal is used to initialization of device select."
+  },
+  {
+    "question": "The PCi BUS allows us to connect _______ I/O devices.",
+    "options": [
+      "A) 21",
+      "B) 13",
+      "C) 9",
+      "D) 11"
+    ],
+    "correct_answer": "A",
+    "explanation": "The PCI BUS allows only 21 devices to be connected as only the higher order 21 bits of the 32 bit address space is used to specify the device."
+  },
+  {
+    "question": "SCSI stands for ________",
+    "options": [
+      "A) Small Computer System Interface",
+      "B) Switch Computer system Interface",
+      "C) Small Component System Interface",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "The SCSI BUS is one of the expansion BUSes used in a system."
+  },
+  {
+    "question": "ANSI stands for _________",
+    "options": [
+      "A) American National System Interface",
+      "B) ASCII National Standard Interface",
+      "C) American Network System Interface",
+      "D) American National Standard Institute"
+    ],
+    "correct_answer": "D",
+    "explanation": "This a standard for designing BUSes and other system components."
+  },
+  {
+    "question": "A narrow SCSI BUS has _____ data lines.",
+    "options": [
+      "A) 6",
+      "B) 8",
+      "C) 16",
+      "D) 4"
+    ],
+    "correct_answer": "B",
+    "explanation": "The SCSI BUS which is narrow is capable of transferring 8 bits of data at a time."
+  },
+  {
+    "question": "Single ended transmission means _________",
+    "options": [
+      "A) That all the signals have a similar bit pattern",
+      "B) That the signals have a common source",
+      "C) That the signals have a common ground return",
+      "D) That the signals have a similar voltage signature"
+    ],
+    "correct_answer": "C",
+    "explanation": "These type of signals are a common feature of the SCSI BUS."
+  },
+  {
+    "question": "HVD stands for _________",
+    "options": [
+      "A) High Voltage Differential",
+      "B) High Voltage Density",
+      "C) High Video Definition",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "This is a type of signaling which uses 5v of current."
+  },
+  {
+    "question": "For better transfer rates on the SCSI BUS the length of the cable is limited to ______",
+    "options": [
+      "A) 2m",
+      "B) 4m",
+      "C) 1.3m",
+      "D) 1.6m"
+    ],
+    "correct_answer": "D",
+    "explanation": "To increase the transmission rate in SCSI in SE mode of transfer the wire length is restricted to 1.6m."
+  },
+  {
+    "question": "The maximum number of devices that can be connected to SCSI BUS is ______",
+    "options": [
+      "A) 12",
+      "B) 10",
+      "C) 16",
+      "D) 8"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "The SCSI BUS is connected to the processor through _____",
+    "options": [
+      "A) SCSI Controller",
+      "B) Bridge",
+      "C) Switch",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "This is used to coordinate and monitor the data transfer over the BUS."
+  },
+  {
+    "question": "The mode of data transfer used by the controller is _____",
+    "options": [
+      "A) Interrupt",
+      "B) DMA",
+      "C) Asynchronous",
+      "D) Synchronous"
+    ],
+    "correct_answer": "B",
+    "explanation": "None."
+  },
+  {
+    "question": "The data is stored on the disk in the form of blocks called _____",
+    "options": [
+      "A) Pages",
+      "B) Frames",
+      "C) Sectors",
+      "D) Tables"
+    ],
+    "correct_answer": "C",
+    "explanation": "The data is stored on the disk in the form of a collection of blocks called as sectors."
+  },
+  {
+    "question": "The first field of any packet is _____",
+    "options": [
+      "A) PID",
+      "B) ADDR",
+      "C) ENDP",
+      "D) CRC16"
+    ],
+    "correct_answer": "A",
+    "explanation": "The PID is the field that is used to identify the device (the device id)."
+  },
+  {
+    "question": "The 4 bit PID’s are transmitted twice.",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct_answer": "A",
+    "explanation": "The fields are transmitted twice, once with the true values and the second time with the complemented values."
+  },
+  {
+    "question": "The last field in the packet is ______",
+    "options": [
+      "A) PID",
+      "B) ADDR",
+      "C) ENDP",
+      "D) CRC"
+    ],
+    "correct_answer": "D",
+    "explanation": "The last 5 bits of the packet is used for error checking, that is cyclic redundancy check."
+  },
+  {
+    "question": "The CRC bits are computed based on the values of the _____",
+    "options": [
+      "A) PID",
+      "B) ADDR",
+      "C) ENDP",
+      "D) Both ADDR and ENDP"
+    ],
+    "correct_answer": "D",
+    "explanation": "The CRC bits are calculated based on the values of the address and endp."
+  },
+  {
+    "question": "The data packets can contain data upto ______",
+    "options": [
+      "A) 512 bytes",
+      "B) 256 bytes",
+      "C) 1024 bytes",
+      "D) 2 KB"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  }
+]

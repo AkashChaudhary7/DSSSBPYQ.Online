@@ -1,0 +1,200 @@
+[
+  {
+    "question": "Consider a pocker hand of five cards. Find Probability of getting four of a kind.",
+    "options": [
+      "A) (a)\n                                            \n                                                 C45",
+      "B) (b)\n                                            \n                                                 1 4165",
+      "C) (c)\n                                            \n                                                 4165",
+      "D) (d)\n                                            \n                                                 C15"
+    ],
+    "correct_answer": "B",
+    "explanation": ""
+  },
+  {
+    "question": "What is Probaability of five Sundays in July?",
+    "options": [
+      "A) (a)\n                                            \n                                                 1 7",
+      "B) (b)\n                                            \n                                                 2 7",
+      "C) (c)\n                                            \n                                                 3 7",
+      "D) (d)\n                                            \n                                                 4 7"
+    ],
+    "correct_answer": "C",
+    "explanation": ""
+  },
+  {
+    "question": "If  P(A)=0.3, P(B)=0.45  and both A and B are mutually exclusive events, then  P(A'∩B')= _______.",
+    "options": [
+      "A) (a)\n                                            \n                                                0.7",
+      "B) (b)\n                                            \n                                                0.75",
+      "C) (c)\n                                            \n                                                0.25",
+      "D) (d)\n                                            \n                                                0"
+    ],
+    "correct_answer": "C",
+    "explanation": ""
+  },
+  {
+    "question": "Two dies are thrown togather. Find the Probabiity that the sum is divisible by 2 or 3.",
+    "options": [
+      "A) (a)\n                                            \n                                                 C212",
+      "B) (b)\n                                            \n                                                 C26×C36",
+      "C) (c)\n                                            \n                                                0.6667",
+      "D) (d)\n                                            \n                                                0.4999"
+    ],
+    "correct_answer": "C",
+    "explanation": ""
+  },
+  {
+    "question": "A card is drawn from a pack of 52 cards. What is Probability of getting a king or a heart or a red card?",
+    "options": [
+      "A) (a)\n                                            \n                                                 C352",
+      "B) (b)\n                                            \n                                                 C1552",
+      "C) (c)\n                                            \n                                                 7 13",
+      "D) (d)\n                                            \n                                                none of the above"
+    ],
+    "correct_answer": "C",
+    "explanation": ""
+  },
+  {
+    "question": "In how many different ways can 4 of 15 lab assistants be chosen to assist with the experiment?",
+    "options": [
+      "A) (a)\n                                            \n                                                 C415",
+      "B) (b)\n                                            \n                                                 C154",
+      "C) (c)\n                                            \n                                                 1 C415",
+      "D) (d)\n                                            \n                                                 1 C154"
+    ],
+    "correct_answer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If 3 balls are drawn from a bag with 6-white and 5-black balls. What is Probability that one of the ball is white and other two are black?",
+    "options": [
+      "A) (a)\n                                            \n                                                0.3636",
+      "B) (b)\n                                            \n                                                0.2626",
+      "C) (c)\n                                            \n                                                0.1111",
+      "D) (d)\n                                            \n                                                0.0101"
+    ],
+    "correct_answer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "Let A and B be two events, then Probability of A when it is given that B has already occured is equal to _______.",
+    "options": [
+      "A) (a)\n                                            \n                                                  P(A∩B) P(B)",
+      "B) (b)\n                                            \n                                                 P(A)",
+      "C) (c)\n                                            \n                                                  P(A∩B) P(A)",
+      "D) (d)\n                                            \n                                                none of the above"
+    ],
+    "correct_answer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "Let A and B be any to events of S. Then 1-P(A/B)= _______.(where P(B) > 0)",
+    "options": [
+      "A) (a)\n                                            \n                                                P(A'/B')",
+      "B) (b)\n                                            \n                                                P(A/B')",
+      "C) (c)\n                                            \n                                                P(A'/B)",
+      "D) (d)\n                                            \n                                                P(A/B)'"
+    ],
+    "correct_answer": "C",
+    "explanation": ""
+  },
+  {
+    "question": "If  P(A∩B)=P(A)·P(B),P(B∩C)=P(B)·P(C),P(C∩A)=P(C)·P(A)  AND  P(A∩B∩C)=P(A)·P(B)·P(C) . Then  A,B, and C  are said to be _______.",
+    "options": [
+      "A) (a)\n                                            \n                                                mutually independent",
+      "B) (b)\n                                            \n                                                mutually exclusive",
+      "C) (c)\n                                            \n                                                mutually exhaustive",
+      "D) (d)\n                                            \n                                                pairwise independent"
+    ],
+    "correct_answer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "f(x,y) is called joint probability density function of (x,y) provided _______.",
+    "options": [
+      "A) (a)\n                                            \n                                                f(x,y)>0 for all x,y",
+      "B) (b)\n                                            \n                                                f(x,y)≥0 for all x,y",
+      "C) (c)\n                                            \n                                                f(x,y)<0 for all x,y",
+      "D) (d)\n                                            \n                                                none of the above"
+    ],
+    "correct_answer": "B",
+    "explanation": ""
+  },
+  {
+    "question": "Two random variables X and Y are independent if _______.",
+    "options": [
+      "A) (a)\n                                            \n                                                 P(X=x,Y=y)=PX(x)·PY(y) if X & Y are discrete",
+      "B) (b)\n                                            \n                                                 f(x,y)=FX(x)·FY(y) if X & Y are continuous",
+      "C) (c)\n                                            \n                                                both of above",
+      "D) (d)\n                                            \n                                                none of the above"
+    ],
+    "correct_answer": "C",
+    "explanation": ""
+  },
+  {
+    "question": "If joint probability mass function is  P(x,y)=k(2x+3y); x=0,1,2  and y=1,2,3.  Then k=_______.",
+    "options": [
+      "A) (a)\n                                            \n                                                 1 36",
+      "B) (b)\n                                            \n                                                 1 72",
+      "C) (c)\n                                            \n                                                 1 18",
+      "D) (d)\n                                            \n                                                 1 9"
+    ],
+    "correct_answer": "B",
+    "explanation": ""
+  },
+  {
+    "question": "If joint probability mass function is  P(x,y)=k(2x+3y); x=0,1,2  and y=1,2,3.  Then  P(x≤1,y≥2)= _______.",
+    "options": [
+      "A) (a)\n                                            \n                                                 34 72",
+      "B) (b)\n                                            \n                                                 68 36",
+      "C) (c)\n                                            \n                                                 1 72",
+      "D) (d)\n                                            \n                                                 34 36"
+    ],
+    "correct_answer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If joint probability mass function is  P(x,y)=k(2x+3y); x=0,1,2  and y=1,2,3.  Then  E(x)= _______.",
+    "options": [
+      "A) (a)\n                                            \n                                                 1.6671",
+      "B) (b)\n                                            \n                                                 1.6667",
+      "C) (c)\n                                            \n                                                 1.6716",
+      "D) (d)\n                                            \n                                                 1.6761"
+    ],
+    "correct_answer": "B",
+    "explanation": ""
+  },
+  {
+    "question": "For probability density function f(x,y)=3 4 +xy ;0≤x<1 & 0≤y<1  0           ;otherwise , joint probability is _______.",
+    "options": [
+      "A) (a)\n                                            \n                                                0",
+      "B) (b)\n                                            \n                                                0.5",
+      "C) (c)\n                                            \n                                                1",
+      "D) (d)\n                                            \n                                                none of the above"
+    ],
+    "correct_answer": "C",
+    "explanation": ""
+  },
+  {
+    "question": "If f(x,y)=cxy ;0<x<4  &  1<y<50     ;otherwise is a joint probability density function then c= _______.",
+    "options": [
+      "A) (a)\n                                            \n                                                4 96",
+      "B) (b)\n                                            \n                                                3 96",
+      "C) (c)\n                                            \n                                                2 96",
+      "D) (d)\n                                            \n                                                1 96"
+    ],
+    "correct_answer": "D",
+    "explanation": ""
+  },
+  {
+    "question": "For joint probability density function f(x,y) = x2·y3 ; 0<x<1 & 0<y<x ,what is expected value of x?",
+    "options": [
+      "A) (a)\n                                            \n                                                4 32",
+      "B) (b)\n                                            \n                                                1 32",
+      "C) (c)\n                                            \n                                                2 32",
+      "D) (d)\n                                            \n                                                3 32"
+    ],
+    "correct_answer": "B",
+    "explanation": ""
+  }
+]
