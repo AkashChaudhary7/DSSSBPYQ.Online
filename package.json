@@ -30,7 +30,7 @@
     "razorpay": "^2.9.8",
     "react": "^19.0.1",
     "react-dom": "^19.0.1",
-    "wrangler": "3.114.15"
+    "wrangler": "^4.147.0"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
