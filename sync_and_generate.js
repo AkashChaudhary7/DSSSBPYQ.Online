@@ -7,6 +7,7 @@ function findJsonFiles(dir, fileList = []) {
   const files = fs.readdirSync(dir);
   const ignoreFiles = new Set([
     'package.json',
+    'package-lock.json',
     'tsconfig.json',
     'manifest.json',
     'assetlinks.json',
