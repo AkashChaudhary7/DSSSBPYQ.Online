@@ -28,7 +28,8 @@
     "motion": "^12.23.24",
     "razorpay": "^2.9.8",
     "react": "^19.0.1",
-    "react-dom": "^19.0.1"
+    "react-dom": "^19.0.1",
+    "wrangler": "3.114.15"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
@@ -38,7 +39,6 @@
     "tailwindcss": "^4.1.14",
     "tsx": "^4.21.0",
     "typescript": "~5.8.2",
-    "vite": "^6.2.3",
-    "wrangler": "^3.114.15"
+    "vite": "^6.2.3"
   }
 }
