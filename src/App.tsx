@@ -73,46 +73,15 @@ const LazyViewFallback = () => (
   </div>
 );
 
-// Mobile App Download Gate configuration flag (enabled for mobile lock)
-const ENABLE_MOBILE_APP_GATE = true;
+// Mobile App Download Gate configuration flag (disabled as per user request)
+const ENABLE_MOBILE_APP_GATE = false;
 
 export default function App() {
-  // Mobile App Download Gate state
-  const [showMobileGate, setShowMobileGate] = useState<boolean>(() => {
-    if (!ENABLE_MOBILE_APP_GATE) return false;
-    if (typeof window === 'undefined') return false;
-    const pathname = window.location.pathname.toLowerCase();
-    if (pathname === '/app-ads.txt' || pathname === '/ads.txt') return false;
-    if (isCrawler()) return false;
-    if (isNativeApp()) return false;
-    return checkIsMobileDevice();
-  });
+  // Mobile App Download Gate state (permanently disabled)
+  const [showMobileGate, setShowMobileGate] = useState<boolean>(false);
 
   useEffect(() => {
-    if (!ENABLE_MOBILE_APP_GATE) {
-      setShowMobileGate(false);
-      return;
-    }
-    if (typeof window === 'undefined') return;
-
-    const evaluateMobileGate = () => {
-      const pathname = window.location.pathname.toLowerCase();
-      if (pathname === '/app-ads.txt' || pathname === '/ads.txt') {
-        setShowMobileGate(false);
-        return;
-      }
-      if (isCrawler() || isNativeApp()) {
-        setShowMobileGate(false);
-        return;
-      }
-      setShowMobileGate(checkIsMobileDevice());
-    };
-
-    evaluateMobileGate();
-    window.addEventListener('resize', evaluateMobileGate);
-    return () => {
-      window.removeEventListener('resize', evaluateMobileGate);
-    };
+    setShowMobileGate(false);
   }, []);
 
   // Helper to extract exam slug from URL (e.g., /syllabus/tgt-computer-science)
