@@ -206,7 +206,25 @@ export default defineConfig(() => {
       target: 'es2020',
       cssCodeSplit: true,
       sourcemap: false,
-      chunkSizeWarningLimit: 1200,
+      chunkSizeWarningLimit: 2000,
+      rollupOptions: {
+        output: {
+          manualChunks(id) {
+            if (id.includes('node_modules/firebase')) {
+              return 'vendor-firebase';
+            }
+            if (id.includes('node_modules/jspdf') || id.includes('node_modules/html2canvas') || id.includes('node_modules/dompurify')) {
+              return 'vendor-pdf';
+            }
+            if (id.includes('node_modules/lucide-react')) {
+              return 'vendor-icons';
+            }
+            if (id.includes('node_modules/motion')) {
+              return 'vendor-motion';
+            }
+          },
+        },
+      },
     },
     resolve: {
       alias: {
