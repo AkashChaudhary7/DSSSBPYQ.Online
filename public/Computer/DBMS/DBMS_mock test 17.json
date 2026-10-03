@@ -1,0 +1,530 @@
+[
+  {
+    "question": "In a granularity hierarchy the highest level represents the",
+    "options": [
+      "A) Entire database",
+      "B) Area",
+      "C) File",
+      "D) Record"
+    ],
+    "correct_answer": "A",
+    "explanation": "This level is the root of the tree."
+  },
+  {
+    "question": "In a database the file  is contained in ________",
+    "options": [
+      "A) Entire database",
+      "B) Two area",
+      "C) One area",
+      "D) more than one area"
+    ],
+    "correct_answer": "C",
+    "explanation": "This level is below the root of the tree."
+  },
+  {
+    "question": "If a node is locked in an intention mode, explicit locking is done at a lower level of the tree. This is called",
+    "options": [
+      "A) Intention lock modes",
+      "B) Explicit lock",
+      "C) Implicit lock",
+      "D) Exclusive lock"
+    ],
+    "correct_answer": "A",
+    "explanation": "There is an intention mode associated with shared mode, and there is one with an exclusive mode."
+  },
+  {
+    "question": "If a node is locked in __________ explicit locking is being done at a lower level of the tree, but with only shared-mode locks.",
+    "options": [
+      "A) Intention lock modes",
+      "B) Intention-shared-exclusive mode",
+      "C) Intention-exclusive (IX) mode",
+      "D) Intention-shared (IS) mode"
+    ],
+    "correct_answer": "A",
+    "explanation": "There is an intention mode associated with shared mode, and there is one with an exclusive mode."
+  },
+  {
+    "question": "If a node is locked in ____________ then explicit locking is being done at a lower level, with exclusive-mode or shared-mode locks.",
+    "options": [
+      "A) Intention lock modes",
+      "B) Intention-shared-exclusive mode",
+      "C) Intention-exclusive (IX) mode",
+      "D) Intention-shared (IS) mode"
+    ],
+    "correct_answer": "C",
+    "explanation": "There is an intention mode associated with shared mode, and there is one with an exclusive mode."
+  },
+  {
+    "question": "If a node is locked in ______________ the subtree rooted by that node is locked explicitly in shared mode, and that explicit locking is being done at a lower level with exclusive-mode locks.",
+    "options": [
+      "A) Intention lock modes",
+      "B) shared and intention-exclusive (SIX) mode",
+      "C) Intention-exclusive (IX) mode",
+      "D) Intention-shared (IS) mode"
+    ],
+    "correct_answer": "B",
+    "explanation": "There is an intention mode associated with shared mode, and there is one with an exclusive mode."
+  },
+  {
+    "question": "____________ denotes the largest timestamp of any transaction that executed write(Q) successfully.",
+    "options": [
+      "A) W-timestamp(Q)",
+      "B) R-timestamp(Q)",
+      "C) RW-timestamp(Q)",
+      "D) WR-timestamp(Q)"
+    ],
+    "correct_answer": "A",
+    "explanation": "The most common method for doing ordering transaction is to use a timestamp-ordering scheme."
+  },
+  {
+    "question": "The _____________ ensures that any conflicting read and write operations are executed in timestamp order.",
+    "options": [
+      "A) Timestamp-ordering protocol",
+      "B) Timestamp protocol",
+      "C) W-timestamp",
+      "D) R-timestamp"
+    ],
+    "correct_answer": "A",
+    "explanation": "The most common method for doing ordering transaction is to use a timestamp-ordering scheme."
+  },
+  {
+    "question": "The __________ requires that each transaction Ti executes in two or three different phases in its lifetime, depending on whether it is a read-only or an update transaction.",
+    "options": [
+      "A) Validation protocol",
+      "B) Validation-based protocol",
+      "C) Timestamp protocol",
+      "D) Timestamp-ordering protocol"
+    ],
+    "correct_answer": "A",
+    "explanation": "A concurrency-control scheme imposes the overhead of code execution and possible delay of transactions. It may be better to use an alternative scheme that imposes less overhead."
+  },
+  {
+    "question": "This validation scheme is called the _________ scheme since transactions execute optimistically, assuming they will be able to finish execution and validate at the end.",
+    "options": [
+      "A) Validation protocol",
+      "B) Validation-based protocol",
+      "C) Timestamp protocol",
+      "D) Optimistic concurrency-control"
+    ],
+    "correct_answer": "A",
+    "explanation": "A concurrency-control scheme imposes the overhead of code execution and possible delay of transactions. It may be better to use an alternative scheme that imposes less overhead."
+  },
+  {
+    "question": "Snapshot isolation is a particular type of ______________ scheme.",
+    "options": [
+      "A) Concurrency-control",
+      "B) Concurrency-allowance",
+      "C) Redirection",
+      "D) Repetition-allowance"
+    ],
+    "correct_answer": "A",
+    "explanation": "It has gained wide acceptance in commercial and open-source systems, including Oracle, PostgreSQL, and SQL Server."
+  },
+  {
+    "question": "Snapshot isolation is used to give",
+    "options": [
+      "A) Transaction a snapshot of the database",
+      "B) Database a snapshot of the transaction",
+      "C) Database a snapshot of committed values in the transaction",
+      "D) Transaction a snapshot of the database and Database a snapshot of committed values in the transaction"
+    ],
+    "correct_answer": "D",
+    "explanation": "The data values in the snapshot consist only of values written by committed transactions."
+  },
+  {
+    "question": "Lost update problem is",
+    "options": [
+      "A) Second update overwrites the first",
+      "B) First update overwrites the second",
+      "C) The updates are lost due to conflicting problem",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Lost update problem has to be resolved."
+  },
+  {
+    "question": "Under first updater wins the system uses a __________ mechanism that applies only to updates.",
+    "options": [
+      "A) Close",
+      "B) Read",
+      "C) Locking",
+      "D) Beat"
+    ],
+    "correct_answer": "C",
+    "explanation": "Reads are unaffected by this, since they do not obtain locks."
+  },
+  {
+    "question": "When a transaction Ti attempts to update a data item, it requests a _________ on that data item.",
+    "options": [
+      "A) Read lock",
+      "B) Update lock",
+      "C) Write lock",
+      "D) Chain lock"
+    ],
+    "correct_answer": "C",
+    "explanation": "Reads are unaffected by this, since they do not obtain locks."
+  },
+  {
+    "question": "Each of a pair of transactions has read data that is written by the other, but there is no data written by both transactions, is referred to as",
+    "options": [
+      "A) Read skew",
+      "B) Update skew",
+      "C) Write lock",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "Write skew is the issue addressed here."
+  },
+  {
+    "question": "An application developer can guard against certain snapshot anomalies by appending a ______ clause to the SQL select query.",
+    "options": [
+      "A) For update",
+      "B) For read",
+      "C) For write",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Adding the for update clause causes the system to treat data that are read as if they had been updated for purposes of concurrency control."
+  },
+  {
+    "question": "In which scenario would you use the ROLLUP operator for expression or columns within a GROUP BY clause?",
+    "options": [
+      "A) To find the groups forming the subtotal in a row",
+      "B) To create group-wise grand totals for the groups specified within a GROUP BY clause",
+      "C) To create a grouping for expressions or columns specified within a GROUP BY clause in one direction, from",
+      "D) To create a grouping for expressions or columns specified within a GROUP BY clause in all possible"
+    ],
+    "correct_answer": "C",
+    "explanation": "Sequence is used to generate a series of values."
+  },
+  {
+    "question": "ARIES uses a ___________ to identify log records, and stores it in database pages.",
+    "options": [
+      "A) Log sequence number",
+      "B) Log number",
+      "C) Lock number",
+      "D) Sequence"
+    ],
+    "correct_answer": "B",
+    "explanation": "LSN is used to identify which operations have been applied to a database page."
+  },
+  {
+    "question": "ARIES supports ___________ operations, which are physical in that the affected page is physically identified, but can be logical within the page.",
+    "options": [
+      "A) Physiological redo",
+      "B) Physiological undo",
+      "C) Logical redo",
+      "D) Logical undo"
+    ],
+    "correct_answer": "A",
+    "explanation": "The deletion of a record from a page may result in many other records in the page being shifted, if a slotted page structure is used."
+  },
+  {
+    "question": "______________ is used to minimize unnecessary redos during recovery.",
+    "options": [
+      "A) Dirty page table",
+      "B) Page table",
+      "C) Dirty redo",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Dirty pages are those that have been updated in memory, and the disk version is not up-to-date."
+  },
+  {
+    "question": "__________ scheme that records only information about dirty pages and associated information and does not even require of writing dirty pages to disk.",
+    "options": [
+      "A) Fuzzy logic",
+      "B) Checkpoints",
+      "C) Fuzzy-checkpoint",
+      "D) Logical checkpoint"
+    ],
+    "correct_answer": "C",
+    "explanation": "It flushes dirty pages in the background, continuously, instead of writing them during checkpoints."
+  },
+  {
+    "question": "Whenever an update operation occurs on a page, the operation stores the LSN of its log record in the _______ field of the page.",
+    "options": [
+      "A) LSN",
+      "B) ReadLSN",
+      "C) PageLSN",
+      "D) RedoLSN"
+    ],
+    "correct_answer": "C",
+    "explanation": "Each page maintains an identifier called the PageLSN."
+  },
+  {
+    "question": "There are special redo-only log records generated during transaction rollback, called _________ in ARIES.",
+    "options": [
+      "A) Compensation log records",
+      "B) Read log records",
+      "C) Page log records",
+      "D) Redo log records"
+    ],
+    "correct_answer": "A",
+    "explanation": "These serve the same purpose as the redo-only log records in our earlier recovery scheme."
+  },
+  {
+    "question": "The __________________ contains a list of pages that have been updated in the database buffer.",
+    "options": [
+      "A) Dirty page table",
+      "B) Page table",
+      "C) Dirty redo",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Dirty pages are those that have been updated in memory, and the disk version is not up-to-date."
+  },
+  {
+    "question": "___________ determines which transactions to undo, which pages were dirty at the time of the crash, and the LSN from which the redo pass should start.",
+    "options": [
+      "A) Analysis pass",
+      "B) Redo pass",
+      "C) Undo pass",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "The analysis pass finds the last complete checkpoint log record, and reads in the DirtyPageTable from this record."
+  },
+  {
+    "question": "__________ starts from a position determined during analysis, and performs a redo, repeating history, to bring the database to a state it was in before the crash.",
+    "options": [
+      "A) Analysis pass",
+      "B) Redo pass",
+      "C) Undo pass",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "The redo pass repeats history by replaying every action that is not already reflected in the page on disk."
+  },
+  {
+    "question": "______________ rolls back all transactions that were incomplete at the time of crash.",
+    "options": [
+      "A) Analysis pass",
+      "B) Redo pass",
+      "C) Undo pass",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "It performs a single backward scan of the log, undoing all transactions in undo-list."
+  },
+  {
+    "question": "Which lock should be obtained to prevent a concurrent transaction from executing a conflicting read, insert or delete operation on the same key value.",
+    "options": [
+      "A) Higher-level lock",
+      "B) Lower-level lock",
+      "C) Read only lock",
+      "D) Read write"
+    ],
+    "correct_answer": "A",
+    "explanation": "Operations acquire lower-level locks while they execute, but release them when they complete; the corresponding transaction must however retain a higher-level lock in a two-phase manner to prevent concurrent transactions from executing conflicting actions."
+  },
+  {
+    "question": "Once the lower-level lock is released, the operation cannot be undone by using the old values of updated data items, and must instead be undone by executing a compensating operation; such an operation is called",
+    "options": [
+      "A) Logical operation",
+      "B) Redo operation",
+      "C) Logical undo operation",
+      "D) Undo operation"
+    ],
+    "correct_answer": "A",
+    "explanation": "It is important that the lower-level locks acquired during an operation are sufficient to perform a subsequent logical undo of the operation."
+  },
+  {
+    "question": "Which of the following is used for undo operations alone?",
+    "options": [
+      "A) Logical logging",
+      "B) Physical logging",
+      "C) Physical log records",
+      "D) Physical logging and Physical log records"
+    ],
+    "correct_answer": "A",
+    "explanation": "If the operation inserted an entry in a B+-tree, the undo information U would indicate that a deletion operation is to be performed, and would identify the B+-tree and what entry to delete from the tree. Such logging of information about operations is called logical logging."
+  },
+  {
+    "question": "Redo operations are performed exclusively using",
+    "options": [
+      "A) Logical logging",
+      "B) Physical logging",
+      "C) Physical log records",
+      "D) Both Physical logging and Physical log records"
+    ],
+    "correct_answer": "D",
+    "explanation": "Logging of old-value and new-value information is called physical logging."
+  },
+  {
+    "question": "To perform logical redo or undo, the database state on disk must be operation ___________ that is, it should not have partial effects of any operation.",
+    "options": [
+      "A) Persistent",
+      "B) Resistant",
+      "C) Consistent",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "Data structures such as B+-trees would not be in a consistent state, and neither logical redo nor logical undo operations can be performed on an inconsistent data structure."
+  },
+  {
+    "question": "An operation is said to be __________ if executing it several times in a row gives the same result as executing it once.",
+    "options": [
+      "A) Idempotent",
+      "B) Changed",
+      "C) Repetitive",
+      "D) All of the above"
+    ],
+    "correct_answer": "A",
+    "explanation": "Operations such as inserting an entry into a B+-tree may not be idempotent, and the recovery algorithm must therefore make sure that an operation that has already been performed is not performed again."
+  },
+  {
+    "question": "Immediate database modification technique uses",
+    "options": [
+      "A) Both undo and redo",
+      "B) Undo but no redo",
+      "C) Redo but no undo",
+      "D) Neither undo nor redo"
+    ],
+    "correct_answer": "A",
+    "explanation": "Undo erases all the changes and redo makes the deleted changes."
+  },
+  {
+    "question": "Shadow paging has",
+    "options": [
+      "A) no redo",
+      "B) no undo",
+      "C) redo but no undo",
+      "D) neither redo nor undo"
+    ],
+    "correct_answer": "A",
+    "explanation": "Undo erases all the changes and redo makes the deleted changes."
+  },
+  {
+    "question": "For correct behaviour during recovery, undo and redo operation must be",
+    "options": [
+      "A) Commutative",
+      "B) Associative",
+      "C) Idempotent",
+      "D) Distributive"
+    ],
+    "correct_answer": "C",
+    "explanation": "Undo erases all the changes and redo makes the deleted changes."
+  },
+  {
+    "question": "If ___________ are not obtained in undo operation it will cause problem in undo-phase.",
+    "options": [
+      "A) Higher-level lock",
+      "B) Lower-level lock",
+      "C) Read only lock",
+      "D) Read write"
+    ],
+    "correct_answer": "B",
+    "explanation": "Operations acquire lower-level locks while they execute, but release them when they complete; the corresponding transaction must however retain a higher-level lock in a two-phase manner to prevent concurrent transactions from executing conflicting actions."
+  },
+  {
+    "question": "The remote backup site is sometimes also called the",
+    "options": [
+      "A) Primary Site",
+      "B) Secondary Site",
+      "C) Tertiary Site",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "We can achieve high availability by performing transaction processing at one site, called the primary site, and having a remote backup site where all the data from the primary site are replicated."
+  },
+  {
+    "question": "Remote backup system must be _________ with the primary site.",
+    "options": [
+      "A) Synchronised",
+      "B) Separated",
+      "C) Connected",
+      "D) Detached but related"
+    ],
+    "correct_answer": "A",
+    "explanation": "We can achieve high availability by performing transaction processing at one site, called the primary site, and having a remote backup site where all the data from the primary site are replicated."
+  },
+  {
+    "question": "The backup is taken by",
+    "options": [
+      "A) Erasing all previous records",
+      "B) Entering the new records",
+      "C) Sending all log records from primary site to the remote backup site",
+      "D) Sending selected records from primary site to the remote backup site"
+    ],
+    "correct_answer": "C",
+    "explanation": "We can achieve high availability by performing transaction processing at one site, called the primary site, and having a remote backup site where all the data from the primary site are replicated."
+  },
+  {
+    "question": "When the __________ the backup site takes over processing and becomes the primary.",
+    "options": [
+      "A) Secondary fails",
+      "B) Backup recovers",
+      "C) Primary fails",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "When the original primary site recovers, it can either play the role of remote backup, or take over the role of primary site again."
+  },
+  {
+    "question": "The simplest way of transferring control is for the old primary to receive __________ from the old backup site.",
+    "options": [
+      "A) Undo logs",
+      "B) Redo Logs",
+      "C) Primary Logs",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "C",
+    "explanation": "If control must be transferred back, the old backup site can pretend to have failed, resulting in the old primary taking over."
+  },
+  {
+    "question": "The time to process the remote backup can be reduced by",
+    "options": [
+      "A) Flags",
+      "B) Breakpoints",
+      "C) Redo points",
+      "D) Checkpoints"
+    ],
+    "correct_answer": "D",
+    "explanation": "If the log at the remote backup grows large, recovery will take a long time. The remote backup site can periodically process the redo log records that it has received and can perform a checkpoint, so that earlier parts of the log can be deleted."
+  },
+  {
+    "question": "A _______________ configuration can make takeover by the backup site almost instantaneous.",
+    "options": [
+      "A) Hot-spare",
+      "B) Remote",
+      "C) Direct",
+      "D) Spare"
+    ],
+    "correct_answer": "D",
+    "explanation": "In this configuration, the remote backup site continually processes redo log records as they arrive, applying the updates locally."
+  },
+  {
+    "question": "A transaction commits as soon as its commit log record is written to stable storage at the primary site. This is",
+    "options": [
+      "A) One Safe",
+      "B) Two Safe",
+      "C) Two-very Safe",
+      "D) Very Safe"
+    ],
+    "correct_answer": "A",
+    "explanation": "The problem with this scheme is that the updates of a committed transaction may not have made it to the backup site, when the backup site takes over processing."
+  },
+  {
+    "question": "A transaction commits as soon as its commit log record is written to stable storage at the primary and the backup site. This is",
+    "options": [
+      "A) One Safe",
+      "B) Two Safe",
+      "C) Two-very Safe",
+      "D) Very Safe"
+    ],
+    "correct_answer": "C",
+    "explanation": "The problem with this scheme is that transaction processing cannot proceed if either the primary or the backup site is down."
+  },
+  {
+    "question": "If only the primary is active, the transaction is allowed to commit as soon as its commit log record is written to stable storage at the primary site. This is",
+    "options": [
+      "A) One Safe",
+      "B) Two Safe",
+      "C) Two-very Safe",
+      "D) Very Safe"
+    ],
+    "correct_answer": "B",
+    "explanation": "This scheme provides better availability than does two-very-safe, while avoiding the problem of lost transactions faced by the one-safe scheme."
+  }
+]

@@ -1,0 +1,2810 @@
+{
+  "mock_id": 28,
+  "title": "DSSSB TGT Computer Science Full Mock Test 028",
+  "pattern": "DSSSB TGT CS (200 Questions)",
+  "source_part_a_file": "mock_test_62.json",
+  "total_questions": 200,
+  "id_ranges": {
+    "part_a": "1 to 100",
+    "computer_science": "101 to 190",
+    "teaching_methodology": "191 to 200"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Town L is to the south of Town M. Town N is to the east of Town L. Town P is to the west of Town N. Town Q is to the north of Town P. Town M is to the north-west of Town Q. What is the position of Town P with respect to Town L?",
+      "options": [
+        "West",
+        "North-east",
+        "North-west",
+        "East"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (East) है।"
+    },
+    {
+      "id": 2,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "What should come in place of the question mark (?) in the following series?3   8   18   38   78   ?",
+      "options": [
+        "175",
+        "169",
+        "161",
+        "158"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (158) है।"
+    },
+    {
+      "id": 3,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "In a certain code,'have you seen the' is coded as 'qq as zx cv','seen the power of' is coded as 'zx cv bv nb','seen of self over' is coded as 'zx nb ol yu' and'mind over you money' is coded as 'hg yu as ik'.(All the codes are two letter coded only.)What is the possible code for ‘mind’?",
+      "options": [
+        "Either 'as' or 'yu'",
+        "Either 'ik' or 'hg'",
+        "Either 'yu' or 'ik'",
+        "Either 'ik' or 'as'"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Either 'ik' or 'hg') है।"
+    },
+    {
+      "id": 4,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Select the option that is related to the third term in the same way as the second term is related to the first term and the sixth term is related to the fifth term.22 : 4 :: 96 : ? :: 76 : 42",
+      "options": [
+        "58",
+        "54",
+        "64",
+        "88"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (54) है।"
+    },
+    {
+      "id": 5,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Nimesh starts from Point A and drives 27 km towards West. He then takes a left turn, drives 25 km, turns left and drives 30 km. He then takes a left turn and drives 39 km. He takes a final left turn, drives 3 km and stops at Point P. How far (shortest distance) and towards which direction should he drive in order to reach Point A again? (All turns are 90-degree turns only unless specified.)",
+      "options": [
+        "13 km to the South",
+        "14 km to the South",
+        "11 km to the North",
+        "12 km to the North"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (14 km to the South) है।"
+    },
+    {
+      "id": 6,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "This question is based on the following words.ICE  COW  MAN   FUNIf in each of the words, each letter is changed to the next letter in the English alphabetical order, how many letter-clusters thus formed will have no vowel? 2045",
+      "options": [
+        "Three",
+        "None",
+        "Two",
+        "One"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Two) है।"
+    },
+    {
+      "id": 7,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "What should come in place of the question mark (?) in the given series?14, 19, 29, 44, 64, ?",
+      "options": [
+        "89",
+        "91",
+        "82",
+        "87"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (89) है।"
+    },
+    {
+      "id": 8,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "What should come in place of ‘?’ in the series.6000, ?, 4271, 3759, 3416, 3200, 3075.",
+      "options": [
+        "4729",
+        "4929",
+        "4629",
+        "5000"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (5000) है।"
+    },
+    {
+      "id": 9,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "In a certain code language,\n‘A + B’ means ‘A is the mother of B’,\n‘A – B’ means ‘A is the father of B’,\n‘A $ B’ means ‘A is the son of B’, and\n‘A % B’ means ‘A is the sister of B’.\n\nWhich of the following mean(s) that E is the wife of B?\n(I) A + C – D % E $ B\n(II) A + B – C % D $ E\n(III) C + D – E % A $ B\n(IV) A + E – B % D $ C 3071",
+      "options": [
+        "Only (I)",
+        "Only (II)",
+        "Only (III) and (IV)",
+        "Only (I) and (II)"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Only (II)) है।"
+    },
+    {
+      "id": 10,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Rohit starts from point A and walks 6 km towards east. He then takes a right turn and walks 5 km. He again turns right and walks 3 km. He takes another right turn and walks 3 km. In the end, he turns left and walks 3 km to reach point B. How far (shortest distance) and towards which direction should he walk in order to reach Point A again? (All turns are 90-degree turns only unless specified.)",
+      "options": [
+        "3 km towards east",
+        "3 km towards south",
+        "2 km towards north",
+        "2 km towards west"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (2 km towards north) है।"
+    },
+    {
+      "id": 11,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "In this question, a statement is given followed by two conclusions numbered I and II. You have to assume everything in the statement to be true and decide which of them logically follow(s) beyond a reasonable doubt from the information given in the statement.Statement:Price of onions has increased sharply due to shortages caused by damage to onion crops across the country.Conclusions:I) Large scale hoarding has also led to the increase in onion prices.II) Prices of commodities tend to rise when demand is greater than supply.",
+      "options": [
+        "Both conclusions I and II follow.",
+        "Only conclusion II follows.",
+        "Neither conclusion I nor II follows.",
+        "Only conclusion I follows."
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Only conclusion II follows.) है।"
+    },
+    {
+      "id": 12,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Select the number from among the given options that can replace the question mark (?) in the following series.23   24   28   37   53   ?",
+      "options": [
+        "74",
+        "78",
+        "76",
+        "72"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (78) है।"
+    },
+    {
+      "id": 13,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Select the set in which the numbers are related in the same way as are the numbers of the following sets.(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)7 - 3 - 204 - 5 - 184652",
+      "options": [
+        "6 - 8 - 26",
+        "4 - 7 - 22",
+        "16 - 3 - 36",
+        "5 - 3 - 18"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (4 - 7 - 22) है।"
+    },
+    {
+      "id": 14,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "C, D, G, H, L, M, Y and Z are sitting around a circular table facing the centre. C sits third to the left of D. G sits second to the left of C. C sits to the immediate right of H. Neither D nor G is an immediate neighbour of Y. Z sits second to the right of L. Who sits third to the right of M?2505",
+      "options": [
+        "L",
+        "C",
+        "H",
+        "Y"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (C) है।"
+    },
+    {
+      "id": 15,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order?\n\nMPQ, KNO, ILM, GJK, ?",
+      "options": [
+        "EIH",
+        "EHI",
+        "HIE",
+        "HIB"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (EHI) है।"
+    },
+    {
+      "id": 16,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Select the set in which the numbers are related in the same way as are the numbers of the given sets.(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)(10, 8, 90)(12, 6, 82)",
+      "options": [
+        "(20, 4, 85)",
+        "(15, 6, 100)",
+        "(17, 6, 110)",
+        "(18, 3, 54)"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' ((15, 6, 100)) है।"
+    },
+    {
+      "id": 17,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Given below is a statement followed by two possible reasons numbered I and II. Read the statement carefully and decide which of the two reasons explains the event/observation/information given in the statement. Statement:Despite having a large number of skilled graduates, Country A faces a shortage of skilled workforce in the technology sector.Reasons:I. Many skilled graduates from Country A migrate to other countries for better career opportunities and higher salaries.II. The technology sector in Country A faces challenges such as outdated infrastructure and limited investment in research and development.",
+      "options": [
+        "Both I and II are possible reasons.",
+        "Only I is a possible reason.",
+        "Neither I nor II is a possible reason.",
+        "Only II is a possible reason."
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Both I and II are possible reasons.) है।"
+    },
+    {
+      "id": 18,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "A certain number of people are sitting in a row, facing the north. Only two people sit between A and C. D sits third to the right of A. B sits fourth to the left of C. If no other person is sitting in the row, what is the total number of persons seated?3291",
+      "options": [
+        "13",
+        "8",
+        "11",
+        "10"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (11) है।"
+    },
+    {
+      "id": 19,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Yuvraj starts from Point A and drives 12 km towards the east. He then takes a right turn and drives 8 km. He takes a final right turn and drives 9 km and stops at Point B. Sundar starts from point P, which is 29 km to the east of Point A, and drives 9 km towards the west. He then takes a left turn and drives 8 km. He takes a final right turn and drives 13 km and stops at Point Q. What is the shortest distance between Point Q and Point B? (All turns are 90-degree turns only.)",
+      "options": [
+        "1 km",
+        "3 km",
+        "2 km",
+        "4 km"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (4 km) है।"
+    },
+    {
+      "id": 20,
+      "section": "General intelligence and Reasoning Ability",
+      "question": "Read the statement, followed by two possible reasons numbered I and II, and decide which explains the event/observation/information given in the statement.Statement:There has been a decrease in road traffic in the current year as compared to the previous year.Reasons:I. Fuel prices have shown a substantial increase in the current year.II. Road tax has increased in the current year.",
+      "options": [
+        "Both I and II are possible reasons",
+        "Only I is a possible reason",
+        "Neither I nor II is a possible reason",
+        "Only II is a possible reason"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Only I is a possible reason) है।"
+    },
+    {
+      "id": 21,
+      "section": "General Awareness",
+      "question": "Which of the following Indian leaders resigned from the Central Legislative Council in protest against the Rowlatt Act, 1919?",
+      "options": [
+        "Mohammed Ali Jinnah, Madan Mohan Malaviya and Mazhar-ul-Huq",
+        "Bal Gangadhar Tilak, Bipin Chandra Pal and Lala Lajpat Rai",
+        "Gopal Krishna Gokhale, Dadabhai Naoroji and Lala Lajpat Rai",
+        "Jawaharlal Nehru, Sardar Patel and Subhas Chandra Bose"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Mohammed Ali Jinnah, Madan Mohan Malaviya and Mazhar-ul-Huq) है।"
+    },
+    {
+      "id": 22,
+      "section": "General Awareness",
+      "question": "The Jagannath Pooja festival of Odisha is linked to which significant event?",
+      "options": [
+        "Janmasthami",
+        "Rath Yatra",
+        "Raja festival",
+        "Holi"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Rath Yatra) है।"
+    },
+    {
+      "id": 23,
+      "section": "General Awareness",
+      "question": "Which of the following accurately describes the Endoplasmic Reticulum (ER)?",
+      "options": [
+        "It functions as the site of DNA replication in both plant and animal cells.",
+        "The ER are membranous tubules and sacs involved in protein and lipid synthesis.",
+        "The ER is primarily found in prokaryotic cells and serves as the site of photosynthesis.",
+        "The ER is responsible for the synthesis of ATP in eukaryotic cells."
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (The ER are membranous tubules and sacs involved in protein and lipid synthesis.) है।"
+    },
+    {
+      "id": 24,
+      "section": "General Awareness",
+      "question": "निम्नलिखित में से कौन-सा ग्रंथ, व्याकरण के नियमों के लिए प्रसिद्ध है और समाज, अर्थव्यवस्था और संस्कृति पर भी प्रकाश डालता है?",
+      "options": [
+        "कौषीतकि उपनिषद (Kaushitaki Upanishad)",
+        "तैत्तिरीय संहिता (Taittiriya Samhita)",
+        "अष्टाध्यायी (Ashtadhyayi)",
+        "पैप्पलाद संहिता (Paippalada Samhita)"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (अष्टाध्यायी (Ashtadhyayi)) है।"
+    },
+    {
+      "id": 25,
+      "section": "General Awareness",
+      "question": "तिब्बत में, निम्नलिखित में से किस नदी को 'सिंगी खंबन (Singi Khamban)' के नाम से जाना जाता है?",
+      "options": [
+        "दामोदर",
+        "रामगंगा",
+        "सिंधु",
+        "सरयू"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (सिंधु) है।"
+    },
+    {
+      "id": 26,
+      "section": "General Awareness",
+      "question": "In February 2025, which Indian city hosted a three-day International Bird Festival to promote avian tourism?",
+      "options": [
+        "Chilika",
+        "Kumarakom",
+        "Bharatpur",
+        "Prayagraj"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Prayagraj) है।"
+    },
+    {
+      "id": 27,
+      "section": "General Awareness",
+      "question": "How many Indian members were appointed in the ‘Indian Statutory Commission’ during the British period?",
+      "options": [
+        "Three",
+        "Five",
+        "Two",
+        "Zero"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Zero) है।"
+    },
+    {
+      "id": 28,
+      "section": "General Awareness",
+      "question": "The right to constitutional remedies includes the issuance of various writs. Which writ is issued to a lower court to transfer a case to itself for review if it finds that the lower court is acting beyond its jurisdiction?",
+      "options": [
+        "Habeas Corpus",
+        "Certiorari",
+        "Quo Warranto",
+        "Mandamus"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Certiorari) है।"
+    },
+    {
+      "id": 29,
+      "section": "General Awareness",
+      "question": "Which law, enacted in April 2025, seeks to overhaul India's immigration system by repealing four colonial-era legislations?",
+      "options": [
+        "Immigration and Foreigners Bill",
+        "International Migration Control Bill",
+        "Visa and Entry Management Bill",
+        "Foreign Nationals Regulation Bill"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Immigration and Foreigners Bill) है।"
+    },
+    {
+      "id": 30,
+      "section": "General Awareness",
+      "question": "According to the World Bank, India ranks fourth globally in income equality with a Gini score of ________________.",
+      "options": [
+        "15.5",
+        "25.5",
+        "18.5",
+        "20.5"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (25.5) है।"
+    },
+    {
+      "id": 31,
+      "section": "General Awareness",
+      "question": "In which year was Shovana Narayan honoured with the Padma Shri award for creativity and contribution to the arts?",
+      "options": [
+        "2001",
+        "1998",
+        "2005",
+        "1992"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (1992) है।"
+    },
+    {
+      "id": 32,
+      "section": "General Awareness",
+      "question": "In which city was the National Convention on Model Women-Friendly Gram Panchayats organized on 5th March 2025?",
+      "options": [
+        "Patna",
+        "Lucknow",
+        "New Delhi",
+        "Kolkata"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (New Delhi) है।"
+    },
+    {
+      "id": 33,
+      "section": "General Awareness",
+      "question": "निम्नलिखित में से किस इतिवृत्त में उल्लेख है कि चंद्रगुप्त मौर्य क्षत्रिय वंश से संबंधित थे जिसे मोरिया के नाम से जाना जाता था?",
+      "options": [
+        "इंडिका",
+        "अर्थशास्त्र",
+        "अंगुत्तर निकाय",
+        "महावंश"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (महावंश) है।"
+    },
+    {
+      "id": 34,
+      "section": "General Awareness",
+      "question": "In June 2025, Defence Research and Development Organisation(DRDO) along with which organisation/institution successfully demonstrated a Quantum Entanglement–Based Free-Space Quantum Secure Communication over a distance of more than 1 km?",
+      "options": [
+        "NewSpace Research & Technologies",
+        "Indian Institute of Technology-Delhi",
+        "Skyroot Aerospace Private Limited",
+        "Bhabha Atomic Research Centre"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Indian Institute of Technology-Delhi) है।"
+    },
+    {
+      "id": 35,
+      "section": "General Awareness",
+      "question": "Where did the Manuscripts were usually written?",
+      "options": [
+        "Paper",
+        "Rock",
+        "Stone",
+        "Palm leaf"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Palm leaf) है।"
+    },
+    {
+      "id": 36,
+      "section": "General Awareness",
+      "question": "NISAR के संबंध में दिए गए कथनों में से कौन-से कथन सही हैं?\n1. NASA और ISRO, NISAR उपग्रह पर सहयोग कर रहे हैं।\n2. यह एक संचार उपग्रह है।\n3. यह भूकंप की भविष्यवाणी करेगा।",
+      "options": [
+        "केवल 1 और 2",
+        "केवल 1",
+        "केवल 1 और 3",
+        "1, 2 और 3"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (केवल 1) है।"
+    },
+    {
+      "id": 37,
+      "section": "General Awareness",
+      "question": "What sport does D Gukesh represent for his Khel Ratna award in 2025?",
+      "options": [
+        "Hockey",
+        "Chess",
+        "Athletics",
+        "Shooting"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Chess) है।"
+    },
+    {
+      "id": 38,
+      "section": "General Awareness",
+      "question": "What is the main criticism of the formal credit delivery mechanism in rural banking?",
+      "options": [
+        "It eliminates agricultural lending.",
+        "It provides credit to urban areas only.",
+        "It charges exorbitant interest rates.",
+        "It is ineffective in deposit mobilisation and loan recovery."
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (It is ineffective in deposit mobilisation and loan recovery.) है।"
+    },
+    {
+      "id": 39,
+      "section": "General Awareness",
+      "question": "What is the name of the sixth form of punishment introduced in Bharatiya Nyaya Sanhita (BNS) in July 2024?",
+      "options": [
+        "Imprisonment for life",
+        "Death",
+        "Community service",
+        "Forfeiture of property"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Community service) है।"
+    },
+    {
+      "id": 40,
+      "section": "General Awareness",
+      "question": "Which of the following statements is/are correct regarding the Supreme Court's ruling on Imran Pratapgarhi's case (29 March 2025)?\tThe Supreme Court quashed the FIR filed by Gujarat Police against Imran Pratapgarhi for posting a video with objectionable content.\tThe Court emphasised that the right to free speech and expression is protected even if a large number of persons dislike the views expressed.\tThe Court ruled that a preliminary inquiry is not required when the offence involves restrictions under Article 19(2) of the Constitution.",
+      "options": [
+        "Only 1",
+        "Only 2 and 3",
+        "1, 2 and 3",
+        "Only 1 and 2"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Only 1 and 2) है।"
+    },
+    {
+      "id": 41,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The average of the squares of the first 91 natural numbers is:",
+      "options": [
+        "2806",
+        "2807",
+        "2805",
+        "2808"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (2806) है।"
+    },
+    {
+      "id": 42,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "In what ratio must a grocer mix two varieties of rice costing ₹281 and ₹106 per kg, respectively, to get a mixture of rice worth ₹138 per kg?1380",
+      "options": [
+        "33 : 145",
+        "143 : 32",
+        "32 : 143",
+        "145 : 33"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (32 : 143) है।"
+    },
+    {
+      "id": 43,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "What is the radius (in cm) of the largest right circular cone that can be cut out from a cube of edge 12.6 cm?",
+      "options": [
+        "6.3",
+        "6.4",
+        "6.2",
+        "6.1"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (6.3) है।"
+    },
+    {
+      "id": 44,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The average of first 238 even natural numbers is:",
+      "options": [
+        "240",
+        "238.5",
+        "239.5",
+        "239"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (239) है।"
+    },
+    {
+      "id": 45,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "At what rate (in percentage) per year will a sum of money double itself in 4 years on simple interest?",
+      "options": [
+        "50",
+        "25",
+        "27",
+        "23"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (25) है।"
+    },
+    {
+      "id": 46,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The average of 7 numbers is 49. If each number is decreased by 4, what will the new average be?",
+      "options": [
+        "7",
+        "41",
+        "45",
+        "49"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (45) है।"
+    },
+    {
+      "id": 47,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A shopkeeper professes to sell his goods at a 35% loss, but uses a false balance and gains 75%. The actual weight (correct to one decimal place) he uses for 1 kg is:",
+      "options": [
+        "375.7 gm",
+        "376.9 gm",
+        "371.4 gm",
+        "369.2 gm"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (371.4 gm) है।"
+    },
+    {
+      "id": 48,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A man spends 40% of his monthly salary (in ₹) on rent. If every month he also spends ₹264 on conveyance and ₹2,159 on grocery and saves the remaining ₹598, his monthly salary (in ₹) is:",
+      "options": [
+        "4,978",
+        "5,055",
+        "5,035",
+        "5,045"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (5,035) है।"
+    },
+    {
+      "id": 49,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "By how much is 30% of 75 greater than 30% of 35?",
+      "options": [
+        "12",
+        "7",
+        "14",
+        "9"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (12) है।"
+    },
+    {
+      "id": 50,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Bhavesh bought an article for ₹363 and sold it to Bhumi at a loss of 30%. With this amount, Bhavesh bought another article and sold it at a gain of 62%. What is Bhavesh's overall gain percentage?",
+      "options": [
+        "16.6%",
+        "12.6%",
+        "13.4%",
+        "16.4%"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (13.4%) है।"
+    },
+    {
+      "id": 51,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Train A leaves station M at 7:40 a.m. and reaches station N at 4:40 p.m. on the same day. Train B leaves station N at 9:40 a.m. and reaches station M at 2:40 p.m. on the same day. Find the time when Trains A and B meet.",
+      "options": [
+        "8:57 p.m.",
+        "12:10 p.m.",
+        "7:26 p.m.",
+        "3:42 p.m."
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (12:10 p.m.) है।"
+    },
+    {
+      "id": 52,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Find the fourth proportional to 21, 18 and 7.",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "4"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (6) है।"
+    },
+    {
+      "id": 53,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "2 men or 8 women can do a job in 3 days. 2 men work for 1 days and leave. The number of women required to complete the remaining work in 8 days is:",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "5"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (2) है।"
+    },
+    {
+      "id": 54,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The average of the first 27 even natural numbers is:",
+      "options": [
+        "28",
+        "27",
+        "29",
+        "22"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (28) है।"
+    },
+    {
+      "id": 55,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The least number which should be added to 2564 so that the sum is exactly divisible by 2, 4, 6 and 3 is _____.17",
+      "options": [
+        "16",
+        "4",
+        "3",
+        "8"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (4) है।"
+    },
+    {
+      "id": 56,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "If 19.2 : x :: x : 14.7, and x > 0, then find the value of x.772",
+      "options": [
+        "17.8",
+        "15.6",
+        "15.7",
+        "16.8"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (16.8) है।"
+    },
+    {
+      "id": 57,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The arithmetic mean of the observations 49, 78, 32, 67, 43, 19, 16, 91 and 64 is:6333",
+      "options": [
+        "59",
+        "58",
+        "60",
+        "51"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (51) है।"
+    },
+    {
+      "id": 58,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "One-third of a journey is covered at a speed of 41 km/hr, the next one-third of the journey is covered at a speed of 17 km/hr, and the remaining journey is covered at a speed of 18 km/hr. The average speed (in km/hr, rounded off to 1 decimal place) for the entire journey is:",
+      "options": [
+        "3",
+        "8",
+        "5",
+        "6"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (6) है।"
+    },
+    {
+      "id": 59,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A shopkeeper claims to sell his goods at a 35% loss but uses a false balance and actually makes a 65% gain. What is the actual weight (correct to one decimal place) he gives instead of 1 kg?",
+      "options": [
+        "397.5 gm",
+        "393.9 gm",
+        "391.5 gm",
+        "390.4 gm"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (393.9 gm) है।"
+    },
+    {
+      "id": 60,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "If x is directly proportional to y and inversely proportional to z, and x = 26 when y = 8 and z = 12, then find the value of z when x = 13 and y = 31.",
+      "options": [
+        "92",
+        "95",
+        "93",
+        "94"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (93) है।"
+    },
+    {
+      "id": 61,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the passage carefully and answer the questions that follow.In the realm of economics, the principles of supply and demand reign supreme, orchestrating the intricate dance of markets worldwide. Supply refers to the quantity of a good or service available for purchase, influenced by factors such as production costs, technological advancements and government policies. Conversely, demand reflects the desire and ability of consumers to purchase a particular product, influenced by factors such as income levels, tastes and preferences. The equilibrium between supply and demand establishes market prices, where neither shortages nor surpluses prevail. However, external factors such as changes in consumer behaviour, technological disruptions or geopolitical events can disrupt this delicate balance, leading to fluctuations in prices and market dynamics. Economists employ various models and theories to analyse these fluctuations and predict future trends, aiding businesses, policymakers and individuals in making informed decisions. Understanding the interplay between supply and demand is paramount for navigating the complex landscape of economics and achieving sustainable growth and prosperity.What does the principle of supply primarily refer to in economics?",
+      "options": [
+        "The regulations governments impose to maintain social stability",
+        "The quantity of goods or services made available for purchase",
+        "The willingness of consumers to spend their available resources",
+        "The strategies businesses adopt to advertise their new products"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (The quantity of goods or services made available for purchase) है।"
+    },
+    {
+      "id": 62,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the following passage and answer the questions given below-In 1947, when India gained independence, a young man named Verghese Kurien arrived in Anand, Gujarat, to manage a government creamery. Though trained as a mechanical engineer, Kurien was deeply moved by the struggles of local dairy farmers, who were exploited by middlemen. What began as a temporary posting soon turned into a lifelong mission. Kurien collaborated with Tribhuvandas Patel, a local leader, and together they transformed small village cooperatives into a thriving movement—later known as Operation Flood, or more popularly, the White Revolution.Through innovation and collective effort, the project modernized dairy production, ensuring that profits returned directly to the farmers. Under Kurien’s leadership, India evolved from a milk-deficient country to the world’s largest producer of milk. Beyond its economic success, the revolution symbolized self-reliance and empowerment in rural India. Kurien’s unwavering belief that development must come “from the people, for the people” reshaped the nation’s agricultural landscape and inspired generations to believe that sustainable change begins with local initiative and shared responsibility.Even today, Amul, the cooperative he helped build, stands as a testament to how visionary leadership and grassroots collaboration can transform an entire economy. Kurien’s story is not merely about milk; it is about dignity, innovation, and the power of collective determination.What does the author imply about Kurien’s vision?",
+      "options": [
+        "It represented national self-reliance.",
+        "It ignored social reform.",
+        "It was limited to dairy farming.",
+        "It relied heavily on foreign aid."
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (It represented national self-reliance.) है।"
+    },
+    {
+      "id": 63,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the passage carefully and answer the questions that follow.Jane Austen, one of the most renowned English novelists, was born on December 16, 1775, in Steventon, Hampshire. She was the seventh of eight children in her family. From a young age, Austen showed a keen interest in literature, encouraged by her father, who had a substantial library. Her works provide a vivid portrayal of the British landed gentry of the early 19th century.Austen's novels are known for their biting social commentary, keen observations on human behavior, and subtle irony. Her major works include 'Pride and Prejudice', 'Sense and Sensibility', 'Emma', and 'Mansfield Park'. These novels often focus on the lives of young women navigating issues of marriage, morality, and social status. Austen's sharp wit and keen understanding of social dynamics have made her works enduring classics.'Pride and Prejudice', perhaps her most famous novel, was published in 1813. It tells the story of Elizabeth Bennet, a strong-willed and intelligent young woman, and her evolving relationship with the wealthy and aloof Mr. Darcy. Through Elizabeth, Austen explores themes of love, pride, and prejudice, critiquing the societal expectations of her time.Austen's life was relatively quiet and uneventful. She never married, and her novels were published anonymously during her lifetime. It wasn't until after her death in 1817 that her authorship became widely known. Today, Austen's works are celebrated worldwide, adapted into numerous films, television series, and modern reinterpretations.The passage says that Jane Austen's novels were published anonymously. It means that her name was _______.",
+      "options": [
+        "hidden",
+        "shown",
+        "known",
+        "written"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (hidden) है।"
+    },
+    {
+      "id": 64,
+      "section": "English Language and Comprehension",
+      "question": "Identify the INCORRECTLY spelt word in the given sentence.Her prospicence became the reason for the vivisepulture done to her because such idiosyncrasies were considered unwomanly, and this incident developed a Laodicean attitude in her children.",
+      "options": [
+        "Vivisepulture",
+        "Prospicence",
+        "Laodicean",
+        "Idiosyncrasies"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Prospicence) है।"
+    },
+    {
+      "id": 65,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate option to substitute the underlined word and complete the idiom in the given sentence.You have taken the wind out of my nails.",
+      "options": [
+        "sails",
+        "mail",
+        "sale",
+        "wails"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (sails) है।"
+    },
+    {
+      "id": 66,
+      "section": "English Language and Comprehension",
+      "question": "Comprehension:Read the given passage and answer the questions that follow.Technology has revolutionised education, transforming traditional classrooms and creating new opportunities for learning. The integration of digital tools and resources has enhanced the educational experience for both, students and teachers. Interactive whiteboards, tablets and educational software have replaced chalkboards and textbooks, making lessons more engaging and interactive. Students can access a wealth of information online, enabling them to conduct research and explore subjects in greater depth.One of the most significant impacts of technology on education is the ability to personalise learning. Adaptive learning software can assess a student's strengths and weaknesses and provide customised lessons that cater to their individual needs. This personalised approach helps students learn at their own pace, ensuring they grasp fundamental concepts before moving on to more advanced topics. Additionally, online courses and educational platforms have made learning more accessible to people worldwide. Students can take classes from prestigious institutions, participate in webinars and earn certifications without leaving their homes.Technology has also facilitated collaboration among students and teachers. Online discussion forums, video conferencing and collaborative tools like Google Docs allow students to work together on projects and assignments, regardless of their physical location. This fosters a sense of community and enhances communication skills. For teachers, technology offers tools for creating engaging lesson plans, tracking student progress and providing timely feedback. Data analytics can help identify areas where students struggle, allowing for targeted interventions.However, the integration of technology in education also presents challenges. There is a digital divide between students who have access to technology and those who do not. Ensuring equitable access to devices and the internet is crucial for bridging this gap. Additionally, teachers need adequate training to effectively incorporate technology into their teaching practices.In conclusion, technology has significantly impacted education, offering numerous benefits but also presenting challenges that need to be addressed. By leveraging technology effectively, we can create a more inclusive and dynamic learning environment.What do you understand by inclusive and dynamic learning enviornment?",
+      "options": [
+        "Considering diversity and minimum participation",
+        "Considering diversity and maximum participation",
+        "Not considering diversity and minimum participation",
+        "Not considering diversity and maximum participation"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Considering diversity and maximum participation) है।"
+    },
+    {
+      "id": 67,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate phrase that can substitute the underlined proverb in the given sentence.The government which introduced a new policy to protect local businesses proved that the road to hell was paved with good intentions.",
+      "options": [
+        "acts, not good intentions, were needed for achievement",
+        "the ends justified the means",
+        "actions spoke louder than words",
+        "no good deed went unpunished"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (the ends justified the means) है।"
+    },
+    {
+      "id": 68,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate idiom to substitute the underlined segment in the given sentence.The collaboration between the two research teams was very productive, with both sides benefiting mutually.",
+      "options": [
+        "singing from the same hymn sheet",
+        "seeing eye to eye with each other",
+        "sharing the spotlight",
+        "scratching each other's back"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (scratching each other's back) है।"
+    },
+    {
+      "id": 69,
+      "section": "English Language and Comprehension",
+      "question": "Identify the INCORRECTLY spelt word in the given sentence.Despite their disapproval of her complicated methods, they still recognised her sincere abhorrance of institutional injustice.",
+      "options": [
+        "abhorrance",
+        "injustice",
+        "disapproval",
+        "institutional"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (abhorrance) है।"
+    },
+    {
+      "id": 70,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate ANTONYM of the highlighted word to complete the conversation meaningfully.Sarah: The recent argument between John and David has only exacerbated their misunderstanding.Mark: I hope their next conversation will help to ______ their differences.",
+      "options": [
+        "aggravate",
+        "intensify",
+        "magnify",
+        "alleviate"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (alleviate) है।"
+    },
+    {
+      "id": 71,
+      "section": "English Language and Comprehension",
+      "question": "Read the following paragraph and select the option that rectifies the spelling error(s). Alot of times, people, advertently or inadvertantly, cause self-harm. They have the notion that they are important  and that the world would fail to exist without them. This may lead to certain sychotic disorders effecting everyone in their surroundings. They need immediate attention.4",
+      "options": [
+        "A lot of times ; have the notion ; sycotic disorders ; imediate attention",
+        "alot of times ; have the notion ; psychotic disorders ; attention",
+        "A lot of times ; advertently or inadvertently ; psychotic disorders ; affecting everyone",
+        "A lot of times ; advertently or inadvertantly ; sychotic disorders ; effecting everyone"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (A lot of times ; advertently or inadvertently ; psychotic disorders ; affecting everyone) है।"
+    },
+    {
+      "id": 72,
+      "section": "English Language and Comprehension",
+      "question": "The following sentence has been divided into segments. The first segment is fixed; rearrange the rest of the segments to form a coherent sentence.Fixed segment: Swati finally foundA) after a long delayB) under a newspaper,C) a wallet containing important ID,D) partially hidden 7012",
+      "options": [
+        "CABD",
+        "ABDC",
+        "DBAC",
+        "CDBA"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (CDBA) है।"
+    },
+    {
+      "id": 73,
+      "section": "English Language and Comprehension",
+      "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph. A. The key to the system is the pancreatic hormone, insulin, through which the body attempts to manage blood sugar levels and ensure that cells receive the right amount of energy. B. Unfortunately, this lock and key system doesn’t always perform like this. C. Every cell in the body needs sugar as an energy source, but too much sugar can be toxic to cells, and this equilibrium needs to be regulated by a lock and key system. D. Cells cover themselves with locks that respond perfectly to insulin keys to facilitate the entry of sugar into cells.",
+      "options": [
+        "BCAD",
+        "CADB",
+        "BADC",
+        "CDAB"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (CADB) है।"
+    },
+    {
+      "id": 74,
+      "section": "English Language and Comprehension",
+      "question": "Select the option that can be used as a one-word substitute for the underlined segment in the given sentence.Jenny inherited her grandmother's great love of collecting books, particularly obscure poetry from the Victorian Era.",
+      "options": [
+        "Numismatics",
+        "Bibliophilia",
+        "Philately",
+        "Bibliophobia"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (Bibliophilia) है।"
+    },
+    {
+      "id": 75,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate option that means the same as the given proverb.The pen is mightier than the sword",
+      "options": [
+        "Carry a sword for protection during unrest",
+        "Words can create pain or give comfort",
+        "Ideas and writing have more influence than violence",
+        "Writing hurts the sentiments of people"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (Ideas and writing have more influence than violence) है।"
+    },
+    {
+      "id": 76,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate ANTONYM of the underlined word in the given sentence.Despite his fame, the actor remained humble and approachable to his fans.",
+      "options": [
+        "Arrogant",
+        "Polite",
+        "Gentle",
+        "Modest"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (Arrogant) है।"
+    },
+    {
+      "id": 77,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate meaning of the given idiom.  Throw down the gauntlet",
+      "options": [
+        "To accept",
+        "To speak",
+        "To challenge",
+        "To write"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (To challenge) है।"
+    },
+    {
+      "id": 78,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate option to fill in the blank.The students _______ to the professor carefully during the lecture.",
+      "options": [
+        "listen",
+        "listened",
+        "listens",
+        "listening"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (listened) है।"
+    },
+    {
+      "id": 79,
+      "section": "English Language and Comprehension",
+      "question": "Select the most appropriate ANTONYM of the underlined word in the given sentence.While she preferred an austere lifestyle, her brother enjoyed a more sumptuous living.",
+      "options": [
+        "Stringent",
+        "Plain",
+        "Frugal",
+        "Flexible"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Flexible) है।"
+    },
+    {
+      "id": 80,
+      "section": "English Language and Comprehension",
+      "question": "Select the option that can be used as a one-word substitute for the given group of words.Absence of rain for a long time",
+      "options": [
+        "Cyclone",
+        "Typhoon",
+        "Desert",
+        "Drought"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (Drought) है।"
+    },
+    {
+      "id": 81,
+      "section": "Hindi Language and Comprehension",
+      "question": "उपयुक्त 'विशेषण' का चयन कर रिक्त स्थान की पूर्ति कीजिए।'सुहेल  ..................... लड़का है।'",
+      "options": [
+        "लाल",
+        "सीधा",
+        "चौकोर",
+        "वर्तमान"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (सीधा) है।"
+    },
+    {
+      "id": 82,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:गद्यांश के आधार पर प्रश्न का उत्तर दें।साहित्य की ही नहीं तुलसी का यह रामचरितमानस तो हमारी संस्कृति की अमूल्य धरोहर है। हमारे सामाजिक, धार्मिक, राजनैतिक जीवन की मूल्यवान संपदा है। रामचरितमानस की रचना उस भक्ति युग में हुई थी,जबकि भारतीय समाज का जीवन नैतिक, धार्मिक, सांस्कृतिक और आर्थिक सभी दृष्टियों से बड़ा दयनीय था। समाज के सामने कोई उच्चादर्श न था । लोग धर्म के नये स्वरूप को भूल रहे थे। ढोंगी और पाखंडी लोगों का प्रभुत्व था तलवार की नोंक से जड़ जमाने वाले मुस्लिम संप्रदाय से हिंदू जनता त्रस्त और भयभीत थी। ऐसे समय में तुलसी ने रामचंद्र जी के देदीप्यमान चरित्र को जन-जन के समक्ष रखकर लोकधर्म का महामंत्र दिया। संस्कृत के प्राकंड विद्वान होते हुए भी जनभाषा में उन्होंने काव्य की रचना की। पंडित लोग जिस ज्ञान को जनसुलभ नहीं बनाना चाहते थे। तुलसी ने रामचरितमानस द्वारा उसका द्वार सबके लिए खोल दिया। उन्होंने व्यक्ति, परिवार, समाज, राष्ट्र, पति-पत्नी, स्वामी सेवक सभी के अधिकार और कर्त्तव्य, मर्यादाओं एवं जीवन के आदर्शों का प्रतिपादन किया। राम, सीता, लक्ष्मण, भरत, हनुमान जैसे महान् चरित्रों की अवतारणा कर उन्होंने आदर्श जन समाज के संगठन का स्वरूप निर्धारित कियातुलसी ने किस भाषा में काव्य की रचना की -",
+      "options": [
+        "डिंगल – पिंगल",
+        "पालि भाषा",
+        "जन भाषा",
+        "हिन्दी भाषा"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (जन भाषा) है।"
+    },
+    {
+      "id": 83,
+      "section": "Hindi Language and Comprehension",
+      "question": "'सदाचार' का विलोम होता है-",
+      "options": [
+        "विचार",
+        "कदाचार",
+        "संचार",
+        "आचार"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (कदाचार) है।"
+    },
+    {
+      "id": 84,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:दिए गये गाद्यंश को पढ़ें और नीचे दिए गये प्रश्नो का उत्तर देंमहात्मा ग़ाँधीजी का जन्म 2 अक्तूबर 1869 को  गुजरात के पोरबंदर में हुआ था। उनका पूरा नाम मोहनदास करमचंद ग़ाँधी था। उनके पिता का नाम करमचंद ग़ाँधी तथा  माता का नाम पुतलीबाई था। ग़ाँधीजी अपनी वकालत की पढ़ाई के लिए विदेश गये थे। वकालत की पढ़ाई पूरा करने के बाद ग़ाँधीजी ने  दक्षिण अफ्रीका में रह रहे भारतीय समुदाय के लोगों के मानवीय हक़ और अधिकार के लिए संघर्ष किया तथा उनका अधिकार दिलवाया। वहाँ से भारत लौटकर ग़ाँधीजी  अंग्रेजों से भारत को आजाद कराने की लड़ाई में उतर गये। ग़ाँधीजी सत्य  और अहिंसा के पुजारी थे। अंग्रेज उनके सत्य और अहिंसा के हथियार से डरते थे, इसलिए वे ग़ाँधीजी  को बार- बार जेल डाल देते थे। ग़ाँधीजी ने ‘सत्य के प्रयोग’ नाम से अपनी आत्मकथा लिखी है। रवीन्द्रनाथ टैगोर ने  ग़ाँधीजी को  ‘महात्मा’ की उपाधि प्रदान की। भारत को स्वतंत्र कराने में ग़ाँधीजी ने अपना सम्पूर्ण जीवन न्योछावर कर दिया। महात्मा ग़ाँधी को भारत का  राष्ट्रपिता कहा  जाता है। भारत में हर वर्ष  2 अक्तूबर को ग़ाँधी जयंती मनायी जाती है। तथा पूरे विश्व में 2 अक्तूबर को अंतरराष्ट्रीय अहिंसा दिवस मनाया जाता है। महात्मा ग़ाँधीजी की मृत्यु 30 जनवरी 1948 को गोली लगने से हुई थी।Q100. महात्मा गाँधी को कहा जाता है ?",
+      "options": [
+        "लौह पुरुष",
+        "सरदार",
+        "राष्ट्रपिता",
+        "नेता जी"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (राष्ट्रपिता) है।"
+    },
+    {
+      "id": 85,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्न वाक्य के रिक्त स्थान में उचित कारक चिह्न का प्रयोग कर वाक्य पूर्ण करें - 'वह घोड़े                   सवार था ।'",
+      "options": [
+        "से",
+        "पर",
+        "में",
+        "ने"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (पर) है।"
+    },
+    {
+      "id": 86,
+      "section": "Hindi Language and Comprehension",
+      "question": "पहाड़ों पर जाना स्वास्थ्यता लाभ के लिए सर्वोत्तम है  उपरोक्त वाक्य में रेखांकित शब्द की सही वर्तनी दिए गए विकल्पों में से चुनें -",
+      "options": [
+        "स्वास्थ्य",
+        "स्वस्थ",
+        "स्वस्थता",
+        "स्वास्थता"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (स्वास्थ्य) है।"
+    },
+    {
+      "id": 87,
+      "section": "Hindi Language and Comprehension",
+      "question": "कारक के आधार पर वाक्य पूर्ण कीजिए।देरी —---- उठने वाले लोग सूर्योदय की सुंदरता और प्रकृति की ताजगी से भी वंचित रहते हैं।",
+      "options": [
+        "कि",
+        "के",
+        "से",
+        "की"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (से) है।"
+    },
+    {
+      "id": 88,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्न मुहावरे के अर्थ को बताएं - 'तिल धरने की जगह न होना'",
+      "options": [
+        "बड़ी भीड़ होना",
+        "स्वभाव मिलना",
+        "काम में न लाना",
+        "छोटी बात को बढ़ा चढ़ा कर कहना"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (बड़ी भीड़ होना) है।"
+    },
+    {
+      "id": 89,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्नांकित मुहावरे के सही अर्थ वाले विकल्प का चयन कीजिए—'डंका बजना'",
+      "options": [
+        "ढोल बजना",
+        "शोहरत होना",
+        "स्तुति होना",
+        "निंदा होना"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (शोहरत होना) है।"
+    },
+    {
+      "id": 90,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्न विकल्पों में से शुद्ध वाक्य का चयन करें::--",
+      "options": [
+        "मुनिगण वेद पाठ कर रहे थे ।",
+        "मुनिगन वेद पाठ कर रहे थे ।",
+        "मुनीगण वेद पाठ कर रहे थे ।",
+        "मनिगण वेद पाठ कर रहे थे ।"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "सही उत्तर विकल्प 'A' (मुनिगण वेद पाठ कर रहे थे ।) है।"
+    },
+    {
+      "id": 91,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:दिए गए गद्यांंश के आधार पर निम्नांकित प्रश्नों के उत्तर दीजिए-दलित वीरांगनाओं में ऊदा देवी नामक पासी महिला का नाम आता है। लखनऊ में ब्रिटिश सेना को बड़ी टक्कर ऊदा देवी ने दी थी। जब लखनऊ पर आक्रमण हुआ तो वे सिकंदरबाग में मर्दाना वेश धारणकर पीपल के एक पेड़ पर चढ़ गईं और पत्तों में छिपकर वहीं से गोलियों से निशाना लगाती रहीं। इस तरह उन्होंने दसियों सिपाहियों को ढेर कर दिया। एक सिपाही की नजर उस पेड़ से आती गोलियों की बौछार पर पड़ गई और उसने तुरंत ऊदा देवी को गोलियों से छलनी कर दिया। जब नीचे गिरी लाश को देखा गया तो पता चला कि वह कोई महिला थी। जंग में ऊदा देवी की वीरता को देख कर अंग्रेज अधिकारी उनके प्रति नतमस्तक हो गए। एक और बहादुर वीरांगना थीं, महावीरी देवी। वे मुजफ्फरनगर के मूंडभर गाँव की रहने वाली थीं। महावीरी देवी ने महिलाओं और बच्चों का एक संगठन बनाया था। जब मुजफ्फरनगर में ब्रिटिश हमला हुआ तो महावीरी देवी अपने संगठन की बाईस महिलाओं को लेकर युद्ध में सहभागिता हेतु निकल पड़ीं। युद्ध में सारी महिलाओं की मौत हो गई। मुजफ्फरनगर की ही आशा देवी गूजर को विद्रोह के जुर्म में फाँसी दे दी गई।152उपरोक्त गद्यांश में लेखक क्या प्रस्तुत करना चाहता है?155",
+      "options": [
+        "आज़ादी की लड़ाई गावों में भी लड़ी गयी है।",
+        "भारतीय स्वतन्त्रता संग्राम में महिलाओं की विशिष्ट भूमिका रही है।",
+        "इतिहास लेखन की शैली का वर्णन है।",
+        "अंग्रेजों की धूर्तता का वर्णन है।"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (भारतीय स्वतन्त्रता संग्राम में महिलाओं की विशिष्ट भूमिका रही है।) है।"
+    },
+    {
+      "id": 92,
+      "section": "Hindi Language and Comprehension",
+      "question": "वर्तनी की दृष्टि से दिए गए वाक्य के किस अंश में त्रुटि है, पहचानें-- भारत में गुरुओं के प्रति समाज का दृष्टिकोण हमेशा श्रृद्धय रहा है।1152",
+      "options": [
+        "दृष्टिकोण हमेशा",
+        "भारत में गुरुओं",
+        "के प्रति समाज का",
+        "श्रृद्धय रहा है।"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "सही उत्तर विकल्प 'D' (श्रृद्धय रहा है।) है।"
+    },
+    {
+      "id": 93,
+      "section": "Hindi Language and Comprehension",
+      "question": "' सिर धुनना '  मुहावरे का अर्थ है -",
+      "options": [
+        "लाभ उठाना",
+        "अत्यंत प्रसन्न होना",
+        "शोक करना",
+        "सिर फिर जाना"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (शोक करना) है।"
+    },
+    {
+      "id": 94,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:निम्नलिखित गद्यांश को पढ़कर दिये गए प्रश्नों के उत्तर सबसे उचित विकल्प से दीजिये  -जिनमें सहिष्णुता की भावना होती है, केवल ऐसे लोग अध्यापक होने योग्य होते हैं। जिनका बच्चों से प्यार भरा लगाव होता है, उनमें धैर्य स्वभावतः आ जाता है। अध्यापकों को जिस अंतर्निहित गंभीर समस्या से जूझना पड़ता है, वह यह है कि उन्हें जिनको देखना है वे शक्ति और प्रभुत्ता में उनकी बराबरी के नहीं होते। अध्यापक के लिए एकदम तुच्छ या बिना किसी कारण के या फिर वास्तविकता की बजाए किसी काल्पनिक कारण के चलते अपने छात्रों के सामने धैर्य खो देना, उनकी खिल्ली उड़ाना, उन्हें अपमानित या दंडित करना एकदम आसान और संभव है। जो एक निर्बल अधीन राष्ट्र पर शासन करते हैं, उनमें न चाहते हुए भी गलत काम करने की प्रवृत्ति पाई जाती है।उसी तरह ऐसे अध्यापक होते हैं जो बच्चों के ऊपर अपने प्रभुत्व का शिकार हो जाते हैं। जो शासन के अयोग्य होते हैं, उन्हें केवल कमजोर लोगों पर अन्याय करते हुए कोई अपराध बोध नहीं होता, बल्कि ऐसा करने में उन्हें एक खास तरह का मजा मिलता है। बच्चे अपनी माँ की गोद में कमजोर अहसाय और अज्ञानी होते हैंमाता के हृदय में स्थित प्रचुर प्यार ही उनकी रक्षा की एकमात्र गारंटी होता है इसके बावजूद हमारे घरों में इस बात के उदाहरण कम नहीं कि कैसे हमारे स्वाभाविक प्यार पर धीरज का अभाव और उद्धत प्राधिकार विजय प्राप्त कर लेते हैं और बच्चों को अनुचित कारणों से दंडित होना पड़ता है।निम्नलिखित शब्दों में से 'प्रभुत्व' शब्द का सही पर्यायवाची शब्द कौन-सा है?",
+      "options": [
+        "सहयोग",
+        "अधिकार",
+        "समर्पण",
+        "दया"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (अधिकार) है।"
+    },
+    {
+      "id": 95,
+      "section": "Hindi Language and Comprehension",
+      "question": "पूजा के लोचन सुन्दर हैं ।वाक्य का रेखांकित शब्द किसका पर्याय है ?60",
+      "options": [
+        "हाथ",
+        "नेत्र",
+        "पैर",
+        "कान"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (नेत्र) है।"
+    },
+    {
+      "id": 96,
+      "section": "Hindi Language and Comprehension",
+      "question": "वाक्य क्रम में लिखिए-में मौजूद सभी लोगों(अ/की ओर देखा(ब/ने परेशानी से दस्तकों(स/अदालत(द।",
+      "options": [
+        "ब स अ द",
+        "स ब अ द",
+        "द अ स ब",
+        "अ ब  स द"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (द अ स ब) है।"
+    },
+    {
+      "id": 97,
+      "section": "Hindi Language and Comprehension",
+      "question": "उपयुक्त लोकोक्ति चुनकर, वाक्य में रिक्त स्थान की पूर्ति कीजिए-‘इस शुभ कार्य को तुम शीघ्र कर डालो;इसे स्थगित मत करते चलो अन्यथा इसे पूरा न कर पाओगे और सारा जीवन व्यतीत हो जाएगा| किसी ने सच कहा है|’-____________|’862",
+      "options": [
+        "सुख कहना जन से,दुःख कहना मन से|",
+        "सुबह होती है शाम होती है,उम्र यों ही तमाम होती है|",
+        "सुहाते की लात,न सुहाते की बात|",
+        "सुनिए सबकी,कीजिए मन की |"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (सुबह होती है शाम होती है,उम्र यों ही तमाम होती है|) है।"
+    },
+    {
+      "id": 98,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्नलिखित वाक्य के  रिक्त स्थान में उचित क्रिया-विशेषण की पूर्ति कीजिए- ‘साँप  ____________  चलता है ।’",
+      "options": [
+        "दरअसल",
+        "रेंगकर",
+        "भर",
+        "बुरी तरह"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "सही उत्तर विकल्प 'B' (रेंगकर) है।"
+    },
+    {
+      "id": 99,
+      "section": "Hindi Language and Comprehension",
+      "question": "Comprehension:गद्यांश के आधार पर प्रश्नों के उत्तर दो-आधुनिक साहित्य में स्त्री विमर्श सर्वाधिक चर्चित विषय रहा है। सीमोन द बोउवार की ‘द सेकण्ड सेक्स’ का हिन्दी अनुवाद कर प्रभा खेतान ने स्त्री विमर्श की नींव तैयार की और इससे पहले सीमन्तनी उपदेश ने इसका आधार बनाया और इन्हीं से प्रेरित होकर आधुनिक लेखिकाएँ स्त्री के प्रति समाज की मानसिकता व रूढ़ियों पर आधारित पारिवारिक बंधनों से मुक्ति की आकांक्षा में प्रयत्नशील नज़र आती हैं। हिंदी साहित्य में भी स्त्री विमर्श कई धाराओं में विकसित हुआ और उसका मूल कारण लेखिकाओं का अपना अनुभव जगत और अपनी अलग-अलग सामाजिक स्थिति है। जिस ‘मर्दवाद’ के ख़िलाफ़ स्त्री विमर्श खड़ा हुआ है उसकी प्रतिक्रिया में ‘स्त्रीवाद’ का वह रूप भी आता है जहाँ वह मर्दवादी अवधारणा पर ही खड़ा दिखाई देता है लेकिन ऐसी प्रतिक्रिया पश्चिम के स्त्री विमर्श का भी हिस्सा रही है।मध्यवर्गीय स्त्री का पूरा संघर्ष दैहिक स्वतंत्रता से लेकर आर्थिक स्वतंत्रता तक सिमटा हुआ है। पुरुष के लिए नारीत्व अनुमान है और नारी के लिए अनुभव, अतः अपने जीवन का जैसा सजीव चित्र वह हमें दे सकेंगी, वैसा पुरुष बहुत साधना के उपरान्त भी शायद ही दे सके। फिर भी नारी विमर्श पुरुष संवेदनाओं पर आधारित है।मेरे अनुसार स्त्री स्वतंत्रता की बात सही परिप्रेक्ष्य में की जानी चाहिए। निरपेक्ष स्वतंत्रता जैसी कोई चीज़ नहीं हो सकती। स्वतंत्रता का मूल अभिप्राय है ‘निर्णय की स्वतंत्रता’ और स्त्री स्वतंत्रता का रूप क्या होगा, यह स्वयं स्त्रियों को ही तय करना है, यह निर्णय कुछ ‘विशिष्ट’ महिलाओं द्वारा नहीं लिया जा सकता। हिंदी साहित्य में भी कुछ स्त्री लेखकों को स्त्री-विमर्श का नेतृत्व करने वाला समझना ऐसी ही भूल है। 'द सेकंड सेक्स ' पुस्तक की लेखिका कौन है ?",
+      "options": [
+        "प्रभा खेतान",
+        "मध्यवर्गीय स्त्री",
+        "सीमोन द बोउवार",
+        "सीमन्तनी उपदेश"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (सीमोन द बोउवार) है।"
+    },
+    {
+      "id": 100,
+      "section": "Hindi Language and Comprehension",
+      "question": "निम्न वाक्य के रिक्त स्थान में सही स्थान वाचक  क्रिया विशेषण विकल्प का चयन करें -'तुम             मत जाया करो '",
+      "options": [
+        "कल",
+        "हमेशा",
+        "वहाँ",
+        "प्रतिदिन"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "सही उत्तर विकल्प 'C' (वहाँ) है।"
+    },
+    {
+      "id": 101,
+      "section": "Computer Networks",
+      "question": "The data structure required for Breadth First Traversal on a graph is?",
+      "options": [
+        "A) Array",
+        "B) Stack",
+        "C) Tree",
+        "D) Queue"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "In Breadth First Search Traversal, BFS, starting vertex is first taken and adjacent vertices which are unvisited are also taken. Again, the first vertex which was added as an unvisited adjacent vertex list will be considered to add further unvisited vertices of the graph. To get the first unvisited vertex we need to follows First In First Out principle. Queue uses FIFO principle."
+    },
+    {
+      "id": 102,
+      "section": "Computer Networks",
+      "question": "All instructions in ARM are conditionally executed.",
+      "options": [
+        "A) True",
+        "B) False"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "None."
+    },
+    {
+      "id": 103,
+      "section": "Computer Networks",
+      "question": "CHAP stands for?",
+      "options": [
+        "A) Challenge Handshake authentication protocol",
+        "B) Challenge Hardware authentication protocol",
+        "C) Circuit Hardware authentication protocol",
+        "D) Circuit Handshake authentication protocol"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "CHAP stands for Challenge Handshake authentication protocol. Features of CHAP: plaintext, memorized token. Protocol uses Telnet, HTTP."
+    },
+    {
+      "id": 104,
+      "section": "Operating System",
+      "question": "The portion of the process scheduler in an operating system that dispatches processes is concerned with ____________",
+      "options": [
+        "A) assigning ready processes to waiting queue",
+        "B) assigning running processes to blocked queue",
+        "C) assigning ready processes to CPU",
+        "D) all of the mentioned"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 105,
+      "section": "Operating System",
+      "question": "Cascading termination refers to the termination of all child processes if the parent process terminates ______",
+      "options": [
+        "A) Normally or abnormally",
+        "B) Abnormally",
+        "C) Normally",
+        "D) None of the mentioned"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 106,
+      "section": "Computer Networks",
+      "question": "A top-to-bottom relationship among the items in a database is established by a",
+      "options": [
+        "A) Hierarchical schema",
+        "B) Network schema",
+        "C) Relational schema",
+        "D) All of the mentioned"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "A hierarchical database model is a data model in which the data is organized into a tree-like structure. The structure allows representing information using parent/child relationships."
+    },
+    {
+      "id": 107,
+      "section": "Computer Networks",
+      "question": "What does the jQuery $.ajax() function do?",
+      "options": [
+        "A) Makes an asynchronous HTTP request",
+        "B) Makes a synchronous HTTP request",
+        "C) Makes a request to the database",
+        "D) Makes a request to the server and returns the result synchronously"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The $.ajax() function in jQuery is used to perform asynchronous HTTP requests (AJAX). It allows you to fetch data from a server without refreshing the page. The response is handled using callback functions."
+    },
+    {
+      "id": 108,
+      "section": "Computer Networks",
+      "question": "Convert binary number into gray code: 100101.",
+      "options": [
+        "A) 101101",
+        "B) 001110",
+        "C) 110111",
+        "D) 111001"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": ": Conversion from Binary To Gray Code:\n\t\t\t\n1 (XOR) 0 (XOR)  0 (XOR)  1 (XOR)  0 (XOR)  1 \n\t\t\t\n        ↓        ↓        ↓        ↓        ↓      \n\n1       1        0        1        1        1"
+    },
+    {
+      "id": 109,
+      "section": "Computer Networks",
+      "question": "The importance of software design can be summarized in a single word which is:",
+      "options": [
+        "A) Efficiency",
+        "B) Accuracy",
+        "C) Quality",
+        "D) Complexity"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "Software functional quality reflects how well it complies with or conforms to a given design, based on functional requirements or specifications."
+    },
+    {
+      "id": 110,
+      "section": "Computer Networks",
+      "question": "Which of the following document contains the user system requirements?",
+      "options": [
+        "A) SRD",
+        "B) DDD",
+        "C) SDD",
+        "D) SRS"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "A software requirements specification (SRS) is a detailed explanation of how a system should behave before it is built. It may also include a collection of use cases that explain how users will interact with the programme."
+    },
+    {
+      "id": 111,
+      "section": "Computer Networks",
+      "question": "Which of the following is true?",
+      "options": [
+        "A) Shell is a process and can be started by superuser only",
+        "B) Shell is a built-in Kernel functionality",
+        "C) Shell is a wrapper for all the commands and utilities",
+        "D) None of the mentioned"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "None."
+    },
+    {
+      "id": 112,
+      "section": "Computer Networks",
+      "question": "All the member functions of local classes are __________ by default.",
+      "options": [
+        "A) Static",
+        "B) Inline",
+        "C) Abstract",
+        "D) Virtual"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "All the members are defined inside the class body. And when the member functions are defined inside the class body, they are made inline by default. If the definition is too complex, those are made normal functions."
+    },
+    {
+      "id": 113,
+      "section": "Computer Networks",
+      "question": "A major goal of the db system is to minimize the number of block transfers between the disk and memory. Which of the following helps in achieving this goal?",
+      "options": [
+        "A) Secondary storage",
+        "B) Storage",
+        "C) Catalog",
+        "D) Buffer"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Every block has a copy on disc, however, the copy on the disc may be an earlier version of the block than the version in the buffer."
+    },
+    {
+      "id": 114,
+      "section": "Computer Networks",
+      "question": "Calculate the theoretical channel capacity. If SNR(dB) = 36 and the channel bandwidth is 2 MHz.",
+      "options": [
+        "A) 12 Mbps",
+        "B) 24 Mbps",
+        "C) 16 Mbps",
+        "D) 32 Mbps"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "None."
+    },
+    {
+      "id": 115,
+      "section": "Computer Networks",
+      "question": "_______ is responsible for tunneling multicast packets to the MS’s currently subscribed FA.",
+      "options": [
+        "A) Multicast home agent",
+        "B) Mobile multicast",
+        "C) Mobile station",
+        "D) Base station"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Multicast home agent (MHA) is responsible for tunneling multicast packets to the MS’s currently subscribed FA. MHA serves MSs that are roaming around the foreign networks and are within its service range."
+    },
+    {
+      "id": 116,
+      "section": "Computer Networks",
+      "question": "The software which governs the group of computers is __________",
+      "options": [
+        "A) Driver Rd45",
+        "B) Interface UI",
+        "C) Clustering middleware",
+        "D) Distributor"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "The software helps to project a single system image to the user."
+    },
+    {
+      "id": 117,
+      "section": "Operating System",
+      "question": "How does caste influence elections in India?",
+      "options": [
+        "A) Political parties do not consider caste while campaigning",
+        "B) Caste does not play any role in elections",
+        "C) Only upper castes participate in elections",
+        "D) Candidates are chosen based on caste demographics"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 118,
+      "section": "Computer Networks",
+      "question": "Which among the following can be a concept against encapsulation rules?",
+      "options": [
+        "A) Using function pointers",
+        "B) Using char* string pointer to be passed to non-member function",
+        "C) Using object array",
+        "D) Using any kind of pointer/array address in passing to another function"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "If we use any kind of array or pointer as data member which should not be changed, but in some case its address is passed to some other function or similar variable. There are chances to modify its whole data easily. Hence Against encapsulation."
+    },
+    {
+      "id": 119,
+      "section": "Computer Networks",
+      "question": "Speech waveforms are _______",
+      "options": [
+        "A) Bandlimited",
+        "B) Bandpass",
+        "C) High pass",
+        "D) Infinite bandwidth"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The most basic property of speech waveforms that are exploited by all speech coders is that they are bandlimited. A finite bandwidth means that it can be time-discretized at a finite rate and reconstructed complexity from its samples."
+    },
+    {
+      "id": 120,
+      "section": "Computer Networks",
+      "question": "How many inputs will a decimal-to-BCD encoder have?",
+      "options": [
+        "A) 4",
+        "B) 8",
+        "C) 10",
+        "D) 16"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "An encoder is a combinational circuit encoding the information of 2n input lines to n output lines, thus producing the binary equivalent of the input. Thus, a Decimal-to-bcd converter has decimal values as inputs which range from 0-9. So, a total of 10 inputs are there in a  decimal-to-BCD encoder."
+    },
+    {
+      "id": 121,
+      "section": "Computer Networks",
+      "question": "The signal used to initiate device select ________",
+      "options": [
+        "A) IRDY#",
+        "B) S/BE",
+        "C) DEVSEL#",
+        "D) IDSEL#"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "This signal is used to initialization of device select."
+    },
+    {
+      "id": 122,
+      "section": "Computer Networks",
+      "question": "If an Indirect approach is taken, then the sizing approach is represented as",
+      "options": [
+        "A) LOC",
+        "B) FP",
+        "C) Fuzzy Logic",
+        "D) LOC and FP"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "A function point (FP) is a unit of measurement to express the amount of business functionality an information system provides to a user."
+    },
+    {
+      "id": 123,
+      "section": "Computer Networks",
+      "question": "The -Wextra option of gcc",
+      "options": [
+        "A) is same as -w option",
+        "B) does not exist",
+        "C) enables extra warning messages",
+        "D) none of the mentioned"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "None."
+    },
+    {
+      "id": 124,
+      "section": "Computer Networks",
+      "question": "What are agile manifesto principles?",
+      "options": [
+        "A) Customer satisfaction",
+        "B) Face-to-face communication within a development team",
+        "C) Changes in requirements are welcome",
+        "D) All of the mentioned"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "Principles of the agile manifesto are:\ni) Customer satisfaction is a priority.\nii) Changes in requirements are welcome, if they occur late in the development process.\niii) Deliver working software on a regular basis.\niv) Business people and developers must connect on a daily basis through the project.\nv) Support people who are interested and passionate about developing.\nvi) Face-to-face communication within a development team.\nvii) Working software indicates progress.\nviii) Sustainable development is aided by agile processes.\nix) A constant focus on technical excellence and smart design improve agility.\nx) Simplicity, or the art of minimizing the amount of effort that isn’t done, is critical.\nxi) Self-organizing teams\nxii) The team reflects on how to become more effective at regular intervals, then selects its behavior accordingly."
+    },
+    {
+      "id": 125,
+      "section": "Computer Networks",
+      "question": "Which of the following is a single valued attribute",
+      "options": [
+        "A) Register_number",
+        "B) Address",
+        "C) SUBJECT_TAKEN",
+        "D) Reference"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "None."
+    },
+    {
+      "id": 126,
+      "section": "Computer Networks",
+      "question": "Interference on voice channels causes _______",
+      "options": [
+        "A) Blocked calls",
+        "B) Cross talk",
+        "C) Queuing",
+        "D) Missed calls"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Interference on voice channels causes crass talk. Here, the subscriber hears interference in the background due to an undesired transmission."
+    },
+    {
+      "id": 127,
+      "section": "Operating System",
+      "question": "Swapping _______ be done when a process has pending I/O, or has to execute I/O operations only into operating system buffers.",
+      "options": [
+        "A) must never",
+        "B) maybe",
+        "C) can",
+        "D) must"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 128,
+      "section": "Computer Networks",
+      "question": "QFD stands for",
+      "options": [
+        "A) quality function design",
+        "B) quality function development",
+        "C) quality function deployment",
+        "D) none of the mentioned"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "None."
+    },
+    {
+      "id": 129,
+      "section": "Computer Networks",
+      "question": "The situation wherein the data of operands are not available is called ______",
+      "options": [
+        "A) Data hazard",
+        "B) Stock",
+        "C) Deadlock",
+        "D) Structural hazard"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Data hazards are generally caused when the data is not ready on the destination side."
+    },
+    {
+      "id": 130,
+      "section": "Computer Networks",
+      "question": "What must be the input given to “R” when SR flip – flop is converted to JK flip – flop?",
+      "options": [
+        "A) K.Q",
+        "B) K.Q",
+        "C) J.Q",
+        "D) J.Q"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "In Digital Electronics, to convert SR flip – flop to JK flip – flop the “R” input in the SR flip – flop is given input “K” and “Q” through an AND gate. The truth table of SR flip – flop and JK flip – flop are combined to get the expression."
+    },
+    {
+      "id": 131,
+      "section": "Operating System",
+      "question": "What is outsourcing?",
+      "options": [
+        "A) Banning foreign investments",
+        "B) Stopping foreign trade",
+        "C) Increasing trade barriers",
+        "D) Hiring other companies to provide services"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 132,
+      "section": "Computer Networks",
+      "question": "Which of the following is an example of a digital Electronic?",
+      "options": [
+        "A) Computers",
+        "B) Information appliances",
+        "C) Digital cameras",
+        "D) All of the mentioned"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "Computers, information appliances, digital cameras, digital televisions, flash memory, key USB memory, mobile phones, hard discs, and computer memory devices are examples of digital electronics. After analog signals have been transformed to digital form, digital signal processing is applied to them."
+    },
+    {
+      "id": 133,
+      "section": "Computer Networks",
+      "question": "Which protocol is most frequently used in Star topology?",
+      "options": [
+        "A) Modem",
+        "B) Cable",
+        "C) DSL",
+        "D) Ethernet"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 134,
+      "section": "Computer Networks",
+      "question": "Which of the following is not a function of the database?",
+      "options": [
+        "A) Managing stored data",
+        "B) Manipulating data",
+        "C) Security for stored data",
+        "D) Analysing code"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "It allows authorized users to update, store, manipulate, or access data. Since data is stored in table format it is easy to access the data and perform the required functions. It also removes duplicate and redundant data."
+    },
+    {
+      "id": 135,
+      "section": "Computer Networks",
+      "question": "_____________ is the definition of objects in the database that leads directly to a standard approach for the creation of software documentation.",
+      "options": [
+        "A) Data/data integration",
+        "B) Information sharing",
+        "C) Document standardization",
+        "D) Data integrity"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "In a software project, documentation standards are critical since papers are the only concrete means to describe the program and the development process. Standardized papers should be easy to read and comprehend since they have a uniform look, structure, and quality."
+    },
+    {
+      "id": 136,
+      "section": "Computer Networks",
+      "question": "How many AND gates are required to realize Y = CD + EF + G?",
+      "options": [
+        "A) 4",
+        "B) 5",
+        "C) 3",
+        "D) 2"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "To realize Y = CD + EF + G, two AND gates are required and two OR gates are required."
+    },
+    {
+      "id": 137,
+      "section": "Computer Networks",
+      "question": "Which attribute specify a column name from the data source object?",
+      "options": [
+        "A) datafld",
+        "B) codebase",
+        "C) hspace",
+        "D) datasrc"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "datafld attribute is supported by Internet Explorer 4 and its higher versions. It specifies column name from the data source object that supplies bound data. This attribute may be used to specify various <param> elements passed to Java applet. Codebase gives absolute or relative URL of directory. In applet, hspace provides horizontal space on both of sides. HTML datasrc attribute used for data binding."
+    },
+    {
+      "id": 138,
+      "section": "Computer Networks",
+      "question": "A ___________________ monitor looks like a television and are normally used with non-portable computer systems.",
+      "options": [
+        "A) CRT",
+        "B) LCD",
+        "C) LED",
+        "D) Flat Panel Monitors"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "A CRT (or the Cathode Ray Tube) Monitor looks like a television ideally.  The flat panel monitors are thinner and lighter in comparison."
+    },
+    {
+      "id": 139,
+      "section": "Computer Networks",
+      "question": "Which one of the following contains information about the author?",
+      "options": [
+        "A) <footer>",
+        "B) <header>",
+        "C) <head>",
+        "D) <body>"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Footer for its nearest sectioning content or sectioning root element is represented by <footer> element. It typically contains information about author of the section, links to related documents or copyright data. An introductory content lies in <header>. <head> is container for all head elements. A document’s body is defined by <body> tag."
+    },
+    {
+      "id": 140,
+      "section": "Computer Networks",
+      "question": "The data structure required for Breadth First Traversal on a graph is?",
+      "options": [
+        "A) Array",
+        "B) Stack",
+        "C) Tree",
+        "D) Queue"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "In Breadth First Search Traversal, BFS, starting vertex is first taken and adjacent vertices which are unvisited are also taken. Again, the first vertex which was added as an unvisited adjacent vertex list will be considered to add further unvisited vertices of the graph. To get the first unvisited vertex we need to follows First In First Out principle. Queue uses FIFO principle."
+    },
+    {
+      "id": 141,
+      "section": "Computer Networks",
+      "question": "A __________ executes the loop task first, then tests a condition and repeats the task until the condition fails.",
+      "options": [
+        "A) repeat until",
+        "B) condition",
+        "C) do while tests",
+        "D) if then-else"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "None."
+    },
+    {
+      "id": 142,
+      "section": "Computer Networks",
+      "question": "Which is a unary operation:",
+      "options": [
+        "A) Selection operation",
+        "B) Primitive operation",
+        "C) Projection operation",
+        "D) Generalized selection"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "Generalization Selection takes only one argument for operation."
+    },
+    {
+      "id": 143,
+      "section": "Computer Networks",
+      "question": "Which item can a password be used to protect?",
+      "options": [
+        "A) Network",
+        "B) File",
+        "C) Folder",
+        "D) All of the above"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "Network, File and Folder can be protected by using a password."
+    },
+    {
+      "id": 144,
+      "section": "Computer Networks",
+      "question": "What will be the output from a D flip – flop if the clock is low and D  = 0?",
+      "options": [
+        "A) 0",
+        "B) 1",
+        "C) No change",
+        "D) Toggle between 0 and 1"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "When the clock is low, the input given to D will have no effect. This is because the set and reset pins of the NAND gates are kept high. When HIGH value is given to NAND gates the output result will be zero."
+    },
+    {
+      "id": 145,
+      "section": "Computer Networks",
+      "question": "What is the minimum distance required for single error detection according to Hamming’s analysis in Digital Electronics?",
+      "options": [
+        "A) 1",
+        "B) 2",
+        "C) 3",
+        "D) 4"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "According to Hamming’s analysis, a minimum distance of 2 is required for single error detection. This Hamming distance represents the number of bits that are changed from one code word to the other."
+    },
+    {
+      "id": 146,
+      "section": "Computer Networks",
+      "question": "Consider the matrices P, Q, R and S which are 20 x 15, 15 x 30, 30 x 5 and 5 x 40 matrices respectively. What is the minimum number of multiplications required to multiply the four matrices?",
+      "options": [
+        "A) 6050",
+        "B) 7500",
+        "C) 7750",
+        "D) 12000"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "The minimum number of multiplications required is 7750."
+    },
+    {
+      "id": 147,
+      "section": "Computer Networks",
+      "question": "Consider the following data. The pre order traversal of a binary tree is A, B, E, C, D. The in order traversal of the same binary tree is B, E, A, D, C. The level order sequence for the binary tree is _________",
+      "options": [
+        "A) A, C, D, B, E",
+        "B) A, B, C, D, E",
+        "C) A, B, C, E, D",
+        "D) D, B, E, A, C"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "The inorder sequence is B, E, A, D, C and Preorder sequence is A, B, E, C, D. The tree constructed with the inorder and preorder sequence is\n<img src=\"https://www.sanfoundry.com/wp-content/uploads/2017/08/data-structure-questions-answers-preorder-traversal-q10.png\" alt=\"The tree constructed with the inorder &#038; preorder sequence is A, B, C, E, D\" width=\"172\" height=\"201\" class=\"alignnone size-full wp-image-250171\" />\nThe levelorder traversal (BFS traversal) is A, B, C, E, D."
+    },
+    {
+      "id": 148,
+      "section": "Computer Networks",
+      "question": "Which of the following is accessing a sub directory?",
+      "options": [
+        "A) Music/index.html",
+        "B) ../index.html",
+        "C) /Entertainment/Music/index.html",
+        "D) index.html"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The user must include the name of the subdirectory, followed by a forward slash character, and the name of the page you want to link to. For each additional subdirectory, just add the name of the directory followed by a forward slash character. A sub directory should only start with a name and not a forward slash."
+    },
+    {
+      "id": 149,
+      "section": "Computer Networks",
+      "question": "Which of the following is not a standard for cordless telephony?",
+      "options": [
+        "A) CT-2",
+        "B) DECT",
+        "C) UMTS",
+        "D) PHS"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "CT-2 is a cordless telephone standard used in Europe and Asia. DECT and PHS (Personal Handyphone System) are cordless telephone standards used in Europe and Japan respectively. UMTS is a cellular system standard."
+    },
+    {
+      "id": 150,
+      "section": "Computer Networks",
+      "question": "The two-dimensional scaling equation in the matrix form is",
+      "options": [
+        "A) P’=P+T",
+        "B) P’=S*P",
+        "C) P’=P*R",
+        "D) P’=R+S"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The 2d scaling equation is P’=S*P."
+    },
+    {
+      "id": 151,
+      "section": "Computer Networks",
+      "question": "Which is the main relation which is used in the university database which is referenced by all other relation of the university?",
+      "options": [
+        "A) Teaches",
+        "B) Course",
+        "C) Department",
+        "D) Section"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Department is the only relation which forms the main part of the university database."
+    },
+    {
+      "id": 152,
+      "section": "Operating System",
+      "question": "If a process fails, most operating system write the error information to a ______",
+      "options": [
+        "A) new file",
+        "B) another running process",
+        "C) log file",
+        "D) none of the mentioned"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 153,
+      "section": "Computer Networks",
+      "question": "Which of the following invention gave birth to the much cheaper microcomputers?",
+      "options": [
+        "A) PDAs",
+        "B) Microprocessors",
+        "C) Microcomputers",
+        "D) Mainframes"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The invention of the microprocessor (also called a single-chip CPU) gave birth to much cheaper microcomputers."
+    },
+    {
+      "id": 154,
+      "section": "Computer Networks",
+      "question": "The input data bit is written into the cell by setting ____________",
+      "options": [
+        "A) The flip-flop for 1",
+        "B) Resetting the flip-flop",
+        "C) The flip-flop for HIGH",
+        "D) Both the flip-flop for 1 and resetting the flip-flop"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "The input data bit (1 or 0) is written into the cell by setting the flip-flop for 1 and the resetting the flip-flop for a 0 when the R/W’ line is low, R/W is active-low pin."
+    },
+    {
+      "id": 155,
+      "section": "Computer Networks",
+      "question": "When is it advised to have user defined destructor?",
+      "options": [
+        "A) When class contains some pointer to memory allocated in class",
+        "B) When a class contains static variables",
+        "C) When a class contains static functions",
+        "D) When a class is inheriting another class only"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "This is always advised to have user defined destructor when pointers are involved in class. This is usually done to ensure that the memory, that was allocated dynamically, gets free after use and doesn’t cause memory leak."
+    },
+    {
+      "id": 156,
+      "section": "Computer Networks",
+      "question": "The elements of an array are stored successively in memory cells because",
+      "options": [
+        "A) By this way computer can keep track only the address of the first element and the addresses of other elements can be calculated",
+        "B) The architecture of computer memory does not allow arrays to store other than serially",
+        "C) All of the mentioned",
+        "D) None of the mentioned"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Memory is always allotted in order."
+    },
+    {
+      "id": 157,
+      "section": "Operating System",
+      "question": "What is the drawback of banker’s algorithm?",
+      "options": [
+        "A) in advance processes rarely know how much resource they will need",
+        "B) the number of processes changes as time progresses",
+        "C) resource once available can disappear",
+        "D) all of the mentioned"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 158,
+      "section": "Operating System",
+      "question": "With _____________ only one process can execute at a time; meanwhile all other process are waiting for the processor. With ______________ more than one process can be running simultaneously each on a different processor.",
+      "options": [
+        "A) Multiprocessing, Multiprogramming",
+        "B) Multiprogramming, Uniprocessing",
+        "C) Multiprogramming, Multiprocessing",
+        "D) Uniprogramming, Multiprocessing"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 159,
+      "section": "Computer Networks",
+      "question": "Simplify Y = AB’ + (A’ + B)C.",
+      "options": [
+        "A) AB’ + C",
+        "B) AB + AC",
+        "C) A’B + AC’",
+        "D) AB + A"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Y = AB’ + (A’ + B)C = AB’ + (AB’)’C = (AB’ + C)(  AB’ + AB’) = (AB’ + C).1 = (AB’ + C)."
+    },
+    {
+      "id": 160,
+      "section": "Computer Networks",
+      "question": "Which of the following representation represents a three-dimensional object?",
+      "options": [
+        "A) Function",
+        "B) Point",
+        "C) Polygon",
+        "D) Equation"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "An equation representation can be used to represent a three-dimensional entity. Three variables, x, y, and z, and four coefficients, A, B, C, and D, make up the equation for a three-dimensional object."
+    },
+    {
+      "id": 161,
+      "section": "Computer Networks",
+      "question": "How does Cleanroom software engineering differs from the conventional and object-oriented views ?",
+      "options": [
+        "A) It makes explicit use of statistical quality control",
+        "B) It verifies design specification using a mathematically based proof of correctness",
+        "C) It relies heavily on statistical use testing to uncover high-impact errors",
+        "D) All of the mentioned"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "None."
+    },
+    {
+      "id": 162,
+      "section": "Computer Networks",
+      "question": "The Cohen-Sutherland algorithm divides the region into how many spaces?",
+      "options": [
+        "A) 9",
+        "B) 8",
+        "C) 7",
+        "D) 6"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The Cohen-Sutherland algorithm divides a two-dimensional space into 9 areas before determining the visible lines and sections of lines. The sections of interest are seen in the central region."
+    },
+    {
+      "id": 163,
+      "section": "Computer Networks",
+      "question": "Which of the following is a type of technique in which dumb terminals are connected to a central computer system?",
+      "options": [
+        "A) Time Sharing",
+        "B) Message passing",
+        "C) Batch environment",
+        "D) User environment"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "This happens in time-sharing. In this, users were able to interact with the computer and could share its information processing resources."
+    },
+    {
+      "id": 164,
+      "section": "Computer Networks",
+      "question": "Monostable multivibrator is/has ________ state.",
+      "options": [
+        "A) Stable",
+        "B) Unstable",
+        "C) One stable and another unstable",
+        "D) Independent"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Monostable multivibrator, in which one of the states is stable, but the other state is unstable (transient). A trigger pulse causes the circuit to enter the unstable state. After entering the unstable state, the circuit will return to the stable state after a set time."
+    },
+    {
+      "id": 165,
+      "section": "Computer Networks",
+      "question": "In a down counter, which flip-flop doesn’t toggle when the inverted output of the preceeding flip-flop goes from HIGH to LOW.",
+      "options": [
+        "A) MSB flip-flop",
+        "B) LSB flip-flop",
+        "C) Master slave flip-flop",
+        "D) Latch"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Since the LSB flip-flop changes its state at each negative transition of clock. That is why LSB flip-flop doesn’t have toggle."
+    },
+    {
+      "id": 166,
+      "section": "Computer Networks",
+      "question": "Propagation delay is defined as __________",
+      "options": [
+        "A) the time taken for the output of a gate to change after the inputs have changed",
+        "B) the time taken for the input of a gate to change after the outputs have changed",
+        "C) the time taken for the input of a gate to change after the intermediates have changed",
+        "D) the time taken for the output of a gate to change after the intermediates have changed"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Propagation delay is defined as the time taken for the output of a gate to change after the inputs have changed."
+    },
+    {
+      "id": 167,
+      "section": "Computer Networks",
+      "question": "The element ___________ simply groups items within an enclosed dd tag, though it may associate them with a caption defined by a dt tag.",
+      "options": [
+        "A) object",
+        "B) figure",
+        "C) embed",
+        "D) collect"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "HTML documents are delivered as “documents”.These are then parsed, which turns them into the Document Object Model (DOM) internal representation, within the web browser. A self-contained information like images, diagrams are specified by figure tag in HTML. External applications are embed using embed tag."
+    },
+    {
+      "id": 168,
+      "section": "Computer Networks",
+      "question": "CSQA stands for",
+      "options": [
+        "A) Certified Software Quality Analyst",
+        "B) Certified Software Quality Approved",
+        "C) Certified Software Quality Acclaimed",
+        "D) None of the mentioned"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "None."
+    },
+    {
+      "id": 169,
+      "section": "Computer Networks",
+      "question": "Which of these options represent the other name of Inter – Integrated logic?",
+      "options": [
+        "A) Merged Transistor Logic",
+        "B) Emitter – Coupled Logic",
+        "C) High threshold logic",
+        "D) Resistor –  Transistor logic"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Inter – Integrated circuits can be represented by IIC or I2C is also called the Merged Transistor Logic. They use n – p – n or p – n – p transistors to form IC’s."
+    },
+    {
+      "id": 170,
+      "section": "Computer Networks",
+      "question": "Which object will represent a Marker icon?",
+      "options": [
+        "A) Marker",
+        "B) MarkerShape",
+        "C) MarkerImage",
+        "D) Marker"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "MarkerImage will represent a structure of a Marker icon or shadow image. The shape of the marker is defined by MarkerShape. Options for rendering the marker are shown by MarkerOptions. Marker object simply creates a Marker."
+    },
+    {
+      "id": 171,
+      "section": "Operating System",
+      "question": "Which group is most vulnerable to food insecurity in India?",
+      "options": [
+        "A) Landless agricultural laborers and small farmers",
+        "B) Government employees",
+        "C) Business owners",
+        "D) Industrial workers"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 172,
+      "section": "Operating System",
+      "question": "How can water resources be conserved?",
+      "options": [
+        "A) By increasing pollution levels",
+        "B) By cutting down trees",
+        "C) By wasting water in industries",
+        "D) By using rainwater harvesting"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 173,
+      "section": "Computer Networks",
+      "question": "The signal sent to a process when the Ctrl-C key is pressed is",
+      "options": [
+        "A) KILL",
+        "B) TSTP",
+        "C) TERM",
+        "D) INT"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "None."
+    },
+    {
+      "id": 174,
+      "section": "Computer Networks",
+      "question": "What kind of operation occurs in a J – K flip flop when both inputs J and K are equal to 1?",
+      "options": [
+        "A) Preset operation",
+        "B) Reset operation",
+        "C) Clear operation",
+        "D) Toggle operation"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "Toggle operation in Digital Circuits like J – K flip – flop occurs when J = 1 and K = 1. The output toggles between 0 and 1 continuously. This oscillation between 0 and 1 leads to a race – around condition which can be solved using a Master – slave flip flop."
+    },
+    {
+      "id": 175,
+      "section": "Computer Networks",
+      "question": "What must be the input given to “R” when SR flip – flop is converted to JK flip – flop?",
+      "options": [
+        "A) K.Q",
+        "B) K.Q",
+        "C) J.Q",
+        "D) J.Q"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "In Digital Electronics, to convert SR flip – flop to JK flip – flop the “R” input in the SR flip – flop is given input “K” and “Q” through an AND gate. The truth table of SR flip – flop and JK flip – flop are combined to get the expression."
+    },
+    {
+      "id": 176,
+      "section": "Computer Networks",
+      "question": "Borders can’t be applied on ________________",
+      "options": [
+        "A) <th>",
+        "B) <td>",
+        "C) <tr>",
+        "D) <thead>"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "Borders can’t be applied on <tr> elements. It can’t be applied on table structural elements. For setting borders with <tr> element, border-collapse property should be set to collapse.\n\n\nSyntax is \ntable {border-collapse: collapse;} \nth, td{border-bottom: 2px dotted red; } \ntfoot tr:last-child td{border-bottom: 9 px;}"
+    },
+    {
+      "id": 177,
+      "section": "Operating System",
+      "question": "What are the types of distributed operating systems?",
+      "options": [
+        "A) Zone based Operating system",
+        "B) Level based Operating system",
+        "C) Network Operating system",
+        "D) All of the mentioned"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 178,
+      "section": "Computer Networks",
+      "question": "Which JDBC driver Type(s) can be used in either applet or servlet code?",
+      "options": [
+        "A) Both Type 1 and Type 2",
+        "B) Both Type 1 and Type 3",
+        "C) Both Type 3 and Type 4",
+        "D) Type 4 only"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "In a Type 3 driver, a three-tier approach is used to accessing databases. The JDBC clients use standard network sockets to communicate with an middleware application server. In a Type 4 driver, a pure Java-based driver that communicates directly with vendor’s database through socket connection."
+    },
+    {
+      "id": 179,
+      "section": "Computer Networks",
+      "question": "PTI is the address of ____________",
+      "options": [
+        "A) TIU",
+        "B) WIU",
+        "C) BIU",
+        "D) CIU"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "PTI (Permanent terminal identifier) is the address of TIU. It is the address from where he call is originated."
+    },
+    {
+      "id": 180,
+      "section": "Computer Networks",
+      "question": "Kadane’s algorithm uses which of the following techniques?",
+      "options": [
+        "A) Divide and conquer",
+        "B) Dynamic programming",
+        "C) Recursion",
+        "D) Greedy algorithm"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Kadane’s algorithm uses dynamic programming."
+    },
+    {
+      "id": 181,
+      "section": "Computer Networks",
+      "question": "The modulation index of an FSK signal is similar to modulation index of ________",
+      "options": [
+        "A) Amplitude modulation",
+        "B) Phase modulation",
+        "C) QPSK",
+        "D) Frequency modulation"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "The modulation index of an FSK signal is similar to FM modulation index. It is defined by (2∆F)/Rb. Here ∆F is the peak RF frequency and Rb is the bit rate."
+    },
+    {
+      "id": 182,
+      "section": "Computer Networks",
+      "question": "Alternating billing service uses CCS network.",
+      "options": [
+        "A) True",
+        "B) False"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Alternate billing service and line information database use the CCS network to enable the calling party to bill a call to a personal number (third party number, calling card, or collect etc.) from any number."
+    },
+    {
+      "id": 183,
+      "section": "Computer Networks",
+      "question": "The property of a transaction that persists all the crashes is",
+      "options": [
+        "A) Atomicity",
+        "B) Durability",
+        "C) Isolation",
+        "D) All of the mentioned"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "After a transaction completes successfully, the changes it has made to the database persist, even if there are system failures."
+    },
+    {
+      "id": 184,
+      "section": "Computer Networks",
+      "question": "Comparators are used in ____________",
+      "options": [
+        "A) Memory",
+        "B) CPU",
+        "C) Motherboard",
+        "D) Hard drive"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Comparators are used in the central processing unit (CPUs). Because all the arithmetic and logical operations are performed in the ALU(Arithmetic Logic Unit) part of the CPU."
+    },
+    {
+      "id": 185,
+      "section": "Computer Networks",
+      "question": "The envelope of a sinusoid plus bandpass noise has __________",
+      "options": [
+        "A) Uniformly distributed",
+        "B) Rayleigh",
+        "C) Ricean",
+        "D) Gaussian"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "The envelope of a sinusoid plus bandpass noise has Ricean distribution. In probability theory, Ricean distribution is the probability distribution which has magnitude of a circular bivariate normal random variable with potentially non-zero mean."
+    },
+    {
+      "id": 186,
+      "section": "Computer Networks",
+      "question": "Which data structure is used for implementing recursion?",
+      "options": [
+        "A) Stack",
+        "B) Queue",
+        "C) List",
+        "D) Array"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Stacks are used for the implementation of Recursion."
+    },
+    {
+      "id": 187,
+      "section": "Computer Networks",
+      "question": "For testing prefixed CSS properties we use _____________",
+      "options": [
+        "A) Modernizr.prefixed",
+        "B) Modernizr.prefixedCSS",
+        "C) Modernizr._prefixes",
+        "D) Modernizr.prefixedCSS value"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "For checkin prefixed CSS properties we use Modernizr.prefixedCSS value. Syntax is\n\n\nModernizr.prefixedCSSVAlue (prop,value).\n\n\n Modernizr.prefixed takes string css value in camelCase.  Modernizr.prefixed takes string css value in camelCase. Modernizr.prefixedCSS returns hyphenated value. Modernizr._prefixes is internal list of prefixes."
+    },
+    {
+      "id": 188,
+      "section": "Computer Networks",
+      "question": "Coupling is a qualitative indication of the degree to which a module",
+      "options": [
+        "A) can be written more compactly",
+        "B) focuses on just one thing",
+        "C) is able to complete its function in a timely manner",
+        "D) is connected to other modules and the outside world"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "Coupling between modules/components is their degree of mutual interdependence."
+    },
+    {
+      "id": 189,
+      "section": "Computer Networks",
+      "question": "The addressing mode where the EA of the operand is the contents of Rn is ______",
+      "options": [
+        "A) Pre-indexed mode",
+        "B) Pre-indexed with write back mode",
+        "C) Post-indexed mode",
+        "D) None of the mentioned"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "None."
+    },
+    {
+      "id": 190,
+      "section": "Computer Networks",
+      "question": "The transmission medium that carries the message is called...",
+      "options": [
+        "A) Communication channel",
+        "B) Protocol",
+        "C) Network interface",
+        "D) Gateway"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 191,
+      "section": "Teaching Methodology",
+      "question": "[Test 25 - Q7] Which of the following principles best characterizes Jean Piaget's theory of cognitive development regarding the process of Schema Adaptation?",
+      "options": [
+        "Assimilation and Accommodation",
+        "Classical and Operant Conditioning",
+        "Zone of Proximal Development",
+        "Scaffolding and Fading"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Piaget defined adaptation as the balance achieved through assimilation (incorporating new info into existing schemas) and accommodation (modifying existing schemas to fit new info). (Question source: DSSSB Teaching Methodology Paper Series 25)."
+    },
+    {
+      "id": 192,
+      "section": "Teaching Methodology",
+      "question": "[Test 5 - Q17] Which educational theorist is credited with establishing 'Field Theory' in learning and pioneered Action Research in social psychology?",
+      "options": [
+        "Kurt Lewin",
+        "B.F. Skinner",
+        "Jerome Bruner",
+        "Jean Piaget"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Kurt Lewin introduced Field Theory, conceptualizing behavior as a function of the person and their psychological environment: B = f(P, E). (Question source: DSSSB Teaching Methodology Paper Series 5)."
+    },
+    {
+      "id": 193,
+      "section": "Teaching Methodology",
+      "question": "[Test 13 - Q11] What is the primary objective of Continuous and Comprehensive Evaluation (CCE)?",
+      "options": [
+        "To evaluate all aspects of student development, including scholastic and co-scholastic domains continuously",
+        "To conduct quarterly written examinations to eliminate low performers",
+        "To substitute internal assessments with final external board examinations",
+        "To reduce teacher workload by automating grading systems"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "CCE evaluates both scholastic (academic) and co-scholastic (life skills, attitudes, values) growth of a learner continuously throughout the academic cycle. (Question source: DSSSB Teaching Methodology Paper Series 13)."
+    },
+    {
+      "id": 194,
+      "section": "Teaching Methodology",
+      "question": "[Test 63 - Q17] In Bloom's Revised Taxonomy (Anderson & Krathwohl, 2001), which level represents the highest order of cognitive processing?",
+      "options": [
+        "Creating",
+        "Evaluating",
+        "Analyzing",
+        "Applying"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "In Anderson & Krathwohl's revised taxonomy (2001), 'Creating' (generating new ideas or products) replaced 'Evaluation' at the highest cognitive level. (Question source: DSSSB Teaching Methodology Paper Series 63)."
+    },
+    {
+      "id": 195,
+      "section": "Teaching Methodology",
+      "question": "[Test 4 - Q3] Action Research in classroom pedagogy is defined as:",
+      "options": [
+        "A reflective process conducted by teachers to solve immediate practical problems in their own classroom",
+        "Pure theoretical research conducted by university professors",
+        "Nationwide statistical survey on school enrollment ratios",
+        "Historical analysis of ancient educational systems"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Action research is practitioner-based inquiry aimed at diagnosing and solving specific classroom problems to enhance pedagogical effectiveness. (Question source: DSSSB Teaching Methodology Paper Series 4)."
+    },
+    {
+      "id": 196,
+      "section": "Teaching Methodology",
+      "question": "[Test 59 - Q7] Edward Thorndike's 'Law of Effect' states that:",
+      "options": [
+        "Responses that produce a satisfying effect in a particular situation become more likely to occur again",
+        "Learning is permanent only when repeated through multiple drills",
+        "A learner must be biologically ready to acquire a new cognitive schema",
+        "Visual stimuli are remembered longer than auditory stimuli"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Thorndike's Law of Effect established that behaviors followed by favorable consequences are strengthened, which laid the foundation for Skinner's operant conditioning. (Question source: DSSSB Teaching Methodology Paper Series 59)."
+    },
+    {
+      "id": 197,
+      "section": "Teaching Methodology",
+      "question": "[Test 10 - Q7] The 'Heuristic Method' of teaching, which places the student in the role of an active discoverer or researcher, was pioneered by:",
+      "options": [
+        "Henry Edward Armstrong",
+        "Benjamin Bloom",
+        "John Dewey",
+        "Lev Vygotsky"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "H. E. Armstrong developed the Heuristic Method (from the Greek 'heuriskein' meaning 'to discover') to foster scientific enquiry and self-learning. (Question source: DSSSB Teaching Methodology Paper Series 10)."
+    },
+    {
+      "id": 198,
+      "section": "Teaching Methodology",
+      "question": "[Test 29 - Q16] According to Erik Erikson's psychosocial stages of development, which conflict is primary during adolescence?",
+      "options": [
+        "Identity vs. Role Confusion",
+        "Trust vs. Mistrust",
+        "Industry vs. Inferiority",
+        "Initiative vs. Guilt"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Erikson identified 'Identity vs. Role Confusion' as the fifth stage of psychosocial development occurring during adolescence (ages 12 to 18). (Question source: DSSSB Teaching Methodology Paper Series 29)."
+    },
+    {
+      "id": 199,
+      "section": "Teaching Methodology",
+      "question": "[Test 57 - Q3] Which of the following is an example of an 'Intrinsic Motivation' factor in student learning?",
+      "options": [
+        "Inherent curiosity and personal satisfaction derived from mastering a subject",
+        "Receiving cash prizes and gold medals from the school principal",
+        "Avoidance of parental disapproval or detention after school",
+        "Desire to secure first position in class merit list"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Intrinsic motivation arises from internal rewards—such as curiosity, interest, personal enjoyment, or autonomy—rather than external incentives or punishments. (Question source: DSSSB Teaching Methodology Paper Series 57)."
+    },
+    {
+      "id": 200,
+      "section": "Teaching Methodology",
+      "question": "[Test 6 - Q8] John Dewey, a pioneer of progressive education, argued that classrooms should prioritize:",
+      "options": [
+        "Learning by doing and democratic cooperative inquiry",
+        "Passive listening and direct instructional lecturing",
+        "Abstract memorization of ancient classical texts",
+        "Strict separation of high IQ and low IQ students"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Dewey believed education is life itself, advocating experiential 'learning by doing' and training students to participate in a democratic society. (Question source: DSSSB Teaching Methodology Paper Series 6)."
+    }
+  ]
+}

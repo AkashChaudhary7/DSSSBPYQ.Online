@@ -1,0 +1,656 @@
+{
+  "test_title": "OS Mock 21",
+  "total_questions": 50,
+  "questions": [
+    {
+      "id": 1,
+      "section": "Operating System",
+      "question": "A process that is based on IPC mechanism which executes on different systems and can communicate with other processes using message based communication, is called ________",
+      "options": [
+        "A) Local Procedure Call",
+        "B) Inter Process Communication",
+        "C) Remote Procedure Call",
+        "D) Remote Machine Invocation"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 2,
+      "section": "Operating System",
+      "question": "Which module gives control of the CPU to the process selected by the short-term scheduler?",
+      "options": [
+        "A) dispatcher",
+        "B) interrupt",
+        "C) scheduler",
+        "D) none of the mentioned"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 3,
+      "section": "Operating System",
+      "question": "The processes that are residing in main memory and are ready and waiting to execute are kept on a list called _____________",
+      "options": [
+        "A) job queue",
+        "B) ready queue",
+        "C) execution queue",
+        "D) process queue"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 4,
+      "section": "Operating System",
+      "question": "The interval from the time of submission of a process to the time of completion is termed as ____________",
+      "options": [
+        "A) waiting time",
+        "B) turnaround time",
+        "C) response time",
+        "D) throughput"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 5,
+      "section": "Operating System",
+      "question": "Which scheduling algorithm allocates the CPU first to the process that requests the CPU first?",
+      "options": [
+        "A) first-come, first-served scheduling",
+        "B) shortest job scheduling",
+        "C) priority scheduling",
+        "D) none of the mentioned"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 6,
+      "section": "Operating System",
+      "question": "In priority scheduling algorithm ____________",
+      "options": [
+        "A) CPU is allocated to the process with highest priority",
+        "B) CPU is allocated to the process with lowest priority",
+        "C) Equal priority processes can not be scheduled",
+        "D) None of the mentioned"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 7,
+      "section": "Operating System",
+      "question": "In priority scheduling algorithm, when a process arrives at the ready queue, its priority is compared with the priority of ____________",
+      "options": [
+        "A) all process",
+        "B) currently running process",
+        "C) parent process",
+        "D) init process"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 8,
+      "section": "Operating System",
+      "question": "Which algorithm is defined in Time quantum?",
+      "options": [
+        "A) shortest job scheduling algorithm",
+        "B) round robin scheduling algorithm",
+        "C) priority scheduling algorithm",
+        "D) multilevel queue scheduling algorithm"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 9,
+      "section": "Operating System",
+      "question": "Process are classified into different groups in ____________",
+      "options": [
+        "A) shortest job scheduling algorithm",
+        "B) round robin scheduling algorithm",
+        "C) priority scheduling algorithm",
+        "D) multilevel queue scheduling algorithm"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 10,
+      "section": "Operating System",
+      "question": "In multilevel feedback scheduling algorithm ____________",
+      "options": [
+        "A) a process can move to a different classified ready queue",
+        "B) classification of ready queue is permanent",
+        "C) processes are not classified into groups",
+        "D) none of the mentioned"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 11,
+      "section": "Operating System",
+      "question": "Which one of the following can not be scheduled by the kernel?",
+      "options": [
+        "A) kernel level thread",
+        "B) user level thread",
+        "C) process",
+        "D) none of the mentioned"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 12,
+      "section": "Operating System",
+      "question": "The bounded buffer problem is also known as ____________",
+      "options": [
+        "A) Readers – Writers problem",
+        "B) Dining – Philosophers problem",
+        "C) Producer – Consumer problem",
+        "D) None of the mentioned"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 13,
+      "section": "Operating System",
+      "question": "In the bounded buffer problem, there are the empty and full semaphores that ____________",
+      "options": [
+        "A) count the number of empty and full buffers",
+        "B) count the number of empty and full memory spaces",
+        "C) count the number of empty and full queues",
+        "D) none of the mentioned"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 14,
+      "section": "Operating System",
+      "question": "In the bounded buffer problem ____________",
+      "options": [
+        "A) there is only one buffer",
+        "B) there are n buffers ( n being greater than one but finite)",
+        "C) there are infinite buffers",
+        "D) the buffer size is bounded"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 15,
+      "section": "Operating System",
+      "question": "To ensure difficulties do not arise in the readers – writers problem _______ are given exclusive access to the shared object.",
+      "options": [
+        "A) readers",
+        "B) writers",
+        "C) readers and writers",
+        "D) none of the mentioned"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 16,
+      "section": "Operating System",
+      "question": "The dining – philosophers problem will occur in case of ____________",
+      "options": [
+        "A) 5 philosophers and 5 chopsticks",
+        "B) 4 philosophers and 5 chopsticks",
+        "C) 3 philosophers and 5 chopsticks",
+        "D) 6 philosophers and 5 chopsticks"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 17,
+      "section": "Operating System",
+      "question": "A deadlock free solution to the dining philosophers problem ____________",
+      "options": [
+        "A) necessarily eliminates the possibility of starvation",
+        "B) does not necessarily eliminate the possibility of starvation",
+        "C) eliminates any possibility of any kind of problem further",
+        "D) none of the mentioned"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 18,
+      "section": "Operating System",
+      "question": "A monitor is a type of ____________",
+      "options": [
+        "A) semaphore",
+        "B) low level synchronization construct",
+        "C) high level synchronization construct",
+        "D) none of the mentioned"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 19,
+      "section": "Operating System",
+      "question": "A monitor is characterized by ____________",
+      "options": [
+        "A) a set of programmer defined operators",
+        "B) an identifier",
+        "C) the number of variables in it",
+        "D) all of the mentioned"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 20,
+      "section": "Operating System",
+      "question": "A procedure defined within a ________ can access only those variables declared locally within the _______ and its formal parameters.",
+      "options": [
+        "A) process, semaphore",
+        "B) process, monitor",
+        "C) semaphore, semaphore",
+        "D) monitor, monitor"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 21,
+      "section": "Operating System",
+      "question": "The monitor construct ensures that ____________",
+      "options": [
+        "A) only one process can be active at a time within the monitor",
+        "B) n number of processes can be active at a time within the monitor (n being greater than 1)",
+        "C) the queue has only one process in it at a time",
+        "D) all of the mentioned"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 22,
+      "section": "Operating System",
+      "question": "What are the operations that can be invoked on a condition variable?",
+      "options": [
+        "A) wait & signal",
+        "B) hold & wait",
+        "C) signal & hold",
+        "D) continue & signal"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 23,
+      "section": "Operating System",
+      "question": "Which is the process of invoking the wait operation?",
+      "options": [
+        "A) suspended until another process invokes the signal operation",
+        "B) waiting for another process to complete before it can itself call the signal operation",
+        "C) stopped until the next process in the queue finishes execution",
+        "D) none of the mentioned"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 24,
+      "section": "Operating System",
+      "question": "If no process is suspended, the signal operation ____________",
+      "options": [
+        "A) puts the system into a deadlock state",
+        "B) suspends some default process execution",
+        "C) nothing happens",
+        "D) the output is unpredictable"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 25,
+      "section": "Operating System",
+      "question": "A collection of instructions that performs a single logical function is called ____________",
+      "options": [
+        "A) transaction",
+        "B) operation",
+        "C) function",
+        "D) all of the mentioned"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 26,
+      "section": "Operating System",
+      "question": "A terminated transaction that has completed its execution successfully is ____________ otherwise it is __________",
+      "options": [
+        "A) committed, destroyed",
+        "B) aborted, destroyed",
+        "C) committed, aborted",
+        "D) none of the mentioned"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 27,
+      "section": "Operating System",
+      "question": "The state of the data accessed by an aborted transaction must be restored to what it was just before the transaction started executing. This restoration is known as ________ of transaction.",
+      "options": [
+        "A) safety",
+        "B) protection",
+        "C) roll – back",
+        "D) revert – back"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 28,
+      "section": "Operating System",
+      "question": "Write ahead logging is a way ____________",
+      "options": [
+        "A) to ensure atomicity",
+        "B) to keep data consistent",
+        "C) that records data on stable storage",
+        "D) all of the mentioned"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 29,
+      "section": "Operating System",
+      "question": "In the write ahead logging a _____________ is maintained.",
+      "options": [
+        "A) a memory",
+        "B) a system",
+        "C) a disk",
+        "D) a log record"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 30,
+      "section": "Operating System",
+      "question": "An actual update is not allowed to a data item ____________",
+      "options": [
+        "A) before the corresponding log record is written out to stable storage",
+        "B) after the corresponding log record is written out to stable storage",
+        "C) until the whole log record has been checked for inconsistencies",
+        "D) all of the mentioned"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 31,
+      "section": "Operating System",
+      "question": "The undo and redo operations must be _________ to guarantee correct behaviour, even if a failure occurs during recovery process.",
+      "options": [
+        "A) idempotent",
+        "B) easy",
+        "C) protected",
+        "D) all of the mentioned"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 32,
+      "section": "Operating System",
+      "question": "The system periodically performs checkpoints that consists of the following operation(s) ____________",
+      "options": [
+        "A) Putting all the log records currently in main memory onto stable storage",
+        "B) putting all modified data residing in main memory onto stable storage",
+        "C) putting a log record \n           onto stable storage",
+        "D) all of the mentioned"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 33,
+      "section": "Operating System",
+      "question": "Consider a transaction T1 that committed prior to checkpoint. The <T1 commits> record appears in the log before the <checkpoint> record. Any modifications made by T1 must have been written to the stable storage either with the checkpoint or prior to it. Thus at recovery time ____________",
+      "options": [
+        "A) There is a need to perform an undo operation on T1",
+        "B) There is a need to perform a redo operation on T1",
+        "C) There is no need to perform an undo and redo operation on T1",
+        "D) All of the mentioned"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 34,
+      "section": "Operating System",
+      "question": "Serializable schedules are ones where ____________",
+      "options": [
+        "A) concurrent execution of transactions is equivalent to the transactions executed serially",
+        "B) the transactions can be carried out one after the other",
+        "C) a valid result occurs after execution transactions",
+        "D) none of the mentioned"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 35,
+      "section": "Operating System",
+      "question": "A locking protocol is one that ____________",
+      "options": [
+        "A) governs how locks are acquired",
+        "B) governs how locks are released",
+        "C) governs how locks are acquired and released",
+        "D) none of the mentioned"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 36,
+      "section": "Operating System",
+      "question": "The two phase locking protocol consists of ____________",
+      "options": [
+        "A) growing & shrinking phase",
+        "B) shrinking & creation phase",
+        "C) creation & growing phase",
+        "D) destruction & creation phase"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 37,
+      "section": "Operating System",
+      "question": "The growing phase is a phase in which?",
+      "options": [
+        "A) A transaction may obtain locks, but does not release any",
+        "B) A transaction may obtain locks, and releases a few or all of them",
+        "C) A transaction may release locks, but does not obtain any new locks",
+        "D) A transaction may release locks, and does obtain new locks"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 38,
+      "section": "Operating System",
+      "question": "The shrinking phase is a phase in which?",
+      "options": [
+        "A) A transaction may obtain locks, but does not release any",
+        "B) A transaction may obtain locks, and releases a few or all of them",
+        "C) A transaction may release locks, but does not obtain any new locks",
+        "D) A transaction may release locks, and does obtain new locks"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 39,
+      "section": "Operating System",
+      "question": "Which of the following concurrency control protocols ensure both conflict serializability and freedom from deadlock?",
+      "options": [
+        "A) I only",
+        "B) II only",
+        "C) Both I and II",
+        "D) Neither I nor II"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 40,
+      "section": "Operating System",
+      "question": "What is a reusable resource?",
+      "options": [
+        "A) that can be used by one process at a time and is not depleted by that use",
+        "B) that can be used by more than one process at a time",
+        "C) that can be shared between various threads",
+        "D) none of the mentioned"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 41,
+      "section": "Operating System",
+      "question": "Which of the following condition is required for a deadlock to be possible?",
+      "options": [
+        "A) mutual exclusion",
+        "B) a process may hold allocated resources while awaiting assignment of other resources",
+        "C) no resource can be forcibly removed from a process holding it",
+        "D) all of the mentioned"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 42,
+      "section": "Operating System",
+      "question": "A system is in the safe state if ____________",
+      "options": [
+        "A) the system can allocate resources to each process in some order and still avoid a deadlock",
+        "B) there exist a safe sequence",
+        "C) all of the mentioned",
+        "D) none of the mentioned"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 43,
+      "section": "Operating System",
+      "question": "The circular wait condition can be prevented by ____________",
+      "options": [
+        "A) defining a linear ordering of resource types",
+        "B) using thread",
+        "C) using pipes",
+        "D) all of the mentioned"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 44,
+      "section": "Operating System",
+      "question": "Which one of the following is the deadlock avoidance algorithm?",
+      "options": [
+        "A) banker’s algorithm",
+        "B) round-robin algorithm",
+        "C) elevator algorithm",
+        "D) karn’s algorithm"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 45,
+      "section": "Operating System",
+      "question": "What is the drawback of banker’s algorithm?",
+      "options": [
+        "A) in advance processes rarely know how much resource they will need",
+        "B) the number of processes changes as time progresses",
+        "C) resource once available can disappear",
+        "D) all of the mentioned"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 46,
+      "section": "Operating System",
+      "question": "For an effective operating system, when to check for deadlock?",
+      "options": [
+        "A) every time a resource request is made",
+        "B) at fixed time intervals",
+        "C) every time a resource request is made at fixed time intervals",
+        "D) none of the mentioned"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 47,
+      "section": "Operating System",
+      "question": "A problem encountered in multitasking when a process is perpetually denied necessary resources is called ____________",
+      "options": [
+        "A) deadlock",
+        "B) starvation",
+        "C) inversion",
+        "D) aging"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 48,
+      "section": "Operating System",
+      "question": "Which one of the following is a visual ( mathematical ) way to determine the deadlock occurrence?",
+      "options": [
+        "A) resource allocation graph",
+        "B) starvation graph",
+        "C) inversion graph",
+        "D) none of the mentioned"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 49,
+      "section": "Operating System",
+      "question": "To avoid deadlock ____________",
+      "options": [
+        "A) there must be a fixed number of resources to allocate",
+        "B) resource allocation must be done only once",
+        "C) all deadlocked processes must be aborted",
+        "D) inversion technique can be used"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 50,
+      "section": "Operating System",
+      "question": "Each entry in a translation lookaside buffer (TLB) consists of ____________",
+      "options": [
+        "A) key",
+        "B) value",
+        "C) bit value",
+        "D) constant"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    }
+  ]
+}

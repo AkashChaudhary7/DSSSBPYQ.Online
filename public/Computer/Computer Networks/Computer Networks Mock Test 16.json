@@ -1,0 +1,704 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "section": "Computer Networks",
+      "question": "Which of the following type of multiple access protocols uses a scheme called channelization?",
+      "options": [
+        "A) Controlled access protocols",
+        "B) Random access protocols",
+        "C) Channelization protocols",
+        "D) Collisionless protocols"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 2,
+      "section": "Computer Networks",
+      "question": "In CDMA (Code Division Multiple Access), signals are separated based on...",
+      "options": [
+        "A) Unique orthogonal codes assigned to each user",
+        "B) Unique frequency bands assigned to each user",
+        "C) Unique time slots assigned to each user",
+        "D) Wavelength division"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 3,
+      "section": "Computer Networks",
+      "question": "In TDMA (Time Division Multiple Access), users share the bandwidth by...",
+      "options": [
+        "A) Dividing transmission time into non-overlapping time slots",
+        "B) Assigning different frequency bands to each user",
+        "C) Assigning unique orthogonal codes",
+        "D) Transmitting simultaneously on all channels"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 4,
+      "section": "Computer Networks",
+      "question": "In FDMA (Frequency Division Multiple Access), the total bandwidth is divided into...",
+      "options": [
+        "A) Multiple non-overlapping frequency channels",
+        "B) Multiple time slots",
+        "C) Orthogonal codes",
+        "D) Variable size frames"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 5,
+      "section": "Computer Networks",
+      "question": "What is the maximum throughput of Pure ALOHA?",
+      "options": [
+        "A) 18.4% (1 / 2e)",
+        "B) 36.8% (1 / e)",
+        "C) 50%",
+        "D) 100%"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 6,
+      "section": "Computer Networks",
+      "question": "What is the maximum throughput of Slotted ALOHA?",
+      "options": [
+        "A) 36.8% (1 / e)",
+        "B) 18.4% (1 / 2e)",
+        "C) 50%",
+        "D) 100%"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 7,
+      "section": "Computer Networks",
+      "question": "Why is Slotted ALOHA more efficient than Pure ALOHA?",
+      "options": [
+        "A) Transmission can only start at the beginning of a time slot, halving the vulnerable time window",
+        "B) Nodes use carrier sensing before transmitting",
+        "C) Central controller regulates transmission turn by turn",
+        "D) Nodes use orthogonal codes to transmit without interference"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 8,
+      "section": "Computer Networks",
+      "question": "In CSMA (Carrier Sense Multiple Access), what does a node do before transmitting?",
+      "options": [
+        "A) Listens to the medium to check if it is idle",
+        "B) Sends a request-to-send (RTS) frame immediately",
+        "C) Waits for a token from the master node",
+        "D) Transmits immediately without checking"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 9,
+      "section": "Computer Networks",
+      "question": "In 1-persistent CSMA, when a node finds the channel busy, it...",
+      "options": [
+        "A) Continues listening until the channel becomes idle, then transmits immediately with probability 1",
+        "B) Waits a random amount of time and checks again",
+        "C) Transmits with probability p when idle",
+        "D) Aborts transmission permanently"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 10,
+      "section": "Computer Networks",
+      "question": "In non-persistent CSMA, when a node finds the channel busy, it...",
+      "options": [
+        "A) Waits a random amount of time before sensing the channel again",
+        "B) Continuously senses the channel until idle",
+        "C) Transmits immediately with probability p",
+        "D) Sends a jam signal"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 11,
+      "section": "Computer Networks",
+      "question": "In p-persistent CSMA, when the channel is sensed idle, the node...",
+      "options": [
+        "A) Transmits with probability p, and delays with probability (1-p)",
+        "B) Transmits with probability 1 immediately",
+        "C) Waits for p time slots before sending",
+        "D) Sends p data frames at once"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 12,
+      "section": "Computer Networks",
+      "question": "What is the purpose of RTS/CTS mechanism in wireless networks (CSMA/CA)?",
+      "options": [
+        "A) To solve the hidden terminal problem",
+        "B) To increase physical transmission speed",
+        "C) To encrypt wireless frames",
+        "D) To assign dynamic IP addresses"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 13,
+      "section": "Computer Networks",
+      "question": "What is the Exposed Terminal Problem in wireless networks?",
+      "options": [
+        "A) A node refrains from transmitting to another node because it falsely senses a collision from a nearby transmission",
+        "B) A node cannot sense another node transmitting to the same destination",
+        "C) A node's antenna is physically damaged and exposed to elements",
+        "D) A node leaks encryption keys over cleartext"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 14,
+      "section": "Computer Networks",
+      "question": "Which of the following is a guided transmission medium?",
+      "options": [
+        "A) Twisted pair cable",
+        "B) Radio wave channel",
+        "C) Satellite channel",
+        "D) Infrared channel"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 15,
+      "section": "Computer Networks",
+      "question": "Fiber optic cables transmit data using...",
+      "options": [
+        "A) Light pulses based on Total Internal Reflection",
+        "B) Electrical currents over copper conductors",
+        "C) Electromagnetic radio signals through air",
+        "D) Acoustic sound waves in glass"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 16,
+      "section": "Computer Networks",
+      "question": "Which type of optical fiber allows multiple light modes/paths to propagate through the core?",
+      "options": [
+        "A) Multi-mode fiber",
+        "B) Single-mode fiber",
+        "C) Unidirectional fiber",
+        "D) Coaxial fiber"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 17,
+      "section": "Computer Networks",
+      "question": "Single-mode fiber is preferred for long-distance communication because...",
+      "options": [
+        "A) It eliminates modal dispersion, allowing higher bandwidth over long distances",
+        "B) It is cheaper than copper wires",
+        "C) It allows multiple signals to be sent without multiplexing",
+        "D) It uses simple LED light sources instead of lasers"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 18,
+      "section": "Computer Networks",
+      "question": "What is attenuation in networking?",
+      "options": [
+        "A) Loss of signal strength as it propagates through a transmission medium",
+        "B) Distortion caused by overlapping frequencies from adjacent channels",
+        "C) Time delay experienced by a packet traveling from source to destination",
+        "D) Variation in packet arrival times"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 19,
+      "section": "Computer Networks",
+      "question": "What is Jitter?",
+      "options": [
+        "A) Variation in packet arrival delays across a network",
+        "B) Complete loss of packets during transmission",
+        "C) Maximum bandwidth capacity of a physical link",
+        "D) Time taken for a signal to bounce back"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 20,
+      "section": "Computer Networks",
+      "question": "What is Latency (or Propagation Delay)?",
+      "options": [
+        "A) Time required for a bit to travel from sender to receiver across the physical link",
+        "B) Time required to push all bits of a packet onto the wire",
+        "C) Time spent waiting in router queues",
+        "D) Time required to process packet headers"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 21,
+      "section": "Computer Networks",
+      "question": "Transmission Delay is calculated as...",
+      "options": [
+        "A) Packet Length (L) / Bandwidth (R)",
+        "B) Distance (D) / Signal Speed (S)",
+        "C) Queue Length / Processing Rate",
+        "D) Round Trip Time / 2"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 22,
+      "section": "Computer Networks",
+      "question": "Propagation Delay is calculated as...",
+      "options": [
+        "A) Distance (D) / Propagation Speed (S)",
+        "B) Packet Length (L) / Bandwidth (R)",
+        "C) Bandwidth (R) * Distance (D)",
+        "D) Total Delay - Queueing Delay"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 23,
+      "section": "Computer Networks",
+      "question": "What is Bandwidth-Delay Product (BDP)?",
+      "options": [
+        "A) Maximum amount of data that can be in-flight (on the wire) at any given moment",
+        "B) Total time required to complete a 3-way handshake",
+        "C) Minimum window size required for errorless transmission",
+        "D) Ratio of propagation delay to transmission delay"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 24,
+      "section": "Computer Networks",
+      "question": "Nyquist Bit Rate formula for a noiseless channel with bandwidth B and L signal levels is...",
+      "options": [
+        "A) BitRate = 2 * B * log2(L)",
+        "B) BitRate = B * log2(1 + SNR)",
+        "C) BitRate = B * L",
+        "D) BitRate = 2 * B / log2(L)"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 25,
+      "section": "Computer Networks",
+      "question": "Shannon Capacity formula for a noisy channel with bandwidth B and Signal-to-Noise Ratio (SNR) is...",
+      "options": [
+        "A) Capacity = B * log2(1 + SNR)",
+        "B) Capacity = 2 * B * log2(L)",
+        "C) Capacity = B / log2(1 + SNR)",
+        "D) Capacity = 10 * log10(SNR)"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 26,
+      "section": "Computer Networks",
+      "question": "Decibel (dB) measure of signal power ratio (P2 / P1) is calculated as...",
+      "options": [
+        "A) 10 * log10(P2 / P1)",
+        "B) 20 * log10(P2 / P1)",
+        "C) P2 / P1 * 100",
+        "D) log2(P2 / P1)"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 27,
+      "section": "Computer Networks",
+      "question": "Which switching mechanism establishes a dedicated physical path before data transmission begins?",
+      "options": [
+        "A) Circuit Switching",
+        "B) Packet Switching",
+        "C) Message Switching",
+        "D) Cell Switching"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 28,
+      "section": "Computer Networks",
+      "question": "Which switching mechanism breaks messages into smaller blocks called packets and routes each independently?",
+      "options": [
+        "A) Packet Switching",
+        "B) Circuit Switching",
+        "C) Space Division Switching",
+        "D) Wavelength Switching"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 29,
+      "section": "Computer Networks",
+      "question": "What is a key disadvantage of Circuit Switching?",
+      "options": [
+        "A) Inefficient channel utilization when connected resources are idle",
+        "B) High store-and-forward delay at intermediate switches",
+        "C) Out-of-order delivery of data units",
+        "D) Complex packet header processing"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 30,
+      "section": "Computer Networks",
+      "question": "In virtual circuit packet switching...",
+      "options": [
+        "A) A logical path is established before data transfer, and all packets follow this same route",
+        "B) Each packet is routed independently without any setup phase",
+        "C) Data is sent using dedicated copper links between endpoints",
+        "D) Physical resources are strictly reserved along the path"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 31,
+      "section": "Computer Networks",
+      "question": "In datagram packet switching...",
+      "options": [
+        "A) Each packet is treated independently and contains full destination address info",
+        "B) A setup phase creates a fixed virtual circuit number for all packets",
+        "C) End-to-end bandwidth is guaranteed",
+        "D) Packets always arrive in the exact order they were sent"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 32,
+      "section": "Computer Networks",
+      "question": "Which layer of the OSI model is responsible for flow control and error control on a hop-by-hop basis?",
+      "options": [
+        "A) Data Link Layer",
+        "B) Transport Layer",
+        "C) Network Layer",
+        "D) Physical Layer"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 33,
+      "section": "Computer Networks",
+      "question": "Which layer of the OSI model is responsible for flow control and error control on an end-to-end basis?",
+      "options": [
+        "A) Transport Layer",
+        "B) Data Link Layer",
+        "C) Network Layer",
+        "D) Session Layer"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 34,
+      "section": "Computer Networks",
+      "question": "In Stop-and-Wait ARQ, the sender sends a frame and...",
+      "options": [
+        "A) Waits for an acknowledgment (ACK) before sending the next frame",
+        "B) Continues sending up to W frames before waiting",
+        "C) Sends frames continuously until a negative ACK is received",
+        "D) Retransmits all frames sent so far after a timeout"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 35,
+      "section": "Computer Networks",
+      "question": "In Go-Back-N ARQ with m sequence bits, what is the maximum sender window size?",
+      "options": [
+        "A) (2^m) - 1",
+        "B) 2^m",
+        "C) 2^(m-1)",
+        "D) 1"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 36,
+      "section": "Computer Networks",
+      "question": "In Go-Back-N ARQ, what is the size of the receiver window?",
+      "options": [
+        "A) 1",
+        "B) (2^m) - 1",
+        "C) 2^(m-1)",
+        "D) 2^m"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 37,
+      "section": "Computer Networks",
+      "question": "In Selective Repeat ARQ with m sequence bits, what is the maximum size for both sender and receiver windows?",
+      "options": [
+        "A) 2^(m-1)",
+        "B) (2^m) - 1",
+        "C) 2^m",
+        "D) 1"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 38,
+      "section": "Computer Networks",
+      "question": "Why is Selective Repeat ARQ more efficient than Go-Back-N ARQ when channel error rate is high?",
+      "options": [
+        "A) Only corrupted or lost frames are retransmitted, not subsequent undamaged frames",
+        "B) It does not require sequence numbers for frames",
+        "C) It does not use timer timeouts",
+        "D) The receiver window size is 1"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 39,
+      "section": "Computer Networks",
+      "question": "HDLC (High-Level Data Link Control) is a...",
+      "options": [
+        "A) Bit-oriented data link protocol",
+        "B) Byte-oriented application protocol",
+        "C) Character-oriented physical layer standard",
+        "D) Network layer routing protocol"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 40,
+      "section": "Computer Networks",
+      "question": "In HDLC bit stuffing, a '0' bit is inserted after how many consecutive '1' bits in the payload?",
+      "options": [
+        "A) 5 consecutive 1s",
+        "B) 6 consecutive 1s",
+        "C) 7 consecutive 1s",
+        "D) 8 consecutive 1s"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 41,
+      "section": "Computer Networks",
+      "question": "What flag byte pattern is used in HDLC frame delimiters?",
+      "options": [
+        "A) 01111110 (0x7E)",
+        "B) 11111111 (0xFF)",
+        "C) 00000000 (0x00)",
+        "D) 10101010 (0xAA)"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 42,
+      "section": "Computer Networks",
+      "question": "PPP (Point-to-Point Protocol) is commonly used to establish direct connections between...",
+      "options": [
+        "A) Two networking nodes (e.g. ISP server and home router)",
+        "B) Multiple hosts in a mesh topology",
+        "C) Wireless clients connected to a single access point",
+        "D) Switches sharing VLAN tags"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 43,
+      "section": "Computer Networks",
+      "question": "PPP uses LCP (Link Control Protocol) for...",
+      "options": [
+        "A) Establishing, configuring, and testing the data link connection",
+        "B) Encrypting payload data at application level",
+        "C) Dynamically assigning IP network parameters",
+        "D) Resolving domain names"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 44,
+      "section": "Computer Networks",
+      "question": "PPP uses NCP (Network Control Protocol) for...",
+      "options": [
+        "A) Negotiating and configuring specific network layer protocols (e.g., IPv4/IPv6)",
+        "B) Framing bits at physical layer",
+        "C) Detecting bit errors using CRC",
+        "D) Managing physical modem dials"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 45,
+      "section": "Computer Networks",
+      "question": "What is the primary function of a Repeater?",
+      "options": [
+        "A) Regenerates and amplifies attenuated signals at Physical Layer",
+        "B) Filters frames based on MAC addresses",
+        "C) Routes packets across different subnets",
+        "D) Translates application level protocols"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 46,
+      "section": "Computer Networks",
+      "question": "What is a Bridge in computer networking?",
+      "options": [
+        "A) A Data Link layer device that filters and forwards frames between LAN segments based on MAC addresses",
+        "B) A Physical layer multi-port repeater",
+        "C) A Network layer device that maintains IP routing tables",
+        "D) An application proxy server"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 47,
+      "section": "Computer Networks",
+      "question": "What is the Transparent Bridging algorithm used for?",
+      "options": [
+        "A) Dynamically learning MAC addresses and building forwarding tables",
+        "B) Calculating shortest path using link-state LSAs",
+        "C) Negotiating dynamic IP addresses",
+        "D) Encapsulating frames into IP packets"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 48,
+      "section": "Computer Networks",
+      "question": "What protocol prevents loops in a bridged/switched Ethernet network with redundant links?",
+      "options": [
+        "A) Spanning Tree Protocol (STP / IEEE 802.1D)",
+        "B) Routing Information Protocol (RIP)",
+        "C) Address Resolution Protocol (ARP)",
+        "D) Border Gateway Protocol (BGP)"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 49,
+      "section": "Computer Networks",
+      "question": "In STP, which switch is elected as the central reference point for tree calculation?",
+      "options": [
+        "A) Root Bridge (switch with lowest Bridge ID)",
+        "B) Master Gateway",
+        "C) Designated Router",
+        "D) Edge Switch"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 50,
+      "section": "Computer Networks",
+      "question": "Bridge ID in STP is composed of...",
+      "options": [
+        "A) Bridge Priority (2 bytes) + MAC Address (6 bytes)",
+        "B) IP Address + Port Number",
+        "C) VLAN ID + Subnet Mask",
+        "D) System Name + Serial Number"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    }
+  ]
+}

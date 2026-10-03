@@ -1,0 +1,700 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "section": "Computer Networks",
+      "question": "What is the maximum number of errors that can be detected using two-dimensional parity check code?",
+      "options": [
+        "A) 4",
+        "B) 5",
+        "C) 3",
+        "D) 2"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 2,
+      "section": "Computer Networks",
+      "question": "Simple parity-check is used to detect the even number of errors also.",
+      "options": [
+        "A) True",
+        "B) False"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 3,
+      "section": "Computer Networks",
+      "question": "Which of the following is not an error detecting code?",
+      "options": [
+        "A) Hamming code",
+        "B) Checksum",
+        "C) Parity check",
+        "D) Cyclic redundancy check"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 4,
+      "section": "Computer Networks",
+      "question": "How cyclic redundancy check code can also be called?",
+      "options": [
+        "A) Fletcher’s checksum",
+        "B) Polynomial code",
+        "C) Generator polynomial code",
+        "D) Checksum"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 5,
+      "section": "Computer Networks",
+      "question": "SONET stands for ___________",
+      "options": [
+        "A) synchronous optical network",
+        "B) synchronous operational network",
+        "C) stream optical network",
+        "D) shell operational network"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 6,
+      "section": "Computer Networks",
+      "question": "In SONET, STS-1 level of electrical signalling has the data rate of _________",
+      "options": [
+        "A) 51.84 Mbps",
+        "B) 155.52 Mbps",
+        "C) 2488.320 Mbps",
+        "D) 622.080 Mbps"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 7,
+      "section": "Computer Networks",
+      "question": "The path layer of SONET is responsible for the movement of a signal _________",
+      "options": [
+        "A) from its optical source to its optical destination",
+        "B) across a physical line",
+        "C) across a physical section",
+        "D) back to its optical source"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 8,
+      "section": "Computer Networks",
+      "question": "The photonic layer of the SONET is similar to the __________ of OSI model.",
+      "options": [
+        "A) network layer",
+        "B) data link layer",
+        "C) physical layer",
+        "D) transport layer"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 9,
+      "section": "Computer Networks",
+      "question": "In SONET, each synchronous transfer signal STS-n is composed of __________",
+      "options": [
+        "A) 2000 frames",
+        "B) 4000 frames",
+        "C) 8000 frames",
+        "D) 16000 frames"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 10,
+      "section": "Computer Networks",
+      "question": "Which one of the following is not true about SONET?",
+      "options": [
+        "A) frames of lower rate can be synchronously time-division multiplexed into a higher-rate frame",
+        "B) multiplexing is synchronous TDM",
+        "C) all clocks in the network are locked to a master clock",
+        "D) STS-1 provides the data rate of 622.080Mbps"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 11,
+      "section": "Computer Networks",
+      "question": "A linear SONET network can be ________",
+      "options": [
+        "A) point-to-point",
+        "B) multi-point",
+        "C) both point-to-point and multi-point",
+        "D) single point"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 12,
+      "section": "Computer Networks",
+      "question": "Automatic protection switching in linear network is defined at the _______",
+      "options": [
+        "A) line layer",
+        "B) section layer",
+        "C) photonic layer",
+        "D) path layer"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 13,
+      "section": "Computer Networks",
+      "question": "A unidirectional path switching ring is a network with __________",
+      "options": [
+        "A) one ring",
+        "B) two rings",
+        "C) three rings",
+        "D) four rings"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 14,
+      "section": "Computer Networks",
+      "question": "What is SDH?",
+      "options": [
+        "A) sdh is similar standard to SONET developed by ITU-T",
+        "B) synchronous digital hierarchy",
+        "C) sdh stands for synchronous digital hierarchy and is a similar standard to SONET developed by ITU-T",
+        "D) none of the mentioned"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 15,
+      "section": "Computer Networks",
+      "question": "Real-time transport protocol (RTP) is mostly used in _________",
+      "options": [
+        "A) streaming media",
+        "B) video teleconference",
+        "C) television services",
+        "D) all of the mentioned"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 16,
+      "section": "Computer Networks",
+      "question": "RTP is used to ________",
+      "options": [
+        "A) carry the media stream",
+        "B) monitor transmission statistics of streams",
+        "C) monitor quality of service of streams",
+        "D) secure the stream"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 17,
+      "section": "Computer Networks",
+      "question": "RTP provides the facility of jitter ____________",
+      "options": [
+        "A) media stream",
+        "B) expansion",
+        "C) media modification",
+        "D) security"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 18,
+      "section": "Computer Networks",
+      "question": "Which protocol provides the synchronization between media streams?",
+      "options": [
+        "A) RTP",
+        "B) RTCP",
+        "C) RPC",
+        "D) RTCT"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 19,
+      "section": "Computer Networks",
+      "question": "An RTP session is established for ____________",
+      "options": [
+        "A) each media stream",
+        "B) all media streams",
+        "C) some predefined number of media streams",
+        "D) no media stream"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 20,
+      "section": "Computer Networks",
+      "question": "RTP can use __________",
+      "options": [
+        "A) unprevileleged UDP ports",
+        "B) stream control transmission protocol",
+        "C) datagram congestion control protocol",
+        "D) all of the mentioned"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 21,
+      "section": "Computer Networks",
+      "question": "Which one of the following multimedia formats can not be supported by RTP?",
+      "options": [
+        "A) MPEG-4",
+        "B) MJPEG",
+        "C) MPEG",
+        "D) TXT"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 22,
+      "section": "Computer Networks",
+      "question": "An RTP header has a minimum size of _________",
+      "options": [
+        "A) 12 bytes",
+        "B) 16 bytes",
+        "C) 24 bytes",
+        "D) 32 bytes"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 23,
+      "section": "Computer Networks",
+      "question": "Which one of the following is not correct?",
+      "options": [
+        "A) RTCP provides canonical end-point identifiers to all session participants",
+        "B) RTCP reports are expected to be sent by all participants",
+        "C) RTCP itself does not provide any flow encryption or authentication methods",
+        "D) RTCP handles the actual data delivery"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 24,
+      "section": "Computer Networks",
+      "question": "Which protocol defines a profile of RTP that provides cryptographic services for the transfer of payload data?",
+      "options": [
+        "A) SRTP",
+        "B) RTCP",
+        "C) RCP",
+        "D) RTCT"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 25,
+      "section": "Computer Networks",
+      "question": "An RPC (remote procedure call) is initiated by the _________",
+      "options": [
+        "A) server",
+        "B) client",
+        "C) client after the sever",
+        "D) a third party"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 26,
+      "section": "Computer Networks",
+      "question": "In RPC, while a server is processing the call, the client is blocked ________",
+      "options": [
+        "A) unless the client sends an asynchronous request to the server",
+        "B) unless the call processing is complete",
+        "C) for the complete duration of the connection",
+        "D) unless the server is disconnected"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 27,
+      "section": "Computer Networks",
+      "question": "A remote procedure call is _______",
+      "options": [
+        "A) inter-process communication",
+        "B) a single process",
+        "C) a single thread",
+        "D) a single stream"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 28,
+      "section": "Computer Networks",
+      "question": "RPC allows a computer program to cause a subroutine to execute in _________",
+      "options": [
+        "A) its own address space",
+        "B) another address space",
+        "C) both its own address space and another address space",
+        "D) applications address space"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 29,
+      "section": "Computer Networks",
+      "question": "RPC works between two processes. These processes must be ____________",
+      "options": [
+        "A) on the same computer",
+        "B) on different computers connected with a network",
+        "C) on the same computer and also on different computers connected with a network",
+        "D) on none of the computers"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 30,
+      "section": "Computer Networks",
+      "question": "A remote procedure is uniquely identified by _________",
+      "options": [
+        "A) program number",
+        "B) version number",
+        "C) procedure number",
+        "D) all of the mentioned"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 31,
+      "section": "Computer Networks",
+      "question": "An RPC application requires _________",
+      "options": [
+        "A) specific protocol for client server communication",
+        "B) a client program",
+        "C) a server program",
+        "D) all of the mentioned"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 32,
+      "section": "Computer Networks",
+      "question": "RPC is used to _________",
+      "options": [
+        "A) establish a server on remote machine that can respond to queries",
+        "B) retrieve information by calling a query",
+        "C) establish a server on remote machine that can respond to queries and retrieve information by calling a query",
+        "D) to secure the client"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 33,
+      "section": "Computer Networks",
+      "question": "RPC is a _________",
+      "options": [
+        "A) synchronous operation",
+        "B) asynchronous operation",
+        "C) time independent operation",
+        "D) channel specific operation"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 34,
+      "section": "Computer Networks",
+      "question": "The local operating system on the server machine passes the incoming packets to the ___________",
+      "options": [
+        "A) server stub",
+        "B) client stub",
+        "C) client operating system",
+        "D) client process"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 35,
+      "section": "Computer Networks",
+      "question": "Which of the following is not an alternative name for symmetric key cryptography?",
+      "options": [
+        "A) Secret key cryptography",
+        "B) Public key cryptography",
+        "C) Conventional encryption",
+        "D) Private key cryptography"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 36,
+      "section": "Computer Networks",
+      "question": "What is the cipher text for the text “GREET HER”, if Caesar Cipher is used(key=3)?",
+      "options": [
+        "A) KVIIY LIV",
+        "B) KVIIX LIV",
+        "C) LWJJY MJW",
+        "D) JUHHW KHU"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 37,
+      "section": "Computer Networks",
+      "question": "What is the cipher text for the message “TAKE ME TO THE PARTY”, id Rail Fence technique is used with two rows?",
+      "options": [
+        "A) TKMTTEATAEEOHPRY",
+        "B) TAKEMETOTHEPARTY",
+        "C) TAEKMEOTTHPEARYT",
+        "D) YRPHOEEATAETTMKT"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 38,
+      "section": "Computer Networks",
+      "question": "What are the two broad categories of symmetric key cryptography?",
+      "options": [
+        "A) Transposition and substitution",
+        "B) Classical and modern",
+        "C) Stream and Block",
+        "D) Classical and Block"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 39,
+      "section": "Computer Networks",
+      "question": "Which of the following algorithm does not belong to symmetric key ciphers?",
+      "options": [
+        "A) DES",
+        "B) RC4",
+        "C) AES",
+        "D) Diffie-Hellman"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 40,
+      "section": "Computer Networks",
+      "question": "Which of the following is an advantage of symmetric cipher?",
+      "options": [
+        "A) (N(N-1))/2 keys are required for N people",
+        "B) sharing secret key over communication channel",
+        "C) Brute force attack for small key size",
+        "D) Quick encryption and decryption"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 41,
+      "section": "Computer Networks",
+      "question": "Which of the following is incorrect about symmetric key cryptography?",
+      "options": [
+        "A) It uses common key for both encryption and decryption",
+        "B) It is a secret key cryptography",
+        "C) It uses single fixed length key for each algorithm",
+        "D) Symmetric key can be combined with asymmetric key to achieve more security"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 42,
+      "section": "Computer Networks",
+      "question": "Which of the following is a disadvantage of symmetric cipher?",
+      "options": [
+        "A) Quick encryption",
+        "B) Less computational power",
+        "C) High level of security",
+        "D) Transmission of secret key"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 43,
+      "section": "Computer Networks",
+      "question": "Which of the following is not an application of symmetric encryption algorithms.",
+      "options": [
+        "A) Data security",
+        "B) Cloud storage",
+        "C) User privacy",
+        "D) Bitcoin’s block chain"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 44,
+      "section": "Computer Networks",
+      "question": "Asymmetric ciphers are complex than symmetric ciphers.",
+      "options": [
+        "A) True",
+        "B) False"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 45,
+      "section": "Computer Networks",
+      "question": "What are the two keys that are used in asymmetric key cryptography?",
+      "options": [
+        "A) Secret key and private key",
+        "B) Private key and public key",
+        "C) Public key and secured key",
+        "D) Secured key and private key"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 46,
+      "section": "Computer Networks",
+      "question": "Who are three discoverers of the RSA algorithm in public key cryptography?",
+      "options": [
+        "A) Rivest, shamir, Aldleman",
+        "B) Routest, Shamir, adem",
+        "C) Robert, shamuel, alice",
+        "D) Radmir, shadhur, Alice"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 47,
+      "section": "Computer Networks",
+      "question": "What is the first public key cryptography algorithm?",
+      "options": [
+        "A) RSA algorithm",
+        "B) AES algorithm",
+        "C) 3DES algorithm",
+        "D) Knapsack algorithm"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 48,
+      "section": "Computer Networks",
+      "question": "Which of the following is not a property of public key cryptography?",
+      "options": [
+        "A) Uses different keys",
+        "B) Every user has a unique private key",
+        "C) Public key can be same for number of users",
+        "D) Cannot deduce private key from public key"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 49,
+      "section": "Computer Networks",
+      "question": "What are the types in schemes of public key encryption?",
+      "options": [
+        "A) RSA, EIGamal, Elliptic curve cryptography",
+        "B) Elliptic curve, RSA",
+        "C) RSA, EIGamal",
+        "D) EIGmal, RSA"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 50,
+      "section": "Computer Networks",
+      "question": "Which of the following is correct about RSA scheme in public key cryptography?",
+      "options": [
+        "A) It is efficient for decryption",
+        "B) Lengthy keys are required for more security",
+        "C) It is not efficient for encryption",
+        "D) It is not popular"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    }
+  ]
+}

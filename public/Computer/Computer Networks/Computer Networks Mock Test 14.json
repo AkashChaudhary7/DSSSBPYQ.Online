@@ -1,0 +1,702 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "section": "Computer Networks",
+      "question": "The physical layer translates logical communication requests from the...",
+      "options": [
+        "A) Data link layer into hardware specific operations",
+        "B) Network layer into channel-specific operations",
+        "C) Application layer into hardware-specific operations",
+        "D) Transport layer into channel-specific operations"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 2,
+      "section": "Computer Networks",
+      "question": "A single channel is shared by multiple signals by...",
+      "options": [
+        "A) analog modulation",
+        "B) digital modulation",
+        "C) multiplexing",
+        "D) phase modulation"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 3,
+      "section": "Computer Networks",
+      "question": "Wireless transmission can be done via...",
+      "options": [
+        "A) radio waves",
+        "B) microwaves",
+        "C) infrared",
+        "D) all of the mentioned"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 4,
+      "section": "Computer Networks",
+      "question": "The data link layer takes the packets from _________ and encapsulates them into frames for transmission.",
+      "options": [
+        "A) network layer",
+        "B) physical layer",
+        "C) transport layer",
+        "D) application layer"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 5,
+      "section": "Computer Networks",
+      "question": "Which task is not done by data link layer?",
+      "options": [
+        "A) framing",
+        "B) error control",
+        "C) flow control",
+        "D) channel coding"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 6,
+      "section": "Computer Networks",
+      "question": "Which sublayer of the data link layer performs data link functions that depend upon the type of medium?",
+      "options": [
+        "A) logical link control sublayer",
+        "B) media access control sublayer",
+        "C) network interface control sublayer",
+        "D) error control sublayer"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 7,
+      "section": "Computer Networks",
+      "question": "Automatic Repeat Request (ARQ) is an error control method used in the data link layer for reliable data transmission.",
+      "options": [
+        "A) True",
+        "B) False"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 8,
+      "section": "Computer Networks",
+      "question": "Which of the following is a data link protocol?",
+      "options": [
+        "A) ethernet",
+        "B) point to point protocol",
+        "C) hdlc",
+        "D) all of the mentioned"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 9,
+      "section": "Computer Networks",
+      "question": "Which header field is NOT present in an Ethernet frame?",
+      "options": [
+        "A) Source MAC address",
+        "B) Destination MAC address",
+        "C) Preamble",
+        "D) Source IP address"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 10,
+      "section": "Computer Networks",
+      "question": "What is the maximum size of data (payload) an Ethernet frame can carry without IEEE 802.1Q tagging?",
+      "options": [
+        "A) 1500 bytes",
+        "B) 1518 bytes",
+        "C) 64 bytes",
+        "D) 46 bytes"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 11,
+      "section": "Computer Networks",
+      "question": "Which address is used at the data link layer for frame delivery?",
+      "options": [
+        "A) IP address",
+        "B) MAC address",
+        "C) Port number",
+        "D) Socket address"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 12,
+      "section": "Computer Networks",
+      "question": "Which collision handling method is used in Ethernet (IEEE 802.3)?",
+      "options": [
+        "A) CSMA/CA",
+        "B) CSMA/CD",
+        "C) ALOHA",
+        "D) Token Passing"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 13,
+      "section": "Computer Networks",
+      "question": "The transmission medium that carries the message is called...",
+      "options": [
+        "A) Communication channel",
+        "B) Protocol",
+        "C) Network interface",
+        "D) Gateway"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 14,
+      "section": "Computer Networks",
+      "question": "Which of the following is an unguided transmission media?",
+      "options": [
+        "A) Twisted pair cable",
+        "B) Coaxial cable",
+        "C) Fiber optic cable",
+        "D) Radio waves"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 15,
+      "section": "Computer Networks",
+      "question": "Which layer is responsible for converting bit streams into signals suitable for transmission medium?",
+      "options": [
+        "A) Physical layer",
+        "B) Data link layer",
+        "C) Network layer",
+        "D) Transport layer"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 16,
+      "section": "Computer Networks",
+      "question": "Which topology provides maximum redundancy and fault tolerance?",
+      "options": [
+        "A) Mesh",
+        "B) Star",
+        "C) Bus",
+        "D) Ring"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 17,
+      "section": "Computer Networks",
+      "question": "In a mesh topology with N nodes, the number of physical links required for a fully connected network is...",
+      "options": [
+        "A) N(N-1)/2",
+        "B) N-1",
+        "C) N",
+        "D) N(N+1)/2"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 18,
+      "section": "Computer Networks",
+      "question": "Which network component connects multiple devices in a star topology and broadcasts data to all connected ports?",
+      "options": [
+        "A) Switch",
+        "B) Hub",
+        "C) Router",
+        "D) Bridge"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": 19,
+      "section": "Computer Networks",
+      "question": "Which layer performs routing of data packets across different networks?",
+      "options": [
+        "A) Network layer",
+        "B) Transport layer",
+        "C) Data link layer",
+        "D) Physical layer"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 20,
+      "section": "Computer Networks",
+      "question": "What is the size of an IPv4 address?",
+      "options": [
+        "A) 32 bits",
+        "B) 64 bits",
+        "C) 128 bits",
+        "D) 16 bits"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 21,
+      "section": "Computer Networks",
+      "question": "What is the size of an IPv6 address?",
+      "options": [
+        "A) 32 bits",
+        "B) 64 bits",
+        "C) 128 bits",
+        "D) 256 bits"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": 22,
+      "section": "Computer Networks",
+      "question": "Which protocol resolves an IP address to a physical MAC address?",
+      "options": [
+        "A) ARP",
+        "B) RARP",
+        "C) DHCP",
+        "D) ICMP"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 23,
+      "section": "Computer Networks",
+      "question": "Which protocol automatically assigns IP addresses to devices on a network?",
+      "options": [
+        "A) DHCP",
+        "B) DNS",
+        "C) ARP",
+        "D) FTP"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 24,
+      "section": "Computer Networks",
+      "question": "Which protocol translates domain names into IP addresses?",
+      "options": [
+        "A) DNS",
+        "B) DHCP",
+        "C) HTTP",
+        "D) SNMP"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 25,
+      "section": "Computer Networks",
+      "question": "Which transport layer protocol provides reliable, connection-oriented data transfer?",
+      "options": [
+        "A) TCP",
+        "B) UDP",
+        "C) IP",
+        "D) ICMP"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 26,
+      "section": "Computer Networks",
+      "question": "Which transport layer protocol is lightweight, connectionless, and un-reliable?",
+      "options": [
+        "A) UDP",
+        "B) TCP",
+        "C) SCTP",
+        "D) FTP"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 27,
+      "section": "Computer Networks",
+      "question": "What is the default port number for HTTP?",
+      "options": [
+        "A) 80",
+        "B) 443",
+        "C) 21",
+        "D) 22"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 28,
+      "section": "Computer Networks",
+      "question": "What is the default port number for HTTPS?",
+      "options": [
+        "A) 443",
+        "B) 80",
+        "C) 8080",
+        "D) 25"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 29,
+      "section": "Computer Networks",
+      "question": "What is the default port number for SSH?",
+      "options": [
+        "A) 22",
+        "B) 23",
+        "C) 21",
+        "D) 25"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 30,
+      "section": "Computer Networks",
+      "question": "Which protocol is used for secure shell remote login?",
+      "options": [
+        "A) SSH",
+        "B) Telnet",
+        "C) FTP",
+        "D) SMTP"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 31,
+      "section": "Computer Networks",
+      "question": "Which protocol is used to send email messages between servers?",
+      "options": [
+        "A) SMTP",
+        "B) POP3",
+        "C) IMAP",
+        "D) HTTP"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 32,
+      "section": "Computer Networks",
+      "question": "Which protocol allows clients to retrieve emails from a server while keeping emails stored on the server?",
+      "options": [
+        "A) IMAP",
+        "B) POP3",
+        "C) SMTP",
+        "D) SNMP"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 33,
+      "section": "Computer Networks",
+      "question": "Which mechanism in TCP ensures that a sender does not overwhelm a receiver with too much data?",
+      "options": [
+        "A) Flow control",
+        "B) Congestion control",
+        "C) Error detection",
+        "D) Framing"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 34,
+      "section": "Computer Networks",
+      "question": "What technique is used by TCP for flow control?",
+      "options": [
+        "A) Sliding window",
+        "B) Stop and wait",
+        "C) Token bucket",
+        "D) Leaky bucket"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 35,
+      "section": "Computer Networks",
+      "question": "Which field in the IPv4 header prevents packets from circulating endlessly in loops?",
+      "options": [
+        "A) TTL (Time To Live)",
+        "B) Checksum",
+        "C) Version",
+        "D) Identification"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 36,
+      "section": "Computer Networks",
+      "question": "What happens to an IP packet when its TTL value reaches 0?",
+      "options": [
+        "A) It is discarded and an ICMP Time Exceeded message is sent to the source",
+        "B) It is forwarded to the default gateway",
+        "C) It is stored in the buffer until TTL is reset",
+        "D) It is retransmitted automatically"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 37,
+      "section": "Computer Networks",
+      "question": "What type of address is 255.255.255.255?",
+      "options": [
+        "A) Limited broadcast address",
+        "B) Multicast address",
+        "C) Loopback address",
+        "D) Link-local address"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 38,
+      "section": "Computer Networks",
+      "question": "What is the IPv4 loopback address?",
+      "options": [
+        "A) 127.0.0.1",
+        "B) 192.168.0.1",
+        "C) 10.0.0.1",
+        "D) 0.0.0.0"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 39,
+      "section": "Computer Networks",
+      "question": "What is the IPv6 loopback address?",
+      "options": [
+        "A) ::1",
+        "B) ::0",
+        "C) fe80::1",
+        "D) ff02::1"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 40,
+      "section": "Computer Networks",
+      "question": "Which type of transmission allows communication in both directions simultaneously?",
+      "options": [
+        "A) Full-duplex",
+        "B) Half-duplex",
+        "C) Simplex",
+        "D) Multiplex"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 41,
+      "section": "Computer Networks",
+      "question": "Which type of transmission allows communication in both directions, but only one direction at a time?",
+      "options": [
+        "A) Half-duplex",
+        "B) Full-duplex",
+        "C) Simplex",
+        "D) Triplex"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 42,
+      "section": "Computer Networks",
+      "question": "A walkie-talkie operates in which transmission mode?",
+      "options": [
+        "A) Half-duplex",
+        "B) Full-duplex",
+        "C) Simplex",
+        "D) Multiplex"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 43,
+      "section": "Computer Networks",
+      "question": "Which routing algorithm is based on the Bellman-Ford algorithm?",
+      "options": [
+        "A) Distance Vector Routing",
+        "B) Link State Routing",
+        "C) Hierarchical Routing",
+        "D) Path Vector Routing"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 44,
+      "section": "Computer Networks",
+      "question": "Which routing algorithm is based on Dijkstra's shortest path algorithm?",
+      "options": [
+        "A) Link State Routing",
+        "B) Distance Vector Routing",
+        "C) Flooding",
+        "D) Path Vector Routing"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 45,
+      "section": "Computer Networks",
+      "question": "Which problem can occur in Distance Vector Routing when a link fails?",
+      "options": [
+        "A) Count to infinity problem",
+        "B) Starvation problem",
+        "C) Deadlock problem",
+        "D) Head-of-line blocking"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 46,
+      "section": "Computer Networks",
+      "question": "Which technique is used to mitigate the count-to-infinity problem in Distance Vector Routing?",
+      "options": [
+        "A) Split horizon with poison reverse",
+        "B) Dijkstra's algorithm",
+        "C) Sliding window",
+        "D) Leaky bucket algorithm"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 47,
+      "section": "Computer Networks",
+      "question": "What is the purpose of NAT (Network Address Translation)?",
+      "options": [
+        "A) To map private IP addresses to a public IP address",
+        "B) To convert domain names to IP addresses",
+        "C) To encrypt data packets at the network layer",
+        "D) To route packets across autonomous systems"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 48,
+      "section": "Computer Networks",
+      "question": "Which device separates collision domains and broadcast domains?",
+      "options": [
+        "A) Router",
+        "B) Switch",
+        "C) Hub",
+        "D) Bridge"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 49,
+      "section": "Computer Networks",
+      "question": "How many collision domains and broadcast domains does an 8-port switch have by default?",
+      "options": [
+        "A) 8 collision domains, 1 broadcast domain",
+        "B) 1 collision domain, 8 broadcast domains",
+        "C) 8 collision domains, 8 broadcast domains",
+        "D) 1 collision domain, 1 broadcast domain"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 50,
+      "section": "Computer Networks",
+      "question": "How many collision domains and broadcast domains does an 8-port hub have?",
+      "options": [
+        "A) 1 collision domain, 1 broadcast domain",
+        "B) 8 collision domains, 1 broadcast domain",
+        "C) 8 collision domains, 8 broadcast domains",
+        "D) 1 collision domain, 8 broadcast domains"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "online.dsssbpyq.twa",
+      "sha256_cert_fingerprints": [
+        "05:C8:58:09:8A:8B:E0:A3:15:8F:F8:A7:78:55:22:28:ED:F8:F9:31:BC:F3:B9:E0:D0:11:77:5D:05:A5:1D:8A"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "online.dsssbpyq.twa",
+      "sha256_cert_fingerprints": [
+        "94:45:B2:6F:87:28:5B:59:83:42:80:7A:EE:32:65:FF:78:28:9F:78:59:31:C8:7D:69:97:21:B6:F6:0F:B5:CC"
+      ]
+    }
+  }
+]

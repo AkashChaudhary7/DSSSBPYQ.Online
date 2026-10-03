@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background Shadow -->
+    <filter id="badge-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.15"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0284c7" flood-opacity="0.10"/>
+    </filter>
+
+    <!-- Main Gradient for Badge -->
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+
+    <!-- Glowing B Accent Gradient -->
+    <linearGradient id="neonBGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+
+    <!-- Gold Accent -->
+    <linearGradient id="goldCap" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Rounded Square Container -->
+  <rect x="24" y="24" width="464" height="464" rx="96" fill="url(#badgeGrad)" filter="url(#badge-shadow)" stroke="#312e81" stroke-width="4" />
+
+  <!-- Subtle Circuit Lines Background -->
+  <g stroke="#38bdf8" stroke-opacity="0.15" stroke-width="2" stroke-linecap="round" fill="none">
+    <path d="M 80 140 H 160 L 190 170 V 220" />
+    <path d="M 432 140 H 350 L 320 170 V 210" />
+    <path d="M 80 370 H 170 L 200 340 V 300" />
+    <path d="M 432 370 H 340 L 310 340 V 290" />
+    <circle cx="160" cy="140" r="4" fill="#38bdf8" fill-opacity="0.3" />
+    <circle cx="350" cy="140" r="4" fill="#38bdf8" fill-opacity="0.3" />
+    <circle cx="170" cy="370" r="4" fill="#38bdf8" fill-opacity="0.3" />
+    <circle cx="340" cy="370" r="4" fill="#38bdf8" fill-opacity="0.3" />
+  </g>
+
+  <!-- Central Stylized "B" + Binary Chip Symbol -->
+  <g transform="translate(0, -15)">
+    <!-- Microchip Nodes -->
+    <rect x="180" y="120" width="152" height="180" rx="24" fill="#1e1b4b" stroke="url(#neonBGrad)" stroke-width="6" />
+
+    <!-- Code / Binary Dots on Chip -->
+    <circle cx="210" cy="150" r="6" fill="#38bdf8" />
+    <circle cx="235" cy="150" r="6" fill="#818cf8" />
+    <circle cx="260" cy="150" r="6" fill="#c084fc" />
+
+    <!-- Glowing Letter 'B' with Tech Cutouts -->
+    <path d="M 220 180 H 260 C 275 180 288 190 288 205 C 288 218 278 226 265 228 C 282 232 292 242 292 258 C 292 275 276 285 258 285 H 220 V 180 Z M 240 196 V 222 H 258 C 265 222 270 217 270 209 C 270 201 265 196 258 196 H 240 Z M 240 238 V 268 H 260 C 268 268 274 262 274 253 C 274 244 268 238 260 238 H 240 Z" fill="url(#neonBGrad)" />
+
+    <!-- Graduation Cap Overlay on Top Right of B -->
+    <g transform="translate(260, 95)">
+      <polygon points="40 10 75 24 40 38 5 24" fill="url(#goldCap)" />
+      <polygon points="40 13 68 24 40 35 12 24" fill="#fef08a" opacity="0.4" />
+      <path d="M 20 29 V 40 C 20 45 30 48 40 48 C 50 48 60 45 60 40 V 29" fill="none" stroke="url(#goldCap)" stroke-width="3" />
+      <!-- Tassel -->
+      <path d="M 68 24 C 68 35 72 42 72 48" fill="none" stroke="#fef08a" stroke-width="2.5" stroke-linecap="round" />
+      <circle cx="72" cy="49" r="2.5" fill="#fef08a" />
+    </g>
+  </g>
+
+  <!-- Brand Typography: "BytePrep" -->
+  <text x="256" y="405" 
+        font-family="system-ui, -apple-system, 'Outfit', 'Segoe UI', sans-serif" 
+        font-size="46" 
+        font-weight="900" 
+        fill="#ffffff" 
+        text-anchor="middle" 
+        letter-spacing="-0.5">
+    Byte<tspan fill="#38bdf8">Prep</tspan>
+  </text>
+
+  <!-- Tagline: "TGT PGT CS" -->
+  <text x="256" y="442" 
+        font-family="system-ui, -apple-system, 'Outfit', 'Segoe UI', sans-serif" 
+        font-size="20" 
+        font-weight="800" 
+        fill="#a5b4fc" 
+        text-anchor="middle" 
+        letter-spacing="3">
+    TGT • PGT • CS
+  </text>
+</svg>

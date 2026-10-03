@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Sitemap: https://dsssbpyq.online/sitemap.xml
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: Googlebot
+Allow: /

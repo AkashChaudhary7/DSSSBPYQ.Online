@@ -1,0 +1,326 @@
+{
+  "test_title": "Arithmetical and Numerical Ability Mock Test 100",
+  "total_questions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A and B take part in a 200 m race. A runs at 8 km/hr. A gives B a start of 8 m and still beats him by 6 sec. The speed of B is:",
+      "question_image": null,
+      "options": [
+        "7.5 km/hr",
+        "8.2 km/hr",
+        "7.68 km/hr",
+        "7.2 km/hr"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (7.2 km/hr) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 2,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The average of 13 numbers is 7. If each number is multiplied by 8, then what will the new average be?",
+      "question_image": null,
+      "options": [
+        "8",
+        "13",
+        "56",
+        "7"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (56) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 3,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A solid cylindrical wooden block had a base radius of 12 cm and a height of 16 cm. A conical cavity, having the same base radius and same height as those of the cylinder, is carved out of the cylindrical block. Find the total surface area (in cm2) of the remaining solid. [Take π = 3.14]",
+      "question_image": null,
+      "options": [
+        "2311.25",
+        "2411.52",
+        "2410.52",
+        "2011.42"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (2411.52) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 4,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The temperature at the surface of the ocean is 15⁰C. At 1500 metres below the surface of the ocean, the temperature is 5⁰C. If the temperature decreases at a steady rate for every metre that the depth increases, then by how much does the temperature (in ⁰C) decrease for every 150 metres of increase in depth of the ocean?",
+      "question_image": null,
+      "options": [
+        "2",
+        "1",
+        "4",
+        "3"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (1) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 5,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Ramesh, a vegetable seller, sells tomatoes at an 18% profit. At the same time, he uses false weight, which is 12% less than the actual weight. What will be his total gain percentage (rounded off to 2 decimal places)?",
+      "question_image": null,
+      "options": [
+        "34.09%",
+        "46.32%",
+        "28.12%",
+        "39.48%"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (34.09%) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 6,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "At what rate (in percentage) per annum on simple interest will a sum of money be two times of itself in 10 years?",
+      "question_image": null,
+      "options": [
+        "19",
+        "10",
+        "20",
+        "9"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (10) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 7,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The volume of a triangular prism is 2112 cm3. Find the corresponding height of the prism given that the length of its base is 12 cm and the corresponding height of the triangle forming its base is 16 cm.",
+      "question_image": null,
+      "options": [
+        "22 cm",
+        "23 cm",
+        "21 cm",
+        "20 cm"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (22 cm) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 8,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Ram can finish a work in 25 days and Yogi takes 35 days to finish the same work. They start working together for a few days and then Ram leaves. The remaining work was finished by Yogi in 23 days.  The number of days they worked together is:",
+      "question_image": null,
+      "options": [
+        "9 days",
+        "5 days",
+        "8 days",
+        "6 days"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (5 days) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 9,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "In a mixture bought from a milkman, the ratio of milk and water is 2 : 1. If 3 litres of water is added to 12 litres of the mixture bought from the milkman, then what will the percentage of water in the new mixture be?(Rounded up to two decimal places)",
+      "question_image": null,
+      "options": [
+        "53.33%",
+        "46.67%",
+        "41.67%",
+        "64.67%"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (46.67%) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 10,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A train running at a speed of 90 km/hr passes a pole on the platform in 20 seconds. Find the length of the train (in m).",
+      "question_image": null,
+      "options": [
+        "480",
+        "494",
+        "500",
+        "472"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (500) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 11,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Three bells toll at intervals of 24 sec, 60 sec and 72 sec, respectively. If the three bells toll together at 10:00 a.m., when will they toll together next?",
+      "question_image": null,
+      "options": [
+        "10:04 a.m.",
+        "10:07 a.m.",
+        "10:05 a.m.",
+        "10:06 a.m."
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (10:06 a.m.) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 12,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The price of wheat increased by 16.8%. By how much percentage (rounded off to 1 decimal place) should a housewife reduce her consumption, so that her expenditure on wheat does NOT increase?",
+      "question_image": null,
+      "options": [
+        "13.5%",
+        "15.4%",
+        "14.4%",
+        "10.5%"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (14.4%) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 13,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The marked price of a table is ₹2,360. If it is sold at a discount of 25%, then the selling price of the table is:",
+      "question_image": null,
+      "options": [
+        "₹1,770",
+        "₹1,785",
+        "₹1,775",
+        "₹1,790"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (₹1,770) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 14,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A man bought two varieties of guavas, one at the rate of ₹6 for 7 guavas, and the other at ₹6 per guava. He purchased an equal number of guavas of each variety and sold all the guavas at ₹6 each. What was his profit percentage?",
+      "question_image": null,
+      "options": [
+        "80%",
+        "75%",
+        "76%",
+        "72%"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (75%) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 15,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The cost of a washing machine is 70% less than the cost of a TV. If the cost of the washing machine increases by 90% and that of the TV decreases by 14%, then what will be the percentage change in the total cost of 5 washing machines and 6 TVs?",
+      "question_image": null,
+      "options": [
+        "Increase by 1%",
+        "Decrease by 11%",
+        "Decrease by 5%",
+        "Increase by 6.8%"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Increase by 6.8%) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 16,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "What is the difference between the compound interests on a sum ₹10,000 for 2 years at the rate of 4% per annum, when compounded yearly and half-yearly(correct to two decimal places)?",
+      "question_image": null,
+      "options": [
+        "₹7.12",
+        "₹8.98",
+        "₹7.56",
+        "₹8.32"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (₹8.32) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 17,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "A man spends 40% of his monthly salary (in ₹) on rent. If every month he also spends ₹264 on conveyance and ₹2,159 on grocery and saves the remaining ₹598, his monthly salary (in ₹) is:",
+      "question_image": null,
+      "options": [
+        "4,978",
+        "5,055",
+        "5,035",
+        "5,045"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (5,035) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 18,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "The number of non-square integers between 2732 and 2742 is:",
+      "question_image": null,
+      "options": [
+        "556",
+        "546",
+        "550",
+        "549"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (546) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 19,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "If a : b :: b : c; c = 4a and b = 10, find the positive value of c.",
+      "question_image": null,
+      "options": [
+        "16",
+        "20",
+        "18",
+        "22"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (20) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 20,
+      "section": "Arithmetical and Numerical Ability",
+      "question": "Find the surface area of a sphere whose diameter is equal to 100 cm.",
+      "question_image": null,
+      "options": [
+        "9718 π cm2",
+        "10000 π cm2",
+        "9134 π cm2",
+        "9151 π cm2"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (10000 π cm2) है।",
+      "explanation_image": null
+    }
+  ]
+}

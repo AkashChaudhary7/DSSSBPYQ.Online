@@ -1,0 +1,552 @@
+[
+  {
+    "question": "In case of any shut down during transaction before commit which of the following statement is done automatically?",
+    "options": [
+      "A) View",
+      "B) Commit",
+      "C) Rollback",
+      "D) Flashback"
+    ],
+    "correct_answer": "C",
+    "explanation": "Once a transaction has executed commit work, its effects can no longer be undone by rollback work."
+  },
+  {
+    "question": "In order to maintain the consistency during transactions, database provides",
+    "options": [
+      "A) Commit",
+      "B) Atomic",
+      "C) Flashback",
+      "D) Retain"
+    ],
+    "correct_answer": "B",
+    "explanation": "By atomic, either all the effects of the transaction are reflected in the database, or none are (after rollback)."
+  },
+  {
+    "question": "Transaction processing is associated with everything below except",
+    "options": [
+      "A) Conforming an action or triggering a response",
+      "B) Producing detail summary or exception report",
+      "C) Recording a business activity",
+      "D) Maintaining a data"
+    ],
+    "correct_answer": "A",
+    "explanation": "None."
+  },
+  {
+    "question": "A transaction completes its execution is said to be",
+    "options": [
+      "A) Committed",
+      "B) Aborted",
+      "C) Rolled back",
+      "D) Failed"
+    ],
+    "correct_answer": "A",
+    "explanation": "A complete transaction always commits."
+  },
+  {
+    "question": "Which of the following is used to get back all the transactions back after rollback?",
+    "options": [
+      "A) Commit",
+      "B) Rollback",
+      "C) Flashback",
+      "D) Redo"
+    ],
+    "correct_answer": "C",
+    "explanation": "None."
+  },
+  {
+    "question": "______ will undo all statements up to commit?",
+    "options": [
+      "A) Transaction",
+      "B) Flashback",
+      "C) Rollback",
+      "D) Abort"
+    ],
+    "correct_answer": "C",
+    "explanation": "Rollback will undo all statements up to commit. Flashback allows you to restore the database to a previous state, even after a COMMIT has been executed. Abort will terminate the operation."
+  },
+  {
+    "question": "_____________ can help us detect poor E-R design.",
+    "options": [
+      "A) Database Design Process",
+      "B) E-R Design Process",
+      "C) Relational scheme",
+      "D) Functional dependencies"
+    ],
+    "correct_answer": "D",
+    "explanation": "For eg.,Suppose an instructor entity set had attributes dept name and dept address, and there is a functional dependency dept name -> dept address."
+  },
+  {
+    "question": "If a multivalued dependency holds and is not implied by the corresponding functional dependency, it usually arises from one of the following sources.",
+    "options": [
+      "A) A many-to-many relationship set",
+      "B) A multivalued attribute of an entity set",
+      "C) A one-to-many relationship set",
+      "D) Both A many-to-many relationship set and A multivalued attribute of an entity set"
+    ],
+    "correct_answer": "D",
+    "explanation": "For a many-to-many relationship set each related entity set has its own schema and there is an additional schema for the relationship set. For a multivalued attribute, a separate schema is created consisting of that attribute and the primary key of the entity set."
+  },
+  {
+    "question": "Which of the following has each related entity set has its own schema and there is an additional schema for the relationship set.",
+    "options": [
+      "A) A many-to-many relationship set",
+      "B) A multivalued attribute of an entity set",
+      "C) A one-to-many relationship set",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "If a multivalued dependency holds and is not implied by the corresponding functional dependency, it usually arises from this source."
+  },
+  {
+    "question": "In which of the following, a separate schema is created consisting of that attribute and the primary key of the entity set.",
+    "options": [
+      "A) A many-to-many relationship set",
+      "B) A multivalued attribute of an entity set",
+      "C) A one-to-many relationship set",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "If a multivalued dependency holds and is not implied by the corresponding functional dependency, it usually arises from this source."
+  },
+  {
+    "question": "Suppose the user finds the usage of room number and phone number in a relational schema there is confusion.This is reduced by",
+    "options": [
+      "A) Unique-role assumption",
+      "B) Unique-key assignment",
+      "C) Role intergral assignment",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "A desirable feature of a database design is the unique-role assumption, which means that each attribute name has a unique meaning in the database."
+  },
+  {
+    "question": "What is the best way to represent the attributes in a large database?",
+    "options": [
+      "A) Relational-and",
+      "B) Concatenation",
+      "C) Dot representation",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "Example inst sec and student sec."
+  },
+  {
+    "question": "Designers use which of the following to tune the performance of systems to support time-critical operations?",
+    "options": [
+      "A) Denormalization",
+      "B) Redundant optimization",
+      "C) Optimization",
+      "D) Realization"
+    ],
+    "correct_answer": "A",
+    "explanation": "The process of taking a normalized schema and making it nonnormalized is called denormalization."
+  },
+  {
+    "question": "In the schema (dept name, size) we have relations total inst 2007, total inst 2008. Which dependency have lead to this relation ?",
+    "options": [
+      "A) Dept name, year->size",
+      "B) Year->size",
+      "C) Dept name->size",
+      "D) Size->year"
+    ],
+    "correct_answer": "A",
+    "explanation": "The process of taking a normalized schema and making it nonnormalized is called denormalization."
+  },
+  {
+    "question": "Relation dept year(dept name, total inst 2007, total inst 2008, total inst 2009). Here the only functional dependencies are from dept name to the other attributes. This relation is in",
+    "options": [
+      "A) Fourth NF",
+      "B) BCNF",
+      "C) Third NF",
+      "D) Second NF"
+    ],
+    "correct_answer": "B",
+    "explanation": "BCNF has only one normal form."
+  },
+  {
+    "question": "Thus a _______ of course data gives the values of all attributes, such as title and department, of all courses at a particular point in time.",
+    "options": [
+      "A) Instance",
+      "B) Snapshot",
+      "C) Both Instance and Snapshot",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "We use the term snapshot of data to mean the value of the data at a particular point in time."
+  },
+  {
+    "question": "Representations such as the in the dept year relation, with one column for each value of an attribute, are called _______ they are widely used in spreadsheets and reports and in data analysis tools.",
+    "options": [
+      "A) Cross-tabs",
+      "B) Snapshot",
+      "C) Both Cross-tabs and Snapshot",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "SQL includes features to convert data from a normal relational representation to a crosstab."
+  },
+  {
+    "question": "In _________________ attacks, the attacker manages to get an application to execute an SQL query created by the attacker.",
+    "options": [
+      "A) SQL injection",
+      "B) SQL",
+      "C) Direct",
+      "D) Application"
+    ],
+    "correct_answer": "A",
+    "explanation": "Application security has to deal with several security threats and issues beyond those handled by SQL authorization."
+  },
+  {
+    "question": "A Web site that allows users to enter text, such as a comment or a name, and then stores it and later display it to other users, is potentially vulnerable to a kind of attack called a ___________________ attack.",
+    "options": [
+      "A) Two-factor authentication",
+      "B) Cross-site request forgery",
+      "C) Cross-site scripting",
+      "D) Cross-site scoring scripting"
+    ],
+    "correct_answer": "C",
+    "explanation": "In such an attack, a malicious user enters code written in a client-side scripting language such as JavaScript or Flash instead of entering a valid name or comment."
+  },
+  {
+    "question": "_________ is an attack which forces an end user to execute unwanted actions on a web application in which he/she is currently authenticated.",
+    "options": [
+      "A) Two-factor authentication",
+      "B) Cross-site request forgery",
+      "C) Cross-site scripting",
+      "D) Cross-site scoring scripting"
+    ],
+    "correct_answer": "B",
+    "explanation": "Cross-site request forgery, also known as a one-click attack or session riding and abbreviated as CSRF or XSRF."
+  },
+  {
+    "question": "Many applications use _________________ where two independent factors are used to identify a user.",
+    "options": [
+      "A) Two-factor authentication",
+      "B) Cross-site request forgery",
+      "C) Cross-site scripting",
+      "D) Cross-site scoring scripting"
+    ],
+    "correct_answer": "A",
+    "explanation": "The two factors should not share a common vulnerability."
+  },
+  {
+    "question": "Even with two-factor authentication, users may still be vulnerable to_____________attacks.",
+    "options": [
+      "A) Radiant",
+      "B) Cross attack",
+      "C) scripting",
+      "D) Man-in-the-middle"
+    ],
+    "correct_answer": "D",
+    "explanation": "In such attacks, a user attempting to connect to the application is diverted to a fake Web site, which accepts the password from the user, and uses it immediately to authenticate to the original application."
+  },
+  {
+    "question": "A single ______________ further allows the user to be authenticated once, and multiple applications can then verify the user’s identity through an authentication service without requiring reauthentication.",
+    "options": [
+      "A) OpenID",
+      "B) Sign-on system",
+      "C) Security Assertion Markup Language (SAML)",
+      "D) Virtual Private Database (VPD)"
+    ],
+    "correct_answer": "B",
+    "explanation": "Once the user logged in at one site, he does not have to enter his user name and password at other sites that use the same single sign-on service."
+  },
+  {
+    "question": "The ___________________ is a standard for exchanging authentication and authorization information between different security domains, to provide cross-organization single sign-on.",
+    "options": [
+      "A) OpenID",
+      "B) Sign-on system",
+      "C) Security Assertion Markup Language (SAML)",
+      "D) Virtual Private Database (VPD)"
+    ],
+    "correct_answer": "C",
+    "explanation": "The user’s password and other authentication factors are never revealed to the application, and the user need not register explicitly with the application."
+  },
+  {
+    "question": "The __________ standard is an alternative for single sign-on across organizations, and has seen increasing acceptance in recent years.",
+    "options": [
+      "A) OpenID",
+      "B) Single-site system",
+      "C) Security Assertion Markup Language (SAML)",
+      "D) Virtual Private Database (VPD)"
+    ],
+    "correct_answer": "A",
+    "explanation": "The user’s password and other authentication factors are never revealed to the application, and the user need not register explicitly with the application."
+  },
+  {
+    "question": "_______________ allows a system administrator to associate a function with a relation; the function returns a predicate that must be added to any query that uses the relation.",
+    "options": [
+      "A) OpenID",
+      "B) Single-site system",
+      "C) Security Assertion Markup Language (SAML)",
+      "D) Virtual Private Database (VPD)"
+    ],
+    "correct_answer": "D",
+    "explanation": "Some database systems provide mechanisms for fine-grained authorization."
+  },
+  {
+    "question": "VPD provides authorization at the level of specific tuples, or rows, of a relation, and is therefore said to be a _____________ mechanism.",
+    "options": [
+      "A) Row-level authorization",
+      "B) Column-level authentication",
+      "C) Row-type authentication",
+      "D) Authorization security"
+    ],
+    "correct_answer": "A",
+    "explanation": "Oracle Virtual Private Database (VPD) allows a system administrator to associate a function with a relation."
+  },
+  {
+    "question": "If a piece of data is stored in two places in the database, then",
+    "options": [
+      "A) Storage space is wasted",
+      "B) Changing the data in one spot will cause data inconsistency",
+      "C) In can be more easily accessed",
+      "D) Storage space is wasted & Changing the data in one spot will cause data inconsistency"
+    ],
+    "correct_answer": "D",
+    "explanation": "The database is always consistent and so there is no duplication."
+  },
+  {
+    "question": "An audit trail ___________",
+    "options": [
+      "A) Is used to make backup copies",
+      "B) Is the recorded history of operations performed on a file",
+      "C) Can be used to restore lost information",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "This is more useful for all recovery actions."
+  },
+  {
+    "question": "Large collection of files are called ____________",
+    "options": [
+      "A) Fields",
+      "B) Records",
+      "C) Database",
+      "D) Sectors"
+    ],
+    "correct_answer": "C",
+    "explanation": "The operator tree has a tree like format where the  evaluation starts from  root of the tree ."
+  },
+  {
+    "question": "Which of the following hardware component is the most important to the operation of a database management system?",
+    "options": [
+      "A) High resolution video display",
+      "B) Printer",
+      "C) High speed, large capacity disk",
+      "D) Mouse"
+    ],
+    "correct_answer": "C",
+    "explanation": "All the data are stored in form of memory in the disk."
+  },
+  {
+    "question": "Which of the following is not true of the traditional approach to information processing",
+    "options": [
+      "A) There is common sharing of data among the various applications",
+      "B) It is file oriented",
+      "C) Programs are dependent on the file",
+      "D) It is inflexible"
+    ],
+    "correct_answer": "A",
+    "explanation": "All the data are stored in form of memory in the disk."
+  },
+  {
+    "question": "Which of these is not a feature of Hierarchical model?",
+    "options": [
+      "A) Organizes the data in tree-like structure",
+      "B) Parent node can have any number of child nodes",
+      "C) Root node does not have any parent",
+      "D) Child node can have any number of parent nodes"
+    ],
+    "correct_answer": "D",
+    "explanation": "The data are traversed using several algorithms."
+  },
+  {
+    "question": "Which of these data models is an extension of the relational data model?",
+    "options": [
+      "A) Object-oriented data model",
+      "B) Object-relational data model",
+      "C) Semi structured data model",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "B",
+    "explanation": "All the data are stored in form of memory in the disk."
+  },
+  {
+    "question": "The information about data in a database is called _______",
+    "options": [
+      "A) Metadata",
+      "B) Hyper data",
+      "C) Tera data",
+      "D) None of the mentioned"
+    ],
+    "correct_answer": "A",
+    "explanation": "Metadata is information about a data."
+  },
+  {
+    "question": "A data dictionary is a special file that contains?",
+    "options": [
+      "A) The names of all fields in all files",
+      "B) The data types of all fields in all files",
+      "C) The widths of all fields in all files",
+      "D) All of the mentioned"
+    ],
+    "correct_answer": "D",
+    "explanation": "The data dictionary is structured in tables and views, just like other database data."
+  },
+  {
+    "question": "The DBMS acts as an interface between what two components of an enterprise-class database system?",
+    "options": [
+      "A) Database application and the database",
+      "B) Data and the database",
+      "C) The user and the database application",
+      "D) Database application and SQL"
+    ],
+    "correct_answer": "A",
+    "explanation": "Database application is the interface with the user to access the database."
+  },
+  {
+    "question": "A relational database system needs to maintain data about the relations, such as the schema of the relations. This is called",
+    "options": [
+      "A) Metadata",
+      "B) Catalog",
+      "C) Log",
+      "D) Dictionary"
+    ],
+    "correct_answer": "A",
+    "explanation": "Each side of a platter of a disk has a read–write head that moves across the platter to access different tracks."
+  },
+  {
+    "question": "Relational schemas and other metadata about relations are stored in a structure called the ____________",
+    "options": [
+      "A) Metadata",
+      "B) Catalog",
+      "C) Log",
+      "D) Data Dictionary"
+    ],
+    "correct_answer": "D",
+    "explanation": "Data dictionary is also called as system catalog."
+  },
+  {
+    "question": "___________ is the collection of memory structures and Oracle background processes that operates against an Oracle database.",
+    "options": [
+      "A) Database",
+      "B) Instance",
+      "C) Tablespace",
+      "D) Segment"
+    ],
+    "correct_answer": "B",
+    "explanation": "Instance is a snapshot of database at any point of time."
+  },
+  {
+    "question": "A ________ is a logical grouping of database objects, usually to facilitate security, performance, or the availability of database objects such as tables and indexes.",
+    "options": [
+      "A) Tablespace",
+      "B) Segments",
+      "C) Extents",
+      "D) Blocks"
+    ],
+    "correct_answer": "A",
+    "explanation": "A tablespace is a storage location where the actual data underlying database objects can be kept."
+  },
+  {
+    "question": "__________ is a contiguous group of blocks allocated for use as part of a table, index, and so forth.",
+    "options": [
+      "A) Tablespace",
+      "B) Segment",
+      "C) Extent",
+      "D) Block"
+    ],
+    "correct_answer": "C",
+    "explanation": "An extent is a set of contiguous blocks allocated in a database."
+  },
+  {
+    "question": "________ is the smallest unit of allocation in an Oracle database.",
+    "options": [
+      "A) Database",
+      "B) Instance",
+      "C) Tablespace",
+      "D) Database Block"
+    ],
+    "correct_answer": "D",
+    "explanation": "Data block is a form of database space allocation."
+  },
+  {
+    "question": "An Oracle __________ is a set of tables and views that are used as a read-only reference about the database.",
+    "options": [
+      "A) Database dictionary",
+      "B) Dictionary table",
+      "C) Data dictionary",
+      "D) Dictionary"
+    ],
+    "correct_answer": "C",
+    "explanation": "Data dictionary is also called as system catalog."
+  },
+  {
+    "question": "A data dictionary is created when a __________ created.",
+    "options": [
+      "A) Instance",
+      "B) Segment",
+      "C) Database",
+      "D) Dictionary"
+    ],
+    "correct_answer": "C",
+    "explanation": "Data dictionary is also called as system catalog."
+  },
+  {
+    "question": "An Oracle object type has two parts the _________ and__________",
+    "options": [
+      "A) Instance and body",
+      "B) Segment and blocks",
+      "C) Specification and body",
+      "D) Body and segment"
+    ],
+    "correct_answer": "C",
+    "explanation": "Segment names are used in create table and create index commands to place tables or indexes on specific database devices. An extent is a set of contiguous blocks allocated in a database."
+  },
+  {
+    "question": "Two main measures for the efficiency of an algorithm are",
+    "options": [
+      "A) Processor and memory",
+      "B) Complexity and capacity",
+      "C) Time and space",
+      "D) Data and space"
+    ],
+    "correct_answer": "C",
+    "explanation": "Depending on the time and space complexity only the algorithm for sorting will be chosen."
+  },
+  {
+    "question": "The time factor when determining the efficiency of an algorithm is measured by",
+    "options": [
+      "A) Counting microseconds",
+      "B) Counting the number of key operations",
+      "C) Counting the number of statements",
+      "D) Counting the kilobytes of algorithm"
+    ],
+    "correct_answer": "B",
+    "explanation": "The operations taking place with the time and space is counted."
+  },
+  {
+    "question": "The space factor when determining the efficiency of an algorithm is measured by",
+    "options": [
+      "A) Counting the maximum memory needed by the algorithm",
+      "B) Counting the minimum memory needed by the algorithm",
+      "C) Counting the average memory needed by the algorithm",
+      "D) Counting the maximum disk space needed by the algorithm"
+    ],
+    "correct_answer": "A",
+    "explanation": "Time complexity maintains the maximum time needed."
+  },
+  {
+    "question": "Which of the following case does not exist in complexity theory",
+    "options": [
+      "A) Best case",
+      "B) Worst case",
+      "C) Average case",
+      "D) Null case"
+    ],
+    "correct_answer": "D",
+    "explanation": "Null case cannot be counted as the factor for complexity."
+  }
+]

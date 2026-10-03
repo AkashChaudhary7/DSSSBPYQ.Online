@@ -1,0 +1,326 @@
+{
+  "test_title": "General Awareness Mock Test 24",
+  "total_questions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "section": "General Awareness",
+      "question": "Sarai Nahar Rai, a Mesolithic site, is located in _____.",
+      "question_image": null,
+      "options": [
+        "Bihar",
+        "Madhya Pradesh",
+        "Punjab",
+        "Uttar Pradesh"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Uttar Pradesh) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 2,
+      "section": "General Awareness",
+      "question": "The Royal Commission on Decentralisation was appointed to examine and recommend measures for administrative decentralisation in British India. In which year did it submit its report?",
+      "question_image": null,
+      "options": [
+        "1909",
+        "1919",
+        "1912",
+        "1915"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (1909) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 3,
+      "section": "General Awareness",
+      "question": "The Government of India has launched a new Centrally Sponsored Scheme, namely 'New India Literacy Programme' (NILP), for implementation during the five years from FY  _____________.",
+      "question_image": null,
+      "options": [
+        "2021-22 to 2026-27",
+        "2022-23 to 2026-27",
+        "2020-21 to 2025-26",
+        "2023-24 to 2028-29"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (2022-23 to 2026-27) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 4,
+      "section": "General Awareness",
+      "question": "Where was the first Asian Inclusive Sailing Series (AISS) held in October 2025?",
+      "question_image": null,
+      "options": [
+        "Chilika Lake, Odisha",
+        "Dal Lake, Srinagar",
+        "KRS Dam, Mysuru",
+        "Backwaters of Kerala"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (KRS Dam, Mysuru) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 5,
+      "section": "General Awareness",
+      "question": "How many total medals did India win at the Asian Aquatics Championships 2025?",
+      "question_image": null,
+      "options": [
+        "10",
+        "15",
+        "13",
+        "12"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (13) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 6,
+      "section": "General Awareness",
+      "question": "When an ant bites and injects formic acid into the skin, the effect can be neutralised by applying which of the following substances?",
+      "question_image": null,
+      "options": [
+        "Baking soda",
+        "Hydrochloric acid",
+        "Vinegar",
+        "Lemon juice"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Baking soda) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 7,
+      "section": "General Awareness",
+      "question": "Law of variable proportion passes from how many stages?",
+      "question_image": null,
+      "options": [
+        "2 stages",
+        "1 stage",
+        "3 stages",
+        "4 stages"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (3 stages) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 8,
+      "section": "General Awareness",
+      "question": "In June 2024, to enhance road safety, NHAI signed a Memorandum of Understanding (MoU) with which of the following institutes to leverage Artificial Intelligence (AI) based solutions for improvement in the availability of road signs on National Highways?",
+      "question_image": null,
+      "options": [
+        "Indian Institute of Information Technology, Lucknow",
+        "National Institute of Technology, Durgapur",
+        "International Institute of Information Technology, Hyderabad",
+        "Indraprastha Institute of Information Technology, Delhi"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Indraprastha Institute of Information Technology, Delhi) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 9,
+      "section": "General Awareness",
+      "question": "Which of the following Vedas mentions Arya Varna and Dasa Varna?",
+      "question_image": null,
+      "options": [
+        "Yajur Veda",
+        "Atharva Veda",
+        "Rig Veda",
+        "Sama Veda"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Rig Veda) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 10,
+      "section": "General Awareness",
+      "question": "What significant reform was introduced under the Waqf (Amendment) Act, 2025, passed in April 2025?",
+      "question_image": null,
+      "options": [
+        "Nationalisation of Waqf assets",
+        "Dissolution of Waqf Boards",
+        "Tax exemption for Waqf properties",
+        "Inclusion of non-Muslims in Waqf management boards"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Inclusion of non-Muslims in Waqf management boards) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 11,
+      "section": "General Awareness",
+      "question": "During summer, localised thunderstorms are associated with violent winds and torrential downpours and are often accompanied by hail. In ______, these storms are known as the Kaal Baisakhi.",
+      "question_image": null,
+      "options": [
+        "Punjab",
+        "Andhra Pradesh",
+        "West Bengal",
+        "Gujarat"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (West Bengal) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 12,
+      "section": "General Awareness",
+      "question": "The book ‘City of Djinns: A Year in Delhi’ was written by which of the following authors?",
+      "question_image": null,
+      "options": [
+        "Khushwant Singh",
+        "Ruskin Bond",
+        "William Dalrymple",
+        "Aravind Adiga"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (William Dalrymple) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 13,
+      "section": "General Awareness",
+      "question": "Which of the following is NOT an oil seed covered under the Atmanirbhar Oil Seeds Abhiyan?",
+      "question_image": null,
+      "options": [
+        "Groundnut",
+        "Mustard",
+        "Sesame",
+        "Corn"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Corn) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 14,
+      "section": "General Awareness",
+      "question": "What is the collective term for commemorating the birthdays of all the Sikh Gurus?",
+      "question_image": null,
+      "options": [
+        "Guru Jayanti",
+        "Akhand Path",
+        "Hola Mohalla",
+        "Gurupurab"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (Gurupurab) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 15,
+      "section": "General Awareness",
+      "question": "Who was the Chief Guest at the National Conference on Education, Inclusion, and Empowerment of Minority Communities, hosted by the National Commission for Minorities on 25 March 2025?",
+      "question_image": null,
+      "options": [
+        "Manu Bhaker",
+        "Kiren Rijiju",
+        "Justice Ajay Manikrao Khanwilkar",
+        "Justice Sanjiv Khanna"
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (Kiren Rijiju) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 16,
+      "section": "General Awareness",
+      "question": "Thaipusam is a significant festival for which deity in Tamil Hindu tradition?",
+      "question_image": null,
+      "options": [
+        "Shiva",
+        "Ganesha",
+        "Murugan",
+        "Vishnu"
+      ],
+      "option_images": [],
+      "answer": 2,
+      "explanation": "सही उत्तर विकल्प 'C' (Murugan) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 17,
+      "section": "General Awareness",
+      "question": "In which of the following years was the provision of the Overseas Citizenship of India introduced?",
+      "question_image": null,
+      "options": [
+        "2000",
+        "2003",
+        "2004",
+        "2005"
+      ],
+      "option_images": [],
+      "answer": 3,
+      "explanation": "सही उत्तर विकल्प 'D' (2005) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 18,
+      "section": "General Awareness",
+      "question": "Which of the following statements correctly describes the e-rupee introduced by the Reserve Bank of India?",
+      "question_image": null,
+      "options": [
+        "It is a UPI-based platform for bank transfers only.",
+        "It is India’s Central Bank Digital Currency (CBDC).",
+        "It is a digital token issued by commercial banks.",
+        "It is a private cryptocurrency with no RBI backing."
+      ],
+      "option_images": [],
+      "answer": 1,
+      "explanation": "सही उत्तर विकल्प 'B' (It is India’s Central Bank Digital Currency (CBDC).) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 19,
+      "section": "General Awareness",
+      "question": "Which of the following technologies helps detect genetic abnormalities in foetuses using small fragments of DNA in maternal blood?",
+      "question_image": null,
+      "options": [
+        "Non-invasive prenatal testing (NIPT)",
+        "Pre-invasive prenatal testing (PIPT)",
+        "Post-invasive prenatal testing (PIPT)",
+        "Systemic-invasive prenatal testing (SIPT)"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (Non-invasive prenatal testing (NIPT)) है।",
+      "explanation_image": null
+    },
+    {
+      "id": 20,
+      "section": "General Awareness",
+      "question": "The Deccan Plateau is a _______ landmass that lies to the south of the Narmada river.",
+      "question_image": null,
+      "options": [
+        "triangular",
+        "circular",
+        "square",
+        "rectangular"
+      ],
+      "option_images": [],
+      "answer": 0,
+      "explanation": "सही उत्तर विकल्प 'A' (triangular) है।",
+      "explanation_image": null
+    }
+  ]
+}

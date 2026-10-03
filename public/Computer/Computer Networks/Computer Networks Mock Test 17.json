@@ -1,0 +1,226 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "section": "Computer Networks",
+      "question": "Data for traffic monitoring can be sampled at the data link layer...",
+      "options": [
+        "A) True",
+        "B) False"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 2,
+      "section": "Computer Networks",
+      "question": "Traffic monitoring tools like Wireshark capture network packets by placing the NIC (Network Interface Card) in...",
+      "options": [
+        "A) Promiscuous mode",
+        "B) Broadcast mode",
+        "C) Multicast mode",
+        "D) Loopback mode"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 3,
+      "section": "Computer Networks",
+      "question": "Which tool can be used to inspect live network traffic and capture packet headers/payloads?",
+      "options": [
+        "A) Wireshark / tcpdump",
+        "B) Ping",
+        "C) Traceroute",
+        "D) Ipconfig"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 4,
+      "section": "Computer Networks",
+      "question": "In SNMP, what is a MIB (Management Information Base)?",
+      "options": [
+        "A) A hierarchical database that defines managed objects in network devices",
+        "B) An encryption engine used for SNMPv3",
+        "C) A physical memory module inside routers",
+        "D) A routing protocol used for network discovery"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 5,
+      "section": "Computer Networks",
+      "question": "Which port does SNMP agent listen on for requests?",
+      "options": [
+        "A) Port 161 (UDP)",
+        "B) Port 162 (UDP)",
+        "C) Port 80 (TCP)",
+        "D) Port 443 (TCP)"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 6,
+      "section": "Computer Networks",
+      "question": "Which port does SNMP manager listen on for Trap notifications?",
+      "options": [
+        "A) Port 162 (UDP)",
+        "B) Port 161 (UDP)",
+        "C) Port 53 (UDP)",
+        "D) Port 67 (UDP)"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 7,
+      "section": "Computer Networks",
+      "question": "Which version of SNMP added support for cryptographic security (encryption and authentication)?",
+      "options": [
+        "A) SNMPv3",
+        "B) SNMPv1",
+        "C) SNMPv2c",
+        "D) SNMPv2"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 8,
+      "section": "Computer Networks",
+      "question": "What is Quality of Service (QoS) in networking?",
+      "options": [
+        "A) Mechanisms used to manage network resources and guarantee performance levels for critical traffic",
+        "B) Testing physical wire integrity before deployment",
+        "C) Automatic error correction using Hamming codes at physical layer",
+        "D) Assigning static IP addresses to high priority servers"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 9,
+      "section": "Computer Networks",
+      "question": "Which traffic shaping algorithm regulates bursty traffic by allowing data to leak out of a buffer at a constant rate?",
+      "options": [
+        "A) Leaky Bucket Algorithm",
+        "B) Token Bucket Algorithm",
+        "C) Weighted Fair Queueing",
+        "D) Random Early Detection"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 10,
+      "section": "Computer Networks",
+      "question": "Which traffic shaping algorithm permits bursty traffic up to a maximum token capacity limit?",
+      "options": [
+        "A) Token Bucket Algorithm",
+        "B) Leaky Bucket Algorithm",
+        "C) First-Come First-Served Queueing",
+        "D) Priority Queueing"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 11,
+      "section": "Computer Networks",
+      "question": "What is Content Delivery Network (CDN)?",
+      "options": [
+        "A) A geographically distributed network of proxy servers that caches content close to end users",
+        "B) A centralized database containing user login credentials",
+        "C) A private satellite link connecting corporate offices",
+        "D) A hardware switch used inside internet exchanges"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 12,
+      "section": "Computer Networks",
+      "question": "What is the primary benefit of using a CDN?",
+      "options": [
+        "A) Reduced latency and faster load times for web content",
+        "B) Automatic encryption of database tables",
+        "C) Eliminates the need for DNS servers",
+        "D) Replaces transport layer TCP protocols"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 13,
+      "section": "Computer Networks",
+      "question": "In HTTP/1.1, persistent connections allow multiple HTTP requests to be sent over...",
+      "options": [
+        "A) A single TCP connection without reopening new ones",
+        "B) Multiple UDP datagram streams simultaneously",
+        "C) An unencrypted ICMP channel",
+        "D) Parallel raw socket connections"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 14,
+      "section": "Computer Networks",
+      "question": "What major enhancement did HTTP/2 introduce over HTTP/1.1?",
+      "options": [
+        "A) Multiplexing multiple requests over a single TCP connection, binary framing, and header compression (HPACK)",
+        "B) Replacing TCP with UDP at transport layer",
+        "C) Mandatory inclusion of SSL without TLS support",
+        "D) Elimination of status codes"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 15,
+      "section": "Computer Networks",
+      "question": "HTTP/3 uses which transport layer protocol instead of TCP?",
+      "options": [
+        "A) QUIC (built on top of UDP)",
+        "B) SCTP",
+        "C) DCCP",
+        "D) Raw IP"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 16,
+      "section": "Computer Networks",
+      "question": "What is the primary advantage of HTTP/3 using QUIC?",
+      "options": [
+        "A) Reduced connection establishment latency and elimination of head-of-line blocking across streams",
+        "B) Elimination of encryption requirements",
+        "C) Faster DNS lookups",
+        "D) Backwards compatibility with IPv2"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    }
+  ]
+}

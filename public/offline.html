@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Offline Mode | DSSSB PYQ Online</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 24px;
+      text-align: center;
+    }
+    .card {
+      background-color: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 20px;
+      padding: 32px 24px;
+      max-width: 440px;
+      width: 100%;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+    }
+    .icon-container {
+      width: 64px;
+      height: 64px;
+      background-color: rgba(239, 68, 68, 0.15);
+      border: 1px solid rgba(239, 68, 68, 0.3);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+      font-size: 28px;
+    }
+    h1 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #ffffff;
+      margin-bottom: 12px;
+      letter-spacing: -0.02em;
+    }
+    p {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #94a3b8;
+      margin-bottom: 24px;
+    }
+    .btn {
+      display: inline-block;
+      width: 100%;
+      min-height: 48px;
+      line-height: 48px;
+      background-color: #4f46e5;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 700;
+      border: none;
+      border-radius: 12px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+    .btn:hover, .btn:focus-visible {
+      background-color: #4338ca;
+      outline: 2px solid #818cf8;
+      outline-offset: 2px;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="icon-container" aria-hidden="true">📡</div>
+    <h1>You are Currently Offline</h1>
+    <p>Please check your internet connection. Previously loaded mock tests remain accessible from your offline cache.</p>
+    <button class="btn" onclick="window.location.reload()">Retry Connection</button>
+  </main>
+</body>
+</html>

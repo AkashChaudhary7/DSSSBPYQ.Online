@@ -1,0 +1,704 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "section": "Computer Networks",
+      "question": "The password is sent to the server using...",
+      "options": [
+        "A) PASS command",
+        "B) USER command",
+        "C) PWD command",
+        "D) PORT command"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 2,
+      "section": "Computer Networks",
+      "question": "When a DNS server accepts and uses incorrect information from a host that has no authority giving that information, it is called...",
+      "options": [
+        "A) DNS spoofing",
+        "B) DNS lookup",
+        "C) DNS hijacking",
+        "D) DNS poison"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 3,
+      "section": "Computer Networks",
+      "question": "Which protocol is used for network management and monitoring?",
+      "options": [
+        "A) SNMP",
+        "B) SMTP",
+        "C) ICMP",
+        "D) IGMP"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 4,
+      "section": "Computer Networks",
+      "question": "Which layer of the OSI model handles data compression, encryption, and translation?",
+      "options": [
+        "A) Presentation layer",
+        "B) Session layer",
+        "C) Application layer",
+        "D) Transport layer"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 5,
+      "section": "Computer Networks",
+      "question": "Which layer establishes, manages, and terminates sessions between applications?",
+      "options": [
+        "A) Session layer",
+        "B) Presentation layer",
+        "C) Transport layer",
+        "D) Application layer"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 6,
+      "section": "Computer Networks",
+      "question": "In the TCP/IP model, which layer corresponds to both the physical and data link layers of the OSI model?",
+      "options": [
+        "A) Network Access layer",
+        "B) Internet layer",
+        "C) Transport layer",
+        "D) Application layer"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 7,
+      "section": "Computer Networks",
+      "question": "What is the maximum number of IP addresses that can be represented in IPv4?",
+      "options": [
+        "A) ~4.3 billion (2^32)",
+        "B) ~3.4 x 10^38 (2^128)",
+        "C) ~65,536 (2^16)",
+        "D) ~16.7 million (2^24)"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 8,
+      "section": "Computer Networks",
+      "question": "Which of the following is a valid private IPv4 address range according to RFC 1918?",
+      "options": [
+        "A) 10.0.0.0 - 10.255.255.255",
+        "B) 172.16.0.0 - 172.31.255.255",
+        "C) 192.168.0.0 - 192.168.255.255",
+        "D) All of the mentioned"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": 9,
+      "section": "Computer Networks",
+      "question": "Which protocol is used by ping to test network reachability?",
+      "options": [
+        "A) ICMP",
+        "B) IGMP",
+        "C) ARP",
+        "D) TCP"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 10,
+      "section": "Computer Networks",
+      "question": "What does ICMP stand for?",
+      "options": [
+        "A) Internet Control Message Protocol",
+        "B) Internet Communication Management Protocol",
+        "C) Information Control Message Protocol",
+        "D) Inter-Computer Message Protocol"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 11,
+      "section": "Computer Networks",
+      "question": "What does IGMP stand for?",
+      "options": [
+        "A) Internet Group Management Protocol",
+        "B) Internet Gateway Message Protocol",
+        "C) Information Group Management Protocol",
+        "D) Inter-Gateway Multicast Protocol"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 12,
+      "section": "Computer Networks",
+      "question": "IGMP is primarily used for...",
+      "options": [
+        "A) Multicast group membership management",
+        "B) Unicast routing",
+        "C) Error reporting in IPv4",
+        "D) Domain name resolution"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 13,
+      "section": "Computer Networks",
+      "question": "What is the range of Class A IPv4 addresses?",
+      "options": [
+        "A) 1.0.0.0 to 126.255.255.255",
+        "B) 128.0.0.0 to 191.255.255.255",
+        "C) 192.0.0.0 to 223.255.255.255",
+        "D) 224.0.0.0 to 239.255.255.255"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 14,
+      "section": "Computer Networks",
+      "question": "What is the range of Class B IPv4 addresses?",
+      "options": [
+        "A) 128.0.0.0 to 191.255.255.255",
+        "B) 1.0.0.0 to 126.255.255.255",
+        "C) 192.0.0.0 to 223.255.255.255",
+        "D) 224.0.0.0 to 239.255.255.255"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 15,
+      "section": "Computer Networks",
+      "question": "What is the range of Class C IPv4 addresses?",
+      "options": [
+        "A) 192.0.0.0 to 223.255.255.255",
+        "B) 128.0.0.0 to 191.255.255.255",
+        "C) 1.0.0.0 to 126.255.255.255",
+        "D) 224.0.0.0 to 239.255.255.255"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 16,
+      "section": "Computer Networks",
+      "question": "Class D IPv4 addresses are reserved for...",
+      "options": [
+        "A) Multicasting",
+        "B) Experimental use",
+        "C) Unicast host addressing",
+        "D) Broadcast addressing"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 17,
+      "section": "Computer Networks",
+      "question": "Class E IPv4 addresses are reserved for...",
+      "options": [
+        "A) Experimental and future research use",
+        "B) Multicasting",
+        "C) Private LAN addressing",
+        "D) Public routing"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 18,
+      "section": "Computer Networks",
+      "question": "What is the default subnet mask for a Class A network?",
+      "options": [
+        "A) 255.0.0.0",
+        "B) 255.255.0.0",
+        "C) 255.255.255.0",
+        "D) 255.255.255.255"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 19,
+      "section": "Computer Networks",
+      "question": "What is the default subnet mask for a Class B network?",
+      "options": [
+        "A) 255.255.0.0",
+        "B) 255.0.0.0",
+        "C) 255.255.255.0",
+        "D) 255.255.255.128"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 20,
+      "section": "Computer Networks",
+      "question": "What is the default subnet mask for a Class C network?",
+      "options": [
+        "A) 255.255.255.0",
+        "B) 255.255.0.0",
+        "C) 255.0.0.0",
+        "D) 255.255.255.192"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 21,
+      "section": "Computer Networks",
+      "question": "Which algorithm is used in Token Ring network to manage channel access?",
+      "options": [
+        "A) Token passing",
+        "B) CSMA/CD",
+        "C) CSMA/CA",
+        "D) Slotted ALOHA"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 22,
+      "section": "Computer Networks",
+      "question": "What does FDDI stand for?",
+      "options": [
+        "A) Fiber Distributed Data Interface",
+        "B) Fiber Data Distribution Interface",
+        "C) Fast Distributed Data Interface",
+        "D) Fiber Direct Data Interconnect"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 23,
+      "section": "Computer Networks",
+      "question": "FDDI utilizes which underlying topology and medium?",
+      "options": [
+        "A) Dual ring topology with fiber optic cable",
+        "B) Star topology with coaxial cable",
+        "C) Bus topology with twisted pair cable",
+        "D) Mesh topology with wireless links"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 24,
+      "section": "Computer Networks",
+      "question": "Which protocol operates at the Application layer and provides web browsing capabilities?",
+      "options": [
+        "A) HTTP",
+        "B) IP",
+        "C) TCP",
+        "D) ARP"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 25,
+      "section": "Computer Networks",
+      "question": "Which header field in TCP indicates the next expected byte sequence number?",
+      "options": [
+        "A) Acknowledgment number",
+        "B) Sequence number",
+        "C) Window size",
+        "D) Checksum"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 26,
+      "section": "Computer Networks",
+      "question": "What is the size of the TCP header without options?",
+      "options": [
+        "A) 20 bytes",
+        "B) 8 bytes",
+        "C) 32 bytes",
+        "D) 40 bytes"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 27,
+      "section": "Computer Networks",
+      "question": "What is the size of the UDP header?",
+      "options": [
+        "A) 8 bytes",
+        "B) 20 bytes",
+        "C) 16 bytes",
+        "D) 12 bytes"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 28,
+      "section": "Computer Networks",
+      "question": "Which four fields are present in a UDP header?",
+      "options": [
+        "A) Source Port, Destination Port, Length, Checksum",
+        "B) Source IP, Destination IP, Length, Checksum",
+        "C) Sequence Number, Ack Number, Window, Checksum",
+        "D) Source Port, Destination Port, Sequence Number, Flags"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 29,
+      "section": "Computer Networks",
+      "question": "In the TCP 3-way handshake, what flags are sent in sequence?",
+      "options": [
+        "A) SYN -> SYN-ACK -> ACK",
+        "B) ACK -> SYN -> SYN-ACK",
+        "C) SYN -> ACK -> FIN",
+        "D) FIN -> FIN-ACK -> ACK"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 30,
+      "section": "Computer Networks",
+      "question": "Which flag in TCP is used to terminate a connection gracefully?",
+      "options": [
+        "A) FIN",
+        "B) RST",
+        "C) SYN",
+        "D) PSH"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 31,
+      "section": "Computer Networks",
+      "question": "Which flag in TCP is used to abort an existing connection immediately?",
+      "options": [
+        "A) RST",
+        "B) FIN",
+        "C) URG",
+        "D) ECE"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 32,
+      "section": "Computer Networks",
+      "question": "What is the purpose of the Congestion Window (cwnd) in TCP?",
+      "options": [
+        "A) To control the amount of data the sender can transmit into the network before receiving an ACK",
+        "B) To advertise the receiver's buffer capacity",
+        "C) To define the maximum segment size of physical medium",
+        "D) To limit total connection duration"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 33,
+      "section": "Computer Networks",
+      "question": "In TCP congestion control, what phase follows Slow Start after the threshold (ssthresh) is reached?",
+      "options": [
+        "A) Congestion Avoidance",
+        "B) Fast Retransmit",
+        "C) Fast Recovery",
+        "D) Exponential Backoff"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 34,
+      "section": "Computer Networks",
+      "question": "What triggers TCP Fast Retransmit?",
+      "options": [
+        "A) Receiving 3 duplicate ACKs",
+        "B) Retransmission timeout expiry",
+        "C) Receiving a RST packet",
+        "D) Buffer overflow notification"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 35,
+      "section": "Computer Networks",
+      "question": "What is the main function of a router?",
+      "options": [
+        "A) Forwarding packets between different networks based on logical addresses",
+        "B) Regenerating electrical signals in physical cable",
+        "C) Filtering frame traffic based on physical MAC addresses within a LAN",
+        "D) Converting digital signals to analog for telephone lines"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 36,
+      "section": "Computer Networks",
+      "question": "Which routing protocol is an Exterior Gateway Protocol (EGP)?",
+      "options": [
+        "A) BGP",
+        "B) OSPF",
+        "C) RIP",
+        "D) EIGRP"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 37,
+      "section": "Computer Networks",
+      "question": "Which of the following is an Interior Gateway Protocol (IGP)?",
+      "options": [
+        "A) OSPF",
+        "B) BGP",
+        "C) EGP",
+        "D) X.25"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 38,
+      "section": "Computer Networks",
+      "question": "What metric does RIP (Routing Information Protocol) use to determine the best path?",
+      "options": [
+        "A) Hop count",
+        "B) Bandwidth and delay",
+        "C) Cost based on link speed",
+        "D) Path vector list"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 39,
+      "section": "Computer Networks",
+      "question": "What is the maximum hop count allowed in RIP before a route is considered unreachable?",
+      "options": [
+        "A) 15 (16 is unreachable)",
+        "B) 255",
+        "C) 100",
+        "D) 30"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 40,
+      "section": "Computer Networks",
+      "question": "What is the primary function of a Gateway in computer networks?",
+      "options": [
+        "A) Connects two networks using different protocol suites by translating data",
+        "B) Connects network segments at the data link layer without protocol translation",
+        "C) Acts as a simple electrical repeater",
+        "D) Filters packets based solely on IP addresses"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 41,
+      "section": "Computer Networks",
+      "question": "In wireless networking, what does SSID stand for?",
+      "options": [
+        "A) Service Set Identifier",
+        "B) System Security Identifier",
+        "C) Signal Strength Indicator Device",
+        "D) Secure Station Identifier"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 42,
+      "section": "Computer Networks",
+      "question": "Which IEEE standard defines Wireless LAN (Wi-Fi)?",
+      "options": [
+        "A) IEEE 802.11",
+        "B) IEEE 802.3",
+        "C) IEEE 802.15",
+        "D) IEEE 802.1"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 43,
+      "section": "Computer Networks",
+      "question": "Which IEEE standard defines Ethernet?",
+      "options": [
+        "A) IEEE 802.3",
+        "B) IEEE 802.11",
+        "C) IEEE 802.15.1",
+        "D) IEEE 802.16"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 44,
+      "section": "Computer Networks",
+      "question": "Which IEEE standard defines Bluetooth?",
+      "options": [
+        "A) IEEE 802.15.1",
+        "B) IEEE 802.11",
+        "C) IEEE 802.3",
+        "D) IEEE 802.16"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 45,
+      "section": "Computer Networks",
+      "question": "Which encryption protocol was designed as an enhancement to WEP for Wi-Fi security?",
+      "options": [
+        "A) WPA",
+        "B) DES",
+        "C) RSA",
+        "D) MD5"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 46,
+      "section": "Computer Networks",
+      "question": "WPA2 uses which strong encryption algorithm?",
+      "options": [
+        "A) AES (Advanced Encryption Standard)",
+        "B) DES (Data Encryption Standard)",
+        "C) RC4",
+        "D) Blowfish"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 47,
+      "section": "Computer Networks",
+      "question": "What type of attack involves an adversary secretly relaying and possibly altering communications between two parties?",
+      "options": [
+        "A) Man-in-the-Middle (MitM) attack",
+        "B) Denial of Service (DoS) attack",
+        "C) SQL Injection",
+        "D) Buffer Overflow"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 48,
+      "section": "Computer Networks",
+      "question": "What is ARP Spoofing / ARP Poisoning?",
+      "options": [
+        "A) Sending fake ARP messages onto a LAN to associate the attacker's MAC address with the IP address of a legitimate target",
+        "B) Overwhelming a DNS server with invalid domain queries",
+        "C) Intercepting satellite signals to manipulate data",
+        "D) Injecting malicious code into web application input forms"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 49,
+      "section": "Computer Networks",
+      "question": "What is SSL/TLS primarily used for?",
+      "options": [
+        "A) Securing communication over a computer network by providing encryption and authentication",
+        "B) Routing IP packets across autonomous systems",
+        "C) Managing network device configurations remotely",
+        "D) Allocating dynamic IP addresses to connected clients"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": 50,
+      "section": "Computer Networks",
+      "question": "TLS operates between which two layers of the OSI model?",
+      "options": [
+        "A) Transport layer and Application layer",
+        "B) Network layer and Data link layer",
+        "C) Physical layer and Data link layer",
+        "D) Session layer and Presentation layer"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": ""
+    }
+  ]
+}

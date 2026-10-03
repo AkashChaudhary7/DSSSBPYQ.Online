@@ -1,0 +1,214 @@
+{
+  "entities": {
+    "AnalyticsGlobal": {
+      "title": "AnalyticsGlobal",
+      "description": "Global website metrics and visitor counters",
+      "type": "object",
+      "properties": {
+        "total_visitors": {
+          "type": "integer",
+          "description": "The accumulated global visitor count since deployment"
+        },
+        "last_updated": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp of the last increment"
+        }
+      },
+      "required": ["total_visitors"]
+    },
+    "PaymentUTR": {
+      "title": "PaymentUTR",
+      "description": "User submitted UPI payment UTR transaction record for admin verification",
+      "type": "object",
+      "properties": {
+        "utr": {
+          "type": "string",
+          "description": "12-digit UPI UTR transaction reference ID"
+        },
+        "phone": {
+          "type": "string",
+          "description": "Candidate mobile number"
+        },
+        "candidateName": {
+          "type": "string",
+          "description": "Candidate full name"
+        },
+        "plan": {
+          "type": "string",
+          "description": "Selected plan id (lifetime_99, standard_49, monthly_19)"
+        },
+        "amount": {
+          "type": "integer",
+          "description": "Amount paid in INR"
+        },
+        "promoCode": {
+          "type": "string",
+          "description": "Referral code used"
+        },
+        "timestamp": {
+          "type": "integer",
+          "description": "Epoch timestamp of submission"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["pending_verification", "verified", "flagged_fraud"],
+          "description": "Admin verification status"
+        },
+        "verifiedAt": {
+          "type": "integer",
+          "description": "Timestamp when admin verified or flagged"
+        },
+        "adminNotes": {
+          "type": "string",
+          "description": "Optional notes from admin"
+        }
+      },
+      "required": ["utr", "phone", "plan", "amount", "timestamp", "status"]
+    },
+    "PayoutRequestRecord": {
+      "title": "PayoutRequestRecord",
+      "description": "Referral earnings withdrawal payout requests to UPI",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Payout request ID"
+        },
+        "upiId": {
+          "type": "string",
+          "description": "Target UPI ID for payout"
+        },
+        "phone": {
+          "type": "string",
+          "description": "Referrer phone number"
+        },
+        "amount": {
+          "type": "integer",
+          "description": "Amount in INR"
+        },
+        "referralCode": {
+          "type": "string",
+          "description": "Referrer code"
+        },
+        "timestamp": {
+          "type": "integer",
+          "description": "Submission timestamp"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["pending", "paid", "rejected"],
+          "description": "Payout processing status"
+        },
+        "transferUtr": {
+          "type": "string",
+          "description": "Bank/UPI transfer UTR by admin"
+        }
+      },
+      "required": ["id", "upiId", "phone", "amount", "timestamp", "status"]
+    },
+    "AdminActivationCode": {
+      "title": "AdminActivationCode",
+      "description": "Administrator generated one-time or time-limited activation and restore codes",
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string",
+          "description": "Unique activation code string"
+        },
+        "plan": {
+          "type": "string",
+          "description": "Associated pass plan (lifetime_99, standard_49, monthly_19)"
+        },
+        "maxUses": {
+          "type": "integer",
+          "description": "Maximum allowed redemption uses (1 for single-use)"
+        },
+        "usedCount": {
+          "type": "integer",
+          "description": "Number of times this code has been used"
+        },
+        "expiresAt": {
+          "type": "integer",
+          "description": "Optional expiry timestamp in milliseconds"
+        },
+        "createdAt": {
+          "type": "integer",
+          "description": "Creation timestamp in milliseconds"
+        },
+        "createdBy": {
+          "type": "string",
+          "description": "Admin creator identifier"
+        },
+        "targetCandidate": {
+          "type": "string",
+          "description": "Optional student email or phone note"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["active", "used", "expired", "revoked"],
+          "description": "Current code status"
+        }
+      },
+      "required": ["code", "plan", "maxUses", "usedCount", "createdAt", "status"]
+    },
+    "CustomQuiz": {
+      "title": "CustomQuiz",
+      "description": "A user-uploaded or administrator-defined custom mock test",
+      "type": "object",
+      "properties": {
+        "testId": {
+          "type": "string",
+          "description": "The unique identifier of the mock test"
+        },
+        "title": {
+          "type": "string",
+          "description": "The title of the mock test"
+        },
+        "totalTimeMinutes": {
+          "type": "integer",
+          "description": "Allowed duration in minutes"
+        },
+        "category": {
+          "type": "string",
+          "description": "Subject category group (part_a, part_b, full)"
+        },
+        "subject": {
+          "type": "string",
+          "description": "Subject name"
+        },
+        "topic": {
+          "type": "string",
+          "description": "Specific syllabus topic name"
+        },
+        "questions": {
+          "type": "array",
+          "description": "The list of standard question structures"
+        }
+      },
+      "required": ["testId", "title", "questions"]
+    }
+  },
+  "firestore": {
+    "/analytics/global": {
+      "schema": "AnalyticsGlobal",
+      "description": "Path to the singleton global analytics metrics document"
+    },
+    "/custom_quizzes/{quizId}": {
+      "schema": "CustomQuiz",
+      "description": "Collection of all custom/uploaded mock tests available globally"
+    },
+    "/payment_utrs/{utrId}": {
+      "schema": "PaymentUTR",
+      "description": "Submitted UPI UTR transactions for access validation and admin verification"
+    },
+    "/payout_requests/{requestId}": {
+      "schema": "PayoutRequestRecord",
+      "description": "Referral payout withdrawal requests to UPI"
+    },
+    "/admin_activation_codes/{codeId}": {
+      "schema": "AdminActivationCode",
+      "description": "One-time and time-limited pass activation and restore codes generated by admin"
+    }
+  }
+}

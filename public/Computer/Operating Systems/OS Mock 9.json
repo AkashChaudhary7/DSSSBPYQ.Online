@@ -1,0 +1,656 @@
+{
+  "test_title": "OS Mock 9",
+  "total_questions": 50,
+  "questions": [
+    {
+      "id": 1,
+      "section": "Operating System",
+      "question": "Which of the following is a feature of a ‘right’?",
+      "options": [
+        "A) It can be revoked by the government at any time",
+        "B) It is a power granted by the people",
+        "C) It is a fundamental entitlement guaranteed by law",
+        "D) It is a privilege that can be taken away"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 2,
+      "section": "Operating System",
+      "question": "What is the role of opposition parties in a democracy?",
+      "options": [
+        "A) To criticize and hold the government accountable",
+        "B) To support the ruling party",
+        "C) To control the media",
+        "D) To replace the ruling party immediately"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 3,
+      "section": "Operating System",
+      "question": "What is the primary purpose of a constitution in a democracy?",
+      "options": [
+        "A) To give more power to the government",
+        "B) To regulate the military",
+        "C) To limit the rights of citizens",
+        "D) To define the structure of government and protect rights"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 4,
+      "section": "Operating System",
+      "question": "Who can contest elections in a democracy?",
+      "options": [
+        "A) Only members of the ruling party",
+        "B) Only the rich and powerful",
+        "C) Anyone who meets the legal qualifications",
+        "D) Only appointed officials"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 5,
+      "section": "Operating System",
+      "question": "What is the role of citizens in a democracy?",
+      "options": [
+        "A) To obey all orders from the government",
+        "B) To participate in elections and other democratic processes",
+        "C) To remain silent and passive",
+        "D) To work for the government only"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 6,
+      "section": "Operating System",
+      "question": "What is the main difference between a democracy and a dictatorship?",
+      "options": [
+        "A) In democracy, people elect their leaders; in dictatorship, leaders are not elected",
+        "B) Democracy allows free speech, but dictatorship does not",
+        "C) Democracy supports human rights, but dictatorship does not",
+        "D) All of the mentioned"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 7,
+      "section": "Operating System",
+      "question": "Who is responsible for enforcing the law in a democracy?",
+      "options": [
+        "A) The military",
+        "B) The executive branch of government",
+        "C) The judicial system",
+        "D) Citizens"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 8,
+      "section": "Operating System",
+      "question": "Which body is responsible for conducting elections in India?",
+      "options": [
+        "A) Election Commission",
+        "B) Parliament",
+        "C) Judiciary",
+        "D) Political parties"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 9,
+      "section": "Operating System",
+      "question": "What does “majority rule” mean in a democracy?",
+      "options": [
+        "A) The minority has all the power",
+        "B) Only the wealthy can decide laws",
+        "C) The largest group of elected representatives makes decisions",
+        "D) The ruler makes all decisions alone"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 10,
+      "section": "Operating System",
+      "question": "Who can become the Prime Minister in India?",
+      "options": [
+        "A) Any citizen",
+        "B) Only the wealthy",
+        "C) Only the President",
+        "D) Any member of Parliament"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 11,
+      "section": "Operating System",
+      "question": "What is the role of the media in a democracy?",
+      "options": [
+        "A) To support only the ruling party",
+        "B) To report unbiased news and inform citizens",
+        "C) To limit citizens’ access to information",
+        "D) To act as a propaganda tool for the government"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 12,
+      "section": "Operating System",
+      "question": "What is a “coalition government”?",
+      "options": [
+        "A) A government formed by multiple parties working together",
+        "B) A government controlled by the military",
+        "C) A government run by one party",
+        "D) A government with no elected representatives"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 13,
+      "section": "Operating System",
+      "question": "What is the “Right to Information” in India?",
+      "options": [
+        "A) The right to only vote in elections",
+        "B) The right to start a business",
+        "C) The right to receive any public service for free",
+        "D) The right to access government records and information"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 14,
+      "section": "Operating System",
+      "question": "What is the function of the Election Commission of India?",
+      "options": [
+        "A) To create political parties",
+        "B) To control media outlets",
+        "C) To make laws",
+        "D) To conduct free and fair elections"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 15,
+      "section": "Operating System",
+      "question": "What is “civil society”?",
+      "options": [
+        "A) The military and police forces",
+        "B) The part of society controlled by the government",
+        "C) A society with no political rights",
+        "D) The part of society that consists of organizations and groups working to promote human rights and democracy"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 16,
+      "section": "Operating System",
+      "question": "Who is responsible for safeguarding the rights of citizens in a democracy?",
+      "options": [
+        "A) The President",
+        "B) The Judiciary",
+        "C) The Military",
+        "D) The Prime Minister"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 17,
+      "section": "Operating System",
+      "question": "Which article of the Indian Constitution deals with the ‘Right Against Exploitation’?",
+      "options": [
+        "A) Article 23",
+        "B) Article 19",
+        "C) Article 17",
+        "D) Article 21"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 18,
+      "section": "Operating System",
+      "question": "Which of the following is a feature of the electoral system in India?",
+      "options": [
+        "A) Voting is compulsory",
+        "B) Only the rich can vote",
+        "C) Citizens elect their representatives in free and fair elections",
+        "D) It is based on a monarchy"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 19,
+      "section": "Operating System",
+      "question": "What is electoral politics?",
+      "options": [
+        "A) Politics related to economic policies",
+        "B) Politics related to the voting process and elections",
+        "C) Politics related to the military",
+        "D) Politics related to international relations"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 20,
+      "section": "Operating System",
+      "question": "Why are elections held in a democracy?",
+      "options": [
+        "A) To promote dictatorship",
+        "B) To ensure that one leader holds all the power",
+        "C) To allow citizens to choose their representatives and hold them accountable",
+        "D) To reduce the influence of political parties"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 21,
+      "section": "Operating System",
+      "question": "What are democratic rights?",
+      "options": [
+        "A) Rights given only during emergencies",
+        "B) Rights granted only to a few citizens",
+        "C) Rights that can be revoked at any time",
+        "D) Rights that protect individual freedoms and ensure participation in political life"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 22,
+      "section": "Operating System",
+      "question": "Which of the following is a democratic right guaranteed by the Constitution?",
+      "options": [
+        "A) Right to freedom of speech and expression",
+        "B) Right to receive a government salary",
+        "C) Right to inherit property",
+        "D) Right to own a business"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 23,
+      "section": "Operating System",
+      "question": "What does universal adult franchise mean?",
+      "options": [
+        "A) Voting is restricted to government employees",
+        "B) Only educated citizens can vote",
+        "C) All adults, regardless of their wealth or education, have the right to vote",
+        "D) All citizens must vote"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 24,
+      "section": "Operating System",
+      "question": "What is the role of the legislature in a democracy?",
+      "options": [
+        "A) To administer the military",
+        "B) To appoint judges",
+        "C) To enforce laws",
+        "D) To make laws and pass budgets"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 25,
+      "section": "Operating System",
+      "question": "What is the main purpose of the Parliament in India?",
+      "options": [
+        "A) To handle diplomatic relations",
+        "B) To make and amend laws, represent the people, and oversee the executive",
+        "C) To control the judiciary",
+        "D) To enforce laws"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 26,
+      "section": "Operating System",
+      "question": "What was a major feature of the South African Constitution post-apartheid?",
+      "options": [
+        "A) It legalized segregation",
+        "B) It gave full power to the military",
+        "C) It promoted equality and ended racial segregation",
+        "D) It abolished voting rights for all citizens"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 27,
+      "section": "Operating System",
+      "question": "What is the role of a voter’s list?",
+      "options": [
+        "A) To decide who wins the election",
+        "B) To set the electoral date",
+        "C) To monitor campaign speeches",
+        "D) To determine the eligibility of voters"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 28,
+      "section": "Operating System",
+      "question": "What is the process of polling in elections?",
+      "options": [
+        "A) Campaigning for a party",
+        "B) Voting to select representatives",
+        "C) Counting the votes after elections",
+        "D) Announcing election results"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 29,
+      "section": "Operating System",
+      "question": "How is a major policy decision taken in a democracy?",
+      "options": [
+        "A) By the military",
+        "B) By one individual leader",
+        "C) By elected representatives through discussion and consensus",
+        "D) By a non-elected body"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 30,
+      "section": "Operating System",
+      "question": "Which of the following is an example of cultural rights?",
+      "options": [
+        "A) Right to vote",
+        "B) Right to own property",
+        "C) Right to freedom of religion",
+        "D) Right to preserve one’s language and culture"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 31,
+      "section": "Operating System",
+      "question": "What is the purpose of elections in a democracy?",
+      "options": [
+        "A) To limit political participation",
+        "B) To choose leaders and representatives",
+        "C) To make laws directly",
+        "D) To suppress opposition"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 32,
+      "section": "Operating System",
+      "question": "What is the right to equality?",
+      "options": [
+        "A) Everyone must be treated the same by the government",
+        "B) Some people are given more privileges",
+        "C) Only rich people are equal before the law",
+        "D) It restricts the rights of citizens"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 33,
+      "section": "Operating System",
+      "question": "What does the Right to Information (RTI) allow citizens to do?",
+      "options": [
+        "A) To restrict access to government records",
+        "B) To seek information from the government",
+        "C) To stop government decisions",
+        "D) To refuse to participate in elections"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 34,
+      "section": "Operating System",
+      "question": "Which of the following is an example of direct democracy?",
+      "options": [
+        "A) Citizens electing representatives to make decisions for them",
+        "B) A monarchy where a king decides on the laws",
+        "C) Citizens voting on a specific law or policy directly",
+        "D) Citizens having no role in decision-making"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 35,
+      "section": "Operating System",
+      "question": "Which of the following is NOT a guiding value of the Indian Constitution?",
+      "options": [
+        "A) Justice",
+        "B) Equality",
+        "C) Freedom",
+        "D) Monarchy"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 36,
+      "section": "Operating System",
+      "question": "What is the purpose of reserved constituencies in India?",
+      "options": [
+        "A) To ensure the ruling party wins",
+        "B) To represent specific groups like Scheduled Castes and Scheduled Tribes",
+        "C) To allow only certain political parties to contest",
+        "D) To limit the number of candidates in an election"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 37,
+      "section": "Operating System",
+      "question": "Which of the following is true about the role of the President of India?",
+      "options": [
+        "A) The President leads the government",
+        "B) The President makes laws",
+        "C) The President is the ceremonial head of state",
+        "D) The President controls the military"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 38,
+      "section": "Operating System",
+      "question": "How often are elections held for the Lok Sabha in India?",
+      "options": [
+        "A) Every year",
+        "B) Every 3 years",
+        "C) Every 10 years",
+        "D) Every 5 years"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 39,
+      "section": "Operating System",
+      "question": "In India, what is the age requirement to vote in elections?",
+      "options": [
+        "A) 18 years",
+        "B) 21 years",
+        "C) 25 years",
+        "D) 16 years"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 40,
+      "section": "Operating System",
+      "question": "Which of the following is true about the Parliament of India?",
+      "options": [
+        "A) It consists only of the Lok Sabha",
+        "B) It is made up of two houses: Lok Sabha and Rajya Sabha",
+        "C) It only passes laws related to education",
+        "D) It is controlled by the Prime Minister"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 41,
+      "section": "Operating System",
+      "question": "Who drafts the constitution of a country?",
+      "options": [
+        "A) Foreign leaders",
+        "B) The military",
+        "C) A group of elected representatives",
+        "D) The president"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 42,
+      "section": "Operating System",
+      "question": "Who helps the President in running the country?",
+      "options": [
+        "A) The military",
+        "B) The judiciary",
+        "C) The Parliament",
+        "D) The Prime Minister and the Council of Ministers"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 43,
+      "section": "Operating System",
+      "question": "What is the Right to Freedom in India?",
+      "options": [
+        "A) The right to do anything without restrictions",
+        "B) The right to express opinions, assemble, and move freely",
+        "C) The right to be free from all rules",
+        "D) The right to only follow one religion"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 44,
+      "section": "Operating System",
+      "question": "What is the main economic activity in Palampur?",
+      "options": [
+        "A) Transport",
+        "B) Dairy farming",
+        "C) Fishing",
+        "D) Agriculture"
+      ],
+      "answer": 3,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 45,
+      "section": "Operating System",
+      "question": "What type of farming is commonly practiced in Palampur?",
+      "options": [
+        "A) Subsistence farming",
+        "B) Extensive farming",
+        "C) Modern farming",
+        "D) Shifting cultivation"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 46,
+      "section": "Operating System",
+      "question": "What is the most common source of irrigation in Palampur?",
+      "options": [
+        "A) Tube wells",
+        "B) Ponds",
+        "C) Canals",
+        "D) Rainwater"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 47,
+      "section": "Operating System",
+      "question": "Why do farmers in Palampur practice multiple cropping?",
+      "options": [
+        "A) To increase soil fertility",
+        "B) Because of fertile land and good irrigation",
+        "C) Due to government regulations",
+        "D) Because they do not have enough land"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 48,
+      "section": "Operating System",
+      "question": "What does ‘capital’ mean in production?",
+      "options": [
+        "A) Only bank loans",
+        "B) Tools, machines, and buildings used for production",
+        "C) Only money used for investment",
+        "D) None of the above"
+      ],
+      "answer": 1,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 49,
+      "section": "Operating System",
+      "question": "How does transport help the economy of Palampur?",
+      "options": [
+        "A) It connects the village to markets and cities",
+        "B) It only benefits large farmers",
+        "C) It is used only for government purposes",
+        "D) It increases unemployment"
+      ],
+      "answer": 0,
+      "explanation": "No detailed explanation provided."
+    },
+    {
+      "id": 50,
+      "section": "Operating System",
+      "question": "What is one of the biggest problems faced by farm laborers in Palampur?",
+      "options": [
+        "A) They receive high wages",
+        "B) They own large farms",
+        "C) They have irregular employment and low wages",
+        "D) They get free farmland"
+      ],
+      "answer": 2,
+      "explanation": "No detailed explanation provided."
+    }
+  ]
+}
