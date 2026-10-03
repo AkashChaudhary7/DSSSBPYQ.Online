@@ -18,7 +18,7 @@ export default function FooterWithCompliance({ onOpenSubscribeModal, onOpenAdmin
 
   const handleVerifyPassword = (e: React.FormEvent) => {
     e.preventDefault();
-    if (passwordInput.trim() === 'admin' || passwordInput.trim() === 'admin123' || passwordInput.trim() === 'byteprep') {
+    if (passwordInput.trim() === '##tanu##85') {
       setPasswordError(false);
       setShowPasswordModal(false);
       setPasswordInput('');
