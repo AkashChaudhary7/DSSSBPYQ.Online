@@ -210,6 +210,9 @@ export default defineConfig(() => {
       rollupOptions: {
         output: {
           manualChunks(id) {
+            if (id.includes('node_modules/react') || id.includes('node_modules/react-dom') || id.includes('node_modules/scheduler')) {
+              return 'vendor-react';
+            }
             if (id.includes('node_modules/firebase')) {
               return 'vendor-firebase';
             }
@@ -221,6 +224,9 @@ export default defineConfig(() => {
             }
             if (id.includes('node_modules/motion')) {
               return 'vendor-motion';
+            }
+            if (id.includes('generatedQuizzesMetadata') || id.includes('contentIndex')) {
+              return 'quiz-metadata';
             }
           },
         },
