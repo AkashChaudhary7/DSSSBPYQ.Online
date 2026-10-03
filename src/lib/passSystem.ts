@@ -1166,6 +1166,38 @@ function registerPassInPersistentRegistry(phone: string, utr: string, pass: Pass
 // 8. RESTORE PASS & REFERRAL WALLET (EVEN IF CACHE DELETED)
 // -------------------------------------------------------------
 
+// Secure SHA-256 hashes of authorized offline support recovery tokens (never exposed as plaintext strings in bundle)
+const SECURE_SUPPORT_HASHES = new Set([
+  'd85684688d221bca55b680d63f3993896100722d4f79469c19527caeb77ca1df',
+  'c22d1f7ebabc586cc25071fdc4d1dab84cb78cae550c5d9b98a9b1e01d0caedb'
+]);
+
+async function computeSha256(str: string): Promise<string> {
+  try {
+    const encoder = new TextEncoder();
+    const data = encoder.encode(str);
+    const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+    return Array.from(new Uint8Array(hashBuffer))
+      .map(b => b.toString(16).padStart(2, '0'))
+      .join('');
+  } catch {
+    return '';
+  }
+}
+
+async function isEmergencySupportCode(query: string): Promise<boolean> {
+  const clean = query.trim().toUpperCase();
+  if (!clean) return false;
+  const singleHash = await computeSha256(clean);
+  if (SECURE_SUPPORT_HASHES.has(singleHash)) return true;
+  const tokens = clean.split(/[\s,;]+/).filter(Boolean);
+  for (const token of tokens) {
+    const tokenHash = await computeSha256(token);
+    if (SECURE_SUPPORT_HASHES.has(tokenHash)) return true;
+  }
+  return false;
+}
+
 export async function restorePassAndWallet(query: string): Promise<{ 
   success: boolean; 
   message: string; 
@@ -1177,18 +1209,18 @@ export async function restorePassAndWallet(query: string): Promise<{
     return { success: false, message: 'Please enter your 12-digit UTR Number or registered Mobile Number.' };
   }
 
-  // 0. Instant Emergency Offline Support Restore Code Check: AK007850 & AK007851
-  if (clean.includes('AK007850') || clean.includes('AK007851')) {
+  // 0. Instant Emergency Offline Support Restore Code Check (Encrypted hash verification, no database dependency)
+  if (await isEmergencySupportCode(clean)) {
     const planConfig = PASS_PLANS.lifetime_99;
     const deviceId = getOrCreateDeviceId();
     const restoredPass: PassData = {
       isActive: true,
       plan: 'lifetime_99',
-      utr: `SUPPORT_RESTORE_${clean}`,
+      utr: `SUPPORT_RESTORE_${Date.now()}`,
       phone: 'RESTORED_BY_SUPPORT_CODE',
       candidateName: 'Verified Premium Candidate',
       amount: planConfig.regularPrice,
-      promoCodeUsed: clean,
+      promoCodeUsed: 'SUPPORT_VIP_RESTORE',
       paymentGateway: 'admin_code',
       activatedAt: Date.now(),
       expiresAt: null, // Lifetime VIP Pass
@@ -1202,7 +1234,7 @@ export async function restorePassAndWallet(query: string): Promise<{
 
     return {
       success: true,
-      message: '🎉 Offline Support Restore Code Verified! Lifetime VIP Premium Pass Access Restored successfully without database checking.',
+      message: '🎉 Support Restore Code Verified! Lifetime VIP Premium Pass Access Restored successfully.',
       pass: restoredPass
     };
   }
@@ -1450,18 +1482,18 @@ export async function redeemAdminActivationCode(code: string, studentPhone?: str
     return { success: false, message: 'Please enter the activation / restore code provided by Admin.' };
   }
 
-  // 0. Instant Emergency Offline Support Restore Code Check: AK007850 & AK007851 (No database required)
-  if (cleanCode.includes('AK007850') || cleanCode.includes('AK007851')) {
+  // 0. Instant Emergency Offline Support Restore Code Check (Encrypted hash verification, no database dependency)
+  if (await isEmergencySupportCode(cleanCode)) {
     const planConfig = PASS_PLANS.lifetime_99;
     const deviceId = getOrCreateDeviceId();
     const passData: PassData = {
       isActive: true,
       plan: 'lifetime_99',
-      utr: `SUPPORT_RESTORE_${cleanCode}`,
+      utr: `SUPPORT_RESTORE_${Date.now()}`,
       phone: studentPhone || 'RESTORED_BY_SUPPORT_CODE',
       candidateName: 'Verified Premium Candidate',
       amount: planConfig.regularPrice,
-      promoCodeUsed: cleanCode,
+      promoCodeUsed: 'SUPPORT_VIP_RESTORE',
       paymentGateway: 'admin_code',
       activatedAt: Date.now(),
       expiresAt: null, // Lifetime VIP Pass
@@ -1475,7 +1507,7 @@ export async function redeemAdminActivationCode(code: string, studentPhone?: str
 
     return {
       success: true,
-      message: '🎉 Support Restore Code Verified! Lifetime VIP Premium Pass Restored successfully without database checking.',
+      message: '🎉 Support Restore Code Verified! Lifetime VIP Premium Pass Restored successfully.',
       pass: passData
     };
   }

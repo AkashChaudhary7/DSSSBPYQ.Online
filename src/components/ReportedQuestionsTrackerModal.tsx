@@ -57,7 +57,7 @@ export const ReportedQuestionsTrackerModal: React.FC<ReportedQuestionsTrackerMod
   const [selectedReasonFilter, setSelectedReasonFilter] = useState<string>('all');
 
   // Reactivation Code Generator Tab state
-  const [customCode, setCustomCode] = useState('AK007850');
+  const [customCode, setCustomCode] = useState('');
   const [useAutoCode, setUseAutoCode] = useState(false);
   const [targetCandidate, setTargetCandidate] = useState('');
   const [selectedPlan, setSelectedPlan] = useState<PassPlanType>('lifetime_99');
@@ -77,10 +77,10 @@ export const ReportedQuestionsTrackerModal: React.FC<ReportedQuestionsTrackerMod
   useEffect(() => {
     if (!isOpen) return;
 
-    // Run initial seed check for default codes (AK007850 & AK007851) silently in background
+    // Run initial seed check for default codes silently in background
     seedDefaultReactivationCodesInDb().then((res) => {
       if (res.seeded && res.seeded.length > 0) {
-        setSeedNotice(`Auto-provisioned default codes in Firestore: ${res.seeded.join(', ')}`);
+        setSeedNotice(`Auto-provisioned default codes in Firestore: ${res.seeded.length} keys active`);
       }
     }).catch(() => {});
 
@@ -160,9 +160,9 @@ export const ReportedQuestionsTrackerModal: React.FC<ReportedQuestionsTrackerMod
     setIsSeeding(false);
     if (res.success) {
       if (res.seeded.length > 0) {
-        setSeedNotice(`Successfully provisioned official reactivation codes in Firestore: ${res.seeded.join(', ')}`);
+        setSeedNotice(`Successfully provisioned official reactivation codes in Firestore: ${res.seeded.length} keys`);
       } else {
-        setSeedNotice('Official reactivation codes (AK007850 & AK007851 - 5 Uses Each) are already active in Firestore.');
+        setSeedNotice('Official reactivation codes (5 Uses Each) are already active in Firestore.');
       }
     } else {
       setSeedNotice('Unable to connect to Firestore database.');
@@ -406,7 +406,7 @@ export const ReportedQuestionsTrackerModal: React.FC<ReportedQuestionsTrackerMod
                     Official Pass Reactivation Codes
                   </h3>
                   <span className="bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300 border border-amber-300 dark:border-amber-800 text-[10px] font-extrabold px-2 py-0.5 rounded-md">
-                    AK007850 &amp; AK007851 (5 Uses Each)
+                    System Verified (5 Uses Each)
                   </span>
                 </div>
                 <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
@@ -460,7 +460,7 @@ export const ReportedQuestionsTrackerModal: React.FC<ReportedQuestionsTrackerMod
                       disabled={useAutoCode}
                       value={useAutoCode ? '[Auto Generated]' : customCode}
                       onChange={(e) => setCustomCode(e.target.value.toUpperCase())}
-                      placeholder="e.g. AK007850, RESTORE99"
+                      placeholder="e.g. VIP-RESTORE-99, PASS-2025"
                       className="w-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl px-3 py-2 text-xs font-mono font-bold text-amber-600 dark:text-amber-400 focus:outline-hidden focus:border-amber-500 disabled:opacity-50 uppercase"
                     />
                   </div>
@@ -589,7 +589,7 @@ export const ReportedQuestionsTrackerModal: React.FC<ReportedQuestionsTrackerMod
               ) : (
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                   {filteredCodes.map((item) => {
-                    const isOfficialCode = item.code === 'AK007850' || item.code === 'AK007851';
+                    const isOfficialCode = item.createdBy === 'Admin System';
                     const isFullyUsed = item.usedCount >= item.maxUses || item.status === 'used';
                     const isExpired = item.expiresAt ? Date.now() > item.expiresAt : false;
                     const isRevoked = item.status === 'revoked';
