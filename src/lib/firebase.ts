@@ -557,6 +557,46 @@ export async function saveActivationCodeToDb(codeData: FirestoreActivationCode):
   }
 }
 
+/**
+ * Ensures official 5-use reactivation codes (AK007850 and AK007851) exist in Firestore
+ */
+export async function seedDefaultReactivationCodesInDb(): Promise<{ success: boolean; seeded: string[] }> {
+  if (!isConfigured || !db) return { success: false, seeded: [] };
+
+  const defaultCodes = [
+    { code: 'AK007850', maxUses: 5, plan: 'lifetime_99', targetCandidate: 'Official Reactivation Code (5 Uses)' },
+    { code: 'AK007851', maxUses: 5, plan: 'lifetime_99', targetCandidate: 'Official Reactivation Code (5 Uses)' }
+  ];
+
+  const seeded: string[] = [];
+
+  for (const item of defaultCodes) {
+    try {
+      const docRef = doc(db, 'admin_activation_codes', item.code);
+      const snap = await getDoc(docRef);
+      if (!snap.exists()) {
+        const record: FirestoreActivationCode = {
+          code: item.code,
+          plan: item.plan,
+          maxUses: item.maxUses,
+          usedCount: 0,
+          expiresAt: null,
+          createdAt: Date.now(),
+          createdBy: 'Admin System',
+          targetCandidate: item.targetCandidate,
+          status: 'active'
+        };
+        await setDoc(docRef, record);
+        seeded.push(item.code);
+      }
+    } catch (e) {
+      console.warn(`Firestore seed error for ${item.code}:`, e);
+    }
+  }
+
+  return { success: true, seeded };
+}
+
 export async function fetchActivationCodeFromDb(code: string): Promise<FirestoreActivationCode | null> {
   if (!isConfigured || !db) return null;
   const cleanCode = code.trim().toUpperCase();

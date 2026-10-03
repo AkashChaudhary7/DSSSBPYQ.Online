@@ -40,10 +40,13 @@ import {
   fetchAllActivationCodesFromDb,
   redeemActivationCodeInDb,
   revokeActivationCodeInDb,
+  seedDefaultReactivationCodesInDb,
   FirestorePaymentUtr,
   FirestorePayoutRequest,
   FirestoreActivationCode
 } from './firebase';
+
+export { seedDefaultReactivationCodesInDb };
 
 export type PassPlanType = 'lifetime_99' | 'standard_49' | 'monthly_19' | 'standard_99' | 'lifetime_149' | 'selective_19';
 
