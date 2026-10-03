@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'motion/react';
 import { 
   X, 
   Ticket, 
@@ -220,8 +221,22 @@ export const PassModal: React.FC<PassModalProps> = ({
   const emailRecoveryUrl = createMailRecoveryUrl(planConfig.name, confirmedPaymentId || restoreQuery, candidatePhone, candidateName);
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-slate-950/80 backdrop-blur-md overflow-y-auto animate-fadeIn">
-      <div className="relative w-full max-w-2xl bg-white dark:bg-slate-900 rounded-3xl border-2 border-indigo-300 dark:border-indigo-600/70 shadow-2xl overflow-hidden my-auto max-h-[92vh] flex flex-col">
+    <AnimatePresence>
+      {isOpen && (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.2 }}
+          className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-slate-950/80 backdrop-blur-md overflow-y-auto"
+        >
+          <motion.div
+            initial={{ opacity: 0, scale: 0.92, y: 20 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
+            exit={{ opacity: 0, scale: 0.95, y: 12 }}
+            transition={{ type: 'spring', damping: 26, stiffness: 360 }}
+            className="relative w-full max-w-2xl bg-white dark:bg-slate-900 rounded-3xl border-2 border-indigo-300 dark:border-indigo-600/70 shadow-2xl overflow-hidden my-auto max-h-[92vh] flex flex-col"
+          >
         
         {/* Top Header Banner */}
         <div className="relative bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 p-4 sm:p-5 text-white shrink-0">
@@ -662,10 +677,11 @@ export const PassModal: React.FC<PassModalProps> = ({
             </div>
           )}
 
-        </div>
-
-      </div>
-    </div>
+          </div>
+        </motion.div>
+      </motion.div>
+    )}
+  </AnimatePresence>
   );
 };
 
