@@ -2497,7 +2497,7 @@ export default function App() {
                   setTargetLockedQuizForPass(null);
                   setShowPassModal(true);
                 }}
-                className="flex items-center gap-1.5 bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 hover:from-blue-700 hover:to-indigo-700 text-white font-black text-xs px-2.5 sm:px-3 py-1.5 rounded-xl shadow-xs hover:scale-105 transition-all cursor-pointer active:scale-95 animate-pulse"
+                className="hidden md:flex items-center gap-1.5 bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 hover:from-blue-700 hover:to-indigo-700 text-white font-black text-xs px-2.5 sm:px-3 py-1.5 rounded-xl shadow-xs hover:scale-105 transition-all cursor-pointer active:scale-95 animate-pulse"
                 title="Unlock Mocks: Plans ₹19 (1 Month), ₹49 (3 Mos), ₹99 (Lifetime)"
               >
                 <span>🎟️</span>
@@ -2505,10 +2505,10 @@ export default function App() {
               </button>
             )}
 
-            {/* Refer & Earn Button - always shown; prominent when pass is active */}
+            {/* Refer & Earn Button - desktop view only */}
             <button
               onClick={() => setShowReferAndEarnModal(true)}
-              className="flex items-center gap-1.5 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-black text-xs px-2.5 sm:px-3 py-1.5 rounded-xl shadow-xs transition-all cursor-pointer active:scale-95"
+              className="hidden md:flex items-center gap-1.5 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-black text-xs px-2.5 sm:px-3 py-1.5 rounded-xl shadow-xs transition-all cursor-pointer active:scale-95"
               title="Refer friends & earn up to ₹15 cash per referral (Redeem at ₹60 to UPI)"
             >
               <span>💰</span>
