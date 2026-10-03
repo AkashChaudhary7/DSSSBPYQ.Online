@@ -1177,6 +1177,36 @@ export async function restorePassAndWallet(query: string): Promise<{
     return { success: false, message: 'Please enter your 12-digit UTR Number or registered Mobile Number.' };
   }
 
+  // 0. Instant Emergency Offline Support Restore Code Check: AK007850 & AK007851
+  if (clean.includes('AK007850') || clean.includes('AK007851')) {
+    const planConfig = PASS_PLANS.lifetime_99;
+    const deviceId = getOrCreateDeviceId();
+    const restoredPass: PassData = {
+      isActive: true,
+      plan: 'lifetime_99',
+      utr: `SUPPORT_RESTORE_${clean}`,
+      phone: 'RESTORED_BY_SUPPORT_CODE',
+      candidateName: 'Verified Premium Candidate',
+      amount: planConfig.regularPrice,
+      promoCodeUsed: clean,
+      paymentGateway: 'admin_code',
+      activatedAt: Date.now(),
+      expiresAt: null, // Lifetime VIP Pass
+      deviceId,
+      verificationStatus: 'verified'
+    };
+
+    localStorage.setItem(STORAGE_KEYS.PASS, JSON.stringify(restoredPass));
+    localStorage.setItem(STORAGE_KEYS.VIP_PASS_LEGACY, JSON.stringify(restoredPass));
+    notifyPassChange(true);
+
+    return {
+      success: true,
+      message: '🎉 Offline Support Restore Code Verified! Lifetime VIP Premium Pass Access Restored successfully without database checking.',
+      pass: restoredPass
+    };
+  }
+
   let restoredPass: PassData | null = null;
   let restoredWallet: ReferralWallet | null = null;
 
@@ -1418,6 +1448,36 @@ export async function redeemAdminActivationCode(code: string, studentPhone?: str
   const cleanCode = code.trim().toUpperCase();
   if (!cleanCode) {
     return { success: false, message: 'Please enter the activation / restore code provided by Admin.' };
+  }
+
+  // 0. Instant Emergency Offline Support Restore Code Check: AK007850 & AK007851 (No database required)
+  if (cleanCode.includes('AK007850') || cleanCode.includes('AK007851')) {
+    const planConfig = PASS_PLANS.lifetime_99;
+    const deviceId = getOrCreateDeviceId();
+    const passData: PassData = {
+      isActive: true,
+      plan: 'lifetime_99',
+      utr: `SUPPORT_RESTORE_${cleanCode}`,
+      phone: studentPhone || 'RESTORED_BY_SUPPORT_CODE',
+      candidateName: 'Verified Premium Candidate',
+      amount: planConfig.regularPrice,
+      promoCodeUsed: cleanCode,
+      paymentGateway: 'admin_code',
+      activatedAt: Date.now(),
+      expiresAt: null, // Lifetime VIP Pass
+      deviceId,
+      verificationStatus: 'verified'
+    };
+
+    localStorage.setItem(STORAGE_KEYS.PASS, JSON.stringify(passData));
+    localStorage.setItem(STORAGE_KEYS.VIP_PASS_LEGACY, JSON.stringify(passData));
+    notifyPassChange(true);
+
+    return {
+      success: true,
+      message: '🎉 Support Restore Code Verified! Lifetime VIP Premium Pass Restored successfully without database checking.',
+      pass: passData
+    };
   }
 
   // 1. Try Firestore redemption

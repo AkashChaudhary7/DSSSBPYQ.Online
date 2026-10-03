@@ -643,17 +643,17 @@ export const PassModal: React.FC<PassModalProps> = ({
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-black text-amber-900 dark:text-amber-200 uppercase tracking-wider flex items-center gap-1.5">
                     <KeyRound className="w-4 h-4 text-amber-600 dark:text-amber-400" />
-                    <span>Redeem 1-Time Support Restore Code</span>
+                    <span>Redeem 1-Time Support Restore Code (Offline / No DB)</span>
                   </span>
                 </div>
                 <p className="text-[11px] text-slate-600 dark:text-slate-300 leading-relaxed">
-                  If support gave you a restore code (e.g. <code className="font-mono font-bold">DSSSB-LIFE-XXXX</code>), enter it below:
+                  Enter your support restore code (e.g. <code className="font-mono font-bold text-amber-600 dark:text-amber-400">AK007850</code> or <code className="font-mono font-bold text-amber-600 dark:text-amber-400">AK007851</code>) to instantly restore your lifetime premium pass offline without database connection:
                 </p>
                 <form onSubmit={handleRedeemAdminCode} className="flex gap-2">
                   <input
                     type="text"
                     required
-                    placeholder="Enter Code (e.g. DSSSB-LIFE-8821)"
+                    placeholder="e.g. AK007850 or AK007851"
                     value={adminCodeInput}
                     onChange={(e) => setAdminCodeInput(e.target.value.toUpperCase())}
                     className="flex-1 px-3.5 py-2.5 bg-white dark:bg-slate-900 border-2 border-amber-400 dark:border-amber-600 rounded-xl text-xs font-mono font-black text-slate-900 dark:text-white uppercase focus:outline-hidden focus:ring-2 focus:ring-amber-500"
