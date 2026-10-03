@@ -489,9 +489,20 @@ function extractMetadata(data, folder, fileName) {
 
   const testId = data.testId || `custom_${category}_${baseName.toLowerCase().replace(/\s+/g, '_')}_${qCount}`;
 
-  const totalTimeMinutes = typeof data.totalTimeMinutes === 'number' 
+  let totalTimeMinutes = typeof data.totalTimeMinutes === 'number' 
     ? data.totalTimeMinutes 
     : Math.max(10, Math.ceil(qCount * 1.2));
+
+  // Fix timing of full mocks: official DSSSB CBT exam is 2 hours (120 minutes), not 4 hours
+  if (category === 'full' || subject === 'Full Mock' || subject === 'Part A Full Mock' || subject === 'Part A Full Paper') {
+    if (qCount >= 180 || subject === 'Full Mock') {
+      totalTimeMinutes = 120; // Exactly 2 hours (120 minutes) for 200 Qs Full CBT Mock
+    } else if (qCount >= 90 || subject === 'Part A Full Mock' || subject === 'Part A Full Paper') {
+      totalTimeMinutes = 60; // 1 hour (60 minutes) for 100 Qs Part A Mock
+    } else {
+      totalTimeMinutes = 120;
+    }
+  }
 
   const markingScheme = data.markingScheme && typeof data.markingScheme.correct === 'number' && typeof data.markingScheme.negative === 'number'
     ? data.markingScheme

@@ -335,19 +335,38 @@ export const isVipPassActive = isPassActive;
 /**
  * Check if a mock test is unlocked.
  * Rule:
- * 1. First two mocks (Index 0 and Index 1) are 100% FREE for all candidates!
- * 2. Any active pass (Lifetime ₹99, 3-Month ₹49, 1-Month ₹19) unlocks ALL 50+ current and ALL future mocks!
+ * 1. Full Mocks (category 'full' or CBT Mocks): 100% LOCKED! Not a single full mock is unlocked without an active pass.
+ * 2. Regular topic/subject practice mocks: First two mocks (Index 0 and Index 1) are free trial tests.
+ * 3. Any active pass (Lifetime ₹99, 3-Month ₹49, 1-Month ₹19) unlocks ALL mocks!
  */
 export function isMockUnlocked(testId: string, testIndex?: number, category?: string): boolean {
   if (!testId) return false;
 
-  // 1. First two mocks are always 100% FREE for all candidates!
+  // 1. Active pass unlocks ALL current & future mocks
+  if (isPassActive()) return true;
+
+  // 2. Full Mocks check: ALL full mocks are strictly locked (not a single one is unlocked for free)
+  const cleanId = testId.toLowerCase();
+  const cleanCat = (category || '').toLowerCase();
+  const isFullMock = (
+    cleanCat === 'full' ||
+    cleanId.startsWith('custom_full_') ||
+    cleanId.includes('_full_') ||
+    cleanId.includes('full_mock') ||
+    cleanId.includes('cbt_mock') ||
+    cleanCat.includes('full')
+  );
+
+  if (isFullMock) {
+    return false;
+  }
+
+  // 3. First two mocks are free ONLY for regular topic/subject practice quizzes (Part A / Part B)
   if (testIndex !== undefined && (testIndex === 0 || testIndex === 1)) {
     return true;
   }
 
-  // 2. Active pass unlocks ALL current & future mocks
-  return isPassActive();
+  return false;
 }
 
 export const isMockAccessible = isMockUnlocked;

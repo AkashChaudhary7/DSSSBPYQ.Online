@@ -3924,7 +3924,7 @@ export default function App() {
                     <div className="grid grid-cols-2 lg:grid-cols-3 gap-2.5 md:gap-6">
                       {fullMockQuizzes.slice((fullMockPage - 1) * MOCKS_PER_PAGE, fullMockPage * MOCKS_PER_PAGE).map((quiz, index) => {
                         const globalIdx = (fullMockPage - 1) * MOCKS_PER_PAGE + index;
-                        const unlocked = isMockUnlocked(quiz.testId, globalIdx);
+                        const unlocked = isMockUnlocked(quiz.testId, globalIdx, quiz.category);
                         const quizAttempts = pastAttempts.filter(a => a.testId === quiz.testId);
                         const isAttempted = quizAttempts.length > 0;
                         const mockLabel = getMockNumberLabel(quiz, globalIdx);
@@ -3951,7 +3951,7 @@ export default function App() {
 
                               <div className="flex items-center justify-center gap-1.5 flex-wrap">
                                 <span className="bg-blue-100 dark:bg-blue-950/60 text-blue-900 dark:text-blue-300 border border-blue-200 dark:border-blue-800 text-[10px] font-bold px-2 py-0.5 rounded-md">
-                                  🎓 200 Marks CBT
+                                  {quiz.qCount >= 180 ? '🎓 200 Marks • ⏱️ 2 Hours CBT' : '🎓 100 Marks • ⏱️ 1 Hour CBT'}
                                 </span>
                                 {isAttempted ? (
                                   <span className="bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 border border-emerald-300 text-[9px] font-black px-2.5 py-0.5 rounded-md uppercase tracking-wider flex items-center gap-1">
@@ -3959,7 +3959,7 @@ export default function App() {
                                   </span>
                                 ) : !unlocked ? (
                                   <span className="bg-amber-50 dark:bg-amber-950 text-amber-800 dark:text-amber-300 border border-amber-200 dark:border-amber-800 text-[10px] font-black px-2 py-0.5 rounded-md flex items-center gap-1">
-                                    <Lock className="w-2.5 h-2.5 text-amber-600" /> Pass
+                                    <Lock className="w-2.5 h-2.5 text-amber-600" /> Pass Required
                                   </span>
                                 ) : null}
                               </div>

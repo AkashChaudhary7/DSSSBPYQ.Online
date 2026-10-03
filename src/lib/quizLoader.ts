@@ -367,17 +367,32 @@ export async function fetchQuizzesMetadata(): Promise<Quiz[]> {
  * Formats metadata array into lightweight Quiz objects (without loading heavy question arrays into list memory)
  */
 export function formatMetadataToLightweightQuizzes(metadataList: any[]): Quiz[] {
-  return metadataList.map(meta => ({
-    testId: meta.testId,
-    title: meta.title,
-    totalTimeMinutes: meta.totalTimeMinutes || 60,
-    markingScheme: meta.markingScheme || { correct: 1, negative: 0.25 },
-    category: meta.category || 'part_b',
-    subject: meta.subject || 'Computer Science',
-    topic: meta.topic || 'General Practice',
-    isPartA: meta.isPartA ?? (meta.category === 'part_a'),
-    qCount: meta.qCount || (Array.isArray(meta.questions) ? meta.questions.length : 0),
-    file: meta.file,
-    questions: [] // Intentionally empty - questions loaded dynamically on demand for active mock!
-  }));
+  return metadataList.map(meta => {
+    let totalTimeMinutes = meta.totalTimeMinutes || 60;
+    const isFull = meta.category === 'full' || meta.subject === 'Full Mock' || (meta.testId && meta.testId.toLowerCase().includes('custom_full_'));
+    if (isFull) {
+      const qCount = meta.qCount || (Array.isArray(meta.questions) ? meta.questions.length : 0);
+      if (qCount >= 180 || meta.subject === 'Full Mock') {
+        totalTimeMinutes = 120; // 2 hours for Full CBT Mocks
+      } else if (qCount >= 90 || meta.subject === 'Part A Full Mock') {
+        totalTimeMinutes = 60; // 1 hour for Part A Full Mock
+      } else {
+        totalTimeMinutes = 120;
+      }
+    }
+
+    return {
+      testId: meta.testId,
+      title: meta.title,
+      totalTimeMinutes,
+      markingScheme: meta.markingScheme || { correct: 1, negative: 0.25 },
+      category: meta.category || 'part_b',
+      subject: meta.subject || 'Computer Science',
+      topic: meta.topic || 'General Practice',
+      isPartA: meta.isPartA ?? (meta.category === 'part_a'),
+      qCount: meta.qCount || (Array.isArray(meta.questions) ? meta.questions.length : 0),
+      file: meta.file,
+      questions: [] // Intentionally empty - questions loaded dynamically on demand for active mock!
+    };
+  });
 }

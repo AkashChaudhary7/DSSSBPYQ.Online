@@ -2500,7 +2500,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_001_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 001",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2516,7 +2516,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_002_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 002",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2532,7 +2532,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_003_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 003",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2548,7 +2548,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_004_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 004",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2564,7 +2564,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_005_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 005",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2580,7 +2580,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_006_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 006",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2596,7 +2596,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_007_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 007",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2612,7 +2612,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_008_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 008",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2628,7 +2628,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_009_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 009",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2644,7 +2644,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_010_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 010",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2660,7 +2660,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_011_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 011",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2676,7 +2676,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_012_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 012",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2692,7 +2692,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_013_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 013",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2708,7 +2708,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_014_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 014",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2724,7 +2724,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_015_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 015",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2740,7 +2740,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_016_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 016",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2756,7 +2756,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_017_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 017",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2772,7 +2772,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_018_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 018",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2788,7 +2788,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_019_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 019",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2804,7 +2804,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_020_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 020",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2820,7 +2820,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_021_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 021",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2836,7 +2836,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_022_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 022",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2852,7 +2852,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_023_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 023",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2868,7 +2868,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_024_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 024",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2884,7 +2884,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_025_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 025",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2900,7 +2900,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_026_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 026",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2916,7 +2916,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_027_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 027",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2932,7 +2932,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_028_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 028",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2948,7 +2948,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_029_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 029",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -2964,7 +2964,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_030_200",
     "title": "DSSSB TGT Computer Science Full Mock Test 030",
-    "totalTimeMinutes": 240,
+    "totalTimeMinutes": 120,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7492,7 +7492,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_1_100",
     "title": "Mock Test 1",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7508,7 +7508,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_11_100",
     "title": "Mock Test 11",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7524,7 +7524,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_12_100",
     "title": "Mock Test 12",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7540,7 +7540,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_13_100",
     "title": "Mock Test 13",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7556,7 +7556,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_14_100",
     "title": "Mock Test 14",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7572,7 +7572,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_15_100",
     "title": "Mock Test 15",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7588,7 +7588,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_16_100",
     "title": "Mock Test 16",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7604,7 +7604,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_18_100",
     "title": "Mock Test 18",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7620,7 +7620,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_2_100",
     "title": "Mock Test 2",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7636,7 +7636,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_20_100",
     "title": "Mock Test 20",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7652,7 +7652,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_21_100",
     "title": "Mock Test 21",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7668,7 +7668,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_22_100",
     "title": "Mock Test 22",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7684,7 +7684,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_23_100",
     "title": "Mock Test 23",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7700,7 +7700,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_24_100",
     "title": "Mock Test 24",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7716,7 +7716,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_25_100",
     "title": "Mock Test 25",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7732,7 +7732,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_26_100",
     "title": "Mock Test 26",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7748,7 +7748,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_27_100",
     "title": "Mock Test 27",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7764,7 +7764,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_28_100",
     "title": "Mock Test 28",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7780,7 +7780,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_29_100",
     "title": "Mock Test 29",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7796,7 +7796,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_3_100",
     "title": "Mock Test 3",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7812,7 +7812,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_30_100",
     "title": "Mock Test 30",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7828,7 +7828,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_31_100",
     "title": "Mock Test 31",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7844,7 +7844,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_32_100",
     "title": "Mock Test 32",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7860,7 +7860,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_33_100",
     "title": "Mock Test 33",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7876,7 +7876,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_34_100",
     "title": "Mock Test 34",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7892,7 +7892,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_35_100",
     "title": "Mock Test 35",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7908,7 +7908,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_36_100",
     "title": "Mock Test 36",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7924,7 +7924,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_37_100",
     "title": "Mock Test 37",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7940,7 +7940,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_38_100",
     "title": "Mock Test 38",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7956,7 +7956,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_39_100",
     "title": "Mock Test 39",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7972,7 +7972,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_4_100",
     "title": "Mock Test 4",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -7988,7 +7988,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_41_100",
     "title": "Mock Test 41",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8004,7 +8004,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_42_100",
     "title": "Mock Test 42",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8020,7 +8020,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_43_100",
     "title": "Mock Test 43",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8036,7 +8036,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_44_100",
     "title": "Mock Test 44",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8052,7 +8052,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_45_100",
     "title": "Mock Test 45",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8068,7 +8068,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_46_100",
     "title": "Mock Test 46",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8084,7 +8084,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_47_100",
     "title": "Mock Test 47",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8100,7 +8100,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_48_100",
     "title": "Mock Test 48",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8116,7 +8116,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_49_100",
     "title": "Mock Test 49",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8132,7 +8132,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_5_100",
     "title": "Mock Test 5",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8148,7 +8148,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_50_100",
     "title": "Mock Test 50",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8164,7 +8164,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_51_100",
     "title": "Mock Test 51",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8180,7 +8180,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_52_100",
     "title": "Mock Test 52",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8196,7 +8196,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_53_100",
     "title": "Mock Test 53",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8212,7 +8212,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_54_100",
     "title": "Mock Test 54",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8228,7 +8228,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_55_100",
     "title": "Mock Test 55",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8244,7 +8244,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_56_100",
     "title": "Mock Test 56",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8260,7 +8260,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_57_100",
     "title": "Mock Test 57",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8276,7 +8276,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_58_100",
     "title": "Mock Test 58",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8292,7 +8292,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_59_100",
     "title": "Mock Test 59",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8308,7 +8308,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_6_100",
     "title": "Mock Test 6",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8324,7 +8324,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_60_100",
     "title": "Mock Test 60",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8340,7 +8340,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_61_100",
     "title": "Mock Test 61",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8356,7 +8356,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_62_100",
     "title": "Mock Test 62",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8372,7 +8372,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_63_100",
     "title": "Mock Test 63",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8388,7 +8388,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_64_100",
     "title": "Mock Test 64",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8404,7 +8404,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_65_100",
     "title": "Mock Test 65",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8420,7 +8420,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_66_100",
     "title": "Mock Test 66",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8436,7 +8436,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_67_100",
     "title": "Mock Test 67",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8452,7 +8452,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_68_100",
     "title": "Mock Test 68",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8468,7 +8468,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_69_100",
     "title": "Mock Test 69",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8484,7 +8484,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_7_100",
     "title": "Mock Test 7",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8500,7 +8500,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_70_100",
     "title": "Mock Test 70",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8516,7 +8516,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_71_100",
     "title": "Mock Test 71",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8532,7 +8532,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_72_100",
     "title": "Mock Test 72",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8548,7 +8548,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_73_100",
     "title": "Mock Test 73",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8564,7 +8564,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_74_100",
     "title": "Mock Test 74",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8580,7 +8580,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_75_100",
     "title": "Mock Test 75",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8596,7 +8596,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_76_100",
     "title": "Mock Test 76",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8612,7 +8612,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_77_100",
     "title": "Mock Test 77",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8628,7 +8628,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_78_100",
     "title": "Mock Test 78",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8644,7 +8644,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_79_100",
     "title": "Mock Test 79",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8660,7 +8660,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_8_100",
     "title": "Mock Test 8",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8676,7 +8676,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_81_100",
     "title": "Mock Test 81",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
@@ -8692,7 +8692,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
     "testId": "custom_full_mock_test_9_100",
     "title": "Mock Test 9",
-    "totalTimeMinutes": 120,
+    "totalTimeMinutes": 60,
     "markingScheme": {
       "correct": 1,
       "negative": 0.25
