@@ -878,6 +878,19 @@ export default function App() {
       if (!saved) return null;
       const parsed = JSON.parse(saved);
       if (parsed && parsed.quiz && Array.isArray(parsed.quiz.questions) && parsed.quiz.questions.length > 0) {
+        const isFull = parsed.quiz.category === 'full' || 
+          (parsed.quiz.category && parsed.quiz.category.includes('full')) ||
+          (parsed.quiz.subject && parsed.quiz.subject.toLowerCase().includes('full')) ||
+          (parsed.quiz.title && (parsed.quiz.title.toLowerCase().includes('full') || parsed.quiz.title.toLowerCase().includes('cbt'))) ||
+          (parsed.quiz.testId && (parsed.quiz.testId.toLowerCase().includes('full') || parsed.quiz.testId.toLowerCase().includes('cbt_mock'))) ||
+          parsed.quiz.questions.length >= 180;
+        if (isFull) {
+          parsed.quiz.totalTimeMinutes = 120;
+          parsed.durationMinutes = 120;
+          if (parsed.secondsLeft > 120 * 60) {
+            parsed.secondsLeft = 120 * 60;
+          }
+        }
         return parsed as ActiveQuizSession;
       }
       return null;
@@ -892,6 +905,19 @@ export default function App() {
       if (saved) {
         const parsed = JSON.parse(saved);
         if (parsed && parsed.quiz && Array.isArray(parsed.quiz.questions) && parsed.quiz.questions.length > 0) {
+          const isFull = parsed.quiz.category === 'full' || 
+            (parsed.quiz.category && parsed.quiz.category.includes('full')) ||
+            (parsed.quiz.subject && parsed.quiz.subject.toLowerCase().includes('full')) ||
+            (parsed.quiz.title && (parsed.quiz.title.toLowerCase().includes('full') || parsed.quiz.title.toLowerCase().includes('cbt'))) ||
+            (parsed.quiz.testId && (parsed.quiz.testId.toLowerCase().includes('full') || parsed.quiz.testId.toLowerCase().includes('cbt_mock'))) ||
+            parsed.quiz.questions.length >= 180;
+          if (isFull) {
+            parsed.quiz.totalTimeMinutes = 120;
+            parsed.durationMinutes = 120;
+            if (parsed.secondsLeft > 120 * 60) {
+              parsed.secondsLeft = 120 * 60;
+            }
+          }
           setActiveQuizSession(parsed as ActiveQuizSession);
           return;
         }
@@ -1885,15 +1911,29 @@ export default function App() {
       localStorage.removeItem('dsssb_active_quiz_session');
     } catch (_) {}
 
+    const isFull = quiz.category === 'full' || 
+      (quiz.category && quiz.category.includes('full')) ||
+      (quiz.subject && quiz.subject.toLowerCase().includes('full')) ||
+      (quiz.title && (quiz.title.toLowerCase().includes('full length') || quiz.title.toLowerCase().includes('full mock') || quiz.title.toLowerCase().includes('cbt mock'))) ||
+      (quiz.testId && (quiz.testId.toLowerCase().includes('full') || quiz.testId.toLowerCase().includes('cbt_mock'))) ||
+      (quiz.questions && quiz.questions.length >= 180);
+
+    const effectiveTimeMinutes = isFull ? 120 : (quiz.totalTimeMinutes || 60);
+
+    const normalizedQuiz: Quiz = {
+      ...quiz,
+      totalTimeMinutes: effectiveTimeMinutes
+    };
+
     const freshSession: ActiveQuizSession = {
-      quiz,
+      quiz: normalizedQuiz,
       mode: 'exam',
-      durationMinutes: quiz.totalTimeMinutes,
+      durationMinutes: effectiveTimeMinutes,
       currentIdx: 0,
       userAnswers: {},
-      visitedQuestions: { [(quiz.questions && quiz.questions[0]) ? quiz.questions[0].id : 0]: true },
+      visitedQuestions: { [(normalizedQuiz.questions && normalizedQuiz.questions[0]) ? normalizedQuiz.questions[0].id : 0]: true },
       localBookmarks: {},
-      secondsLeft: quiz.totalTimeMinutes * 60,
+      secondsLeft: effectiveTimeMinutes * 60,
       activeSectionIdx: 0,
       submittedSections: {},
       lastUpdated: Date.now()
@@ -1904,7 +1944,7 @@ export default function App() {
       setActiveQuizSession(freshSession);
     } catch (_) {}
 
-    setSelectedQuiz(quiz);
+    setSelectedQuiz(normalizedQuiz);
     setCurrentAnswers({});
     setTimeSpentSeconds(0);
     setLocalBookmarks({});

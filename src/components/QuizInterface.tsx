@@ -39,12 +39,38 @@ export default function QuizInterface({
   initialSessionState,
   onDiscardSession,
 }: QuizInterfaceProps) {
+  // Strictly enforce 120 minutes (2 hours) for all Full Length CBT Mocks
+  const isFullMock = useMemo(() => {
+    const cleanCat = (quiz?.category || '').toLowerCase();
+    const cleanSubject = (quiz?.subject || '').toLowerCase();
+    const cleanTitle = (quiz?.title || '').toLowerCase();
+    const cleanId = (quiz?.testId || '').toLowerCase();
+    const qCount = (quiz?.questions || []).length;
+    return cleanCat === 'full' || 
+           cleanCat.includes('full') || 
+           cleanSubject.includes('full mock') || 
+           cleanTitle.includes('full length') ||
+           cleanTitle.includes('full mock') ||
+           cleanTitle.includes('cbt mock') ||
+           cleanId.includes('full') ||
+           cleanId.includes('cbt_mock') ||
+           qCount >= 180;
+  }, [quiz]);
+
+  const effectiveDurationMinutes = isFullMock ? 120 : durationMinutes;
+
   const [currentIdx, setCurrentIdx] = useState<number>(() => initialSessionState?.currentIdx ?? 0);
   const [userAnswers, setUserAnswers] = useState<Record<number, number>>(() => initialSessionState?.userAnswers ?? {});
   const [localBookmarks, setLocalBookmarks] = useState<Record<number, boolean>>(() => initialSessionState?.localBookmarks ?? {});
   const [visitedQuestions, setVisitedQuestions] = useState<Record<number, boolean>>(() => initialSessionState?.visitedQuestions ?? {});
   const [questionTimeSpent, setQuestionTimeSpent] = useState<Record<number, number>>(() => initialSessionState?.questionTimeSpent ?? {});
-  const [secondsLeft, setSecondsLeft] = useState<number>(() => initialSessionState?.secondsLeft ?? (durationMinutes * 60));
+  const [secondsLeft, setSecondsLeft] = useState<number>(() => {
+    const maxAllowedSeconds = (isFullMock ? 120 : durationMinutes) * 60;
+    if (initialSessionState?.secondsLeft !== undefined && initialSessionState.secondsLeft > 0) {
+      return Math.min(initialSessionState.secondsLeft, maxAllowedSeconds);
+    }
+    return maxAllowedSeconds;
+  });
   const [showExitWarning, setShowExitWarning] = useState(false);
   const [showSubmitWarning, setShowSubmitWarning] = useState(false);
   const [revealedSolutions, setRevealedSolutions] = useState<Record<number, boolean>>({});
@@ -196,9 +222,12 @@ export default function QuizInterface({
   useEffect(() => {
     if (!quiz || !quiz.testId) return;
     const sessionData = {
-      quiz,
+      quiz: {
+        ...quiz,
+        totalTimeMinutes: effectiveDurationMinutes
+      },
       mode,
-      durationMinutes,
+      durationMinutes: effectiveDurationMinutes,
       currentIdx,
       userAnswers,
       visitedQuestions,
@@ -214,7 +243,7 @@ export default function QuizInterface({
     } catch (_e) {
       // ignore storage errors
     }
-  }, [quiz, mode, durationMinutes, currentIdx, userAnswers, visitedQuestions, localBookmarks, secondsLeft, activeSectionIdx, submittedSections, questionTimeSpent]);
+  }, [quiz, mode, effectiveDurationMinutes, currentIdx, userAnswers, visitedQuestions, localBookmarks, secondsLeft, activeSectionIdx, submittedSections, questionTimeSpent]);
 
   // Auto-register visit on mount or index change
   useEffect(() => {
@@ -232,7 +261,7 @@ export default function QuizInterface({
       localStorage.removeItem('dsssb_active_quiz_session');
     } catch (_) {}
     const totalTimeSpent = Math.round((Date.now() - startTimeRef.current) / 1000);
-    onSubmit(userAnswers, Math.min(totalTimeSpent, durationMinutes * 60), localBookmarks, questionTimeSpent);
+    onSubmit(userAnswers, Math.min(totalTimeSpent, effectiveDurationMinutes * 60), localBookmarks, questionTimeSpent);
   };
 
   const handleSaveAndNext = () => {
@@ -315,11 +344,14 @@ export default function QuizInterface({
   };
 
   const formatTime = (totalSeconds: number) => {
-    const hrs = Math.floor(totalSeconds / 3600);
-    const mins = Math.floor((totalSeconds % 3600) / 60);
-    const secs = totalSeconds % 60;
+    const clampedSec = Math.max(0, Math.floor(totalSeconds));
+    const hrs = Math.floor(clampedSec / 3600);
+    const mins = Math.floor((clampedSec % 3600) / 60);
+    const secs = clampedSec % 60;
     
-    if (hrs > 0) {
+    // For CBT exams of 1 hour or more (including all Full Length CBT Mocks which are strictly 2 hours),
+    // always format as HH:MM:SS (e.g. starts from 02:00:00 -> 01:59:59 -> 00:59:59)
+    if (effectiveDurationMinutes >= 60 || hrs > 0) {
       return `${hrs.toString().padStart(2, '0')}:${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
     }
     return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
@@ -634,7 +666,7 @@ export default function QuizInterface({
               {/* Live Per-Question Timer & Pace Indicator */}
               {(() => {
                 const currentQSeconds = questionTimeSpent[currentQuestion.id] || 0;
-                const targetSecondsPerQ = Math.max(30, Math.round((durationMinutes * 60) / ((quiz.questions || []).length || 20)));
+                const targetSecondsPerQ = Math.max(30, Math.round((effectiveDurationMinutes * 60) / ((quiz.questions || []).length || 20)));
                 const isIdeal = currentQSeconds <= targetSecondsPerQ;
                 const isModerate = currentQSeconds <= targetSecondsPerQ * 1.6;
 

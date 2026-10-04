@@ -297,9 +297,25 @@ export const processRawQuizData = (data: any, relativePath: string, fileName: st
 
   const testId = data.testId || `custom_${category}_${baseName.toLowerCase().replace(/\s+/g, '_')}_${questions.length}`;
 
-  const totalTimeMinutes = typeof data.totalTimeMinutes === 'number' 
-    ? data.totalTimeMinutes 
-    : Math.max(10, Math.ceil(normalizedQuestions.length * 1.2));
+  const isFullMock = category === 'full' || 
+    category.includes('full') || 
+    subject.toLowerCase().includes('full mock') || 
+    title.toLowerCase().includes('full length') ||
+    title.toLowerCase().includes('full mock') ||
+    title.toLowerCase().includes('cbt mock') ||
+    relativePath.toLowerCase().includes('full mock') ||
+    normalizedQuestions.length >= 180;
+
+  let totalTimeMinutes: number;
+  if (isFullMock) {
+    totalTimeMinutes = 120; // Strictly 120 minutes (2 hours) for Full CBT Mocks
+  } else if (category === 'part_a' && (normalizedQuestions.length >= 90 || title.toLowerCase().includes('part a full'))) {
+    totalTimeMinutes = 60; // 1 hour for Part A Full Mock
+  } else if (typeof data.totalTimeMinutes === 'number' && data.totalTimeMinutes > 0) {
+    totalTimeMinutes = data.totalTimeMinutes;
+  } else {
+    totalTimeMinutes = Math.max(10, Math.ceil(normalizedQuestions.length * 1.2));
+  }
 
   const markingScheme = data.markingScheme && typeof data.markingScheme.correct === 'number' && typeof data.markingScheme.negative === 'number'
     ? data.markingScheme

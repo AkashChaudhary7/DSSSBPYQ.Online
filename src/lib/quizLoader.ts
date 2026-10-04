@@ -241,11 +241,21 @@ export async function loadActiveQuizQuestions(quiz: Quiz): Promise<Quiz> {
   const processedQuiz = processRawQuizData(rawData, primaryPath, primaryPath.split('/').pop() || `${testId}.json`);
 
   // Preserve metadata properties while attaching loaded questions
+  const isFullMock = quiz.category === 'full' || 
+    (quiz.category && quiz.category.includes('full')) ||
+    (quiz.subject && quiz.subject.toLowerCase().includes('full')) ||
+    (quiz.title && (quiz.title.toLowerCase().includes('full length') || quiz.title.toLowerCase().includes('full mock') || quiz.title.toLowerCase().includes('cbt mock'))) ||
+    (quiz.testId && (quiz.testId.toLowerCase().includes('full') || quiz.testId.toLowerCase().includes('cbt_mock'))) ||
+    processedQuiz.questions.length >= 180;
+
+  const resolvedTimeMinutes = isFullMock ? 120 : (quiz.totalTimeMinutes || processedQuiz.totalTimeMinutes || 60);
+
   return {
     ...quiz,
     ...processedQuiz,
     testId: quiz.testId,
     title: quiz.title || processedQuiz.title,
+    totalTimeMinutes: resolvedTimeMinutes,
     questions: processedQuiz.questions,
     qCount: processedQuiz.questions.length
   };
