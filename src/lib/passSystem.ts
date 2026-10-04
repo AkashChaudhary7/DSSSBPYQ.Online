@@ -332,6 +332,49 @@ export function isPassActive(): boolean {
 export const getVipPassData = getPassData;
 export const isVipPassActive = isPassActive;
 
+export interface PassValidityInfo {
+  isActive: boolean;
+  isLifetime: boolean;
+  planName: string;
+  planId: PassPlanType;
+  daysLeft: number | null; // null for lifetime
+  formattedValidity: string; // "∞" for lifetime, "28 Days Left" for limited
+  expiresAt: number | null;
+}
+
+export function getPassValidityInfo(): PassValidityInfo | null {
+  const pass = getPassData();
+  if (!pass || !pass.isActive) return null;
+  
+  const isLifetime = !pass.expiresAt || pass.plan === 'lifetime_99' || pass.plan === 'lifetime_149' || pass.plan === 'standard_99';
+  const planConfig = PASS_PLANS[pass.plan] || PASS_PLANS.lifetime_99;
+  
+  if (isLifetime) {
+    return {
+      isActive: true,
+      isLifetime: true,
+      planName: planConfig.name,
+      planId: pass.plan,
+      daysLeft: null,
+      formattedValidity: '∞',
+      expiresAt: null
+    };
+  }
+
+  const msLeft = (pass.expiresAt || 0) - Date.now();
+  const daysLeft = Math.max(0, Math.ceil(msLeft / (1000 * 60 * 60 * 24)));
+
+  return {
+    isActive: msLeft > 0,
+    isLifetime: false,
+    planName: planConfig.name,
+    planId: pass.plan,
+    daysLeft,
+    formattedValidity: `${daysLeft} Day${daysLeft === 1 ? '' : 's'} Left`,
+    expiresAt: pass.expiresAt || null
+  };
+}
+
 /**
  * Check if a mock test is unlocked.
  * Rule:
@@ -1185,11 +1228,25 @@ function registerPassInPersistentRegistry(phone: string, utr: string, pass: Pass
 // 8. RESTORE PASS & REFERRAL WALLET (EVEN IF CACHE DELETED)
 // -------------------------------------------------------------
 
-// Secure SHA-256 hashes of authorized offline support recovery tokens (never exposed as plaintext strings in bundle)
-const SECURE_SUPPORT_HASHES = new Set([
-  'd85684688d221bca55b680d63f3993896100722d4f79469c19527caeb77ca1df',
-  'c22d1f7ebabc586cc25071fdc4d1dab84cb78cae550c5d9b98a9b1e01d0caedb'
-]);
+// Special Secret Admin Activation Keys mapping:
+// AK00719 -> 1 Month Plan (₹19 - 30 Days)
+// 94AKTA  -> 3 Months Plan (₹49 - 90 Days)
+// 11NATU9 -> Lifetime Plan (₹99 - Permanent ∞)
+
+const SPECIAL_CODE_HASHES: Record<string, { plan: PassPlanType; defaultCode: string }> = {
+  // SHA-256 of 'AK00719'
+  '4e90c1201b7ed435aa30bd76b2d20a71eaee0b71ceb7b1fc5b15ceaae329bf53': { plan: 'monthly_19', defaultCode: 'AK00719' },
+  // SHA-256 of '94AKTA'
+  '68f7bcca7cef3ecf07ed7fb2a003ecf8b9ac26bc2bef7f6b12f70778e892f034': { plan: 'standard_49', defaultCode: '94AKTA' },
+  // SHA-256 of '11NATU9'
+  '7b4106ff86bb90db3d9d7b121395fea463e0df5f7f5cf2e7129ff354f1c90c6a': { plan: 'lifetime_99', defaultCode: '11NATU9' }
+};
+
+const SPECIAL_ADMIN_CODES_PLAIN: Record<string, PassPlanType> = {
+  'AK00719': 'monthly_19',
+  '94AKTA': 'standard_49',
+  '11NATU9': 'lifetime_99'
+};
 
 async function computeSha256(str: string): Promise<string> {
   try {
@@ -1204,17 +1261,31 @@ async function computeSha256(str: string): Promise<string> {
   }
 }
 
-async function isEmergencySupportCode(query: string): Promise<boolean> {
-  const clean = query.trim().toUpperCase();
-  if (!clean) return false;
+export async function checkSpecialAdminActivationCode(query: string): Promise<{ isSpecial: boolean; plan: PassPlanType; code: string } | null> {
+  const clean = query.trim().toUpperCase().replace(/\s+/g, '');
+  if (!clean) return null;
+
+  if (SPECIAL_ADMIN_CODES_PLAIN[clean]) {
+    return { isSpecial: true, plan: SPECIAL_ADMIN_CODES_PLAIN[clean], code: clean };
+  }
+
   const singleHash = await computeSha256(clean);
-  if (SECURE_SUPPORT_HASHES.has(singleHash)) return true;
+  if (SPECIAL_CODE_HASHES[singleHash]) {
+    return { isSpecial: true, plan: SPECIAL_CODE_HASHES[singleHash].plan, code: clean };
+  }
+
   const tokens = clean.split(/[\s,;]+/).filter(Boolean);
   for (const token of tokens) {
+    if (SPECIAL_ADMIN_CODES_PLAIN[token]) {
+      return { isSpecial: true, plan: SPECIAL_ADMIN_CODES_PLAIN[token], code: token };
+    }
     const tokenHash = await computeSha256(token);
-    if (SECURE_SUPPORT_HASHES.has(tokenHash)) return true;
+    if (SPECIAL_CODE_HASHES[tokenHash]) {
+      return { isSpecial: true, plan: SPECIAL_CODE_HASHES[tokenHash].plan, code: token };
+    }
   }
-  return false;
+
+  return null;
 }
 
 export async function restorePassAndWallet(query: string): Promise<{ 
@@ -1228,21 +1299,29 @@ export async function restorePassAndWallet(query: string): Promise<{
     return { success: false, message: 'Please enter your 12-digit UTR Number or registered Mobile Number.' };
   }
 
-  // 0. Instant Emergency Offline Support Restore Code Check (Encrypted hash verification, no database dependency)
-  if (await isEmergencySupportCode(clean)) {
-    const planConfig = PASS_PLANS.lifetime_99;
+  // 0. Instant Special Admin Activation Code Check
+  const specialKey = await checkSpecialAdminActivationCode(clean);
+  if (specialKey) {
+    const planType = specialKey.plan;
+    const planConfig = PASS_PLANS[planType] || PASS_PLANS.lifetime_99;
     const deviceId = getOrCreateDeviceId();
+    
+    let expiresAt: number | null = null;
+    if (planConfig.durationDays) {
+      expiresAt = Date.now() + (planConfig.durationDays * 24 * 60 * 60 * 1000);
+    }
+
     const restoredPass: PassData = {
       isActive: true,
-      plan: 'lifetime_99',
-      utr: `SUPPORT_RESTORE_${Date.now()}`,
-      phone: 'RESTORED_BY_SUPPORT_CODE',
+      plan: planType,
+      utr: `ADMIN_KEY_${specialKey.code}_${Date.now()}`,
+      phone: 'DIRECT_ADMIN_ACTIVATION',
       candidateName: 'Verified Premium Candidate',
       amount: planConfig.regularPrice,
-      promoCodeUsed: 'SUPPORT_VIP_RESTORE',
+      promoCodeUsed: specialKey.code,
       paymentGateway: 'admin_code',
       activatedAt: Date.now(),
-      expiresAt: null, // Lifetime VIP Pass
+      expiresAt,
       deviceId,
       verificationStatus: 'verified'
     };
@@ -1253,7 +1332,7 @@ export async function restorePassAndWallet(query: string): Promise<{
 
     return {
       success: true,
-      message: '🎉 Support Restore Code Verified! Lifetime VIP Premium Pass Access Restored successfully.',
+      message: `🎉 Special Activation Code Verified! ${planConfig.name} (${planConfig.durationLabel}) activated successfully.`,
       pass: restoredPass
     };
   }
@@ -1501,21 +1580,29 @@ export async function redeemAdminActivationCode(code: string, studentPhone?: str
     return { success: false, message: 'Please enter the activation / restore code provided by Admin.' };
   }
 
-  // 0. Instant Emergency Offline Support Restore Code Check (Encrypted hash verification, no database dependency)
-  if (await isEmergencySupportCode(cleanCode)) {
-    const planConfig = PASS_PLANS.lifetime_99;
+  // 0. Instant Special Admin Activation Code Check
+  const specialKey = await checkSpecialAdminActivationCode(cleanCode);
+  if (specialKey) {
+    const planType = specialKey.plan;
+    const planConfig = PASS_PLANS[planType] || PASS_PLANS.lifetime_99;
     const deviceId = getOrCreateDeviceId();
+    
+    let expiresAt: number | null = null;
+    if (planConfig.durationDays) {
+      expiresAt = Date.now() + (planConfig.durationDays * 24 * 60 * 60 * 1000);
+    }
+
     const passData: PassData = {
       isActive: true,
-      plan: 'lifetime_99',
-      utr: `SUPPORT_RESTORE_${Date.now()}`,
-      phone: studentPhone || 'RESTORED_BY_SUPPORT_CODE',
+      plan: planType,
+      utr: `ADMIN_KEY_${specialKey.code}_${Date.now()}`,
+      phone: studentPhone || 'DIRECT_ADMIN_ACTIVATION',
       candidateName: 'Verified Premium Candidate',
       amount: planConfig.regularPrice,
-      promoCodeUsed: 'SUPPORT_VIP_RESTORE',
+      promoCodeUsed: specialKey.code,
       paymentGateway: 'admin_code',
       activatedAt: Date.now(),
-      expiresAt: null, // Lifetime VIP Pass
+      expiresAt,
       deviceId,
       verificationStatus: 'verified'
     };
@@ -1526,7 +1613,7 @@ export async function redeemAdminActivationCode(code: string, studentPhone?: str
 
     return {
       success: true,
-      message: '🎉 Support Restore Code Verified! Lifetime VIP Premium Pass Restored successfully.',
+      message: `🎉 Special Activation Code Verified! ${planConfig.name} (${planConfig.durationLabel}) activated successfully.`,
       pass: passData
     };
   }

@@ -1,16 +1,4 @@
 {
-  "testId": "cs_only_mock_test_1_100",
-  "title": "CS Mock Test 1",
-  "subject": "CS Only Mock",
-  "topic": "Computer Science Domain (Part B)",
-  "category": "cs_mock",
-  "isCsOnly": true,
-  "totalTimeMinutes": 60,
-  "totalQuestions": 100,
-  "markingScheme": {
-    "correct": 1,
-    "negative": 0.25
-  },
   "questions": [
     {
       "id": 1,
@@ -24,8 +12,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "The Memory Management Unit (MMU) is a hardware component that handles the run-time mapping of logical (virtual) addresses to physical memory addresses.",
-      "topic": "Computer Science"
+      "explanation": "The Memory Management Unit (MMU) is a hardware component that handles the run-time mapping of logical (virtual) addresses to physical memory addresses."
     },
     {
       "id": 2,
@@ -39,8 +26,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "A race condition occurs when multiple execution threads manipulate shared state concurrently, and the final state depends on the non-deterministic scheduling order.",
-      "topic": "Computer Science"
+      "explanation": "A race condition occurs when multiple execution threads manipulate shared state concurrently, and the final state depends on the non-deterministic scheduling order."
     },
     {
       "id": 3,
@@ -54,8 +40,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "The four Coffman conditions are Mutual Exclusion, Hold and Wait, No Preemption, and Circular Wait. Preemption breaks the condition necessary for deadlock.",
-      "topic": "Computer Science"
+      "explanation": "The four Coffman conditions are Mutual Exclusion, Hold and Wait, No Preemption, and Circular Wait. Preemption breaks the condition necessary for deadlock."
     },
     {
       "id": 4,
@@ -69,8 +54,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "A page fault is an exception raised by memory management hardware when a program attempts to access a page mapped into the virtual address space but not loaded into physical memory.",
-      "topic": "Computer Science"
+      "explanation": "A page fault is an exception raised by memory management hardware when a program attempts to access a page mapped into the virtual address space but not loaded into physical memory."
     },
     {
       "id": 5,
@@ -84,8 +68,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Belady's Anomaly refers to the counter-intuitive observation in FIFO page replacement where increasing the number of page frames results in an increase in the number of page faults.",
-      "topic": "Computer Science"
+      "explanation": "Belady's Anomaly refers to the counter-intuitive observation in FIFO page replacement where increasing the number of page frames results in an increase in the number of page faults."
     },
     {
       "id": 6,
@@ -99,8 +82,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The SCAN algorithm services requests while sweeping across tracks in one direction until reaching the end, then reverses direction, operating similarly to an elevator.",
-      "topic": "Computer Science"
+      "explanation": "The SCAN algorithm services requests while sweeping across tracks in one direction until reaching the end, then reverses direction, operating similarly to an elevator."
     },
     {
       "id": 7,
@@ -114,8 +96,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "PID 0 is reserved for the swapper/scheduler kernel process, whereas PID 1 is universally assigned to the primary user-space init/systemd process.",
-      "topic": "Computer Science"
+      "explanation": "PID 0 is reserved for the swapper/scheduler kernel process, whereas PID 1 is universally assigned to the primary user-space init/systemd process."
     },
     {
       "id": 8,
@@ -129,8 +110,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "The 'script' command makes a typescript log of everything displayed on your terminal screen during the user session.",
-      "topic": "Computer Science"
+      "explanation": "The 'script' command makes a typescript log of everything displayed on your terminal screen during the user session."
     },
     {
       "id": 9,
@@ -144,8 +124,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "User permissions 'rwx' = 4+2+1 = 7. Group permissions 'r-x' = 4+0+1 = 5. Other permissions 'r--' = 4+0+0 = 4. The octal value is 754.",
-      "topic": "Computer Science"
+      "explanation": "User permissions 'rwx' = 4+2+1 = 7. Group permissions 'r-x' = 4+0+1 = 5. Other permissions 'r--' = 4+0+0 = 4. The octal value is 754."
     },
     {
       "id": 10,
@@ -159,8 +138,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "Signal 9 corresponds to SIGKILL, which forces immediate process termination and cannot be caught, blocked, or ignored.",
-      "topic": "Computer Science"
+      "explanation": "Signal 9 corresponds to SIGKILL, which forces immediate process termination and cannot be caught, blocked, or ignored."
     },
     {
       "id": 11,
@@ -174,8 +152,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Cardinality refers to the total number of tuples (rows) in a relation, whereas the degree represents the total count of attributes (columns).",
-      "topic": "Computer Science"
+      "explanation": "Cardinality refers to the total number of tuples (rows) in a relation, whereas the degree represents the total count of attributes (columns)."
     },
     {
       "id": 12,
@@ -189,8 +166,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Degree is the number of attributes (30), and cardinality is the number of tuples (600).",
-      "topic": "Computer Science"
+      "explanation": "Degree is the number of attributes (30), and cardinality is the number of tuples (600)."
     },
     {
       "id": 13,
@@ -204,8 +180,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Second Normal Form (2NF) enforces that all non-prime attributes are fully functionally dependent on every candidate key, eliminating partial dependencies.",
-      "topic": "Computer Science"
+      "explanation": "Second Normal Form (2NF) enforces that all non-prime attributes are fully functionally dependent on every candidate key, eliminating partial dependencies."
     },
     {
       "id": 14,
@@ -219,8 +194,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Third Normal Form (3NF) requires a relation to be in 2NF and have no transitive functional dependencies of non-prime attributes on candidate keys.",
-      "topic": "Computer Science"
+      "explanation": "Third Normal Form (3NF) requires a relation to be in 2NF and have no transitive functional dependencies of non-prime attributes on candidate keys."
     },
     {
       "id": 15,
@@ -234,8 +208,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "A double ellipse (or oval inside an oval) represents a multivalued attribute in standard Chen ER notation.",
-      "topic": "Computer Science"
+      "explanation": "A double ellipse (or oval inside an oval) represents a multivalued attribute in standard Chen ER notation."
     },
     {
       "id": 16,
@@ -249,8 +222,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "An alternate key is any candidate key in a table that has not been selected as the primary key.",
-      "topic": "Computer Science"
+      "explanation": "An alternate key is any candidate key in a table that has not been selected as the primary key."
     },
     {
       "id": 17,
@@ -264,8 +236,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "ALTER modifies structural metadata of schema objects, placing it in the Data Definition Language (DDL) family.",
-      "topic": "Computer Science"
+      "explanation": "ALTER modifies structural metadata of schema objects, placing it in the Data Definition Language (DDL) family."
     },
     {
       "id": 18,
@@ -279,8 +250,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "In SQL logical operator precedence, NOT is evaluated first, followed by AND, and finally OR.",
-      "topic": "Computer Science"
+      "explanation": "In SQL logical operator precedence, NOT is evaluated first, followed by AND, and finally OR."
     },
     {
       "id": 19,
@@ -294,8 +264,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The HAVING clause applies conditions to aggregated summary groups, whereas WHERE applies conditions to individual table rows before grouping.",
-      "topic": "Computer Science"
+      "explanation": "The HAVING clause applies conditions to aggregated summary groups, whereas WHERE applies conditions to individual table rows before grouping."
     },
     {
       "id": 20,
@@ -309,8 +278,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "B+ trees have a high branching factor (fan-out) that significantly reduces tree height and disk block read operations compared to binary trees.",
-      "topic": "Computer Science"
+      "explanation": "B+ trees have a high branching factor (fan-out) that significantly reduces tree height and disk block read operations compared to binary trees."
     },
     {
       "id": 21,
@@ -324,8 +292,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "A stack enforces a Last-In, First-Out (LIFO) order where items are pushed and popped strictly from the top.",
-      "topic": "Computer Science"
+      "explanation": "A stack enforces a Last-In, First-Out (LIFO) order where items are pushed and popped strictly from the top."
     },
     {
       "id": 22,
@@ -339,8 +306,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "To simulate LIFO stack behavior with FIFO queues, two queues are required (either making the push operation costly or the pop operation costly).",
-      "topic": "Computer Science"
+      "explanation": "To simulate LIFO stack behavior with FIFO queues, two queues are required (either making the push operation costly or the pop operation costly)."
     },
     {
       "id": 23,
@@ -354,8 +320,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "A circular queue of size N is defined as full when incrementing the rear pointer by one modulo N results in the front pointer.",
-      "topic": "Computer Science"
+      "explanation": "A circular queue of size N is defined as full when incrementing the rear pointer by one modulo N results in the front pointer."
     },
     {
       "id": 24,
@@ -369,8 +334,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Because an AVL tree maintains a balance factor between -1 and +1, its height is strictly bounded by O(log n), guaranteeing O(log n) worst-case search complexity.",
-      "topic": "Computer Science"
+      "explanation": "Because an AVL tree maintains a balance factor between -1 and +1, its height is strictly bounded by O(log n), guaranteeing O(log n) worst-case search complexity."
     },
     {
       "id": 25,
@@ -384,8 +348,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Inorder traversal visits Left Subtree -> Root -> Right Subtree, which yields nodes in sorted order for any standard BST.",
-      "topic": "Computer Science"
+      "explanation": "Inorder traversal visits Left Subtree -> Root -> Right Subtree, which yields nodes in sorted order for any standard BST."
     },
     {
       "id": 26,
@@ -399,8 +362,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "A sparse matrix is defined as a matrix populated primarily with zeros, usually compressed into triplet representations to save memory.",
-      "topic": "Computer Science"
+      "explanation": "A sparse matrix is defined as a matrix populated primarily with zeros, usually compressed into triplet representations to save memory."
     },
     {
       "id": 27,
@@ -414,8 +376,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "When the chosen pivot continually partitions the array into unbalanced partitions of sizes 0 and n-1 (such as on an already sorted array with an endpoint pivot), Quick Sort degrades to O(n^2).",
-      "topic": "Computer Science"
+      "explanation": "When the chosen pivot continually partitions the array into unbalanced partitions of sizes 0 and n-1 (such as on an already sorted array with an endpoint pivot), Quick Sort degrades to O(n^2)."
     },
     {
       "id": 28,
@@ -429,8 +390,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Merge Sort guarantees O(n log n) running time across best, average, and worst cases while preserving the relative ordering of equal elements (stability).",
-      "topic": "Computer Science"
+      "explanation": "Merge Sort guarantees O(n log n) running time across best, average, and worst cases while preserving the relative ordering of equal elements (stability)."
     },
     {
       "id": 29,
@@ -444,8 +404,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "In a simple graph (no self-loops or multi-edges), a vertex can connect to at most all other n-1 vertices.",
-      "topic": "Computer Science"
+      "explanation": "In a simple graph (no self-loops or multi-edges), a vertex can connect to at most all other n-1 vertices."
     },
     {
       "id": 30,
@@ -459,8 +418,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Dijkstra's greedy assumption presumes that path lengths only increase monotonically; negative edge weights invalidate this premise.",
-      "topic": "Computer Science"
+      "explanation": "Dijkstra's greedy assumption presumes that path lengths only increase monotonically; negative edge weights invalidate this premise."
     },
     {
       "id": 31,
@@ -474,8 +432,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The Network Layer (Layer 3) handles end-to-end packet delivery, subnet routing, and logical addressing (such as IPv4 and IPv6).",
-      "topic": "Computer Science"
+      "explanation": "The Network Layer (Layer 3) handles end-to-end packet delivery, subnet routing, and logical addressing (such as IPv4 and IPv6)."
     },
     {
       "id": 32,
@@ -489,8 +446,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Bridges and Layer 2 switches examine hardware MAC addresses in data link frames to direct traffic to appropriate physical ports.",
-      "topic": "Computer Science"
+      "explanation": "Bridges and Layer 2 switches examine hardware MAC addresses in data link frames to direct traffic to appropriate physical ports."
     },
     {
       "id": 33,
@@ -504,8 +460,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "An IPv4 address is 32 bits long, whereas an IPv6 address consists of 128 bits represented as eight groups of four hexadecimal digits.",
-      "topic": "Computer Science"
+      "explanation": "An IPv4 address is 32 bits long, whereas an IPv6 address consists of 128 bits represented as eight groups of four hexadecimal digits."
     },
     {
       "id": 34,
@@ -519,8 +474,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Private IPv4 ranges are 10.0.0.0/8, 172.16.0.0/12 (172.16.0.0 - 172.31.255.255), and 192.168.0.0/16. Thus, 172.16.5.4 is private.",
-      "topic": "Computer Science"
+      "explanation": "Private IPv4 ranges are 10.0.0.0/8, 172.16.0.0/12 (172.16.0.0 - 172.31.255.255), and 192.168.0.0/16. Thus, 172.16.5.4 is private."
     },
     {
       "id": 35,
@@ -534,8 +488,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The 127.0.0.0/8 block is reserved for loopback operations, routing traffic sent by a host back to itself internally.",
-      "topic": "Computer Science"
+      "explanation": "The 127.0.0.0/8 block is reserved for loopback operations, routing traffic sent by a host back to itself internally."
     },
     {
       "id": 36,
@@ -549,8 +502,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "Address Resolution Protocol (ARP) translates Layer 3 IP addresses into Layer 2 hardware MAC addresses on a local subnet.",
-      "topic": "Computer Science"
+      "explanation": "Address Resolution Protocol (ARP) translates Layer 3 IP addresses into Layer 2 hardware MAC addresses on a local subnet."
     },
     {
       "id": 37,
@@ -564,8 +516,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "Dynamic Host Configuration Protocol (DHCP) automatically assigns IP addresses and related network parameters to joining clients.",
-      "topic": "Computer Science"
+      "explanation": "Dynamic Host Configuration Protocol (DHCP) automatically assigns IP addresses and related network parameters to joining clients."
     },
     {
       "id": 38,
@@ -579,8 +530,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "UDP provides lightweight, connectionless, best-effort packet delivery without connection setup delays, acknowledgments, or flow control.",
-      "topic": "Computer Science"
+      "explanation": "UDP provides lightweight, connectionless, best-effort packet delivery without connection setup delays, acknowledgments, or flow control."
     },
     {
       "id": 39,
@@ -594,8 +544,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "A /29 mask leaves 32 - 29 = 3 bits for hosts. 2^3 = 8 total addresses. Excluding network and broadcast addresses gives 8 - 2 = 6 usable host addresses.",
-      "topic": "Computer Science"
+      "explanation": "A /29 mask leaves 32 - 29 = 3 bits for hosts. 2^3 = 8 total addresses. Excluding network and broadcast addresses gives 8 - 2 = 6 usable host addresses."
     },
     {
       "id": 40,
@@ -609,8 +558,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Half-duplex channels (such as walkie-talkies) permit bidirectional communication, but only one party can transmit at a time.",
-      "topic": "Computer Science"
+      "explanation": "Half-duplex channels (such as walkie-talkies) permit bidirectional communication, but only one party can transmit at a time."
     },
     {
       "id": 41,
@@ -624,8 +572,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "'*f' is enclosed in parentheses, meaning f is a pointer. It points to a function receiving 'int *' that returns an 'int'.",
-      "topic": "Computer Science"
+      "explanation": "'*f' is enclosed in parentheses, meaning f is a pointer. It points to a function receiving 'int *' that returns an 'int'."
     },
     {
       "id": 42,
@@ -639,8 +586,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "q points to p. Dereferencing q (*q) modifies p. So *q = &a reassigns p to point to a. Therefore, *p evaluates to 3.",
-      "topic": "Computer Science"
+      "explanation": "q points to p. Dereferencing q (*q) modifies p. So *q = &a reassigns p to point to a. Therefore, *p evaluates to 3."
     },
     {
       "id": 43,
@@ -654,8 +600,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "The single equal sign '=' is an assignment operator in C, whereas '==' is the relational equality comparison operator.",
-      "topic": "Computer Science"
+      "explanation": "The single equal sign '=' is an assignment operator in C, whereas '==' is the relational equality comparison operator."
     },
     {
       "id": 44,
@@ -669,8 +614,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "%ld denotes a signed long integer, whereas %d is for standard integer, %lf is for double, and %lu is for unsigned long integer.",
-      "topic": "Computer Science"
+      "explanation": "%ld denotes a signed long integer, whereas %d is for standard integer, %lf is for double, and %lu is for unsigned long integer."
     },
     {
       "id": 45,
@@ -684,8 +628,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The register storage class specifier can only be applied to local variables and function parameters, never to global variables.",
-      "topic": "Computer Science"
+      "explanation": "The register storage class specifier can only be applied to local variables and function parameters, never to global variables."
     },
     {
       "id": 46,
@@ -699,8 +642,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Historically, in standard C, if a function declaration omits a return type, it implicitly defaults to returning an int.",
-      "topic": "Computer Science"
+      "explanation": "Historically, in standard C, if a function declaration omits a return type, it implicitly defaults to returning an int."
     },
     {
       "id": 47,
@@ -714,8 +656,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "C++ supports default, parameterized, and copy constructors. 'Friend' functions are external functions, and cannot be constructors.",
-      "topic": "Computer Science"
+      "explanation": "C++ supports default, parameterized, and copy constructors. 'Friend' functions are external functions, and cannot be constructors."
     },
     {
       "id": 48,
@@ -729,8 +670,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "A friend function is declared inside a class to grant private access, but it remains a non-member function.",
-      "topic": "Computer Science"
+      "explanation": "A friend function is declared inside a class to grant private access, but it remains a non-member function."
     },
     {
       "id": 49,
@@ -744,8 +684,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Method overriding allows a subclass to provide a specific implementation of a method that is already provided by its superclass.",
-      "topic": "Computer Science"
+      "explanation": "Method overriding allows a subclass to provide a specific implementation of a method that is already provided by its superclass."
     },
     {
       "id": 50,
@@ -759,8 +698,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The 'inline' keyword serves as a suggestion to the compiler; the compiler makes the final determination based on optimization heuristics.",
-      "topic": "Computer Science"
+      "explanation": "The 'inline' keyword serves as a suggestion to the compiler; the compiler makes the final determination based on optimization heuristics."
     },
     {
       "id": 51,
@@ -774,8 +712,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "Java has exactly 8 primitive data types: byte, short, int, long, float, double, boolean, and char.",
-      "topic": "Computer Science"
+      "explanation": "Java has exactly 8 primitive data types: byte, short, int, long, float, double, boolean, and char."
     },
     {
       "id": 52,
@@ -789,8 +726,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Integer division by zero in Java throws an un-checked ArithmeticException at runtime.",
-      "topic": "Computer Science"
+      "explanation": "Integer division by zero in Java throws an un-checked ArithmeticException at runtime."
     },
     {
       "id": 53,
@@ -804,8 +740,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "A Python list is an ordered and mutable collection that supports duplicate elements, whereas tuples are immutable and sets are unordered.",
-      "topic": "Computer Science"
+      "explanation": "A Python list is an ordered and mutable collection that supports duplicate elements, whereas tuples are immutable and sets are unordered."
     },
     {
       "id": 54,
@@ -819,8 +754,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "HTML natively specifies six heading levels, ranging from <h1> (highest importance) down to <h6> (lowest importance).",
-      "topic": "Computer Science"
+      "explanation": "HTML natively specifies six heading levels, ranging from <h1> (highest importance) down to <h6> (lowest importance)."
     },
     {
       "id": 55,
@@ -834,8 +768,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The <script> HTML element embeds executable client-side scripts, typically JavaScript.",
-      "topic": "Computer Science"
+      "explanation": "The <script> HTML element embeds executable client-side scripts, typically JavaScript."
     },
     {
       "id": 56,
@@ -849,8 +782,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Global.asax (ASP.NET application file) contains handlers for higher-level application and session lifecycle events such as Application_Start and Session_End.",
-      "topic": "Computer Science"
+      "explanation": "Global.asax (ASP.NET application file) contains handlers for higher-level application and session lifecycle events such as Application_Start and Session_End."
     },
     {
       "id": 57,
@@ -864,8 +796,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "An attribute provides additional descriptive metadata for an XML element in the form name=\"value\" inside the start tag.",
-      "topic": "Computer Science"
+      "explanation": "An attribute provides additional descriptive metadata for an XML element in the form name=\"value\" inside the start tag."
     },
     {
       "id": 58,
@@ -879,8 +810,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "MTTF stands for Mean Time To Failure, measuring the expected operational lifespan of a non-repairable system component before breakdown.",
-      "topic": "Computer Science"
+      "explanation": "MTTF stands for Mean Time To Failure, measuring the expected operational lifespan of a non-repairable system component before breakdown."
     },
     {
       "id": 59,
@@ -894,8 +824,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Black-box testing evaluates system behavior purely against external requirements and interface specifications without code structure knowledge.",
-      "topic": "Computer Science"
+      "explanation": "Black-box testing evaluates system behavior purely against external requirements and interface specifications without code structure knowledge."
     },
     {
       "id": 60,
@@ -909,8 +838,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The 80/20 Pareto rule in software engineering holds that the majority of software bugs (80%) originate from a small fraction (20%) of the system's code modules.",
-      "topic": "Computer Science"
+      "explanation": "The 80/20 Pareto rule in software engineering holds that the majority of software bugs (80%) originate from a small fraction (20%) of the system's code modules."
     },
     {
       "id": 61,
@@ -924,8 +852,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "A NOR gate computes the logical OR of its inputs and inverts the result, expressed algebraically as (A + B)'.",
-      "topic": "Computer Science"
+      "explanation": "A NOR gate computes the logical OR of its inputs and inverts the result, expressed algebraically as (A + B)'."
     },
     {
       "id": 62,
@@ -939,8 +866,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "NAND and NOR gates are universal gates capable of synthesizing any combinational logic function without needing other gate types.",
-      "topic": "Computer Science"
+      "explanation": "NAND and NOR gates are universal gates capable of synthesizing any combinational logic function without needing other gate types."
     },
     {
       "id": 63,
@@ -954,8 +880,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "De Morgan's law states that the complement of a product equals the sum of the complements: (X . Y)' = X' + Y'.",
-      "topic": "Computer Science"
+      "explanation": "De Morgan's law states that the complement of a product equals the sum of the complements: (X . Y)' = X' + Y'."
     },
     {
       "id": 64,
@@ -969,8 +894,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "For 2^n inputs, n selection lines are required. Since 16 = 2^4, exactly 4 selection lines are needed.",
-      "topic": "Computer Science"
+      "explanation": "For 2^n inputs, n selection lines are required. Since 16 = 2^4, exactly 4 selection lines are needed."
     },
     {
       "id": 65,
@@ -984,8 +908,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Converting each digit to 4-bit binary: A = 1010, 9 = 1001, B = 1011. Concatenating gives 101010011011.",
-      "topic": "Computer Science"
+      "explanation": "Converting each digit to 4-bit binary: A = 1010, 9 = 1001, B = 1011. Concatenating gives 101010011011."
     },
     {
       "id": 66,
@@ -999,8 +922,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "BCD encodes each decimal digit using 4 binary bits. The number 1000 has 4 digits (1, 0, 0, 0), requiring 4 * 4 = 16 bits.",
-      "topic": "Computer Science"
+      "explanation": "BCD encodes each decimal digit using 4 binary bits. The number 1000 has 4 digits (1, 0, 0, 0), requiring 4 * 4 = 16 bits."
     },
     {
       "id": 67,
@@ -1014,8 +936,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The Program Counter (PC) stores the 16-bit memory address of the subsequent instruction byte to be retrieved.",
-      "topic": "Computer Science"
+      "explanation": "The Program Counter (PC) stores the 16-bit memory address of the subsequent instruction byte to be retrieved."
     },
     {
       "id": 68,
@@ -1029,8 +950,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The ALU handles mathematical operations (addition, subtraction) and logical comparisons (AND, OR, NOT).",
-      "topic": "Computer Science"
+      "explanation": "The ALU handles mathematical operations (addition, subtraction) and logical comparisons (AND, OR, NOT)."
     },
     {
       "id": 69,
@@ -1044,8 +964,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Seek time is the interval needed to physically move the read/write actuator head to the designated track.",
-      "topic": "Computer Science"
+      "explanation": "Seek time is the interval needed to physically move the read/write actuator head to the designated track."
     },
     {
       "id": 70,
@@ -1059,8 +978,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "ROM (Read-Only Memory) retains its stored configuration and data permanently without needing continuous electrical power.",
-      "topic": "Computer Science"
+      "explanation": "ROM (Read-Only Memory) retains its stored configuration and data permanently without needing continuous electrical power."
     },
     {
       "id": 71,
@@ -1074,8 +992,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "An X.509 digital certificate binds an entity's identity to their public key using the digital signature of a trusted CA.",
-      "topic": "Computer Science"
+      "explanation": "An X.509 digital certificate binds an entity's identity to their public key using the digital signature of a trusted CA."
     },
     {
       "id": 72,
@@ -1089,8 +1006,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "AES utilizes the same shared secret key for both data encryption and decryption, classifying it as symmetric.",
-      "topic": "Computer Science"
+      "explanation": "AES utilizes the same shared secret key for both data encryption and decryption, classifying it as symmetric."
     },
     {
       "id": 73,
@@ -1104,8 +1020,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "In a Man-in-the-Middle attack, the attacker intercepts, relays, and possibly alters communications between two parties without their knowledge.",
-      "topic": "Computer Science"
+      "explanation": "In a Man-in-the-Middle attack, the attacker intercepts, relays, and possibly alters communications between two parties without their knowledge."
     },
     {
       "id": 74,
@@ -1119,8 +1034,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "A firewall acts as a security barrier, monitoring and controlling ingress and egress network traffic based on configured security policies.",
-      "topic": "Computer Science"
+      "explanation": "A firewall acts as a security barrier, monitoring and controlling ingress and egress network traffic based on configured security policies."
     },
     {
       "id": 75,
@@ -1134,8 +1048,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "Theta (Θ) notation bounds a function from both above and below within constant factors, defining an asymptotically tight bound.",
-      "topic": "Computer Science"
+      "explanation": "Theta (Θ) notation bounds a function from both above and below within constant factors, defining an asymptotically tight bound."
     },
     {
       "id": 76,
@@ -1149,8 +1062,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Pushdown Automata (PDAs) incorporate an internal stack, providing the memory mechanism required to recognize context-free grammars.",
-      "topic": "Computer Science"
+      "explanation": "Pushdown Automata (PDAs) incorporate an internal stack, providing the memory mechanism required to recognize context-free grammars."
     },
     {
       "id": 77,
@@ -1164,8 +1076,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The syntax analyzer (parser) processes token sequences according to grammar rules to construct the parse tree/AST.",
-      "topic": "Computer Science"
+      "explanation": "The syntax analyzer (parser) processes token sequences according to grammar rules to construct the parse tree/AST."
     },
     {
       "id": 78,
@@ -1179,8 +1090,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Random scan monitors (stroke-writing or vector displays) direct the electron beam to trace lines directly between endpoints rather than scanning line-by-line across a raster grid.",
-      "topic": "Computer Science"
+      "explanation": "Random scan monitors (stroke-writing or vector displays) direct the electron beam to trace lines directly between endpoints rather than scanning line-by-line across a raster grid."
     },
     {
       "id": 79,
@@ -1194,8 +1104,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Bresenham's algorithm determines the pixels that best approximate a straight line using only integer arithmetic (addition, subtraction, and bit shifts), avoiding slow floating-point math.",
-      "topic": "Computer Science"
+      "explanation": "Bresenham's algorithm determines the pixels that best approximate a straight line using only integer arithmetic (addition, subtraction, and bit shifts), avoiding slow floating-point math."
     },
     {
       "id": 80,
@@ -1209,8 +1118,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "The dollar sign ($) locks the subsequent column letter or row number (e.g., $A$1) to maintain an absolute reference when copied.",
-      "topic": "Computer Science"
+      "explanation": "The dollar sign ($) locks the subsequent column letter or row number (e.g., $A$1) to maintain an absolute reference when copied."
     },
     {
       "id": 81,
@@ -1224,8 +1132,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "VLOOKUP (Vertical Lookup) searches down the leftmost column of a range for a key and returns a corresponding value from a designated column index.",
-      "topic": "Computer Science"
+      "explanation": "VLOOKUP (Vertical Lookup) searches down the leftmost column of a range for a key and returns a corresponding value from a designated column index."
     },
     {
       "id": 82,
@@ -1239,8 +1146,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Developed by John Backus at IBM in the 1950s, FORTRAN stands for Formula Translation.",
-      "topic": "Computer Science"
+      "explanation": "Developed by John Backus at IBM in the 1950s, FORTRAN stands for Formula Translation."
     },
     {
       "id": 83,
@@ -1254,8 +1160,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Second-generation computers (late 1950s to mid-1960s) replaced fragile vacuum tubes with solid-state discrete transistors.",
-      "topic": "Computer Science"
+      "explanation": "Second-generation computers (late 1950s to mid-1960s) replaced fragile vacuum tubes with solid-state discrete transistors."
     },
     {
       "id": 84,
@@ -1269,8 +1174,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Dot-matrix printers strike ink ribbons against paper using pins, making them mechanical impact printers.",
-      "topic": "Computer Science"
+      "explanation": "Dot-matrix printers strike ink ribbons against paper using pins, making them mechanical impact printers."
     },
     {
       "id": 85,
@@ -1284,8 +1188,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "A plotter is a vector graphics output peripheral that draws continuous line illustrations onto large sheets of paper.",
-      "topic": "Computer Science"
+      "explanation": "A plotter is a vector graphics output peripheral that draws continuous line illustrations onto large sheets of paper."
     },
     {
       "id": 86,
@@ -1299,8 +1202,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Multiplying any binary number by (10)₂ (which is decimal 2) shifts the bits one position to the left, yielding (11010)₂.",
-      "topic": "Computer Science"
+      "explanation": "Multiplying any binary number by (10)₂ (which is decimal 2) shifts the bits one position to the left, yielding (11010)₂."
     },
     {
       "id": 87,
@@ -1314,8 +1216,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The Exclusive-NOR (XNOR) gate acts as an equivalence detector, evaluating to 1 if and only if both input logic levels are identical.",
-      "topic": "Computer Science"
+      "explanation": "The Exclusive-NOR (XNOR) gate acts as an equivalence detector, evaluating to 1 if and only if both input logic levels are identical."
     },
     {
       "id": 88,
@@ -1329,8 +1230,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "Compilers, assemblers, linkers, loaders, and operating systems are system software used to run and manage computer hardware.",
-      "topic": "Computer Science"
+      "explanation": "Compilers, assemblers, linkers, loaders, and operating systems are system software used to run and manage computer hardware."
     },
     {
       "id": 89,
@@ -1344,8 +1244,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "High cohesion and low coupling ensure that modules have well-defined, focused responsibilities and minimal interdependencies, maximizing maintainability.",
-      "topic": "Computer Science"
+      "explanation": "High cohesion and low coupling ensure that modules have well-defined, focused responsibilities and minimal interdependencies, maximizing maintainability."
     },
     {
       "id": 90,
@@ -1359,8 +1258,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The selection operator (sigma, σ) extracts rows (tuples) that fulfill a specific condition, performing horizontal filtering.",
-      "topic": "Computer Science"
+      "explanation": "The selection operator (sigma, σ) extracts rows (tuples) that fulfill a specific condition, performing horizontal filtering."
     },
     {
       "id": 91,
@@ -1374,8 +1272,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "The projection operator (pi, Π) selects specified attributes (columns) and eliminates the rest, performing vertical filtering.",
-      "topic": "Computer Science"
+      "explanation": "The projection operator (pi, Π) selects specified attributes (columns) and eliminates the rest, performing vertical filtering."
     },
     {
       "id": 92,
@@ -1389,8 +1286,7 @@
       ],
       "answer": 3,
       "correct_answer": "D",
-      "explanation": "Durability guarantees that once a database transaction commits, its changes are written to non-volatile storage and will survive subsequent failures.",
-      "topic": "Computer Science"
+      "explanation": "Durability guarantees that once a database transaction commits, its changes are written to non-volatile storage and will survive subsequent failures."
     },
     {
       "id": 93,
@@ -1404,8 +1300,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "External fragmentation occurs when dynamic memory allocation leaves small, non-contiguous free blocks scattered across memory that cannot satisfy larger contiguous allocation requests.",
-      "topic": "Computer Science"
+      "explanation": "External fragmentation occurs when dynamic memory allocation leaves small, non-contiguous free blocks scattered across memory that cannot satisfy larger contiguous allocation requests."
     },
     {
       "id": 94,
@@ -1419,8 +1314,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Round Robin scheduling shares CPU time evenly among ready processes by allocating execution in fixed time slices called quantums.",
-      "topic": "Computer Science"
+      "explanation": "Round Robin scheduling shares CPU time evenly among ready processes by allocating execution in fixed time slices called quantums."
     },
     {
       "id": 95,
@@ -1434,8 +1328,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The critical section is the part of a program where shared resources (e.g., variables, files) are accessed, requiring mutual exclusion to avoid race conditions.",
-      "topic": "Computer Science"
+      "explanation": "The critical section is the part of a program where shared resources (e.g., variables, files) are accessed, requiring mutual exclusion to avoid race conditions."
     },
     {
       "id": 96,
@@ -1449,8 +1342,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "(10110)₂ = (1 * 2^4) + (0 * 2^3) + (1 * 2^2) + (1 * 2^1) + (0 * 2^0) = 16 + 0 + 4 + 2 + 0 = 22.",
-      "topic": "Computer Science"
+      "explanation": "(10110)₂ = (1 * 2^4) + (0 * 2^3) + (1 * 2^2) + (1 * 2^1) + (0 * 2^0) = 16 + 0 + 4 + 2 + 0 = 22."
     },
     {
       "id": 97,
@@ -1464,8 +1356,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "The TCP/IP suite combines the functionality of the OSI Session, Presentation, and Application layers into a single Application layer.",
-      "topic": "Computer Science"
+      "explanation": "The TCP/IP suite combines the functionality of the OSI Session, Presentation, and Application layers into a single Application layer."
     },
     {
       "id": 98,
@@ -1479,8 +1370,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Encapsulation binds data together with the functions that manipulate it, restricting direct access from outside the object.",
-      "topic": "Computer Science"
+      "explanation": "Encapsulation binds data together with the functions that manipulate it, restricting direct access from outside the object."
     },
     {
       "id": 99,
@@ -1494,8 +1384,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The signature of the deallocation function is 'void free(void *ptr);' and it does not return any value.",
-      "topic": "Computer Science"
+      "explanation": "The signature of the deallocation function is 'void free(void *ptr);' and it does not return any value."
     },
     {
       "id": 100,
@@ -1509,8 +1398,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "In 1-based array heap representations, for any node at index i, its left child is at index 2*i, its right child is at 2*i + 1, and its parent is at floor(i/2).",
-      "topic": "Computer Science"
+      "explanation": "In 1-based array heap representations, for any node at index i, its left child is at index 2*i, its right child is at 2*i + 1, and its parent is at floor(i/2)."
     }
   ]
 }

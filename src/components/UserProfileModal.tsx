@@ -18,6 +18,7 @@ import {
   UserProgressBackupPackage
 } from '../lib/userProfile';
 import { Attempt, Bookmark, Question } from '../types';
+import { isPassActive, getPassValidityInfo, PassValidityInfo, subscribeToPass } from '../lib/passSystem';
 
 interface UserProfileModalProps {
   isOpen: boolean;
@@ -68,6 +69,16 @@ export default function UserProfileModal({
   const [importStatus, setImportStatus] = useState<{ type: 'success' | 'error' | 'info'; message: string } | null>(null);
   const [isDragOver, setIsDragOver] = useState(false);
   const [showClearConfirm, setShowClearConfirm] = useState(false);
+
+  const [passValidity, setPassValidity] = useState<PassValidityInfo | null>(getPassValidityInfo);
+
+  useEffect(() => {
+    setPassValidity(getPassValidityInfo());
+    const unsub = subscribeToPass(() => {
+      setPassValidity(getPassValidityInfo());
+    });
+    return unsub;
+  }, []);
 
   useEffect(() => {
     setUsernameInput(profile.username);
@@ -188,6 +199,12 @@ export default function UserProfileModal({
                   <Key className="w-3 h-3 text-indigo-400" />
                   {profile.profileId}
                 </span>
+                {isPassActive() && (
+                  <span className="bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 text-[10px] font-black px-2.5 py-0.5 rounded-full flex items-center gap-1">
+                    <span>🎟️</span>
+                    <span>{passValidity?.isLifetime ? 'Pass: ∞' : `Pass: ${passValidity?.daysLeft ?? 0} Days Left`}</span>
+                  </span>
+                )}
               </div>
               <p className="text-xs text-slate-300/80 font-medium">{profile.targetExam}</p>
             </div>

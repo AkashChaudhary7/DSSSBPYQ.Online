@@ -29,6 +29,7 @@ import {
   activatePassWithRazorpay,
   restorePassAndWallet, 
   redeemAdminActivationCode, 
+  checkSpecialAdminActivationCode,
   createMailRecoveryUrl,
   isPassActive, 
   getPassData, 
@@ -104,12 +105,27 @@ export const PassModal: React.FC<PassModalProps> = ({
 
   if (!isOpen) return null;
 
-  const handleApplyPromo = () => {
+  const handleApplyPromo = async () => {
     if (!promoInput.trim()) {
       setAppliedPromo(null);
       setPromoMessage(null);
       return;
     }
+
+    // Check if user entered a secret admin plan activation key
+    const special = await checkSpecialAdminActivationCode(promoInput);
+    if (special) {
+      const res = await redeemAdminActivationCode(promoInput, candidatePhone);
+      if (res.success) {
+        setIsSuccessUnlocked(true);
+        setPromoMessage({ text: res.message, isError: false });
+        setTimeout(() => {
+          onClose();
+        }, 1800);
+        return;
+      }
+    }
+
     const res = validatePromoCode(promoInput, selectedPlan);
     if (res.isValid) {
       setAppliedPromo(promoInput.trim().toUpperCase());

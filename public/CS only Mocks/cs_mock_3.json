@@ -1,16 +1,4 @@
 {
-  "testId": "cs_only_mock_test_3_100",
-  "title": "CS Mock Test 3",
-  "subject": "CS Only Mock",
-  "topic": "Computer Science Domain (Part B)",
-  "category": "cs_mock",
-  "isCsOnly": true,
-  "totalTimeMinutes": 60,
-  "totalQuestions": 100,
-  "markingScheme": {
-    "correct": 1,
-    "negative": 0.25
-  },
   "questions": [
     {
       "id": 1,
@@ -24,8 +12,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Internal fragmentation arises when fixed partitions assign more memory than requested, leaving unused space inside the partition. External fragmentation occurs when free memory is broken into small, non-contiguous blocks scattered across the physical address space.",
-      "topic": "Computer Science"
+      "explanation": "Internal fragmentation arises when fixed partitions assign more memory than requested, leaving unused space inside the partition. External fragmentation occurs when free memory is broken into small, non-contiguous blocks scattered across the physical address space."
     },
     {
       "id": 2,
@@ -39,8 +26,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "An inverted page table has one entry for each physical frame of memory. This drastically reduces the memory needed to track virtual-to-physical address mappings in large address spaces.",
-      "topic": "Computer Science"
+      "explanation": "An inverted page table has one entry for each physical frame of memory. This drastically reduces the memory needed to track virtual-to-physical address mappings in large address spaces."
     },
     {
       "id": 3,
@@ -54,8 +40,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "The 'netstat' (network statistics) command displays active TCP/UDP connections, routing tables, and interface statistics.",
-      "topic": "Computer Science"
+      "explanation": "The 'netstat' (network statistics) command displays active TCP/UDP connections, routing tables, and interface statistics."
     },
     {
       "id": 4,
@@ -69,8 +54,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Non-preemptive Shortest Job First (SJF) selects the waiting job with the shortest execution burst. If short processes continuously arrive, longer processes experience starvation.",
-      "topic": "Computer Science"
+      "explanation": "Non-preemptive Shortest Job First (SJF) selects the waiting job with the shortest execution burst. If short processes continuously arrive, longer processes experience starvation."
     },
     {
       "id": 5,
@@ -84,8 +68,7 @@
       ],
       "answer": 3,
       "correct_answer": "D",
-      "explanation": "Threads within the same process share the same text, data, heap, and operating system resources, but each maintains its own private stack, registers, and program counter.",
-      "topic": "Computer Science"
+      "explanation": "Threads within the same process share the same text, data, heap, and operating system resources, but each maintains its own private stack, registers, and program counter."
     },
     {
       "id": 6,
@@ -99,8 +82,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "An inode stores all metadata about a file (file size, access rights, timestamps, device ID, block pointers) except for the file's name and directory location.",
-      "topic": "Computer Science"
+      "explanation": "An inode stores all metadata about a file (file size, access rights, timestamps, device ID, block pointers) except for the file's name and directory location."
     },
     {
       "id": 7,
@@ -114,8 +96,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The Banker's algorithm tests for safety by simulating the allocation of predetermined maximum possible amounts of all resources, avoiding deadlocks before resource requests are granted.",
-      "topic": "Computer Science"
+      "explanation": "The Banker's algorithm tests for safety by simulating the allocation of predetermined maximum possible amounts of all resources, avoiding deadlocks before resource requests are granted."
     },
     {
       "id": 8,
@@ -129,8 +110,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "A microkernel implements only the bare minimum mechanisms required (IPC, basic scheduling, low-level address space management) in kernel space, running drivers and servers in user space.",
-      "topic": "Computer Science"
+      "explanation": "A microkernel implements only the bare minimum mechanisms required (IPC, basic scheduling, low-level address space management) in kernel space, running drivers and servers in user space."
     },
     {
       "id": 9,
@@ -144,8 +124,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "The 'chown' command changes file ownership; using the syntax 'chown user:group filename' updates both the user and group simultaneously.",
-      "topic": "Computer Science"
+      "explanation": "The 'chown' command changes file ownership; using the syntax 'chown user:group filename' updates both the user and group simultaneously."
     },
     {
       "id": 10,
@@ -159,8 +138,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Thrashing occurs when an operating system spends a significant amount of its time moving pages between physical memory and swap space, dropping CPU utilization to near zero.",
-      "topic": "Computer Science"
+      "explanation": "Thrashing occurs when an operating system spends a significant amount of its time moving pages between physical memory and swap space, dropping CPU utilization to near zero."
     },
     {
       "id": 11,
@@ -174,8 +152,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "The Cartesian product (or cross product) of relations R and S combines each tuple of R with every tuple of S, creating a relation with degree deg(R) + deg(S) and cardinality card(R) × card(S).",
-      "topic": "Computer Science"
+      "explanation": "The Cartesian product (or cross product) of relations R and S combines each tuple of R with every tuple of S, creating a relation with degree deg(R) + deg(S) and cardinality card(R) × card(S)."
     },
     {
       "id": 12,
@@ -189,8 +166,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Computing the attribute closure: W⁺ = {W, X, Y, Z}. Since W derives all attributes and no other subset can derive W, W is the single candidate key.",
-      "topic": "Computer Science"
+      "explanation": "Computing the attribute closure: W⁺ = {W, X, Y, Z}. Since W derives all attributes and no other subset can derive W, W is the single candidate key."
     },
     {
       "id": 13,
@@ -204,8 +180,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "BCNF is a stricter form of 3NF. Thus, any relation satisfying BCNF inherently satisfies 3NF, although BCNF decompositions do not always preserve functional dependencies.",
-      "topic": "Computer Science"
+      "explanation": "BCNF is a stricter form of 3NF. Thus, any relation satisfying BCNF inherently satisfies 3NF, although BCNF decompositions do not always preserve functional dependencies."
     },
     {
       "id": 14,
@@ -219,8 +194,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "A schedule is strict if a transaction cannot read or write an item until the previous transaction that wrote to it has committed or aborted.",
-      "topic": "Computer Science"
+      "explanation": "A schedule is strict if a transaction cannot read or write an item until the previous transaction that wrote to it has committed or aborted."
     },
     {
       "id": 15,
@@ -234,8 +208,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "In three-valued SQL logic, evaluating 'marks = NULL' yields UNKNOWN rather than TRUE. Thus, no rows satisfy the WHERE clause, and COUNT(*) outputs 0. The correct syntax is 'IS NULL'.",
-      "topic": "Computer Science"
+      "explanation": "In three-valued SQL logic, evaluating 'marks = NULL' yields UNKNOWN rather than TRUE. Thus, no rows satisfy the WHERE clause, and COUNT(*) outputs 0. The correct syntax is 'IS NULL'."
     },
     {
       "id": 16,
@@ -249,8 +222,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "A correlated subquery references columns from the surrounding outer query and is evaluated once for each row processed by the outer query.",
-      "topic": "Computer Science"
+      "explanation": "A correlated subquery references columns from the surrounding outer query and is evaluated once for each row processed by the outer query."
     },
     {
       "id": 17,
@@ -264,8 +236,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "A weak entity set lacks a primary key of its own and depends on an identifying relationship with an owner entity set along with a discriminator (partial key).",
-      "topic": "Computer Science"
+      "explanation": "A weak entity set lacks a primary key of its own and depends on an identifying relationship with an owner entity set along with a discriminator (partial key)."
     },
     {
       "id": 18,
@@ -279,8 +250,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "WAL protocol requires that log records describing an update must be flushed to stable storage before the modified buffer data is written to disk, ensuring atomicity and durability.",
-      "topic": "Computer Science"
+      "explanation": "WAL protocol requires that log records describing an update must be flushed to stable storage before the modified buffer data is written to disk, ensuring atomicity and durability."
     },
     {
       "id": 19,
@@ -294,8 +264,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "The GRANT statement is a Data Control Language (DCL) command used to assign read, write, or administrative permissions to users.",
-      "topic": "Computer Science"
+      "explanation": "The GRANT statement is a Data Control Language (DCL) command used to assign read, write, or administrative permissions to users."
     },
     {
       "id": 20,
@@ -309,8 +278,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "By definition, in a B-tree of order m, every non-root internal node must contain at least ⌈m/2⌉ children to maintain balance.",
-      "topic": "Computer Science"
+      "explanation": "By definition, in a B-tree of order m, every non-root internal node must contain at least ⌈m/2⌉ children to maintain balance."
     },
     {
       "id": 21,
@@ -324,8 +292,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Operator precedence: * has higher precedence than + and -. 'B * C' becomes 'B C *'. Then 'A + (B C *)' becomes 'A B C * +'. Finally, subtracting D yields 'A B C * + D -'.",
-      "topic": "Computer Science"
+      "explanation": "Operator precedence: * has higher precedence than + and -. 'B * C' becomes 'B C *'. Then 'A + (B C *)' becomes 'A B C * +'. Finally, subtracting D yields 'A B C * + D -'."
     },
     {
       "id": 22,
@@ -339,8 +306,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "A deque (double-ended queue) is a generalized queue that allows adding and removing elements from either the front or the back.",
-      "topic": "Computer Science"
+      "explanation": "A deque (double-ended queue) is a generalized queue that allows adding and removing elements from either the front or the back."
     },
     {
       "id": 23,
@@ -354,8 +320,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "In a min-heap, the minimum element is at the root. The maximum element must reside in one of the leaf nodes, which constitute approximately ⌈n/2⌉ nodes. Finding it requires a linear scan over all leaves, which takes O(n) time.",
-      "topic": "Computer Science"
+      "explanation": "In a min-heap, the minimum element is at the root. The maximum element must reside in one of the leaf nodes, which constitute approximately ⌈n/2⌉ nodes. Finding it requires a linear scan over all leaves, which takes O(n) time."
     },
     {
       "id": 24,
@@ -369,8 +334,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "For any binary tree with n nodes, the number of leaf nodes L in a full/complete tree with n=15 is ⌈n/2⌉ = ⌈15/2⌉ = 8.",
-      "topic": "Computer Science"
+      "explanation": "For any binary tree with n nodes, the number of leaf nodes L in a full/complete tree with n=15 is ⌈n/2⌉ = ⌈15/2⌉ = 8."
     },
     {
       "id": 25,
@@ -384,8 +348,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Due to the red-black invariant that no red node can have a red child, the longest path from the root to a leaf cannot be more than twice the shortest path. This bounds the maximum height to 2 * log₂(n + 1).",
-      "topic": "Computer Science"
+      "explanation": "Due to the red-black invariant that no red node can have a red child, the longest path from the root to a leaf cannot be more than twice the shortest path. This bounds the maximum height to 2 * log₂(n + 1)."
     },
     {
       "id": 26,
@@ -399,8 +362,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "When heavy clustering occurs or all keys collide at the same hash address, the algorithm degenerates into scanning all occupied slots, taking O(n) time.",
-      "topic": "Computer Science"
+      "explanation": "When heavy clustering occurs or all keys collide at the same hash address, the algorithm degenerates into scanning all occupied slots, taking O(n) time."
     },
     {
       "id": 27,
@@ -414,8 +376,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The 0/1 Knapsack problem exhibits overlapping subproblems and optimal substructure, making it solvable using dynamic programming in O(nW) time.",
-      "topic": "Computer Science"
+      "explanation": "The 0/1 Knapsack problem exhibits overlapping subproblems and optimal substructure, making it solvable using dynamic programming in O(nW) time."
     },
     {
       "id": 28,
@@ -429,8 +390,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Using an adjacency list representation and a binary heap (priority queue), Prim's algorithm runs in O((V + E) log V) = O(E log V) for connected graphs.",
-      "topic": "Computer Science"
+      "explanation": "Using an adjacency list representation and a binary heap (priority queue), Prim's algorithm runs in O((V + E) log V) = O(E log V) for connected graphs."
     },
     {
       "id": 29,
@@ -444,8 +404,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Moving n disks requires moving n - 1 disks to an auxiliary peg, moving the largest disk to the destination, and then moving the n - 1 disks onto the destination, yielding T(n) = 2T(n - 1) + 1.",
-      "topic": "Computer Science"
+      "explanation": "Moving n disks requires moving n - 1 disks to an auxiliary peg, moving the largest disk to the destination, and then moving the n - 1 disks onto the destination, yielding T(n) = 2T(n - 1) + 1."
     },
     {
       "id": 30,
@@ -459,8 +418,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Cycle Sort is an in-place, unstable sorting algorithm based on cycle decomposition that minimizes the total number of memory writes to at most n - 1 in the optimal case.",
-      "topic": "Computer Science"
+      "explanation": "Cycle Sort is an in-place, unstable sorting algorithm based on cycle decomposition that minimizes the total number of memory writes to at most n - 1 in the optimal case."
     },
     {
       "id": 31,
@@ -474,8 +432,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "The Time to Live (TTL) field is decremented by each router that handles the packet. When the field reaches zero, the packet is discarded and an ICMP Time Exceeded message is sent.",
-      "topic": "Computer Science"
+      "explanation": "The Time to Live (TTL) field is decremented by each router that handles the packet. When the field reaches zero, the packet is discarded and an ICMP Time Exceeded message is sent."
     },
     {
       "id": 32,
@@ -489,8 +446,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "RIP is a distance-vector routing protocol based on the Bellman-Ford algorithm that treats a metric of 16 hops as infinity (unreachable).",
-      "topic": "Computer Science"
+      "explanation": "RIP is a distance-vector routing protocol based on the Bellman-Ford algorithm that treats a metric of 16 hops as infinity (unreachable)."
     },
     {
       "id": 33,
@@ -504,8 +460,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "In Selective Repeat, the receiver accepts frames out of order within its window, acknowledging each individually. The sender only retransmits frames that were lost or damaged.",
-      "topic": "Computer Science"
+      "explanation": "In Selective Repeat, the receiver accepts frames out of order within its window, acknowledging each individually. The sender only retransmits frames that were lost or damaged."
     },
     {
       "id": 34,
@@ -519,8 +474,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "HTTPS traffic is encrypted via TLS/SSL and communicates over standard TCP port 443.",
-      "topic": "Computer Science"
+      "explanation": "HTTPS traffic is encrypted via TLS/SSL and communicates over standard TCP port 443."
     },
     {
       "id": 35,
@@ -534,8 +488,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Wireless networks (IEEE 802.11) use CSMA/CA because radio transceivers cannot reliably detect collisions while transmitting on the same frequency band.",
-      "topic": "Computer Science"
+      "explanation": "Wireless networks (IEEE 802.11) use CSMA/CA because radio transceivers cannot reliably detect collisions while transmitting on the same frequency band."
     },
     {
       "id": 36,
@@ -549,8 +502,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "NAT maps local private IPv4 addresses (RFC 1918) to public addresses, allowing multiple devices on an internal network to share a single public IP.",
-      "topic": "Computer Science"
+      "explanation": "NAT maps local private IPv4 addresses (RFC 1918) to public addresses, allowing multiple devices on an internal network to share a single public IP."
     },
     {
       "id": 37,
@@ -564,8 +516,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "Orthogonal Frequency Division Multiplexing (OFDM) divides a wideband channel into tightly spaced, mathematically orthogonal subcarriers to improve spectral efficiency.",
-      "topic": "Computer Science"
+      "explanation": "Orthogonal Frequency Division Multiplexing (OFDM) divides a wideband channel into tightly spaced, mathematically orthogonal subcarriers to improve spectral efficiency."
     },
     {
       "id": 38,
@@ -579,8 +530,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "The base IPv4 header is 20 bytes. The 4-bit Internet Header Length (IHL) field can encode up to 15 32-bit words (15 × 4 = 60 bytes). Therefore, the maximum header size is 60 bytes.",
-      "topic": "Computer Science"
+      "explanation": "The base IPv4 header is 20 bytes. The 4-bit Internet Header Length (IHL) field can encode up to 15 32-bit words (15 × 4 = 60 bytes). Therefore, the maximum header size is 60 bytes."
     },
     {
       "id": 39,
@@ -594,8 +544,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Routers operate at the Network Layer (Layer 3), parsing logical IP addresses and using routing algorithms to direct packets between networks.",
-      "topic": "Computer Science"
+      "explanation": "Routers operate at the Network Layer (Layer 3), parsing logical IP addresses and using routing algorithms to direct packets between networks."
     },
     {
       "id": 40,
@@ -609,8 +558,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "TCP congestion control uses AIMD: the congestion window grows linearly during congestion avoidance until packet loss occurs, at which point it is reduced multiplicatively.",
-      "topic": "Computer Science"
+      "explanation": "TCP congestion control uses AIMD: the congestion window grows linearly during congestion avoidance until packet loss occurs, at which point it is reduced multiplicatively."
     },
     {
       "id": 41,
@@ -624,8 +572,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Function argument evaluation order is un-specified in C, and modifying 'p' and dereferencing it in the same expression without a sequence point results in undefined behavior.",
-      "topic": "Computer Science"
+      "explanation": "Function argument evaluation order is un-specified in C, and modifying 'p' and dereferencing it in the same expression without a sequence point results in undefined behavior."
     },
     {
       "id": 42,
@@ -639,8 +586,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "realloc() changes the size of an existing allocated memory block, moving data to a new location if necessary, though it does not initialize newly expanded bytes.",
-      "topic": "Computer Science"
+      "explanation": "realloc() changes the size of an existing allocated memory block, moving data to a new location if necessary, though it does not initialize newly expanded bytes."
     },
     {
       "id": 43,
@@ -654,8 +600,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The 'extern' keyword tells the compiler that a variable exists and has been defined elsewhere, allowing multiple files to reference the same global variable without allocating duplicate memory.",
-      "topic": "Computer Science"
+      "explanation": "The 'extern' keyword tells the compiler that a variable exists and has been defined elsewhere, allowing multiple files to reference the same global variable without allocating duplicate memory."
     },
     {
       "id": 44,
@@ -669,8 +614,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "The condition (x == 5) evaluates to true, printing 'Yes '. The execution then proceeds sequentially to print 'End', resulting in 'Yes End'.",
-      "topic": "Computer Science"
+      "explanation": "The condition (x == 5) evaluates to true, printing 'Yes '. The execution then proceeds sequentially to print 'End', resulting in 'Yes End'."
     },
     {
       "id": 45,
@@ -684,8 +628,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The diamond problem occurs under multiple inheritance when a class inherits from two classes that both derive from the same common base class, creating ambiguity unless the base class is declared virtual.",
-      "topic": "Computer Science"
+      "explanation": "The diamond problem occurs under multiple inheritance when a class inherits from two classes that both derive from the same common base class, creating ambiguity unless the base class is declared virtual."
     },
     {
       "id": 46,
@@ -699,8 +642,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The default synthesized copy constructor performs a member-wise shallow copy. If pointers to dynamic memory are copied this way, multiple instances will point to the same memory, causing double-free issues when destructors run.",
-      "topic": "Computer Science"
+      "explanation": "The default synthesized copy constructor performs a member-wise shallow copy. If pointers to dynamic memory are copied this way, multiple instances will point to the same memory, causing double-free issues when destructors run."
     },
     {
       "id": 47,
@@ -714,8 +656,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The 'final' specifier in C++11 marks a virtual function so that it cannot be overridden by any further derived classes.",
-      "topic": "Computer Science"
+      "explanation": "The 'final' specifier in C++11 marks a virtual function so that it cannot be overridden by any further derived classes."
     },
     {
       "id": 48,
@@ -729,8 +670,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "In Java, instance variables of type boolean are initialized to a default value of 'false'.",
-      "topic": "Computer Science"
+      "explanation": "In Java, instance variables of type boolean are initialized to a default value of 'false'."
     },
     {
       "id": 49,
@@ -744,8 +684,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Starting in Java 8, interfaces can define default and static methods with concrete bodies using the 'default' keyword.",
-      "topic": "Computer Science"
+      "explanation": "Starting in Java 8, interfaces can define default and static methods with concrete bodies using the 'default' keyword."
     },
     {
       "id": 50,
@@ -759,8 +698,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Key-value pairs enclosed in curly braces define an instance of Python's built-in dictionary type (<class 'dict'>).",
-      "topic": "Computer Science"
+      "explanation": "Key-value pairs enclosed in curly braces define an instance of Python's built-in dictionary type (<class 'dict'>)."
     },
     {
       "id": 51,
@@ -774,8 +712,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The '**init**' method is the instance constructor in Python; it is automatically called when a new object is instantiated from a class.",
-      "topic": "Computer Science"
+      "explanation": "The '**init**' method is the instance constructor in Python; it is automatically called when a new object is instantiated from a class."
     },
     {
       "id": 52,
@@ -789,8 +726,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "'display: none;' removes the element completely from the document flow. In contrast, 'visibility: hidden;' hides the element but preserves the space it occupies.",
-      "topic": "Computer Science"
+      "explanation": "'display: none;' removes the element completely from the document flow. In contrast, 'visibility: hidden;' hides the element but preserves the space it occupies."
     },
     {
       "id": 53,
@@ -804,8 +740,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The standard DOM method 'addEventListener()' attaches event listener callbacks to an element without overwriting existing listeners.",
-      "topic": "Computer Science"
+      "explanation": "The standard DOM method 'addEventListener()' attaches event listener callbacks to an element without overwriting existing listeners."
     },
     {
       "id": 54,
@@ -819,8 +754,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "JSON stands for JavaScript Object Notation, a lightweight, text-based data interchange format based on a subset of JavaScript.",
-      "topic": "Computer Science"
+      "explanation": "JSON stands for JavaScript Object Notation, a lightweight, text-based data interchange format based on a subset of JavaScript."
     },
     {
       "id": 55,
@@ -834,8 +768,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "HTTP 404 Not Found indicates that the server cannot locate the requested URL resource.",
-      "topic": "Computer Science"
+      "explanation": "HTTP 404 Not Found indicates that the server cannot locate the requested URL resource."
     },
     {
       "id": 56,
@@ -849,8 +782,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "Content coupling (the worst form of coupling) happens when one module relies on or directly modifies the internal implementation, state, or private data of another module.",
-      "topic": "Computer Science"
+      "explanation": "Content coupling (the worst form of coupling) happens when one module relies on or directly modifies the internal implementation, state, or private data of another module."
     },
     {
       "id": 57,
@@ -864,8 +796,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Boundary Value Analysis (BVA) is a black-box testing technique that targets boundary values, where errors are most frequently found.",
-      "topic": "Computer Science"
+      "explanation": "Boundary Value Analysis (BVA) is a black-box testing technique that targets boundary values, where errors are most frequently found."
     },
     {
       "id": 58,
@@ -879,8 +810,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Barry Boehm's Spiral Model is risk-driven, incorporating explicit risk assessment and management steps into each development iteration.",
-      "topic": "Computer Science"
+      "explanation": "Barry Boehm's Spiral Model is risk-driven, incorporating explicit risk assessment and management steps into each development iteration."
     },
     {
       "id": 59,
@@ -894,8 +824,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "In top-down integration testing, stubs simulate missing lower-level modules called by the higher-level components being tested.",
-      "topic": "Computer Science"
+      "explanation": "In top-down integration testing, stubs simulate missing lower-level modules called by the higher-level components being tested."
     },
     {
       "id": 60,
@@ -909,8 +838,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Adaptive maintenance modifies software to ensure it remains compatible with changes in its operational environment, such as new OS releases or hardware platforms.",
-      "topic": "Computer Science"
+      "explanation": "Adaptive maintenance modifies software to ensure it remains compatible with changes in its operational environment, such as new OS releases or hardware platforms."
     },
     {
       "id": 61,
@@ -924,8 +852,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Using De Morgan's laws: A AND B = ((A)' NOR (B)')'. Implementing this requires inverting A using 1 NOR gate, inverting B using 1 NOR gate, and feeding both into a 3rd NOR gate. Total = 3 NOR gates.",
-      "topic": "Computer Science"
+      "explanation": "Using De Morgan's laws: A AND B = ((A)' NOR (B)')'. Implementing this requires inverting A using 1 NOR gate, inverting B using 1 NOR gate, and feeding both into a 3rd NOR gate. Total = 3 NOR gates."
     },
     {
       "id": 62,
@@ -939,8 +866,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Gray code ensures that horizontally and vertically adjacent cells differ by only one variable, allowing algebraic simplification (A + A' = 1) when grouping minterms.",
-      "topic": "Computer Science"
+      "explanation": "Gray code ensures that horizontally and vertically adjacent cells differ by only one variable, allowing algebraic simplification (A + A' = 1) when grouping minterms."
     },
     {
       "id": 63,
@@ -954,8 +880,7 @@
       ],
       "answer": 3,
       "correct_answer": "D",
-      "explanation": "When both J and K are set to logic HIGH (1), a JK flip-flop enters its toggle state, flipping output Q on each active clock edge.",
-      "topic": "Computer Science"
+      "explanation": "When both J and K are set to logic HIGH (1), a JK flip-flop enters its toggle state, flipping output Q on each active clock edge."
     },
     {
       "id": 64,
@@ -969,8 +894,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "A binary-to-Gray code converter transforms standard binary numbers into Gray code, where successive values differ by only one bit.",
-      "topic": "Computer Science"
+      "explanation": "A binary-to-Gray code converter transforms standard binary numbers into Gray code, where successive values differ by only one bit."
     },
     {
       "id": 65,
@@ -984,8 +908,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "A 1-to-2^n demultiplexer requires n select lines. Since 32 = 2^5, exactly 5 select lines are needed.",
-      "topic": "Computer Science"
+      "explanation": "A 1-to-2^n demultiplexer requires n select lines. Since 32 = 2^5, exactly 5 select lines are needed."
     },
     {
       "id": 66,
@@ -999,8 +922,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "The 1's complement is formed by inverting every bit: 1 becomes 0 and 0 becomes 1. Inverting 10110010 yields 01001101.",
-      "topic": "Computer Science"
+      "explanation": "The 1's complement is formed by inverting every bit: 1 becomes 0 and 0 becomes 1. Inverting 10110010 yields 01001101."
     },
     {
       "id": 67,
@@ -1014,8 +936,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "$(7E)_{16} = (7 \times 16^1) + (14 \times 16^0) = 112 + 14 = 126$.",
-      "topic": "Computer Science"
+      "explanation": "$(7E)_{16} = (7 \times 16^1) + (14 \times 16^0) = 112 + 14 = 126$."
     },
     {
       "id": 68,
@@ -1029,8 +950,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Instruction pipelining divides instruction processing into discrete stages (Fetch, Decode, Execute, Memory, Write-back), allowing multiple instructions to be processed concurrently.",
-      "topic": "Computer Science"
+      "explanation": "Instruction pipelining divides instruction processing into discrete stages (Fetch, Decode, Execute, Memory, Write-back), allowing multiple instructions to be processed concurrently."
     },
     {
       "id": 69,
@@ -1044,8 +964,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "An external controller asserts the HOLD pin to request control of the address and data buses for DMA transfers. The CPU acknowledges by asserting HLDA.",
-      "topic": "Computer Science"
+      "explanation": "An external controller asserts the HOLD pin to request control of the address and data buses for DMA transfers. The CPU acknowledges by asserting HLDA."
     },
     {
       "id": 70,
@@ -1059,8 +978,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "SRAM uses 4-6 transistors per cell configured as a flip-flop, offering faster access without refresh cycles. DRAM stores data as charges on capacitors, requiring periodic refreshing as charge leaks.",
-      "topic": "Computer Science"
+      "explanation": "SRAM uses 4-6 transistors per cell configured as a flip-flop, offering faster access without refresh cycles. DRAM stores data as charges on capacitors, requiring periodic refreshing as charge leaks."
     },
     {
       "id": 71,
@@ -1074,8 +992,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "In architectures like the 8085, the Program Status Word (PSW) refers to the 16-bit combination of the 8-bit Accumulator and the 8-bit Flag register.",
-      "topic": "Computer Science"
+      "explanation": "In architectures like the 8085, the Program Status Word (PSW) refers to the 16-bit combination of the 8-bit Accumulator and the 8-bit Flag register."
     },
     {
       "id": 72,
@@ -1089,8 +1006,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "In fully associative cache mapping, any memory block can be loaded into any available cache line, which eliminates conflict misses but requires associative tag search hardware.",
-      "topic": "Computer Science"
+      "explanation": "In fully associative cache mapping, any memory block can be loaded into any available cache line, which eliminates conflict misses but requires associative tag search hardware."
     },
     {
       "id": 73,
@@ -1104,8 +1020,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "SQL Injection occurs when untrusted user input is concatenated directly into SQL queries, allowing attackers to execute unauthorized commands on the database.",
-      "topic": "Computer Science"
+      "explanation": "SQL Injection occurs when untrusted user input is concatenated directly into SQL queries, allowing attackers to execute unauthorized commands on the database."
     },
     {
       "id": 74,
@@ -1119,8 +1034,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Digital signatures use asymmetric cryptography to confirm the sender's identity (authenticity), ensure the message has not been altered (integrity), and prevent the sender from denying transmission (non-repudiation).",
-      "topic": "Computer Science"
+      "explanation": "Digital signatures use asymmetric cryptography to confirm the sender's identity (authenticity), ensure the message has not been altered (integrity), and prevent the sender from denying transmission (non-repudiation)."
     },
     {
       "id": 75,
@@ -1134,8 +1048,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Phishing attacks use deceptive communications disguised as legitimate entities to trick victims into providing sensitive information like passwords or credit card numbers.",
-      "topic": "Computer Science"
+      "explanation": "Phishing attacks use deceptive communications disguised as legitimate entities to trick victims into providing sensitive information like passwords or credit card numbers."
     },
     {
       "id": 76,
@@ -1149,8 +1062,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "A Virtual Private Network (VPN) encrypts internet traffic and creates a secure, tunneled connection between a user's device and a private network.",
-      "topic": "Computer Science"
+      "explanation": "A Virtual Private Network (VPN) encrypts internet traffic and creates a secure, tunneled connection between a user's device and a private network."
     },
     {
       "id": 77,
@@ -1164,8 +1076,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Type-1 context-sensitive grammars generate context-sensitive languages, which are recognized by linear-bounded non-deterministic Turing machines.",
-      "topic": "Computer Science"
+      "explanation": "Type-1 context-sensitive grammars generate context-sensitive languages, which are recognized by linear-bounded non-deterministic Turing machines."
     },
     {
       "id": 78,
@@ -1179,8 +1090,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The Halting Problem is a classic undecidable problem in computability theory; Alan Turing proved that no general algorithm can determine whether any arbitrary program will halt or loop indefinitely.",
-      "topic": "Computer Science"
+      "explanation": "The Halting Problem is a classic undecidable problem in computability theory; Alan Turing proved that no general algorithm can determine whether any arbitrary program will halt or loop indefinitely."
     },
     {
       "id": 79,
@@ -1194,8 +1104,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Peephole optimization is a local code-generation technique that inspects a sliding window (peephole) of target instructions to eliminate redundant operations, simplify arithmetic, or replace slow instructions.",
-      "topic": "Computer Science"
+      "explanation": "Peephole optimization is a local code-generation technique that inspects a sliding window (peephole) of target instructions to eliminate redundant operations, simplify arithmetic, or replace slow instructions."
     },
     {
       "id": 80,
@@ -1209,8 +1118,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "The Sutherland-Hodgman algorithm clips a polygon against each window edge (left, right, bottom, top) in turn, passing the output vertices to the next clipping stage.",
-      "topic": "Computer Science"
+      "explanation": "The Sutherland-Hodgman algorithm clips a polygon against each window edge (left, right, bottom, top) in turn, passing the output vertices to the next clipping stage."
     },
     {
       "id": 81,
@@ -1224,8 +1132,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The #DIV/0! error appears in spreadsheets when a formula attempts to divide a value by zero or an empty cell.",
-      "topic": "Computer Science"
+      "explanation": "The #DIV/0! error appears in spreadsheets when a formula attempts to divide a value by zero or an empty cell."
     },
     {
       "id": 82,
@@ -1239,8 +1146,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "While Ctrl + F opens the search (Find) box, Ctrl + H is the standard shortcut to open Find and Replace across most office suites and text editors.",
-      "topic": "Computer Science"
+      "explanation": "While Ctrl + F opens the search (Find) box, Ctrl + H is the standard shortcut to open Find and Replace across most office suites and text editors."
     },
     {
       "id": 83,
@@ -1254,8 +1160,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "The control bus carries operational and timing signals (such as read/write strobes, interrupt requests, and clock ticks) between the CPU and other devices.",
-      "topic": "Computer Science"
+      "explanation": "The control bus carries operational and timing signals (such as read/write strobes, interrupt requests, and clock ticks) between the CPU and other devices."
     },
     {
       "id": 84,
@@ -1269,8 +1174,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "ASCII stands for the American Standard Code for Information Interchange, a 7-bit character encoding system that represents 128 specified characters.",
-      "topic": "Computer Science"
+      "explanation": "ASCII stands for the American Standard Code for Information Interchange, a 7-bit character encoding system that represents 128 specified characters."
     },
     {
       "id": 85,
@@ -1284,8 +1188,7 @@
       ],
       "answer": 3,
       "correct_answer": "D",
-      "explanation": "Storage hierarchy: Gigabyte (10^9) < Terabyte (10^12) < Petabyte (10^15) < Exabyte (10^18). Among the choices, Exabyte is the largest.",
-      "topic": "Computer Science"
+      "explanation": "Storage hierarchy: Gigabyte (10^9) < Terabyte (10^12) < Petabyte (10^15) < Exabyte (10^18). Among the choices, Exabyte is the largest."
     },
     {
       "id": 86,
@@ -1299,8 +1202,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "The UNIQUE constraint ensures all non-null values in a column are distinct, preventing duplicate entries while allowing NULLs according to SQL standards.",
-      "topic": "Computer Science"
+      "explanation": "The UNIQUE constraint ensures all non-null values in a column are distinct, preventing duplicate entries while allowing NULLs according to SQL standards."
     },
     {
       "id": 87,
@@ -1314,8 +1216,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "DROP TABLE is a DDL command that permanently deletes a table's schema, constraints, indexes, and all stored data from the database.",
-      "topic": "Computer Science"
+      "explanation": "DROP TABLE is a DDL command that permanently deletes a table's schema, constraints, indexes, and all stored data from the database."
     },
     {
       "id": 88,
@@ -1329,8 +1230,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Atomicity requires that a transaction executes as an indivisible unit: either all of its operations succeed and are applied, or the database is rolled back to its initial state.",
-      "topic": "Computer Science"
+      "explanation": "Atomicity requires that a transaction executes as an indivisible unit: either all of its operations succeed and are applied, or the database is rolled back to its initial state."
     },
     {
       "id": 89,
@@ -1344,8 +1244,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "A device driver acts as a translator between the operating system kernel and hardware peripherals, allowing the OS to interact with hardware through standard interfaces.",
-      "topic": "Computer Science"
+      "explanation": "A device driver acts as a translator between the operating system kernel and hardware peripherals, allowing the OS to interact with hardware through standard interfaces."
     },
     {
       "id": 90,
@@ -1359,8 +1258,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "A zombie process is a terminated process whose exit status has not yet been collected by its parent process using the wait() system call, leaving its PID entry in the process table.",
-      "topic": "Computer Science"
+      "explanation": "A zombie process is a terminated process whose exit status has not yet been collected by its parent process using the wait() system call, leaving its PID entry in the process table."
     },
     {
       "id": 91,
@@ -1374,8 +1272,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "A microkernel keeps only minimal core capabilities in kernel space, running file systems, drivers, and network protocol stacks as separate, isolated user-space processes.",
-      "topic": "Computer Science"
+      "explanation": "A microkernel keeps only minimal core capabilities in kernel space, running file systems, drivers, and network protocol stacks as separate, isolated user-space processes."
     },
     {
       "id": 92,
@@ -1389,8 +1286,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "The dirty bit is set by hardware whenever a page is written to. When replacing the page, the OS checks this bit to determine if the page must be saved back to disk or can simply be overwritten.",
-      "topic": "Computer Science"
+      "explanation": "The dirty bit is set by hardware whenever a page is written to. When replacing the page, the OS checks this bit to determine if the page must be saved back to disk or can simply be overwritten."
     },
     {
       "id": 93,
@@ -1404,8 +1300,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Pushing onto a non-full array-based stack simply increments the top index and stores the value at that position, which takes O(1) constant time.",
-      "topic": "Computer Science"
+      "explanation": "Pushing onto a non-full array-based stack simply increments the top index and stores the value at that position, which takes O(1) constant time."
     },
     {
       "id": 94,
@@ -1419,8 +1314,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The largest element in a max-heap is at the root. By the max-heap property, the second-largest element must be one of the immediate children of the root (at depth 1).",
-      "topic": "Computer Science"
+      "explanation": "The largest element in a max-heap is at the root. By the max-heap property, the second-largest element must be one of the immediate children of the root (at depth 1)."
     },
     {
       "id": 95,
@@ -1434,8 +1328,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "SMTP is a push protocol used by email clients to send messages to servers, and by mail transfer agents to relay messages between servers.",
-      "topic": "Computer Science"
+      "explanation": "SMTP is a push protocol used by email clients to send messages to servers, and by mail transfer agents to relay messages between servers."
     },
     {
       "id": 96,
@@ -1449,8 +1342,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "Unguided media transmit electromagnetic signals through the air or free space without physical conductors, including radio waves, microwaves, and infrared.",
-      "topic": "Computer Science"
+      "explanation": "Unguided media transmit electromagnetic signals through the air or free space without physical conductors, including radio waves, microwaves, and infrared."
     },
     {
       "id": 97,
@@ -1464,8 +1356,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "By the absorption law of Boolean algebra: A . (A + B) = (A . A) + (A . B) = A + (A . B) = A . (1 + B) = A . 1 = A.",
-      "topic": "Computer Science"
+      "explanation": "By the absorption law of Boolean algebra: A . (A + B) = (A . A) + (A . B) = A + (A . B) = A . (1 + B) = A . 1 = A."
     },
     {
       "id": 98,
@@ -1479,8 +1370,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "To find the 2's complement, invert the bits to get the 1's complement (0101 -> 1010) and then add 1: 1010 + 1 = 1011.",
-      "topic": "Computer Science"
+      "explanation": "To find the 2's complement, invert the bits to get the 1's complement (0101 -> 1010) and then add 1: 1010 + 1 = 1011."
     },
     {
       "id": 99,
@@ -1494,8 +1384,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The built-in len() function returns the number of items (length) in an object, such as a list, string, tuple, or dictionary.",
-      "topic": "Computer Science"
+      "explanation": "The built-in len() function returns the number of items (length) in an object, such as a list, string, tuple, or dictionary."
     },
     {
       "id": 100,
@@ -1509,8 +1398,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Version control systems track historical revisions to source code, allow branching and merging, and help multiple contributors collaborate on a codebase.",
-      "topic": "Computer Science"
+      "explanation": "Version control systems track historical revisions to source code, allow branching and merging, and help multiple contributors collaborate on a codebase."
     }
   ]
 }

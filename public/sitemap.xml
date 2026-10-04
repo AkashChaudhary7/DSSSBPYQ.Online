@@ -79,24 +79,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://dsssbpyq.online/?testId=cs_only_mock_test_1_100</loc>
-    <lastmod>2026-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://dsssbpyq.online/?testId=cs_only_mock_test_2_100</loc>
-    <lastmod>2026-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://dsssbpyq.online/?testId=cs_only_mock_test_3_100</loc>
-    <lastmod>2026-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://dsssbpyq.online/?testId=custom_full_mock_test_001_200</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -3680,6 +3662,24 @@
   </url>
   <url>
     <loc>https://dsssbpyq.online/?testId=custom_part_b_computer_networks_mock_test_9_50</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dsssbpyq.online/?testId=custom_part_b_cs_mock_1_100</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dsssbpyq.online/?testId=custom_part_b_cs_mock_2_100</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dsssbpyq.online/?testId=custom_part_b_cs_mock_3_100</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

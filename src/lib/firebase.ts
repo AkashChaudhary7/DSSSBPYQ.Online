@@ -564,8 +564,9 @@ export async function seedDefaultReactivationCodesInDb(): Promise<{ success: boo
   if (!isConfigured || !db) return { success: false, seeded: [] };
 
   const defaultCodes = [
-    { code: String.fromCharCode(65, 75, 48, 48, 55, 56, 53, 48), maxUses: 5, plan: 'lifetime_99', targetCandidate: 'Official VIP Restore Key' },
-    { code: String.fromCharCode(65, 75, 48, 48, 55, 56, 53, 49), maxUses: 5, plan: 'lifetime_99', targetCandidate: 'Official VIP Restore Key' }
+    { code: 'AK00719', maxUses: 99999, plan: 'monthly_19', targetCandidate: 'Special Admin Key (₹19 - 1 Month Plan)' },
+    { code: '94AKTA', maxUses: 99999, plan: 'standard_49', targetCandidate: 'Special Admin Key (₹49 - 3 Months Plan)' },
+    { code: '11NATU9', maxUses: 99999, plan: 'lifetime_99', targetCandidate: 'Special Admin Key (₹99 - Lifetime Plan)' }
   ];
 
   const seeded: string[] = [];

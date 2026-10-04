@@ -2,7 +2,7 @@ import { Quiz } from '../types';
 
 export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
-    "testId": "cs_only_mock_test_1_100",
+    "testId": "custom_part_b_cs_mock_1_100",
     "title": "CS Domain Mock Test 1",
     "totalTimeMinutes": 60,
     "markingScheme": {
@@ -18,7 +18,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
     "questions": []
   },
   {
-    "testId": "cs_only_mock_test_2_100",
+    "testId": "custom_part_b_cs_mock_2_100",
     "title": "CS Domain Mock Test 2",
     "totalTimeMinutes": 60,
     "markingScheme": {
@@ -34,7 +34,7 @@ export const GENERATED_QUIZZES_METADATA: Quiz[] = [
     "questions": []
   },
   {
-    "testId": "cs_only_mock_test_3_100",
+    "testId": "custom_part_b_cs_mock_3_100",
     "title": "CS Domain Mock Test 3",
     "totalTimeMinutes": 60,
     "markingScheme": {

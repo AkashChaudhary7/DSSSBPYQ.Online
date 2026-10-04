@@ -1,16 +1,4 @@
 {
-  "testId": "cs_only_mock_test_2_100",
-  "title": "CS Mock Test 2",
-  "subject": "CS Only Mock",
-  "topic": "Computer Science Domain (Part B)",
-  "category": "cs_mock",
-  "isCsOnly": true,
-  "totalTimeMinutes": 60,
-  "totalQuestions": 100,
-  "markingScheme": {
-    "correct": 1,
-    "negative": 0.25
-  },
   "questions": [
     {
       "id": 1,
@@ -24,8 +12,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Internal fragmentation arises when fixed partitions assign more memory than requested, leaving unused space inside the partition. External fragmentation occurs when free memory is broken into small, non-contiguous blocks scattered across the physical address space.",
-      "topic": "Computer Science"
+      "explanation": "Internal fragmentation arises when fixed partitions assign more memory than requested, leaving unused space inside the partition. External fragmentation occurs when free memory is broken into small, non-contiguous blocks scattered across the physical address space."
     },
     {
       "id": 2,
@@ -39,8 +26,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Mutual exclusion ensures that only one thread or process can access a shared resource or critical section at any given moment, preventing race conditions.",
-      "topic": "Computer Science"
+      "explanation": "Mutual exclusion ensures that only one thread or process can access a shared resource or critical section at any given moment, preventing race conditions."
     },
     {
       "id": 3,
@@ -54,8 +40,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "The TLB is an associative, high-speed hardware cache that stores recent virtual-to-physical page mappings, reducing the need to access main memory page tables.",
-      "topic": "Computer Science"
+      "explanation": "The TLB is an associative, high-speed hardware cache that stores recent virtual-to-physical page mappings, reducing the need to access main memory page tables."
     },
     {
       "id": 4,
@@ -69,8 +54,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "For n processes and m resources, if the peak demand per process is k, deadlock is avoided if n(k−1)+1≤m. For n=4,m=12: 4(k−1)+1≤12⟹4(k−1)≤11⟹k−1≤2⟹k≤3.",
-      "topic": "Computer Science"
+      "explanation": "For n processes and m resources, if the peak demand per process is k, deadlock is avoided if n(k−1)+1≤m. For n=4,m=12: 4(k−1)+1≤12⟹4(k−1)≤11⟹k−1≤2⟹k≤3."
     },
     {
       "id": 5,
@@ -84,8 +68,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "The 'top' utility provides an interactive, real-time interface showing processor activity, memory usage, and execution metrics of running tasks.",
-      "topic": "Computer Science"
+      "explanation": "The 'top' utility provides an interactive, real-time interface showing processor activity, memory usage, and execution metrics of running tasks."
     },
     {
       "id": 6,
@@ -99,8 +82,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "The 'grep' command is the standard text-search utility in Unix/Linux used to match regular expressions or plain strings across specified target files.",
-      "topic": "Computer Science"
+      "explanation": "The 'grep' command is the standard text-search utility in Unix/Linux used to match regular expressions or plain strings across specified target files."
     },
     {
       "id": 7,
@@ -114,8 +96,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Read = 4, Write = 2, Execute = 1. Owner: 'rw-' = 4 + 2 = 6; Group: 'r--' = 4; Others: 'r--' = 4. The octal value is 644.",
-      "topic": "Computer Science"
+      "explanation": "Read = 4, Write = 2, Execute = 1. Owner: 'rw-' = 4 + 2 = 6; Group: 'r--' = 4; Others: 'r--' = 4. The octal value is 644."
     },
     {
       "id": 8,
@@ -129,8 +110,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "The fork() system call creates a new process by duplicating the calling process's address space, file descriptors, and execution state.",
-      "topic": "Computer Science"
+      "explanation": "The fork() system call creates a new process by duplicating the calling process's address space, file descriptors, and execution state."
     },
     {
       "id": 9,
@@ -144,8 +124,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Shortest Seek Time First (SSTF) selects the pending disk I/O request with the minimum seek time from the current cylinder position.",
-      "topic": "Computer Science"
+      "explanation": "Shortest Seek Time First (SSTF) selects the pending disk I/O request with the minimum seek time from the current cylinder position."
     },
     {
       "id": 10,
@@ -159,8 +138,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Both SSTF and SJF favor smaller/closer requests, which can lead to starvation for longer or more distant requests if shorter ones arrive continuously.",
-      "topic": "Computer Science"
+      "explanation": "Both SSTF and SJF favor smaller/closer requests, which can lead to starvation for longer or more distant requests if shorter ones arrive continuously."
     },
     {
       "id": 11,
@@ -174,8 +152,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The degree of a relation is the total number of attributes (columns), whereas cardinality is the total number of tuples (rows).",
-      "topic": "Computer Science"
+      "explanation": "The degree of a relation is the total number of attributes (columns), whereas cardinality is the total number of tuples (rows)."
     },
     {
       "id": 12,
@@ -189,8 +166,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Referential integrity requires that a foreign key attribute value must reference a valid, existing primary key in the parent relation, or be NULL.",
-      "topic": "Computer Science"
+      "explanation": "Referential integrity requires that a foreign key attribute value must reference a valid, existing primary key in the parent relation, or be NULL."
     },
     {
       "id": 13,
@@ -204,8 +180,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Finding the attribute closure of A: A+ = {A, B, C, D}. Because A determines all attributes in the relation and no proper subset of A can do so, A is the unique candidate key.",
-      "topic": "Computer Science"
+      "explanation": "Finding the attribute closure of A: A+ = {A, B, C, D}. Because A determines all attributes in the relation and no proper subset of A can do so, A is the unique candidate key."
     },
     {
       "id": 14,
@@ -219,8 +194,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Third Normal Form (3NF) requires the relation to be in 2NF and have no transitive functional dependencies of non-prime attributes on candidate keys.",
-      "topic": "Computer Science"
+      "explanation": "Third Normal Form (3NF) requires the relation to be in 2NF and have no transitive functional dependencies of non-prime attributes on candidate keys."
     },
     {
       "id": 15,
@@ -234,8 +208,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Boyce-Codd Normal Form (BCNF) strictly requires that the determinant (X) of every non-trivial functional dependency X -> Y must be a super key.",
-      "topic": "Computer Science"
+      "explanation": "Boyce-Codd Normal Form (BCNF) strictly requires that the determinant (X) of every non-trivial functional dependency X -> Y must be a super key."
     },
     {
       "id": 16,
@@ -249,8 +222,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The DISTINCT keyword inside a SELECT query suppresses duplicate result tuples, returning only unique rows.",
-      "topic": "Computer Science"
+      "explanation": "The DISTINCT keyword inside a SELECT query suppresses duplicate result tuples, returning only unique rows."
     },
     {
       "id": 17,
@@ -264,8 +236,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The HAVING clause applies filter predicates directly to grouped records produced by GROUP BY, unlike WHERE which filters rows prior to aggregation.",
-      "topic": "Computer Science"
+      "explanation": "The HAVING clause applies filter predicates directly to grouped records produced by GROUP BY, unlike WHERE which filters rows prior to aggregation."
     },
     {
       "id": 18,
@@ -279,8 +250,7 @@
       ],
       "answer": 3,
       "correct_answer": "D",
-      "explanation": "Serializable is the highest isolation level defined by SQL-92, preventing dirty reads, non-repeatable reads, and phantom reads.",
-      "topic": "Computer Science"
+      "explanation": "Serializable is the highest isolation level defined by SQL-92, preventing dirty reads, non-repeatable reads, and phantom reads."
     },
     {
       "id": 19,
@@ -294,8 +264,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "A derived attribute (such as age calculated from date of birth) is depicted using a dashed ellipse in ER diagrams.",
-      "topic": "Computer Science"
+      "explanation": "A derived attribute (such as age calculated from date of birth) is depicted using a dashed ellipse in ER diagrams."
     },
     {
       "id": 20,
@@ -309,8 +278,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "In a B+ Tree, data records/pointers reside only in leaf nodes, and leaf nodes are linked sequentially for fast range scans. Internal nodes hold only routing keys.",
-      "topic": "Computer Science"
+      "explanation": "In a B+ Tree, data records/pointers reside only in leaf nodes, and leaf nodes are linked sequentially for fast range scans. Internal nodes hold only routing keys."
     },
     {
       "id": 21,
@@ -324,8 +292,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "Evaluating a postfix expression involves scanning each token once and performing constant-time stack push/pop operations, resulting in O(n) total time.",
-      "topic": "Computer Science"
+      "explanation": "Evaluating a postfix expression involves scanning each token once and performing constant-time stack push/pop operations, resulting in O(n) total time."
     },
     {
       "id": 22,
@@ -339,8 +306,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "A stack allows opening brackets to be pushed as encountered and matched against corresponding closing brackets in reverse order (LIFO).",
-      "topic": "Computer Science"
+      "explanation": "A stack allows opening brackets to be pushed as encountered and matched against corresponding closing brackets in reverse order (LIFO)."
     },
     {
       "id": 23,
@@ -354,8 +320,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Inserting at the head requires updating the new node's next pointer to the current head and moving the head pointer, requiring O(1) time.",
-      "topic": "Computer Science"
+      "explanation": "Inserting at the head requires updating the new node's next pointer to the current head and moving the head pointer, requiring O(1) time."
     },
     {
       "id": 24,
@@ -369,8 +334,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "Each node has 2 child pointers, giving 2n total pointers. A tree with n nodes has n - 1 edges (non-null pointers). The number of null pointers is 2n - (n - 1) = n + 1.",
-      "topic": "Computer Science"
+      "explanation": "Each node has 2 child pointers, giving 2n total pointers. A tree with n nodes has n - 1 edges (non-null pointers). The number of null pointers is 2n - (n - 1) = n + 1."
     },
     {
       "id": 25,
@@ -384,8 +348,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Summing the maximum nodes at each level from 0 to h: 1+2+4+...+2^h = 2^(h+1) - 1.",
-      "topic": "Computer Science"
+      "explanation": "Summing the maximum nodes at each level from 0 to h: 1+2+4+...+2^h = 2^(h+1) - 1."
     },
     {
       "id": 26,
@@ -399,8 +362,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "A linear search must inspect every element one by one until the target is found or the end of the array is reached, taking O(n) comparisons.",
-      "topic": "Computer Science"
+      "explanation": "A linear search must inspect every element one by one until the target is found or the end of the array is reached, taking O(n) comparisons."
     },
     {
       "id": 27,
@@ -414,8 +376,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Insertion sort only performs a single comparison per element when the array is already sorted, resulting in an O(n) best-case running time.",
-      "topic": "Computer Science"
+      "explanation": "Insertion sort only performs a single comparison per element when the array is already sorted, resulting in an O(n) best-case running time."
     },
     {
       "id": 28,
@@ -429,8 +390,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "Selection sort scans the remaining unsorted subarray in every pass regardless of initial order, making n(n-1)/2 comparisons, which is O(n^2) across all cases.",
-      "topic": "Computer Science"
+      "explanation": "Selection sort scans the remaining unsorted subarray in every pass regardless of initial order, making n(n-1)/2 comparisons, which is O(n^2) across all cases."
     },
     {
       "id": 29,
@@ -444,8 +404,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "The Floyd-Warshall algorithm uses dynamic programming to compute the shortest paths between all pairs of vertices in O(V^3) time.",
-      "topic": "Computer Science"
+      "explanation": "The Floyd-Warshall algorithm uses dynamic programming to compute the shortest paths between all pairs of vertices in O(V^3) time."
     },
     {
       "id": 30,
@@ -459,8 +418,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "BFS explores vertices level by level using a FIFO queue to track discovered vertices awaiting exploration.",
-      "topic": "Computer Science"
+      "explanation": "BFS explores vertices level by level using a FIFO queue to track discovered vertices awaiting exploration."
     },
     {
       "id": 31,
@@ -474,8 +432,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The Transport Layer (Layer 4) provides transparent transfer of data between end systems, managing end-to-end error recovery, segment ordering, and flow control.",
-      "topic": "Computer Science"
+      "explanation": "The Transport Layer (Layer 4) provides transparent transfer of data between end systems, managing end-to-end error recovery, segment ordering, and flow control."
     },
     {
       "id": 32,
@@ -489,8 +446,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "A physical MAC address is a 48-bit (6-byte) hardware identifier usually represented as 12 hexadecimal digits.",
-      "topic": "Computer Science"
+      "explanation": "A physical MAC address is a 48-bit (6-byte) hardware identifier usually represented as 12 hexadecimal digits."
     },
     {
       "id": 33,
@@ -504,8 +460,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "Class C IPv4 networks allocate 24 bits for the network prefix and 8 bits for host addresses, yielding a default subnet mask of 255.255.255.0 (/24).",
-      "topic": "Computer Science"
+      "explanation": "Class C IPv4 networks allocate 24 bits for the network prefix and 8 bits for host addresses, yielding a default subnet mask of 255.255.255.0 (/24)."
     },
     {
       "id": 34,
@@ -519,8 +474,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "For a /27 prefix, host bits = 32 - 27 = 5. Total addresses = 2^5 = 32. Subtracting the network and broadcast addresses: 32 - 2 = 30 usable host addresses.",
-      "topic": "Computer Science"
+      "explanation": "For a /27 prefix, host bits = 32 - 27 = 5. Total addresses = 2^5 = 32. Subtracting the network and broadcast addresses: 32 - 2 = 30 usable host addresses."
     },
     {
       "id": 35,
@@ -534,8 +488,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "DNS uses UDP port 53 for standard name resolution queries due to its low latency and connectionless operation.",
-      "topic": "Computer Science"
+      "explanation": "DNS uses UDP port 53 for standard name resolution queries due to its low latency and connectionless operation."
     },
     {
       "id": 36,
@@ -549,8 +502,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The ping utility sends ICMP (Internet Control Message Protocol) Echo Request messages and waits for corresponding ICMP Echo Replies.",
-      "topic": "Computer Science"
+      "explanation": "The ping utility sends ICMP (Internet Control Message Protocol) Echo Request messages and waits for corresponding ICMP Echo Replies."
     },
     {
       "id": 37,
@@ -564,8 +516,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "Full-duplex allows data to flow in both directions at the same time across the transmission channel (e.g., standard telephone networks).",
-      "topic": "Computer Science"
+      "explanation": "Full-duplex allows data to flow in both directions at the same time across the transmission channel (e.g., standard telephone networks)."
     },
     {
       "id": 38,
@@ -579,8 +530,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The Synchronize (SYN) flag initiates a TCP connection and synchronizes initial sequence numbers between client and server.",
-      "topic": "Computer Science"
+      "explanation": "The Synchronize (SYN) flag initiates a TCP connection and synchronizes initial sequence numbers between client and server."
     },
     {
       "id": 39,
@@ -594,8 +544,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Secure Shell (SSH) replaces unencrypted protocols like Telnet by using strong cryptographic algorithms to protect remote administration sessions.",
-      "topic": "Computer Science"
+      "explanation": "Secure Shell (SSH) replaces unencrypted protocols like Telnet by using strong cryptographic algorithms to protect remote administration sessions."
     },
     {
       "id": 40,
@@ -609,8 +558,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "In a star topology, each network host features a dedicated point-to-point connection to a central device such as a switch or hub.",
-      "topic": "Computer Science"
+      "explanation": "In a star topology, each network host features a dedicated point-to-point connection to a central device such as a switch or hub."
     },
     {
       "id": 41,
@@ -624,8 +572,7 @@
       ],
       "answer": 3,
       "correct_answer": "D",
-      "explanation": "Modifying a scalar variable more than once between two consecutive sequence points produces undefined behavior according to the ISO C standard.",
-      "topic": "Computer Science"
+      "explanation": "Modifying a scalar variable more than once between two consecutive sequence points produces undefined behavior according to the ISO C standard."
     },
     {
       "id": 42,
@@ -639,8 +586,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "The volatile qualifier informs the compiler that the variable's value can change at any time without explicit code actions, preventing compiler optimizations from skipping reads.",
-      "topic": "Computer Science"
+      "explanation": "The volatile qualifier informs the compiler that the variable's value can change at any time without explicit code actions, preventing compiler optimizations from skipping reads."
     },
     {
       "id": 43,
@@ -654,8 +600,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "Standard C (C99/C11) specifies that a struct must contain at least one member; GCC allows empty structs as an extension with a size of 0 bytes (unlike C++, where size is 1 byte).",
-      "topic": "Computer Science"
+      "explanation": "Standard C (C99/C11) specifies that a struct must contain at least one member; GCC allows empty structs as an extension with a size of 0 bytes (unlike C++, where size is 1 byte)."
     },
     {
       "id": 44,
@@ -669,8 +614,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "When memory allocation fails, malloc() returns a NULL pointer to indicate that heap memory was unavailable.",
-      "topic": "Computer Science"
+      "explanation": "When memory allocation fails, malloc() returns a NULL pointer to indicate that heap memory was unavailable."
     },
     {
       "id": 45,
@@ -684,8 +628,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Constructors cannot be virtual because virtual dispatch requires an instantiated object with a vtable pointer, which does not exist until construction completes.",
-      "topic": "Computer Science"
+      "explanation": "Constructors cannot be virtual because virtual dispatch requires an instantiated object with a vtable pointer, which does not exist until construction completes."
     },
     {
       "id": 46,
@@ -699,8 +642,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "A pure virtual function is defined using '= 0' in the declaration, providing no implementation in the base class and turning it into an abstract class.",
-      "topic": "Computer Science"
+      "explanation": "A pure virtual function is defined using '= 0' in the declaration, providing no implementation in the base class and turning it into an abstract class."
     },
     {
       "id": 47,
@@ -714,8 +656,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "Encapsulation bundles data variables and the methods operating on that data into a single class, restricting direct unauthorized access from outside.",
-      "topic": "Computer Science"
+      "explanation": "Encapsulation bundles data variables and the methods operating on that data into a single class, restricting direct unauthorized access from outside."
     },
     {
       "id": 48,
@@ -729,8 +670,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Declaring a class with the 'final' modifier in Java prevents it from being extended by any other subclass.",
-      "topic": "Computer Science"
+      "explanation": "Declaring a class with the 'final' modifier in Java prevents it from being extended by any other subclass."
     },
     {
       "id": 49,
@@ -744,8 +684,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "The java.lang.Object class is the ultimate root of the Java class hierarchy; every class inherits its methods.",
-      "topic": "Computer Science"
+      "explanation": "The java.lang.Object class is the ultimate root of the Java class hierarchy; every class inherits its methods."
     },
     {
       "id": 50,
@@ -759,8 +698,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "A Python set is an unordered collection of unique elements; any duplicate elements are automatically discarded.",
-      "topic": "Computer Science"
+      "explanation": "A Python set is an unordered collection of unique elements; any duplicate elements are automatically discarded."
     },
     {
       "id": 51,
@@ -774,8 +712,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "In Python, empty collections (including lists [], tuples (), dictionaries {}, and sets) evaluate to False in a boolean context.",
-      "topic": "Computer Science"
+      "explanation": "In Python, empty collections (including lists [], tuples (), dictionaries {}, and sets) evaluate to False in a boolean context."
     },
     {
       "id": 52,
@@ -789,8 +726,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The  tag defines an unordered list, and each list item within it is marked using the  tag.",
-      "topic": "Computer Science"
+      "explanation": "The  tag defines an unordered list, and each list item within it is marked using the  tag."
     },
     {
       "id": 53,
@@ -804,8 +740,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Padding defines the clear space inside an element's border, surrounding its content. Margin defines the space outside the border.",
-      "topic": "Computer Science"
+      "explanation": "Padding defines the clear space inside an element's border, surrounding its content. Margin defines the space outside the border."
     },
     {
       "id": 54,
@@ -819,8 +754,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "The strict equality operator (===) checks both value and data type without performing implicit type coercion.",
-      "topic": "Computer Science"
+      "explanation": "The strict equality operator (===) checks both value and data type without performing implicit type coercion."
     },
     {
       "id": 55,
@@ -834,8 +768,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "A well-formed XML document must have a single root element, properly nested elements, and matching opening and closing tags.",
-      "topic": "Computer Science"
+      "explanation": "A well-formed XML document must have a single root element, properly nested elements, and matching opening and closing tags."
     },
     {
       "id": 56,
@@ -849,8 +782,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Cohesion measures the functional strength and relatedness of elements within a single module. High cohesion is desirable.",
-      "topic": "Computer Science"
+      "explanation": "Cohesion measures the functional strength and relatedness of elements within a single module. High cohesion is desirable."
     },
     {
       "id": 57,
@@ -864,8 +796,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Regression testing re-executes tests against modified software to ensure that recent code modifications have not introduced new defects.",
-      "topic": "Computer Science"
+      "explanation": "Regression testing re-executes tests against modified software to ensure that recent code modifications have not introduced new defects."
     },
     {
       "id": 58,
@@ -879,8 +810,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "The traditional Waterfall model is linear and sequential; verification (testing) occurs only after implementation (coding) is finished.",
-      "topic": "Computer Science"
+      "explanation": "The traditional Waterfall model is linear and sequential; verification (testing) occurs only after implementation (coding) is finished."
     },
     {
       "id": 59,
@@ -894,8 +824,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "A NAND gate produces a 0 output only when all inputs are 1; otherwise, it outputs a 1.",
-      "topic": "Computer Science"
+      "explanation": "A NAND gate produces a 0 output only when all inputs are 1; otherwise, it outputs a 1."
     },
     {
       "id": 60,
@@ -909,8 +838,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "By the complement law of Boolean algebra, a variable ORed with its complement is always equal to logical 1.",
-      "topic": "Computer Science"
+      "explanation": "By the complement law of Boolean algebra, a variable ORed with its complement is always equal to logical 1."
     },
     {
       "id": 61,
@@ -924,8 +852,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "An n-to-2^n decoder converts an n-bit input into 2^n unique output lines. With 3 inputs, it produces 2^3 = 8 outputs.",
-      "topic": "Computer Science"
+      "explanation": "An n-to-2^n decoder converts an n-bit input into 2^n unique output lines. With 3 inputs, it produces 2^3 = 8 outputs."
     },
     {
       "id": 62,
@@ -939,8 +866,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Combinational circuits have outputs determined purely by current inputs. Sequential circuits include memory elements, so outputs depend on past inputs as well.",
-      "topic": "Computer Science"
+      "explanation": "Combinational circuits have outputs determined purely by current inputs. Sequential circuits include memory elements, so outputs depend on past inputs as well."
     },
     {
       "id": 63,
@@ -954,8 +880,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "A MOD-N counter requires n flip-flops such that 2 \nn\n ≥N. For MOD-16, 2 \n4\n =16, so exactly 4 flip-flops are required.",
-      "topic": "Computer Science"
+      "explanation": "A MOD-N counter requires n flip-flops such that 2 \nn\n ≥N. For MOD-16, 2 \n4\n =16, so exactly 4 flip-flops are required."
     },
     {
       "id": 64,
@@ -969,8 +894,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "(157) \n8\n​\n =(1×8 \n2\n )+(5×8 \n1\n )+(7×8 \n0\n )=64+40+7=111.",
-      "topic": "Computer Science"
+      "explanation": "(157) \n8\n​\n =(1×8 \n2\n )+(5×8 \n1\n )+(7×8 \n0\n )=64+40+7=111."
     },
     {
       "id": 65,
@@ -984,8 +908,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "1101 \n2\n​\n =13 \n10\n​\n , and 1011 \n2\n​\n =11 \n10\n​\n . 13+11=24 \n10\n​\n =11000 \n2\n​\n .",
-      "topic": "Computer Science"
+      "explanation": "1101 \n2\n​\n =13 \n10\n​\n , and 1011 \n2\n​\n =11 \n10\n​\n . 13+11=24 \n10\n​\n =11000 \n2\n​\n ."
     },
     {
       "id": 66,
@@ -999,8 +922,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The 8085 is an 8-bit microprocessor; its primary working register, the Accumulator (Register A), is 8 bits wide.",
-      "topic": "Computer Science"
+      "explanation": "The 8085 is an 8-bit microprocessor; its primary working register, the Accumulator (Register A), is 8 bits wide."
     },
     {
       "id": 67,
@@ -1014,8 +936,7 @@
       ],
       "answer": 3,
       "correct_answer": "D",
-      "explanation": "TRAP (RST 4.5) is the highest-priority, non-maskable hardware interrupt in the 8085 microprocessor.",
-      "topic": "Computer Science"
+      "explanation": "TRAP (RST 4.5) is the highest-priority, non-maskable hardware interrupt in the 8085 microprocessor."
     },
     {
       "id": 68,
@@ -1029,8 +950,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "CPU registers are located inside the processor core and operate at clock speed, making them the fastest memory in the hierarchy.",
-      "topic": "Computer Science"
+      "explanation": "CPU registers are located inside the processor core and operate at clock speed, making them the fastest memory in the hierarchy."
     },
     {
       "id": 69,
@@ -1044,8 +964,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Harvard architecture uses physically separate storage and signal pathways for instructions and data, unlike Von Neumann architecture which shares them.",
-      "topic": "Computer Science"
+      "explanation": "Harvard architecture uses physically separate storage and signal pathways for instructions and data, unlike Von Neumann architecture which shares them."
     },
     {
       "id": 70,
@@ -1059,8 +978,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The address bus is a unidirectional set of lines used by the CPU to point to the memory location or I/O port being accessed.",
-      "topic": "Computer Science"
+      "explanation": "The address bus is a unidirectional set of lines used by the CPU to point to the memory location or I/O port being accessed."
     },
     {
       "id": 71,
@@ -1074,8 +992,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "RSA is an asymmetric cipher that uses mathematically linked public and private key pairs for encryption and decryption.",
-      "topic": "Computer Science"
+      "explanation": "RSA is an asymmetric cipher that uses mathematically linked public and private key pairs for encryption and decryption."
     },
     {
       "id": 72,
@@ -1089,8 +1006,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "SHA-256 produces a fixed-size 256-bit hash digest (32 bytes), typically represented as a 64-character hexadecimal string.",
-      "topic": "Computer Science"
+      "explanation": "SHA-256 produces a fixed-size 256-bit hash digest (32 bytes), typically represented as a 64-character hexadecimal string."
     },
     {
       "id": 73,
@@ -1104,8 +1020,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "Ransomware holds user data hostage by encrypting files and demanding a ransom payment for the decryption tools.",
-      "topic": "Computer Science"
+      "explanation": "Ransomware holds user data hostage by encrypting files and demanding a ransom payment for the decryption tools."
     },
     {
       "id": 74,
@@ -1119,8 +1034,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Multi-Factor Authentication (MFA) requires users to provide two or more verification factors to gain access to a resource.",
-      "topic": "Computer Science"
+      "explanation": "Multi-Factor Authentication (MFA) requires users to provide two or more verification factors to gain access to a resource."
     },
     {
       "id": 75,
@@ -1134,8 +1048,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "The language L=\na \nn\n b \nn\n ∣n≥1 requires tracking arbitrary counts of a's and matching them to b's. A DFA has finite states and cannot count arbitrarily high, making this context-free language non-regular.",
-      "topic": "Computer Science"
+      "explanation": "The language L=\na \nn\n b \nn\n ∣n≥1 requires tracking arbitrary counts of a's and matching them to b's. A DFA has finite states and cannot count arbitrarily high, making this context-free language non-regular."
     },
     {
       "id": 76,
@@ -1149,8 +1062,7 @@
       ],
       "answer": 3,
       "correct_answer": "D",
-      "explanation": "Type-3 grammars in the Chomsky hierarchy represent regular grammars, which generate regular languages recognized by finite state automata.",
-      "topic": "Computer Science"
+      "explanation": "Type-3 grammars in the Chomsky hierarchy represent regular grammars, which generate regular languages recognized by finite state automata."
     },
     {
       "id": 77,
@@ -1164,8 +1076,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "The lexical analyzer (scanner) scans the source text and groups characters into lexical tokens (identifiers, keywords, operators).",
-      "topic": "Computer Science"
+      "explanation": "The lexical analyzer (scanner) scans the source text and groups characters into lexical tokens (identifiers, keywords, operators)."
     },
     {
       "id": 78,
@@ -1179,8 +1090,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The symbol table is a data structure used by compilers to store information about variables, functions, and other identifiers, including their type, scope, and memory offset.",
-      "topic": "Computer Science"
+      "explanation": "The symbol table is a data structure used by compilers to store information about variables, functions, and other identifiers, including their type, scope, and memory offset."
     },
     {
       "id": 79,
@@ -1194,8 +1104,7 @@
       ],
       "answer": 0,
       "correct_answer": "A",
-      "explanation": "The Cohen-Sutherland algorithm divides 2D space into 9 regions using 4-bit outcodes to quickly identify and clip line segments against a rectangular viewport.",
-      "topic": "Computer Science"
+      "explanation": "The Cohen-Sutherland algorithm divides 2D space into 9 regions using 4-bit outcodes to quickly identify and clip line segments against a rectangular viewport."
     },
     {
       "id": 80,
@@ -1209,8 +1118,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "The COUNTIF function applies a specified condition to a cell range and returns the count of cells that satisfy that criteria.",
-      "topic": "Computer Science"
+      "explanation": "The COUNTIF function applies a specified condition to a cell range and returns the count of cells that satisfy that criteria."
     },
     {
       "id": 81,
@@ -1224,8 +1132,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Mail Merge merges a master document with a structured recipient list (like an Excel sheet) to generate customized copies for multiple recipients.",
-      "topic": "Computer Science"
+      "explanation": "Mail Merge merges a master document with a structured recipient list (like an Excel sheet) to generate customized copies for multiple recipients."
     },
     {
       "id": 82,
@@ -1239,8 +1146,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The BIOS is firmware that initializes hardware during startup, runs the POST diagnostic routine, and hands off execution to the operating system bootloader.",
-      "topic": "Computer Science"
+      "explanation": "The BIOS is firmware that initializes hardware during startup, runs the POST diagnostic routine, and hands off execution to the operating system bootloader."
     },
     {
       "id": 83,
@@ -1254,8 +1160,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "RAM is primary storage because it is directly addressable by the CPU over the memory bus, unlike secondary storage devices (hard drives, tapes).",
-      "topic": "Computer Science"
+      "explanation": "RAM is primary storage because it is directly addressable by the CPU over the memory bus, unlike secondary storage devices (hard drives, tapes)."
     },
     {
       "id": 84,
@@ -1269,8 +1174,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "1 MiB=1024 KiB=1024×1024 bytes=1,048,576 bytes.",
-      "topic": "Computer Science"
+      "explanation": "1 MiB=1024 KiB=1024×1024 bytes=1,048,576 bytes."
     },
     {
       "id": 85,
@@ -1284,8 +1188,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "DVDs, CDs, and Blu-ray discs are optical storage media that use lasers to read and write digital data patterns.",
-      "topic": "Computer Science"
+      "explanation": "DVDs, CDs, and Blu-ray discs are optical storage media that use lasers to read and write digital data patterns."
     },
     {
       "id": 86,
@@ -1299,8 +1202,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "The INSERT INTO SQL command is a DML statement used to insert new records into an existing table.",
-      "topic": "Computer Science"
+      "explanation": "The INSERT INTO SQL command is a DML statement used to insert new records into an existing table."
     },
     {
       "id": 87,
@@ -1314,8 +1216,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "COUNT(column_name) returns the total number of non-NULL values present in that column across all matching rows.",
-      "topic": "Computer Science"
+      "explanation": "COUNT(column_name) returns the total number of non-NULL values present in that column across all matching rows."
     },
     {
       "id": 88,
@@ -1329,8 +1230,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "A primary key contains unique, non-null values that uniquely distinguish every record in a relational database table.",
-      "topic": "Computer Science"
+      "explanation": "A primary key contains unique, non-null values that uniquely distinguish every record in a relational database table."
     },
     {
       "id": 89,
@@ -1344,8 +1244,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "When a process initiates an I/O request, it cannot continue using the CPU until the I/O completes, so it transitions from Running to Waiting/Blocked.",
-      "topic": "Computer Science"
+      "explanation": "When a process initiates an I/O request, it cannot continue using the CPU until the I/O completes, so it transitions from Running to Waiting/Blocked."
     },
     {
       "id": 90,
@@ -1359,8 +1258,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Shortest Job First (SJF) is provably optimal in minimizing the average waiting time for a fixed collection of available processes.",
-      "topic": "Computer Science"
+      "explanation": "Shortest Job First (SJF) is provably optimal in minimizing the average waiting time for a fixed collection of available processes."
     },
     {
       "id": 91,
@@ -1374,8 +1272,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "In a preemptive OS, periodic timer interrupts invoke the scheduler to preempt running processes whose time slice has expired, preventing one process from hanging the system.",
-      "topic": "Computer Science"
+      "explanation": "In a preemptive OS, periodic timer interrupts invoke the scheduler to preempt running processes whose time slice has expired, preventing one process from hanging the system."
     },
     {
       "id": 92,
@@ -1389,8 +1286,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "Linux is developed under an open-source model (primarily the GNU General Public License), making its source code free to inspect and modify.",
-      "topic": "Computer Science"
+      "explanation": "Linux is developed under an open-source model (primarily the GNU General Public License), making its source code free to inspect and modify."
     },
     {
       "id": 93,
@@ -1404,8 +1300,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Binary search halves the search space with each comparison, resulting in a worst-case time complexity of O(log n).",
-      "topic": "Computer Science"
+      "explanation": "Binary search halves the search space with each comparison, resulting in a worst-case time complexity of O(log n)."
     },
     {
       "id": 94,
@@ -1419,8 +1314,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Bubble Sort compares adjacent elements and swaps them if they are out of order, repeating this process until the list is sorted.",
-      "topic": "Computer Science"
+      "explanation": "Bubble Sort compares adjacent elements and swaps them if they are out of order, repeating this process until the list is sorted."
     },
     {
       "id": 95,
@@ -1434,8 +1328,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Hypertext Transfer Protocol (HTTP) is the foundational application layer protocol used to fetch and deliver web resources.",
-      "topic": "Computer Science"
+      "explanation": "Hypertext Transfer Protocol (HTTP) is the foundational application layer protocol used to fetch and deliver web resources."
     },
     {
       "id": 96,
@@ -1449,8 +1342,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "DNS acts as the directory of the internet, mapping readable domain names to the numerical IP addresses used by networking equipment.",
-      "topic": "Computer Science"
+      "explanation": "DNS acts as the directory of the internet, mapping readable domain names to the numerical IP addresses used by networking equipment."
     },
     {
       "id": 97,
@@ -1464,8 +1356,7 @@
       ],
       "answer": 2,
       "correct_answer": "C",
-      "explanation": "An Exclusive-OR (XOR) gate outputs 1 when its inputs are distinct (one is 0 and the other is 1).",
-      "topic": "Computer Science"
+      "explanation": "An Exclusive-OR (XOR) gate outputs 1 when its inputs are distinct (one is 0 and the other is 1)."
     },
     {
       "id": 98,
@@ -1479,8 +1370,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "(1010) \n2\n​\n =(1×2 \n3\n )+(0×2 \n2\n )+(1×2 \n1\n )+(0×2 \n0\n )=8+0+2+0=10.",
-      "topic": "Computer Science"
+      "explanation": "(1010) \n2\n​\n =(1×2 \n3\n )+(0×2 \n2\n )+(1×2 \n1\n )+(0×2 \n0\n )=8+0+2+0=10."
     },
     {
       "id": 99,
@@ -1494,8 +1384,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Java is an object-oriented language that organizes software design around data objects rather than functions and logic.",
-      "topic": "Computer Science"
+      "explanation": "Java is an object-oriented language that organizes software design around data objects rather than functions and logic."
     },
     {
       "id": 100,
@@ -1509,8 +1398,7 @@
       ],
       "answer": 1,
       "correct_answer": "B",
-      "explanation": "Debugging is the routine process of locating, analyzing, and removing bugs or defects in software code.",
-      "topic": "Computer Science"
+      "explanation": "Debugging is the routine process of locating, analyzing, and removing bugs or defects in software code."
     }
   ]
 }
