@@ -35,6 +35,9 @@ import SyllabusTracker from './components/SyllabusTracker';
 import TgtCsHub from './components/TgtCsHub';
 import CommonDsssbHub from './components/CommonDsssbHub';
 import TeachingMethodologyHub from './components/TeachingMethodologyHub';
+import PartAMocksHub from './components/PartAMocksHub';
+import CsFullMocksHub from './components/CsFullMocksHub';
+import PyqsHub from './components/PyqsHub';
 import SubjectDetailView from './components/SubjectDetailView';
 import CandidateProfileView from './components/CandidateProfileView';
 import ComprehensiveReportView from './components/ComprehensiveReportView';
@@ -100,7 +103,7 @@ export default function App() {
   };
 
   // Helper to determine initial view based on URL pathname, hash, or tab search query
-  const getViewFromUrl = (): 'dashboard' | 'quiz' | 'analyzing' | 'result' | 'bookmarks' | 'mistakes' | 'adaptive-path' | 'mock-history' | 'solution-review' | 'part-a-view' | 'part-b-view' | 'full-mock-view' | 'syllabus' | 'tgt-cs-view' | 'common-dsssb-view' | 'teaching-methodology-view' | 'subject-detail' | 'data-manager' | 'content' | 'seo-preview' | 'profile' | 'pdf-report' => {
+  const getViewFromUrl = (): 'dashboard' | 'quiz' | 'analyzing' | 'result' | 'bookmarks' | 'mistakes' | 'adaptive-path' | 'mock-history' | 'solution-review' | 'part-a-view' | 'part-b-view' | 'full-mock-view' | 'syllabus' | 'tgt-cs-view' | 'common-dsssb-view' | 'teaching-methodology-view' | 'part-a-mocks-view' | 'cs-full-mocks-view' | 'pyqs-view' | 'subject-detail' | 'data-manager' | 'content' | 'seo-preview' | 'profile' | 'pdf-report' => {
     if (typeof window === 'undefined') return 'dashboard';
     const path = window.location.pathname.toLowerCase().replace(/\/$/, '');
     const hash = window.location.hash.toLowerCase();
@@ -119,6 +122,9 @@ export default function App() {
     if (hash.startsWith('#/tgt-cs') || path === '/computer-science' || path === '/cs' || path === '/tgt-cs' || path === '/tgt-computer-science' || tab === 'cs' || tab === 'tgt-cs' || tab === 'tgt_cs') return 'tgt-cs-view';
     if (hash.startsWith('#/common-dsssb') || path === '/general-ability' || path === '/common-dsssb' || path === '/common-exam' || tab === 'general-ability' || tab === 'common-dsssb' || tab === 'common_dsssb') return 'common-dsssb-view';
     if (hash.startsWith('#/teaching-methodology') || path === '/teaching-methodology' || path === '/pedagogy' || tab === 'teaching-methodology' || tab === 'pedagogy') return 'teaching-methodology-view';
+    if (hash.startsWith('#/part-a-mocks') || path === '/part-a-mocks' || tab === 'part-a-mocks' || tab === 'part_a_mocks') return 'part-a-mocks-view';
+    if (hash.startsWith('#/cs-full-mocks') || path === '/cs-full-mocks' || tab === 'cs-full-mocks' || tab === 'cs_full_mocks') return 'cs-full-mocks-view';
+    if (hash.startsWith('#/pyqs') || path === '/pyqs' || path === '/pyp' || tab === 'pyqs' || tab === 'pyp') return 'pyqs-view';
     if (hash.startsWith('#/subject') || path.startsWith('/subject') || tab === 'subject') return 'subject-detail';
     if (path === '/part-a' || tab === 'part-a' || tab === 'part_a') return 'part-a-view';
     if (path === '/part-b' || tab === 'part-b' || tab === 'part_b') return 'part-b-view';
@@ -140,7 +146,7 @@ export default function App() {
   };
 
   // Navigation & Core States
-  const [activeView, setActiveView] = useState<'dashboard' | 'quiz' | 'analyzing' | 'result' | 'bookmarks' | 'mistakes' | 'adaptive-path' | 'mock-history' | 'solution-review' | 'time-analytics' | 'part-a-view' | 'part-b-view' | 'full-mock-view' | 'syllabus' | 'tgt-cs-view' | 'common-dsssb-view' | 'teaching-methodology-view' | 'subject-detail' | 'data-manager' | 'content' | 'seo-preview' | 'profile' | 'pdf-report'>(getViewFromUrl);
+  const [activeView, setActiveView] = useState<'dashboard' | 'quiz' | 'analyzing' | 'result' | 'bookmarks' | 'mistakes' | 'adaptive-path' | 'mock-history' | 'solution-review' | 'time-analytics' | 'part-a-view' | 'part-b-view' | 'full-mock-view' | 'syllabus' | 'tgt-cs-view' | 'common-dsssb-view' | 'teaching-methodology-view' | 'part-a-mocks-view' | 'cs-full-mocks-view' | 'pyqs-view' | 'subject-detail' | 'data-manager' | 'content' | 'seo-preview' | 'profile' | 'pdf-report'>(getViewFromUrl);
   const [viewHistory, setViewHistory] = useState<string[]>([]);
 
   const navigateToView = (nextView: typeof activeView) => {
@@ -236,6 +242,18 @@ export default function App() {
       targetPath = '/teaching-methodology';
       pageTitle = 'DSSSB Teaching Methodology & Pedagogy Mock Tests | DSSSB PYQ Online';
       pageDesc = 'Practice Teaching Methodology, Pedagogy, and Child Development questions for DSSSB exams.';
+    } else if (activeView === 'part-a-mocks-view') {
+      targetPath = '/part-a-mocks';
+      pageTitle = 'DSSSB Part A Full Mock Tests - 100 Marks Practice Series | DSSSB PYQ Online';
+      pageDesc = 'Practice full 100-question Part A mock tests for DSSSB Tier-1 covering Reasoning, GK, Maths, English, and Hindi.';
+    } else if (activeView === 'cs-full-mocks-view') {
+      targetPath = '/cs-full-mocks';
+      pageTitle = 'DSSSB TGT CS Full CBT Mocks - 200 Questions 120 Minutes Simulation | DSSSB PYQ Online';
+      pageDesc = 'Attempt 200 questions 120-minute DSSSB TGT Computer Science CBT full length mock tests with strict timer and sectional locking.';
+    } else if (activeView === 'pyqs-view') {
+      targetPath = '/pyqs';
+      pageTitle = 'Official DSSSB TGT CS Previous Year Question Papers (PYQs) | DSSSB PYQ Online';
+      pageDesc = 'Practice and review official DSSSB TGT Computer Science and Delhi teacher previous year question papers with answer keys.';
     } else if (activeView === 'part-a-view') {
       targetPath = '/part-a';
       pageTitle = 'DSSSB Part A PYQs & Practice Tests - General Awareness, Reasoning, Quants, English, Hindi | DSSSB PYQ Online';
@@ -2578,9 +2596,10 @@ export default function App() {
       {/* Dedicated Pass Branding Ribbon Just Below Header:
           - Free users: Show plans (₹19, ₹99, ₹149)
           - Paid users: ZERO purchase branding; show ONLY Refer & Earn!
+          - Hidden on Mobile (< md) per design preference
       */}
       {!isPassUnlocked ? (
-        <div className="bg-gradient-to-r from-blue-700 via-indigo-700 to-purple-800 text-white font-bold px-3 sm:px-6 py-2 border-b border-indigo-500/40 shadow-xs relative z-30">
+        <div className="hidden md:block bg-gradient-to-r from-blue-700 via-indigo-700 to-purple-800 text-white font-bold px-3 sm:px-6 py-2 border-b border-indigo-500/40 shadow-xs relative z-30">
           <div className="max-w-7xl mx-auto flex items-center justify-between gap-2.5 flex-wrap">
             <div className="flex items-center gap-2 min-w-0">
               <span className="bg-amber-400 text-slate-950 text-[10px] font-black uppercase px-2 py-0.5 rounded-md shrink-0 shadow-xs">
@@ -2611,7 +2630,7 @@ export default function App() {
           </div>
         </div>
       ) : (
-        <div className="bg-gradient-to-r from-purple-700 via-pink-700 to-rose-700 text-white font-bold px-3 sm:px-6 py-2 border-b border-purple-500/40 shadow-xs relative z-30">
+        <div className="hidden md:block bg-gradient-to-r from-purple-700 via-pink-700 to-rose-700 text-white font-bold px-3 sm:px-6 py-2 border-b border-purple-500/40 shadow-xs relative z-30">
           <div className="max-w-7xl mx-auto flex items-center justify-between gap-2.5 flex-wrap">
             <div className="flex items-center gap-2">
               <span className="bg-amber-400 text-slate-950 text-[10px] font-black uppercase px-2 py-0.5 rounded-md shadow-xs">
@@ -3150,80 +3169,18 @@ export default function App() {
                     </p>
                   </div>
                   
-                  <div className="grid grid-cols-2 lg:grid-cols-4 gap-2.5 sm:gap-4 md:gap-5">
-                    {/* Main Exam Category 1: Computer Science */}
+                  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2.5 sm:gap-3.5 md:gap-4">
+                    {/* Module 1: Teaching Methodology */}
                     <motion.div 
                       initial={{ opacity: 0, y: 15 }}
                       animate={{ opacity: 1, y: 0 }}
                       whileHover={{ scale: 1.03, y: -4 }}
                       whileTap={{ scale: 0.97 }}
                       transition={{ duration: 0.3, delay: 0.04, type: 'spring', stiffness: 200, damping: 20 }}
-                      onClick={() => navigateToView('tgt-cs-view')}
-                      className="glass-box backdrop-blur-xl bg-white/90 dark:bg-slate-900/90 border-2 border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-3 sm:p-5 md:p-6 text-center flex flex-col items-center justify-between space-y-2 md:space-y-3 shadow-md hover:shadow-2xl hover:border-indigo-400 dark:hover:border-indigo-500 transition-all cursor-pointer group relative overflow-hidden"
-                    >
-                      <div className="absolute top-0 right-0 bg-indigo-500/10 text-indigo-700 dark:text-indigo-300 border-b border-l border-indigo-200/60 dark:border-indigo-800/60 text-[8px] sm:text-[9px] md:text-[10px] font-black px-2 py-0.5 sm:px-2.5 sm:py-0.5 md:px-3 md:py-1 rounded-bl-lg sm:rounded-bl-xl md:rounded-bl-2xl uppercase tracking-wider">
-                        32 Modules
-                      </div>
-                      <div className="pt-2 sm:pt-1 group-hover:scale-110 transition-transform">
-                        <div className="sm:hidden">
-                          <Glass3dIcon type="target" size="md" />
-                        </div>
-                        <div className="hidden sm:block">
-                          <Glass3dIcon type="target" size="lg" />
-                        </div>
-                      </div>
-                      <div className="space-y-0.5 md:space-y-1 w-full">
-                        <h3 className="font-black text-xs sm:text-base md:text-lg text-slate-900 dark:text-white tracking-tight group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors leading-tight">
-                          TGT Computer Science
-                        </h3>
-                        <p className="text-[10px] sm:text-xs text-slate-500 dark:text-slate-400 font-medium line-clamp-2 sm:line-clamp-none">
-                          32 DOE Topics &amp; PYQs
-                        </p>
-                      </div>
-                    </motion.div>
-
-                    {/* Main Exam Category 2: General Ability */}
-                    <motion.div 
-                      initial={{ opacity: 0, y: 15 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      whileHover={{ scale: 1.03, y: -4 }}
-                      whileTap={{ scale: 0.97 }}
-                      transition={{ duration: 0.3, delay: 0.08, type: 'spring', stiffness: 200, damping: 20 }}
-                      onClick={() => navigateToView('common-dsssb-view')}
-                      className="glass-box backdrop-blur-xl bg-white/90 dark:bg-slate-900/90 border-2 border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-3 sm:p-5 md:p-6 text-center flex flex-col items-center justify-between space-y-2 md:space-y-3 shadow-md hover:shadow-2xl hover:border-amber-400 dark:hover:border-amber-500 transition-all cursor-pointer group relative overflow-hidden"
-                    >
-                      <div className="absolute top-0 right-0 bg-amber-500/10 text-amber-700 dark:text-amber-300 border-b border-l border-amber-200/60 dark:border-amber-800/60 text-[8px] sm:text-[9px] md:text-[10px] font-black px-2 py-0.5 sm:px-2.5 sm:py-0.5 md:px-3 md:py-1 rounded-bl-lg sm:rounded-bl-xl md:rounded-bl-2xl uppercase tracking-wider">
-                        Part A (100M)
-                      </div>
-                      <div className="pt-2 sm:pt-1 group-hover:scale-110 transition-transform">
-                        <div className="sm:hidden">
-                          <Glass3dIcon type="calculator" size="md" />
-                        </div>
-                        <div className="hidden sm:block">
-                          <Glass3dIcon type="calculator" size="lg" />
-                        </div>
-                      </div>
-                      <div className="space-y-0.5 md:space-y-1 w-full">
-                        <h3 className="font-black text-xs sm:text-base md:text-lg text-slate-900 dark:text-white tracking-tight group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors leading-tight">
-                          General Ability
-                        </h3>
-                        <p className="text-[10px] sm:text-xs text-slate-500 dark:text-slate-400 font-medium line-clamp-2 sm:line-clamp-none">
-                          Maths, Reasoning, GK
-                        </p>
-                      </div>
-                    </motion.div>
-
-                    {/* Main Exam Category 3: Teaching Methodology */}
-                    <motion.div 
-                      initial={{ opacity: 0, y: 15 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      whileHover={{ scale: 1.03, y: -4 }}
-                      whileTap={{ scale: 0.97 }}
-                      transition={{ duration: 0.3, delay: 0.10, type: 'spring', stiffness: 200, damping: 20 }}
                       onClick={() => navigateToView('teaching-methodology-view')}
-                      className="glass-box backdrop-blur-xl bg-white/90 dark:bg-slate-900/90 border-2 border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-3 sm:p-5 md:p-6 text-center flex flex-col items-center justify-between space-y-2 md:space-y-3 shadow-md hover:shadow-2xl hover:border-purple-400 dark:hover:border-purple-500 transition-all cursor-pointer group relative overflow-hidden"
+                      className="glass-box backdrop-blur-xl bg-white/90 dark:bg-slate-900/90 border-2 border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-3 sm:p-4 text-center flex flex-col items-center justify-between space-y-2 shadow-md hover:shadow-2xl hover:border-purple-400 dark:hover:border-purple-500 transition-all cursor-pointer group relative overflow-hidden"
                     >
-                      <div className="absolute top-0 right-0 bg-purple-500/10 text-purple-700 dark:text-purple-300 border-b border-l border-purple-200/60 dark:border-purple-800/60 text-[8px] sm:text-[9px] md:text-[10px] font-black px-2 py-0.5 sm:px-2.5 sm:py-0.5 md:px-3 md:py-1 rounded-bl-lg sm:rounded-bl-xl md:rounded-bl-2xl uppercase tracking-wider">
+                      <div className="absolute top-0 right-0 bg-purple-500/10 text-purple-700 dark:text-purple-300 border-b border-l border-purple-200/60 dark:border-purple-800/60 text-[8px] sm:text-[9px] font-black px-2 py-0.5 rounded-bl-lg uppercase tracking-wider">
                         Pedagogy
                       </div>
                       <div className="pt-2 sm:pt-1 group-hover:scale-110 transition-transform">
@@ -3234,28 +3191,59 @@ export default function App() {
                           <Glass3dIcon type="books" size="lg" />
                         </div>
                       </div>
-                      <div className="space-y-0.5 md:space-y-1 w-full">
-                        <h3 className="font-black text-xs sm:text-base md:text-lg text-slate-900 dark:text-white tracking-tight group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors leading-tight">
+                      <div className="space-y-0.5 w-full">
+                        <h3 className="font-black text-xs sm:text-sm text-slate-900 dark:text-white tracking-tight group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors leading-tight">
                           Teaching Methodology
                         </h3>
-                        <p className="text-[10px] sm:text-xs text-slate-500 dark:text-slate-400 font-medium line-clamp-2 sm:line-clamp-none">
-                          Psychology &amp; NEP 2020
+                        <p className="text-[10px] text-slate-500 dark:text-slate-400 font-medium line-clamp-1">
+                          Pedagogy &amp; NEP 2020
                         </p>
                       </div>
                     </motion.div>
 
-                    {/* Main Exam Category 4: Full-Length CBT Mock Tests */}
+                    {/* Module 2: Part A Mocks (100 Qs) */}
                     <motion.div 
                       initial={{ opacity: 0, y: 15 }}
                       animate={{ opacity: 1, y: 0 }}
                       whileHover={{ scale: 1.03, y: -4 }}
                       whileTap={{ scale: 0.97 }}
-                      transition={{ duration: 0.3, delay: 0.12, type: 'spring', stiffness: 200, damping: 20 }}
-                      onClick={() => navigateToView('full-mock-view')}
-                      className="glass-box backdrop-blur-xl bg-white/90 dark:bg-slate-900/90 border-2 border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-3 sm:p-5 md:p-6 text-center flex flex-col items-center justify-between space-y-2 md:space-y-3 shadow-md hover:shadow-2xl hover:border-emerald-400 dark:hover:border-emerald-500 transition-all cursor-pointer group relative overflow-hidden"
+                      transition={{ duration: 0.3, delay: 0.07, type: 'spring', stiffness: 200, damping: 20 }}
+                      onClick={() => navigateToView('part-a-mocks-view')}
+                      className="glass-box backdrop-blur-xl bg-white/90 dark:bg-slate-900/90 border-2 border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-3 sm:p-4 text-center flex flex-col items-center justify-between space-y-2 shadow-md hover:shadow-2xl hover:border-amber-400 dark:hover:border-amber-500 transition-all cursor-pointer group relative overflow-hidden"
                     >
-                      <div className="absolute top-0 right-0 bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border-b border-l border-emerald-200/60 dark:border-emerald-800/60 text-[8px] sm:text-[9px] md:text-[10px] font-black px-2 py-0.5 sm:px-2.5 sm:py-0.5 md:px-3 md:py-1 rounded-bl-lg sm:rounded-bl-xl md:rounded-bl-2xl uppercase tracking-wider">
-                        200 Marks
+                      <div className="absolute top-0 right-0 bg-amber-500/10 text-amber-700 dark:text-amber-300 border-b border-l border-amber-200/60 dark:border-amber-800/60 text-[8px] sm:text-[9px] font-black px-2 py-0.5 rounded-bl-lg uppercase tracking-wider">
+                        100 Qs • 60M
+                      </div>
+                      <div className="pt-2 sm:pt-1 group-hover:scale-110 transition-transform">
+                        <div className="sm:hidden">
+                          <Glass3dIcon type="calculator" size="md" />
+                        </div>
+                        <div className="hidden sm:block">
+                          <Glass3dIcon type="calculator" size="lg" />
+                        </div>
+                      </div>
+                      <div className="space-y-0.5 w-full">
+                        <h3 className="font-black text-xs sm:text-sm text-slate-900 dark:text-white tracking-tight group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors leading-tight">
+                          Part A Mocks
+                        </h3>
+                        <p className="text-[10px] text-slate-500 dark:text-slate-400 font-medium line-clamp-1">
+                          Full 100 Marks Tests
+                        </p>
+                      </div>
+                    </motion.div>
+
+                    {/* Module 3: CS Full Mocks (200 Qs, 120 Min) */}
+                    <motion.div 
+                      initial={{ opacity: 0, y: 15 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      whileHover={{ scale: 1.03, y: -4 }}
+                      whileTap={{ scale: 0.97 }}
+                      transition={{ duration: 0.3, delay: 0.10, type: 'spring', stiffness: 200, damping: 20 }}
+                      onClick={() => navigateToView('cs-full-mocks-view')}
+                      className="glass-box backdrop-blur-xl bg-white/90 dark:bg-slate-900/90 border-2 border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-3 sm:p-4 text-center flex flex-col items-center justify-between space-y-2 shadow-md hover:shadow-2xl hover:border-indigo-400 dark:hover:border-indigo-500 transition-all cursor-pointer group relative overflow-hidden"
+                    >
+                      <div className="absolute top-0 right-0 bg-indigo-500/10 text-indigo-700 dark:text-indigo-300 border-b border-l border-indigo-200/60 dark:border-indigo-800/60 text-[8px] sm:text-[9px] font-black px-2 py-0.5 rounded-bl-lg uppercase tracking-wider">
+                        200 Qs • 2h
                       </div>
                       <div className="pt-2 sm:pt-1 group-hover:scale-110 transition-transform">
                         <div className="sm:hidden">
@@ -3265,12 +3253,105 @@ export default function App() {
                           <Glass3dIcon type="trophy" size="lg" />
                         </div>
                       </div>
-                      <div className="space-y-0.5 md:space-y-1 w-full">
-                        <h3 className="font-black text-xs sm:text-base md:text-lg text-slate-900 dark:text-white tracking-tight group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors leading-tight">
-                          Full Mock CBT
+                      <div className="space-y-0.5 w-full">
+                        <h3 className="font-black text-xs sm:text-sm text-slate-900 dark:text-white tracking-tight group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors leading-tight">
+                          CS Full Mocks
                         </h3>
-                        <p className="text-[10px] sm:text-xs text-slate-500 dark:text-slate-400 font-medium line-clamp-2 sm:line-clamp-none">
-                          200 Marks Simulation
+                        <p className="text-[10px] text-slate-500 dark:text-slate-400 font-medium line-clamp-1">
+                          Part A + Part B (120m)
+                        </p>
+                      </div>
+                    </motion.div>
+
+                    {/* Module 4: PYQs (Previous Year Papers) */}
+                    <motion.div 
+                      initial={{ opacity: 0, y: 15 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      whileHover={{ scale: 1.03, y: -4 }}
+                      whileTap={{ scale: 0.97 }}
+                      transition={{ duration: 0.3, delay: 0.13, type: 'spring', stiffness: 200, damping: 20 }}
+                      onClick={() => navigateToView('pyqs-view')}
+                      className="glass-box backdrop-blur-xl bg-white/90 dark:bg-slate-900/90 border-2 border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-3 sm:p-4 text-center flex flex-col items-center justify-between space-y-2 shadow-md hover:shadow-2xl hover:border-emerald-400 dark:hover:border-emerald-500 transition-all cursor-pointer group relative overflow-hidden"
+                    >
+                      <div className="absolute top-0 right-0 bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border-b border-l border-emerald-200/60 dark:border-emerald-800/60 text-[8px] sm:text-[9px] font-black px-2 py-0.5 rounded-bl-lg uppercase tracking-wider">
+                        Official Key
+                      </div>
+                      <div className="pt-2 sm:pt-1 group-hover:scale-110 transition-transform">
+                        <div className="sm:hidden">
+                          <Glass3dIcon type="calendar" size="md" />
+                        </div>
+                        <div className="hidden sm:block">
+                          <Glass3dIcon type="calendar" size="lg" />
+                        </div>
+                      </div>
+                      <div className="space-y-0.5 w-full">
+                        <h3 className="font-black text-xs sm:text-sm text-slate-900 dark:text-white tracking-tight group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors leading-tight">
+                          PYQs
+                        </h3>
+                        <p className="text-[10px] text-slate-500 dark:text-slate-400 font-medium line-clamp-1">
+                          Previous Year Papers
+                        </p>
+                      </div>
+                    </motion.div>
+
+                    {/* Module 5: TGT Computer Science (Subject-Wise) */}
+                    <motion.div 
+                      initial={{ opacity: 0, y: 15 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      whileHover={{ scale: 1.03, y: -4 }}
+                      whileTap={{ scale: 0.97 }}
+                      transition={{ duration: 0.3, delay: 0.16, type: 'spring', stiffness: 200, damping: 20 }}
+                      onClick={() => navigateToView('tgt-cs-view')}
+                      className="glass-box backdrop-blur-xl bg-white/90 dark:bg-slate-900/90 border-2 border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-3 sm:p-4 text-center flex flex-col items-center justify-between space-y-2 shadow-md hover:shadow-2xl hover:border-blue-400 dark:hover:border-blue-500 transition-all cursor-pointer group relative overflow-hidden"
+                    >
+                      <div className="absolute top-0 right-0 bg-blue-500/10 text-blue-700 dark:text-blue-300 border-b border-l border-blue-200/60 dark:border-blue-800/60 text-[8px] sm:text-[9px] font-black px-2 py-0.5 rounded-bl-lg uppercase tracking-wider">
+                        32 Modules
+                      </div>
+                      <div className="pt-2 sm:pt-1 group-hover:scale-110 transition-transform">
+                        <div className="sm:hidden">
+                          <Glass3dIcon type="computer" size="md" />
+                        </div>
+                        <div className="hidden sm:block">
+                          <Glass3dIcon type="computer" size="lg" />
+                        </div>
+                      </div>
+                      <div className="space-y-0.5 w-full">
+                        <h3 className="font-black text-xs sm:text-sm text-slate-900 dark:text-white tracking-tight group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors leading-tight">
+                          TGT Computer Science
+                        </h3>
+                        <p className="text-[10px] text-slate-500 dark:text-slate-400 font-medium line-clamp-1">
+                          Subject-Wise Topics
+                        </p>
+                      </div>
+                    </motion.div>
+
+                    {/* Module 6: General Ability (Part A Subject-Wise) */}
+                    <motion.div 
+                      initial={{ opacity: 0, y: 15 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      whileHover={{ scale: 1.03, y: -4 }}
+                      whileTap={{ scale: 0.97 }}
+                      transition={{ duration: 0.3, delay: 0.19, type: 'spring', stiffness: 200, damping: 20 }}
+                      onClick={() => navigateToView('common-dsssb-view')}
+                      className="glass-box backdrop-blur-xl bg-white/90 dark:bg-slate-900/90 border-2 border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-3 sm:p-4 text-center flex flex-col items-center justify-between space-y-2 shadow-md hover:shadow-2xl hover:border-rose-400 dark:hover:border-rose-500 transition-all cursor-pointer group relative overflow-hidden"
+                    >
+                      <div className="absolute top-0 right-0 bg-rose-500/10 text-rose-700 dark:text-rose-300 border-b border-l border-rose-200/60 dark:border-rose-800/60 text-[8px] sm:text-[9px] font-black px-2 py-0.5 rounded-bl-lg uppercase tracking-wider">
+                        Topic Tests
+                      </div>
+                      <div className="pt-2 sm:pt-1 group-hover:scale-110 transition-transform">
+                        <div className="sm:hidden">
+                          <Glass3dIcon type="brain" size="md" />
+                        </div>
+                        <div className="hidden sm:block">
+                          <Glass3dIcon type="brain" size="lg" />
+                        </div>
+                      </div>
+                      <div className="space-y-0.5 w-full">
+                        <h3 className="font-black text-xs sm:text-sm text-slate-900 dark:text-white tracking-tight group-hover:text-rose-600 dark:group-hover:text-rose-400 transition-colors leading-tight">
+                          General Ability
+                        </h3>
+                        <p className="text-[10px] text-slate-500 dark:text-slate-400 font-medium line-clamp-1">
+                          Maths, Reasoning, GK
                         </p>
                       </div>
                     </motion.div>
@@ -3490,6 +3571,105 @@ export default function App() {
             </div>
 
             <TeachingMethodologyHub
+              quizzes={allCombinedQuizzes}
+              pastAttempts={pastAttempts}
+              nowTick={nowTick}
+              onStartQuiz={(quiz, index) => handleStartTestAttempt(quiz, index)}
+              onLockedQuizClick={(quiz) => {
+                setTargetLockedQuizForPass(quiz);
+                setShowPassModal(true);
+              }}
+              onShareQuiz={(quiz, e) => handleShareMockLink(quiz, e)}
+              getMockUnlockStatus={getMockUnlockStatus}
+            />
+          </div>
+        )}
+
+        {/* Part A Full Mocks sub-view - Full dedicated page */}
+        {activeView === 'part-a-mocks-view' && (
+          <div className="w-full max-w-[1600px] mx-auto px-2 sm:px-4 lg:px-6 py-6 md:py-8 space-y-6 md:space-y-8 animate-fadeIn">
+            <div className="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-3 sm:pb-4">
+              <button 
+                onClick={handleGoBack}
+                className="p-2 sm:p-2.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 transition-all cursor-pointer shadow-xs group shrink-0"
+                title="Back"
+                aria-label="Back"
+              >
+                <ArrowLeft className="w-4 h-4 text-slate-700 dark:text-slate-200 group-hover:-translate-x-0.5 transition-transform" />
+              </button>
+              <span className="bg-amber-100 text-amber-900 border border-amber-200 text-[10px] font-black px-3 py-1 sm:px-3.5 sm:py-1.5 rounded-full uppercase tracking-wider">
+                <span className="hidden sm:inline">🏛️ Part A Full Mocks (100 Qs)</span>
+                <span className="sm:hidden">🏛️ Part A Mocks</span>
+              </span>
+            </div>
+
+            <PartAMocksHub
+              quizzes={allCombinedQuizzes}
+              pastAttempts={pastAttempts}
+              nowTick={nowTick}
+              onStartQuiz={(quiz, index) => handleStartTestAttempt(quiz, index)}
+              onLockedQuizClick={(quiz) => {
+                setTargetLockedQuizForPass(quiz);
+                setShowPassModal(true);
+              }}
+              onShareQuiz={(quiz, e) => handleShareMockLink(quiz, e)}
+              getMockUnlockStatus={getMockUnlockStatus}
+            />
+          </div>
+        )}
+
+        {/* CS Full Mocks sub-view - Full dedicated page */}
+        {activeView === 'cs-full-mocks-view' && (
+          <div className="w-full max-w-[1600px] mx-auto px-2 sm:px-4 lg:px-6 py-6 md:py-8 space-y-6 md:space-y-8 animate-fadeIn">
+            <div className="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-3 sm:pb-4">
+              <button 
+                onClick={handleGoBack}
+                className="p-2 sm:p-2.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 transition-all cursor-pointer shadow-xs group shrink-0"
+                title="Back"
+                aria-label="Back"
+              >
+                <ArrowLeft className="w-4 h-4 text-slate-700 dark:text-slate-200 group-hover:-translate-x-0.5 transition-transform" />
+              </button>
+              <span className="bg-indigo-100 text-indigo-900 border border-indigo-200 text-[10px] font-black px-3 py-1 sm:px-3.5 sm:py-1.5 rounded-full uppercase tracking-wider">
+                <span className="hidden sm:inline">🏆 CS Full Length CBT Mocks (200 Qs • 2h)</span>
+                <span className="sm:hidden">🏆 CS Full Mocks</span>
+              </span>
+            </div>
+
+            <CsFullMocksHub
+              quizzes={allCombinedQuizzes}
+              pastAttempts={pastAttempts}
+              nowTick={nowTick}
+              onStartQuiz={(quiz, index) => handleStartTestAttempt(quiz, index)}
+              onLockedQuizClick={(quiz) => {
+                setTargetLockedQuizForPass(quiz);
+                setShowPassModal(true);
+              }}
+              onShareQuiz={(quiz, e) => handleShareMockLink(quiz, e)}
+              getMockUnlockStatus={getMockUnlockStatus}
+            />
+          </div>
+        )}
+
+        {/* PYQs sub-view - Full dedicated page */}
+        {activeView === 'pyqs-view' && (
+          <div className="w-full max-w-[1600px] mx-auto px-2 sm:px-4 lg:px-6 py-6 md:py-8 space-y-6 md:space-y-8 animate-fadeIn">
+            <div className="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-3 sm:pb-4">
+              <button 
+                onClick={handleGoBack}
+                className="p-2 sm:p-2.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 transition-all cursor-pointer shadow-xs group shrink-0"
+                title="Back"
+                aria-label="Back"
+              >
+                <ArrowLeft className="w-4 h-4 text-slate-700 dark:text-slate-200 group-hover:-translate-x-0.5 transition-transform" />
+              </button>
+              <span className="bg-emerald-100 text-emerald-900 border border-emerald-200 text-[10px] font-black px-3 py-1 sm:px-3.5 sm:py-1.5 rounded-full uppercase tracking-wider">
+                <span className="hidden sm:inline">📚 Official DSSSB PYQs (2014–2024)</span>
+                <span className="sm:hidden">📚 Official PYQs</span>
+              </span>
+            </div>
+
+            <PyqsHub
               quizzes={allCombinedQuizzes}
               pastAttempts={pastAttempts}
               nowTick={nowTick}
@@ -4904,10 +5084,10 @@ export default function App() {
               id: 'home',
               label: 'BytePrep : CS',
               icon: Trophy,
-              isActive: ['dashboard', 'part-a-view', 'part-b-view', 'full-mock-view', 'tgt-cs-view', 'common-dsssb-view', 'teaching-methodology-view'].includes(activeView),
+              isActive: ['dashboard', 'part-a-view', 'part-b-view', 'full-mock-view', 'tgt-cs-view', 'common-dsssb-view', 'teaching-methodology-view', 'part-a-mocks-view', 'cs-full-mocks-view', 'pyqs-view'].includes(activeView),
               onClick: () => {
                 triggerHaptic(12);
-                if (['dashboard', 'part-a-view', 'part-b-view', 'full-mock-view', 'tgt-cs-view', 'common-dsssb-view', 'teaching-methodology-view'].includes(activeView)) {
+                if (['dashboard', 'part-a-view', 'part-b-view', 'full-mock-view', 'tgt-cs-view', 'common-dsssb-view', 'teaching-methodology-view', 'part-a-mocks-view', 'cs-full-mocks-view', 'pyqs-view'].includes(activeView)) {
                   window.scrollTo({ top: 0, behavior: 'smooth' });
                 } else {
                   setActiveView('dashboard');

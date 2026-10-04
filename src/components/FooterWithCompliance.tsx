@@ -121,11 +121,11 @@ export default function FooterWithCompliance({ onOpenSubscribeModal, onOpenAdmin
                 setPasswordInput('');
                 setShowPasswordModal(true);
               }} 
-              className="text-slate-600 hover:text-amber-400 transition-colors cursor-pointer bg-transparent border-0 flex items-center gap-1 text-[10px] uppercase font-mono tracking-wider ml-1"
+              className="text-slate-600 hover:text-amber-400 transition-colors cursor-pointer bg-transparent border-0 flex items-center justify-center p-1 rounded-md ml-1"
               title="Admin Access - Question Tracker"
+              aria-label="Admin Access - Question Tracker"
             >
-              <Lock className="w-3 h-3 text-slate-500" />
-              <span>Questions Admin</span>
+              <Lock className="w-3.5 h-3.5 text-slate-500 hover:text-amber-400" />
             </button>
           </div>
         </div>
