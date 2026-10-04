@@ -103,7 +103,7 @@ export default function App() {
   };
 
   // Helper to determine initial view based on URL pathname, hash, or tab search query
-  const getViewFromUrl = (): 'dashboard' | 'quiz' | 'analyzing' | 'result' | 'bookmarks' | 'mistakes' | 'adaptive-path' | 'mock-history' | 'solution-review' | 'part-a-view' | 'part-b-view' | 'full-mock-view' | 'syllabus' | 'tgt-cs-view' | 'common-dsssb-view' | 'teaching-methodology-view' | 'part-a-mocks-view' | 'cs-full-mocks-view' | 'pyqs-view' | 'subject-detail' | 'data-manager' | 'content' | 'seo-preview' | 'profile' | 'pdf-report' => {
+  const getViewFromUrl = (): 'dashboard' | 'quiz' | 'analyzing' | 'result' | 'bookmarks' | 'mistakes' | 'adaptive-path' | 'mock-history' | 'solution-review' | 'part-a-view' | 'part-b-view' | 'full-mock-view' | 'syllabus' | 'tgt-cs-view' | 'common-dsssb-view' | 'teaching-methodology-view' | 'part-a-mocks-view' | 'cs-full-mocks-view' | 'cs-only-mocks-view' | 'pyqs-view' | 'subject-detail' | 'data-manager' | 'content' | 'seo-preview' | 'profile' | 'pdf-report' => {
     if (typeof window === 'undefined') return 'dashboard';
     const path = window.location.pathname.toLowerCase().replace(/\/$/, '');
     const hash = window.location.hash.toLowerCase();
@@ -124,6 +124,7 @@ export default function App() {
     if (hash.startsWith('#/teaching-methodology') || path === '/teaching-methodology' || path === '/pedagogy' || tab === 'teaching-methodology' || tab === 'pedagogy') return 'teaching-methodology-view';
     if (hash.startsWith('#/part-a-mocks') || path === '/part-a-mocks' || tab === 'part-a-mocks' || tab === 'part_a_mocks') return 'part-a-mocks-view';
     if (hash.startsWith('#/cs-full-mocks') || path === '/cs-full-mocks' || tab === 'cs-full-mocks' || tab === 'cs_full_mocks') return 'cs-full-mocks-view';
+    if (hash.startsWith('#/cs-only-mocks') || hash.startsWith('#/cs-mocks') || path === '/cs-only-mocks' || path === '/cs-mocks' || tab === 'cs-only-mocks' || tab === 'cs_only_mocks') return 'cs-only-mocks-view';
     if (hash.startsWith('#/pyqs') || path === '/pyqs' || path === '/pyp' || tab === 'pyqs' || tab === 'pyp') return 'pyqs-view';
     if (hash.startsWith('#/subject') || path.startsWith('/subject') || tab === 'subject') return 'subject-detail';
     if (path === '/part-a' || tab === 'part-a' || tab === 'part_a') return 'part-a-view';
@@ -146,7 +147,7 @@ export default function App() {
   };
 
   // Navigation & Core States
-  const [activeView, setActiveView] = useState<'dashboard' | 'quiz' | 'analyzing' | 'result' | 'bookmarks' | 'mistakes' | 'adaptive-path' | 'mock-history' | 'solution-review' | 'time-analytics' | 'part-a-view' | 'part-b-view' | 'full-mock-view' | 'syllabus' | 'tgt-cs-view' | 'common-dsssb-view' | 'teaching-methodology-view' | 'part-a-mocks-view' | 'cs-full-mocks-view' | 'pyqs-view' | 'subject-detail' | 'data-manager' | 'content' | 'seo-preview' | 'profile' | 'pdf-report'>(getViewFromUrl);
+  const [activeView, setActiveView] = useState<'dashboard' | 'quiz' | 'analyzing' | 'result' | 'bookmarks' | 'mistakes' | 'adaptive-path' | 'mock-history' | 'solution-review' | 'time-analytics' | 'part-a-view' | 'part-b-view' | 'full-mock-view' | 'syllabus' | 'tgt-cs-view' | 'common-dsssb-view' | 'teaching-methodology-view' | 'part-a-mocks-view' | 'cs-full-mocks-view' | 'cs-only-mocks-view' | 'pyqs-view' | 'subject-detail' | 'data-manager' | 'content' | 'seo-preview' | 'profile' | 'pdf-report'>(getViewFromUrl);
   const [viewHistory, setViewHistory] = useState<string[]>([]);
 
   const navigateToView = (nextView: typeof activeView) => {
@@ -250,6 +251,10 @@ export default function App() {
       targetPath = '/cs-full-mocks';
       pageTitle = 'DSSSB TGT CS Full CBT Mocks - 200 Questions 120 Minutes Simulation | DSSSB PYQ Online';
       pageDesc = 'Attempt 200 questions 120-minute DSSSB TGT Computer Science CBT full length mock tests with strict timer and sectional locking.';
+    } else if (activeView === 'cs-only-mocks-view') {
+      targetPath = '/cs-only-mocks';
+      pageTitle = 'DSSSB TGT CS Domain Only Mocks - 100 Questions Computer Science Practice | DSSSB PYQ Online';
+      pageDesc = 'Practice 100-question Computer Science domain-specific Part B mock tests covering Operating Systems, DBMS, Computer Networks, Software Engineering, and Programming.';
     } else if (activeView === 'pyqs-view') {
       targetPath = '/pyqs';
       pageTitle = 'Official DSSSB TGT CS Previous Year Question Papers (PYQs) | DSSSB PYQ Online';
@@ -837,7 +842,7 @@ export default function App() {
   const [activePartATab, setActivePartATab] = useState<string>('All Subjects');
   const [fullMockTab, setFullMockTab] = useState<'mock' | 'pyp'>('mock');
   const [appVisibleCount, setAppVisibleCount] = useState<number>(15);
-  const [mockSubTab, setMockSubTab] = useState<'part_a' | 'full'>('full');
+  const [mockSubTab, setMockSubTab] = useState<'full' | 'cs_only' | 'part_a'>('full');
   const [partBSubject, setPartBSubject] = useState<'All Subjects' | 'TGT CS' | 'Teaching Methodology'>('All Subjects');
   const [partBTopic, setPartBTopic] = useState<string>('All Topics');
   const [tgtCsInitialTab, setTgtCsInitialTab] = useState<'part_a' | 'part_b' | 'part_a_full' | 'full'>('part_b');
@@ -2405,6 +2410,10 @@ export default function App() {
     return !isPartAMock;
   }).length;
 
+  const fullMockCsOnlyCount = allCombinedQuizzes.filter(q => {
+    return q.subject === 'CS Only Mock' || (q.file && q.file.includes('CS only Mocks')) || (q.title && q.title.toLowerCase().startsWith('cs domain mock'));
+  }).length;
+
   const fullMockPartACount = allCombinedQuizzes.filter(q => {
     if (q.category !== 'full' || q.testType === 'pyp') return false;
     const isPartAMock = q.title.toLowerCase().includes('part a') || q.title.toLowerCase().includes('part-a') || q.isPartA === true;
@@ -2443,15 +2452,17 @@ export default function App() {
   const fullMockQuizzes = allCombinedQuizzes.filter(q => {
     if (q.testType === 'pyp') return false; // remove any paper from pyp completely
     const lowerTitle = (q.title || '').toLowerCase();
+    const isCsOnly = q.subject === 'CS Only Mock' || (q.file && q.file.includes('CS only Mocks')) || lowerTitle.startsWith('cs domain mock');
+    const isPartAMock = lowerTitle.includes('part a') || lowerTitle.includes('part-a') || q.isPartA === true;
     const isFullCat = q.category === 'full' || lowerTitle.includes('full mock') || lowerTitle.includes('full paper') || lowerTitle.includes('full cbt') || lowerTitle.includes('200 marks') || lowerTitle.includes('full length') || (q.testId && q.testId.startsWith('full_'));
-    if (!isFullCat) return false;
 
     if (fullMockTab === 'mock') {
-      const isPartAMock = lowerTitle.includes('part a') || lowerTitle.includes('part-a') || q.isPartA === true;
-      if (mockSubTab === 'part_a') {
-        return isPartAMock;
+      if (mockSubTab === 'cs_only') {
+        return isCsOnly;
       } else if (mockSubTab === 'full') {
-        return !isPartAMock;
+        return (isFullCat && !isPartAMock && !isCsOnly);
+      } else if (mockSubTab === 'part_a') {
+        return isPartAMock;
       }
       return true;
     }
@@ -3169,7 +3180,7 @@ export default function App() {
                     </p>
                   </div>
                   
-                  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2.5 sm:gap-3.5 md:gap-4">
+                  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-2.5 sm:gap-3 md:gap-3.5">
                     {/* Module 1: Teaching Methodology */}
                     <motion.div 
                       initial={{ opacity: 0, y: 15 }}
@@ -3232,7 +3243,7 @@ export default function App() {
                       </div>
                     </motion.div>
 
-                    {/* Module 3: CS Full Mocks (200 Qs, 120 Min) */}
+                    {/* Module 3: Full Mocks (200 Qs, 120 Min) */}
                     <motion.div 
                       initial={{ opacity: 0, y: 15 }}
                       animate={{ opacity: 1, y: 0 }}
@@ -3255,21 +3266,52 @@ export default function App() {
                       </div>
                       <div className="space-y-0.5 w-full">
                         <h3 className="font-black text-xs sm:text-sm text-slate-900 dark:text-white tracking-tight group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors leading-tight">
-                          CS Full Mocks
+                          Full Mocks
                         </h3>
                         <p className="text-[10px] text-slate-500 dark:text-slate-400 font-medium line-clamp-1">
-                          Part A + Part B (120m)
+                          Part A + Part B (200M)
                         </p>
                       </div>
                     </motion.div>
 
-                    {/* Module 4: PYQs (Previous Year Papers) */}
+                    {/* Module 4: CS only Mocks (100 Qs, 60 Min) */}
                     <motion.div 
                       initial={{ opacity: 0, y: 15 }}
                       animate={{ opacity: 1, y: 0 }}
                       whileHover={{ scale: 1.03, y: -4 }}
                       whileTap={{ scale: 0.97 }}
-                      transition={{ duration: 0.3, delay: 0.13, type: 'spring', stiffness: 200, damping: 20 }}
+                      transition={{ duration: 0.3, delay: 0.12, type: 'spring', stiffness: 200, damping: 20 }}
+                      onClick={() => navigateToView('cs-only-mocks-view')}
+                      className="glass-box backdrop-blur-xl bg-white/90 dark:bg-slate-900/90 border-2 border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-3 sm:p-4 text-center flex flex-col items-center justify-between space-y-2 shadow-md hover:shadow-2xl hover:border-blue-400 dark:hover:border-blue-500 transition-all cursor-pointer group relative overflow-hidden"
+                    >
+                      <div className="absolute top-0 right-0 bg-blue-500/10 text-blue-700 dark:text-blue-300 border-b border-l border-blue-200/60 dark:border-blue-800/60 text-[8px] sm:text-[9px] font-black px-2 py-0.5 rounded-bl-lg uppercase tracking-wider">
+                        100 Qs • 60M
+                      </div>
+                      <div className="pt-2 sm:pt-1 group-hover:scale-110 transition-transform">
+                        <div className="sm:hidden">
+                          <Glass3dIcon type="code" size="md" />
+                        </div>
+                        <div className="hidden sm:block">
+                          <Glass3dIcon type="code" size="lg" />
+                        </div>
+                      </div>
+                      <div className="space-y-0.5 w-full">
+                        <h3 className="font-black text-xs sm:text-sm text-slate-900 dark:text-white tracking-tight group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors leading-tight">
+                          CS only Mocks
+                        </h3>
+                        <p className="text-[10px] text-slate-500 dark:text-slate-400 font-medium line-clamp-1">
+                          Computer Science (Part B)
+                        </p>
+                      </div>
+                    </motion.div>
+
+                    {/* Module 5: PYQs (Previous Year Papers) */}
+                    <motion.div 
+                      initial={{ opacity: 0, y: 15 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      whileHover={{ scale: 1.03, y: -4 }}
+                      whileTap={{ scale: 0.97 }}
+                      transition={{ duration: 0.3, delay: 0.14, type: 'spring', stiffness: 200, damping: 20 }}
                       onClick={() => navigateToView('pyqs-view')}
                       className="glass-box backdrop-blur-xl bg-white/90 dark:bg-slate-900/90 border-2 border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-3 sm:p-4 text-center flex flex-col items-center justify-between space-y-2 shadow-md hover:shadow-2xl hover:border-emerald-400 dark:hover:border-emerald-500 transition-all cursor-pointer group relative overflow-hidden"
                     >
@@ -3294,7 +3336,7 @@ export default function App() {
                       </div>
                     </motion.div>
 
-                    {/* Module 5: TGT Computer Science (Subject-Wise) */}
+                    {/* Module 6: TGT Computer Science (Subject-Wise) */}
                     <motion.div 
                       initial={{ opacity: 0, y: 15 }}
                       animate={{ opacity: 1, y: 0 }}
@@ -3302,9 +3344,9 @@ export default function App() {
                       whileTap={{ scale: 0.97 }}
                       transition={{ duration: 0.3, delay: 0.16, type: 'spring', stiffness: 200, damping: 20 }}
                       onClick={() => navigateToView('tgt-cs-view')}
-                      className="glass-box backdrop-blur-xl bg-white/90 dark:bg-slate-900/90 border-2 border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-3 sm:p-4 text-center flex flex-col items-center justify-between space-y-2 shadow-md hover:shadow-2xl hover:border-blue-400 dark:hover:border-blue-500 transition-all cursor-pointer group relative overflow-hidden"
+                      className="glass-box backdrop-blur-xl bg-white/90 dark:bg-slate-900/90 border-2 border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-3 sm:p-4 text-center flex flex-col items-center justify-between space-y-2 shadow-md hover:shadow-2xl hover:border-cyan-400 dark:hover:border-cyan-500 transition-all cursor-pointer group relative overflow-hidden"
                     >
-                      <div className="absolute top-0 right-0 bg-blue-500/10 text-blue-700 dark:text-blue-300 border-b border-l border-blue-200/60 dark:border-blue-800/60 text-[8px] sm:text-[9px] font-black px-2 py-0.5 rounded-bl-lg uppercase tracking-wider">
+                      <div className="absolute top-0 right-0 bg-cyan-500/10 text-cyan-700 dark:text-cyan-300 border-b border-l border-cyan-200/60 dark:border-cyan-800/60 text-[8px] sm:text-[9px] font-black px-2 py-0.5 rounded-bl-lg uppercase tracking-wider">
                         32 Modules
                       </div>
                       <div className="pt-2 sm:pt-1 group-hover:scale-110 transition-transform">
@@ -3316,42 +3358,42 @@ export default function App() {
                         </div>
                       </div>
                       <div className="space-y-0.5 w-full">
-                        <h3 className="font-black text-xs sm:text-sm text-slate-900 dark:text-white tracking-tight group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors leading-tight">
-                          TGT Computer Science
+                        <h3 className="font-black text-xs sm:text-sm text-slate-900 dark:text-white tracking-tight group-hover:text-cyan-600 dark:group-hover:text-cyan-400 transition-colors leading-tight">
+                          TGT CS 32 Topics
                         </h3>
                         <p className="text-[10px] text-slate-500 dark:text-slate-400 font-medium line-clamp-1">
-                          Subject-Wise Topics
+                          Topic-Wise Practice
                         </p>
                       </div>
                     </motion.div>
 
-                    {/* Module 6: General Ability (Part A Subject-Wise) */}
+                    {/* Module 7: General Ability (Part A Subject-Wise) */}
                     <motion.div 
                       initial={{ opacity: 0, y: 15 }}
                       animate={{ opacity: 1, y: 0 }}
                       whileHover={{ scale: 1.03, y: -4 }}
                       whileTap={{ scale: 0.97 }}
-                      transition={{ duration: 0.3, delay: 0.19, type: 'spring', stiffness: 200, damping: 20 }}
+                      transition={{ duration: 0.3, delay: 0.18, type: 'spring', stiffness: 200, damping: 20 }}
                       onClick={() => navigateToView('common-dsssb-view')}
                       className="glass-box backdrop-blur-xl bg-white/90 dark:bg-slate-900/90 border-2 border-slate-200/90 dark:border-slate-800/90 rounded-2xl md:rounded-3xl p-3 sm:p-4 text-center flex flex-col items-center justify-between space-y-2 shadow-md hover:shadow-2xl hover:border-rose-400 dark:hover:border-rose-500 transition-all cursor-pointer group relative overflow-hidden"
                     >
                       <div className="absolute top-0 right-0 bg-rose-500/10 text-rose-700 dark:text-rose-300 border-b border-l border-rose-200/60 dark:border-rose-800/60 text-[8px] sm:text-[9px] font-black px-2 py-0.5 rounded-bl-lg uppercase tracking-wider">
-                        Topic Tests
+                        5 Subjects
                       </div>
                       <div className="pt-2 sm:pt-1 group-hover:scale-110 transition-transform">
                         <div className="sm:hidden">
-                          <Glass3dIcon type="brain" size="md" />
+                          <Glass3dIcon type="points" size="md" />
                         </div>
                         <div className="hidden sm:block">
-                          <Glass3dIcon type="brain" size="lg" />
+                          <Glass3dIcon type="points" size="lg" />
                         </div>
                       </div>
                       <div className="space-y-0.5 w-full">
                         <h3 className="font-black text-xs sm:text-sm text-slate-900 dark:text-white tracking-tight group-hover:text-rose-600 dark:group-hover:text-rose-400 transition-colors leading-tight">
-                          General Ability
+                          Part A Subjects
                         </h3>
                         <p className="text-[10px] text-slate-500 dark:text-slate-400 font-medium line-clamp-1">
-                          Maths, Reasoning, GK
+                          GK, Maths, Reasoning etc.
                         </p>
                       </div>
                     </motion.div>
@@ -3618,8 +3660,8 @@ export default function App() {
           </div>
         )}
 
-        {/* CS Full Mocks sub-view - Full dedicated page */}
-        {activeView === 'cs-full-mocks-view' && (
+        {/* Full Mocks sub-view - Full dedicated page */}
+        {(activeView === 'cs-full-mocks-view' || activeView === 'cs-only-mocks-view') && (
           <div className="w-full max-w-[1600px] mx-auto px-2 sm:px-4 lg:px-6 py-6 md:py-8 space-y-6 md:space-y-8 animate-fadeIn">
             <div className="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-3 sm:pb-4">
               <button 
@@ -3630,9 +3672,18 @@ export default function App() {
               >
                 <ArrowLeft className="w-4 h-4 text-slate-700 dark:text-slate-200 group-hover:-translate-x-0.5 transition-transform" />
               </button>
-              <span className="bg-indigo-100 text-indigo-900 border border-indigo-200 text-[10px] font-black px-3 py-1 sm:px-3.5 sm:py-1.5 rounded-full uppercase tracking-wider">
-                <span className="hidden sm:inline">🏆 CS Full Length CBT Mocks (200 Qs • 2h)</span>
-                <span className="sm:hidden">🏆 CS Full Mocks</span>
+              <span className="bg-indigo-100 dark:bg-indigo-950 text-indigo-900 dark:text-indigo-200 border border-indigo-200 dark:border-indigo-800 text-[10px] font-black px-3 py-1 sm:px-3.5 sm:py-1.5 rounded-full uppercase tracking-wider">
+                {activeView === 'cs-only-mocks-view' ? (
+                  <>
+                    <span className="hidden sm:inline">💻 CS Only Domain Mocks (100 Qs • 60m)</span>
+                    <span className="sm:hidden">💻 CS only Mocks</span>
+                  </>
+                ) : (
+                  <>
+                    <span className="hidden sm:inline">🏆 Full Length CBT Mocks (200 Qs • 2h)</span>
+                    <span className="sm:hidden">🏆 Full Mocks</span>
+                  </>
+                )}
               </span>
             </div>
 
@@ -3640,6 +3691,7 @@ export default function App() {
               quizzes={allCombinedQuizzes}
               pastAttempts={pastAttempts}
               nowTick={nowTick}
+              initialCategory={activeView === 'cs-only-mocks-view' ? 'cs_only' : 'full'}
               onStartQuiz={(quiz, index) => handleStartTestAttempt(quiz, index)}
               onLockedQuizClick={(quiz) => {
                 setTargetLockedQuizForPass(quiz);
@@ -4090,28 +4142,28 @@ export default function App() {
               </button>
             </div>
 
-            {/* Sub-Toggle for Mock Test Series: Part A vs Full Mock */}
+            {/* Sub-Toggle for Mock Test Series: Full Mock vs CS only Mocks */}
             {fullMockTab === 'mock' && (
-              <div className="bg-slate-100/60 p-1 rounded-xl max-w-sm border border-slate-200/40 flex items-center gap-1 animate-fadeIn">
+              <div className="bg-slate-100/60 dark:bg-slate-800/60 p-1 rounded-xl max-w-md border border-slate-200/40 dark:border-slate-700/40 flex items-center gap-1 animate-fadeIn">
                 <button
                   onClick={() => setMockSubTab('full')}
                   className={`flex-1 py-2 px-3 rounded-lg text-xs font-extrabold transition-all cursor-pointer ${
                     mockSubTab === 'full'
-                      ? "bg-blue-600 text-white shadow-sm"
-                      : "text-slate-500 hover:text-slate-700"
+                      ? "bg-indigo-600 text-white shadow-sm"
+                      : "text-slate-500 hover:text-slate-700 dark:hover:text-slate-300"
                   }`}
                 >
                   Full Mock (200 Qs) ({fullMockFullLengthCount})
                 </button>
                 <button
-                  onClick={() => setMockSubTab('part_a')}
+                  onClick={() => setMockSubTab('cs_only')}
                   className={`flex-1 py-2 px-3 rounded-lg text-xs font-extrabold transition-all cursor-pointer ${
-                    mockSubTab === 'part_a'
+                    mockSubTab === 'cs_only'
                       ? "bg-blue-600 text-white shadow-sm"
-                      : "text-slate-500 hover:text-slate-700"
+                      : "text-slate-500 hover:text-slate-700 dark:hover:text-slate-300"
                   }`}
                 >
-                  Part A Mock (100 Qs) ({fullMockPartACount})
+                  CS only Mocks (100 Qs) ({fullMockCsOnlyCount})
                 </button>
               </div>
             )}
@@ -4119,7 +4171,7 @@ export default function App() {
             {/* Practice Quizzes List */}
             <div className="space-y-4">
               <h3 className="text-xs font-extrabold text-slate-500 uppercase tracking-widest">
-                Available {fullMockTab === 'mock' ? (mockSubTab === 'part_a' ? 'Part A Mock Tests' : 'Full Mock Tests') : 'Previous Year Papers'} ({fullMockQuizzes.length})
+                Available {fullMockTab === 'mock' ? (mockSubTab === 'cs_only' ? 'CS only Mock Tests' : 'Full Mock Tests') : 'Previous Year Papers'} ({fullMockQuizzes.length})
               </h3>
               <div>
                 {fullMockTab === 'pyp' ? (

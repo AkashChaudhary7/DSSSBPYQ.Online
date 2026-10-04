@@ -79,7 +79,17 @@ export function resolveQuizPath(testId: string, customFile?: string): string[] {
     paths.push(`/Reasoning/Reasoning Mock ${num}.json`);
   }
 
-  // 9. Full Mocks
+  // 9. CS Only Mocks
+  if (cleanId.includes('cs_only') || cleanId.includes('cs_mock') || cleanId.includes('cs mock') || cleanId.includes('cs-domain') || cleanId.includes('cs_domain')) {
+    const numMatch = cleanId.match(/(\d+)/);
+    const num = numMatch ? numMatch[1] : '1';
+    paths.push(`/CS only Mocks/cs_mock_${num}.json`);
+    paths.push(`/CS only Mocks/CS Mock ${num}.json`);
+    paths.push(`/CS only Mocks/CS MOCK ${num}.json`);
+    paths.push(`/CS only Mocks/cs_${num}.json`);
+  }
+
+  // 10. Full Mocks
   if (cleanId.includes('full_mock') || cleanId.includes('fullmock') || cleanId.includes('full_cbt')) {
     const numMatch = cleanId.match(/(\d+)/);
     if (numMatch) {

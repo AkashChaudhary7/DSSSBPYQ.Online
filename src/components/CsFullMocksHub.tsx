@@ -1,18 +1,21 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { Quiz, Attempt } from '../types';
 import { MockUnlockStatus } from '../lib/unlockSystem';
 import { isMockUnlocked } from '../lib/passSystem';
 import { 
-  Trophy, Share2, Lock, Clock, CheckCircle2, Sparkles, Search, Layers, ShieldCheck, Zap 
+  Trophy, Share2, Lock, Clock, CheckCircle2, Search, Layers, ShieldCheck, Cpu, Sparkles 
 } from 'lucide-react';
 import { getMockNumberLabel, getQuestionCount, getDifficultyTag } from '../lib/quizDisplayHelpers';
 import AdBanner from './AdBanner';
 import Pagination from './Pagination';
 
+export type MockCategoryType = 'full' | 'cs_only';
+
 interface CsFullMocksHubProps {
   quizzes: Quiz[];
   pastAttempts: Attempt[];
   nowTick: number;
+  initialCategory?: MockCategoryType;
   onStartQuiz: (quiz: Quiz, testIndex?: number) => void;
   onLockedQuizClick: (quiz: Quiz, status?: MockUnlockStatus) => void;
   onShareQuiz: (quiz: Quiz, e: React.MouseEvent) => void;
@@ -23,18 +26,26 @@ export const CsFullMocksHub: React.FC<CsFullMocksHubProps> = ({
   quizzes,
   pastAttempts,
   nowTick,
+  initialCategory = 'full',
   onStartQuiz,
   onLockedQuizClick,
   onShareQuiz,
   getMockUnlockStatus
 }) => {
+  const [activeCategory, setActiveCategory] = useState<MockCategoryType>(initialCategory);
   const [statusFilter, setStatusFilter] = useState<'all' | 'attempted' | 'unattempted'>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [currentPage, setCurrentPage] = useState<number>(1);
   const ITEMS_PER_PAGE = 20;
 
-  // Filter 200-Question CS Full Mocks
-  const csFullMocks = useMemo(() => {
+  useEffect(() => {
+    if (initialCategory) {
+      setActiveCategory(initialCategory);
+    }
+  }, [initialCategory]);
+
+  // 1. Filter 200-Question Full Mocks
+  const fullMocksList = useMemo(() => {
     const list = quizzes.filter(q => {
       const isPartA = 
         q.category === 'part_a_full' || 
@@ -44,15 +55,24 @@ export const CsFullMocksHub: React.FC<CsFullMocksHubProps> = ({
       
       if (isPartA) return false;
 
-      const isCsFull = 
+      const isCsOnly = 
+        q.subject === 'CS Only Mock' || 
+        (q.file && q.file.includes('CS only Mocks')) ||
+        (q.topic && q.topic.includes('CS Domain Only')) ||
+        (q.title && q.title.toLowerCase().startsWith('cs domain mock')) ||
+        (q.testId && q.testId.includes('cs_mock'));
+
+      if (isCsOnly) return false;
+
+      const isFull = 
         (q.category === 'full') || 
         (q.file && q.file.includes('Full Mocks')) ||
+        (q.subject === 'Full Mock') ||
         (q.title && q.title.toLowerCase().includes('cbt mock'));
 
-      return isCsFull;
+      return isFull;
     });
 
-    // Natural sort by mock test number
     return list.sort((a, b) => {
       const numA = parseInt(a.title.replace(/\D/g, '')) || 0;
       const numB = parseInt(b.title.replace(/\D/g, '')) || 0;
@@ -60,17 +80,39 @@ export const CsFullMocksHub: React.FC<CsFullMocksHubProps> = ({
     });
   }, [quizzes]);
 
+  // 2. Filter 100-Question CS Only Mocks (Domain-specific Part B)
+  const csOnlyMocksList = useMemo(() => {
+    const list = quizzes.filter(q => {
+      const isCsOnly = 
+        q.subject === 'CS Only Mock' || 
+        (q.file && q.file.includes('CS only Mocks')) ||
+        (q.topic && q.topic.includes('CS Domain Only')) ||
+        (q.title && q.title.toLowerCase().startsWith('cs domain mock')) ||
+        (q.testId && q.testId.includes('cs_mock'));
+
+      return isCsOnly;
+    });
+
+    return list.sort((a, b) => {
+      const numA = parseInt(a.title.replace(/\D/g, '')) || 0;
+      const numB = parseInt(b.title.replace(/\D/g, '')) || 0;
+      return numA - numB;
+    });
+  }, [quizzes]);
+
+  const activeCategoryList = activeCategory === 'full' ? fullMocksList : csOnlyMocksList;
+
   // Apply Search
   const filteredBySearch = useMemo(() => {
-    if (!searchQuery.trim()) return csFullMocks;
+    if (!searchQuery.trim()) return activeCategoryList;
     const qStr = searchQuery.toLowerCase().trim();
-    return csFullMocks.filter(q => {
+    return activeCategoryList.filter(q => {
       const titleMatch = (q.title || '').toLowerCase().includes(qStr);
       const subMatch = (q.subject || '').toLowerCase().includes(qStr);
       const testIdMatch = (q.testId || '').toLowerCase().includes(qStr);
       return titleMatch || subMatch || testIdMatch;
     });
-  }, [csFullMocks, searchQuery]);
+  }, [activeCategoryList, searchQuery]);
 
   // Apply Status Filter
   const displayedQuizzes = useMemo(() => {
@@ -83,49 +125,120 @@ export const CsFullMocksHub: React.FC<CsFullMocksHubProps> = ({
   }, [filteredBySearch, statusFilter, pastAttempts]);
 
   const attemptedCount = useMemo(() => {
-    return csFullMocks.filter(q => pastAttempts.some(a => a.testId === q.testId)).length;
-  }, [csFullMocks, pastAttempts]);
+    return activeCategoryList.filter(q => pastAttempts.some(a => a.testId === q.testId)).length;
+  }, [activeCategoryList, pastAttempts]);
 
   return (
     <div className="bg-white dark:bg-slate-900 border-2 border-indigo-200/90 dark:border-indigo-800/80 rounded-3xl p-5 md:p-8 shadow-sm space-y-6 relative overflow-hidden">
       {/* Top Accent Strip */}
-      <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600" />
+      <div className={`absolute top-0 left-0 right-0 h-2 bg-gradient-to-r ${
+        activeCategory === 'full'
+          ? 'from-blue-600 via-indigo-600 to-purple-600'
+          : 'from-cyan-500 via-blue-600 to-indigo-600'
+      }`} />
 
-      {/* Header Info */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-        <div className="space-y-1.5">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 md:w-12 md:h-12 rounded-2xl bg-indigo-600 text-white flex items-center justify-center font-black shadow-md shadow-indigo-200 shrink-0">
-              <Trophy className="w-6 h-6" />
-            </div>
-            <div>
-              <h2 className="text-xl md:text-2xl font-black text-slate-900 dark:text-white tracking-tight">
-                <span className="hidden sm:inline">CS Full-Length CBT Mocks Hub</span>
-                <span className="sm:hidden">CS Full Mocks</span>
-              </h2>
-              <span className="text-xs font-bold text-indigo-600 dark:text-indigo-400">
-                200 Questions • 120 Minutes (2 Hours) • Part A + Part B Simulation
-              </span>
-            </div>
-          </div>
-          <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed max-w-2xl hidden md:block">
-            Strict DSSSB CBT exam condition simulation: Part A (100 Qs: GK, Reasoning, Maths, English, Hindi) + Part B Computer Science &amp; Pedagogy (100 Qs). Strict 120-minute countdown with negative marking (-0.25).
-          </p>
+      {/* Header with Category Tabs */}
+      <div className="space-y-4">
+        {/* Top Category Switcher */}
+        <div className="flex flex-wrap items-center gap-2 bg-slate-100 dark:bg-slate-800/80 p-1.5 rounded-2xl border border-slate-200/80 dark:border-slate-700/80 max-w-fit">
+          <button
+            onClick={() => {
+              setActiveCategory('full');
+              setCurrentPage(1);
+              setSearchQuery('');
+            }}
+            className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
+              activeCategory === 'full'
+                ? 'bg-indigo-600 text-white shadow-md shadow-indigo-200 dark:shadow-none'
+                : 'text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white'
+            }`}
+          >
+            <Trophy className="w-4 h-4" />
+            <span>Full Mocks (200 Qs)</span>
+            <span className={`text-[10px] px-2 py-0.5 rounded-full font-bold ${
+              activeCategory === 'full' ? 'bg-white/20 text-white' : 'bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300'
+            }`}>
+              {fullMocksList.length}
+            </span>
+          </button>
+
+          <button
+            onClick={() => {
+              setActiveCategory('cs_only');
+              setCurrentPage(1);
+              setSearchQuery('');
+            }}
+            className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
+              activeCategory === 'cs_only'
+                ? 'bg-blue-600 text-white shadow-md shadow-blue-200 dark:shadow-none'
+                : 'text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white'
+            }`}
+          >
+            <Cpu className="w-4 h-4" />
+            <span>CS only Mocks (100 Qs)</span>
+            <span className={`text-[10px] px-2 py-0.5 rounded-full font-bold ${
+              activeCategory === 'cs_only' ? 'bg-white/20 text-white' : 'bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300'
+            }`}>
+              {csOnlyMocksList.length}
+            </span>
+          </button>
         </div>
 
-        {/* Quick Stats */}
-        <div className="flex items-center gap-1.5 sm:gap-2 bg-indigo-50 dark:bg-indigo-950/40 border border-indigo-200/80 dark:border-indigo-800/60 p-1.5 sm:p-2 rounded-2xl shrink-0">
-          <div className="text-center px-2 sm:px-2.5 border-r border-indigo-200 dark:border-indigo-800">
-            <span className="text-[8px] sm:text-[9px] font-extrabold text-indigo-600 uppercase block">Total Mocks</span>
-            <span className="text-sm sm:text-base font-black text-indigo-950 dark:text-indigo-100">{csFullMocks.length}</span>
+        {/* Category Description & Stats Header */}
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pt-1">
+          <div className="space-y-1.5">
+            <div className="flex items-center gap-3">
+              <div className={`w-10 h-10 md:w-12 md:h-12 rounded-2xl text-white flex items-center justify-center font-black shadow-md shrink-0 ${
+                activeCategory === 'full'
+                  ? 'bg-indigo-600 shadow-indigo-200'
+                  : 'bg-blue-600 shadow-blue-200'
+              }`}>
+                {activeCategory === 'full' ? <Trophy className="w-6 h-6" /> : <Cpu className="w-6 h-6" />}
+              </div>
+              <div>
+                <h2 className="text-xl md:text-2xl font-black text-slate-900 dark:text-white tracking-tight">
+                  {activeCategory === 'full' ? (
+                    <>
+                      <span className="hidden sm:inline">Full-Length CBT Mocks (200 Marks)</span>
+                      <span className="sm:hidden">Full Mocks (200 Qs)</span>
+                    </>
+                  ) : (
+                    <>
+                      <span className="hidden sm:inline">CS Domain Only Mocks (100 Marks)</span>
+                      <span className="sm:hidden">CS only Mocks (100 Qs)</span>
+                    </>
+                  )}
+                </h2>
+                <span className={`text-xs font-bold ${
+                  activeCategory === 'full' ? 'text-indigo-600 dark:text-indigo-400' : 'text-blue-600 dark:text-blue-400'
+                }`}>
+                  {activeCategory === 'full'
+                    ? '200 Questions • 120 Minutes (2 Hours) • Part A + Part B Complete Simulation'
+                    : '100 Questions • 60 Minutes (1 Hour) • Computer Science Domain Specialization'}
+                </span>
+              </div>
+            </div>
+            <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed max-w-2xl hidden md:block">
+              {activeCategory === 'full'
+                ? 'Strict DSSSB CBT exam condition simulation: Part A (100 Qs: GK, Reasoning, Maths, English, Hindi) + Part B Computer Science & Pedagogy (100 Qs). Strict 120-minute countdown with negative marking (-0.25).'
+                : 'Pure Computer Science domain focus (Part B): OS, DBMS, Networks, Data Structures, Software Engineering, OOP & Web Tech. 100 questions with 60-minute countdown and -0.25 negative marking.'}
+            </p>
           </div>
-          <div className="text-center px-2 sm:px-2.5 border-r border-indigo-200 dark:border-indigo-800">
-            <span className="text-[8px] sm:text-[9px] font-extrabold text-emerald-600 uppercase block">Attempted</span>
-            <span className="text-sm sm:text-base font-black text-emerald-950 dark:text-emerald-100">{attemptedCount}</span>
-          </div>
-          <div className="text-center px-2 sm:px-2.5">
-            <span className="text-[8px] sm:text-[9px] font-extrabold text-indigo-700 dark:text-indigo-300 uppercase block">Unattempted</span>
-            <span className="text-sm sm:text-base font-black text-indigo-950 dark:text-indigo-100">{Math.max(0, csFullMocks.length - attemptedCount)}</span>
+
+          {/* Quick Stats */}
+          <div className="flex items-center gap-1.5 sm:gap-2 bg-slate-50 dark:bg-slate-800/60 border border-slate-200/80 dark:border-slate-700/80 p-1.5 sm:p-2 rounded-2xl shrink-0">
+            <div className="text-center px-2 sm:px-2.5 border-r border-slate-200 dark:border-slate-700">
+              <span className="text-[8px] sm:text-[9px] font-extrabold text-indigo-600 dark:text-indigo-400 uppercase block">Total Mocks</span>
+              <span className="text-sm sm:text-base font-black text-slate-900 dark:text-white">{activeCategoryList.length}</span>
+            </div>
+            <div className="text-center px-2 sm:px-2.5 border-r border-slate-200 dark:border-slate-700">
+              <span className="text-[8px] sm:text-[9px] font-extrabold text-emerald-600 uppercase block">Attempted</span>
+              <span className="text-sm sm:text-base font-black text-emerald-950 dark:text-emerald-100">{attemptedCount}</span>
+            </div>
+            <div className="text-center px-2 sm:px-2.5">
+              <span className="text-[8px] sm:text-[9px] font-extrabold text-slate-500 uppercase block">Unattempted</span>
+              <span className="text-sm sm:text-base font-black text-slate-900 dark:text-white">{Math.max(0, activeCategoryList.length - attemptedCount)}</span>
+            </div>
           </div>
         </div>
       </div>
@@ -143,7 +256,7 @@ export const CsFullMocksHub: React.FC<CsFullMocksHubProps> = ({
                 setSearchQuery(e.target.value);
                 setCurrentPage(1);
               }}
-              placeholder="Search Full CBT mocks (e.g. Mock Test 5)..."
+              placeholder={`Search ${activeCategory === 'full' ? 'Full CBT mocks (e.g. Mock Test 5)' : 'CS only mocks (e.g. CS Mock 1)'}...`}
               className="w-full pl-10 pr-8 py-2 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl text-xs font-bold text-slate-800 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500"
             />
             {searchQuery && (
@@ -200,11 +313,13 @@ export const CsFullMocksHub: React.FC<CsFullMocksHubProps> = ({
               const globalIdx = (currentPage - 1) * ITEMS_PER_PAGE + index;
               const attempt = pastAttempts.find(a => a.testId === quiz.testId);
               const isAttempted = !!attempt;
-              const unlocked = isMockUnlocked(quiz.testId, globalIdx, 'full');
+              const unlocked = isMockUnlocked(quiz.testId, globalIdx, activeCategory === 'full' ? 'full' : 'part_b');
               const isLocked = !unlocked;
-              const questionCount = getQuestionCount(quiz) || 200;
+              const questionCount = getQuestionCount(quiz) || (activeCategory === 'full' ? 200 : 100);
               const mockNumberLabel = getMockNumberLabel(quiz, globalIdx);
               const diffTag = getDifficultyTag(globalIdx);
+              const durationMinutes = activeCategory === 'full' ? 120 : 60;
+              const totalMarks = activeCategory === 'full' ? 200 : 100;
 
               return (
                 <div
@@ -227,7 +342,11 @@ export const CsFullMocksHub: React.FC<CsFullMocksHubProps> = ({
                   {/* Card Top Header */}
                   <div className="space-y-2">
                     <div className="flex items-center justify-between gap-2">
-                      <span className="bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 font-black text-[10px] px-2.5 py-0.5 rounded-md border border-indigo-200 dark:border-indigo-800 uppercase tracking-wider">
+                      <span className={`font-black text-[10px] px-2.5 py-0.5 rounded-md border uppercase tracking-wider ${
+                        activeCategory === 'full'
+                          ? 'bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 border-indigo-200 dark:border-indigo-800'
+                          : 'bg-blue-50 dark:bg-blue-950/60 text-blue-700 dark:text-blue-300 border-blue-200 dark:border-blue-800'
+                      }`}>
                         {mockNumberLabel}
                       </span>
 
@@ -266,10 +385,10 @@ export const CsFullMocksHub: React.FC<CsFullMocksHubProps> = ({
                       <Layers className="w-3 h-3 text-indigo-500" /> {questionCount} Qs
                     </span>
                     <span className="flex items-center gap-1 bg-slate-100 dark:bg-slate-800 px-2 py-0.5 rounded-md">
-                      <Clock className="w-3 h-3 text-indigo-500" /> 120 Mins (2h)
+                      <Clock className="w-3 h-3 text-indigo-500" /> {durationMinutes} Mins
                     </span>
                     <span className="flex items-center gap-1 bg-slate-100 dark:bg-slate-800 px-2 py-0.5 rounded-md">
-                      <ShieldCheck className="w-3 h-3 text-emerald-500" /> 200 Marks
+                      <ShieldCheck className="w-3 h-3 text-emerald-500" /> {totalMarks} Marks
                     </span>
                     <span className={`px-2 py-0.5 rounded-md text-[10px] font-black border ${diffTag.bg} ${diffTag.text} ${diffTag.border}`}>
                       {diffTag.label}
@@ -279,17 +398,19 @@ export const CsFullMocksHub: React.FC<CsFullMocksHubProps> = ({
                   {/* Action Button */}
                   <div className="pt-2 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
                     <span className="text-[10px] text-slate-400 font-semibold">
-                      Full CBT • 10 Sections
+                      {activeCategory === 'full' ? 'Full CBT • 10 Sections' : 'Part B • CS Domain Only'}
                     </span>
                     <button
                       type="button"
                       className={`text-xs font-black px-3.5 py-1.5 rounded-xl transition-all ${
                         isLocked
                           ? 'bg-amber-500 text-slate-950 hover:bg-amber-600 shadow-2xs'
-                          : 'bg-indigo-600 hover:bg-indigo-700 text-white shadow-2xs group-hover:scale-105'
+                          : activeCategory === 'full'
+                            ? 'bg-indigo-600 hover:bg-indigo-700 text-white shadow-2xs group-hover:scale-105'
+                            : 'bg-blue-600 hover:bg-blue-700 text-white shadow-2xs group-hover:scale-105'
                       }`}
                     >
-                      {isLocked ? 'Unlock Test' : isAttempted ? 'Re-attempt' : 'Start CBT Mock'}
+                      {isLocked ? 'Unlock Test' : isAttempted ? 'Re-attempt' : activeCategory === 'full' ? 'Start Full Mock' : 'Start CS Mock'}
                     </button>
                   </div>
                 </div>

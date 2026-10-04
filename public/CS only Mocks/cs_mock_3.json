@@ -1,0 +1,1516 @@
+{
+  "testId": "cs_only_mock_test_3_100",
+  "title": "CS Mock Test 3",
+  "subject": "CS Only Mock",
+  "topic": "Computer Science Domain (Part B)",
+  "category": "cs_mock",
+  "isCsOnly": true,
+  "totalTimeMinutes": 60,
+  "totalQuestions": 100,
+  "markingScheme": {
+    "correct": 1,
+    "negative": 0.25
+  },
+  "questions": [
+    {
+      "id": 1,
+      "section": "Part B - Computer Science",
+      "question": "Which of the following describes the difference between internal and external fragmentation in operating system memory management?",
+      "options": [
+        "Internal fragmentation occurs when allocated memory blocks contain unused space; external fragmentation occurs when total free space exists to satisfy an allocation request but is non-contiguous.",
+        "Internal fragmentation occurs only in virtual memory segmentation; external fragmentation occurs only in fixed-size paging.",
+        "Internal fragmentation can be completely eliminated using pure paging; external fragmentation cannot be solved by paging.",
+        "Internal fragmentation refers to cache misses; external fragmentation refers to translation lookaside buffer misses."
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Internal fragmentation arises when fixed partitions assign more memory than requested, leaving unused space inside the partition. External fragmentation occurs when free memory is broken into small, non-contiguous blocks scattered across the physical address space.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 2,
+      "section": "Part B - Computer Science",
+      "question": "What is the primary function of an inverted page table in modern 64-bit operating systems?",
+      "options": [
+        "To map each virtual page to multiple physical frames simultaneously",
+        "To maintain one entry for each real page of physical memory rather than one entry for each virtual page",
+        "To eliminate the requirement of a secondary storage swap partition",
+        "To replace the translation lookaside buffer completely"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "An inverted page table has one entry for each physical frame of memory. This drastically reduces the memory needed to track virtual-to-physical address mappings in large address spaces.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 3,
+      "section": "Part B - Computer Science",
+      "question": "In Unix/Linux, which command is specifically used to display the network routing table and active socket connections?",
+      "options": [
+        "netstat",
+        "traceroute",
+        "ping",
+        "chmod"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The 'netstat' (network statistics) command displays active TCP/UDP connections, routing tables, and interface statistics.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 4,
+      "section": "Part B - Computer Science",
+      "question": "Which scheduling algorithm is non-preemptive and selects the process with the smallest estimated run time, but suffers from potential starvation of longer jobs?",
+      "options": [
+        "Shortest Job First (SJF)",
+        "Round Robin (RR)",
+        "Shortest Remaining Time First (SRTF)",
+        "Multilevel Feedback Queue"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Non-preemptive Shortest Job First (SJF) selects the waiting job with the shortest execution burst. If short processes continuously arrive, longer processes experience starvation.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 5,
+      "section": "Part B - Computer Science",
+      "question": "Which of the following statements about thread execution within a single multithreaded process is FALSE?",
+      "options": [
+        "Threads of the same process share the heap memory space.",
+        "Threads of the same process share open file descriptors.",
+        "Each thread possesses its own independent program counter and stack.",
+        "Each thread possesses an isolated, dedicated address space."
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "Threads within the same process share the same text, data, heap, and operating system resources, but each maintains its own private stack, registers, and program counter.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 6,
+      "section": "Part B - Computer Science",
+      "question": "In a Linux file system, what does an 'inode' store?",
+      "options": [
+        "The file's name and its directory tree location",
+        "Metadata about the file such as ownership, permissions, size, and data block pointers",
+        "The actual binary executable payload exclusively",
+        "The user's encrypted system password"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "An inode stores all metadata about a file (file size, access rights, timestamps, device ID, block pointers) except for the file's name and directory location.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 7,
+      "section": "Part B - Computer Science",
+      "question": "What is the primary condition that characterizes the Banker's algorithm in operating systems?",
+      "options": [
+        "Deadlock detection in single-resource graphs",
+        "Deadlock avoidance by simulating resource allocation for safety",
+        "Dynamic priority elevation for CPU-bound tasks",
+        "Virtual page fault handling via optimal replacement"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The Banker's algorithm tests for safety by simulating the allocation of predetermined maximum possible amounts of all resources, avoiding deadlocks before resource requests are granted.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 8,
+      "section": "Part B - Computer Science",
+      "question": "What type of kernel design isolates essential OS services such as device drivers, virtual file systems, and network protocols in user space?",
+      "options": [
+        "Monolithic kernel",
+        "Microkernel",
+        "Layered kernel without protection",
+        "Exoskeleton kernel"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "A microkernel implements only the bare minimum mechanisms required (IPC, basic scheduling, low-level address space management) in kernel space, running drivers and servers in user space.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 9,
+      "section": "Part B - Computer Science",
+      "question": "Which of the following commands in Linux changes the owner and group of a file named 'data.csv' to 'student'?",
+      "options": [
+        "chown student:student data.csv",
+        "chmod 777 data.csv",
+        "chgrp student data.csv",
+        "touch student:student data.csv"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The 'chown' command changes file ownership; using the syntax 'chown user:group filename' updates both the user and group simultaneously.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 10,
+      "section": "Part B - Computer Science",
+      "question": "In memory management, what is 'thrashing'?",
+      "options": [
+        "The CPU spending more time swapping pages in and out than executing application instructions",
+        "A fatal hardware failure inside dynamic RAM chips",
+        "Continuous preemption of low-priority threads by high-priority interrupts",
+        "Corrupted sector allocation in secondary disk partitions"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Thrashing occurs when an operating system spends a significant amount of its time moving pages between physical memory and swap space, dropping CPU utilization to near zero.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 11,
+      "section": "Part B - Computer Science",
+      "question": "In relational algebra, which fundamental operation produces all combinations of tuples from two relations?",
+      "options": [
+        "Cartesian Product (×)",
+        "Intersection (∩)",
+        "Projection (Π)",
+        "Selection (σ)"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The Cartesian product (or cross product) of relations R and S combines each tuple of R with every tuple of S, creating a relation with degree deg(R) + deg(S) and cardinality card(R) × card(S).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 12,
+      "section": "Part B - Computer Science",
+      "question": "Given a relation R(W, X, Y, Z) with functional dependencies {W -> X, X -> Y, Y -> Z}. What is the canonical minimum key for R?",
+      "options": [
+        "W",
+        "X",
+        "Y",
+        "Z"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Computing the attribute closure: W⁺ = {W, X, Y, Z}. Since W derives all attributes and no other subset can derive W, W is the single candidate key.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 13,
+      "section": "Part B - Computer Science",
+      "question": "Which of the following statements about Boyce-Codd Normal Form (BCNF) and Third Normal Form (3NF) is TRUE?",
+      "options": [
+        "Every relation in BCNF is guaranteed to be in 3NF.",
+        "Every relation in 3NF is guaranteed to be in BCNF.",
+        "BCNF always preserves functional dependencies during decomposition.",
+        "3NF does not permit non-trivial dependencies where the determinant is a superkey."
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "BCNF is a stricter form of 3NF. Thus, any relation satisfying BCNF inherently satisfies 3NF, although BCNF decompositions do not always preserve functional dependencies.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 14,
+      "section": "Part B - Computer Science",
+      "question": "Which concurrency control schedule property guarantees that if transaction T_j reads a value written by transaction T_i, T_i commits before T_j reads that value?",
+      "options": [
+        "Strict schedule",
+        "Cascadeless schedule",
+        "Recoverable schedule",
+        "Serial schedule"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "A schedule is strict if a transaction cannot read or write an item until the previous transaction that wrote to it has committed or aborted.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 15,
+      "section": "Part B - Computer Science",
+      "question": "In SQL, what is the effect of executing: SELECT COUNT(*) FROM Student WHERE marks = NULL;",
+      "options": [
+        "It returns the count of students whose marks are 0.",
+        "It returns 0 because comparison with NULL using '=' always evaluates to UNKNOWN.",
+        "It generates a syntax compilation error.",
+        "It returns the total number of students whose marks have not been entered."
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "In three-valued SQL logic, evaluating 'marks = NULL' yields UNKNOWN rather than TRUE. Thus, no rows satisfy the WHERE clause, and COUNT(*) outputs 0. The correct syntax is 'IS NULL'.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 16,
+      "section": "Part B - Computer Science",
+      "question": "Which SQL construct allows executing a query that references columns from the outer query for each processed row?",
+      "options": [
+        "Correlated subquery",
+        "Cross join",
+        "Scalar function",
+        "Static CTE"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "A correlated subquery references columns from the surrounding outer query and is evaluated once for each row processed by the outer query.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 17,
+      "section": "Part B - Computer Science",
+      "question": "In an Entity-Relationship (ER) model, an entity set that does not possess sufficient attributes to form a primary key on its own is called a:",
+      "options": [
+        "Weak entity set",
+        "Strong entity set",
+        "Recursive entity set",
+        "Composite entity set"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "A weak entity set lacks a primary key of its own and depends on an identifying relationship with an owner entity set along with a discriminator (partial key).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 18,
+      "section": "Part B - Computer Science",
+      "question": "Which statement about write-ahead logging (WAL) in database recovery is correct?",
+      "options": [
+        "Log records are written to disk after the actual database pages are modified on disk.",
+        "Log records detailing a change must be flushed to non-volatile storage before the corresponding data page is written to disk.",
+        "Log records are kept purely in RAM and discarded on commit.",
+        "Data pages are never written to disk until system shutdown."
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "WAL protocol requires that log records describing an update must be flushed to stable storage before the modified buffer data is written to disk, ensuring atomicity and durability.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 19,
+      "section": "Part B - Computer Science",
+      "question": "Which command in SQL provides a user or role with specific privileges on a database object?",
+      "options": [
+        "GRANT",
+        "REVOKE",
+        "COMMIT",
+        "ASSIGN"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The GRANT statement is a Data Control Language (DCL) command used to assign read, write, or administrative permissions to users.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 20,
+      "section": "Part B - Computer Science",
+      "question": "In a B-tree of order m (where m is the maximum number of children a node can have), every internal node except the root must have at least how many children?",
+      "options": [
+        "ceil(m/2)",
+        "floor(m/2)",
+        "m - 1",
+        "2"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "By definition, in a B-tree of order m, every non-root internal node must contain at least ⌈m/2⌉ children to maintain balance.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 21,
+      "section": "Part B - Computer Science",
+      "question": "What is the result of converting the infix expression 'A + B * C - D' to postfix notation?",
+      "options": [
+        "A B C * + D -",
+        "A B + C * D -",
+        "A B C + * D -",
+        "+ A * B C - D"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Operator precedence: * has higher precedence than + and -. 'B * C' becomes 'B C *'. Then 'A + (B C *)' becomes 'A B C * +'. Finally, subtracting D yields 'A B C * + D -'.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 22,
+      "section": "Part B - Computer Science",
+      "question": "In a double-ended queue (deque), which operations are permitted?",
+      "options": [
+        "Insertions and deletions at both the front and rear ends",
+        "Insertions at the rear and deletions only at the front",
+        "Insertions and deletions restricted to the front end only",
+        "Random access insertions anywhere without traversal"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "A deque (double-ended queue) is a generalized queue that allows adding and removing elements from either the front or the back.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 23,
+      "section": "Part B - Computer Science",
+      "question": "What is the time complexity of finding the maximum element in a min-heap containing n elements?",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n log n)"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "In a min-heap, the minimum element is at the root. The maximum element must reside in one of the leaf nodes, which constitute approximately ⌈n/2⌉ nodes. Finding it requires a linear scan over all leaves, which takes O(n) time.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 24,
+      "section": "Part B - Computer Science",
+      "question": "A complete binary tree has 15 nodes. How many leaf nodes does it contain?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "For any binary tree with n nodes, the number of leaf nodes L in a full/complete tree with n=15 is ⌈n/2⌉ = ⌈15/2⌉ = 8.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 25,
+      "section": "Part B - Computer Science",
+      "question": "In a red-black tree, what is the maximum possible height of a tree with n internal nodes?",
+      "options": [
+        "2 * log2(n + 1)",
+        "log2(n)",
+        "n",
+        "sqrt(n)"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Due to the red-black invariant that no red node can have a red child, the longest path from the root to a leaf cannot be more than twice the shortest path. This bounds the maximum height to 2 * log₂(n + 1).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 26,
+      "section": "Part B - Computer Science",
+      "question": "What is the worst-case time complexity of searching for an element in an open-addressing hash table that uses linear probing?",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n log n)"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "When heavy clustering occurs or all keys collide at the same hash address, the algorithm degenerates into scanning all occupied slots, taking O(n) time.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 27,
+      "section": "Part B - Computer Science",
+      "question": "Which of the following algorithm paradigms is utilized by the 0/1 Knapsack problem to find an optimal solution in pseudo-polynomial time?",
+      "options": [
+        "Greedy approach",
+        "Dynamic Programming",
+        "Divide and Conquer",
+        "Randomized probing"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The 0/1 Knapsack problem exhibits overlapping subproblems and optimal substructure, making it solvable using dynamic programming in O(nW) time.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 28,
+      "section": "Part B - Computer Science",
+      "question": "What is the time complexity of Prim's algorithm for finding a Minimum Spanning Tree of a graph with V vertices and E edges using a binary heap?",
+      "options": [
+        "O(V^2)",
+        "O(E log V)",
+        "O(V + E)",
+        "O(E^2)"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Using an adjacency list representation and a binary heap (priority queue), Prim's algorithm runs in O((V + E) log V) = O(E log V) for connected graphs.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 29,
+      "section": "Part B - Computer Science",
+      "question": "What is the recurrence relation for the Tower of Hanoi puzzle with n disks?",
+      "options": [
+        "T(n) = 2T(n - 1) + 1",
+        "T(n) = T(n - 1) + n",
+        "T(n) = 2T(n/2) + 1",
+        "T(n) = T(n/2) + n"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Moving n disks requires moving n - 1 disks to an auxiliary peg, moving the largest disk to the destination, and then moving the n - 1 disks onto the destination, yielding T(n) = 2T(n - 1) + 1.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 30,
+      "section": "Part B - Computer Science",
+      "question": "Which sorting algorithm makes at most O(n) element writes/swaps in the worst case, making it useful when write cycles to memory are costly?",
+      "options": [
+        "Cycle Sort",
+        "Bubble Sort",
+        "Merge Sort",
+        "Quick Sort"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Cycle Sort is an in-place, unstable sorting algorithm based on cycle decomposition that minimizes the total number of memory writes to at most n - 1 in the optimal case.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 31,
+      "section": "Part B - Computer Science",
+      "question": "In the IP header, what field prevents packets from circulating indefinitely inside a routing loop?",
+      "options": [
+        "Time to Live (TTL)",
+        "Header Checksum",
+        "Type of Service (ToS)",
+        "Identification"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The Time to Live (TTL) field is decremented by each router that handles the packet. When the field reaches zero, the packet is discarded and an ICMP Time Exceeded message is sent.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 32,
+      "section": "Part B - Computer Science",
+      "question": "Which routing protocol uses the Bellman-Ford algorithm and limits the maximum hop count to 15 to prevent count-to-infinity problems?",
+      "options": [
+        "OSPF",
+        "BGP",
+        "RIP (Routing Information Protocol)",
+        "IS-IS"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "RIP is a distance-vector routing protocol based on the Bellman-Ford algorithm that treats a metric of 16 hops as infinity (unreachable).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 33,
+      "section": "Part B - Computer Science",
+      "question": "What is the primary operational difference between Go-Back-N and Selective Repeat ARQ sliding window protocols?",
+      "options": [
+        "Go-Back-N retransmits only corrupted frames, while Selective Repeat retransmits all subsequent frames.",
+        "Selective Repeat maintains a receiver window greater than 1 and retransmits only frames that were negatively acknowledged or lost.",
+        "Go-Back-N requires the sender window size to be 1.",
+        "Selective Repeat does not require timers for acknowledgments."
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "In Selective Repeat, the receiver accepts frames out of order within its window, acknowledging each individually. The sender only retransmits frames that were lost or damaged.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 34,
+      "section": "Part B - Computer Science",
+      "question": "What is the well-known TCP port number assigned to the Secure Sockets Layer / Transport Layer Security (HTTPS) protocol?",
+      "options": [
+        "80",
+        "443",
+        "8080",
+        "22"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "HTTPS traffic is encrypted via TLS/SSL and communicates over standard TCP port 443.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 35,
+      "section": "Part B - Computer Science",
+      "question": "Which multiple access protocol uses Carrier Sense Multiple Access with Collision Avoidance (CSMA/CA) as its medium access control mechanism?",
+      "options": [
+        "IEEE 802.3 (Ethernet)",
+        "IEEE 802.11 (Wi-Fi)",
+        "IEEE 802.5 (Token Ring)",
+        "FDDI"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Wireless networks (IEEE 802.11) use CSMA/CA because radio transceivers cannot reliably detect collisions while transmitting on the same frequency band.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 36,
+      "section": "Part B - Computer Science",
+      "question": "What is the primary function of the Network Address Translation (NAT) protocol?",
+      "options": [
+        "To map private non-routable IP addresses to one or more publicly registered IP addresses",
+        "To distribute root DNS mappings to client web browsers",
+        "To verify SSL digital certificates for secure web servers",
+        "To resolve MAC hardware addresses into IP addresses"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "NAT maps local private IPv4 addresses (RFC 1918) to public addresses, allowing multiple devices on an internal network to share a single public IP.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 37,
+      "section": "Part B - Computer Science",
+      "question": "Which of the following multiplexing techniques divides the frequency spectrum into multiple smaller, orthogonal sub-carriers to transmit high-speed data without interference?",
+      "options": [
+        "FDM",
+        "TDM",
+        "OFDM",
+        "WDM"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "Orthogonal Frequency Division Multiplexing (OFDM) divides a wideband channel into tightly spaced, mathematically orthogonal subcarriers to improve spectral efficiency.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 38,
+      "section": "Part B - Computer Science",
+      "question": "In standard IPv4 header architecture, what is the maximum possible size of the header if all 40 bytes of optional parameters are populated?",
+      "options": [
+        "20 bytes",
+        "40 bytes",
+        "60 bytes",
+        "64 bytes"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "The base IPv4 header is 20 bytes. The 4-bit Internet Header Length (IHL) field can encode up to 15 32-bit words (15 × 4 = 60 bytes). Therefore, the maximum header size is 60 bytes.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 39,
+      "section": "Part B - Computer Science",
+      "question": "Which of the following devices operates at Layer 3 of the OSI model and maintains routing tables to forward packets across distinct subnets?",
+      "options": [
+        "Router",
+        "Repeater",
+        "Hub",
+        "Layer 2 Switch"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Routers operate at the Network Layer (Layer 3), parsing logical IP addresses and using routing algorithms to direct packets between networks.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 40,
+      "section": "Part B - Computer Science",
+      "question": "Which transport layer congestion control algorithm uses additive increase and multiplicative decrease (AIMD) to adjust the sender's congestion window?",
+      "options": [
+        "TCP Reno/Tahoe",
+        "UDP Datagram Transport",
+        "ICMP Router Discovery",
+        "BGP Route Aggregator"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "TCP congestion control uses AIMD: the congestion window grows linearly during congestion avoidance until packet loss occurs, at which point it is reduced multiplicatively.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 41,
+      "section": "Part B - Computer Science",
+      "question": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n    int a[] = {10, 20, 30, 40};\n    int *p = a;\n    printf(\"%d, %d\", *p++, (*p)++);\n    return 0;\n}",
+      "options": [
+        "Compiler dependent / Undefined behavior",
+        "10, 20",
+        "20, 20",
+        "10, 10"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Function argument evaluation order is un-specified in C, and modifying 'p' and dereferencing it in the same expression without a sequence point results in undefined behavior.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 42,
+      "section": "Part B - Computer Science",
+      "question": "Which standard library function in C reallocates dynamic memory without preserving the previously allocated contents if the block is moved elsewhere?",
+      "options": [
+        "calloc()",
+        "malloc()",
+        "realloc()",
+        "free()"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "realloc() changes the size of an existing allocated memory block, moving data to a new location if necessary, though it does not initialize newly expanded bytes.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 43,
+      "section": "Part B - Computer Science",
+      "question": "What does the 'extern' storage class specifier signify when applied to a variable in C?",
+      "options": [
+        "The variable is local to the current scope and placed in a CPU register.",
+        "The variable is declared without allocating memory, indicating it is defined in another translation unit.",
+        "The variable cannot be read outside its defining block.",
+        "The variable is initialized automatically to -1."
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The 'extern' keyword tells the compiler that a variable exists and has been defined elsewhere, allowing multiple files to reference the same global variable without allocating duplicate memory.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 44,
+      "section": "Part B - Computer Science",
+      "question": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n    int x = 5;\n    if (x == 5)\n        printf(\"Yes \");\n    else\n        printf(\"No \");\n    printf(\"End\");\n    return 0;\n}",
+      "options": [
+        "Yes End",
+        "Yes",
+        "No End",
+        "End"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The condition (x == 5) evaluates to true, printing 'Yes '. The execution then proceeds sequentially to print 'End', resulting in 'Yes End'.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 45,
+      "section": "Part B - Computer Science",
+      "question": "In C++, which type of inheritance can lead to the 'Diamond Problem', requiring virtual base classes to resolve ambiguity?",
+      "options": [
+        "Single inheritance",
+        "Multiple inheritance",
+        "Multilevel inheritance",
+        "Hierarchical inheritance"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The diamond problem occurs under multiple inheritance when a class inherits from two classes that both derive from the same common base class, creating ambiguity unless the base class is declared virtual.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 46,
+      "section": "Part B - Computer Science",
+      "question": "What happens if a programmer does not define a copy constructor in a C++ class that manages dynamic memory using raw pointers?",
+      "options": [
+        "The compiler automatically frees heap allocations upon copying.",
+        "The compiler provides a default copy constructor that performs a shallow copy, which can cause double-free errors.",
+        "The program will fail to compile with a syntax error.",
+        "The memory addresses are automatically cloned deep into heap space."
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The default synthesized copy constructor performs a member-wise shallow copy. If pointers to dynamic memory are copied this way, multiple instances will point to the same memory, causing double-free issues when destructors run.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 47,
+      "section": "Part B - Computer Science",
+      "question": "In C++, which keyword is used to explicitly prevent a virtual member function from being overridden in derived classes?",
+      "options": [
+        "override",
+        "final",
+        "sealed",
+        "static"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The 'final' specifier in C++11 marks a virtual function so that it cannot be overridden by any further derived classes.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 48,
+      "section": "Part B - Computer Science",
+      "question": "In Java, what is the default value assigned to an uninitialized instance variable of type boolean?",
+      "options": [
+        "true",
+        "false",
+        "null",
+        "0"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "In Java, instance variables of type boolean are initialized to a default value of 'false'.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 49,
+      "section": "Part B - Computer Science",
+      "question": "Which of the following statements about Java interfaces (Java 8 and later) is TRUE?",
+      "options": [
+        "Interfaces can contain constructors.",
+        "Interfaces can contain default methods with concrete implementations.",
+        "Interfaces can inherit from abstract classes.",
+        "Interfaces allow non-final, mutable instance variables."
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Starting in Java 8, interfaces can define default and static methods with concrete bodies using the 'default' keyword.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 50,
+      "section": "Part B - Computer Science",
+      "question": "What is the output of the following Python expression: print(type({1: 'a', 2: 'b'}))?",
+      "options": [
+        "<class 'set'>",
+        "<class 'dict'>",
+        "<class 'map'>",
+        "<class 'tuple'>"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Key-value pairs enclosed in curly braces define an instance of Python's built-in dictionary type (<class 'dict'>).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 51,
+      "section": "Part B - Computer Science",
+      "question": "What is the purpose of the '**init**' method in a Python class?",
+      "options": [
+        "It acts as a destructor that deletes instances from memory.",
+        "It serves as the constructor method that initializes newly created object instances.",
+        "It imports external Python packages at runtime.",
+        "It compiles source code into Python bytecode."
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The '**init**' method is the instance constructor in Python; it is automatically called when a new object is instantiated from a class.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 52,
+      "section": "Part B - Computer Science",
+      "question": "In CSS, which display value removes an element from the normal document layout entirely, as if it did not exist in the DOM?",
+      "options": [
+        "visibility: hidden;",
+        "display: none;",
+        "opacity: 0;",
+        "display: inline-block;"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "'display: none;' removes the element completely from the document flow. In contrast, 'visibility: hidden;' hides the element but preserves the space it occupies.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 53,
+      "section": "Part B - Computer Science",
+      "question": "In JavaScript, which method is used to attach an event handler function to a DOM element without overriding existing handlers?",
+      "options": [
+        "attachEvent()",
+        "addEventListener()",
+        "registerListener()",
+        "bindEvent()"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The standard DOM method 'addEventListener()' attaches event listener callbacks to an element without overwriting existing listeners.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 54,
+      "section": "Part B - Computer Science",
+      "question": "What does JSON stand for in web data exchange formats?",
+      "options": [
+        "Java Structured Object Notation",
+        "JavaScript Object Notation",
+        "Java Server Object Network",
+        "JavaScript Online Network"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "JSON stands for JavaScript Object Notation, a lightweight, text-based data interchange format based on a subset of JavaScript.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 55,
+      "section": "Part B - Computer Science",
+      "question": "Which of the following HTTP status codes indicates that the requested resource could not be found on the server?",
+      "options": [
+        "200 OK",
+        "301 Moved Permanently",
+        "404 Not Found",
+        "500 Internal Server Error"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "HTTP 404 Not Found indicates that the server cannot locate the requested URL resource.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 56,
+      "section": "Part B - Computer Science",
+      "question": "In software design metrics, which type of coupling occurs when one module modifies or directly depends on the internal data of another module?",
+      "options": [
+        "Data coupling",
+        "Control coupling",
+        "Content coupling",
+        "Stamp coupling"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "Content coupling (the worst form of coupling) happens when one module relies on or directly modifies the internal implementation, state, or private data of another module.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 57,
+      "section": "Part B - Computer Science",
+      "question": "What is the primary objective of boundary value analysis in software testing?",
+      "options": [
+        "To test inputs specifically at the extreme boundaries and edges of equivalence partitions",
+        "To inspect the system's database normalization state",
+        "To analyze the compiler's abstract syntax tree structure",
+        "To check compatibility with different operating systems"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Boundary Value Analysis (BVA) is a black-box testing technique that targets boundary values, where errors are most frequently found.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 58,
+      "section": "Part B - Computer Science",
+      "question": "In the Spiral Model of software development, what unique activity is performed during each cycle of the spiral?",
+      "options": [
+        "Hardware replacement",
+        "Comprehensive risk analysis",
+        "Immediate full software deployment",
+        "Static manual code refactoring"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Barry Boehm's Spiral Model is risk-driven, incorporating explicit risk assessment and management steps into each development iteration.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 59,
+      "section": "Part B - Computer Science",
+      "question": "What is the primary role of a 'stub' in top-down integration testing?",
+      "options": [
+        "A dummy module that simulates the behavior of a lower-level module called by the module under test",
+        "A driver module that passes test inputs to a higher-level module",
+        "An automated compiler verification script",
+        "A database profiling tool"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "In top-down integration testing, stubs simulate missing lower-level modules called by the higher-level components being tested.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 60,
+      "section": "Part B - Computer Science",
+      "question": "Which software maintenance activity focuses on updating a system to keep it operational in a changed environment (e.g., a new OS or database version)?",
+      "options": [
+        "Corrective maintenance",
+        "Adaptive maintenance",
+        "Perfective maintenance",
+        "Preventive maintenance"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Adaptive maintenance modifies software to ensure it remains compatible with changes in its operational environment, such as new OS releases or hardware platforms.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 61,
+      "section": "Part B - Computer Science",
+      "question": "What is the minimum number of 2-input NOR gates required to implement a 2-input AND gate?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Using De Morgan's laws: A AND B = ((A)' NOR (B)')'. Implementing this requires inverting A using 1 NOR gate, inverting B using 1 NOR gate, and feeding both into a 3rd NOR gate. Total = 3 NOR gates.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 62,
+      "section": "Part B - Computer Science",
+      "question": "In a Karnaugh Map (K-map), why are adjacent cells ordered using Gray code sequence?",
+      "options": [
+        "To simplify floating-point arithmetic",
+        "To ensure that adjacent cells differ by only a single binary variable",
+        "To double the number of minterms in each group",
+        "To convert maxterms into equivalent POS forms"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Gray code ensures that horizontally and vertically adjacent cells differ by only one variable, allowing algebraic simplification (A + A' = 1) when grouping minterms.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 63,
+      "section": "Part B - Computer Science",
+      "question": "What are the inputs J and K set to in a JK flip-flop to cause the output Q to toggle on every clock pulse?",
+      "options": [
+        "J = 0, K = 0",
+        "J = 0, K = 1",
+        "J = 1, K = 0",
+        "J = 1, K = 1"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "When both J and K are set to logic HIGH (1), a JK flip-flop enters its toggle state, flipping output Q on each active clock edge.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 64,
+      "section": "Part B - Computer Science",
+      "question": "Which combinational logic circuit converts an n-bit binary code into an equivalent representation where only one bit changes between consecutive values?",
+      "options": [
+        "Binary to Gray code converter",
+        "Priority Encoder",
+        "Full Subtractor",
+        "Magnitude Comparator"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "A binary-to-Gray code converter transforms standard binary numbers into Gray code, where successive values differ by only one bit.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 65,
+      "section": "Part B - Computer Science",
+      "question": "How many select lines are required for a demultiplexer (DEMUX) with 1 input and 32 outputs?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "A 1-to-2^n demultiplexer requires n select lines. Since 32 = 2^5, exactly 5 select lines are needed.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 66,
+      "section": "Part B - Computer Science",
+      "question": "What is the 1's complement of the binary number (10110010)₂?",
+      "options": [
+        "01001101",
+        "01001110",
+        "10110011",
+        "01001100"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The 1's complement is formed by inverting every bit: 1 becomes 0 and 0 becomes 1. Inverting 10110010 yields 01001101.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 67,
+      "section": "Part B - Computer Science",
+      "question": "What is the decimal equivalent of the hexadecimal number (7E)₁₆?",
+      "options": [
+        "124",
+        "126",
+        "128",
+        "130"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "$(7E)_{16} = (7 \times 16^1) + (14 \times 16^0) = 112 + 14 = 126$.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 68,
+      "section": "Part B - Computer Science",
+      "question": "In computer architecture, what technique overlaps the execution of multiple instructions across different stages to improve CPU throughput?",
+      "options": [
+        "Instruction Pipelining",
+        "Dynamic Address Binding",
+        "Memory Swapping",
+        "Direct Memory Access"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Instruction pipelining divides instruction processing into discrete stages (Fetch, Decode, Execute, Memory, Write-back), allowing multiple instructions to be processed concurrently.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 69,
+      "section": "Part B - Computer Science",
+      "question": "In the 8085 microprocessor, which pin is used by an external device to request direct access to the system buses, allowing Direct Memory Access (DMA)?",
+      "options": [
+        "HOLD",
+        "HLDA",
+        "READY",
+        "RESET IN"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "An external controller asserts the HOLD pin to request control of the address and data buses for DMA transfers. The CPU acknowledges by asserting HLDA.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 70,
+      "section": "Part B - Computer Science",
+      "question": "What is the primary difference between Static RAM (SRAM) and Dynamic RAM (DRAM)?",
+      "options": [
+        "SRAM uses capacitors and requires periodic refreshing; DRAM uses flip-flops.",
+        "SRAM is constructed from bistable flip-flops and does not require refreshing; DRAM stores charges in capacitors and requires periodic refresh cycles.",
+        "DRAM is faster than SRAM and is commonly used for CPU caches.",
+        "SRAM is non-volatile; DRAM is completely non-volatile."
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "SRAM uses 4-6 transistors per cell configured as a flip-flop, offering faster access without refresh cycles. DRAM stores data as charges on capacitors, requiring periodic refreshing as charge leaks.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 71,
+      "section": "Part B - Computer Science",
+      "question": "What is the function of the Program Status Word (PSW) register in microprocessor architecture?",
+      "options": [
+        "It holds the accumulator contents along with various condition status flags.",
+        "It tracks peripheral interrupt counters.",
+        "It stores the BIOS bootstrap address.",
+        "It contains target jump instructions for subroutine calls."
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "In architectures like the 8085, the Program Status Word (PSW) refers to the 16-bit combination of the 8-bit Accumulator and the 8-bit Flag register.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 72,
+      "section": "Part B - Computer Science",
+      "question": "In cache memory design, a cache mapping scheme where any block from main memory can be placed into any cache line is known as:",
+      "options": [
+        "Direct Mapping",
+        "Fully Associative Mapping",
+        "Set-Associative Mapping",
+        "Indexed Block Mapping"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "In fully associative cache mapping, any memory block can be loaded into any available cache line, which eliminates conflict misses but requires associative tag search hardware.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 73,
+      "section": "Part B - Computer Science",
+      "question": "Which of the following is a security vulnerability where an attacker injects malicious SQL statements into entry fields to manipulate backend database queries?",
+      "options": [
+        "SQL Injection (SQLi)",
+        "Cross-Site Scripting (XSS)",
+        "Buffer Overflow",
+        "Distributed Denial of Service (DDoS)"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "SQL Injection occurs when untrusted user input is concatenated directly into SQL queries, allowing attackers to execute unauthorized commands on the database.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 74,
+      "section": "Part B - Computer Science",
+      "question": "What is the primary role of a digital signature in secure electronic communications?",
+      "options": [
+        "To guarantee confidentiality by hiding message length",
+        "To provide message authentication, non-repudiation, and verify data integrity",
+        "To compress network packets before transmission",
+        "To prevent denial-of-service floods"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Digital signatures use asymmetric cryptography to confirm the sender's identity (authenticity), ensure the message has not been altered (integrity), and prevent the sender from denying transmission (non-repudiation).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 75,
+      "section": "Part B - Computer Science",
+      "question": "Which social engineering attack uses deceptive emails or fraudulent websites mimicking trusted organizations to trick individuals into revealing sensitive credentials?",
+      "options": [
+        "Phishing",
+        "Eavesdropping",
+        "Trojan Horse",
+        "DNS Spoofing"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Phishing attacks use deceptive communications disguised as legitimate entities to trick victims into providing sensitive information like passwords or credit card numbers.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 76,
+      "section": "Part B - Computer Science",
+      "question": "In network security, which protocol establishes an encrypted tunnel over an insecure public network to allow secure communication between private networks?",
+      "options": [
+        "Virtual Private Network (VPN)",
+        "Dynamic Host Configuration Protocol (DHCP)",
+        "Simple Network Management Protocol (SNMP)",
+        "Network News Transfer Protocol (NNTP)"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "A Virtual Private Network (VPN) encrypts internet traffic and creates a secure, tunneled connection between a user's device and a private network.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 77,
+      "section": "Part B - Computer Science",
+      "question": "Which class of grammars in the Chomsky hierarchy describes languages that can be parsed by linear bounded automata?",
+      "options": [
+        "Type-0 (Recursively Enumerable)",
+        "Type-1 (Context-Sensitive)",
+        "Type-2 (Context-Free)",
+        "Type-3 (Regular)"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Type-1 context-sensitive grammars generate context-sensitive languages, which are recognized by linear-bounded non-deterministic Turing machines.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 78,
+      "section": "Part B - Computer Science",
+      "question": "What is the Halting Problem, originally formulated by Alan Turing?",
+      "options": [
+        "Determining if an algorithm will run within O(n log n) steps",
+        "The undecidable problem of determining whether an arbitrary computer program will finish running or run forever",
+        "Resolving race conditions in preemptive operating system kernels",
+        "Validating binary search tree balances"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The Halting Problem is a classic undecidable problem in computability theory; Alan Turing proved that no general algorithm can determine whether any arbitrary program will halt or loop indefinitely.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 79,
+      "section": "Part B - Computer Science",
+      "question": "In compiler design, what is 'peephole optimization'?",
+      "options": [
+        "A local optimization technique that examines a short sequence of target machine instructions and replaces them with faster or shorter equivalents",
+        "Global loop invariant code hoisting performed across whole functions",
+        "Parsing tokens during initial syntax tree construction",
+        "Removing unreachable dead code during preprocessing"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Peephole optimization is a local code-generation technique that inspects a sliding window (peephole) of target instructions to eliminate redundant operations, simplify arithmetic, or replace slow instructions.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 80,
+      "section": "Part B - Computer Science",
+      "question": "In computer graphics, which polygon clipping algorithm uses a divide-and-conquer strategy to clip polygons against four boundary clipping edges in sequence?",
+      "options": [
+        "Sutherland-Hodgman Algorithm",
+        "Bresenham Algorithm",
+        "Midpoint Circle Algorithm",
+        "Flood Fill Algorithm"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The Sutherland-Hodgman algorithm clips a polygon against each window edge (left, right, bottom, top) in turn, passing the output vertices to the next clipping stage.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 81,
+      "section": "Part B - Computer Science",
+      "question": "In spreadsheet applications (such as MS Excel), what formula error code is displayed when a number is divided by zero?",
+      "options": [
+        "#VALUE!",
+        "#DIV/0!",
+        "#REF!",
+        "#NAME?"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The #DIV/0! error appears in spreadsheets when a formula attempts to divide a value by zero or an empty cell.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 82,
+      "section": "Part B - Computer Science",
+      "question": "Which keyboard shortcut is commonly used across Windows applications to open the 'Find and Replace' dialog box?",
+      "options": [
+        "Ctrl + F",
+        "Ctrl + H",
+        "Ctrl + K",
+        "Ctrl + P"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "While Ctrl + F opens the search (Find) box, Ctrl + H is the standard shortcut to open Find and Replace across most office suites and text editors.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 83,
+      "section": "Part B - Computer Science",
+      "question": "Which of the following computer buses is used internally to carry clock, interrupt, and status signals across the computer motherboard?",
+      "options": [
+        "Data Bus",
+        "Address Bus",
+        "Control Bus",
+        "Power Rail"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "The control bus carries operational and timing signals (such as read/write strobes, interrupt requests, and clock ticks) between the CPU and other devices.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 84,
+      "section": "Part B - Computer Science",
+      "question": "What does ASCII stand for in computer character encoding standards?",
+      "options": [
+        "American Standard Code for Information Interchange",
+        "Advanced Standard Communication for Internet Interface",
+        "American Scientific Code for Integer Integration",
+        "Asynchronous Standard Code for Internal Instruction"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "ASCII stands for the American Standard Code for Information Interchange, a 7-bit character encoding system that represents 128 specified characters.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 85,
+      "section": "Part B - Computer Science",
+      "question": "Which of the following units of data storage is the largest?",
+      "options": [
+        "Terabyte (TB)",
+        "Petabyte (PB)",
+        "Gigabyte (GB)",
+        "Exabyte (EB)"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "Storage hierarchy: Gigabyte (10^9) < Terabyte (10^12) < Petabyte (10^15) < Exabyte (10^18). Among the choices, Exabyte is the largest.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 86,
+      "section": "Part B - Computer Science",
+      "question": "In a relational database, what does a UNIQUE constraint enforce on a column?",
+      "options": [
+        "All values in the column must be distinct, though null values may be permitted depending on the DBMS.",
+        "The column cannot accept null values under any condition.",
+        "The column automatically becomes foreign key to an external relation.",
+        "Values are constrained to positive integers only."
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The UNIQUE constraint ensures all non-null values in a column are distinct, preventing duplicate entries while allowing NULLs according to SQL standards.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 87,
+      "section": "Part B - Computer Science",
+      "question": "Which SQL statement is used to remove an existing database table and all its structural metadata permanently from the schema?",
+      "options": [
+        "DELETE TABLE",
+        "DROP TABLE",
+        "REMOVE TABLE",
+        "CLEAR TABLE"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "DROP TABLE is a DDL command that permanently deletes a table's schema, constraints, indexes, and all stored data from the database.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 88,
+      "section": "Part B - Computer Science",
+      "question": "In database transaction management, what does the 'Atomicity' property ensure?",
+      "options": [
+        "Either all operations of a transaction execute to completion, or none of them do (all-or-nothing).",
+        "The database always remains in a normalized state.",
+        "Concurrent transactions cannot access the same table.",
+        "Transaction data is written directly to read-only optical discs."
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Atomicity requires that a transaction executes as an indivisible unit: either all of its operations succeed and are applied, or the database is rolled back to its initial state.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 89,
+      "section": "Part B - Computer Science",
+      "question": "What is the primary function of an operating system's device driver?",
+      "options": [
+        "To compile high-level programming code into assembly instructions",
+        "To provide a standardized software interface between the operating system and specific hardware devices",
+        "To increase the physical rotational speed of hard drive spindles",
+        "To scan secondary storage for malicious viruses"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "A device driver acts as a translator between the operating system kernel and hardware peripherals, allowing the OS to interact with hardware through standard interfaces.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 90,
+      "section": "Part B - Computer Science",
+      "question": "In process management, what is a 'Zombie Process' in a Unix-like operating system?",
+      "options": [
+        "A process that has completed execution but still has an entry in the process table because its parent has not read its exit status",
+        "A process executing an infinite CPU-bound loop",
+        "A process currently suspended on a page fault",
+        "A process that runs with root privileges without user consent"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "A zombie process is a terminated process whose exit status has not yet been collected by its parent process using the wait() system call, leaving its PID entry in the process table.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 91,
+      "section": "Part B - Computer Science",
+      "question": "Which operating system structure executes most services in separate user-level processes and uses message passing for communication?",
+      "options": [
+        "Monolithic kernel",
+        "Microkernel",
+        "Batch operating system",
+        "Single-tasking DOS system"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "A microkernel keeps only minimal core capabilities in kernel space, running file systems, drivers, and network protocol stacks as separate, isolated user-space processes.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 92,
+      "section": "Part B - Computer Science",
+      "question": "In virtual memory, what is the role of the 'dirty bit' (modify bit) associated with a page table entry?",
+      "options": [
+        "It marks whether the page has been modified in RAM and must be written back to disk before being replaced.",
+        "It signals that the page has encountered a parity read error.",
+        "It marks the page as read-only.",
+        "It tracks the number of times the page has been read by the CPU."
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The dirty bit is set by hardware whenever a page is written to. When replacing the page, the OS checks this bit to determine if the page must be saved back to disk or can simply be overwritten.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 93,
+      "section": "Part B - Computer Science",
+      "question": "What is the time complexity of pushing an element onto an array-based stack of capacity N that is not full?",
+      "options": [
+        "O(1)",
+        "O(log N)",
+        "O(N)",
+        "O(N^2)"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Pushing onto a non-full array-based stack simply increments the top index and stores the value at that position, which takes O(1) constant time.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 94,
+      "section": "Part B - Computer Science",
+      "question": "In a max-heap, where is the second largest element guaranteed to be located?",
+      "options": [
+        "At the root node",
+        "At one of the direct children of the root node",
+        "At one of the leaf nodes",
+        "At the very last index of the array"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The largest element in a max-heap is at the root. By the max-heap property, the second-largest element must be one of the immediate children of the root (at depth 1).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 95,
+      "section": "Part B - Computer Science",
+      "question": "What is the primary role of the Simple Mail Transfer Protocol (SMTP)?",
+      "options": [
+        "Retrieving emails from a remote mailbox server to a local client",
+        "Sending and transferring email messages between mail servers",
+        "Resolving domain names to IP addresses",
+        "Encrypting web pages over SSL"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "SMTP is a push protocol used by email clients to send messages to servers, and by mail transfer agents to relay messages between servers.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 96,
+      "section": "Part B - Computer Science",
+      "question": "Which of the following is an example of an unguided (wireless) physical transmission medium?",
+      "options": [
+        "Coaxial cable",
+        "Fiber-optic cable",
+        "Radio waves",
+        "Shielded twisted-pair cable"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "Unguided media transmit electromagnetic signals through the air or free space without physical conductors, including radio waves, microwaves, and infrared.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 97,
+      "section": "Part B - Computer Science",
+      "question": "According to Boolean algebra, what is the output of the expression: A . (A + B)?",
+      "options": [
+        "A",
+        "B",
+        "A . B",
+        "A + B"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "By the absorption law of Boolean algebra: A . (A + B) = (A . A) + (A . B) = A + (A . B) = A . (1 + B) = A . 1 = A.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 98,
+      "section": "Part B - Computer Science",
+      "question": "What is the 2's complement of the binary number (0101)₂?",
+      "options": [
+        "1010",
+        "1011",
+        "1100",
+        "0110"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "To find the 2's complement, invert the bits to get the 1's complement (0101 -> 1010) and then add 1: 1010 + 1 = 1011.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 99,
+      "section": "Part B - Computer Science",
+      "question": "In Python, which built-in function returns the total number of items in an iterable object such as a list or string?",
+      "options": [
+        "count()",
+        "len()",
+        "size()",
+        "length()"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The built-in len() function returns the number of items (length) in an object, such as a list, string, tuple, or dictionary.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 100,
+      "section": "Part B - Computer Science",
+      "question": "What is the primary purpose of version control systems like Git in software development?",
+      "options": [
+        "Compiling source code into native binary executables",
+        "Tracking changes to source code over time and coordinating work among developers",
+        "Hosting live cloud database engines",
+        "Automatically fixing logical syntax errors in programs"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Version control systems track historical revisions to source code, allow branching and merging, and help multiple contributors collaborate on a codebase.",
+      "topic": "Computer Science"
+    }
+  ]
+}

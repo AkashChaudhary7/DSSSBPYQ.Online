@@ -168,6 +168,19 @@ function getSubjectFolder(data, fileName, sourcePath = '') {
     return 'Teaching';
   }
 
+  if (
+    lowerPath.startsWith('cs only mocks/') || 
+    lowerPath.startsWith('cs only mock/') || 
+    lowerPath.includes('/cs only mocks/') || 
+    lowerPath.includes('cs_mock') || 
+    lowerPath.includes('cs mock') ||
+    lowerPath.includes('cs_1') ||
+    fileName.toLowerCase().startsWith('cs_') ||
+    fileName.toLowerCase().includes('cs mock')
+  ) {
+    return 'CS only Mocks';
+  }
+
   // Scan sections
   const sections = Array.from(new Set(
     questions.map(q => String(q.section || q.topic || '').trim())
@@ -329,6 +342,10 @@ function extractMetadata(data, folder, fileName) {
     const numMatch = (fileName + ' ' + title).match(/(\d+)/);
     const mockNum = numMatch ? numMatch[1] : '1';
     title = `Computer Networks Mock Test ${mockNum}`;
+  } else if (folder === 'CS only Mocks' || fileName.toLowerCase().includes('cs mock') || fileName.toLowerCase().startsWith('cs_')) {
+    const numMatch = (fileName + ' ' + title).match(/(\d+)/);
+    const mockNum = numMatch ? numMatch[1] : '1';
+    title = `CS Domain Mock Test ${mockNum}`;
   }
   
   const sectionsInQuestions = Array.from(new Set(
@@ -440,6 +457,12 @@ function extractMetadata(data, folder, fileName) {
     topic = 'Part A Full Mock Series';
     isPartA = true;
     foldersMatched = true;
+  } else if (folder === 'CS only Mocks') {
+    category = 'part_b';
+    subject = 'CS Only Mock';
+    topic = 'Computer Science Domain (Part B)';
+    isPartA = false;
+    foldersMatched = true;
   } else if (folder === 'Full Mocks') {
     category = 'full';
     subject = 'Full Mock';
@@ -494,13 +517,13 @@ function extractMetadata(data, folder, fileName) {
     : Math.max(10, Math.ceil(qCount * 1.2));
 
   // Fix timing of full mocks: official DSSSB CBT exam is 2 hours (120 minutes), not 4 hours
-  if (category === 'full' || subject === 'Full Mock' || subject === 'Part A Full Mock' || subject === 'Part A Full Paper') {
+  if (category === 'full' || subject === 'Full Mock' || subject === 'Part A Full Mock' || subject === 'Part A Full Paper' || subject === 'CS Only Mock') {
     if (qCount >= 180 || subject === 'Full Mock') {
       totalTimeMinutes = 120; // Exactly 2 hours (120 minutes) for 200 Qs Full CBT Mock
-    } else if (qCount >= 90 || subject === 'Part A Full Mock' || subject === 'Part A Full Paper') {
-      totalTimeMinutes = 60; // 1 hour (60 minutes) for 100 Qs Part A Mock
+    } else if (qCount >= 90 || subject === 'Part A Full Mock' || subject === 'Part A Full Paper' || subject === 'CS Only Mock') {
+      totalTimeMinutes = 60; // 1 hour (60 minutes) for 100 Qs Part A Mock / CS Mock
     } else {
-      totalTimeMinutes = 120;
+      totalTimeMinutes = 60;
     }
   }
 
@@ -608,6 +631,10 @@ for (const sourcePath of allFilePaths) {
         if (numMatch) {
           targetFileName = `Computer Networks Mock Test ${numMatch[1]}.json`;
         }
+      } else if (folder === 'CS only Mocks') {
+        const numMatch = targetFileName.match(/(\d+)/) || (data.test_title || data.title || '').match(/(\d+)/);
+        const mockNum = numMatch ? numMatch[1] : '1';
+        targetFileName = `cs_mock_${mockNum}.json`;
       }
 
       const destPath = path.join(targetDir, targetFileName);

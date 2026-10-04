@@ -2,6 +2,54 @@ import { Quiz } from '../types';
 
 export const GENERATED_QUIZZES_METADATA: Quiz[] = [
   {
+    "testId": "cs_only_mock_test_1_100",
+    "title": "CS Domain Mock Test 1",
+    "totalTimeMinutes": 60,
+    "markingScheme": {
+      "correct": 1,
+      "negative": 0.25
+    },
+    "category": "part_b",
+    "subject": "CS Only Mock",
+    "topic": "Computer Science Domain (Part B)",
+    "isPartA": false,
+    "qCount": 100,
+    "file": "/CS only Mocks/cs_mock_1.json",
+    "questions": []
+  },
+  {
+    "testId": "cs_only_mock_test_2_100",
+    "title": "CS Domain Mock Test 2",
+    "totalTimeMinutes": 60,
+    "markingScheme": {
+      "correct": 1,
+      "negative": 0.25
+    },
+    "category": "part_b",
+    "subject": "CS Only Mock",
+    "topic": "Computer Science Domain (Part B)",
+    "isPartA": false,
+    "qCount": 100,
+    "file": "/CS only Mocks/cs_mock_2.json",
+    "questions": []
+  },
+  {
+    "testId": "cs_only_mock_test_3_100",
+    "title": "CS Domain Mock Test 3",
+    "totalTimeMinutes": 60,
+    "markingScheme": {
+      "correct": 1,
+      "negative": 0.25
+    },
+    "category": "part_b",
+    "subject": "CS Only Mock",
+    "topic": "Computer Science Domain (Part B)",
+    "isPartA": false,
+    "qCount": 100,
+    "file": "/CS only Mocks/cs_mock_3.json",
+    "questions": []
+  },
+  {
     "testId": "custom_part_b_computer_networks_mock_test_1_50",
     "title": "Computer Networks Mock Test 1",
     "totalTimeMinutes": 60,

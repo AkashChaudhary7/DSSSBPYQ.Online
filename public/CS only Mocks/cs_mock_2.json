@@ -1,0 +1,1516 @@
+{
+  "testId": "cs_only_mock_test_2_100",
+  "title": "CS Mock Test 2",
+  "subject": "CS Only Mock",
+  "topic": "Computer Science Domain (Part B)",
+  "category": "cs_mock",
+  "isCsOnly": true,
+  "totalTimeMinutes": 60,
+  "totalQuestions": 100,
+  "markingScheme": {
+    "correct": 1,
+    "negative": 0.25
+  },
+  "questions": [
+    {
+      "id": 1,
+      "section": "Part B - Computer Science",
+      "question": "Which of the following describes the difference between internal and external fragmentation in operating system memory management?",
+      "options": [
+        "Internal fragmentation occurs when allocated memory blocks contain unused space; external fragmentation occurs when total free space exists to satisfy an allocation request but is non-contiguous.",
+        "Internal fragmentation occurs only in virtual memory segmentation; external fragmentation occurs only in fixed-size paging.",
+        "Internal fragmentation can be completely eliminated using pure paging; external fragmentation cannot be solved by paging.",
+        "Internal fragmentation refers to cache misses; external fragmentation refers to translation lookaside buffer misses."
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Internal fragmentation arises when fixed partitions assign more memory than requested, leaving unused space inside the partition. External fragmentation occurs when free memory is broken into small, non-contiguous blocks scattered across the physical address space.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 2,
+      "section": "Part B - Computer Science",
+      "question": "In the context of multi-threaded programming, which condition is essential to prevent race conditions when updating shared global variables?",
+      "options": [
+        "Mutual Exclusion",
+        "Deadlock Avoidance",
+        "Aging",
+        "Spooling"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Mutual exclusion ensures that only one thread or process can access a shared resource or critical section at any given moment, preventing race conditions.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 3,
+      "section": "Part B - Computer Science",
+      "question": "What is the primary role of the Translation Lookaside Buffer (TLB) in a paging hardware architecture?",
+      "options": [
+        "To store recently used virtual-to-physical address translations in high-speed hardware cache",
+        "To hold swapped-out process control blocks on disk",
+        "To convert logical file offsets into sector numbers on secondary storage",
+        "To schedule ready processes based on priority"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The TLB is an associative, high-speed hardware cache that stores recent virtual-to-physical page mappings, reducing the need to access main memory page tables.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 4,
+      "section": "Part B - Computer Science",
+      "question": "Consider a system with 4 processes sharing 12 units of a single resource type. What is the maximum resource demand each process can have while ensuring the system remains completely deadlock-free?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "For n processes and m resources, if the peak demand per process is k, deadlock is avoided if n(k−1)+1≤m. For n=4,m=12: 4(k−1)+1≤12⟹4(k−1)≤11⟹k−1≤2⟹k≤3.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 5,
+      "section": "Part B - Computer Science",
+      "question": "In a Linux operating system, which command is used to display the dynamic real-time view of running processes and system resource usage?",
+      "options": [
+        "top",
+        "ls",
+        "df",
+        "uname"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The 'top' utility provides an interactive, real-time interface showing processor activity, memory usage, and execution metrics of running tasks.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 6,
+      "section": "Part B - Computer Science",
+      "question": "Which of the following Linux command pipelines finds all occurrences of the word 'Error' in all '.log' files within the current directory?",
+      "options": [
+        "grep 'Error' *.log",
+        "find 'Error' *.log",
+        "cat *.log | sed 'Error'",
+        "echo 'Error' > .log"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The 'grep' command is the standard text-search utility in Unix/Linux used to match regular expressions or plain strings across specified target files.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 7,
+      "section": "Part B - Computer Science",
+      "question": "What is the numeric octal representation of the permission string '-rw-r--r--' in a Linux file system?",
+      "options": [
+        "755",
+        "644",
+        "664",
+        "600"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Read = 4, Write = 2, Execute = 1. Owner: 'rw-' = 4 + 2 = 6; Group: 'r--' = 4; Others: 'r--' = 4. The octal value is 644.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 8,
+      "section": "Part B - Computer Science",
+      "question": "Which system call in Unix-like operating systems is executed by a parent process to create an exact duplicate child process?",
+      "options": [
+        "fork()",
+        "exec()",
+        "wait()",
+        "pipe()"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The fork() system call creates a new process by duplicating the calling process's address space, file descriptors, and execution state.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 9,
+      "section": "Part B - Computer Science",
+      "question": "Which of the following disk scheduling algorithms services requests to minimize head movement by always servicing the request nearest to the current head position?",
+      "options": [
+        "FCFS",
+        "SSTF",
+        "SCAN",
+        "C-SCAN"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Shortest Seek Time First (SSTF) selects the pending disk I/O request with the minimum seek time from the current cylinder position.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 10,
+      "section": "Part B - Computer Science",
+      "question": "What problem can occur in Shortest Seek Time First (SSTF) and Shortest Job First (SJF) scheduling policies?",
+      "options": [
+        "Starvation of requests located far away or requiring longer burst times",
+        "Thrashing due to excessive page allocations",
+        "Inversion of process address boundaries",
+        "Failure of context switching hardware"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Both SSTF and SJF favor smaller/closer requests, which can lead to starvation for longer or more distant requests if shorter ones arrive continuously.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 11,
+      "section": "Part B - Computer Science",
+      "question": "In a relational database, what is the term used to describe the count of attributes in a table schema?",
+      "options": [
+        "Cardinality",
+        "Degree",
+        "Domain",
+        "Tuple"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The degree of a relation is the total number of attributes (columns), whereas cardinality is the total number of tuples (rows).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 12,
+      "section": "Part B - Computer Science",
+      "question": "Which of the following integrity constraints states that foreign key values must either match an existing primary key value in the referenced relation or be null?",
+      "options": [
+        "Entity integrity",
+        "Referential integrity",
+        "Domain integrity",
+        "Key integrity"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Referential integrity requires that a foreign key attribute value must reference a valid, existing primary key in the parent relation, or be NULL.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 13,
+      "section": "Part B - Computer Science",
+      "question": "A relation R(A, B, C, D) has functional dependencies {A -> B, B -> C, C -> D}. What is the candidate key of R?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Finding the attribute closure of A: A+ = {A, B, C, D}. Because A determines all attributes in the relation and no proper subset of A can do so, A is the unique candidate key.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 14,
+      "section": "Part B - Computer Science",
+      "question": "If a relation is in Second Normal Form (2NF) and contains no transitive functional dependencies between non-prime attributes, it is in:",
+      "options": [
+        "Third Normal Form (3NF)",
+        "Boyce-Codd Normal Form (BCNF)",
+        "Fourth Normal Form (4NF)",
+        "Fifth Normal Form (5NF)"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Third Normal Form (3NF) requires the relation to be in 2NF and have no transitive functional dependencies of non-prime attributes on candidate keys.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 15,
+      "section": "Part B - Computer Science",
+      "question": "A relation R is in BCNF if for every non-trivial functional dependency X -> Y:",
+      "options": [
+        "Y is a super key",
+        "X is a super key",
+        "Y is a prime attribute",
+        "X is a subset of Y"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Boyce-Codd Normal Form (BCNF) strictly requires that the determinant (X) of every non-trivial functional dependency X -> Y must be a super key.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 16,
+      "section": "Part B - Computer Science",
+      "question": "Which SQL clause is used to eliminate duplicate rows from the result set of a query?",
+      "options": [
+        "UNIQUE",
+        "DISTINCT",
+        "GROUP BY",
+        "UNION ALL"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The DISTINCT keyword inside a SELECT query suppresses duplicate result tuples, returning only unique rows.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 17,
+      "section": "Part B - Computer Science",
+      "question": "Consider the SQL query: SELECT dept, COUNT() FROM Employee GROUP BY dept HAVING AVG(salary) > 50000; What is the role of HAVING here?",
+      "options": [
+        "Filters individual employee rows before grouping occurs",
+        "Filters grouped department aggregates based on their computed average salary",
+        "Orders the department results in ascending sequence",
+        "Prevents null values from being inserted into departments"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The HAVING clause applies filter predicates directly to grouped records produced by GROUP BY, unlike WHERE which filters rows prior to aggregation.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 18,
+      "section": "Part B - Computer Science",
+      "question": "Which of the following transaction isolation levels in SQL prevents dirty reads, non-repeatable reads, and phantom reads?",
+      "options": [
+        "Read Uncommitted",
+        "Read Committed",
+        "Repeatable Read",
+        "Serializable"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "Serializable is the highest isolation level defined by SQL-92, preventing dirty reads, non-repeatable reads, and phantom reads.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 19,
+      "section": "Part B - Computer Science",
+      "question": "In an Entity-Relationship (ER) model, how is a derived attribute represented graphically?",
+      "options": [
+        "Double rectangle",
+        "Dashed ellipse",
+        "Double ellipse",
+        "Diamond"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "A derived attribute (such as age calculated from date of birth) is depicted using a dashed ellipse in ER diagrams.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 20,
+      "section": "Part B - Computer Science",
+      "question": "What is the primary characteristic of a B+ Tree index that distinguishes it from a standard B Tree?",
+      "options": [
+        "Data records and pointers are stored only in leaf nodes, with internal nodes storing only index keys",
+        "Leaf nodes are not linked together sequentially",
+        "Internal nodes have no child pointers",
+        "Tree height is never balanced across paths"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "In a B+ Tree, data records/pointers reside only in leaf nodes, and leaf nodes are linked sequentially for fast range scans. Internal nodes hold only routing keys.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 21,
+      "section": "Part B - Computer Science",
+      "question": "What is the time complexity of evaluating an arithmetic postfix expression using a stack for an expression of length n?",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "Evaluating a postfix expression involves scanning each token once and performing constant-time stack push/pop operations, resulting in O(n) total time.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 22,
+      "section": "Part B - Computer Science",
+      "question": "Which data structure is best suited to check for balanced parentheses in an expression string?",
+      "options": [
+        "Queue",
+        "Stack",
+        "Binary Search Tree",
+        "Min-Heap"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "A stack allows opening brackets to be pushed as encountered and matched against corresponding closing brackets in reverse order (LIFO).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 23,
+      "section": "Part B - Computer Science",
+      "question": "In a singly linked list with n nodes, what is the time complexity to insert a node at the very beginning (head) of the list?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n log n)"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Inserting at the head requires updating the new node's next pointer to the current head and moving the head pointer, requiring O(1) time.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 24,
+      "section": "Part B - Computer Science",
+      "question": "How many null pointer fields exist in a standard binary tree containing n nodes?",
+      "options": [
+        "n - 1",
+        "n",
+        "n + 1",
+        "2n"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "Each node has 2 child pointers, giving 2n total pointers. A tree with n nodes has n - 1 edges (non-null pointers). The number of null pointers is 2n - (n - 1) = n + 1.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 25,
+      "section": "Part B - Computer Science",
+      "question": "What is the maximum number of nodes in a binary tree of height h (where a root-only tree has height 0)?",
+      "options": [
+        "2^h",
+        "2^(h + 1) - 1",
+        "2^h - 1",
+        "2^(h - 1)"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Summing the maximum nodes at each level from 0 to h: 1+2+4+...+2^h = 2^(h+1) - 1.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 26,
+      "section": "Part B - Computer Science",
+      "question": "What is the worst-case time complexity of searching an element in an unindexed, unsorted linear array of size n?",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n log n)"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "A linear search must inspect every element one by one until the target is found or the end of the array is reached, taking O(n) comparisons.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 27,
+      "section": "Part B - Computer Science",
+      "question": "Which of the following sorting algorithms has a best-case time complexity of O(n) when the input array is already sorted?",
+      "options": [
+        "Selection Sort",
+        "Insertion Sort",
+        "Merge Sort",
+        "Heap Sort"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Insertion sort only performs a single comparison per element when the array is already sorted, resulting in an O(n) best-case running time.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 28,
+      "section": "Part B - Computer Science",
+      "question": "What is the worst-case number of comparisons performed by Selection Sort on an array of size n?",
+      "options": [
+        "O(n log n)",
+        "O(n)",
+        "O(n^2)",
+        "O(log n)"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "Selection sort scans the remaining unsorted subarray in every pass regardless of initial order, making n(n-1)/2 comparisons, which is O(n^2) across all cases.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 29,
+      "section": "Part B - Computer Science",
+      "question": "Which algorithm is used to find all-pairs shortest paths in a directed, edge-weighted graph?",
+      "options": [
+        "Floyd-Warshall Algorithm",
+        "Prim's Algorithm",
+        "Kruskal's Algorithm",
+        "Kahn's Algorithm"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The Floyd-Warshall algorithm uses dynamic programming to compute the shortest paths between all pairs of vertices in O(V^3) time.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 30,
+      "section": "Part B - Computer Science",
+      "question": "Which data structure is typically used to implement Breadth-First Search (BFS) on a graph?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Priority Queue",
+        "Binary Search Tree"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "BFS explores vertices level by level using a FIFO queue to track discovered vertices awaiting exploration.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 31,
+      "section": "Part B - Computer Science",
+      "question": "Which layer of the OSI model is responsible for end-to-end flow control, error recovery, and segment sequencing?",
+      "options": [
+        "Network Layer",
+        "Transport Layer",
+        "Data Link Layer",
+        "Session Layer"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The Transport Layer (Layer 4) provides transparent transfer of data between end systems, managing end-to-end error recovery, segment ordering, and flow control.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 32,
+      "section": "Part B - Computer Science",
+      "question": "What is the size of a standard Media Access Control (MAC) address in bits and bytes?",
+      "options": [
+        "32 bits (4 bytes)",
+        "48 bits (6 bytes)",
+        "64 bits (8 bytes)",
+        "128 bits (16 bytes)"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "A physical MAC address is a 48-bit (6-byte) hardware identifier usually represented as 12 hexadecimal digits.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 33,
+      "section": "Part B - Computer Science",
+      "question": "What is the default subnet mask for an IPv4 address belonging to Class C?",
+      "options": [
+        "255.0.0.0",
+        "255.255.0.0",
+        "255.255.255.0",
+        "255.255.255.255"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "Class C IPv4 networks allocate 24 bits for the network prefix and 8 bits for host addresses, yielding a default subnet mask of 255.255.255.0 (/24).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 34,
+      "section": "Part B - Computer Science",
+      "question": "How many usable host IP addresses are available in a subnet with the CIDR prefix /27?",
+      "options": [
+        "28",
+        "30",
+        "32",
+        "62"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "For a /27 prefix, host bits = 32 - 27 = 5. Total addresses = 2^5 = 32. Subtracting the network and broadcast addresses: 32 - 2 = 30 usable host addresses.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 35,
+      "section": "Part B - Computer Science",
+      "question": "Which of the following protocols operates over UDP at port 53 by default for standard queries?",
+      "options": [
+        "FTP",
+        "HTTP",
+        "DNS",
+        "SMTP"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "DNS uses UDP port 53 for standard name resolution queries due to its low latency and connectionless operation.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 36,
+      "section": "Part B - Computer Science",
+      "question": "Which protocol is used by the 'ping' command to test network host reachability?",
+      "options": [
+        "IGMP",
+        "ICMP",
+        "ARP",
+        "SNMP"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The ping utility sends ICMP (Internet Control Message Protocol) Echo Request messages and waits for corresponding ICMP Echo Replies.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 37,
+      "section": "Part B - Computer Science",
+      "question": "What type of transmission mode allows data communication in both directions simultaneously?",
+      "options": [
+        "Simplex",
+        "Half-Duplex",
+        "Full-Duplex",
+        "Multiplex"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "Full-duplex allows data to flow in both directions at the same time across the transmission channel (e.g., standard telephone networks).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 38,
+      "section": "Part B - Computer Science",
+      "question": "In the TCP header, which flag is used to initiate a connection during the three-way handshake?",
+      "options": [
+        "ACK",
+        "SYN",
+        "FIN",
+        "RST"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The Synchronize (SYN) flag initiates a TCP connection and synchronizes initial sequence numbers between client and server.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 39,
+      "section": "Part B - Computer Science",
+      "question": "Which application layer protocol is used for securely accessing remote command-line shells over an encrypted channel?",
+      "options": [
+        "Telnet",
+        "SSH",
+        "FTP",
+        "TFTP"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Secure Shell (SSH) replaces unencrypted protocols like Telnet by using strong cryptographic algorithms to protect remote administration sessions.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 40,
+      "section": "Part B - Computer Science",
+      "question": "What is the network topology where all nodes are connected to a central hub or switch?",
+      "options": [
+        "Ring topology",
+        "Bus topology",
+        "Star topology",
+        "Mesh topology"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "In a star topology, each network host features a dedicated point-to-point connection to a central device such as a switch or hub.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 41,
+      "section": "Part B - Computer Science",
+      "question": "What is the output of the following C code snippet?\n#include <stdio.h>\nint main() {\n    int x = 10;\n    int y = x++ + ++x;\n    printf(\"%d\", y);\n    return 0;\n}",
+      "options": [
+        "22",
+        "21",
+        "20",
+        "Undefined behavior"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "Modifying a scalar variable more than once between two consecutive sequence points produces undefined behavior according to the ISO C standard.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 42,
+      "section": "Part B - Computer Science",
+      "question": "In C, which keyword specifies that a variable can be modified unexpectedly by external hardware or concurrent threads?",
+      "options": [
+        "volatile",
+        "register",
+        "static",
+        "extern"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The volatile qualifier informs the compiler that the variable's value can change at any time without explicit code actions, preventing compiler optimizations from skipping reads.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 43,
+      "section": "Part B - Computer Science",
+      "question": "What is the size of an empty struct in standard C?",
+      "options": [
+        "0 bytes in standard C (implementation-defined in GCC)",
+        "Always 1 byte",
+        "Always 4 bytes",
+        "Causes a mandatory compile-time syntax error"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "Standard C (C99/C11) specifies that a struct must contain at least one member; GCC allows empty structs as an extension with a size of 0 bytes (unlike C++, where size is 1 byte).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 44,
+      "section": "Part B - Computer Science",
+      "question": "What does the function malloc() return in C if the system runs out of heap memory and cannot fulfill the request?",
+      "options": [
+        "-1",
+        "NULL",
+        "0xFFFFFFFF",
+        "Segmentation Fault"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "When memory allocation fails, malloc() returns a NULL pointer to indicate that heap memory was unavailable.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 45,
+      "section": "Part B - Computer Science",
+      "question": "In C++, which of the following member functions cannot be declared as virtual?",
+      "options": [
+        "Destructor",
+        "Constructor",
+        "Member function without parameters",
+        "Operator overload function"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Constructors cannot be virtual because virtual dispatch requires an instantiated object with a vtable pointer, which does not exist until construction completes.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 46,
+      "section": "Part B - Computer Science",
+      "question": "What is a 'pure virtual function' in C++?",
+      "options": [
+        "A virtual function declared with '= 0' that makes the class abstract",
+        "A function that returns only boolean values",
+        "A function declared with the static keyword inside an interface",
+        "A function with an empty body {}"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "A pure virtual function is defined using '= 0' in the declaration, providing no implementation in the base class and turning it into an abstract class.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 47,
+      "section": "Part B - Computer Science",
+      "question": "Which feature of Object-Oriented Programming binds code and the data it manipulates into a single unit, hiding implementation details?",
+      "options": [
+        "Inheritance",
+        "Polymorphism",
+        "Encapsulation",
+        "Coupling"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "Encapsulation bundles data variables and the methods operating on that data into a single class, restricting direct unauthorized access from outside.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 48,
+      "section": "Part B - Computer Science",
+      "question": "In Java, which keyword is used to explicitly prevent a class from being subclassed (inherited)?",
+      "options": [
+        "static",
+        "final",
+        "abstract",
+        "const"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Declaring a class with the 'final' modifier in Java prevents it from being extended by any other subclass.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 49,
+      "section": "Part B - Computer Science",
+      "question": "In Java, what is the parent superclass of all classes, whether directly or indirectly declared?",
+      "options": [
+        "java.lang.Object",
+        "java.lang.Class",
+        "java.lang.System",
+        "java.lang.Throwable"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The java.lang.Object class is the ultimate root of the Java class hierarchy; every class inherits its methods.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 50,
+      "section": "Part B - Computer Science",
+      "question": "In Python, which of the following data structures is unordered and does NOT allow duplicate elements?",
+      "options": [
+        "list",
+        "tuple",
+        "set",
+        "dict_keys"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "A Python set is an unordered collection of unique elements; any duplicate elements are automatically discarded.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 51,
+      "section": "Part B - Computer Science",
+      "question": "What is the output of the following Python expression: print(bool([]))?",
+      "options": [
+        "True",
+        "False",
+        "None",
+        "Error"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "In Python, empty collections (including lists [], tuples (), dictionaries {}, and sets) evaluate to False in a boolean context.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 52,
+      "section": "Part B - Computer Science",
+      "question": "Which HTML element is used to define an unordered, bulleted list?",
+      "options": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The  tag defines an unordered list, and each list item within it is marked using the  tag.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 53,
+      "section": "Part B - Computer Science",
+      "question": "In CSS, which property is used to control the space between the content of an element and its inner border?",
+      "options": [
+        "margin",
+        "padding",
+        "border-spacing",
+        "outline"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Padding defines the clear space inside an element's border, surrounding its content. Margin defines the space outside the border.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 54,
+      "section": "Part B - Computer Science",
+      "question": "What does the JavaScript operator '=' verify that '' does not?",
+      "options": [
+        "Both value and data type without type coercion",
+        "Only alphanumeric length",
+        "Reference equality of primitive integers only",
+        "Scope inheritance of prototype chains"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The strict equality operator (===) checks both value and data type without performing implicit type coercion.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 55,
+      "section": "Part B - Computer Science",
+      "question": "Which XML markup rule is strictly required for an XML document to be considered 'well-formed'?",
+      "options": [
+        "All tags must be in lowercase",
+        "All elements must be properly nested with matching opening and closing tags",
+        "It must be compiled into binary bytecode",
+        "It must contain at least 10 elements"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "A well-formed XML document must have a single root element, properly nested elements, and matching opening and closing tags.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 56,
+      "section": "Part B - Computer Science",
+      "question": "In software engineering, what does the term 'Cohesion' measure?",
+      "options": [
+        "The degree of interdependence between separate software modules",
+        "The degree to which tasks performed by a single module are functionally related",
+        "The physical file size of the compiled binary code",
+        "The number of database tables connected via foreign keys"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Cohesion measures the functional strength and relatedness of elements within a single module. High cohesion is desirable.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 57,
+      "section": "Part B - Computer Science",
+      "question": "Which testing type verifies that existing features and code have not been broken after making changes, updates, or bug fixes?",
+      "options": [
+        "Unit Testing",
+        "Regression Testing",
+        "Alpha Testing",
+        "Stress Testing"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Regression testing re-executes tests against modified software to ensure that recent code modifications have not introduced new defects.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 58,
+      "section": "Part B - Computer Science",
+      "question": "In the classical Waterfall Model, when does the software testing phase take place?",
+      "options": [
+        "Before requirements analysis",
+        "Concurrently with requirements gathering",
+        "After the implementation (coding) phase is complete",
+        "Only during product maintenance"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "The traditional Waterfall model is linear and sequential; verification (testing) occurs only after implementation (coding) is finished.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 59,
+      "section": "Part B - Computer Science",
+      "question": "Which simplified logic gate produces a 0 output only when both of its inputs are 1?",
+      "options": [
+        "AND gate",
+        "NAND gate",
+        "OR gate",
+        "NOR gate"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "A NAND gate produces a 0 output only when all inputs are 1; otherwise, it outputs a 1.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 60,
+      "section": "Part B - Computer Science",
+      "question": "In Boolean algebra, what is the simplified result of the expression A + A' (A OR NOT A)?",
+      "options": [
+        "0",
+        "1",
+        "A",
+        "A'"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "By the complement law of Boolean algebra, a variable ORed with its complement is always equal to logical 1.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 61,
+      "section": "Part B - Computer Science",
+      "question": "How many outputs does a standard 3-to-8 line binary decoder have?",
+      "options": [
+        "3",
+        "6",
+        "8",
+        "16"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "An n-to-2^n decoder converts an n-bit input into 2^n unique output lines. With 3 inputs, it produces 2^3 = 8 outputs.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 62,
+      "section": "Part B - Computer Science",
+      "question": "What is the primary difference between combinational logic circuits and sequential logic circuits?",
+      "options": [
+        "Combinational circuits use feedback memory loops; sequential circuits do not",
+        "Combinational outputs depend solely on present inputs; sequential outputs depend on both present inputs and past state (memory)",
+        "Combinational circuits use only flip-flops; sequential circuits use only transistors",
+        "Combinational circuits require a master clock signal; sequential circuits do not"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Combinational circuits have outputs determined purely by current inputs. Sequential circuits include memory elements, so outputs depend on past inputs as well.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 63,
+      "section": "Part B - Computer Science",
+      "question": "How many flip-flops are needed to construct a MOD-16 asynchronous ripple counter?",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "A MOD-N counter requires n flip-flops such that 2 \nn\n ≥N. For MOD-16, 2 \n4\n =16, so exactly 4 flip-flops are required.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 64,
+      "section": "Part B - Computer Science",
+      "question": "What is the decimal equivalent of the octal number (157)₈?",
+      "options": [
+        "111",
+        "110",
+        "109",
+        "113"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "(157) \n8\n​\n =(1×8 \n2\n )+(5×8 \n1\n )+(7×8 \n0\n )=64+40+7=111.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 65,
+      "section": "Part B - Computer Science",
+      "question": "What is the result of adding the two binary numbers 1101 and 1011?",
+      "options": [
+        "11000",
+        "10110",
+        "11100",
+        "10010"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "1101 \n2\n​\n =13 \n10\n​\n , and 1011 \n2\n​\n =11 \n10\n​\n . 13+11=24 \n10\n​\n =11000 \n2\n​\n .",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 66,
+      "section": "Part B - Computer Science",
+      "question": "In the 8085 microprocessor, what is the size of the Accumulator register in bits?",
+      "options": [
+        "4 bits",
+        "8 bits",
+        "16 bits",
+        "32 bits"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The 8085 is an 8-bit microprocessor; its primary working register, the Accumulator (Register A), is 8 bits wide.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 67,
+      "section": "Part B - Computer Science",
+      "question": "Which of the following interrupts in the 8085 microprocessor is non-maskable (cannot be disabled by software)?",
+      "options": [
+        "RST 7.5",
+        "RST 6.5",
+        "INTR",
+        "TRAP"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "TRAP (RST 4.5) is the highest-priority, non-maskable hardware interrupt in the 8085 microprocessor.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 68,
+      "section": "Part B - Computer Science",
+      "question": "What type of computer memory is fastest for CPU access, residing directly on the processor die?",
+      "options": [
+        "Main Memory (DRAM)",
+        "Registers",
+        "Hard Disk Drive",
+        "Solid State Drive"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "CPU registers are located inside the processor core and operate at clock speed, making them the fastest memory in the hierarchy.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 69,
+      "section": "Part B - Computer Science",
+      "question": "Which computer architecture is characterized by having separate physical buses and memories for instructions and data?",
+      "options": [
+        "Von Neumann Architecture",
+        "Harvard Architecture",
+        "Turing Architecture",
+        "RISC-V Monolithic Architecture"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Harvard architecture uses physically separate storage and signal pathways for instructions and data, unlike Von Neumann architecture which shares them.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 70,
+      "section": "Part B - Computer Science",
+      "question": "What is the primary role of the Address Bus in a microcomputer system?",
+      "options": [
+        "Carrying data bytes between registers and I/O devices",
+        "Carrying memory addresses from the CPU to identify specific physical memory locations",
+        "Transmitting timing and control signals",
+        "Supplying electrical power to peripheral cards"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The address bus is a unidirectional set of lines used by the CPU to point to the memory location or I/O port being accessed.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 71,
+      "section": "Part B - Computer Science",
+      "question": "Which of the following is an asymmetric (public-key) cryptographic algorithm?",
+      "options": [
+        "DES",
+        "AES",
+        "RSA",
+        "Blowfish"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "RSA is an asymmetric cipher that uses mathematically linked public and private key pairs for encryption and decryption.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 72,
+      "section": "Part B - Computer Science",
+      "question": "What is the cryptographic output length of the standard SHA-256 hash function in bits?",
+      "options": [
+        "128 bits",
+        "160 bits",
+        "256 bits",
+        "512 bits"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "SHA-256 produces a fixed-size 256-bit hash digest (32 bytes), typically represented as a 64-character hexadecimal string.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 73,
+      "section": "Part B - Computer Science",
+      "question": "A type of malicious software that encrypts a victim's files and demands payment in exchange for the decryption key is known as:",
+      "options": [
+        "Spyware",
+        "Adware",
+        "Ransomware",
+        "Rootkit"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "Ransomware holds user data hostage by encrypting files and demanding a ransom payment for the decryption tools.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 74,
+      "section": "Part B - Computer Science",
+      "question": "Which security measure involves requiring two distinct forms of identification before granting access to an account?",
+      "options": [
+        "Access Control List (ACL)",
+        "Multi-Factor Authentication (MFA)",
+        "Single Sign-On (SSO)",
+        "CAPTCHA"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Multi-Factor Authentication (MFA) requires users to provide two or more verification factors to gain access to a resource.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 75,
+      "section": "Part B - Computer Science",
+      "question": "In automata theory, a Deterministic Finite Automaton (DFA) cannot recognize which of the following languages?",
+      "options": [
+        "Strings ending in '01'",
+        "Strings with an even number of '1's",
+        "The language L = {a^n b^n | n >= 1}",
+        "All strings containing the substring 'abc'"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "The language L=\na \nn\n b \nn\n ∣n≥1 requires tracking arbitrary counts of a's and matching them to b's. A DFA has finite states and cannot count arbitrarily high, making this context-free language non-regular.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 76,
+      "section": "Part B - Computer Science",
+      "question": "According to the Chomsky hierarchy, regular languages are generated by which type of grammar?",
+      "options": [
+        "Type-0 (Unrestricted)",
+        "Type-1 (Context-Sensitive)",
+        "Type-2 (Context-Free)",
+        "Type-3 (Regular)"
+      ],
+      "answer": 3,
+      "correct_answer": "D",
+      "explanation": "Type-3 grammars in the Chomsky hierarchy represent regular grammars, which generate regular languages recognized by finite state automata.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 77,
+      "section": "Part B - Computer Science",
+      "question": "Which phase of a compiler converts an incoming source stream of characters into meaningful units called 'tokens'?",
+      "options": [
+        "Lexical Analysis",
+        "Syntax Analysis",
+        "Semantic Analysis",
+        "Code Generation"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The lexical analyzer (scanner) scans the source text and groups characters into lexical tokens (identifiers, keywords, operators).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 78,
+      "section": "Part B - Computer Science",
+      "question": "In compiler design, what is the primary role of a Symbol Table?",
+      "options": [
+        "Executing the output machine binary code directly",
+        "Storing information about program identifiers such as names, types, and scope",
+        "Buffering disk blocks for the linker",
+        "Performing register allocation during hardware reset"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The symbol table is a data structure used by compilers to store information about variables, functions, and other identifiers, including their type, scope, and memory offset.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 79,
+      "section": "Part B - Computer Science",
+      "question": "In computer graphics, the Cohen-Sutherland algorithm is primarily used for:",
+      "options": [
+        "2D Line clipping against a rectangular window",
+        "Rendering 3D shadows",
+        "Constructing Bezier curves",
+        "Polygon texture mapping"
+      ],
+      "answer": 0,
+      "correct_answer": "A",
+      "explanation": "The Cohen-Sutherland algorithm divides 2D space into 9 regions using 4-bit outcodes to quickly identify and clip line segments against a rectangular viewport.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 80,
+      "section": "Part B - Computer Science",
+      "question": "In spreadsheets (such as MS Excel), which mathematical function counts the number of cells within a range that meet a specific condition?",
+      "options": [
+        "COUNT",
+        "COUNTA",
+        "COUNTIF",
+        "SUMIF"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "The COUNTIF function applies a specified condition to a cell range and returns the count of cells that satisfy that criteria.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 81,
+      "section": "Part B - Computer Science",
+      "question": "In MS Word, which feature allows you to create multiple personalized letters or emails using a single template and a data source?",
+      "options": [
+        "AutoFormat",
+        "Mail Merge",
+        "Macro Recorder",
+        "Track Changes"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Mail Merge merges a master document with a structured recipient list (like an Excel sheet) to generate customized copies for multiple recipients.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 82,
+      "section": "Part B - Computer Science",
+      "question": "What is the primary role of the BIOS (Basic Input/Output System) during computer startup?",
+      "options": [
+        "Running antivirus diagnostics",
+        "Performing the Power-On Self-Test (POST) and loading the bootstrap loader into RAM",
+        "Compiling the operating system kernel into machine code",
+        "Configuring user-space display settings"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The BIOS is firmware that initializes hardware during startup, runs the POST diagnostic routine, and hands off execution to the operating system bootloader.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 83,
+      "section": "Part B - Computer Science",
+      "question": "Which of the following is considered primary storage in computer architecture?",
+      "options": [
+        "Magnetic Tape",
+        "Hard Disk Drive",
+        "Random Access Memory (RAM)",
+        "CD-ROM"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "RAM is primary storage because it is directly addressable by the CPU over the memory bus, unlike secondary storage devices (hard drives, tapes).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 84,
+      "section": "Part B - Computer Science",
+      "question": "How many bytes are in exactly one Megabyte (MB) using the standard binary prefix notation (1 MiB)?",
+      "options": [
+        "1,000,000 bytes",
+        "1,024 bytes",
+        "1,048,576 bytes",
+        "1,073,741,824 bytes"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "1 MiB=1024 KiB=1024×1024 bytes=1,048,576 bytes.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 85,
+      "section": "Part B - Computer Science",
+      "question": "Which of the following describes an optical storage medium?",
+      "options": [
+        "Solid State Drive (SSD)",
+        "DVD-RW",
+        "USB Flash Drive",
+        "Magnetic Core Memory"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "DVDs, CDs, and Blu-ray discs are optical storage media that use lasers to read and write digital data patterns.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 86,
+      "section": "Part B - Computer Science",
+      "question": "In a database, which command is used to add new rows of data into a table?",
+      "options": [
+        "UPDATE",
+        "INSERT INTO",
+        "ALTER TABLE",
+        "CREATE TABLE"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "The INSERT INTO SQL command is a DML statement used to insert new records into an existing table.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 87,
+      "section": "Part B - Computer Science",
+      "question": "Which SQL aggregate function returns the total number of non-null values in a specified column?",
+      "options": [
+        "SUM()",
+        "TOTAL()",
+        "COUNT()",
+        "AVG()"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "COUNT(column_name) returns the total number of non-NULL values present in that column across all matching rows.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 88,
+      "section": "Part B - Computer Science",
+      "question": "What is the primary function of the 'primary key' in a database table?",
+      "options": [
+        "To allow duplicate values across multiple rows",
+        "To uniquely identify each record in the table",
+        "To link to external websites automatically",
+        "To encrypt data stored in that column"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "A primary key contains unique, non-null values that uniquely distinguish every record in a relational database table.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 89,
+      "section": "Part B - Computer Science",
+      "question": "In operating systems, which state transition is triggered when a running process requests an I/O operation?",
+      "options": [
+        "Running to Ready",
+        "Running to Waiting (Blocked)",
+        "Waiting to Ready",
+        "Ready to Terminated"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "When a process initiates an I/O request, it cannot continue using the CPU until the I/O completes, so it transitions from Running to Waiting/Blocked.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 90,
+      "section": "Part B - Computer Science",
+      "question": "Which CPU scheduling algorithm gives the lowest average waiting time for a given set of stationary processes?",
+      "options": [
+        "First-Come, First-Served (FCFS)",
+        "Shortest Job First (SJF)",
+        "Round Robin (RR)",
+        "Longest Job First (LJF)"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Shortest Job First (SJF) is provably optimal in minimizing the average waiting time for a fixed collection of available processes.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 91,
+      "section": "Part B - Computer Science",
+      "question": "What happens when a process enters an infinite loop and does not release its allocated CPU resources in a preemptive operating system?",
+      "options": [
+        "The entire computer hardware shuts down immediately",
+        "The OS scheduler's timer interrupt forces a context switch to let other processes execute",
+        "All memory in the system is wiped",
+        "The hard drive partitions are unmounted"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "In a preemptive OS, periodic timer interrupts invoke the scheduler to preempt running processes whose time slice has expired, preventing one process from hanging the system.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 92,
+      "section": "Part B - Computer Science",
+      "question": "Which of the following is an example of an open-source operating system?",
+      "options": [
+        "Microsoft Windows 11",
+        "Apple macOS",
+        "Linux",
+        "MS-DOS"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "Linux is developed under an open-source model (primarily the GNU General Public License), making its source code free to inspect and modify.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 93,
+      "section": "Part B - Computer Science",
+      "question": "What is the worst-case time complexity of Binary Search on a sorted array of size n?",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n log n)"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Binary search halves the search space with each comparison, resulting in a worst-case time complexity of O(log n).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 94,
+      "section": "Part B - Computer Science",
+      "question": "Which sorting algorithm repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order?",
+      "options": [
+        "Quick Sort",
+        "Bubble Sort",
+        "Merge Sort",
+        "Heap Sort"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Bubble Sort compares adjacent elements and swaps them if they are out of order, repeating this process until the list is sorted.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 95,
+      "section": "Part B - Computer Science",
+      "question": "What is the primary protocol used to transfer web pages from a server to a web browser over the Internet?",
+      "options": [
+        "SMTP",
+        "HTTP",
+        "FTP",
+        "SNMP"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Hypertext Transfer Protocol (HTTP) is the foundational application layer protocol used to fetch and deliver web resources.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 96,
+      "section": "Part B - Computer Science",
+      "question": "What is the purpose of the Domain Name System (DNS)?",
+      "options": [
+        "Encrypting web browser cookies",
+        "Translating human-friendly domain names (e.g., example.com) into IP addresses",
+        "Managing physical network cable speeds",
+        "Assigning MAC addresses to network cards"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "DNS acts as the directory of the internet, mapping readable domain names to the numerical IP addresses used by networking equipment.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 97,
+      "section": "Part B - Computer Science",
+      "question": "Which logic gate outputs a 1 if and only if its two inputs are different?",
+      "options": [
+        "AND gate",
+        "OR gate",
+        "XOR gate",
+        "NAND gate"
+      ],
+      "answer": 2,
+      "correct_answer": "C",
+      "explanation": "An Exclusive-OR (XOR) gate outputs 1 when its inputs are distinct (one is 0 and the other is 1).",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 98,
+      "section": "Part B - Computer Science",
+      "question": "What is the value of the binary number (1010)₂ converted to decimal?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "(1010) \n2\n​\n =(1×2 \n3\n )+(0×2 \n2\n )+(1×2 \n1\n )+(0×2 \n0\n )=8+0+2+0=10.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 99,
+      "section": "Part B - Computer Science",
+      "question": "Which programming language paradigm is Java primarily based on?",
+      "options": [
+        "Procedural programming",
+        "Object-Oriented Programming (OOP)",
+        "Logic programming",
+        "Assembly programming"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Java is an object-oriented language that organizes software design around data objects rather than functions and logic.",
+      "topic": "Computer Science"
+    },
+    {
+      "id": 100,
+      "section": "Part B - Computer Science",
+      "question": "In software testing, what is the process of finding and fixing errors in code called?",
+      "options": [
+        "Compiling",
+        "Debugging",
+        "Deploying",
+        "Refactoring"
+      ],
+      "answer": 1,
+      "correct_answer": "B",
+      "explanation": "Debugging is the routine process of locating, analyzing, and removing bugs or defects in software code.",
+      "topic": "Computer Science"
+    }
+  ]
+}
