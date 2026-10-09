@@ -64,6 +64,7 @@ import SeoPreviewHub from './components/SeoPreviewHub';
 import DailyStreakTracker from './components/DailyStreakTracker';
 import CustomMockModal from './components/CustomMockModal';
 import { PartAMockSpecialBanner } from './components/PartAMockSpecialBanner';
+import ExamCountdownWidget from './components/ExamCountdownWidget';
 import { Glass3dIcon } from './components/Glass3dIcons';
 import MobileAppInstallModal from './components/MobileAppInstallModal';
 import MobileAppGate from './components/MobileAppGate';
@@ -2535,6 +2536,14 @@ export default function App() {
           </div>
 
           <div className="flex items-center gap-2 md:gap-3">
+            {/* Target Exam Date Counter Pill (27-11-2026) */}
+            <div 
+              onClick={() => setActiveView('dashboard')}
+              className="cursor-pointer"
+            >
+              <ExamCountdownWidget variant="pill" />
+            </div>
+
             {/* Mock History Quick Nav Button */}
             <button
               onClick={() => navigateToView('mock-history')}
@@ -2765,6 +2774,12 @@ export default function App() {
         {activeView === 'dashboard' && (
           <div className="w-full max-w-6xl mx-auto px-3 sm:px-4 lg:px-6 py-4 md:py-8 space-y-4 md:space-y-6 animate-fadeIn">
             
+            {/* Target Exam Date Counter - 27-11-2026 */}
+            <ExamCountdownWidget
+              variant="card"
+              onStartPractice={() => navigateToView('cs-full-mocks-view')}
+            />
+
             {/* Row 1: Candidate Welcome & Daily Practice Goal (2 Columns on Web/Tablet - Not in one column) */}
             <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-5 items-stretch">
               {/* Column 1: Candidate Welcome & Pass Status Card */}

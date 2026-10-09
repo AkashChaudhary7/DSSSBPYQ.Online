@@ -20,6 +20,7 @@ import {
 import { Attempt, Bookmark, Question } from '../types';
 import { isPassActive, getPassData, getPassValidityInfo, PassValidityInfo, subscribeToPass } from '../lib/passSystem';
 import { downloadComprehensiveDiagnosticPdf } from '../lib/pdfReportGenerator';
+import ExamCountdownWidget from './ExamCountdownWidget';
 
 interface CandidateProfileViewProps {
   profile: UserProfile;
@@ -251,6 +252,9 @@ export default function CandidateProfileView({
 
             {/* Quick Actions in Header */}
             <div className="flex items-center gap-2 w-full sm:w-auto justify-end flex-wrap">
+              {/* Exam Date Counter Pill (27-11-2026) */}
+              <ExamCountdownWidget variant="pill" />
+
               {onShareAchievement && (
                 <button
                   onClick={onShareAchievement}

@@ -19,6 +19,7 @@ import {
 } from '../lib/userProfile';
 import { Attempt, Bookmark, Question } from '../types';
 import { isPassActive, getPassValidityInfo, PassValidityInfo, subscribeToPass } from '../lib/passSystem';
+import ExamCountdownWidget from './ExamCountdownWidget';
 
 interface UserProfileModalProps {
   isOpen: boolean;
@@ -205,6 +206,7 @@ export default function UserProfileModal({
                     <span>{passValidity?.isLifetime ? 'Pass: ∞' : `Pass: ${passValidity?.daysLeft ?? 0} Days Left`}</span>
                   </span>
                 )}
+                <ExamCountdownWidget variant="pill" />
               </div>
               <p className="text-xs text-slate-300/80 font-medium">{profile.targetExam}</p>
             </div>
