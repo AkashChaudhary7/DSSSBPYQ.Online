@@ -2536,14 +2536,6 @@ export default function App() {
           </div>
 
           <div className="flex items-center gap-2 md:gap-3">
-            {/* Target Exam Date Counter Pill (27-11-2026) */}
-            <div 
-              onClick={() => setActiveView('dashboard')}
-              className="cursor-pointer"
-            >
-              <ExamCountdownWidget variant="pill" />
-            </div>
-
             {/* Mock History Quick Nav Button */}
             <button
               onClick={() => navigateToView('mock-history')}
